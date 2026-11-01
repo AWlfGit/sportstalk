@@ -1,0 +1,1120 @@
+[
+  {
+    "team": "Arizona Diamondbacks",
+    "espnId": "29",
+    "league": "baseball/mlb",
+    "aliases": ["arizona", "diamondbacks", "d-backs", "dbacks", "snakes", "ari"],
+    "nickname": "the D-backs",
+    "fans": "",
+    "ground": "Chase Field",
+    "rivals": [
+      {"team": "Los Angeles Dodgers", "name": "the Dodgers", "derby": ""},
+      {"team": "San Francisco Giants", "name": "the Giants", "derby": ""}
+    ],
+    "legends": ["Randy Johnson", "Luis Gonzalez", "Brandon Webb"],
+    "memory": "2001: beat the Yankees in Game 7 of the World Series, in only the club's fourth season",
+    "lingo": [
+      {"term": "D-backs", "say": "DEE-backs", "means": "The everyday short name for the Diamondbacks."},
+      {"term": "the Snakes", "say": "the SNAYKS", "means": "Fan nickname for the team, from the rattlesnake logo."},
+      {"term": "Serpientes", "say": "ser-pee-EN-tess", "means": "Spanish for snakes. It is written across the team's City Connect jerseys."},
+      {"term": "the BOB", "say": "the BOB", "means": "Old fans' name for the ballpark, from its first name, Bank One Ballpark."}
+    ],
+    "lines": [
+      {"t": "Somebody's getting a home run ball in the pool tonight.", "m": "Chase Field has a swimming pool just past the right-centre field fence."},
+      {"t": "Gonzo's bloop is still the biggest hit in Arizona history.", "m": "Luis Gonzalez's soft single off Mariano Rivera won Game 7 of the 2001 World Series."},
+      {"t": "Roof's closed, it's 110 outside.", "m": "The retractable roof stays shut on hot summer days in Phoenix."},
+      {"t": "The Big Unit was unhittable here.", "m": "Randy Johnson won four Cy Young Awards in a row with Arizona, 1999 to 2002."},
+      {"t": "Nothing beats beating the Dodgers.", "m": "LA is the division rival fans most enjoy beating."}
+    ],
+    "avoid": [
+      {"say": "the Phoenix Diamondbacks", "instead": "Arizona, or the D-backs", "why": "The team is named for the state, not the city."},
+      {"say": "the D-backs have never won it all", "instead": "they won it in 2001", "why": "Arizona beat the Yankees in the 2001 World Series."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Arizona_Diamondbacks",
+      "https://en.wikipedia.org/wiki/Chase_Field",
+      "https://www.mlb.com/news/arizona-diamondbacks-unveil-new-nike-city-connect-serpientes-uniforms"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Athletics",
+    "espnId": "11",
+    "league": "baseball/mlb",
+    "aliases": ["athletics", "a's", "oakland a's", "oakland athletics", "sacramento", "las vegas athletics"],
+    "nickname": "the A's",
+    "fans": "",
+    "ground": "Sutter Health Park (West Sacramento; Las Vegas from 2028)",
+    "rivals": [
+      {"team": "San Francisco Giants", "name": "the Giants", "derby": ""},
+      {"team": "Los Angeles Angels", "name": "the Angels", "derby": ""}
+    ],
+    "legends": ["Rickey Henderson", "Reggie Jackson", "Dennis Eckersley", "Catfish Hunter"],
+    "memory": "1972-74: three World Series titles in a row for the 'Swingin' A's'",
+    "lingo": [
+      {"term": "A's", "say": "AYZ", "means": "The usual name for the Athletics."},
+      {"term": "the Swingin' A's", "say": "the SWING-in AYZ", "means": "The early-1970s champions, famous for their moustaches and loud uniforms."},
+      {"term": "Moneyball", "say": "MUN-ee-ball", "means": "The data-driven approach of the early-2000s A's, later a book and a film."},
+      {"term": "Stomper", "say": "STOMP-er", "means": "The elephant mascot. The elephant logo is over a century old."}
+    ],
+    "lines": [
+      {"t": "Let's go, A's!", "m": "The standard chant at games."},
+      {"t": "Three straight titles in the '70s. Not many teams can say that.", "m": "The A's won the World Series in 1972, 1973 and 1974."},
+      {"t": "Rickey was the greatest leadoff man ever.", "m": "Rickey Henderson holds the career records for stolen bases and runs scored."},
+      {"t": "The elephant's been on the sleeve for over a hundred years.", "m": "A rival manager mocked the team as a 'white elephant' in 1902, so the club adopted it."},
+      {"t": "Sacramento for now, Vegas in 2028.", "m": "The A's play in West Sacramento while their Las Vegas Strip ballpark is built."}
+    ],
+    "avoid": [
+      {"say": "the Oakland A's", "instead": "the A's, or the Athletics", "why": "The team left Oakland after 2024 and dropped the city from its name."},
+      {"say": "a game at the Coliseum", "instead": "a game at Sutter Health Park", "why": "They now play in West Sacramento, sharing the minor-league park."},
+      {"say": "they play in Vegas now", "instead": "they move to Vegas in 2028", "why": "Only six 2026 home games were in Las Vegas; the new stadium is still being built."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Athletics_(baseball)",
+      "https://www.cbsnews.com/sacramento/news/athletics-2026-schedule-las-vegas-west-sacramento",
+      "https://www.foxsports.com/articles/mlb/as-foundation-work-complete-on-las-vegas-stadium-and-opening-still-targeted-for-2028"
+    ],
+    "unsure": ["rivals: the Giants games were called the Bay Bridge Series while the A's were in Oakland; no current name confirmed, so derby left blank"]
+  },
+  {
+    "team": "Atlanta Braves",
+    "espnId": "15",
+    "league": "baseball/mlb",
+    "aliases": ["atlanta", "braves", "atl", "bravos"],
+    "nickname": "the Braves",
+    "fans": "Braves Country",
+    "ground": "Truist Park",
+    "rivals": [
+      {"team": "New York Mets", "name": "the Mets", "derby": ""},
+      {"team": "Philadelphia Phillies", "name": "the Phillies", "derby": ""}
+    ],
+    "legends": ["Hank Aaron", "Chipper Jones", "Greg Maddux", "John Smoltz"],
+    "memory": "1995: World Series title, in the middle of 14 straight division titles (1991-2005)",
+    "lingo": [
+      {"term": "the Battery", "say": "the BAT-er-ee", "means": "The bars-and-restaurants district built around Truist Park."},
+      {"term": "Hammerin' Hank", "say": "HAM-er-in HANK", "means": "Hank Aaron, whose 715th home run in 1974 broke Babe Ruth's record."},
+      {"term": "Beat the Freeze", "say": "BEET the FREEZ", "means": "A mid-game race where a fan gets a head start on a sprinter in a blue bodysuit."},
+      {"term": "Braves Country", "say": "BRAYVZ KUN-tree", "means": "The fan base, which stretches across the South."}
+    ],
+    "lines": [
+      {"t": "Maddux, Glavine and Smoltz: best rotation ever.", "m": "The 1990s pitching trio all made the Hall of Fame."},
+      {"t": "Fourteen straight division titles. Look it up.", "m": "Atlanta won its division every full season from 1991 to 2005."},
+      {"t": "Let's hit the Battery before first pitch.", "m": "A typical pre-game plan; the district sits right next to the park."},
+      {"t": "Nothing like beating the Mets.", "m": "The Mets are the old NL East rival. The Phillies rivalry is just as hot now."},
+      {"t": "Hank did 715 right here in Atlanta.", "m": "Aaron broke Ruth's home run record at the Braves' old Atlanta stadium in 1974."}
+    ],
+    "avoid": [
+      {"say": "a game at Turner Field", "instead": "a game at Truist Park", "why": "The Braves moved to Cobb County in 2017."},
+      {"say": "SunTrust Park", "instead": "Truist Park", "why": "The park was renamed in 2020 after a bank merger."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Atlanta_Braves",
+      "https://en.wikipedia.org/wiki/Truist_Park"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Baltimore Orioles",
+    "espnId": "1",
+    "league": "baseball/mlb",
+    "aliases": ["baltimore", "orioles", "o's", "bal"],
+    "nickname": "the O's",
+    "fans": "Birdland",
+    "ground": "Camden Yards",
+    "rivals": [
+      {"team": "New York Yankees", "name": "the Yankees", "derby": ""},
+      {"team": "Washington Nationals", "name": "the Nats", "derby": "the Beltway Series"},
+      {"team": "Boston Red Sox", "name": "the Red Sox", "derby": ""}
+    ],
+    "legends": ["Cal Ripken Jr.", "Brooks Robinson", "Jim Palmer", "Eddie Murray"],
+    "memory": "1995: Cal Ripken Jr. plays his 2,131st straight game, passing Lou Gehrig's record",
+    "lingo": [
+      {"term": "O's", "say": "OHZ", "means": "The usual short name for the Orioles."},
+      {"term": "the Birds", "say": "the BURDZ", "means": "Another common nickname for the team."},
+      {"term": "Birdland", "say": "BURD-land", "means": "What Orioles fans call their community."},
+      {"term": "the Yard", "say": "the YARD", "means": "Short for Camden Yards, the ballpark."}
+    ],
+    "lines": [
+      {"t": "O!", "m": "The crowd shouts it at the 'Oh' near the end of the national anthem, for the O's."},
+      {"t": "Stand up, it's Country Boy time.", "m": "John Denver's 'Thank God I'm a Country Boy' plays at the seventh-inning stretch."},
+      {"t": "Grab a sandwich at Boog's on Eutaw Street.", "m": "Boog Powell's barbecue stand on the street inside the park."},
+      {"t": "Ripken never took a day off.", "m": "Cal Ripken Jr. played 2,632 games in a row."},
+      {"t": "Orioles Magic!", "m": "A slogan from the late-1970s comeback wins, still used when things go right."}
+    ],
+    "avoid": [
+      {"say": "staying quiet at the 'Oh' in the anthem", "instead": "shout 'O!' with everyone", "why": "Every Orioles crowd does it; silence marks a visitor."},
+      {"say": "a game at Memorial Stadium", "instead": "a game at Camden Yards", "why": "The O's left Memorial Stadium after 1991."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Baltimore_Orioles",
+      "https://en.wikipedia.org/wiki/Seventh-inning_stretch"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Boston Red Sox",
+    "espnId": "2",
+    "league": "baseball/mlb",
+    "aliases": ["boston", "red sox", "bosox", "bos", "sawx"],
+    "nickname": "the Sox",
+    "fans": "Red Sox Nation",
+    "ground": "Fenway",
+    "rivals": [
+      {"team": "New York Yankees", "name": "the Yankees", "derby": ""}
+    ],
+    "legends": ["Ted Williams", "Carl Yastrzemski", "David Ortiz", "Pedro Martinez"],
+    "memory": "2004: came back from 0-3 down to beat the Yankees, then won the first title since 1918",
+    "lingo": [
+      {"term": "the Monster", "say": "the MON-ster", "means": "The Green Monster, Fenway's huge left-field wall."},
+      {"term": "Sawx", "say": "SAWKS", "means": "'Sox' in a Boston accent."},
+      {"term": "Pesky's Pole", "say": "PES-keez POHL", "means": "The right-field foul pole, very close to home plate."},
+      {"term": "Red Sox Nation", "say": "RED SOX NAY-shun", "means": "The fan base, near and far."}
+    ],
+    "lines": [
+      {"t": "Sweet Caroline in the eighth. You have to sing.", "m": "Neil Diamond's song plays in the middle of the eighth inning at Fenway."},
+      {"t": "Off the Monster for a double.", "m": "Balls that bang off the tall left-field wall often turn into doubles."},
+      {"t": "2004 fixed everything.", "m": "The comeback against the Yankees and the title that ended an 86-year wait."},
+      {"t": "Teddy Ballgame was the greatest hitter who ever lived.", "m": "Ted Williams, the last player to hit .400, in 1941."},
+      {"t": "Fenway's been here since 1912.", "m": "It is the oldest ballpark in the majors."}
+    ],
+    "avoid": [
+      {"say": "the Curse of the Bambino", "instead": "talk about 2004", "why": "The curse talk ended in 2004, and Boston has won three more titles since."},
+      {"say": "Fenway Stadium", "instead": "Fenway Park, or just Fenway", "why": "It is always a park, never a stadium."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "https://en.wikipedia.org/wiki/Fenway_Park"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Chicago Cubs",
+    "espnId": "16",
+    "league": "baseball/mlb",
+    "aliases": ["cubs", "cubbies", "chc", "north siders", "chicago cubs"],
+    "nickname": "the Cubbies",
+    "fans": "",
+    "ground": "Wrigley",
+    "rivals": [
+      {"team": "St. Louis Cardinals", "name": "the Cardinals", "derby": ""},
+      {"team": "Chicago White Sox", "name": "the Sox", "derby": "the Crosstown Classic"},
+      {"team": "Milwaukee Brewers", "name": "the Brewers", "derby": ""}
+    ],
+    "legends": ["Ernie Banks", "Ryne Sandberg", "Ron Santo", "Fergie Jenkins"],
+    "memory": "2016: won Game 7 of the World Series in Cleveland, ending a 108-year wait",
+    "lingo": [
+      {"term": "the Friendly Confines", "say": "the FREND-lee KON-fynz", "means": "Wrigley Field's old nickname."},
+      {"term": "Fly the W", "say": "FLY the DUB-ul-yoo", "means": "A white flag with a blue W goes up after every win."},
+      {"term": "Wrigleyville", "say": "RIG-lee-vil", "means": "The bar-filled neighbourhood around the park."},
+      {"term": "Bleacher Bums", "say": "BLEE-cher BUMZ", "means": "The loyal crowd in the outfield bleachers."}
+    ],
+    "lines": [
+      {"t": "Fly the W!", "m": "Said after a win, when the W flag goes up."},
+      {"t": "Stay for Go Cubs Go.", "m": "Steve Goodman's song plays after every home win and the crowd sings."},
+      {"t": "Throw it back!", "m": "What the bleachers yell when a fan catches the other team's home run ball."},
+      {"t": "Let's play two!", "m": "Ernie Banks' famous line for loving the game. Used on any sunny day at Wrigley."}
+    ],
+    "avoid": [
+      {"say": "Wrigley's on the South Side", "instead": "Wrigley's on the North Side", "why": "The South Side belongs to the White Sox."},
+      {"say": "the Cubs haven't won since 1908", "instead": "the Cubs won it in 2016", "why": "The long drought ended in 2016."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chicago_Cubs",
+      "https://en.wikipedia.org/wiki/Wrigley_Field"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Chicago White Sox",
+    "espnId": "4",
+    "league": "baseball/mlb",
+    "aliases": ["white sox", "chisox", "cws", "chw", "south siders", "pale hose"],
+    "nickname": "the Sox",
+    "fans": "",
+    "ground": "Rate Field (Sox Park)",
+    "rivals": [
+      {"team": "Chicago Cubs", "name": "the Cubs", "derby": "the Crosstown Classic"},
+      {"team": "Minnesota Twins", "name": "the Twins", "derby": ""},
+      {"team": "Cleveland Guardians", "name": "the Guardians", "derby": ""}
+    ],
+    "legends": ["Frank Thomas", "Paul Konerko", "Harold Baines", "Mark Buehrle"],
+    "memory": "2005: swept the Astros to win the first World Series since 1917",
+    "lingo": [
+      {"term": "South Siders", "say": "SOUTH SY-derz", "means": "The team and its fans, from Chicago's South Side."},
+      {"term": "Sox Park", "say": "SOX PARK", "means": "What many fans call the ballpark, whatever its sponsor name."},
+      {"term": "the Big Hurt", "say": "the BIG HURT", "means": "Frank Thomas, the franchise's greatest hitter."},
+      {"term": "Pale Hose", "say": "PAYL HOHZ", "means": "An old newspaper nickname for the team."}
+    ],
+    "lines": [
+      {"t": "Even the Pope's a Sox fan.", "m": "Pope Leo XIV grew up a South Side fan and was at Game 1 of the 2005 World Series."},
+      {"t": "Cue Na Na Hey Hey.", "m": "The organ plays it when the other team's pitcher gets pulled, a tradition from old Comiskey Park."},
+      {"t": "Make the scoreboard explode!", "m": "The scoreboard sets off fireworks after Sox home runs."},
+      {"t": "Eleven and one in the 2005 playoffs.", "m": "The 2005 team lost only one postseason game."},
+      {"t": "Good guys wear black.", "m": "A long-running team slogan; the Sox wear black."}
+    ],
+    "avoid": [
+      {"say": "Guaranteed Rate Field", "instead": "Rate Field, or Sox Park", "why": "The name was shortened in 2025."},
+      {"say": "so you root for both Chicago teams?", "instead": "Sox or Cubs?", "why": "In Chicago you pick a side; few fans back both."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chicago_White_Sox",
+      "https://www.foxsports.com/articles/mlb/white-sox-shorten-ballparks-name-to-rate-field",
+      "https://www.mlb.com/news/white-sox-honor-pope-leo-xiv-with-graphic-installation-at-rate-field"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Cincinnati Reds",
+    "espnId": "17",
+    "league": "baseball/mlb",
+    "aliases": ["cincinnati", "reds", "cin", "redlegs", "cincy"],
+    "nickname": "the Redlegs",
+    "fans": "",
+    "ground": "Great American Ball Park (GABP)",
+    "rivals": [
+      {"team": "St. Louis Cardinals", "name": "the Cardinals", "derby": ""},
+      {"team": "Pittsburgh Pirates", "name": "the Pirates", "derby": ""},
+      {"team": "Cleveland Guardians", "name": "the Guardians", "derby": "the Ohio Cup"}
+    ],
+    "legends": ["Johnny Bench", "Joe Morgan", "Barry Larkin", "Tony Perez"],
+    "memory": "1975-76: the Big Red Machine wins back-to-back World Series",
+    "lingo": [
+      {"term": "Big Red Machine", "say": "BIG RED muh-SHEEN", "means": "The powerhouse Reds teams of the 1970s."},
+      {"term": "the Great Eight", "say": "the GRAYT AYT", "means": "The Big Red Machine's famous starting lineup."},
+      {"term": "GABP", "say": "jee-ay-bee-PEE", "means": "Short for Great American Ball Park."},
+      {"term": "Nasty Boys", "say": "NAS-tee BOYZ", "means": "The hard-throwing bullpen of the 1990 champions."}
+    ],
+    "lines": [
+      {"t": "Opening Day is a holiday in this town.", "m": "The Findlay Market Parade runs before the first home game, and plenty of people skip work."},
+      {"t": "We were the first pro team, 1869.", "m": "The Cincinnati Red Stockings were baseball's first all-professional club."},
+      {"t": "Wire to wire in 1990.", "m": "The 1990 Reds led all season, then swept Oakland in the World Series."},
+      {"t": "Bench was the best catcher ever.", "m": "A common Cincinnati claim about Johnny Bench."}
+    ],
+    "avoid": [
+      {"say": "Riverfront Stadium", "instead": "GABP", "why": "The Reds moved to Great American Ball Park in 2003."},
+      {"say": "the Red Sox", "instead": "the Reds", "why": "A different team in a different league."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cincinnati_Reds",
+      "https://en.wikipedia.org/wiki/Big_Red_Machine"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Cleveland Guardians",
+    "espnId": "5",
+    "league": "baseball/mlb",
+    "aliases": ["cleveland", "guardians", "guards", "cle"],
+    "nickname": "the Guards",
+    "fans": "",
+    "ground": "Progressive Field",
+    "rivals": [
+      {"team": "Detroit Tigers", "name": "the Tigers", "derby": ""},
+      {"team": "Chicago White Sox", "name": "the White Sox", "derby": ""},
+      {"team": "Cincinnati Reds", "name": "the Reds", "derby": "the Ohio Cup"}
+    ],
+    "legends": ["Bob Feller", "Larry Doby", "Jim Thome", "Kenny Lofton"],
+    "memory": "1948: the last World Series title, with Bob Feller and Larry Doby",
+    "lingo": [
+      {"term": "Guards", "say": "GARDZ", "means": "Short for the Guardians."},
+      {"term": "Guardians of Traffic", "say": "GAR-dee-unz of TRAF-ik", "means": "The Art Deco statues on the bridge near the park that gave the team its name."},
+      {"term": "the Jake", "say": "the JAYK", "means": "Old fans' name for the park, from when it was Jacobs Field."},
+      {"term": "Believeland", "say": "bee-LEEV-land", "means": "Cleveland's hopeful sports nickname for itself."}
+    ],
+    "lines": [
+      {"t": "Go Guards!", "m": "The standard cheer."},
+      {"t": "The name comes from the bridge statues.", "m": "The Guardians of Traffic stand on the Hope Memorial Bridge, near the ballpark."},
+      {"t": "The '90s teams sold out 455 straight games.", "m": "The Jacobs Field sellout streak ran from 1995 to 2001."},
+      {"t": "One of these years we end the drought.", "m": "Cleveland has the longest current wait for a title in MLB, back to 1948."}
+    ],
+    "avoid": [
+      {"say": "the Indians", "instead": "the Guardians, or the Guards", "why": "The team changed its name after the 2021 season."},
+      {"say": "the Tribe", "instead": "the Guards", "why": "The old nickname went with the old name."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cleveland_Guardians",
+      "https://en.wikipedia.org/wiki/Progressive_Field"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Colorado Rockies",
+    "espnId": "27",
+    "league": "baseball/mlb",
+    "aliases": ["colorado", "rockies", "rox", "col"],
+    "nickname": "the Rox",
+    "fans": "",
+    "ground": "Coors Field",
+    "rivals": [
+      {"team": "Los Angeles Dodgers", "name": "the Dodgers", "derby": ""},
+      {"team": "San Francisco Giants", "name": "the Giants", "derby": ""},
+      {"team": "Arizona Diamondbacks", "name": "the D-backs", "derby": ""}
+    ],
+    "legends": ["Larry Walker", "Todd Helton", "Andres Galarraga", "Troy Tulowitzki"],
+    "memory": "2007: 'Rocktober', winning 21 of 22 games to reach the World Series",
+    "lingo": [
+      {"term": "Rocktober", "say": "rok-TOH-ber", "means": "The 2007 late-season surge to the World Series."},
+      {"term": "Blake Street Bombers", "say": "BLAYK street BOM-erz", "means": "The 1990s Rockies sluggers, named for the street by the park."},
+      {"term": "Purple Row", "say": "PUR-pul ROH", "means": "A row of purple seats in the upper deck, exactly a mile above sea level."},
+      {"term": "the Rooftop", "say": "the ROOF-top", "means": "The open-air party deck in the upper outfield."}
+    ],
+    "lines": [
+      {"t": "Sit in the purple row and you're a mile high.", "m": "The purple seats mark 5,280 feet."},
+      {"t": "No lead is safe at Coors.", "m": "The thin air helps the ball carry, so scores run high."},
+      {"t": "The humidor keeps it honest.", "m": "Balls are stored in a humidity room so they don't fly quite so far."},
+      {"t": "Remember Rocktober.", "m": "Fans' shorthand for the magical 2007 run."},
+      {"t": "Helton's 17 is up on the wall.", "m": "Todd Helton's number is retired, and he is in the Hall of Fame."}
+    ],
+    "avoid": [
+      {"say": "a game at Mile High Stadium", "instead": "a game at Coors Field", "why": "The Rockies only played there in their first two seasons."},
+      {"say": "the Denver Rockies", "instead": "the Rockies, or Colorado", "why": "The team is named for the state."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Colorado_Rockies",
+      "https://en.wikipedia.org/wiki/Coors_Field"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Detroit Tigers",
+    "espnId": "6",
+    "league": "baseball/mlb",
+    "aliases": ["detroit", "tigers", "det", "tigs"],
+    "nickname": "the Tigers",
+    "fans": "",
+    "ground": "Comerica Park (Fifth Third Park from 2027)",
+    "rivals": [
+      {"team": "Cleveland Guardians", "name": "the Guardians", "derby": ""},
+      {"team": "Chicago White Sox", "name": "the White Sox", "derby": ""},
+      {"team": "Minnesota Twins", "name": "the Twins", "derby": ""}
+    ],
+    "legends": ["Al Kaline", "Alan Trammell", "Lou Whitaker", "Miguel Cabrera"],
+    "memory": "1984: started 35-5, led all season and won the World Series",
+    "lingo": [
+      {"term": "the Old English D", "say": "the OHLD ING-lish DEE", "means": "The team's classic gothic D logo."},
+      {"term": "the Corner", "say": "the KOR-ner", "means": "Michigan and Trumbull, where old Tiger Stadium stood."},
+      {"term": "Bless You Boys", "say": "BLESS yoo BOYZ", "means": "The rallying phrase of the 1984 champions."},
+      {"term": "Mr. Tiger", "say": "MIS-ter TY-ger", "means": "Al Kaline, who spent his whole career in Detroit."}
+    ],
+    "lines": [
+      {"t": "Bless you boys!", "m": "The 1984 cry, still used when the team gets hot."},
+      {"t": "Tram and Lou, best double-play pair ever.", "m": "Trammell and Whitaker played 19 seasons side by side."},
+      {"t": "Kaline was Mr. Tiger.", "m": "Al Kaline played all 22 of his seasons in Detroit."},
+      {"t": "I still miss the Corner.", "m": "Nostalgia for Tiger Stadium, which the team left after 1999."}
+    ],
+    "avoid": [
+      {"say": "a game at Tiger Stadium", "instead": "a game at Comerica, or Fifth Third Park from 2027", "why": "Tiger Stadium closed after 1999."},
+      {"say": "the Tigers have never won it all", "instead": "the Tigers won in 1984 and 1968", "why": "Detroit has four World Series titles."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Detroit_Tigers",
+      "https://www.mlb.com/milb/news/tigers-ballpark-name-changed-to-fifth-third-park",
+      "https://heavy.com/sports/mlb/detroit-tigers/detroit-tigers-comerica-park-name-change/"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Houston Astros",
+    "espnId": "18",
+    "league": "baseball/mlb",
+    "aliases": ["houston", "astros", "stros", "hou"],
+    "nickname": "the 'Stros",
+    "fans": "",
+    "ground": "Daikin Park (formerly Minute Maid Park)",
+    "rivals": [
+      {"team": "Texas Rangers", "name": "the Rangers", "derby": "the Lone Star Series"}
+    ],
+    "legends": ["Craig Biggio", "Jeff Bagwell", "Nolan Ryan", "Lance Berkman"],
+    "memory": "2022: beat the Phillies for the club's second World Series title",
+    "lingo": [
+      {"term": "'Stros", "say": "STROHZ", "means": "Short for the Astros."},
+      {"term": "Crawford Boxes", "say": "KRAW-ferd BOK-sez", "means": "The seats above the short left-field wall."},
+      {"term": "Killer B's", "say": "KIL-er BEEZ", "means": "Biggio, Bagwell, Berkman and other B-named stars of the 1990s and 2000s."},
+      {"term": "the Juice Box", "say": "the JOOS boks", "means": "Fans' old name for the park when Minute Maid sponsored it."}
+    ],
+    "lines": [
+      {"t": "Clap along to Deep in the Heart of Texas.", "m": "The song plays at the seventh-inning stretch."},
+      {"t": "Watch the train!", "m": "A full-size train rolls along the left-field wall after Astros home runs."},
+      {"t": "That's in the Crawford Boxes.", "m": "Left field is short, so routine fly balls can sneak over."},
+      {"t": "Biggio and Bagwell are both in Cooperstown.", "m": "Two Killer B's in the Hall of Fame."},
+      {"t": "Win the Silver Boot.", "m": "The trophy for winning the season series against Texas."}
+    ],
+    "avoid": [
+      {"say": "Minute Maid Park", "instead": "Daikin Park", "why": "The park was renamed before the 2025 season."},
+      {"say": "the Astros are in the National League", "instead": "the AL West", "why": "Houston moved to the American League in 2013."},
+      {"say": "bringing up the trash cans", "instead": "talk about the 2022 title", "why": "The 2017 sign-stealing scandal is rivals' favourite jab and a sore spot."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Houston_Astros",
+      "https://www.foxsports.com/articles/mlb/astros-ballpark-to-be-renamed-daikin-park-from-minute-maid-park-on-jan-1",
+      "https://en.wikipedia.org/wiki/Seventh-inning_stretch"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Kansas City Royals",
+    "espnId": "7",
+    "league": "baseball/mlb",
+    "aliases": ["kansas city", "royals", "kc", "kc royals"],
+    "nickname": "the Royals",
+    "fans": "",
+    "ground": "the K (Kauffman Stadium)",
+    "rivals": [
+      {"team": "St. Louis Cardinals", "name": "the Cardinals", "derby": "the I-70 Series"},
+      {"team": "New York Yankees", "name": "the Yankees", "derby": ""}
+    ],
+    "legends": ["George Brett", "Frank White", "Bret Saberhagen", "Dan Quisenberry"],
+    "memory": "2015: World Series champions, a year after losing Game 7 in 2014",
+    "lingo": [
+      {"term": "the K", "say": "the KAY", "means": "Kauffman Stadium."},
+      {"term": "the fountains", "say": "the FOWN-tinz", "means": "The big water display beyond the outfield, the park's landmark."},
+      {"term": "Keep the line moving", "say": "KEEP the LYNE MOO-ving", "means": "The 2014-15 motto: string hits together, don't wait for homers."},
+      {"term": "the Pine Tar Game", "say": "the PYNE tar GAYM", "means": "1983: a Brett homer taken away over pine tar on his bat, then given back."}
+    ],
+    "lines": [
+      {"t": "Keep the line moving.", "m": "Said when the hits start piling up."},
+      {"t": "Meet me by the fountains.", "m": "The classic meeting spot at the K."},
+      {"t": "Brett nearly hit .400.", "m": "George Brett batted .390 in 1980."},
+      {"t": "We beat the Cardinals in '85.", "m": "The 1985 I-70 World Series brought the Royals' first title."},
+      {"t": "Barbecue in the lot before first pitch.", "m": "Tailgating with barbecue is part of a Royals game day."}
+    ],
+    "avoid": [
+      {"say": "Kansas City, Kansas", "instead": "Kansas City, Missouri", "why": "The K is on the Missouri side."},
+      {"say": "the Royals used to be the A's", "instead": "the Royals started in 1969", "why": "The A's played in Kansas City until moving to Oakland in 1968; the Royals are a separate expansion team."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kansas_City_Royals",
+      "https://en.wikipedia.org/wiki/Kauffman_Stadium"
+    ],
+    "unsure": ["lines: the 'Friends in Low Places' sing-along is reported by older sources only; left out"]
+  },
+  {
+    "team": "Los Angeles Angels",
+    "espnId": "3",
+    "league": "baseball/mlb",
+    "aliases": ["angels", "halos", "anaheim", "laa", "anaheim angels"],
+    "nickname": "the Halos",
+    "fans": "",
+    "ground": "the Big A (Angel Stadium)",
+    "rivals": [
+      {"team": "Los Angeles Dodgers", "name": "the Dodgers", "derby": "the Freeway Series"}
+    ],
+    "legends": ["Nolan Ryan", "Rod Carew", "Tim Salmon", "Vladimir Guerrero"],
+    "memory": "2002: the Rally Monkey season and the franchise's World Series title",
+    "lingo": [
+      {"term": "Halos", "say": "HAY-lohz", "means": "Nickname for the Angels."},
+      {"term": "the Big A", "say": "the BIG AY", "means": "The giant A sign with a halo by the stadium, and the stadium itself."},
+      {"term": "Rally Monkey", "say": "RAL-ee MUN-kee", "means": "The monkey shown on the scoreboard when the Angels need a comeback."},
+      {"term": "light the halo", "say": "LYTE the HAY-loh", "means": "The halo on the Big A lights up after a win."}
+    ],
+    "lines": [
+      {"t": "Light that halo!", "m": "Said after a win."},
+      {"t": "Bring out the Rally Monkey.", "m": "Said when the Angels trail late."},
+      {"t": "Game 6 in 2002 is the best comeback I've seen.", "m": "Down 5-0 in the seventh, they rallied, then won the title in Game 7."},
+      {"t": "Freeway Series bragging rights are on the line.", "m": "The yearly games against the Dodgers."}
+    ],
+    "avoid": [
+      {"say": "the Anaheim Angels", "instead": "the Angels", "why": "That name was dropped in 2005; it has been the Los Angeles Angels since 2016."},
+      {"say": "they play in LA", "instead": "they play in Anaheim", "why": "The Big A is in Anaheim, in Orange County."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Los_Angeles_Angels",
+      "https://en.wikipedia.org/wiki/Angel_Stadium"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Los Angeles Dodgers",
+    "espnId": "19",
+    "league": "baseball/mlb",
+    "aliases": ["dodgers", "la dodgers", "lad", "doyers", "boys in blue"],
+    "nickname": "the Boys in Blue",
+    "fans": "",
+    "ground": "Dodger Stadium",
+    "rivals": [
+      {"team": "San Francisco Giants", "name": "the Giants", "derby": ""},
+      {"team": "San Diego Padres", "name": "the Padres", "derby": ""},
+      {"team": "New York Yankees", "name": "the Yankees", "derby": ""}
+    ],
+    "legends": ["Jackie Robinson", "Sandy Koufax", "Fernando Valenzuela", "Don Drysdale"],
+    "memory": "1988: Kirk Gibson's limping pinch-hit home run wins Game 1 of the World Series",
+    "lingo": [
+      {"term": "Doyers", "say": "DOY-erz", "means": "Affectionate Spanglish name for the Dodgers."},
+      {"term": "Dodger Blue", "say": "DOD-jer BLOO", "means": "The team colour, and a byword for loyalty."},
+      {"term": "Chavez Ravine", "say": "CHAH-vez ruh-VEEN", "means": "The hillside where Dodger Stadium sits."},
+      {"term": "Fernandomania", "say": "fer-NAN-doh-MAY-nee-uh", "means": "The 1981 craze around rookie pitcher Fernando Valenzuela."}
+    ],
+    "lines": [
+      {"t": "It's time for Dodger baseball!", "m": "Vin Scully's famous opening line; fans quote it."},
+      {"t": "I bleed Dodger blue.", "m": "Tommy Lasorda's line for total loyalty."},
+      {"t": "Grab a Dodger Dog.", "m": "The ballpark's famous hot dog."},
+      {"t": "Losing to the Giants is the worst.", "m": "The oldest rivalry, dating back to New York."},
+      {"t": "Jackie's 42 is retired across baseball.", "m": "Jackie Robinson broke the colour barrier with the Brooklyn Dodgers in 1947."}
+    ],
+    "avoid": [
+      {"say": "the Brooklyn Dodgers", "instead": "the Dodgers", "why": "They moved to LA in 1958."},
+      {"say": "a game at UNIQLO Field", "instead": "a game at Dodger Stadium", "why": "Only the playing field took the sponsor name in 2026; fans still say Dodger Stadium."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+      "https://www.foxsports.com/articles/mlb/field-at-dodger-stadium-gets-a-sponsor-name-for-first-time-in-history-of-mlbs-thirdoldest-ballpark"
+    ],
+    "unsure": ["lines: 'I Love L.A.' after wins not confirmed by an authoritative source; left out"]
+  },
+  {
+    "team": "Miami Marlins",
+    "espnId": "28",
+    "league": "baseball/mlb",
+    "aliases": ["miami", "marlins", "fish", "mia", "florida marlins"],
+    "nickname": "the Fish",
+    "fans": "",
+    "ground": "loanDepot park",
+    "rivals": [
+      {"team": "Tampa Bay Rays", "name": "the Rays", "derby": "the Citrus Series"},
+      {"team": "Atlanta Braves", "name": "the Braves", "derby": ""},
+      {"team": "New York Mets", "name": "the Mets", "derby": ""}
+    ],
+    "legends": ["Jeff Conine", "Mike Lowell", "Dontrelle Willis", "Josh Beckett"],
+    "memory": "1997: won the World Series in only the club's fifth season",
+    "lingo": [
+      {"term": "the Fish", "say": "the FISH", "means": "Nickname for the Marlins."},
+      {"term": "Mr. Marlin", "say": "MIS-ter MAR-lin", "means": "Jeff Conine, a star of both title teams."},
+      {"term": "Billy", "say": "BIL-ee", "means": "Billy the Marlin, the mascot."}
+    ],
+    "lines": [
+      {"t": "Two World Series, never lost one.", "m": "Miami won both times it got there, in 1997 and 2003."},
+      {"t": "Let's go Fish!", "m": "The standard chant."},
+      {"t": "Renteria's single in '97.", "m": "Edgar Renteria's hit won Game 7 in extra innings."},
+      {"t": "Beckett shut out the Yankees in the Bronx.", "m": "Josh Beckett's Game 6 shutout clinched the 2003 title."},
+      {"t": "Thank God for the roof.", "m": "The retractable roof keeps out summer storms and heat."}
+    ],
+    "avoid": [
+      {"say": "the Florida Marlins", "instead": "the Miami Marlins", "why": "The name changed in 2012 when the new park opened."},
+      {"say": "Marlins Park", "instead": "loanDepot park", "why": "The park was renamed in 2021."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Miami_Marlins",
+      "https://en.wikipedia.org/wiki/LoanDepot_Park"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Milwaukee Brewers",
+    "espnId": "8",
+    "league": "baseball/mlb",
+    "aliases": ["milwaukee", "brewers", "brew crew", "mil", "crew"],
+    "nickname": "the Brew Crew",
+    "fans": "",
+    "ground": "American Family Field",
+    "rivals": [
+      {"team": "Chicago Cubs", "name": "the Cubs", "derby": ""},
+      {"team": "St. Louis Cardinals", "name": "the Cardinals", "derby": ""},
+      {"team": "Minnesota Twins", "name": "the Twins", "derby": "the Border Battle"}
+    ],
+    "legends": ["Robin Yount", "Paul Molitor", "Rollie Fingers", "Bob Uecker"],
+    "memory": "2026: first World Series title, beating the Rays in five games",
+    "lingo": [
+      {"term": "Brew Crew", "say": "BROO KROO", "means": "Nickname for the Brewers."},
+      {"term": "Bernie Brewer", "say": "BUR-nee BROO-er", "means": "The mascot who rides a slide after Brewers home runs."},
+      {"term": "the Sausage Race", "say": "the SAW-sij RAYS", "means": "Costumed sausages race around the field mid-game."},
+      {"term": "AmFam", "say": "AM-fam", "means": "Short for American Family Field."}
+    ],
+    "lines": [
+      {"t": "Stay up for the polka.", "m": "The Beer Barrel Polka plays right after Take Me Out to the Ball Game."},
+      {"t": "Who won the sausage race?", "m": "The racing sausages run in the sixth inning; everyone has a favourite."},
+      {"t": "Tailgate starts three hours before first pitch.", "m": "Parking-lot tailgating is a big part of a Milwaukee game day."},
+      {"t": "Get up, get outta here, gone!", "m": "Bob Uecker's home run call; fans still repeat it."},
+      {"t": "Bernie's going down the slide!", "m": "Said after a Brewers home run."}
+    ],
+    "avoid": [
+      {"say": "Miller Park", "instead": "American Family Field, or AmFam", "why": "The park was renamed in 2021."},
+      {"say": "the Brewers have never won it all", "instead": "the 2026 champs", "why": "Milwaukee won its first World Series in 2026."}
+    ],
+    "sources": [
+      "https://www.npr.org/2026/10/29/nx-s1-6021953/brewers-win-first-world-series-title",
+      "https://en.wikipedia.org/wiki/Milwaukee_Brewers",
+      "https://en.wikipedia.org/wiki/Seventh-inning_stretch"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Minnesota Twins",
+    "espnId": "9",
+    "league": "baseball/mlb",
+    "aliases": ["minnesota", "twins", "min", "twinkies"],
+    "nickname": "the Twins",
+    "fans": "",
+    "ground": "Target Field",
+    "rivals": [
+      {"team": "Chicago White Sox", "name": "the White Sox", "derby": ""},
+      {"team": "Milwaukee Brewers", "name": "the Brewers", "derby": "the Border Battle"},
+      {"team": "New York Yankees", "name": "the Yankees", "derby": ""}
+    ],
+    "legends": ["Harmon Killebrew", "Kirby Puckett", "Rod Carew", "Joe Mauer"],
+    "memory": "1991: Kirby Puckett's Game 6 walk-off homer, then a 10-inning Game 7 win for the title",
+    "lingo": [
+      {"term": "Homer Hanky", "say": "HOH-mer HANG-kee", "means": "The white hankie fans wave at big games, since 1987."},
+      {"term": "Twins Territory", "say": "TWINZ TER-ih-tor-ee", "means": "The upper Midwest fan base."},
+      {"term": "Minnie and Paul", "say": "MIN-ee and PAWL", "means": "The sign of two players shaking hands across a river, for Minneapolis and St. Paul."}
+    ],
+    "lines": [
+      {"t": "Wave your Homer Hanky!", "m": "Said at playoff games and big moments."},
+      {"t": "And we'll see you tomorrow night!", "m": "Jack Buck's call of Puckett's 1991 Game 6 home run."},
+      {"t": "We never lost a World Series game in the Dome.", "m": "The Twins won all eight home games at the Metrodome in the 1987 and 1991 World Series."},
+      {"t": "April at Target Field? Bring a parka.", "m": "Early-season games outdoors in Minneapolis can be freezing."}
+    ],
+    "avoid": [
+      {"say": "the Twins play in a dome", "instead": "they play outdoors at Target Field", "why": "The Twins left the Metrodome for Target Field in 2010."},
+      {"say": "the Minneapolis Twins", "instead": "the Minnesota Twins", "why": "Named for the state and the Twin Cities, not one city."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Minnesota_Twins",
+      "https://en.wikipedia.org/wiki/Target_Field"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "New York Mets",
+    "espnId": "21",
+    "league": "baseball/mlb",
+    "aliases": ["mets", "nym", "amazins", "metropolitans", "queens"],
+    "nickname": "the Amazin's",
+    "fans": "",
+    "ground": "Citi Field",
+    "rivals": [
+      {"team": "Philadelphia Phillies", "name": "the Phillies", "derby": ""},
+      {"team": "Atlanta Braves", "name": "the Braves", "derby": ""},
+      {"team": "New York Yankees", "name": "the Yankees", "derby": "the Subway Series"}
+    ],
+    "legends": ["Tom Seaver", "Mike Piazza", "Keith Hernandez", "David Wright"],
+    "memory": "1969: the 'Miracle Mets' go from also-rans to World Series champions",
+    "lingo": [
+      {"term": "Amazin's", "say": "uh-MAY-zinz", "means": "Old nickname for the Mets."},
+      {"term": "LGM", "say": "EL-jee-EM", "means": "Short for 'Let's Go Mets'."},
+      {"term": "Home Run Apple", "say": "HOHM run AP-ul", "means": "The big apple that rises in centre field after Mets homers."},
+      {"term": "Ya Gotta Believe", "say": "yuh GOT-uh buh-LEEV", "means": "Tug McGraw's 1973 rallying cry."}
+    ],
+    "lines": [
+      {"t": "Let's go Mets!", "m": "The chant at Citi Field and on the 7 train."},
+      {"t": "Ya gotta believe!", "m": "Used when things look bleak."},
+      {"t": "Get the apple up!", "m": "Said when hoping for a home run."},
+      {"t": "Piano Man in the eighth. Everybody sings.", "m": "Billy Joel's song is a Citi Field sing-along."},
+      {"t": "Taking the 7 to Flushing.", "m": "The subway line fans ride to the park in Queens."}
+    ],
+    "avoid": [
+      {"say": "Shea Stadium", "instead": "Citi Field", "why": "Shea closed after 2008; Citi Field opened next door in 2009."},
+      {"say": "New York fan, so Yankees, right?", "instead": "Mets or Yankees?", "why": "Queens versus the Bronx; Mets fans hate being lumped in."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_York_Mets",
+      "https://en.wikipedia.org/wiki/Seventh-inning_stretch"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "New York Yankees",
+    "espnId": "10",
+    "league": "baseball/mlb",
+    "aliases": ["yankees", "yanks", "nyy", "bronx bombers", "new york yankees"],
+    "nickname": "the Bronx Bombers",
+    "fans": "",
+    "ground": "Yankee Stadium",
+    "rivals": [
+      {"team": "Boston Red Sox", "name": "the Red Sox", "derby": ""},
+      {"team": "New York Mets", "name": "the Mets", "derby": "the Subway Series"}
+    ],
+    "legends": ["Babe Ruth", "Mickey Mantle", "Derek Jeter", "Mariano Rivera"],
+    "memory": "1996-2000: four World Series titles in five years",
+    "lingo": [
+      {"term": "Bronx Bombers", "say": "BRONKS BOM-erz", "means": "Nickname for the Yankees."},
+      {"term": "Bleacher Creatures", "say": "BLEE-cher KREE-cherz", "means": "The loud regulars in the right-field bleachers."},
+      {"term": "Roll Call", "say": "ROHL KAWL", "means": "First-inning ritual: the bleachers chant each fielder's name until he waves."},
+      {"term": "the pinstripes", "say": "the PIN-stryps", "means": "The famous home uniform, and the team itself."}
+    ],
+    "lines": [
+      {"t": "Stay for Roll Call.", "m": "The bleachers chant the fielders' names in the top of the first."},
+      {"t": "Most rings in the sport.", "m": "The Yankees have far more World Series titles than any other team."},
+      {"t": "Go see Monument Park before the game.", "m": "Plaques and retired numbers for Yankee greats behind centre field."},
+      {"t": "New York, New York after the last out.", "m": "Sinatra's song plays as fans leave."}
+    ],
+    "avoid": [
+      {"say": "a game in Manhattan", "instead": "a game in the Bronx", "why": "Yankee Stadium is in the Bronx."},
+      {"say": "the House that Ruth Built", "instead": "the Stadium", "why": "That nickname belonged to the original stadium, which closed in 2008."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_York_Yankees",
+      "https://en.wikipedia.org/wiki/Yankee_Stadium"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Philadelphia Phillies",
+    "espnId": "22",
+    "league": "baseball/mlb",
+    "aliases": ["philadelphia", "phillies", "phils", "phi", "fightins"],
+    "nickname": "the Phils",
+    "fans": "",
+    "ground": "the Bank (Citizens Bank Park)",
+    "rivals": [
+      {"team": "New York Mets", "name": "the Mets", "derby": ""},
+      {"team": "Atlanta Braves", "name": "the Braves", "derby": ""}
+    ],
+    "legends": ["Mike Schmidt", "Steve Carlton", "Richie Ashburn", "Jimmy Rollins"],
+    "memory": "2008: World Series champions, the city's first major title in 25 years",
+    "lingo": [
+      {"term": "Phils", "say": "FILZ", "means": "Short for the Phillies."},
+      {"term": "the Fightins", "say": "the FY-tinz", "means": "Affectionate nickname, from 'the Fightin' Phils'."},
+      {"term": "the Phanatic", "say": "the fuh-NAT-ik", "means": "The big green mascot."},
+      {"term": "Red October", "say": "RED ok-TOH-ber", "means": "The playoff-time crowd, all in red."}
+    ],
+    "lines": [
+      {"t": "Ring the bell!", "m": "The big Liberty Bell in right-centre lights up after Phillies home runs."},
+      {"t": "Outta here!", "m": "Harry Kalas's home run call; he was the voice of the Phillies for decades."},
+      {"t": "Cue Dancing On My Own.", "m": "The Calum Scott cover became the anthem for big wins in 2022."},
+      {"t": "Red October's back.", "m": "Said when the park turns into a sea of red for the playoffs."}
+    ],
+    "avoid": [
+      {"say": "a game at the Vet", "instead": "a game at the Bank", "why": "Veterans Stadium closed after 2003."},
+      {"say": "the Phillies have only won once", "instead": "1980 and 2008", "why": "Philadelphia has two World Series titles."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+      "https://whyy.org/articles/phillies-dancing-on-my-own-postseason-party-anthem"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Pittsburgh Pirates",
+    "espnId": "23",
+    "league": "baseball/mlb",
+    "aliases": ["pittsburgh", "pirates", "bucs", "buccos", "pit"],
+    "nickname": "the Bucs",
+    "fans": "",
+    "ground": "PNC Park",
+    "rivals": [
+      {"team": "Cincinnati Reds", "name": "the Reds", "derby": ""},
+      {"team": "Philadelphia Phillies", "name": "the Phillies", "derby": ""}
+    ],
+    "legends": ["Roberto Clemente", "Willie Stargell", "Honus Wagner", "Bill Mazeroski"],
+    "memory": "1960: Bill Mazeroski's walk-off home run wins Game 7 against the Yankees",
+    "lingo": [
+      {"term": "Bucs", "say": "BUKS", "means": "Short for Buccaneers, another word for pirates."},
+      {"term": "Buccos", "say": "BUK-ohz", "means": "Another fond nickname for the team."},
+      {"term": "the Jolly Roger", "say": "the JOL-ee ROJ-er", "means": "The pirate flag raised after every win."},
+      {"term": "Pierogi Race", "say": "pih-ROH-gee RAYS", "means": "Costumed dumplings race around the field mid-game."}
+    ],
+    "lines": [
+      {"t": "Raise the Jolly Roger!", "m": "Said after a win."},
+      {"t": "Yinz going to the Bucs game?", "m": "Pittsburgh slang for 'are you all going'; local flavour."},
+      {"t": "Walk over the Clemente Bridge.", "m": "The bridge closes to cars on game days so fans can walk to the park."},
+      {"t": "We Are Family.", "m": "The Sister Sledge song was the anthem of the 1979 champions."},
+      {"t": "Clemente was more than a ballplayer.", "m": "MLB's top award for charity work is named after him."}
+    ],
+    "avoid": [
+      {"say": "Three Rivers Stadium", "instead": "PNC Park", "why": "The Pirates moved to PNC Park in 2001."},
+      {"say": "the Pirates have never won much", "instead": "five World Series titles", "why": "They won in 1909, 1925, 1960, 1971 and 1979."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pittsburgh_Pirates",
+      "https://en.wikipedia.org/wiki/PNC_Park"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "San Diego Padres",
+    "espnId": "25",
+    "league": "baseball/mlb",
+    "aliases": ["san diego", "padres", "friars", "pads", "sd"],
+    "nickname": "the Friars",
+    "fans": "the Friar Faithful",
+    "ground": "Petco Park",
+    "rivals": [
+      {"team": "Los Angeles Dodgers", "name": "the Dodgers", "derby": ""},
+      {"team": "San Francisco Giants", "name": "the Giants", "derby": ""}
+    ],
+    "legends": ["Tony Gwynn", "Trevor Hoffman", "Dave Winfield", "Randy Jones"],
+    "memory": "1998: NL pennant and a trip to the World Series",
+    "lingo": [
+      {"term": "Friars", "say": "FRY-erz", "means": "Nickname for the Padres; 'padres' means fathers."},
+      {"term": "Pads", "say": "PADZ", "means": "Short for the Padres."},
+      {"term": "Mr. Padre", "say": "MIS-ter PAH-dray", "means": "Tony Gwynn, who spent his whole career in San Diego."},
+      {"term": "the Swinging Friar", "say": "the SWING-ing FRY-er", "means": "The mascot and old logo."}
+    ],
+    "lines": [
+      {"t": "Hells Bells. Game over.", "m": "AC/DC's song played when closer Trevor Hoffman came in."},
+      {"t": "Brown and gold forever.", "m": "Fans love the original colours, now back as the main look."},
+      {"t": "Gwynn hit .394 in '94.", "m": "Tony Gwynn's best season, cut short by the strike."},
+      {"t": "Beat LA!", "m": "The chant aimed at the Dodgers up the freeway."},
+      {"t": "Grab a spot on the grass at the Park at the Park.", "m": "The grassy hill beyond the outfield."}
+    ],
+    "avoid": [
+      {"say": "PAD-rees", "instead": "PAH-drays", "why": "It is the Spanish word, said the Spanish way."},
+      {"say": "the Padres' World Series title", "instead": "still chasing the first one", "why": "San Diego lost in both its World Series, 1984 and 1998."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/San_Diego_Padres",
+      "https://en.wikipedia.org/wiki/Petco_Park"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "San Francisco Giants",
+    "espnId": "26",
+    "league": "baseball/mlb",
+    "aliases": ["san francisco", "giants", "sf giants", "sf", "orange and black"],
+    "nickname": "the Orange and Black",
+    "fans": "",
+    "ground": "Oracle Park",
+    "rivals": [
+      {"team": "Los Angeles Dodgers", "name": "the Dodgers", "derby": ""},
+      {"team": "Athletics", "name": "the A's", "derby": ""}
+    ],
+    "legends": ["Willie Mays", "Willie McCovey", "Juan Marichal", "Will Clark"],
+    "memory": "2010: first San Francisco title, then again in 2012 and 2014",
+    "lingo": [
+      {"term": "McCovey Cove", "say": "muh-KUV-ee KOHV", "means": "The bay water past right field, named for Willie McCovey."},
+      {"term": "splash hit", "say": "SPLASH hit", "means": "A Giants home run that lands in the bay."},
+      {"term": "Lou Seal", "say": "LOO SEEL", "means": "The seal mascot."},
+      {"term": "torture", "say": "TOR-cher", "means": "The 2010 word for the team's nail-biting wins."}
+    ],
+    "lines": [
+      {"t": "Beat LA!", "m": "The chant aimed at the Dodgers."},
+      {"t": "That's a splash hit!", "m": "A homer into McCovey Cove, where kayakers wait for the ball."},
+      {"t": "Even year magic.", "m": "The 2010, 2012 and 2014 titles all came in even years."},
+      {"t": "Bring a jacket. It's Oracle.", "m": "Night games by the bay get cold, even in summer."},
+      {"t": "Giants baseball: torture.", "m": "Broadcaster Duane Kuiper's 2010 line for close games."}
+    ],
+    "avoid": [
+      {"say": "Frisco, or San Fran", "instead": "San Francisco, or the city", "why": "Locals can't stand those nicknames."},
+      {"say": "a game at Candlestick", "instead": "a game at Oracle Park", "why": "The Giants moved out of Candlestick in 2000; their park has been Oracle Park since 2019."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/San_Francisco_Giants",
+      "https://en.wikipedia.org/wiki/Oracle_Park"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Seattle Mariners",
+    "espnId": "12",
+    "league": "baseball/mlb",
+    "aliases": ["seattle", "mariners", "m's", "sea"],
+    "nickname": "the M's",
+    "fans": "",
+    "ground": "T-Mobile Park",
+    "rivals": [
+      {"team": "Houston Astros", "name": "the Astros", "derby": ""},
+      {"team": "New York Yankees", "name": "the Yankees", "derby": ""}
+    ],
+    "legends": ["Ken Griffey Jr.", "Edgar Martinez", "Ichiro Suzuki", "Felix Hernandez"],
+    "memory": "1995: Edgar Martinez's 'The Double' beats the Yankees in the playoffs",
+    "lingo": [
+      {"term": "M's", "say": "EMZ", "means": "Short for the Mariners."},
+      {"term": "the Double", "say": "the DUB-ul", "means": "Edgar's 1995 extra-inning hit that won the series against the Yankees."},
+      {"term": "Sodo Mojo", "say": "SOH-doh MOH-joh", "means": "Team rallying slogan, named for the park's neighbourhood."},
+      {"term": "the Safe", "say": "the SAYF", "means": "Fond old name for the park, from Safeco Field."}
+    ],
+    "lines": [
+      {"t": "My oh my!", "m": "Dave Niehaus's famous call; fans use it for any big moment."},
+      {"t": "Louie Louie at the stretch.", "m": "It plays right after Take Me Out to the Ball Game and everyone sings."},
+      {"t": "Refuse to lose.", "m": "The 1995 slogan from the run that helped keep baseball in Seattle."},
+      {"t": "116 wins and no pennant. Still hurts.", "m": "The 2001 team tied the wins record but lost in the playoffs."},
+      {"t": "Edgar was the best DH ever.", "m": "MLB's award for best designated hitter is named after him."}
+    ],
+    "avoid": [
+      {"say": "the Seattle Pilots", "instead": "the Mariners", "why": "The Pilots lasted one season, 1969, then became the Brewers."},
+      {"say": "the Mariners' World Series run", "instead": "still chasing the first pennant", "why": "Seattle is the only current team never to reach a World Series."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Seattle_Mariners",
+      "https://en.wikipedia.org/wiki/Seventh-inning_stretch"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "St. Louis Cardinals",
+    "espnId": "24",
+    "league": "baseball/mlb",
+    "aliases": ["st. louis", "st louis", "cardinals", "cards", "stl", "redbirds"],
+    "nickname": "the Cards",
+    "fans": "Cardinal Nation",
+    "ground": "Busch Stadium",
+    "rivals": [
+      {"team": "Chicago Cubs", "name": "the Cubs", "derby": ""},
+      {"team": "Kansas City Royals", "name": "the Royals", "derby": "the I-70 Series"}
+    ],
+    "legends": ["Stan Musial", "Bob Gibson", "Ozzie Smith", "Lou Brock"],
+    "memory": "2011: David Freese's Game 6 heroics, then the club's 11th World Series title",
+    "lingo": [
+      {"term": "Redbirds", "say": "RED-burdz", "means": "Nickname for the Cardinals."},
+      {"term": "Best Fans in Baseball", "say": "BEST FANZ in BAYS-bawl", "means": "The title St. Louis fans proudly claim. Rivals tease them for it."},
+      {"term": "the Wizard", "say": "the WIZ-erd", "means": "Ozzie Smith, the acrobatic shortstop."},
+      {"term": "Stan the Man", "say": "STAN the MAN", "means": "Stan Musial, the franchise's greatest player."}
+    ],
+    "lines": [
+      {"t": "Go crazy, folks!", "m": "Jack Buck's call of Ozzie Smith's 1985 playoff home run."},
+      {"t": "Clydesdales on Opening Day.", "m": "The Budweiser horses parade around the warning track."},
+      {"t": "Here Comes the King, clap along.", "m": "The Budweiser tune plays late in the game."},
+      {"t": "Eleven titles, most in the National League.", "m": "No NL team has won more World Series."}
+    ],
+    "avoid": [
+      {"say": "the Arizona Cardinals", "instead": "the St. Louis Cardinals, or the Cards", "why": "That's football; the NFL Cardinals left St. Louis in 1988."},
+      {"say": "I like the Cubs too", "instead": "the Cubs? No thanks", "why": "The Cubs are the arch-rival."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St._Louis_Cardinals",
+      "https://pressprosmagazine.com/2019/04/23/baseball-beer-and-the-clydesdales-the-story-behind-the-song/"
+    ],
+    "unsure": ["lines: sources disagree on the exact inning for 'Here Comes the King' (end of 7th or 8th), so worded as 'late in the game'"]
+  },
+  {
+    "team": "Tampa Bay Rays",
+    "espnId": "30",
+    "league": "baseball/mlb",
+    "aliases": ["tampa bay", "rays", "tb", "tampa", "devil rays"],
+    "nickname": "the Rays",
+    "fans": "",
+    "ground": "the Trop (Tropicana Field)",
+    "rivals": [
+      {"team": "New York Yankees", "name": "the Yankees", "derby": ""},
+      {"team": "Boston Red Sox", "name": "the Red Sox", "derby": ""},
+      {"team": "Miami Marlins", "name": "the Marlins", "derby": "the Citrus Series"}
+    ],
+    "legends": ["Evan Longoria", "Carl Crawford", "David Price"],
+    "memory": "2008: first season as the Rays, a worst-to-first run to the World Series",
+    "lingo": [
+      {"term": "the Trop", "say": "the TROP", "means": "Tropicana Field, the domed home park."},
+      {"term": "Rays Up", "say": "RAYZ UP", "means": "The fan slogan."},
+      {"term": "cowbell", "say": "KOW-bel", "means": "Rays fans ring cowbells at big moments."},
+      {"term": "the catwalks", "say": "the KAT-wawks", "means": "Rings in the dome roof that high fly balls sometimes hit."}
+    ],
+    "lines": [
+      {"t": "More cowbell!", "m": "Rays crowds ring cowbells to make noise."},
+      {"t": "Rays up!", "m": "The fan rallying cry."},
+      {"t": "That one hit the catwalk.", "m": "Balls that strike the roof rings follow special ground rules."},
+      {"t": "Game 162. Never forget.", "m": "In 2011 the Rays came back from 7-0 down on the last night and won the wild card."},
+      {"t": "Good to be back at the Trop.", "m": "The team spent 2025 in Tampa while hurricane damage to the roof was fixed."}
+    ],
+    "avoid": [
+      {"say": "the Devil Rays", "instead": "the Rays", "why": "'Devil' was dropped before the 2008 season."},
+      {"say": "they still play at Steinbrenner Field", "instead": "they're back at the Trop", "why": "That was a one-season stopgap in 2025; the Rays returned to St. Petersburg in 2026."}
+    ],
+    "sources": [
+      "https://www.nbcsports.com/mlb/news/tampa-bay-rays-to-return-to-tropicana-field-in-2026-after-hurricane-repairs",
+      "https://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+      "https://www.mlb.com/news/evan-longoria-retires-tampa-bay-rays"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Texas Rangers",
+    "espnId": "13",
+    "league": "baseball/mlb",
+    "aliases": ["texas rangers", "rangers", "tex", "arlington"],
+    "nickname": "the Rangers",
+    "fans": "",
+    "ground": "Globe Life Field",
+    "rivals": [
+      {"team": "Houston Astros", "name": "the Astros", "derby": "the Lone Star Series"}
+    ],
+    "legends": ["Nolan Ryan", "Ivan Rodriguez", "Michael Young", "Adrian Beltre"],
+    "memory": "2023: first World Series title, beating the Diamondbacks",
+    "lingo": [
+      {"term": "Claw and Antlers", "say": "KLAW and ANT-lerz", "means": "The dugout hand signals for big hits and steals from the 2010-11 pennant teams."},
+      {"term": "Pudge", "say": "PUJ", "means": "Ivan Rodriguez, the Hall of Fame catcher."},
+      {"term": "the Silver Boot", "say": "the SIL-ver BOOT", "means": "The trophy for winning the season series against Houston."},
+      {"term": "Arlington", "say": "AR-ling-tun", "means": "The city between Dallas and Fort Worth where the Rangers play."}
+    ],
+    "lines": [
+      {"t": "Cotton-Eyed Joe at the stretch.", "m": "It plays after Take Me Out to the Ball Game and fans dance along."},
+      {"t": "Bring home the Silver Boot.", "m": "Said about the Astros games."},
+      {"t": "Do the claw!", "m": "Fans copy the old dugout signal after a big hit."},
+      {"t": "Nolan threw his last two no-hitters for us.", "m": "Nolan Ryan's sixth and seventh no-hitters came with Texas."},
+      {"t": "At least the roof's closed.", "m": "Globe Life Field's roof makes Texas summer games bearable."}
+    ],
+    "avoid": [
+      {"say": "the Dallas Rangers", "instead": "the Texas Rangers, or the Rangers", "why": "They play in Arlington and are named for the state."},
+      {"say": "the Rangers have never won it", "instead": "the 2023 champs", "why": "Texas won its first World Series in 2023."},
+      {"say": "the Ballpark in Arlington", "instead": "Globe Life Field", "why": "The Rangers moved across the street to a roofed park in 2020."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Texas_Rangers_(baseball)",
+      "https://en.wikipedia.org/wiki/Globe_Life_Field",
+      "https://en.wikipedia.org/wiki/Seventh-inning_stretch"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Toronto Blue Jays",
+    "espnId": "14",
+    "league": "baseball/mlb",
+    "aliases": ["toronto", "blue jays", "jays", "tor"],
+    "nickname": "the Jays",
+    "fans": "",
+    "ground": "Rogers Centre",
+    "rivals": [
+      {"team": "New York Yankees", "name": "the Yankees", "derby": ""},
+      {"team": "Boston Red Sox", "name": "the Red Sox", "derby": ""}
+    ],
+    "legends": ["Joe Carter", "Roy Halladay", "Dave Stieb", "Carlos Delgado"],
+    "memory": "1993: Joe Carter's walk-off home run wins back-to-back World Series",
+    "lingo": [
+      {"term": "Jays", "say": "JAYZ", "means": "Short for the Blue Jays."},
+      {"term": "SkyDome", "say": "SKY-dohm", "means": "The park's original name, still used by many fans."},
+      {"term": "the bat flip", "say": "the BAT flip", "means": "Jose Bautista's famous 2015 playoff home run celebration."},
+      {"term": "Canada's team", "say": "KAN-uh-duhz TEEM", "means": "The only MLB team in Canada, with fans coast to coast."}
+    ],
+    "lines": [
+      {"t": "OK Blue Jays at the stretch.", "m": "The team's 1980s song plays at the seventh-inning stretch, with a stretching routine."},
+      {"t": "Touch 'em all, Joe!", "m": "Tom Cheek's radio call of Carter's 1993 homer."},
+      {"t": "Remember the bat flip?", "m": "Bautista's 2015 home run against Texas."},
+      {"t": "Back-to-back in '92 and '93.", "m": "Toronto won two World Series in a row."}
+    ],
+    "avoid": [
+      {"say": "the Jays won it once", "instead": "they won in 1992 and 1993", "why": "Toronto has two World Series titles."},
+      {"say": "one of Canada's two teams", "instead": "Canada's only team", "why": "The Expos left Montreal for Washington in 2005."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+      "https://en.wikipedia.org/wiki/Rogers_Centre"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Washington Nationals",
+    "espnId": "20",
+    "league": "baseball/mlb",
+    "aliases": ["washington", "nationals", "nats", "wsh", "dc"],
+    "nickname": "the Nats",
+    "fans": "",
+    "ground": "Nationals Park (Nats Park)",
+    "rivals": [
+      {"team": "Atlanta Braves", "name": "the Braves", "derby": ""},
+      {"team": "Philadelphia Phillies", "name": "the Phillies", "derby": ""},
+      {"team": "Baltimore Orioles", "name": "the O's", "derby": "the Beltway Series"}
+    ],
+    "legends": ["Ryan Zimmerman", "Jayson Werth", "Stephen Strasburg"],
+    "memory": "2019: from 19-31 in May to World Series champions",
+    "lingo": [
+      {"term": "Nats", "say": "NATS", "means": "Short for the Nationals."},
+      {"term": "the Curly W", "say": "the KUR-lee DUB-ul-yoo", "means": "The team's W logo."},
+      {"term": "the Presidents Race", "say": "the PREZ-ih-dents RAYS", "means": "Big-headed presidents race around the field mid-game."},
+      {"term": "Mr. National", "say": "MIS-ter NASH-uh-nul", "means": "Ryan Zimmerman, the team's first star."}
+    ],
+    "lines": [
+      {"t": "Let Teddy win!", "m": "Teddy Roosevelt lost the Presidents Race for years before finally winning in 2012."},
+      {"t": "Fight finished.", "m": "The 2019 motto was 'stay in the fight'; this is how fans sum up the title."},
+      {"t": "Go Nats!", "m": "The standard cheer."},
+      {"t": "Drinks at Navy Yard before the game.", "m": "The park sits in the Navy Yard neighbourhood by the river."}
+    ],
+    "avoid": [
+      {"say": "the Senators", "instead": "the Nats", "why": "The Senators left town twice and became the Twins and the Rangers."},
+      {"say": "the Expos", "instead": "the Nationals", "why": "The franchise moved from Montreal in 2005."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Washington_Nationals",
+      "https://en.wikipedia.org/wiki/Nationals_Park"
+    ],
+    "unsure": []
+  }
+]

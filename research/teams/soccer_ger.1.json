@@ -1,0 +1,128 @@
+[
+ {
+  "id": "598",
+  "name": "1. FC Union Berlin",
+  "short": "Union Berlin",
+  "abbr": "FCU",
+  "location": "1. FC Union Berlin"
+ },
+ {
+  "id": "131",
+  "name": "Bayer Leverkusen",
+  "short": "Leverkusen",
+  "abbr": "B04",
+  "location": "Bayer Leverkusen"
+ },
+ {
+  "id": "132",
+  "name": "Bayern Munich",
+  "short": "Bayern",
+  "abbr": "MUN",
+  "location": "Bayern Munich"
+ },
+ {
+  "id": "124",
+  "name": "Borussia Dortmund",
+  "short": "Dortmund",
+  "abbr": "DOR",
+  "location": "Borussia Dortmund"
+ },
+ {
+  "id": "268",
+  "name": "Borussia Mönchengladbach",
+  "short": "Gladbach",
+  "abbr": "BMG",
+  "location": "Borussia Mönchengladbach"
+ },
+ {
+  "id": "125",
+  "name": "Eintracht Frankfurt",
+  "short": "Frankfurt",
+  "abbr": "SGE",
+  "location": "Eintracht Frankfurt"
+ },
+ {
+  "id": "3841",
+  "name": "FC Augsburg",
+  "short": "Augsburg",
+  "abbr": "FCA",
+  "location": "FC Augsburg"
+ },
+ {
+  "id": "122",
+  "name": "FC Cologne",
+  "short": "Cologne",
+  "abbr": "KOE",
+  "location": "FC Cologne"
+ },
+ {
+  "id": "127",
+  "name": "Hamburg SV",
+  "short": "Hamburg",
+  "abbr": "HSV",
+  "location": "Hamburg SV"
+ },
+ {
+  "id": "2950",
+  "name": "Mainz",
+  "short": "Mainz",
+  "abbr": "M05",
+  "location": "Mainz"
+ },
+ {
+  "id": "11420",
+  "name": "RB Leipzig",
+  "short": "RB Leipzig",
+  "abbr": "RBL",
+  "location": "RB Leipzig"
+ },
+ {
+  "id": "126",
+  "name": "SC Freiburg",
+  "short": "Freiburg",
+  "abbr": "SCF",
+  "location": "SC Freiburg"
+ },
+ {
+  "id": "3307",
+  "name": "SC Paderborn 07",
+  "short": "Paderborn",
+  "abbr": "SCP",
+  "location": "SC Paderborn 07"
+ },
+ {
+  "id": "10388",
+  "name": "SV Elversberg",
+  "short": "Elversberg",
+  "abbr": "ELV",
+  "location": "SV Elversberg"
+ },
+ {
+  "id": "133",
+  "name": "Schalke 04",
+  "short": "Schalke",
+  "abbr": "S04",
+  "location": "Schalke 04"
+ },
+ {
+  "id": "7911",
+  "name": "TSG Hoffenheim",
+  "short": "Hoffenheim",
+  "abbr": "TSG",
+  "location": "TSG Hoffenheim"
+ },
+ {
+  "id": "134",
+  "name": "VfB Stuttgart",
+  "short": "Stuttgart",
+  "abbr": "VFB",
+  "location": "VfB Stuttgart"
+ },
+ {
+  "id": "137",
+  "name": "Werder Bremen",
+  "short": "Bremen",
+  "abbr": "SVW",
+  "location": "Werder Bremen"
+ }
+]

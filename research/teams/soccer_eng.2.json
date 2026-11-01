@@ -1,0 +1,170 @@
+[
+ {
+  "id": "392",
+  "name": "Birmingham City",
+  "short": "Birmingham",
+  "abbr": "BIR",
+  "location": "Birmingham City"
+ },
+ {
+  "id": "365",
+  "name": "Blackburn Rovers",
+  "short": "Blackburn",
+  "abbr": "BLK",
+  "location": "Blackburn Rovers"
+ },
+ {
+  "id": "358",
+  "name": "Bolton Wanderers",
+  "short": "Bolton",
+  "abbr": "BOL",
+  "location": "Bolton Wanderers"
+ },
+ {
+  "id": "333",
+  "name": "Bristol City",
+  "short": "Bristol City",
+  "abbr": "BRC",
+  "location": "Bristol City"
+ },
+ {
+  "id": "379",
+  "name": "Burnley",
+  "short": "Burnley",
+  "abbr": "BUR",
+  "location": "Burnley"
+ },
+ {
+  "id": "347",
+  "name": "Cardiff City",
+  "short": "Cardiff",
+  "abbr": "CAR",
+  "location": "Cardiff City"
+ },
+ {
+  "id": "372",
+  "name": "Charlton Athletic",
+  "short": "Charlton",
+  "abbr": "CHA",
+  "location": "Charlton Athletic"
+ },
+ {
+  "id": "374",
+  "name": "Derby County",
+  "short": "Derby",
+  "abbr": "DER",
+  "location": "Derby County"
+ },
+ {
+  "id": "314",
+  "name": "Lincoln City",
+  "short": "Lincoln City",
+  "abbr": "LCN",
+  "location": "Lincoln City"
+ },
+ {
+  "id": "369",
+  "name": "Middlesbrough",
+  "short": "Boro",
+  "abbr": "MID",
+  "location": "Middlesbrough"
+ },
+ {
+  "id": "391",
+  "name": "Millwall",
+  "short": "Millwall",
+  "abbr": "MIL",
+  "location": "Millwall"
+ },
+ {
+  "id": "381",
+  "name": "Norwich City",
+  "short": "Norwich City",
+  "abbr": "NOR",
+  "location": "Norwich City"
+ },
+ {
+  "id": "385",
+  "name": "Portsmouth",
+  "short": "Portsmouth",
+  "abbr": "POR",
+  "location": "Portsmouth"
+ },
+ {
+  "id": "394",
+  "name": "Preston North End",
+  "short": "Preston",
+  "abbr": "PNE",
+  "location": "Preston North End"
+ },
+ {
+  "id": "334",
+  "name": "Queens Park Rangers",
+  "short": "QPR",
+  "abbr": "QPR",
+  "location": "Queens Park Rangers"
+ },
+ {
+  "id": "398",
+  "name": "Sheffield United",
+  "short": "Sheffield Utd",
+  "abbr": "SHU",
+  "location": "Sheffield United"
+ },
+ {
+  "id": "376",
+  "name": "Southampton",
+  "short": "Southampton",
+  "abbr": "SOU",
+  "location": "Southampton"
+ },
+ {
+  "id": "336",
+  "name": "Stoke City",
+  "short": "Stoke",
+  "abbr": "STK",
+  "location": "Stoke City"
+ },
+ {
+  "id": "318",
+  "name": "Swansea City",
+  "short": "Swansea",
+  "abbr": "SWA",
+  "location": "Swansea City"
+ },
+ {
+  "id": "395",
+  "name": "Watford",
+  "short": "Watford",
+  "abbr": "WAT",
+  "location": "Watford"
+ },
+ {
+  "id": "383",
+  "name": "West Bromwich Albion",
+  "short": "West Brom",
+  "abbr": "WBA",
+  "location": "West Bromwich Albion"
+ },
+ {
+  "id": "371",
+  "name": "West Ham United",
+  "short": "West Ham",
+  "abbr": "WHU",
+  "location": "West Ham United"
+ },
+ {
+  "id": "380",
+  "name": "Wolverhampton Wanderers",
+  "short": "Wolves",
+  "abbr": "WOL",
+  "location": "Wolverhampton Wanderers"
+ },
+ {
+  "id": "352",
+  "name": "Wrexham",
+  "short": "Wrexham",
+  "abbr": "WXM",
+  "location": "Wrexham"
+ }
+]

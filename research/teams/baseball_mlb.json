@@ -1,0 +1,212 @@
+[
+ {
+  "id": "29",
+  "name": "Arizona Diamondbacks",
+  "short": "Diamondbacks",
+  "abbr": "ARI",
+  "location": "Arizona"
+ },
+ {
+  "id": "11",
+  "name": "Athletics",
+  "short": "Athletics",
+  "abbr": "ATH",
+  "location": "Athletics"
+ },
+ {
+  "id": "15",
+  "name": "Atlanta Braves",
+  "short": "Braves",
+  "abbr": "ATL",
+  "location": "Atlanta"
+ },
+ {
+  "id": "1",
+  "name": "Baltimore Orioles",
+  "short": "Orioles",
+  "abbr": "BAL",
+  "location": "Baltimore"
+ },
+ {
+  "id": "2",
+  "name": "Boston Red Sox",
+  "short": "Red Sox",
+  "abbr": "BOS",
+  "location": "Boston"
+ },
+ {
+  "id": "16",
+  "name": "Chicago Cubs",
+  "short": "Cubs",
+  "abbr": "CHC",
+  "location": "Chicago"
+ },
+ {
+  "id": "4",
+  "name": "Chicago White Sox",
+  "short": "White Sox",
+  "abbr": "CHW",
+  "location": "Chicago"
+ },
+ {
+  "id": "17",
+  "name": "Cincinnati Reds",
+  "short": "Reds",
+  "abbr": "CIN",
+  "location": "Cincinnati"
+ },
+ {
+  "id": "5",
+  "name": "Cleveland Guardians",
+  "short": "Guardians",
+  "abbr": "CLE",
+  "location": "Cleveland"
+ },
+ {
+  "id": "27",
+  "name": "Colorado Rockies",
+  "short": "Rockies",
+  "abbr": "COL",
+  "location": "Colorado"
+ },
+ {
+  "id": "6",
+  "name": "Detroit Tigers",
+  "short": "Tigers",
+  "abbr": "DET",
+  "location": "Detroit"
+ },
+ {
+  "id": "18",
+  "name": "Houston Astros",
+  "short": "Astros",
+  "abbr": "HOU",
+  "location": "Houston"
+ },
+ {
+  "id": "7",
+  "name": "Kansas City Royals",
+  "short": "Royals",
+  "abbr": "KC",
+  "location": "Kansas City"
+ },
+ {
+  "id": "3",
+  "name": "Los Angeles Angels",
+  "short": "Angels",
+  "abbr": "LAA",
+  "location": "Los Angeles"
+ },
+ {
+  "id": "19",
+  "name": "Los Angeles Dodgers",
+  "short": "Dodgers",
+  "abbr": "LAD",
+  "location": "Los Angeles"
+ },
+ {
+  "id": "28",
+  "name": "Miami Marlins",
+  "short": "Marlins",
+  "abbr": "MIA",
+  "location": "Miami"
+ },
+ {
+  "id": "8",
+  "name": "Milwaukee Brewers",
+  "short": "Brewers",
+  "abbr": "MIL",
+  "location": "Milwaukee"
+ },
+ {
+  "id": "9",
+  "name": "Minnesota Twins",
+  "short": "Twins",
+  "abbr": "MIN",
+  "location": "Minnesota"
+ },
+ {
+  "id": "21",
+  "name": "New York Mets",
+  "short": "Mets",
+  "abbr": "NYM",
+  "location": "New York"
+ },
+ {
+  "id": "10",
+  "name": "New York Yankees",
+  "short": "Yankees",
+  "abbr": "NYY",
+  "location": "New York"
+ },
+ {
+  "id": "22",
+  "name": "Philadelphia Phillies",
+  "short": "Phillies",
+  "abbr": "PHI",
+  "location": "Philadelphia"
+ },
+ {
+  "id": "23",
+  "name": "Pittsburgh Pirates",
+  "short": "Pirates",
+  "abbr": "PIT",
+  "location": "Pittsburgh"
+ },
+ {
+  "id": "25",
+  "name": "San Diego Padres",
+  "short": "Padres",
+  "abbr": "SD",
+  "location": "San Diego"
+ },
+ {
+  "id": "26",
+  "name": "San Francisco Giants",
+  "short": "Giants",
+  "abbr": "SF",
+  "location": "San Francisco"
+ },
+ {
+  "id": "12",
+  "name": "Seattle Mariners",
+  "short": "Mariners",
+  "abbr": "SEA",
+  "location": "Seattle"
+ },
+ {
+  "id": "24",
+  "name": "St. Louis Cardinals",
+  "short": "Cardinals",
+  "abbr": "STL",
+  "location": "St. Louis"
+ },
+ {
+  "id": "30",
+  "name": "Tampa Bay Rays",
+  "short": "Rays",
+  "abbr": "TB",
+  "location": "Tampa Bay"
+ },
+ {
+  "id": "13",
+  "name": "Texas Rangers",
+  "short": "Rangers",
+  "abbr": "TEX",
+  "location": "Texas"
+ },
+ {
+  "id": "14",
+  "name": "Toronto Blue Jays",
+  "short": "Blue Jays",
+  "abbr": "TOR",
+  "location": "Toronto"
+ },
+ {
+  "id": "20",
+  "name": "Washington Nationals",
+  "short": "Nationals",
+  "abbr": "WSH",
+  "location": "Washington"
+ }
+]

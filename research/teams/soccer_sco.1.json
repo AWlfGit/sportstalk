@@ -1,0 +1,86 @@
+[
+ {
+  "id": "263",
+  "name": "Aberdeen",
+  "short": "Aberdeen",
+  "abbr": "ABE",
+  "location": "Aberdeen"
+ },
+ {
+  "id": "256",
+  "name": "Celtic",
+  "short": "Celtic",
+  "abbr": "CEL",
+  "location": "Celtic"
+ },
+ {
+  "id": "261",
+  "name": "Dundee",
+  "short": "Dundee",
+  "abbr": "DUN",
+  "location": "Dundee"
+ },
+ {
+  "id": "264",
+  "name": "Dundee United",
+  "short": "Dundee Utd",
+  "abbr": "DUN",
+  "location": "Dundee United"
+ },
+ {
+  "id": "254",
+  "name": "Falkirk",
+  "short": "Falkirk",
+  "abbr": "FALK",
+  "location": "Falkirk"
+ },
+ {
+  "id": "262",
+  "name": "Heart of Midlothian",
+  "short": "Hearts",
+  "abbr": "HOM",
+  "location": "Heart of Midlothian"
+ },
+ {
+  "id": "258",
+  "name": "Hibernian",
+  "short": "Hibernian",
+  "abbr": "HIBS",
+  "location": "Hibernian"
+ },
+ {
+  "id": "260",
+  "name": "Kilmarnock",
+  "short": "Kilmarnock",
+  "abbr": "KIL",
+  "location": "Kilmarnock"
+ },
+ {
+  "id": "266",
+  "name": "Motherwell",
+  "short": "Motherwell",
+  "abbr": "MOT",
+  "location": "Motherwell"
+ },
+ {
+  "id": "257",
+  "name": "Rangers",
+  "short": "Rangers",
+  "abbr": "RAN",
+  "location": "Rangers"
+ },
+ {
+  "id": "267",
+  "name": "St Johnstone",
+  "short": "St Johnstone",
+  "abbr": "STJ",
+  "location": "St Johnstone"
+ },
+ {
+  "id": "250",
+  "name": "St Mirren",
+  "short": "St Mirren",
+  "abbr": "STM",
+  "location": "St Mirren"
+ }
+]

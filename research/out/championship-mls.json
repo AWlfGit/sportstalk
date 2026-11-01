@@ -1,0 +1,3799 @@
+[
+  {
+    "team": "Birmingham City",
+    "espnId": "392",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "birmingham",
+      "birmingham city",
+      "blues",
+      "brum"
+    ],
+    "nickname": "Blues",
+    "fans": "Bluenoses",
+    "ground": "St Andrew's",
+    "rivals": [
+      {
+        "team": "Aston Villa",
+        "name": "Villa",
+        "derby": "the Second City derby"
+      },
+      {
+        "team": "West Bromwich Albion",
+        "name": "West Brom",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Trevor Francis",
+      "Gil Merrick",
+      "Joe Bradford"
+    ],
+    "memory": "Beating Arsenal 2-1 at Wembley to win the League Cup in 2011",
+    "lingo": [
+      {
+        "term": "Bluenose",
+        "say": "BLOO-nohz",
+        "means": "A Birmingham City fan. Fans use it with pride."
+      },
+      {
+        "term": "Keep Right On",
+        "say": "keep RYTE on",
+        "means": "The club anthem, adapted from an old Harry Lauder song. Fans have sung it since the 1956 FA Cup run."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, Blues!",
+        "m": "The basic cheer. Locals say Blues, not Birmingham City."
+      },
+      {
+        "t": "Being a Bluenose is never boring.",
+        "m": "A wry line about the club's ups and downs. Works after any result."
+      },
+      {
+        "t": "Anything but Villa winning.",
+        "m": "Mild banter about Aston Villa, the cross-city rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "So you're a Villa fan?",
+        "instead": "I'm Blues",
+        "why": "Aston Villa are the bitter cross-city rivals. Mixing them up is the worst giveaway."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Birmingham_City_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Blackburn Rovers",
+    "espnId": "365",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "blackburn",
+      "blackburn rovers",
+      "rovers",
+      "brfc"
+    ],
+    "nickname": "Rovers",
+    "fans": "",
+    "ground": "Ewood Park",
+    "rivals": [
+      {
+        "team": "Burnley",
+        "name": "Burnley",
+        "derby": "the East Lancashire derby"
+      },
+      {
+        "team": "Bolton Wanderers",
+        "name": "Bolton",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Alan Shearer",
+      "Bob Crompton",
+      "Simon Garner"
+    ],
+    "memory": "Winning the Premier League title in 1994-95, backed by owner Jack Walker",
+    "lingo": [
+      {
+        "term": "Rovers",
+        "say": "ROH-verz",
+        "means": "What fans call the club. 'Come on Rovers' is the standard cheer."
+      },
+      {
+        "term": "Jack Walker",
+        "say": "JAK WAW-ker",
+        "means": "The local steel boss and lifelong fan whose money built the 1995 title side. Fans revere him."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, Rovers!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "We'll always have 1995.",
+        "m": "Fans point to the Premier League title when times are hard."
+      },
+      {
+        "t": "As long as we finish above Burnley.",
+        "m": "Mild banter about the East Lancashire rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Blackburn and Burnley, same thing really",
+        "instead": "Rovers and Burnley can't stand each other",
+        "why": "They're fierce East Lancashire rivals, only a few miles apart."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Blackburn_Rovers_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Bolton Wanderers",
+    "espnId": "358",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "bolton",
+      "bolton wanderers",
+      "trotters",
+      "bwfc"
+    ],
+    "nickname": "the Trotters",
+    "fans": "",
+    "ground": "the Toughsheet",
+    "rivals": [
+      {
+        "team": "Wigan Athletic",
+        "name": "Wigan",
+        "derby": ""
+      },
+      {
+        "team": "Blackburn Rovers",
+        "name": "Blackburn",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Nat Lofthouse",
+      "Kevin Davies",
+      "Jay-Jay Okocha"
+    ],
+    "memory": "Nat Lofthouse scoring both goals as Bolton beat Manchester United in the 1958 FA Cup final",
+    "lingo": [
+      {
+        "term": "the Trotters",
+        "say": "the TROT-erz",
+        "means": "The club nickname. Fans also say Wanderers or the Whites."
+      },
+      {
+        "term": "the Lion of Vienna",
+        "say": "the LY-un of vee-EN-uh",
+        "means": "Nickname for Nat Lofthouse, after a brave England goal in Vienna in 1952."
+      },
+      {
+        "term": "the Reebok",
+        "say": "the REE-bok",
+        "means": "The ground's original name from 1997. It's now the Toughsheet Community Stadium, but many fans still say the Reebok."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Whites!",
+        "m": "Bolton play in white, so fans call the team the Whites."
+      },
+      {
+        "t": "Lofthouse would never have stood for that.",
+        "m": "Fans invoke the club's greatest striker when the team lacks fight."
+      },
+      {
+        "t": "Anyone but Wigan.",
+        "m": "Mild banter about Wigan Athletic, the modern local rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Up the Wolves",
+        "instead": "Come on, Bolton",
+        "why": "Wolves are a different set of Wanderers. Bolton fans won't thank you for the mix-up."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bolton_Wanderers_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Bristol City",
+    "espnId": "333",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "bristol city",
+      "bristol",
+      "robins",
+      "the robins"
+    ],
+    "nickname": "the Robins",
+    "fans": "",
+    "ground": "Ashton Gate",
+    "rivals": [
+      {
+        "team": "Bristol Rovers",
+        "name": "the Gas",
+        "derby": "the Bristol derby"
+      },
+      {
+        "team": "Cardiff City",
+        "name": "Cardiff",
+        "derby": "the Severnside derby"
+      }
+    ],
+    "legends": [
+      "John Atyeo",
+      "Louis Carey",
+      "Tom Ritchie"
+    ],
+    "memory": "Knocking Manchester United out of the League Cup on the way to the 2017-18 semi-finals",
+    "lingo": [
+      {
+        "term": "the Gas",
+        "say": "the GAS",
+        "means": "City fans' name for Bristol Rovers. Rovers fans are Gasheads."
+      },
+      {
+        "term": "Cider Army",
+        "say": "SY-der AR-mee",
+        "means": "A nickname for City's fans, a nod to the West Country's cider."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, City!",
+        "m": "The basic cheer. In Bristol, City means the Robins."
+      },
+      {
+        "t": "Ashton Gate's rocking tonight.",
+        "m": "Said when the home crowd is loud, especially under the lights."
+      },
+      {
+        "t": "Anyone but the Gas.",
+        "m": "Mild banter about Bristol Rovers, the cross-city rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Bristol Rovers play at Ashton Gate",
+        "instead": "Ashton Gate is City's; Rovers play at the Memorial Stadium",
+        "why": "Mixing up the two Bristol clubs is the classic outsider error."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bristol_City_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Burnley",
+    "espnId": "379",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "burnley",
+      "clarets",
+      "the clarets",
+      "burnley fc"
+    ],
+    "nickname": "the Clarets",
+    "fans": "Clarets",
+    "ground": "Turf Moor",
+    "rivals": [
+      {
+        "team": "Blackburn Rovers",
+        "name": "Rovers",
+        "derby": "the East Lancashire derby"
+      }
+    ],
+    "legends": [
+      "Jimmy McIlroy",
+      "Jimmy Adamson",
+      "Jerry Dawson"
+    ],
+    "memory": "Winning the First Division title in 1959-60",
+    "lingo": [
+      {
+        "term": "the Turf",
+        "say": "the TURF",
+        "means": "Turf Moor, the club's home since 1883."
+      },
+      {
+        "term": "Up the Clarets",
+        "say": "up the KLAR-its",
+        "means": "The standard rallying cry, named after the claret shirts."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Up the Clarets!",
+        "m": "The classic Burnley cheer."
+      },
+      {
+        "t": "Nobody likes coming to the Turf on a cold night.",
+        "m": "Fans are proud of how tough their old ground is for visitors."
+      },
+      {
+        "t": "At least we're not Blackburn.",
+        "m": "Mild banter about the East Lancashire rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Burnley's part of Manchester, isn't it?",
+        "instead": "Burnley's in East Lancashire",
+        "why": "It's a proud Lancashire town with its own identity."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Burnley_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Cardiff City",
+    "espnId": "347",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "cardiff",
+      "cardiff city",
+      "bluebirds",
+      "the bluebirds"
+    ],
+    "nickname": "the Bluebirds",
+    "fans": "",
+    "ground": "Cardiff City Stadium",
+    "rivals": [
+      {
+        "team": "Swansea City",
+        "name": "Swansea",
+        "derby": "the South Wales derby"
+      },
+      {
+        "team": "Bristol City",
+        "name": "Bristol City",
+        "derby": "the Severnside derby"
+      }
+    ],
+    "legends": [
+      "Fred Keenor",
+      "Billy Hardy",
+      "Len Davies"
+    ],
+    "memory": "Winning the 1927 FA Cup, the only time a club from outside England has won it",
+    "lingo": [
+      {
+        "term": "the Bluebirds",
+        "say": "the BLOO-burdz",
+        "means": "The club nickname. In Welsh it's Yr Adar Gleision."
+      },
+      {
+        "term": "Ninian Park",
+        "say": "NIN-ee-un PARK",
+        "means": "The old ground, home from 1910 to 2009. Older fans still talk about it."
+      }
+    ],
+    "lines": [
+      {
+        "t": "We're the only ones who took the Cup out of England.",
+        "m": "Fans' proudest boast, about the 1927 FA Cup win."
+      },
+      {
+        "t": "Come on, Cardiff!",
+        "m": "The basic cheer."
+      },
+      {
+        "t": "Swansea's the first fixture I look for.",
+        "m": "The South Wales derby is the game every fan circles."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Cardiff are an English club",
+        "instead": "Cardiff are a Welsh club in the English league",
+        "why": "Fans are proudly Welsh."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cardiff_City_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Charlton Athletic",
+    "espnId": "372",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "charlton",
+      "charlton athletic",
+      "addicks",
+      "the addicks",
+      "cafc"
+    ],
+    "nickname": "the Addicks",
+    "fans": "Addicks",
+    "ground": "the Valley",
+    "rivals": [
+      {
+        "team": "Crystal Palace",
+        "name": "Palace",
+        "derby": "the South London derby"
+      },
+      {
+        "team": "Millwall",
+        "name": "Millwall",
+        "derby": "the South London derby"
+      }
+    ],
+    "legends": [
+      "Sam Bartram",
+      "Derek Hales",
+      "Clive Mendonca"
+    ],
+    "memory": "Beating Sunderland on penalties after a 4-4 draw in the 1998 play-off final",
+    "lingo": [
+      {
+        "term": "Addicks",
+        "say": "AD-iks",
+        "means": "Nickname for the club and fans. It comes from haddock: a local fishmonger used to treat the team to fish and chips."
+      },
+      {
+        "term": "Back to the Valley",
+        "say": "BAK to the VAL-ee",
+        "means": "The fans' campaign that brought the club home in 1992 after years of ground-sharing."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Addicks!",
+        "m": "The classic rallying cry."
+      },
+      {
+        "t": "We fought to get back to the Valley.",
+        "m": "Fans are proud they campaigned to bring the club home in 1992."
+      },
+      {
+        "t": "Beating Palace never gets old.",
+        "m": "Mild banter about Crystal Palace, the South London rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Addicts",
+        "instead": "the Addicks",
+        "why": "It comes from haddock, not addiction. Getting it wrong is a giveaway."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Charlton_Athletic_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Derby County",
+    "espnId": "374",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "derby",
+      "derby county",
+      "rams",
+      "the rams",
+      "dcfc"
+    ],
+    "nickname": "the Rams",
+    "fans": "",
+    "ground": "Pride Park",
+    "rivals": [
+      {
+        "team": "Nottingham Forest",
+        "name": "Forest",
+        "derby": "the East Midlands derby"
+      },
+      {
+        "team": "Leicester City",
+        "name": "Leicester",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Steve Bloomer",
+      "Kevin Hector",
+      "Roy McFarland"
+    ],
+    "memory": "Winning the league title in 1971-72 under Brian Clough, and again in 1974-75",
+    "lingo": [
+      {
+        "term": "the Rams",
+        "say": "the RAMZ",
+        "means": "The club nickname, linked to the old local song 'The Derby Ram'."
+      },
+      {
+        "term": "the Brian Clough Trophy",
+        "say": "the BRY-un KLUF TROH-fee",
+        "means": "The prize for winning the East Midlands derby. Clough managed both Derby and Forest."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Rams!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "Clough won the league here first.",
+        "m": "Fans remind Forest that Clough's first title came at Derby."
+      },
+      {
+        "t": "Forest week is the only week that matters.",
+        "m": "Mild banter about Nottingham Forest."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "DUR-bee County",
+        "instead": "DAR-bee County",
+        "why": "In England, Derby rhymes with 'car'. The American way gives you away."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Derby_County_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Lincoln City",
+    "espnId": "314",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "lincoln",
+      "lincoln city",
+      "imps",
+      "the imps"
+    ],
+    "nickname": "the Imps",
+    "fans": "Imps",
+    "ground": "Sincil Bank",
+    "rivals": [
+      {
+        "team": "Grimsby Town",
+        "name": "Grimsby",
+        "derby": "the Lincolnshire derby"
+      },
+      {
+        "team": "Scunthorpe United",
+        "name": "Scunthorpe",
+        "derby": "the Lincolnshire derby"
+      }
+    ],
+    "legends": [
+      "Andy Graver",
+      "Grant Brown"
+    ],
+    "memory": "Reaching the FA Cup quarter-finals as a non-league side in 2017",
+    "lingo": [
+      {
+        "term": "the Imps",
+        "say": "the IMPS",
+        "means": "The nickname, after the Lincoln Imp, a famous stone carving in Lincoln Cathedral."
+      },
+      {
+        "term": "Sincil Bank",
+        "say": "SIN-sil BANK",
+        "means": "The ground, home since 1895. It has had sponsor names, but fans just say Sincil Bank."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Up the Imps!",
+        "m": "The standard rallying cry."
+      },
+      {
+        "t": "Remember 2017? Non-league, and we made the quarter-finals.",
+        "m": "Fans love retelling the famous FA Cup run."
+      },
+      {
+        "t": "Anyone but Grimsby.",
+        "m": "Mild banter about the Lincolnshire rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "LIN-coln, saying the second L",
+        "instead": "LING-kun",
+        "why": "The second L is silent."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lincoln_City_F.C."
+    ],
+    "unsure": [
+      "ground: sponsor name has changed more than once (LNER Stadium, now listed as ProAmpac Stadium); fans say Sincil Bank"
+    ]
+  },
+  {
+    "team": "Middlesbrough",
+    "espnId": "369",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "middlesbrough",
+      "boro",
+      "the boro",
+      "middlesbrough fc"
+    ],
+    "nickname": "Boro",
+    "fans": "Smoggies",
+    "ground": "the Riverside",
+    "rivals": [
+      {
+        "team": "Sunderland",
+        "name": "Sunderland",
+        "derby": "the Tees-Wear derby"
+      },
+      {
+        "team": "Newcastle United",
+        "name": "Newcastle",
+        "derby": "the Tyne-Tees derby"
+      },
+      {
+        "team": "Leeds United",
+        "name": "Leeds",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "George Camsell",
+      "Wilf Mannion",
+      "Juninho"
+    ],
+    "memory": "Winning the League Cup in 2004, the club's first major trophy",
+    "lingo": [
+      {
+        "term": "Boro",
+        "say": "BUH-ruh",
+        "means": "What everyone calls the club."
+      },
+      {
+        "term": "Smoggies",
+        "say": "SMOG-eez",
+        "means": "Nickname for Teessiders, from the area's industrial smog. Rivals started it, but many Boro fans wear it with pride."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Up the Boro!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "We'll always have Cardiff 2004.",
+        "m": "The 2004 League Cup final was played in Cardiff. Boro won it."
+      },
+      {
+        "t": "Nothing beats a night game at the Riverside.",
+        "m": "Fans love the atmosphere under the lights."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Middlesborough",
+        "instead": "Middlesbrough",
+        "why": "There's no 'o' before the 'b'. Fans hate the misspelling."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Middlesbrough_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Millwall",
+    "espnId": "391",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "millwall",
+      "lions",
+      "the lions",
+      "millwall fc"
+    ],
+    "nickname": "the Lions",
+    "fans": "",
+    "ground": "the Den",
+    "rivals": [
+      {
+        "team": "West Ham United",
+        "name": "West Ham",
+        "derby": "the Dockers derby"
+      },
+      {
+        "team": "Crystal Palace",
+        "name": "Palace",
+        "derby": "the South London derby"
+      },
+      {
+        "team": "Leeds United",
+        "name": "Leeds",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Barry Kitchener",
+      "Teddy Sheringham",
+      "Tony Cascarino"
+    ],
+    "memory": "Reaching the FA Cup final for the first time in 2004",
+    "lingo": [
+      {
+        "term": "the Den",
+        "say": "the DEN",
+        "means": "The ground in south-east London. Fans are proud of how hostile it feels for visitors."
+      },
+      {
+        "term": "the Lions",
+        "say": "the LY-unz",
+        "means": "The club nickname, from the lions on the badge."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Lions!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "The Den's not meant to be a nice day out for the away side.",
+        "m": "Fans take pride in the ground's fierce atmosphere."
+      },
+      {
+        "t": "Beat West Ham and the season's made.",
+        "m": "The Dockers derby with West Ham is the big one."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Millwall and West Ham, both East London clubs",
+        "instead": "Millwall are south of the river; West Ham are East London",
+        "why": "The rivals sit on opposite sides of the Thames."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Millwall_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Norwich City",
+    "espnId": "381",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "norwich",
+      "norwich city",
+      "canaries",
+      "the canaries",
+      "ncfc"
+    ],
+    "nickname": "the Canaries",
+    "fans": "",
+    "ground": "Carrow Road",
+    "rivals": [
+      {
+        "team": "Ipswich Town",
+        "name": "Ipswich",
+        "derby": "the East Anglian derby"
+      }
+    ],
+    "legends": [
+      "Iwan Roberts",
+      "Darren Huckerby",
+      "Bryan Gunn"
+    ],
+    "memory": "Winning 2-1 away at Bayern Munich in the UEFA Cup in 1993",
+    "lingo": [
+      {
+        "term": "On the Ball, City",
+        "say": "on the BAWL, SIT-ee",
+        "means": "The club song, thought to be the oldest football song still sung."
+      },
+      {
+        "term": "the Old Farm",
+        "say": "the OHLD FARM",
+        "means": "A joking name for the derby with Ipswich, a nod to Glasgow's Old Firm."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Let's be 'avin' you!",
+        "m": "Delia Smith's famous 2005 half-time rallying call. Fans quote it fondly."
+      },
+      {
+        "t": "Come on, you Yellows!",
+        "m": "The team plays in yellow and green."
+      },
+      {
+        "t": "Finish above Ipswich and it's a good season.",
+        "m": "Mild East Anglian derby banter."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "NOR-witch",
+        "instead": "NORR-idge",
+        "why": "The 'w' is silent. It rhymes with 'porridge'."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Norwich_City_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Portsmouth",
+    "espnId": "385",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "portsmouth",
+      "pompey",
+      "portsmouth fc"
+    ],
+    "nickname": "Pompey",
+    "fans": "",
+    "ground": "Fratton Park",
+    "rivals": [
+      {
+        "team": "Southampton",
+        "name": "Southampton",
+        "derby": "the South Coast derby"
+      }
+    ],
+    "legends": [
+      "Jimmy Dickinson",
+      "Peter Harris",
+      "Alan Knight"
+    ],
+    "memory": "Kanu's goal beating Cardiff in the 2008 FA Cup final",
+    "lingo": [
+      {
+        "term": "Pompey",
+        "say": "POM-pee",
+        "means": "The nickname for both the club and the city."
+      },
+      {
+        "term": "the Pompey Chimes",
+        "say": "the POM-pee CHYMZ",
+        "means": "The fans' signature chant, one of the oldest in football. It's sung slowly, like a clock chiming."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Fratton's bouncing tonight.",
+        "m": "Said when the old ground is loud."
+      },
+      {
+        "t": "2008, FA Cup winners. Nobody can take that away.",
+        "m": "Fans' proudest modern memory."
+      },
+      {
+        "t": "Never say a nice word about Southampton.",
+        "m": "Rule number one on the South Coast."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "I quite like Southampton too",
+        "instead": "keep quiet about Southampton",
+        "why": "The South Coast derby is fiercely bitter."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Portsmouth_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Preston North End",
+    "espnId": "394",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "preston",
+      "preston north end",
+      "pne",
+      "north end",
+      "lilywhites"
+    ],
+    "nickname": "North End",
+    "fans": "",
+    "ground": "Deepdale",
+    "rivals": [
+      {
+        "team": "Blackpool",
+        "name": "Blackpool",
+        "derby": "the West Lancashire derby"
+      },
+      {
+        "team": "Burnley",
+        "name": "Burnley",
+        "derby": ""
+      },
+      {
+        "team": "Blackburn Rovers",
+        "name": "Blackburn",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Sir Tom Finney",
+      "Alan Kelly",
+      "Bill Shankly"
+    ],
+    "memory": "The 1888-89 Invincibles: first ever league champions, unbeaten Double winners",
+    "lingo": [
+      {
+        "term": "PNE",
+        "say": "pee-en-EE",
+        "means": "The club's initials. Fans use them all the time."
+      },
+      {
+        "term": "the Invincibles",
+        "say": "the in-VIN-sih-bulz",
+        "means": "The unbeaten 1888-89 side. Preston had the name long before Arsenal."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, North End!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "We were the original Invincibles.",
+        "m": "A favourite reply when anyone mentions Arsenal's 2004 side."
+      },
+      {
+        "t": "Deepdale's the oldest league ground in the world.",
+        "m": "Fans are proud the club has played there since 1875."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Preston City",
+        "instead": "Preston North End, or just North End",
+        "why": "There's no 'City'. North End is what fans actually say."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Preston_North_End_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Queens Park Rangers",
+    "espnId": "334",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "qpr",
+      "queens park rangers",
+      "rangers",
+      "hoops",
+      "the rs"
+    ],
+    "nickname": "the Rs",
+    "fans": "",
+    "ground": "Loftus Road",
+    "rivals": [
+      {
+        "team": "Chelsea",
+        "name": "Chelsea",
+        "derby": "the West London derby"
+      },
+      {
+        "team": "Fulham",
+        "name": "Fulham",
+        "derby": "the West London derby"
+      },
+      {
+        "team": "Brentford",
+        "name": "Brentford",
+        "derby": "the West London derby"
+      }
+    ],
+    "legends": [
+      "Stan Bowles",
+      "Gerry Francis",
+      "Les Ferdinand"
+    ],
+    "memory": "Bobby Zamora's last-minute winner against Derby in the 2014 play-off final",
+    "lingo": [
+      {
+        "term": "the Rs",
+        "say": "the ARZ",
+        "means": "What fans call the club. 'Come on you Rs' is the cheer."
+      },
+      {
+        "term": "the Hoops",
+        "say": "the HOOPS",
+        "means": "Nickname from the blue-and-white hooped shirts."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Rs!",
+        "m": "The classic QPR cheer. Say it 'Arrs'."
+      },
+      {
+        "t": "Loftus Road's tight, but it's home.",
+        "m": "Fans love their small, close-up ground in Shepherd's Bush."
+      },
+      {
+        "t": "Zamora, 2014. Never gets old.",
+        "m": "Recalling the last-minute play-off final winner."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "QPR, the Scottish club",
+        "instead": "QPR, from West London",
+        "why": "Queen's Park and Rangers are separate Scottish clubs. QPR are from Shepherd's Bush."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Sheffield United",
+    "espnId": "398",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "sheffield united",
+      "sheff utd",
+      "sheffield utd",
+      "blades",
+      "the blades",
+      "sufc"
+    ],
+    "nickname": "the Blades",
+    "fans": "Blades",
+    "ground": "Bramall Lane",
+    "rivals": [
+      {
+        "team": "Sheffield Wednesday",
+        "name": "Wednesday",
+        "derby": "the Steel City derby"
+      }
+    ],
+    "legends": [
+      "Tony Currie",
+      "Brian Deane",
+      "Billy Gillespie"
+    ],
+    "memory": "Brian Deane scoring the first ever Premier League goal, for United, in 1992",
+    "lingo": [
+      {
+        "term": "the Blades",
+        "say": "the BLAYDZ",
+        "means": "The nickname, from Sheffield's steel and cutlery trade."
+      },
+      {
+        "term": "the Greasy Chip Butty Song",
+        "say": "the GREE-see CHIP BUT-ee song",
+        "means": "The fans' anthem, sung to the tune of John Denver's 'Annie's Song'."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Up the Blades!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "Bramall Lane's been here since 1855.",
+        "m": "Fans are proud it's one of the oldest grounds in the world."
+      },
+      {
+        "t": "Wednesday? Never heard of 'em.",
+        "m": "Mild Steel City derby banter."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Sheffield are",
+        "instead": "United are, or the Blades are",
+        "why": "There are two Sheffield clubs. Fans never just say 'Sheffield'."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sheffield_United_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Southampton",
+    "espnId": "376",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "southampton",
+      "saints",
+      "the saints",
+      "southampton fc"
+    ],
+    "nickname": "the Saints",
+    "fans": "",
+    "ground": "St Mary's",
+    "rivals": [
+      {
+        "team": "Portsmouth",
+        "name": "Pompey",
+        "derby": "the South Coast derby"
+      }
+    ],
+    "legends": [
+      "Matt Le Tissier",
+      "Mick Channon",
+      "Terry Paine"
+    ],
+    "memory": "Bobby Stokes' goal beating Manchester United in the 1976 FA Cup final",
+    "lingo": [
+      {
+        "term": "Le God",
+        "say": "luh GOD",
+        "means": "Fans' nickname for Matt Le Tissier."
+      },
+      {
+        "term": "the Dell",
+        "say": "the DELL",
+        "means": "The old ground, home until 2001. Older fans still miss it."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Saints!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "There'll never be another Le Tiss.",
+        "m": "Fans' love for Matt Le Tissier, who stayed loyal his whole career."
+      },
+      {
+        "t": "Pompey week is the only week that counts.",
+        "m": "Mild South Coast derby banter."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Southampton play at the Dell",
+        "instead": "St Mary's",
+        "why": "The club left the Dell in 2001."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Southampton_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Stoke City",
+    "espnId": "336",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "stoke",
+      "stoke city",
+      "potters",
+      "the potters",
+      "scfc"
+    ],
+    "nickname": "the Potters",
+    "fans": "",
+    "ground": "the bet365 Stadium",
+    "rivals": [
+      {
+        "team": "Port Vale",
+        "name": "Vale",
+        "derby": "the Potteries derby"
+      },
+      {
+        "team": "West Bromwich Albion",
+        "name": "West Brom",
+        "derby": ""
+      },
+      {
+        "team": "Wolverhampton Wanderers",
+        "name": "Wolves",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Sir Stanley Matthews",
+      "Gordon Banks"
+    ],
+    "memory": "Beating Chelsea at Wembley to win the 1972 League Cup, the club's first major trophy",
+    "lingo": [
+      {
+        "term": "Delilah",
+        "say": "dih-LY-luh",
+        "means": "The Tom Jones song fans adopted as their anthem in the 1970s."
+      },
+      {
+        "term": "duck",
+        "say": "DUK",
+        "means": "Potteries word for 'mate' or 'love', as in 'ay up, duck'."
+      },
+      {
+        "term": "the Brit",
+        "say": "the BRIT",
+        "means": "Short for the Britannia Stadium, the ground's name until 2016. Some fans still use it."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Ay up, duck.",
+        "m": "A friendly Potteries hello. Use it to sound local."
+      },
+      {
+        "t": "Come on, you Potters!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "Let's see them do it on a cold, wet night in Stoke.",
+        "m": "A famous football saying Stoke fans enjoy. Talent is easy; toughness is hard."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Stoke-on-Trent City",
+        "instead": "Stoke City, or just Stoke",
+        "why": "The club is Stoke City. Fans just say Stoke."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stoke_City_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Swansea City",
+    "espnId": "318",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "swansea",
+      "swansea city",
+      "swans",
+      "the swans",
+      "jacks"
+    ],
+    "nickname": "the Swans",
+    "fans": "Jacks",
+    "ground": "the Swansea.com Stadium",
+    "rivals": [
+      {
+        "team": "Cardiff City",
+        "name": "Cardiff",
+        "derby": "the South Wales derby"
+      },
+      {
+        "team": "Bristol City",
+        "name": "Bristol City",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Ivor Allchurch",
+      "John Toshack",
+      "Leon Britton"
+    ],
+    "memory": "Beating Bradford City 5-0 at Wembley to win the 2013 League Cup, the club's first major trophy",
+    "lingo": [
+      {
+        "term": "Jacks",
+        "say": "JAKS",
+        "means": "Swansea people and fans. They use it with pride."
+      },
+      {
+        "term": "Yr Elyrch",
+        "say": "ur EL-urkh",
+        "means": "Welsh for 'the Swans'."
+      },
+      {
+        "term": "the Liberty",
+        "say": "the LIB-er-tee",
+        "means": "The ground's name until 2021. Plenty of fans still call it that."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Swans!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "Wembley 2013, best day of my life.",
+        "m": "The League Cup win, the club's first major trophy."
+      },
+      {
+        "t": "Beat Cardiff and I'm happy.",
+        "m": "Mild South Wales derby banter."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Swansea's in England",
+        "instead": "Swansea's in Wales",
+        "why": "Swansea are a Welsh club playing in the English league."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Swansea_City_A.F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Watford",
+    "espnId": "395",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "watford",
+      "hornets",
+      "the hornets",
+      "watford fc"
+    ],
+    "nickname": "the Hornets",
+    "fans": "",
+    "ground": "Vicarage Road",
+    "rivals": [
+      {
+        "team": "Luton Town",
+        "name": "Luton",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Luther Blissett",
+      "John Barnes",
+      "Ross Jenkins"
+    ],
+    "memory": "Finishing second in the First Division in 1982-83 under Graham Taylor, with Elton John as chairman",
+    "lingo": [
+      {
+        "term": "the 'Orns",
+        "say": "the AWNZ",
+        "means": "Local way of saying the Hornets, dropping the H."
+      },
+      {
+        "term": "the Vic",
+        "say": "the VIK",
+        "means": "Short for Vicarage Road, home since 1922."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you 'Orns!",
+        "m": "The classic Watford cheer, H dropped."
+      },
+      {
+        "t": "Graham Taylor took us from the Fourth Division to the First.",
+        "m": "Fans revere the late manager who built the club."
+      },
+      {
+        "t": "Anyone but Luton.",
+        "m": "Mild banter about the old rivals up the road."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Watford's in London",
+        "instead": "Watford's in Hertfordshire",
+        "why": "It's just outside London, and fans don't like being lumped in."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Watford_F.C."
+    ],
+    "unsure": [
+      "rivals: the Luton rivalry has no settled derby name"
+    ]
+  },
+  {
+    "team": "West Bromwich Albion",
+    "espnId": "383",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "west brom",
+      "west bromwich albion",
+      "wba",
+      "baggies",
+      "albion"
+    ],
+    "nickname": "the Baggies",
+    "fans": "Baggies",
+    "ground": "the Hawthorns",
+    "rivals": [
+      {
+        "team": "Wolverhampton Wanderers",
+        "name": "Wolves",
+        "derby": "the Black Country derby"
+      },
+      {
+        "team": "Aston Villa",
+        "name": "Villa",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Tony Brown",
+      "Jeff Astle",
+      "Cyrille Regis"
+    ],
+    "memory": "Jeff Astle's extra-time winner in the 1968 FA Cup final",
+    "lingo": [
+      {
+        "term": "Boing Boing",
+        "say": "BOYNG BOYNG",
+        "means": "The fans' bounce after goals, a tradition since 1992-93."
+      },
+      {
+        "term": "the Throstles",
+        "say": "the THROS-ulz",
+        "means": "An older nickname, from the thrush on the badge."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Baggies!",
+        "m": "The standard cheer."
+      },
+      {
+        "t": "Astle was the King.",
+        "m": "Fans still call Jeff Astle the King of the Hawthorns."
+      },
+      {
+        "t": "Beat Wolves and the season's a success.",
+        "m": "Mild Black Country derby banter."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "West BROM-witch",
+        "instead": "West Brom",
+        "why": "Locals just say West Brom. The full town name is said 'BROM-idge'."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "West Ham United",
+    "espnId": "371",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "west ham",
+      "west ham united",
+      "hammers",
+      "the hammers",
+      "irons",
+      "whu"
+    ],
+    "nickname": "the Hammers",
+    "fans": "",
+    "ground": "the London Stadium",
+    "rivals": [
+      {
+        "team": "Millwall",
+        "name": "Millwall",
+        "derby": "the Dockers derby"
+      },
+      {
+        "team": "Tottenham Hotspur",
+        "name": "Spurs",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Bobby Moore",
+      "Geoff Hurst",
+      "Trevor Brooking",
+      "Billy Bonds"
+    ],
+    "memory": "Winning the Europa Conference League in Prague in 2023",
+    "lingo": [
+      {
+        "term": "COYI",
+        "say": "KOY-ee",
+        "means": "Short for 'Come on you Irons', the classic West Ham cry."
+      },
+      {
+        "term": "Bubbles",
+        "say": "BUB-ulz",
+        "means": "Short for 'I'm Forever Blowing Bubbles', the club anthem."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, you Irons!",
+        "m": "The classic cheer. 'Irons' comes from the club's Thames Ironworks roots."
+      },
+      {
+        "t": "The Academy of Football.",
+        "m": "Fans' proud name for the youth system that produced Moore, Hurst and Peters."
+      },
+      {
+        "t": "West Ham won the World Cup in '66.",
+        "m": "A cheeky boast: three of England's winners were West Ham players."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "West Ham play at Upton Park",
+        "instead": "the London Stadium",
+        "why": "The club left the Boleyn Ground in 2016."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/West_Ham_United_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Wolverhampton Wanderers",
+    "espnId": "380",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "wolves",
+      "wolverhampton",
+      "wolverhampton wanderers",
+      "wwfc"
+    ],
+    "nickname": "Wolves",
+    "fans": "",
+    "ground": "Molineux",
+    "rivals": [
+      {
+        "team": "West Bromwich Albion",
+        "name": "West Brom",
+        "derby": "the Black Country derby"
+      },
+      {
+        "team": "Aston Villa",
+        "name": "Villa",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Billy Wright",
+      "Steve Bull",
+      "Derek Dougan"
+    ],
+    "memory": "The floodlit win over Honvéd at Molineux in 1954, when papers hailed Wolves as 'champions of the world'",
+    "lingo": [
+      {
+        "term": "Molineux",
+        "say": "MOL-in-yoo",
+        "means": "The home ground since 1889."
+      },
+      {
+        "term": "Old Gold",
+        "say": "OHLD GOHLD",
+        "means": "The club's famous shirt colour, and a nickname for the team."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Come on, Wolves!",
+        "m": "The standard cheer. Fans say Wolves, not Wolverhampton."
+      },
+      {
+        "t": "Steve Bull could've gone anywhere, but he stayed.",
+        "m": "Fans love the record scorer's loyalty."
+      },
+      {
+        "t": "Albion? Never liked 'em.",
+        "m": "Mild Black Country derby banter about West Brom."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "MOL-in-oh",
+        "instead": "MOL-in-yoo",
+        "why": "The name looks French, but everyone in Wolverhampton says 'MOL-in-yoo'."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Wrexham",
+    "espnId": "352",
+    "league": "soccer/eng.2",
+    "aliases": [
+      "wrexham",
+      "wrexham afc",
+      "red dragons",
+      "the red dragons"
+    ],
+    "nickname": "the Red Dragons",
+    "fans": "",
+    "ground": "the Racecourse",
+    "rivals": [
+      {
+        "team": "Chester",
+        "name": "Chester",
+        "derby": "the cross-border derby"
+      },
+      {
+        "team": "Shrewsbury Town",
+        "name": "Shrewsbury",
+        "derby": ""
+      },
+      {
+        "team": "Tranmere Rovers",
+        "name": "Tranmere",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Arfon Griffiths",
+      "Joey Jones",
+      "Mickey Thomas"
+    ],
+    "memory": "Knocking league champions Arsenal out of the FA Cup in 1992",
+    "lingo": [
+      {
+        "term": "Cae Ras",
+        "say": "ky RAHS",
+        "means": "Welsh name for the Racecourse Ground. Its sponsored name is STōK Cae Ras."
+      },
+      {
+        "term": "the Racecourse",
+        "say": "the RAYS-korss",
+        "means": "The ground: the world's oldest international stadium still in use."
+      }
+    ],
+    "lines": [
+      {
+        "t": "We were here long before Hollywood found us.",
+        "m": "Long-time fans remind newcomers the club dates back to 1864."
+      },
+      {
+        "t": "Mickey Thomas, that free kick, 1992.",
+        "m": "The famous goal that helped knock out Arsenal."
+      },
+      {
+        "t": "Chester can stay over the border.",
+        "m": "Mild banter about the cross-border rivals in England."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "WREX-ham, saying the W",
+        "instead": "REK-sum",
+        "why": "The W is silent and the H is barely there."
+      },
+      {
+        "say": "Wrexham are an English club",
+        "instead": "Wrexham are a Welsh club",
+        "why": "They're Wales' oldest club, playing in the English league."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wrexham_A.F.C."
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Atlanta United FC",
+    "espnId": "18418",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "atlanta",
+      "atlanta united",
+      "atl utd",
+      "atlutd",
+      "five stripes"
+    ],
+    "nickname": "the Five Stripes",
+    "fans": "the 17s",
+    "ground": "Mercedes-Benz Stadium",
+    "rivals": [
+      {
+        "team": "Orlando City SC",
+        "name": "Orlando",
+        "derby": ""
+      },
+      {
+        "team": "Nashville SC",
+        "name": "Nashville",
+        "derby": ""
+      },
+      {
+        "team": "Charlotte FC",
+        "name": "Charlotte",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Brad Guzan",
+      "Michael Parkhurst"
+    ],
+    "memory": "Winning MLS Cup at home in 2018, in front of a record crowd",
+    "lingo": [
+      {
+        "term": "the Golden Spike",
+        "say": "the GOHL-dun SPYK",
+        "means": "Pre-game ritual: a golden railroad spike is hammered in, a nod to Atlanta's railway roots."
+      },
+      {
+        "term": "the 17s",
+        "say": "the SEV-en-teenz",
+        "means": "A name for the fans, after 2017, the club's first season."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Unite and conquer!",
+        "m": "The club's motto, used as a rallying cry."
+      },
+      {
+        "t": "Nobody fills a stadium like Atlanta.",
+        "m": "Fans are proud of the club's huge crowds."
+      },
+      {
+        "t": "Beating Orlando is always sweet.",
+        "m": "Mild banter about the club's traditional rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Atlanta FC",
+        "instead": "Atlanta United, or ATL UTD",
+        "why": "The club is Atlanta United. Fans write it ATLUTD."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Atlanta_United_FC"
+    ],
+    "unsure": [
+      "lines: 'Unite and conquer' motto is from memory; not confirmed on Wikipedia"
+    ]
+  },
+  {
+    "team": "Austin FC",
+    "espnId": "20906",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "austin",
+      "austin fc",
+      "atx",
+      "el tree"
+    ],
+    "nickname": "Los Verdes",
+    "fans": "",
+    "ground": "Q2 Stadium",
+    "rivals": [
+      {
+        "team": "Houston Dynamo FC",
+        "name": "Houston",
+        "derby": "Copa Tejas"
+      },
+      {
+        "team": "FC Dallas",
+        "name": "Dallas",
+        "derby": "Copa Tejas"
+      }
+    ],
+    "legends": [],
+    "memory": "Reaching the Western Conference final in only their second season, 2022",
+    "lingo": [
+      {
+        "term": "El Tree",
+        "say": "el TREE",
+        "means": "Fans' nickname for the club, after the oak tree on the crest."
+      },
+      {
+        "term": "Verde",
+        "say": "VAIR-day",
+        "means": "Spanish for green, the club colour. Fans talk about 'the Verde and Black'. Los Verdes is also a supporters' group."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Copa Tejas belongs in Austin.",
+        "m": "The Copa Tejas goes to the best MLS team in Texas."
+      },
+      {
+        "t": "Verde and Black, always.",
+        "m": "A simple badge of loyalty, using the club colours."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Austin are the old Columbus Crew",
+        "instead": "Austin FC are a new club, born in 2021",
+        "why": "The Crew stayed in Columbus after fans fought a move. Austin started from scratch."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Austin_FC"
+    ],
+    "unsure": [
+      "legends: club founded in 2021; no retired greats confirmed",
+      "lingo: the 'Listos' slogan could not be confirmed, so it is left out"
+    ]
+  },
+  {
+    "team": "CF Montréal",
+    "espnId": "9720",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "montreal",
+      "montréal",
+      "cf montreal",
+      "cfm",
+      "impact",
+      "montreal impact"
+    ],
+    "nickname": "l'Impact",
+    "fans": "",
+    "ground": "Stade Saputo",
+    "rivals": [
+      {
+        "team": "Toronto FC",
+        "name": "Toronto",
+        "derby": "the Canadian Classique"
+      },
+      {
+        "team": "Vancouver Whitecaps",
+        "name": "Vancouver",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Patrice Bernier",
+      "Marco Di Vaio",
+      "Didier Drogba"
+    ],
+    "memory": "Reaching the CONCACAF Champions League final in 2015, as the Montreal Impact",
+    "lingo": [
+      {
+        "term": "l'Impact",
+        "say": "lam-PAKT",
+        "means": "The club's name until 2021. Many fans still use it and want it back."
+      },
+      {
+        "term": "Allez Montréal",
+        "say": "ah-LAY mon-ray-AL",
+        "means": "French for 'Come on Montréal', the standard cheer."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Allez Montréal!",
+        "m": "The standard cheer, in French."
+      },
+      {
+        "t": "Bring back the Impact name.",
+        "m": "Many fans never warmed to the 2021 rebrand."
+      },
+      {
+        "t": "Beat Toronto and the season's a success.",
+        "m": "Mild banter about the 401 Derby rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Montreal FC",
+        "instead": "CF Montréal, or l'Impact",
+        "why": "The club is Club de Foot Montréal. Older fans still say l'Impact."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Charlotte FC",
+    "espnId": "21300",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "charlotte",
+      "charlotte fc",
+      "clt",
+      "cltfc",
+      "the crown"
+    ],
+    "nickname": "the Crown",
+    "fans": "",
+    "ground": "Bank of America Stadium",
+    "rivals": [
+      {
+        "team": "Atlanta United FC",
+        "name": "Atlanta",
+        "derby": ""
+      }
+    ],
+    "legends": [],
+    "memory": "A then-MLS-record crowd of 74,479 for the club's first home game in 2022",
+    "lingo": [
+      {
+        "term": "the Crown",
+        "say": "the KROWN",
+        "means": "Nickname from the crown on the crest. Charlotte is the Queen City."
+      },
+      {
+        "term": "the Poznań",
+        "say": "the POZ-nan",
+        "means": "Before kickoff, the supporters' end does this arm-in-arm bouncing dance, borrowed from Polish fans."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Queen City, all day.",
+        "m": "Local pride in Charlotte's nickname."
+      },
+      {
+        "t": "We set the attendance record in our first home game.",
+        "m": "Fans are proud of the 74,479 crowd in 2022."
+      },
+      {
+        "t": "Atlanta's the one we want to beat.",
+        "m": "Mild banter about the regional rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Charlotte United",
+        "instead": "Charlotte FC, or the Crown",
+        "why": "There's no United in the name."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Charlotte_FC",
+      "https://en.wikipedia.org/wiki/Atlanta_United_FC"
+    ],
+    "unsure": [
+      "legends: club founded in 2022; no retired greats confirmed",
+      "rivals: no established rivalry; Atlanta is listed only as a regional rival"
+    ]
+  },
+  {
+    "team": "Chicago Fire FC",
+    "espnId": "182",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "chicago",
+      "chicago fire",
+      "the fire",
+      "fire",
+      "cf97"
+    ],
+    "nickname": "the Fire",
+    "fans": "Section 8",
+    "ground": "Soldier Field",
+    "rivals": [
+      {
+        "team": "FC Dallas",
+        "name": "Dallas",
+        "derby": "the Brimstone Cup"
+      },
+      {
+        "team": "New England Revolution",
+        "name": "the Revs",
+        "derby": ""
+      },
+      {
+        "team": "St. Louis CITY SC",
+        "name": "St. Louis",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Piotr Nowak",
+      "C.J. Brown",
+      "Bastian Schweinsteiger"
+    ],
+    "memory": "Winning MLS Cup and the U.S. Open Cup double in their first season, 1998",
+    "lingo": [
+      {
+        "term": "Section 8",
+        "say": "SEK-shun AYT",
+        "means": "The fans' independent supporters' association. The name comes from Soldier Field's section numbers."
+      },
+      {
+        "term": "the Men in Red",
+        "say": "the MEN in RED",
+        "means": "An old nickname for the team, after the red shirts."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Expansion team, double winners. 1998.",
+        "m": "Fans love recalling the first-season double."
+      },
+      {
+        "t": "The Brimstone Cup's coming home.",
+        "m": "The Brimstone Cup is the fan-made trophy for games against FC Dallas."
+      },
+      {
+        "t": "Soldier Field's home again.",
+        "m": "The club moved back downtown in 2020."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Fire play out in Bridgeview",
+        "instead": "they play at Soldier Field",
+        "why": "The club moved back downtown in 2020."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+      "https://en.wikipedia.org/wiki/MLS_rivalry_cups"
+    ],
+    "unsure": [
+      "rivals: no single agreed biggest rival; order is a judgment call"
+    ]
+  },
+  {
+    "team": "Colorado Rapids",
+    "espnId": "184",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "colorado",
+      "colorado rapids",
+      "rapids",
+      "pids"
+    ],
+    "nickname": "the Rapids",
+    "fans": "",
+    "ground": "Dick's Sporting Goods Park",
+    "rivals": [
+      {
+        "team": "Real Salt Lake",
+        "name": "RSL",
+        "derby": "the Rocky Mountain Cup"
+      }
+    ],
+    "legends": [
+      "Marcelo Balboa",
+      "Conor Casey"
+    ],
+    "memory": "Winning MLS Cup in 2010, the club's only league title",
+    "lingo": [
+      {
+        "term": "Pids",
+        "say": "PIDZ",
+        "means": "Fans' shorthand for the Rapids."
+      },
+      {
+        "term": "Centennial 38",
+        "say": "sen-TEN-ee-ul THUR-tee-AYT",
+        "means": "The main supporters' group. Colorado is the Centennial State and the 38th state."
+      }
+    ],
+    "lines": [
+      {
+        "t": "The Rocky Mountain Cup matters.",
+        "m": "The trophy for the rivalry with Real Salt Lake."
+      },
+      {
+        "t": "Good luck with the altitude.",
+        "m": "Fans enjoy how visitors struggle playing a mile high."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Rapids play in Denver",
+        "instead": "they play in Commerce City, just outside Denver",
+        "why": "Dick's Sporting Goods Park is in Commerce City."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Colorado_Rapids"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Columbus Crew",
+    "espnId": "183",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "columbus",
+      "columbus crew",
+      "crew",
+      "the crew"
+    ],
+    "nickname": "the Crew",
+    "fans": "the Nordecke",
+    "ground": "ScottsMiracle-Gro Field",
+    "rivals": [
+      {
+        "team": "FC Cincinnati",
+        "name": "Cincy",
+        "derby": "Hell Is Real"
+      },
+      {
+        "team": "Toronto FC",
+        "name": "Toronto",
+        "derby": "the Trillium Cup"
+      }
+    ],
+    "legends": [
+      "Frankie Hejduk",
+      "Brian McBride",
+      "Chad Marshall"
+    ],
+    "memory": "The #SaveTheCrew fan campaign that kept the club in Columbus in 2017-18",
+    "lingo": [
+      {
+        "term": "Nordecke",
+        "say": "NOR-dek-uh",
+        "means": "The main supporters' group and their end. It's German for 'north corner'."
+      },
+      {
+        "term": "Massive",
+        "say": "MASS-iv",
+        "means": "Fans' proud, tongue-in-cheek word for the club and city, used since about 2006."
+      }
+    ],
+    "lines": [
+      {
+        "t": "We saved this club ourselves.",
+        "m": "Fans' pride in #SaveTheCrew, which stopped a move to Austin."
+      },
+      {
+        "t": "Columbus is Massive.",
+        "m": "An in-joke and a badge of pride."
+      },
+      {
+        "t": "Nothing like a Hell Is Real derby.",
+        "m": "The Ohio derby with FC Cincinnati, named after a roadside billboard."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Columbus SC",
+        "instead": "the Crew",
+        "why": "The club tried that name in 2021 and dropped it after fan anger."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "https://en.wikipedia.org/wiki/MLS_rivalry_cups"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "D.C. United",
+    "espnId": "193",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "dc united",
+      "d.c. united",
+      "dcu",
+      "dc",
+      "black-and-red"
+    ],
+    "nickname": "the Black-and-Red",
+    "fans": "",
+    "ground": "Audi Field",
+    "rivals": [
+      {
+        "team": "Red Bull New York",
+        "name": "the Red Bulls",
+        "derby": "the Atlantic Cup"
+      },
+      {
+        "team": "New England Revolution",
+        "name": "the Revs",
+        "derby": ""
+      },
+      {
+        "team": "Philadelphia Union",
+        "name": "Philly",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Jaime Moreno",
+      "Marco Etcheverry",
+      "Eddie Pope"
+    ],
+    "memory": "Winning three of the first four MLS Cups, in 1996, 1997 and 1999",
+    "lingo": [
+      {
+        "term": "Barra Brava",
+        "say": "BAH-rah BRAH-vah",
+        "means": "The club's oldest supporters' group, founded in 1995. The Screaming Eagles and District Ultras are the others."
+      },
+      {
+        "term": "RFK",
+        "say": "ar-ef-KAY",
+        "means": "RFK Stadium, the old home from 1996 to 2017. Older fans still talk about its bouncing stands."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Four MLS Cups. Count 'em.",
+        "m": "Fans remind everyone the club won four of the early titles."
+      },
+      {
+        "t": "The Atlantic Cup stays in D.C.",
+        "m": "The trophy for the rivalry with the New York Red Bulls."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "D.C. United play at RFK",
+        "instead": "Audi Field",
+        "why": "The club moved to Audi Field in 2018."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/D.C._United"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "FC Cincinnati",
+    "espnId": "18267",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "cincinnati",
+      "fc cincinnati",
+      "fcc",
+      "cincy"
+    ],
+    "nickname": "the Orange and Blue",
+    "fans": "",
+    "ground": "TQL Stadium",
+    "rivals": [
+      {
+        "team": "Columbus Crew",
+        "name": "Columbus",
+        "derby": "Hell Is Real"
+      },
+      {
+        "team": "Nashville SC",
+        "name": "Nashville",
+        "derby": ""
+      }
+    ],
+    "legends": [],
+    "memory": "Winning the Supporters' Shield in 2023, the club's first major MLS trophy",
+    "lingo": [
+      {
+        "term": "the Bailey",
+        "say": "the BAY-lee",
+        "means": "The supporters' section behind the goal at TQL Stadium."
+      },
+      {
+        "term": "Gary",
+        "say": "GAIR-ee",
+        "means": "Fans' name for the lion mascot, the 'knifey lion'."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Hell Is Real.",
+        "m": "The name of the Ohio derby with Columbus, after a famous roadside billboard."
+      },
+      {
+        "t": "Meet you for the march.",
+        "m": "Fans march through Over-the-Rhine to the stadium before home games."
+      },
+      {
+        "t": "Orange and Blue all the way.",
+        "m": "Simple club-colour pride."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Cincinnati play at Nippert",
+        "instead": "TQL Stadium",
+        "why": "The club left Nippert Stadium for its own ground in 2021."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/FC_Cincinnati"
+    ],
+    "unsure": [
+      "legends: no retired club greats confirmed for a club in MLS since 2019"
+    ]
+  },
+  {
+    "team": "FC Dallas",
+    "espnId": "185",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "dallas",
+      "fc dallas",
+      "fcd",
+      "hoops",
+      "toros"
+    ],
+    "nickname": "the Hoops",
+    "fans": "",
+    "ground": "Toyota Stadium",
+    "rivals": [
+      {
+        "team": "Houston Dynamo FC",
+        "name": "Houston",
+        "derby": "the Texas Derby"
+      },
+      {
+        "team": "Austin FC",
+        "name": "Austin",
+        "derby": "Copa Tejas"
+      },
+      {
+        "team": "Chicago Fire FC",
+        "name": "Chicago",
+        "derby": "the Brimstone Cup"
+      }
+    ],
+    "legends": [
+      "David Ferreira",
+      "Carlos Ruiz",
+      "Kenny Cooper"
+    ],
+    "memory": "The 2016 double: the Supporters' Shield and the U.S. Open Cup",
+    "lingo": [
+      {
+        "term": "the Hoops",
+        "say": "the HOOPS",
+        "means": "Nickname from the club's hooped shirts. Los Toros is another."
+      },
+      {
+        "term": "El Capitán",
+        "say": "el kah-pee-TAHN",
+        "means": "The replica cannon that goes to the winner of the Texas Derby against Houston."
+      }
+    ],
+    "lines": [
+      {
+        "t": "El Capitán stays in Frisco.",
+        "m": "Winning the Texas Derby cannon from Houston is a big deal."
+      },
+      {
+        "t": "Best academy in the country.",
+        "m": "Fans are proud the youth academy has produced many US internationals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Dallas Burn",
+        "instead": "FC Dallas",
+        "why": "The club dropped the Burn name in 2005."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/FC_Dallas",
+      "https://en.wikipedia.org/wiki/MLS_rivalry_cups"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Houston Dynamo FC",
+    "espnId": "6077",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "houston",
+      "houston dynamo",
+      "dynamo",
+      "the dynamo"
+    ],
+    "nickname": "the Dynamo",
+    "fans": "",
+    "ground": "Shell Energy Stadium",
+    "rivals": [
+      {
+        "team": "FC Dallas",
+        "name": "Dallas",
+        "derby": "the Texas Derby"
+      },
+      {
+        "team": "Austin FC",
+        "name": "Austin",
+        "derby": "Copa Tejas"
+      },
+      {
+        "team": "Sporting Kansas City",
+        "name": "Sporting",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Brian Ching",
+      "Brad Davis",
+      "Pat Onstad"
+    ],
+    "memory": "Back-to-back MLS Cup wins in 2006 and 2007",
+    "lingo": [
+      {
+        "term": "La Naranja",
+        "say": "lah nah-RAHN-hah",
+        "means": "Spanish for 'the Orange', a nickname for the team in its orange kit."
+      },
+      {
+        "term": "El Batallón",
+        "say": "el bah-tah-YOHN",
+        "means": "One of the main supporters' groups, alongside the Texian Army."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Two straight MLS Cups. Not many can say that.",
+        "m": "Fans love recalling the 2006 and 2007 titles."
+      },
+      {
+        "t": "Dallas can keep Frisco.",
+        "m": "Mild Texas Derby banter about FC Dallas."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Houston Dynamos",
+        "instead": "the Dynamo",
+        "why": "It's singular: Houston Dynamo FC."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Houston_Dynamo_FC"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Inter Miami CF",
+    "espnId": "20232",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "inter miami",
+      "miami",
+      "inter miami cf",
+      "imcf",
+      "herons"
+    ],
+    "nickname": "the Herons",
+    "fans": "",
+    "ground": "Nu Stadium",
+    "rivals": [
+      {
+        "team": "Orlando City SC",
+        "name": "Orlando",
+        "derby": "the Florida derby"
+      }
+    ],
+    "legends": [
+      "Gonzalo Higuaín",
+      "Blaise Matuidi"
+    ],
+    "memory": "Beating Vancouver 3-1 to win MLS Cup in 2025",
+    "lingo": [
+      {
+        "term": "the Herons",
+        "say": "the HAIR-unz",
+        "means": "The nickname, from the herons on the crest."
+      },
+      {
+        "term": "Rosa y Negro",
+        "say": "ROH-sah ee NAY-groh",
+        "means": "Spanish for 'pink and black', the club colours. A supporters' group uses the name too."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Finally, a stadium in Miami itself.",
+        "m": "The club moved from Fort Lauderdale to Nu Stadium in 2026."
+      },
+      {
+        "t": "Orlando week. Let's go.",
+        "m": "The Florida derby against Orlando City is the big one."
+      },
+      {
+        "t": "Pink and black, always.",
+        "m": "Club colour pride."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Inter Miami play in Fort Lauderdale",
+        "instead": "Nu Stadium in Miami",
+        "why": "The club moved into its Miami stadium in April 2026."
+      },
+      {
+        "say": "Miami FC",
+        "instead": "Inter Miami",
+        "why": "Miami FC is a different, lower-league club."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Inter_Miami_CF"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "LA Galaxy",
+    "espnId": "187",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "la galaxy",
+      "galaxy",
+      "the galaxy",
+      "los angeles galaxy"
+    ],
+    "nickname": "the Galaxy",
+    "fans": "",
+    "ground": "Dignity Health Sports Park",
+    "rivals": [
+      {
+        "team": "LAFC",
+        "name": "LAFC",
+        "derby": "El Tráfico"
+      },
+      {
+        "team": "San Jose Earthquakes",
+        "name": "San Jose",
+        "derby": "the California Clásico"
+      }
+    ],
+    "legends": [
+      "Landon Donovan",
+      "David Beckham",
+      "Cobi Jones"
+    ],
+    "memory": "Beating the Red Bulls to win a record sixth MLS Cup in 2024",
+    "lingo": [
+      {
+        "term": "El Tráfico",
+        "say": "el TRAH-fee-koh",
+        "means": "The LA derby with LAFC, a joke on El Clásico and the city's traffic."
+      },
+      {
+        "term": "Angel City Brigade",
+        "say": "AYN-jul SIT-ee brih-GAYD",
+        "means": "One of the main supporters' groups, with the LA Riot Squad and the Galaxians."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Six MLS Cups. Most in history.",
+        "m": "Fans never tire of the club's record."
+      },
+      {
+        "t": "We were here first.",
+        "m": "A dig at LAFC, who joined in 2018. The Galaxy go back to 1996."
+      },
+      {
+        "t": "Beckham changed everything for this league.",
+        "m": "Fans credit his 2007 arrival with putting MLS on the map."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Galaxy play downtown",
+        "instead": "they play in Carson",
+        "why": "The stadium is in Carson, south of the city. LAFC are the downtown club."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/LA_Galaxy"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "LAFC",
+    "espnId": "18966",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "lafc",
+      "los angeles fc",
+      "la fc",
+      "black and gold"
+    ],
+    "nickname": "the Black & Gold",
+    "fans": "the 3252",
+    "ground": "BMO Stadium",
+    "rivals": [
+      {
+        "team": "LA Galaxy",
+        "name": "the Galaxy",
+        "derby": "El Tráfico"
+      },
+      {
+        "team": "Seattle Sounders FC",
+        "name": "Seattle",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Gareth Bale"
+    ],
+    "memory": "Winning MLS Cup and the Supporters' Shield in 2022, beating Philadelphia on penalties",
+    "lingo": [
+      {
+        "term": "the 3252",
+        "say": "the thirty-two FIF-tee-two",
+        "means": "The supporters' union, named after the 3,252 seats in the standing section. The digits add up to 12, for the 12th man."
+      },
+      {
+        "term": "El Tráfico",
+        "say": "el TRAH-fee-koh",
+        "means": "The LA derby with the Galaxy."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Black and gold!",
+        "m": "The club colours, and a common cheer."
+      },
+      {
+        "t": "We're the real LA club. The Galaxy play in Carson.",
+        "m": "A favourite LAFC dig at their rivals."
+      },
+      {
+        "t": "The falcon's up, kickoff's close.",
+        "m": "Before games, a trained falcon flies over the stadium."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "So you're a Galaxy fan?",
+        "instead": "I'm LAFC",
+        "why": "Mixing up the two LA clubs is the worst giveaway."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Los_Angeles_FC"
+    ],
+    "unsure": [
+      "legends: Carlos Vela left out because his retirement could not be confirmed"
+    ]
+  },
+  {
+    "team": "Minnesota United FC",
+    "espnId": "17362",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "minnesota",
+      "minnesota united",
+      "mnufc",
+      "loons",
+      "the loons"
+    ],
+    "nickname": "the Loons",
+    "fans": "",
+    "ground": "Allianz Field",
+    "rivals": [
+      {
+        "team": "Sporting Kansas City",
+        "name": "Sporting",
+        "derby": ""
+      }
+    ],
+    "legends": [],
+    "memory": "Opening Allianz Field in 2019 and reaching the U.S. Open Cup final the same year",
+    "lingo": [
+      {
+        "term": "the Loons",
+        "say": "the LOONZ",
+        "means": "The nickname, after Minnesota's state bird."
+      },
+      {
+        "term": "Wonderwall",
+        "say": "WUN-der-wawl",
+        "means": "The supporters' end at Allianz Field, home to the Dark Clouds and True North Elite. Fans also sing the Oasis song after home wins."
+      }
+    ],
+    "lines": [
+      {
+        "t": "See you in the Wonderwall.",
+        "m": "Meet in the supporters' section."
+      },
+      {
+        "t": "Home win? Then it's Wonderwall time.",
+        "m": "After home wins, the whole ground sings the Oasis song."
+      },
+      {
+        "t": "Allianz Field is the best stadium in the league.",
+        "m": "Fans are proud of their St. Paul ground."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Minneapolis United",
+        "instead": "Minnesota United",
+        "why": "The club represents the whole state, and plays in St. Paul."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Minnesota_United_FC",
+      "https://www.mlssoccer.com/news/sporting-kc-minnesota-united-gear-nicest-rivalry-sports"
+    ],
+    "unsure": [
+      "legends: no retired club greats confirmed",
+      "rivals: Sporting KC is the most cited rival, but sources disagree and some say Minnesota has no real rival"
+    ]
+  },
+  {
+    "team": "Nashville SC",
+    "espnId": "18986",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "nashville",
+      "nashville sc",
+      "nsc",
+      "coyotes",
+      "boys in gold"
+    ],
+    "nickname": "the Boys in Gold",
+    "fans": "",
+    "ground": "GEODIS Park",
+    "rivals": [
+      {
+        "team": "Atlanta United FC",
+        "name": "Atlanta",
+        "derby": ""
+      },
+      {
+        "team": "FC Cincinnati",
+        "name": "Cincinnati",
+        "derby": ""
+      }
+    ],
+    "legends": [],
+    "memory": "Winning the 2025 U.S. Open Cup, the club's first major trophy",
+    "lingo": [
+      {
+        "term": "the Coyotes",
+        "say": "the ky-OH-teez",
+        "means": "A nickname, from the coyote on the crest."
+      },
+      {
+        "term": "the Roadies",
+        "say": "the ROH-deez",
+        "means": "The club's original organised supporters' group."
+      }
+    ],
+    "lines": [
+      {
+        "t": "GEODIS is the biggest soccer-only stadium in the country.",
+        "m": "Fans are proud of their 30,000-seat ground."
+      },
+      {
+        "t": "Music City loves its soccer.",
+        "m": "Nashville is Music City, and fans like to say so."
+      },
+      {
+        "t": "Atlanta's the one we want to beat.",
+        "m": "Mild banter about the regional rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Nashville FC",
+        "instead": "Nashville SC",
+        "why": "It's Nashville Soccer Club, SC for short."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nashville_SC",
+      "https://www.mlssoccer.com/news/are-atlanta-united-nashville-scs-rival-its-huge-says-walker-zimmerman"
+    ],
+    "unsure": [
+      "legends: no retired club greats confirmed",
+      "rivals: no consensus; Atlanta and Cincinnati are the most cited"
+    ]
+  },
+  {
+    "team": "New England Revolution",
+    "espnId": "189",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "new england",
+      "new england revolution",
+      "revolution",
+      "revs",
+      "the revs"
+    ],
+    "nickname": "the Revs",
+    "fans": "",
+    "ground": "Gillette Stadium",
+    "rivals": [
+      {
+        "team": "Red Bull New York",
+        "name": "the Red Bulls",
+        "derby": ""
+      },
+      {
+        "team": "Chicago Fire FC",
+        "name": "Chicago",
+        "derby": ""
+      },
+      {
+        "team": "New York City FC",
+        "name": "NYCFC",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Taylor Twellman",
+      "Shalrie Joseph",
+      "Steve Ralston"
+    ],
+    "memory": "Winning the 2021 Supporters' Shield with a then-record points total",
+    "lingo": [
+      {
+        "term": "the Fort",
+        "say": "the FORT",
+        "means": "The north stand at Gillette, where the Midnight Riders and the Rebellion stand."
+      },
+      {
+        "term": "the End Zone Militia",
+        "say": "the END zohn mih-LISH-uh",
+        "means": "Revolutionary War re-enactors who fire muskets after every Revs goal."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Five MLS Cup finals, still waiting for one.",
+        "m": "A rueful in-joke: the club has lost all five of its MLS Cup finals."
+      },
+      {
+        "t": "Anything to beat New York.",
+        "m": "The old Boston-New York sports rivalry carries over to the Red Bulls and NYCFC."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Boston Revolution",
+        "instead": "the New England Revolution, or the Revs",
+        "why": "The club represents all of New England and plays in Foxborough."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_England_Revolution"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "New York City FC",
+    "espnId": "17606",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "nycfc",
+      "new york city fc",
+      "new york city",
+      "nyc fc"
+    ],
+    "nickname": "the Boys in Blue",
+    "fans": "the Third Rail",
+    "ground": "Yankee Stadium",
+    "rivals": [
+      {
+        "team": "Red Bull New York",
+        "name": "the Red Bulls",
+        "derby": "the Hudson River Derby"
+      },
+      {
+        "team": "Philadelphia Union",
+        "name": "Philly",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "David Villa"
+    ],
+    "memory": "Beating Portland on penalties to win MLS Cup in 2021",
+    "lingo": [
+      {
+        "term": "the Third Rail",
+        "say": "the THURD RAYL",
+        "means": "The club's official supporters' group, named after the subway's electrified rail."
+      },
+      {
+        "term": "the Pigeons",
+        "say": "the PIJ-unz",
+        "means": "A nickname fans have embraced, after the city's famous birds."
+      }
+    ],
+    "lines": [
+      {
+        "t": "The Red Bulls play in New Jersey.",
+        "m": "A favourite dig: the rivals' stadium is across the Hudson."
+      },
+      {
+        "t": "2021, MLS champions. Say it again.",
+        "m": "Fans love recalling the club's first title."
+      },
+      {
+        "t": "Villa was the best signing this club ever made.",
+        "m": "David Villa, the first captain and record scorer."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "So you support the Red Bulls?",
+        "instead": "NYCFC, the city club",
+        "why": "Mixing up the two New York clubs is the worst giveaway."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_York_City_FC"
+    ],
+    "unsure": [
+      "ground: some home games are at Citi Field; the club's own Etihad Park is due to open for 2027",
+      "legends: other icons such as Frank Lampard and Andrea Pirlo are now coaches, so left out"
+    ]
+  },
+  {
+    "team": "Orlando City SC",
+    "espnId": "12011",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "orlando",
+      "orlando city",
+      "ocsc",
+      "lions",
+      "the lions"
+    ],
+    "nickname": "the Lions",
+    "fans": "",
+    "ground": "Inter&Co Stadium",
+    "rivals": [
+      {
+        "team": "Inter Miami CF",
+        "name": "Miami",
+        "derby": "the Florida derby"
+      },
+      {
+        "team": "Atlanta United FC",
+        "name": "Atlanta",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Kaká"
+    ],
+    "memory": "Winning the 2022 U.S. Open Cup, the club's first major MLS-era trophy",
+    "lingo": [
+      {
+        "term": "the Wall",
+        "say": "the WAWL",
+        "means": "The safe-standing supporters' section, home to the Ruckus and the Iron Lion Firm."
+      },
+      {
+        "term": "the Lions",
+        "say": "the LY-unz",
+        "means": "The nickname, from the lion on the crest."
+      }
+    ],
+    "lines": [
+      {
+        "t": "See you in the Wall.",
+        "m": "Meet in the standing supporters' section."
+      },
+      {
+        "t": "Miami? We were here first.",
+        "m": "A dig at Inter Miami: Orlando joined MLS in 2015, Miami in 2020."
+      },
+      {
+        "t": "Kaká put this club on the map.",
+        "m": "Fans credit the Brazilian star's arrival in 2015."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Orlando play at the Citrus Bowl",
+        "instead": "Inter&Co Stadium",
+        "why": "The club moved into its own downtown stadium in 2017."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Orlando_City_SC"
+    ],
+    "unsure": [
+      "rivals: Inter Miami's Wikipedia page calls it the Florida derby; Orlando's page says it has no official name",
+      "legends: only Kaká confirmed as a retired club icon"
+    ]
+  },
+  {
+    "team": "Philadelphia Union",
+    "espnId": "10739",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "philadelphia",
+      "philadelphia union",
+      "philly",
+      "union",
+      "the u"
+    ],
+    "nickname": "the U",
+    "fans": "the Sons of Ben",
+    "ground": "Subaru Park",
+    "rivals": [
+      {
+        "team": "Red Bull New York",
+        "name": "the Red Bulls",
+        "derby": ""
+      },
+      {
+        "team": "New York City FC",
+        "name": "NYCFC",
+        "derby": ""
+      },
+      {
+        "team": "D.C. United",
+        "name": "D.C.",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Sébastien Le Toux"
+    ],
+    "memory": "Winning the Supporters' Shield in 2020, the club's first major trophy, and again in 2025",
+    "lingo": [
+      {
+        "term": "Doop",
+        "say": "DOOP",
+        "means": "The Union's goal song. When they score, fans shout 'Doop' along with it."
+      },
+      {
+        "term": "Sons of Ben",
+        "say": "SUNZ of BEN",
+        "means": "The main supporters' group, named after Ben Franklin. They formed before the club existed."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Doop!",
+        "m": "Shouted after a Union goal."
+      },
+      {
+        "t": "The Sons of Ben were here before the team was.",
+        "m": "Fans' pride that supporters helped bring MLS to Philly."
+      },
+      {
+        "t": "Beating the Red Bulls never gets old.",
+        "m": "Mild banter about the New York rivals."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Union play in Philly proper",
+        "instead": "they play in Chester, just outside Philly",
+        "why": "Subaru Park is in Chester, on the Delaware River."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Philadelphia_Union"
+    ],
+    "unsure": [
+      "legends: Alejandro Bedoya left out because his retirement could not be confirmed"
+    ]
+  },
+  {
+    "team": "Portland Timbers",
+    "espnId": "9723",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "portland",
+      "portland timbers",
+      "timbers",
+      "ptfc",
+      "rose city"
+    ],
+    "nickname": "the Timbers",
+    "fans": "the Timbers Army",
+    "ground": "Providence Park",
+    "rivals": [
+      {
+        "team": "Seattle Sounders FC",
+        "name": "Seattle",
+        "derby": "the Cascadia Cup"
+      },
+      {
+        "team": "Vancouver Whitecaps",
+        "name": "Vancouver",
+        "derby": "the Cascadia Cup"
+      }
+    ],
+    "legends": [
+      "Diego Valeri",
+      "Jack Jewsbury"
+    ],
+    "memory": "Winning MLS Cup in 2015, with Diego Valeri scoring the fastest goal in MLS Cup history",
+    "lingo": [
+      {
+        "term": "Timber Joey",
+        "say": "TIM-ber JOH-ee",
+        "means": "The club's lumberjack. He saws a slice off a log with a chainsaw after every Timbers goal."
+      },
+      {
+        "term": "RCTID",
+        "say": "ar-see-tee-eye-DEE",
+        "means": "Short for 'Rose City Till I Die', the Timbers Army's motto."
+      }
+    ],
+    "lines": [
+      {
+        "t": "RCTID.",
+        "m": "Rose City till I die: the fans' motto."
+      },
+      {
+        "t": "Give the scorer his slab.",
+        "m": "After a goal, the scorer gets a slice of log cut by Timber Joey."
+      },
+      {
+        "t": "Seattle? No thanks.",
+        "m": "Mild Cascadia banter about the Sounders."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Portland and Seattle get along fine",
+        "instead": "Cascadia rivals",
+        "why": "Fans of both clubs take the rivalry very seriously."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Portland_Timbers"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Real Salt Lake",
+    "espnId": "4771",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "real salt lake",
+      "rsl",
+      "salt lake",
+      "utah"
+    ],
+    "nickname": "RSL",
+    "fans": "",
+    "ground": "America First Field",
+    "rivals": [
+      {
+        "team": "Colorado Rapids",
+        "name": "Colorado",
+        "derby": "the Rocky Mountain Cup"
+      },
+      {
+        "team": "Sporting Kansas City",
+        "name": "Sporting",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Kyle Beckerman",
+      "Nick Rimando",
+      "Javier Morales"
+    ],
+    "memory": "Beating LA Galaxy on penalties to win MLS Cup in 2009",
+    "lingo": [
+      {
+        "term": "Real",
+        "say": "ray-AL",
+        "means": "As in Real Madrid. Fans say ray-AL Salt Lake, or just RSL."
+      },
+      {
+        "term": "Claret and Cobalt",
+        "say": "KLAR-it and KOH-bawlt",
+        "means": "The club colours, and a nickname for the team."
+      },
+      {
+        "term": "the Rio",
+        "say": "the REE-oh",
+        "means": "Short for Rio Tinto Stadium, the ground's name until 2022. Many fans still use it."
+      }
+    ],
+    "lines": [
+      {
+        "t": "The Rocky Mountain Cup stays in Utah.",
+        "m": "Beating Colorado for the rivalry trophy matters."
+      },
+      {
+        "t": "Beckerman and Rimando, the heart of this club.",
+        "m": "Fans revere the stalwarts of the 2009 title side."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "REEL Salt Lake",
+        "instead": "ray-AL Salt Lake, or just RSL",
+        "why": "The name borrows the Spanish 'Real', as in Real Madrid."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Real_Salt_Lake"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Red Bull New York",
+    "espnId": "190",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "red bulls",
+      "new york red bulls",
+      "red bull new york",
+      "rbny",
+      "nyrb",
+      "metrostars"
+    ],
+    "nickname": "the Red Bulls",
+    "fans": "",
+    "ground": "Sports Illustrated Stadium",
+    "rivals": [
+      {
+        "team": "New York City FC",
+        "name": "NYCFC",
+        "derby": "the Hudson River Derby"
+      },
+      {
+        "team": "D.C. United",
+        "name": "D.C.",
+        "derby": "the Atlantic Cup"
+      },
+      {
+        "team": "New England Revolution",
+        "name": "the Revs",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Thierry Henry",
+      "Bradley Wright-Phillips",
+      "Luis Robles"
+    ],
+    "memory": "Winning the Supporters' Shield in 2013, the club's first major trophy",
+    "lingo": [
+      {
+        "term": "Metro",
+        "say": "MET-roh",
+        "means": "Fans' nod to the club's original name, the MetroStars."
+      },
+      {
+        "term": "the South Ward",
+        "say": "the SOWTH WARD",
+        "means": "The supporters' end, home to the Empire Supporters Club, Viking Army and Garden State Ultras."
+      },
+      {
+        "term": "Red Bull Arena",
+        "say": "red BULL uh-REE-nuh",
+        "means": "The stadium's name until 2025. Many fans still use it."
+      }
+    ],
+    "lines": [
+      {
+        "t": "The Hudson River Derby is the one that matters.",
+        "m": "The rivalry with NYCFC."
+      },
+      {
+        "t": "Henry and BWP up front. Best it's ever been.",
+        "m": "Fans love recalling the Thierry Henry and Bradley Wright-Phillips years."
+      },
+      {
+        "t": "Three Supporters' Shields, and we want more.",
+        "m": "The club won the Shield in 2013, 2015 and 2018."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Red Bulls play in New York City",
+        "instead": "they play in Harrison, New Jersey",
+        "why": "The stadium is across the Hudson from Manhattan."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "https://www.mlssoccer.com/news/new-york-red-bulls-home-renamed-sports-illustrated-stadium"
+    ],
+    "unsure": [
+      "team: club now brands itself Red Bull New York; most fans and media still say New York Red Bulls"
+    ]
+  },
+  {
+    "team": "San Diego FC",
+    "espnId": "22529",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "san diego",
+      "san diego fc",
+      "sdfc"
+    ],
+    "nickname": "",
+    "fans": "",
+    "ground": "Snapdragon Stadium",
+    "rivals": [
+      {
+        "team": "LAFC",
+        "name": "LAFC",
+        "derby": ""
+      },
+      {
+        "team": "LA Galaxy",
+        "name": "the Galaxy",
+        "derby": ""
+      }
+    ],
+    "legends": [],
+    "memory": "Topping the Western Conference in their first season, 2025, with a record 63 points for an expansion team",
+    "lingo": [
+      {
+        "term": "SDFC",
+        "say": "es-dee-ef-SEE",
+        "means": "The club's initials. Most fans just use them."
+      },
+      {
+        "term": "the Baja Cup",
+        "say": "the BAH-hah KUP",
+        "means": "An annual friendly with Club Tijuana, from just across the border."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Best expansion season ever.",
+        "m": "Fans' pride in topping the West in 2025."
+      },
+      {
+        "t": "Any win over LA is a good win.",
+        "m": "San Diego fans love beating either Los Angeles club."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the San Diego Sockers",
+        "instead": "San Diego FC",
+        "why": "The Sockers are the city's indoor soccer team. SDFC joined MLS in 2025."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/San_Diego_FC",
+      "https://www.nbcsandiego.com/news/local/early-goals-propel-san-diego-fc-past-los-angeles-fc/3790902/"
+    ],
+    "unsure": [
+      "nickname: no established nickname found",
+      "fans: supporters' groups exist but no single name is well documented",
+      "legends: club founded in 2025",
+      "rivals: LA rivalries are informal and unnamed"
+    ]
+  },
+  {
+    "team": "San Jose Earthquakes",
+    "espnId": "191",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "san jose",
+      "san jose earthquakes",
+      "earthquakes",
+      "quakes"
+    ],
+    "nickname": "the Quakes",
+    "fans": "",
+    "ground": "PayPal Park",
+    "rivals": [
+      {
+        "team": "LA Galaxy",
+        "name": "the Galaxy",
+        "derby": "the California Clásico"
+      },
+      {
+        "team": "Seattle Sounders FC",
+        "name": "Seattle",
+        "derby": "the Heritage Cup"
+      }
+    ],
+    "legends": [
+      "Chris Wondolowski",
+      "Ramiro Corrales",
+      "John Doyle"
+    ],
+    "memory": "The 2012 'Goonies' season, when late comebacks won the Supporters' Shield",
+    "lingo": [
+      {
+        "term": "the Goonies",
+        "say": "the GOO-neez",
+        "means": "Nickname for the never-say-die 2012 team, from a player's post-match quote about the film."
+      },
+      {
+        "term": "the Quakes",
+        "say": "the KWAYKS",
+        "means": "Short for the Earthquakes. What everyone calls them."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Goonies never say die.",
+        "m": "The 2012 rallying cry, used for any late comeback."
+      },
+      {
+        "t": "Wondo is the greatest scorer MLS has ever had.",
+        "m": "Chris Wondolowski holds the MLS career goals record."
+      },
+      {
+        "t": "Any win over the Galaxy makes my week.",
+        "m": "Mild California Clásico banter."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the San Jose Clash",
+        "instead": "the Earthquakes",
+        "why": "The club dropped the Clash name in 1999."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "https://en.wikipedia.org/wiki/MLS_rivalry_cups"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Seattle Sounders FC",
+    "espnId": "9726",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "seattle",
+      "seattle sounders",
+      "sounders",
+      "sounders fc"
+    ],
+    "nickname": "the Sounders",
+    "fans": "",
+    "ground": "Lumen Field",
+    "rivals": [
+      {
+        "team": "Portland Timbers",
+        "name": "Portland",
+        "derby": "the Cascadia Cup"
+      },
+      {
+        "team": "Vancouver Whitecaps",
+        "name": "Vancouver",
+        "derby": "the Cascadia Cup"
+      }
+    ],
+    "legends": [
+      "Kasey Keller",
+      "Clint Dempsey",
+      "Brad Evans"
+    ],
+    "memory": "Winning the CONCACAF Champions League in 2022, the first MLS club to win it in that format",
+    "lingo": [
+      {
+        "term": "the March to the Match",
+        "say": "the MARCH to the MATCH",
+        "means": "Before home games, fans march together from Occidental Park to Lumen Field."
+      },
+      {
+        "term": "Rave Green",
+        "say": "RAYV GREEN",
+        "means": "The club's shade of green, and a nickname for the team."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Are you marching today?",
+        "m": "Asking if someone's joining the pre-game March to the Match."
+      },
+      {
+        "t": "ECS will be loud tonight.",
+        "m": "The Emerald City Supporters, the biggest group, lead the singing."
+      },
+      {
+        "t": "Portland? Can't stand them.",
+        "m": "Mild Cascadia banter."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Seattle and Portland, friendly neighbours",
+        "instead": "Cascadia rivals",
+        "why": "It's one of the fiercest rivalries in MLS."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Seattle_Sounders_FC"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Sporting Kansas City",
+    "espnId": "186",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "sporting kansas city",
+      "sporting kc",
+      "skc",
+      "kansas city",
+      "sporting"
+    ],
+    "nickname": "Sporting",
+    "fans": "the Cauldron",
+    "ground": "Children's Mercy Park",
+    "rivals": [
+      {
+        "team": "St. Louis CITY SC",
+        "name": "St. Louis",
+        "derby": "the I-70 derby"
+      },
+      {
+        "team": "Real Salt Lake",
+        "name": "RSL",
+        "derby": ""
+      },
+      {
+        "team": "Houston Dynamo FC",
+        "name": "Houston",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Preki",
+      "Matt Besler",
+      "Jimmy Conrad"
+    ],
+    "memory": "Winning MLS Cup on penalties at home on a freezing night in 2013",
+    "lingo": [
+      {
+        "term": "the Cauldron",
+        "say": "the KAWL-drun",
+        "means": "The main supporters' section, a nod to the old Wizards name."
+      },
+      {
+        "term": "the Wizards",
+        "say": "the WIZ-erdz",
+        "means": "The club's name until 2010. Older fans still use it."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Kansas City is the soccer capital of America.",
+        "m": "A popular local boast."
+      },
+      {
+        "t": "St. Louis can stay on their end of I-70.",
+        "m": "Mild banter about the I-70 derby."
+      },
+      {
+        "t": "The 2013 final: frozen and glorious.",
+        "m": "Fans love recalling winning MLS Cup on a freezing night at home."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "Sporting play in Missouri",
+        "instead": "they play in Kansas City, Kansas",
+        "why": "Children's Mercy Park is on the Kansas side of the state line."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "https://en.wikipedia.org/wiki/Sporting_Kansas_City%E2%80%93St._Louis_City_SC_rivalry"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "St. Louis CITY SC",
+    "espnId": "21812",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "st. louis",
+      "st louis",
+      "st. louis city sc",
+      "stl city",
+      "stlcity"
+    ],
+    "nickname": "CITY",
+    "fans": "",
+    "ground": "Energizer Park",
+    "rivals": [
+      {
+        "team": "Sporting Kansas City",
+        "name": "Sporting",
+        "derby": "the I-70 derby"
+      },
+      {
+        "team": "Chicago Fire FC",
+        "name": "Chicago",
+        "derby": ""
+      }
+    ],
+    "legends": [],
+    "memory": "Topping the Western Conference in their first season, 2023",
+    "lingo": [
+      {
+        "term": "St. Louligans",
+        "say": "saynt LOO-lih-gunz",
+        "means": "The city's oldest active supporters' group, founded in 2010, long before the MLS club."
+      },
+      {
+        "term": "CITY",
+        "say": "SIT-ee",
+        "means": "What fans call the club. It's always written in capitals."
+      }
+    ],
+    "lines": [
+      {
+        "t": "St. Louis has always been a soccer city.",
+        "m": "Locals are proud of the city's long soccer history."
+      },
+      {
+        "t": "You're not in Kansas anymore.",
+        "m": "A banner fans have aimed at Sporting KC. A mild I-70 derby dig."
+      },
+      {
+        "t": "Come on, CITY!",
+        "m": "The basic cheer."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "St. Louis City FC",
+        "instead": "St. Louis CITY SC, or just CITY",
+        "why": "It's SC, not FC."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+      "https://en.wikipedia.org/wiki/Sporting_Kansas_City%E2%80%93St._Louis_City_SC_rivalry"
+    ],
+    "unsure": [
+      "legends: club founded in 2023; no retired greats confirmed"
+    ]
+  },
+  {
+    "team": "Toronto FC",
+    "espnId": "7318",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "toronto",
+      "toronto fc",
+      "tfc",
+      "reds"
+    ],
+    "nickname": "the Reds",
+    "fans": "",
+    "ground": "BMO Field",
+    "rivals": [
+      {
+        "team": "CF Montréal",
+        "name": "Montreal",
+        "derby": "the Canadian Classique"
+      },
+      {
+        "team": "Columbus Crew",
+        "name": "Columbus",
+        "derby": "the Trillium Cup"
+      },
+      {
+        "team": "Vancouver Whitecaps",
+        "name": "Vancouver",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Sebastian Giovinco",
+      "Dwayne De Rosario",
+      "Jozy Altidore"
+    ],
+    "memory": "The 2017 treble: MLS Cup, Supporters' Shield and Canadian Championship",
+    "lingo": [
+      {
+        "term": "TFC",
+        "say": "tee-ef-SEE",
+        "means": "What everyone calls the club."
+      },
+      {
+        "term": "the Red Patch Boys",
+        "say": "the RED PACH boyz",
+        "means": "One of the main supporters' groups, alongside U-Sector."
+      }
+    ],
+    "lines": [
+      {
+        "t": "First MLS club to win the treble.",
+        "m": "Fans' proudest boast, about 2017."
+      },
+      {
+        "t": "Montreal week. Enough said.",
+        "m": "The Canadian Classique against Montréal is the big one."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "TFC play at the Rogers Centre",
+        "instead": "BMO Field",
+        "why": "That's the Blue Jays' ballpark. TFC have always played at BMO Field."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Toronto_FC"
+    ],
+    "unsure": [
+      "legends: Michael Bradley left out because he is now a head coach"
+    ]
+  },
+  {
+    "team": "Vancouver Whitecaps",
+    "espnId": "9727",
+    "league": "soccer/usa.1",
+    "aliases": [
+      "vancouver",
+      "vancouver whitecaps",
+      "whitecaps",
+      "caps",
+      "vwfc"
+    ],
+    "nickname": "the Caps",
+    "fans": "",
+    "ground": "BC Place",
+    "rivals": [
+      {
+        "team": "Seattle Sounders FC",
+        "name": "Seattle",
+        "derby": "the Cascadia Cup"
+      },
+      {
+        "team": "Portland Timbers",
+        "name": "Portland",
+        "derby": "the Cascadia Cup"
+      },
+      {
+        "team": "Toronto FC",
+        "name": "Toronto",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Jay DeMerit",
+      "Carl Valentine"
+    ],
+    "memory": "Reaching both the CONCACAF Champions Cup final and the MLS Cup final in 2025",
+    "lingo": [
+      {
+        "term": "the Caps",
+        "say": "the KAPS",
+        "means": "Short for the Whitecaps. What fans call the team."
+      },
+      {
+        "term": "the Southsiders",
+        "say": "the SOWTH-sy-derz",
+        "means": "The club's biggest supporters' group."
+      }
+    ],
+    "lines": [
+      {
+        "t": "The Cascadia Cup belongs in Vancouver.",
+        "m": "The fan-made trophy contested with Seattle and Portland."
+      },
+      {
+        "t": "The Caps go back to the NASL days.",
+        "m": "The Whitecaps name dates from 1974, and fans are proud of the history."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Whitecaps are Canada's only MLS team",
+        "instead": "one of three Canadian MLS teams",
+        "why": "Toronto and Montréal are in MLS too."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC"
+    ],
+    "unsure": []
+  }
+]

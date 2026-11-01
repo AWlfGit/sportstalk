@@ -1,0 +1,128 @@
+[
+ {
+  "id": "172",
+  "name": "AJ Auxerre",
+  "short": "Auxerre",
+  "abbr": "AUX",
+  "location": "AJ Auxerre"
+ },
+ {
+  "id": "174",
+  "name": "AS Monaco",
+  "short": "Monaco",
+  "abbr": "MON",
+  "location": "AS Monaco"
+ },
+ {
+  "id": "7868",
+  "name": "Angers",
+  "short": "Angers",
+  "abbr": "ANG",
+  "location": "Angers"
+ },
+ {
+  "id": "6997",
+  "name": "Brest",
+  "short": "Brest",
+  "abbr": "BRE",
+  "location": "Brest"
+ },
+ {
+  "id": "3236",
+  "name": "Le Havre AC",
+  "short": "Le Havre AC",
+  "abbr": "HAC",
+  "location": "Le Havre AC"
+ },
+ {
+  "id": "2697",
+  "name": "Le Mans",
+  "short": "Le Mans",
+  "abbr": "MNS",
+  "location": "Le Mans"
+ },
+ {
+  "id": "175",
+  "name": "Lens",
+  "short": "Lens",
+  "abbr": "RCL",
+  "location": "Lens"
+ },
+ {
+  "id": "166",
+  "name": "Lille",
+  "short": "Lille",
+  "abbr": "LILL",
+  "location": "Lille"
+ },
+ {
+  "id": "273",
+  "name": "Lorient",
+  "short": "Lorient",
+  "abbr": "LOR",
+  "location": "Lorient"
+ },
+ {
+  "id": "167",
+  "name": "Lyon",
+  "short": "Lyon",
+  "abbr": "LYON",
+  "location": "Lyon"
+ },
+ {
+  "id": "176",
+  "name": "Marseille",
+  "short": "Marseille",
+  "abbr": "OLM",
+  "location": "Marseille"
+ },
+ {
+  "id": "2502",
+  "name": "Nice",
+  "short": "Nice",
+  "abbr": "NICE",
+  "location": "Nice"
+ },
+ {
+  "id": "6851",
+  "name": "Paris FC",
+  "short": "Paris FC",
+  "abbr": "PAR",
+  "location": "Paris FC"
+ },
+ {
+  "id": "160",
+  "name": "Paris Saint-Germain",
+  "short": "PSG",
+  "abbr": "PSG",
+  "location": "Paris Saint-Germain"
+ },
+ {
+  "id": "169",
+  "name": "Stade Rennais",
+  "short": "Rennes",
+  "abbr": "REN",
+  "location": "Stade Rennais"
+ },
+ {
+  "id": "180",
+  "name": "Strasbourg",
+  "short": "Strasbourg",
+  "abbr": "STR",
+  "location": "Strasbourg"
+ },
+ {
+  "id": "179",
+  "name": "Toulouse",
+  "short": "Toulouse",
+  "abbr": "TOU",
+  "location": "Toulouse"
+ },
+ {
+  "id": "170",
+  "name": "Troyes",
+  "short": "Troyes",
+  "abbr": "TRY",
+  "location": "Troyes"
+ }
+]

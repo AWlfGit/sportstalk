@@ -1,0 +1,1094 @@
+[
+  {
+    "team": "Anaheim Ducks",
+    "espnId": "25",
+    "league": "hockey/nhl",
+    "aliases": ["anaheim", "ducks", "mighty ducks", "ana"],
+    "nickname": "the Ducks",
+    "fans": "",
+    "ground": "Honda Center",
+    "rivals": [
+      {"team": "Los Angeles Kings", "name": "the Kings", "derby": "the Freeway Faceoff"},
+      {"team": "San Jose Sharks", "name": "the Sharks", "derby": ""}
+    ],
+    "legends": ["Teemu Selanne", "Paul Kariya", "Scott Niedermayer", "Ryan Getzlaf"],
+    "memory": "Winning the 2007 Stanley Cup, the first ever won by a California team",
+    "lingo": [
+      {"term": "the Freeway Faceoff", "say": "the FREE-way FACE-off", "means": "Any Ducks game against the LA Kings, named after the freeways that link the two."},
+      {"term": "the Pond", "say": "the POND", "means": "Old nickname for the arena, from its first name, Arrowhead Pond. Long-time fans still use it."},
+      {"term": "the Mighty Ducks", "say": "the MY-tee DUCKS", "means": "The club's original Disney-era name, used until 2006. Said with nostalgia now."},
+      {"term": "the Finnish Flash", "say": "the FIN-ish FLASH", "means": "Teemu Selanne, the fans' favourite goal scorer."}
+    ],
+    "lines": [
+      {"t": "Freeway Faceoff tonight. Nothing else matters.", "m": "Said before any game against the Kings."},
+      {"t": "We were the first California team to lift the Cup.", "m": "A dig at the Kings and Sharks: Anaheim won it first, in 2007."},
+      {"t": "Teemu's number 8 is up in the rafters for a reason.", "m": "Selanne's 8 is retired. Fans adore him."},
+      {"t": "I still call it the Pond.", "m": "Old-school way to refer to Honda Center."},
+      {"t": "Let's go Ducks!", "m": "The standard home chant."}
+    ],
+    "avoid": [
+      {"say": "the Mighty Ducks", "instead": "the Ducks", "why": "The club dropped 'Mighty' from its name in 2006."},
+      {"say": "the LA Ducks", "instead": "the Anaheim Ducks", "why": "They're an Orange County team, and fans care about the difference."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Anaheim_Ducks", "https://en.wikipedia.org/wiki/Ducks%E2%80%93Kings_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "Boston Bruins",
+    "espnId": "1",
+    "league": "hockey/nhl",
+    "aliases": ["boston", "bruins", "b's", "bos"],
+    "nickname": "the B's",
+    "fans": "",
+    "ground": "TD Garden",
+    "rivals": [
+      {"team": "Montreal Canadiens", "name": "the Habs", "derby": ""},
+      {"team": "Toronto Maple Leafs", "name": "the Leafs", "derby": ""}
+    ],
+    "legends": ["Bobby Orr", "Ray Bourque", "Phil Esposito", "Patrice Bergeron"],
+    "memory": "Bobby Orr's flying overtime goal that won the 1970 Stanley Cup",
+    "lingo": [
+      {"term": "the B's", "say": "the BEEZ", "means": "Short for the Bruins. The everyday name in Boston."},
+      {"term": "the Big Bad Bruins", "say": "the BIG BAD BROO-inz", "means": "The tough, physical Bruins teams of the early 1970s. Still the style many fans want."},
+      {"term": "the Gahden", "say": "the GAH-den", "means": "The Garden, said in a Boston accent. Means TD Garden."},
+      {"term": "the Black and Gold", "say": "the BLAK and GOLD", "means": "The team colours, used as another name for the club."}
+    ],
+    "lines": [
+      {"t": "Let's go B's!", "m": "The standard chant."},
+      {"t": "Habs at the Garden is the best night of the year.", "m": "Montreal is the oldest and biggest rival."},
+      {"t": "Orr flying through the air is the best photo in hockey.", "m": "The famous picture of his 1970 Cup-winning goal."},
+      {"t": "Play it like the Big Bad Bruins.", "m": "A call for hard-working, physical hockey."},
+      {"t": "It was 4-1.", "m": "Teasing Leafs fans about the 2013 Game 7, when Boston came back from 4-1 down."}
+    ],
+    "avoid": [
+      {"say": "I like the Habs too", "instead": "Anybody but Montreal", "why": "The Canadiens are Boston's oldest and most bitter rival."},
+      {"say": "They still play in the Boston Garden", "instead": "the Garden, or TD Garden", "why": "The old Boston Garden closed in 1995; the new arena replaced it."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Boston_Bruins", "https://en.wikipedia.org/wiki/Bruins%E2%80%93Canadiens_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "Buffalo Sabres",
+    "espnId": "2",
+    "league": "hockey/nhl",
+    "aliases": ["buffalo", "sabres", "sabs", "buf"],
+    "nickname": "the Sabres",
+    "fans": "",
+    "ground": "KeyBank Center",
+    "rivals": [
+      {"team": "Toronto Maple Leafs", "name": "the Leafs", "derby": "the Battle of the QEW"},
+      {"team": "Boston Bruins", "name": "the Bruins", "derby": ""}
+    ],
+    "legends": ["Gilbert Perreault", "Dominik Hasek", "Pat LaFontaine", "Rick Martin"],
+    "memory": "The 1999 Stanley Cup Final, lost to Dallas on Brett Hull's disputed triple-overtime goal",
+    "lingo": [
+      {"term": "Sabreland", "say": "SAY-ber-land", "means": "The Sabres fanbase and community. Used by the team and fans alike."},
+      {"term": "No Goal", "say": "NO GOAL", "means": "Fans' name for Brett Hull's 1999 Cup winner. They believe his skate was in the crease, so it shouldn't have counted."},
+      {"term": "the French Connection", "say": "the FRENCH kuh-NEK-shun", "means": "The great 1970s line of Gilbert Perreault, Rick Martin and Rene Robert."},
+      {"term": "the Dominator", "say": "the DOM-ih-nay-ter", "means": "Goalie Dominik Hasek, the greatest Sabre of the modern era."}
+    ],
+    "lines": [
+      {"t": "No goal. It'll always be no goal.", "m": "The 1999 Final still hurts. Say it whenever Dallas or Brett Hull comes up."},
+      {"t": "Let's go Buffalo!", "m": "The home chant."},
+      {"t": "Leafs fans taking over our building? Not tonight.", "m": "Toronto fans drive down the QEW and fill Sabres home games."},
+      {"t": "Hasek was the Dominator for a reason.", "m": "Praise for the legendary goalie."},
+      {"t": "The French Connection is still the best line we ever had.", "m": "Nostalgia for the 1970s glory years."}
+    ],
+    "avoid": [
+      {"say": "Hull's goal was fine", "instead": "No goal", "why": "Sabres fans still dispute the 1999 Cup winner."},
+      {"say": "I cheer for the Leafs too", "instead": "Beat Toronto", "why": "Toronto is the rival just up the highway."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Buffalo_Sabres", "https://blog.ticketmaster.com/buffalo-sabres-vs-toronto-maple-leafs-series"],
+    "unsure": []
+  },
+  {
+    "team": "Calgary Flames",
+    "espnId": "3",
+    "league": "hockey/nhl",
+    "aliases": ["calgary", "flames", "cgy"],
+    "nickname": "the Flames",
+    "fans": "the C of Red",
+    "ground": "the Saddledome",
+    "rivals": [
+      {"team": "Edmonton Oilers", "name": "Edmonton", "derby": "the Battle of Alberta"},
+      {"team": "Vancouver Canucks", "name": "the Canucks", "derby": ""}
+    ],
+    "legends": ["Lanny McDonald", "Jarome Iginla", "Miikka Kiprusoff", "Al MacInnis"],
+    "memory": "Winning the 1989 Stanley Cup on Montreal Forum ice, the only visiting team ever to clinch the Cup there",
+    "lingo": [
+      {"term": "the C of Red", "say": "the SEE of RED", "means": "The sea of red-shirted fans at home games, especially in the playoffs. Also what the fans call themselves."},
+      {"term": "the Red Mile", "say": "the RED MILE", "means": "The strip of 17th Avenue SW where fans party after playoff wins. It started in the 2004 run."},
+      {"term": "the Dome", "say": "the DOME", "means": "The Scotiabank Saddledome, the saddle-shaped arena. 2026-27 is its last Flames season before Scotia Place opens in 2027."},
+      {"term": "the Battle of Alberta", "say": "the BAT-ul of al-BER-tuh", "means": "Flames versus Oilers. The biggest games on the calendar."}
+    ],
+    "lines": [
+      {"t": "See you on the Red Mile!", "m": "Said when a big playoff win is coming. Fans head to 17th Avenue to celebrate."},
+      {"t": "It's Battle of Alberta week.", "m": "Any week Calgary plays Edmonton. Nobody talks about anything else."},
+      {"t": "Wear red. The C of Red needs you.", "m": "Home playoff games are a full red-out."},
+      {"t": "I'm going to miss the Dome when Scotia Place opens.", "m": "The new arena is due in fall 2027, so the Saddledome is in its farewell season."},
+      {"t": "Iggy and Kipper in 2004. What a run.", "m": "Iginla and Kiprusoff carried the team to the 2004 Final."}
+    ],
+    "avoid": [
+      {"say": "Go Oilers", "instead": "Anybody but Edmonton", "why": "The Battle of Alberta is Calgary's fiercest rivalry."},
+      {"say": "The Flames play at Scotia Place", "instead": "the Saddledome, until Scotia Place opens in 2027", "why": "The new arena isn't open yet; 2026-27 is the Saddledome's final Flames season."},
+      {"say": "the Stampeders", "instead": "the Flames", "why": "The Stampeders are Calgary's CFL football team."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Calgary_Flames", "https://dailyhive.com/calgary/photos-videos-scotia-place-calgary-flames-arena-close", "https://amp.cbc.ca/lite/story/1.4054970"],
+    "unsure": []
+  },
+  {
+    "team": "Carolina Hurricanes",
+    "espnId": "7",
+    "league": "hockey/nhl",
+    "aliases": ["carolina", "hurricanes", "canes", "car", "raleigh"],
+    "nickname": "the Canes",
+    "fans": "Caniacs",
+    "ground": "Lenovo Center",
+    "rivals": [
+      {"team": "Washington Capitals", "name": "the Caps", "derby": ""},
+      {"team": "New York Rangers", "name": "the Rangers", "derby": ""}
+    ],
+    "legends": ["Ron Francis", "Eric Staal", "Cam Ward", "Justin Williams"],
+    "memory": "Beating Vegas to win the 2026 Stanley Cup, 20 years after the first title in 2006",
+    "lingo": [
+      {"term": "Caniacs", "say": "KAY-nee-aks", "means": "Hurricanes fans. They use the name with pride."},
+      {"term": "the Storm Surge", "say": "the STORM SURJ", "means": "The players' choreographed celebration on the ice after home wins."},
+      {"term": "Bunch of Jerks", "say": "BUNCH of JERKS", "means": "A TV pundit's 2019 jibe about the Storm Surge. The team and fans adopted it as a badge of honour."},
+      {"term": "the Whalers", "say": "the WAY-lerz", "means": "The Hartford Whalers, the franchise's identity before it moved to North Carolina in 1997."}
+    ],
+    "lines": [
+      {"t": "Storm Surge time!", "m": "Said after a home win, when the players celebrate."},
+      {"t": "Proud to be a bunch of jerks.", "m": "Embracing the 2019 insult."},
+      {"t": "Best tailgating in the NHL.", "m": "Canes fans tailgate in the arena car parks, which is rare in hockey."},
+      {"t": "Two Cups: 2006 and 2026.", "m": "The franchise's two championships."},
+      {"t": "Beat the Caps!", "m": "Washington is the nearest and biggest rival."}
+    ],
+    "avoid": [
+      {"say": "the Raleigh Hurricanes", "instead": "the Carolina Hurricanes, or the Canes", "why": "The team represents the whole state, not one city."},
+      {"say": "PNC Arena", "instead": "Lenovo Center", "why": "The arena was renamed in 2024."},
+      {"say": "the Miami Hurricanes", "instead": "the Canes", "why": "That's a college football team in Florida."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Carolina_Hurricanes", "https://www.axios.com/local/raleigh/2026/06/15/carolina-hurricanes-win-stanley-cup", "https://cardiaccane.com/2019/10/04/carolina-hurricanes-intense-rivalry-brewing-capitals"],
+    "unsure": []
+  },
+  {
+    "team": "Chicago Blackhawks",
+    "espnId": "4",
+    "league": "hockey/nhl",
+    "aliases": ["chicago", "blackhawks", "hawks", "chi"],
+    "nickname": "the Hawks",
+    "fans": "",
+    "ground": "the United Center",
+    "rivals": [
+      {"team": "St. Louis Blues", "name": "the Blues", "derby": ""},
+      {"team": "Detroit Red Wings", "name": "the Wings", "derby": ""}
+    ],
+    "legends": ["Stan Mikita", "Tony Esposito", "Denis Savard", "Glenn Hall"],
+    "memory": "Three Stanley Cups in six seasons: 2010, 2013 and 2015",
+    "lingo": [
+      {"term": "the Madhouse on Madison", "say": "the MAD-house on MAD-ih-sun", "means": "Nickname for the old Chicago Stadium, now used for the United Center on Madison Street."},
+      {"term": "Chelsea Dagger", "say": "CHEL-see DAG-er", "means": "The Fratellis song played after every Hawks home goal."},
+      {"term": "the anthem roar", "say": "the AN-them ROAR", "means": "Fans cheer loudly all the way through the national anthem. A tradition since the 1980s."},
+      {"term": "One Goal", "say": "WUN GOAL", "means": "The team's slogan during the 2010 title run."}
+    ],
+    "lines": [
+      {"t": "Nobody does the anthem like Chicago.", "m": "Pride in the crowd's roar during the anthem."},
+      {"t": "Hearing Chelsea Dagger never gets old.", "m": "The goal song. You hear it after every home goal."},
+      {"t": "Three Cups in six years. That's a dynasty.", "m": "The 2010, 2013 and 2015 teams."},
+      {"t": "Beat the Blues. Always.", "m": "St. Louis is the bitter divisional rival."},
+      {"t": "One Goal.", "m": "The old slogan, used half-jokingly as a rallying cry."}
+    ],
+    "avoid": [
+      {"say": "I'm rooting for the Blues", "instead": "Anyone but St. Louis", "why": "The Blues are Chicago's oldest and nastiest divisional rival."},
+      {"say": "The Wings are a classy club", "instead": "Detroit? No thanks", "why": "Detroit is a fellow Original Six rival."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Chicago_Blackhawks", "https://en.wikipedia.org/wiki/Blackhawks%E2%80%93Blues_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "Colorado Avalanche",
+    "espnId": "17",
+    "league": "hockey/nhl",
+    "aliases": ["colorado", "avalanche", "avs", "col", "denver"],
+    "nickname": "the Avs",
+    "fans": "",
+    "ground": "Ball Arena",
+    "rivals": [
+      {"team": "Detroit Red Wings", "name": "the Wings", "derby": ""}
+    ],
+    "legends": ["Joe Sakic", "Peter Forsberg", "Milan Hejduk"],
+    "memory": "Winning the 1996 Stanley Cup in their first season in Denver after moving from Quebec",
+    "lingo": [
+      {"term": "the Avs", "say": "the AVZ", "means": "The short name everyone uses."},
+      {"term": "Burnaby Joe", "say": "BUR-nuh-bee JOE", "means": "Joe Sakic, who grew up in Burnaby, BC. Also called Super Joe."},
+      {"term": "Foppa", "say": "FOP-uh", "means": "Peter Forsberg's Swedish nickname."},
+      {"term": "the Nordiques", "say": "the nor-DEEKS", "means": "The Quebec Nordiques, the franchise's identity before it moved to Denver in 1995."}
+    ],
+    "lines": [
+      {"t": "Go Avs Go!", "m": "The home chant."},
+      {"t": "Sakic handing the Cup straight to Bourque in 2001. Chills.", "m": "The captain gave Ray Bourque the first lift of the Cup in 2001."},
+      {"t": "Three Cups: 1996, 2001 and 2022.", "m": "The franchise's titles."},
+      {"t": "Beat Detroit. Some things never change.", "m": "The late-1990s feud with the Red Wings still matters."}
+    ],
+    "avoid": [
+      {"say": "the Denver Avalanche", "instead": "the Colorado Avalanche, or the Avs", "why": "The team is named for the state."},
+      {"say": "the Pepsi Center", "instead": "Ball Arena", "why": "The arena was renamed in 2020."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Colorado_Avalanche", "https://en.wikipedia.org/wiki/Avalanche%E2%80%93Red_Wings_rivalry"],
+    "unsure": ["rivals: only the Red Wings feud is clear-cut; recent rivals vary"]
+  },
+  {
+    "team": "Columbus Blue Jackets",
+    "espnId": "29",
+    "league": "hockey/nhl",
+    "aliases": ["columbus", "blue jackets", "jackets", "cbj"],
+    "nickname": "the Jackets",
+    "fans": "",
+    "ground": "Nationwide Arena",
+    "rivals": [
+      {"team": "Pittsburgh Penguins", "name": "the Pens", "derby": ""}
+    ],
+    "legends": ["Rick Nash", "Jody Shelley"],
+    "memory": "Sweeping the 62-win Tampa Bay Lightning in the first round in 2019, the club's first playoff series win",
+    "lingo": [
+      {"term": "the cannon", "say": "the KAN-un", "means": "A replica Civil War cannon in the arena, fired after Jackets goals and wins."},
+      {"term": "CBJ", "say": "see-bee-JAY", "means": "Short for Columbus Blue Jackets. Used everywhere."},
+      {"term": "Stinger", "say": "STING-er", "means": "The team's green bug mascot."},
+      {"term": "the Arena District", "say": "the uh-REE-nuh DIS-trikt", "means": "The bars and restaurants around Nationwide Arena where fans meet before games."}
+    ],
+    "lines": [
+      {"t": "Fire the cannon!", "m": "Shouted when the Jackets score."},
+      {"t": "Nobody gave us a chance against Tampa in 2019.", "m": "The famous sweep of the league's best team."},
+      {"t": "Nash's 61 is up in the rafters where it belongs.", "m": "Rick Nash's number is retired."},
+      {"t": "Pens week. Let's go.", "m": "Pittsburgh is the main rival."},
+      {"t": "Meet you in the Arena District before puck drop.", "m": "The usual pre-game plan."}
+    ],
+    "avoid": [
+      {"say": "the Columbus Blue Jays", "instead": "the Blue Jackets", "why": "The Blue Jays are Toronto's baseball team."},
+      {"say": "I cheer for the Pens too", "instead": "Beat Pittsburgh", "why": "Pittsburgh is the Jackets' main rival."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Columbus_Blue_Jackets"],
+    "unsure": ["legends: Rick Nash is the only retired number; Jody Shelley is more cult favourite than great"]
+  },
+  {
+    "team": "Dallas Stars",
+    "espnId": "9",
+    "league": "hockey/nhl",
+    "aliases": ["dallas", "stars", "dal"],
+    "nickname": "the Stars",
+    "fans": "",
+    "ground": "the AAC",
+    "rivals": [
+      {"team": "St. Louis Blues", "name": "the Blues", "derby": ""},
+      {"team": "Colorado Avalanche", "name": "the Avs", "derby": ""}
+    ],
+    "legends": ["Mike Modano", "Sergei Zubov", "Jere Lehtinen", "Ed Belfour"],
+    "memory": "Brett Hull's triple-overtime goal in Buffalo that won the 1999 Stanley Cup",
+    "lingo": [
+      {"term": "Victory Green", "say": "VIK-tuh-ree GREEN", "means": "The team's official shade of green."},
+      {"term": "the AAC", "say": "the AY-ay-SEE", "means": "American Airlines Center, the Stars' home."},
+      {"term": "Big D", "say": "BIG DEE", "means": "Dallas. Fans call it Big D hockey."},
+      {"term": "the North Stars", "say": "the NORTH STARZ", "means": "The franchise's original Minnesota identity before it moved to Dallas in 1993."}
+    ],
+    "lines": [
+      {"t": "Go Stars!", "m": "The simple home cheer."},
+      {"t": "1999, Hull in triple overtime, Cup to Dallas.", "m": "The franchise's only Cup."},
+      {"t": "Modano's 9 is a Dallas landmark.", "m": "Mike Modano's number is retired. He made hockey big in Texas."},
+      {"t": "Wear your Victory Green.", "m": "Fans dress in green on game day."},
+      {"t": "It was a goal. Buffalo can let it go.", "m": "A Stars fan's answer to the Sabres' 'No goal' complaint about 1999."}
+    ],
+    "avoid": [
+      {"say": "Hockey's not big in Texas", "instead": "Dallas is a real hockey town", "why": "The Stars won the Cup in 1999 and have deep local roots."},
+      {"say": "The Stars have always been in Dallas", "instead": "They came from Minnesota in 1993", "why": "Fans know the North Stars history."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Dallas_Stars"],
+    "unsure": ["rivals: no single agreed rival; Blues and Avalanche are the most cited"]
+  },
+  {
+    "team": "Detroit Red Wings",
+    "espnId": "5",
+    "league": "hockey/nhl",
+    "aliases": ["detroit", "red wings", "wings", "det"],
+    "nickname": "the Wings",
+    "fans": "",
+    "ground": "Little Caesars Arena",
+    "rivals": [
+      {"team": "Colorado Avalanche", "name": "the Avs", "derby": ""},
+      {"team": "Chicago Blackhawks", "name": "the Hawks", "derby": ""},
+      {"team": "Toronto Maple Leafs", "name": "the Leafs", "derby": ""}
+    ],
+    "legends": ["Gordie Howe", "Steve Yzerman", "Nicklas Lidstrom", "Ted Lindsay"],
+    "memory": "Winning the 1997 Stanley Cup, ending a 42-year drought",
+    "lingo": [
+      {"term": "Hockeytown", "say": "HOK-ee-town", "means": "Detroit's proud nickname for itself."},
+      {"term": "the octopus", "say": "the OK-tuh-pus", "means": "A playoff tradition since 1952. Its eight arms stood for the eight wins then needed for the Cup."},
+      {"term": "Mr. Hockey", "say": "MIS-ter HOK-ee", "means": "Gordie Howe."},
+      {"term": "the Joe", "say": "the JOE", "means": "Joe Louis Arena, the beloved old home, closed in 2017."}
+    ],
+    "lines": [
+      {"t": "Welcome to Hockeytown.", "m": "Detroit's hockey pride in three words."},
+      {"t": "Anyone sneak an octopus in tonight?", "m": "Joking about the old playoff tradition."},
+      {"t": "Stevie Y is the Captain. Forever.", "m": "Steve Yzerman, captain for two decades."},
+      {"t": "Twenty-five straight years in the playoffs. Respect it.", "m": "Detroit made the playoffs every season from 1991 to 2016."},
+      {"t": "Avs week. Remember '97.", "m": "The late-1990s feud with Colorado."}
+    ],
+    "avoid": [
+      {"say": "Let's catch a game at the Joe", "instead": "Let's catch a game at the LCA", "why": "Joe Louis Arena closed in 2017."},
+      {"say": "The Avs rivalry is friendly", "instead": "There's real bad blood with Colorado", "why": "The 1990s feud still matters to Detroit fans."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Detroit_Red_Wings", "https://en.wikipedia.org/wiki/Legend_of_the_Octopus"],
+    "unsure": []
+  },
+  {
+    "team": "Edmonton Oilers",
+    "espnId": "6",
+    "league": "hockey/nhl",
+    "aliases": ["edmonton", "oilers", "oil", "edm"],
+    "nickname": "the Oil",
+    "fans": "Oil Country",
+    "ground": "Rogers Place",
+    "rivals": [
+      {"team": "Calgary Flames", "name": "the Flames", "derby": "the Battle of Alberta"},
+      {"team": "Los Angeles Kings", "name": "the Kings", "derby": ""}
+    ],
+    "legends": ["Wayne Gretzky", "Mark Messier", "Grant Fuhr", "Jari Kurri"],
+    "memory": "Five Stanley Cups in seven seasons, from 1984 to 1990",
+    "lingo": [
+      {"term": "the Oil", "say": "the OYL", "means": "Short for the Oilers."},
+      {"term": "Oil Country", "say": "OYL KUN-tree", "means": "The Oilers fanbase and the region that backs the team."},
+      {"term": "the Blue Mile", "say": "the BLOO MILE", "means": "Whyte Avenue, where fans pour out to celebrate during playoff runs. Named in the 2006 run."},
+      {"term": "the Great One", "say": "the GRATE WUN", "means": "Wayne Gretzky."}
+    ],
+    "lines": [
+      {"t": "Let's go Oilers!", "m": "The home chant."},
+      {"t": "The Battle of Alberta is the best rivalry in hockey.", "m": "Edmonton versus Calgary."},
+      {"t": "Whyte Ave tonight?", "m": "Where fans gather to celebrate playoff wins."},
+      {"t": "Five Cups in seven years. The '80s were something else.", "m": "The Gretzky-era dynasty."},
+      {"t": "Nobody sings the anthem like Edmonton.", "m": "The home crowd famously takes over O Canada in the playoffs."}
+    ],
+    "avoid": [
+      {"say": "Gretzky was always a King", "instead": "Gretzky's an Oiler", "why": "The 1988 trade to LA still stings in Edmonton."},
+      {"say": "They play at the Coliseum", "instead": "Rogers Place", "why": "The Oilers moved downtown to Rogers Place in 2016."},
+      {"say": "Go Flames", "instead": "Never the Flames", "why": "Calgary is the provincial rival."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Edmonton_Oilers", "https://vacay.ca/2014/01/edmonton-has-the-whyte-stuff"],
+    "unsure": []
+  },
+  {
+    "team": "Florida Panthers",
+    "espnId": "26",
+    "league": "hockey/nhl",
+    "aliases": ["florida", "panthers", "cats", "fla"],
+    "nickname": "the Cats",
+    "fans": "",
+    "ground": "Amerant Bank Arena",
+    "rivals": [
+      {"team": "Tampa Bay Lightning", "name": "the Bolts", "derby": "the Battle of Florida"}
+    ],
+    "legends": ["Roberto Luongo", "Pavel Bure", "John Vanbiesbrouck", "Scott Mellanby"],
+    "memory": "Back-to-back Stanley Cups in 2024 and 2025, both won against Edmonton",
+    "lingo": [
+      {"term": "the Rat Trick", "say": "the RAT TRIK", "means": "In 1995 Scott Mellanby killed a rat in the dressing room with his stick, then scored twice. Fans began throwing plastic rats on the ice."},
+      {"term": "the Year of the Rat", "say": "the YEER of the RAT", "means": "The 1995-96 season, when the young Panthers reached the Cup Final."},
+      {"term": "the Cats", "say": "the KATS", "means": "Fans' everyday name for the Panthers."},
+      {"term": "the Battle of Florida", "say": "the BAT-ul of FLOR-ih-duh", "means": "Panthers versus Lightning."}
+    ],
+    "lines": [
+      {"t": "Let's go Cats!", "m": "The home cheer."},
+      {"t": "Rats on the ice means a big win.", "m": "The plastic-rat tradition."},
+      {"t": "Battle of Florida. Beat the Bolts.", "m": "Tampa Bay is the in-state rival."},
+      {"t": "Back-to-back champions, 2024 and 2025.", "m": "The two straight Cups."},
+      {"t": "It all started with the Year of the Rat.", "m": "The 1996 Final run made the fanbase."}
+    ],
+    "avoid": [
+      {"say": "the Miami Panthers", "instead": "the Florida Panthers", "why": "They play in Sunrise, in Broward County, not Miami."},
+      {"say": "the Carolina Panthers", "instead": "the Florida Panthers", "why": "That's an NFL team."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Florida_Panthers", "https://www.nhl.com/panthers/news/florida-panthers-announce-arena-naming-rights-agreement-with-amerant-bank"],
+    "unsure": []
+  },
+  {
+    "team": "Los Angeles Kings",
+    "espnId": "8",
+    "league": "hockey/nhl",
+    "aliases": ["los angeles", "la kings", "kings", "lak"],
+    "nickname": "the Kings",
+    "fans": "",
+    "ground": "Crypto.com Arena",
+    "rivals": [
+      {"team": "Anaheim Ducks", "name": "the Ducks", "derby": "the Freeway Faceoff"},
+      {"team": "San Jose Sharks", "name": "the Sharks", "derby": ""},
+      {"team": "Edmonton Oilers", "name": "the Oilers", "derby": ""}
+    ],
+    "legends": ["Marcel Dionne", "Luc Robitaille", "Wayne Gretzky", "Dustin Brown"],
+    "memory": "Winning the 2012 Stanley Cup as the eighth and last seed in the West",
+    "lingo": [
+      {"term": "Go Kings Go", "say": "go KINGZ go", "means": "The home chant."},
+      {"term": "the Miracle on Manchester", "say": "the MEER-uh-kul on MAN-ches-ter", "means": "A 1982 playoff game where the Kings came back from 5-0 down to beat Gretzky's Oilers."},
+      {"term": "the Triple Crown Line", "say": "the TRIP-ul KROWN line", "means": "Marcel Dionne, Dave Taylor and Charlie Simmer, the great line of the late 1970s."},
+      {"term": "Lucky Luc", "say": "LUK-ee LOOK", "means": "Luc Robitaille, the franchise's top goal scorer."}
+    ],
+    "lines": [
+      {"t": "Go Kings Go!", "m": "The home chant."},
+      {"t": "Eighth seed in 2012 and we won it all. Never count us out.", "m": "The famous underdog Cup run."},
+      {"t": "Gretzky made hockey cool in LA.", "m": "His 1988 arrival changed hockey in California."},
+      {"t": "Freeway Faceoff. Beat the Ducks.", "m": "Anaheim is the local rival."},
+      {"t": "I still call it Staples.", "m": "The arena was Staples Center until 2021."}
+    ],
+    "avoid": [
+      {"say": "the Sacramento Kings", "instead": "the LA Kings", "why": "Sacramento's Kings are an NBA team."},
+      {"say": "I like the Ducks too", "instead": "Ducks? No thanks", "why": "Anaheim is the Kings' local rival."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Kings", "https://en.wikipedia.org/wiki/Miracle_on_Manchester"],
+    "unsure": []
+  },
+  {
+    "team": "Minnesota Wild",
+    "espnId": "30",
+    "league": "hockey/nhl",
+    "aliases": ["minnesota", "wild", "min", "st paul"],
+    "nickname": "the Wild",
+    "fans": "",
+    "ground": "Grand Casino Arena",
+    "rivals": [
+      {"team": "Dallas Stars", "name": "the Stars", "derby": ""},
+      {"team": "Chicago Blackhawks", "name": "the Hawks", "derby": ""},
+      {"team": "Colorado Avalanche", "name": "the Avs", "derby": ""}
+    ],
+    "legends": ["Mikko Koivu", "Marian Gaborik", "Niklas Backstrom"],
+    "memory": "Andrew Brunette's Game 7 overtime winner in Colorado in 2003, in only the club's third season",
+    "lingo": [
+      {"term": "the State of Hockey", "say": "the STATE of HOK-ee", "means": "Minnesota's proud nickname. Fans and the team use it all the time."},
+      {"term": "the X", "say": "the EKS", "means": "The arena's old nickname, from its Xcel Energy Center days. It became Grand Casino Arena in 2025."},
+      {"term": "Hockey Day Minnesota", "say": "HOK-ee DAY min-uh-SOH-tuh", "means": "An annual winter day of outdoor games across the state, from high schools to the Wild."},
+      {"term": "the North Stars", "say": "the NORTH STARZ", "means": "Minnesota's old NHL team, which moved to Dallas in 1993."}
+    ],
+    "lines": [
+      {"t": "Welcome to the State of Hockey.", "m": "Minnesota's hockey pride."},
+      {"t": "I still slip and call it the X.", "m": "The arena was renamed Grand Casino Arena in 2025."},
+      {"t": "Every kid here learns to skate on an outdoor rink.", "m": "Minnesota's pond-hockey culture."},
+      {"t": "Brunette's goal in 2003 still gives me chills.", "m": "The Game 7 overtime upset of Colorado."},
+      {"t": "Beat Dallas. They took our North Stars.", "m": "Gentle grudge over the 1993 move."}
+    ],
+    "avoid": [
+      {"say": "the Minneapolis Wild", "instead": "the Wild", "why": "The arena is in St. Paul and the team stands for the whole state."},
+      {"say": "the Wilds", "instead": "the Wild", "why": "The name is never plural."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Minnesota_Wild", "https://www.cbsnews.com/amp/minnesota/news/xcel-energy-center-wild-renaming", "https://hockeywilderness.com/news-rumors/minnesota-wild/rivalry-week-ranking-all-of-the-minnesota-wild%E2%80%99s-biggest-rivals-r20703"],
+    "unsure": ["rivals: no clear consensus; Dallas is most often named"]
+  },
+  {
+    "team": "Montreal Canadiens",
+    "espnId": "10",
+    "league": "hockey/nhl",
+    "aliases": ["montreal", "canadiens", "habs", "mtl", "le canadien", "le ch"],
+    "nickname": "the Habs",
+    "fans": "",
+    "ground": "the Bell Centre",
+    "rivals": [
+      {"team": "Toronto Maple Leafs", "name": "the Leafs", "derby": ""},
+      {"team": "Boston Bruins", "name": "the Bruins", "derby": ""},
+      {"team": "Ottawa Senators", "name": "the Sens", "derby": ""}
+    ],
+    "legends": ["Maurice Richard", "Jean Béliveau", "Guy Lafleur", "Ken Dryden"],
+    "memory": "Winning the 1993 Stanley Cup, the club's 24th and still the last won by a Canadian team",
+    "lingo": [
+      {"term": "Go Habs Go", "say": "go HABZ go", "means": "The rallying cry, used in English and French alike. 'Habs' comes from 'les Habitants'."},
+      {"term": "le CH", "say": "luh say-ASH", "means": "French fans' name for the team, from the C and H on the logo. Also 'le Canadien'."},
+      {"term": "la Sainte-Flanelle", "say": "lah sant-flah-NEL", "means": "'The holy flannel': the sacred red jersey, and the team itself."},
+      {"term": "les Glorieux", "say": "lay glor-YUH", "means": "'The glorious ones': an affectionate French name for the Habs."}
+    ],
+    "lines": [
+      {"t": "Go Habs Go!", "m": "The universal Montreal cheer."},
+      {"t": "Le CH, c'est une religion ici.", "m": "French for 'The Habs are a religion here.' A common Montreal saying."},
+      {"t": "Lâche pas la patate!", "m": "Quebec French for 'don't give up', literally 'don't drop the potato'. Used to urge the team on."},
+      {"t": "Here comes the Olé chant.", "m": "Bell Centre crowds break into a long 'olé' chant when the Habs are winning."},
+      {"t": "Twenty-four Cups. Count them.", "m": "Montreal has won the Cup more often than any other team."}
+    ],
+    "avoid": [
+      {"say": "The H stands for Habs", "instead": "The H is for Hockey", "why": "The logo stands for Club de hockey Canadien. Fans know the real story."},
+      {"say": "They play at the Forum", "instead": "the Bell Centre, or le Centre Bell", "why": "The Montreal Forum closed in 1996."},
+      {"say": "Toronto has more history", "instead": "24 Cups to 13", "why": "Habs fans never let the Leafs forget the Cup count."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Montreal_Canadiens", "https://en.wikipedia.org/wiki/Canadiens%E2%80%93Maple_Leafs_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "Nashville Predators",
+    "espnId": "27",
+    "league": "hockey/nhl",
+    "aliases": ["nashville", "predators", "preds", "nsh"],
+    "nickname": "the Preds",
+    "fans": "",
+    "ground": "Bridgestone Arena",
+    "rivals": [
+      {"team": "Chicago Blackhawks", "name": "the Hawks", "derby": ""},
+      {"team": "Detroit Red Wings", "name": "the Wings", "derby": ""}
+    ],
+    "legends": ["Pekka Rinne", "Shea Weber", "David Legwand", "Mike Fisher"],
+    "memory": "Reaching the 2017 Stanley Cup Final as the West's lowest playoff seed",
+    "lingo": [
+      {"term": "Smashville", "say": "SMASH-vil", "means": "Nashville's hockey nickname, and the name for the loud home crowd."},
+      {"term": "the catfish", "say": "the KAT-fish", "means": "Fans toss a catfish on the ice for luck, a tradition since 2003."},
+      {"term": "the Bridge", "say": "the BRIJ", "means": "Bridgestone Arena."},
+      {"term": "Pekka", "say": "PEK-uh", "means": "Pekka Rinne, the franchise's greatest goalie. His 35 is retired."}
+    ],
+    "lines": [
+      {"t": "Welcome to Smashville!", "m": "The home crowd's greeting."},
+      {"t": "Catfish on the ice. That's a Preds tradition.", "m": "Nashville's answer to Detroit's octopus."},
+      {"t": "Country stars singing the anthem: only in Nashville.", "m": "Big-name country singers often sing it at playoff games."},
+      {"t": "Broadway after the game?", "m": "The honky-tonks of Lower Broadway are right by the arena."},
+      {"t": "Pekka is still the king of our crease.", "m": "Fans adore Rinne."}
+    ],
+    "avoid": [
+      {"say": "Somebody throw an octopus", "instead": "Somebody throw a catfish", "why": "The octopus is Detroit's thing; Nashville has the catfish."},
+      {"say": "the tiger logo", "instead": "the sabre-tooth", "why": "The logo is a sabre-toothed cat, after a fossil found under downtown Nashville."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Nashville_Predators"],
+    "unsure": ["rivals: no clear consensus; Blackhawks and Red Wings are older Central rivals"]
+  },
+  {
+    "team": "New Jersey Devils",
+    "espnId": "11",
+    "league": "hockey/nhl",
+    "aliases": ["new jersey", "devils", "nj", "njd", "jersey"],
+    "nickname": "the Devils",
+    "fans": "",
+    "ground": "the Rock",
+    "rivals": [
+      {"team": "New York Rangers", "name": "the Rangers", "derby": "the Hudson River Rivalry"},
+      {"team": "Philadelphia Flyers", "name": "the Flyers", "derby": ""},
+      {"team": "New York Islanders", "name": "the Isles", "derby": ""}
+    ],
+    "legends": ["Martin Brodeur", "Scott Stevens", "Patrik Elias", "Ken Daneyko"],
+    "memory": "Three Stanley Cups in nine seasons: 1995, 2000 and 2003",
+    "lingo": [
+      {"term": "the Rock", "say": "the ROK", "means": "Prudential Center in Newark, named after Prudential's rock logo."},
+      {"term": "Marty", "say": "MAR-tee", "means": "Martin Brodeur, the goalie with the most wins in NHL history."},
+      {"term": "the trap", "say": "the TRAP", "means": "The neutral-zone trap, the tight defensive system of the 1990s Devils."},
+      {"term": "the Jersey Devil", "say": "the JUR-zee DEV-il", "means": "The creature of New Jersey folklore the team is named after."}
+    ],
+    "lines": [
+      {"t": "Let's go Devils!", "m": "The home chant."},
+      {"t": "Marty is the best goalie ever. End of discussion.", "m": "Brodeur is the franchise icon."},
+      {"t": "Three Cups since '95. The Rangers have one since 1940.", "m": "Mild banter at New York's expense."},
+      {"t": "Newark on game night is electric.", "m": "Pride in the downtown arena."},
+      {"t": "Hudson River Rivalry. Beat the Rangers.", "m": "New York across the river is the big rival."}
+    ],
+    "avoid": [
+      {"say": "the New York Devils", "instead": "the New Jersey Devils", "why": "Jersey fans hate being lumped in with New York."},
+      {"say": "They play at the Meadowlands", "instead": "the Rock", "why": "They left the Meadowlands for Newark in 2007."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/New_Jersey_Devils", "https://en.wikipedia.org/wiki/Devils%E2%80%93Rangers_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "New York Islanders",
+    "espnId": "12",
+    "league": "hockey/nhl",
+    "aliases": ["islanders", "isles", "nyi", "long island"],
+    "nickname": "the Isles",
+    "fans": "",
+    "ground": "UBS Arena",
+    "rivals": [
+      {"team": "New York Rangers", "name": "the Rangers", "derby": "the Battle of New York"}
+    ],
+    "legends": ["Mike Bossy", "Bryan Trottier", "Denis Potvin", "Billy Smith"],
+    "memory": "Four straight Stanley Cups, 1980 to 1983",
+    "lingo": [
+      {"term": "the Isles", "say": "the EYE-ulz", "means": "Short for the Islanders."},
+      {"term": "the Barn", "say": "the BARN", "means": "Nassau Coliseum, the team's loud old home."},
+      {"term": "the Drive for Five", "say": "the DRIVE for FIVE", "means": "The 1984 push for a fifth straight Cup, which ended in the Final against Edmonton."},
+      {"term": "Nineteen straight", "say": "nine-TEEN STRAYT", "means": "The record 19 playoff series wins in a row, 1980 to 1984."}
+    ],
+    "lines": [
+      {"t": "Let's go Islanders!", "m": "The home chant."},
+      {"t": "Four straight Cups and 19 straight series. Nobody's touching that.", "m": "The dynasty's records."},
+      {"t": "I miss the Barn, but UBS is a beauty.", "m": "Nostalgia for the Coliseum, pride in the new arena."},
+      {"t": "Bossy was the purest goal scorer ever.", "m": "Mike Bossy, the dynasty's sniper."},
+      {"t": "Rangers fans can keep Manhattan.", "m": "Mild Long Island banter."}
+    ],
+    "avoid": [
+      {"say": "the Brooklyn Islanders", "instead": "the Islanders", "why": "They left Brooklyn and moved back to Long Island."},
+      {"say": "They play at Nassau Coliseum", "instead": "UBS Arena", "why": "They have played at UBS Arena in Elmont since 2021."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/New_York_Islanders", "https://en.wikipedia.org/wiki/Islanders%E2%80%93Rangers_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "New York Rangers",
+    "espnId": "13",
+    "league": "hockey/nhl",
+    "aliases": ["rangers", "nyr", "blueshirts", "ny rangers"],
+    "nickname": "the Blueshirts",
+    "fans": "",
+    "ground": "the Garden",
+    "rivals": [
+      {"team": "New York Islanders", "name": "the Isles", "derby": "the Battle of New York"},
+      {"team": "New Jersey Devils", "name": "the Devils", "derby": "the Hudson River Rivalry"},
+      {"team": "Philadelphia Flyers", "name": "the Flyers", "derby": ""}
+    ],
+    "legends": ["Mark Messier", "Henrik Lundqvist", "Brian Leetch", "Mike Richter"],
+    "memory": "Winning the 1994 Stanley Cup, ending a 54-year drought",
+    "lingo": [
+      {"term": "the Blueshirts", "say": "the BLOO-shurts", "means": "Classic nickname for the Rangers."},
+      {"term": "MSG", "say": "em-ess-JEE", "means": "Madison Square Garden, also just 'the Garden'."},
+      {"term": "the Guarantee", "say": "the gair-un-TEE", "means": "Mark Messier promising a win in Game 6 of the 1994 conference final, then scoring a hat-trick to deliver it."},
+      {"term": "King Henrik", "say": "KING HEN-rik", "means": "Henrik Lundqvist, the great goalie."}
+    ],
+    "lines": [
+      {"t": "Let's go Rangers!", "m": "The home chant."},
+      {"t": "Messier guaranteed it, then delivered.", "m": "The 1994 Game 6 legend."},
+      {"t": "Nothing beats a playoff night at the Garden.", "m": "Pride in MSG's atmosphere."},
+      {"t": "No more 1940 chants since '94.", "m": "Rivals used to chant '1940', the year of the previous Cup."},
+      {"t": "Battle of New York. Beat the Isles.", "m": "The Islanders are the local rival."}
+    ],
+    "avoid": [
+      {"say": "I like the Isles and the Rangers", "instead": "Pick one", "why": "No New York hockey fan backs both."},
+      {"say": "the Texas Rangers", "instead": "the Rangers", "why": "That's a baseball team."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/New_York_Rangers", "https://en.wikipedia.org/wiki/Islanders%E2%80%93Rangers_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "Ottawa Senators",
+    "espnId": "14",
+    "league": "hockey/nhl",
+    "aliases": ["ottawa", "senators", "sens", "ott"],
+    "nickname": "the Sens",
+    "fans": "Sens Army",
+    "ground": "the Canadian Tire Centre",
+    "rivals": [
+      {"team": "Toronto Maple Leafs", "name": "the Leafs", "derby": "the Battle of Ontario"},
+      {"team": "Montreal Canadiens", "name": "the Habs", "derby": ""}
+    ],
+    "legends": ["Chris Phillips", "Chris Neil", "Wade Redden", "Jason Spezza"],
+    "memory": "Reaching the 2007 Stanley Cup Final, the modern club's only Final",
+    "lingo": [
+      {"term": "Sens Army", "say": "SENZ AR-mee", "means": "The Senators fanbase."},
+      {"term": "the Battle of Ontario", "say": "the BAT-ul of on-TAIR-ee-oh", "means": "Sens versus Leafs."},
+      {"term": "the CTC", "say": "the see-tee-SEE", "means": "Canadian Tire Centre, out in suburban Kanata."},
+      {"term": "the Silver Seven", "say": "the SIL-ver SEV-en", "means": "The original Ottawa club that won the Stanley Cup in the early 1900s. Modern fans claim the history proudly."}
+    ],
+    "lines": [
+      {"t": "Go Sens Go!", "m": "The home chant."},
+      {"t": "Sens Army, on your feet.", "m": "Rallying the home crowd."},
+      {"t": "Battle of Ontario. Beat the Leafs.", "m": "Toronto is the provincial rival."},
+      {"t": "The drive out to Kanata is part of the ritual.", "m": "The arena is in the western suburbs, far from downtown."},
+      {"t": "Can't wait for a downtown rink at LeBreton.", "m": "The club plans a new arena at LeBreton Flats, with no opening date set yet."}
+    ],
+    "avoid": [
+      {"say": "They play downtown", "instead": "out in Kanata", "why": "The arena is in suburban Kanata; the downtown LeBreton arena is still years away."},
+      {"say": "I cheer for the Leafs too", "instead": "Never the Leafs", "why": "Toronto is Ottawa's provincial rival."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Ottawa_Senators", "https://www.ctvnews.ca/ottawa/article/its-going-to-take-some-time-sens-owner-says-lebreton-flats-arena-is-moving-along-slowly-but-surely/", "https://www.tsn.ca/nhl/article/senators-great-alfredsson-set-for-exciting-chapter-with-rival-maple-leafs/"],
+    "unsure": ["legends: Daniel Alfredsson left out because he became a Maple Leafs associate coach in July 2026"]
+  },
+  {
+    "team": "Philadelphia Flyers",
+    "espnId": "15",
+    "league": "hockey/nhl",
+    "aliases": ["philadelphia", "philly", "flyers", "phi"],
+    "nickname": "the Flyers",
+    "fans": "",
+    "ground": "Xfinity Mobile Arena",
+    "rivals": [
+      {"team": "Pittsburgh Penguins", "name": "the Pens", "derby": "the Battle of Pennsylvania"},
+      {"team": "New York Rangers", "name": "the Rangers", "derby": ""},
+      {"team": "New Jersey Devils", "name": "the Devils", "derby": ""}
+    ],
+    "legends": ["Bobby Clarke", "Bernie Parent", "Bill Barber", "Eric Lindros"],
+    "memory": "Back-to-back Stanley Cups in 1974 and 1975, the Broad Street Bullies era",
+    "lingo": [
+      {"term": "the Broad Street Bullies", "say": "the BRAWD street BUL-eez", "means": "The tough Cup-winning Flyers of the 1970s."},
+      {"term": "Gritty", "say": "GRIT-ee", "means": "The furry orange mascot since 2018, now a Philadelphia icon."},
+      {"term": "the Spectrum", "say": "the SPEK-trum", "means": "The Flyers' old arena, home of the 1970s glory years."},
+      {"term": "the Legion of Doom", "say": "the LEE-jun of DOOM", "means": "The 1990s line of Eric Lindros, John LeClair and Mikael Renberg."}
+    ],
+    "lines": [
+      {"t": "Let's go Flyers!", "m": "The home chant."},
+      {"t": "Gritty is the best mascot in sports. Fact.", "m": "Philly loves Gritty."},
+      {"t": "Two Cups in the '70s, with Bernie in net.", "m": "Bernie Parent won the Conn Smythe both years."},
+      {"t": "Pens week. Need I say more?", "m": "Pittsburgh is the cross-state enemy."},
+      {"t": "Play it like the Broad Street Bullies.", "m": "A call for gritty, physical hockey."}
+    ],
+    "avoid": [
+      {"say": "the Wells Fargo Center", "instead": "Xfinity Mobile Arena", "why": "The arena was renamed in 2025."},
+      {"say": "Pittsburgh's a classy club", "instead": "Beat Pittsburgh", "why": "The Battle of Pennsylvania is the Flyers' fiercest rivalry."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Philadelphia_Flyers", "https://www.espn.com/nhl/story/_/id/45025071"],
+    "unsure": []
+  },
+  {
+    "team": "Pittsburgh Penguins",
+    "espnId": "16",
+    "league": "hockey/nhl",
+    "aliases": ["pittsburgh", "penguins", "pens", "pit", "pgh"],
+    "nickname": "the Pens",
+    "fans": "",
+    "ground": "PPG Paints Arena",
+    "rivals": [
+      {"team": "Philadelphia Flyers", "name": "the Flyers", "derby": "the Battle of Pennsylvania"},
+      {"team": "Washington Capitals", "name": "the Caps", "derby": ""}
+    ],
+    "legends": ["Mario Lemieux", "Marc-André Fleury", "Ron Francis"],
+    "memory": "Mario Lemieux leading back-to-back Stanley Cups in 1991 and 1992",
+    "lingo": [
+      {"term": "the Pens", "say": "the PENZ", "means": "Short for the Penguins."},
+      {"term": "Le Magnifique", "say": "luh man-yee-FEEK", "means": "Mario Lemieux, 'the Magnificent One'. Also called Super Mario."},
+      {"term": "the Igloo", "say": "the IG-loo", "means": "The Civic Arena, the domed old home, since torn down."},
+      {"term": "yinz", "say": "YINZ", "means": "Pittsburgh slang for 'you all'. Very local."}
+    ],
+    "lines": [
+      {"t": "Let's go Pens!", "m": "The home chant."},
+      {"t": "Yinz going to the game tonight?", "m": "Local dialect for 'are you all going'."},
+      {"t": "Mario saved this team twice: as a player and as an owner.", "m": "Lemieux led the team to Cups, then bought it out of bankruptcy in 1999."},
+      {"t": "Beat Philly. Always.", "m": "The Flyers are the cross-state rival."},
+      {"t": "Flower was the heart of those Cup teams.", "m": "Fleury, nicknamed Flower, won three Cups in Pittsburgh."}
+    ],
+    "avoid": [
+      {"say": "the Consol Energy Center", "instead": "PPG Paints Arena", "why": "The arena was renamed in 2016."},
+      {"say": "Flyers fans are great", "instead": "Beat Philly", "why": "The Flyers are the cross-state enemy."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Pittsburgh_Penguins", "https://en.wikipedia.org/wiki/Flyers%E2%80%93Penguins_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "San Jose Sharks",
+    "espnId": "18",
+    "league": "hockey/nhl",
+    "aliases": ["san jose", "sharks", "sj", "sjs"],
+    "nickname": "the Sharks",
+    "fans": "",
+    "ground": "the Tank",
+    "rivals": [
+      {"team": "Los Angeles Kings", "name": "the Kings", "derby": ""},
+      {"team": "Vegas Golden Knights", "name": "Vegas", "derby": ""},
+      {"team": "Anaheim Ducks", "name": "the Ducks", "derby": ""}
+    ],
+    "legends": ["Patrick Marleau", "Joe Thornton", "Joe Pavelski", "Owen Nolan"],
+    "memory": "Reaching the 2016 Stanley Cup Final, the club's first",
+    "lingo": [
+      {"term": "the Tank", "say": "the TANK", "means": "SAP Center, home of the Sharks. Also 'the Shark Tank'."},
+      {"term": "the chomp", "say": "the CHOMP", "means": "Fans' arm-chomping move, done to the Jaws theme on Sharks power plays."},
+      {"term": "Jumbo Joe", "say": "JUM-bo JOE", "means": "Joe Thornton."},
+      {"term": "teal", "say": "TEEL", "means": "The team's signature colour. Fans call it Sharks teal."}
+    ],
+    "lines": [
+      {"t": "Welcome to the Tank!", "m": "The home greeting."},
+      {"t": "Do the chomp!", "m": "Join the arm chomp on a power play."},
+      {"t": "Jumbo and Patty, the best duo we ever had.", "m": "Joe Thornton and Patrick Marleau."},
+      {"t": "2016 Final. What a ride.", "m": "The best run in club history."},
+      {"t": "Beat LA!", "m": "The Kings are the in-state rival."}
+    ],
+    "avoid": [
+      {"say": "the San Francisco Sharks", "instead": "the San Jose Sharks", "why": "They're a San Jose team, and fans are proud of it."},
+      {"say": "San JOSE with a hard J", "instead": "san ho-ZAY", "why": "Getting the city's name wrong marks you instantly."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/San_Jose_Sharks", "https://www.nbcsportsbayarea.com/nhl/why-sharks-fans-voted-golden-knights-as-san-joses-biggest-nhl-rival/1344083/"],
+    "unsure": []
+  },
+  {
+    "team": "Seattle Kraken",
+    "espnId": "124292",
+    "league": "hockey/nhl",
+    "aliases": ["seattle", "kraken", "sea"],
+    "nickname": "the Kraken",
+    "fans": "",
+    "ground": "Climate Pledge Arena",
+    "rivals": [
+      {"team": "Vancouver Canucks", "name": "the Canucks", "derby": ""}
+    ],
+    "legends": [],
+    "memory": "Knocking out the defending champion Colorado Avalanche in Game 7 in Denver in 2023, in only their second season",
+    "lingo": [
+      {"term": "Release the Kraken", "say": "ree-LEES the KRAK-en", "means": "The rallying cry. The movie line became the team's chant."},
+      {"term": "Buoy", "say": "BOO-ee", "means": "The team's troll mascot."},
+      {"term": "the Metropolitans", "say": "the met-ruh-POL-ih-tunz", "means": "The Seattle Metropolitans, who in 1917 became the first US team to win the Stanley Cup."}
+    ],
+    "lines": [
+      {"t": "Release the Kraken!", "m": "The home rallying cry."},
+      {"t": "Game 7 in Denver, 2023. We took down the champs.", "m": "The upset of Colorado in year two."},
+      {"t": "Seattle won the Cup first, back in 1917.", "m": "The Metropolitans were the first American team to win it."},
+      {"t": "Canucks week. Beat Vancouver.", "m": "Vancouver is the nearest NHL city, just up the I-5."}
+    ],
+    "avoid": [
+      {"say": "KeyArena", "instead": "Climate Pledge Arena", "why": "The old arena was rebuilt and renamed before the Kraken began in 2021."},
+      {"say": "the Seattle Krakens", "instead": "the Kraken", "why": "The name is never plural."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Seattle_Kraken", "https://en.wikipedia.org/wiki/Seattle_Metropolitans"],
+    "unsure": ["legends: the club began in 2021 and has no retired greats yet", "lingo: found no official pronunciation; KRAK-en is the common usage", "rivals: the Canucks rivalry has no settled name"]
+  },
+  {
+    "team": "St. Louis Blues",
+    "espnId": "19",
+    "league": "hockey/nhl",
+    "aliases": ["st. louis", "st louis", "blues", "stl"],
+    "nickname": "the Blues",
+    "fans": "",
+    "ground": "Enterprise Center",
+    "rivals": [
+      {"team": "Chicago Blackhawks", "name": "the Hawks", "derby": ""}
+    ],
+    "legends": ["Bernie Federko", "Brett Hull", "Al MacInnis", "Bob Plager"],
+    "memory": "Winning the 2019 Stanley Cup after sitting last in the league in early January",
+    "lingo": [
+      {"term": "Gloria", "say": "GLOR-ee-uh", "means": "The 1980s pop hit the team adopted in its 2019 Cup run. It plays after home wins."},
+      {"term": "the Note", "say": "the NOTE", "means": "The blue music-note logo, and a nickname for the team."},
+      {"term": "the Golden Brett", "say": "the GOHL-den BRET", "means": "Brett Hull, the Blues' greatest goal scorer."},
+      {"term": "Let's go Blues", "say": "lets go BLOOZ", "means": "The home chant."}
+    ],
+    "lines": [
+      {"t": "Play Gloria!", "m": "What fans shout for after a win."},
+      {"t": "Last in January, champions in June.", "m": "The 2019 turnaround."},
+      {"t": "Let's go Blues!", "m": "The home chant."},
+      {"t": "Beat Chicago. Always.", "m": "The Blackhawks are the bitter rival."},
+      {"t": "Hull's 16 hanging up there says it all.", "m": "Brett Hull's number is retired."}
+    ],
+    "avoid": [
+      {"say": "the Scottrade Center", "instead": "Enterprise Center", "why": "The arena was renamed in 2018."},
+      {"say": "The Hawks are a classy club", "instead": "Beat Chicago", "why": "Chicago is the Blues' bitterest rival."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/St._Louis_Blues", "https://en.wikipedia.org/wiki/Blackhawks%E2%80%93Blues_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "Tampa Bay Lightning",
+    "espnId": "20",
+    "league": "hockey/nhl",
+    "aliases": ["tampa bay", "tampa", "lightning", "bolts", "tbl"],
+    "nickname": "the Bolts",
+    "fans": "",
+    "ground": "Benchmark International Arena",
+    "rivals": [
+      {"team": "Florida Panthers", "name": "the Panthers", "derby": "the Battle of Florida"}
+    ],
+    "legends": ["Vincent Lecavalier", "Brad Richards", "Dave Andreychuk"],
+    "memory": "Back-to-back Stanley Cups in 2020 and 2021",
+    "lingo": [
+      {"term": "the Bolts", "say": "the BOHLTS", "means": "Short for the Lightning."},
+      {"term": "the Tesla coils", "say": "the TES-luh KOYLZ", "means": "Giant coils in the arena that fire bolts of electricity after Lightning goals."},
+      {"term": "Thunderbug", "say": "THUN-der-bug", "means": "The team's mascot."},
+      {"term": "the Battle of Florida", "say": "the BAT-ul of FLOR-ih-duh", "means": "Lightning versus Panthers."}
+    ],
+    "lines": [
+      {"t": "Go Bolts!", "m": "The home cheer."},
+      {"t": "Fire up the Tesla coils!", "m": "Said when a goal is coming, or just went in."},
+      {"t": "Three Cups: 2004, 2020 and 2021.", "m": "The franchise's titles."},
+      {"t": "Battle of Florida. Beat the Cats.", "m": "The Panthers are the in-state rival."},
+      {"t": "Hockey in shorts weather. Can't beat it.", "m": "Enjoying Tampa's warm climate."}
+    ],
+    "avoid": [
+      {"say": "Amalie Arena", "instead": "Benchmark International Arena", "why": "The arena was renamed in 2025."},
+      {"say": "the Lightnings", "instead": "the Lightning", "why": "The name is never plural."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Tampa_Bay_Lightning", "https://www.princegeorgecitizen.com/hockey/the-home-of-the-nhls-tampa-bay-lightning-renamed-benchmark-international-arena-11071718"],
+    "unsure": []
+  },
+  {
+    "team": "Toronto Maple Leafs",
+    "espnId": "21",
+    "league": "hockey/nhl",
+    "aliases": ["toronto", "maple leafs", "leafs", "tor", "buds"],
+    "nickname": "the Leafs",
+    "fans": "Leafs Nation",
+    "ground": "Scotiabank Arena",
+    "rivals": [
+      {"team": "Montreal Canadiens", "name": "the Habs", "derby": ""},
+      {"team": "Ottawa Senators", "name": "the Sens", "derby": "the Battle of Ontario"},
+      {"team": "Boston Bruins", "name": "the Bruins", "derby": ""}
+    ],
+    "legends": ["Darryl Sittler", "Dave Keon", "Mats Sundin", "Wendel Clark"],
+    "memory": "Winning the 1967 Stanley Cup, still the club's most recent title",
+    "lingo": [
+      {"term": "Leafs Nation", "say": "LEEFS NAY-shun", "means": "The huge Leafs fanbase, across Canada and beyond."},
+      {"term": "the Buds", "say": "the BUDZ", "means": "Affectionate nickname for the Leafs."},
+      {"term": "the ACC", "say": "the ay-see-SEE", "means": "The arena's old name, Air Canada Centre. Many fans still use it."},
+      {"term": "the Blue and White", "say": "the BLOO and WHITE", "means": "The team colours, used as another name for the club."}
+    ],
+    "lines": [
+      {"t": "Go Leafs Go!", "m": "The home chant."},
+      {"t": "This is the year.", "m": "The hopeful line every Leafs fan says every season."},
+      {"t": "Leafs-Habs on a Saturday night. That's Canada.", "m": "The classic Hockey Night in Canada matchup."},
+      {"t": "I still call it the ACC.", "m": "Scotiabank Arena was the Air Canada Centre until 2018."},
+      {"t": "Wendel Clark was the heart of those '90s teams.", "m": "Fans love the tough former captain."}
+    ],
+    "avoid": [
+      {"say": "the Toronto Maple Leaves", "instead": "the Maple Leafs", "why": "The name is always 'Leafs', never 'Leaves'."},
+      {"say": "It was 4-1", "instead": "Don't bring up 2013", "why": "Boston fans use it to mock the 2013 Game 7 collapse."},
+      {"say": "The Habs aren't so bad", "instead": "Beat Montreal", "why": "Montreal is the Leafs' oldest rival."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Toronto_Maple_Leafs", "https://en.wikipedia.org/wiki/Canadiens%E2%80%93Maple_Leafs_rivalry"],
+    "unsure": []
+  },
+  {
+    "team": "Utah Mammoth",
+    "espnId": "129764",
+    "league": "hockey/nhl",
+    "aliases": ["utah", "mammoth", "utah hc", "utah hockey club", "salt lake"],
+    "nickname": "the Mammoth",
+    "fans": "",
+    "ground": "the Delta Center",
+    "rivals": [
+      {"team": "Vegas Golden Knights", "name": "Vegas", "derby": ""}
+    ],
+    "legends": [],
+    "memory": "Clinching the club's first playoff spot in April 2026, then winning the first NHL playoff game ever played in Utah",
+    "lingo": [
+      {"term": "Tusks Up", "say": "TUSKS UP", "means": "The team's rallying cry and hashtag. It came from the fans."},
+      {"term": "Tusky", "say": "TUS-kee", "means": "The mammoth mascot, introduced in 2025."},
+      {"term": "Utah HC", "say": "YOO-taw aych-SEE", "means": "Utah Hockey Club, the placeholder name for the first season, 2024-25."}
+    ],
+    "lines": [
+      {"t": "Tusks up!", "m": "The rallying cry."},
+      {"t": "We were Utah Hockey Club for one season, then the fans picked Mammoth.", "m": "The name came from a fan vote in 2025."},
+      {"t": "First playoff hockey in Utah, 2026. The Delta Center shook.", "m": "The club's first playoff run."},
+      {"t": "Beat Vegas.", "m": "Vegas knocked Utah out of the 2026 playoffs."}
+    ],
+    "avoid": [
+      {"say": "the Arizona Coyotes", "instead": "the Mammoth", "why": "Utah took over the Coyotes' players in 2024, but it's a new club and the Coyotes name stayed in Arizona."},
+      {"say": "Utah Hockey Club", "instead": "the Mammoth", "why": "The Mammoth name replaced it in 2025."},
+      {"say": "the Mammoths", "instead": "the Mammoth", "why": "The name is never plural."}
+    ],
+    "sources": ["https://www.ksl.com/article/51308328/tusks-up-the-utah-hockey-club-is-now-the-utah-mammoth", "https://www.deseret.com/sports/2026/05/02/utah-mammoth-lose-5-1-to-vegas-golden-knights-in-game-6-of-playoffs/", "https://en.wikipedia.org/wiki/Utah_Mammoth"],
+    "unsure": ["legends: the club began in 2024 and has no retired greats", "rivals: no established rivalry yet; Vegas is listed because of the 2026 playoff series"]
+  },
+  {
+    "team": "Vancouver Canucks",
+    "espnId": "22",
+    "league": "hockey/nhl",
+    "aliases": ["vancouver", "canucks", "nucks", "van"],
+    "nickname": "the Canucks",
+    "fans": "",
+    "ground": "Rogers Arena",
+    "rivals": [
+      {"team": "Calgary Flames", "name": "the Flames", "derby": ""},
+      {"team": "Chicago Blackhawks", "name": "the Hawks", "derby": ""},
+      {"team": "Edmonton Oilers", "name": "the Oilers", "derby": ""}
+    ],
+    "legends": ["Trevor Linden", "Pavel Bure", "Henrik Sedin", "Daniel Sedin"],
+    "memory": "Towel Power: coach Roger Neilson waving a white towel on a stick during the 1982 playoffs, on the way to the club's first Final",
+    "lingo": [
+      {"term": "Towel Power", "say": "TOW-ul POW-er", "means": "Fans waving white towels at playoff games, a tradition since 1982."},
+      {"term": "the Nucks", "say": "the NUKS", "means": "Short for the Canucks."},
+      {"term": "the Russian Rocket", "say": "the RUSH-un ROK-it", "means": "Pavel Bure, the electrifying 1990s winger."},
+      {"term": "the Orca", "say": "the OR-kuh", "means": "The killer-whale logo on the team's jersey."}
+    ],
+    "lines": [
+      {"t": "Go Canucks Go!", "m": "The home chant."},
+      {"t": "Towel Power!", "m": "Wave your towel. It's the playoff tradition."},
+      {"t": "We came so close in '94 and 2011.", "m": "The Canucks lost both Finals in Game 7."},
+      {"t": "The Sedins could find each other blindfolded.", "m": "The twins' famous passing."},
+      {"t": "Saturday night against Calgary. Can't beat it.", "m": "The Flames are the Western Canada rival."}
+    ],
+    "avoid": [
+      {"say": "The Canucks have won a Cup", "instead": "We're still chasing the first one", "why": "They reached Finals in 1982, 1994 and 2011 but never won."},
+      {"say": "GM Place", "instead": "Rogers Arena", "why": "The arena was renamed in 2010."},
+      {"say": "the Whitecaps", "instead": "the Canucks", "why": "The Whitecaps are Vancouver's soccer team."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Vancouver_Canucks", "https://en.wikipedia.org/wiki/Towel_Power"],
+    "unsure": []
+  },
+  {
+    "team": "Vegas Golden Knights",
+    "espnId": "37",
+    "league": "hockey/nhl",
+    "aliases": ["vegas", "las vegas", "golden knights", "knights", "vgk"],
+    "nickname": "the Knights",
+    "fans": "",
+    "ground": "T-Mobile Arena",
+    "rivals": [
+      {"team": "Los Angeles Kings", "name": "the Kings", "derby": ""},
+      {"team": "San Jose Sharks", "name": "the Sharks", "derby": ""},
+      {"team": "Edmonton Oilers", "name": "the Oilers", "derby": ""}
+    ],
+    "legends": ["Marc-André Fleury", "Deryk Engelland"],
+    "memory": "Winning the 2023 Stanley Cup in their sixth season, after reaching the Final in their very first year",
+    "lingo": [
+      {"term": "the Fortress", "say": "the FOR-tris", "means": "T-Mobile Arena, the Knights' home ice."},
+      {"term": "Vegas Born", "say": "VAY-gus BORN", "means": "The team's motto: a club built from scratch in Las Vegas."},
+      {"term": "Chance", "say": "CHANSS", "means": "The Gila monster mascot."},
+      {"term": "Go Knights Go", "say": "go NITES go", "means": "The home chant."}
+    ],
+    "lines": [
+      {"t": "Welcome to the Fortress!", "m": "The home greeting."},
+      {"t": "Final in year one, Cup in year six.", "m": "The fastest rise of any expansion team."},
+      {"t": "Go Knights Go!", "m": "The home chant."},
+      {"t": "Get there early for the pregame show.", "m": "The Knights' theatrical pregame show is famous."},
+      {"t": "Flower was our first hero.", "m": "Goalie Marc-André Fleury starred in the early seasons."}
+    ],
+    "avoid": [
+      {"say": "the Las Vegas Golden Knights", "instead": "the Vegas Golden Knights", "why": "The official name is just Vegas."},
+      {"say": "They're just an expansion team", "instead": "They're Cup winners", "why": "They made the Final in year one and won the Cup in 2023."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Vegas_Golden_Knights", "https://vegashockeyknight.com/power-ranking-golden-knights-s-biggest-rivals-this-season"],
+    "unsure": ["rivals: no clear consensus; Kings, Sharks and Oilers are all cited", "legends: young club; only Fleury is a clear great"]
+  },
+  {
+    "team": "Washington Capitals",
+    "espnId": "23",
+    "league": "hockey/nhl",
+    "aliases": ["washington", "capitals", "caps", "wsh", "dc"],
+    "nickname": "the Caps",
+    "fans": "",
+    "ground": "Capital One Arena",
+    "rivals": [
+      {"team": "Pittsburgh Penguins", "name": "the Pens", "derby": ""},
+      {"team": "Philadelphia Flyers", "name": "the Flyers", "derby": ""}
+    ],
+    "legends": ["Rod Langway", "Mike Gartner", "Peter Bondra"],
+    "memory": "Winning the franchise's first Stanley Cup in 2018, clinched in Las Vegas",
+    "lingo": [
+      {"term": "Rock the Red", "say": "ROK the RED", "means": "The call for fans to wear red at home games."},
+      {"term": "ALL CAPS", "say": "ALL KAPS", "means": "Fan and team slogan, a play on the nickname."},
+      {"term": "the Phone Booth", "say": "the FONE booth", "means": "Nickname from the Verizon Center days, still heard for the arena."}
+    ],
+    "lines": [
+      {"t": "Let's go Caps!", "m": "The home chant."},
+      {"t": "Rock the red.", "m": "Wear red to the game."},
+      {"t": "2018 was worth the wait.", "m": "The first Cup after decades of near misses."},
+      {"t": "Pens week. I'm already nervous.", "m": "Pittsburgh knocked the Caps out of the playoffs many times."},
+      {"t": "I still call it the Phone Booth.", "m": "Fond use of the old arena nickname."}
+    ],
+    "avoid": [
+      {"say": "the Verizon Center", "instead": "Capital One Arena", "why": "The arena was renamed in 2017."},
+      {"say": "The Pens are fine", "instead": "Beat Pittsburgh", "why": "Years of playoff losses to Pittsburgh made them the Caps' great rival."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Washington_Capitals", "https://en.wikipedia.org/wiki/Capitals%E2%80%93Penguins_rivalry"],
+    "unsure": ["legends: Alex Ovechkin and Nicklas Backstrom left out because their playing status could not be confirmed"]
+  },
+  {
+    "team": "Winnipeg Jets",
+    "espnId": "28",
+    "league": "hockey/nhl",
+    "aliases": ["winnipeg", "jets", "wpg", "the peg"],
+    "nickname": "the Jets",
+    "fans": "",
+    "ground": "Canada Life Centre",
+    "rivals": [
+      {"team": "Edmonton Oilers", "name": "the Oilers", "derby": ""},
+      {"team": "Minnesota Wild", "name": "the Wild", "derby": ""},
+      {"team": "Calgary Flames", "name": "the Flames", "derby": ""}
+    ],
+    "legends": ["Dale Hawerchuk", "Teemu Selanne", "Thomas Steen", "Dustin Byfuglien"],
+    "memory": "The NHL returning to Winnipeg in 2011, 15 years after the original Jets left for Phoenix",
+    "lingo": [
+      {"term": "the Whiteout", "say": "the WITE-owt", "means": "Fans dress all in white for home playoff games, a tradition since 1987. Downtown street parties too."},
+      {"term": "True North", "say": "TROO NORTH", "means": "Fans shout it during O Canada at home games, a nod to the anthem and to the owners, True North Sports & Entertainment."},
+      {"term": "the 'Peg", "say": "the PEG", "means": "Winnipeg."},
+      {"term": "Go Jets Go", "say": "go JETS go", "means": "The home chant."}
+    ],
+    "lines": [
+      {"t": "Go Jets Go!", "m": "The home chant."},
+      {"t": "Whiteout's on. Wear white.", "m": "Playoff dress code."},
+      {"t": "Hawerchuk is the greatest Jet ever.", "m": "Dale Hawerchuk starred for the original Jets."},
+      {"t": "We got our team back in 2011 and we're never letting it go.", "m": "Winnipeg lost the Jets in 1996 and won them back."}
+    ],
+    "avoid": [
+      {"say": "The Jets came back from Phoenix", "instead": "They came from Atlanta in 2011", "why": "Today's Jets were the Atlanta Thrashers; the original Jets became the Coyotes."},
+      {"say": "the New York Jets", "instead": "the Winnipeg Jets", "why": "That's an NFL team."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Winnipeg_Jets", "https://www.cbc.ca/1.3041479", "https://www.theglobeandmail.com/amp/sports/more-sports/when-sports-fans-alter-national-anthems/article4201533/"],
+    "unsure": ["rivals: no clear consensus; Oilers, Wild and Flames are all cited", "legends: Hawerchuk, Selanne and Steen played for the original Jets, which became the Coyotes"]
+  }
+]

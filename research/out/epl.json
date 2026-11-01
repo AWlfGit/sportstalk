@@ -1,0 +1,1910 @@
+[
+ {
+  "team": "AFC Bournemouth",
+  "espnId": "349",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "bournemouth",
+   "afc bournemouth",
+   "afcb",
+   "cherries",
+   "the cherries"
+  ],
+  "nickname": "the Cherries",
+  "fans": "",
+  "ground": "Dean Court (sponsored name: the Vitality Stadium)",
+  "rivals": [
+   {
+    "team": "Southampton",
+    "name": "Saints",
+    "derby": ""
+   },
+   {
+    "team": "Portsmouth",
+    "name": "Pompey",
+    "derby": ""
+   }
+  ],
+  "legends": [
+   "Steve Fletcher",
+   "Ted MacDougall",
+   "Ron Eyre"
+  ],
+  "memory": "2015: promoted to the top flight for the first time ever, as Championship winners, seven years after going into administration",
+  "lingo": [
+   {
+    "term": "the Cherries",
+    "say": "the CHER-eez",
+    "means": "The club nickname. It comes from the cherry-red striped shirts, or from cherry trees once next to the ground."
+   },
+   {
+    "term": "Dean Court",
+    "say": "DEEN KORT",
+    "means": "The ground's traditional name. Its sponsored name is the Vitality Stadium, but plenty of fans still say Dean Court."
+   },
+   {
+    "term": "Boscombe",
+    "say": "BOS-kum",
+    "means": "The club started life as Boscombe FC in 1899. Older fans still bring it up."
+   },
+   {
+    "term": "AFCB",
+    "say": "ay-eff-see-BEE",
+    "means": "Short for AFC Bournemouth. Used in chat and on social media."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Up the Cherries!",
+    "m": "All-purpose rallying cry, before or after a game."
+   },
+   {
+    "t": "Small ground, big noise.",
+    "m": "Fans are proud that Dean Court is loud for its size."
+   },
+   {
+    "t": "Remember 2009? We nearly dropped out of the league.",
+    "m": "Refers to the 'Great Escape', when late-season wins kept the club in the Football League."
+   },
+   {
+    "t": "Saints are the one I want to beat.",
+    "m": "Southampton are the nearest big rival."
+   },
+   {
+    "t": "It's BORN-muth, mate.",
+    "m": "What locals say when someone mangles the town's name."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Bourne-MOUTH",
+    "instead": "BORN-muth",
+    "why": "The end is a short 'muth'. Locals notice straight away."
+   },
+   {
+    "say": "Bournemouth AFC",
+    "instead": "AFC Bournemouth",
+    "why": "The club's name puts the AFC first."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+   "https://en.wikipedia.org/wiki/Dean_Court"
+  ],
+  "unsure": [
+   "ground: Vitality's naming deal was reported to run to summer 2026 and I could not confirm a renewal, so the traditional name Dean Court leads"
+  ]
+ },
+ {
+  "team": "Arsenal",
+  "espnId": "359",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "arsenal",
+   "the arsenal",
+   "gunners",
+   "gooners",
+   "ars"
+  ],
+  "nickname": "the Gunners",
+  "fans": "Gooners",
+  "ground": "the Emirates",
+  "rivals": [
+   {
+    "team": "Tottenham Hotspur",
+    "name": "Spurs",
+    "derby": "the North London derby"
+   },
+   {
+    "team": "Chelsea",
+    "name": "Chelsea",
+    "derby": ""
+   },
+   {
+    "team": "Manchester United",
+    "name": "United",
+    "derby": ""
+   }
+  ],
+  "legends": [
+   "Thierry Henry",
+   "Tony Adams",
+   "Dennis Bergkamp",
+   "Ian Wright"
+  ],
+  "memory": "The Invincibles: unbeaten through the 2003-04 league season",
+  "lingo": [
+   {
+    "term": "Gooner",
+    "say": "GOO-ner",
+    "means": "An Arsenal fan. Fans use it with pride."
+   },
+   {
+    "term": "COYG",
+    "say": "kum on yoo GUN-erz",
+    "means": "Short for 'Come On You Gunners'. Written in chat and shouted at games."
+   },
+   {
+    "term": "St Totteringham's Day",
+    "say": "saint TOT-er-ing-umz day",
+    "means": "Jokey name for the day it becomes certain Arsenal will finish above Spurs."
+   },
+   {
+    "term": "Highbury",
+    "say": "HY-bree",
+    "means": "Arsenal's old ground, left in 2006. Older fans still talk about it fondly."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Up the Arsenal!",
+    "m": "Classic rallying cry. Fans often say 'the Arsenal'."
+   },
+   {
+    "t": "COYG!",
+    "m": "Sign-off before kick-off or after a win."
+   },
+   {
+    "t": "Nothing beats a North London derby win.",
+    "m": "Beating Spurs matters more than almost anything."
+   },
+   {
+    "t": "Victoria Concordia Crescit.",
+    "m": "The club motto, roughly 'victory through harmony'. Quoted when the team pulls together."
+   },
+   {
+    "t": "I still miss Highbury, but the Emirates is home now.",
+    "m": "A typical older fan's view of the 2006 move."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Arsenal FC are",
+    "instead": "Arsenal are",
+    "why": "Fans never add the FC when talking."
+   },
+   {
+    "say": "Arsenal play at Highbury",
+    "instead": "Arsenal play at the Emirates",
+    "why": "They left Highbury in 2006."
+   },
+   {
+    "say": "Spurs are a lovely club",
+    "instead": "Spurs? Don't get me started.",
+    "why": "Praising the big rival is a dead giveaway."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+   "https://en.wikipedia.org/wiki/North_London_derby"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Aston Villa",
+  "espnId": "362",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "aston villa",
+   "villa",
+   "avfc",
+   "the villa",
+   "villans"
+  ],
+  "nickname": "Villa",
+  "fans": "Villans",
+  "ground": "Villa Park",
+  "rivals": [
+   {
+    "team": "Birmingham City",
+    "name": "Blues",
+    "derby": "the Second City derby"
+   },
+   {
+    "team": "West Bromwich Albion",
+    "name": "the Baggies",
+    "derby": ""
+   }
+  ],
+  "legends": [
+   "Paul McGrath",
+   "Peter Withe",
+   "Dennis Mortimer",
+   "Charlie Aitken"
+  ],
+  "memory": "1982: beat Bayern Munich 1-0 in Rotterdam to win the European Cup, with a Peter Withe goal",
+  "lingo": [
+   {
+    "term": "UTV",
+    "say": "yoo-tee-VEE",
+    "means": "Short for 'Up The Villa'. Fans sign off messages and posts with it."
+   },
+   {
+    "term": "the Holte End",
+    "say": "the HOLT end",
+    "means": "The big home stand behind one goal, where the loudest fans go."
+   },
+   {
+    "term": "Villans",
+    "say": "VIL-unz",
+    "means": "Nickname for the team and its fans."
+   },
+   {
+    "term": "the Lions",
+    "say": "the LY-unz",
+    "means": "Another club nickname, from the lion on the badge."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Up the Villa!",
+    "m": "The classic rallying cry, often written UTV."
+   },
+   {
+    "t": "See you in the Holte.",
+    "m": "Arranging to meet in the home end at Villa Park."
+   },
+   {
+    "t": "Rotterdam, '82. Best night in our history.",
+    "m": "Recalls the 1982 European Cup win."
+   },
+   {
+    "t": "Blues? Never mind them.",
+    "m": "Mild dismissal of Birmingham City, the big local rival."
+   },
+   {
+    "t": "It's 'the Villa' round here.",
+    "m": "Locals often put 'the' in front of the club name."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Aston",
+    "instead": "Villa",
+    "why": "Nobody shortens the club to 'Aston'. It's always Villa."
+   },
+   {
+    "say": "Villa and Birmingham, same thing really",
+    "instead": "Villa are Villa",
+    "why": "Birmingham City are the fierce local rival."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
+   "https://myoldmansaid.com/five-reasons-to-be-cheerful-aston-villa-fans-home-improvements/"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Brentford",
+  "espnId": "337",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "brentford",
+   "the bees",
+   "bees",
+   "brentford fc"
+  ],
+  "nickname": "the Bees",
+  "fans": "",
+  "ground": "the Gtech (Gtech Community Stadium, home since 2020)",
+  "rivals": [
+   {
+    "team": "Queens Park Rangers",
+    "name": "QPR",
+    "derby": "the West London derby"
+   },
+   {
+    "team": "Fulham",
+    "name": "Fulham",
+    "derby": "the West London derby"
+   }
+  ],
+  "legends": [
+   "Ken Coote",
+   "Jim Towers",
+   "Peter Gelson",
+   "Jack Holliday"
+  ],
+  "memory": "2021: beat Swansea 2-0 in the Championship play-off final to reach the top flight for the first time in 74 years",
+  "lingo": [
+   {
+    "term": "the Bees",
+    "say": "the BEEZ",
+    "means": "The club nickname. It came from local students' chant in the 1890s, misheard by the papers."
+   },
+   {
+    "term": "Hey Jude",
+    "say": "hay JOOD",
+    "means": "The Beatles song is Brentford's terrace anthem, sung before and after games."
+   },
+   {
+    "term": "Griffin Park",
+    "say": "GRIF-in park",
+    "means": "The old ground (1904-2020), famous for having a pub on every corner."
+   },
+   {
+    "term": "the Gtech",
+    "say": "the JEE-tek",
+    "means": "Fans' short name for the current stadium near Kew Bridge."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Come on you Bees!",
+    "m": "Everyday rallying cry."
+   },
+   {
+    "t": "I miss a pint on all four corners.",
+    "m": "Nostalgia for Griffin Park and its four pubs."
+   },
+   {
+    "t": "Seventy-four years we waited to get back up there.",
+    "m": "About reaching the top flight in 2021."
+   },
+   {
+    "t": "Beating QPR still means the most.",
+    "m": "QPR are the old West London enemy."
+   },
+   {
+    "t": "Get Hey Jude going!",
+    "m": "What fans say when they want the crowd singing."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Brentford play at Griffin Park",
+    "instead": "Brentford play at the Gtech",
+    "why": "They left Griffin Park in 2020."
+   },
+   {
+    "say": "Brentford, that's north London, right?",
+    "instead": "West London",
+    "why": "Brentford is in west London, and its rivals are QPR and Fulham."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brentford_F.C.",
+   "https://en.wikipedia.org/wiki/Griffin_Park",
+   "https://en.wikipedia.org/wiki/Brentford_F.C._Hall_of_Fame"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Brighton & Hove Albion",
+  "espnId": "331",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "brighton",
+   "brighton & hove albion",
+   "brighton and hove albion",
+   "seagulls",
+   "albion",
+   "bha"
+  ],
+  "nickname": "the Seagulls",
+  "fans": "",
+  "ground": "the Amex",
+  "rivals": [
+   {
+    "team": "Crystal Palace",
+    "name": "Palace",
+    "derby": "the M23 derby"
+   }
+  ],
+  "legends": [
+   "Peter Ward",
+   "Brian Horton",
+   "Bobby Zamora",
+   "Glenn Murray"
+  ],
+  "memory": "2011: the Amex opened at Falmer, ending 14 years without a proper home ground after the Goldstone was sold in 1997",
+  "lingo": [
+   {
+    "term": "Albion",
+    "say": "AL-bee-un",
+    "means": "What fans usually call the club."
+   },
+   {
+    "term": "Sussex by the Sea",
+    "say": "SUSS-ex by the SEE",
+    "means": "The county song, played as the teams come out. Fans have sung it for over a century."
+   },
+   {
+    "term": "the Goldstone",
+    "say": "the GOLD-stone",
+    "means": "The old ground in Hove, sold in 1997. A painful memory for older fans."
+   },
+   {
+    "term": "Falmer",
+    "say": "FAL-mer",
+    "means": "Where the Amex stands. Fans campaigned for years to build the stadium there."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Up the Albion!",
+    "m": "Classic rallying cry."
+   },
+   {
+    "t": "Never take the Amex for granted.",
+    "m": "A nod to the homeless years at Gillingham and Withdean."
+   },
+   {
+    "t": "Palace week. Nothing else matters.",
+    "m": "How fans feel before the M23 derby."
+   },
+   {
+    "t": "Get Sussex by the Sea on!",
+    "m": "Calling for the club anthem."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "I quite like Palace",
+    "instead": "Anyone but Palace",
+    "why": "Crystal Palace are the big rival."
+   },
+   {
+    "say": "Brighton play at the Goldstone",
+    "instead": "Brighton play at the Amex",
+    "why": "The Goldstone was sold in 1997. The Amex has been home since 2011."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
+   "https://en.wikipedia.org/wiki/Sussex_by_the_Sea",
+   "https://www.premierleague.com/en/news/522301"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Chelsea",
+  "espnId": "363",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "chelsea",
+   "chelsea fc",
+   "cfc",
+   "che"
+  ],
+  "nickname": "the Blues",
+  "fans": "",
+  "ground": "the Bridge (Stamford Bridge)",
+  "rivals": [
+   {
+    "team": "Tottenham Hotspur",
+    "name": "Spurs",
+    "derby": ""
+   },
+   {
+    "team": "Arsenal",
+    "name": "Arsenal",
+    "derby": ""
+   },
+   {
+    "team": "Fulham",
+    "name": "Fulham",
+    "derby": "the West London derby"
+   }
+  ],
+  "legends": [
+   "Didier Drogba",
+   "Gianfranco Zola",
+   "Peter Osgood",
+   "Ron Harris"
+  ],
+  "memory": "2012: won the Champions League for the first time, beating Bayern Munich on penalties in Munich",
+  "lingo": [
+   {
+    "term": "the Bridge",
+    "say": "the BRIJ",
+    "means": "Stamford Bridge, Chelsea's home since 1905."
+   },
+   {
+    "term": "the Shed End",
+    "say": "the SHED end",
+    "means": "The stand behind one goal, the traditional home of the loudest fans."
+   },
+   {
+    "term": "KTBFFH",
+    "say": "kay-tee-bee-eff-eff-AYCH",
+    "means": "A fans' sign-off, short for a phrase about keeping the blue flag flying."
+   },
+   {
+    "term": "the Chels",
+    "say": "the CHELZ",
+    "means": "Fond short name for the club, as in 'Up the Chels!'"
+   }
+  ],
+  "lines": [
+   {
+    "t": "Up the Chels!",
+    "m": "Everyday rallying cry."
+   },
+   {
+    "t": "See you down the Bridge.",
+    "m": "Arranging to meet at the ground."
+   },
+   {
+    "t": "Munich 2012. Best night of my life.",
+    "m": "Recalls the first Champions League win."
+   },
+   {
+    "t": "Beating Spurs never gets old.",
+    "m": "Tottenham are the London rival fans most enjoy beating."
+   },
+   {
+    "t": "Get Blue Is the Colour on.",
+    "m": "Calling for the club's 1972 anthem."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Chelski",
+    "instead": "Chelsea",
+    "why": "It's a rival fans' dig, not something supporters say."
+   },
+   {
+    "say": "the Pensioners",
+    "instead": "the Blues",
+    "why": "That nickname went out of use decades ago."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+   "https://en.wikipedia.org/wiki/Fulham_F.C."
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Coventry City",
+  "espnId": "388",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "coventry",
+   "coventry city",
+   "cov",
+   "sky blues",
+   "ccfc"
+  ],
+  "nickname": "the Sky Blues",
+  "fans": "the Sky Blue Army",
+  "ground": "the CBS Arena (Coventry Building Society Arena, formerly the Ricoh Arena)",
+  "rivals": [
+   {
+    "team": "Leicester City",
+    "name": "Leicester",
+    "derby": "the M69 derby"
+   },
+   {
+    "team": "Aston Villa",
+    "name": "Villa",
+    "derby": ""
+   }
+  ],
+  "legends": [
+   "Cyrille Regis",
+   "Dion Dublin",
+   "Keith Houchen"
+  ],
+  "memory": "1987: beat Tottenham 3-2 after extra time at Wembley to win the FA Cup, the club's only major trophy",
+  "lingo": [
+   {
+    "term": "Cov",
+    "say": "KOV",
+    "means": "Short for Coventry, the city and the club."
+   },
+   {
+    "term": "the Sky Blue Song",
+    "say": "the sky BLOO song",
+    "means": "Club song written in 1962 by manager Jimmy Hill, to the tune of the Eton Boating Song."
+   },
+   {
+    "term": "going up the City",
+    "say": "GOH-ing up the SIT-ee",
+    "means": "Local way of saying you're off to a Coventry match."
+   },
+   {
+    "term": "Highfield Road",
+    "say": "HY-feeld ROHD",
+    "means": "The old ground, left in 2005. Older fans still talk about it."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Come on you Sky Blues!",
+    "m": "Everyday rallying cry."
+   },
+   {
+    "t": "Twenty-five years we waited to get back up.",
+    "m": "About returning to the Premier League in 2026 after going down in 2001."
+   },
+   {
+    "t": "Houchen's header, 1987. Best goal ever.",
+    "m": "Recalls the diving header in the FA Cup final win over Spurs."
+   },
+   {
+    "t": "Leicester? Just up the M69.",
+    "m": "Leicester City are the nearest rival, linked by the M69 motorway."
+   },
+   {
+    "t": "Going up the City Saturday?",
+    "m": "Local way of asking if you're going to the match."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "KUV-en-tree",
+    "instead": "KOV-en-tree",
+    "why": "Locals say it with a short 'o', as in Cov."
+   },
+   {
+    "say": "The Sky Blues? You mean Man City?",
+    "instead": "In Cov, the Sky Blues means Coventry",
+    "why": "Coventry have been the Sky Blues since the 1960s."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Coventry_City_F.C.",
+   "https://www.rte.ie/sport/soccer/2026/0417/1568876-coventry-end-25-year-wait-to-return-to-premier-league/"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Crystal Palace",
+  "espnId": "384",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "crystal palace",
+   "palace",
+   "cpfc",
+   "eagles",
+   "c palace"
+  ],
+  "nickname": "the Eagles",
+  "fans": "",
+  "ground": "Selhurst Park",
+  "rivals": [
+   {
+    "team": "Brighton & Hove Albion",
+    "name": "Brighton",
+    "derby": "the M23 derby"
+   },
+   {
+    "team": "Millwall",
+    "name": "Millwall",
+    "derby": "the South London derby"
+   },
+   {
+    "team": "Charlton Athletic",
+    "name": "Charlton",
+    "derby": "the South London derby"
+   }
+  ],
+  "legends": [
+   "Ian Wright",
+   "Mark Bright",
+   "Jim Cannon",
+   "Geoff Thomas"
+  ],
+  "memory": "2025: beat Manchester City 1-0 at Wembley to win the FA Cup, the club's first major trophy",
+  "lingo": [
+   {
+    "term": "the Eagles",
+    "say": "the EE-gulz",
+    "means": "The club nickname since the 1970s."
+   },
+   {
+    "term": "the Glaziers",
+    "say": "the GLAY-zhurz",
+    "means": "The old nickname, from the glass Crystal Palace building."
+   },
+   {
+    "term": "the Holmesdale",
+    "say": "the HOHMZ-dayl",
+    "means": "The Holmesdale Road stand, home of the loudest fans."
+   },
+   {
+    "term": "Glad All Over",
+    "say": "glad awl OH-ver",
+    "means": "The 1960s pop hit that is Palace's anthem, played before games and after wins."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Up the Palace!",
+    "m": "Classic rallying cry."
+   },
+   {
+    "t": "South London and proud.",
+    "m": "Fans' motto about where the club comes from."
+   },
+   {
+    "t": "Wembley 2025. I cried like a baby.",
+    "m": "Recalls the FA Cup final win over Man City."
+   },
+   {
+    "t": "Brighton week. Can't sleep.",
+    "m": "How fans feel before the M23 derby."
+   },
+   {
+    "t": "Nothing like Selhurst under the lights.",
+    "m": "Pride in the old ground's atmosphere."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Palace play at the Crystal Palace stadium",
+    "instead": "Palace play at Selhurst Park",
+    "why": "The athletics stadium in Crystal Palace Park is a different place."
+   },
+   {
+    "say": "Brighton are a decent side",
+    "instead": "Brighton? Don't.",
+    "why": "Brighton are the biggest rival."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+   "https://en.wikipedia.org/wiki/List_of_Crystal_Palace_F.C._records_and_statistics",
+   "https://www.premierleague.com/en/news/522301"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Everton",
+  "espnId": "368",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "everton",
+   "toffees",
+   "the toffees",
+   "efc"
+  ],
+  "nickname": "the Toffees",
+  "fans": "Evertonians",
+  "ground": "Bramley-Moore (the Hill Dickinson Stadium at Bramley-Moore Dock, home since 2025)",
+  "rivals": [
+   {
+    "team": "Liverpool",
+    "name": "Liverpool",
+    "derby": "the Merseyside derby"
+   }
+  ],
+  "legends": [
+   "Dixie Dean",
+   "Neville Southall",
+   "Kevin Ratcliffe",
+   "Graeme Sharp"
+  ],
+  "memory": "1984-85: league champions and European Cup Winners' Cup winners in the same season",
+  "lingo": [
+   {
+    "term": "the People's Club",
+    "say": "the PEE-pulz club",
+    "means": "Semi-official nickname, coined in 2002, that fans use with pride."
+   },
+   {
+    "term": "Z-Cars",
+    "say": "ZED-karz",
+    "means": "The old TV theme the team walks out to at every home game, now with a siren first."
+   },
+   {
+    "term": "the Grand Old Lady",
+    "say": "the grand old LAY-dee",
+    "means": "Fond name for Goodison Park, the men's home from 1892 to 2025."
+   },
+   {
+    "term": "COYB",
+    "say": "kum on yoo BLOOZ",
+    "means": "'Come On You Blues', a common sign-off among Evertonians."
+   }
+  ],
+  "lines": [
+   {
+    "t": "COYB!",
+    "m": "Everyday rallying cry."
+   },
+   {
+    "t": "Nil satis nisi optimum.",
+    "m": "The club motto: 'nothing but the best is good enough'. Often quoted with a wry smile."
+   },
+   {
+    "t": "We were at Anfield first, you know.",
+    "m": "Everton played at Anfield from 1884 to 1892, before Liverpool were formed."
+   },
+   {
+    "t": "Z-Cars comes on and the hairs stand up.",
+    "m": "The walk-out music still gives fans goosebumps."
+   },
+   {
+    "t": "Goodison will always be special, but Bramley-Moore is home now.",
+    "m": "A typical fan's view of the 2025 move."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Everton play at Goodison Park",
+    "instead": "Everton play at Bramley-Moore",
+    "why": "The men's team moved in 2025. Goodison now hosts Everton Women."
+   },
+   {
+    "say": "Everton are Liverpool's other team",
+    "instead": "Everton are the city's older club",
+    "why": "Evertonians hate being treated as second fiddle."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Everton_F.C.",
+   "https://www.premierleague.com/en/news/4372526/whats-new-for-202526-premier-league-has-new-stadium",
+   "https://sportbible.com/football/football-news/everton-new-stadium-name-fans-react-957908-20250516"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Fulham",
+  "espnId": "370",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "fulham",
+   "cottagers",
+   "the cottagers",
+   "ffc"
+  ],
+  "nickname": "the Cottagers",
+  "fans": "",
+  "ground": "the Cottage (Craven Cottage)",
+  "rivals": [
+   {
+    "team": "Chelsea",
+    "name": "Chelsea",
+    "derby": "the West London derby"
+   },
+   {
+    "team": "Queens Park Rangers",
+    "name": "QPR",
+    "derby": "the West London derby"
+   },
+   {
+    "team": "Brentford",
+    "name": "Brentford",
+    "derby": "the West London derby"
+   }
+  ],
+  "legends": [
+   "Johnny Haynes",
+   "George Cohen",
+   "Gordon Davies"
+  ],
+  "memory": "2010: reached the Europa League final, after a famous 4-1 home comeback against Juventus",
+  "lingo": [
+   {
+    "term": "the Cottage",
+    "say": "the KOT-ij",
+    "means": "Craven Cottage, and the little pavilion in its corner."
+   },
+   {
+    "term": "Cottagers",
+    "say": "KOT-ij-erz",
+    "means": "The club nickname."
+   },
+   {
+    "term": "the Maestro",
+    "say": "the MY-stroh",
+    "means": "Johnny Haynes, Fulham's greatest player. A stand is named after him."
+   },
+   {
+    "term": "the Riverside",
+    "say": "the RIV-er-side",
+    "means": "The stand along the Thames."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Come on you Whites!",
+    "m": "Classic rallying cry. Fulham play in white."
+   },
+   {
+    "t": "Best walk to any ground in London.",
+    "m": "Fans love strolling along the river through Bishop's Park to the Cottage."
+   },
+   {
+    "t": "Juventus, 4-1. I was there.",
+    "m": "Recalls the 2010 Europa League comeback."
+   },
+   {
+    "t": "We're London's oldest professional club.",
+    "m": "Fulham were founded in 1879, and fans like to remind people."
+   },
+   {
+    "t": "Chelsea only got Stamford Bridge because we turned it down.",
+    "m": "Gentle banter: Fulham declined to move there, so a new club was set up to use it."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Fulham play at Stamford Bridge",
+    "instead": "Fulham play at Craven Cottage",
+    "why": "Stamford Bridge is Chelsea's ground, even though it's in Fulham."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fulham_F.C.",
+   "https://www.footballgroundguide.com/leagues/england/premier-league/craven-cottage-fulham.html"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Hull City",
+  "espnId": "306",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "hull",
+   "hull city",
+   "the tigers",
+   "tigers"
+  ],
+  "nickname": "the Tigers",
+  "fans": "",
+  "ground": "the MKM Stadium (formerly the KC Stadium)",
+  "rivals": [
+   {
+    "team": "Leeds United",
+    "name": "Leeds",
+    "derby": ""
+   },
+   {
+    "team": "Grimsby Town",
+    "name": "Grimsby",
+    "derby": "the Humber derby"
+   }
+  ],
+  "legends": [
+   "Ken Wagstaff",
+   "Chris Chilton",
+   "Dean Windass",
+   "Ken Houghton"
+  ],
+  "memory": "2008: Dean Windass's volley beat Bristol City in the play-off final at Wembley, taking Hull into the top flight for the first time",
+  "lingo": [
+   {
+    "term": "the Tigers",
+    "say": "the TY-gerz",
+    "means": "The club nickname, from the black and amber stripes."
+   },
+   {
+    "term": "City Till We Die",
+    "say": "SIT-ee till we DY",
+    "means": "The fans' campaign that fought the owners' plan to rename the club 'Hull Tigers'."
+   },
+   {
+    "term": "'Ull",
+    "say": "ULL",
+    "means": "How locals say Hull, dropping the H."
+   },
+   {
+    "term": "Boothferry Park",
+    "say": "BOOTH-fer-ee park",
+    "means": "The old ground, left in 2002."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Up the Tigers!",
+    "m": "Classic rallying cry."
+   },
+   {
+    "t": "Hull City. Not Hull Tigers.",
+    "m": "Fans' firm view on the failed 2013-14 renaming."
+   },
+   {
+    "t": "Windass at Wembley. What a volley.",
+    "m": "Recalls the 2008 play-off final winner."
+   },
+   {
+    "t": "Leeds is the one we want to win.",
+    "m": "Many Hull fans see Leeds as their biggest opponent."
+   },
+   {
+    "t": "Amber and black, through and through.",
+    "m": "Pride in the club colours."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Hull Tigers",
+    "instead": "Hull City, or the Tigers",
+    "why": "Fans fought hard to stop the club being renamed Hull Tigers."
+   },
+   {
+    "say": "Hull FC",
+    "instead": "Hull City",
+    "why": "Hull FC is the city's rugby league club."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
+   "https://www.liverpoolfc.com/news/hull-city-claim-final-promotion-spot-premier-league"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Ipswich Town",
+  "espnId": "373",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "ipswich",
+   "ipswich town",
+   "tractor boys",
+   "itfc"
+  ],
+  "nickname": "the Tractor Boys",
+  "fans": "",
+  "ground": "Portman Road",
+  "rivals": [
+   {
+    "team": "Norwich City",
+    "name": "Norwich",
+    "derby": "the East Anglian derby"
+   }
+  ],
+  "legends": [
+   "Mick Mills",
+   "Terry Butcher",
+   "John Wark",
+   "Kevin Beattie"
+  ],
+  "memory": "1981: won the UEFA Cup under Bobby Robson, beating AZ Alkmaar 5-4 on aggregate",
+  "lingo": [
+   {
+    "term": "Tractor Boys",
+    "say": "TRAK-ter boyz",
+    "means": "Nickname that began as a rival fans' taunt in 2000. Ipswich fans adopted it with pride."
+   },
+   {
+    "term": "Town",
+    "say": "TOWN",
+    "means": "What fans usually call the club."
+   },
+   {
+    "term": "the Old Farm derby",
+    "say": "the old FARM DAR-bee",
+    "means": "Jokey name for the derby with Norwich, a play on Glasgow's Old Firm."
+   },
+   {
+    "term": "Pride of Anglia",
+    "say": "pride of ANG-lee-uh",
+    "means": "Bragging title claimed by whichever of Ipswich or Norwich is doing better."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Come on you Blues!",
+    "m": "Classic rallying cry. Town play in blue."
+   },
+   {
+    "t": "We're the Pride of Anglia.",
+    "m": "A dig at Norwich, the rival up the road."
+   },
+   {
+    "t": "Sir Alf and Sir Bobby both managed here.",
+    "m": "Pride that Ramsey won the league here in 1962 and Robson the UEFA Cup in 1981."
+   },
+   {
+    "t": "Norwich week. Everything else can wait.",
+    "m": "How fans feel before the East Anglian derby."
+   },
+   {
+    "t": "Up the Town!",
+    "m": "Another everyday rallying cry."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Ipswich City",
+    "instead": "Ipswich Town, or just Town",
+    "why": "It's Town, and fans call the club Town."
+   },
+   {
+    "say": "Norwich are alright",
+    "instead": "Norwich? No thanks.",
+    "why": "Norwich City are the big rival."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+   "https://www.nbcsports.com/soccer/news/ipswich-town-promoted-to-the-premier-league-as-tractor-boys-come-straight-back-up"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Leeds United",
+  "espnId": "357",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "leeds",
+   "leeds united",
+   "lufc",
+   "leeds utd"
+  ],
+  "nickname": "the Whites",
+  "fans": "",
+  "ground": "Elland Road",
+  "rivals": [
+   {
+    "team": "Manchester United",
+    "name": "Man United",
+    "derby": "the Roses rivalry"
+   },
+   {
+    "team": "Chelsea",
+    "name": "Chelsea",
+    "derby": ""
+   }
+  ],
+  "legends": [
+   "Billy Bremner",
+   "Jack Charlton",
+   "Peter Lorimer",
+   "Lucas Radebe"
+  ],
+  "memory": "1991-92: won the last First Division title before the Premier League began",
+  "lingo": [
+   {
+    "term": "MOT",
+    "say": "em-oh-TEE",
+    "means": "Short for 'Marching On Together', the club anthem. Fans sign off with it."
+   },
+   {
+    "term": "the Peacocks",
+    "say": "the PEE-koks",
+    "means": "Old nickname, from the Old Peacock pub that gave Elland Road its first name."
+   },
+   {
+    "term": "the Leeds salute",
+    "say": "the LEEDZ suh-LOOT",
+    "means": "Fans' fist-to-chest gesture of loyalty, done together in the stands."
+   },
+   {
+    "term": "Super Leeds",
+    "say": "SOO-per LEEDZ",
+    "means": "Name for Don Revie's great sides of the late 1960s and 1970s."
+   }
+  ],
+  "lines": [
+   {
+    "t": "MOT!",
+    "m": "Short for Marching On Together. An all-purpose sign-off."
+   },
+   {
+    "t": "Elland Road on a big night. Nothing like it.",
+    "m": "Pride in the ground's atmosphere."
+   },
+   {
+    "t": "United? Don't get me started.",
+    "m": "Manchester United are the old enemy across the Pennines."
+   },
+   {
+    "t": "We won the last old First Division, remember.",
+    "m": "Leeds were champions in 1991-92, the final season before the Premier League."
+   },
+   {
+    "t": "Revie's lot were something special.",
+    "m": "Fans revere the 1960s and 70s side."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Dirty Leeds",
+    "instead": "Leeds, or the Whites",
+    "why": "It's a label rival fans gave the Revie-era side."
+   },
+   {
+    "say": "Leeds and Man United get on fine",
+    "instead": "United are the big rival",
+    "why": "Leeds v United is one of England's fiercest rivalries."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Liverpool",
+  "espnId": "364",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "liverpool",
+   "lfc",
+   "liverpool fc",
+   "liv"
+  ],
+  "nickname": "the Reds",
+  "fans": "Kopites",
+  "ground": "Anfield",
+  "rivals": [
+   {
+    "team": "Everton",
+    "name": "Everton",
+    "derby": "the Merseyside derby"
+   },
+   {
+    "team": "Manchester United",
+    "name": "United",
+    "derby": "the North West derby"
+   }
+  ],
+  "legends": [
+   "Kenny Dalglish",
+   "Ian Rush",
+   "John Barnes",
+   "Graeme Souness"
+  ],
+  "memory": "2005: came back from 3-0 down against AC Milan in Istanbul to win the Champions League on penalties",
+  "lingo": [
+   {
+    "term": "Kopite",
+    "say": "KOP-ite",
+    "means": "A Liverpool fan, named after the Kop stand. Used with pride."
+   },
+   {
+    "term": "the Kop",
+    "say": "the KOP",
+    "means": "The famous home stand behind one goal at Anfield."
+   },
+   {
+    "term": "YNWA",
+    "say": "why-en-dub-ul-yoo-AY",
+    "means": "Short for 'You'll Never Walk Alone', the club anthem and motto."
+   },
+   {
+    "term": "Scouse",
+    "say": "SKOWSS",
+    "means": "The Liverpool accent and its people. Also a local stew."
+   }
+  ],
+  "lines": [
+   {
+    "t": "YNWA.",
+    "m": "The standard sign-off among Liverpool fans."
+   },
+   {
+    "t": "Istanbul. Never forget it.",
+    "m": "Recalls the 2005 Champions League comeback against AC Milan."
+   },
+   {
+    "t": "Nothing beats Anfield on a European night.",
+    "m": "Fans say the ground is at its loudest for big European games."
+   },
+   {
+    "t": "Pass and move. That's the Liverpool way.",
+    "m": "Fans prize the passing style handed down from the old Boot Room coaches."
+   },
+   {
+    "t": "Derby day and the whole city stops.",
+    "m": "How the Merseyside derby with Everton feels locally."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "the 'Pool",
+    "instead": "Liverpool, or the Reds",
+    "why": "Fans don't call the club 'Pool'. It marks you as an outsider."
+   },
+   {
+    "say": "Liverpool and Everton, same thing",
+    "instead": "Two clubs, one city",
+    "why": "Mixing up the Merseyside rivals is a big giveaway."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+   "https://en.wikipedia.org/wiki/Everton_F.C."
+  ],
+  "unsure": [
+   "avoid: fans' dislike of 'Pool' is widely held, but I found only weak sources for it"
+  ]
+ },
+ {
+  "team": "Manchester City",
+  "espnId": "382",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "man city",
+   "manchester city",
+   "mcfc",
+   "citizens",
+   "cityzens"
+  ],
+  "nickname": "City",
+  "fans": "Blues",
+  "ground": "the Etihad",
+  "rivals": [
+   {
+    "team": "Manchester United",
+    "name": "United",
+    "derby": "the Manchester derby"
+   },
+   {
+    "team": "Liverpool",
+    "name": "Liverpool",
+    "derby": ""
+   }
+  ],
+  "legends": [
+   "Colin Bell",
+   "Mike Summerbee",
+   "Sergio Agüero",
+   "David Silva"
+  ],
+  "memory": "13 May 2012: Sergio Agüero's injury-time winner against QPR, at 93:20, won the club's first league title in 44 years",
+  "lingo": [
+   {
+    "term": "Blue Moon",
+    "say": "bloo MOON",
+    "means": "The old standard that fans have made their anthem."
+   },
+   {
+    "term": "the Poznan",
+    "say": "the POZ-nan",
+    "means": "Celebration where fans turn their backs to the pitch, link arms and jump. Borrowed from Lech Poznań fans in 2010."
+   },
+   {
+    "term": "Typical City",
+    "say": "TIP-ik-ul SIT-ee",
+    "means": "Fans' wry phrase for when something goes wrong in a very City way."
+   },
+   {
+    "term": "93:20",
+    "say": "nine-tee-three TWEN-tee",
+    "means": "The minute and second of Agüero's 2012 title winner. Fans need say no more."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Come on City!",
+    "m": "Everyday rallying cry."
+   },
+   {
+    "t": "Typical City.",
+    "m": "Said with a sigh when something daft happens."
+   },
+   {
+    "t": "93:20. Where were you?",
+    "m": "Every fan has a story about the 2012 title-winning goal."
+   },
+   {
+    "t": "I was there in the third tier, mind.",
+    "m": "Pride in sticking with City when they dropped to the third tier in 1998."
+   },
+   {
+    "t": "Time for the Poznan!",
+    "m": "Calling for the celebration where fans turn their backs to the pitch, link arms and bounce."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "the Emptihad",
+    "instead": "the Etihad",
+    "why": "That's a rival fans' dig about empty seats."
+   },
+   {
+    "say": "City are a new club",
+    "instead": "City go back to 1880",
+    "why": "Fans resent being treated as if the club began with its recent success."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_City_F.C._supporters",
+   "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Manchester United",
+  "espnId": "360",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "manchester united",
+   "man utd",
+   "man united",
+   "man u",
+   "mufc",
+   "red devils"
+  ],
+  "nickname": "United",
+  "fans": "Reds",
+  "ground": "Old Trafford",
+  "rivals": [
+   {
+    "team": "Liverpool",
+    "name": "Liverpool",
+    "derby": "the North West derby"
+   },
+   {
+    "team": "Manchester City",
+    "name": "City",
+    "derby": "the Manchester derby"
+   },
+   {
+    "team": "Leeds United",
+    "name": "Leeds",
+    "derby": "the Roses rivalry"
+   }
+  ],
+  "legends": [
+   "Sir Bobby Charlton",
+   "George Best",
+   "Eric Cantona",
+   "Bryan Robson"
+  ],
+  "memory": "1999: won the Treble, scoring twice in stoppage time to beat Bayern Munich in the Champions League final at the Camp Nou",
+  "lingo": [
+   {
+    "term": "the Theatre of Dreams",
+    "say": "the THEE-uh-ter of DREEMZ",
+    "means": "Old Trafford's famous nickname, coined by Sir Bobby Charlton."
+   },
+   {
+    "term": "the Stretford End",
+    "say": "the STRET-ferd end",
+    "means": "The home stand behind one goal, where the loudest fans are."
+   },
+   {
+    "term": "Fergie time",
+    "say": "FER-gee time",
+    "means": "Stoppage time, when United famously scored late winners under Sir Alex Ferguson."
+   },
+   {
+    "term": "the Red Devils",
+    "say": "the red DEV-ulz",
+    "means": "The club nickname, shown on the badge."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Come on United!",
+    "m": "Everyday rallying cry."
+   },
+   {
+    "t": "It's not over till Fergie time.",
+    "m": "Said when United need a late goal."
+   },
+   {
+    "t": "Barcelona '99. Best night ever.",
+    "m": "Recalls the late comeback in the 1999 Champions League final."
+   },
+   {
+    "t": "Liverpool is the one we have to win.",
+    "m": "Liverpool are seen as the biggest rival."
+   },
+   {
+    "t": "Get Glory Glory Man United going!",
+    "m": "Calling for the club's best-known terrace song."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Man U",
+    "instead": "United, or Man United",
+    "why": "Fans find 'Man U' disrespectful."
+   },
+   {
+    "say": "United's ground, the Etihad",
+    "instead": "Old Trafford",
+    "why": "The Etihad is Man City's ground."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+   "https://www.empireofthekop.com/2020/07/11/why-we-should-all-stop-calling-manchester-united-man-u/"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Newcastle United",
+  "espnId": "361",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "newcastle",
+   "newcastle united",
+   "nufc",
+   "toon",
+   "the toon",
+   "magpies"
+  ],
+  "nickname": "the Toon",
+  "fans": "the Toon Army",
+  "ground": "St James' Park",
+  "rivals": [
+   {
+    "team": "Sunderland",
+    "name": "the Mackems",
+    "derby": "the Tyne-Wear derby"
+   }
+  ],
+  "legends": [
+   "Alan Shearer",
+   "Jackie Milburn",
+   "Peter Beardsley",
+   "Kevin Keegan"
+  ],
+  "memory": "2025: beat Liverpool 2-1 at Wembley to win the League Cup, the club's first major domestic trophy since 1955",
+  "lingo": [
+   {
+    "term": "the Toon",
+    "say": "the TOON",
+    "means": "Geordie for 'the town'. Means Newcastle, and the club."
+   },
+   {
+    "term": "Howay the lads",
+    "say": "how-WAY the LADZ",
+    "means": "Geordie rallying cry: 'come on, lads'."
+   },
+   {
+    "term": "Geordie",
+    "say": "JOR-dee",
+    "means": "Someone from Newcastle, and the local accent."
+   },
+   {
+    "term": "Wor Jackie",
+    "say": "WOR JAK-ee",
+    "means": "'Our Jackie', the fans' name for Jackie Milburn. 'Wor' is Geordie for 'our'."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Howay the lads!",
+    "m": "The classic rallying cry."
+   },
+   {
+    "t": "The Gallowgate's bouncing.",
+    "m": "The Gallowgate End is the home end. Means the crowd is up for it."
+   },
+   {
+    "t": "Wembley 2025. Seventy years waiting, and we did it.",
+    "m": "Recalls the 2025 League Cup win."
+   },
+   {
+    "t": "Get the Blaydon Races going!",
+    "m": "Calling for the old Geordie song fans sing."
+   },
+   {
+    "t": "Mackems? Not bothered.",
+    "m": "Mild banter about Sunderland, the Tyne-Wear rival."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Newcastle fans are Mackems",
+    "instead": "Newcastle fans are Geordies",
+    "why": "Mackems are from Sunderland, the arch-rival."
+   },
+   {
+    "say": "the Black Cats",
+    "instead": "the Magpies",
+    "why": "The Black Cats are Sunderland."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+   "https://en.wikipedia.org/wiki/Sunderland_A.F.C._supporters"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Nottingham Forest",
+  "espnId": "393",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "nottingham forest",
+   "forest",
+   "nffc",
+   "nottm forest",
+   "tricky trees"
+  ],
+  "nickname": "Forest",
+  "fans": "",
+  "ground": "the City Ground",
+  "rivals": [
+   {
+    "team": "Derby County",
+    "name": "Derby",
+    "derby": "the East Midlands derby"
+   },
+   {
+    "team": "Leicester City",
+    "name": "Leicester",
+    "derby": ""
+   }
+  ],
+  "legends": [
+   "John Robertson",
+   "Stuart Pearce",
+   "Viv Anderson",
+   "Ian Bowyer"
+  ],
+  "memory": "1979 and 1980: won back-to-back European Cups under Brian Clough",
+  "lingo": [
+   {
+    "term": "the Tricky Trees",
+    "say": "the TRIK-ee TREEZ",
+    "means": "Fond nickname for the club, from the tree on the badge."
+   },
+   {
+    "term": "Garibaldi",
+    "say": "gar-ih-BAWL-dee",
+    "means": "The club's red, named after the Italian hero's Redshirts. Also the name of a fan group."
+   },
+   {
+    "term": "Mull of Kintyre",
+    "say": "mull of kin-TIRE",
+    "means": "The Wings song fans sing at the City Ground before games."
+   },
+   {
+    "term": "the Trent End",
+    "say": "the TRENT end",
+    "means": "The home stand by the River Trent."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Come on you Reds!",
+    "m": "Classic rallying cry. Forest play in red."
+   },
+   {
+    "t": "Two European Cups. Tell me again who's bigger.",
+    "m": "Fans' favourite reply when rivals talk them down."
+   },
+   {
+    "t": "Old Big 'Ead wouldn't have stood for that.",
+    "m": "Invoking Brian Clough, the legendary manager, when something annoys you."
+   },
+   {
+    "t": "Derby? Who are they?",
+    "m": "Mild banter about Derby County, the East Midlands rival."
+   },
+   {
+    "t": "Mull of Kintyre before kick-off gets me every time.",
+    "m": "The pre-match singalong is a big ritual."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Notts Forest",
+    "instead": "Forest, or Nottingham Forest",
+    "why": "'Notts' means Notts County, a different club."
+   },
+   {
+    "say": "The Reds? You mean Liverpool?",
+    "instead": "In Nottingham, the Reds means Forest",
+    "why": "Forest fans call their team the Reds too."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
+   "https://en.wikipedia.org/wiki/City_Ground",
+   "https://www.goal.com/en-in/news/mull-of-kintyre-lyrics-when-why-nottingham-forest-fans-sing/blt5cc1fa29756b9adb"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Sunderland",
+  "espnId": "366",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "sunderland",
+   "safc",
+   "black cats",
+   "the black cats"
+  ],
+  "nickname": "the Black Cats",
+  "fans": "Mackems",
+  "ground": "the Stadium of Light",
+  "rivals": [
+   {
+    "team": "Newcastle United",
+    "name": "the Mags",
+    "derby": "the Tyne-Wear derby"
+   },
+   {
+    "team": "Middlesbrough",
+    "name": "Boro",
+    "derby": "the Tees-Wear derby"
+   }
+  ],
+  "legends": [
+   "Charlie Hurley",
+   "Jim Montgomery",
+   "Niall Quinn",
+   "Gary Rowell"
+  ],
+  "memory": "1973: won the FA Cup as a second-tier side, beating Leeds United 1-0 at Wembley",
+  "lingo": [
+   {
+    "term": "Mackem",
+    "say": "MAK-um",
+    "means": "Someone from Sunderland, and a Sunderland fan. Used with pride."
+   },
+   {
+    "term": "Ha'way the lads",
+    "say": "ha-WAY the LADZ",
+    "means": "Wearside rallying cry: 'come on, lads'. One of the club's oldest."
+   },
+   {
+    "term": "the Lads",
+    "say": "the LADZ",
+    "means": "How fans refer to the team."
+   },
+   {
+    "term": "Roker",
+    "say": "ROH-ker",
+    "means": "Roker Park, the old ground left in 1997. Older fans still talk about it."
+   }
+  ],
+  "lines": [
+   {
+    "t": "Ha'way the lads!",
+    "m": "The classic rallying cry."
+   },
+   {
+    "t": "The Mags? Not bothered.",
+    "m": "Mild banter about Newcastle fans."
+   },
+   {
+    "t": "'73 and Monty's save. Never forget it.",
+    "m": "Recalls goalkeeper Jim Montgomery's double save in the 1973 FA Cup final."
+   },
+   {
+    "t": "Can't Help Falling in Love before kick-off. Gets you every time.",
+    "m": "Fans sing the Elvis song at every game."
+   },
+   {
+    "t": "Derby day is the only day that matters.",
+    "m": "How fans feel about the Tyne-Wear derby."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Sunderland fans are Geordies",
+    "instead": "Sunderland fans are Mackems",
+    "why": "Geordies are from Newcastle, the arch-rival."
+   },
+   {
+    "say": "the Magpies",
+    "instead": "the Black Cats",
+    "why": "The Magpies are Newcastle."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sunderland_A.F.C._supporters",
+   "https://www.mackemnews.com/why-sunderland-fans-sing-cant-help-falling-in-love"
+  ],
+  "unsure": []
+ },
+ {
+  "team": "Tottenham Hotspur",
+  "espnId": "367",
+  "league": "soccer/eng.1",
+  "aliases": [
+   "tottenham",
+   "tottenham hotspur",
+   "spurs",
+   "thfc",
+   "coys"
+  ],
+  "nickname": "Spurs",
+  "fans": "",
+  "ground": "the Tottenham Hotspur Stadium (on the old White Hart Lane site)",
+  "rivals": [
+   {
+    "team": "Arsenal",
+    "name": "Arsenal",
+    "derby": "the North London derby"
+   },
+   {
+    "team": "Chelsea",
+    "name": "Chelsea",
+    "derby": ""
+   },
+   {
+    "team": "West Ham United",
+    "name": "West Ham",
+    "derby": ""
+   }
+  ],
+  "legends": [
+   "Jimmy Greaves",
+   "Glenn Hoddle",
+   "Danny Blanchflower",
+   "Gary Mabbutt"
+  ],
+  "memory": "1960-61: won the Double, the first league and FA Cup double of the 20th century",
+  "lingo": [
+   {
+    "term": "COYS",
+    "say": "kum on yoo SPURZ",
+    "means": "'Come On You Spurs', the standard fan sign-off."
+   },
+   {
+    "term": "To Dare Is To Do",
+    "say": "to DAIR iz to DOO",
+    "means": "The club motto, from the Latin 'Audere est facere'."
+   },
+   {
+    "term": "Spursy",
+    "say": "SPUR-zee",
+    "means": "Rivals' word for throwing it away from a winning position. Fans use it with a grimace."
+   },
+   {
+    "term": "the Lane",
+    "say": "the LAYN",
+    "means": "White Hart Lane, the old ground. Many fans still call the new stadium on the same site 'the Lane'."
+   }
+  ],
+  "lines": [
+   {
+    "t": "COYS!",
+    "m": "Everyday rallying cry."
+   },
+   {
+    "t": "Bilbao 2025. Seventeen years waiting, worth every one.",
+    "m": "Recalls the Europa League final win over Manchester United."
+   },
+   {
+    "t": "Year ends in one? That's our year.",
+    "m": "Old superstition: Spurs won trophies in 1901, 1921, 1951, 1961, 1971, 1981 and 1991."
+   },
+   {
+    "t": "Nothing beats beating Arsenal.",
+    "m": "The North London derby matters above everything."
+   },
+   {
+    "t": "To dare is to do.",
+    "m": "Quoting the club motto when the team takes a risk."
+   }
+  ],
+  "avoid": [
+   {
+    "say": "Tottenham Hotspurs",
+    "instead": "Tottenham Hotspur, or Spurs",
+    "why": "There's no 's' on Hotspur."
+   },
+   {
+    "say": "Spurs are a south London club",
+    "instead": "Spurs are from north London",
+    "why": "Tottenham is in north London, N17."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tottenham_Hotspur_Stadium",
+   "https://en.wikipedia.org/wiki/When_the_Year_Ends_in_One",
+   "https://frontofficesports.com/article/google-leads-tottenhams-search-for-naming-rights/"
+  ],
+  "unsure": [
+   "ground: no stadium naming-rights deal was confirmed as of October 2026, but talks were reported, so the name may change"
+  ]
+ }
+]

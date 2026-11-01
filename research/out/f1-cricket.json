@@ -1,0 +1,753 @@
+[
+  {
+    "team": "McLaren",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Lando Norris", "Oscar Piastri"],
+    "aliases": ["mclaren", "macca", "papaya", "woking"],
+    "nickname": "Macca",
+    "fans": "",
+    "ground": "Woking",
+    "rivals": [
+      {"team": "Ferrari", "name": "Ferrari", "derby": ""},
+      {"team": "Red Bull", "name": "Red Bull", "derby": ""},
+      {"team": "Mercedes", "name": "Merc", "derby": ""}
+    ],
+    "legends": ["Ayrton Senna", "Alain Prost", "Mika Häkkinen", "Bruce McLaren"],
+    "memory": "1988: Senna and Prost won 15 of the 16 races between them",
+    "lingo": [
+      {"term": "Papaya", "say": "puh-PIE-uh", "means": "The team's orange colour. Fans call it papaya, never just orange."},
+      {"term": "Macca", "say": "MACK-uh", "means": "Informal nickname for McLaren, used a lot by Australian and British fans."},
+      {"term": "Woking", "say": "WOH-king", "means": "The Surrey town where the factory is. Fans use it to mean the team itself."},
+      {"term": "Papaya rules", "say": "puh-PIE-uh ROOLZ", "means": "The team's code for letting its two drivers race each other fairly. Fans quote it whenever the team-mates fight on track."}
+    ],
+    "lines": [
+      {"t": "Papaya rules. Let them race.", "m": "Said when the two McLarens battle each other. Fans want a fair fight, not team orders."},
+      {"t": "Senna and Prost in the same garage. Imagine the debriefs.", "m": "A nod to the famous 1988-89 pairing and their bitter rivalry."},
+      {"t": "Only Ferrari have won more constructors' titles.", "m": "A point of pride. McLaren are second on the all-time list."},
+      {"t": "Bruce McLaren's name is still over the door.", "m": "Respect for the New Zealander who founded the team in the 1960s."}
+    ],
+    "avoid": [
+      {"say": "the orange car", "instead": "the papaya car", "why": "Fans are particular about the colour's name."},
+      {"say": "McLaren-Honda", "instead": "McLaren-Mercedes", "why": "The Honda days ended in 2017. They run Mercedes engines now."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/McLaren",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Ferrari",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Charles Leclerc", "Lewis Hamilton"],
+    "aliases": ["ferrari", "scuderia ferrari", "the scuderia", "maranello", "prancing horse"],
+    "nickname": "the Scuderia",
+    "fans": "the tifosi",
+    "ground": "Maranello",
+    "rivals": [
+      {"team": "McLaren", "name": "McLaren", "derby": ""},
+      {"team": "Mercedes", "name": "Merc", "derby": ""},
+      {"team": "Red Bull", "name": "Red Bull", "derby": ""}
+    ],
+    "legends": ["Michael Schumacher", "Niki Lauda", "Gilles Villeneuve", "Enzo Ferrari"],
+    "memory": "Michael Schumacher's five drivers' titles in a row, 2000 to 2004",
+    "lingo": [
+      {"term": "Tifosi", "say": "tee-FOH-zee", "means": "The Ferrari fans, especially the Italians. The word simply means fans in Italian."},
+      {"term": "Scuderia", "say": "skoo-deh-REE-ah", "means": "Italian for 'stable'. Fans call the team 'the Scuderia'."},
+      {"term": "Cavallino Rampante", "say": "kah-vah-LEE-noh rahm-PAHN-teh", "means": "The Prancing Horse badge. English-speaking fans just say 'the Prancing Horse'."},
+      {"term": "Forza Ferrari", "say": "FOR-tsah feh-RAH-ree", "means": "'Come on, Ferrari!' The standard cheer."}
+    ],
+    "lines": [
+      {"t": "Forza Ferrari!", "m": "The all-purpose cheer. Works win or lose."},
+      {"t": "Next year is our year.", "m": "A long-running, self-mocking Ferrari fan joke. Say it with a sigh."},
+      {"t": "Nothing beats Monza when the tifosi pour onto the track.", "m": "Fans flood the circuit for the podium at the Italian Grand Prix. A sea of red."},
+      {"t": "We are checking.", "m": "Quoting a famous Ferrari radio reply. Fans use it to tease the strategy team after a muddled call."}
+    ],
+    "avoid": [
+      {"say": "the bull on the badge", "instead": "the Prancing Horse", "why": "The bull is Lamborghini's. Ferrari's badge is a horse."},
+      {"say": "skoo-DEER-ee-uh", "instead": "skoo-deh-REE-ah", "why": "The stress in Scuderia falls on 'REE'."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Red Bull",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Max Verstappen", "Isack Hadjar"],
+    "aliases": ["red bull", "red bull racing", "rbr", "milton keynes"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Milton Keynes",
+    "rivals": [
+      {"team": "Mercedes", "name": "Merc", "derby": ""},
+      {"team": "McLaren", "name": "McLaren", "derby": ""},
+      {"team": "Ferrari", "name": "Ferrari", "derby": ""}
+    ],
+    "legends": ["Sebastian Vettel", "Mark Webber", "David Coulthard"],
+    "memory": "Four drivers' and constructors' title doubles in a row with Sebastian Vettel, 2010 to 2013",
+    "lingo": [
+      {"term": "RBR", "say": "ar-bee-AR", "means": "Short for Red Bull Racing, the senior team. Used to tell it apart from Racing Bulls."},
+      {"term": "MK", "say": "em-KAY", "means": "Milton Keynes, where the factory is. Fans say 'MK' for the team's base."},
+      {"term": "Multi 21", "say": "MUL-tee TWEN-tee-WUN", "means": "A 2013 team-order code that Vettel ignored to pass Webber in Malaysia. Shorthand for team-mates defying orders."},
+      {"term": "the second seat", "say": "thuh SEK-und SEET", "means": "The drive alongside the team leader. Famous for being the toughest job in the paddock."}
+    ],
+    "lines": [
+      {"t": "That second Red Bull seat is the hardest job in F1.", "m": "A running theme. Many team-mates have struggled there or been swapped out."},
+      {"t": "Multi 21, anyone?", "m": "A joke about the 2013 team-order row. Use it when team-mates ignore orders."},
+      {"t": "Building their own engine with Ford was a massive gamble.", "m": "Since 2026 Red Bull make their own power units, with Ford as partner."},
+      {"t": "Austria is basically a home race for them.", "m": "The team races under an Austrian licence, and the owners rebuilt the Red Bull Ring."}
+    ],
+    "avoid": [
+      {"say": "Red Bull-Honda", "instead": "Red Bull-Ford", "why": "Honda moved to Aston Martin for 2026. Red Bull now build their own engine with Ford."},
+      {"say": "Red Bull and Racing Bulls are the same team", "instead": "Racing Bulls is the sister team", "why": "They are separate teams. Racing Bulls is the junior outfit in Faenza."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+      "https://www.formula1.com/en/latest/article/red-bull-confirm-hadjar-to-miss-dutch-grand-prix-as-lawson-steps-up-and-tsunoda-returns.3D3k7oc9dUwwEBZC7upjR1"
+    ],
+    "unsure": [
+      "drivers: Hadjar missed rounds 12-14 (Dutch, Italian, Spanish GPs) with a wrist injury and Lawson stood in; Hadjar has been back since round 15",
+      "nickname: no settled nickname beyond 'Red Bull' or 'RBR'"
+    ]
+  },
+  {
+    "team": "Mercedes",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["George Russell", "Kimi Antonelli"],
+    "aliases": ["mercedes", "merc", "silver arrows", "mercedes-amg", "brackley"],
+    "nickname": "the Silver Arrows",
+    "fans": "",
+    "ground": "Brackley",
+    "rivals": [
+      {"team": "Red Bull", "name": "Red Bull", "derby": ""},
+      {"team": "Ferrari", "name": "Ferrari", "derby": ""},
+      {"team": "McLaren", "name": "McLaren", "derby": ""}
+    ],
+    "legends": ["Juan Manuel Fangio", "Stirling Moss", "Nico Rosberg", "Ross Brawn"],
+    "memory": "Eight constructors' titles in a row, 2014 to 2021, a record",
+    "lingo": [
+      {"term": "Silver Arrows", "say": "SIL-ver AR-ohz", "means": "The team's nickname, going back to Mercedes' silver racing cars of the 1930s."},
+      {"term": "Merc", "say": "MURK", "means": "The everyday short form. Fans and pundits say 'Merc' far more than 'Mercedes'."},
+      {"term": "Brackley", "say": "BRAK-lee", "means": "The Northamptonshire town where the cars are built. Used to mean the team."},
+      {"term": "Brixworth", "say": "BRIKS-wurth", "means": "Where the engines are made. 'Brixworth' means the power-unit side of the team."}
+    ],
+    "lines": [
+      {"t": "Brackley always seem to nail a big rule change.", "m": "They dominated after the 2014 engine change. Fans expect the same whenever the rules reset."},
+      {"t": "Eight constructors' titles on the bounce. Nobody else has done that.", "m": "The 2014-2021 record run. A go-to brag."},
+      {"t": "Abu Dhabi 2021 still stings.", "m": "The disputed last-lap title decider. Mercedes fans are still sore about it."},
+      {"t": "A German name, built in Northamptonshire.", "m": "A fond joke. The badge is German but the team is very English."}
+    ],
+    "avoid": [
+      {"say": "the German team from Stuttgart", "instead": "Brackley", "why": "The F1 team is based in England. Stuttgart is the car company's home."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mercedes-AMG_Petronas_F1_Team",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Racing Bulls",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Liam Lawson", "Arvid Lindblad"],
+    "aliases": ["racing bulls", "vcarb", "toro rosso", "alphatauri", "faenza"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Faenza",
+    "rivals": [
+      {"team": "Red Bull", "name": "the senior team", "derby": ""}
+    ],
+    "legends": ["Sebastian Vettel", "Daniel Ricciardo", "Franz Tost", "Giancarlo Minardi"],
+    "memory": "Sebastian Vettel's shock win in the wet at Monza in 2008, for Toro Rosso",
+    "lingo": [
+      {"term": "Toro Rosso", "say": "TOR-oh ROSS-oh", "means": "Italian for 'red bull'. The team's name from 2006 to 2019, still used by old-school fans."},
+      {"term": "VCARB", "say": "VEE-karb", "means": "Short for Visa Cash App Racing Bulls, the full entry name."},
+      {"term": "Faenza", "say": "fah-EN-tsah", "means": "The Italian town where the team is based."},
+      {"term": "the junior team", "say": "thuh JOO-nee-er TEEM", "means": "Red Bull's proving ground. Drivers here hope to be promoted to the senior team."}
+    ],
+    "lines": [
+      {"t": "Faenza is where Red Bull find out who's the real deal.", "m": "Most Red Bull stars came through this team first."},
+      {"t": "I'll always call them Toro Rosso.", "m": "The team has had four names since 2006. Old fans stick with the first."},
+      {"t": "Vettel winning Monza in a Toro Rosso. Upset of the century.", "m": "2008, in the rain. Still the team's most famous day."},
+      {"t": "Every promotion to the big team is a gamble.", "m": "Moves up to Red Bull have made and broken careers."}
+    ],
+    "avoid": [
+      {"say": "AlphaTauri", "instead": "Racing Bulls", "why": "The AlphaTauri name ended in 2023."},
+      {"say": "Red Bull's second car", "instead": "Racing Bulls, the sister team", "why": "It is a separate team with its own two cars and its own base in Italy."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Racing_Bulls",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": [
+      "rivals: no established rivalry; listed the senior Red Bull team, which is the comparison fans make most",
+      "drivers: Lawson stood in at Red Bull for rounds 12-14 (Tsunoda drove his car) and has been back since round 15"
+    ]
+  },
+  {
+    "team": "Alpine",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Pierre Gasly", "Franco Colapinto"],
+    "aliases": ["alpine", "enstone", "renault", "bwt alpine"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Enstone",
+    "rivals": [
+      {"team": "Haas", "name": "Haas", "derby": ""}
+    ],
+    "legends": ["Michael Schumacher", "Kimi Räikkönen"],
+    "memory": "Back-to-back titles as Renault in 2005 and 2006, with the cars built at Enstone",
+    "lingo": [
+      {"term": "Enstone", "say": "EN-stun", "means": "The Oxfordshire village where the cars are built. Fans say 'Enstone' to mean the team."},
+      {"term": "Team Enstone", "say": "TEEM EN-stun", "means": "What long-time fans call the outfit, whatever name is on the cars."},
+      {"term": "Viry", "say": "VEE-ree", "means": "Short for Viry-Châtillon, the French base that built Renault's F1 engines until 2025."}
+    ],
+    "lines": [
+      {"t": "Enstone has won titles as Benetton and as Renault.", "m": "The same factory has had many names. Fans are proud of the history."},
+      {"t": "Mercedes engines in an Enstone car. Strange times.", "m": "Since 2026 Alpine buy Mercedes engines, after Renault stopped making its own."},
+      {"t": "Kimi's 'leave me alone' race was in an Enstone car.", "m": "Räikkönen's famous radio reply came during his 2012 Abu Dhabi win for Lotus, the same team."},
+      {"t": "Same factory that built Schumacher's first title car.", "m": "Benetton, 1994."}
+    ],
+    "avoid": [
+      {"say": "Renault", "instead": "Alpine", "why": "The team became Alpine in 2021. Renault is the parent company."},
+      {"say": "Alpine's own engine", "instead": "the Mercedes engine", "why": "Alpine have used Mercedes power since 2026."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alpine_F1_Team",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": [
+      "rivals: no long-standing rivalry; Haas listed as a current midfield rival",
+      "fans/nickname: no established names found"
+    ]
+  },
+  {
+    "team": "Haas",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Esteban Ocon", "Oliver Bearman"],
+    "aliases": ["haas", "haas f1", "tgr haas", "kannapolis"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Kannapolis",
+    "rivals": [
+      {"team": "Cadillac", "name": "Cadillac", "derby": ""}
+    ],
+    "legends": ["Guenther Steiner", "Romain Grosjean", "Kevin Magnussen"],
+    "memory": "Points on debut: Romain Grosjean finished sixth at the 2016 Australian Grand Prix",
+    "lingo": [
+      {"term": "Haas", "say": "HASS", "means": "Named after founder Gene Haas, an American machine-tool businessman."},
+      {"term": "Kannapolis", "say": "kuh-NAP-uh-lis", "means": "The North Carolina town where the team has its headquarters."},
+      {"term": "TGR", "say": "tee-jee-AR", "means": "Toyota Gazoo Racing, the title partner. The team races as TGR Haas F1 Team."},
+      {"term": "DTS", "say": "dee-tee-ES", "means": "Drive to Survive, the Netflix series. Haas's lively moments on it won the team lots of fans."}
+    ],
+    "lines": [
+      {"t": "Points in their very first race. Not many new teams manage that.", "m": "Grosjean was sixth in Melbourne in 2016."},
+      {"t": "Drive to Survive made me a Haas fan.", "m": "Common among newer fans who found the team through Netflix."},
+      {"t": "Magnussen's pole in Brazil. What a day.", "m": "The team's first pole, at the 2022 São Paulo Grand Prix."},
+      {"t": "Small team, punching above its weight.", "m": "Haas run lean and buy many parts from Ferrari."}
+    ],
+    "avoid": [
+      {"say": "a German team", "instead": "an American team", "why": "The name looks German, but Haas is American, based in North Carolina."},
+      {"say": "the only American team", "instead": "one of two American teams", "why": "Cadillac joined the grid in 2026."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Haas_F1_Team",
+      "https://www.formula1.com/en/latest/article/hirakawa-to-replace-ocon-at-haas-for-remainder-of-mexico-city-grand-prix-weekend.2cl5jN0g3rZ2pIYQvc00xM",
+      "https://www.formula1.com/en/teams"
+    ],
+    "unsure": [
+      "drivers: Haas replaced Ocon with reserve Ryo Hirakawa for the rest of the Mexico City GP weekend (31 Oct-1 Nov 2026), gave no reason and said nothing about later races; Ocon is already due to leave at season's end. Listed Ocon as the nominated driver, but this may change before Brazil",
+      "rivals: no long-standing rivalry; Cadillac listed as the other American team",
+      "lingo: could not confirm the exact pronunciation of 'Haas' from a reliable source"
+    ]
+  },
+  {
+    "team": "Audi",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Nico Hülkenberg", "Gabriel Bortoleto"],
+    "aliases": ["audi", "sauber", "kick sauber", "hinwil", "audi f1"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Hinwil",
+    "rivals": [
+      {"team": "Mercedes", "name": "Merc", "derby": ""}
+    ],
+    "legends": ["Peter Sauber", "Robert Kubica", "Felipe Massa"],
+    "memory": "Robert Kubica winning the 2008 Canadian Grand Prix for BMW Sauber, the only win for the Hinwil team",
+    "lingo": [
+      {"term": "Hinwil", "say": "HIN-vil", "means": "The Swiss town near Zurich where the chassis is built. The old Sauber base."},
+      {"term": "Sauber", "say": "SOW-ber", "means": "The team's old name, after founder Peter Sauber. 'Sow' rhymes with 'cow'."},
+      {"term": "Neuburg", "say": "NOY-boorg", "means": "The Bavarian town where Audi builds its own F1 engine."},
+      {"term": "Vorsprung durch Technik", "say": "FOR-shprung doorkh TEKH-nik", "means": "Audi's motto, roughly 'progress through technology'."}
+    ],
+    "lines": [
+      {"t": "I still catch myself calling them Sauber.", "m": "The team ran under Sauber names until Audi took over for 2026."},
+      {"t": "Hinwil has had a German works team before. BMW Sauber.", "m": "BMW ran the team from 2006 to 2009."},
+      {"t": "Vorsprung durch Technik. Let's see it on track.", "m": "Gentle pressure on the new works team, using Audi's own motto."},
+      {"t": "Chassis in Switzerland, engine in Germany.", "m": "Audi builds the whole car itself, as a full works team."}
+    ],
+    "avoid": [
+      {"say": "a brand-new team", "instead": "Audi took over Sauber", "why": "It is the old Sauber outfit, renamed for 2026."},
+      {"say": "Kick Sauber", "instead": "Audi", "why": "The Kick and Stake names ended in 2025."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": [
+      "rivals: no established rivalry yet for the new works team; Mercedes listed as the other German manufacturer",
+      "fans/nickname: no established names found"
+    ]
+  },
+  {
+    "team": "Williams",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Alexander Albon", "Carlos Sainz"],
+    "aliases": ["williams", "williams racing", "grove", "atlassian williams"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Grove",
+    "rivals": [
+      {"team": "McLaren", "name": "McLaren", "derby": ""}
+    ],
+    "legends": ["Sir Frank Williams", "Nigel Mansell", "Damon Hill", "Patrick Head"],
+    "memory": "Nigel Mansell's runaway 1992 title in the FW14B",
+    "lingo": [
+      {"term": "Grove", "say": "GROHV", "means": "The Oxfordshire village where the team is based."},
+      {"term": "Sir Frank", "say": "sur FRANK", "means": "Founder Sir Frank Williams. Fans still speak of him with real affection."},
+      {"term": "FW", "say": "ef-DUB-ul-yoo", "means": "The prefix on every Williams car name, from Frank Williams. The 2026 car is the FW48."},
+      {"term": "Red 5", "say": "red FIVE", "means": "Mansell's car number, painted red. A cult symbol for Williams fans."}
+    ],
+    "lines": [
+      {"t": "Nine constructors' titles. Only Ferrari and McLaren have more.", "m": "A reminder of the team's golden era in the 1980s and 90s."},
+      {"t": "Red 5 forever.", "m": "A nod to Mansell's famous red number five."},
+      {"t": "Grove is a proper racing team, not a car maker's marketing arm.", "m": "Fans are proud that Williams is not owned by a car company."},
+      {"t": "Sir Frank would have loved that.", "m": "Said when the team does something gutsy. Honours the late founder."}
+    ],
+    "avoid": [
+      {"say": "the Williams family still run it", "instead": "it's owned by Dorilton Capital", "why": "The family sold the team in 2020."},
+      {"say": "Williams-Renault", "instead": "Williams-Mercedes", "why": "The famous Renault era was the 1990s. They have used Mercedes engines since 2014."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Williams_Racing",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": [
+      "rivals: McLaren is a historic 1980s-90s rivalry, not a current one",
+      "fans/nickname: no established names found"
+    ]
+  },
+  {
+    "team": "Aston Martin",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Fernando Alonso", "Lance Stroll"],
+    "aliases": ["aston martin", "aston", "amr", "amf1", "racing point"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Silverstone",
+    "rivals": [
+      {"team": "Red Bull", "name": "Red Bull", "derby": ""}
+    ],
+    "legends": ["Eddie Jordan", "Damon Hill", "Giancarlo Fisichella"],
+    "memory": "Fernando Alonso piling up podiums in the first half of 2023, the best start under the Aston Martin name",
+    "lingo": [
+      {"term": "Aston", "say": "ASS-tun", "means": "The everyday short name for the team."},
+      {"term": "British racing green", "say": "BRIT-ish RAY-sing GREEN", "means": "The team's colour, the traditional British motor-racing green."},
+      {"term": "AMR", "say": "ay-em-AR", "means": "Short for Aston Martin Racing. You see it on the cars and kit."}
+    ],
+    "lines": [
+      {"t": "Factory right next to the circuit. Silverstone is a proper home race.", "m": "The team's base sits beside the Silverstone track."},
+      {"t": "British racing green just looks right on an F1 car.", "m": "Fans love the classic colour."},
+      {"t": "A Honda works deal. They're building for the long haul.", "m": "Since 2026 Honda have made the team's engines as a full works partner."},
+      {"t": "Remember when this lot were Jordan?", "m": "The team traces back to Eddie Jordan's outfit, via Force India and Racing Point."}
+    ],
+    "avoid": [
+      {"say": "Racing Point", "instead": "Aston Martin", "why": "The team took the Aston Martin name in 2021."},
+      {"say": "Aston Martin-Mercedes", "instead": "Aston Martin-Honda", "why": "They switched to Honda works engines for 2026."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": [
+      "rivals: no established rivalry; Red Bull listed because Honda moved from Red Bull to Aston Martin for 2026",
+      "legends: Jordan and Force India figures, from the team's earlier names; few retired greats under the Aston Martin name",
+      "fans/nickname: no established names found"
+    ]
+  },
+  {
+    "team": "Cadillac",
+    "espnId": "",
+    "league": "racing/f1",
+    "drivers": ["Sergio Pérez", "Valtteri Bottas"],
+    "aliases": ["cadillac", "cadillac f1", "gm", "fishers"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Fishers, Indiana",
+    "rivals": [
+      {"team": "Haas", "name": "Haas", "derby": ""}
+    ],
+    "legends": ["Mario Andretti"],
+    "memory": "Debut at the 2026 Australian Grand Prix in Melbourne, the first new team on the grid since Haas in 2016",
+    "lingo": [
+      {"term": "the 11th team", "say": "thee ih-LEV-unth TEEM", "means": "Cadillac made it 11 teams on the grid in 2026."},
+      {"term": "Fishers", "say": "FISH-erz", "means": "The town near Indianapolis where the team has its headquarters."},
+      {"term": "GM", "say": "jee-EM", "means": "General Motors, Cadillac's parent company. It plans its own F1 engine for 2029."}
+    ],
+    "lines": [
+      {"t": "Eleven teams on the grid now. About time.", "m": "Cadillac was the first new team since Haas joined in 2016."},
+      {"t": "Ferrari engines for now, GM's own engine later.", "m": "The plan is to become a full works team, with a GM engine from 2029."},
+      {"t": "An American team with an American world champion on the board.", "m": "Mario Andretti, the 1978 champion, is a director."},
+      {"t": "Every step is a milestone for a new team.", "m": "New teams take time. Fans enjoy each small breakthrough."}
+    ],
+    "avoid": [
+      {"say": "the Andretti team", "instead": "Cadillac", "why": "F1 turned down the original Andretti bid. The team that got in is run by General Motors."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cadillac_in_Formula_One",
+      "https://www.formula1.com/en/teams",
+      "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    ],
+    "unsure": [
+      "legends: first-season team, so only Mario Andretti (board director) fits; no other retired figures yet",
+      "rivals: no established rivalry; Haas listed as the other American team",
+      "fans/nickname: no established names found"
+    ]
+  },
+  {
+    "team": "England",
+    "espnId": "",
+    "league": "cricket/intl",
+    "aliases": ["england", "eng", "barmy army", "england and wales"],
+    "nickname": "",
+    "fans": "the Barmy Army",
+    "ground": "Lord's",
+    "rivals": [
+      {"team": "Australia", "name": "the Aussies", "derby": "the Ashes"},
+      {"team": "India", "name": "India", "derby": "the Anderson–Tendulkar Trophy"}
+    ],
+    "legends": ["Ian Botham", "Geoffrey Boycott", "Alastair Cook", "W. G. Grace"],
+    "memory": "Winning the 2019 World Cup final at Lord's on boundary count after a tied Super Over",
+    "lingo": [
+      {"term": "Barmy Army", "say": "BAR-mee AR-mee", "means": "England's travelling supporters' group, famous for keeping the noise up all day."},
+      {"term": "Bazball", "say": "BAZ-bawl", "means": "The all-out attacking style England have played in Tests since 2022, named after Brendon McCullum, known as Baz."},
+      {"term": "the urn", "say": "thee URN", "means": "The tiny Ashes trophy. 'Bringing the urn home' means winning the Ashes."},
+      {"term": "the Home of Cricket", "say": "thuh HOHM uv KRIK-it", "means": "Lord's nickname."}
+    ],
+    "lines": [
+      {"t": "Lord's in the sunshine with a drink in hand. Perfect day.", "m": "A Test at Lord's is a social event as much as a match."},
+      {"t": "Win the Ashes and everything else is a bonus.", "m": "Beating Australia matters more than anything."},
+      {"t": "2005 is still the greatest Ashes series.", "m": "England won the Ashes back for the first time since the 1980s in a classic series."},
+      {"t": "The Barmy Army will be louder than the home crowd.", "m": "Said before away tours. England's fans travel in big numbers."}
+    ],
+    "avoid": [
+      {"say": "us Poms", "instead": "us English", "why": "'Pom' is what Australians call the English. It's their word."},
+      {"say": "Team GB", "instead": "England", "why": "The side is England (and Wales). Scotland and Ireland have their own teams."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/England_cricket_team",
+      "https://en.wikipedia.org/wiki/List_of_nicknames_used_in_cricket",
+      "https://en.wikipedia.org/wiki/Anderson–Tendulkar_Trophy"
+    ],
+    "unsure": [
+      "nickname: 'Three Lions' is listed for the cricket side but is mainly a football usage, so left blank"
+    ]
+  },
+  {
+    "team": "Australia",
+    "espnId": "",
+    "league": "cricket/intl",
+    "aliases": ["australia", "aus", "aussies", "baggy greens"],
+    "nickname": "the Aussies",
+    "fans": "the Fanatics",
+    "ground": "the MCG",
+    "rivals": [
+      {"team": "England", "name": "the Poms", "derby": "the Ashes"},
+      {"team": "India", "name": "India", "derby": "the Border–Gavaskar Trophy"},
+      {"team": "New Zealand", "name": "the Kiwis", "derby": "the Trans-Tasman Trophy"}
+    ],
+    "legends": ["Don Bradman", "Shane Warne", "Dennis Lillee", "Steve Waugh"],
+    "memory": "Shane Warne's 'Ball of the Century' to Mike Gatting at Old Trafford, 1993",
+    "lingo": [
+      {"term": "baggy green", "say": "BAG-ee GREEN", "means": "The Test cap. Earning one is the highest honour in Australian cricket."},
+      {"term": "the G", "say": "thuh JEE", "means": "The Melbourne Cricket Ground."},
+      {"term": "Pom", "say": "POM", "means": "Australian slang for an English person. Used in friendly banter."},
+      {"term": "Boxing Day Test", "say": "BOK-sing day TEST", "means": "The Test that starts on 26 December at the MCG. A national tradition."}
+    ],
+    "lines": [
+      {"t": "Boxing Day at the G. Best day of the year.", "m": "The Melbourne Test is the highlight of the Australian summer."},
+      {"t": "Nothing beats beating the Poms.", "m": "Mild Ashes banter. Works any time England are mentioned."},
+      {"t": "Bradman averaged 99.94. Nobody's close.", "m": "The famous Test batting average. A go-to fact."},
+      {"t": "You've got to earn the baggy green.", "m": "Said about young players hoping for a Test debut."}
+    ],
+    "avoid": [
+      {"say": "the Kangaroos", "instead": "the Aussies", "why": "The Kangaroos are the rugby league team."},
+      {"say": "OSS-ee", "instead": "OZ-ee", "why": "Australians say 'Aussie' with a 'z' sound."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Australia_national_cricket_team",
+      "https://en.wikipedia.org/wiki/List_of_nicknames_used_in_cricket"
+    ],
+    "unsure": [
+      "fans: the Fanatics are a multi-sport travelling supporters' group, much less tied to cricket than the Barmy Army"
+    ]
+  },
+  {
+    "team": "India",
+    "espnId": "",
+    "league": "cricket/intl",
+    "aliases": ["india", "ind", "men in blue", "team india", "bharat"],
+    "nickname": "the Men in Blue",
+    "fans": "the Bharat Army",
+    "ground": "Eden Gardens",
+    "rivals": [
+      {"team": "Pakistan", "name": "Pakistan", "derby": ""},
+      {"team": "Australia", "name": "the Aussies", "derby": "the Border–Gavaskar Trophy"},
+      {"team": "England", "name": "England", "derby": "the Anderson–Tendulkar Trophy"}
+    ],
+    "legends": ["Sachin Tendulkar", "Sunil Gavaskar", "Kapil Dev", "Anil Kumble"],
+    "memory": "India, captained by Kapil Dev, beating the West Indies to win the 1983 World Cup at Lord's",
+    "lingo": [
+      {"term": "Men in Blue", "say": "MEN in BLOO", "means": "The white-ball team's nickname, after the blue kit."},
+      {"term": "Bharat Army", "say": "BHAH-rut AR-mee", "means": "India's travelling supporters' group. 'Bharat' is India in Hindi."},
+      {"term": "Chak de", "say": "CHUCK day", "means": "A Hindi rallying cry, roughly 'Go for it!'. Popular since the film 'Chak De! India'."},
+      {"term": "God of Cricket", "say": "GOD uv KRIK-it", "means": "What fans call Sachin Tendulkar."}
+    ],
+    "lines": [
+      {"t": "Chak de India!", "m": "Rallying cry. Works any time."},
+      {"t": "The whole country stops for India against Pakistan.", "m": "The biggest fixture in cricket. Streets empty."},
+      {"t": "1983 at Lord's is where it all started.", "m": "The World Cup win that made India fall in love with one-day cricket."},
+      {"t": "Eden Gardens at full volume. Nothing like it.", "m": "The Kolkata ground holds huge, loud crowds."}
+    ],
+    "avoid": [
+      {"say": "SATCH-in", "instead": "SUCH-in", "why": "Tendulkar's first name starts like 'such'."},
+      {"say": "Eden Park", "instead": "Eden Gardens", "why": "Eden Park is in Auckland. Eden Gardens is in Kolkata."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/India_national_cricket_team",
+      "https://en.wikipedia.org/wiki/List_of_nicknames_used_in_cricket",
+      "https://en.wikipedia.org/wiki/Anderson–Tendulkar_Trophy"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Pakistan",
+    "espnId": "",
+    "league": "cricket/intl",
+    "aliases": ["pakistan", "pak", "men in green", "green shirts", "shaheens"],
+    "nickname": "the Men in Green",
+    "fans": "",
+    "ground": "Gaddafi Stadium",
+    "rivals": [
+      {"team": "India", "name": "India", "derby": ""},
+      {"team": "Australia", "name": "the Aussies", "derby": "the Benaud–Qadir Trophy"},
+      {"team": "England", "name": "England", "derby": ""}
+    ],
+    "legends": ["Wasim Akram", "Waqar Younis", "Javed Miandad", "Inzamam-ul-Haq"],
+    "memory": "Beating England at the MCG to win the 1992 World Cup",
+    "lingo": [
+      {"term": "Shaheens", "say": "shah-HEENZ", "means": "Falcons. A nickname for Pakistan sides; the shaheen falcon is a national symbol."},
+      {"term": "Green Shirts", "say": "GREEN shurts", "means": "Another nickname, from the green kit."},
+      {"term": "Cornered tigers", "say": "KOR-nurd TY-gurz", "means": "From the 1992 World Cup, when the captain urged his struggling side to fight like cornered tigers. Pakistan are most dangerous when written off."},
+      {"term": "Zindabad", "say": "ZIN-dah-bahd", "means": "'Long live!' Fans shout 'Pakistan Zindabad' at matches."}
+    ],
+    "lines": [
+      {"t": "Pakistan Zindabad!", "m": "The classic cheer."},
+      {"t": "Write us off at your peril. Cornered tigers.", "m": "Pakistan often play best when everyone expects them to lose."},
+      {"t": "Nobody produces fast bowlers like Pakistan.", "m": "A point of pride, from Wasim and Waqar onwards."},
+      {"t": "With this team, you never know what you'll get.", "m": "Fans embrace how unpredictable the side can be."}
+    ],
+    "avoid": [
+      {"say": "India are the best side in Asia", "instead": "Nothing beats beating India", "why": "Praising the arch-rival marks you out at once."},
+      {"say": "the National Stadium in Lahore", "instead": "Gaddafi Stadium", "why": "The National Stadium is in Karachi. Lahore's ground is the Gaddafi."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pakistan_national_cricket_team",
+      "https://en.wikipedia.org/wiki/List_of_nicknames_used_in_cricket",
+      "https://en.wikipedia.org/wiki/Gaddafi_Stadium"
+    ],
+    "unsure": [
+      "ground: the PCB sold naming rights and said the stadium would be renamed after the 2025 Champions Trophy; no new name confirmed, still Gaddafi Stadium on Wikipedia as of 31 Oct 2026",
+      "lingo: 'Shaheens' is also the official name of Pakistan's A team",
+      "fans: no established name for the supporters' group found"
+    ]
+  },
+  {
+    "team": "South Africa",
+    "espnId": "",
+    "league": "cricket/intl",
+    "aliases": ["south africa", "sa", "proteas", "rsa"],
+    "nickname": "the Proteas",
+    "fans": "",
+    "ground": "the Wanderers",
+    "rivals": [
+      {"team": "Australia", "name": "the Aussies", "derby": ""},
+      {"team": "England", "name": "England", "derby": "the Basil D'Oliveira Trophy"},
+      {"team": "India", "name": "India", "derby": "the Freedom Trophy"}
+    ],
+    "legends": ["Jacques Kallis", "AB de Villiers", "Allan Donald", "Shaun Pollock"],
+    "memory": "Beating Australia at Lord's to win the 2025 World Test Championship final, their first ICC title since 1998",
+    "lingo": [
+      {"term": "Proteas", "say": "PROH-tee-uz", "means": "The team's nickname, after the national flower."},
+      {"term": "the Bullring", "say": "thuh BULL-ring", "means": "Nickname for the Wanderers in Johannesburg, with its steep, loud, enclosed stands."},
+      {"term": "lekker", "say": "LEK-er", "means": "Afrikaans slang for great or lovely. 'Lekker shot!'"},
+      {"term": "the 438 game", "say": "thuh FOR-tee-AYT GAYM", "means": "The 2006 one-day match at the Wanderers where South Africa chased down Australia's 434."}
+    ],
+    "lines": [
+      {"t": "Lekker shot!", "m": "Great shot! Everyday South African praise."},
+      {"t": "The 438 game is the best one-dayer ever played.", "m": "South Africa made 438 to beat Australia in 2006."},
+      {"t": "Lord's 2025 put the choker talk to bed.", "m": "The Test Championship win ended years of big-match near misses. Fans hate the old tag."},
+      {"t": "Beating the Aussies always tastes better.", "m": "Australia are the side South Africans most want to beat."}
+    ],
+    "avoid": [
+      {"say": "the Springboks", "instead": "the Proteas", "why": "The Springboks are the rugby team."},
+      {"say": "the chokers", "instead": "the Proteas", "why": "Fans hate the old tag, and the 2025 Lord's win buried it."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/South_Africa_national_cricket_team",
+      "https://en.wikipedia.org/wiki/2025_ICC_World_Test_Championship_final",
+      "https://en.wikipedia.org/wiki/List_of_nicknames_used_in_cricket"
+    ],
+    "unsure": [
+      "ground: no single agreed spiritual home; chose the Wanderers, though Newlands in Cape Town has a claim",
+      "fans: no established name for the supporters' group found"
+    ]
+  },
+  {
+    "team": "New Zealand",
+    "espnId": "",
+    "league": "cricket/intl",
+    "aliases": ["new zealand", "nz", "black caps", "blackcaps", "kiwis"],
+    "nickname": "the Black Caps",
+    "fans": "the Beige Brigade",
+    "ground": "the Basin",
+    "rivals": [
+      {"team": "Australia", "name": "the Aussies", "derby": "the Trans-Tasman Trophy"},
+      {"team": "England", "name": "England", "derby": ""}
+    ],
+    "legends": ["Richard Hadlee", "Martin Crowe", "Glenn Turner"],
+    "memory": "Beating India at Southampton to win the first World Test Championship final, 2021",
+    "lingo": [
+      {"term": "Black Caps", "say": "BLAK kaps", "means": "The men's team nickname, often written BLACKCAPS."},
+      {"term": "Beige Brigade", "say": "BAYZH bri-GAYD", "means": "A tongue-in-cheek fan group that wears copies of the 1980s beige one-day kit."},
+      {"term": "the underarm", "say": "thee UN-der-arm", "means": "In 1981 Australia bowled the last ball underarm, along the ground, so New Zealand could not hit the six they needed to tie. Still a sore point."},
+      {"term": "the Basin", "say": "thuh BAY-sin", "means": "The Basin Reserve in Wellington, the classic Test ground with a grass bank."}
+    ],
+    "lines": [
+      {"t": "Never forget the underarm.", "m": "A light-hearted grudge against Australia from 1981."},
+      {"t": "Not bad for a country of five million.", "m": "Fans love that New Zealand punch above their weight."},
+      {"t": "We didn't lose the 2019 final. We just didn't win it.", "m": "England won on boundary count after a tie. Kiwis still feel hard done by."},
+      {"t": "The grass bank at the Basin on a sunny day. Magic.", "m": "Watching a Test from the bank at the Basin Reserve is a Wellington tradition."}
+    ],
+    "avoid": [
+      {"say": "the All Blacks", "instead": "the Black Caps", "why": "The All Blacks are the rugby team."},
+      {"say": "Eden Gardens", "instead": "Eden Park", "why": "Eden Park is in Auckland. Eden Gardens is in Kolkata."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_Zealand_national_cricket_team",
+      "https://en.wikipedia.org/wiki/Beige_Brigade",
+      "https://en.wikipedia.org/wiki/List_of_nicknames_used_in_cricket"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "West Indies",
+    "espnId": "",
+    "league": "cricket/intl",
+    "aliases": ["west indies", "wi", "windies", "men in maroon"],
+    "nickname": "the Windies",
+    "fans": "",
+    "ground": "Kensington Oval",
+    "rivals": [
+      {"team": "England", "name": "England", "derby": "the Richards–Botham Trophy"},
+      {"team": "Australia", "name": "the Aussies", "derby": "the Frank Worrell Trophy"},
+      {"team": "India", "name": "India", "derby": ""}
+    ],
+    "legends": ["Viv Richards", "Brian Lara", "Garfield Sobers", "Malcolm Marshall"],
+    "memory": "Winning the first two World Cups, in 1975 and 1979",
+    "lingo": [
+      {"term": "Windies", "say": "WIN-deez", "means": "The everyday nickname for the West Indies."},
+      {"term": "Men in Maroon", "say": "MEN in muh-ROON", "means": "Nickname from the maroon caps and kit."},
+      {"term": "liming", "say": "LY-ming", "means": "Caribbean slang for hanging out. Half the fun of a day at the cricket."},
+      {"term": "the Mecca", "say": "thuh MEK-uh", "means": "Local nickname for Kensington Oval in Barbados."}
+    ],
+    "lines": [
+      {"t": "Four fast bowlers and no let-up. That was the Windies way.", "m": "Remembering the great pace attacks of the 1970s and 80s."},
+      {"t": "Fifteen years without losing a Test series. Think about that.", "m": "The West Indies went unbeaten in Test series from 1980 to 1995."},
+      {"t": "Lara's 400 is still the Test record.", "m": "Brian Lara's 400 not out against England in Antigua in 2004."},
+      {"t": "Just liming and watching the cricket.", "m": "A relaxed Caribbean way to describe a day at the ground."}
+    ],
+    "avoid": [
+      {"say": "West Indies is a country", "instead": "the West Indies team", "why": "It is a combined side drawn from many Caribbean nations."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/West_Indies_cricket_team",
+      "https://en.wikipedia.org/wiki/Kensington_Oval",
+      "https://en.wikipedia.org/wiki/List_of_nicknames_used_in_cricket"
+    ],
+    "unsure": [
+      "fans: no established name for the supporters' group found"
+    ]
+  },
+  {
+    "team": "Sri Lanka",
+    "espnId": "",
+    "league": "cricket/intl",
+    "aliases": ["sri lanka", "sl", "lions", "lanka"],
+    "nickname": "the Lions",
+    "fans": "",
+    "ground": "the SSC",
+    "rivals": [
+      {"team": "India", "name": "India", "derby": ""},
+      {"team": "Australia", "name": "the Aussies", "derby": "the Warne–Muralitharan Trophy"}
+    ],
+    "legends": ["Muttiah Muralitharan", "Kumar Sangakkara", "Mahela Jayawardene", "Aravinda de Silva"],
+    "memory": "Beating Australia in Lahore to win the 1996 World Cup",
+    "lingo": [
+      {"term": "Jayawewa", "say": "JAH-yah-WEH-wah", "means": "'Victory!' in Sinhala. Fans shout 'Sri Lanka Jayawewa'."},
+      {"term": "papare", "say": "pah-PAH-reh", "means": "The brass-and-drum bands that play at Sri Lankan matches."},
+      {"term": "Murali", "say": "MOO-ruh-lee", "means": "Muttiah Muralitharan, the off-spinner with 800 Test wickets."},
+      {"term": "the SSC", "say": "thee es-es-SEE", "means": "The Sinhalese Sports Club ground in Colombo, called the Lord's of Sri Lanka."}
+    ],
+    "lines": [
+      {"t": "Sri Lanka Jayawewa!", "m": "'Victory to Sri Lanka!' The standard cheer."},
+      {"t": "It's not cricket without a papare band.", "m": "The bands are part of every home game."},
+      {"t": "That '96 side changed how everyone bats at the start of an innings.", "m": "Sri Lanka's openers attacked from ball one, and the world copied them."},
+      {"t": "Murali's 800 will never be beaten.", "m": "Muralitharan's Test wicket record."}
+    ],
+    "avoid": [
+      {"say": "Ceylon", "instead": "Sri Lanka", "why": "The country's name changed in 1972."},
+      {"say": "the Tigers", "instead": "the Lions", "why": "The Tigers are Bangladesh."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sri_Lanka_national_cricket_team",
+      "https://en.wikipedia.org/wiki/Papare_(music)",
+      "https://en.wikipedia.org/wiki/List_of_nicknames_used_in_cricket"
+    ],
+    "unsure": [
+      "fans: no established name for the supporters' group found"
+    ]
+  }
+]

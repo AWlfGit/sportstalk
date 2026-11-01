@@ -1,0 +1,142 @@
+[
+ {
+  "id": "103",
+  "name": "AC Milan",
+  "short": "Milan",
+  "abbr": "MIL",
+  "location": "AC Milan"
+ },
+ {
+  "id": "104",
+  "name": "AS Roma",
+  "short": "AS Roma",
+  "abbr": "ROMA",
+  "location": "AS Roma"
+ },
+ {
+  "id": "105",
+  "name": "Atalanta",
+  "short": "Atalanta",
+  "abbr": "ATA",
+  "location": "Atalanta"
+ },
+ {
+  "id": "107",
+  "name": "Bologna",
+  "short": "Bologna",
+  "abbr": "BOL",
+  "location": "Bologna"
+ },
+ {
+  "id": "2925",
+  "name": "Cagliari",
+  "short": "Cagliari",
+  "abbr": "CAG",
+  "location": "Cagliari"
+ },
+ {
+  "id": "2572",
+  "name": "Como",
+  "short": "Como",
+  "abbr": "COMO",
+  "location": "Como"
+ },
+ {
+  "id": "109",
+  "name": "Fiorentina",
+  "short": "Fiorentina",
+  "abbr": "FIO",
+  "location": "Fiorentina"
+ },
+ {
+  "id": "4057",
+  "name": "Frosinone",
+  "short": "Frosinone",
+  "abbr": "FRO",
+  "location": "Frosinone"
+ },
+ {
+  "id": "3263",
+  "name": "Genoa",
+  "short": "Genoa",
+  "abbr": "GEN",
+  "location": "Genoa"
+ },
+ {
+  "id": "110",
+  "name": "Internazionale",
+  "short": "Inter Milan",
+  "abbr": "INT",
+  "location": "Internazionale"
+ },
+ {
+  "id": "111",
+  "name": "Juventus",
+  "short": "Juventus",
+  "abbr": "JUV",
+  "location": "Juventus"
+ },
+ {
+  "id": "112",
+  "name": "Lazio",
+  "short": "Lazio",
+  "abbr": "LAZ",
+  "location": "Lazio"
+ },
+ {
+  "id": "113",
+  "name": "Lecce",
+  "short": "Lecce",
+  "abbr": "LEC",
+  "location": "Lecce"
+ },
+ {
+  "id": "4007",
+  "name": "Monza",
+  "short": "Monza",
+  "abbr": "MON",
+  "location": "Monza"
+ },
+ {
+  "id": "114",
+  "name": "Napoli",
+  "short": "Napoli",
+  "abbr": "NAP",
+  "location": "Napoli"
+ },
+ {
+  "id": "115",
+  "name": "Parma",
+  "short": "Parma",
+  "abbr": "PAR",
+  "location": "Parma"
+ },
+ {
+  "id": "3997",
+  "name": "Sassuolo",
+  "short": "Sassuolo",
+  "abbr": "SAS",
+  "location": "Sassuolo"
+ },
+ {
+  "id": "239",
+  "name": "Torino",
+  "short": "Torino",
+  "abbr": "TOR",
+  "location": "Torino"
+ },
+ {
+  "id": "118",
+  "name": "Udinese",
+  "short": "Udinese",
+  "abbr": "UDI",
+  "location": "Udinese"
+ },
+ {
+  "id": "17530",
+  "name": "Venezia",
+  "short": "Venezia",
+  "abbr": "VEN",
+  "location": "Venezia"
+ }
+]

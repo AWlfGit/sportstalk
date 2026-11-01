@@ -1,0 +1,62 @@
+[
+ {
+  "id": "25898",
+  "name": "Bath Rugby",
+  "short": "Bath Rugby",
+  "abbr": "BAT"
+ },
+ {
+  "id": "25899",
+  "name": "Bristol Rugby",
+  "short": "Bristol Rugby",
+  "abbr": "BRI"
+ },
+ {
+  "id": "116227",
+  "name": "Exeter Chiefs",
+  "short": "Exeter Chiefs",
+  "abbr": "EXE"
+ },
+ {
+  "id": "25900",
+  "name": "Gloucester Rugby",
+  "short": "Gloucester Rugby",
+  "abbr": "GLO"
+ },
+ {
+  "id": "25901",
+  "name": "Harlequins",
+  "short": "Harlequins",
+  "abbr": "HAR"
+ },
+ {
+  "id": "25903",
+  "name": "Leicester Tigers",
+  "short": "Leicester Tigers",
+  "abbr": "LEI"
+ },
+ {
+  "id": "25906",
+  "name": "Newcastle Falcons",
+  "short": "Newcastle Falcons",
+  "abbr": "NEW"
+ },
+ {
+  "id": "25907",
+  "name": "Northampton Saints",
+  "short": "Northampton Saints",
+  "abbr": "NOR"
+ },
+ {
+  "id": "25908",
+  "name": "Sale Sharks",
+  "short": "Sale Sharks",
+  "abbr": "SAL"
+ },
+ {
+  "id": "25909",
+  "name": "Saracens",
+  "short": "Saracens",
+  "abbr": "SAR"
+ }
+]

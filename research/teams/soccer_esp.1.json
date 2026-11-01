@@ -1,0 +1,142 @@
+[
+ {
+  "id": "96",
+  "name": "Alavés",
+  "short": "Alavés",
+  "abbr": "ALA",
+  "location": "Alavés"
+ },
+ {
+  "id": "93",
+  "name": "Athletic Club",
+  "short": "Athletic",
+  "abbr": "ATH",
+  "location": "Athletic Club"
+ },
+ {
+  "id": "1068",
+  "name": "Atlético Madrid",
+  "short": "Atlético",
+  "abbr": "ATM",
+  "location": "Atlético Madrid"
+ },
+ {
+  "id": "83",
+  "name": "Barcelona",
+  "short": "Barcelona",
+  "abbr": "BAR",
+  "location": "Barcelona"
+ },
+ {
+  "id": "85",
+  "name": "Celta Vigo",
+  "short": "Celta Vigo",
+  "abbr": "CEL",
+  "location": "Celta Vigo"
+ },
+ {
+  "id": "90",
+  "name": "Deportivo",
+  "short": "Deportivo",
+  "abbr": "DEP",
+  "location": "Deportivo"
+ },
+ {
+  "id": "3751",
+  "name": "Elche",
+  "short": "Elche",
+  "abbr": "ELC",
+  "location": "Elche"
+ },
+ {
+  "id": "88",
+  "name": "Espanyol",
+  "short": "Espanyol",
+  "abbr": "ESP",
+  "location": "Espanyol"
+ },
+ {
+  "id": "2922",
+  "name": "Getafe",
+  "short": "Getafe",
+  "abbr": "GET",
+  "location": "Getafe"
+ },
+ {
+  "id": "1538",
+  "name": "Levante",
+  "short": "Levante",
+  "abbr": "LEV",
+  "location": "Levante"
+ },
+ {
+  "id": "99",
+  "name": "Málaga",
+  "short": "Málaga",
+  "abbr": "MCF",
+  "location": "Málaga"
+ },
+ {
+  "id": "97",
+  "name": "Osasuna",
+  "short": "Osasuna",
+  "abbr": "OSA",
+  "location": "Osasuna"
+ },
+ {
+  "id": "87",
+  "name": "Racing Santander",
+  "short": "Racing",
+  "abbr": "RAC",
+  "location": "Racing Santander"
+ },
+ {
+  "id": "101",
+  "name": "Rayo Vallecano",
+  "short": "Rayo",
+  "abbr": "RAY",
+  "location": "Rayo Vallecano"
+ },
+ {
+  "id": "244",
+  "name": "Real Betis",
+  "short": "Betis",
+  "abbr": "BET",
+  "location": "Real Betis"
+ },
+ {
+  "id": "86",
+  "name": "Real Madrid",
+  "short": "Real Madrid",
+  "abbr": "RMA",
+  "location": "Real Madrid"
+ },
+ {
+  "id": "89",
+  "name": "Real Sociedad",
+  "short": "Real Sociedad",
+  "abbr": "RSO",
+  "location": "Real Sociedad"
+ },
+ {
+  "id": "243",
+  "name": "Sevilla",
+  "short": "Sevilla",
+  "abbr": "SEV",
+  "location": "Sevilla"
+ },
+ {
+  "id": "94",
+  "name": "Valencia",
+  "short": "Valencia",
+  "abbr": "VAL",
+  "location": "Valencia"
+ },
+ {
+  "id": "102",
+  "name": "Villarreal",
+  "short": "Villarreal",
+  "abbr": "VIL",
+  "location": "Villarreal"
+ }
+]

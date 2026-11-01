@@ -1,0 +1,1169 @@
+[
+  {
+    "team": "Atlanta Hawks",
+    "espnId": "1",
+    "league": "basketball/nba",
+    "aliases": ["hawks", "atlanta", "atl", "atlanta hawks"],
+    "nickname": "the Hawks",
+    "fans": "",
+    "ground": "State Farm Arena (nickname: the Highlight Factory)",
+    "rivals": [
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""},
+      {"team": "New York Knicks", "name": "the Knicks", "derby": ""}
+    ],
+    "legends": ["Dominique Wilkins", "Bob Pettit", "Dikembe Mutombo", "Lou Hudson"],
+    "memory": "1988: Dominique Wilkins and Larry Bird trade basket for basket in a famous Game 7 shootout in Boston",
+    "lingo": [
+      {"term": "Highlight Factory", "say": "HY-lyt FAK-tuh-ree", "means": "Nickname for the Hawks' downtown arena. It started in the Philips Arena days and stuck after the rename."},
+      {"term": "True to Atlanta", "say": "TROO too at-LAN-tuh", "means": "The team motto. It is painted on the court and used as a hashtag."},
+      {"term": "The Human Highlight Film", "say": "thuh HYOO-mun HY-lyt FILM", "means": "Dominique Wilkins, the franchise's great dunker. His statue stands outside the arena."},
+      {"term": "Harry the Hawk", "say": "HAIR-ee thuh HAWK", "means": "The team mascot, known for courtside stunts."}
+    ],
+    "lines": [
+      {"t": "Nobody dunked like 'Nique.", "m": "Fan shorthand for Dominique Wilkins, the franchise icon."},
+      {"t": "The Highlight Factory is rocking tonight.", "m": "Using the arena nickname on a loud home night."},
+      {"t": "True to Atlanta.", "m": "The team motto. Works as a toast or a sign-off."},
+      {"t": "Our one ring came in St. Louis, and it still counts.", "m": "The Hawks won the 1958 title before moving to Atlanta in 1968."},
+      {"t": "Winning at the Garden never gets old.", "m": "A dig at the Knicks, a modern playoff rival."}
+    ],
+    "avoid": [
+      {"say": "Philips Arena", "instead": "State Farm Arena", "why": "The arena was renamed in 2018."},
+      {"say": "The Hawks have never won a title", "instead": "Their title came in 1958, as the St. Louis Hawks", "why": "Fans know the 1958 ring, even though it came before the move."}
+    ],
+    "sources": [
+      "https://www.nba.com/hawks/truetoyou",
+      "https://en.wikipedia.org/wiki/State_Farm_Arena",
+      "https://nba.com/news/all-30-nba-arenas-by-team"
+    ],
+    "unsure": [
+      "rivals: no single agreed rival; Celtics and Knicks chosen from playoff history",
+      "fans: no common fan nickname found"
+    ]
+  },
+  {
+    "team": "Boston Celtics",
+    "espnId": "2",
+    "league": "basketball/nba",
+    "aliases": ["celtics", "boston", "c's", "boston celtics"],
+    "nickname": "the C's",
+    "fans": "Celtics Nation",
+    "ground": "the Garden (TD Garden)",
+    "rivals": [
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""},
+      {"team": "Philadelphia 76ers", "name": "the Sixers", "derby": ""},
+      {"team": "New York Knicks", "name": "the Knicks", "derby": ""}
+    ],
+    "legends": ["Bill Russell", "Larry Bird", "John Havlicek", "Paul Pierce"],
+    "memory": "1957-1969: Bill Russell wins 11 titles in 13 seasons",
+    "lingo": [
+      {"term": "Celtics", "say": "SELL-tiks", "means": "How the team name is said. Always with an S sound, never a K."},
+      {"term": "Banner 18", "say": "BAN-er ay-TEEN", "means": "The 2024 title, the club's 18th, which put Boston one clear of the Lakers for most ever."},
+      {"term": "Gino", "say": "JEE-noh", "means": "When a home win is safe late on, the big screen plays an old disco dancing clip of a man fans call Gino. It means the game is over."},
+      {"term": "The parquet", "say": "thuh par-KAY", "means": "The Celtics' famous patterned wooden floor, carried over from the old Boston Garden."}
+    ],
+    "lines": [
+      {"t": "Eighteen banners. Count them.", "m": "Bragging that Boston has the most titles in NBA history."},
+      {"t": "Cue up Gino.", "m": "Said when a home win is wrapped up in the fourth quarter."},
+      {"t": "That's a Tommy Point.", "m": "Broadcaster Tommy Heinsohn's award for hustle. Fans still hand them out for diving on loose balls."},
+      {"t": "Anybody but the Lakers.", "m": "Boston's view of any Finals opponent. This rivalry runs deepest."},
+      {"t": "Bird would have hit that.", "m": "Classic grumble after a missed big shot."}
+    ],
+    "avoid": [
+      {"say": "the KEL-tics", "instead": "the SELL-tiks", "why": "The team name is always said with an S sound."},
+      {"say": "Nice to see the Lakers win one", "instead": "Anybody but LA", "why": "Praising the Lakers is the fastest way to out yourself."}
+    ],
+    "sources": [
+      "https://nba.com/news/all-30-nba-arenas-by-team",
+      "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_arenas"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Brooklyn Nets",
+    "espnId": "17",
+    "league": "basketball/nba",
+    "aliases": ["nets", "brooklyn", "bkn", "brooklyn nets"],
+    "nickname": "the Nets",
+    "fans": "",
+    "ground": "Barclays (Barclays Center)",
+    "rivals": [
+      {"team": "New York Knicks", "name": "the Knicks", "derby": "the Battle of the Boroughs"},
+      {"team": "Toronto Raptors", "name": "the Raptors", "derby": ""}
+    ],
+    "legends": ["Julius Erving", "Drazen Petrovic", "Buck Williams"],
+    "memory": "2002 and 2003: back-to-back trips to the NBA Finals as the New Jersey Nets",
+    "lingo": [
+      {"term": "The Brooklyn chant", "say": "BROOK-lin", "means": "Fans chant the borough's name in two long beats. The team built its identity on it after the 2012 move."},
+      {"term": "Barclays", "say": "BAR-kleez", "means": "Short for Barclays Center, the arena at Atlantic Avenue."},
+      {"term": "Battle of the Boroughs", "say": "BAT-ul uv thuh BUR-ohz", "means": "The local name for Nets against Knicks games."},
+      {"term": "The Jersey years", "say": "thuh JUR-zee YEERZ", "means": "The team's New Jersey era, 1977 to 2012, before the move to Brooklyn."}
+    ],
+    "lines": [
+      {"t": "Brooklyn is the real New York team.", "m": "The standard dig at the Knicks in Manhattan."},
+      {"t": "Dr. J was a Net before he was a Sixer.", "m": "Reminding people the team won two ABA titles with Julius Erving."},
+      {"t": "Drazen could shoot with anybody.", "m": "Tribute to Drazen Petrovic, the Croatian sharpshooter whose number 3 is retired."},
+      {"t": "Beat the Knicks and the season's a success.", "m": "The Battle of the Boroughs matters more than the standings."}
+    ],
+    "avoid": [
+      {"say": "the New Jersey Nets", "instead": "the Brooklyn Nets, or just the Nets", "why": "The team moved to Brooklyn in 2012."},
+      {"say": "They play at the Garden, right?", "instead": "They play at Barclays", "why": "The Garden is the Knicks' home in Manhattan."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Knicks%E2%80%93Nets_rivalry",
+      "https://barrypopik.com/blog/brook_lyn_brooklyn_chant"
+    ],
+    "unsure": [
+      "fans: no common fan nickname found"
+    ]
+  },
+  {
+    "team": "Charlotte Hornets",
+    "espnId": "30",
+    "league": "basketball/nba",
+    "aliases": ["hornets", "charlotte", "cha", "buzz city", "charlotte hornets"],
+    "nickname": "the Hornets",
+    "fans": "",
+    "ground": "the Spectrum Center (aka the Hive)",
+    "rivals": [
+      {"team": "Miami Heat", "name": "the Heat", "derby": ""},
+      {"team": "Atlanta Hawks", "name": "the Hawks", "derby": ""}
+    ],
+    "legends": ["Muggsy Bogues", "Larry Johnson", "Dell Curry", "Glen Rice"],
+    "memory": "1993: Alonzo Mourning's buzzer-beater knocks out the Celtics for the franchise's first playoff series win",
+    "lingo": [
+      {"term": "Buzz City", "say": "BUZZ SIT-ee", "means": "Charlotte's nickname on Hornets nights. The team has put it on jerseys."},
+      {"term": "The Hive", "say": "thuh HYVE", "means": "The home crowd and arena. It began with the old Charlotte Coliseum and now covers the Spectrum Center."},
+      {"term": "Hugo", "say": "HYOO-goh", "means": "Hugo the Hornet, the mascot, famous for his dunk shows."},
+      {"term": "Grandmama", "say": "GRAND-muh-mah", "means": "Larry Johnson's nickname, from a shoe advert where he dressed as a granny."}
+    ],
+    "lines": [
+      {"t": "Teal never goes out of style.", "m": "Pride in the famous teal-and-purple look from the 1990s."},
+      {"t": "Welcome to Buzz City.", "m": "Said on big home nights."},
+      {"t": "Protect the Hive.", "m": "A call for a loud home crowd."},
+      {"t": "Muggsy was 5-foot-3 and ran the show.", "m": "Love for Muggsy Bogues, the shortest player in NBA history."},
+      {"t": "We got our name back, and we're keeping it.", "m": "Pride in reclaiming the Hornets name in 2014."}
+    ],
+    "avoid": [
+      {"say": "the Charlotte Bobcats", "instead": "the Hornets", "why": "The team was the Bobcats from 2004 to 2014, then took the Hornets name back."},
+      {"say": "Didn't the Hornets move to New Orleans?", "instead": "The old team did, but the name and its 1988-2002 history came home", "why": "New Orleans handed back the Hornets name and records in 2014."}
+    ],
+    "sources": [
+      "https://www.nba.com/hornets/hornets-buzz-city-uniform-unveil",
+      "https://swarmandsting.com/2020/04/14/charlotte-hornets-biggest-rival"
+    ],
+    "unsure": [
+      "rivals: sources say the Hornets have no true rival; Heat and Hawks are the most cited",
+      "fans: no common fan nickname found"
+    ]
+  },
+  {
+    "team": "Chicago Bulls",
+    "espnId": "4",
+    "league": "basketball/nba",
+    "aliases": ["bulls", "chicago", "chi", "chicago bulls"],
+    "nickname": "the Bulls",
+    "fans": "",
+    "ground": "the United Center (the UC)",
+    "rivals": [
+      {"team": "Detroit Pistons", "name": "the Pistons", "derby": ""},
+      {"team": "New York Knicks", "name": "the Knicks", "derby": ""},
+      {"team": "Miami Heat", "name": "the Heat", "derby": ""}
+    ],
+    "legends": ["Michael Jordan", "Scottie Pippen", "Dennis Rodman", "Derrick Rose"],
+    "memory": "1995-96: a 72-10 season and the first title of the second three-peat",
+    "lingo": [
+      {"term": "Three-peat", "say": "THREE-peet", "means": "Three titles in a row. The Bulls did it twice, 1991-93 and 1996-98."},
+      {"term": "Madhouse on Madison", "say": "MAD-hows on MAD-ih-sun", "means": "Nickname for the Bulls' home on Madison Street. It started with the old Chicago Stadium."},
+      {"term": "See Red", "say": "SEE RED", "means": "The team's slogan and hashtag. Fans wear red on big nights."},
+      {"term": "Benny", "say": "BEN-ee", "means": "Benny the Bull, the mascot."}
+    ],
+    "lines": [
+      {"t": "Six rings, and never needed a Game 7 in the Finals.", "m": "Pride in how dominant the Jordan-era Finals runs were."},
+      {"t": "Lights down, intro music, chills every time.", "m": "The famous starting-lineup introduction, set to the Alan Parsons Project track 'Sirius'."},
+      {"t": "72 and 10, and a ring. Golden State only got the first part.", "m": "The Warriors won 73 in 2016 but lost the Finals."},
+      {"t": "Rose was the youngest MVP ever, and he was ours.", "m": "Pride in hometown hero Derrick Rose's 2011 MVP."},
+      {"t": "Never cheer for Detroit.", "m": "The Bad Boys rivalry still runs deep."}
+    ],
+    "avoid": [
+      {"say": "Jordan won his first title at the United Center", "instead": "The first three-peat was at the old Chicago Stadium", "why": "The United Center only opened in 1994."},
+      {"say": "The Bad Boys were great to watch", "instead": "We finally got past the Bad Boys in 1991", "why": "Bulls fans still resent the Pistons teams that roughed up Jordan."}
+    ],
+    "sources": [
+      "https://www.nba.com/bulls/news/chicago-bulls-unveil-new-brand-platform-see-red-ahead-of-the-2023-24-season",
+      "https://nba.com/news/all-30-nba-arenas-by-team"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Cleveland Cavaliers",
+    "espnId": "5",
+    "league": "basketball/nba",
+    "aliases": ["cavs", "cavaliers", "cleveland", "cle"],
+    "nickname": "the Cavs",
+    "fans": "",
+    "ground": "Rocket Arena (many still call it the Q)",
+    "rivals": [
+      {"team": "Golden State Warriors", "name": "the Warriors", "derby": ""},
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""},
+      {"team": "Chicago Bulls", "name": "the Bulls", "derby": ""}
+    ],
+    "legends": ["Mark Price", "Brad Daugherty", "Zydrunas Ilgauskas", "Austin Carr"],
+    "memory": "2016: coming back from 3-1 down to beat the 73-win Warriors, ending Cleveland's 52-year wait for a major title",
+    "lingo": [
+      {"term": "The Q", "say": "thuh KYOO", "means": "Old nickname for the arena from its Quicken Loans Arena days. Many fans still use it."},
+      {"term": "The Land", "say": "thuh LAND", "means": "Cleveland's nickname for itself, all over Cavs gear."},
+      {"term": "The Block", "say": "thuh BLOK", "means": "LeBron James's chase-down block late in Game 7 of the 2016 Finals."},
+      {"term": "Believeland", "say": "buh-LEEV-land", "means": "A name for Cleveland and its loyal, hopeful fans. Worn with pride after 2016."}
+    ],
+    "lines": [
+      {"t": "Three-one lead. Just saying.", "m": "A friendly jab at Warriors fans about the 2016 comeback."},
+      {"t": "We waited 52 years. Worth it.", "m": "The 2016 title ended the city's long drought."},
+      {"t": "It's still the Q to me.", "m": "Long-time fans ignoring the arena's newer names."},
+      {"t": "The Shot still hurts.", "m": "Michael Jordan's 1989 series winner over Craig Ehlo stings older fans."},
+      {"t": "Z was a lifer.", "m": "Affection for Lithuanian big man Zydrunas Ilgauskas, whose number is retired."}
+    ],
+    "avoid": [
+      {"say": "Rocket Mortgage FieldHouse", "instead": "Rocket Arena, or the Q", "why": "The arena became Rocket Arena in 2025."},
+      {"say": "The Cavs won it in 2015", "instead": "They won in 2016", "why": "They lost the 2015 Finals; the title came a year later."}
+    ],
+    "sources": [
+      "https://www.rocketarena.com/news/detail/rocket-announcement-250218",
+      "https://www.fearthesword.com/2025/2/18/24367925/cavs-rocket-arena-name-change-dan-gilbert-cleveland-cavaliers-nba"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Dallas Mavericks",
+    "espnId": "6",
+    "league": "basketball/nba",
+    "aliases": ["mavs", "mavericks", "dallas", "dal"],
+    "nickname": "the Mavs",
+    "fans": "MFFL (Mavs Fans For Life)",
+    "ground": "the AAC (American Airlines Center)",
+    "rivals": [
+      {"team": "San Antonio Spurs", "name": "the Spurs", "derby": "the I-35 rivalry"},
+      {"team": "Houston Rockets", "name": "the Rockets", "derby": "the I-45 rivalry"},
+      {"team": "Miami Heat", "name": "the Heat", "derby": ""}
+    ],
+    "legends": ["Dirk Nowitzki", "Rolando Blackman", "Derek Harper", "Brad Davis"],
+    "memory": "2011: beating the Miami Heat for the franchise's first title, five years after losing the 2006 Finals to them",
+    "lingo": [
+      {"term": "MFFL", "say": "EM-ef-ef-EL", "means": "Mavs Fan For Life. Used as a hashtag and a badge."},
+      {"term": "The AAC", "say": "thee ay-ay-SEE", "means": "American Airlines Center, the Mavs' arena."},
+      {"term": "Dirk", "say": "DURK", "means": "Dirk Nowitzki, the German great. The first name is enough in Dallas."},
+      {"term": "The one-legged fadeaway", "say": "WUN-leg-id FAYD-uh-way", "means": "Dirk's signature shot. A statue of it stands outside the arena."}
+    ],
+    "lines": [
+      {"t": "MFFL.", "m": "Short sign-off that marks you as a lifer."},
+      {"t": "Twenty-one seasons, one team. That's Dirk.", "m": "Praise for Nowitzki's loyalty to Dallas."},
+      {"t": "2011 still feels good.", "m": "About beating Miami's superteam for the title."},
+      {"t": "Never trust anybody from San Antonio on game night.", "m": "Gentle I-35 rivalry banter."}
+    ],
+    "avoid": [
+      {"say": "Dallas has never won it all", "instead": "Dallas won the 2011 title", "why": "The 2011 title is the high point of the franchise."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mavericks%E2%80%93Spurs_rivalry",
+      "https://en.wikipedia.org/wiki/Mavericks%E2%80%93Rockets_rivalry"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Denver Nuggets",
+    "espnId": "7",
+    "league": "basketball/nba",
+    "aliases": ["nuggets", "nuggs", "denver", "den"],
+    "nickname": "the Nuggets",
+    "fans": "",
+    "ground": "Ball Arena",
+    "rivals": [
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""},
+      {"team": "Minnesota Timberwolves", "name": "the Wolves", "derby": ""},
+      {"team": "Utah Jazz", "name": "the Jazz", "derby": ""}
+    ],
+    "legends": ["Alex English", "Dan Issel", "David Thompson", "Dikembe Mutombo"],
+    "memory": "2023: the franchise's first NBA title, beating the Miami Heat in five games",
+    "lingo": [
+      {"term": "Mile High", "say": "MYLE HY", "means": "Denver's altitude, a mile above sea level. Fans swear visitors tire late in games."},
+      {"term": "The Can", "say": "thuh KAN", "means": "Old nickname for the arena when it was the Pepsi Center."},
+      {"term": "Nuggs", "say": "NUGZ", "means": "Casual short name for the team."},
+      {"term": "Rocky", "say": "ROK-ee", "means": "The mountain lion mascot, known for long trick shots."}
+    ],
+    "lines": [
+      {"t": "Altitude's worth a few points a night.", "m": "Fans believe the thin air wears visitors down."},
+      {"t": "Took 47 years, but we got one.", "m": "The 2023 title came 47 years after joining the NBA in 1976."},
+      {"t": "Mutombo on the floor, hugging the ball.", "m": "The famous image from the 1994 upset of top-seeded Seattle."},
+      {"t": "Any win over the Lakers tastes better.", "m": "LA knocked Denver out of the playoffs many times."},
+      {"t": "It'll always be the Can to me.", "m": "Old-timers' name for the arena."}
+    ],
+    "avoid": [
+      {"say": "Pepsi Center", "instead": "Ball Arena", "why": "The arena was renamed in 2020."},
+      {"say": "the Denver Rockets", "instead": "the Nuggets", "why": "That was the team's ABA name until 1974."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jazz%E2%80%93Nuggets_rivalry",
+      "https://zonecoverage.com/2025/timberwolves/the-nuggets-are-the-closest-thing-the-wolves-have-to-a-rival/",
+      "https://nba.com/news/all-30-nba-arenas-by-team"
+    ],
+    "unsure": [
+      "rivals: the Jazz rivalry is mostly geographic; some sources say it never felt heated"
+    ]
+  },
+  {
+    "team": "Detroit Pistons",
+    "espnId": "8",
+    "league": "basketball/nba",
+    "aliases": ["pistons", "detroit", "det", "detroit pistons"],
+    "nickname": "the Pistons",
+    "fans": "",
+    "ground": "LCA (Little Caesars Arena)",
+    "rivals": [
+      {"team": "Chicago Bulls", "name": "the Bulls", "derby": ""},
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""},
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""}
+    ],
+    "legends": ["Isiah Thomas", "Joe Dumars", "Bill Laimbeer", "Ben Wallace"],
+    "memory": "2004: the underdog 'Goin' to Work' Pistons beat the star-studded Lakers in five games in the Finals",
+    "lingo": [
+      {"term": "Bad Boys", "say": "BAD BOYZ", "means": "The tough late-1980s teams that won titles in 1989 and 1990."},
+      {"term": "Detroit Basketball", "say": "dee-TROYT BAS-kit-bawl", "means": "The arena announcer's long, drawn-out home call. Fans copy it."},
+      {"term": "Goin' to Work", "say": "GOH-in tuh WURK", "means": "The blue-collar motto of the 2004 champions."},
+      {"term": "LCA", "say": "EL-see-AY", "means": "Little Caesars Arena, the downtown home since 2017."}
+    ],
+    "lines": [
+      {"t": "Deeee-troit Basketball!", "m": "Copying the announcer's famous call after a big play."},
+      {"t": "Nobody gave us a chance in 2004.", "m": "Pride in beating the Lakers' superstars as underdogs."},
+      {"t": "The Bad Boys made Jordan earn it.", "m": "Detroit held off Chicago for years before the Bulls broke through."},
+      {"t": "Defense first. That's Detroit.", "m": "The city's view of how the game should be played."},
+      {"t": "Big Ben's afro was the best part of 2004.", "m": "Fans wore afro wigs in honour of Ben Wallace."}
+    ],
+    "avoid": [
+      {"say": "the Palace", "instead": "LCA", "why": "The team moved downtown from Auburn Hills in 2017."},
+      {"say": "The Bad Boys won in 2004", "instead": "The Bad Boys won in 1989 and 1990; 2004 was the Goin' to Work team", "why": "Fans keep the two title eras separate."}
+    ],
+    "sources": [
+      "https://nba.com/news/all-30-nba-arenas-by-team",
+      "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_arenas"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Golden State Warriors",
+    "espnId": "9",
+    "league": "basketball/nba",
+    "aliases": ["warriors", "dubs", "golden state", "gsw"],
+    "nickname": "the Dubs",
+    "fans": "Dub Nation",
+    "ground": "Chase Center (San Francisco)",
+    "rivals": [
+      {"team": "Cleveland Cavaliers", "name": "the Cavs", "derby": ""},
+      {"team": "Houston Rockets", "name": "the Rockets", "derby": ""},
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""}
+    ],
+    "legends": ["Wilt Chamberlain", "Rick Barry", "Chris Mullin", "Nate Thurmond"],
+    "memory": "2015-2022: four titles in eight seasons, including a record 73-9 season in 2015-16",
+    "lingo": [
+      {"term": "Dub Nation", "say": "DUB NAY-shun", "means": "What Warriors fans call themselves. Dubs comes from the letter W."},
+      {"term": "Strength in Numbers", "say": "STRENGKTH in NUM-burz", "means": "Slogan from the 2015 title run, about depth over stars."},
+      {"term": "Roaracle", "say": "ROAR-uh-kul", "means": "The old Oracle Arena in Oakland, famous for its noise."},
+      {"term": "We Believe", "say": "wee buh-LEEV", "means": "The 2007 eighth seed that knocked out the top-seeded Mavericks."}
+    ],
+    "lines": [
+      {"t": "Dub Nation, stand up.", "m": "Rallying call for Warriors fans."},
+      {"t": "Nothing was louder than Roaracle.", "m": "Nostalgia for the old Oakland arena."},
+      {"t": "We Believe was the best eight seed ever.", "m": "Love for the 2007 upset team."},
+      {"t": "Wilt scored 100 for us, not the Lakers.", "m": "Wilt Chamberlain's 100-point game in 1962 was for the Philadelphia Warriors."},
+      {"t": "Strength in numbers.", "m": "Said when the bench wins a game."}
+    ],
+    "avoid": [
+      {"say": "the Oakland Warriors", "instead": "the Warriors, or Golden State", "why": "They were never named for Oakland and moved to San Francisco in 2019."},
+      {"say": "Where is Golden State?", "instead": "Golden State means California", "why": "The name covers the state; the team plays in San Francisco."}
+    ],
+    "sources": [
+      "https://nba.com/news/all-30-nba-arenas-by-team",
+      "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_arenas"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Houston Rockets",
+    "espnId": "10",
+    "league": "basketball/nba",
+    "aliases": ["rockets", "houston", "hou", "h-town", "houston rockets"],
+    "nickname": "the Rockets",
+    "fans": "Red Nation",
+    "ground": "the Toyota Center",
+    "rivals": [
+      {"team": "San Antonio Spurs", "name": "the Spurs", "derby": "the I-10 rivalry"},
+      {"team": "Dallas Mavericks", "name": "the Mavs", "derby": "the I-45 rivalry"},
+      {"team": "Golden State Warriors", "name": "the Warriors", "derby": ""}
+    ],
+    "legends": ["Hakeem Olajuwon", "Yao Ming", "Calvin Murphy", "Moses Malone"],
+    "memory": "1994 and 1995: back-to-back titles led by Hakeem Olajuwon, which gave Houston the name Clutch City",
+    "lingo": [
+      {"term": "Clutch City", "say": "KLUCH SIT-ee", "means": "Houston's nickname from the 1994-95 titles. The bear mascot is called Clutch."},
+      {"term": "Red Nation", "say": "RED NAY-shun", "means": "What Rockets fans call themselves."},
+      {"term": "The Dream Shake", "say": "thuh DREEM SHAYK", "means": "Hakeem Olajuwon's famous low-post spins and fakes."},
+      {"term": "H-Town", "say": "AYCH-town", "means": "Houston's nickname, common in fan talk."}
+    ],
+    "lines": [
+      {"t": "Never underestimate the heart of a champion.", "m": "Coach Rudy Tomjanovich's famous line after the 1995 title. Quoted after comebacks."},
+      {"t": "Nobody could guard the Dream Shake.", "m": "Praise for Hakeem Olajuwon."},
+      {"t": "Clutch City never quits.", "m": "Said during a late comeback."},
+      {"t": "Yao opened the door to the whole world.", "m": "Pride in Yao Ming's global impact."}
+    ],
+    "avoid": [
+      {"say": "the San Diego Rockets", "instead": "the Houston Rockets", "why": "The team left San Diego in 1971."},
+      {"say": "They only won because Jordan was playing baseball", "instead": "Hakeem beat everyone in front of him", "why": "Rockets fans hate hearing their titles talked down."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mavericks%E2%80%93Rockets_rivalry",
+      "https://www.thedreamshake.com/2025/2/3/24356959/houston-rockets-biggest-nba-rivals-okc-thunder-dallas-mavericks-san-antonio-spurs-miami-heat"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Indiana Pacers",
+    "espnId": "11",
+    "league": "basketball/nba",
+    "aliases": ["pacers", "indiana", "ind", "indy", "indiana pacers"],
+    "nickname": "the Pacers",
+    "fans": "",
+    "ground": "the Fieldhouse (Gainbridge Fieldhouse)",
+    "rivals": [
+      {"team": "New York Knicks", "name": "the Knicks", "derby": ""},
+      {"team": "Miami Heat", "name": "the Heat", "derby": ""},
+      {"team": "Detroit Pistons", "name": "the Pistons", "derby": ""}
+    ],
+    "legends": ["Reggie Miller", "Mel Daniels", "Roger Brown", "Rik Smits"],
+    "memory": "1995: Reggie Miller scores eight points in under nine seconds to stun the Knicks at Madison Square Garden",
+    "lingo": [
+      {"term": "Boom Baby!", "say": "BOOM BAY-bee", "means": "Coach and broadcaster Bobby 'Slick' Leonard's call for a made three. Fans still shout it."},
+      {"term": "The Fieldhouse", "say": "thuh FEELD-hows", "means": "Gainbridge Fieldhouse downtown, built to feel like an old Indiana high school gym."},
+      {"term": "Hoosier Hysteria", "say": "HOO-zher hih-STEER-ee-uh", "means": "Indiana's statewide basketball obsession."},
+      {"term": "The Dunking Dutchman", "say": "thuh DUNK-ing DUCH-mun", "means": "Nickname for Dutch center Rik Smits."}
+    ],
+    "lines": [
+      {"t": "Boom baby!", "m": "Shout it after a big three."},
+      {"t": "Eight points in 8.9 seconds.", "m": "Reggie Miller's 1995 burst at Madison Square Garden."},
+      {"t": "Three ABA titles. They count too.", "m": "The Pacers won the ABA in 1970, 1972 and 1973."},
+      {"t": "Basketball is Indiana's game.", "m": "The local belief that hoops belong to Indiana."},
+      {"t": "Nothing beats quieting the Garden.", "m": "The Knicks rivalry is the one that matters most."}
+    ],
+    "avoid": [
+      {"say": "the Indianapolis Pacers", "instead": "the Indiana Pacers", "why": "The team represents the whole state, not just the city."},
+      {"say": "Bankers Life Fieldhouse", "instead": "Gainbridge Fieldhouse, or just the Fieldhouse", "why": "The arena was renamed in 2021."}
+    ],
+    "sources": [
+      "https://nba.com/news/all-30-nba-arenas-by-team",
+      "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_arenas"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "LA Clippers",
+    "espnId": "12",
+    "league": "basketball/nba",
+    "aliases": ["clippers", "clips", "lac", "la clippers"],
+    "nickname": "the Clips",
+    "fans": "Clipper Nation",
+    "ground": "the Intuit Dome (Inglewood)",
+    "rivals": [
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": "the Battle of LA"},
+      {"team": "Golden State Warriors", "name": "the Warriors", "derby": ""}
+    ],
+    "legends": ["Blake Griffin", "Elton Brand", "Bob McAdoo"],
+    "memory": "2011-2017: the Lob City era of highlight alley-oops",
+    "lingo": [
+      {"term": "The Wall", "say": "thuh WAWL", "means": "A steep 51-row block of home fans behind one basket at the Intuit Dome. Only certified Clippers fans can sit there."},
+      {"term": "Lob City", "say": "LOB SIT-ee", "means": "The 2011-17 era of alley-oop dunks."},
+      {"term": "Clipper Nation", "say": "KLIP-ur NAY-shun", "means": "What Clippers fans call themselves."},
+      {"term": "Chuck", "say": "CHUK", "means": "Chuck the Condor, the team mascot."}
+    ],
+    "lines": [
+      {"t": "We finally have our own building.", "m": "Pride in leaving the shared arena for the Intuit Dome in 2024."},
+      {"t": "Good luck shooting in front of The Wall.", "m": "Bragging about the loud home section behind one basket."},
+      {"t": "Lob City was the most fun team in the league.", "m": "Nostalgia for the alley-oop years."},
+      {"t": "LA is not just a Lakers town.", "m": "The standard Clippers reply to Lakers fans."},
+      {"t": "Don't forget the Buffalo Braves.", "m": "Older fans remember Bob McAdoo and the team's roots in Buffalo."}
+    ],
+    "avoid": [
+      {"say": "They play at Crypto.com Arena", "instead": "They play at the Intuit Dome in Inglewood", "why": "The Clippers moved out of the shared arena in 2024."},
+      {"say": "Wearing Lakers gold in The Wall", "instead": "Wear Clippers colours", "why": "Opposing gear is banned in that section."}
+    ],
+    "sources": [
+      "https://www.espn.co.uk/nba/story/_/id/48350302/inside-clippers-wall-swell-intuit-dome-experience",
+      "https://en.wikipedia.org/wiki/Los_Angeles_Clippers"
+    ],
+    "unsure": [
+      "legends: the Clippers have never retired a number, so the list is a judgment call"
+    ]
+  },
+  {
+    "team": "Los Angeles Lakers",
+    "espnId": "13",
+    "league": "basketball/nba",
+    "aliases": ["lakers", "lake show", "lal", "los angeles lakers"],
+    "nickname": "the Lake Show",
+    "fans": "Laker Nation",
+    "ground": "Crypto.com Arena (many still say Staples)",
+    "rivals": [
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""},
+      {"team": "LA Clippers", "name": "the Clippers", "derby": "the Battle of LA"},
+      {"team": "San Antonio Spurs", "name": "the Spurs", "derby": ""}
+    ],
+    "legends": ["Magic Johnson", "Kareem Abdul-Jabbar", "Kobe Bryant", "Jerry West"],
+    "memory": "The 1980s Showtime Lakers of Magic Johnson and Kareem: five titles between 1980 and 1988",
+    "lingo": [
+      {"term": "Showtime", "say": "SHOH-tyme", "means": "The fast-breaking 1980s Lakers of Magic Johnson and Kareem."},
+      {"term": "Lake Show", "say": "LAYK SHOH", "means": "Casual nickname for the team."},
+      {"term": "Purple and Gold", "say": "PUR-pul and GOHLD", "means": "The team colours, used as shorthand for the team itself."},
+      {"term": "Staples", "say": "STAY-pulz", "means": "What many fans still call the arena, renamed Crypto.com Arena in 2021."}
+    ],
+    "lines": [
+      {"t": "Mamba mentality.", "m": "Kobe Bryant's phrase for relentless work. Used for any gritty effort."},
+      {"t": "Seventeen banners, and we want more.", "m": "Pride in the franchise's 17 titles."},
+      {"t": "It's still Staples to me.", "m": "Many fans never took up the newer arena name."},
+      {"t": "Never root for Boston.", "m": "The Celtics rivalry is the biggest in the sport."},
+      {"t": "Magic, Kareem, Kobe, Shaq. Who else has that?", "m": "Bragging about the franchise's greats."}
+    ],
+    "avoid": [
+      {"say": "Why are they called the Lakers? LA has no lakes", "instead": "The name came with the team from Minneapolis", "why": "The team started in Minnesota and moved in 1960; asking marks you as new."},
+      {"say": "The Clippers run LA now", "instead": "LA is a Lakers town", "why": "Lakers fans see the Clippers as the little brother."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_arenas",
+      "https://nba.com/news/all-30-nba-arenas-by-team"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Memphis Grizzlies",
+    "espnId": "29",
+    "league": "basketball/nba",
+    "aliases": ["grizzlies", "grizz", "memphis", "mem"],
+    "nickname": "the Grizz",
+    "fans": "",
+    "ground": "the Grindhouse (FedExForum)",
+    "rivals": [
+      {"team": "LA Clippers", "name": "the Clippers", "derby": ""},
+      {"team": "Golden State Warriors", "name": "the Warriors", "derby": ""},
+      {"team": "Oklahoma City Thunder", "name": "the Thunder", "derby": ""}
+    ],
+    "legends": ["Zach Randolph", "Marc Gasol", "Tony Allen", "Pau Gasol"],
+    "memory": "2011: as the eighth seed, Memphis knocks out the top-seeded San Antonio Spurs",
+    "lingo": [
+      {"term": "Grit and Grind", "say": "GRIT and GRYND", "means": "The tough, defense-first identity of the 2010s teams. Still the team's creed."},
+      {"term": "The Grindhouse", "say": "thuh GRYND-hows", "means": "Fan nickname for FedExForum."},
+      {"term": "Believe Memphis", "say": "buh-LEEV MEM-fis", "means": "A long-running team slogan."},
+      {"term": "Z-Bo", "say": "ZEE-boh", "means": "Zach Randolph, the bruising forward at the heart of Grit and Grind."}
+    ],
+    "lines": [
+      {"t": "Grit and grind, baby.", "m": "Celebrating a tough, ugly win."},
+      {"t": "All heart.", "m": "Tony Allen's catchphrase. Used for any gritty effort."},
+      {"t": "Nobody likes coming to the Grindhouse.", "m": "Pride in the home court."},
+      {"t": "Z-Bo and Marc owned the paint.", "m": "Remembering the old frontcourt."}
+    ],
+    "avoid": [
+      {"say": "the Vancouver Grizzlies", "instead": "the Memphis Grizzlies", "why": "The team moved from Vancouver in 2001."}
+    ],
+    "sources": [
+      "https://www.espn.com/blog/truehoop/post/_/id/67697/no-bluff-thunder-are-grizzlies-biggest-rival",
+      "https://nba.com/news/all-30-nba-arenas-by-team"
+    ],
+    "unsure": [
+      "rivals: no settled biggest rival; Clippers, Warriors and Thunder all cited"
+    ]
+  },
+  {
+    "team": "Miami Heat",
+    "espnId": "14",
+    "league": "basketball/nba",
+    "aliases": ["heat", "miami", "mia", "miami heat"],
+    "nickname": "the Heat",
+    "fans": "Heat Nation",
+    "ground": "the Kaseya Center",
+    "rivals": [
+      {"team": "New York Knicks", "name": "the Knicks", "derby": ""},
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""},
+      {"team": "Orlando Magic", "name": "the Magic", "derby": "the Sunshine State rivalry"}
+    ],
+    "legends": ["Dwyane Wade", "Alonzo Mourning", "Udonis Haslem", "Tim Hardaway"],
+    "memory": "2013: Ray Allen's corner three in Game 6 of the Finals saves the season, and Miami goes on to repeat as champions",
+    "lingo": [
+      {"term": "Heat Culture", "say": "HEET KUL-chur", "means": "The team's demand for fitness, toughness and hard work. Fans cite it all the time."},
+      {"term": "White Hot", "say": "WYTE HOT", "means": "The playoff tradition where home fans all wear white."},
+      {"term": "Kaseya", "say": "kuh-SAY-uh", "means": "Kaseya Center, the bayside arena's name since 2023."},
+      {"term": "Heat Nation", "say": "HEET NAY-shun", "means": "What Heat fans call themselves."}
+    ],
+    "lines": [
+      {"t": "That's Heat Culture.", "m": "Said when an underdog Heat team grinds out a win."},
+      {"t": "Wear white, it's playoff time.", "m": "The White Hot tradition for home playoff games."},
+      {"t": "Ray Allen, corner three. Still gives me chills.", "m": "The 2013 Finals shot that saved a title."},
+      {"t": "Wade is the greatest Heat player ever. No debate.", "m": "Dwyane Wade is the franchise icon."},
+      {"t": "Never count out Miami.", "m": "Fans believe the team always beats expectations in the playoffs."}
+    ],
+    "avoid": [
+      {"say": "the Miami Heats", "instead": "the Heat", "why": "The name is never plural."},
+      {"say": "FTX Arena", "instead": "the Kaseya Center", "why": "The arena has been Kaseya Center since 2023."},
+      {"say": "Didn't Heat fans leave Game 6 early?", "instead": "Ray Allen's shot saved the season", "why": "It's the classic rival jab, and fans are sick of it."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Heat%E2%80%93Magic_rivalry",
+      "https://www.nbcmiami.com/news/local/what-does-kaseya-mean-heat-arena-officially-has-a-new-name/3011789/"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Milwaukee Bucks",
+    "espnId": "15",
+    "league": "basketball/nba",
+    "aliases": ["bucks", "milwaukee", "mil", "milwaukee bucks"],
+    "nickname": "the Bucks",
+    "fans": "",
+    "ground": "Fiserv Forum",
+    "rivals": [
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""},
+      {"team": "Chicago Bulls", "name": "the Bulls", "derby": ""},
+      {"team": "Miami Heat", "name": "the Heat", "derby": ""}
+    ],
+    "legends": ["Kareem Abdul-Jabbar", "Oscar Robertson", "Sidney Moncrief", "Marques Johnson"],
+    "memory": "1971: Kareem (then Lew Alcindor) and Oscar Robertson win the title in only the franchise's third season",
+    "lingo": [
+      {"term": "Fear the Deer", "say": "FEER thuh DEER", "means": "The Bucks' long-time slogan and hashtag."},
+      {"term": "Deer District", "say": "DEER DIS-trikt", "means": "The plaza outside the arena where thousands watch big games on screens."},
+      {"term": "Bucks in Six", "say": "BUKS in SIKS", "means": "A former player's bold 2013 playoff prediction that went wrong. Fans now say it as a hopeful, half-joking rallying cry."},
+      {"term": "Bango", "say": "BANG-goh", "means": "The Bucks' acrobatic deer mascot."}
+    ],
+    "lines": [
+      {"t": "Fear the Deer.", "m": "The classic Bucks rallying cry."},
+      {"t": "Bucks in six.", "m": "Said before almost any playoff series, half as a joke."},
+      {"t": "See you in the Deer District.", "m": "Inviting friends to the outdoor watch party."},
+      {"t": "Kareem won his first ring here.", "m": "Reminding Lakers fans that his first title came in Milwaukee in 1971."}
+    ],
+    "avoid": [
+      {"say": "the Bradley Center", "instead": "Fiserv Forum", "why": "The team moved to its new arena in 2018."},
+      {"say": "FIZZ-erv Forum", "instead": "FY-surv Forum", "why": "The sponsor's name starts like the word 'five'."}
+    ],
+    "sources": [
+      "https://nba.com/news/all-30-nba-arenas-by-team",
+      "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_arenas"
+    ],
+    "unsure": [
+      "avoid: Fiserv pronunciation not confirmed by a source this session"
+    ]
+  },
+  {
+    "team": "Minnesota Timberwolves",
+    "espnId": "16",
+    "league": "basketball/nba",
+    "aliases": ["timberwolves", "wolves", "t-wolves", "minnesota", "min"],
+    "nickname": "the Wolves",
+    "fans": "",
+    "ground": "Target Center (Minneapolis)",
+    "rivals": [
+      {"team": "Denver Nuggets", "name": "the Nuggets", "derby": ""},
+      {"team": "Memphis Grizzlies", "name": "the Grizzlies", "derby": ""}
+    ],
+    "legends": ["Kevin Garnett", "Sam Mitchell", "Wally Szczerbiak"],
+    "memory": "2004: Kevin Garnett's MVP season and the franchise's first trip to the Western Conference Finals",
+    "lingo": [
+      {"term": "Wolves", "say": "WOOLVZ", "means": "What almost everyone calls the team."},
+      {"term": "Raised by Wolves", "say": "RAYZD by WOOLVZ", "means": "A team campaign from 2020 that fans took up, about growing up loyal to the Wolves."},
+      {"term": "KG", "say": "KAY-JEE", "means": "Kevin Garnett, the franchise icon. His number 21 is due to be retired on 28 February 2027."},
+      {"term": "Crunch", "say": "KRUNCH", "means": "Crunch the Wolf, the stunt-loving mascot."}
+    ],
+    "lines": [
+      {"t": "KG's 21 belongs in the rafters.", "m": "Fans waited years for the team to honour Kevin Garnett."},
+      {"t": "Raised by Wolves.", "m": "A badge for loyal, long-suffering fans."},
+      {"t": "Denver is the team I most want to beat.", "m": "The Nuggets are the closest thing to a true rival."},
+      {"t": "Being a Wolves fan builds character.", "m": "Self-deprecating joke about the team's long dry spells."}
+    ],
+    "avoid": [
+      {"say": "the Minneapolis Lakers", "instead": "the Timberwolves", "why": "The Lakers left for LA in 1960; the Wolves arrived in 1989."},
+      {"say": "Wolves fans fell out with KG", "instead": "KG is the franchise icon", "why": "His feud was with the old owner, not the fans."}
+    ],
+    "sources": [
+      "https://fox9.com/sports/timberwolves-will-retire-kevin-garnetts-no-21-jersey",
+      "https://zonecoverage.com/2025/timberwolves/the-nuggets-are-the-closest-thing-the-wolves-have-to-a-rival/",
+      "https://www.espn.com.au/nba/story/_/id/40194144/minnesota-timberwolves-anthony-edwards-slogan"
+    ],
+    "unsure": [
+      "rivals: no settled biggest rival; Nuggets best supported"
+    ]
+  },
+  {
+    "team": "New Orleans Pelicans",
+    "espnId": "3",
+    "league": "basketball/nba",
+    "aliases": ["pelicans", "pels", "new orleans", "nola"],
+    "nickname": "the Pels",
+    "fans": "",
+    "ground": "the Smoothie King Center",
+    "rivals": [
+      {"team": "Memphis Grizzlies", "name": "the Grizzlies", "derby": ""},
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""}
+    ],
+    "legends": ["Chris Paul", "David West"],
+    "memory": "2018: the Pelicans sweep the Portland Trail Blazers in the first round",
+    "lingo": [
+      {"term": "Pels", "say": "PELZ", "means": "Short, everyday name for the team."},
+      {"term": "Won't Bow Down", "say": "WOHNT BOU DOWN", "means": "Team slogan since 2019, drawn from New Orleans culture. It means the team won't back down."},
+      {"term": "Pierre", "say": "pee-AIR", "means": "Pierre the Pelican, the mascot, famously redesigned after fans found the first version scary."},
+      {"term": "NOLA", "say": "NOH-luh", "means": "Short for New Orleans, Louisiana. All over fan gear."}
+    ],
+    "lines": [
+      {"t": "Won't bow down.", "m": "The team slogan. Good for a tough night."},
+      {"t": "NOLA versus everybody.", "m": "A local rallying phrase seen on fan shirts."},
+      {"t": "CP3 put this franchise on the map.", "m": "Chris Paul starred here when the team was still the New Orleans Hornets."},
+      {"t": "Pierre looks a lot friendlier these days.", "m": "A joke about the mascot's spooky first design."}
+    ],
+    "avoid": [
+      {"say": "the New Orleans Hornets", "instead": "the Pelicans", "why": "The team became the Pelicans in 2013 and the Hornets name went back to Charlotte."},
+      {"say": "the New Orleans Jazz", "instead": "the Pelicans", "why": "The Jazz left for Utah in 1979; it is a different franchise."}
+    ],
+    "sources": [
+      "https://pelicandebrief.com/2019/09/24/new-orleans-pelicans-david-griffin-unveils-slogan",
+      "https://abc7.com/post/chris-paul-announces-retirement-nba-21-seasons/18596573/",
+      "https://pelicandebrief.com/2021/09/04/new-orleans-pelicans-biggest-rivals"
+    ],
+    "unsure": [
+      "rivals: sources say the Pelicans have no true rival yet; Grizzlies and Lakers are best guesses",
+      "lingo: unclear whether Won't Bow Down is still pushed by the team in 2026-27",
+      "legends: few retired greats; only two listed"
+    ]
+  },
+  {
+    "team": "New York Knicks",
+    "espnId": "18",
+    "league": "basketball/nba",
+    "aliases": ["knicks", "new york", "nyk", "knickerbockers"],
+    "nickname": "the Knicks",
+    "fans": "",
+    "ground": "the Garden (Madison Square Garden, MSG)",
+    "rivals": [
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""},
+      {"team": "Indiana Pacers", "name": "the Pacers", "derby": ""},
+      {"team": "Miami Heat", "name": "the Heat", "derby": ""}
+    ],
+    "legends": ["Walt Frazier", "Willis Reed", "Patrick Ewing", "Earl Monroe"],
+    "memory": "2026: the Knicks beat the Spurs in five games for their first title since 1973",
+    "lingo": [
+      {"term": "The Mecca", "say": "thuh MEK-uh", "means": "Madison Square Garden, called the mecca of basketball."},
+      {"term": "MSG", "say": "EM-es-JEE", "means": "Madison Square Garden. Also just the Garden."},
+      {"term": "Knickerbockers", "say": "NIK-ur-bok-urz", "means": "The full original team name, from old Dutch New York. Knicks is short for it."},
+      {"term": "Clyde", "say": "KLYDE", "means": "Walt Frazier, Knicks great and long-time TV voice, famous for rhyming calls."}
+    ],
+    "lines": [
+      {"t": "Fifty-three years. Worth every one.", "m": "The 2026 title ended the wait that began after 1973."},
+      {"t": "Nothing beats a playoff night at the Garden.", "m": "MSG at full volume is the fans' pride."},
+      {"t": "Willis walking out of that tunnel.", "m": "Willis Reed's 1970 Game 7 entrance, despite injury. Every Knicks fan knows it."},
+      {"t": "Reggie Miller? Don't bring him up.", "m": "The Pacers great tormented the Knicks in the 1990s."},
+      {"t": "Spike's courtside, so it must be big.", "m": "Director Spike Lee is the most famous Knicks superfan."}
+    ],
+    "avoid": [
+      {"say": "The Knicks haven't won since the 70s", "instead": "They won it all in 2026", "why": "The 2026 title ended a 53-year wait."},
+      {"say": "the New York Nets", "instead": "the Knicks", "why": "The Nets are the Brooklyn team; the Knicks play at MSG in Manhattan."}
+    ],
+    "sources": [
+      "https://abc7ny.com/post/new-york-knicks-win-2026-nba-finals-path-championship/19292510/",
+      "https://en.wikipedia.org/wiki/2026_NBA_Finals",
+      "https://en.wikipedia.org/wiki/Knicks%E2%80%93Nets_rivalry"
+    ],
+    "unsure": [
+      "fans: no common fan nickname found"
+    ]
+  },
+  {
+    "team": "Oklahoma City Thunder",
+    "espnId": "25",
+    "league": "basketball/nba",
+    "aliases": ["thunder", "okc", "oklahoma city", "oklahoma city thunder"],
+    "nickname": "the Thunder",
+    "fans": "",
+    "ground": "Paycom Center (old-timers: the Peake)",
+    "rivals": [
+      {"team": "San Antonio Spurs", "name": "the Spurs", "derby": ""},
+      {"team": "Golden State Warriors", "name": "the Warriors", "derby": ""},
+      {"team": "Dallas Mavericks", "name": "the Mavs", "derby": ""}
+    ],
+    "legends": ["Nick Collison"],
+    "memory": "2025: the first title in Oklahoma City, beating the Indiana Pacers in seven games",
+    "lingo": [
+      {"term": "Thunder Up", "say": "THUN-dur UP", "means": "The team's rallying cry and hashtag."},
+      {"term": "Loud City", "say": "LOWD SIT-ee", "means": "The name for the home crowd, famous for its noise."},
+      {"term": "The Peake", "say": "thuh PEEK", "means": "Old nickname for the arena from its Chesapeake Energy Arena days."},
+      {"term": "Rumble", "say": "RUM-bul", "means": "Rumble the Bison, the team mascot."}
+    ],
+    "lines": [
+      {"t": "Thunder up!", "m": "The go-to rallying cry."},
+      {"t": "Loud City showed up tonight.", "m": "Praise for a noisy home crowd."},
+      {"t": "Golden State in 2016 still stings.", "m": "OKC blew a 3-1 lead to the Warriors in the conference finals."},
+      {"t": "Collison did all the little things.", "m": "Respect for Nick Collison, the glue guy whose number is retired."},
+      {"t": "Small market, big banner.", "m": "Pride in winning the 2025 title in one of the league's smallest cities."}
+    ],
+    "avoid": [
+      {"say": "the Seattle Thunder", "instead": "the Thunder", "why": "The team moved from Seattle in 2008 and the SuperSonics name stayed behind."},
+      {"say": "Chesapeake Arena", "instead": "Paycom Center", "why": "The arena was renamed in 2021."},
+      {"say": "The Thunder won in 1979", "instead": "OKC's first title came in 2025", "why": "The 1979 title belongs to Seattle's SuperSonics story."}
+    ],
+    "sources": [
+      "https://news9.com/story/61008d154694250be4403025/okc-thunder-home-peake-becomes-paycom-center-with-naming-rights-agreement",
+      "https://www.opb.org/article/2026/05/31/san-antonio-spurs-win-the-west-beating-oklahoma-city-thunder-to-head-to-nba-finals/"
+    ],
+    "unsure": [
+      "legends: most Thunder greats are still playing; only Nick Collison listed",
+      "rivals: no settled rival; Spurs (2026 West finals), Warriors and Mavericks chosen from playoff history",
+      "ground: a new arena is due in 2028; Paycom Center is correct for 2026-27"
+    ]
+  },
+  {
+    "team": "Orlando Magic",
+    "espnId": "19",
+    "league": "basketball/nba",
+    "aliases": ["magic", "orlando", "orl", "orlando magic"],
+    "nickname": "the Magic",
+    "fans": "",
+    "ground": "the Kia Center",
+    "rivals": [
+      {"team": "Miami Heat", "name": "the Heat", "derby": "the Sunshine State rivalry"}
+    ],
+    "legends": ["Shaquille O'Neal", "Penny Hardaway", "Nick Anderson", "Tracy McGrady"],
+    "memory": "1995: Shaq and Penny take the young Magic to the NBA Finals in only the team's sixth season",
+    "lingo": [
+      {"term": "Stuff", "say": "STUFF", "means": "Stuff the Magic Dragon, the team mascot."},
+      {"term": "Shaq and Penny", "say": "SHAK and PEN-ee", "means": "The 1990s duo of Shaquille O'Neal and Anfernee 'Penny' Hardaway. The fans' favourite era."},
+      {"term": "Magic Together", "say": "MAJ-ik tuh-GETH-ur", "means": "The team's brand slogan since 2020."},
+      {"term": "The O-rena", "say": "thee oh-REE-nuh", "means": "The old Orlando Arena, where the Shaq and Penny teams played."}
+    ],
+    "lines": [
+      {"t": "Shaq and Penny should have won one together.", "m": "Fans still wonder what might have been after Shaq left in 1996."},
+      {"t": "Florida belongs to Orlando.", "m": "Mild banter in the Sunshine State rivalry with Miami."},
+      {"t": "2009 was so close.", "m": "The Magic reached the Finals in 2009 but lost to the Lakers."},
+      {"t": "Nick Anderson deserved better.", "m": "Sympathy for the missed free throws in Game 1 of the 1995 Finals."}
+    ],
+    "avoid": [
+      {"say": "Amway Center", "instead": "the Kia Center", "why": "The arena was renamed in December 2023."},
+      {"say": "Are they named after Magic Johnson?", "instead": "The name came from a local naming contest", "why": "Magic Johnson was a Laker; the name nods to Orlando's theme-park magic."}
+    ],
+    "sources": [
+      "https://www.nba.com/news/magic-rename-arena-kia-center",
+      "https://www.nba.com/magic/orlando-magic-announce-new-marketing-brand-campaign-magic-together-20201111",
+      "https://en.wikipedia.org/wiki/Heat%E2%80%93Magic_rivalry"
+    ],
+    "unsure": [
+      "lingo: Magic Together dates from 2020; not confirmed as the current slogan",
+      "fans: no common fan nickname found"
+    ]
+  },
+  {
+    "team": "Philadelphia 76ers",
+    "espnId": "20",
+    "league": "basketball/nba",
+    "aliases": ["sixers", "76ers", "philly", "philadelphia", "phi"],
+    "nickname": "the Sixers",
+    "fans": "",
+    "ground": "Xfinity Mobile Arena (renamed from the Wells Fargo Center in 2025)",
+    "rivals": [
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""},
+      {"team": "New York Knicks", "name": "the Knicks", "derby": ""}
+    ],
+    "legends": ["Julius Erving", "Wilt Chamberlain", "Allen Iverson", "Moses Malone"],
+    "memory": "1983: Moses Malone's 'fo', fo', fo'' prediction and a 12-1 playoff run to the title",
+    "lingo": [
+      {"term": "Trust the Process", "say": "TRUST thuh PRAH-ses", "means": "Fan motto from the 2013-16 rebuild. Now used for patience in general."},
+      {"term": "Phila Unite", "say": "FIL-uh yoo-NYTE", "means": "The team's slogan and hashtag."},
+      {"term": "The Answer", "say": "thee AN-sur", "means": "Allen Iverson's nickname."},
+      {"term": "Dr. J", "say": "DOK-tur JAY", "means": "Julius Erving, the high-flying star of the 1983 champions."}
+    ],
+    "lines": [
+      {"t": "Trust the process.", "m": "Said whenever patience is needed."},
+      {"t": "Fo', fo', fo'.", "m": "Moses Malone's 1983 playoff prediction, quoted with pride."},
+      {"t": "We're talking about practice.", "m": "Allen Iverson's famous 2002 press-conference rant, quoted as a joke."},
+      {"t": "AI gave everything, every night.", "m": "Love for Allen Iverson's heart."},
+      {"t": "Boston is the enemy. Always.", "m": "The Celtics rivalry is the oldest and deepest."}
+    ],
+    "avoid": [
+      {"say": "the Seventy-Sixers", "instead": "the Sixers", "why": "Fans never say the full number out loud."},
+      {"say": "the Wells Fargo Center", "instead": "Xfinity Mobile Arena", "why": "The arena was renamed in 2025, though old habits linger."}
+    ],
+    "sources": [
+      "https://www.cbsnews.com/philadelphia/news/wells-fargo-center-name-change-xfinity-mobile-arena",
+      "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_arenas"
+    ],
+    "unsure": [
+      "ground: no common fan short form for Xfinity Mobile Arena found yet",
+      "lingo: Phila Unite not confirmed as the current slogan"
+    ]
+  },
+  {
+    "team": "Phoenix Suns",
+    "espnId": "21",
+    "league": "basketball/nba",
+    "aliases": ["suns", "phoenix", "phx", "phoenix suns"],
+    "nickname": "the Suns",
+    "fans": "",
+    "ground": "Mortgage Matchup Center (renamed in 2025)",
+    "rivals": [
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""},
+      {"team": "San Antonio Spurs", "name": "the Spurs", "derby": ""}
+    ],
+    "legends": ["Charles Barkley", "Steve Nash", "Kevin Johnson", "Walter Davis"],
+    "memory": "2004-2007: the Seven Seconds or Less Suns of Steve Nash, whose fast pace changed the NBA",
+    "lingo": [
+      {"term": "The Valley", "say": "thuh VAL-ee", "means": "The Phoenix area. The team brands itself around it."},
+      {"term": "Rally the Valley", "say": "RAL-ee thuh VAL-ee", "means": "The fans' playoff rallying cry."},
+      {"term": "Seven Seconds or Less", "say": "SEV-un SEK-undz or LESS", "means": "The run-and-gun style of the Steve Nash era."},
+      {"term": "The Gorilla", "say": "thuh guh-RIL-uh", "means": "The Suns' famous mascot, known for trampoline dunks."}
+    ],
+    "lines": [
+      {"t": "Rally the Valley!", "m": "The playoff battle cry."},
+      {"t": "Seven seconds or less. That was basketball.", "m": "Nostalgia for the Steve Nash teams."},
+      {"t": "Charles should have had a ring here.", "m": "Barkley's 1993 MVP team lost the Finals to Chicago."},
+      {"t": "Triple overtime in Boston, 1976. Greatest game ever.", "m": "The famous Finals Game 5 the Suns narrowly lost."}
+    ],
+    "avoid": [
+      {"say": "Footprint Center", "instead": "Mortgage Matchup Center", "why": "The arena was renamed in October 2025."},
+      {"say": "The Suns have a title", "instead": "The Suns are still chasing their first", "why": "They lost the Finals in 1976, 1993 and 2021."}
+    ],
+    "sources": [
+      "https://www.foxsports.com/articles/nba/suns-mercury-announce-115m-arena-naming-rights-deal-with-owner-mat-ishbias-mortgage-company",
+      "https://www.nba.com/suns/features/we-are-valley",
+      "https://fansided.com/2021/07/08/phoenix-suns-called-the-valley-explained"
+    ],
+    "unsure": [
+      "ground: no common fan short form for Mortgage Matchup Center found"
+    ]
+  },
+  {
+    "team": "Portland Trail Blazers",
+    "espnId": "22",
+    "league": "basketball/nba",
+    "aliases": ["blazers", "trail blazers", "portland", "por", "rip city"],
+    "nickname": "the Blazers",
+    "fans": "",
+    "ground": "the Moda Center (originally the Rose Garden)",
+    "rivals": [
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""},
+      {"team": "Utah Jazz", "name": "the Jazz", "derby": ""}
+    ],
+    "legends": ["Clyde Drexler", "Bill Walton", "Terry Porter", "Arvydas Sabonis"],
+    "memory": "1977: Bill Walton leads Portland to its only title, sparking Blazermania",
+    "lingo": [
+      {"term": "Rip City", "say": "RIP SIT-ee", "means": "Portland's nickname and the team's cheer. A broadcaster coined it in 1971."},
+      {"term": "Blazermania", "say": "BLAY-zur-MAY-nee-uh", "means": "The city's passion for the team, born in the 1977 title run."},
+      {"term": "The Rose Garden", "say": "thuh ROHZ GAR-dun", "means": "The arena's original name, still used by many fans."},
+      {"term": "The Pinwheel", "say": "thuh PIN-weel", "means": "The team's famous red-and-black logo."}
+    ],
+    "lines": [
+      {"t": "Rip City!", "m": "The all-purpose Blazers cheer."},
+      {"t": "It'll always be the Rose Garden.", "m": "Old-timers' name for the arena."},
+      {"t": "Clyde the Glide could fly.", "m": "Love for Clyde Drexler."},
+      {"t": "Game 7 in LA, 2000. Don't talk to me about it.", "m": "Portland blew a big fourth-quarter lead to the Lakers in the conference finals."},
+      {"t": "Sabonis in his prime would have been unstoppable.", "m": "Fans wonder what the Lithuanian center was like before his injuries."}
+    ],
+    "avoid": [
+      {"say": "the Portland Trailblazers", "instead": "the Trail Blazers, or just the Blazers", "why": "It's two words, and fans just say Blazers."},
+      {"say": "Seattle's their big rival", "instead": "The Lakers and the Jazz", "why": "The Sonics left in 2008, so the old I-5 rivalry is on hold."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/I-5_rivalry",
+      "https://www.blazersedge.com/2020/7/17/21327199/portland-trail-blazers-rivals-sonics-bulls-thunder-lakers-jordan"
+    ],
+    "unsure": [
+      "fans: no confirmed fan self-name"
+    ]
+  },
+  {
+    "team": "Sacramento Kings",
+    "espnId": "23",
+    "league": "basketball/nba",
+    "aliases": ["kings", "sacramento", "sac", "sactown", "sacramento kings"],
+    "nickname": "the Kings",
+    "fans": "",
+    "ground": "Golden 1 Center (G1C)",
+    "rivals": [
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""},
+      {"team": "Golden State Warriors", "name": "the Warriors", "derby": ""}
+    ],
+    "legends": ["Chris Webber", "Peja Stojakovic", "Vlade Divac", "Mitch Richmond"],
+    "memory": "2002: the Western Conference Finals loss to the Lakers that Kings fans still say they should have won",
+    "lingo": [
+      {"term": "Light the Beam", "say": "LYTE thuh BEEM", "means": "After every home win, a purple laser beam shoots into the sky from the arena."},
+      {"term": "Sactown", "say": "SAK-town", "means": "Sacramento's nickname."},
+      {"term": "Cowbells", "say": "KOW-belz", "means": "Kings fans ring cowbells, a tradition from the old Arco Arena."},
+      {"term": "The Greatest Show on Court", "say": "thuh GRAY-test SHOH on KORT", "means": "Nickname for the fun, pass-happy Kings teams of the early 2000s."}
+    ],
+    "lines": [
+      {"t": "Light the beam!", "m": "Celebrating a home win."},
+      {"t": "2002 was taken from us.", "m": "Fans still feel the Lakers series was unfair."},
+      {"t": "Bring the cowbell.", "m": "A nod to the noisy Arco Arena days."},
+      {"t": "Sacramento saved this team.", "m": "Fans and the city fought off a move to Seattle in 2013."},
+      {"t": "Webber, Vlade, Peja, Bibby. Best passing team ever.", "m": "Love for the early-2000s teams."}
+    ],
+    "avoid": [
+      {"say": "the Kansas City Kings", "instead": "the Sacramento Kings", "why": "The team left Kansas City for Sacramento in 1985."},
+      {"say": "Arco Arena", "instead": "Golden 1 Center", "why": "The team moved downtown in 2016."}
+    ],
+    "sources": [
+      "https://nba.com/news/all-30-nba-arenas-by-team",
+      "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_arenas"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "San Antonio Spurs",
+    "espnId": "24",
+    "league": "basketball/nba",
+    "aliases": ["spurs", "san antonio", "sa", "san antonio spurs"],
+    "nickname": "the Spurs",
+    "fans": "",
+    "ground": "the Frost Bank Center",
+    "rivals": [
+      {"team": "Dallas Mavericks", "name": "the Mavs", "derby": "the I-35 rivalry"},
+      {"team": "Los Angeles Lakers", "name": "the Lakers", "derby": ""},
+      {"team": "Houston Rockets", "name": "the Rockets", "derby": "the I-10 rivalry"}
+    ],
+    "legends": ["Tim Duncan", "David Robinson", "Manu Ginobili", "George Gervin"],
+    "memory": "2014: the 'beautiful game' title, beating the Miami Heat in a Finals rematch",
+    "lingo": [
+      {"term": "Go Spurs Go", "say": "GOH SPURZ GOH", "means": "The classic fan cheer and sign-off."},
+      {"term": "Por Vida", "say": "por VEE-dah", "means": "Spanish for 'for life'. The team's slogan, reflecting San Antonio's Hispanic heritage."},
+      {"term": "Pound the Rock", "say": "POWND thuh ROK", "means": "Team motto about patient hard work, like a stonecutter hitting a rock until it splits."},
+      {"term": "The Coyote", "say": "thuh ky-OH-tee", "means": "The team's long-time mascot."}
+    ],
+    "lines": [
+      {"t": "Go Spurs Go!", "m": "The all-purpose cheer."},
+      {"t": "Spurs por vida.", "m": "Spurs for life. A statement of loyalty."},
+      {"t": "Five rings, all with Timmy.", "m": "Tim Duncan was there for all five titles."},
+      {"t": "The Iceman could score on anybody.", "m": "Tribute to George Gervin."},
+      {"t": "Fiesta colors forever.", "m": "Love for the old turquoise, pink and orange look tied to the city's festival."}
+    ],
+    "avoid": [
+      {"say": "the AT&T Center", "instead": "the Frost Bank Center", "why": "The arena was renamed in 2023."},
+      {"say": "Like Tottenham?", "instead": "No relation", "why": "The San Antonio Spurs have nothing to do with the London football club."}
+    ],
+    "sources": [
+      "https://wtop.com/news/2026/06/spurs-fans-still-believe-they-can-overcome-3-1-deficit-against-knicks-to-capture-6th-nba-title/",
+      "https://en.wikipedia.org/wiki/Mavericks%E2%80%93Spurs_rivalry"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Toronto Raptors",
+    "espnId": "28",
+    "league": "basketball/nba",
+    "aliases": ["raptors", "raps", "toronto", "tor", "toronto raptors"],
+    "nickname": "the Raps",
+    "fans": "",
+    "ground": "Scotiabank Arena (many still say the ACC)",
+    "rivals": [
+      {"team": "Brooklyn Nets", "name": "the Nets", "derby": ""},
+      {"team": "Philadelphia 76ers", "name": "the Sixers", "derby": ""},
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""}
+    ],
+    "legends": ["Vince Carter", "Chris Bosh"],
+    "memory": "2019: the first NBA title won by a team from outside the US, clinched in Oakland",
+    "lingo": [
+      {"term": "We The North", "say": "wee thuh NORTH", "means": "The team slogan since 2014, celebrating Canada's only NBA team."},
+      {"term": "Jurassic Park", "say": "juh-RAS-ik PARK", "means": "The square next to the arena where fans watch big games on a giant screen."},
+      {"term": "Vinsanity", "say": "vin-SAN-ih-tee", "means": "The craze around Vince Carter's dunks around 2000."},
+      {"term": "The ACC", "say": "thee ay-see-SEE", "means": "Air Canada Centre, the arena's name until 2018."}
+    ],
+    "lines": [
+      {"t": "We the North.", "m": "The national rallying cry."},
+      {"t": "See you in Jurassic Park.", "m": "Meeting up outside the arena for a big game."},
+      {"t": "Four bounces, then in.", "m": "The 2019 Game 7 buzzer-beater that knocked out Philadelphia."},
+      {"t": "Vince is family again.", "m": "Fans made peace with Vince Carter; his number 15 was retired in 2024."},
+      {"t": "The whole country's behind us.", "m": "Canada's only team draws fans coast to coast."}
+    ],
+    "avoid": [
+      {"say": "Canada has two NBA teams", "instead": "The Raptors are Canada's team", "why": "The Vancouver Grizzlies moved to Memphis in 2001."},
+      {"say": "Booing Vince Carter", "instead": "Cheering Vince", "why": "Fans forgave his messy 2004 exit and he was the first Raptor to have his number retired."}
+    ],
+    "sources": [
+      "https://www.nba.com/news/vince-carter-toronto-raptors-retire-no-15",
+      "https://clutchpoints.com/toronto-raptors-top-5-rivals-of-all-time-ranked"
+    ],
+    "unsure": [
+      "rivals: sources split between the Nets, Celtics and 76ers",
+      "legends: most Raptors greats are still playing; only two listed"
+    ]
+  },
+  {
+    "team": "Utah Jazz",
+    "espnId": "26",
+    "league": "basketball/nba",
+    "aliases": ["jazz", "utah", "uta", "utah jazz"],
+    "nickname": "the Jazz",
+    "fans": "",
+    "ground": "the Delta Center (Salt Lake City)",
+    "rivals": [
+      {"team": "Houston Rockets", "name": "the Rockets", "derby": ""},
+      {"team": "Denver Nuggets", "name": "the Nuggets", "derby": ""},
+      {"team": "Chicago Bulls", "name": "the Bulls", "derby": ""}
+    ],
+    "legends": ["John Stockton", "Karl Malone", "Pete Maravich", "Mark Eaton"],
+    "memory": "1997: John Stockton's buzzer-beater in Houston sends the Jazz to their first NBA Finals",
+    "lingo": [
+      {"term": "Take Note", "say": "TAYK NOHT", "means": "The team's long-running hashtag and slogan, a play on the music-note logo."},
+      {"term": "Stockton to Malone", "say": "STOK-tun tuh muh-LOHN", "means": "The 1990s pick-and-roll partnership. Fans use it for any perfect pass."},
+      {"term": "The Mailman", "say": "thuh MAYL-man", "means": "Karl Malone, because he always delivered."},
+      {"term": "Jazz Bear", "say": "JAZ BAIR", "means": "The team's mascot."}
+    ],
+    "lines": [
+      {"t": "Stockton to Malone. Classic.", "m": "Said about a perfect pass and finish."},
+      {"t": "The Mailman always delivers.", "m": "Karl Malone's nickname, used for any reliable scorer."},
+      {"t": "Two Finals, and Jordan both times.", "m": "The Jazz lost to the Bulls in 1997 and 1998."},
+      {"t": "Nobody gets loud like a Salt Lake crowd.", "m": "Pride in one of the league's noisiest arenas."}
+    ],
+    "avoid": [
+      {"say": "Why 'Jazz'? Is Utah big on jazz?", "instead": "The name came from New Orleans", "why": "The team started as the New Orleans Jazz and moved in 1979."},
+      {"say": "Vivint Arena", "instead": "the Delta Center", "why": "The arena got its original name back in 2023."}
+    ],
+    "sources": [
+      "https://www.ksl.com/article/50497871/take-note-utah-jazz-may-have-lost-their-hashtag-to-apple",
+      "https://en.wikipedia.org/wiki/Jazz%E2%80%93Nuggets_rivalry"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Washington Wizards",
+    "espnId": "27",
+    "league": "basketball/nba",
+    "aliases": ["wizards", "wiz", "washington", "wsh", "dc"],
+    "nickname": "the Wiz",
+    "fans": "",
+    "ground": "Capital One Arena (Cap One)",
+    "rivals": [
+      {"team": "Cleveland Cavaliers", "name": "the Cavs", "derby": ""},
+      {"team": "Boston Celtics", "name": "the Celtics", "derby": ""}
+    ],
+    "legends": ["Wes Unseld", "Elvin Hayes", "Earl Monroe", "Phil Chenier"],
+    "memory": "1978: the Washington Bullets win the franchise's only title, beating Seattle in seven games",
+    "lingo": [
+      {"term": "The Bullets", "say": "thuh BUL-its", "means": "The team's name until 1997. Older fans still use it fondly."},
+      {"term": "The District", "say": "thuh DIS-trikt", "means": "Washington, DC. The team markets itself as playing for the District."},
+      {"term": "Cap One", "say": "KAP WUN", "means": "Short for Capital One Arena in Chinatown."},
+      {"term": "G-Wiz", "say": "jee-WIZ", "means": "The team's blue mascot."}
+    ],
+    "lines": [
+      {"t": "The opera ain't over.", "m": "Short form of coach Dick Motta's famous 1978 playoff motto. Used when the team is behind."},
+      {"t": "Wes Unseld set the best screens ever.", "m": "Praise for the Hall of Fame center."},
+      {"t": "For the District.", "m": "Team slogan and a rallying call for DC."},
+      {"t": "Big E and Wes, now that was a frontcourt.", "m": "Elvin Hayes and Wes Unseld led the 1978 champions."}
+    ],
+    "avoid": [
+      {"say": "the Washington Bullets", "instead": "the Wizards", "why": "The team was renamed in 1997."},
+      {"say": "Jordan's Wizards years were his best", "instead": "Jordan's prime was in Chicago", "why": "His late-career comeback in DC is not a fond memory for fans."}
+    ],
+    "sources": [
+      "https://www.nba.com/news/washington-wizards-2023-24-city-edition-uniform-the-district",
+      "https://www.washingtonian.com/2014/05/12/vince-gray-muriel-bowser-and-other-dc-notables-dance-for-the-wizards/"
+    ],
+    "unsure": [
+      "rivals: no strong rival; Cavaliers and Celtics picked from playoff history",
+      "lingo: For the District may be from 2024-25 and not current"
+    ]
+  }
+]

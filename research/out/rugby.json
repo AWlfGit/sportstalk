@@ -1,0 +1,1179 @@
+[
+  {
+    "team": "Bath Rugby",
+    "espnId": "25898",
+    "league": "rugby/267979",
+    "aliases": ["bath", "bath rugby"],
+    "nickname": "",
+    "fans": "",
+    "ground": "the Rec",
+    "rivals": [
+      {"team": "Gloucester Rugby", "name": "Gloucester", "derby": "the West Country derby"},
+      {"team": "Bristol Bears", "name": "Bristol", "derby": "the West Country derby"},
+      {"team": "Leicester Tigers", "name": "Tigers", "derby": ""}
+    ],
+    "legends": ["Jeremy Guscott", "Gareth Chilcott", "Stuart Barnes"],
+    "memory": "2025: beat Leicester 23-21 in the Premiership final for their first league title in 29 years",
+    "lingo": [
+      {"term": "the Rec", "say": "the REK", "means": "The Recreation Ground, Bath's riverside home in the middle of the city."},
+      {"term": "the West Country derby", "say": "the WEST KUN-tree DAR-bee", "means": "Games against Gloucester or Bristol. These matter more than most."}
+    ],
+    "lines": [
+      {"t": "Nothing beats a sunny afternoon at the Rec by the river.", "m": "Fans love their city-centre ground. Safe small talk."},
+      {"t": "Bath should play with the ball in hand. That's the Bath way.", "m": "The club prides itself on attacking rugby."},
+      {"t": "Any win over Gloucester makes it a good week.", "m": "Use it when the West Country derby comes up."}
+    ],
+    "avoid": [
+      {"say": "Bath's stadium", "instead": "the Rec", "why": "Nobody calls it a stadium. It's the Rec."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Bath_Rugby", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby"],
+    "unsure": []
+  },
+  {
+    "team": "Bristol Rugby",
+    "espnId": "25899",
+    "league": "rugby/267979",
+    "aliases": ["bristol", "bristol bears", "bears", "bristol rugby"],
+    "nickname": "the Bears",
+    "fans": "",
+    "ground": "Ashton Gate",
+    "rivals": [
+      {"team": "Bath Rugby", "name": "Bath", "derby": "the West Country derby"},
+      {"team": "Gloucester Rugby", "name": "Gloucester", "derby": "the West Country derby"}
+    ],
+    "legends": ["John Pullin", "Alan Morley"],
+    "memory": "2020: won the Challenge Cup, beating Toulon in Aix-en-Provence for their first European trophy",
+    "lingo": [
+      {"term": "the Bears", "say": "the BAIRZ", "means": "The team's name since 2018. Fans say Bristol or the Bears."},
+      {"term": "Ashton Gate", "say": "ASH-tun GATE", "means": "Their home in south Bristol, shared with Bristol City football club."}
+    ],
+    "lines": [
+      {"t": "Come on, Bears!", "m": "The basic shout from the stands."},
+      {"t": "Bristol throw it about. It's never boring at Ashton Gate.", "m": "The club is known for high-risk, high-scoring rugby."},
+      {"t": "Bath away is the one we circle on the fixture list.", "m": "Bath are the old enemy just down the road."}
+    ],
+    "avoid": [
+      {"say": "Bristol City", "instead": "the Bears", "why": "Bristol City are the football club they share a ground with."},
+      {"say": "Bristol Rugby", "instead": "Bristol Bears, or just Bristol", "why": "The club took the Bears name in 2018."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby"],
+    "unsure": []
+  },
+  {
+    "team": "Exeter Chiefs",
+    "espnId": "116227",
+    "league": "rugby/267979",
+    "aliases": ["exeter", "exeter chiefs", "chiefs"],
+    "nickname": "the Chiefs",
+    "fans": "",
+    "ground": "Sandy Park",
+    "rivals": [
+      {"team": "Saracens", "name": "Sarries", "derby": ""},
+      {"team": "Bath Rugby", "name": "Bath", "derby": "the West Country derby"},
+      {"team": "Gloucester Rugby", "name": "Gloucester", "derby": "the West Country derby"}
+    ],
+    "legends": ["Gareth Steenson", "Phil Dollman"],
+    "memory": "2020: the double, winning the Champions Cup and the Premiership in the same season",
+    "lingo": [
+      {"term": "the Chiefs", "say": "the CHEEFS", "means": "The team. Fans say Exeter or the Chiefs."},
+      {"term": "Sandy Park", "say": "SAN-dee PARK", "means": "Their ground on the edge of Exeter, right by the M5."}
+    ],
+    "lines": [
+      {"t": "Chiefs will go through twenty phases to get over the line.", "m": "Exeter are famous for patient, close-range attacks near the try line."},
+      {"t": "Sandy Park's a long trip and a hard place to win.", "m": "Home-ground pride."},
+      {"t": "Second division to champions of Europe in ten years. Not bad for Devon.", "m": "Promoted in 2010, European champions in 2020. Fans are proud of the rise."}
+    ],
+    "avoid": [
+      {"say": "Exeter City", "instead": "the Chiefs", "why": "Exeter City are the football club, known as the Grecians."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Exeter_Chiefs"],
+    "unsure": ["legends: could not confirm that neither player now holds a coaching role"]
+  },
+  {
+    "team": "Gloucester Rugby",
+    "espnId": "25900",
+    "league": "rugby/267979",
+    "aliases": ["gloucester", "gloucester rugby", "glaws", "cherry and whites"],
+    "nickname": "the Cherry and Whites",
+    "fans": "",
+    "ground": "Kingsholm",
+    "rivals": [
+      {"team": "Bath Rugby", "name": "Bath", "derby": "the West Country derby"},
+      {"team": "Bristol Bears", "name": "Bristol", "derby": "the West Country derby"}
+    ],
+    "legends": ["Phil Vickery", "Mike Teague", "Mike Burton"],
+    "memory": "2015: won the Challenge Cup, beating Edinburgh in the final at the Stoop",
+    "lingo": [
+      {"term": "Glaws", "say": "GLORZ", "means": "Fans' nickname for the club. You'll hear it chanted from the Shed."},
+      {"term": "the Shed", "say": "the SHED", "means": "The famous standing terrace along one side of Kingsholm. The loudest part of the ground."}
+    ],
+    "lines": [
+      {"t": "Come on, Glaws!", "m": "The classic shout from the terraces."},
+      {"t": "Nothing like a night game with the Shed in full voice.", "m": "Fans love the Kingsholm atmosphere."},
+      {"t": "Beat Bath and the season's a success, whatever else happens.", "m": "Light-hearted derby banter."}
+    ],
+    "avoid": [
+      {"say": "GLOW-chester", "instead": "GLOSS-ter", "why": "The middle of the word is silent. Locals notice straight away."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Kingsholm_Stadium", "https://www.gloucesterrugbyheritage.org.uk/?p=18223"],
+    "unsure": []
+  },
+  {
+    "team": "Harlequins",
+    "espnId": "25901",
+    "league": "rugby/267979",
+    "aliases": ["harlequins", "quins", "harlequin"],
+    "nickname": "Quins",
+    "fans": "",
+    "ground": "the Stoop",
+    "rivals": [
+      {"team": "Saracens", "name": "Sarries", "derby": "the London derby"},
+      {"team": "Leicester Tigers", "name": "Tigers", "derby": ""}
+    ],
+    "legends": ["Will Carling", "Brian Moore", "Jason Leonard", "Keith Wood"],
+    "memory": "2021: won the Premiership after a 43-36 semi-final comeback at Bristol and a 40-38 final against Exeter",
+    "lingo": [
+      {"term": "Quins", "say": "KWINZ", "means": "What everyone calls Harlequins."},
+      {"term": "the Big Game", "say": "the BIG GAYM", "means": "Quins' festive home match at Twickenham, the biggest crowd of their season."}
+    ],
+    "lines": [
+      {"t": "Quins only know one way to play: throw it about.", "m": "The club prides itself on running rugby."},
+      {"t": "The Big Game at Twickenham is the best day out of the year.", "m": "Talk about the Christmas-time Twickenham fixture."},
+      {"t": "Twickenham's across the road, but the Stoop is ours.", "m": "The Stoop sits right next to the national stadium."}
+    ],
+    "avoid": [
+      {"say": "Harlequins play at Twickenham", "instead": "Quins play at the Stoop", "why": "Home is the Stoop, across the road. Twickenham is only for the Big Game."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2025%E2%80%9326_Premiership_Rugby", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby"],
+    "unsure": []
+  },
+  {
+    "team": "Leicester Tigers",
+    "espnId": "25903",
+    "league": "rugby/267979",
+    "aliases": ["leicester", "leicester tigers", "tigers"],
+    "nickname": "Tigers",
+    "fans": "",
+    "ground": "Welford Road",
+    "rivals": [
+      {"team": "Northampton Saints", "name": "Saints", "derby": "the East Midlands derby"},
+      {"team": "Bath Rugby", "name": "Bath", "derby": ""}
+    ],
+    "legends": ["Martin Johnson", "Dean Richards", "Martin Corry"],
+    "memory": "2001 and 2002: back-to-back Heineken Cup wins",
+    "lingo": [
+      {"term": "Tigers", "say": "TY-gurz", "means": "The club. Fans say Tigers, not 'the Leicester Tigers'."},
+      {"term": "Welford Road", "say": "WEL-ford ROHD", "means": "Their home since 1892, a short walk from the city centre."}
+    ],
+    "lines": [
+      {"t": "Tigers, Tigers!", "m": "The standard chant from the stands."},
+      {"t": "Saints at Welford Road is the game of the season.", "m": "The East Midlands derby matters more than anything."},
+      {"t": "Tigers win the hard way. Scrum, maul, defence.", "m": "Leicester's reputation for forward power."}
+    ],
+    "avoid": [
+      {"say": "the King Power", "instead": "Welford Road", "why": "The King Power is Leicester City's football ground."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby"],
+    "unsure": []
+  },
+  {
+    "team": "Newcastle Falcons",
+    "espnId": "25906",
+    "league": "rugby/267979",
+    "aliases": ["newcastle", "newcastle red bulls", "red bulls", "newcastle falcons", "falcons"],
+    "nickname": "the Red Bulls",
+    "fans": "",
+    "ground": "Kingston Park",
+    "rivals": [
+      {"team": "Sale Sharks", "name": "Sale", "derby": ""}
+    ],
+    "legends": ["Jonny Wilkinson", "Rob Andrew", "Inga Tuigamala"],
+    "memory": "1998: league champions in their first season back in the top flight",
+    "lingo": [
+      {"term": "the Red Bulls", "say": "the RED BULLZ", "means": "The club's name since the 2025 Red Bull takeover. They were the Falcons before that."},
+      {"term": "Kingston Park", "say": "KING-stun PARK", "means": "Their ground in the north of Newcastle."}
+    ],
+    "lines": [
+      {"t": "Kingston Park on a cold Friday night. Proper northern rugby.", "m": "Fans are proud of how tough it is to visit."},
+      {"t": "Wilko started here, you know.", "m": "Jonny Wilkinson began his career at Newcastle. Fans love that link."},
+      {"t": "Rugby's not just a southern game.", "m": "Newcastle fans flying the flag for the north-east."}
+    ],
+    "avoid": [
+      {"say": "Newcastle United", "instead": "the Red Bulls", "why": "Newcastle United are the football club."},
+      {"say": "the Falcons", "instead": "the Red Bulls", "why": "The club changed its name in 2025. Falcons is out of date."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby", "https://www.newcastleredbulls.com"],
+    "unsure": ["rivals: no strong traditional rival found; Sale listed as the nearest northern Premiership side, no derby name"]
+  },
+  {
+    "team": "Northampton Saints",
+    "espnId": "25907",
+    "league": "rugby/267979",
+    "aliases": ["northampton", "northampton saints", "saints"],
+    "nickname": "Saints",
+    "fans": "",
+    "ground": "Franklin's Gardens",
+    "rivals": [
+      {"team": "Leicester Tigers", "name": "Tigers", "derby": "the East Midlands derby"}
+    ],
+    "legends": ["Tim Rodber", "Matt Dawson", "Dylan Hartley"],
+    "memory": "2014: first Premiership title, won with a last-gasp extra-time try against Saracens",
+    "lingo": [
+      {"term": "Saints", "say": "SAYNTS", "means": "The club. Fans just say Saints."},
+      {"term": "the Gardens", "say": "the GAR-dunz", "means": "Short for Franklin's Gardens, their home ground."}
+    ],
+    "lines": [
+      {"t": "Come on, you Saints!", "m": "The standard shout from the stands."},
+      {"t": "Beating Tigers is all that really matters.", "m": "The East Midlands derby is the big one."},
+      {"t": "The Gardens is rocking tonight.", "m": "Use it on a big home match day."}
+    ],
+    "avoid": [
+      {"say": "the Cobblers", "instead": "Saints", "why": "The Cobblers are Northampton Town, the football club."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premiership_Rugby"],
+    "unsure": []
+  },
+  {
+    "team": "Sale Sharks",
+    "espnId": "25908",
+    "league": "rugby/267979",
+    "aliases": ["sale", "sale sharks"],
+    "nickname": "the Sharks",
+    "fans": "",
+    "ground": "the CorpAcq Stadium",
+    "rivals": [
+      {"team": "Leicester Tigers", "name": "Tigers", "derby": ""},
+      {"team": "Newcastle Red Bulls", "name": "Newcastle", "derby": ""}
+    ],
+    "legends": ["Jason Robinson", "Charlie Hodgson", "Mark Cueto", "Sébastien Chabal"],
+    "memory": "2006: Premiership champions, beating Leicester 45-20 in the final at Twickenham",
+    "lingo": [
+      {"term": "the Sharks", "say": "the SHARKS", "means": "The team. Fans say Sale or the Sharks."},
+      {"term": "the CorpAcq", "say": "the KORP-ak", "means": "Their ground in Salford, renamed in 2025. It used to be the AJ Bell Stadium."}
+    ],
+    "lines": [
+      {"t": "Proper northern rugby: hard and physical.", "m": "Fans are proud to be the north-west's top-flight club."},
+      {"t": "Come on, Sale!", "m": "The basic shout."},
+      {"t": "That 2006 side was something special.", "m": "Fans still talk about the title-winning team."}
+    ],
+    "avoid": [
+      {"say": "the AJ Bell", "instead": "the CorpAcq", "why": "The ground has been renamed. AJ Bell is the old name."},
+      {"say": "Sale play in Sale", "instead": "they play in Salford", "why": "The ground is in Salford, a few miles from the town of Sale."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/CorpAcq_Stadium", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby"],
+    "unsure": ["rivals: no clear traditional rival or derby name found"]
+  },
+  {
+    "team": "Saracens",
+    "espnId": "25909",
+    "league": "rugby/267979",
+    "aliases": ["saracens", "sarries"],
+    "nickname": "Sarries",
+    "fans": "",
+    "ground": "the StoneX Stadium",
+    "rivals": [
+      {"team": "Harlequins", "name": "Quins", "derby": "the London derby"},
+      {"team": "Exeter Chiefs", "name": "Exeter", "derby": ""}
+    ],
+    "legends": ["Richard Hill", "Brad Barritt", "Schalk Brits"],
+    "memory": "2016: the double, winning the Champions Cup and the Premiership",
+    "lingo": [
+      {"term": "Sarries", "say": "SA-reez", "means": "What everyone calls Saracens."},
+      {"term": "the Wolfpack", "say": "the WULF-pak", "means": "Nickname for Saracens' famous rush defence, which hunts in packs."}
+    ],
+    "lines": [
+      {"t": "Sarries love a big final.", "m": "The club won a string of trophies in the late 2010s."},
+      {"t": "That defence just suffocates people.", "m": "Saracens are known for rushing up fast in defence."},
+      {"t": "Quins away is always a good one.", "m": "Talk about the London derby."}
+    ],
+    "avoid": [
+      {"say": "Allianz Park", "instead": "the StoneX", "why": "The ground was renamed around 2020. Allianz is now Twickenham's sponsor."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premiership_Rugby"],
+    "unsure": []
+  },
+  {
+    "team": "Benetton Treviso",
+    "espnId": "25927",
+    "league": "rugby/270557",
+    "aliases": ["benetton", "treviso", "benetton treviso", "benetton rugby"],
+    "nickname": "i Leoni",
+    "fans": "",
+    "ground": "Monigo",
+    "rivals": [
+      {"team": "Zebre Parma", "name": "Zebre", "derby": "the Italian derby"}
+    ],
+    "legends": ["Leonardo Ghiraldini", "Alessandro Zanni"],
+    "memory": "2021: won the Rainbow Cup, beating the Bulls 35-8 in Treviso",
+    "lingo": [
+      {"term": "i Leoni", "say": "ee leh-OH-nee", "means": "'The Lions', the club's nickname."},
+      {"term": "Monigo", "say": "MOH-nee-go", "means": "Short for the Stadio Comunale di Monigo, their compact ground in Treviso."}
+    ],
+    "lines": [
+      {"t": "Forza Benetton!", "m": "'Come on, Benetton!' The basic shout."},
+      {"t": "Monigo's a tough place to go on a wet night.", "m": "Home-ground pride."},
+      {"t": "The derby with Zebre decides who's top in Italy.", "m": "Use it when Zebre come up."}
+    ],
+    "avoid": [
+      {"say": "Benetton are Italy's only pro team", "instead": "Benetton and Zebre", "why": "Italy has two sides in the URC."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Benetton_Rugby", "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": ["legends: retirement and current roles not re-checked"]
+  },
+  {
+    "team": "Bulls",
+    "espnId": "25953",
+    "league": "rugby/270557",
+    "aliases": ["bulls", "blue bulls", "vodacom bulls", "pretoria"],
+    "nickname": "the Bulls",
+    "fans": "",
+    "ground": "Loftus",
+    "rivals": [
+      {"team": "Stormers", "name": "the Stormers", "derby": "the North-South derby"},
+      {"team": "Lions", "name": "the Lions", "derby": "the Jukskei derby"}
+    ],
+    "legends": ["Victor Matfield", "Bakkies Botha", "Fourie du Preez", "Naas Botha"],
+    "memory": "2007: Bryan Habana's late try won the Super 14 final in Durban, the first Super Rugby title for a South African side",
+    "lingo": [
+      {"term": "Loftus", "say": "LOF-tuss", "means": "Loftus Versfeld, their stadium in Pretoria."},
+      {"term": "Blou Bulle", "say": "BLOH BULL-uh", "means": "Afrikaans for 'Blue Bulls', the old name fans still use."}
+    ],
+    "lines": [
+      {"t": "Come to Loftus and see how your lungs cope.", "m": "Pretoria is high up, and visitors tire late in games."},
+      {"t": "Nothing better than beating the Stormers.", "m": "The North-South rivalry is the big one."},
+      {"t": "Bulls rugby: big forwards, kick, chase.", "m": "The traditional Bulls style."}
+    ],
+    "avoid": [
+      {"say": "the Bulls from Johannesburg", "instead": "the Bulls from Pretoria", "why": "Johannesburg is the Lions. The Bulls are a Pretoria team."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship", "https://www.timeslive.co.za/sport/rugby/2026-01-28-lions-want-to-roar-on-home-turf-in-jukskei-derby/"],
+    "unsure": ["rivals: 'North-South derby' name for Bulls v Stormers not re-checked against a source"]
+  },
+  {
+    "team": "Cardiff Blues",
+    "espnId": "25965",
+    "league": "rugby/270557",
+    "aliases": ["cardiff", "cardiff rugby", "cardiff blues", "blue and blacks"],
+    "nickname": "the Blue and Blacks",
+    "fans": "",
+    "ground": "the Arms Park",
+    "rivals": [
+      {"team": "Ospreys", "name": "the Ospreys", "derby": ""},
+      {"team": "Scarlets", "name": "the Scarlets", "derby": ""},
+      {"team": "Dragons", "name": "the Dragons", "derby": ""}
+    ],
+    "legends": ["Gareth Edwards", "Barry John", "Martyn Williams", "Sam Warburton"],
+    "memory": "2018: won the Challenge Cup, beating Gloucester 31-30 in Bilbao",
+    "lingo": [
+      {"term": "the Arms Park", "say": "the ARMZ park", "means": "Cardiff Arms Park, the club's home right next to the national stadium."},
+      {"term": "the Blue and Blacks", "say": "the BLOO and BLAKS", "means": "Nickname from the club's colours."}
+    ],
+    "lines": [
+      {"t": "Arms Park on a Friday night. Nothing like it.", "m": "Fans love their old city-centre ground."},
+      {"t": "Founded in 1876. There's a lot of history here.", "m": "The club is one of the oldest in Wales, marking its 150th season in 2026-27."},
+      {"t": "Beating the Ospreys never gets old.", "m": "Welsh derby banter."}
+    ],
+    "avoid": [
+      {"say": "Cardiff Blues", "instead": "Cardiff, or Cardiff Rugby", "why": "The club dropped 'Blues' in 2021."},
+      {"say": "Cardiff City", "instead": "Cardiff", "why": "Cardiff City are the football club."}
+    ],
+    "sources": ["https://www.cardiffrugby.wales/news/2026-27-urc-fixture-list-confirmed-in-landmark-150th-season/", "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": []
+  },
+  {
+    "team": "Connacht",
+    "espnId": "25923",
+    "league": "rugby/270557",
+    "aliases": ["connacht", "connacht rugby", "galway"],
+    "nickname": "",
+    "fans": "the Clan",
+    "ground": "the Dexcom Stadium (the Sportsground)",
+    "rivals": [
+      {"team": "Leinster", "name": "Leinster", "derby": "the interpro"},
+      {"team": "Munster", "name": "Munster", "derby": "the interpro"},
+      {"team": "Ulster", "name": "Ulster", "derby": "the interpro"}
+    ],
+    "legends": ["Eric Elwood", "Michael Swift", "Gavin Duffy"],
+    "memory": "2016: Pro12 champions, beating Leinster 20-10 in the final at Murrayfield",
+    "lingo": [
+      {"term": "the Clan", "say": "the KLAN", "means": "Connacht's supporters. The new Clan Stand at the ground is named after them."},
+      {"term": "the Sportsground", "say": "the SPORTS-grownd", "means": "The old name for their Galway home, now the Dexcom Stadium after a rebuild opened in 2026."}
+    ],
+    "lines": [
+      {"t": "Let them come to Galway in the wind and rain.", "m": "Visitors hate the weather at the Sportsground."},
+      {"t": "Remember 2016? Nobody gave us a chance.", "m": "The underdog title win is the club's proudest moment."},
+      {"t": "Beating Leinster means more than beating anyone.", "m": "The big neighbours from Dublin are the team to beat."}
+    ],
+    "avoid": [
+      {"say": "Connacht, the Cork team", "instead": "Connacht, the Galway team", "why": "Cork is Munster country. Connacht is the west of Ireland."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/The_Sportsground", "https://www.gov.ie/en/department-of-culture-communications-and-sport/press-releases/connacht-rugby-celebrates-official-opening-of-redeveloped-dexcom-stadium"],
+    "unsure": ["legends: Eric Elwood's current role not re-checked"]
+  },
+  {
+    "team": "Dragons",
+    "espnId": "25967",
+    "league": "rugby/270557",
+    "aliases": ["dragons", "dragons rfc", "newport gwent dragons", "newport"],
+    "nickname": "the Dragons",
+    "fans": "",
+    "ground": "Rodney Parade",
+    "rivals": [
+      {"team": "Cardiff Rugby", "name": "Cardiff", "derby": ""},
+      {"team": "Scarlets", "name": "the Scarlets", "derby": ""},
+      {"team": "Ospreys", "name": "the Ospreys", "derby": ""}
+    ],
+    "legends": ["Percy Montgomery", "Ian Gough", "Gareth Cooper", "Colin Charvis"],
+    "memory": "1963: Newport beat the All Blacks 3-0 at Rodney Parade, the ground the Dragons now call home",
+    "lingo": [
+      {"term": "Rodney Parade", "say": "ROD-nee puh-RAYD", "means": "Their ground in Newport, by the River Usk."},
+      {"term": "Gwent", "say": "GWENT", "means": "The old county the region represents, around Newport and the valleys to the north."}
+    ],
+    "lines": [
+      {"t": "Nobody likes coming to Rodney Parade.", "m": "Home-ground pride."},
+      {"t": "The Cardiff derby is the one that counts.", "m": "The neighbours down the M4 are the big rival."},
+      {"t": "This ground beat the All Blacks once. It can do anything.", "m": "A nod to Newport's famous 1963 win."}
+    ],
+    "avoid": [
+      {"say": "Newport Gwent Dragons", "instead": "the Dragons", "why": "The club dropped 'Newport Gwent' in 2017."},
+      {"say": "Newport County", "instead": "the Dragons", "why": "Newport County are the football club."}
+    ],
+    "sources": ["https://dragonsrfc.wales/news/2020/april/ultimate-xv-final-team-announced.html", "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": []
+  },
+  {
+    "team": "Edinburgh",
+    "espnId": "25951",
+    "league": "rugby/270557",
+    "aliases": ["edinburgh", "edinburgh rugby"],
+    "nickname": "",
+    "fans": "",
+    "ground": "the Hive Stadium",
+    "rivals": [
+      {"team": "Glasgow Warriors", "name": "Glasgow", "derby": "the 1872 Cup"}
+    ],
+    "legends": ["Chris Paterson", "Allan Jacobsen", "Ross Ford"],
+    "memory": "2012: reached the Heineken Cup semi-finals, their best European run",
+    "lingo": [
+      {"term": "the 1872 Cup", "say": "the AYT-teen SEV-un-tee TOO cup", "means": "The trophy for the derby against Glasgow, named after the year the two first played."},
+      {"term": "the Hive", "say": "the HYV", "means": "Their purpose-built stadium right next to Murrayfield."}
+    ],
+    "lines": [
+      {"t": "Winning the 1872 Cup makes the season.", "m": "Glasgow are the team everyone wants to beat."},
+      {"t": "The Hive's small, but it's loud and it's ours.", "m": "Fans like having their own ground at last."},
+      {"t": "East against west. Always a battle.", "m": "How fans frame the Glasgow derby."}
+    ],
+    "avoid": [
+      {"say": "Edinburgh play at Murrayfield", "instead": "they play at the Hive", "why": "They moved into their own stadium next door in 2022. Murrayfield is mainly for Scotland."}
+    ],
+    "sources": ["https://edinburghrugby.org/news-and-features/2026-27-bkt-united-rugby-championship-fixtures-announced/", "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": []
+  },
+  {
+    "team": "Glasgow Warriors",
+    "espnId": "25952",
+    "league": "rugby/270557",
+    "aliases": ["glasgow", "glasgow warriors", "warriors"],
+    "nickname": "the Warriors",
+    "fans": "",
+    "ground": "Scotstoun",
+    "rivals": [
+      {"team": "Edinburgh", "name": "Edinburgh", "derby": "the 1872 Cup"}
+    ],
+    "legends": ["Al Kellock", "Gordon Bulloch"],
+    "memory": "2024: won the URC final away to the Bulls in Pretoria",
+    "lingo": [
+      {"term": "Scotstoun", "say": "SKOTS-tun", "means": "Their ground in the west of Glasgow."},
+      {"term": "the 1872 Cup", "say": "the AYT-teen SEV-un-tee TOO cup", "means": "The derby trophy against Edinburgh."}
+    ],
+    "lines": [
+      {"t": "Friday night at Scotstoun is a cracking night out.", "m": "Fans love the home atmosphere."},
+      {"t": "Glasgow play fast. Ball in hand, keep it moving.", "m": "The Warriors' attacking style."},
+      {"t": "We went to Pretoria and won the final. Never forget it.", "m": "The 2024 title came against the odds."}
+    ],
+    "avoid": [
+      {"say": "Glasgow play at Hampden", "instead": "Glasgow play at Scotstoun", "why": "Scotstoun is home. Hampden is the football stadium, used only for the odd big game."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": []
+  },
+  {
+    "team": "Leinster",
+    "espnId": "25924",
+    "league": "rugby/270557",
+    "aliases": ["leinster", "leinster rugby"],
+    "nickname": "",
+    "fans": "",
+    "ground": "the RDS",
+    "rivals": [
+      {"team": "Munster", "name": "Munster", "derby": "the interpro"},
+      {"team": "Ulster", "name": "Ulster", "derby": "the interpro"}
+    ],
+    "legends": ["Brian O'Driscoll", "Gordon D'Arcy", "Shane Horgan"],
+    "memory": "2011: came from 22-6 down at half-time to beat Northampton 33-22 in the Heineken Cup final",
+    "lingo": [
+      {"term": "the RDS", "say": "the AR-dee-ESS", "means": "The Royal Dublin Society showground in Ballsbridge, their home."},
+      {"term": "interpro", "say": "IN-ter-proh", "means": "A game between two Irish provinces. Munster is the big one."}
+    ],
+    "lines": [
+      {"t": "Munster at the Aviva: the ticket everyone wants.", "m": "Big interpros move to the national stadium."},
+      {"t": "Leinster expect to win the trophy every year.", "m": "Rivals tease them for it, but fans own it."},
+      {"t": "Big crowd at the RDS tonight.", "m": "Safe chat on any home match day."}
+    ],
+    "avoid": [
+      {"say": "LINE-ster", "instead": "LEN-ster", "why": "The first part rhymes with 'ten', not 'fine'."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": []
+  },
+  {
+    "team": "Lions",
+    "espnId": "25958",
+    "league": "rugby/270557",
+    "aliases": ["lions", "golden lions", "johannesburg lions", "transvaal"],
+    "nickname": "the Lions",
+    "fans": "",
+    "ground": "Ellis Park",
+    "rivals": [
+      {"team": "Bulls", "name": "the Bulls", "derby": "the Jukskei derby"},
+      {"team": "Stormers", "name": "the Stormers", "derby": ""}
+    ],
+    "legends": ["François Pienaar", "Hennie le Roux"],
+    "memory": "2016 to 2018: three Super Rugby finals in a row",
+    "lingo": [
+      {"term": "the Jukskei derby", "say": "the YUK-skay DAR-bee", "means": "Games against the Bulls, named after a river in Gauteng."},
+      {"term": "Ellis Park", "say": "EL-iss PARK", "means": "Their Johannesburg stadium, officially 10bet Ellis Park since July 2026."}
+    ],
+    "lines": [
+      {"t": "Ellis Park is where the Boks won the World Cup in '95. History everywhere.", "m": "Fans are proud of the stadium's past."},
+      {"t": "Beat the Bulls and the season's made.", "m": "The Jukskei derby matters most."},
+      {"t": "The Lions like to run. Keep the ball alive.", "m": "The side's attacking style."}
+    ],
+    "avoid": [
+      {"say": "the British and Irish Lions", "instead": "the Lions from Johannesburg", "why": "Totally different team. The URC Lions are the Johannesburg side."},
+      {"say": "Emirates Airline Park", "instead": "Ellis Park", "why": "The Emirates deal ended in 2025. Fans always said Ellis Park anyway."}
+    ],
+    "sources": ["https://www.ewn.co.za/2026/07/03/ellis-park-gets-new-name-after-securing-rights-deal-with-10bet", "https://www.timeslive.co.za/sport/rugby/2026-01-28-lions-want-to-roar-on-home-turf-in-jukskei-derby/"],
+    "unsure": ["legends: both from the old Transvaal era; no modern-era retired greats confirmed"]
+  },
+  {
+    "team": "Munster",
+    "espnId": "25925",
+    "league": "rugby/270557",
+    "aliases": ["munster", "munster rugby", "limerick"],
+    "nickname": "",
+    "fans": "the Red Army",
+    "ground": "Thomond Park",
+    "rivals": [
+      {"team": "Leinster", "name": "Leinster", "derby": "the interpro"}
+    ],
+    "legends": ["Mick Galwey", "Peter Clohessy", "Alan Quinlan", "Doug Howlett"],
+    "memory": "1978: beat the All Blacks 12-0 at Thomond Park",
+    "lingo": [
+      {"term": "the Red Army", "say": "the RED AR-mee", "means": "Munster's supporters, famous for travelling in huge numbers."},
+      {"term": "Thomond", "say": "TOH-mund", "means": "Short for Thomond Park, their home in Limerick."}
+    ],
+    "lines": [
+      {"t": "Silence for the kicker. Both teams.", "m": "Thomond Park goes quiet for every kick at goal. It's a point of pride."},
+      {"t": "Here comes 'Stand Up and Fight'.", "m": "The fans' anthem, sung when the game gets tight."},
+      {"t": "Leinster at home: the one we all want.", "m": "The big interpro rivalry."}
+    ],
+    "avoid": [
+      {"say": "booing the opposition kicker", "instead": "staying silent", "why": "Munster fans respect every kicker. Making noise marks you as a stranger."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": []
+  },
+  {
+    "team": "Ospreys",
+    "espnId": "25968",
+    "league": "rugby/270557",
+    "aliases": ["ospreys", "the ospreys", "ospreylia"],
+    "nickname": "the Ospreys",
+    "fans": "",
+    "ground": "St Helen's",
+    "rivals": [
+      {"team": "Scarlets", "name": "the Scarlets", "derby": "the west Wales derby"},
+      {"team": "Cardiff Rugby", "name": "Cardiff", "derby": ""}
+    ],
+    "legends": ["Shane Williams", "Tommy Bowe"],
+    "memory": "2012: Shane Williams' late try won the Pro12 final 31-30 against Leinster in Dublin",
+    "lingo": [
+      {"term": "Ospreylia", "say": "oss-PRAY-lee-uh", "means": "Fans' name for the Ospreys region and its supporters."},
+      {"term": "St Helen's", "say": "saynt HEL-unz", "means": "The historic seafront ground in Swansea where the Ospreys now play."}
+    ],
+    "lines": [
+      {"t": "Beating the Scarlets is all that matters.", "m": "The west Wales derby is the big one."},
+      {"t": "Rugby by the sea at St Helen's. Can't beat it.", "m": "Fans like being back at the old Swansea ground."},
+      {"t": "Four league titles. Don't let anyone forget it.", "m": "The Ospreys won the league in 2005, 2007, 2010 and 2012."}
+    ],
+    "avoid": [
+      {"say": "the Swans", "instead": "the Ospreys", "why": "The Swans are Swansea City, the football club."},
+      {"say": "the Liberty Stadium", "instead": "St Helen's", "why": "The Ospreys left the football ground. St Helen's is home now."}
+    ],
+    "sources": ["https://www.ospreysrugby.com/news/2627-bkt-urc-fixtures-annouced-st-helens", "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship", "https://www.rugbypass.com/news/wru-makes-major-statement-over-futures-of-cardiff-and-ospreys/"],
+    "unsure": ["ground: St Helen's confirmed for 2026-27 fixtures, but the WRU's plan to cut Wales to three pro teams could change the Ospreys' future after this season"]
+  },
+  {
+    "team": "Scarlets",
+    "espnId": "25966",
+    "league": "rugby/270557",
+    "aliases": ["scarlets", "llanelli", "llanelli scarlets"],
+    "nickname": "the Scarlets",
+    "fans": "",
+    "ground": "Parc y Scarlets",
+    "rivals": [
+      {"team": "Ospreys", "name": "the Ospreys", "derby": "the west Wales derby"},
+      {"team": "Cardiff Rugby", "name": "Cardiff", "derby": ""}
+    ],
+    "legends": ["Phil Bennett", "Ray Gravell", "Scott Quinnell"],
+    "memory": "1972: Llanelli beat the All Blacks 9-3 at Stradey Park",
+    "lingo": [
+      {"term": "Sosban Fach", "say": "SOS-ban VAKH", "means": "'Little saucepan', the Welsh folk song Scarlets fans sing. Saucepans sit on top of the posts."},
+      {"term": "the Parc", "say": "the PARK", "means": "Short for Parc y Scarlets, their home in Llanelli."}
+    ],
+    "lines": [
+      {"t": "The Scarlets way: run it from anywhere.", "m": "The club is known for open, attacking rugby."},
+      {"t": "You'll hear 'Sosban Fach' before the end.", "m": "The fans' song, by name only."},
+      {"t": "The Ospreys? Don't get me started.", "m": "Mild derby banter."}
+    ],
+    "avoid": [
+      {"say": "LAN-elly", "instead": "thlan-ETH-lee", "why": "The Welsh 'll' is a breathy sound, and the stress is in the middle."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": []
+  },
+  {
+    "team": "Sharks",
+    "espnId": "25961",
+    "league": "rugby/270557",
+    "aliases": ["sharks", "hollywoodbets sharks", "durban sharks", "natal sharks"],
+    "nickname": "the Sharks",
+    "fans": "",
+    "ground": "Kings Park",
+    "rivals": [
+      {"team": "Bulls", "name": "the Bulls", "derby": ""},
+      {"team": "Stormers", "name": "the Stormers", "derby": ""}
+    ],
+    "legends": ["John Smit", "Gary Teichmann", "André Joubert"],
+    "memory": "2024: won the Challenge Cup, the first European trophy for a South African side",
+    "lingo": [
+      {"term": "the Shark Tank", "say": "the SHARK TANK", "means": "Nickname for Kings Park, their stadium in Durban."},
+      {"term": "Natal", "say": "nuh-TAL", "means": "The old provincial name. Older fans still say the Natal Sharks."}
+    ],
+    "lines": [
+      {"t": "Braai before the game, Sharks win after it.", "m": "A braai is a South African barbecue. Car-park braais are part of match day."},
+      {"t": "Black and white all over Durban this weekend.", "m": "The club's colours."},
+      {"t": "Kings Park in the heat: the visitors are cooked.", "m": "Durban's humidity is a home advantage."}
+    ],
+    "avoid": [
+      {"say": "Sale Sharks", "instead": "the Sharks from Durban", "why": "Sale are an English club. These Sharks play in Durban."}
+    ],
+    "sources": ["https://rugby365.com/tournaments/united-rugby-championship/springbok-stars-fire-sharks-past-leinster/", "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"],
+    "unsure": []
+  },
+  {
+    "team": "Stormers",
+    "espnId": "25962",
+    "league": "rugby/270557",
+    "aliases": ["stormers", "dhl stormers", "western province", "cape town"],
+    "nickname": "the Stormers",
+    "fans": "",
+    "ground": "the DHL Stadium",
+    "rivals": [
+      {"team": "Bulls", "name": "the Bulls", "derby": "the North-South derby"},
+      {"team": "Sharks", "name": "the Sharks", "derby": ""}
+    ],
+    "legends": ["Bob Skinstad", "Schalk Burger", "Jean de Villiers"],
+    "memory": "2022: won the first URC final, beating the Bulls in Cape Town",
+    "lingo": [
+      {"term": "WP", "say": "DUB-ul-yoo PEE", "means": "Western Province, the union behind the Stormers. Older fans still say it."},
+      {"term": "Newlands", "say": "NYOO-lundz", "means": "Their famous old ground. They left it for the stadium by the sea in 2021."}
+    ],
+    "lines": [
+      {"t": "Beat the Bulls and Cape Town's happy for a week.", "m": "The North-South rivalry is the big one."},
+      {"t": "Table Mountain on one side, the Atlantic on the other. Best setting in rugby.", "m": "Cape Town pride."},
+      {"t": "We miss Newlands, but the new place gets rocking.", "m": "Fans still talk fondly about the old ground."}
+    ],
+    "avoid": [
+      {"say": "the Stormers play at Newlands", "instead": "they play at the DHL Stadium", "why": "They moved to the old World Cup football stadium in Green Point in 2021."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Cape_Town_Stadium", "https://stormers.co.za/cape-town-stadium-welcomes-name-change-to-become-dhl-stadium-following-multi-year-naming-rights-partnership-with-dhl/"],
+    "unsure": ["rivals: 'North-South derby' name not re-checked against a source"]
+  },
+  {
+    "team": "Ulster",
+    "espnId": "25926",
+    "league": "rugby/270557",
+    "aliases": ["ulster", "ulster rugby", "belfast"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Ravenhill (the Affidea Stadium)",
+    "rivals": [
+      {"team": "Leinster", "name": "Leinster", "derby": "the interpro"},
+      {"team": "Munster", "name": "Munster", "derby": "the interpro"}
+    ],
+    "legends": ["Rory Best", "Stephen Ferris", "Willie John McBride"],
+    "memory": "1999: won the Heineken Cup, beating Colomiers at Lansdowne Road",
+    "lingo": [
+      {"term": "Ravenhill", "say": "RAY-vun-hill", "means": "Their Belfast ground. Fans call it Ravenhill whoever the sponsor is."},
+      {"term": "interpro", "say": "IN-ter-proh", "means": "A derby against another Irish province."}
+    ],
+    "lines": [
+      {"t": "Ravenhill on a Friday night is hard to beat.", "m": "Fans love the home atmosphere."},
+      {"t": "Beat Leinster and it's been a good season.", "m": "Leinster are the side everyone measures against."},
+      {"t": "1999 was the day. Lansdowne Road full of Ulster fans.", "m": "The European title is the club's proudest moment."}
+    ],
+    "avoid": [
+      {"say": "the Kingspan Stadium", "instead": "Ravenhill, or the Affidea", "why": "The sponsor changed in 2025. Kingspan is the old name."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Ravenhill_Stadium"],
+    "unsure": []
+  },
+  {
+    "team": "Zebre",
+    "espnId": "167124",
+    "league": "rugby/270557",
+    "aliases": ["zebre", "zebre parma", "parma"],
+    "nickname": "le Zebre",
+    "fans": "",
+    "ground": "the Lanfranchi",
+    "rivals": [
+      {"team": "Benetton Rugby", "name": "Benetton", "derby": "the Italian derby"}
+    ],
+    "legends": [],
+    "memory": "2012: founded as Italy's second professional side, taking Aironi's place in the league",
+    "lingo": [
+      {"term": "Zebre", "say": "ZEH-breh", "means": "Italian for 'zebras', after the old black-and-white invitation team of the same name."},
+      {"term": "the Lanfranchi", "say": "the lan-FRAN-kee", "means": "Stadio Sergio Lanfranchi in Parma, named after a local rugby great."}
+    ],
+    "lines": [
+      {"t": "Forza Zebre!", "m": "'Come on, Zebre!' The basic shout."},
+      {"t": "Benetton at home is the game we want.", "m": "The Italian derby is the big one."},
+      {"t": "Parma's a rugby city as much as a food city.", "m": "Local pride. Parma has a long rugby history."}
+    ],
+    "avoid": [
+      {"say": "ZEE-bruh", "instead": "ZEH-breh", "why": "It's Italian: two syllables, short 'e' sounds."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Zebre_Parma", "https://www.zebreparma.it/en-ww/lanfranchi-stadium.aspx"],
+    "unsure": ["legends: no clear retired greats confirmed for a pro club founded in 2012"]
+  },
+  {
+    "team": "England",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["england", "red rose", "eng", "english"],
+    "nickname": "the Red Rose",
+    "fans": "",
+    "ground": "Twickenham (officially the Allianz Stadium)",
+    "rivals": [
+      {"team": "Scotland", "name": "Scotland", "derby": "the Calcutta Cup"},
+      {"team": "France", "name": "France", "derby": "le Crunch"},
+      {"team": "Wales", "name": "Wales", "derby": ""}
+    ],
+    "legends": ["Jonny Wilkinson", "Martin Johnson", "Jason Leonard", "Will Carling"],
+    "memory": "2003: Jonny Wilkinson's extra-time drop goal won the World Cup final against Australia in Sydney",
+    "lingo": [
+      {"term": "Twickers", "say": "TWICK-uz", "means": "Fans' slang for Twickenham. Its official name has been the Allianz Stadium since 2024."},
+      {"term": "the Red Rose", "say": "the RED ROHZ", "means": "The rose on the shirt, and a nickname for the team."},
+      {"term": "the Calcutta Cup", "say": "the kal-KUT-uh KUP", "means": "The trophy for England against Scotland, contested since 1879."},
+      {"term": "le Crunch", "say": "luh KRUNSH", "means": "England against France. Both sides treat it as the biggest game of the Six Nations."}
+    ],
+    "lines": [
+      {"t": "Once 'Swing Low' starts, you know it's on.", "m": "Fans sing 'Swing Low, Sweet Chariot' at Twickenham."},
+      {"t": "Losing the Calcutta Cup to Scotland is unbearable.", "m": "Scotland are the oldest rival."},
+      {"t": "Le Crunch is the one I really want to win.", "m": "France are the big Six Nations rival."},
+      {"t": "2003. Wilkinson. Right foot. Still gives me goosebumps.", "m": "The winning drop goal came off his weaker right foot."},
+      {"t": "Autumn Tests at Twickenham are the best day out.", "m": "November Tests are a big social event."}
+    ],
+    "avoid": [
+      {"say": "the English Lions", "instead": "England", "why": "The British and Irish Lions pick from four nations. England are not the Lions."},
+      {"say": "Wembley", "instead": "Twickenham", "why": "Wembley is football. England rugby plays at Twickenham."},
+      {"say": "the Six Nations trophy against Scotland", "instead": "the Calcutta Cup", "why": "The England-Scotland game has its own famous trophy."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Rugby_union_trophies_and_awards", "https://scottishrugby.org/nations-championship-2026/"],
+    "unsure": []
+  },
+  {
+    "team": "Wales",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["wales", "cymru", "welsh"],
+    "nickname": "",
+    "fans": "",
+    "ground": "the Principality (Principality Stadium, Cardiff)",
+    "rivals": [
+      {"team": "England", "name": "England", "derby": ""},
+      {"team": "Scotland", "name": "Scotland", "derby": "the Doddie Weir Cup"},
+      {"team": "Ireland", "name": "Ireland", "derby": ""}
+    ],
+    "legends": ["Gareth Edwards", "Barry John", "Gerald Davies", "Shane Williams"],
+    "memory": "2005: won the Grand Slam, Wales's first since 1978",
+    "lingo": [
+      {"term": "Cymru", "say": "KUM-ree", "means": "Welsh for Wales. You'll see it on flags and hear it chanted."},
+      {"term": "Hen Wlad Fy Nhadau", "say": "hen WLAD vuh NHAH-dye", "means": "The Welsh anthem, 'Land of My Fathers'. The crowd sings it in Welsh."},
+      {"term": "Calon Lân", "say": "KAL-on LAHN", "means": "A Welsh hymn the crowd sings at big games."},
+      {"term": "the roof", "say": "the ROOF", "means": "The Principality has a closing roof. Whether it's open or shut is a pre-match talking point."}
+    ],
+    "lines": [
+      {"t": "Roof shut, anthem on, hairs up on the back of your neck.", "m": "Fans love the closed-roof atmosphere in Cardiff."},
+      {"t": "Beating England is what it's all about.", "m": "England are the biggest rival."},
+      {"t": "Edwards, Barry John, Gerald: the seventies side was something else.", "m": "Older fans talk about the 1970s golden era."},
+      {"t": "Pint on Westgate Street before kick-off.", "m": "Match day in central Cardiff, right by the stadium."},
+      {"t": "Grand Slam years are the ones that count.", "m": "Wales measure great seasons in Grand Slams."}
+    ],
+    "avoid": [
+      {"say": "the Millennium Stadium", "instead": "the Principality", "why": "It was renamed in 2016, and the name is now secured until 2030."},
+      {"say": "SIM-roo", "instead": "KUM-ree", "why": "The Welsh 'y' and 'u' don't sound like English."},
+      {"say": "England and Wales are basically the same team", "instead": "Wales are their own nation", "why": "Lumping the Welsh in with England is the worst thing you can say."}
+    ],
+    "sources": ["https://www.sportbusiness.com/news/principality-stadium-moniker-to-remain-in-place/", "https://en.wikipedia.org/wiki/Rugby_union_trophies_and_awards"],
+    "unsure": []
+  },
+  {
+    "team": "Ireland",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["ireland", "irish", "ire"],
+    "nickname": "",
+    "fans": "",
+    "ground": "the Aviva (Lansdowne Road)",
+    "rivals": [
+      {"team": "England", "name": "England", "derby": "the Millennium Trophy"},
+      {"team": "New Zealand", "name": "the All Blacks", "derby": ""},
+      {"team": "Scotland", "name": "Scotland", "derby": "the Centenary Quaich"}
+    ],
+    "legends": ["Brian O'Driscoll", "Keith Wood", "Rory Best", "Willie John McBride"],
+    "memory": "2016: first ever win over the All Blacks, 40-29 in Chicago",
+    "lingo": [
+      {"term": "Ireland's Call", "say": "EYE-er-lundz KAWL", "means": "The rugby anthem, written for a team that represents the whole island."},
+      {"term": "Lansdowne Road", "say": "LANZ-down ROHD", "means": "The old ground on the Aviva's site. Older fans still use the name."},
+      {"term": "the Triple Crown", "say": "the TRIP-ul KROWN", "means": "Beating England, Scotland and Wales in the same Six Nations."},
+      {"term": "the Centenary Quaich", "say": "the sen-TEE-nuh-ree KWAYKH", "means": "The trophy for Ireland against Scotland. A quaich is a Scottish drinking cup."}
+    ],
+    "lines": [
+      {"t": "Ireland's Call before kick-off gets the whole ground going.", "m": "Fans and players sing the rugby anthem together."},
+      {"t": "A Triple Crown is lovely, but we want the Grand Slam.", "m": "Fans have high hopes every spring."},
+      {"t": "Chicago 2016. Never forget it.", "m": "Ireland's first ever win over New Zealand."},
+      {"t": "The Aviva's rocking tonight.", "m": "Safe chat on any home match day."}
+    ],
+    "avoid": [
+      {"say": "the Republic of Ireland team", "instead": "Ireland", "why": "Rugby's Ireland team represents the whole island, north and south."},
+      {"say": "Lansdowne Road was knocked down and they moved", "instead": "the Aviva stands on the Lansdowne Road site", "why": "The old ground was rebuilt as the Aviva in 2010, on the same spot."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Centenary_Quaich", "https://en.wikipedia.org/wiki/Rugby_union_trophies_and_awards"],
+    "unsure": []
+  },
+  {
+    "team": "Scotland",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["scotland", "scots", "sco", "scottish"],
+    "nickname": "",
+    "fans": "",
+    "ground": "Murrayfield (Scottish Gas Murrayfield)",
+    "rivals": [
+      {"team": "England", "name": "England", "derby": "the Calcutta Cup"},
+      {"team": "Ireland", "name": "Ireland", "derby": "the Centenary Quaich"},
+      {"team": "France", "name": "France", "derby": "the Auld Alliance Trophy"}
+    ],
+    "legends": ["Gavin Hastings", "Andy Irvine", "Doddie Weir"],
+    "memory": "1990: beat England 13-7 at Murrayfield in a winner-takes-all Grand Slam decider",
+    "lingo": [
+      {"term": "the Calcutta Cup", "say": "the kal-KUT-uh KUP", "means": "The trophy for Scotland against England. The game of the year for most Scots."},
+      {"term": "Flower of Scotland", "say": "FLOW-er uv SKOT-lund", "means": "The anthem Scotland sing before kick-off."},
+      {"term": "the Auld Alliance", "say": "the AWLD uh-LY-unss", "means": "The old Scotland-France friendship. The two play for a trophy named after it."},
+      {"term": "Murrayfield", "say": "MUH-ree-feeld", "means": "Scotland's home in Edinburgh, officially Scottish Gas Murrayfield."}
+    ],
+    "lines": [
+      {"t": "Flower of Scotland at Murrayfield: nothing like it.", "m": "The anthem is a huge moment for fans."},
+      {"t": "Win the Calcutta Cup and the season's a success.", "m": "Beating England matters most."},
+      {"t": "1990. Grand Slam. England came up expecting to win.", "m": "The most famous Scotland win."},
+      {"t": "Scotland always fancy it against England at home.", "m": "Murrayfield optimism."},
+      {"t": "Pints on Rose Street, then the walk to Murrayfield.", "m": "A classic Edinburgh match-day routine."}
+    ],
+    "avoid": [
+      {"say": "the Tartan Army", "instead": "Scotland fans", "why": "The Tartan Army usually means Scotland's football fans."},
+      {"say": "Murrayfield in Glasgow", "instead": "Murrayfield in Edinburgh", "why": "Murrayfield is in Edinburgh. Hampden in Glasgow is football."},
+      {"say": "the Six Nations trophy against England", "instead": "the Calcutta Cup", "why": "That game has its own famous trophy."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Centenary_Quaich", "https://www.thestadiumbusiness.com/?p=75254", "https://en.wikipedia.org/wiki/Rugby_union_trophies_and_awards"],
+    "unsure": []
+  },
+  {
+    "team": "France",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["france", "les bleus", "fra", "french", "xv de france"],
+    "nickname": "Les Bleus",
+    "fans": "",
+    "ground": "the Stade de France (Saint-Denis)",
+    "rivals": [
+      {"team": "England", "name": "England", "derby": "le Crunch"},
+      {"team": "New Zealand", "name": "the All Blacks", "derby": ""},
+      {"team": "Italy", "name": "Italy", "derby": "the Giuseppe Garibaldi Trophy"}
+    ],
+    "legends": ["Serge Blanco", "Philippe Sella", "Jean-Pierre Rives", "Thierry Dusautoir"],
+    "memory": "1999: came back from 24-10 down to beat the All Blacks 43-31 in the World Cup semi-final at Twickenham",
+    "lingo": [
+      {"term": "Les Bleus", "say": "lay BLUH", "means": "'The Blues', the team's nickname from the shirt colour."},
+      {"term": "le XV de France", "say": "luh KANZ duh FRONSS", "means": "'The French Fifteen', how French media name the team."},
+      {"term": "le Crunch", "say": "luh KRUNSH", "means": "France against England. The game both sides want most."},
+      {"term": "French flair", "say": "FRENCH FLAIR", "means": "France's famous off-the-cuff attacking style."}
+    ],
+    "lines": [
+      {"t": "Allez les Bleus!", "m": "'Come on, Blues!' The standard shout."},
+      {"t": "When France get the offloads going, nobody can live with them.", "m": "Praise for French attacking flair."},
+      {"t": "La Marseillaise at the Stade de France gives me chills.", "m": "The anthem moment, by name only."},
+      {"t": "Beating England is sweeter than anything.", "m": "Le Crunch is the big one."},
+      {"t": "Which France turns up today? That's always the question.", "m": "Fans joke that France can be brilliant or baffling."}
+    ],
+    "avoid": [
+      {"say": "lez BLOOZ", "instead": "lay BLUH", "why": "It's French. The final 's' is silent."},
+      {"say": "the Stade de France in central Paris", "instead": "the Stade de France in Saint-Denis", "why": "It's just north of the city. Fans know the difference."}
+    ],
+    "sources": ["https://www.rugbypass.com/fr/news/il-y-aura-5-matchs-de-rugby-par-an-au-stade-de-france/", "https://en.wikipedia.org/wiki/Rugby_union_trophies_and_awards"],
+    "unsure": ["ground: the French federation is moving more Tests to regional grounds under a new Stade de France deal; Saint-Denis stays the main home"]
+  },
+  {
+    "team": "Italy",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["italy", "italia", "azzurri", "ita"],
+    "nickname": "the Azzurri",
+    "fans": "",
+    "ground": "the Stadio Olimpico (Rome)",
+    "rivals": [
+      {"team": "France", "name": "France", "derby": "the Giuseppe Garibaldi Trophy"},
+      {"team": "Scotland", "name": "Scotland", "derby": ""},
+      {"team": "Wales", "name": "Wales", "derby": ""}
+    ],
+    "legends": ["Diego Domínguez", "Martin Castrogiovanni", "Mauro Bergamasco"],
+    "memory": "2000: won their first ever Six Nations match, beating Scotland 34-20 in Rome",
+    "lingo": [
+      {"term": "gli Azzurri", "say": "lyee ad-ZOO-ree", "means": "'The Blues', the name for all Italian national teams."},
+      {"term": "Forza Azzurri", "say": "FOR-tsa ad-ZOO-ree", "means": "'Come on, Blues!' The standard shout."},
+      {"term": "the Garibaldi Trophy", "say": "the ga-ree-BAL-dee TROH-fee", "means": "The trophy for Italy against France."},
+      {"term": "Il Canto degli Italiani", "say": "eel KAN-toh DEL-yee ee-tal-YAH-nee", "means": "The national anthem, belted out by players and fans."}
+    ],
+    "lines": [
+      {"t": "Rome in the sunshine. Best away trip in the Six Nations.", "m": "Visiting fans love a Rome weekend. Italy fans are proud of it."},
+      {"t": "Italy are no pushovers any more.", "m": "Italy beat Wales in Cardiff in 2022 and Scotland in Rome in 2024."},
+      {"t": "Nobody sings the anthem like the Azzurri.", "m": "Italian players are famous for their passionate anthem."},
+      {"t": "Forza Azzurri!", "m": "The basic shout."}
+    ],
+    "avoid": [
+      {"say": "Italy always get the wooden spoon", "instead": "Italy have turned a corner", "why": "Fans are sick of that jibe, and Italy now beat the bigger sides."},
+      {"say": "the San Siro", "instead": "the Olimpico", "why": "The San Siro is in Milan, for football. Six Nations games are in Rome."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Rugby_union_trophies_and_awards"],
+    "unsure": ["ground: Olimpico is the Six Nations home; autumn Tests often move to other Italian cities"]
+  },
+  {
+    "team": "New Zealand",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["new zealand", "all blacks", "nz", "abs"],
+    "nickname": "the All Blacks",
+    "fans": "",
+    "ground": "Eden Park (Auckland)",
+    "rivals": [
+      {"team": "Australia", "name": "the Wallabies", "derby": "the Bledisloe Cup"},
+      {"team": "South Africa", "name": "the Springboks", "derby": "the Freedom Cup"},
+      {"team": "England", "name": "England", "derby": ""}
+    ],
+    "legends": ["Richie McCaw", "Dan Carter", "Jonah Lomu", "Colin Meads"],
+    "memory": "2011: won the World Cup final 8-7 against France at Eden Park",
+    "lingo": [
+      {"term": "the haka", "say": "the HAH-kah", "means": "The Māori challenge before kick-off. 'Ka Mate' is the classic one; 'Kapa o Pango' is the team's own."},
+      {"term": "the Bledisloe", "say": "the BLED-iz-loh", "means": "The Bledisloe Cup, played for against Australia since 1932."},
+      {"term": "the Fortress", "say": "the FOR-tress", "means": "Eden Park. As of late 2026 the All Blacks had not lost a Test there since 1994."},
+      {"term": "the Freedom Cup", "say": "the FREE-dum KUP", "means": "The trophy for New Zealand against South Africa."}
+    ],
+    "lines": [
+      {"t": "Nothing gets the blood up like the haka.", "m": "Fans love the pre-match challenge."},
+      {"t": "The Bledisloe stays here.", "m": "Banter with Australians over the trophy."},
+      {"t": "Eden Park's the Fortress.", "m": "A nod to the famous home record."},
+      {"t": "Black jersey, big expectations. Second place doesn't cut it.", "m": "New Zealand expects to win every game."},
+      {"t": "Springboks week. Proper rugby.", "m": "South Africa are the oldest, fiercest rival."}
+    ],
+    "avoid": [
+      {"say": "the Kiwis", "instead": "the All Blacks", "why": "The Kiwis are New Zealand's rugby league team."},
+      {"say": "the Black Ferns", "instead": "the All Blacks", "why": "The Black Ferns are the women's team. A great side, but a different one."},
+      {"say": "doing the haka yourself in the pub", "instead": "just watching it", "why": "It's a Māori cultural challenge, not a party trick."}
+    ],
+    "sources": ["https://www.rugby.com.au/news/record-eden-park-streak-creates-tension-for-all-blacks-2026109", "https://www.allblacks.com/news/all-blacks/all-blacks-2026-home-test-venues-announced"],
+    "unsure": []
+  },
+  {
+    "team": "South Africa",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["south africa", "springboks", "boks", "bokke", "rsa"],
+    "nickname": "the Springboks",
+    "fans": "",
+    "ground": "no single home: Ellis Park, Loftus, Cape Town's DHL Stadium and Kings Park all host Tests",
+    "rivals": [
+      {"team": "New Zealand", "name": "the All Blacks", "derby": "the Freedom Cup"},
+      {"team": "England", "name": "England", "derby": ""},
+      {"team": "Australia", "name": "the Wallabies", "derby": "the Mandela Challenge Plate"}
+    ],
+    "legends": ["François Pienaar", "Joost van der Westhuizen", "Bryan Habana", "Victor Matfield"],
+    "memory": "1995: won the World Cup at Ellis Park, with Nelson Mandela handing the trophy to captain François Pienaar",
+    "lingo": [
+      {"term": "Bokke", "say": "BOK-kuh", "means": "Afrikaans plural of Bok. Fans shout 'Go Bokke!'"},
+      {"term": "the Bomb Squad", "say": "the BOM SKWOD", "means": "The forward-heavy bench that comes on to finish games."},
+      {"term": "Nkosi Sikelel' iAfrika", "say": "in-KOH-see see-keh-LEH-lee AH-free-kah", "means": "The opening section of the national anthem, sung before every Test."},
+      {"term": "the Freedom Cup", "say": "the FREE-dum KUP", "means": "The trophy for South Africa against New Zealand."}
+    ],
+    "lines": [
+      {"t": "Go Bokke!", "m": "The standard shout."},
+      {"t": "Wait for the Bomb Squad. That's when we win it.", "m": "Fans trust the replacements to take over late on."},
+      {"t": "Beat the All Blacks and nothing else matters.", "m": "New Zealand are the great rival."},
+      {"t": "Four World Cups. Who's counting?", "m": "South Africa won in 1995, 2007, 2019 and 2023."},
+      {"t": "Braai, beers, Boks. Perfect Saturday.", "m": "Match day with a South African barbecue."}
+    ],
+    "avoid": [
+      {"say": "the Proteas", "instead": "the Springboks", "why": "The Proteas are the cricket team."},
+      {"say": "Bafana Bafana", "instead": "the Boks", "why": "Bafana Bafana are the football team."},
+      {"say": "SPRING-bucks", "instead": "SPRING-boks", "why": "It's 'boks', after the springbok antelope."}
+    ],
+    "sources": ["https://www.ewn.co.za/2026/07/03/ellis-park-gets-new-name-after-securing-rights-deal-with-10bet", "https://en.wikipedia.org/wiki/Cape_Town_Stadium"],
+    "unsure": []
+  },
+  {
+    "team": "Australia",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["australia", "wallabies", "aus", "aussies"],
+    "nickname": "the Wallabies",
+    "fans": "",
+    "ground": "no single home: Accor Stadium in Sydney and Suncorp Stadium in Brisbane are regulars",
+    "rivals": [
+      {"team": "New Zealand", "name": "the All Blacks", "derby": "the Bledisloe Cup"},
+      {"team": "England", "name": "England", "derby": "the Ella-Mobbs Trophy"},
+      {"team": "South Africa", "name": "the Springboks", "derby": "the Mandela Challenge Plate"}
+    ],
+    "legends": ["David Campese", "John Eales", "George Gregan", "Michael Lynagh"],
+    "memory": "1991 and 1999: two World Cup wins, the second in Cardiff",
+    "lingo": [
+      {"term": "Wallabies", "say": "WOL-uh-beez", "means": "The team's nickname, after the small cousin of the kangaroo."},
+      {"term": "the Bledisloe", "say": "the BLED-iz-loh", "means": "The Bledisloe Cup against New Zealand. Winning it back is the dream."},
+      {"term": "Waltzing Matilda", "say": "WOLT-sing muh-TIL-duh", "means": "The folk song fans sing in the stands."},
+      {"term": "the gold", "say": "the GOHLD", "means": "The famous gold jersey. Players talk about 'pulling on the gold'."}
+    ],
+    "lines": [
+      {"t": "Bledisloe week. Everything else can wait.", "m": "The New Zealand games matter most."},
+      {"t": "Run it. Aussies play running rugby.", "m": "Australia's traditional attacking style."},
+      {"t": "Campo was a genius. Nobody else ran like that.", "m": "David Campese was famous for his 'goose-step' running."},
+      {"t": "Get the gold on and get singing.", "m": "Match-day ritual. Fans sing 'Waltzing Matilda'."}
+    ],
+    "avoid": [
+      {"say": "the Kangaroos", "instead": "the Wallabies", "why": "The Kangaroos are Australia's rugby league team."},
+      {"say": "the Socceroos", "instead": "the Wallabies", "why": "The Socceroos are the football team."},
+      {"say": "Aussie rules", "instead": "rugby union", "why": "Aussie rules is a different sport altogether."}
+    ],
+    "sources": ["https://www.rugby.com.au/news/venues-confirmed-as-tickets-go-on-sale-for-2026-wallabies-home-tests-2026215", "https://en.wikipedia.org/wiki/Ella%E2%80%93Mobbs_Trophy"],
+    "unsure": []
+  },
+  {
+    "team": "Argentina",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["argentina", "pumas", "los pumas", "arg"],
+    "nickname": "Los Pumas",
+    "fans": "",
+    "ground": "no fixed home: Tests move around the country, with Vélez in Buenos Aires a regular",
+    "rivals": [
+      {"team": "Australia", "name": "the Wallabies", "derby": "the Puma Trophy"},
+      {"team": "England", "name": "England", "derby": ""},
+      {"team": "France", "name": "France", "derby": ""}
+    ],
+    "legends": ["Hugo Porta", "Agustín Pichot", "Juan Martín Hernández"],
+    "memory": "2007: finished third at the World Cup, beating hosts France twice",
+    "lingo": [
+      {"term": "Los Pumas", "say": "loss POO-mass", "means": "The team's nickname, given on a 1965 tour of South Africa."},
+      {"term": "el yaguareté", "say": "el ya-gwa-reh-TEH", "means": "The jaguar on the badge. The 'puma' name came from a journalist's mix-up."},
+      {"term": "la bajadita", "say": "la ba-ha-DEE-ta", "means": "Argentina's famous coordinated eight-man scrum push. A point of national pride."}
+    ],
+    "lines": [
+      {"t": "¡Vamos, Pumas!", "m": "'Come on, Pumas!' The standard shout."},
+      {"t": "Argentina scrum with their hearts.", "m": "Fans are proud of their forward pack."},
+      {"t": "2007 in France. Third in the world. Never forget it.", "m": "Argentina's breakthrough World Cup."},
+      {"t": "We've beaten the All Blacks now. Nobody laughs at us.", "m": "Argentina first beat New Zealand in 2020."}
+    ],
+    "avoid": [
+      {"say": "the puma on the badge", "instead": "the jaguar on the badge", "why": "The animal is a jaguar. The nickname came from a mix-up on the 1965 tour."},
+      {"say": "Argentina are a football country, not rugby", "instead": "Argentina are a serious rugby nation", "why": "Rugby is huge there, and the Pumas are a top side."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/1965_Argentina_rugby_union_tour_of_Rhodesia_and_South_Africa", "https://en.wikipedia.org/wiki/Argentina_national_rugby_union_team"],
+    "unsure": ["legends: Juan Martín Hernández's current role not re-checked"]
+  },
+  {
+    "team": "Fiji",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["fiji", "flying fijians", "fij", "fijians"],
+    "nickname": "the Flying Fijians",
+    "fans": "",
+    "ground": "HFC Bank Stadium, Suva",
+    "rivals": [
+      {"team": "Samoa", "name": "Samoa", "derby": ""},
+      {"team": "Tonga", "name": "Tonga", "derby": ""},
+      {"team": "Wales", "name": "Wales", "derby": ""}
+    ],
+    "legends": ["Waisale Serevi", "Nicky Little", "Rupeni Caucaunibuca"],
+    "memory": "2007: beat Wales 38-34 in Nantes to reach the World Cup quarter-finals",
+    "lingo": [
+      {"term": "the cibi", "say": "the THIM-bee", "means": "Fiji's pre-match war dance, their answer to the haka."},
+      {"term": "Bula", "say": "BOO-lah", "means": "Fijian for hello. You'll hear it everywhere."},
+      {"term": "Vinaka", "say": "vee-NAH-kah", "means": "Fijian for thank you."},
+      {"term": "the Drua", "say": "the DROO-ah", "means": "Fijian Drua, the Fiji-based Super Rugby side that feeds the national team."}
+    ],
+    "lines": [
+      {"t": "Give Fiji an inch of space and it's a try.", "m": "Fiji are famous for offloads and running rugby."},
+      {"t": "The cibi gives me goosebumps every time.", "m": "Fans love the pre-match war dance."},
+      {"t": "Olympic gold in sevens at Rio and Tokyo. Who else can say that?", "m": "Fiji's sevens side won the first two Olympic titles."},
+      {"t": "Bula!", "m": "A friendly greeting among Fiji fans."}
+    ],
+    "avoid": [
+      {"say": "the Fiji Bati", "instead": "the Flying Fijians", "why": "The Bati are Fiji's rugby league team."},
+      {"say": "FIDGE-ee", "instead": "FEE-jee", "why": "Two long 'ee' sounds, nothing like 'fidget'."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/HFC_Bank_Stadium", "https://www.fijivillage.com/news/Fiji-does-not-meet-the-requirement-of-hosting-Nations-Championship-games-fx84r5/"],
+    "unsure": ["ground: HFC Bank Stadium is Fiji's home, but it is too small for Nations Championship games, so 2026 'home' Tests were played in the UK"]
+  },
+  {
+    "team": "Japan",
+    "espnId": "",
+    "league": "rugby/intl",
+    "aliases": ["japan", "brave blossoms", "jpn", "nippon"],
+    "nickname": "the Brave Blossoms",
+    "fans": "",
+    "ground": "Chichibunomiya in Tokyo, with big Tests at the National Stadium",
+    "rivals": [
+      {"team": "South Africa", "name": "the Springboks", "derby": ""},
+      {"team": "Scotland", "name": "Scotland", "derby": ""}
+    ],
+    "legends": ["Ayumu Goromaru", "Daisuke Ohata", "Shota Horie"],
+    "memory": "2015: the Brighton Miracle, a 34-32 World Cup win over South Africa",
+    "lingo": [
+      {"term": "the Brighton Miracle", "say": "the BRY-tun MIR-uh-kul", "means": "Japan's late win over South Africa at the 2015 World Cup in Brighton."},
+      {"term": "One Team", "say": "WUN TEEM", "means": "The squad's motto at the 2019 home World Cup. It became a national catchphrase."},
+      {"term": "sakura", "say": "sah-KOO-rah", "means": "Cherry blossom, the emblem on the shirt."},
+      {"term": "Chichibunomiya", "say": "chee-chee-boo-NOH-mee-yah", "means": "Prince Chichibu Memorial Rugby Ground in Tokyo, the traditional home of Japanese rugby."}
+    ],
+    "lines": [
+      {"t": "Brighton, 2015. The greatest upset ever.", "m": "Fans never tire of the win over South Africa."},
+      {"t": "One Team!", "m": "The 2019 World Cup motto, still a rallying cry."},
+      {"t": "Japan will run you off your feet.", "m": "Japan play at high tempo with quick ball."},
+      {"t": "The home World Cup in 2019 changed everything.", "m": "Japan beat Ireland and Scotland to reach their first quarter-final."}
+    ],
+    "avoid": [
+      {"say": "the Cherry Blossoms", "instead": "the Brave Blossoms", "why": "That was the old English nickname. Brave Blossoms is used today."},
+      {"say": "the Sakura Fifteen", "instead": "the Brave Blossoms", "why": "Sakura Fifteen is Japan's women's team."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Japan_women%27s_national_rugby_union_team", "https://en.rugby-japan.jp/2026/06/11/brave-blossoms-squad-announced-ahead-of-inaugural-nations-championship/", "https://www.rugbyasia247.com/brave-blossoms-2026-home-tests-and-venues-confirmed/"],
+    "unsure": []
+  }
+]

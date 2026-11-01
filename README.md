@@ -5,62 +5,109 @@ Pick a real game from the last week, learn a three-beat script about it, and pra
 pretend pub conversation. It covers football, rugby, cricket, F1, NFL, NBA, NHL and MLB, with
 local fan lingo for 297 teams.
 
-## How the results stay fresh
+Live page: https://awlfgit.github.io/sportstalk/
 
-The workflow in `.github/workflows/refresh.yml` rebuilds the page with the latest ESPN results
-and publishes it to GitHub Pages:
+## What's in this repository
 
-- twice a day, at 06:30 and 18:30 UTC
-- every time you push to `main`
-- whenever you run it by hand: **Actions** tab, **Refresh results**, **Run workflow**
+- `src/app.html`: the page itself (HTML, CSS and JavaScript in one file)
+- `src/build.js`: fetches the last week of ESPN results and builds the page
+- `src/fonts/`: self-hosted fonts, SIL Open Font License (see the `OFL-*.txt` files);
+  `src/get-fonts.js` re-downloads them
+- `src/serve.js`: a small local preview server
+- `research/out/*.json`: the team guides, one file per league group. Edit these to change
+  nicknames, fan terms, rivals, sayings and giveaways.
+- `research/BRIEF.md`: the rules the team guides were researched to (format, accuracy, no
+  lyrics, nothing offensive)
+- `research/audit.js`: checks the team guides against those rules
+- `research/get-teams.js` and `research/teams/`: ESPN's team lists, used when researching
+- `.github/workflows/refresh.yml`: rebuilds and publishes the page twice a day
 
-Only the built page and its fonts are published. The source files in this repository are not.
-Visitors' browsers load everything from your site, so the page makes no requests to other
-companies' servers when it opens. Visitors can still press **Load today's results from ESPN**
-for up-to-the-minute scores; that button asks ESPN directly and says so.
+## Working on it from any computer
 
-## One-time setup
-
-1. On the GitHub account that hosts c0rw1n.com, create a **public** repository named
-   `sportstalk`. Don't add a README or licence; this folder already has them.
-2. Push this folder to it (commands below).
-3. In the repository, go to **Settings**, **Pages**, and set **Source** to **GitHub Actions**.
-4. Go to **Actions**, open **Refresh results** and click **Run workflow** for the first build.
+You need git and Node.js 18 or later.
 
 ```bash
-git remote add origin https://github.com/<your-account>/sportstalk.git
-git push -u origin main
+git clone https://github.com/AWlfGit/sportstalk.git
 ```
 
-### Where it appears
+Then, inside the `sportstalk` folder:
 
-- If c0rw1n.com is served from this account's user site (the repository named
-  `<your-account>.github.io` with the custom domain set), this repository is published at
-  **c0rw1n.com/sportstalk/** automatically.
-- Otherwise it's at `https://<your-account>.github.io/sportstalk/`.
+```bash
+node src/build.js
+```
 
-Keep the trainer in one place: if you use this repository, don't also upload a `sportstalk`
-folder with the main site.
+That writes two files, which git ignores:
 
-The page carries `noindex, nofollow`, so search engines leave it out, and nothing on the main
-site links to it.
+- `ludicrous-display.html`: open it in a browser. It loads live results itself.
+- `src/artifact.html`: the version for publishing on claude.ai.
 
-## Files
-
-- `src/app.html`: the page source
-- `src/build.js`: fetches ESPN results and builds the page
-- `src/lingo.json`: the team guides (nicknames, fan terms, rivals, giveaways)
-- `src/fonts/`: self-hosted fonts, SIL Open Font License (see the `OFL-*.txt` files)
-- `src/get-fonts.js`: re-downloads the fonts, if you ever need to
-- `src/serve.js`: a small local preview server
-
-## Build and preview on your computer
-
-Needs Node.js 18 or later.
+To preview the website version exactly as GitHub publishes it:
 
 ```bash
 node src/build.js --site-only --site _site
+```
+
+```bash
 node src/serve.js _site 8765
 ```
 
 Then open http://localhost:8765/.
+
+Push to `main` and the live page rebuilds and republishes within a few minutes.
+
+## Changing the team guides
+
+1. Edit the team in `research/out/<group>.json`, following `research/BRIEF.md`.
+2. Run `node research/audit.js` and review anything it flags.
+3. To drop a line without editing the research, add a phrase from it to
+   `research/blocked.json` (a JSON list of strings). The build skips any text containing it.
+4. Build, check the page, and push.
+
+## How the live page stays fresh
+
+The workflow rebuilds the page with the latest ESPN results and publishes it to GitHub Pages:
+
+- twice a day, at 06:30 and 18:30 UTC (after North American night games and European
+  afternoon games)
+- every time you push to `main`
+- whenever you run it by hand: **Actions** tab, **Refresh results**, **Run workflow**
+
+Only the built page and its fonts are published, not the rest of this repository. Visitors'
+browsers load everything from the site itself, so the page makes no requests to other
+companies' servers when it opens. Visitors can still press **Load today's results from ESPN**
+for up-to-the-minute scores; that button asks ESPN directly and says so. The page carries
+`noindex, nofollow`, so search engines leave it out.
+
+GitHub pauses scheduled workflows in public repositories after 60 days with no activity. If
+nothing has been committed for 45 days, the workflow adds an empty commit to keep running.
+
+## Other copies
+
+- **claude.ai**: after building, publish `src/artifact.html` from Claude to the existing
+  Ludicrous Display artifact link. That copy can't fetch live results, so it shows the results
+  saved when it was built.
+- **The c0rw1n.com website folder**: not needed while GitHub Pages serves the page. If you ever
+  host it there instead, `node src/build.js --site <folder>` writes the website copy into
+  `<folder>`.
+
+## One-time GitHub setup
+
+1. Give the GitHub CLI permission to push workflow files:
+   ```bash
+   gh auth refresh -h github.com -s workflow
+   ```
+2. Create the repository:
+   ```bash
+   gh repo create AWlfGit/sportstalk --public --description "Sports talk trainer"
+   ```
+3. Publish GitHub Pages from Actions:
+   ```bash
+   gh api -X POST repos/AWlfGit/sportstalk/pages -f build_type=workflow
+   ```
+4. From this folder, push:
+   ```bash
+   gh auth setup-git; git remote add origin https://github.com/AWlfGit/sportstalk.git; git push -u origin main
+   ```
+
+If c0rw1n.com is ever served from an `AWlfGit.github.io` repository, this page moves to
+c0rw1n.com/sportstalk/ automatically.

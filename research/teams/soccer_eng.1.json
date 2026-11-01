@@ -1,0 +1,142 @@
+[
+ {
+  "id": "349",
+  "name": "AFC Bournemouth",
+  "short": "Bournemouth",
+  "abbr": "BOU",
+  "location": "AFC Bournemouth"
+ },
+ {
+  "id": "359",
+  "name": "Arsenal",
+  "short": "Arsenal",
+  "abbr": "ARS",
+  "location": "Arsenal"
+ },
+ {
+  "id": "362",
+  "name": "Aston Villa",
+  "short": "Aston Villa",
+  "abbr": "AVL",
+  "location": "Aston Villa"
+ },
+ {
+  "id": "337",
+  "name": "Brentford",
+  "short": "Brentford",
+  "abbr": "BRE",
+  "location": "Brentford"
+ },
+ {
+  "id": "331",
+  "name": "Brighton & Hove Albion",
+  "short": "Brighton",
+  "abbr": "BHA",
+  "location": "Brighton & Hove Albion"
+ },
+ {
+  "id": "363",
+  "name": "Chelsea",
+  "short": "Chelsea",
+  "abbr": "CHE",
+  "location": "Chelsea"
+ },
+ {
+  "id": "388",
+  "name": "Coventry City",
+  "short": "Coventry",
+  "abbr": "COV",
+  "location": "Coventry City"
+ },
+ {
+  "id": "384",
+  "name": "Crystal Palace",
+  "short": "C Palace",
+  "abbr": "CRY",
+  "location": "Crystal Palace"
+ },
+ {
+  "id": "368",
+  "name": "Everton",
+  "short": "Everton",
+  "abbr": "EVE",
+  "location": "Everton"
+ },
+ {
+  "id": "370",
+  "name": "Fulham",
+  "short": "Fulham",
+  "abbr": "FUL",
+  "location": "Fulham"
+ },
+ {
+  "id": "306",
+  "name": "Hull City",
+  "short": "Hull",
+  "abbr": "HUL",
+  "location": "Hull City"
+ },
+ {
+  "id": "373",
+  "name": "Ipswich Town",
+  "short": "Ipswich",
+  "abbr": "IPS",
+  "location": "Ipswich Town"
+ },
+ {
+  "id": "357",
+  "name": "Leeds United",
+  "short": "Leeds",
+  "abbr": "LEE",
+  "location": "Leeds United"
+ },
+ {
+  "id": "364",
+  "name": "Liverpool",
+  "short": "Liverpool",
+  "abbr": "LIV",
+  "location": "Liverpool"
+ },
+ {
+  "id": "382",
+  "name": "Manchester City",
+  "short": "Man City",
+  "abbr": "MNC",
+  "location": "Manchester City"
+ },
+ {
+  "id": "360",
+  "name": "Manchester United",
+  "short": "Man Utd",
+  "abbr": "MAN",
+  "location": "Manchester United"
+ },
+ {
+  "id": "361",
+  "name": "Newcastle United",
+  "short": "Newcastle",
+  "abbr": "NEW",
+  "location": "Newcastle United"
+ },
+ {
+  "id": "393",
+  "name": "Nottingham Forest",
+  "short": "Nottm Forest",
+  "abbr": "NFO",
+  "location": "Nottingham Forest"
+ },
+ {
+  "id": "366",
+  "name": "Sunderland",
+  "short": "Sunderland",
+  "abbr": "SUN",
+  "location": "Sunderland"
+ },
+ {
+  "id": "367",
+  "name": "Tottenham Hotspur",
+  "short": "Spurs",
+  "abbr": "TOT",
+  "location": "Tottenham Hotspur"
+ }
+]

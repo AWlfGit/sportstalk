@@ -1,1 +1,8 @@
+# Built by src/build.js
 _site/
+ludicrous-display.html
+src/artifact.html
+src/lingo.json
+
+# Local app settings
+.claude/

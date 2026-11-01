@@ -1,0 +1,65 @@
+[
+ {
+  "id": "79",
+  "name": "BC Lions",
+  "short": "Lions",
+  "abbr": "BCL",
+  "location": "BC"
+ },
+ {
+  "id": "80",
+  "name": "Calgary Stampeders",
+  "short": "Stampeders",
+  "abbr": "CSP",
+  "location": "Calgary"
+ },
+ {
+  "id": "81",
+  "name": "Edmonton Elks",
+  "short": "Elks",
+  "abbr": "EES",
+  "location": "Edmonton"
+ },
+ {
+  "id": "82",
+  "name": "Hamilton Tiger-Cats",
+  "short": "Tiger-Cats",
+  "abbr": "HTC",
+  "location": "Hamilton"
+ },
+ {
+  "id": "83",
+  "name": "Montreal Alouettes",
+  "short": "Alouettes",
+  "abbr": "MTA",
+  "location": "Montreal"
+ },
+ {
+  "id": "87",
+  "name": "Ottawa Red Blacks",
+  "short": "Red Blacks",
+  "abbr": "ORB",
+  "location": "Ottawa"
+ },
+ {
+  "id": "84",
+  "name": "Saskatchewan Roughriders",
+  "short": "Roughriders",
+  "abbr": "SRR",
+  "location": "Saskatchewan"
+ },
+ {
+  "id": "85",
+  "name": "Toronto Argonauts",
+  "short": "Argonauts",
+  "abbr": "TAT",
+  "location": "Toronto"
+ },
+ {
+  "id": "86",
+  "name": "Winnipeg Blue Bombers",
+  "short": "Blue Bombers",
+  "abbr": "WBB",
+  "location": "Winnipeg"
+ }
+]

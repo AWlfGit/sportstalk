@@ -6,3 +6,6 @@ src/lingo.json
 
 # Local app settings
 .claude/
+
+# Downloaded team logos (rebuilt by src/build.js)
+_cache/

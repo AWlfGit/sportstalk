@@ -14,6 +14,11 @@ Live page: https://awlfgit.github.io/sportstalk/
 - `src/fonts/`: self-hosted fonts, SIL Open Font License (see the `OFL-*.txt` files);
   `src/get-fonts.js` re-downloads them
 - `src/serve.js`: a small local preview server
+- Team logos: the build downloads each team's logo from ESPN's image server in two sizes (a
+  crisp 96px one for the Modern look and a 16px one the Retro look enlarges into pixels) and
+  caches them in `_cache/logos` (not committed). The single-file copies embed them; the website
+  copy writes them to a `logos/` folder next to the page. Teams without an ESPN logo get a
+  badge with their abbreviation in the team colour.
 - `src/art/`: the Retro look's characters (`football.webp` for the header and the fan's
   lines, `glasses.webp` for yours). The build embeds them into the page, so swap a file and
   rebuild to change one.
@@ -82,7 +87,7 @@ The workflow rebuilds the page with the latest ESPN results and publishes it to 
 - every time you push to `main`
 - whenever you run it by hand: **Actions** tab, **Refresh results**, **Run workflow**
 
-Only the built page and its fonts are published, not the rest of this repository. Visitors'
+Only the built page, its fonts and the team logos are published, not the rest of this repository. Visitors'
 browsers load everything from the site itself, so the page makes no requests to other
 companies' servers when it opens. Visitors can still press **Load today's results from ESPN**
 for up-to-the-minute scores; that button asks ESPN directly and says so. The page carries

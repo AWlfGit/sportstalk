@@ -26,6 +26,13 @@ jobs:
         with:
           node-version: 22
 
+      # Team logos downloaded by earlier runs, so each refresh only fetches new ones
+      - uses: actions/cache@v4
+        with:
+          path: _cache
+          key: logos-${{ github.run_id }}
+          restore-keys: logos-
+
       - name: Build the page with the latest results
         run: node src/build.js --site-only --site _site
 

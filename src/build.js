@@ -92,6 +92,36 @@ function loadTalk() {
   return out;
 }
 
+// Team logos from ESPN's image server: a crisp 96px copy for the Modern look and a 16px copy the
+// Retro look blows up into pixels. Downloads are cached in _cache/logos for 30 days.
+const LOGO_SIZES = { big: 96, px: 16 };
+const logoKey = (p) => p.replace(/^\/i\/teamlogos\//, "").replace(/\.png$/i, "").replace(/[^a-z0-9]+/gi, "-");
+async function fetchLogos(snap) {
+  const cache = path.join(root, "_cache", "logos");
+  fs.mkdirSync(cache, { recursive: true });
+  const paths = new Set();
+  for (const games of Object.values(snap.leagues)) for (const g of games) for (const t of [g.h, g.a]) if (t && /^\/i\/teamlogos\/[\w\/.-]+\.png$/i.test(t.lo || "")) paths.add(t.lo);
+  const get = async (p, size, file) => {
+    const f = path.join(cache, file);
+    if (fs.existsSync(f) && Date.now() - fs.statSync(f).mtimeMs < 30 * 864e5) return fs.readFileSync(f);
+    const r = await fetch("https://a.espncdn.com/combiner/i?img=" + p + "&w=" + size + "&h=" + size);
+    if (!r.ok || !/^image\/png/.test(r.headers.get("content-type") || "")) throw new Error("HTTP " + r.status);
+    const buf = Buffer.from(await r.arrayBuffer());
+    fs.writeFileSync(f, buf);
+    return buf;
+  };
+  const list = [...paths], out = new Map();
+  let next = 0, failed = 0;
+  await Promise.all(Array.from({ length: 8 }, async () => {
+    while (next < list.length) {
+      const p = list[next++], k = logoKey(p);
+      try { out.set(k, { big: await get(p, LOGO_SIZES.big, k + ".png"), px: await get(p, LOGO_SIZES.px, k + "-px.png") }); } catch (e) { failed++; }
+    }
+  }));
+  console.log("Logos:", out.size, "teams", failed ? "(" + failed + " unavailable)" : "");
+  return out;
+}
+
 (async () => {
   const now = new Date();
   const snap = { taken: now.toISOString(), leagues: {}, tables: {} };
@@ -120,8 +150,17 @@ function loadTalk() {
   console.log("Talk packs:", Object.keys(talk).map((k) => k + " (" + Object.keys(talk[k].exchanges).length + " exchanges, " + talk[k].terms.length + " terms)").join(", ") || "none");
   // Character art in src/art/ is embedded into the page, so every copy works as a single file.
   const art = (m, f) => 'url("data:image/' + (f.endsWith(".png") ? "png" : "webp") + ";base64," + fs.readFileSync(path.join(__dirname, "art", f)).toString("base64") + '")';
-  const page = src.replace(/url\("art\/([\w.-]+\.(?:webp|png))"\)/g, art)
+  const base = src.replace(/url\("art\/([\w.-]+\.(?:webp|png))"\)/g, art)
     .replace("__SNAPSHOT__", () => json).replace("__LINGO__", () => safe(lingo)).replace("__TALK__", () => safe(talk));
+  // Logos are embedded in the single-file copies; the website copy serves them as files instead.
+  const logos = await fetchLogos(snap);
+  const embedded = {}, files = {};
+  for (const [k, v] of logos) {
+    embedded[k] = ["data:image/png;base64," + v.big.toString("base64"), "data:image/png;base64," + v.px.toString("base64")];
+    files[k] = ["logos/" + k + ".png", "logos/" + k + "-px.png"];
+  }
+  const page = base.replace("__LOGOS__", () => safe(embedded));
+  console.log("Logo data:", (safe(embedded).length / 1024).toFixed(0), "KB embedded");
   console.log("Team guides:", lingo.length, "teams,", (safe(lingo).length / 1024).toFixed(0), "KB");
   const siteOnly = process.argv.includes("--site-only");
   if (!siteOnly) fs.writeFileSync(path.join(__dirname, "artifact.html"), page);
@@ -140,7 +179,7 @@ function loadTalk() {
   if (at > 0 && process.argv[at + 1]) {
     const dir = path.resolve(process.argv[at + 1]);
     const swap = (s, from, to) => { if (!from.test(s)) throw new Error("Site build: pattern not found " + from); return s.replace(from, to); };
-    let site = page;
+    let site = base.replace("__LOGOS__", () => safe(files));
     site = swap(site, /<!--FONTS-->[\s\S]*?<!--\/FONTS-->/, '<link rel="stylesheet" href="fonts/fonts.css">');
     site = swap(site, /const LIVE_MODE="auto";/, 'const LIVE_MODE="ask";');
     site = swap(site, /<title>/, '<meta name="robots" content="noindex, nofollow">\n<title>');
@@ -149,6 +188,13 @@ function loadTalk() {
     fs.writeFileSync(path.join(dir, "index.html"), wrap(site));
     for (const f of fs.readdirSync(path.join(__dirname, "fonts"))) {
       fs.copyFileSync(path.join(__dirname, "fonts", f), path.join(dir, "fonts", f));
+    }
+    // Fonts that are no longer used (VT323) are removed from the site folder
+    for (const f of fs.readdirSync(path.join(dir, "fonts"))) if (/^(vt323|OFL-vt323)/i.test(f)) fs.unlinkSync(path.join(dir, "fonts", f));
+    fs.mkdirSync(path.join(dir, "logos"), { recursive: true });
+    for (const [k, v] of logos) {
+      fs.writeFileSync(path.join(dir, "logos", k + ".png"), v.big);
+      fs.writeFileSync(path.join(dir, "logos", k + "-px.png"), v.px);
     }
     console.log("Website copy written to", dir);
   }

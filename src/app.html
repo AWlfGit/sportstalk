@@ -4,7 +4,7 @@
 <!--FONTS-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;1,600;1,700&family=Big+Shoulders+Display:wght@700;800;900&display=swap">
 <!--/FONTS-->
 <style>
 :root{
@@ -318,6 +318,239 @@ footer p{margin:0 0 4px;max-width:90ch}
 .skin button[aria-pressed=true]{background:var(--flood);color:var(--flood-ink)}
 .ticker{display:none}
 
+/* Team logos (both looks): the logo replaces the abbreviation; the abbreviation comes back if it fails */
+.crest b{font:inherit}
+.crest img{display:block;width:100%;height:100%;object-fit:contain}
+.crest.logo b{display:none}
+.onair{display:none}
+
+/* Modern: a broadcast match centre. Near-black studio, one volt accent, condensed italic captions,
+   a scorebug washed in both teams' colours, team logos on light tiles, and the script as numbered
+   on-air beats. Every rule is scoped to the Modern look, so the Retro look never sees it. */
+:root:not([data-skin=retro]){
+  --pitch:#06080b;--pitch-2:#0b1017;--bar:rgba(6,8,11,.84);
+  --turf:#0d1218;--turf-2:#151c26;
+  --glass:rgba(255,255,255,.03);--glass-2:rgba(255,255,255,.06);
+  --hair:rgba(255,255,255,.085);--line:#26303d;
+  --chalk:#eef2f6;--muted:#8d98a9;
+  --flood:#d4ff3a;--flood-2:#b6f230;--flood-ink:#0a0e03;
+  --flood-10:rgba(212,255,58,.1);--flood-35:rgba(212,255,58,.38);--flood-glow:rgba(190,255,40,.42);
+  --mint:#d4ff3a;--mint-15:rgba(212,255,58,.16);
+  --you-a:rgba(212,255,58,.15);--you-b:rgba(212,255,58,.03);
+  --phone-a:#121a24;--phone-b:#07090d;--tt-bg:#000000;
+  --good:#5be38f;--meh:#ffb547;--bad:#ff4d5e;
+  --good-bg:rgba(91,227,143,.1);--meh-bg:rgba(255,181,71,.1);--bad-bg:rgba(255,77,94,.1);
+  --panic-hi:#ff8a96;--panic-lo:#a3101f;--panic-base:#5c0711;--panic-ink:#ffffff;
+  --scrim:rgba(3,5,8,.76);
+  --f-cap:"Barlow Condensed","Arial Narrow","Roboto Condensed",sans-serif;
+  --m-slab:#0d1218;--m-slab-2:#141b24;--m-edge-2:rgba(255,255,255,.14);
+  --m-tile:linear-gradient(160deg,#ffffff,#e6ebf1);
+  --m-cool:rgba(110,150,255,.12);--m-dim-2:#5d6878;
+}
+:root:not([data-skin=retro]) ::selection{background:var(--flood);color:var(--flood-ink)}
+:root:not([data-skin=retro]) body{background:
+  radial-gradient(70% 46% at 50% -10%,var(--m-cool),transparent 70%),
+  radial-gradient(36% 28% at 100% 0%,rgba(212,255,58,.07),transparent 70%),
+  repeating-linear-gradient(115deg,rgba(255,255,255,.013) 0 1px,transparent 1px 11px),
+  linear-gradient(180deg,var(--pitch-2),var(--pitch) 680px);
+  background-color:var(--pitch)}
+:root:not([data-skin=retro]) body::after{content:"";position:fixed;inset:0;z-index:40;pointer-events:none;opacity:.045;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* Header: on-air strip, wordmark with a volt slab, compact controls */
+:root:not([data-skin=retro]) .head{padding-block:24px 22px}
+:root:not([data-skin=retro]) .onair{display:flex;align-items:center;gap:9px;margin:0 0 12px;font:italic 700 13px/1 var(--f-cap);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+:root:not([data-skin=retro]) .onair i{flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:var(--bad);box-shadow:0 0 0 4px rgba(255,77,94,.18)}
+:root:not([data-skin=retro]) .brand{gap:20px}
+:root:not([data-skin=retro]) .mark{width:62px;height:62px;border-radius:15px;transform:skewX(-8deg);background:linear-gradient(160deg,#1b2430,#0a0e13);color:var(--flood);font:900 27px/1 var(--f-display);box-shadow:inset 0 0 0 1px var(--flood-35),0 18px 40px -16px var(--flood-glow)}
+:root:not([data-skin=retro]) .brand h1{font:900 clamp(42px,7.4vw,76px)/.86 var(--f-display);letter-spacing:.005em}
+:root:not([data-skin=retro]) .brand h1 span{display:inline-block;margin-left:.06em;padding:.07em .17em .03em;background:var(--flood);-webkit-background-clip:border-box;background-clip:border-box;color:var(--flood-ink);-webkit-text-fill-color:var(--flood-ink);transform:skewX(-9deg);box-shadow:0 16px 36px -16px var(--flood-glow)}
+:root:not([data-skin=retro]) .brand p{margin-top:14px;font-size:15.5px;max-width:52ch}
+:root:not([data-skin=retro]) .fld{font:italic 700 12px/1 var(--f-cap);letter-spacing:.16em;color:var(--muted)}
+:root:not([data-skin=retro]) select,:root:not([data-skin=retro]) input[type=text]{background:var(--m-slab);border:1px solid var(--hair);border-radius:10px;padding:11px 12px;font:600 15px/1.2 var(--f-body);box-shadow:inset 0 1px 0 rgba(255,255,255,.04)}
+:root:not([data-skin=retro]) select:focus,:root:not([data-skin=retro]) input[type=text]:focus{border-color:var(--flood);box-shadow:0 0 0 3px var(--flood-10)}
+:root:not([data-skin=retro]) select option{background:var(--m-slab-2)}
+:root:not([data-skin=retro]) .skin{gap:3px;padding:3px;border:1px solid var(--hair);border-radius:11px;background:var(--m-slab)}
+:root:not([data-skin=retro]) .skin button{border:0;border-radius:8px;background:none;color:var(--muted);font:700 14px/1 var(--f-cap);letter-spacing:.1em;text-transform:uppercase;padding:9px 12px}
+:root:not([data-skin=retro]) .skin button+button{border-left:0}
+:root:not([data-skin=retro]) .skin button[aria-pressed=true]{background:var(--flood);color:var(--flood-ink)}
+
+/* Scores ticker, like the strip along the bottom of a sports channel */
+:root:not([data-skin=retro]) .ticker{display:flex;align-items:stretch;height:36px;background:#000;border-top:1px solid var(--hair);overflow:hidden}
+:root:not([data-skin=retro]) .ticker-lbl{flex:0 0 auto;display:flex;align-items:center;padding:0 28px 0 max(16px,env(safe-area-inset-left,0px));background:var(--flood);color:var(--flood-ink);font:italic 700 13px/1 var(--f-cap);letter-spacing:.16em;text-transform:uppercase;clip-path:polygon(0 0,100% 0,calc(100% - 14px) 100%,0 100%)}
+:root:not([data-skin=retro]) .ticker-track{-webkit-mask-image:linear-gradient(90deg,transparent,#000 28px,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,transparent,#000 28px,#000 calc(100% - 28px),transparent)}
+:root:not([data-skin=retro]) .ticker-text{color:var(--chalk);font:600 15px/36px var(--f-cap);letter-spacing:.07em;text-transform:uppercase}
+
+/* Tabs: numbered, with a slanted volt underline on the current one */
+:root:not([data-skin=retro]) .tabs{background:var(--bar);border-block:0;border-bottom:1px solid var(--hair);box-shadow:0 14px 30px -20px rgba(0,0,0,.9)}
+:root:not([data-skin=retro]) .tabs .in{gap:2px;padding-top:0;padding-bottom:0;counter-reset:tab}
+:root:not([data-skin=retro]) .tabs button{position:relative;counter-increment:tab;border:0;border-radius:0;background:none;padding:18px 14px 16px;color:var(--muted);font:900 18px/1 var(--f-display);letter-spacing:.06em}
+:root:not([data-skin=retro]) .tabs button::before{content:counter(tab,decimal-leading-zero);margin-right:7px;color:var(--m-dim-2);font:italic 700 12px/1 var(--f-cap);letter-spacing:.06em;vertical-align:2px}
+:root:not([data-skin=retro]) .tabs button::after{content:"";position:absolute;left:12px;right:12px;bottom:0;height:3px;background:var(--flood);transform:skewX(-24deg) scaleX(0);transform-origin:left;transition:transform .25s ease}
+:root:not([data-skin=retro]) .tabs button:hover{background:none;color:var(--chalk)}
+:root:not([data-skin=retro]) .tabs button[aria-selected=true]{background:none;border:0;color:var(--chalk)}
+:root:not([data-skin=retro]) .tabs button[aria-selected=true]::before{color:var(--flood)}
+:root:not([data-skin=retro]) .tabs button[aria-selected=true]::after{transform:skewX(-24deg) scaleX(1)}
+:root:not([data-skin=retro]) main{padding-block:30px 130px}
+
+/* Shared pieces */
+:root:not([data-skin=retro]) .btn{border-radius:9px;background:var(--m-slab-2);border:1px solid var(--hair);padding:10px 15px;font:700 14px/1.1 var(--f-cap);letter-spacing:.09em;text-transform:uppercase;transition:border-color .2s,background-color .2s,box-shadow .2s}
+:root:not([data-skin=retro]) .btn:hover{border-color:var(--flood-35);box-shadow:0 0 0 3px var(--flood-10)}
+:root:not([data-skin=retro]) .btn.primary,:root:not([data-skin=retro]) .btn[aria-pressed=true]{background:var(--flood);border-color:transparent;color:var(--flood-ink)}
+:root:not([data-skin=retro]) .btn.primary{box-shadow:0 14px 30px -14px var(--flood-glow)}
+:root:not([data-skin=retro]) .btn.small{padding:7px 11px;font-size:13px}
+:root:not([data-skin=retro]) .kicker,:root:not([data-skin=retro]) .tt-kick,:root:not([data-skin=retro]) .prompt,:root:not([data-skin=retro]) .tt-day{font-family:var(--f-cap);font-style:italic;font-weight:700;font-size:12.5px;letter-spacing:.16em}
+:root:not([data-skin=retro]) .sec{display:flex;align-items:center;gap:14px;margin-bottom:10px;font:900 clamp(36px,5.4vw,56px)/.92 var(--f-display);letter-spacing:.005em}
+:root:not([data-skin=retro]) .sec::before{content:"";flex:0 0 auto;width:18px;height:.7em;background:var(--flood);transform:skewX(-14deg)}
+:root:not([data-skin=retro]) .lede{font-size:16px;margin-bottom:22px}
+:root:not([data-skin=retro]) .panel{border-radius:16px;border:1px solid var(--hair);background-color:var(--m-slab);background-image:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,0) 140px);box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 30px 60px -36px #000}
+:root:not([data-skin=retro]) .panel h3,:root:not([data-skin=retro]) .cat h3{display:flex;align-items:center;gap:11px;font:900 25px/1 var(--f-display);letter-spacing:.035em}
+:root:not([data-skin=retro]) .panel h3::before,:root:not([data-skin=retro]) .cat h3::before{content:"";flex:0 0 auto;width:12px;height:.76em;background:var(--flood);transform:skewX(-14deg)}
+:root:not([data-skin=retro]) .empty{border-radius:16px;background:var(--m-slab)}
+
+/* The episode's method: a three-part run of show with outlined numerals */
+:root:not([data-skin=retro]) .how{gap:0;margin-bottom:28px;border:1px solid var(--hair);border-radius:16px;background:var(--m-slab);overflow:hidden;counter-reset:how}
+:root:not([data-skin=retro]) .how li{align-items:center;gap:16px;padding:16px 20px;font-size:15px}
+:root:not([data-skin=retro]) .how li+li{border-top:1px solid var(--hair)}
+@media(min-width:720px){:root:not([data-skin=retro]) .how li+li{border-top:0;border-left:1px solid var(--hair)}}
+:root:not([data-skin=retro]) .how li::before{content:counter(how,decimal-leading-zero);width:auto;height:auto;border:0;border-radius:0;background:none;color:transparent;-webkit-text-stroke:1.5px var(--flood);font:900 48px/.8 var(--f-display);letter-spacing:.02em}
+
+/* Results list: a scoreboard with logos on light tiles */
+:root:not([data-skin=retro]) .tt{border-radius:16px;background-color:var(--m-slab);background-image:none;box-shadow:0 30px 60px -36px #000}
+:root:not([data-skin=retro]) .tt-head{padding:18px 18px 12px}
+:root:not([data-skin=retro]) .tt-title{font:900 36px/.88 var(--f-display);letter-spacing:.01em}
+:root:not([data-skin=retro]) .tt-clock{padding:6px 10px;border:1px solid var(--hair);border-radius:999px;background:var(--m-slab-2);color:var(--chalk);font:italic 700 13px/1 var(--f-cap);letter-spacing:.1em}
+:root:not([data-skin=retro]) .tt-clock::before{background:var(--bad);box-shadow:0 0 0 3px rgba(255,77,94,.2)}
+:root:not([data-skin=retro]) .tt-fx{padding:0 18px 14px}
+:root:not([data-skin=retro]) .tt-fx button{border-radius:8px;background:var(--m-slab-2);padding:8px 11px;font:700 13px/1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase}
+:root:not([data-skin=retro]) .tt-fx button[aria-pressed=true]{background:var(--flood);border-color:var(--flood);color:var(--flood-ink)}
+:root:not([data-skin=retro]) .tt-list{scrollbar-color:var(--line) transparent}
+:root:not([data-skin=retro]) .tt-day{padding:9px 18px;background:#090d12;color:var(--flood);border-bottom:1px solid var(--hair)}
+:root:not([data-skin=retro]) .tt-row{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.05)}
+:root:not([data-skin=retro]) .tt-row:hover{background:rgba(255,255,255,.035)}
+:root:not([data-skin=retro]) .tt-row[aria-pressed=true]{background:linear-gradient(90deg,rgba(212,255,58,.13),rgba(212,255,58,.02) 75%);box-shadow:inset 4px 0 0 var(--flood)}
+:root:not([data-skin=retro]) .tt-team{gap:11px;font:500 15px/1.2 var(--f-body)}
+:root:not([data-skin=retro]) .tt-team .pts{font:900 23px/1 var(--f-display);color:var(--m-dim-2)}
+:root:not([data-skin=retro]) .tt-team.win .pts{color:var(--chalk)}
+:root:not([data-skin=retro]) .tt-st{padding:5px 7px;border-radius:5px;background:var(--m-slab-2);font:italic 700 11px/1 var(--f-cap);letter-spacing:.12em}
+:root:not([data-skin=retro]) .tt-foot{font:italic 600 13px/1.2 var(--f-cap);letter-spacing:.06em}
+:root:not([data-skin=retro]) .tt-foot button{font:italic 700 13px/1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase}
+:root:not([data-skin=retro]) .crest{width:30px;height:30px;border-radius:9px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.2),0 4px 10px -4px rgba(0,0,0,.8)}
+:root:not([data-skin=retro]) .crest.logo{padding:3px;background:var(--m-tile);box-shadow:inset 0 0 0 1px rgba(0,0,0,.06),0 4px 12px -5px rgba(0,0,0,.9)}
+
+/* Match hero: the two teams' colours split by a volt slash, a light sweep, and a scorebug */
+:root:not([data-skin=retro]) .match{--hcx:color-mix(in srgb,var(--hc,#2a3442) 58%,#06080b);--acx:color-mix(in srgb,var(--ac,#2a3442) 58%,#06080b);
+  overflow:hidden;isolation:isolate;padding:22px 22px 20px;border-color:var(--m-edge-2);background-color:var(--m-slab);
+  background-image:
+    linear-gradient(180deg,rgba(6,8,11,0) 0%,rgba(6,8,11,.5) 52%,rgba(10,14,19,.97) 100%),
+    repeating-linear-gradient(105deg,rgba(255,255,255,.045) 0 1px,transparent 1px 10px),
+    linear-gradient(105deg,var(--hcx) 0 calc(50% - 1.5px),var(--flood) calc(50% - 1.5px) calc(50% + 1.5px),var(--acx) calc(50% + 1.5px) 100%)}
+:root:not([data-skin=retro]) .match::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(105deg,transparent 30%,rgba(255,255,255,.13) 50%,transparent 70%);transform:translateX(-130%)}
+:root:not([data-skin=retro]) .match>.kicker{color:rgba(238,242,246,.82);text-shadow:0 1px 3px rgba(0,0,0,.6)}
+:root:not([data-skin=retro]) .scoreline{gap:16px;margin:22px 0 20px}
+:root:not([data-skin=retro]) .scoreline .n{gap:12px;font:900 clamp(22px,3vw,34px)/1 var(--f-display);text-shadow:0 2px 14px rgba(0,0,0,.55)}
+:root:not([data-skin=retro]) .crest.big{width:84px;height:84px;border-radius:22px;font-size:20px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25),0 0 0 4px rgba(6,8,11,.5),0 20px 44px -16px #000}
+:root:not([data-skin=retro]) .crest.big.logo{padding:11px}
+:root:not([data-skin=retro]) .scoreline .s{gap:.1em;padding:.06em .28em .03em;border-radius:14px;border:1px solid var(--m-edge-2);background:rgba(4,6,9,.84);font:900 clamp(58px,9vw,108px)/1 var(--f-display);text-shadow:none;box-shadow:inset 0 -4px 0 var(--flood),0 26px 50px -22px #000;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+:root:not([data-skin=retro]) .scoreline .s em{color:var(--flood);font-size:.48em}
+:root:not([data-skin=retro]) .pill{border-radius:6px;padding:7px 11px;border-color:var(--m-edge-2);background:rgba(6,8,11,.62);font:italic 700 12.5px/1 var(--f-cap);letter-spacing:.14em}
+:root:not([data-skin=retro]) .pill.hot{background:var(--flood);border-color:transparent;color:var(--flood-ink);transform:skewX(-8deg)}
+:root:not([data-skin=retro]) .facts{margin-top:20px;border-top-color:rgba(255,255,255,.1);gap:9px}
+:root:not([data-skin=retro]) .facts li{padding-left:20px;color:#d8dfe7;font-size:15.5px}
+:root:not([data-skin=retro]) .facts li::before{top:.55em;width:8px;height:8px;border-radius:1px;transform:skewX(-14deg)}
+
+/* The script as numbered on-air beats */
+:root:not([data-skin=retro]) .script{counter-reset:beat;gap:14px}
+:root:not([data-skin=retro]) .beat{counter-increment:beat}
+:root:not([data-skin=retro]) .who{width:42px;height:42px;font:italic 700 11px/1 var(--f-cap);letter-spacing:.08em}
+:root:not([data-skin=retro]) .beat.you .who{background:var(--flood);color:var(--flood-ink);box-shadow:0 10px 24px -12px var(--flood-glow)}
+:root:not([data-skin=retro]) .beat.them .who{background:var(--m-slab-2);border:1px solid var(--m-edge-2)}
+:root:not([data-skin=retro]) .beat>div{max-width:min(84%,600px);padding:14px 18px;border-radius:16px;background:var(--m-slab-2);border:1px solid var(--hair)}
+:root:not([data-skin=retro]) .beat.you>div{background:linear-gradient(135deg,rgba(212,255,58,.15),rgba(212,255,58,.035));border-color:var(--flood-35);border-bottom-right-radius:4px}
+:root:not([data-skin=retro]) .beat.them>div{border-bottom-left-radius:4px}
+:root:not([data-skin=retro]) .beat .kicker::before{content:counter(beat,decimal-leading-zero);display:inline-block;margin-right:8px;padding:3px 5px;border-radius:4px;background:rgba(255,255,255,.09);color:var(--chalk);font-style:normal;letter-spacing:.04em}
+:root:not([data-skin=retro]) .beat.you .kicker{color:var(--flood)}
+:root:not([data-skin=retro]) .beat.you .kicker::before{background:var(--flood);color:var(--flood-ink)}
+:root:not([data-skin=retro]) .line{margin-top:6px;font:600 20px/1.3 var(--f-body)}
+:root:not([data-skin=retro]) .beat .note{font-size:13.5px}
+:root:not([data-skin=retro]) .star{border-radius:5px;padding:4px 7px;font:italic 700 11px/1 var(--f-cap);letter-spacing:.12em}
+:root:not([data-skin=retro]) .msg.speaking,:root:not([data-skin=retro]) .beat.speaking>div{outline:2px solid var(--flood);outline-offset:3px;box-shadow:0 0 0 7px var(--flood-10),0 0 34px -6px var(--flood-glow)}
+
+/* Phrase book */
+:root:not([data-skin=retro]) .cat{margin-bottom:34px}
+:root:not([data-skin=retro]) .cat .when{font-size:14.5px}
+:root:not([data-skin=retro]) .card{position:relative;overflow:hidden;border-radius:14px;background-color:var(--m-slab);background-image:linear-gradient(180deg,rgba(255,255,255,.035),transparent 90px);padding:18px 20px;transition:border-color .2s,transform .2s,box-shadow .2s}
+:root:not([data-skin=retro]) .card::before{content:"\201C";position:absolute;top:-12px;right:12px;color:rgba(212,255,58,.09);font:900 100px/1 var(--f-display);pointer-events:none}
+:root:not([data-skin=retro]) .card:hover{border-color:var(--flood-35);transform:translateY(-2px);box-shadow:0 22px 40px -26px #000}
+:root:not([data-skin=retro]) .card .phrase{font:600 19px/1.3 var(--f-body)}
+:root:not([data-skin=retro]) .term{border-radius:14px;background-color:var(--m-slab);background-image:none;padding:16px 20px}
+:root:not([data-skin=retro]) .term b{font:900 24px/1.05 var(--f-display);letter-spacing:.02em}
+:root:not([data-skin=retro]) .term .say{font:italic 700 15px/1.2 var(--f-cap);letter-spacing:.06em}
+
+/* Pub test: lettered answers and segmented meters */
+:root:not([data-skin=retro]) .bt{border-radius:6px;font:italic 700 12px/1 var(--f-cap);letter-spacing:.12em}
+:root:not([data-skin=retro]) .bt.on{background:var(--flood);color:var(--flood-ink)}
+:root:not([data-skin=retro]) .meter .lbl{font:italic 700 12.5px/1 var(--f-cap);letter-spacing:.14em}
+:root:not([data-skin=retro]) .bar{position:relative;height:10px;border-radius:3px;background:rgba(255,255,255,.07)}
+:root:not([data-skin=retro]) .bar::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent 0 calc(10% - 2px),var(--m-slab) calc(10% - 2px) 10%)}
+:root:not([data-skin=retro]) .bar i{border-radius:0}
+:root:not([data-skin=retro]) .avatar{flex-basis:48px;width:48px;height:48px;background:var(--m-slab-2);border-color:var(--m-edge-2)}
+:root:not([data-skin=retro]) .bubble{border-radius:16px 16px 16px 4px;background:var(--m-slab-2);font:600 19px/1.35 var(--f-body)}
+:root:not([data-skin=retro]) .opts{counter-reset:opt}
+:root:not([data-skin=retro]) .opt{counter-increment:opt;display:flex;align-items:center;gap:13px;border-radius:12px;background:var(--m-slab);padding:12px 16px}
+:root:not([data-skin=retro]) .opt::before{content:counter(opt,upper-alpha);flex:0 0 auto;display:grid;place-items:center;width:30px;height:30px;border-radius:8px;border:1px solid var(--m-edge-2);background:var(--m-slab-2);color:var(--muted);font:900 17px/1 var(--f-display)}
+:root:not([data-skin=retro]) .opt:hover:not(:disabled)::before{background:var(--flood);border-color:transparent;color:var(--flood-ink)}
+:root:not([data-skin=retro]) .opt.good::before{background:var(--good);border-color:transparent;color:#04130a}
+:root:not([data-skin=retro]) .opt.meh::before{background:var(--meh);border-color:transparent;color:#1c1100}
+:root:not([data-skin=retro]) .opt.bad::before{background:var(--bad);border-color:transparent;color:#ffffff}
+:root:not([data-skin=retro]) .fb{border-radius:12px;background:var(--m-slab-2)}
+:root:not([data-skin=retro]) .result .big{font:900 clamp(46px,9vw,84px)/.95 var(--f-display)}
+
+/* Drill */
+:root:not([data-skin=retro]) .flash{min-height:280px;background-image:radial-gradient(60% 80% at 50% 0%,rgba(212,255,58,.08),transparent 70%),linear-gradient(180deg,rgba(255,255,255,.04),transparent 140px)}
+:root:not([data-skin=retro]) .flash .q{font:600 22px/1.35 var(--f-body)}
+:root:not([data-skin=retro]) .flash .a{font:700 24px/1.3 var(--f-body)}
+
+/* Pocket card and phone */
+:root:not([data-skin=retro]) .pocket pre{border-radius:14px;background:var(--m-slab)}
+:root:not([data-skin=retro]) .phone{border-color:#000;border-radius:42px;background:linear-gradient(180deg,var(--phone-a),var(--phone-b));box-shadow:0 44px 80px -30px #000,inset 0 0 0 1px rgba(255,255,255,.08),0 0 0 1px rgba(255,255,255,.07)}
+:root:not([data-skin=retro]) .msg{border-radius:16px;font:600 15px/1.3 var(--f-body)}
+:root:not([data-skin=retro]) .msg.you{background:var(--flood);color:var(--flood-ink)}
+
+/* Panic button, sheets, toast, footer */
+:root:not([data-skin=retro]) .panic-fab{width:78px;height:78px;font:900 18px/1 var(--f-display);box-shadow:0 6px 0 var(--panic-base),0 18px 40px -8px rgba(255,48,73,.55)}
+:root:not([data-skin=retro]) .panic-fab::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid rgba(255,77,94,.55);pointer-events:none;opacity:0}
+:root:not([data-skin=retro]) .sheet-card{border-radius:20px;background-color:var(--m-slab);box-shadow:inset 0 3px 0 var(--flood),0 40px 80px -20px #000}
+:root:not([data-skin=retro]) .toast{background:var(--flood);color:var(--flood-ink);font:700 14px/1.2 var(--f-cap);letter-spacing:.08em;text-transform:uppercase}
+:root:not([data-skin=retro]) footer{background:linear-gradient(180deg,transparent,rgba(0,0,0,.4))}
+:root:not([data-skin=retro]) .credits-h{color:var(--flood);font:italic 700 14px/1 var(--f-cap);letter-spacing:.22em}
+
+/* Motion, only for people who haven't asked for less */
+@media(prefers-reduced-motion:no-preference){
+  :root:not([data-skin=retro]) .onair i{animation:onair 1.8s ease-in-out infinite}
+  :root:not([data-skin=retro]) .match::before{animation:sweep 1.6s .15s cubic-bezier(.2,.7,.2,1) forwards}
+  :root:not([data-skin=retro]) .beat,:root:not([data-skin=retro]) .match,:root:not([data-skin=retro]) .tt,:root:not([data-skin=retro]) .how{animation:rise .5s cubic-bezier(.2,.7,.2,1) both}
+  :root:not([data-skin=retro]) .beat:nth-child(2){animation-delay:.06s}
+  :root:not([data-skin=retro]) .beat:nth-child(3){animation-delay:.12s}
+  :root:not([data-skin=retro]) .beat:nth-child(4){animation-delay:.18s}
+  :root:not([data-skin=retro]) .beat:nth-child(5){animation-delay:.24s}
+  :root:not([data-skin=retro]) .panic-fab::after{animation:ring 2.6s ease-out infinite}
+}
+@keyframes onair{50%{opacity:.3}}
+@keyframes sweep{to{transform:translateX(130%)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}}
+@keyframes ring{from{transform:scale(.92);opacity:.85}to{transform:scale(1.28);opacity:0}}
+
+/* Phones */
+@media(max-width:600px){
+  :root:not([data-skin=retro]) .tabs button{padding:16px 11px 14px;font-size:16px}
+  :root:not([data-skin=retro]) .match{padding:18px 14px 16px}
+  :root:not([data-skin=retro]) .scoreline{gap:10px}
+  :root:not([data-skin=retro]) .crest.big{width:60px;height:60px;border-radius:16px;font-size:15px}
+  :root:not([data-skin=retro]) .crest.big.logo{padding:8px}
+  :root:not([data-skin=retro]) .how li{padding:14px 16px}
+  :root:not([data-skin=retro]) .how li::before{font-size:40px}
+}
+
 /* Retro: a late-2000s football chat-site look. Dark green page, chunky orange speech-bubble logo
    beside a cartoon pint mascot, green outlined capital buttons, a pin-striped chat window, and the
    script as green (you) and orange-red (them) speech bubbles with original cartoon faces. */
@@ -510,6 +743,10 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root[data-skin=retro] .beat{flex-direction:row}
 :root[data-skin=retro] .beat.them{flex-direction:row-reverse}
 :root[data-skin=retro] .phone::before{display:none}
+:root[data-skin=retro] .crest.logo{padding:2px;background:var(--r-white)}
+:root[data-skin=retro] .crest.big{width:52px;height:52px}
+:root[data-skin=retro] .crest.big.logo{padding:3px}
+:root[data-skin=retro] .crest img{image-rendering:-moz-crisp-edges;image-rendering:pixelated}
 </style>
 <script>try{if(JSON.parse(localStorage.getItem("ld2_skin")||"null")==="retro")document.documentElement.setAttribute("data-skin","retro")}catch(e){}</script>
 
@@ -518,6 +755,7 @@ footer p{margin:0 0 4px;max-width:90ch}
     <div class="brand">
       <div class="mark" aria-hidden="true">LD</div>
       <div>
+        <span class="onair" aria-hidden="true"><i></i>Match centre · Talk like you watched it</span>
         <h1>Ludicrous <span>Display</span></h1>
         <p>A Bluffball for real games. Pick last night's match, learn the three-beat script, say it, then leave before anyone asks who you support.</p>
         <span class="retro-tag">Your daily guide to sounding like a fan</span>
@@ -556,7 +794,7 @@ footer p{margin:0 0 4px;max-width:90ch}
     <h2 class="credits-h">Credits</h2>
     <p><b>A parody of Bluffball</b>, the website Moss and Roy use in <i>The IT Crowd</i>, series 3, episode 2, "Are We Not Men?" (Channel 4, 2008). <i>The IT Crowd</i> was created and written by Graham Linehan and produced by Talkback Thames for Channel 4.</p>
     <p>This is an unofficial fan tribute, not affiliated with or endorsed by Channel 4, Talkback Thames or the show's makers. Bluffball and everything from the show belong to their owners. The football and glasses characters in the Retro look are fan redrawings of the Bluffball characters seen in the episode; the rest of the artwork is original.</p>
-    <p><b>Results:</b> ESPN's public scoreboard feeds. Talking points are generated from those facts, so check anything important on <a href="https://www.espn.com/" target="_blank" rel="noopener">ESPN</a>. <b>Team guides:</b> researched from public sources such as club websites and Wikipedia. <b>Fonts:</b> Barlow and Big Shoulders Display, under the SIL Open Font License.</p>
+    <p><b>Results:</b> ESPN's public scoreboard feeds. Talking points are generated from those facts, so check anything important on <a href="https://www.espn.com/" target="_blank" rel="noopener">ESPN</a>. <b>Team guides:</b> researched from public sources such as club websites and Wikipedia. <b>Fonts:</b> Barlow, Barlow Condensed and Big Shoulders Display, under the SIL Open Font License.</p>
   </div>
 </footer>
 <button class="panic-fab" id="panicBtn" aria-haspopup="dialog">Panic</button>
@@ -591,6 +829,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 <script type="application/json" id="snapshot">__SNAPSHOT__</script>
 <script type="application/json" id="lingo">__LINGO__</script>
 <script type="application/json" id="talk">__TALK__</script>
+<script type="application/json" id="logos">__LOGOS__</script>
 <script>
 /*ESPN-START*/
 const ESPN=(()=>{
@@ -621,7 +860,13 @@ const ESPN=(()=>{
     const t=c.team||{},recs=c.records||[];
     const rec=recs.find(r=>r.type==="total")||recs.find(r=>/overall|all splits/i.test(r.name||""))||recs[0];
     const raw=c.score&&typeof c.score==="object"?(c.score.displayValue!=null?c.score.displayValue:c.score.value):c.score;
-    return{id:String(t.id!=null?t.id:c.id),n:t.displayName||t.name||"?",s:t.shortDisplayName||t.displayName||t.name||"?",ab:t.abbreviation||"",sc:num(raw),w:!!c.winner,form:typeof c.form==="string"?c.form:"",rec:(rec&&rec.summary)||"",col:String(t.color||"").replace(/[^0-9a-f]/gi,"").slice(0,6)};
+    return{id:String(t.id!=null?t.id:c.id),n:t.displayName||t.name||"?",s:t.shortDisplayName||t.displayName||t.name||"?",ab:t.abbreviation||"",sc:num(raw),w:!!c.winner,form:typeof c.form==="string"?c.form:"",rec:(rec&&rec.summary)||"",col:String(t.color||"").replace(/[^0-9a-f]/gi,"").slice(0,6),lo:logoPath(t)};
+  }
+  // ESPN logo as a path on its image server, e.g. /i/teamlogos/soccer/500/364.png
+  function logoPath(t){
+    const u=String(t.logo||(t.logos&&t.logos[0]&&t.logos[0].href)||"");
+    const m=/^https:\/\/a\.espncdn\.com(\/i\/teamlogos\/[\w\/.-]+\.png)$/i.exec(u);
+    return m?m[1]:"";
   }
   function leaders(list){
     return(list||[]).filter(l=>l&&l.leaders&&l.leaders[0]&&l.leaders[0].athlete).map(l=>({c:l.name,p:l.leaders[0].athlete.displayName||l.leaders[0].athlete.fullName||"",v:String(l.leaders[0].displayValue||""),tid:l.leaders[0].team&&l.leaders[0].team.id!=null?String(l.leaders[0].team.id):null}));
@@ -1507,13 +1752,27 @@ async function copy(text){try{await navigator.clipboard.writeText(text);toast("C
 const tools=(text,opts)=>{opts=opts||{};const saved=S.saved.some(x=>x.sp===S.sport&&x.t===(opts.raw||text));return `<div class="row">${canSpeak?`<button class="btn small" type="button" data-say="${esc(text)}"${opts.who?` data-who="${opts.who}"`:""}>Hear it</button>`:""}<button class="btn small" type="button" data-copy="${esc(text)}">Copy</button>${opts.save!==false?`<button class="btn small" type="button" data-save="${esc(opts.raw||text)}" aria-pressed="${saved}">${saved?"Saved":"Save"}</button>`:""}</div>`};
 
 /* ---------- Today's script ---------- */
-/* Team badge in the team's ESPN colour, with readable text on top */
+/* Team badge: the club's ESPN logo (crisp in Modern, a tiny copy blown up into pixels in Retro).
+   Without a logo, or if it fails to load, it falls back to the abbreviation in the team's colour. */
+let LOGOS={};
+try{const raw=document.getElementById("logos").textContent.trim();if(raw.charAt(0)==="{")LOGOS=JSON.parse(raw)}catch(e){LOGOS={}}
+const logoKey=p=>String(p||"").replace(/^\/i\/teamlogos\//,"").replace(/\.png$/i,"").replace(/[^a-z0-9]+/gi,"-");
+const isRetro=()=>document.documentElement.getAttribute("data-skin")==="retro";
+function logoSrc(t,px){
+  if(!t||!/^\/i\/teamlogos\/[\w\/.-]+\.png$/i.test(t.lo||""))return null;
+  const L=LOGOS[logoKey(t.lo)];
+  if(L)return L[px?1:0];
+  // Not in the saved set: ask ESPN only once live results are allowed (on the website, after the visitor opts in)
+  return DATA.liveAllowed?"https://a.espncdn.com/combiner/i?img="+t.lo+"&w="+(px?16:96)+"&h="+(px?16:96):null;
+}
 const hexOf=t=>/^[0-9a-f]{6}$/i.test((t&&t.col)||"")?t.col:"2b4a3d";
 function crest(t,big){
   const hex=hexOf(t),r=parseInt(hex.slice(0,2),16),g=parseInt(hex.slice(2,4),16),b=parseInt(hex.slice(4,6),16);
   const ink=(r*299+g*587+b*114)/1000>150?"#14201a":"#ffffff";
-  return `<i class="crest${big?" big":""}" style="--c:#${hex};--ct:${ink}" aria-hidden="true">${esc(String(t.ab||t.s||"?").slice(0,4))}</i>`;
+  const src=logoSrc(t,isRetro()),ab=`<b>${esc(String(t.ab||t.s||"?").slice(0,4))}</b>`;
+  return `<i class="crest${big?" big":""}${src?" logo":""}" style="--c:#${hex};--ct:${ink}" aria-hidden="true">${ab}${src?`<img src="${esc(src)}" alt="" decoding="async">`:""}</i>`;
 }
+document.addEventListener("error",e=>{const im=e.target;if(im&&im.tagName==="IMG"&&im.parentNode&&im.parentNode.classList.contains("crest")){im.parentNode.classList.remove("logo");im.remove()}},true);
 function ttPage(entry,lg){
   const sp=SPORTS[S.sport],now=new Date();
   const lgs=leagueList();

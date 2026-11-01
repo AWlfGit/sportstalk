@@ -1,4 +1,4 @@
-// Downloads the page's three fonts (SIL Open Font License) for self-hosting:  node src/get-fonts.js
+// Downloads the page's fonts (SIL Open Font License) for self-hosting:  node src/get-fonts.js
 // Writes src/fonts/: woff2 files (latin + latin-ext), fonts.css and each family's licence.
 const fs = require("fs");
 const path = require("path");
@@ -7,7 +7,7 @@ const out = path.join(__dirname, "fonts");
 const FAMILIES = [
   ["Barlow", "wght@400;500;600;700", "barlow", ["barlow"]],
   ["Big Shoulders Display", "wght@700;800;900", "big-shoulders-display", ["bigshouldersdisplay", "bigshoulders"]],
-  ["VT323", "", "vt323", ["vt323"]],
+  ["Barlow Condensed", "ital,wght@0,500;0,600;0,700;1,600;1,700", "barlow-condensed", ["barlowcondensed"]],
 ];
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 
@@ -21,15 +21,16 @@ const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
     for (const [, subset, body] of text.matchAll(/\/\*\s*([\w-]+)\s*\*\/\s*@font-face\s*\{([^}]*)\}/g)) {
       if (subset !== "latin" && subset !== "latin-ext") continue;
       const weight = /font-weight:\s*(\d+)/.exec(body)[1];
+      const style = (/font-style:\s*(\w+)/.exec(body) || [, "normal"])[1];
       const src = /url\(([^)]+\.woff2)\)/.exec(body)[1];
       const range = /unicode-range:\s*([^;]+);/.exec(body)[1];
       let file = seen.get(src);
       if (!file) {
-        file = `${slug}-${subset}-${weight}.woff2`;
+        file = `${slug}-${subset}-${weight}${style === "italic" ? "i" : ""}.woff2`;
         fs.writeFileSync(path.join(out, file), Buffer.from(await (await fetch(src)).arrayBuffer()));
         seen.set(src, file);
       }
-      css += `@font-face{font-family:"${family}";font-style:normal;font-weight:${weight};font-display:swap;src:url(${file}) format("woff2");unicode-range:${range}}\n`;
+      css += `@font-face{font-family:"${family}";font-style:${style};font-weight:${weight};font-display:swap;src:url(${file}) format("woff2");unicode-range:${range}}\n`;
     }
     let licence = null;
     for (const dir of licenceDirs) {

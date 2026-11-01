@@ -118,7 +118,10 @@ function loadTalk() {
   if (fs.existsSync(path.join(root, "research", "out"))) fs.writeFileSync(path.join(__dirname, "lingo.json"), JSON.stringify(lingo, null, 1));
   const talk = loadTalk();
   console.log("Talk packs:", Object.keys(talk).map((k) => k + " (" + Object.keys(talk[k].exchanges).length + " exchanges, " + talk[k].terms.length + " terms)").join(", ") || "none");
-  const page = src.replace("__SNAPSHOT__", () => json).replace("__LINGO__", () => safe(lingo)).replace("__TALK__", () => safe(talk));
+  // Character art in src/art/ is embedded into the page, so every copy works as a single file.
+  const art = (m, f) => 'url("data:image/' + (f.endsWith(".png") ? "png" : "webp") + ";base64," + fs.readFileSync(path.join(__dirname, "art", f)).toString("base64") + '")';
+  const page = src.replace(/url\("art\/([\w.-]+\.(?:webp|png))"\)/g, art)
+    .replace("__SNAPSHOT__", () => json).replace("__LINGO__", () => safe(lingo)).replace("__TALK__", () => safe(talk));
   console.log("Team guides:", lingo.length, "teams,", (safe(lingo).length / 1024).toFixed(0), "KB");
   const siteOnly = process.argv.includes("--site-only");
   if (!siteOnly) fs.writeFileSync(path.join(__dirname, "artifact.html"), page);

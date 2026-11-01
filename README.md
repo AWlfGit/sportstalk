@@ -14,6 +14,9 @@ Live page: https://awlfgit.github.io/sportstalk/
 - `src/fonts/`: self-hosted fonts, SIL Open Font License (see the `OFL-*.txt` files);
   `src/get-fonts.js` re-downloads them
 - `src/serve.js`: a small local preview server
+- `src/art/`: the Retro look's characters (`football.webp` for the header and the fan's
+  lines, `glasses.webp` for yours). The build embeds them into the page, so swap a file and
+  rebuild to change one.
 - `research/out/*.json`: the team guides, one file per league group. Edit these to change
   nicknames, fan terms, rivals, sayings and giveaways.
 - `research/hockey-canada.json`, `research/football-uk.json`, `research/football-nfl.json`:

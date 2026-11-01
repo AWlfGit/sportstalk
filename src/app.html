@@ -1,0 +1,1576 @@
+<title>Ludicrous Display</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="A Bluffball-style sports talk trainer. Pick a real game, learn the three-beat script, and get out before they ask who you support.">
+<!--FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&family=VT323&display=swap">
+<!--/FONTS-->
+<style>
+:root{
+  /* Layout: a floodlit matchday desk. Header, then sticky tabs. On wide screens a teletext results page sits left of the cue-card briefing; on phones everything stacks into one column. */
+  --pitch:#0b1f17;
+  --bar:#071510;
+  --turf:#11291f;
+  --turf-2:#183628;
+  --line:#294b3c;
+  --chalk:#eef3ea;
+  --muted:#9db3a6;
+  --flood:#ffd23f;
+  --flood-ink:#1c1704;
+  --good:#5ad48c;
+  --meh:#f2a649;
+  --bad:#ff5d54;
+  --tt-bg:#030303;
+  --tt-white:#f2f2f2;
+  --tt-yellow:#fff04d;
+  --tt-cyan:#5cf0ff;
+  --tt-green:#5dff77;
+  --tt-red:#ff5050;
+  --tt-blue:#2b47e6;
+  --tt-magenta:#ff63f2;
+  --glow:rgba(255,210,63,.11);
+  --stripe:rgba(255,255,255,.022);
+  --shadow:rgba(0,0,0,.45);
+  --scrim:rgba(3,10,7,.78);
+  --good-bg:rgba(90,212,140,.13);
+  --meh-bg:rgba(242,166,73,.13);
+  --bad-bg:rgba(255,93,84,.13);
+  --panic-hi:#ff8f86;
+  --panic-lo:#8c1611;
+  --panic-base:#5b0d0a;
+  --panic-ink:#fff6f5;
+  --f-display:"Big Shoulders Display","Arial Narrow","Roboto Condensed",Impact,sans-serif;
+  --f-body:Barlow,"Segoe UI",Roboto,system-ui,sans-serif;
+  --f-tt:VT323,"Lucida Console","Courier New",monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;color:var(--chalk);font:400 16px/1.5 var(--f-body);background:radial-gradient(110% 46% at 50% -6%,var(--glow),transparent 62%),repeating-linear-gradient(90deg,var(--stripe) 0 72px,transparent 72px 144px),var(--pitch);background-color:var(--pitch)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bar)}
+.in{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--flood)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--flood);outline-offset:2px}
+[hidden]{display:none!important}
+
+/* Header */
+.head{padding-block:22px 16px}
+.head .in{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:flex-end;justify-content:space-between}
+.brand{display:flex;gap:14px;align-items:center;min-width:0;flex:1 1 320px}
+.mark{flex:0 0 auto;display:grid;place-items:center;width:54px;height:54px;background:var(--flood);color:var(--flood-ink);font:900 27px/1 var(--f-display);border-radius:6px;transform:rotate(-5deg);box-shadow:0 6px 0 var(--bar)}
+.brand h1{margin:0;font:900 clamp(32px,6vw,50px)/.88 var(--f-display);text-transform:uppercase;letter-spacing:.01em;text-wrap:balance}
+.brand h1 span{color:var(--flood)}
+.brand p{margin:6px 0 0;color:var(--muted);font-size:15px;max-width:52ch}
+.setup{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;flex:1 1 420px;justify-content:flex-end}
+.fld{display:flex;flex-direction:column;gap:5px;font:700 12px/1 var(--f-body);color:var(--muted);text-transform:uppercase;letter-spacing:.1em;flex:1 1 150px;min-width:0;max-width:240px}
+select,input[type=text]{width:100%;min-width:0;background:var(--turf-2);border:1px solid var(--line);border-radius:6px;padding:9px 10px;color:var(--chalk);font:500 15px/1.2 var(--f-body);text-transform:none;letter-spacing:0}
+.chk{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);padding-bottom:9px;white-space:nowrap}
+.chk input{width:18px;height:18px;margin:0;accent-color:var(--flood)}
+
+/* Tabs */
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--bar);border-block:1px solid var(--line)}
+.tabs .in{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.tabs .in::-webkit-scrollbar{display:none}
+.tabs button{flex:0 0 auto;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);font:800 17px/1 var(--f-display);text-transform:uppercase;letter-spacing:.07em;padding:15px 12px 11px;cursor:pointer}
+.tabs button:hover{color:var(--chalk)}
+.tabs button[aria-selected=true]{color:var(--chalk);border-bottom-color:var(--flood)}
+main{padding-block:24px 120px}
+
+/* Shared bits */
+.btn{display:inline-flex;align-items:center;gap:6px;background:var(--turf-2);border:1px solid var(--line);color:var(--chalk);border-radius:6px;padding:8px 12px;font:600 14px/1.2 var(--f-body);cursor:pointer;text-decoration:none}
+.btn:hover{border-color:var(--flood)}
+.btn.primary{background:var(--flood);border-color:var(--flood);color:var(--flood-ink)}
+.btn.small{padding:5px 9px;font-size:13px}
+.btn[aria-pressed=true]{background:var(--flood);border-color:var(--flood);color:var(--flood-ink)}
+.btn:disabled{opacity:.45;cursor:default;border-color:var(--line)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.kicker{margin:0;font:700 12px/1.35 var(--f-body);text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.sec{margin:0 0 6px;font:900 clamp(26px,4vw,34px)/1 var(--f-display);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.lede{color:var(--muted);margin:0 0 18px;max-width:65ch}
+.panel{background:var(--turf);border:1px solid var(--line);border-radius:10px;padding:18px;min-width:0}
+.panel h3{margin:0 0 12px;font:800 21px/1 var(--f-display);text-transform:uppercase;letter-spacing:.05em}
+.muted{color:var(--muted)}
+.two{display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:720px){.two{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* The episode's method */
+.how{list-style:none;margin:0 0 20px;padding:0;display:grid;gap:10px;grid-template-columns:minmax(0,1fr);counter-reset:how}
+@media(min-width:720px){.how{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.how li{counter-increment:how;display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;font-size:15px;color:var(--muted)}
+.how li::before{content:counter(how);font:900 30px/.9 var(--f-display);color:var(--flood)}
+.how b{color:var(--chalk);font-weight:700}
+
+/* Script tab layout */
+.script-grid{display:grid;gap:22px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:940px){.script-grid{grid-template-columns:minmax(0,390px) minmax(0,1fr);align-items:start}.tt-wrap{position:sticky;top:calc(env(safe-area-inset-top,0px) + 62px)}}
+
+/* Teletext results page */
+.tt{background:var(--tt-bg);color:var(--tt-white);font:21px/1.12 var(--f-tt);border-radius:8px;padding-block:8px 10px;box-shadow:0 14px 34px var(--shadow);overflow:hidden}
+.tt-top{display:flex;justify-content:space-between;gap:8px;padding:0 12px 6px}
+.tt-top b{font-weight:400;color:var(--tt-yellow)}
+.tt-band{background:var(--tt-blue);color:var(--tt-yellow);font-size:34px;line-height:1;padding:5px 12px 3px;text-transform:uppercase}
+.tt-fx{display:flex;flex-wrap:wrap;gap:4px 12px;padding:8px 12px 4px}
+.tt-fx button{background:none;border:0;padding:0 3px;font:inherit;cursor:pointer;text-transform:uppercase}
+.tt-fx button:nth-child(4n+1){color:var(--tt-red)}
+.tt-fx button:nth-child(4n+2){color:var(--tt-green)}
+.tt-fx button:nth-child(4n+3){color:var(--tt-yellow)}
+.tt-fx button:nth-child(4n+4){color:var(--tt-cyan)}
+.tt-fx button[aria-pressed=true]{color:var(--tt-bg);background:var(--tt-white)}
+.tt-list{position:relative;max-height:min(60vh,560px);overflow-y:auto;scrollbar-color:var(--tt-blue) var(--tt-bg)}
+.tt-day{color:var(--tt-cyan);padding:9px 12px 2px;text-transform:uppercase}
+.tt-row{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;width:100%;background:none;border:0;padding:3px 12px;text-align:left;cursor:pointer;font:inherit;color:var(--tt-white);text-transform:uppercase}
+.tt-row.f1{grid-template-columns:minmax(0,1fr) auto}
+.tt-row span{overflow-wrap:anywhere;min-width:0}
+.tt-row .sc{color:var(--tt-yellow);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tt-row .me{color:var(--tt-green)}
+.tt-row .xt{color:var(--tt-magenta)}
+.tt-row:hover{background:var(--tt-blue)}
+.tt-row[aria-pressed=true]{background:var(--tt-yellow);color:var(--tt-bg)}
+.tt-row[aria-pressed=true] .sc,.tt-row[aria-pressed=true] .me,.tt-row[aria-pressed=true] .xt{color:var(--tt-bg)}
+.tt-msg{padding:12px;color:var(--tt-white);text-transform:uppercase}
+.tt-msg .y{color:var(--tt-yellow)}
+.tt-foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 12px;padding:9px 12px 0;color:var(--tt-cyan);text-transform:uppercase}
+.tt-foot button{background:none;border:0;color:var(--tt-yellow);font:inherit;cursor:pointer;padding:0;text-transform:uppercase}
+.blink{animation:blink 1.1s steps(2,start) infinite}
+@keyframes blink{to{visibility:hidden}}
+.src{margin:10px 2px 0;font-size:14px;color:var(--muted);display:flex;gap:8px;align-items:flex-start}
+.src p{margin:0}
+.src .btn{margin-top:8px}
+.dot{flex:0 0 auto;width:9px;height:9px;border-radius:50%;margin-top:6px;background:var(--meh)}
+.dot.live{background:var(--good)}
+
+/* Briefing */
+.brief{display:grid;gap:18px;min-width:0}
+.scoreline{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px;margin:10px 0 12px;font:900 clamp(30px,5.4vw,52px)/1 var(--f-display);text-transform:uppercase}
+.scoreline .n{min-width:0;overflow-wrap:anywhere}
+.scoreline .n.mine{color:var(--flood)}
+.scoreline .s{font-variant-numeric:tabular-nums}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font:700 12px/1 var(--f-body);text-transform:uppercase;letter-spacing:.08em;padding:6px 9px;border-radius:99px;border:1px solid var(--line);color:var(--chalk)}
+.pill.hot{background:var(--flood);border-color:var(--flood);color:var(--flood-ink)}
+.side{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:16px}
+.side .kicker{margin-right:4px}
+.facts{margin:16px 0 0;padding:0;list-style:none;display:grid;gap:6px}
+.facts li{position:relative;padding-left:18px;max-width:70ch}
+.facts li::before{content:"";position:absolute;left:2px;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--flood)}
+.script{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.beat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start}
+.who{font:900 15px/1 var(--f-display);text-transform:uppercase;letter-spacing:.08em;padding:7px 8px 6px;border-radius:4px;min-width:64px;text-align:center}
+.beat.you .who{background:var(--flood);color:var(--flood-ink)}
+.beat.them .who{border:1px solid var(--line);color:var(--muted)}
+.line{font-size:20px;font-weight:600;line-height:1.3}
+.beat.them .line{color:var(--muted);font-weight:500}
+.beat .note{font-size:13px;color:var(--muted);margin-top:4px}
+.beat .row{margin-top:8px}
+.star{color:var(--flood);font:700 11px/1 var(--f-body);text-transform:uppercase;letter-spacing:.1em;border:1px solid var(--flood);border-radius:99px;padding:3px 7px;margin-left:6px;vertical-align:3px;white-space:nowrap}
+.qa{margin:0;display:grid;gap:12px}
+.qa dt{color:var(--muted);font-size:14px}
+.qa dd{margin:2px 0 0;font-weight:600}
+.dont{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.dont li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:9px}
+.dont li::before{content:"✕";color:var(--bad);font-weight:700}
+.names{display:flex;flex-wrap:wrap;gap:6px}
+.local{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:14px}
+.local .line{font-size:18px}
+.local .note{font-size:13px;color:var(--muted);margin-top:2px}
+.local .row{margin-top:6px}
+.other{margin:6px 0 0;max-width:70ch}
+.guide{display:grid;gap:4px;margin:0 0 14px;max-width:70ch}
+.empty{padding:26px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}
+.empty b{display:block;color:var(--chalk);font:800 22px/1.1 var(--f-display);text-transform:uppercase;margin-bottom:6px}
+
+/* Phrase book */
+.cat{margin:0 0 26px}
+.cat h3{margin:0 0 2px;font:800 22px/1 var(--f-display);text-transform:uppercase;letter-spacing:.04em}
+.cat .when{color:var(--muted);font-size:14px;margin:4px 0 12px;max-width:70ch}
+.cards{display:grid;gap:10px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:760px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.card{background:var(--turf);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.card .phrase{font-size:18px;font-weight:600;line-height:1.3}
+.card .meta{color:var(--muted);font-size:14px;flex:1}
+.card .row{margin-top:4px}
+.jargon{display:grid;gap:10px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:760px){.jargon{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.term{background:var(--turf);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:start}
+.term b{font:800 20px/1.1 var(--f-display);text-transform:uppercase;letter-spacing:.03em}
+.term .say{font:19px/1 var(--f-tt);color:var(--flood);letter-spacing:.04em}
+.term p{grid-column:1/-1;margin:2px 0 0;color:var(--muted);font-size:14px}
+
+/* Pub test */
+.pub-top{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between;margin-bottom:14px}
+.beats{display:flex;flex-wrap:wrap;gap:6px}
+.bt{font:800 13px/1 var(--f-display);text-transform:uppercase;letter-spacing:.08em;padding:6px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
+.bt.on{background:var(--chalk);color:var(--pitch);border-color:var(--chalk)}
+.bt.done{color:var(--chalk)}
+.bt.off{border-style:dashed}
+.meters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:16px}
+.meter .lbl{display:flex;justify-content:space-between;font:700 12px/1 var(--f-body);text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;font-variant-numeric:tabular-nums}
+.bar{height:10px;background:var(--turf-2);border:1px solid var(--line);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;transition:width .4s}
+@media(prefers-reduced-motion:reduce){.bar i{transition:none}}
+.speaker{display:flex;gap:12px;align-items:flex-start}
+.avatar{flex:0 0 46px;height:46px;border-radius:50%;background:var(--turf-2);border:1px solid var(--line);display:grid;place-items:center;font:900 20px/1 var(--f-display);color:var(--flood)}
+.whoname{font-size:13px;color:var(--muted);margin-bottom:4px}
+.bubble{background:var(--chalk);color:var(--pitch);border-radius:4px 14px 14px 14px;padding:10px 14px;font-weight:600;font-size:18px;line-height:1.35}
+.prompt{margin:16px 0 8px;font:700 12px/1 var(--f-body);text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.opts{display:grid;gap:8px}
+.opt{text-align:left;background:var(--turf-2);border:1px solid var(--line);color:var(--chalk);border-radius:10px;padding:12px 14px;font:500 16px/1.35 var(--f-body);cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--flood)}
+.opt:disabled{cursor:default}
+.opt.good{border-color:var(--good);background:var(--good-bg)}
+.opt.meh{border-color:var(--meh);background:var(--meh-bg)}
+.opt.bad{border-color:var(--bad);background:var(--bad-bg)}
+.fb{margin-top:12px;padding:12px 14px;border-radius:10px;background:var(--turf-2);font-size:15px}
+.result{text-align:center;padding-block:26px}
+.result .big{font:900 clamp(40px,8vw,64px)/1 var(--f-display);text-transform:uppercase;color:var(--flood);margin:6px 0}
+.result p{max-width:52ch;margin:0 auto 14px}
+.result .row{justify-content:center}
+
+/* Drill */
+.flash{min-height:230px;display:flex;flex-direction:column;justify-content:center;text-align:center;gap:8px;padding:26px}
+.flash .q{font-size:20px;font-weight:600;max-width:52ch;margin:0 auto}
+.flash .a{font-size:22px;font-weight:700;color:var(--flood);max-width:52ch;margin:6px auto 0}
+.flash .row{justify-content:center;margin-top:10px}
+
+/* Cover story */
+.cover{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:760px){.cover{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.cover .fld{max-width:none;flex:none}
+.cover .tip{font:400 13px/1.4 var(--f-body);text-transform:none;letter-spacing:0;color:var(--muted)}
+.strength{display:flex;align-items:center;gap:12px;margin:4px 0 18px}
+.strength .bar{flex:1;max-width:320px}
+
+/* Pocket */
+.pocket pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font:20px/1.25 var(--f-tt);background:var(--tt-bg);color:var(--tt-white);border-radius:8px;padding:16px;max-height:70vh;overflow:auto}
+
+/* Panic */
+.panic-fab{position:fixed;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:8;width:76px;height:76px;border-radius:50%;border:0;cursor:pointer;background:radial-gradient(circle at 35% 30%,var(--panic-hi),var(--bad) 55%,var(--panic-lo));color:var(--panic-ink);font:900 17px/1 var(--f-display);text-transform:uppercase;letter-spacing:.06em;box-shadow:0 6px 0 var(--panic-base),0 10px 24px var(--shadow)}
+.panic-fab:active{transform:translateY(5px);box-shadow:0 1px 0 var(--panic-base),0 4px 10px var(--shadow)}
+.sheet{position:fixed;inset:0;z-index:20;background:var(--scrim);display:grid;place-items:end center;padding:0 max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.sheet-card{width:min(560px,100%);background:var(--turf);border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center;box-shadow:0 20px 50px var(--shadow)}
+.sheet-card .line{font-size:24px;margin:10px 0}
+.sheet-card .row{justify-content:center;margin-top:12px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:30;background:var(--flood);color:var(--flood-ink);padding:9px 14px;border-radius:8px;font-weight:700;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;max-width:calc(100% - 32px)}
+.toast.show{opacity:1}
+footer{border-top:1px solid var(--line);padding-block:18px 28px;color:var(--muted);font-size:13px}
+footer p{margin:0 0 4px;max-width:90ch}
+</style>
+
+<header class="head">
+  <div class="in">
+    <div class="brand">
+      <div class="mark" aria-hidden="true">LD</div>
+      <div>
+        <h1>Ludicrous <span>Display</span></h1>
+        <p>A Bluffball for real games. Pick last night's match, learn the three-beat script, say it, then leave before anyone asks who you support.</p>
+      </div>
+    </div>
+    <div class="setup">
+      <label class="fld" for="sport">Sport<select id="sport"></select></label>
+      <label class="fld" for="team">Your team<input id="team" type="text" maxlength="40" autocomplete="off" list="teamList"></label>
+      <datalist id="teamList"></datalist>
+      <label class="chk" id="voiceWrap" hidden><input type="checkbox" id="deep"> Deep pub voice</label>
+    </div>
+  </div>
+</header>
+<nav class="tabs" aria-label="Sections">
+  <div class="in" role="tablist">
+    <button role="tab" id="t-script" data-tab="script">Today's script</button>
+    <button role="tab" id="t-pub" data-tab="pub">Pub test</button>
+    <button role="tab" id="t-cover" data-tab="cover">Cover story</button>
+    <button role="tab" id="t-phrases" data-tab="phrases">Phrase book</button>
+    <button role="tab" id="t-drill" data-tab="drill">Drill</button>
+    <button role="tab" id="t-pocket" data-tab="pocket">Pocket card</button>
+  </div>
+</nav>
+<main class="in">
+  <section id="tab-script" role="tabpanel" aria-labelledby="t-script"></section>
+  <section id="tab-pub" role="tabpanel" aria-labelledby="t-pub" hidden></section>
+  <section id="tab-cover" role="tabpanel" aria-labelledby="t-cover" hidden></section>
+  <section id="tab-phrases" role="tabpanel" aria-labelledby="t-phrases" hidden></section>
+  <section id="tab-drill" role="tabpanel" aria-labelledby="t-drill" hidden></section>
+  <section id="tab-pocket" role="tabpanel" aria-labelledby="t-pocket" hidden></section>
+</main>
+<footer>
+  <div class="in">
+    <p>Fan-made trainer inspired by the Bluffball website in <i>The IT Crowd</i>, series 3 episode 2, "Are We Not Men?". Not affiliated with Channel 4 or the show.</p>
+    <p>Results, scorers, standings and stats come from ESPN's public scoreboard feeds. Talking points are generated from those facts. Check anything important on <a href="https://www.espn.com/" target="_blank" rel="noopener">ESPN</a>.</p>
+  </div>
+</footer>
+<button class="panic-fab" id="panicBtn" aria-haspopup="dialog">Panic</button>
+<div class="sheet" id="panicSheet" role="dialog" aria-modal="true" aria-labelledby="panicTitle" hidden>
+  <div class="sheet-card">
+    <p class="kicker" id="panicTitle">Someone's waiting. Say this.</p>
+    <div class="line" id="panicLine"></div>
+    <p class="muted" id="panicTip"></p>
+    <div class="row">
+      <button class="btn" id="panicHear" type="button">Hear it</button>
+      <button class="btn" id="panicAgain" type="button">Another</button>
+      <button class="btn primary" id="panicClose" type="button">Done</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="application/json" id="snapshot">__SNAPSHOT__</script>
+<script type="application/json" id="lingo">__LINGO__</script>
+<script>
+/*ESPN-START*/
+const ESPN=(()=>{
+  const SITE="https://site.api.espn.com/apis/site/v2/sports/";
+  const V2="https://site.api.espn.com/apis/v2/sports/";
+  const LEAGUES={
+    football:[["soccer/eng.1","Premier League"],["soccer/eng.2","Championship"],["soccer/sco.1","Scottish Premiership"],["soccer/uefa.champions","Champions League"],["soccer/uefa.europa","Europa League"],["soccer/esp.1","LaLiga"],["soccer/ita.1","Serie A"],["soccer/ger.1","Bundesliga"],["soccer/fra.1","Ligue 1"],["soccer/usa.1","MLS"]],
+    rugby:[["rugby/267979","Premiership Rugby"],["rugby/270557","United Rugby Championship"],["rugby/289234","Test matches"],["rugby/271937","Champions Cup"],["rugby/180659","Six Nations"]],
+    cricket:[],
+    f1:[["racing/f1","Formula 1"]],
+    nfl:[["football/nfl","NFL"],["football/college-football","College football"],["football/cfl","CFL"]],
+    nba:[["basketball/nba","NBA"]],
+    nhl:[["hockey/nhl","NHL"]],
+    mlb:[["baseball/mlb","MLB"]]
+  };
+  const pad=n=>String(n).padStart(2,"0");
+  const ymd=d=>""+d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate());
+  async function getJSON(url,ms){
+    const ctl=typeof AbortController==="function"?new AbortController():null;
+    const timer=ctl?setTimeout(()=>ctl.abort(),ms||10000):null;
+    try{const r=await fetch(url,ctl?{signal:ctl.signal}:undefined);if(!r.ok)throw new Error("HTTP "+r.status);return await r.json()}
+    finally{if(timer)clearTimeout(timer)}
+  }
+  const num=v=>{const n=parseFloat(v);return Number.isFinite(n)?n:null};
+  const statOf=(list,name)=>{const s=(list||[]).find(x=>x&&x.name===name);return s?num(s.displayValue!=null?s.displayValue:s.value):null};
+  function clock(s){const m=/(\d+)'?(?:\s*\+\s*(\d+))?/.exec(String(s||""));if(!m)return{m:null,fh:false};const base=+m[1],add=+(m[2]||0);return{m:base+add,fh:base<=45}}
+  function team(c){
+    const t=c.team||{},recs=c.records||[];
+    const rec=recs.find(r=>r.type==="total")||recs.find(r=>/overall|all splits/i.test(r.name||""))||recs[0];
+    const raw=c.score&&typeof c.score==="object"?(c.score.displayValue!=null?c.score.displayValue:c.score.value):c.score;
+    return{id:String(t.id!=null?t.id:c.id),n:t.displayName||t.name||"?",s:t.shortDisplayName||t.displayName||t.name||"?",ab:t.abbreviation||"",sc:num(raw),w:!!c.winner,form:typeof c.form==="string"?c.form:"",rec:(rec&&rec.summary)||""};
+  }
+  function leaders(list){
+    return(list||[]).filter(l=>l&&l.leaders&&l.leaders[0]&&l.leaders[0].athlete).map(l=>({c:l.name,p:l.leaders[0].athlete.displayName||l.leaders[0].athlete.fullName||"",v:String(l.leaders[0].displayValue||""),tid:l.leaders[0].team&&l.leaders[0].team.id!=null?String(l.leaders[0].team.id):null}));
+  }
+  function parseEvent(e,lg){
+    const c=(e.competitions||[])[0];if(!c)return null;
+    const st=((c.status||e.status||{}).type)||{};
+    if(!st.completed||/POSTPONED|CANCEL|ABANDON|FORFEIT|SUSPENDED/i.test(st.name||""))return null;
+    const sport=lg.split("/")[0],comps=c.competitors||[];
+    const H=comps.find(x=>x.homeAway==="home")||comps[0],A=comps.find(x=>x.homeAway==="away")||comps[1];
+    if(!H||!A)return null;
+    const h=team(H),a=team(A);if(h.sc==null||a.sc==null)return null;
+    const side=id=>String(id)===h.id?"h":String(id)===a.id?"a":null;
+    const detail=st.shortDetail||st.detail||"";
+    const link=((e.links||[]).find(l=>(l.rel||[]).indexOf("summary")>=0)||{}).href||"";
+    const g={id:String(e.id),lg,date:e.date||c.date,st:detail,xt:/OT|SO|AET|Pen|\/\d/i.test(detail),venue:(c.venue&&c.venue.fullName)||"",link,h,a,ev:[],ld:[]};
+    for(const d of c.details||[]){
+      if(d.shootout)continue;
+      const s=side(d.team&&d.team.id);if(!s)continue;
+      const tt=String((d.type&&d.type.text)||"").toLowerCase();
+      const ath=d.athletesInvolved&&d.athletesInvolved[0];
+      const who=(ath&&(ath.displayName||ath.fullName))||"";
+      const cl=clock(d.clock&&d.clock.displayValue);let k=null;
+      if(sport==="soccer"){if(d.redCard)k="red";else if(d.scoringPlay)k=d.ownGoal?"og":d.penaltyKick?"pen":"goal"}
+      else if(sport==="rugby"){if(/^(penalty )?try$/.test(tt))k="try";else if(tt==="red card")k="red";else if(tt==="yellow card")k="yellow"}
+      if(k)g.ev.push({k,t:s,p:who,m:cl.m,fh:cl.fh,mt:(d.clock&&d.clock.displayValue)||""});
+    }
+    if(sport==="soccer"){
+      const two=n=>{const x=statOf(H.statistics,n),y=statOf(A.statistics,n);return x==null||y==null?null:[x,y]};
+      g.stx={poss:two("possessionPct"),shots:two("totalShots"),sot:two("shotsOnTarget"),corners:two("wonCorners")};
+    }else if(sport!=="rugby"){
+      const ls=x=>(x.linescores||[]).map(l=>num(l.value)).filter(v=>v!=null);
+      g.ls={h:ls(H),a:ls(A)};
+      if(sport!=="baseball"){
+        const L=[];
+        for(const [X,s] of [[H,"h"],[A,"a"]])for(const l of leaders(X.leaders))L.push(Object.assign({},l,{t:s}));
+        for(const l of leaders(c.leaders)){const s=side(l.tid);if(s)L.push(Object.assign({},l,{t:s}))}
+        g.ld=L.filter(l=>!/rating|avg|average/i.test(l.c)&&l.p&&l.v&&l.v!=="0").map(l=>({t:l.t,c:l.c,p:l.p,v:l.v}));
+      }
+    }
+    return g;
+  }
+  async function races(now){
+    const out=[];
+    for(const y of [now.getFullYear(),now.getFullYear()-1]){
+      let j;
+      try{j=await getJSON(SITE+"racing/f1/scoreboard?dates="+y)}catch(err){if(!out.length&&y===now.getFullYear())throw err;break}
+      for(const e of j.events||[]){
+        const race=(e.competitions||[]).find(c=>c.type&&/^race$/i.test(c.type.abbreviation||c.type.text||""));
+        if(!race||!race.status||!race.status.type||!race.status.type.completed)continue;
+        const res=(race.competitors||[]).filter(c=>c.athlete).slice().sort((a,b)=>(a.order||99)-(b.order||99)).map(c=>({pos:c.order||null,n:c.athlete.displayName||c.athlete.fullName||"?",fl:(c.athlete.flag&&c.athlete.flag.alt)||""}));
+        if(!res.length)continue;
+        out.push({id:String(e.id),lg:"racing/f1",date:race.date||e.date,race:e.name||e.shortName||"Grand Prix",venue:(e.circuit&&e.circuit.fullName)||"",link:((e.links||[]).find(l=>(l.rel||[]).indexOf("summary")>=0)||{}).href||"https://www.espn.com/f1/",res});
+      }
+      if(out.length>=3)break;
+    }
+    return out.sort((x,y)=>String(y.date).localeCompare(String(x.date))).slice(0,4);
+  }
+  async function games(lg,days,now){
+    days=days||7;now=now||new Date();
+    if(lg==="racing/f1")return races(now);
+    const run=async(from,to)=>{
+      const dates=[];
+      for(let i=from;i<to;i++)dates.push(ymd(new Date(now.getFullYear(),now.getMonth(),now.getDate()-i)));
+      const res=await Promise.all(dates.map(ds=>getJSON(SITE+lg+"/scoreboard?dates="+ds).catch(()=>null)));
+      if(res.every(r=>r===null))throw new Error("ESPN could not be reached");
+      const seen=new Set(),out=[];
+      for(const j of res)for(const e of (j&&j.events)||[]){if(seen.has(e.id))continue;seen.add(e.id);const g=parseEvent(e,lg);if(g)out.push(g)}
+      return out;
+    };
+    let out=await run(0,days);
+    if(!out.length)out=await run(days,days*3);
+    return out.sort((x,y)=>String(y.date).localeCompare(String(x.date)));
+  }
+  async function standings(lg){
+    if(!/^(soccer|rugby)\//.test(lg))return{};
+    const j=await getJSON(V2+lg+"/standings");const out={};
+    const walk=n=>{
+      if(!n)return;
+      const en=n.standings&&n.standings.entries;
+      if(en&&en.length)en.forEach((e,i)=>{if(!e.team)return;const s=e.stats||[];out[String(e.team.id)]={r:statOf(s,"rank")||statOf(s,"playoffSeed")||i+1,p:statOf(s,"points"),gp:statOf(s,"gamesPlayed"),n:en.length}});
+      (n.children||[]).forEach(walk);
+    };
+    walk(j);return out;
+  }
+  return{LEAGUES,games,standings};
+})();
+/*ESPN-END*/
+</script>
+<script>
+/* ---------- Helpers ---------- */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const store={
+  get(k,d){try{const v=localStorage.getItem("ld2_"+k);return v==null?d:JSON.parse(v)}catch(e){return d}},
+  set(k,v){try{localStorage.setItem("ld2_"+k,JSON.stringify(v))}catch(e){}}
+};
+const hash=s=>{let h=2166136261;for(const ch of String(s)){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return h>>>0};
+const pick=(arr,key)=>arr[hash(key)%arr.length];
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const cap=s=>s?s[0].toUpperCase()+s.slice(1):s;
+const sur=n=>{const p=String(n||"").trim().split(/\s+/).filter(x=>!/^(jr\.?|sr\.?|ii|iii|iv)$/i.test(x));return p.length?p[p.length-1]:""};
+const ord=n=>{n=Math.round(+n);const s=["th","st","nd","rd"],v=n%100;return n+(s[(v-20)%10]||s[v]||s[0])};
+const sum=a=>a.reduce((x,y)=>x+y,0);
+const norm=s=>String(s||"").toLowerCase().replace(/^the\s+/,"").replace(/[^a-z0-9 ]/g,"").trim();
+function whenPhrase(iso,now){
+  now=now||new Date();const d=new Date(iso);if(isNaN(d))return "recently";
+  const day=x=>new Date(x.getFullYear(),x.getMonth(),x.getDate());
+  const diff=Math.round((day(now)-day(d))/864e5),h=d.getHours();
+  if(diff<=0)return h<12?"this morning":h<17?"this afternoon":"tonight";
+  if(diff===1)return h>=17?"last night":"yesterday";
+  if(diff<7)return "on "+d.toLocaleDateString("en-GB",{weekday:"long"});
+  return diff<14?"last week":"a couple of weeks back";
+}
+const dayLabel=iso=>{const d=new Date(iso);return isNaN(d)?"":d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"})};
+
+/* ---------- Content ---------- */
+const CATS={
+  open:{name:"Openers",when:"Start the chat. Vague, emotional, and true whatever the score was.",tip:"Shake your head slowly before you say it."},
+  opinion:{name:"Opinions",when:"Sound like you watched it. These hold for almost any team.",tip:"Say it like you've said it a hundred times. No hesitation."},
+  agree:{name:"Agreeing",when:"They're on a rant. Keep it going and let them do the work.",tip:"Nod. Point at them. A bit louder than feels natural."},
+  dodge:{name:"Dodges",when:"They asked something specific. Get them talking instead.",tip:"Sigh first. A sigh buys you two seconds."},
+  telly:{name:"At the telly",when:"Something just happened on screen. React first, think later.",tip:"Short and loud. Hands on head are optional."},
+  exit:{name:"Exits",when:"The script is done. Leave before the follow-up question.",tip:"Already be moving while you say it."},
+  clean:{name:"Come clean",when:"You're out of your depth. Admit it before someone mentions a pony.",tip:"Grin. Honesty is disarming, and most fans love explaining."}
+};
+const CAT_ORDER=["open","opinion","agree","dodge","telly","exit","clean"];
+const UNIVERSAL={
+  agree:[{t:"Exactly. That's what I've been saying.",m:"Agrees with anything. They'll assume you've said it for weeks."},{t:"Credit to the other lot, mind.",m:"Sounds fair-minded. Nobody argues with it."}],
+  dodge:[{t:"Don't get me started.",m:"They will start, and answer their own question."},{t:"They just didn't want it enough.",m:"Fits any loss in any sport."},{t:"Form is temporary, class is permanent.",m:"Fits any slump. Sounds wise."}],
+  telly:[{t:"Oh, come ON!",m:"Any decision against your side."},{t:"Get in!",m:"Your side scores. Keep it short."},{t:"Here we go again.",m:"Your side concedes. Weary, not angry."},{t:"How is that not given?",m:"Any appeal or decision that goes the other way."}],
+  exit:[{t:"Right, whose round is it?",m:"The universal conversation ender."},{t:"Can't talk about it. Too painful.",m:"Works win or lose. Even a win can be too painful."}],
+  clean:[{t:"Honestly, I've not been following it closely. What's the story?",m:"Gets them talking. Most fans love explaining."},{t:"I'm more of a highlights person, if I'm honest.",m:"Lowers expectations without ending the chat."},{t:"Go on then, who should I be watching?",m:"Turns you into the student. People like a student."}]
+};
+const BETTING=[["Pony","POH-nee","£25. Don't claim you've put one on anything unless you know this."],["Ton","TUN","£100."],["Monkey","MUN-kee","£500."],["Acca","AK-uh","An accumulator: several bets rolled into one. Usually lost on the last leg."],["Each way","EECH way","A bet split in two: one half on winning, one on finishing near the top."]];
+
+const SPORTS={
+  football:{label:"Football (soccer)",team:"Arsenal",page:302,play:"match",nerd:"Their expected goals were actually quite respectable.",offq:"What about the left-back, though?",
+    cover:{nickname:"the Gunners",rival:"Spurs",ground:"the Emirates",player:"Thierry Henry",since:"2004",memory:"The Invincibles season"},
+    others:["Spurs","Chelsea","Man United","Liverpool","West Ham","Everton"],
+    phrases:{
+      open:[{t:"Did you see that ludicrous display last night?",m:"The opener from the episode. Works after any defeat.",star:true},{t:"Oi oi! Big one at the weekend.",m:"There's always a big one at the weekend."},{t:"Rough one for {team}, eh?",m:"If they actually won, they'll happily put you right."}],
+      opinion:[{t:"The thing about {team} is, they always try to walk it in.",m:"Too many passes in the box, not enough shots. The comeback from the episode.",star:true},{t:"We need a proper holding midfielder.",m:"Every team, every season, apparently needs one."},{t:"No communication at the back.",m:"Any goal conceded proves it."},{t:"Manager's tinkering too much. Pick a team and stick with it.",m:"Safe criticism of any manager."},{t:"Set pieces. That's where it's won and lost.",m:"Corners and free kicks decide lots of games."}],
+      agree:[{t:"Should've been a penalty. Clear as day.",m:"Someone always thinks there should have been a penalty."}],
+      dodge:[{t:"It's a game of two halves, isn't it.",m:"Meaningless, which is the point."},{t:"Too early to say. Ask me at Christmas.",m:"Pushes any prediction into the future."}],
+      telly:[{t:"That's never a foul!",m:"Any foul given against your side."}]
+    },
+    jargon:[["Clean sheet","KLEEN sheet","Not conceding a goal all game."],["Nil","NIL","Zero. Two-nil, never two-zero."],["Brace","BRAYSS","Two goals by one player in a game."],["Gaffer","GAF-er","The manager."],["Derby","DAR-bee","A game between local rivals. Said dar-bee in the UK."],["Six-pointer","SIX-poyn-ter","A game against a rival near you in the table."],["Relegation","rel-ih-GAY-shun","Dropping down a division at the end of the season."]],
+    pub:[
+      {say:"Oi oi! You see the match?",o:[["Did you see that ludicrous display last night?",2,"Textbook. Vague, emotional, impossible to fact-check."],["Yes, I watched it in its entirety on the television.",-1,"Too formal. Nobody says 'in its entirety' in a pub."],["Which match? There seem to be a lot of them.",-2,"Instant giveaway."]]},
+      {say:"What was the manager thinking with those subs?",o:[["Don't get me started.",2,"Perfect. He'll answer his own question for five minutes."],["The substitutions were defensible given the data.",-1,"Might be right, but now he'll argue and you've got nothing left."],["What's a sub? Like a sandwich?",-2,"Rumbled."]]},
+      {say:"We just keep passing it about in the box!",o:[["The thing about {team} is, they always try to walk it in.",2,"Straight from the script. Respect earned."],["Passing retains possession efficiently.",-1,"Correct and completely the wrong mood."],["Maybe they're shy?",-2,"He's looking at you strangely now."]]},
+      {say:"That was a penalty! We were robbed!",o:[["Clear as day. Ref had a shocker.",2,"Agreement plus blaming the ref. Never fails."],["Hang on, let me check the replay.",0,"Brave. What if it wasn't a penalty?"],["Is a penalty the one where you go in the sin bin?",-2,"Wrong sport. That's rugby."]]},
+      {say:"Fancy our chances Saturday?",o:[["Depends which {team} turns up.",2,"Sounds seasoned and commits to nothing."],["Statistically, home teams win about 45% of the time.",-1,"Roughly true. Deeply suspicious."],["Saturday? I've got a LAN party.",-2,"The truth will not set you free here."]]}
+    ]},
+  rugby:{label:"Rugby union",team:"England",page:370,play:"game",nerd:"Their ruck speed numbers were poor.",offq:"What about the tighthead, though?",
+    cover:{nickname:"the Red Rose",rival:"Wales",ground:"Twickenham",player:"Jonny Wilkinson",since:"2003",memory:"The 2003 World Cup drop goal"},
+    others:["Wales","France","Ireland","Scotland","Leicester","Saracens"],
+    phrases:{
+      open:[{t:"Big shift from the forwards at the weekend.",m:"Forwards always put in a shift."}],
+      opinion:[{t:"It's won up front. The pack has to dominate.",m:"The pack is the eight big players who scrum."},{t:"Discipline. You can't give away penalties in your own half.",m:"Penalties near your own posts mean easy points for the other side."},{t:"The breakdown was a mess.",m:"The scramble for the ball after a tackle. It's always a mess."},{t:"Kicked away too much possession.",m:"Fits any game where they kicked a lot."}],
+      agree:[{t:"Massive hit, that. Heard it from the sofa.",m:"For any big tackle they mention."}],
+      dodge:[{t:"Hard to say. The ref's interpretation at the ruck was all over the place.",m:"Blames the ref in rugby language."}],
+      telly:[{t:"Hands in the ruck, ref!",m:"Shout it at any penalty against your side."}]
+    },
+    jargon:[["Breakdown","BRAKE-down","The contest for the ball after a tackle."],["Ruck","RUK","Players over the ball on the ground, pushing to win it."],["Scrum","SKRUM","Eight forwards bind and push to restart play."],["Lineout","LINE-owt","Throwing the ball in after it goes out. Players get lifted."],["Bonus point","BOH-nus poynt","An extra league point for four tries, or for losing by seven or fewer."],["Sin bin","SIN bin","Ten minutes off the pitch for a yellow card."]],
+    pub:[
+      {say:"Shocking at the breakdown, weren't they?",o:[["All over the place. Ref let them get away with murder at the ruck.",2,"Fluent rugby moaning."],["Did the team bus break down?",-2,"No."],["The breakdown is where the ball is contested after a tackle.",-1,"Explaining it is a giveaway. They know what it is."]]},
+      {say:"Should we have kicked for the posts?",o:[["Corner every time. Back the pack.",2,"Bold and confident. Exactly the vibe."],["Kicking is more efficient than running, surely.",-1,"Not how anyone talks."],["Which posts? The tall ones?",-2,"They're all tall."]]},
+      {say:"Pack got bullied out there.",o:[["Won up front, lost up front. Simple as.",2,"Grim nod from across the table."],["Bullying is never okay.",-2,"Fine values. Wrong conversation."],["Maybe they need more forwards?",0,"There are always eight. Got away with it, just."]]},
+      {say:"Huge hit in the second half!",o:[["Heard it from the sofa.",2,"Lovely."],["Was anyone hurt? Is there a nurse?",-1,"Kind, but suspicious."],["I preferred the hitting in the first half.",-2,"What?"]]}
+    ]},
+  cricket:{label:"Cricket",team:"England",page:340,play:"match",nerd:"Their run rate in the middle overs was below par.",offq:"What about the third seamer, though?",
+    cover:{nickname:"none needed; the fans are the Barmy Army",rival:"Australia",ground:"Lord's",player:"Freddie Flintoff",since:"2005",memory:"The 2005 Ashes"},
+    others:["Australia","India","New Zealand","South Africa","Pakistan"],
+    phrases:{
+      open:[{t:"Bit of movement for the bowlers, eh?",m:"The ball swinging or seaming. There's usually some."}],
+      opinion:[{t:"It's all about partnerships.",m:"Two batters staying in together. Always true."},{t:"Too many soft dismissals. Playing away from the body.",m:"Getting out to lazy shots outside off stump."},{t:"Should've declared earlier.",m:"Ending your innings to leave time to bowl the other side out."},{t:"Need to rotate the strike more.",m:"Take singles so the score keeps moving."}],
+      agree:[{t:"Patience. That's Test cricket.",m:"Fits almost anything about a five-day match."}],
+      dodge:[{t:"Depends what the pitch does on day four.",m:"Pitches change as they wear. Nobody can argue."}],
+      telly:[{t:"Catch it!",m:"Any ball in the air. You'll be right half the time."}]
+    },
+    jargon:[["Duck","DUK","Out for zero."],["Maiden","MAY-den","An over with no runs scored."],["Declare","dih-CLAIR","Ending your innings early to try to win."],["LBW","ell-bee-DUB-ul-yoo","Leg before wicket: out because your leg stopped a ball that would have hit the stumps."],["Century","SEN-chuh-ree","100 runs by one batter."],["Googly","GOO-glee","A leg-spinner's ball that turns the opposite way."]],
+    pub:[
+      {say:"Collapse again, eh?",o:[["Too many soft dismissals. Just need to bat time.",2,"A weary pro."],["Did someone faint?",-2,"A batting collapse means wickets falling fast."],["Collapses are statistically clustered.",-1,"Interesting. Also a red flag."]]},
+      {say:"Should've declared earlier, shouldn't they?",o:[["An hour earlier, minimum. Left themselves no time.",2,"Spoken like you followed every ball."],["Declared what? Independence?",-2,"Oh dear."],["Well, they had their reasons.",0,"Safe, but a bit wet."]]},
+      {say:"Pitch was dead flat.",o:[["Absolute road. Bowlers' graveyard.",2,"'Road' is perfect cricket slang."],["Shouldn't all pitches be flat?",-2,"Not in the way he means."],["Yes, very flat.",0,"You've agreed, but added nothing."]]},
+      {say:"Fancy them on day five?",o:[["Depends what the pitch does. If it turns, anything can happen.",2,"Classic hedge."],["There's a day five?",-2,"There is. Tests last five days."],["Statistically, most Tests end in a result.",-1,"Too much like a lecture."]]}
+    ]},
+  f1:{label:"Formula 1",team:"Ferrari",page:360,play:"race",nerd:"Their tyre degradation curve was suboptimal.",offq:"What about the new floor upgrade, though?",
+    cover:{nickname:"the Scuderia",rival:"McLaren",ground:"Monza, their home race",player:"Michael Schumacher",since:"2000",memory:"A Monza win"},
+    others:["McLaren","Red Bull","Mercedes","Williams","Aston Martin"],
+    phrases:{
+      open:[{t:"What a race. Did you see that start?",m:"Starts are always chaotic."}],
+      opinion:[{t:"Strategy cost them. Pitted a lap too late.",m:"Fits almost any race result."},{t:"It's all about tyre management now.",m:"Always true in modern F1."},{t:"The car's just not quick in the slow corners.",m:"A technical-sounding excuse for a slow car."},{t:"At a track like that, qualifying is everything.",m:"Hard-to-overtake tracks reward grid position."}],
+      agree:[{t:"The team radio said it all.",m:"There's always a spicy radio message."}],
+      dodge:[{t:"Let's see what the upgrades do.",m:"Teams bring upgrades all season. Pushes any question off."}],
+      telly:[{t:"Box, box! Box now!",m:"Shout it whenever your driver's tyres look tired."}]
+    },
+    jargon:[["Undercut","UN-der-kut","Pitting before a rival to gain time on fresh tyres."],["DRS","dee-ar-ESS","A rear-wing flap that opens to help overtaking."],["Pole","POHL","Starting first, after the fastest qualifying lap."],["Box, box","BOKS boks","Radio call: come into the pits now."],["Dirty air","DUR-tee air","Turbulence behind a car that makes following hard."],["Constructors'","kun-STRUK-terz","The team championship, as opposed to the drivers'."]],
+    pub:[
+      {say:"Their strategy was a mess.",o:[["Pitted a lap too late. The undercut killed them.",2,"Very paddock."],["They should've just driven faster.",-1,"Technically true. Not helpful."],["Did they forget to stop for petrol?",-2,"Refuelling during races was banned in 2010."]]},
+      {say:"Rain forecast for Sunday.",o:[["Then anything can happen. The tyre call is everything.",2,"Perfect."],["Will they cancel it?",-1,"They usually race in the wet."],["Do the cars have windscreen wipers?",-2,"Hmm."]]},
+      {say:"Did you see that overtake?!",o:[["Sent it down the inside. Pure commitment.",2,"'Sent it' is exactly right."],["I think he indicated, to be fair.",-1,"Funny, but they'll notice."],["Is overtaking when you go past someone?",-2,"Yes. And now they know."]]},
+      {say:"Car's a dog this year.",o:[["No grip in the slow corners. Simple as.",2,"Sounds like you've read the data."],["Aww, I like dogs.",-2,"No."],["Maybe a new paint job?",-1,"Unlikely to help."]]}
+    ]},
+  nfl:{label:"American football",team:"the Bears",page:380,play:"game",nerd:"Their EPA per play was below average.",offq:"What about the left tackle, though?",
+    cover:{nickname:"Da Bears",rival:"the Packers",ground:"Soldier Field",player:"Walter Payton",since:"1985",memory:"The 1985 Super Bowl team"},
+    others:["the Packers","the Cowboys","the Eagles","the Chiefs","the Lions"],
+    phrases:{
+      open:[{t:"How about that game?",m:"Fits any game."}],
+      opinion:[{t:"It's won in the trenches. The line couldn't protect.",m:"The big blockers up front. Blame them."},{t:"Way too conservative on fourth down.",m:"Fans always want teams to go for it."},{t:"Clock management was criminal.",m:"Wasting time at the end of a half. Always a complaint."},{t:"They've got to establish the run.",m:"A safe tactical cliché."}],
+      agree:[{t:"You can't turn it over three times and expect to win.",m:"Turnovers mean giving the ball away."}],
+      dodge:[{t:"Any given Sunday.",m:"Anyone can beat anyone. Ends debates."}],
+      telly:[{t:"That's holding! Throw the flag!",m:"Any big play by the other team."}]
+    },
+    jargon:[["Red zone","RED zohn","Inside the opponent's 20-yard line."],["Pick-six","pik-SIX","An interception returned for a touchdown."],["Fourth and one","FORTH and wun","Last down, one yard to go. Go for it or kick?"],["Sack","SAK","Tackling the quarterback behind the line."],["Two-minute drill","too-MIN-it dril","Hurry-up attack at the end of a half."],["Hail Mary","hayl MAIR-ee","A long, desperate pass at the very end."]],
+    pub:[
+      {say:"Fourth and one and they PUNT?!",o:[["Way too conservative. Go for it!",2,"Correct fan outrage."],["What's a punt? Like a little boat?",-2,"It's a kick."],["Punting's the safe call.",0,"Defensible, but you've picked a fight."]]},
+      {say:"The line couldn't block anyone.",o:[["Won and lost in the trenches.",2,"Nailed it."],["Maybe they need a longer line?",-2,"No."],["Blocking is hard.",-1,"True. Weak."]]},
+      {say:"That clock management, though...",o:[["Criminal. Just criminal.",2,"Shake your head as you say it."],["What time is it, anyway?",-2,"Wrong clock."],["They probably had a plan.",0,"Safe but flat."]]},
+      {say:"Three turnovers. Three!",o:[["You can't win giving it away like that.",2,"Agreement plus wisdom."],["Turnovers are delicious, though.",-2,"Those are pastries."],["They'll learn.",0,"Fine."]]}
+    ]},
+  nba:{label:"Basketball",team:"the Lakers",page:390,play:"game",nerd:"Their effective field-goal percentage was poor.",offq:"What about the backup point guard, though?",
+    cover:{nickname:"the Lake Show",rival:"the Celtics",ground:"the arena downtown",player:"Magic Johnson",since:"2009",memory:"A title run"},
+    others:["the Celtics","the Warriors","the Knicks","the Bulls","the Heat"],
+    phrases:{
+      open:[{t:"Did you catch the game last night?",m:"There's almost always a game last night."}],
+      opinion:[{t:"No ball movement. Way too much isolation.",m:"One player dribbling while four watch."},{t:"They live and die by the three.",m:"Fits any team that shoots a lot of threes, which is all of them."},{t:"Bench didn't show up.",m:"The substitutes. Blame them."},{t:"Got killed on the boards.",m:"Lost the rebounding battle."}],
+      agree:[{t:"Defence wins championships.",m:"Old saying. Nobody disagrees."}],
+      dodge:[{t:"It's a long season.",m:"82 games. Pushes off any panic."}],
+      telly:[{t:"And-one!",m:"Any basket where the scorer gets fouled."}]
+    },
+    jargon:[["Triple-double","TRIP-ul DUB-ul","Double figures in three stats, like points, rebounds and assists."],["And-one","and-WUN","Scoring while fouled, with a free throw to come."],["Pick-and-roll","pik-and-ROHL","A screen for the ball handler, then the screener rolls to the basket."],["Paint","PAYNT","The painted area under the basket."],["Buzzer-beater","BUZZ-er bee-ter","A shot that goes in as time runs out."],["Load management","LOHD man-ij-ment","Resting a healthy star. Fans hate it."]],
+    pub:[
+      {say:"They just jacked up threes all night.",o:[["Live by the three, die by the three.",2,"Classic."],["Three what?",-2,"Three-point shots."],["Threes are worth more, though.",-1,"Correct, but you're arguing on the wrong side."]]},
+      {say:"Bench was terrible.",o:[["Starters can't carry it alone for 48 minutes.",2,"Accurate and seasoned."],["Was it uncomfortable to sit on?",-2,"The players, not the furniture."],["Bit harsh, maybe?",0,"Okay."]]},
+      {say:"No defence. None.",o:[["Defence wins championships. Simple as.",2,"Universally agreed."],["Maybe they're pacifists?",-2,"No."],["Attack is fun, though.",-1,"Hmm."]]},
+      {say:"Worried about the start?",o:[["It's a long season. Marathon, not a sprint.",2,"Calm and wise."],["Didn't they start at 7:30?",-2,"The start of the season."],["Bit, yeah.",0,"Fine but flat."]]}
+    ]},
+  nhl:{label:"Ice hockey",team:"the Leafs",page:395,play:"game",nerd:"Their Corsi numbers were terrible.",offq:"What about the third line, though?",
+    cover:{nickname:"the Buds",rival:"the Canadiens",ground:"Scotiabank Arena",player:"Mats Sundin",since:"1999",memory:"A playoff run"},
+    others:["the Canadiens","the Bruins","the Senators","the Oilers","the Rangers"],
+    phrases:{
+      open:[{t:"How about that third period?",m:"Hockey games often turn late. There's usually a third period worth talking about."}],
+      opinion:[{t:"The power play's been dreadful.",m:"When the other team has a player in the penalty box. Fans always moan about it."},{t:"Goaltending wins you games in this league.",m:"A hot goalie can steal a game alone. Always true."},{t:"They need to get more pucks on net.",m:"More shots. Safe for any team that lost."},{t:"Too many penalties. You can't keep giving them the power play.",m:"Fits any game with lots of penalties."}],
+      agree:[{t:"Hot goalie, though. Nothing you can do.",m:"Blames the other team's goalie for any loss."}],
+      dodge:[{t:"It's a long season. 82 games.",m:"Pushes off any panic."}],
+      telly:[{t:"Shoot! SHOOT!",m:"Any time your team has the puck near goal."}]
+    },
+    jargon:[["Power play","POW-er play","Playing with an extra skater while an opponent is in the penalty box."],["Hat trick","HAT trik","Three goals by one player. Fans throw hats on the ice."],["Five-hole","FIVE-hohl","The gap between the goalie's legs."],["Empty net","EMP-tee net","Goalie pulled for an extra attacker late on."],["Icing","EYE-sing","Shooting the puck the length of the ice. Play stops."],["Shutout","SHUT-owt","A goalie conceding none all game."]],
+    pub:[
+      {say:"Power play's gone missing again.",o:[["Nothing on the man advantage. Need someone who'll shoot the puck.",2,"Very fluent."],["Did they lose it? Check behind the bench.",-2,"The power play isn't an object."],["Power plays convert at about twenty per cent.",-1,"Probably true. Definitely suspicious."]]},
+      {say:"Goalie stood on his head tonight.",o:[["Stole that game on his own.",2,"Perfect. 'Stood on his head' means made loads of saves."],["Is that allowed?",-2,"It's an expression."],["Yes, he made several saves.",0,"Correct but flat."]]},
+      {say:"Went to overtime again!",o:[["Three-on-three is chaos. Love it.",2,"Regular-season overtime is three skaters a side. Proper knowledge."],["Do they get paid extra?",-2,"Not that kind of overtime."],["Overtime seems unfair on the losing side.",-1,"An odd thing to say in a bar."]]},
+      {say:"That hit in the second, though!",o:[["Finished his check. Clean hit.",2,"'Finishing your check' means completing a body check. Spot on."],["Was anyone hurt? Is there a medic?",-1,"Kind, but suspicious."],["I thought hitting wasn't allowed?",-2,"It is in hockey. Rumbled."]]}
+    ]},
+  mlb:{label:"Baseball",team:"the Yankees",page:385,play:"game",nerd:"Their BABIP was unlucky, statistically.",offq:"What about the setup man, though?",
+    cover:{nickname:"the Bronx Bombers",rival:"the Red Sox",ground:"Yankee Stadium",player:"Derek Jeter",since:"1998",memory:"A World Series win"},
+    others:["the Red Sox","the Dodgers","the Mets","the Cubs","the Astros"],
+    phrases:{
+      open:[{t:"You catch the game last night?",m:"In season there's a game almost every night."}],
+      opinion:[{t:"The bullpen blew it again.",m:"The bullpen is the relief pitchers. Every fan blames them."},{t:"Left too many men on base.",m:"Runners who never got home. Fits most losses."},{t:"Starter was dealing early, then fell apart.",m:"'Dealing' means pitching well. Fits lots of games."},{t:"They need to manufacture runs. Small ball.",m:"Bunts, steals, singles. Old-school talk that sounds wise."}],
+      agree:[{t:"That's baseball. Anything can happen.",m:"Unarguable. Ends debates."}],
+      dodge:[{t:"Long season. Ask me in September.",m:"162 games. Pushes off any panic."}],
+      telly:[{t:"That's outta here!",m:"Any ball hit high and far. Hope it goes over."}]
+    },
+    jargon:[["Bullpen","BULL-pen","The relief pitchers, and where they warm up."],["Walk-off","WAWK-off","A home win sealed in the final inning. Game over instantly."],["RBI","ar-bee-EYE","Run batted in: a batter credited with a run scoring."],["Bases loaded","BAY-sez LOH-did","Runners on first, second and third."],["Dinger","DING-er","A home run."],["ERA","ee-ar-AY","Earned run average: a pitcher's runs allowed per nine innings. Lower is better."]],
+    pub:[
+      {say:"Bullpen did it again!",o:[["Can't hold a lead to save their lives.",2,"Classic bullpen moaning."],["Is the bullpen where they keep the bulls?",-2,"It's where relief pitchers warm up."],["Relievers have high variance over small samples.",-1,"True. Not pub talk."]]},
+      {say:"Left the bases loaded in the ninth.",o:[["Brutal. One hit and it's a different game.",2,"Exactly the right pain."],["How many bases are there again?",-2,"Four, counting home. Rumbled."],["Loaded with what?",-2,"Runners on all three bases."]]},
+      {say:"Fancy them in the playoffs?",o:[["Pitching wins in October.",2,"The playoffs are in October. Sounds seasoned."],["Isn't it a bit cold for baseball then?",-1,"Fair point. Wrong vibe."],["Which ones are the playoffs?",-2,"Oh dear."]]},
+      {say:"Walk-off last night!",o:[["Scenes. That's why you stay till the end.",2,"A walk-off ends the game with a home win in the last inning."],["Did everyone walk off early?",-2,"It means the winning run scored to end it."],["Nice.",0,"Fine, but flat."]]}
+    ]}
+};
+const UNIVERSAL_PUB=[
+  {say:"Mate, you look like you've never watched a game in your life.",o:[["Ha! Fair. Didn't stop me shouting at the telly, though.",2,"Self-deprecating and on topic. Accepted."],["I have weak ankles. It's medically documented.",-2,"Too much detail."],["Bad knee. Gave it up years ago.",0,"Works, until he asks what position you played."]]},
+  {say:"Pint?",o:[["Go on then.",2,"Easy."],["Go on, mine's a lemonade. Early start.",1,"Totally fine. Nobody minds."],["Is this a work-sanctioned beverage break?",-2,"Oh no."]]},
+  {say:"What did you make of the ref?",o:[["Shocking all round. Didn't help either side.",2,"Blaming the ref unites everyone."],["Refereeing is a thankless, underappreciated profession.",-1,"True. Still a giveaway."],["Which one was the ref? The one in the different colour?",-2,"Yes. Unfortunately."]]}
+];
+const COVER_FIELDS=[
+  ["nickname","Nickname","What fans call the team. You'll hear it constantly.","What do you call them, then?"],
+  ["rival","Biggest rival","Know who you hate. Praising them is the worst slip there is.","Who's your biggest rival?"],
+  ["ground","Home ground","Where they play. Someone will ask if you've been.","Where do they play?"],
+  ["player","Favourite player","Past or present. Pick one you can say something about.","Who's your favourite player?"],
+  ["since","Supporting since","A year. Keep it consistent every time.","How long have you followed them?"],
+  ["memory","Best memory","One story you can tell. Keep it short.","Best thing you've seen them do?"]
+];
+const NAMES=["Big Dave","Gaz","Terry from accounts","Steve","Mick","Dan"];
+const BIG={football:3,rugby:15,nfl:14,nba:15,nhl:3,mlb:5};
+const NARROW={football:1,rugby:7,nfl:7,nba:5,nhl:1,mlb:1};
+const US=new Set(["nfl","nba","nhl","mlb"]);
+
+/* ---------- State ---------- */
+let SNAP=null;
+try{const raw=document.getElementById("snapshot").textContent.trim();if(raw.charAt(0)==="{")SNAP=JSON.parse(raw)}catch(e){SNAP=null}
+const LIVE_MODE="auto";
+const DATA={cache:{},tables:{},liveFailed:false,loading:{},liveAllowed:LIVE_MODE!=="ask"};
+
+/* Team guides: researched fan lingo, keyed by ESPN team id and searchable by name */
+let LINGO=[];
+try{const raw=document.getElementById("lingo").textContent.trim();if(raw.charAt(0)==="[")LINGO=JSON.parse(raw)}catch(e){LINGO=[]}
+const lkey=(lg,id)=>(/^(soccer|rugby)\//.test(lg)?lg.split("/")[0]:lg)+"|"+id;
+const LINGO_ID={};for(const t of LINGO)if(t.espnId)LINGO_ID[lkey(t.league,t.espnId)]=t;
+const PREFIX={football:["soccer/"],rugby:["rugby/"],cricket:["cricket/"],f1:["racing/"],nfl:["football/"],nba:["basketball/"],nhl:["hockey/"],mlb:["baseball/"]};
+const sportOf=lg=>Object.keys(ESPN.LEAGUES).find(k=>ESPN.LEAGUES[k].some(x=>x[0]===lg))||null;
+const lingoPool=sp=>LINGO.filter(t=>(PREFIX[sp]||[]).some(p=>t.league.indexOf(p)===0));
+function lingoByName(name,sp,exact){
+  const n=norm(name);if(n.length<2)return null;
+  const pool=lingoPool(sp);
+  const named=pool.find(t=>norm(t.team)===n);
+  if(named)return named;
+  const aliased=pool.filter(t=>(t.aliases||[]).some(a=>norm(a)===n));
+  if(aliased.length)return aliased.length===1?aliased[0]:null;
+  if(exact||n.length<4)return null;
+  const near=pool.filter(t=>norm(t.team).includes(n)||(t.aliases||[]).some(a=>{const x=norm(a);return x.length>=4&&(x.includes(n)||n.includes(x))}));
+  return near.length===1?near[0]:null;
+}
+function lingoOf(lg,t){if(!t||!lg)return null;return LINGO_ID[lkey(lg,t.id)]||lingoByName(t.n,sportOf(lg),true)}
+let lingoMemo={k:null,v:null};
+const myLingo=()=>{const k=S.sport+"|"+teamName();if(lingoMemo.k!==k)lingoMemo={k,v:lingoByName(teamName(),S.sport)};return lingoMemo.v};
+function rivalOf(L,t){
+  if(!L||!t)return null;const tn=norm(t.n),ts=norm(t.s);
+  return (L.rivals||[]).find(r=>[r.team,r.name].some(x=>{const a=norm(x);return a&&(a===tn||a===ts)}))||null;
+}
+function isMyDriver(name){const L=myLingo();if(L&&(L.drivers||[]).includes(name))return true;return isMine({n:name,s:sur(name)})}
+const S={
+  sport:SPORTS[store.get("sport","football")]?store.get("sport","football"):"football",
+  teams:store.get("teams",{}),
+  leagues:store.get("leagues",{}),
+  covers:store.get("covers",{}),
+  saved:store.get("saved",[]),
+  game:null,side:null,driver:null,tab:"script"
+};
+const teamName=()=>((S.teams[S.sport]||"").trim()||SPORTS[S.sport].team);
+const fill=t=>String(t).replace(/\{team\}/g,teamName());
+const leagueList=()=>ESPN.LEAGUES[S.sport]||[];
+const currentLg=()=>{const l=leagueList();const want=S.leagues[S.sport];return (l.find(x=>x[0]===want)||l[0]||[])[0]||null};
+const leagueName=lg=>{for(const arr of Object.values(ESPN.LEAGUES))for(const [k,n] of arr)if(k===lg)return n;return ""};
+const cover=()=>Object.assign({},S.covers[S.sport]||{});
+function isMine(t,lg){
+  if(!t)return false;
+  const L=lg&&myLingo();
+  if(L&&L.espnId&&t.id&&lkey(lg,t.id)===lkey(L.league,L.espnId))return true;
+  const m=norm(teamName());if(m.length<3)return false;
+  return [t.n,t.s,t.ab].some(x=>{const n=norm(x);return n&&(n===m||n.includes(m)||(n.length>=4&&m.includes(n)))});
+}
+
+/* ---------- Data loading ---------- */
+async function loadLeague(lg,force){
+  if(!lg)return null;
+  if(force){delete DATA.cache[lg];DATA.liveFailed=false}
+  if(DATA.cache[lg])return DATA.cache[lg];
+  if(DATA.loading[lg])return DATA.loading[lg];
+  DATA.loading[lg]=(async()=>{
+    if(DATA.liveAllowed&&!DATA.liveFailed){
+      try{
+        const games=await ESPN.games(lg,7);
+        DATA.cache[lg]={games,src:"live",at:new Date()};
+        ESPN.standings(lg).then(t=>{DATA.tables[lg]=t;if(S.game&&S.game.lg===lg)refresh()}).catch(()=>{});
+        return DATA.cache[lg];
+      }catch(e){DATA.liveFailed=true}
+    }
+    const games=(SNAP&&SNAP.leagues&&SNAP.leagues[lg])||[];
+    DATA.tables[lg]=(SNAP&&SNAP.tables&&SNAP.tables[lg])||{};
+    DATA.cache[lg]={games,src:SNAP?"snap":"none",at:SNAP?new Date(SNAP.taken):null};
+    return DATA.cache[lg];
+  })();
+  try{return await DATA.loading[lg]}finally{delete DATA.loading[lg]}
+}
+function defaultSide(g){if(!g||!g.h)return null;if(isMine(g.h,g.lg))return "h";if(isMine(g.a,g.lg))return "a";return null}
+function chooseGame(games){
+  const mine=games.find(g=>g.h?(isMine(g.h,g.lg)||isMine(g.a,g.lg)):(g.res||[]).some(r=>isMyDriver(r.n)));
+  return mine||games[0]||null;
+}
+async function ensureGame(force){
+  const sp=S.sport,lg=currentLg();
+  if(!lg){S.game=null;return}
+  const entry=await loadLeague(lg,force);
+  if(S.sport!==sp||currentLg()!==lg)return;
+  if(force||!S.game||S.game.lg!==lg||!entry.games.some(g=>g.id===S.game.id))selectGame(chooseGame(entry.games));
+}
+function selectGame(g){
+  S.game=g;S.side=defaultSide(g);
+  if(g&&g.res){const m=g.res.find(r=>isMyDriver(r.n));S.driver=(m||g.res[0]).n}else S.driver=null;
+  pub=null;drill=null;
+}
+
+/* ---------- Briefing engine ---------- */
+function tname(t,sp,lg){return (US.has(sp)&&lg!=="football/college-football")?"the "+t.s:t.s}
+function analyse(g,side){
+  const sp=Object.keys(ESPN.LEAGUES).find(k=>ESPN.LEAGUES[k].some(x=>x[0]===g.lg));
+  const ps=side||(g.a.sc>g.h.sc?"a":"h"),os=ps==="h"?"a":"h";
+  const M=g[ps],O=g[os];
+  const res=M.sc>O.sc?"W":M.sc<O.sc?"L":"D",margin=Math.abs(M.sc-O.sc);
+  const F={g,sp,side,ps,os,M,O,res,margin,neutral:!side,when:whenPhrase(g.date),T:tname(M,sp,g.lg),OT:tname(O,sp,g.lg),home:ps==="h",lgName:leagueName(g.lg),key:g.id+ps};
+  F.big=margin>=(BIG[sp]||3);F.narrow=margin>0&&margin<=(NARROW[sp]||1);
+  F.line=Math.max(M.sc,O.sc)+"–"+Math.min(M.sc,O.sc);
+  F.W=res==="W"?M:O;F.L=res==="W"?O:M;
+  const tab=DATA.tables[g.lg]||{};F.tM=tab[M.id];F.tO=tab[O.id];
+  F.ldM=(g.ld||[]).filter(l=>l.t===ps);F.ldO=(g.ld||[]).filter(l=>l.t===os);
+  F.LM=lingoOf(g.lg,M)||(isMine(M,g.lg)?myLingo():null);F.LO=lingoOf(g.lg,O);
+  const r1=rivalOf(F.LM,O),r2=rivalOf(F.LO,M);
+  F.derby=r1||r2?{name:r1?r1.name:O.s,derby:(r1&&r1.derby)||(r2&&r2.derby)||""}:null;
+  if(sp==="football")soccerFeats(F);else if(sp==="rugby")rugbyFeats(F);else usFeats(F);
+  if(F.tM&&F.tO&&res!=="D"){const gap=res==="W"?F.tM.r-F.tO.r:F.tO.r-F.tM.r;F.upset=gap>=6}
+  return F;
+}
+function soccerFeats(F){
+  const g=F.g,goals=g.ev.filter(e=>e.k==="goal"||e.k==="pen"||e.k==="og").slice().sort((a,b)=>(a.m||0)-(b.m||0));
+  const cnt=s=>goals.filter(e=>e.t===s).length;
+  F.gOk=cnt("h")===g.h.sc&&cnt("a")===g.a.sc;F.goals=F.gOk?goals:[];
+  const by=s=>{const m=new Map();for(const e of F.goals.filter(x=>x.t===s)){const k=(e.k==="og"?"og:":"")+e.p;const x=m.get(k)||{p:e.p,og:e.k==="og",mins:[],pen:0};x.mins.push(e.mt);if(e.k==="pen")x.pen++;m.set(k,x)}return [...m.values()]};
+  F.sc={h:by("h"),a:by("a")};F.scM=F.sc[F.ps];F.scO=F.sc[F.os];
+  F.topM=F.scM.filter(x=>!x.og).sort((a,b)=>b.mins.length-a.mins.length)[0];
+  F.topO=F.scO.filter(x=>!x.og).sort((a,b)=>b.mins.length-a.mins.length)[0];
+  F.hat=F.topM&&F.topM.mins.length>=3?F.topM:null;
+  const r={h:0,a:0};let trailed=false,led=false;
+  for(const e of F.goals){r[e.t]++;if(r[F.ps]<r[F.os])trailed=true;if(r[F.ps]>r[F.os])led=true}
+  F.comeback=F.res==="W"&&trailed;F.blew=F.res==="L"&&led;
+  const last=F.goals[F.goals.length-1];
+  if(last&&last.m>=85){const b={h:g.h.sc,a:g.a.sc};b[last.t]--;const rb=b[F.ps]>b[F.os]?"W":b[F.ps]<b[F.os]?"L":"D";if(rb!==F.res)F.late=last}
+  F.ht=F.gOk?{h:F.goals.filter(e=>e.t==="h"&&e.fh).length,a:F.goals.filter(e=>e.t==="a"&&e.fh).length}:null;
+  F.redM=g.ev.filter(e=>e.k==="red"&&e.t===F.ps);F.redO=g.ev.filter(e=>e.k==="red"&&e.t===F.os);
+  const st=g.stx||{},ix=F.ps==="h"?0:1;
+  const two=k=>st[k]?[st[k][ix],st[k][1-ix]]:null;
+  F.poss=two("poss");F.shots=two("shots");F.sot=two("sot");
+  F.clean=F.O.sc===0;
+}
+function rugbyFeats(F){
+  const ev=F.g.ev,tries=s=>ev.filter(e=>e.k==="try"&&e.t===s);
+  F.triesM=tries(F.ps);F.triesO=tries(F.os);
+  F.tryBonusM=F.triesM.length>=4;F.tryBonusO=F.triesO.length>=4;
+  F.losingBonus=F.res!=="D"&&F.margin<=7;
+  F.yellowM=ev.filter(e=>e.k==="yellow"&&e.t===F.ps).length;
+  F.redM=ev.filter(e=>e.k==="red"&&e.t===F.ps);F.redO=ev.filter(e=>e.k==="red"&&e.t===F.os);
+}
+function usFeats(F){
+  const ls=F.g.ls||{},a=ls[F.ps]||[],b=ls[F.os]||[],n=Math.min(a.length,b.length)-1;
+  if(n>=1){const sa=sum(a.slice(0,n)),sb=sum(b.slice(0,n));F.comeback=F.res==="W"&&sa<sb;F.blew=F.res==="L"&&sa>sb}
+  F.ot=!!F.g.xt;F.so=/SO/.test(F.g.st||"");
+  const find=(list,c)=>list.find(l=>l.c===c);
+  F.lead={
+    pass:find(F.ldM,"passingYards"),rush:find(F.ldM,"rushingYards"),rec:find(F.ldM,"receivingYards"),
+    passO:find(F.ldO,"passingYards"),
+    pts:find(F.ldM,"points"),reb:find(F.ldM,"rebounds"),ast:find(F.ldM,"assists"),ptsO:find(F.ldO,"points"),
+    goals:find(F.ldM,"goals"),goalsO:find(F.ldO,"goals")
+  };
+}
+const yds=l=>{const m=/(\d+)\s*YDS/i.exec(l&&l.v||"");return m?+m[1]:null};
+const tds=l=>{const m=/(\d+)\s*TD/i.exec(l&&l.v||"");return m?+m[1]:0};
+const scorerList=list=>list.map(x=>sur(x.p)+" "+x.mins.join(", ")+(x.og?" (own goal)":"")+(x.pen?" (pen)":"")).join("; ");
+
+function moods(F){
+  const m=[],sp=F.sp,g=F.g;
+  if(F.derby)m.push("Derby");
+  if(sp==="football"&&g.h.sc===0&&g.a.sc===0)m.push("Bore draw");
+  if(F.comeback)m.push("Comeback");
+  if(F.late)m.push(F.res==="W"?"Late winner":F.res==="D"?"Late leveller":"Late heartbreak");
+  if(F.ot)m.push(F.so?"Shootout":"Overtime");
+  if(F.upset)m.push("Upset");
+  if(F.big)m.push(F.res==="W"?"Thrashing":"Hammered");
+  if(F.hat)m.push("Hat-trick");
+  if(sp==="football"&&F.res==="W"&&F.poss&&F.poss[0]<45)m.push("Smash and grab");
+  if(F.redM&&F.redM.length||F.redO&&F.redO.length)m.push("Red card");
+  if(F.tryBonusM)m.push("Try bonus");
+  if(F.narrow&&!m.length)m.push(F.res==="W"?"Nervy win":"So close");
+  if(!m.length)m.push(F.res==="W"?"Job done":F.res==="L"?"Bad day":"Honours even");
+  return m.slice(0,3);
+}
+
+function lines(F){
+  const sp=F.sp,T=F.T,Tc=cap(F.T),when=F.when,k=F.key,g=F.g;
+  const classic="Did you see that ludicrous display "+when+"?";
+  let open,them,back,openStar=false,backStar=false;
+  if(F.neutral)open=pick(["You catch "+g.h.s+" and "+g.a.s+" "+when+"?","See "+g.h.s+" against "+g.a.s+" "+when+"?"],k);
+  else if(F.res==="L"){open=classic;openStar=true}
+  else if(F.res==="D")open=pick([Tc+" "+when+". Point gained or two dropped?","Honours even "+when+", eh?"],k);
+  else if(F.comeback)open="Never in doubt "+when+". Never in doubt.";
+  else if(F.late)open="Did you see the end "+when+"? I was off my seat.";
+  else if(F.big)open=Tc+" "+when+", eh? Different class.";
+  else if(F.narrow)open="Bit nervy "+when+", wasn't it?";
+  else open="Good win for "+T+" "+when+", eh?";
+
+  if(sp==="football"){
+    if(F.res==="L"){
+      if(F.late)them="Conceding in the "+ord(F.late.m)+" minute. Sick.";
+      else if(F.redM.length)them="Once "+sur(F.redM[0].p)+" got sent off, that was that.";
+      else if(F.poss&&F.poss[0]>=55)them="We had all the ball and did nothing with it.";
+      else if(F.big)them=F.line+". Embarrassing.";
+      else if(F.topO)them=sur(F.topO.p)+(F.O.sc===1?". One chance and they took it.":" ran riot.");
+      else them="We were nowhere near it.";
+      if(F.poss&&F.poss[0]>=55&&!F.redM.length){back="The thing about "+T+" is, they always try to walk it in.";backStar=true}
+      else if(F.redM.length)back="You can't go down to ten in a game like that. Discipline.";
+      else if(F.late||F.blew)back="The thing about "+T+" is, they never kill a game off.";
+      else if(F.big)back="The thing about "+T+" is, they've gone soft at the back.";
+      else if(F.shots&&F.shots[0]>F.shots[1])back="All those shots and nobody to put them away. We need a proper number nine.";
+      else back="The thing about "+T+" is, they never turn up "+(F.home?"at home":"away from home")+".";
+    }else if(F.res==="W"){
+      if(F.late)them=F.late.k==="og"?"An own goal in the "+ord(F.late.m)+" minute! We'll take it!":sur(F.late.p)+" in the "+ord(F.late.m)+" minute! Scenes!";
+      else if(F.hat)them=sur(F.hat.p)+"! Hat-trick!";
+      else if(F.comeback)them="Thought it was gone when we went behind.";
+      else if(F.redO.length)them="Once they went down to ten it was only going one way.";
+      else if(F.big&&F.topM)them=sur(F.topM.p)+" was unplayable.";
+      else if(F.poss&&F.poss[0]<45)them="They had all the ball and we still won.";
+      else if(F.topM)them=sur(F.topM.p)+", though. What a finish.";
+      else them="Three points. That's all that matters.";
+      if(F.comeback)back="The thing about "+T+" is, they never know when they're beaten.";
+      else if(F.late)back="Never stop. That's the thing about "+T+".";
+      else if(F.big)back="When "+T+" click, nobody lives with them.";
+      else if(F.poss&&F.poss[0]<50)back="Won ugly. Proper teams win ugly.";
+      else if(F.clean)back="Clean sheet as well. That's what wins you things.";
+      else back="The thing about "+T+" is, there's a proper spine to this team now.";
+    }else{
+      if(F.late&&F.late.t===F.ps)them=sur(F.late.p)+" in the "+ord(F.late.m)+"! Saved us!";
+      else if(F.late)them="Two points dropped. Right at the death as well.";
+      else if(g.h.sc===0)them="Nil-nil. Ninety minutes I'll never get back.";
+      else them="We should've won that, you know.";
+      back=g.h.sc===0?"Clean sheet, though. You build from the back.":"Point's a point. Ask me again at the end of the season.";
+    }
+  }else if(sp==="rugby"){
+    const top=F.triesM[0];
+    if(F.res==="L"){
+      them=F.yellowM?"That sin-binning killed us.":F.losingBonus?"At least we nicked a bonus point.":F.big?F.line+". Shocking.":"Couldn't get out of our own half.";
+      back=F.yellowM?"Discipline. You can't play with fourteen at this level.":F.losingBonus?"Bonus point's something. They add up come the end of the season.":F.big?"The thing about "+T+" is, they get bullied at the breakdown.":"The thing about "+T+" is, they kick away too much ball.";
+    }else if(F.res==="W"){
+      them=F.tryBonusM?F.triesM.length+" tries! Bonus point in the bag.":F.big?"Forwards bullied them.":F.narrow?"Held on at the end. Nervy.":top?sur(top.p)+" with a cracking try.":"Big shift from the pack.";
+      back=F.tryBonusM?"When "+T+" play with tempo, nobody lives with them.":F.big?"It's won up front. The pack was immense.":F.narrow?"Proper defensive shift at the end. That's character.":"It's won up front. Simple as.";
+    }else{them="A draw. Feels like a loss.";back="Draw's fine. It's what you do next week."}
+  }else if(sp==="nfl"){
+    const L=F.lead;
+    if(F.res==="L"){
+      them=F.blew?"We were winning going into the fourth!":F.ot?"Overtime, and we still lose.":F.big?F.line+". Embarrassing.":L.passO&&yds(L.passO)>=250?sur(L.passO.p)+" carved us up. "+yds(L.passO)+" yards.":"Couldn't get anything going.";
+      back=F.blew?"Clock management was criminal.":F.big?"It's won in the trenches. The line couldn't protect.":"Way too conservative on fourth down.";
+    }else if(F.res==="W"){
+      them=F.comeback?"Down going into the fourth and they still won it!":F.ot?"Overtime! My heart can't take it.":L.pass&&tds(L.pass)>=3?sur(L.pass.p)+" threw "+tds(L.pass)+" touchdowns!":L.pass&&yds(L.pass)?sur(L.pass.p)+", though. "+yds(L.pass)+" yards.":L.rush?sur(L.rush.p)+" ran all over them.":"Defence was immense.";
+      back=F.comeback?"The thing about "+T+" is, they never know when they're beaten.":F.big?"When the line gives him time, he picks you apart.":"Defence travels. That's the thing about "+T+".";
+    }else{them="A tie. Nobody wins.";back="Strange old game."}
+  }else if(sp==="nba"){
+    const L=F.lead;
+    if(F.res==="L"){
+      them=F.blew?"We were ahead going into the fourth!":F.ot?"Overtime, and we still lost.":F.big?F.line+". Ugly.":L.ptsO?sur(L.ptsO.p)+" dropped "+L.ptsO.v+" on us.":"No defence. None.";
+      back=F.blew?"No ball movement down the stretch. Too much isolation.":F.big?"Got killed on the boards.":"They live and die by the three.";
+    }else{
+      them=F.comeback?"Down after three and they still won it!":L.pts&&+L.pts.v>=30?sur(L.pts.p)+" had "+L.pts.v+"!":F.ot?"Overtime! What a game.":L.pts?sur(L.pts.p)+" with "+L.pts.v+". Steady.":"Never in doubt.";
+      back=F.comeback?"The thing about "+T+" is, they never know when they're beaten.":F.big?"When the threes are falling, nobody stops them.":"Defence wins championships.";
+    }
+  }else if(sp==="nhl"){
+    const gl=F.lead.goals&&+F.lead.goals.v>=1?F.lead.goals:null;
+    if(F.res==="L"){
+      them=F.ot?(F.so?"Lost in a shootout. Lottery.":"Lost in overtime again."):F.blew?"We were up after two!":F.big?F.line+". Embarrassing.":"Their goalie stood on his head.";
+      back=F.ot?"Three-on-three is a lottery anyway.":F.big?"Too many penalties. You can't keep giving them the power play.":"They need to get more pucks on net.";
+    }else{
+      them=F.ot?(F.so?"Won the shootout!":"Overtime winner! Scenes!"):gl&&+gl.v>=3?sur(gl.p)+" with a hat trick!":F.comeback?"Down after two and we came back!":gl?sur(gl.p)+" again!":"Goalie was brilliant.";
+      back=F.comeback?"Third period. That's where it's won.":"Goaltending wins you games in this league.";
+    }
+  }else{
+    if(F.res==="L"){
+      them=F.blew?"Had it won and the bullpen blew it.":F.big?F.line+". Ouch.":F.narrow?"One run. Couldn't find one run.":"Couldn't get anything going.";
+      back=F.blew?"The bullpen blew it again.":"Left too many men on base.";
+    }else{
+      them=F.comeback?"Came back from behind!":F.big?"The bats came alive!":F.narrow?"Nervy finish!":"Good win, that.";
+      back=F.big?"When this lineup gets going, look out.":"Pitching wins. Simple as.";
+    }
+  }
+  if(F.derby&&!F.neutral){
+    const dn=F.derby.derby||"the derby";
+    if(F.res==="W"){open=cap(dn)+" "+when+". Bragging rights.";openStar=false}
+    else if(F.res==="L")them="Losing to "+F.derby.name+". I'll never hear the end of it.";
+    else them="A draw in "+dn+". Nobody's happy.";
+  }
+  const agree=pick(["That is true.","Exactly.","You're not wrong.","Couldn't have put it better myself."],k+"a");
+  const exit=pick(["Right, whose round is it?","Anyway, I'd better get back to it.","Right, I'm getting one in. Same again?"],k+"x");
+  return{open,them,back,agree,exit,openStar,backStar};
+}
+
+function factsFor(F){
+  const g=F.g,sp=F.sp,out=[];
+  const at=g.venue?" at "+g.venue:"";
+  if(F.res==="D")out.push(g.h.s+" and "+g.a.s+" drew "+g.h.sc+"–"+g.a.sc+at+".");
+  else out.push(F.W.s+" beat "+F.L.s+" "+F.line+at+(F.ot?(F.so?" after a shootout":" after overtime"):"")+".");
+  if(F.derby)out.push(F.derby.derby?"It was "+F.derby.derby+".":g.h.s+" and "+g.a.s+" are rivals.");
+  if(sp==="football"){
+    if(F.gOk&&F.goals.length){const parts=[];for(const s of ["h","a"])if(F.sc[s].length)parts.push(g[s].s+": "+scorerList(F.sc[s]));out.push("Goals. "+parts.join(". ")+".")}
+    if(F.poss)out.push(F.M.s+" had "+Math.round(F.poss[0])+"% of the ball"+(F.shots?" and "+F.shots[0]+" shots"+(F.sot?", "+F.sot[0]+" on target":""):"")+". "+F.O.s+" had "+(F.shots?F.shots[1]+" shots":Math.round(F.poss[1])+"%")+".");
+    for(const e of [...F.redM,...F.redO])out.push(sur(e.p)+" was sent off for "+g[e.t].s+" ("+e.mt+").");
+  }else if(sp==="rugby"){
+    const ts=s=>F.g.ev.filter(e=>e.k==="try"&&e.t===s).map(e=>sur(e.p)).filter(Boolean);
+    const th=ts("h"),ta=ts("a");
+    if(th.length||ta.length)out.push("Tries. "+g.h.s+": "+(th.join(", ")||"none")+". "+g.a.s+": "+(ta.join(", ")||"none")+".");
+    const yc=F.g.ev.filter(e=>e.k==="yellow").length;if(yc)out.push(yc+" yellow card"+(yc>1?"s":"")+" in the game.");
+  }else{
+    const PRI=sp==="nhl"?["goals","assists","points"]:["points","passingYards","rushingYards","receivingYards","rebounds","assists"];
+    const rank=c=>{const i=PRI.indexOf(c);return i<0?99:i};
+    const top=(g.ld||[]).map((l,i)=>({l,i})).sort((x,y)=>rank(x.l.c)-rank(y.l.c)||x.i-y.i).slice(0,4).map(x=>x.l);
+    for(const l of top)out.push(l.p+" ("+g[l.t].s+"), "+leaderLabel(l.c)+": "+l.v+".");
+  }
+  if(F.tM)out.push(F.M.s+" are "+ord(F.tM.r)+" in the "+F.lgName+(F.tM.p!=null?" on "+F.tM.p+" points":"")+".");
+  else if(F.M.rec&&US.has(sp))out.push(F.M.s+" are "+F.M.rec+" on the season.");
+  return out;
+}
+function leaderLabel(c){return({passingYards:"passing",rushingYards:"rushing",receivingYards:"receiving",points:"points",rebounds:"rebounds",assists:"assists",goals:"goals"})[c]||c}
+
+function followUps(F){
+  const g=F.g,sp=F.sp,qa=[];
+  if(sp==="football"){
+    if(F.gOk)qa.push({q:"Who scored?",a:F.goals.length?["h","a"].map(s=>g[s].s+": "+(scorerList(F.sc[s])||"nobody")).join(". ")+".":"Nobody. It finished 0–0."});
+    if(F.ht)qa.push({q:"What was it at half-time?",a:g.h.s+" "+F.ht.h+"–"+F.ht.a+" "+g.a.s+"."});
+  }else if(sp==="rugby"){
+    if(F.triesM.length||F.triesO.length)qa.push({q:"Who got the tries?",a:F.M.s+": "+(F.triesM.map(e=>sur(e.p)).join(", ")||"none")+". "+F.O.s+": "+(F.triesO.map(e=>sur(e.p)).join(", ")||"none")+"."});
+    const b=[];if(F.tryBonusM)b.push(F.M.s+" got a try bonus");if(F.tryBonusO)b.push(F.O.s+" got a try bonus");if(F.losingBonus)b.push(F.L.s+" got a losing bonus (within seven)");
+    qa.push({q:"Any bonus points?",a:b.length?b.join("; ")+".":"None. Nobody scored four tries and the margin was more than seven."});
+  }else if(sp==="nfl"){
+    const L=F.lead;
+    if(L.pass)qa.push({q:"How did the quarterback play?",a:L.pass.p+": "+L.pass.v+"."});
+    if(L.rush)qa.push({q:"Who ran it?",a:L.rush.p+": "+L.rush.v+"."});
+  }else if(sp==="nba"){
+    const L=F.lead;
+    if(L.pts)qa.push({q:"Who led the scoring?",a:L.pts.p+" had "+L.pts.v+" for "+F.T+(L.ptsO?". "+L.ptsO.p+" had "+L.ptsO.v+" for "+F.OT:"")+"."});
+    if(L.reb)qa.push({q:"Who won the boards?",a:L.reb.p+" had "+L.reb.v+" rebounds."});
+  }else if(sp==="nhl"){
+    const L=F.lead;
+    if(L.goals||L.goalsO)qa.push({q:"Who scored?",a:[L.goals&&L.goals.p+" ("+L.goals.v+")",L.goalsO&&L.goalsO.p+" for "+F.OT+" ("+L.goalsO.v+")"].filter(Boolean).join(". ")+"."});
+  }else if(sp==="mlb"){
+    if(F.g.xt)qa.push({q:"Did it go to extra innings?",a:"Yes. "+F.g.st+"."});
+  }
+  qa.push({q:"What was the final score?",a:g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc+"."});
+  if(F.tM)qa.push({q:"Where does that leave them?",a:cap(F.T)+" are "+ord(F.tM.r)+" in the "+F.lgName+(F.tM.p!=null?", on "+F.tM.p+" points":"")+(F.tM.gp?" from "+F.tM.gp+" games":"")+"."});
+  else if(F.M.rec)qa.push({q:"What's their record?",a:F.M.rec+"."});
+  if(F.LM&&!F.neutral){
+    const r=(F.LM.rivals||[])[0];
+    if(r)qa.push({q:"Who do you lot hate most?",a:r.name+(r.derby?". It's "+r.derby+".":".")});
+    if(F.LM.ground)qa.push({q:"Been to a game?",a:"Say yes, at "+F.LM.ground+". Then change the subject."});
+  }
+  if(F.M.form){const f=F.M.form.toUpperCase().split("").filter(c=>"WDL".includes(c));if(f.length){const w=f.filter(c=>c==="W").length,d=f.filter(c=>c==="D").length,l=f.filter(c=>c==="L").length;qa.push({q:"How's their form?",a:w+" won, "+d+" drawn, "+l+" lost in the last "+f.length+" (latest first: "+f.join(" ")+")."})}}
+  const c=cover();
+  qa.push({q:"Who do you support?",a:cap(teamName())+(c.nickname?". "+cap(String(c.nickname).trim()):"")+". Same answer all night."});
+  return qa;
+}
+function dontsFor(F){
+  const g=F.g,sp=F.sp,d=[];
+  if(F.res==="W")d.push("Don't moan about the result. "+cap(F.T)+" won.");
+  else if(F.res==="L")d.push("Don't call it a good result. "+cap(F.T)+" lost "+F.line+".");
+  else d.push("Don't call it a win. It finished level at "+F.line+".");
+  if(F.derby&&!F.neutral)d.push("Don't say anything nice about "+F.derby.name+". It's a derby.");
+  const av=F.LM&&!F.neutral&&(F.LM.avoid||[])[0];
+  if(av)d.push("Say \""+av.instead+"\", not \""+av.say+"\". "+av.why);
+  d.push("Don't get the score backwards: "+g.h.s+" (home) "+g.h.sc+", "+g.a.s+" "+g.a.sc+".");
+  if(sp==="football"&&F.O.sc>0)d.push("Don't mention a clean sheet. "+cap(F.T)+" let in "+F.O.sc+".");
+  if((sp==="football"||sp==="rugby")&&!g.ev.some(e=>e.k==="red"))d.push("Nobody was sent off. Don't blame a red card.");
+  if(g.venue)d.push(F.home?"It was at home ("+g.venue+"). Don't call it an away day.":"It was away, at "+g.venue+". Don't say \"at home\".");
+  if(F.ot&&!F.so)d.push("It went to overtime. Don't say it was settled in regulation.");
+  return d.slice(0,5);
+}
+function namesFor(F){
+  const set=new Set();
+  if(F.sp==="football")for(const s of ["h","a"])for(const x of F.sc[s])if(x.p)set.add(x.p);
+  if(F.sp==="rugby")for(const e of F.g.ev)if(e.k==="try"&&e.p)set.add(e.p);
+  for(const l of F.g.ld||[])set.add(l.p);
+  for(const e of [...(F.redM||[]),...(F.redO||[])])if(e.p)set.add(e.p);
+  return [...set].slice(0,8);
+}
+
+/* F1 */
+const raceName=s=>String(s||"").replace(/^(?:Formula 1\s+)?(?:(?:MSC Cruises|Heineken(?: Silver)?|Qatar Airways|Etihad Airways|Aramco|Pirelli|Lenovo|AWS|Crypto\.com|Louis Vuitton|Rolex|Gulf Air|STC|TAG Heuer|Singapore Airlines|Airwaves|Gran Premio Heineken)\s+)+/i,"").trim()||s;
+function briefF1(g,driver){
+  const res=g.res,win=res[0],d=res.find(r=>r.n===driver)||win,pos=d.pos||res.indexOf(d)+1;
+  const when=whenPhrase(g.date),rn=raceName(g.race),k=g.id+d.n,D=sur(d.n),Wn=sur(win.n);
+  const podium=res.slice(0,3);
+  let open,them,back,openStar=false;
+  if(pos===1)open="What a drive from "+D+" "+when+"!";
+  else if(pos<=3)open="Decent result for "+D+" "+when+".";
+  else if(pos>10){open="Did you see that ludicrous display "+when+"?";openStar=true}
+  else open="Tough one for "+D+" "+when+".";
+  them=pos===1?D+" was untouchable.":pos<=3?"Podium, though. Can't complain.":Wn+" again. Boring.";
+  back=pos===1?"Tyre management. That's where he won it.":pos<=3?"Car's finally quick in the slow corners.":"Strategy cost them. Pitted a lap too late.";
+  const L={open,them,back,agree:pick(["That is true.","Exactly.","You're not wrong."],k+"a"),exit:pick(["Right, whose round is it?","Anyway, I'd better get back to it."],k+"x"),openStar,backStar:false};
+  const facts=[win.n+" won the "+rn+".","Podium: "+podium.map((r,i)=>(i+1)+". "+r.n).join(", ")+"."];
+  if(d!==win)facts.push(d.n+" finished P"+pos+".");
+  const qa=[{q:"Who won?",a:win.n+"."},{q:"Who else was on the podium?",a:podium.slice(1).map(r=>r.n).join(" and ")+"."},{q:"Where did "+D+" finish?",a:"P"+pos+"."},{q:"Who do you support?",a:cap(teamName())+". Same answer all night."}];
+  const dont=[];
+  if(pos!==1)dont.push("Don't say "+D+" won. "+Wn+" did.");
+  if(pos>3)dont.push("No podium for "+D+". P"+pos+".");
+  dont.push("It was the "+rn+". Don't mix it up with the next one.");
+  const moods=[pos===1?"Race win":pos<=3?"Podium":pos>10?"Nightmare":"Points day"];
+  const LM=lingoPool("f1").find(t=>(t.drivers||[]).includes(d.n))||null;
+  if(LM&&(LM.avoid||[])[0])dont.push("Say \""+LM.avoid[0].instead+"\", not \""+LM.avoid[0].say+"\". "+LM.avoid[0].why);
+  return{f1:true,LM,g,d,pos,L,facts,qa,dont,moods,names:[...new Set([win.n,podium[1]&&podium[1].n,podium[2]&&podium[2].n,d.n].filter(Boolean))],when,rn,T:D,line:"P"+pos,res:pos===1?"W":"L",sp:"f1"};
+}
+function currentBrief(){
+  const g=S.game;if(!g)return null;
+  if(g.res)return briefF1(g,S.driver);
+  const F=analyse(g,S.side);
+  return{F,g,L:lines(F),facts:factsFor(F),qa:followUps(F),dont:dontsFor(F),moods:moods(F),names:namesFor(F),when:F.when,T:F.T,line:F.line,res:F.res,sp:F.sp};
+}
+
+/* ---------- Speech, copy, toast ---------- */
+const canSpeak=typeof window!=="undefined"&&"speechSynthesis" in window;
+function speak(text){
+  if(!canSpeak){toast("Speech isn't available in this browser");return}
+  try{
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(text);
+    const all=speechSynthesis.getVoices(),local=all.filter(v=>v.localService),vs=local.length?local:all;
+    const gb=vs.find(v=>/en-GB/i.test(v.lang)&&/male|daniel|george|arthur|ryan/i.test(v.name))||vs.find(v=>/en-GB/i.test(v.lang));
+    if(gb)u.voice=gb;u.lang="en-GB";
+    if($("#deep").checked){u.pitch=.45;u.rate=.9}
+    speechSynthesis.speak(u);
+  }catch(e){}
+}
+function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove("show"),1800)}
+async function copy(text){try{await navigator.clipboard.writeText(text);toast("Copied")}catch(e){toast("Copy is blocked here. Select the text instead.")}}
+const tools=(text,opts)=>{opts=opts||{};const saved=S.saved.some(x=>x.sp===S.sport&&x.t===(opts.raw||text));return `<div class="row">${canSpeak?`<button class="btn small" type="button" data-say="${esc(text)}">Hear it</button>`:""}<button class="btn small" type="button" data-copy="${esc(text)}">Copy</button>${opts.save!==false?`<button class="btn small" type="button" data-save="${esc(opts.raw||text)}" aria-pressed="${saved}">${saved?"Saved":"Save"}</button>`:""}</div>`};
+
+/* ---------- Today's script ---------- */
+function ttPage(entry,lg){
+  const sp=SPORTS[S.sport],now=new Date();
+  const lgs=leagueList();
+  const head=`<div class="tt-top"><span>P${sp.page}</span><b>${esc(now.toLocaleDateString("en-GB",{weekday:"short",day:"2-digit",month:"short"}).toUpperCase())}</b><span>${String(now.getHours()).padStart(2,"0")}:${String(now.getMinutes()).padStart(2,"0")}</span></div>
+  <div class="tt-band">${esc(sp.label.replace(/ \(.*\)/,""))} results</div>
+  ${lgs.length>1?`<div class="tt-fx" role="group" aria-label="League">${lgs.map(([k,n])=>`<button type="button" data-lg="${esc(k)}" aria-pressed="${k===lg}">${esc(n)}</button>`).join("")}</div>`:""}`;
+  if(!lgs.length)return `<div class="tt">${head}<div class="tt-msg">No results service for ${esc(sp.label)}.<br><span class="y">Use the phrase book and the pub test.</span></div></div>`;
+  if(!entry)return `<div class="tt">${head}<div class="tt-msg"><span class="blink">Searching</span> for ${esc(leagueName(lg))} results…</div></div>`;
+  let list="";
+  if(!entry.games.length)list=`<div class="tt-msg">No finished ${esc(leagueName(lg))} games in the last three weeks.<br><span class="y">Try another league.</span></div>`;
+  else{
+    let day="";
+    for(const g of entry.games){
+      const dl=dayLabel(g.date);
+      if(dl!==day){day=dl;list+=`<div class="tt-day">${esc(dl)}</div>`}
+      const on=S.game&&S.game.id===g.id;
+      if(g.res){
+        const mine=g.res.find(r=>isMyDriver(r.n));
+        list+=`<button type="button" class="tt-row f1" data-game="${esc(g.id)}" aria-pressed="${on}"><span>${esc(raceName(g.race).replace(/Grand Prix/i,"GP"))}</span><span class="sc">1 ${esc(sur(g.res[0].n))}${mine&&mine!==g.res[0]?` <span class="me">${mine.pos} ${esc(sur(mine.n))}</span>`:""}</span></button>`;
+      }else{
+        const mh=isMine(g.h,g.lg),ma=isMine(g.a,g.lg);
+        list+=`<button type="button" class="tt-row" data-game="${esc(g.id)}" aria-pressed="${on}"><span class="${mh?"me":""}">${mh?"*":""}${esc(g.h.s)}</span><span class="sc">${g.h.sc}-${g.a.sc}${g.xt?` <span class="xt">${esc(/SO/.test(g.st)?"SO":/Pen/i.test(g.st)?"P":/AET/.test(g.st)?"AET":"OT")}</span>`:""}</span><span class="${ma?"me":""}">${ma?"*":""}${esc(g.a.s)}</span></button>`;
+      }
+    }
+  }
+  const stamp=entry.src==="live"?"Live "+String(entry.at.getHours()).padStart(2,"0")+":"+String(entry.at.getMinutes()).padStart(2,"0"):entry.src==="snap"?"Saved "+entry.at.toLocaleDateString("en-GB",{day:"numeric",month:"short"}):"No data";
+  return `<div class="tt">${head}<div class="tt-list" id="ttList">${list}</div><div class="tt-foot"><span>${esc(stamp)} · ESPN</span>${DATA.liveAllowed?`<button type="button" id="ttRefresh">Refresh</button>`:""}</div></div>`;
+}
+function srcNote(entry){
+  if(!entry)return "";
+  if(entry.src==="live")return `<p class="src"><span class="dot live"></span><span>Live results from ESPN. Your team's games are starred. Tap any result to load its script.</span></p>`;
+  if(entry.src==="snap"){
+    const age=Math.round((Date.now()-entry.at)/864e5);
+    const saved=`ESPN results saved on ${esc(entry.at.toLocaleDateString("en-GB",{day:"numeric",month:"long"}))}${age>=3?` (${age} days ago)`:""}`;
+    if(!DATA.liveAllowed)return `<div class="src"><span class="dot"></span><div><p>Showing ${saved}. Loading today's results asks ESPN's servers for them, so ESPN will see your IP address, as any website you visit does.</p><button class="btn small" type="button" id="goLive">Load today's results from ESPN</button></div></div>`;
+    if(/claude/i.test(location.hostname))return `<p class="src"><span class="dot"></span><span>Live results can't load on this page, so it uses ${saved}. The downloaded copy of this page loads live results.</span></p>`;
+    return `<p class="src"><span class="dot"></span><span>Live results couldn't load just now, so this shows ${saved}. Press Refresh to try again.</span></p>`;
+  }
+  return `<p class="src"><span class="dot"></span><span>ESPN couldn't be reached. Check your connection and press Refresh.</span></p>`;
+}
+function renderScript(){
+  const el=$("#tab-script"),lg=currentLg(),entry=lg?DATA.cache[lg]:null;
+  const how=`<ol class="how"><li><span><b>Pick a game</b> from the results page. Bluffball's list was always about last night's match.</span></li><li><span><b>Learn the script.</b> Three beats: your line, the reply to expect, your comeback.</span></li><li><span><b>Then leave.</b> After beat three you're off script, and that's where people get caught.</span></li></ol>`;
+  el.innerHTML=`${how}<div class="script-grid"><div class="tt-wrap">${ttPage(entry,lg)}${srcNote(entry)}</div><div class="brief" id="brief">${briefHTML(entry)}</div></div>`;
+  const sel=el.querySelector('.tt-row[aria-pressed="true"]');
+  if(sel&&sel.scrollIntoView){const list=$("#ttList");if(list&&sel.offsetTop>list.clientHeight)list.scrollTop=sel.offsetTop-list.clientHeight/2}
+}
+function briefHTML(entry){
+  if(!leagueList().length)return `<div class="empty"><b>No live results for ${esc(SPORTS[S.sport].label)}</b>ESPN's free feed doesn't carry it. The phrase book, pub test and drill still work.</div>`;
+  if(!entry)return `<div class="empty"><b>Loading results</b>Pulling the last week from ESPN.</div>`;
+  const B=currentBrief();
+  if(!B)return `<div class="empty"><b>No game picked</b>Choose a league with recent games.</div>`;
+  const g=B.g,L=B.L;
+  let top;
+  if(B.f1){
+    top=`<p class="kicker">${esc(B.rn)} · ${esc(B.when)}</p>
+    <div class="scoreline"><span class="n mine">${esc(B.d.n)}</span><span class="s">P${B.pos}</span></div>
+    <div class="pills">${B.moods.map((m,i)=>`<span class="pill${i?"":" hot"}">${esc(m)}</span>`).join("")}</div>
+    <div class="side"><label class="kicker" for="driverSel">Your driver</label><select id="driverSel" style="max-width:260px">${g.res.map(r=>`<option value="${esc(r.n)}"${r.n===B.d.n?" selected":""}>P${r.pos||""} ${esc(r.n)}</option>`).join("")}</select></div>`;
+  }else{
+    const F=B.F,mh=S.side==="h",ma=S.side==="a";
+    top=`<p class="kicker">${esc(F.lgName)} · ${esc(B.when)}${g.venue?" · "+esc(g.venue):""} · ${esc(g.st)}</p>
+    <div class="scoreline"><span class="n${mh?" mine":""}">${esc(g.h.s)}</span><span class="s">${g.h.sc}–${g.a.sc}</span><span class="n${ma?" mine":""}">${esc(g.a.s)}</span></div>
+    <div class="pills">${B.moods.map((m,i)=>`<span class="pill${i?"":" hot"}">${esc(m)}</span>`).join("")}</div>
+    <div class="side" role="group" aria-label="Whose side are you on"><span class="kicker">You're backing</span>
+      <button class="btn small" type="button" data-side="h" aria-pressed="${mh}">${esc(g.h.s)}</button>
+      <button class="btn small" type="button" data-side="a" aria-pressed="${ma}">${esc(g.a.s)}</button>
+      <button class="btn small" type="button" data-side="" aria-pressed="${!S.side}">Neither</button></div>`;
+  }
+  const beats=[
+    ["you","Your opener",L.open,L.openStar?"From the episode":"",""],
+    ["them","They'll say",L.them,"","Roughly this. If it's different, nod and go to your comeback anyway."],
+    ["you","Your comeback",L.back,L.backStar?"From the episode":"",/thing about/i.test(L.back)?"The \"thing about\" line makes you sound like you've thought about it for years.":"Say it like you've believed it for years."],
+    ["them","They agree",L.agree,"",""],
+    ["you","Your exit",L.exit,"","Say it on beat five, before the follow-up question."]
+  ];
+  return `<div class="panel">${top}<ul class="facts">${B.facts.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>
+  <div class="panel"><h3>The script</h3>
+    <ol class="script">${beats.map(([who,label,text,star,note])=>`<li class="beat ${who}"><span class="who">${who==="you"?"You":"Them"}</span><div><div class="kicker">${esc(label)}</div><div class="line">“${esc(text)}”${star?`<span class="star">${esc(star)}</span>`:""}</div>${note?`<div class="note">${esc(note)}</div>`:""}${who==="you"?tools(text,{save:false}):""}</div></li>`).join("")}</ol>
+    <div class="row" style="margin-top:16px"><button class="btn primary" type="button" data-go="pub">Try it in the pub test</button><button class="btn" type="button" data-go="pocket">Pocket card for your phone</button>${g.link?`<a class="btn" href="${esc(g.link)}" target="_blank" rel="noopener">Full summary on ESPN</a>`:""}</div>
+  </div>
+  ${localPanel(B)}
+  <div class="two">
+    <div class="panel"><h3>If they ask</h3><dl class="qa">${B.qa.map(x=>`<div><dt>“${esc(x.q)}”</dt><dd>${esc(x.a)}</dd></div>`).join("")}</dl></div>
+    <div class="panel"><h3>Don't say</h3><ul class="dont">${B.dont.map(x=>`<li><span>${esc(x)}</span></li>`).join("")}</ul>
+      <p class="muted" style="margin:14px 0 0;font-size:14px">A stock line that doesn't fit the result is the fastest way to get caught.</p></div>
+  </div>
+  ${B.names.length&&canSpeak?`<div class="panel"><h3>Pronunciation guide</h3><p class="muted" style="margin:0 0 10px;font-size:14px">Tap a name to hear it before you say it out loud. The voice can get unusual names wrong. If in doubt, use the surname only.</p><div class="names">${B.names.map(n=>`<button class="btn small" type="button" data-say="${esc(n)}">${esc(n)}</button>`).join("")}</div></div>`:""}`;
+}
+
+const groupName=f=>/\b(army|nation|mafia|country|kingdom|faithful|pound|flock|sea|c of red|12s|clan|fanatics)\b/i.test(f)||!/s$/i.test(f.trim());
+const fanPhrase=L=>!L.fans?"a "+L.team+" fan":(groupName(L.fans)?"the ":"one of the ")+L.fans.replace(/^the\s+/i,"");
+function teamBits(L){
+  const bits=[esc(L.team)+(L.nickname?" are "+esc(L.nickname):"")+(L.fans?", and their fans are "+esc(L.fans):"")+"."];
+  if(L.ground)bits.push("Home is "+esc(L.ground)+".");
+  const t=(L.lingo||[]).find(x=>norm(x.term)!==norm(L.fans));
+  if(t)bits.push("You might hear “"+esc(t.term)+"”: "+esc(t.means));
+  return bits.join(" ");
+}
+function localPanel(B){
+  const F=B.F||{};
+  if(!B.f1&&F.neutral){
+    const both=[F.LM,F.LO].filter(Boolean);
+    if(!both.length)return "";
+    return `<div class="panel"><h3>Local touch</h3><p class="kicker">Know both sides</p>${both.map(L=>`<p class="other">${teamBits(L)}</p>`).join("")}</div>`;
+  }
+  const LM=B.f1?B.LM:F.LM,LO=B.f1?null:F.LO;
+  if(!LM&&!LO)return "";
+  let h=`<div class="panel"><h3>Local touch</h3>`;
+  if(LM&&(LM.lines||[]).length){
+    h+=`<p class="kicker">Sound like ${esc(fanPhrase(LM))}</p><ul class="local">${LM.lines.slice(0,4).map(x=>`<li><div class="line">“${esc(x.t)}”</div><div class="note">${esc(x.m)}</div>${tools(x.t)}</li>`).join("")}</ul>`;
+  }
+  if(LO)h+=`<p class="kicker" style="margin-top:${LM?18:0}px">Know the other lot</p><p class="other">${teamBits(LO)}</p>`;
+  return h+`</div>`;
+}
+function guideSummary(L){
+  const r=(L.rivals||[])[0],bits=[];
+  if(L.nickname)bits.push("Known as "+L.nickname+".");
+  if(L.fans)bits.push("Fans: "+L.fans+".");
+  if(L.ground)bits.push("Home: "+L.ground+".");
+  if(r)bits.push("Biggest rival: "+r.name+(r.derby?" ("+r.derby+")":"")+".");
+  return bits.join(" ");
+}
+
+/* ---------- Pub test ---------- */
+let pub=null;
+const O=(t,s,f,act)=>({t,s,f,act});
+function leaveRound(exitLine,agree){
+  return{kind:"leave",label:"Exit",say:agree||"Exactly. That's it, that is.",prompt:"That's the script done. What now?",opts:[O(exitLine,2,"Clean exit. Three beats and out, which is how the script is meant to be used.","leave"),O("Stay for another. This is going well!",0,"Bold. From here on you're off script, and each question is harder.","stay")]};
+}
+function coverRound(){
+  const c=cover(),me=teamName(),other=pick(SPORTS[S.sport].others.filter(o=>norm(o)!==norm(me)),Date.now());
+  const set=!!(S.covers[S.sport]&&Object.values(S.covers[S.sport]).some(Boolean));
+  const ML=myLingo(),nick=String(c.nickname||(ML&&ML.nickname)||"");
+  return{kind:"off",say:"Who do you support, anyway?",opts:shuffle([O(cap(me)+(/^the\s+/i.test(nick)?". Up the "+nick.replace(/^the\s+/i,"")+"!":", always."),2,set?"Consistent. Your cover story is doing its job.":"Fine this time. Fill in your cover story so the follow-ups don't catch you out."),O(cap(other)+", I suppose.",-2,"That's not your team. Pick one before you go out, or you'll end up claiming his team by accident."),O("Bit of everyone, me.",-1,"Nobody supports everyone. Now he's suspicious.")])};
+}
+function rivalRound(L){
+  const c=cover(),mine=!L||L===myLingo();
+  const rival=(mine&&c.rival)||(L&&(L.rivals||[])[0]&&L.rivals[0].name)||null;if(!rival)return null;
+  return{kind:"off",say:"What do you make of "+rival+", then?",opts:shuffle([O("Can't stand them. Never could.",2,"Correct. Rivalries are simple."),O("Love them, me. Lovely football.",-2,"You just praised the enemy. It's the slip Roy makes in the episode."),O("They're alright, I suppose.",-1,"Far too reasonable about a rival.")])};
+}
+function fansRound(L){
+  if(!L||!L.fans)return null;
+  const fp=fanPhrase(L);
+  return{kind:"off",say:"So you're "+(fp.indexOf("the ")===0?"part of ":"")+fp+", then?",opts:shuffle([O("Since I was a kid.",2,"Right. \""+L.fans+"\" is what "+L.team+" fans call themselves."),O("One of the what?",-2,"\""+L.fans+"\" is what "+L.team+" fans call themselves. Every fan knows it."),O("Is that a band?",-2,"Rumbled.")])};
+}
+function giveawayRound(L){
+  const list=(L&&L.avoid)||[];if(!list.length)return null;
+  const a=list[Math.floor(Math.random()*list.length)];
+  return{kind:"off",say:"You'd never catch a real fan saying \""+a.say+"\", would you?",opts:shuffle([O("Never. It's \""+a.instead+"\".",2,a.why),O("I say \""+a.say+"\" all the time.",-2,a.why),O("Depends who's asking.",0,"A dodge. It works once.")])};
+}
+function termRound(L){
+  const terms=((L&&L.lingo)||[]).filter(x=>x.means&&norm(x.term)!==norm(L.fans));if(!terms.length)return null;
+  const t=terms[Math.floor(Math.random()*terms.length)];
+  const others=lingoPool(S.sport).filter(x=>x!==L).reduce((a,x)=>a.concat(x.lingo||[]),[]).filter(x=>x.means&&x.means!==t.means);
+  const opts=[O(t.means,2,"Correct. Knowing the local words is what separates fans from tourists."),O("Ask him, not me.",0,"A dodge. It works once.")];
+  if(others.length)opts.push(O(others[Math.floor(Math.random()*others.length)].means,-2,"No. \""+t.term+"\": "+t.means));
+  return{kind:"off",say:"What does \""+t.term+"\" mean again? My lad keeps saying it.",opts:shuffle(opts)};
+}
+function ponyRound(){
+  return{kind:"off",say:"I've got a pony on "+teamName()+" next week. You in?",opts:shuffle([O("Twenty-five quid? Go on then.",2,"Right. A pony is £25. Knowing the slang saves you."),O("Ha, I'll put a whole horse on it!",-2,"A pony isn't a horse here. It's £25. In the episode, Moss gets into trouble with exactly this word."),O("I don't bet, but good luck with it.",1,"A safe answer. No harm done.")])};
+}
+function offRound(){
+  const sp=SPORTS[S.sport];
+  return{kind:"off",say:sp.offq,opts:shuffle([O("Don't get me started.",2,"Perfect dodge. He'll answer it himself."),O("Best in the league, him.",-1,"You've just made a claim you can't back up."),O("Which one's that?",-2,"Rumbled.")])};
+}
+function inviteRound(){
+  return{kind:"off",say:"Poker at mine Thursday. You're in.",opts:shuffle([O("Can't Thursday, sorry. Next time.",2,"Saying no early keeps it simple. In the episode, one favour turns into a much bigger one."),O("Love to, but my girlfriend… she's very… tall.",-1,"An invented excuse falls apart at the first follow-up question."),O("Is that the one with the cards?",-2,"Rumbled.")])};
+}
+function factRounds(B){
+  const out=[];
+  if(B.f1){
+    const p2=B.g.res[1];
+    if(p2)out.push({kind:"off",say:"Who won it again?",opts:shuffle([O(sur(B.g.res[0].n)+". Never in doubt.",2,"Correct."),O(sur(p2.n)+", wasn't it?",-2,sur(p2.n)+" was second. He knows that."),O("Don't remind me.",0,"Works as a dodge, once.")])});
+    return out;
+  }
+  const F=B.F,g=B.g;
+  const wrong=F.res==="W"?F.line+" to "+F.O.s+".":F.res==="L"?F.line+" to "+F.M.s+".":(F.M.sc+1)+"–"+F.O.sc+" to "+F.M.s+".";
+  out.push({kind:"off",say:"What did it finish in the end?",opts:shuffle([O(F.res==="D"?F.line+". Honours even.":F.line+" to "+F.W.s+".",2,"Correct. You know the score."),O(wrong,-2,"Wrong. It was "+g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc+". He knows the score and now he knows you don't."),O("Don't remind me.",0,"Works as a dodge, once.")])});
+  if(F.tM){
+    const r=F.tM.r,wr=r>4?r-4:r+5;
+    out.push({kind:"off",say:"Where's that leave "+F.T+" in the table?",opts:shuffle([O(cap(ord(r))+". "+(r<=4?"Up where we belong.":"Plenty to play for."),2,"Correct, straight from your briefing."),O(cap(ord(wr))+". "+(wr<=4?"Up where we belong.":"Plenty to play for."),-2,"Wrong. They're "+ord(r)+". League tables are easy to check."),O("Don't look at the table till spring, me.",0,"A decent dodge.")])});
+  }
+  let who=null,wrongWho=null,q="Who got ours again?";
+  if(F.sp==="football"&&F.topM){who=F.topM.p;wrongWho=F.topO&&F.topO.p}
+  else if(F.sp==="nba"&&F.lead.pts){who=F.lead.pts.p;wrongWho=F.lead.ptsO&&F.lead.ptsO.p;q="Who was our top scorer?"}
+  else if(F.sp==="nfl"&&F.lead.pass){who=F.lead.pass.p;wrongWho=F.lead.passO&&F.lead.passO.p;q="Who was throwing for us?"}
+  else if(F.sp==="nhl"&&F.lead.goals){who=F.lead.goals.p;wrongWho=F.lead.goalsO&&F.lead.goalsO.p;q="Who scored for us?"}
+  else if(F.sp==="rugby"&&F.triesM[0]){who=F.triesM[0].p;wrongWho=F.triesO[0]&&F.triesO[0].p;q="Who got our try?"}
+  if(who&&wrongWho&&sur(who)!==sur(wrongWho))out.push({kind:"off",say:q,opts:shuffle([O(sur(who)+". Different class.",2,"Correct."),O(sur(wrongWho)+", wasn't it?",-2,sur(wrongWho)+" plays for the other lot."),O("Can't remember, I was too busy shouting.",0,"Believable, once.")])});
+  return out;
+}
+function gameRounds(B){
+  const L=B.L,F=B.F;
+  const r=[];
+  const say=B.f1?"You see the race "+B.when+"?":F.neutral?"You see "+B.g.h.s+" and "+B.g.a.s+" "+B.when+"?":"Oi oi! You see "+B.T+" "+B.when+"?";
+  const wrongFit=B.res==="W"?"Did you see that ludicrous display "+B.when+"?":"What a result "+B.when+", eh?";
+  const fitFb=B.res==="W"?"That's the line for a defeat, and they won. Using a stock phrase in the wrong situation is how people get caught.":"That doesn't fit. They didn't win. A stock line has to match the result.";
+  const openOpts=[O(L.open,2,"Straight off the script. Vague enough, specific enough.")];
+  if(wrongFit!==L.open)openOpts.push(O(wrongFit,-2,fitFb));
+  openOpts.push(O("Yes, I watched the full "+SPORTS[S.sport].play+".",-1,"Too formal. Nobody says that in a pub."));
+  r.push({kind:"script",label:"Opener",say,opts:shuffle(openOpts)});
+  const wrongScore=B.f1?"Shame "+sur(B.g.res[1]?B.g.res[1].n:"he")+" didn't win.":B.res==="D"?"Good to get the win, though.":"Still, "+(F.M.sc+1)+"–"+F.O.sc+" isn't the worst.";
+  r.push({kind:"script",label:"Comeback",say:L.them,opts:shuffle([O(L.back,2,"That's the comeback. It sounds like years of opinion."),O(SPORTS[S.sport].nerd,-1,"Fine on a podcast. In a pub it sounds rehearsed."),O(wrongScore,-2,"That's not what happened. Check the briefing: "+B.facts[0])])});
+  r.push(leaveRound(L.exit,L.agree));
+  const TL=B.f1?(B.LM||myLingo()):((F.neutral?null:F.LM)||myLingo());
+  const off=[...factRounds(B).slice(0,2),coverRound(),fansRound(TL),ponyRound(),termRound(TL),rivalRound(TL),giveawayRound(TL),offRound()].filter(Boolean).slice(0,5);
+  return r.concat(off,[inviteRound()]);
+}
+function generalRounds(){
+  const sp=SPORTS[S.sport];
+  const base=shuffle(sp.pub).slice(0,2).concat(shuffle(UNIVERSAL_PUB).slice(0,1)).map((x,i)=>({kind:"script",label:"Chat "+(i+1),say:fill(x.say),opts:shuffle(x.o.map(o=>O(fill(o[0]),o[1],o[2])))}));
+  const L=myLingo();
+  const off=[coverRound(),fansRound(L),ponyRound(),termRound(L),rivalRound(L),giveawayRound(L),offRound()].filter(Boolean).slice(0,5);
+  return base.concat([leaveRound("Right, whose round is it?")],off,[inviteRound()]);
+}
+function newPub(mode){
+  const B=currentBrief();
+  mode=mode||(pub&&pub.mode)||(B?"game":"general");
+  if(mode==="game"&&!B)mode="general";
+  pub={mode,rounds:mode==="game"?gameRounds(B):generalRounds(),i:0,score:0,max:0,sus:0,answered:null,left:false,name:NAMES[Math.floor(Math.random()*NAMES.length)]};
+}
+function meters(){
+  const cred=pub.max?Math.max(0,Math.round(pub.score/pub.max*100)):0,sus=Math.min(100,pub.sus);
+  return `<div class="meters"><div class="meter"><div class="lbl"><span>Credibility</span><span>${cred}%</span></div><div class="bar"><i style="width:${cred}%;background:var(--good)"></i></div></div><div class="meter"><div class="lbl"><span>Suspicion</span><span>${sus}%</span></div><div class="bar"><i style="width:${sus}%;background:var(--bad)"></i></div></div></div>`;
+}
+function beatChips(){
+  const idx=pub.rounds.findIndex(r=>r.kind==="leave");
+  let h="";
+  pub.rounds.forEach((r,i)=>{
+    if(r.kind==="off")return;
+    const cls=i===pub.i?"on":i<pub.i?"done":"";
+    h+=`<span class="bt ${cls}">${esc(r.label||"Chat")}</span>`;
+  });
+  const offN=pub.rounds.filter(r=>r.kind==="off").length,offDone=Math.max(0,pub.i-idx-1);
+  if(offN)h+=`<span class="bt off ${pub.i>idx?"on":""}">Off script ${pub.i>idx?Math.min(offDone+1,offN)+"/"+offN:""}</span>`;
+  return `<div class="beats">${h}</div>`;
+}
+function renderPub(){
+  const el=$("#tab-pub");
+  if(!pub)newPub();
+  const B=currentBrief();
+  const modeBtns=`<div class="row" role="group" aria-label="Pub test mode"><button class="btn small" type="button" data-pubmode="game" aria-pressed="${pub.mode==="game"}"${B?"":" disabled"}>${B?"This game: "+esc(B.f1?B.rn:B.g.h.s+" v "+B.g.a.s):"This game (pick one first)"}</button><button class="btn small" type="button" data-pubmode="general" aria-pressed="${pub.mode==="general"}">General chat</button></div>`;
+  const intro=`<h2 class="sec">Pub test</h2><p class="lede">Three beats of script, then a choice: leave, or stay and go off script. Wrong facts and stock lines that don't fit raise suspicion. At 100% you're rumbled.</p>`;
+  if(pub.done){
+    const cred=pub.max?Math.max(0,Math.round(pub.score/pub.max*100)):0;
+    const exitAt=pub.rounds.findIndex(r=>r.kind==="leave");
+    const [title,line]=pub.sus>=100?["Rumbled","You've been found out. Back to the phrase book, and maybe the Come clean lines."]
+      :pub.left&&pub.i<=exitAt?(cred>=80?["Clean getaway","Three beats, out the door. That's exactly how the script is meant to be used."]:["Got out alive","You left on time, but the script was shaky. Run it again."])
+      :pub.left&&pub.sus<50?["Made your excuses","You went off script, then got out before it went wrong. Next time, leave at the exit beat."]
+      :pub.sus>=50?["In too deep","They've saved you a seat for Saturday and asked if you can drive a van on Thursday. Leave earlier next time."]
+      :cred>=75?["Proper fan","You went off script and survived. Respect."]:["Suspicious","There's a long pause every time you speak."];
+    const best=store.get("best_"+S.sport,0);if(cred>best)store.set("best_"+S.sport,cred);
+    el.innerHTML=`${intro}${modeBtns}<div style="height:14px"></div>${meters()}<div class="panel result"><p class="kicker">Credibility ${cred}% · Suspicion ${Math.min(100,pub.sus)}% · Best for ${esc(SPORTS[S.sport].label)}: ${Math.max(cred,best)}%</p><div class="big">${title}</div><p>${line}</p><div class="row"><button class="btn primary" type="button" id="pubAgain">Another round</button><button class="btn" type="button" data-go="script">Back to the script</button></div></div>`;
+    return;
+  }
+  const r=pub.rounds[pub.i];
+  el.innerHTML=`${intro}<div class="pub-top">${modeBtns}${beatChips()}</div>${meters()}
+  <div class="panel">
+    <div class="speaker"><div class="avatar" aria-hidden="true">${esc(pub.name[0])}</div><div style="min-width:0"><div class="whoname">${esc(pub.name)}</div><div class="bubble">${esc(r.say)}</div></div></div>
+    <p class="prompt">${esc(r.prompt||"What do you say?")}</p>
+    <div class="opts">${r.opts.map((o,i)=>{let cls="";if(pub.answered!=null&&(i===pub.answered||o.s===2&&r.kind!=="leave"))cls=o.s>=1?"good":o.s===0?"meh":"bad";return `<button type="button" class="opt ${cls}" data-opt="${i}"${pub.answered!=null?" disabled":""}>${esc(o.t)}</button>`}).join("")}</div>
+    <div id="fb">${pub.answered!=null?fbHTML(r):""}</div>
+  </div>`;
+}
+function fbHTML(r){
+  const o=r.opts[pub.answered];
+  const busted=pub.sus>=100,leaving=o.act==="leave";
+  const last=pub.i+1>=pub.rounds.length;
+  const label=busted?"You've been rumbled. See the result":leaving?"Leave the pub":last?"See the result":"Next";
+  return `<div class="fb">${esc(o.f)}</div><div class="row" style="margin-top:10px">${canSpeak&&o.act!=="stay"?`<button class="btn small" type="button" data-say="${esc(o.t)}">Hear your line</button>`:""}<button class="btn primary" type="button" id="pubNext">${label}</button>${r.kind==="off"&&!busted&&!last?`<button class="btn" type="button" id="pubLeave">Make your excuses and leave</button>`:""}</div>`;
+}
+function answerPub(i){
+  const r=pub.rounds[pub.i],o=r.opts[i];if(pub.answered!=null)return;
+  pub.answered=i;
+  if(r.kind==="leave"){if(o.act==="leave"){pub.left=true;pub.score+=2;pub.max+=2}}
+  else{pub.max+=2;pub.score+=Math.max(o.s,0);if(o.s<0)pub.sus+=o.s<=-2?35:15;if(r.kind==="off")pub.sus+=6}
+  pub.sus=Math.min(100,pub.sus);
+  renderPub();
+  const n=$("#pubNext");if(n)n.focus();
+}
+function nextPub(leaveNow){
+  const r=pub.rounds[pub.i],o=r.opts[pub.answered];
+  if(leaveNow){pub.left=true;pub.done=true}
+  else if(pub.sus>=100||o.act==="leave"||pub.i+1>=pub.rounds.length)pub.done=true;
+  else{pub.i++;pub.answered=null}
+  renderPub();
+}
+
+/* ---------- Cover story ---------- */
+function strengthHTML(){
+  const c=cover(),filled=COVER_FIELDS.filter(([k])=>c[k]&&String(c[k]).trim()).length;
+  const word=filled>=5?"Watertight":filled>=3?"Decent":filled>=1?"Thin":"Empty";
+  return `<span class="kicker">${word} · ${filled}/6</span><div class="bar"><i style="width:${filled/6*100}%;background:${filled>=5?"var(--good)":filled>=3?"var(--flood)":"var(--meh)"}"></i></div>`;
+}
+function coverSuggest(){
+  const L=myLingo();
+  if(L){const r=(L.rivals||[])[0];return{nickname:L.nickname||"",rival:r?r.name:"",ground:L.ground||"",player:(L.legends||[])[0]||"",since:"",memory:L.memory||""}}
+  return norm(teamName())===norm(SPORTS[S.sport].team)?SPORTS[S.sport].cover:{};
+}
+function coverGuideHTML(){
+  const L=myLingo();
+  if(L)return `<p style="margin:0 0 8px"><b>Team guide: ${esc(L.team)}.</b> ${esc(guideSummary(L))}</p><button class="btn small" type="button" id="coverFill">Fill empty fields from the guide</button>`;
+  return `<p class="muted" style="margin:0">${lingoPool(S.sport).length?"Pick your team from the suggestions to load its team guide: nickname, rival, ground and legends.":"No team guides for this sport yet. Fill it in yourself."}</p>`;
+}
+function updateCoverHints(){
+  const sug=coverSuggest();
+  for(const [k] of COVER_FIELDS){const el=document.getElementById("cv-"+k);if(el)el.placeholder=sug[k]?"e.g. "+sug[k]:""}
+  const g=$("#coverGuide");if(g)g.innerHTML=coverGuideHTML();
+}
+function renderCover(){
+  const c=cover(),ex=coverSuggest(),isDefault=true;
+  $("#tab-cover").innerHTML=`<h2 class="sec">Cover story</h2>
+  <p class="lede">In the episode, "Who do you support?" is the question that drags Roy in deeper: he picks a team at random, and it's the bloke's own team. Pick yours now and know the basics. The pub test checks you stick to it.</p>
+  <div class="strength" id="coverStrength">${strengthHTML()}</div>
+  <div class="panel"><div class="guide" id="coverGuide">${coverGuideHTML()}</div><div class="cover">
+    <label class="fld" for="cv-team">Your team<input id="cv-team" type="text" maxlength="40" list="teamList" value="${esc(S.teams[S.sport]||"")}" placeholder="${esc(SPORTS[S.sport].team)}"><span class="tip">Pick one you can defend, not one at random.</span></label>
+    ${COVER_FIELDS.map(([k,label,tip])=>`<label class="fld" for="cv-${k}">${esc(label)}<input id="cv-${k}" data-cover="${k}" type="text" maxlength="120" value="${esc(c[k]||"")}" placeholder="${isDefault&&ex[k]?"e.g. "+esc(ex[k]):""}"><span class="tip">${esc(tip)}</span></label>`).join("")}
+  </div>
+  <div class="row" style="margin-top:16px"><button class="btn primary" type="button" data-drill="cover">Test me on it</button><button class="btn" type="button" data-go="pub">Pub test</button></div></div>`;
+}
+
+/* ---------- Phrase book ---------- */
+function allPhrases(){
+  const sp=SPORTS[S.sport].phrases,out=[];
+  for(const c of CAT_ORDER)for(const p of (sp[c]||[]).concat(UNIVERSAL[c]||[]))out.push(Object.assign({},p,{cat:c}));
+  return out;
+}
+function renderPhrases(){
+  const list=allPhrases(),sp=SPORTS[S.sport];
+  let h=`<h2 class="sec">Phrase book</h2><p class="lede">Lines that work whatever the score was, for ${esc(sp.label.toLowerCase())}. Lines using your team say "${esc(teamName())}". Save the ones you like to your pocket card.</p>`;
+  const L=myLingo();
+  if(L){
+    h+=`<div class="cat"><h3>Talk like ${esc(fanPhrase(L))}</h3><p class="when">${esc(guideSummary(L))}</p>`;
+    if((L.lines||[]).length)h+=`<div class="cards">${L.lines.map(x=>`<div class="card"><div class="phrase">“${esc(x.t)}”</div><div class="meta">${esc(x.m)}</div>${tools(x.t)}</div>`).join("")}</div>`;
+    if((L.lingo||[]).length)h+=`<p class="when" style="margin-top:16px"><b style="color:var(--flood)">Local words.</b> Capitals show the stressed syllable.</p><div class="jargon">${L.lingo.map(x=>termHTML(x.term,x.say,x.means)).join("")}</div>`;
+    if((L.avoid||[]).length)h+=`<p class="when" style="margin-top:16px"><b style="color:var(--flood)">Outsider giveaways.</b></p><ul class="dont">${L.avoid.map(x=>`<li><span>Say “${esc(x.instead)}”, not “${esc(x.say)}”. ${esc(x.why)}</span></li>`).join("")}</ul>`;
+    h+=`</div>`;
+  }else if(lingoPool(S.sport).length){
+    h+=`<p class="lede">No team guide matches “${esc(teamName())}”. Pick your team from the suggestions in the Your team box to get its local lingo, rivals and giveaways.</p>`;
+  }
+  for(const k of CAT_ORDER){
+    const items=list.filter(p=>p.cat===k);if(!items.length)continue;const c=CATS[k];
+    h+=`<div class="cat"><h3>${esc(c.name)}</h3><p class="when">${esc(c.when)} <b style="color:var(--flood)">Delivery:</b> ${esc(c.tip)}</p><div class="cards">${items.map(p=>{const t=fill(p.t);return `<div class="card"><div class="phrase">“${esc(t)}”${p.star?`<span class="star">From the episode</span>`:""}</div><div class="meta">${esc(p.m)}</div>${tools(t,{raw:p.t})}</div>`}).join("")}</div></div>`;
+  }
+  const term=([w,say,mean])=>`<div class="term"><b>${esc(w)}</b>${canSpeak?`<button class="btn small" type="button" data-say="${esc(w)}">Hear it</button>`:"<span></span>"}<span class="say">${esc(say)}</span><p>${esc(mean)}</p></div>`;
+  h+=`<div class="cat"><h3>Pronunciation guide</h3><p class="when">Bluffball came with a pronunciation guide. Capitals show the stressed syllable.</p><div class="jargon">${sp.jargon.map(term).join("")}</div></div>`;
+  h+=`<div class="cat"><h3>Betting slang</h3><p class="when">Never claim a bet you can't explain. Moss learns this the hard way.</p><div class="jargon">${BETTING.map(term).join("")}</div></div>`;
+  $("#tab-phrases").innerHTML=h;
+}
+
+function termHTML(w,say,mean){return `<div class="term"><b>${esc(w)}</b>${canSpeak?`<button class="btn small" type="button" data-say="${esc(w)}">Hear it</button>`:"<span></span>"}${say?`<span class="say">${esc(say)}</span>`:""}<p>${esc(mean)}</p></div>`}
+
+/* ---------- Drill ---------- */
+let drill=null;
+function deck(kind){
+  if(kind==="script"){
+    const B=currentBrief();if(!B)return [];
+    const L=B.L;
+    return [{sit:"Opener",q:"Someone mentions "+(B.f1?"the race":B.T)+". Start the chat.",a:L.open},{sit:"Comeback",q:"They say: “"+L.them+"”",a:L.back},{sit:"Exit",q:"They say: “"+L.agree+"”",a:L.exit}].concat(B.qa.map(x=>({sit:"If they ask",q:"“"+x.q+"”",a:x.a})));
+  }
+  if(kind==="lingo"){
+    const L=myLingo();if(!L)return [];
+    const d=[];
+    if(L.nickname)d.push({sit:"Team guide",q:"“What do people call "+L.team+"?”",a:L.nickname});
+    if(L.fans)d.push({sit:"Team guide",q:"“What do the fans call themselves?”",a:L.fans});
+    if(L.ground)d.push({sit:"Team guide",q:"“Where do they play?”",a:L.ground});
+    const r=(L.rivals||[])[0];if(r)d.push({sit:"Rivals",q:"“Who do you lot hate most?”",a:r.name+(r.derby?" ("+r.derby+")":"")});
+    if((L.legends||[]).length)d.push({sit:"Legends",q:"“Best player you've ever seen in the shirt?”",a:L.legends.join(", ")});
+    if(L.memory)d.push({sit:"Legends",q:"“What's the best thing you've seen them do?”",a:L.memory});
+    for(const x of L.lingo||[])d.push({sit:"Local lingo",q:x.term+(x.say?" ("+x.say+")":""),a:x.means});
+    for(const x of L.avoid||[])d.push({sit:"Outsider giveaway",q:"Real fans don't say “"+x.say+"”. What do they say?",a:x.instead,m:x.why});
+    for(const x of L.lines||[])d.push({sit:"Sound like a local",q:x.m,a:x.t});
+    return d;
+  }
+  if(kind==="jargon")return shuffle(SPORTS[S.sport].jargon.concat(BETTING)).map(([w,s,m])=>({sit:"What does it mean?",q:w+" ("+s+")",a:m}));
+  if(kind==="cover"){const c=cover();return [{sit:"Cover story",q:"“Who do you support?”",a:teamName()}].concat(COVER_FIELDS.filter(([k])=>c[k]).map(([k,,,q])=>({sit:"Cover story",q:"“"+q+"”",a:c[k]})))}
+  return shuffle(allPhrases()).map(p=>({sit:CATS[p.cat].name,q:CATS[p.cat].when,a:fill(p.t),m:p.m}));
+}
+function newDrill(kind){const d=deck(kind);drill={kind,deck:d,i:0,shown:false,got:0,again:0}}
+function renderDrill(){
+  const B=currentBrief();
+  if(!drill)newDrill(B?"script":"phrases");
+  const el=$("#tab-drill");
+  const kinds=[["script","Today's script",!!B],["lingo","Team lingo",!!myLingo()],["phrases","Phrase book",true],["jargon","Slang",true],["cover","Cover story",true]];
+  const head=`<h2 class="sec">Drill</h2><p class="lede">Read the situation and say your line out loud before you reveal it. Cards you miss come back at the end. Rehearse the way Roy and Moss do in the pub: out loud, more than once.</p><div class="row" role="group" aria-label="Deck" style="margin-bottom:14px">${kinds.map(([k,n,ok])=>`<button class="btn small" type="button" data-drill="${k}" aria-pressed="${drill.kind===k}"${ok?"":" disabled"}>${esc(n)}</button>`).join("")}</div>`;
+  if(!drill.deck.length){el.innerHTML=head+`<div class="empty"><b>Nothing to drill yet</b>${drill.kind==="cover"?"Fill in your cover story first.":drill.kind==="lingo"?"Pick your team from the suggestions in \"Your team\" to get its guide.":"Pick a game on Today's script first."}</div>`;return}
+  if(drill.i>=drill.deck.length){el.innerHTML=head+`<div class="panel flash"><p class="kicker">Deck done</p><div class="q">${drill.got} known · ${drill.again} to practise</div><div class="row"><button class="btn primary" type="button" id="drillRestart">Go again</button></div></div>`;return}
+  const c=drill.deck[drill.i];
+  el.innerHTML=head+`<div class="panel flash"><p class="kicker">${esc(c.sit)} · card ${drill.i+1} of ${drill.deck.length}</p><div class="q">${esc(c.q)}</div>${drill.shown?`<div class="a">${esc(c.a)}</div>${c.m?`<div class="muted">${esc(c.m)}</div>`:""}`:""}<div class="row">${drill.shown?`${canSpeak?`<button class="btn" type="button" data-say="${esc(c.a)}">Hear it</button>`:""}<button class="btn" type="button" id="drillAgain">Again later</button><button class="btn primary" type="button" id="drillGot">Got it</button>`:`<button class="btn primary" type="button" id="drillReveal">Reveal</button>`}</div></div>`;
+}
+
+/* ---------- Pocket card ---------- */
+function pocketText(){
+  const B=currentBrief(),c=cover(),lines=[];
+  lines.push("LUDICROUS DISPLAY · "+new Date().toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"}).toUpperCase());
+  if(B){
+    lines.push("");
+    lines.push(B.f1?B.rn+" ("+B.when+")":B.g.h.s+" "+B.g.h.sc+"-"+B.g.a.sc+" "+B.g.a.s+" ("+B.F.lgName+", "+B.when+")");
+    lines.push("","THE SCRIPT","YOU:  "+B.L.open,"THEM: "+B.L.them,"YOU:  "+B.L.back,"THEM: "+B.L.agree,"YOU:  "+B.L.exit+"  <- then leave");
+    lines.push("","IF THEY ASK");for(const x of B.qa)lines.push("- "+x.q+" "+x.a);
+    lines.push("","DON'T SAY");for(const x of B.dont)lines.push("- "+x);
+  }
+  const TL=myLingo();
+  if(TL){
+    lines.push("","TEAM GUIDE: "+TL.team.toUpperCase());
+    if(guideSummary(TL))lines.push(guideSummary(TL));
+    for(const x of (TL.lines||[]).slice(0,3))lines.push("SAY:  "+x.t);
+    for(const x of (TL.avoid||[]).slice(0,2))lines.push("NOT:  \""+x.say+"\". Say \""+x.instead+"\".");
+  }
+  lines.push("","MY COVER STORY","Team: "+teamName());
+  for(const [k,label] of COVER_FIELDS)if(c[k])lines.push(label+": "+c[k]);
+  const saved=S.saved.filter(x=>x.sp===S.sport);
+  if(saved.length){lines.push("","SAVED LINES");for(const x of saved)lines.push("- "+fill(x.t))}
+  return lines.join("\n");
+}
+function renderPocket(){
+  $("#tab-pocket").innerHTML=`<h2 class="sec">Pocket card</h2><p class="lede">Bluffball could be sent to your phone, so you were never caught without a line. Copy this into your notes or a message to yourself, and glance at it in the loo, not at the bar.</p>
+  <div class="row" style="margin-bottom:12px"><button class="btn primary" type="button" id="pocketCopy">Copy for your phone</button>${S.saved.some(x=>x.sp===S.sport)?`<button class="btn" type="button" id="pocketClear">Clear saved lines</button>`:""}</div>
+  <div class="pocket"><pre id="pocketText">${esc(pocketText())}</pre></div>`;
+}
+
+/* ---------- Panic ---------- */
+let lastPanic="";
+function panicLine(){
+  const B=currentBrief();
+  const pool=allPhrases().filter(p=>p.cat!=="clean").map(p=>({t:fill(p.t),tip:CATS[p.cat].tip}));
+  if(B)pool.push({t:B.L.open,tip:CATS.open.tip},{t:B.L.back,tip:CATS.opinion.tip},{t:B.L.back,tip:CATS.opinion.tip},{t:B.L.exit,tip:CATS.exit.tip});
+  const TL=myLingo();if(TL)for(const x of TL.lines||[])pool.push({t:x.t,tip:x.m});
+  let p,tries=0;do{p=pool[Math.floor(Math.random()*pool.length)];tries++}while(p.t===lastPanic&&tries<10);
+  lastPanic=p.t;$("#panicLine").textContent="“"+p.t+"”";$("#panicTip").textContent="Delivery: "+p.tip;$("#panicHear").hidden=!canSpeak;
+  return p.t;
+}
+function openPanic(){$("#panicSheet").hidden=false;speak(panicLine());$("#panicAgain").focus()}
+function closePanic(){$("#panicSheet").hidden=true;$("#panicBtn").focus()}
+
+/* ---------- Tabs and setup ---------- */
+const TABS=["script","pub","cover","phrases","drill","pocket"];
+const RENDER={script:renderScript,pub:renderPub,cover:renderCover,phrases:renderPhrases,drill:renderDrill,pocket:renderPocket};
+function show(tab){
+  if(!TABS.includes(tab))tab="script";
+  S.tab=tab;
+  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===tab)));
+  TABS.forEach(t=>{$("#tab-"+t).hidden=t!==tab});
+  RENDER[tab]();
+}
+function refresh(){RENDER[S.tab]()}
+function go(tab){try{if(location.hash.slice(1)!==tab)history.replaceState(null,"","#"+tab)}catch(e){}show(tab);const h=$(".head").offsetHeight;if(window.scrollY>h)window.scrollTo(0,h)}
+async function loadAndRender(force){
+  refresh();
+  await ensureGame(force);
+  refresh();
+}
+
+document.addEventListener("click",e=>{
+  const t=e.target.closest("button,a");if(!t)return;
+  const d=t.dataset;
+  if(d.say!=null){speak(d.say);return}
+  if(d.copy!=null){copy(d.copy);return}
+  if(d.save!=null){const i=S.saved.findIndex(x=>x.sp===S.sport&&x.t===d.save);if(i>=0)S.saved.splice(i,1);else S.saved.push({sp:S.sport,t:d.save});store.set("saved",S.saved);const on=i<0;t.setAttribute("aria-pressed",String(on));t.textContent=on?"Saved":"Save";toast(on?"Saved to your pocket card":"Removed");return}
+  if(d.tab){go(d.tab);return}
+  if(d.go){go(d.go);return}
+  if(d.lg){S.leagues[S.sport]=d.lg;store.set("leagues",S.leagues);S.game=null;loadAndRender();return}
+  if(d.game){const entry=DATA.cache[currentLg()];const g=entry&&entry.games.find(x=>x.id===d.game);if(g){selectGame(g);renderScript();if(window.innerWidth<940){const b=$("#brief");if(b)b.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})}}return}
+  if(d.side!=null){S.side=d.side||null;pub=null;drill=null;renderScript();return}
+  if(d.pubmode){newPub(d.pubmode);renderPub();return}
+  if(d.opt!=null){answerPub(+d.opt);return}
+  if(d.drill){newDrill(d.drill);if(S.tab!=="drill")go("drill");else renderDrill();return}
+  switch(t.id){
+    case "ttRefresh":S.game=null;loadAndRender(true);break;
+    case "goLive":DATA.liveAllowed=true;DATA.liveFailed=false;DATA.cache={};S.game=null;loadAndRender(true);break;
+    case "pubNext":nextPub(false);break;
+    case "pubLeave":nextPub(true);break;
+    case "pubAgain":newPub(pub.mode);renderPub();break;
+    case "drillReveal":drill.shown=true;renderDrill();break;
+    case "drillGot":drill.got++;drill.i++;drill.shown=false;renderDrill();break;
+    case "drillAgain":drill.again++;drill.deck.push(drill.deck[drill.i]);drill.i++;drill.shown=false;renderDrill();break;
+    case "drillRestart":newDrill(drill.kind);renderDrill();break;
+    case "coverFill":{const sug=coverSuggest(),c=Object.assign({},S.covers[S.sport]||{});let n=0;for(const [k] of COVER_FIELDS)if(!String(c[k]||"").trim()&&sug[k]){c[k]=sug[k];n++}S.covers[S.sport]=c;store.set("covers",S.covers);pub=null;drill=null;renderCover();toast(n?"Filled "+n+" field"+(n>1?"s":"")+" from the team guide":"Nothing to fill");break}
+    case "pocketCopy":copy(pocketText());break;
+    case "pocketClear":S.saved=S.saved.filter(x=>x.sp!==S.sport);store.set("saved",S.saved);renderPocket();break;
+    case "panicBtn":openPanic();break;
+    case "panicAgain":speak(panicLine());break;
+    case "panicHear":speak($("#panicLine").textContent.replace(/[“”]/g,""));break;
+    case "panicClose":closePanic();break;
+  }
+});
+document.addEventListener("change",e=>{
+  if(e.target.id==="driverSel"){S.driver=e.target.value;pub=null;drill=null;renderScript()}
+});
+document.addEventListener("input",e=>{
+  const el=e.target;
+  if(el.dataset&&el.dataset.cover){const c=Object.assign({},S.covers[S.sport]||{});c[el.dataset.cover]=el.value;S.covers[S.sport]=c;store.set("covers",S.covers);const s=$("#coverStrength");if(s)s.innerHTML=strengthHTML();pub=null;drill=null}
+  if(el.id==="cv-team"||el.id==="team"){S.teams[S.sport]=el.value;store.set("teams",S.teams);if(el.id==="cv-team")$("#team").value=el.value;pub=null;drill=null;clearTimeout(window.teamT);window.teamT=setTimeout(()=>{const entry=DATA.cache[currentLg()];if(entry&&el.id==="team"){selectGame(chooseGame(entry.games))}if(S.tab==="cover")updateCoverHints();else refresh()},400)}
+});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#panicSheet").hidden)closePanic()});
+$("#panicSheet").addEventListener("click",e=>{if(e.target.id==="panicSheet")closePanic()});
+
+const sel=$("#sport");
+sel.innerHTML=Object.entries(SPORTS).map(([k,s])=>`<option value="${k}">${esc(s.label)}</option>`).join("");
+sel.value=S.sport;
+$("#team").value=S.teams[S.sport]||"";$("#team").placeholder=SPORTS[S.sport].team;
+function fillTeamList(){$("#teamList").innerHTML=lingoPool(S.sport).map(t=>`<option value="${esc(t.team)}"></option>`).join("")}
+fillTeamList();
+sel.addEventListener("change",()=>{S.sport=sel.value;store.set("sport",S.sport);$("#team").value=S.teams[S.sport]||"";$("#team").placeholder=SPORTS[S.sport].team;fillTeamList();S.game=null;pub=null;drill=null;loadAndRender()});
+if(canSpeak){$("#voiceWrap").hidden=false;try{speechSynthesis.getVoices()}catch(e){}}
+$("#deep").checked=store.get("deep",true);
+$("#deep").addEventListener("change",e=>store.set("deep",e.target.checked));
+window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
+show(location.hash.slice(1));
+loadAndRender();
+</script>

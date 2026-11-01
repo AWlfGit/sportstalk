@@ -1,0 +1,806 @@
+{
+  "terms": [
+    {
+      "term": "biscuit",
+      "say": "BIS-kit",
+      "means": "The puck.",
+      "use": "Just throw the biscuit on net and see what happens.",
+      "common": true
+    },
+    {
+      "term": "apple",
+      "say": "AP-ul",
+      "means": "An assist.",
+      "use": "A goal and two apples. Not a bad night at the office.",
+      "common": true
+    },
+    {
+      "term": "celly",
+      "say": "SEL-ee",
+      "means": "A goal celebration.",
+      "use": "Did you see his celly after the winner? Like a kid on Christmas morning.",
+      "common": true
+    },
+    {
+      "term": "chirp",
+      "say": "CHURP",
+      "means": "Trash talk aimed at the other team, their bench or the refs. Usually playful.",
+      "use": "Their bench was chirping the ref the whole third period.",
+      "common": true
+    },
+    {
+      "term": "barn burner",
+      "say": "BARN bur-ner",
+      "means": "A fast, exciting, high-scoring game that goes back and forth.",
+      "use": "That was a barn burner. I didn't sit down for the whole third.",
+      "common": true
+    },
+    {
+      "term": "barn",
+      "say": "BARN",
+      "means": "The arena or rink.",
+      "use": "The barn was rocking when they tied it up.",
+      "common": true
+    },
+    {
+      "term": "sieve",
+      "say": "SIV",
+      "means": "A goalie who's letting everything in. It's a chirp.",
+      "use": "Their goalie was a sieve tonight. Everything was going in.",
+      "common": true
+    },
+    {
+      "term": "bar down",
+      "say": "bar DOWN",
+      "means": "A shot that hits the underside of the crossbar and drops into the net.",
+      "use": "Bar down from the top of the circle. You could hear the ping from the nosebleeds.",
+      "common": true
+    },
+    {
+      "term": "top shelf",
+      "say": "top SHELF",
+      "means": "The top of the net, just under the crossbar. People also say 'top cheese'.",
+      "use": "He went top shelf, glove side. Goalie never had a chance.",
+      "common": true
+    },
+    {
+      "term": "five-hole",
+      "say": "FIVE-hole",
+      "means": "The gap between the goalie's legs.",
+      "use": "Slid it right through the five-hole. He'll want that one back.",
+      "common": true
+    },
+    {
+      "term": "deke",
+      "say": "DEEK",
+      "means": "A fake that sends a defender or the goalie the wrong way. A Canadian word.",
+      "use": "He deked the defenceman and tucked it in on the backhand.",
+      "common": true
+    },
+    {
+      "term": "dangle",
+      "say": "DANG-gul",
+      "means": "Slick stickhandling to get around a defender.",
+      "use": "Nice little dangle through two guys before he even got to the net.",
+      "common": true
+    },
+    {
+      "term": "snipe",
+      "say": "SNYPE",
+      "means": "A quick, accurate shot that beats the goalie clean.",
+      "use": "Pure snipe from the slot. Picked the corner.",
+      "common": true
+    },
+    {
+      "term": "one-timer",
+      "say": "WUN-ty-mer",
+      "means": "Shooting the puck straight off a pass without stopping it first.",
+      "use": "They keep setting up that one-timer on the power play and it keeps working.",
+      "common": true
+    },
+    {
+      "term": "gongshow",
+      "say": "GONG-shoh",
+      "means": "A game or situation that's gone completely chaotic.",
+      "use": "The third period turned into a total gongshow. Penalties, scrums, the works.",
+      "common": true
+    },
+    {
+      "term": "tilly",
+      "say": "TIL-ee",
+      "means": "A fight. Also called a scrap or a tilt.",
+      "use": "Decent tilly in the second. Both guys held their own.",
+      "common": false
+    },
+    {
+      "term": "drop the mitts",
+      "say": "drop the MITS",
+      "means": "Take your gloves off to fight. Also 'drop the gloves'.",
+      "use": "First shift and the two big guys dropped the mitts.",
+      "common": true
+    },
+    {
+      "term": "sin bin",
+      "say": "SIN bin",
+      "means": "The penalty box. Most fans just say 'the box'.",
+      "use": "He spent half the night in the sin bin.",
+      "common": false
+    },
+    {
+      "term": "power play",
+      "say": "POW-er play",
+      "means": "When the other team has someone in the box and you've got an extra skater. Often 'the PP'.",
+      "use": "Power play went oh-for-five. That's the game right there.",
+      "common": true
+    },
+    {
+      "term": "penalty kill",
+      "say": "PEN-ul-tee kil",
+      "means": "Defending while you're a player short. Usually 'the PK'.",
+      "use": "The PK bailed them out. Killed off a five-on-three.",
+      "common": true
+    },
+    {
+      "term": "empty-netter",
+      "say": "EMP-tee net-er",
+      "means": "A goal into a net with no goalie in it, usually in the last minute or two.",
+      "use": "The empty-netter sealed it, but it was closer than the score says.",
+      "common": true
+    },
+    {
+      "term": "pull the goalie",
+      "say": "pul the GOH-lee",
+      "means": "Take the goalie off for an extra skater, usually when you're behind late.",
+      "use": "They pulled the goalie with two minutes left and nearly tied it.",
+      "common": true
+    },
+    {
+      "term": "stand on his head",
+      "say": "stand on his HED",
+      "means": "When a goalie plays out of his mind and makes save after save.",
+      "use": "Their goalie stood on his head. We outshot them two-to-one and still lost.",
+      "common": true
+    },
+    {
+      "term": "puck luck",
+      "say": "PUK luk",
+      "means": "Lucky or unlucky bounces.",
+      "use": "Zero puck luck tonight. Three posts and nothing to show for it.",
+      "common": true
+    },
+    {
+      "term": "greasy goal",
+      "say": "GREE-see gohl",
+      "means": "An ugly, scrappy goal scored in traffic around the net.",
+      "use": "Not pretty, just a greasy one off a scramble in front, but they all count.",
+      "common": true
+    },
+    {
+      "term": "soft goal",
+      "say": "SOFT gohl",
+      "means": "An easy shot the goalie should have stopped.",
+      "use": "That's a soft goal. He's gotta have that one.",
+      "common": true
+    },
+    {
+      "term": "hatty",
+      "say": "HAT-ee",
+      "means": "A hat trick: one player scoring three goals in a game.",
+      "use": "He had a hatty by the second period. Hats all over the ice.",
+      "common": true
+    },
+    {
+      "term": "pylon",
+      "say": "PY-lon",
+      "means": "A slow defender who's easy to skate around. It's a chirp.",
+      "use": "Their D looked like pylons on that rush.",
+      "common": true
+    },
+    {
+      "term": "grinder",
+      "say": "GRYN-der",
+      "means": "A hard-working, physical depth player who's valued for effort more than goals.",
+      "use": "The grinders on the fourth line won that one. Finished every check.",
+      "common": true
+    },
+    {
+      "term": "beauty",
+      "say": "BYOO-tee",
+      "means": "Praise for a great teammate, or for anything excellent. Can be said on its own: 'Beauty!'",
+      "use": "He's a beauty. Works his tail off and everybody in the room loves him.",
+      "common": true
+    },
+    {
+      "term": "bender",
+      "say": "BEN-der",
+      "means": "A weak skater whose ankles bend in. A chirp for a bad player.",
+      "use": "I'm a total bender in beer league, but I show up every week.",
+      "common": false
+    },
+    {
+      "term": "tendy",
+      "say": "TEN-dee",
+      "means": "The goalie.",
+      "use": "Our tendy kept us in it all night.",
+      "common": false
+    },
+    {
+      "term": "beer league",
+      "say": "BEER leeg",
+      "means": "Adult recreational hockey, usually followed by a few drinks.",
+      "use": "I've got beer league at eleven-fifteen, so I'm recording the third.",
+      "common": true
+    },
+    {
+      "term": "shinny",
+      "say": "SHIN-ee",
+      "means": "Casual pickup hockey, usually outdoors, with no refs and no set teams.",
+      "use": "We'd play shinny on the outdoor rink till we couldn't feel our toes.",
+      "common": true
+    },
+    {
+      "term": "rink rat",
+      "say": "RINK rat",
+      "means": "Someone, usually a kid, who practically lives at the arena.",
+      "use": "I was a rink rat growing up. I'd sweep the stands for free ice time.",
+      "common": false
+    }
+  ],
+  "phrases": {
+    "open": [
+      {
+        "t": "You catch {team} game?",
+        "m": "The safest opener there is. Let him tell you how he feels before you commit to anything."
+      },
+      {
+        "t": "So what'd you make of {team}?",
+        "m": "Open-ended. Works after a win, a loss or a weird one."
+      },
+      {
+        "t": "How 'bout {team}, eh?",
+        "m": "Works either way, because your tone does the work. Use your one 'eh' here."
+      },
+      {
+        "t": "You still watching {team} or did you give up on them?",
+        "m": "A light chirp that fits a slump or a hot streak. He'll set you straight either way."
+      },
+      {
+        "t": "I only caught the highlights. How'd they look?",
+        "m": "An honest cover if you missed the game. It gets him doing the talking."
+      },
+      {
+        "t": "You playing beer league this year?",
+        "m": "An off-ice opener for the rink, the office or the bar."
+      },
+      {
+        "t": "Were you up for the end of that one?",
+        "m": "Good after a late game. He'll fill you in on how it finished."
+      }
+    ],
+    "opinion": [
+      {
+        "t": "They've gotta get more pucks on net. Too many pretty passes.",
+        "m": "The all-purpose complaint. Almost always true and never controversial."
+      },
+      {
+        "t": "Honestly, it always comes down to goaltending.",
+        "m": "A safe take after any result, whether the goalie was great or awful."
+      },
+      {
+        "t": "Special teams win games. Simple as that.",
+        "m": "Points at the power play and penalty kill without needing any details."
+      },
+      {
+        "t": "You need a full sixty out of these guys, not forty.",
+        "m": "A complaint about effort that comes and goes. Fits wins and losses."
+      },
+      {
+        "t": "I like what the fourth line brings. They finish every check.",
+        "m": "Praising the grinders is hard to argue with."
+      },
+      {
+        "t": "They've gotta stay out of the box. Can't keep taking lazy penalties.",
+        "m": "Fits almost any game where they took a few penalties."
+      },
+      {
+        "t": "I'm not panicking yet. It's a long season.",
+        "m": "A calm take for a rough patch during the regular season."
+      }
+    ],
+    "agree": [
+      {
+        "t": "Oh, for sure.",
+        "m": "All-purpose agreement. Keeps him going."
+      },
+      {
+        "t": "Bang on.",
+        "m": "He's exactly right."
+      },
+      {
+        "t": "Hundred percent.",
+        "m": "Strong agreement without adding anything you'd have to back up."
+      },
+      {
+        "t": "That's what I'm saying.",
+        "m": "Act like you were thinking it too."
+      },
+      {
+        "t": "Can't argue with that.",
+        "m": "Polite agreement that lets him carry on."
+      },
+      {
+        "t": "You're not wrong.",
+        "m": "Agreeing with a hint of 'unfortunately'. Good after a loss."
+      },
+      {
+        "t": "Tell me about it.",
+        "m": "Shared pain. Works after a frustrating game."
+      }
+    ],
+    "dodge": [
+      {
+        "t": "I only caught the third. What happened early on?",
+        "m": "Admit you saw part of it and hand him the floor."
+      },
+      {
+        "t": "I'll leave the line combos to the guys getting paid for it.",
+        "m": "Sidesteps questions about who should play with who."
+      },
+      {
+        "t": "Depends which team shows up, right?",
+        "m": "Dodges any prediction about the next game."
+      },
+      {
+        "t": "You'd know better than me. What do you think?",
+        "m": "Flatter him and bounce the question back."
+      },
+      {
+        "t": "I stopped looking at the standings. Bad for my blood pressure.",
+        "m": "Gets you out of playoff-race math."
+      },
+      {
+        "t": "Ask me after the next game. I've been burned before.",
+        "m": "A joking way out of 'are they for real?' questions."
+      }
+    ],
+    "telly": [
+      {
+        "t": "Shoot! Just shoot it!",
+        "m": "When they keep passing it around on the power play instead of shooting."
+      },
+      {
+        "t": "Get it out! Just get it out!",
+        "m": "When your team can't clear its own zone."
+      },
+      {
+        "t": "Come on, ref, he's hooking him!",
+        "m": "When the other team gets away with one."
+      },
+      {
+        "t": "Oh, that's a dive!",
+        "m": "When an opponent goes down too easily to draw a penalty."
+      },
+      {
+        "t": "Change! Get off the ice!",
+        "m": "When your guys are stuck out there on a long, tired shift."
+      },
+      {
+        "t": "Finish your check!",
+        "m": "When your team is being too soft along the boards."
+      },
+      {
+        "t": "Pull the goalie!",
+        "m": "Late in the third when you're down by one or two."
+      },
+      {
+        "t": "How is that not offside?",
+        "m": "After a goal against that looked close at the blue line."
+      }
+    ],
+    "exit": [
+      {
+        "t": "Anyway, I gotta run. Catch you next game.",
+        "m": "Simple, friendly exit."
+      },
+      {
+        "t": "Well, there's always next game. Good talking, bud.",
+        "m": "Works after a loss and ends on an upbeat note."
+      },
+      {
+        "t": "I'm gonna grab a refill. Talk to you after the period.",
+        "m": "Bar exit during intermission or between periods."
+      },
+      {
+        "t": "Early one tomorrow, so I'm out. Let's pick this up next game.",
+        "m": "Polite exit that promises a rematch."
+      },
+      {
+        "t": "Alright, I'll let you get back to it. Go {team}.",
+        "m": "Clean wrap-up that ends on team loyalty."
+      },
+      {
+        "t": "Long season. We'll see. Take it easy.",
+        "m": "A noncommittal sign-off that fits any result."
+      }
+    ]
+  },
+  "exchanges": {
+    "win": {
+      "open": "Nice to see {team} get one {when}.",
+      "them": "Yeah, they actually played a full sixty for once.",
+      "back": "Goalie made the saves he had to, and they kept getting pucks to the net. That's all you can ask.",
+      "agree": "Bang on. Keep that up and they'll be fine.",
+      "exit": "Let's see if they can string a few together. Catch you later."
+    },
+    "bigWin": {
+      "open": "Did you see that? {score} {when}, and {team} were flying.",
+      "them": "Total beatdown. You could see {opp} pack it in after the second.",
+      "back": "And everybody chipped in. Even the fourth line was getting chances.",
+      "agree": "Yeah, that was a fun one to watch.",
+      "exit": "Enjoy it while it lasts, right? See ya."
+    },
+    "narrowWin": {
+      "open": "Hung on for a {score} win {when}. That was a nail-biter.",
+      "them": "Tell me about it. I was yelling at the TV the whole last five minutes.",
+      "back": "Ugly, but they got it done. A win's a win.",
+      "agree": "Exactly. Bank it and move on.",
+      "exit": "My heart can't take many more of those. Talk to you after the next one."
+    },
+    "loss": {
+      "open": "Rough one {when}.",
+      "them": "Don't remind me. They just didn't show up.",
+      "back": "Felt like they were a step behind all night. Way too many turnovers in their own end.",
+      "agree": "Yeah, you can't give {opp} that many chances.",
+      "exit": "Shake it off and get 'em next game, I guess. Talk later."
+    },
+    "bigLoss": {
+      "open": "So... {score}. You make it to the end of that one?",
+      "them": "Turned it off after the second. Brutal.",
+      "back": "Nobody showed up. Goalie got hung out to dry, too. That's not all on him.",
+      "agree": "No, that's fair. The whole team was bad.",
+      "exit": "Best thing to do is pretend that one never happened. See ya, bud."
+    },
+    "otWin": {
+      "open": "Overtime winner {when}! Did you stay up for it?",
+      "them": "Oh yeah, I came right off the couch when it went in.",
+      "back": "Could've gone either way, so it's nice to be on the right side of one for a change.",
+      "agree": "Hundred percent. We've lost enough of those.",
+      "exit": "Sudden death is bad for my health. Catch you later."
+    },
+    "otLoss": {
+      "open": "Brutal way to lose {when}. Overtime's so cruel.",
+      "them": "So close. We had a great chance and their goalie robbed us.",
+      "back": "Hard to be too mad. They did enough to get it to overtime, just didn't get the bounce.",
+      "agree": "Yeah, that's overtime. Total coin flip.",
+      "exit": "Take the positives and move on. See you next game."
+    },
+    "soWin": {
+      "open": "Took a shootout {when}, but we'll take it.",
+      "them": "Ha, I can't even watch shootouts. Had my hands over my eyes.",
+      "back": "Goalie came up big when it counted, though. And somebody finally buried one.",
+      "agree": "Yep. Two points is two points.",
+      "exit": "Not how I'd draw it up, but I'll take it. Later."
+    },
+    "soLoss": {
+      "open": "Lost it in the shootout {when}. Such a weird way to decide a game.",
+      "them": "I hate the shootout. Just keep playing overtime.",
+      "back": "At least we got the point out of it. You take what you can get.",
+      "agree": "Yeah, a point's a point.",
+      "exit": "Next time just win it in regulation and spare us. See ya."
+    },
+    "comeback": {
+      "open": "How 'bout that comeback {when}? I had them written off.",
+      "them": "Me too. I almost changed the channel.",
+      "back": "They just kept coming. Started getting pucks deep, outworked them, and it all turned.",
+      "agree": "That's the kind of win that brings a room together.",
+      "exit": "Gotta build off that one. Catch you next game."
+    },
+    "blewLead": {
+      "open": "How'd they blow that one {when}? They had it.",
+      "them": "Classic. Sat back and tried to protect the lead.",
+      "back": "Stopped skating and started hoping. You can't sit back against {opp}. They'll make you pay.",
+      "agree": "Exactly. Play to win, not to not lose.",
+      "exit": "I need a day to get over that one. Talk later."
+    },
+    "shutoutWin": {
+      "open": "A {score} shutout {when}! The goalie was a wall.",
+      "them": "He was dialled in. Made a couple of huge saves early, too.",
+      "back": "And the guys in front of him blocked a ton of shots. Whole team bought in.",
+      "agree": "For sure. That's how you win games.",
+      "exit": "Hope that carries over. Catch you later."
+    },
+    "shutoutLoss": {
+      "open": "Not even one goal {when}. Couldn't buy one.",
+      "them": "Their goalie was good, but we didn't make it hard on him.",
+      "back": "No traffic in front. Every shot came from the outside and he saw all of them.",
+      "agree": "That's it. Gotta crash the net.",
+      "exit": "They'll bounce back. Hopefully. See ya."
+    },
+    "hotGoalieLoss": {
+      "open": "Their goalie stole that one {when}.",
+      "them": "Unreal. He stopped just about everything we threw at him.",
+      "back": "Honestly, play like that most nights and we win. Just ran into a hot goalie.",
+      "agree": "Yeah, nothing you can do some nights.",
+      "exit": "Tip your cap and move on. Catch you later."
+    },
+    "hatTrickWin": {
+      "open": "Did you see {player} get the hatty {when}?",
+      "them": "Oh yeah. Every time he touched the puck, something happened.",
+      "back": "Third one was a beauty, too. Nice to see him get rewarded.",
+      "agree": "Nights like that, you just get him the puck.",
+      "exit": "Hope he keeps it rolling. Talk to you later."
+    },
+    "rivalWin": {
+      "open": "Beating {opp} {when}. That's the best kind of win.",
+      "them": "Ha, I've been chirping my buddy all morning. He cheers for them.",
+      "back": "Nothing better. Those games always feel bigger. The building's different.",
+      "agree": "Oh, for sure. Bragging rights.",
+      "exit": "Gonna go find someone else to chirp. Catch you later."
+    },
+    "rivalLoss": {
+      "open": "Losing to {opp} {when}? That one stings.",
+      "them": "Ugh. I'm never gonna hear the end of it at work.",
+      "back": "We'll get 'em next time. I've already got the next one circled.",
+      "agree": "They'd better be ready for that one.",
+      "exit": "Gonna lay low for a few days. Talk later."
+    }
+  },
+  "pub": [
+    {
+      "say": "Can you believe that call in the third? Brutal.",
+      "o": [
+        [
+          "Was that the one where he got the yellow card?",
+          -2,
+          "Hockey has penalties and the box, not yellow cards. That's soccer."
+        ],
+        [
+          "Brutal. Refs were bad both ways all night.",
+          2,
+          "Agree and blame the refs. The safest move at the bar."
+        ],
+        [
+          "By the letter of the rulebook, I'd say the interpretation was defensible.",
+          -1,
+          "Nobody defends the ref with rulebook citations over a beer."
+        ]
+      ]
+    },
+    {
+      "say": "Their goalie was standing on his head tonight.",
+      "o": [
+        [
+          "Yeah, he stole that one. Nothing you can do some nights.",
+          2,
+          "Credit the hot goalie and move on. Exactly right."
+        ],
+        [
+          "His save percentage was well above his season average.",
+          -1,
+          "Probably true, but it sounds like you're reading a stat sheet."
+        ],
+        [
+          "Really? I thought he stayed on his skates.",
+          -2,
+          "Taking the phrase literally is an instant giveaway."
+        ]
+      ]
+    },
+    {
+      "say": "What a barn burner, eh?",
+      "o": [
+        [
+          "The combined goal total was way above league average.",
+          -1,
+          "Right idea, but far too analytical for a pint."
+        ],
+        [
+          "A barn? Was there a fire?",
+          -2,
+          "A barn burner is a high-scoring, back-and-forth game, not a fire."
+        ],
+        [
+          "Unreal. I barely sat down in the third.",
+          2,
+          "Matches the energy of a wild, high-scoring game."
+        ]
+      ]
+    },
+    {
+      "say": "You playing beer league this year?",
+      "o": [
+        [
+          "Is that like a brewing club?",
+          -2,
+          "Beer league is adult rec hockey. Any rink regular knows that."
+        ],
+        [
+          "Thinking about it, if somebody'll take a bender like me.",
+          2,
+          "Chirping yourself goes over well at any rink."
+        ],
+        [
+          "I'm assessing my weekly schedule against ice-time availability.",
+          -1,
+          "Sounds like a work email, not a guy at the bar."
+        ]
+      ]
+    },
+    {
+      "say": "Power play was useless again.",
+      "o": [
+        [
+          "Totally. They pass it around the outside and never shoot.",
+          2,
+          "The classic power-play complaint, and usually true."
+        ],
+        [
+          "Who's the power player?",
+          -2,
+          "A power play is the man advantage after a penalty, not a person."
+        ],
+        [
+          "Their conversion rate's bottom third, but shot generation is trending up.",
+          -1,
+          "Sounds smart, but way too nerdy for bar talk."
+        ]
+      ]
+    },
+    {
+      "say": "Did you see the tilly in the second?",
+      "o": [
+        [
+          "Fighting's a fascinating holdover in the modern game, sociologically.",
+          -1,
+          "Too academic. Keep it simple."
+        ],
+        [
+          "Oh yeah, both guys dropped the mitts. Fair fight.",
+          2,
+          "Uses the lingo and keeps it matter-of-fact."
+        ],
+        [
+          "Tilly? Is that a new player?",
+          -2,
+          "A tilly is a fight. Not knowing that gives you away."
+        ]
+      ]
+    },
+    {
+      "say": "Overtime's a coin flip, man.",
+      "o": [
+        [
+          "Why don't they just call it a tie?",
+          -2,
+          "NHL games haven't ended in ties since the shootout came in back in 2005."
+        ],
+        [
+          "Small sample, so the outcomes are basically random, yeah.",
+          -1,
+          "Technically fair, but it sounds rehearsed."
+        ],
+        [
+          "Totally. One bounce and you're going home.",
+          2,
+          "Agrees and keeps it casual."
+        ]
+      ]
+    },
+    {
+      "say": "They've gotta get more pucks on net.",
+      "o": [
+        [
+          "Hundred percent. Shoot it, crash the net, good things happen.",
+          2,
+          "The oldest advice in hockey. Real fans say it every game."
+        ],
+        [
+          "Shot volume does correlate with expected goals.",
+          -1,
+          "Right idea, nerdy delivery."
+        ],
+        [
+          "You mean more balls in the goal?",
+          -2,
+          "It's a puck, and it goes in the net."
+        ]
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "say": "ice hockey",
+      "instead": "hockey",
+      "why": "In Canada, hockey means the ice kind. Adding 'ice' sounds like you're visiting."
+    },
+    {
+      "say": "the ball",
+      "instead": "the puck (or the biscuit)",
+      "why": "Hockey's played with a puck. Saying 'ball' outs you right away."
+    },
+    {
+      "say": "the pitch",
+      "instead": "the ice",
+      "why": "You play on the ice, at the rink or the barn. Field, pitch and court belong to other sports."
+    },
+    {
+      "say": "half-time",
+      "instead": "intermission",
+      "why": "Hockey has three periods with an intermission after the first and second. No halves, no quarters."
+    },
+    {
+      "say": "a great match",
+      "instead": "a great game",
+      "why": "Canadians talk about the game, not the match."
+    },
+    {
+      "say": "they scored four points",
+      "instead": "they scored four goals",
+      "why": "Teams score goals. Points are for the standings, and for a player's goals plus assists."
+    },
+    {
+      "say": "so it ended in a tie?",
+      "instead": "it went to overtime (or a shootout)",
+      "why": "NHL games haven't ended in ties since the shootout came in back in 2005."
+    },
+    {
+      "say": "the keeper",
+      "instead": "the goalie",
+      "why": "Keeper is soccer talk. Hockey has goalies, or tendies."
+    },
+    {
+      "say": "he got a yellow card",
+      "instead": "he took a penalty",
+      "why": "Hockey penalties mean time in the box, not cards."
+    },
+    {
+      "say": "extra time",
+      "instead": "overtime, or OT",
+      "why": "Extra time is soccer. Hockey goes to overtime."
+    }
+  ],
+  "nerd": "If you look at the five-on-five numbers, they actually won the expected-goals battle, so that result's mostly a PDO blip. Shooting and save percentage always regress.",
+  "offq": "Who'd you rather have taking the defensive-zone draws on the penalty kill, the third-line centre or the fourth-line guy?",
+  "sources": [
+    "https://www.tsn.ca/bardown/article/bardown-hockey-terms/",
+    "https://www.readersdigest.ca/?p=80014",
+    "https://cottagelife.com/outdoors/what-the-heck-are-those-hockey-players-saying/",
+    "https://en.wikipedia.org/wiki/Glossary_of_ice_hockey_terms",
+    "https://www.dictionary.com/e/hockey-terms/",
+    "https://www.vice.com/en/article/a-beginners-guide-to-hockey-slang",
+    "https://www.espn.com/espnw/news/article/6607974/",
+    "https://ktvz.com/sports/cnn-sports/2026/02/05/apple-biscuit-and-twig-explaining-hockeys-unique-jargon-youll-hear-at-milan-cortina/",
+    "https://www.mentalfloss.com/sports/hockey/hockey-slang-terms",
+    "https://www.nbcsportsphiladelphia.com/nhl/philadelphia-flyers/pucks-deep-pucks-on-net-a-hockey-cliches-primer-for-the-2020-21-season/175245/",
+    "https://hockeyanswered.com/?p=64",
+    "https://dchp.arts.ubc.ca/entries/deke%20(n.)",
+    "https://dchp.arts.ubc.ca/entries/shinny",
+    "https://dchp.arts.ubc.ca/entries/rink%20rat",
+    "https://www.theglobeandmail.com/canada/article-dictionary-of-canadianisms-updated-words-phrases",
+    "https://en.wikipedia.org/wiki/Shinny",
+    "https://en.wikipedia.org/wiki/Beer_league",
+    "https://www.mypuck.com/blog/the-ultimate-guide-to-beer-league-hockey-in-canada",
+    "https://en.wikipedia.org/wiki/Hockey",
+    "https://www.oxfordlearnersdictionaries.com/definition/english/empty-netter",
+    "https://dictionary.com/browse/greasy-goal",
+    "https://www.si.com/nhl/nhl-overtime-rules-explained-playoffs-and-regular-season-01jnm1y8qd0e",
+    "https://www.cbc.ca/sports/hockey/nhl/mitch-marner-goal-celebration-1.3853410",
+    "https://www.cbc.ca/sports/podcasts/hnic/chirping-in-hockey-1.4979004",
+    "https://phys.org/news/2024-05-hockey-player-canadian.amp",
+    "https://www.narcity.com/youre-not-a-true-canadian-unless-you-ve-used-these-slang-words-at-least-once",
+    "https://www.contiki.com/six-two/article/canadian-slang-words/",
+    "https://awfulannouncing.com/nhl/newly-appointed-canadian-senator-blames-odious-american-commentators-for-ruining-hockey.html",
+    "https://www.wbur.org/onlyagame/2016/06/04/nhl-sweater-vs-jersey"
+  ],
+  "unsure": [
+    "terms: 'heater' (hot streak), 'snakebitten' (scoring slump) and 'where mama hides the cookies' (top shelf) only turned up in TSN's BarDown glossary, so they were left out.",
+    "avoid: 'sweater' vs 'jersey' and 'dressing room' vs 'locker room' are argued as Canadian preferences in opinion pieces and a 2018 Senate speech, but usage varies by region, so they aren't listed as giveaways.",
+    "terms: 'chirp' vs 'beak' as an east/west split came from a single fan wiki only, so it isn't mentioned.",
+    "terms: 'barn burner' is mostly defined as high-scoring and exciting, but one or two glossaries say 'close' or 'lopsided'. The high-scoring, back-and-forth sense was used.",
+    "terms: 'beauty' is defined in hockey glossaries mainly as a great teammate. Using it for a single great goal or play is backed only by general Canadian slang guides.",
+    "terms: 'hatty' means a hat trick in most sources, but one glossary gave five goals. Treated as an outlier.",
+    "terms: 'tilly' is confirmed in several glossaries, but one calls it kids' or players' slang, so it's marked niche.",
+    "terms: 'greasy' is said GREE-see or GREE-zee depending on region.",
+    "sources: sportsnet.ca was blocked and several CBC, RCI, Maclean's and Dictionary of Canadianisms pages wouldn't load (403 or connection reset). The DCHP entries for deke, shinny and rink rat and the CBC usage are based on search-result excerpts. No Hockey Canada slang glossary was found."
+  ]
+}

@@ -16,9 +16,15 @@ Live page: https://awlfgit.github.io/sportstalk/
 - `src/serve.js`: a small local preview server
 - `research/out/*.json`: the team guides, one file per league group. Edit these to change
   nicknames, fan terms, rivals, sayings and giveaways.
+- `research/hockey-canada.json`, `research/football-uk.json`, `research/football-nfl.json`:
+  talk packs for hockey, football (soccer) and American football. Each holds sport-wide slang,
+  phrase-book lines, pub-test rounds, outsider giveaways, and a five-beat exchange for each
+  kind of result (an overtime win, a late winner, a shutout and so on). The script picks the
+  exchange that matches the game and fills in `{team}`, `{opp}`, `{player}`, `{score}` and
+  `{when}`; if a slot can't be filled, it uses the built-in line instead.
 - `research/BRIEF.md`: the rules the team guides were researched to (format, accuracy, no
   lyrics, nothing offensive)
-- `research/audit.js`: checks the team guides against those rules
+- `research/audit.js`: checks the team guides and talk packs against those rules
 - `research/get-teams.js` and `research/teams/`: ESPN's team lists, used when researching
 - `.github/workflows/refresh.yml`: rebuilds and publishes the page twice a day
 
@@ -57,7 +63,8 @@ Push to `main` and the live page rebuilds and republishes within a few minutes.
 
 ## Changing the team guides
 
-1. Edit the team in `research/out/<group>.json`, following `research/BRIEF.md`.
+1. Edit the team in `research/out/<group>.json`, following `research/BRIEF.md`, or the
+   sport-wide talk in one of the talk-pack files.
 2. Run `node research/audit.js` and review anything it flags.
 3. To drop a line without editing the research, add a phrase from it to
    `research/blocked.json` (a JSON list of strings). The build skips any text containing it.

@@ -56,6 +56,42 @@ function loadLingo() {
   return out;
 }
 
+// Talk packs: researched slang, phrases, pub-test rounds and five-beat exchanges for a sport.
+// Each file in research/ maps to a sport key in the page; missing files are simply skipped.
+const TALK_FILES = { nhl: "hockey-canada.json", football: "football-uk.json", nfl: "football-nfl.json" };
+function loadTalk() {
+  const str = (v) => (typeof v === "string" ? v.trim() : "");
+  const arr = (v) => (Array.isArray(v) ? v : []);
+  let blocked = [];
+  try { blocked = JSON.parse(fs.readFileSync(path.join(root, "research", "blocked.json"), "utf8")); } catch (e) { /* none */ }
+  const ok = (text) => !blocked.some((b) => String(text).toLowerCase().includes(String(b).toLowerCase()));
+  const out = {};
+  for (const [sport, file] of Object.entries(TALK_FILES)) {
+    const p = path.join(root, "research", file);
+    if (!fs.existsSync(p)) continue;
+    let d;
+    try { d = JSON.parse(fs.readFileSync(p, "utf8")); } catch (e) { console.warn("Skipping", file, "-", e.message); continue; }
+    const P = { terms: [], phrases: {}, exchanges: {}, pub: [], avoid: [], nerd: "", offq: "" };
+    P.terms = arr(d.terms).map((x) => ({ term: str(x && x.term), say: str(x && x.say), means: str(x && x.means), use: str(x && x.use) }))
+      .filter((x) => x.term && x.means && ok(x.term + " " + x.means + " " + x.use));
+    for (const k of ["open", "opinion", "agree", "dodge", "telly", "exit"]) {
+      P.phrases[k] = arr(d.phrases && d.phrases[k]).map((x) => ({ t: str(x && x.t), m: str(x && x.m) })).filter((x) => x.t && ok(x.t + " " + x.m));
+    }
+    for (const [k, v] of Object.entries(d.exchanges || {})) {
+      const e = {};
+      for (const b of ["open", "them", "back", "agree", "exit"]) if (str(v && v[b]) && ok(v[b])) e[b] = str(v[b]);
+      if (Object.keys(e).length) P.exchanges[k] = e;
+    }
+    P.pub = arr(d.pub).map((r) => ({ say: str(r && r.say), o: arr(r && r.o).filter((o) => Array.isArray(o) && str(o[0]) && [2, 1, 0, -1, -2].includes(+o[1])).map((o) => [str(o[0]), +o[1], str(o[2])]) }))
+      .filter((r) => r.say && r.o.length === 3 && r.o.some((o) => o[1] === 2) && ok(r.say + " " + r.o.map((o) => o[0]).join(" ")));
+    P.avoid = arr(d.avoid).map((x) => ({ say: str(x && x.say), instead: str(x && x.instead), why: str(x && x.why) })).filter((x) => x.say && x.instead && ok(x.say + " " + x.why));
+    if (ok(str(d.nerd))) P.nerd = str(d.nerd);
+    if (ok(str(d.offq))) P.offq = str(d.offq);
+    out[sport] = P;
+  }
+  return out;
+}
+
 (async () => {
   const now = new Date();
   const snap = { taken: now.toISOString(), leagues: {}, tables: {} };
@@ -80,7 +116,9 @@ function loadLingo() {
   const json = safe(snap);
   const lingo = loadLingo();
   if (fs.existsSync(path.join(root, "research", "out"))) fs.writeFileSync(path.join(__dirname, "lingo.json"), JSON.stringify(lingo, null, 1));
-  const page = src.replace("__SNAPSHOT__", () => json).replace("__LINGO__", () => safe(lingo));
+  const talk = loadTalk();
+  console.log("Talk packs:", Object.keys(talk).map((k) => k + " (" + Object.keys(talk[k].exchanges).length + " exchanges, " + talk[k].terms.length + " terms)").join(", ") || "none");
+  const page = src.replace("__SNAPSHOT__", () => json).replace("__LINGO__", () => safe(lingo)).replace("__TALK__", () => safe(talk));
   console.log("Team guides:", lingo.length, "teams,", (safe(lingo).length / 1024).toFixed(0), "KB");
   const siteOnly = process.argv.includes("--site-only");
   if (!siteOnly) fs.writeFileSync(path.join(__dirname, "artifact.html"), page);

@@ -39,5 +39,33 @@ for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort()) {
     if ((t.unsure || []).length) issues.push(`UNSURE     ${where}: ${t.unsure.join("; ")}`);
   }
 }
-console.log(teams, "teams checked,", issues.length, "items to review");
+// Talk packs (sport-wide slang, phrases, pub-test rounds and five-beat exchanges)
+const SWEAR = /\b(fuck\w*|shit\w*|cunts?|twats?|wank\w*|bastards?|pricks?|dickheads?|bitch\w*|assholes?|arseholes?|goddamn\w*)\b/i;
+const PLACEHOLDER = /\{(\w+)\}/g, KNOWN = new Set(["team", "opp", "player", "score", "when"]);
+let packs = 0;
+for (const f of ["hockey-canada.json", "football-uk.json", "football-nfl.json"]) {
+  const p = path.join(__dirname, f);
+  if (!fs.existsSync(p)) continue;
+  packs++;
+  const d = JSON.parse(fs.readFileSync(p, "utf8"));
+  const texts = [];
+  for (const x of d.terms || []) texts.push(["term " + x.term, x.term + " | " + x.means + " | " + (x.use || "")]);
+  for (const [k, list] of Object.entries(d.phrases || {})) for (const x of list || []) texts.push(["phrase " + k, x.t + " | " + (x.m || "")]);
+  for (const [k, e] of Object.entries(d.exchanges || {})) for (const [b, t] of Object.entries(e || {})) texts.push(["exchange " + k + "." + b, t]);
+  for (const r of d.pub || []) texts.push(["pub", r.say + " | " + (r.o || []).map((o) => o[0] + " (" + o[2] + ")").join(" | ")]);
+  for (const x of d.avoid || []) texts.push(["avoid", x.say + " -> " + x.instead + " (" + x.why + ")"]);
+  texts.push(["nerd", d.nerd || ""], ["offq", d.offq || ""]);
+  for (const [field, text] of texts) {
+    if (!text) continue;
+    const where = `${f.replace(".json", "")} [${field}]`;
+    if (OFFENSIVE.test(text)) issues.push(`OFFENSIVE? ${where} ${text}`);
+    if (SWEAR.test(text)) issues.push(`SWEARING?  ${where} ${text}`);
+    if (TRAGEDY.test(text)) issues.push(`TRAGEDY?   ${where} ${text}`);
+    if (/\n|♪|\s\/\s/.test(text) || LONGQUOTE.test(text)) issues.push(`LYRIC?     ${where} ${text}`);
+    if (SONGISH.test(text) && /^(phrase|exchange)/.test(field)) issues.push(`SONG?      ${where} ${text}`);
+    for (const m of String(text).matchAll(PLACEHOLDER)) if (!KNOWN.has(m[1])) issues.push(`BAD SLOT   ${where} {${m[1]}} in: ${text}`);
+  }
+  for (const r of d.pub || []) if (!(r.o || []).some((o) => +o[1] === 2)) issues.push(`PUB ROUND  ${f} has no best answer: ${r.say}`);
+}
+console.log(teams, "teams and", packs, "talk packs checked,", issues.length, "items to review");
 for (const i of issues) console.log(i);

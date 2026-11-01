@@ -1,0 +1,829 @@
+{
+  "terms": [
+    {
+      "term": "nil",
+      "say": "NIL",
+      "means": "Zero, when giving a football score. 2-0 is said 'two-nil'.",
+      "use": "Two-nil, and honestly it should've been more.",
+      "common": true
+    },
+    {
+      "term": "clean sheet",
+      "say": "kleen SHEET",
+      "means": "A game where your side doesn't let in a goal.",
+      "use": "Scrappy, but we kept a clean sheet, so I'm happy.",
+      "common": true
+    },
+    {
+      "term": "hat-trick",
+      "say": "HAT-trik",
+      "means": "Three goals by the same player in one match. He gets to keep the match ball.",
+      "use": "First hat-trick I've seen live in years.",
+      "common": true
+    },
+    {
+      "term": "brace",
+      "say": "BRAYSS",
+      "means": "Two goals by the same player in one match.",
+      "use": "Bagged a brace and he's not even our main striker.",
+      "common": true
+    },
+    {
+      "term": "worldie",
+      "say": "WURL-dee",
+      "means": "A world-class goal, usually a long-range strike.",
+      "use": "Their keeper had no chance. Absolute worldie.",
+      "common": true
+    },
+    {
+      "term": "screamer",
+      "say": "SKREE-mer",
+      "means": "A thumping shot from distance that flies in.",
+      "use": "Came out of nowhere, a screamer from thirty yards.",
+      "common": true
+    },
+    {
+      "term": "top bins",
+      "say": "top BINZ",
+      "means": "The top corners of the goal. A shot in there is near impossible to save.",
+      "use": "One touch to set himself and he put it top bins.",
+      "common": true
+    },
+    {
+      "term": "sitter",
+      "say": "SIT-er",
+      "means": "An easy chance that gets missed.",
+      "use": "How do you miss that from two yards? Total sitter.",
+      "common": true
+    },
+    {
+      "term": "howler",
+      "say": "HOW-ler",
+      "means": "A glaring, often comical mistake, usually by a goalkeeper or the ref.",
+      "use": "Their keeper's had a howler. Went straight through his hands.",
+      "common": true
+    },
+    {
+      "term": "tap-in",
+      "say": "TAP-in",
+      "means": "A very easy goal from right in front of the net.",
+      "use": "Not pretty, just a tap-in, but they all count.",
+      "common": true
+    },
+    {
+      "term": "nutmeg",
+      "say": "NUT-meg",
+      "means": "Knocking the ball through an opponent's legs and collecting it on the other side.",
+      "use": "He nutmegged their centre-back and the whole ground went up.",
+      "common": true
+    },
+    {
+      "term": "pen",
+      "say": "PEN",
+      "means": "Short for a penalty.",
+      "use": "That's a pen all day long.",
+      "common": true
+    },
+    {
+      "term": "stonewall pen",
+      "say": "STOHN-wawl PEN",
+      "means": "A penalty beyond any argument. Strangely, 'stonewall' here means 'certain'.",
+      "use": "Stonewall pen, and somehow the ref waved it away.",
+      "common": true
+    },
+    {
+      "term": "soft pen",
+      "say": "soft PEN",
+      "means": "A penalty given for very little contact.",
+      "use": "Bit of a soft pen, but I'll take it.",
+      "common": true
+    },
+    {
+      "term": "the gaffer",
+      "say": "the GAF-er",
+      "means": "The manager. An informal British word for the boss.",
+      "use": "The gaffer's got to change something at half-time.",
+      "common": true
+    },
+    {
+      "term": "bottle it",
+      "say": "BOT-ul it",
+      "means": "To lose your nerve and throw away a winning position. Someone who does it is a 'bottler'. Having 'bottle' means having nerve.",
+      "use": "Two up at half-time and we still bottled it.",
+      "common": true
+    },
+    {
+      "term": "early doors",
+      "say": "UR-lee DORZ",
+      "means": "The early stages of a match.",
+      "use": "We needed a goal early doors to settle the nerves.",
+      "common": true
+    },
+    {
+      "term": "park the bus",
+      "say": "park the BUS",
+      "means": "When a team puts everyone behind the ball and just defends.",
+      "use": "They came here, parked the bus and dared us to break them down.",
+      "common": true
+    },
+    {
+      "term": "six-pointer",
+      "say": "six-POYN-ter",
+      "means": "A match against a side near you in the table. Win and you gain three while they miss out on three.",
+      "use": "Proper six-pointer this weekend. We can't lose it.",
+      "common": true
+    },
+    {
+      "term": "squeaky bum time",
+      "say": "SKWEE-kee BUM tyme",
+      "means": "The tense final stretch of a season or a match.",
+      "use": "Five games left and it's tight. Squeaky bum time.",
+      "common": true
+    },
+    {
+      "term": "the drop",
+      "say": "the DROP",
+      "means": "Relegation to the division below.",
+      "use": "Couple more wins and we're clear of the drop.",
+      "common": true
+    },
+    {
+      "term": "under the cosh",
+      "say": "UN-der the KOSH",
+      "means": "Pinned back under heavy, sustained pressure from the other side.",
+      "use": "We were under the cosh for the last twenty minutes.",
+      "common": false
+    },
+    {
+      "term": "smash and grab",
+      "say": "smash-and-GRAB",
+      "means": "A win nicked by a side that was outplayed for most of the game.",
+      "use": "Total smash and grab. Barely had a shot and we won.",
+      "common": true
+    },
+    {
+      "term": "get out of jail",
+      "say": "get out of JAYL",
+      "means": "To escape with a result you didn't really deserve.",
+      "use": "We got out of jail there, no question.",
+      "common": true
+    },
+    {
+      "term": "handbags",
+      "say": "HAND-bagz",
+      "means": "Players squaring up and shoving each other without any real fighting.",
+      "use": "Bit of handbags after the tackle, nothing in it.",
+      "common": true
+    },
+    {
+      "term": "Row Z",
+      "say": "roh ZED",
+      "means": "The back row of the stand. Putting the ball 'into Row Z' means clearing it as far as possible.",
+      "use": "Don't mess about with it, just stick it in Row Z.",
+      "common": false
+    },
+    {
+      "term": "hoof",
+      "say": "HOOF",
+      "means": "To boot the ball long and aimlessly instead of passing it.",
+      "use": "All we did second half was hoof it up to the big man.",
+      "common": true
+    },
+    {
+      "term": "derby",
+      "say": "DAR-bee",
+      "means": "A match against your local rivals.",
+      "use": "Forget the table, it's derby week.",
+      "common": true
+    },
+    {
+      "term": "bragging rights",
+      "say": "BRAG-ing RYTES",
+      "means": "The right to wind up the losing side's fans until the next meeting.",
+      "use": "It's not about the points, it's bragging rights at work on Monday.",
+      "common": true
+    },
+    {
+      "term": "early bath",
+      "say": "UR-lee BAHTH",
+      "means": "Being sent off. The player heads for the changing room before everyone else.",
+      "use": "Two silly yellows and he's off for an early bath.",
+      "common": false
+    },
+    {
+      "term": "the woodwork",
+      "say": "the WOOD-wurk",
+      "means": "The posts and crossbar.",
+      "use": "Hit the woodwork twice and still couldn't score.",
+      "common": true
+    },
+    {
+      "term": "dead rubber",
+      "say": "ded RUB-er",
+      "means": "A match with nothing riding on it because the outcome is already settled.",
+      "use": "It's a dead rubber, so let's see some of the youngsters.",
+      "common": false
+    },
+    {
+      "term": "in his pocket",
+      "say": "in his POK-it",
+      "means": "When a defender keeps a forward completely quiet all game.",
+      "use": "Our centre-half had him in his pocket all afternoon.",
+      "common": true
+    },
+    {
+      "term": "had a shocker",
+      "say": "had a SHOK-er",
+      "means": "Played really badly.",
+      "use": "Our left-back had a shocker. Got skinned every time.",
+      "common": true
+    },
+    {
+      "term": "against the run of play",
+      "say": "a-GENST the run of PLAY",
+      "means": "A goal scored by the side that was being outplayed at the time.",
+      "use": "Their goal came totally against the run of play.",
+      "common": false
+    }
+  ],
+  "phrases": {
+    "open": [
+      {
+        "t": "Did you catch the {team} game?",
+        "m": "The safest opener there is. Let them tell you how it went."
+      },
+      {
+        "t": "What did you make of the weekend, then?",
+        "m": "Open question. Works whether your side won, lost or drew."
+      },
+      {
+        "t": "You watching the match tonight?",
+        "m": "Use on a matchday. Shows you know there's a game on."
+      },
+      {
+        "t": "How are your lot getting on?",
+        "m": "Asks about their team. 'Your lot' is friendly shorthand for their club."
+      },
+      {
+        "t": "Big one this weekend.",
+        "m": "Vague but sounds clued up. Nearly every weekend is a big one for someone."
+      },
+      {
+        "t": "Seen the table lately?",
+        "m": "Invites them to talk about league positions, good or bad."
+      },
+      {
+        "t": "Still not over Saturday, to be honest.",
+        "m": "Hints at a dramatic result without saying what. They'll fill in the gaps."
+      },
+      {
+        "t": "You going to the game or watching it down the pub?",
+        "m": "Natural matchday question. Either answer gets them talking."
+      }
+    ],
+    "opinion": [
+      {
+        "t": "We need a proper striker, simple as.",
+        "m": "Nearly every fan thinks this, whatever the results."
+      },
+      {
+        "t": "Midfield's the problem. Always has been.",
+        "m": "Hard to argue with, and nobody can prove you wrong."
+      },
+      {
+        "t": "We're a different side at home.",
+        "m": "A common observation most fans will nod along to."
+      },
+      {
+        "t": "The table doesn't lie.",
+        "m": "Sounds wise. Works whether you're near the top or the bottom."
+      },
+      {
+        "t": "We're too easy to play against.",
+        "m": "A favourite complaint about a side that lacks fight."
+      },
+      {
+        "t": "We give the ball away far too cheaply.",
+        "m": "Fair criticism of almost any team."
+      },
+      {
+        "t": "We can't defend a corner to save our lives.",
+        "m": "A classic gripe about set pieces. Fits most sides at some point."
+      },
+      {
+        "t": "We've got to get a few bodies in next window.",
+        "m": "The transfer window is when clubs can sign players. Most fans think the squad is too thin."
+      }
+    ],
+    "agree": [
+      {
+        "t": "Spot on.",
+        "m": "Short and firm. They'll carry on talking."
+      },
+      {
+        "t": "Tell me about it.",
+        "m": "Sympathetic. Invites them to say more."
+      },
+      {
+        "t": "You're not wrong.",
+        "m": "Classic understated British agreement."
+      },
+      {
+        "t": "That's what I've been saying.",
+        "m": "Makes it sound like you've thought this for weeks."
+      },
+      {
+        "t": "Couldn't agree more.",
+        "m": "Plain agreement that hands the floor back."
+      },
+      {
+        "t": "Exactly, and that's the worry.",
+        "m": "Agrees while nudging them to explain more."
+      },
+      {
+        "t": "Same old story, isn't it?",
+        "m": "Works for any grumble about your own team."
+      },
+      {
+        "t": "Say that again.",
+        "m": "Strong agreement. They'll usually repeat it and add more."
+      }
+    ],
+    "dodge": [
+      {
+        "t": "Don't get me started.",
+        "m": "Sounds like you've got loads to say. Let them do the talking."
+      },
+      {
+        "t": "I'm trying not to think about it, to be honest.",
+        "m": "Works after good or bad results and moves things on."
+      },
+      {
+        "t": "Ask me again after the weekend.",
+        "m": "Puts off any verdict."
+      },
+      {
+        "t": "I've given up trying to predict this lot.",
+        "m": "Fan fatalism. No details needed."
+      },
+      {
+        "t": "Too early to say.",
+        "m": "Safe on anything about the season."
+      },
+      {
+        "t": "Let's see where we are in a month.",
+        "m": "Delays judgement without sounding clueless."
+      },
+      {
+        "t": "Never mind us, how are your lot doing?",
+        "m": "Turns it round so they talk about their team instead."
+      }
+    ],
+    "telly": [
+      {
+        "t": "Shoot!",
+        "m": "When a player dithers on the edge of the box."
+      },
+      {
+        "t": "Ref! Come on!",
+        "m": "All-purpose protest at a decision."
+      },
+      {
+        "t": "That's never a pen!",
+        "m": "When the other side gets a penalty you don't agree with."
+      },
+      {
+        "t": "Get rid of it!",
+        "m": "When your defenders dawdle on the ball near their own goal."
+      },
+      {
+        "t": "Man on!",
+        "m": "Warning your player someone's closing in behind. Players shout it on the pitch too."
+      },
+      {
+        "t": "Stay on your feet!",
+        "m": "When your defender dives into a tackle and risks giving away a foul."
+      },
+      {
+        "t": "How has he missed that?",
+        "m": "After a sitter goes begging."
+      },
+      {
+        "t": "Get in!",
+        "m": "When your side scores."
+      }
+    ],
+    "exit": [
+      {
+        "t": "Right, I'd better get back to it.",
+        "m": "Office classic. Ends things without any fuss."
+      },
+      {
+        "t": "Anyway, we'll see what happens at the weekend.",
+        "m": "A sign-off that works almost any week of the season."
+      },
+      {
+        "t": "Can't stand here talking football all day.",
+        "m": "Light-hearted way out."
+      },
+      {
+        "t": "Anyway, I'm off. Enjoy the game.",
+        "m": "Ends on a friendly note."
+      },
+      {
+        "t": "Let's catch up after the next one.",
+        "m": "Polite, and implies you'll be watching."
+      },
+      {
+        "t": "Whose round is it?",
+        "m": "In the pub, the perfect change of subject."
+      },
+      {
+        "t": "Same time next week, then.",
+        "m": "Pub-friendly sign-off that suggests you'll be back."
+      }
+    ]
+  },
+  "exchanges": {
+    "win": {
+      "open": "Three points {when}. I'll take that.",
+      "them": "Not bad. Wasn't exactly pretty though, was it?",
+      "back": "Don't care. Three points is three points.",
+      "agree": "Fair enough, a win's a win.",
+      "exit": "Exactly. Right, I'll let you get on."
+    },
+    "bigWin": {
+      "open": "{score} {when}. Could've been more, too.",
+      "them": "Yeah, {opp} didn't turn up at all, did they?",
+      "back": "Maybe not, but you can only beat what's in front of you.",
+      "agree": "True. Goal difference will thank you later.",
+      "exit": "Let's not get carried away. Back down to earth next week, probably."
+    },
+    "narrowWin": {
+      "open": "{score} {when}. We hung on, didn't we?",
+      "them": "Last ten minutes must have been nervy.",
+      "back": "I was watching through my fingers. But we got the job done.",
+      "agree": "Those are the ones that matter come the end of the season.",
+      "exit": "Hope so. My heart rate's only just back to normal. Catch you later."
+    },
+    "draw": {
+      "open": "{score} with {opp} {when}. Can't decide if that's a point gained or two dropped.",
+      "them": "Depends who you ask, doesn't it?",
+      "back": "We had the chances to win it. That's what annoys me.",
+      "agree": "Yeah, feels like one that got away.",
+      "exit": "Ah well, onto the next one."
+    },
+    "goallessDraw": {
+      "open": "Nil-nil {when}. Not one for the highlights.",
+      "them": "Heard it was dire.",
+      "back": "Dire's being kind. Still, a clean sheet's something.",
+      "agree": "Yeah, at least the back line held up.",
+      "exit": "I'll have forgotten it by the weekend. See you later."
+    },
+    "loss": {
+      "open": "Don't ask about the game {when}.",
+      "them": "That bad? What happened?",
+      "back": "{opp} wanted it more, simple as. We never got going.",
+      "agree": "It happens. Every side has off days.",
+      "exit": "Yeah. Let's change the subject before I get wound up."
+    },
+    "bigLoss": {
+      "open": "{score}. Go on, get it out of your system.",
+      "them": "Ouch. That's a hammering.",
+      "back": "Embarrassing. Some of that lot owe the fans an apology.",
+      "agree": "Fair. Not good enough at any level, that.",
+      "exit": "I'm not watching the highlights. Right, I'm off before I start ranting again."
+    },
+    "lateWinner": {
+      "open": "Last-minute winner {when}! I've still got no voice.",
+      "them": "{player} at the death, wasn't it? Brilliant.",
+      "back": "Right at the death. Best feeling in football, that.",
+      "agree": "Nothing beats a late one.",
+      "exit": "I'll be watching it back all week. Catch you later."
+    },
+    "lateConcede": {
+      "open": "Ninety minutes of hard work {when} and we throw it away at the death.",
+      "them": "Gutting. Who switched off?",
+      "back": "Everyone. We sat too deep and invited {opp} on.",
+      "agree": "Yeah, you can't keep dropping off like that.",
+      "exit": "Don't remind me. I'll be stewing on it all week."
+    },
+    "comeback": {
+      "open": "Went behind {when} and still won it {score}. What a game.",
+      "them": "Didn't see that coming when you went a goal down.",
+      "back": "Nor did I. But the lads showed a bit of bottle for once.",
+      "agree": "That's character, that.",
+      "exit": "Feel like I've earned a pint just watching it. Speak soon."
+    },
+    "blewLead": {
+      "open": "We were cruising {when}, and somehow we threw it away.",
+      "them": "Bottled it, then?",
+      "back": "Completely. Got comfortable, stopped running and let {opp} back in.",
+      "agree": "Classic. It's never won till the final whistle.",
+      "exit": "Lesson learned, hopefully. I'll believe it when I see it."
+    },
+    "redCardLoss": {
+      "open": "Down to ten men {when} and it all fell apart.",
+      "them": "Was it a red, though?",
+      "back": "Soft, but he gave the ref a decision to make. Daft challenge.",
+      "agree": "Yeah, you can't leave yourselves short like that.",
+      "exit": "And now he's suspended as well. Anyway, I'd better crack on."
+    },
+    "cleanSheetWin": {
+      "open": "{score} {when} and a clean sheet. Lovely.",
+      "them": "Defence looked solid, by all accounts.",
+      "back": "Didn't give {opp} a sniff all game.",
+      "agree": "Clean sheets win you points.",
+      "exit": "Let's hope they keep it up. Right, back to work."
+    },
+    "hatTrickWin": {
+      "open": "Hat-trick for {player} {when}! He's taking the match ball home.",
+      "them": "Yeah, I saw. He was on fire.",
+      "back": "Every time he got near the box you thought he'd score.",
+      "agree": "Hope he keeps that form going.",
+      "exit": "Don't jinx it. Anyway, catch you later."
+    },
+    "possessionLoss": {
+      "open": "Had most of the ball {when} and still lost to {opp}. Typical.",
+      "them": "Lot of passing sideways, was it?",
+      "back": "Exactly. No end product. {opp} barely had a kick and nicked it.",
+      "agree": "Possession counts for nothing if you don't hurt them.",
+      "exit": "Tell that to our midfield. Anyway, I'm off."
+    },
+    "derbyWin": {
+      "open": "Beat {opp} {when}. I'm going to be unbearable all week.",
+      "them": "I'd expect nothing less. Their lot have gone very quiet.",
+      "back": "Bragging rights are ours. I'll be reminding a few people at work.",
+      "agree": "Fair play, that's what derbies are all about.",
+      "exit": "Right, I'm off to find someone in the other colours. See you."
+    },
+    "derbyLoss": {
+      "open": "Lost to {opp} {when}. Of all the teams.",
+      "them": "Derby defeat? You'll be keeping your head down at work, then.",
+      "back": "Taking the long way round to the kettle all week, yeah.",
+      "agree": "Ha. Can't blame you.",
+      "exit": "We'll get them next time. Right, I'll leave it there."
+    }
+  },
+  "pub": [
+    {
+      "say": "Ref was a joke tonight, wasn't he?",
+      "o": [
+        [
+          "Shocking. He was giving them everything.",
+          2,
+          "Takes your mate's side and keeps the moan going."
+        ],
+        [
+          "Over a season, refereeing errors tend to even out statistically.",
+          -1,
+          "Probably true, but nobody wants a lecture at the bar."
+        ],
+        [
+          "Which one was the referee?",
+          -2,
+          "Instant giveaway. The ref's the one everyone's been shouting at."
+        ]
+      ]
+    },
+    {
+      "say": "We're going down this year, I'm telling you.",
+      "o": [
+        [
+          "Down where?",
+          -2,
+          "'Going down' means relegation, and everyone in the pub knows it."
+        ],
+        [
+          "Don't be daft. There's plenty worse than us.",
+          2,
+          "Fans moan, and mates talk each other round."
+        ],
+        [
+          "Our points per game projects to a comfortable mid-table finish.",
+          -1,
+          "Sounds like a spreadsheet, not a mate."
+        ]
+      ]
+    },
+    {
+      "say": "What a goal. Right in the top bins.",
+      "o": [
+        [
+          "A superb strike with excellent technique.",
+          -1,
+          "Accurate, but it sounds like a coaching manual."
+        ],
+        [
+          "What's a top bin?",
+          -2,
+          "Top bins are the top corners of the goal. Fans say it all the time."
+        ],
+        [
+          "Unstoppable. Keeper never even moved.",
+          2,
+          "Matches their excitement and paints the right picture."
+        ]
+      ]
+    },
+    {
+      "say": "Fancy the game Saturday?",
+      "o": [
+        [
+          "Go on then, I'm in.",
+          2,
+          "Simple, keen and natural."
+        ],
+        [
+          "Is that the soccer?",
+          -2,
+          "It's football in Britain. 'Soccer' marks you out straight away."
+        ],
+        [
+          "Certainly. What time is kick-off scheduled for?",
+          -1,
+          "Fine question, but stiff and formal for a pub."
+        ]
+      ]
+    },
+    {
+      "say": "Nil-nil. What a bore.",
+      "o": [
+        [
+          "Low-scoring games often reflect two well-organised defensive structures.",
+          -1,
+          "Analytical and dull when your mate wanted sympathy."
+        ],
+        [
+          "Worst ninety minutes of my life. Clean sheet, mind.",
+          2,
+          "Moans like a fan, then finds the one bright side."
+        ],
+        [
+          "So it was a tie at zero?",
+          -2,
+          "In Britain it's a draw, and the score is nil-nil."
+        ]
+      ]
+    },
+    {
+      "say": "Their keeper had a shocker.",
+      "o": [
+        [
+          "Did he get injured?",
+          -2,
+          "'Had a shocker' means he played badly, not that he got hurt."
+        ],
+        [
+          "His save percentage was well below his season average.",
+          -1,
+          "Too much like reading out a stats sheet."
+        ],
+        [
+          "Proper howler. Fumbling everything.",
+          2,
+          "Agrees and uses the word fans reach for."
+        ]
+      ]
+    },
+    {
+      "say": "Proper six-pointer next week.",
+      "o": [
+        [
+          "Massive. Lose that and we're in real trouble.",
+          2,
+          "Shows you know what's riding on it."
+        ],
+        [
+          "Six points? I thought a win was worth three.",
+          -2,
+          "A six-pointer is against a side near you in the table, so the swing counts double."
+        ],
+        [
+          "Yes, a direct contest with a club in close proximity in the league table.",
+          -1,
+          "Correct, but nobody talks like that over a pint."
+        ]
+      ]
+    },
+    {
+      "say": "That was never a pen.",
+      "o": [
+        [
+          "Under the Laws of the Game, contact alone isn't necessarily a foul.",
+          -1,
+          "Technically right, but it kills the moment."
+        ],
+        [
+          "Never a what?",
+          -2,
+          "'Pen' is short for penalty. Fans use it constantly."
+        ],
+        [
+          "Not in a million years. He went down far too easily.",
+          2,
+          "Backs your mate up and sounds like you watched it."
+        ]
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "say": "soccer",
+      "instead": "football",
+      "why": "In Britain it's football. 'Soccer' sounds American, even though the word started in England."
+    },
+    {
+      "say": "two to zero",
+      "instead": "two-nil",
+      "why": "Football scores use 'nil' for zero: nil-nil, one-nil, two-nil."
+    },
+    {
+      "say": "uniform",
+      "instead": "kit",
+      "why": "A team's shirt, shorts and socks are its kit. 'Uniform' is for American sports or school."
+    },
+    {
+      "say": "field",
+      "instead": "pitch",
+      "why": "British fans play and watch on a pitch."
+    },
+    {
+      "say": "cleats",
+      "instead": "boots",
+      "why": "Footballers wear boots. The grips underneath are studs."
+    },
+    {
+      "say": "a tie",
+      "instead": "a draw",
+      "why": "A level result is a draw. In British football a 'tie' usually means a cup match."
+    },
+    {
+      "say": "a shutout",
+      "instead": "a clean sheet",
+      "why": "Not conceding is keeping a clean sheet. 'Shutout' is North American."
+    },
+    {
+      "say": "overtime",
+      "instead": "extra time",
+      "why": "The extra half-hour in a cup game is extra time. Minutes added on at the end of a half are stoppage time."
+    },
+    {
+      "say": "the standings",
+      "instead": "the table",
+      "why": "Fans talk about where they are in the table, or the league table."
+    },
+    {
+      "say": "DER-bee",
+      "instead": "DAR-bee",
+      "why": "In Britain 'derby' starts like 'dark'. The American 'DER-bee' stands out."
+    }
+  ],
+  "nerd": "If you look at our expected-goals difference over the last six, we're running about nought-point-four per ninety below the underlying numbers, so results should regress upwards.",
+  "offq": "Who'd you play at left-back if the first-choice lad gets injured?",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Glossary_of_association_football_terms",
+    "https://en.wikipedia.org/wiki/List_of_sports_idioms",
+    "https://en.wikipedia.org/wiki/Dead_rubber",
+    "https://www.goal.com/en/news/football-phrases-101-slang-terms-idioms-meanings-explained/lpfi6xqrxtmc1gjoi1e7hc7un",
+    "https://www.goal.com/en-us/news/soccers-slang-cliches-idioms-explained-what-do-they-mean/io4qmsxgr1j516fthrel36lvh",
+    "https://wtop.com/sports/2026/06/the-weird-and-wonderful-soccer-phrases-fans-will-bring-to-the-world-cup/",
+    "https://www.skysports.com/football/news/11096/13231964/expected-goals-transitions-overloads-and-false-nine-footballs-alternative-dictionary-by-sky-sports",
+    "https://www.premierleague.com/en/premier-league-explained",
+    "https://fantasy.premierleague.com/en/help",
+    "https://fourfourtwo.com/features/hat-tricks-handbags-early-doors-what-are-origins-strange-language-football",
+    "https://blog.oup.com/2014/07/football-soccer-vocabulary/",
+    "https://www.oxfordlearnersdictionaries.com/definition/english/six-pointer",
+    "https://www.oxfordlearnersdictionaries.com/definition/english/gaffer",
+    "https://www.oxfordlearnersdictionaries.com/definition/english/pen",
+    "https://www.oxfordlearnersdictionaries.com/definition/english/tap-in_2",
+    "https://www.dictionary.com/browse/nil",
+    "https://www.merriam-webster.com/dictionary/derby",
+    "https://www.scotsman.com/sport/football/cliche-of-the-week-stonewall-penalty-1721232",
+    "https://phrases.org.uk/meanings/under-the-cosh.html",
+    "https://www.grammarly.com/blog/vocabulary/sports-words/",
+    "https://www.ef.com/blog/language/all-the-football-slang-youll-ever-need/",
+    "https://blog.footyaddicts.com/football-slang/",
+    "https://learnenglishthroughfootball.com/football-language-top-bin/",
+    "https://learnenglishthroughfootball.com/weekly-fotball-phrase-smash-and-grab/",
+    "https://learnenglishthroughfootball.com/stonewall-pen-football-language-season-2021-22/",
+    "https://learnenglishthroughfootball.com/football-glossary-avoid-the-drop/",
+    "https://learnenglishthroughfootball.com/weekly-football-phrase-bragging-rights/",
+    "https://learnenglishthroughfootball.com/community/football-language-football-language/shocker/",
+    "https://learnenglishthroughfootball.com/community/football-language-football-language/get-ouf-of-jail-composed-on-the-ball/"
+  ],
+  "unsure": [
+    "sources: BBC Sport, The Guardian and The Athletic block this research tool, so none could be read directly. Terms were cross-checked against Wikipedia, Goal, AP (via WTOP), Sky Sports, the Premier League site, OUP and dictionaries instead.",
+    "sources: FourFourTwo's glossary page would not load past its title. Only its origins article's headline and search summary (bottle, early doors, handbags) were used.",
+    "sources: the Premier League has no general fan glossary; only its 'Premier League explained' page and the Fantasy Premier League help page were used.",
+    "megs / megged (for nutmeg): Wikipedia lists it for Ireland, Australia and New Zealand; could not confirm it as standard UK usage, so left out.",
+    "lino (for linesman): no reliable source found, so left out.",
+    "scenes (for wild celebrations): could not confirm in a reliable source, so left out.",
+    "had a shocker: confirmed for a player's bad game; using it for referees is common but only backed by a learner site, so the term's example sticks to a player.",
+    "the drop: backed by football glossaries and press usage, but there is no standard dictionary entry.",
+    "get out of jail: backed by a learner site and match-report usage, no dictionary entry.",
+    "telly line 'That's never a pen!': ordinary British phrasing ('never' meaning 'definitely not'); no glossary lists it as a set phrase.",
+    "early doors: origin is disputed (theatre entry vs pub opening times), so only the meaning is given.",
+    "tie: the note that a British 'tie' usually means a cup match is from general knowledge of usage; sources only confirmed draw vs tie as a UK/US difference."
+  ]
+}

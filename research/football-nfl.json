@@ -1,0 +1,210 @@
+{
+  "terms": [
+    {"term": "Pick-six", "say": "pik-SIX", "means": "An interception the defender runs back for a touchdown. About the worst thing a quarterback can do.", "use": "He stared down his guy and threw a pick-six. Brutal.", "common": true},
+    {"term": "Red zone", "say": "RED zohn", "means": "Inside the other team's 20-yard line, close enough that you should come away with points.", "use": "We move the ball fine, then we get to the red zone and settle for three.", "common": true},
+    {"term": "Three-and-out", "say": "three-and-OWT", "means": "The offense runs three plays, doesn't get a first down, and has to punt. In the CFL, with only three downs, it's a two-and-out.", "use": "Another three-and-out. Our defense hasn't had a breather all day.", "common": true},
+    {"term": "Two-and-out", "say": "too-and-OWT", "means": "CFL only. Two plays, no first down, then a punt on third down. Don't say it about an NFL game.", "use": "Two-and-out again, and here comes the punter.", "common": false},
+    {"term": "Hail Mary", "say": "hayl MAIR-ee", "means": "A long, desperate throw into the end zone as time runs out, hoping someone on your team comes down with it.", "use": "Nothing left but a Hail Mary. Throw it up and pray.", "common": true},
+    {"term": "Sack", "say": "SAK", "means": "Tackling the quarterback behind the line before he can throw.", "use": "That's the third sack. Somebody block somebody!", "common": true},
+    {"term": "Turnover", "say": "TURN-oh-vur", "means": "Giving the ball to the other team by throwing an interception or losing a fumble.", "use": "Two turnovers in the first half. You can't win like that.", "common": true},
+    {"term": "Fumble", "say": "FUM-bul", "means": "Dropping or losing the ball while carrying it. Either team can pick it up.", "use": "He was carrying it like a loaf of bread and fumbled. Hold on to the ball!", "common": true},
+    {"term": "Blitz", "say": "BLITS", "means": "The defense sends extra players, usually linebackers or defensive backs, charging at the quarterback.", "use": "They blitzed and nobody picked it up. He never had a chance.", "common": true},
+    {"term": "Audible", "say": "AW-dih-bul", "means": "The quarterback changes the play at the line after seeing how the defense lines up.", "use": "You could see him audible at the line, and it worked perfectly.", "common": true},
+    {"term": "Play-action", "say": "PLAY-ak-shun", "means": "The quarterback fakes a handoff to sucker the defense into expecting a run, then throws.", "use": "Play-action gets them every time. The linebackers bit hard.", "common": true},
+    {"term": "Checkdown", "say": "CHEK-down", "means": "A short, safe throw, usually to a running back or tight end, when nothing is open downfield.", "use": "Third and twelve and he throws a checkdown for four yards. Come on.", "common": true},
+    {"term": "Dink and dunk", "say": "DINK-un-DUNK", "means": "An offense that lives on short passes and rarely throws deep. Usually said as a dig.", "use": "All this dink and dunk is killing me. Take a shot downfield!", "common": true},
+    {"term": "Chunk play", "say": "CHUNK play", "means": "A big gain in one go, roughly 20 yards or more.", "use": "We need some chunk plays. Ten-play drives for a field goal won't cut it.", "common": true},
+    {"term": "Dime", "say": "DYME", "means": "A perfectly placed pass. 'Throwing dimes' means he's on target all day.", "use": "Did you see that throw? Absolute dime, right over the shoulder.", "common": true},
+    {"term": "Take it to the house", "say": "TAYK it to the HOWSS", "means": "Run all the way for a touchdown, usually on a long run or a return. Also 'he housed it.'", "use": "He caught it in stride and took it to the house.", "common": true},
+    {"term": "Garbage time", "say": "GAR-bij tyme", "means": "The end of a lopsided game when the result is settled. Stats from then don't count for much in fans' eyes.", "use": "Don't get excited about his numbers. Half of that came in garbage time.", "common": true},
+    {"term": "Bend but don't break", "say": "BEND but dohnt BRAYK", "means": "A defense that gives up yards between the 20s but tightens up and keeps teams out of the end zone.", "use": "They gave up yards all day, but bend-don't-break, they kept them out of the end zone.", "common": true},
+    {"term": "Game manager", "say": "GAYM MAN-ih-jur", "means": "A quarterback who avoids mistakes but doesn't win games on his own. Often a backhanded compliment.", "use": "He's a game manager. Doesn't lose you games, doesn't win you many either.", "common": true},
+    {"term": "Icing the kicker", "say": "EYE-sing the KIK-ur", "means": "Calling a timeout right before a field-goal try so the kicker has to wait and think about it.", "use": "They called a timeout to ice the kicker and he nailed it anyway.", "common": true},
+    {"term": "Onside kick", "say": "ON-syde kik", "means": "A short kickoff the kicking team tries to recover itself, usually when it's behind late.", "use": "They have to try an onside kick here. Get the hands team out there.", "common": true},
+    {"term": "Laundry", "say": "LAWN-dree", "means": "Slang for the yellow penalty flags the officials throw.", "use": "There's laundry all over the field. Just let them play!", "common": false},
+    {"term": "The trenches", "say": "the TREN-chiz", "means": "The fight between the offensive and defensive linemen at the line of scrimmage.", "use": "Games are won in the trenches, and we got beat up front.", "common": true},
+    {"term": "Moving the chains", "say": "MOO-ving the CHAYNZ", "means": "Picking up first downs and keeping a drive alive. The chains are the sideline markers that measure ten yards.", "use": "No big plays, but they kept moving the chains and ate up the clock.", "common": true},
+    {"term": "Monday morning quarterback", "say": "MUN-day MOR-ning KWOR-tur-bak", "means": "Someone who second-guesses every call after the game, with hindsight.", "use": "Easy to Monday morning quarterback it, but that call made no sense.", "common": true},
+    {"term": "Two-minute drill", "say": "too-MIN-it DRIL", "means": "A hurry-up offense at the end of a half, trying to score before the clock runs out.", "use": "Two minutes, two timeouts. Let's see what he's got in the two-minute drill.", "common": true},
+    {"term": "Go for it", "say": "GOH for it", "means": "Run a play on fourth down to get a first down instead of punting or kicking a field goal.", "use": "Fourth and inches at midfield? Go for it!", "common": true},
+    {"term": "Goal-line stand", "say": "GOHL-lyne STAND", "means": "The defense stops the other team from scoring a touchdown when they're right at the goal line.", "use": "Four tries from the one and they didn't get in. What a goal-line stand.", "common": true},
+    {"term": "Prevent defense", "say": "prih-VENT DEE-fens", "means": "Soft, deep coverage used to protect a late lead by stopping big plays. Fans blame it when the other team marches down the field anyway.", "use": "We went into prevent and they marched right down the field.", "common": true},
+    {"term": "Ground and pound", "say": "GROWND un POWND", "means": "A physical, run-heavy offense that wears the defense down.", "use": "Old-school ground and pound. Run it, run it, run it again.", "common": true},
+    {"term": "Take a knee", "say": "TAYK uh NEE", "means": "The quarterback kneels right after the snap to run out the clock and end the game. Also called the victory formation.", "use": "They're out of timeouts. Just take a knee and we're done.", "common": true},
+    {"term": "Bye week", "say": "BYE week", "means": "The one week in the regular season when a team has no game.", "use": "Good timing for the bye week. Half the roster's banged up.", "common": true},
+    {"term": "Flea flicker", "say": "FLEE flik-ur", "means": "A trick play: handoff to the running back, who pitches it back to the quarterback, who throws deep.", "use": "They ran a flea flicker and caught the whole secondary napping.", "common": false},
+    {"term": "Rouge", "say": "ROOZH", "means": "CFL only. A single point when a kick ends up in the end zone and the returner doesn't bring it out. Since 2026 there's no single for a missed field goal that goes wide or a kick that leaves the end zone untouched. The NFL has nothing like it.", "use": "Punt into the end zone, he takes a knee, that's a single. Only in the CFL.", "common": false}
+  ],
+  "phrases": {
+    "open": [
+      {"t": "You catch the game?", "m": "Works any day after a game. Let them tell you how it went."},
+      {"t": "You watching {team} this weekend?", "m": "Before a game. Gets them talking about the matchup."},
+      {"t": "What'd you make of that game?", "m": "Open-ended. They'll fill in the details for you."},
+      {"t": "How's your fantasy team looking?", "m": "Most fans play fantasy football, and they love to complain about it."},
+      {"t": "Who do you cheer for?", "m": "Ask before you commit to an opinion. Saves you praising their rival."},
+      {"t": "You going to the tailgate?", "m": "Before a home game. A tailgate is the pre-game party in the stadium parking lot."},
+      {"t": "Big game this week, huh?", "m": "Every week is a big game to somebody."}
+    ],
+    "opinion": [
+      {"t": "It all comes down to the trenches. Win up front, you win the game.", "m": "Line play. A safe take about any team."},
+      {"t": "We have to be more aggressive on fourth down.", "m": "Fans almost always want their team to go for it."},
+      {"t": "Too many penalties. We keep shooting ourselves in the foot.", "m": "Penalties are always a fair complaint."},
+      {"t": "Turnovers will kill you every time.", "m": "Giving the ball away loses more games than anything. Hard to argue."},
+      {"t": "We need to get the ball to our playmakers more.", "m": "Every fan thinks their best players should touch it more."},
+      {"t": "The play-calling has been way too predictable.", "m": "Blaming the offensive coordinator is a fan tradition."},
+      {"t": "Everything starts with the quarterback in this league.", "m": "A safe NFL truism. Nobody disagrees."},
+      {"t": "Defense wins championships. I don't care what anybody says.", "m": "An old saying. Works best after a low-scoring game."}
+    ],
+    "agree": [
+      {"t": "A hundred percent.", "m": "Full agreement. Keeps them going."},
+      {"t": "Can't argue with that.", "m": "Safe for any take, good or bad."},
+      {"t": "That's what I've been saying!", "m": "Makes it sound like you had the take first."},
+      {"t": "Preach.", "m": "They're mid-rant. Let them keep going."},
+      {"t": "Every single week.", "m": "For any complaint about your own team."},
+      {"t": "Tell me about it.", "m": "Shared misery after a bad game."},
+      {"t": "No doubt about it.", "m": "Firm agreement without adding anything you'd have to back up."}
+    ],
+    "dodge": [
+      {"t": "Any given Sunday, man.", "m": "Anyone can beat anyone. Ends a debate."},
+      {"t": "I'll believe it when I see it.", "m": "Someone predicts big things. Doubt sounds wise."},
+      {"t": "Depends which version of us shows up.", "m": "Works for any team, because every team is inconsistent."},
+      {"t": "I stopped making predictions with this team a long time ago.", "m": "Sounds like a fan who's been burned before."},
+      {"t": "Ask me again in a couple of weeks.", "m": "Buys time when someone wants a prediction."},
+      {"t": "Honestly, I just want them to stay healthy.", "m": "Nobody can argue with it, and it ends the question."},
+      {"t": "Lot of football left to play.", "m": "Any time before the playoffs. Sounds patient and wise."},
+      {"t": "Above my pay grade. I just yell at the TV.", "m": "When it gets technical. Gets a laugh and moves things on."}
+    ],
+    "telly": [
+      {"t": "Where's the flag?!", "m": "A call that should have gone your way and didn't."},
+      {"t": "Run the ball!", "m": "Your team keeps throwing and it isn't working."},
+      {"t": "Get rid of it!", "m": "Your quarterback is holding the ball too long and about to get sacked."},
+      {"t": "Wrap him up!", "m": "Your defense just missed another tackle."},
+      {"t": "Catch the ball!", "m": "A dropped pass. Hands on head."},
+      {"t": "Spike it! Spike it!", "m": "Final seconds, clock running, no timeouts left. Spiking the ball stops the clock."},
+      {"t": "He's got room! Go!", "m": "Your player breaks into the open field."},
+      {"t": "Challenge that, coach!", "m": "A close call went against you and the replay looks good for your side."}
+    ],
+    "exit": [
+      {"t": "Alright, I gotta run. Enjoy the game.", "m": "Before or during a game day."},
+      {"t": "Anyway, we'll see what happens this week.", "m": "Noncommittal. Works whatever happened last time."},
+      {"t": "I'll text you during the game.", "m": "With a friend. Promises you'll be watching."},
+      {"t": "Let's hope they figure it out. Catch you later.", "m": "After any game that wasn't perfect, which is most of them."},
+      {"t": "I need another beer. Good talk, man.", "m": "At the bar. Nobody questions it."},
+      {"t": "Gotta go, but we'll talk after the game.", "m": "Before kickoff. Postpones the hard questions."}
+    ]
+  },
+  "exchanges": {
+    "win": {"open": "Solid win {when}. Took care of business.", "them": "Nice to have a stress-free one for a change.", "back": "That's how you do it. Show up, handle it, go home.", "agree": "That's all you can ask.", "exit": "One week at a time. Catch you later."},
+    "bigWin": {"open": "Did you see {team} {when}? {score}. Total beatdown.", "them": "That's what I like to see. Statement win.", "back": "Just hope they don't get comfortable. Gotta do it again next week.", "agree": "Exactly. Stay hungry.", "exit": "Enjoy it while it lasts. Talk soon."},
+    "narrowWin": {"open": "That game {when} took a year off my life.", "them": "{score}. Way closer than it needed to be.", "back": "We'll take it. Ugly wins count the same in the standings.", "agree": "A win's a win.", "exit": "I need a calmer one next week. See ya."},
+    "tie": {"open": "A tie {when}. {score}. I don't even know how to feel.", "them": "Honestly, a tie feels worse than a loss.", "back": "Ten minutes of overtime and nobody could finish it off. Brutal.", "agree": "Nobody goes home happy.", "exit": "Well, at least it's not in the loss column. Later."},
+    "loss": {"open": "Rough one {when}, huh?", "them": "Yeah, we just couldn't get anything going.", "back": "Too many penalties, too many drives stalling out. Same old story.", "agree": "Every single week.", "exit": "Burn the tape and move on. Catch you later."},
+    "bigLoss": {"open": "Please tell me you didn't watch {team} {when}.", "them": "I did. {score}. I want those three hours back.", "back": "We got pushed around in the trenches from the first snap.", "agree": "Ugly. Just ugly.", "exit": "On to the next one. I'm not talking about this game again."},
+    "otWin": {"open": "Overtime {when}! Did you see the finish?", "them": "I was up off the couch the whole time.", "back": "{player} came up huge when it mattered. My nerves are shot.", "agree": "What a game.", "exit": "That's why you watch till the end. Catch you later."},
+    "otLoss": {"open": "Losing in overtime {when}. Of course.", "them": "So close. That one stings.", "back": "Never should've gone to overtime. We had our chances.", "agree": "Yeah, we left points out there.", "exit": "Whatever. Next week. Talk soon."},
+    "comeback": {"open": "How about that comeback {when}? We were down going into the fourth!", "them": "I almost changed the channel, honestly.", "back": "Never count this team out. Completely different team in the fourth quarter.", "agree": "It's never over till it's over.", "exit": "Hope they don't make me sweat like that again. See ya."},
+    "blewLead": {"open": "We were up going into the fourth {when}. How do you lose that?", "them": "Went into prevent and let them march right down the field.", "back": "Every time. Play to win, don't play not to lose.", "agree": "Preach.", "exit": "I'm turning games off after three quarters from now on. Later."},
+    "qbBigGame": {"open": "{player} was cooking {when}. Did you see that?", "them": "He was throwing dimes all day.", "back": "Give him time in the pocket and nobody can stop him.", "agree": "Locked in.", "exit": "Keep that up and we're dangerous. Catch you later."},
+    "runGame": {"open": "{player} ran all over them {when}.", "them": "They couldn't tackle him. The line was opening up huge holes.", "back": "Old-school ground and pound. When we run it like that, we're tough to beat.", "agree": "Keep feeding him.", "exit": "Run it till they stop it. See ya."},
+    "defenseWin": {"open": "That defense, man. Did you see {team} {when}?", "them": "{score}. They didn't give them anything.", "back": "Offense did just enough. Defense won that game.", "agree": "Defense wins championships.", "exit": "I'll take that every week. Later."},
+    "turnoverLoss": {"open": "You can't throw picks like that and expect to win.", "them": "Brutal {when}. We kept giving them the ball back.", "back": "Exactly. Give a good team short fields and they'll make you pay.", "agree": "Ball security, man.", "exit": "Hopefully they spend all week on it. Catch you later."},
+    "rivalWin": {"open": "We beat {opp} {when}. Best day of the year.", "them": "Nothing better than beating them.", "back": "{score}, and I finally get some peace in the group chat.", "agree": "Bragging rights, baby.", "exit": "I'm wearing my jersey all week. Later."},
+    "rivalLoss": {"open": "Losing to {opp} {when}. Worst feeling there is.", "them": "Their fans are gonna be unbearable.", "back": "Already got texts from my buddies who cheer for {opp}. I'm muting the group chat.", "agree": "Smart move.", "exit": "We'll get 'em next time. Talk soon."}
+  },
+  "pub": [
+    {"say": "Can you believe they kicked a field goal on fourth and one?", "o": [
+      ["Gotta go for it there. Way too conservative.", 2, "Fans almost always want to go for it on fourth and short."],
+      ["The win-probability models usually favor going for it in that spot.", -1, "Probably true, but it sounds like a spreadsheet."],
+      ["At least they scored a goal.", -2, "It's a field goal, and nobody calls it just a goal."]
+    ]},
+    {"say": "Our O-line got pushed around all night.", "o": [
+      ["Their pressure rate allowed must be near the bottom of the league.", -1, "Right idea, but nobody talks in rates at the bar."],
+      ["You lose in the trenches, you lose the game.", 2, "Line play is always the right thing to blame."],
+      ["Which ones are the O-line again?", -2, "The big guys up front. Every fan knows that."]
+    ]},
+    {"say": "Did you see that pick-six?", "o": [
+      ["Brutal. You just can't throw that ball.", 2, "Short, pained and right."],
+      ["Pick six? Like the lottery?", -2, "A pick-six is an interception run back for a touchdown."],
+      ["Interceptions returned for scores are some of the costliest plays in the game.", -1, "Accurate, but it sounds like a textbook."]
+    ]},
+    {"say": "The refs are throwing laundry all over the place tonight.", "o": [
+      ["Why would they bring laundry to a game?", -2, "Laundry means penalty flags. Now he's explaining it to you."],
+      ["Flag counts vary quite a bit from one officiating crew to the next.", -1, "Interesting, and completely the wrong mood."],
+      ["Seriously. Just let them play!", 2, "Complaining about the refs is always welcome."]
+    ]},
+    {"say": "How's your fantasy team doing?", "o": [
+      ["Don't ask. My kicker's outscoring my running backs.", 2, "Complaining about fantasy is exactly the right answer."],
+      ["I set my lineup using projected points and matchup data.", -1, "That's how people do it, but nobody wants to hear it."],
+      ["Fantasy? Like dragons?", -2, "Fantasy football. Most fans play it."]
+    ]},
+    {"say": "Third and one and they throw it deep. Why?", "o": [
+      ["Is third down the last one?", -2, "The NFL has four downs. Three downs is the CFL."],
+      ["Just run the ball! Pound it in there!", 2, "On short yardage, fans want the run."],
+      ["Defenses often sell out against the run there, so a deep shot can be the smart call.", -1, "Maybe right, but it sounds like you're defending the coach."]
+    ]},
+    {"say": "You coming to the tailgate Sunday?", "o": [
+      ["Wouldn't miss it. I'll bring the wings.", 2, "Food and enthusiasm. Perfect."],
+      ["Sure, although I'm mostly interested in the tactical matchup.", -1, "Nobody goes to a tailgate for tactics."],
+      ["What's a tailgate?", -2, "It's the pre-game party in the stadium parking lot. Everyone knows."]
+    ]},
+    {"say": "Our defense bends but doesn't break.", "o": [
+      ["Their red-zone touchdown rate allowed is genuinely elite.", -1, "True or not, that's a stat, not a chat."],
+      ["Bends? Is that a stretching thing?", -2, "It means giving up yards but not touchdowns."],
+      ["Give up yards, not points. I'll take it.", 2, "Shows you know exactly what the phrase means."]
+    ]}
+  ],
+  "avoid": [
+    {"say": "Great goal!", "instead": "Touchdown!", "why": "Football has touchdowns and field goals. Nobody says just 'goal.'"},
+    {"say": "They got a point!", "instead": "Touchdown! That's six.", "why": "A touchdown is six points. The single point is the kick after."},
+    {"say": "What inning is it?", "instead": "What quarter is it?", "why": "Innings are baseball. Football has four quarters."},
+    {"say": "What was the full-time score?", "instead": "What was the final?", "why": "'Full-time' is soccer talk. Football fans ask for the final."},
+    {"say": "They're all over the pitch.", "instead": "They're all over the field.", "why": "It's a field in North America. 'Pitch' gives you away instantly."},
+    {"say": "Do you like American football?", "instead": "You into football?", "why": "In the US and Canada it's just football. Soccer is soccer."},
+    {"say": "It's basically rugby with pads.", "instead": "That was a huge hit.", "why": "Fans have heard the rugby line a thousand times and hate it."},
+    {"say": "Who's in the Super Bowl final?", "instead": "Who's in the Super Bowl?", "why": "The Super Bowl is the final. Adding 'final' sounds foreign."},
+    {"say": "Green Bay are playing well.", "instead": "Green Bay is playing well.", "why": "With a city name, North Americans say 'is.' 'The Packers are' is fine."},
+    {"say": "He's at the 55-yard line.", "instead": "He's at midfield.", "why": "NFL midfield is the 50. The 55 was the CFL's, and even that goes in 2027."}
+  ],
+  "nerd": "Actually, once you strip out garbage time, his EPA per dropback on early downs is top five, and his completion percentage over expected backs it up.",
+  "offq": "Wait, are they running a 3-4 or a 4-3 this year?",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Glossary_of_American_football",
+    "https://operations.nfl.com/learn-the-game/nfl-basics/terms-glossary/",
+    "https://www.dictionary.com/e/football-terms/",
+    "https://www.underarmour.com/en-us/t/playbooks/football/30-football-slang-terms",
+    "https://fansided.com/sports-terms/football/football-terms/",
+    "https://www.sportsfeelgoodstories.com/football-slang/",
+    "https://en.wikipedia.org/wiki/Checkdown",
+    "https://www.si.com/nfl/49ers/news/is-49ers-qb-brock-purdy-a-dinker-and-a-dunker",
+    "https://pff.com/news/nfl-explosive-plays-and-re-thinking-offensive-success",
+    "https://www.merriam-webster.com/dictionary/dropped%20a%20dime",
+    "https://www.merriam-webster.com/dictionary/Monday-morning%20quarterback",
+    "https://en.wiktionary.org/wiki/take_it_to_the_house",
+    "https://en.wiktionary.org/wiki/laundry",
+    "https://en.wikipedia.org/wiki/Penalty_flag",
+    "https://en.wikipedia.org/wiki/Garbage_time",
+    "https://www.pff.com/news/fantasy-composting-digging-into-garbage-time",
+    "https://www.baltimorebeatdown.com/2012/9/14/3332258/ravens-defense-bend-but-dont-break",
+    "https://en.wikipedia.org/wiki/Smashmouth_offense",
+    "https://bleacherreport.com/articles/1747574-top-ground-and-pound-offenses-in-college-football",
+    "https://www.footballzebras.com/2025/04/everything-you-need-to-know-about-the-new-overtime-rules/",
+    "https://www.profootballnetwork.com/how-do-ties-work-nfl-overtime-rules/",
+    "https://www.americanfootballinternational.com/the-top-differences-between-the-nfl-and-the-cfl/",
+    "https://press.cfl.ca/tradition-meets-innovation-making-a-great-game-even-greater",
+    "https://www.ctvnews.ca/regina/article/ill-miss-you-riders-bid-farewell-to-55-yard-line-at-mosaic-stadium/",
+    "https://forums.cfl.ca/t/giving-up-a-safety/50708",
+    "https://www.stampeders.com/?p=423262"
+  ],
+  "unsure": [
+    "house call: only spam-quality sources use it for a touchdown, so left out. 'Take it to the house' / 'housed it' are confirmed instead.",
+    "throwing a duck: Under Armour defines it as a soft, easy-to-catch pass, which clashes with common use (a wobbly, ugly throw). Left out.",
+    "ballgame: not listed as a baseball giveaway, because football fans and broadcasters genuinely say 'ballgame' too.",
+    "CFL 'no yards' penalty: sources disagree on the current yardage, so left out.",
+    "two-and-out: confirmed from CFL team and media usage, not from an official glossary.",
+    "rouge: rules changed for 2026 (no single for a missed field goal that goes wide or a kick that leaves the end zone untouched). Still awarded when a kick settles in the end zone and isn't run out.",
+    "CFL field: 110 yards with the 55-yard line through the 2026 season; 100 yards with 15-yard end zones from 2027.",
+    "Pro Football Reference glossary and Merriam-Webster pages refused automated fetches (403); Merriam-Webster definitions were taken from search summaries. ESPN, The Athletic and CBS were not fetched directly.",
+    "Placeholders: the app fills {team} and {opp} with names like 'the Bears', so lines avoid 'the {team}', 'Go {team}' and a verb straight after a team name.",
+    "Tie exchange mentions ten minutes of overtime, which is the NFL regular-season rule (ties only happen there). College games can't tie."
+  ]
+}

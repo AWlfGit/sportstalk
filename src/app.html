@@ -1219,7 +1219,7 @@ function rivalOf(L,t){
 }
 function isMyDriver(name){const L=myLingo();if(L&&(L.drivers||[]).includes(name))return true;return isMine({n:name,s:sur(name)})}
 const S={
-  sport:SPORTS[store.get("sport","football")]?store.get("sport","football"):"football",
+  sport:"nhl", // every visit opens on hockey; the sport can still be changed during the visit
   teams:store.get("teams",{}),
   leagues:store.get("leagues",{}),
   covers:store.get("covers",{}),
@@ -2320,7 +2320,7 @@ $("#team").value=S.teams[S.sport]||"";$("#team").placeholder=SPORTS[S.sport].tea
 function fillTeamList(){$("#teamList").innerHTML=lingoPool(S.sport).map(t=>`<option value="${esc(t.team)}"></option>`).join("")}
 fillTeamList();
 setSkin(document.documentElement.getAttribute("data-skin")||store.get("skin","modern"));
-sel.addEventListener("change",()=>{S.sport=sel.value;store.set("sport",S.sport);$("#team").value=S.teams[S.sport]||"";$("#team").placeholder=SPORTS[S.sport].team;fillTeamList();S.game=null;pub=null;drill=null;loadAndRender()});
+sel.addEventListener("change",()=>{S.sport=sel.value;$("#team").value=S.teams[S.sport]||"";$("#team").placeholder=SPORTS[S.sport].team;fillTeamList();S.game=null;pub=null;drill=null;loadAndRender()});
 if(canSpeak){$("#voiceWrap").hidden=false;try{speechSynthesis.getVoices();speechSynthesis.addEventListener("voiceschanged",()=>{if(!$("#voiceSheet").hidden)fillVoiceLists()})}catch(e){}}
 $("#deep").checked=store.get("deep",true);
 $("#deep").addEventListener("change",e=>store.set("deep",e.target.checked));

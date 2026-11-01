@@ -4,8 +4,10 @@
 //   ludicrous-display.html  full page for opening on your computer (loads live results, snapshot as backup)
 //   src/artifact.html       the same page without the document wrapper, for publishing on claude.ai
 // Options:
-//   --site <folder>   also write the website copy (index.html and fonts/) into that folder
-//   --site-only       skip the two files above and write only the website copy
+//   --site <folder>     also write the website copy (index.html, fonts/, logos/) into that folder
+//   --feed <folder>     also write the results feed (results.json, logos/) the website copy loads
+//   --feed-url <url>    where the website copy finds that feed (default: the repository's feed branch)
+//   --site-only         skip the two files above
 const fs = require("fs");
 const path = require("path");
 
@@ -122,6 +124,22 @@ async function fetchLogos(snap) {
   return out;
 }
 
+// Logo files for the website copy and the feed. Logos for teams no longer in the results are removed.
+function writeLogos(dir, logos) {
+  fs.mkdirSync(dir, { recursive: true });
+  const keep = new Set();
+  for (const [k, v] of logos) {
+    keep.add(k + ".png"); keep.add(k + "-px.png");
+    fs.writeFileSync(path.join(dir, k + ".png"), v.big);
+    fs.writeFileSync(path.join(dir, k + "-px.png"), v.px);
+  }
+  for (const f of fs.readdirSync(dir)) if (/^[a-z0-9-]+\.png$/i.test(f) && !keep.has(f)) fs.unlinkSync(path.join(dir, f));
+}
+
+// Where the website copy loads fresh results from (the repository's feed branch)
+const fu = process.argv.indexOf("--feed-url");
+const feedUrl = fu > 0 && process.argv[fu + 1] ? process.argv[fu + 1] : "https://raw.githubusercontent.com/AWlfGit/sportstalk/feed/";
+
 (async () => {
   const now = new Date();
   const snap = { taken: now.toISOString(), leagues: {}, tables: {} };
@@ -182,7 +200,10 @@ async function fetchLogos(snap) {
     let site = base.replace("__LOGOS__", () => safe(files));
     site = swap(site, /<!--FONTS-->[\s\S]*?<!--\/FONTS-->/, '<link rel="stylesheet" href="fonts/fonts.css">');
     site = swap(site, /const LIVE_MODE="auto";/, 'const LIVE_MODE="ask";');
-    site = swap(site, /<title>/, '<meta name="robots" content="noindex, nofollow">\n<title>');
+    site = swap(site, /const FEED_URL="";/, () => "const FEED_URL=" + JSON.stringify(feedUrl) + ";");
+    // Served as a folder (example.com/sportstalk/): add the trailing slash if a host leaves it off,
+    // so the relative fonts/ and logos/ paths resolve inside the folder
+    site = swap(site, /<title>/, '<script>if(!/\\/$|\\.html?$/.test(location.pathname))location.replace(location.pathname+"/"+location.search+location.hash)</script>\n<meta name="robots" content="noindex, nofollow">\n<title>');
     site = site.replace("/*ESPN-START*/", "").replace("/*ESPN-END*/", "");
     fs.mkdirSync(path.join(dir, "fonts"), { recursive: true });
     fs.writeFileSync(path.join(dir, "index.html"), wrap(site));
@@ -191,12 +212,20 @@ async function fetchLogos(snap) {
     }
     // Fonts that are no longer used (VT323) are removed from the site folder
     for (const f of fs.readdirSync(path.join(dir, "fonts"))) if (/^(vt323|OFL-vt323)/i.test(f)) fs.unlinkSync(path.join(dir, "fonts", f));
-    fs.mkdirSync(path.join(dir, "logos"), { recursive: true });
-    for (const [k, v] of logos) {
-      fs.writeFileSync(path.join(dir, "logos", k + ".png"), v.big);
-      fs.writeFileSync(path.join(dir, "logos", k + "-px.png"), v.px);
-    }
-    console.log("Website copy written to", dir);
+    writeLogos(path.join(dir, "logos"), logos);
+    console.log("Website copy written to", dir, "(results feed: " + feedUrl + ")");
+  }
+
+  // Results feed (node src/build.js --feed <folder>): the snapshot plus every team logo, which the
+  // GitHub workflow publishes to the repository's feed branch for the website copy to load.
+  const fat = process.argv.indexOf("--feed");
+  if (fat > 0 && process.argv[fat + 1]) {
+    const dir = path.resolve(process.argv[fat + 1]);
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, "results.json"), JSON.stringify(snap));
+    writeLogos(path.join(dir, "logos"), logos);
+    fs.writeFileSync(path.join(dir, "README.md"), "# Ludicrous Display results feed\n\nESPN results and team logos, rebuilt by the workflow on `main` twice a day and on every push.\nThis branch is replaced on each run, so don't commit to it. Taken " + snap.taken + ".\n");
+    console.log("Results feed written to", dir);
   }
 
   console.log("Snapshot:", (json.length / 1024).toFixed(0), "KB, taken", now.toLocaleString("en-GB"));

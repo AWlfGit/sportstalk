@@ -1227,6 +1227,9 @@ for(const [sp,P] of Object.entries(TALK)){
 let SNAP=null;
 try{const raw=document.getElementById("snapshot").textContent.trim();if(raw.charAt(0)==="{")SNAP=JSON.parse(raw)}catch(e){SNAP=null}
 const LIVE_MODE="auto";
+/* Where fresh results come from. Empty: straight from ESPN (the downloaded copy). The website copy
+   uses the results feed the GitHub workflow rebuilds twice a day, and only after the visitor asks. */
+const FEED_URL="";
 const DATA={cache:{},tables:{},liveFailed:false,loading:{},liveAllowed:LIVE_MODE!=="ask"};
 
 /* Team guides: researched fan lingo, keyed by ESPN team id and searchable by name */
@@ -1284,11 +1287,19 @@ function isMine(t,lg){
 /* ---------- Data loading ---------- */
 async function loadLeague(lg,force){
   if(!lg)return null;
-  if(force){delete DATA.cache[lg];DATA.liveFailed=false}
+  if(force){delete DATA.cache[lg];DATA.liveFailed=false;DATA.feed=null}
   if(DATA.cache[lg])return DATA.cache[lg];
   if(DATA.loading[lg])return DATA.loading[lg];
   DATA.loading[lg]=(async()=>{
-    if(DATA.liveAllowed&&!DATA.liveFailed){
+    if(DATA.liveAllowed&&!DATA.liveFailed&&FEED_URL){
+      try{
+        const feed=await loadFeed();
+        DATA.tables[lg]=(feed.tables&&feed.tables[lg])||{};
+        DATA.cache[lg]={games:(feed.leagues&&feed.leagues[lg])||[],src:"feed",at:new Date(feed.taken)};
+        return DATA.cache[lg];
+      }catch(e){DATA.liveFailed=true;DATA.feed=null}
+    }
+    if(DATA.liveAllowed&&!DATA.liveFailed&&!FEED_URL){
       try{
         const games=await ESPN.games(lg,7);
         DATA.cache[lg]={games,src:"live",at:new Date()};
@@ -1302,6 +1313,11 @@ async function loadLeague(lg,force){
     return DATA.cache[lg];
   })();
   try{return await DATA.loading[lg]}finally{delete DATA.loading[lg]}
+}
+// The whole results feed is one file, fetched once per visit (or per Refresh)
+function loadFeed(){
+  if(!DATA.feed)DATA.feed=fetch(FEED_URL+"results.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(d=>{if(!d||!d.leagues||isNaN(new Date(d.taken)))throw new Error("Bad feed");return d});
+  return DATA.feed;
 }
 function defaultSide(g){if(!g||!g.h)return null;if(isMine(g.h,g.lg))return "h";if(isMine(g.a,g.lg))return "a";return null}
 function chooseGame(games){
@@ -1801,7 +1817,8 @@ function logoSrc(t,px){
   const L=LOGOS[logoKey(t.lo)];
   if(L)return L[px?1:0];
   // Not in the saved set: ask ESPN only once live results are allowed (on the website, after the visitor opts in)
-  return DATA.liveAllowed?"https://a.espncdn.com/combiner/i?img="+t.lo+"&w="+(px?16:96)+"&h="+(px?16:96):null;
+  if(!DATA.liveAllowed)return null;
+  return FEED_URL?FEED_URL+"logos/"+logoKey(t.lo)+(px?"-px":"")+".png":"https://a.espncdn.com/combiner/i?img="+t.lo+"&w="+(px?16:96)+"&h="+(px?16:96);
 }
 const hexOf=t=>/^[0-9a-f]{6}$/i.test((t&&t.col)||"")?t.col:"2b4a3d";
 function crest(t,big){
@@ -1836,16 +1853,20 @@ function ttPage(entry,lg){
       }
     }
   }
-  const stamp=entry.src==="live"?"Live "+String(entry.at.getHours()).padStart(2,"0")+":"+String(entry.at.getMinutes()).padStart(2,"0"):entry.src==="snap"?"Saved "+entry.at.toLocaleDateString("en-GB",{day:"numeric",month:"short"}):"No data";
+  const hm=d=>String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0");
+  const stamp=entry.src==="live"?"Live "+hm(entry.at):entry.src==="feed"?"Updated "+entry.at.toLocaleDateString("en-GB",{day:"numeric",month:"short"})+" "+hm(entry.at):entry.src==="snap"?"Saved "+entry.at.toLocaleDateString("en-GB",{day:"numeric",month:"short"}):"No data";
   return `<div class="tt">${head}<div class="tt-list" id="ttList">${list}</div><div class="tt-foot"><span>${esc(stamp)} · ESPN</span>${DATA.liveAllowed?`<button type="button" id="ttRefresh">Refresh</button>`:""}</div></div>`;
 }
 function srcNote(entry){
   if(!entry)return "";
   if(entry.src==="live")return `<p class="src"><span class="dot live"></span><span>Live results from ESPN. Your team's games are starred. Tap any result to load its script.</span></p>`;
+  if(entry.src==="feed")return `<p class="src"><span class="dot live"></span><span>Latest ESPN results, collected ${esc(entry.at.toLocaleString("en-GB",{weekday:"long",hour:"2-digit",minute:"2-digit"}))}. They're refreshed twice a day. Tap any result to load its script.</span></p>`;
   if(entry.src==="snap"){
     const age=Math.round((Date.now()-entry.at)/864e5);
     const saved=`ESPN results saved on ${esc(entry.at.toLocaleDateString("en-GB",{day:"numeric",month:"long"}))}${age>=3?` (${age} days ago)`:""}`;
+    if(!DATA.liveAllowed&&FEED_URL)return `<div class="src"><span class="dot"></span><div><p>Showing ${saved}. Loading the latest results fetches them from GitHub, where this page's results feed is kept, so GitHub will see your IP address, as any website you visit does.</p><button class="btn small" type="button" id="goLive">Load the latest results</button></div></div>`;
     if(!DATA.liveAllowed)return `<div class="src"><span class="dot"></span><div><p>Showing ${saved}. Loading today's results asks ESPN's servers for them, so ESPN will see your IP address, as any website you visit does.</p><button class="btn small" type="button" id="goLive">Load today's results from ESPN</button></div></div>`;
+    if(FEED_URL)return `<p class="src"><span class="dot"></span><span>The latest results couldn't load just now, so this shows ${saved}. Press Refresh to try again.</span></p>`;
     if(/claude/i.test(location.hostname))return `<p class="src"><span class="dot"></span><span>Live results can't load on this page, so it uses ${saved}. The downloaded copy of this page loads live results.</span></p>`;
     return `<p class="src"><span class="dot"></span><span>Live results couldn't load just now, so this shows ${saved}. Press Refresh to try again.</span></p>`;
   }

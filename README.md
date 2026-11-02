@@ -3,7 +3,8 @@
 Ludicrous Display: a sports talk trainer inspired by the Bluffball website in *The IT Crowd*.
 Pick a real game from the last week, learn a three-beat script about it, and practise in a
 pretend pub conversation. It covers football, rugby, cricket, F1, NFL, NBA, NHL and MLB, with
-local fan lingo for 297 teams.
+local fan lingo for 297 teams. Football results come from Europe, the Americas, Asia, Australia
+and Africa (25 competitions); rugby from Europe, the southern hemisphere and test matches.
 
 Website: https://c0rw1n.com/sportstalk/ (a hidden demo folder on c0rw1n.com, not linked from
 the main site). This repository holds the source and builds the results feed; it doesn't host
@@ -70,15 +71,16 @@ area: *Near me* (the city of your device's time zone, or your precise location i
 share it), a city you pick, or *Everywhere*. A game counts as local when either team is based
 within 500 km of you, home or away, or when your own team plays; *How near* changes the distance
 (250 to 2,000 km), and a time-zone guess reaches 1,000 km until you choose. The page opens on the
-nearest team's latest game. Where nothing is near (most of Asia, Africa and Oceania, for the
-leagues the site covers), it shows every game with a note saying so. Your location is worked out
+nearest team's latest game. Where nothing is near (or a league is between seasons), it shows
+every game with a note saying so. Your location is worked out
 in your browser and never sent anywhere.
 
 - `src/local.js`: the rules (the build puts it into the page; tests can `require()` it)
 - `research/places.json`: where every team is based, plus the city of each time zone. Made by
   `node research/get-places.js`: home venues from ESPN team schedules (rugby by hand in
   `research/places-manual.json`), coordinates from OpenStreetMap's Nominatim, cached in
-  `research/geocode-cache.json`. Re-run it for a new season or promoted teams.
+  `research/geocode-cache.json`. Re-run it for a new season, promoted teams or a new league
+  (leagues are listed in `ESPN.LEAGUES` in `src/app.html`; the build and the feed follow it).
 - `node research/test-local.js`: checks the rules and the data against sample cities
 
 ## Working on it from any computer

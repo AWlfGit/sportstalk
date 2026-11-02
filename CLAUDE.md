@@ -62,7 +62,7 @@ has the commands.
   where nothing is near, it shows every game with a note (never an empty page). The rules are in `src/local.js` (tested by
   `node research/test-local.js`); team bases are in `research/places.json`, made by
   `node research/get-places.js` (ESPN schedules plus OpenStreetMap coordinates; re-run it for new
-  seasons or promoted teams). Nothing about the visitor's location ever leaves their browser.
+  seasons, promoted teams or new leagues). Nothing about the visitor's location ever leaves their browser.
 - **Content**: no song lyrics (naming a song is fine), no TV, film or ad catchphrases, no slurs,
   nothing about deaths or tragedies, mild banter only. Research follows `research/BRIEF.md` and
   must pass `node research/audit.js`.

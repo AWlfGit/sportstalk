@@ -24,7 +24,7 @@
   DATA.liveFailed = true; DATA.liveAllowed = false;
   const savedWhere = S.where, savedPick = S.pick;
   for (const lg of Object.values(ESPN.LEAGUES).flat().map((x) => x[0])) { DATA.cache[lg] = { games: (SNAP && SNAP.leagues[lg]) || [], src: "snap", at: new Date(SNAP.taken) }; DATA.tables[lg] = (SNAP && SNAP.tables[lg]) || {}; }
-  const AREAS = [["Toronto, ON", 43.65, -79.38], ["London, England", 51.51, -0.13], ["Los Angeles, CA", 34.05, -118.24], ["Madrid, Spain", 40.42, -3.7], ["Reykjavik", 64.15, -21.94]];
+  const AREAS = [["Toronto, ON", 43.65, -79.38], ["London, England", 51.51, -0.13], ["Los Angeles, CA", 34.05, -118.24], ["Madrid, Spain", 40.42, -3.7], ["Sydney, Australia", -33.87, 151.21], ["Sao Paulo, Brazil", -23.55, -46.63], ["Johannesburg, South Africa", -26.2, 28.05], ["Reykjavik", 64.15, -21.94]];
   for (const look of ["modern", "retro"]) {
     setSkin(look);
     // All sports, Local on: every game near each sample city

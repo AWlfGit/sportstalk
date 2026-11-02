@@ -1688,6 +1688,12 @@
    44.7,
    10.1
   ],
+  "rugby:182": [
+   "Queensland Reds",
+   "Brisbane, Australia",
+   -27.47,
+   153.02
+  ],
   "rugby:190153": [
    "Oyonnax",
    "Oyonnax, France",
@@ -1706,6 +1712,12 @@
    41.89,
    12.48
   ],
+  "rugby:227": [
+   "New South Wales Waratahs",
+   "Sydney, Australia",
+   -33.87,
+   151.21
+  ],
   "rugby:23": [
    "Japan",
    "Tokyo, Japan",
@@ -1717,6 +1729,24 @@
    "Vancouver, Canada",
    49.26,
    -123.11
+  ],
+  "rugby:25889": [
+   "Brumbies",
+   "Canberra, Australia",
+   -35.3,
+   149.1
+  ],
+  "rugby:25893": [
+   "Western Force",
+   "Perth, Western Australia, Australia",
+   -31.96,
+   115.86
+  ],
+  "rugby:25894": [
+   "Melbourne Rebels",
+   "Melbourne, Australia",
+   -37.81,
+   144.96
   ],
   "rugby:25898": [
    "Bath Rugby",
@@ -1844,6 +1874,36 @@
    45.81,
    12.21
   ],
+  "rugby:25932": [
+   "Blues",
+   "Auckland, New Zealand",
+   -36.85,
+   174.76
+  ],
+  "rugby:25934": [
+   "Chiefs",
+   "Hamilton, Waikato, New Zealand",
+   -37.79,
+   175.28
+  ],
+  "rugby:25936": [
+   "Crusaders",
+   "Christchurch, New Zealand",
+   -43.53,
+   172.64
+  ],
+  "rugby:25938": [
+   "Highlanders",
+   "Dunedin, New Zealand",
+   -45.87,
+   170.5
+  ],
+  "rugby:25939": [
+   "Hurricanes",
+   "Wellington, New Zealand",
+   -41.29,
+   174.78
+  ],
   "rugby:25951": [
    "Edinburgh",
    "Edinburgh, Scotland",
@@ -1928,6 +1988,18 @@
    22.28,
    114.16
   ],
+  "rugby:289319": [
+   "Moana Pasifika",
+   "Auckland, New Zealand",
+   -36.85,
+   174.76
+  ],
+  "rugby:289338": [
+   "Fijian Drua",
+   "Lautoka, Fiji",
+   -17.6,
+   177.45
+  ],
   "rugby:29": [
    "Uruguay",
    "Montevideo, Uruguay",
@@ -1994,6 +2066,24 @@
    48.89,
    2.21
   ],
+  "soccer:10": [
+   "Huracán",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
+  ],
+  "soccer:10060": [
+   "Barracas Central",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
+  ],
+  "soccer:10094": [
+   "UCV FC",
+   "Caracas, Venezuela",
+   10.51,
+   -66.91
+  ],
   "soccer:101": [
    "Rayo Vallecano",
    "Madrid, Spain",
@@ -2006,6 +2096,24 @@
    35.34,
    25.13
   ],
+  "soccer:10122": [
+   "UTC",
+   "Cajamarca, Peru",
+   -6.25,
+   -78.83
+  ],
+  "soccer:10125": [
+   "Tijuana",
+   "Tijuana, Mexico",
+   32.54,
+   -117.04
+  ],
+  "soccer:10158": [
+   "Sarmiento (Junín)",
+   "Junin, Argentina",
+   -34.59,
+   -60.95
+  ],
   "soccer:102": [
    "Villarreal",
    "Villarreal, Spain",
@@ -2017,6 +2125,24 @@
    "Milano, Italy",
    45.46,
    9.19
+  ],
+  "soccer:10309": [
+   "Jaguares de Córdoba",
+   "Montería, Colombia",
+   8.6,
+   -75.98
+  ],
+  "soccer:10311": [
+   "Nacional Potosí",
+   "Potosí, Bolivia",
+   -19.59,
+   -65.75
+  ],
+  "soccer:10318": [
+   "Sport Huancayo",
+   "Huancayo, Peru",
+   -12.07,
+   -75.21
   ],
   "soccer:10388": [
    "SV Elversberg",
@@ -2035,6 +2161,12 @@
    "Bergamo, Italy",
    45.76,
    9.75
+  ],
+  "soccer:10674": [
+   "TP Mazembe",
+   "Lubumbashi, Congo",
+   -11.66,
+   27.48
   ],
   "soccer:1068": [
    "Atlético Madrid",
@@ -2060,6 +2192,12 @@
    43.77,
    11.26
   ],
+  "soccer:11": [
+   "Independiente",
+   "Avellaneda, Argentina",
+   -34.66,
+   -58.36
+  ],
   "soccer:110": [
    "Internazionale",
    "Milano, Italy",
@@ -2071,6 +2209,12 @@
    "Torino, Italy",
    45.07,
    7.68
+  ],
+  "soccer:11143": [
+   "Melbourne City FC",
+   "Melbourne, Australia",
+   -37.81,
+   144.96
   ],
   "soccer:112": [
    "Lazio",
@@ -2096,6 +2240,12 @@
    51.34,
    12.37
   ],
+  "soccer:11429": [
+   "Samsunspor",
+   "Samsun, Türkiye",
+   41.23,
+   35.97
+  ],
   "soccer:115": [
    "Parma",
    "Parma, Italy",
@@ -2119,6 +2269,36 @@
    "Udine, Italy",
    46.06,
    13.24
+  ],
+  "soccer:11913": [
+   "Chippa United",
+   "East London, Eastern Cape, South Africa",
+   -33.02,
+   27.9
+  ],
+  "soccer:11972": [
+   "Gimnasia (Mendoza)",
+   "Mendoza, Argentina",
+   -34.6,
+   -68.73
+  ],
+  "soccer:11989": [
+   "Central Córdoba (Santiago del Estero)",
+   "Santiago del Estero, Argentina",
+   -27.64,
+   -63.54
+  ],
+  "soccer:11995": [
+   "Cusco FC",
+   "Cusco, Peru",
+   -13.52,
+   -71.98
+  ],
+  "soccer:12": [
+   "Lanús",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
   ],
   "soccer:12011": [
    "Orlando City SC",
@@ -2156,11 +2336,23 @@
    53.55,
    10
   ],
+  "soccer:13033": [
+   "Al Fateh",
+   "Al-Hofuf, Saudi Arabia",
+   25.37,
+   49.59
+  ],
   "soccer:13083": [
    "Hapoel Be'er Sheva",
    "Beersheba, Israel",
    31.25,
    34.79
+  ],
+  "soccer:130899": [
+   "Neom SC",
+   "Tabuk, Saudi Arabia",
+   28.33,
+   37.63
   ],
   "soccer:131": [
    "Bayer Leverkusen",
@@ -2168,11 +2360,185 @@
    51.03,
    6.99
   ],
+  "soccer:131361": [
+   "Siwelele",
+   "Bloemfontein, South Africa",
+   -29.12,
+   26.22
+  ],
+  "soccer:131375": [
+   "Cong An Ha Noi",
+   "Hanoi, Vietnam",
+   21.03,
+   105.85
+  ],
+  "soccer:131654": [
+   "Deportivo Moquegua",
+   "Moquegua, Peru",
+   -16.83,
+   -70.92
+  ],
+  "soccer:131655": [
+   "FC Cajamarca",
+   "Cajamarca, Peru",
+   -6.25,
+   -78.83
+  ],
+  "soccer:131701": [
+   "Mito Hollyhock",
+   "Mito, Ibaraki, Japan",
+   36.37,
+   140.47
+  ],
+  "soccer:131703": [
+   "Sporting Club Delhi",
+   "New Delhi, India",
+   28.61,
+   77.21
+  ],
+  "soccer:131704": [
+   "Chongqing Tonglianglong",
+   "Chongqing, China",
+   30.06,
+   107.87
+  ],
+  "soccer:131705": [
+   "Liaoning Tieren",
+   "Shenyang, Liaoning, China",
+   41.8,
+   123.43
+  ],
+  "soccer:131746": [
+   "Al Diriyah",
+   "King Fahd International Stadium, Saudi Arabia",
+   24.79,
+   46.84
+  ],
   "soccer:132": [
    "Bayern Munich",
    "München, Germany",
    48.14,
    11.58
+  ],
+  "soccer:132334": [
+   "Çorum FK",
+   "Çorum, Türkiye",
+   40.57,
+   34.73
+  ],
+  "soccer:132335": [
+   "Amed SFK",
+   "Diyarbakir, Türkiye",
+   37.92,
+   40.24
+  ],
+  "soccer:132908": [
+   "ASC Kara",
+   "Stade de Kégué, Togo",
+   6.2,
+   1.24
+  ],
+  "soccer:132909": [
+   "Aigle Noir Makamba",
+   "Bujumbura, Burundi",
+   -3.36,
+   29.37
+  ],
+  "soccer:132910": [
+   "FC Les Aigles Du Congo",
+   "Lubumbashi, Congo",
+   -11.66,
+   27.48
+  ],
+  "soccer:132911": [
+   "Colombe Sportiv Du Dja Et Lobo",
+   "Yaoundé, Cameroon",
+   3.87,
+   11.52
+  ],
+  "soccer:132912": [
+   "Maghreb As De Fès",
+   "Meknès, Morocco",
+   33.9,
+   -5.53
+  ],
+  "soccer:132913": [
+   "Rahimo FC",
+   "Ouagadougou, Burkina Faso",
+   12.37,
+   -1.53
+  ],
+  "soccer:132914": [
+   "Wiliete SC",
+   "Lubango, Angola",
+   -14.92,
+   13.49
+  ],
+  "soccer:132915": [
+   "Nsingizini Hotspurs",
+   "Lobamba, Eswatini",
+   -26.45,
+   31.21
+  ],
+  "soccer:132916": [
+   "APR FC",
+   "Kigali, Rwanda",
+   -1.95,
+   30.11
+  ],
+  "soccer:132917": [
+   "Gaborone United",
+   "Gaborone, Botswana",
+   -24.66,
+   25.91
+  ],
+  "soccer:132918": [
+   "AS Mangasport",
+   "Franceville, Gabon",
+   -1.63,
+   13.59
+  ],
+  "soccer:132919": [
+   "African Stars",
+   "Gaborone, Botswana",
+   -24.66,
+   25.91
+  ],
+  "soccer:132930": [
+   "Fomboni",
+   "Moroni, Comoros",
+   -11.7,
+   43.25
+  ],
+  "soccer:132931": [
+   "Aiglons FC",
+   "N'Djamena, Chad",
+   12.12,
+   15.05
+  ],
+  "soccer:132932": [
+   "15 de Agosto",
+   "Benjamin Mkapa National Stadium, Tanzania",
+   -6.85,
+   39.27
+  ],
+  "soccer:132933": [
+   "Canchungo",
+   "Bissau, Guinea-Bissau",
+   11.86,
+   -15.58
+  ],
+  "soccer:132934": [
+   "Heegan",
+   "Mogadishu, Somalia",
+   2.03,
+   45.34
+  ],
+  "soccer:132935": [
+   "Star Sport Academy",
+   "Monrovia, Liberia",
+   6.32,
+   -10.81
   ],
   "soccer:133": [
    "Schalke 04",
@@ -2180,17 +2546,119 @@
    51.51,
    7.1
   ],
+  "soccer:13317": [
+   "Marumo Gallants",
+   "Rustenburg, South Africa",
+   -25.67,
+   27.24
+  ],
+  "soccer:133171": [
+   "Daejeon Hana Citizen FC",
+   "Daejeon, South Korea",
+   36.35,
+   127.38
+  ],
+  "soccer:133210": [
+   "AS Port",
+   "Djibouti, Djibouti",
+   11.59,
+   43.15
+  ],
+  "soccer:133213": [
+   "Foresters",
+   "Lubango, Angola",
+   -14.92,
+   13.49
+  ],
+  "soccer:133214": [
+   "Mighty Wanderers",
+   "Lilongwe, Malawi",
+   -13.99,
+   33.77
+  ],
+  "soccer:133215": [
+   "El Merriekh Bentiu",
+   "Juba, South Sudan",
+   4.85,
+   31.6
+  ],
+  "soccer:133216": [
+   "Medina United",
+   "Kanifing, Gambia",
+   13.45,
+   -16.65
+  ],
+  "soccer:133217": [
+   "Lijabatho",
+   "Maseru, Lesotho",
+   -29.31,
+   27.48
+  ],
+  "soccer:133218": [
+   "La Cure Waves",
+   "Saint Pierre, Mauritius",
+   -20.22,
+   57.54
+  ],
+  "soccer:133219": [
+   "CFFA",
+   "Benjamin Mkapa National Stadium, Tanzania",
+   -6.85,
+   39.27
+  ],
+  "soccer:133220": [
+   "AS Sobemap",
+   "Stade de Kégué, Togo",
+   6.2,
+   1.24
+  ],
+  "soccer:133221": [
+   "Nigelec",
+   "Niamey, Niger",
+   13.52,
+   2.11
+  ],
+  "soccer:133222": [
+   "Asswehly SC",
+   "Misurata, Libya",
+   32.37,
+   15.09
+  ],
+  "soccer:133223": [
+   "KVZ",
+   "Amaan Stadium, Tanzania",
+   -6.17,
+   39.22
+  ],
+  "soccer:133224": [
+   "Sidama Coffee",
+   "Dire Dawa, Ethiopia",
+   9.59,
+   41.98
+  ],
   "soccer:134": [
    "VfB Stuttgart",
    "Stuttgart, Germany",
    48.78,
    9.18
   ],
+  "soccer:13696": [
+   "Western Sydney Wanderers FC",
+   "Sydney, Australia",
+   -33.87,
+   151.21
+  ],
   "soccer:137": [
    "Werder Bremen",
    "Bremen, Germany",
    53.08,
    8.81
+  ],
+  "soccer:14": [
+   "Newell's Old Boys",
+   "Rosario, Argentina",
+   -32.96,
+   -60.66
   ],
   "soccer:140": [
    "AZ Alkmaar",
@@ -2216,11 +2684,41 @@
    51.44,
    5.48
   ],
+  "soccer:15": [
+   "Racing Club",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
+  ],
+  "soccer:15107": [
+   "Tractor",
+   "Tabriz, Iran",
+   38.07,
+   46.3
+  ],
   "soccer:1538": [
    "Levante",
    "Valencia, Spain",
    39.47,
    -0.38
+  ],
+  "soccer:15515": [
+   "Shanghai Port FC",
+   "Shanghai, China",
+   31.23,
+   121.47
+  ],
+  "soccer:15720": [
+   "Atlético de San Luis",
+   "San Luis Potosi, Mexico",
+   22.5,
+   -100.49
+  ],
+  "soccer:16": [
+   "River Plate",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
   ],
   "soccer:160": [
    "Paris Saint-Germain",
@@ -2246,11 +2744,29 @@
    48.11,
    -1.68
   ],
+  "soccer:17": [
+   "Rosario Central",
+   "Rosario, Argentina",
+   -32.96,
+   -60.66
+  ],
   "soccer:170": [
    "Troyes",
    "Troyes, France",
    48.3,
    4.07
+  ],
+  "soccer:17086": [
+   "Independiente del Valle",
+   "Quito, Ecuador",
+   -0.22,
+   -78.51
+  ],
+  "soccer:17090": [
+   "Deportivo La Guaira",
+   "Caracas, Venezuela",
+   10.51,
+   -66.91
   ],
   "soccer:172": [
    "AJ Auxerre",
@@ -2294,11 +2810,71 @@
    40.71,
    -74.01
   ],
+  "soccer:17689": [
+   "Johor Darul Ta'zim",
+   "Iskandar Puteri, Johor, Malaysia",
+   1.45,
+   103.61
+  ],
+  "soccer:17702": [
+   "Deportivo Riestra",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
+  ],
+  "soccer:17757": [
+   "Port FC",
+   "Khlong Nueng, Thailand",
+   14.07,
+   100.27
+  ],
+  "soccer:17760": [
+   "Ratchaburi FC",
+   "Ratchaburi, Thailand",
+   13.63,
+   99.36
+  ],
+  "soccer:17795": [
+   "Rivers United FC",
+   "Uyo, Nigeria",
+   4.99,
+   8
+  ],
+  "soccer:17797": [
+   "Rangers International",
+   "Enugu, Nigeria",
+   6.55,
+   7.41
+  ],
+  "soccer:17851": [
+   "FC Juárez",
+   "Ciudad Juárez, Mexico",
+   31.74,
+   -106.48
+  ],
   "soccer:179": [
    "Toulouse",
    "Toulouse, France",
    43.6,
    1.44
+  ],
+  "soccer:17997": [
+   "Kerala Blasters FC",
+   "Kochi, India",
+   9.97,
+   76.24
+  ],
+  "soccer:17998": [
+   "Odisha FC",
+   "Bhubaneswar, India",
+   20.26,
+   85.84
+  ],
+  "soccer:18": [
+   "San Lorenzo",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
   ],
   "soccer:180": [
    "Strasbourg",
@@ -2306,11 +2882,47 @@
    48.58,
    7.75
   ],
+  "soccer:18000": [
+   "Chennaiyin FC",
+   "Chennai, India",
+   13.08,
+   80.28
+  ],
+  "soccer:18002": [
+   "Mumbai City FC",
+   "Mumbai, India",
+   19.05,
+   72.87
+  ],
+  "soccer:18003": [
+   "FC GOA",
+   "Fatorda, Goa, India",
+   15.3,
+   73.97
+  ],
+  "soccer:18004": [
+   "NorthEast United FC",
+   "Guwahati, India",
+   26.18,
+   91.75
+  ],
+  "soccer:18153": [
+   "Comerciantes Unidos",
+   "Cutervo, Cajamarca, Peru",
+   -6.2,
+   -78.79
+  ],
   "soccer:182": [
    "Chicago Fire FC",
    "Chicago, Illinois, United States",
    41.88,
    -87.62
+  ],
+  "soccer:18203": [
+   "Zhejiang Professional FC",
+   "Hangzhou, China",
+   30.25,
+   120.21
   ],
   "soccer:18267": [
    "FC Cincinnati",
@@ -2336,6 +2948,12 @@
    33.75,
    -84.39
   ],
+  "soccer:18459": [
+   "Al Taawoun",
+   "Buraidah, Saudi Arabia",
+   26.33,
+   43.97
+  ],
   "soccer:185": [
    "FC Dallas",
    "Frisco, Texas, United States",
@@ -2348,11 +2966,71 @@
    39.11,
    -94.63
   ],
+  "soccer:18601": [
+   "Medeama",
+   "Tarkwa, Ghana",
+   5.31,
+   -1.99
+  ],
+  "soccer:18615": [
+   "Stellenbosch",
+   "Cape Town, South Africa",
+   -33.93,
+   18.42
+  ],
+  "soccer:18628": [
+   "Vipers SC",
+   "Kitende, Uganda",
+   0.2,
+   32.53
+  ],
   "soccer:187": [
    "LA Galaxy",
    "Carson, California, United States",
    33.83,
    -118.25
+  ],
+  "soccer:18816": [
+   "Club Africain",
+   "Hammadi Agrebi Stadium, Tunisia",
+   36.75,
+   10.27
+  ],
+  "soccer:18822": [
+   "Horoya",
+   "Conakry, Guinea",
+   9.52,
+   -13.7
+  ],
+  "soccer:18825": [
+   "Richards Bay FC",
+   "Durban, South Africa",
+   -29.86,
+   31.01
+  ],
+  "soccer:18831": [
+   "Al-Merrikh",
+   "Kigali, Rwanda",
+   -1.95,
+   30.11
+  ],
+  "soccer:18832": [
+   "Al Hilal Omdurman",
+   "Kigali, Rwanda",
+   -1.95,
+   30.11
+  ],
+  "soccer:18851": [
+   "Bengaluru FC",
+   "Bangalore, India",
+   12.98,
+   77.59
+  ],
+  "soccer:18894": [
+   "Punjab FC",
+   "New Delhi, India",
+   28.61,
+   77.21
   ],
   "soccer:189": [
    "New England Revolution",
@@ -2378,11 +3056,23 @@
    36.16,
    -86.77
   ],
+  "soccer:19": [
+   "Talleres (Córdoba)",
+   "Córdoba, Argentina",
+   -31.42,
+   -64.18
+  ],
   "soccer:190": [
    "Red Bull New York",
    "Harrison, New Jersey, United States",
    40.75,
    -74.16
+  ],
+  "soccer:19001": [
+   "V-Varen Nagasaki",
+   "Nagasaki, Japan",
+   33.12,
+   129.79
   ],
   "soccer:191": [
    "San Jose Earthquakes",
@@ -2390,11 +3080,53 @@
    37.34,
    -121.89
   ],
+  "soccer:19217": [
+   "ASEC Mimosas",
+   "Abidjan, Ivory Coast",
+   5.32,
+   -4.02
+  ],
+  "soccer:19220": [
+   "Djoliba",
+   "Bamako, Mali",
+   12.65,
+   -8
+  ],
+  "soccer:19221": [
+   "RSB Berkane",
+   "Berkane, Morocco",
+   34.93,
+   -2.33
+  ],
+  "soccer:19222": [
+   "UD Songo",
+   "Maputo, Mozambique",
+   -25.97,
+   32.57
+  ],
+  "soccer:19223": [
+   "Young Africans",
+   "Amaan Stadium, Tanzania",
+   -6.17,
+   39.22
+  ],
+  "soccer:19267": [
+   "Erzurum BB",
+   "Erzurum, Türkiye",
+   39.91,
+   41.27
+  ],
   "soccer:1929": [
    "Benfica",
    "Lisbon, Portugal",
    38.71,
    -9.14
+  ],
+  "soccer:19298": [
+   "TS Galaxy FC",
+   "Pretoria, South Africa",
+   -25.75,
+   28.19
   ],
   "soccer:193": [
    "D.C. United",
@@ -2402,11 +3134,89 @@
    38.9,
    -77.04
   ],
+  "soccer:19340": [
+   "Macarthur FC",
+   "Sydney, Australia",
+   -33.87,
+   151.21
+  ],
+  "soccer:1936": [
+   "Internacional",
+   "Porto Alegre, Brazil",
+   -30.03,
+   -51.23
+  ],
+  "soccer:19414": [
+   "Simba SC",
+   "Benjamin Mkapa National Stadium, Tanzania",
+   -6.85,
+   39.27
+  ],
+  "soccer:19417": [
+   "JS Saoura",
+   "Miloud Hadefi Stadium, Algeria",
+   35.73,
+   -0.55
+  ],
+  "soccer:19425": [
+   "Always Ready",
+   "El Alto, La Paz., Bolivia",
+   -16.5,
+   -68.16
+  ],
+  "soccer:19436": [
+   "Petro de Luanda",
+   "Estádio 11 de Novembro, Angola",
+   -8.97,
+   13.28
+  ],
+  "soccer:19685": [
+   "Estudiantes de Río Cuarto",
+   "Rio Cuarto, Argentina",
+   -33.12,
+   -64.35
+  ],
+  "soccer:20": [
+   "Unión (Santa Fe)",
+   "Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+   -31.65,
+   -60.64
+  ],
   "soccer:20024": [
    "Ararat-Armenia",
    "Yerevan, Armenia",
    40.18,
    44.51
+  ],
+  "soccer:20070": [
+   "Gaziantep FK",
+   "Gaziantep, Türkiye",
+   37.06,
+   37.38
+  ],
+  "soccer:20216": [
+   "San Pédro",
+   "San-Pedro, Ivory Coast",
+   4.76,
+   -6.65
+  ],
+  "soccer:20219": [
+   "FC Nouadhibou",
+   "Nouakchott, Mauritania",
+   18.08,
+   -15.98
+  ],
+  "soccer:2022": [
+   "Cruzeiro",
+   "Belo Horizonte, Brazil",
+   -19.92,
+   -43.95
+  ],
+  "soccer:20220": [
+   "Pyramids FC",
+   "Cairo, Egypt",
+   30.04,
+   31.24
   ],
   "soccer:20232": [
    "Inter Miami CF",
@@ -2414,11 +3224,71 @@
    25.77,
    -80.19
   ],
+  "soccer:2026": [
+   "São Paulo",
+   "Sao Paulo, Brazil",
+   -23.55,
+   -46.63
+  ],
+  "soccer:2029": [
+   "Palmeiras",
+   "Sao Paulo, Brazil",
+   -23.55,
+   -46.63
+  ],
+  "soccer:20293": [
+   "Atlético Grau",
+   "Sullana, Peru",
+   -4.57,
+   -80.64
+  ],
+  "soccer:2052": [
+   "Beijing Guoan",
+   "Beijing, China",
+   39.91,
+   116.39
+  ],
+  "soccer:20729": [
+   "Eyupspor",
+   "Istanbul, Türkiye",
+   41.01,
+   28.98
+  ],
+  "soccer:20774": [
+   "Mohun Bagan Super Giant",
+   "Kolkata, India",
+   22.57,
+   88.36
+  ],
+  "soccer:20814": [
+   "Sekhukhune United FC",
+   "Polokwane, South Africa",
+   -23.91,
+   29.46
+  ],
+  "soccer:20854": [
+   "Teungueth",
+   "Dakar, Senegal",
+   14.69,
+   -17.45
+  ],
   "soccer:20906": [
    "Austin FC",
    "Austin, Texas, United States",
    30.26,
    -97.75
+  ],
+  "soccer:20912": [
+   "Al-Quwa Al-Jawiya",
+   "Baghdad, Iraq",
+   33.31,
+   44.39
+  ],
+  "soccer:21": [
+   "Vélez Sarsfield",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
   ],
   "soccer:21300": [
    "Charlotte FC",
@@ -2426,11 +3296,59 @@
    35.23,
    -80.84
   ],
+  "soccer:21314": [
+   "ADT",
+   "Tarma, Peru",
+   -11.25,
+   -75.69
+  ],
+  "soccer:21355": [
+   "Chengdu Rongcheng",
+   "Chengdu, China",
+   30.66,
+   104.06
+  ],
+  "soccer:21361": [
+   "Kyoto Sanga",
+   "Kyoto, Japan",
+   35.01,
+   135.77
+  ],
+  "soccer:21446": [
+   "Al Faisaly",
+   "Al Majma'ah, Saudi Arabia",
+   25.9,
+   45.35
+  ],
+  "soccer:21506": [
+   "Wuhan Three Towns",
+   "Wuhan, China",
+   30.58,
+   114.29
+  ],
+  "soccer:21575": [
+   "Al-Shamal",
+   "Al Khor, Qatar",
+   25.76,
+   51.33
+  ],
+  "soccer:216": [
+   "Atlas",
+   "Guadalajara, Mexico",
+   20.68,
+   -103.34
+  ],
   "soccer:21615": [
    "Torreense",
    "Torres Vedras, Portugal",
    39.09,
    -9.26
+  ],
+  "soccer:218": [
+   "Cruz Azul",
+   "Mexico City, Mexico",
+   19.32,
+   -99.15
   ],
   "soccer:21812": [
    "St. Louis CITY SC",
@@ -2438,11 +3356,155 @@
    38.63,
    -90.19
   ],
+  "soccer:21819": [
+   "Deportivo Garcilaso",
+   "Cusco, Peru",
+   -13.52,
+   -71.98
+  ],
+  "soccer:21827": [
+   "Al Fayha",
+   "Al Majma'ah, Saudi Arabia",
+   25.9,
+   45.35
+  ],
+  "soccer:21829": [
+   "Al Khaleej",
+   "Dammam, Saudi Arabia",
+   26.44,
+   50.1
+  ],
+  "soccer:21833": [
+   "Abha",
+   "Abha, Saudi Arabia",
+   18.22,
+   42.5
+  ],
+  "soccer:219": [
+   "Guadalajara",
+   "Guadalajara, Mexico",
+   20.68,
+   -103.34
+  ],
+  "soccer:21910": [
+   "Qingdao Hainiu",
+   "Qingdao, China",
+   36.07,
+   120.38
+  ],
   "soccer:21922": [
    "Sabah FK",
    "Baku, Azerbaijan",
    40.38,
    49.83
+  ],
+  "soccer:21964": [
+   "Al Hazem",
+   "Al-Rass, Saudi Arabia",
+   25.87,
+   43.5
+  ],
+  "soccer:21965": [
+   "Al Riyadh",
+   "King Fahd International Stadium, Saudi Arabia",
+   24.79,
+   46.84
+  ],
+  "soccer:21990": [
+   "Milford FC",
+   "Durban, South Africa",
+   -29.86,
+   31.01
+  ],
+  "soccer:220": [
+   "Monterrey",
+   "Guadalupe, Mexico",
+   25.68,
+   -100.22
+  ],
+  "soccer:22022": [
+   "Al Qadsiah",
+   "Dammam, Saudi Arabia",
+   26.44,
+   50.1
+  ],
+  "soccer:22028": [
+   "Al Kholood",
+   "Al-Rass, Saudi Arabia",
+   25.87,
+   43.5
+  ],
+  "soccer:22069": [
+   "Inter Kashi",
+   "Pune, India",
+   18.52,
+   73.85
+  ],
+  "soccer:22077": [
+   "Stade Malien",
+   "Bamako, Mali",
+   12.65,
+   -8
+  ],
+  "soccer:22167": [
+   "Machida Zelvia",
+   "Tokyo, Japan",
+   35.68,
+   139.76
+  ],
+  "soccer:22168": [
+   "Los Chankas",
+   "Andahuaylas, Apurímac, Peru",
+   -13.78,
+   -73.43
+  ],
+  "soccer:22198": [
+   "Qingdao West Coast",
+   "Qingdao, China",
+   36.07,
+   120.38
+  ],
+  "soccer:22199": [
+   "Shenzhen Xinpengcheng",
+   "Shenzhen, China",
+   22.54,
+   114.05
+  ],
+  "soccer:222": [
+   "Querétaro",
+   "Santiago de Querétaro, Mexico",
+   20.59,
+   -100.39
+  ],
+  "soccer:223": [
+   "Toluca",
+   "Toluca, Mexico",
+   19.29,
+   -99.66
+  ],
+  "soccer:22344": [
+   "Auckland FC",
+   "Auckland, New Zealand",
+   -36.85,
+   174.76
+  ],
+  "soccer:22348": [
+   "Durban City",
+   "Durban, South Africa",
+   -29.86,
+   31.01
+  ],
+  "soccer:22350": [
+   "Kruger United",
+   "Nelspruit, South Africa",
+   -25.47,
+   30.98
+  ],
+  "soccer:225": [
+   "Santos",
+   "Torreón, Mexico",
+   25.54,
+   -103.41
   ],
   "soccer:2250": [
    "Sporting CP",
@@ -2450,11 +3512,101 @@
    38.71,
    -9.14
   ],
+  "soccer:22522": [
+   "Fagiano Okayama",
+   "Okayama, Japan",
+   34.86,
+   133.78
+  ],
   "soccer:22529": [
    "San Diego FC",
    "San Diego, California, United States",
    32.72,
    -117.16
+  ],
+  "soccer:22534": [
+   "Juan Pablo II",
+   "Chongoyape, Peru",
+   -6.63,
+   -79.47
+  ],
+  "soccer:22536": [
+   "Yunnan Yukun",
+   "Yuxi, China",
+   24.35,
+   102.53
+  ],
+  "soccer:22537": [
+   "Dalian Yingbo",
+   "Dalian, China",
+   39.74,
+   122.26
+  ],
+  "soccer:22563": [
+   "Scottland Mabvuku",
+   "Harare, Zimbabwe",
+   -17.86,
+   31.06
+  ],
+  "soccer:226": [
+   "Atlante",
+   "Mexico City, Mexico",
+   19.32,
+   -99.15
+  ],
+  "soccer:227": [
+   "América",
+   "Mexico City, Mexico",
+   19.32,
+   -99.15
+  ],
+  "soccer:2276": [
+   "Al Ittihad",
+   "Jeddah, Saudi Arabia",
+   21.55,
+   39.17
+  ],
+  "soccer:228": [
+   "León",
+   "León, Guanajuato, Mexico",
+   21.12,
+   -101.68
+  ],
+  "soccer:229": [
+   "Necaxa",
+   "Aguascalientes, Mexico",
+   21.88,
+   -102.3
+  ],
+  "soccer:231": [
+   "Puebla",
+   "Puebla, Mexico",
+   18.83,
+   -98
+  ],
+  "soccer:232": [
+   "Tigres UANL",
+   "San Nicolás de los Garza, Mexico",
+   25.76,
+   -100.29
+  ],
+  "soccer:233": [
+   "Pumas UNAM",
+   "Mexico City, Mexico",
+   19.32,
+   -99.15
+  ],
+  "soccer:234": [
+   "Pachuca",
+   "Pachuca, Mexico",
+   20.12,
+   -98.74
+  ],
+  "soccer:235": [
+   "Banfield",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
   ],
   "soccer:239": [
    "Torino",
@@ -2558,11 +3710,83 @@
    56.4,
    -3.43
   ],
+  "soccer:2670": [
+   "Libertad",
+   "Asunción, Paraguay",
+   -25.28,
+   -57.63
+  ],
+  "soccer:2671": [
+   "Cerro Porteño",
+   "Asunción, Paraguay",
+   -25.28,
+   -57.63
+  ],
+  "soccer:2672": [
+   "Deportivo Cali",
+   "Cali, Colombia",
+   3.41,
+   -76.58
+  ],
+  "soccer:2673": [
+   "Sporting Cristal",
+   "San Martin de Porres, Peru",
+   -11.99,
+   -77.1
+  ],
+  "soccer:2674": [
+   "Santos",
+   "Santos, Brazil",
+   -23.96,
+   -46.32
+  ],
   "soccer:268": [
    "Borussia Mönchengladbach",
    "Mönchengladbach, Germany",
    51.19,
    6.44
+  ],
+  "soccer:2680": [
+   "Alianza Lima",
+   "Lima, Peru",
+   -12.05,
+   -77.03
+  ],
+  "soccer:2681": [
+   "Bolívar",
+   "La Paz, Bolivia",
+   -16.5,
+   -68.13
+  ],
+  "soccer:2683": [
+   "Peñarol",
+   "Montevideo, Uruguay",
+   -34.91,
+   -56.19
+  ],
+  "soccer:2684": [
+   "Nacional",
+   "Montevideo, Uruguay",
+   -34.91,
+   -56.19
+  ],
+  "soccer:2685": [
+   "Universitario",
+   "Lima, Peru",
+   -12.05,
+   -77.03
+  ],
+  "soccer:2686": [
+   "Barcelona SC",
+   "Quito, Ecuador",
+   -0.22,
+   -78.51
+  ],
+  "soccer:2690": [
+   "Independiente Medellín",
+   "Medellin, Colombia",
+   6.27,
+   -75.6
   ],
   "soccer:2697": [
    "Le Mans",
@@ -2582,6 +3806,12 @@
    47.8,
    13.05
   ],
+  "soccer:2919": [
+   "Once Caldas",
+   "Manizales, Colombia",
+   5.07,
+   -75.51
+  ],
   "soccer:2922": [
    "Getafe",
    "Getafe, Spain",
@@ -2600,6 +3830,12 @@
    50,
    8.27
   ],
+  "soccer:2975": [
+   "Instituto (Córdoba)",
+   "Córdoba, Argentina",
+   -31.42,
+   -64.18
+  ],
   "soccer:2980": [
    "Bodo/Glimt",
    "Bodø, Norway",
@@ -2611,6 +3847,12 @@
    "Poznan, Poland",
    52.41,
    16.93
+  ],
+  "soccer:3": [
+   "Argentinos Juniors",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
   ],
   "soccer:306": [
    "Hull City",
@@ -2683,6 +3925,60 @@
    "Brentford, England",
    51.49,
    -0.32
+  ],
+  "soccer:3372": [
+   "Cienciano del Cusco",
+   "Cusco, Peru",
+   -13.52,
+   -71.98
+  ],
+  "soccer:3384": [
+   "FC Tokyo",
+   "Tokyo, Japan",
+   35.68,
+   139.76
+  ],
+  "soccer:3385": [
+   "Urawa Red Diamonds",
+   "Saitama, Japan",
+   35.98,
+   139.42
+  ],
+  "soccer:3393": [
+   "Tokyo Verdy 1969",
+   "Tokyo, Japan",
+   35.68,
+   139.76
+  ],
+  "soccer:3445": [
+   "Fluminense",
+   "Rio de Janeiro, Brazil",
+   -22.91,
+   -43.21
+  ],
+  "soccer:3454": [
+   "Vasco da Gama",
+   "Rio de Janeiro, Brazil",
+   -22.91,
+   -43.21
+  ],
+  "soccer:3456": [
+   "Coritiba",
+   "Curitiba, Brazil",
+   -25.43,
+   -49.27
+  ],
+  "soccer:3457": [
+   "Vitória",
+   "Salvador, Brazil",
+   -12.98,
+   -38.48
+  ],
+  "soccer:3458": [
+   "Athletico-PR",
+   "Curitiba, Brazil",
+   -25.43,
+   -49.27
   ],
   "soccer:347": [
    "Cardiff City",
@@ -2924,6 +4220,12 @@
    44.61,
    10.59
   ],
+  "soccer:4": [
+   "Belgrano (Córdoba)",
+   "Córdoba, Argentina",
+   -31.42,
+   -64.18
+  ],
   "soccer:4007": [
    "Monza",
    "Monza, Italy",
@@ -2935,6 +4237,12 @@
    "Frosinone, Italy",
    41.63,
    13.58
+  ],
+  "soccer:4134": [
+   "Huachipato",
+   "Talcahuano, Chile",
+   -36.71,
+   -73.11
   ],
   "soccer:432": [
    "Galatasaray",
@@ -2984,11 +4292,35 @@
    40.57,
    -111.9
   ],
+  "soccer:4815": [
+   "Atlético Junior",
+   "Barranquilla, Colombia",
+   11.01,
+   -74.82
+  ],
+  "soccer:4816": [
+   "Liga de Quito",
+   "Quito, Ecuador",
+   -0.22,
+   -78.51
+  ],
+  "soccer:4818": [
+   "Deportivo Táchira",
+   "San Cristóbal, Venezuela",
+   7.78,
+   -72.22
+  ],
   "soccer:490": [
    "Levski Sofia",
    "Sofia, Bulgaria",
    42.7,
    23.32
+  ],
+  "soccer:4928": [
+   "Fortaleza CEIF",
+   "Bogota, Colombia",
+   4.65,
+   -74.08
   ],
   "soccer:493": [
    "Shakhtar Donetsk",
@@ -2996,11 +4328,23 @@
    49.84,
    24.03
   ],
+  "soccer:4936": [
+   "Remo",
+   "Belém, Brazil",
+   -1.45,
+   -48.47
+  ],
   "soccer:494": [
    "Slavia Prague",
    "Prague, Czechia",
    50.09,
    14.42
+  ],
+  "soccer:5": [
+   "Boca Juniors",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
   ],
   "soccer:510": [
    "Viking FK",
@@ -3013,6 +4357,108 @@
    "Bratislava, Slovakia",
    48.14,
    17.11
+  ],
+  "soccer:5264": [
+   "Atlético Nacional",
+   "Medellin, Colombia",
+   6.27,
+   -75.6
+  ],
+  "soccer:5267": [
+   "Alianza Atlético",
+   "Sullana, Peru",
+   -4.57,
+   -80.64
+  ],
+  "soccer:5321": [
+   "Adelaide United FC",
+   "Adelaide, Australia",
+   -34.93,
+   138.6
+  ],
+  "soccer:5322": [
+   "Perth Glory FC",
+   "Perth, Australia",
+   -31.96,
+   115.86
+  ],
+  "soccer:5323": [
+   "Newcastle Jets",
+   "Newcastle, New South Wales, Australia",
+   -32.92,
+   151.78
+  ],
+  "soccer:5325": [
+   "Central Coast Mariners FC",
+   "Gosford, New South Wales, Australia",
+   -33.42,
+   151.34
+  ],
+  "soccer:5326": [
+   "Brisbane Roar FC",
+   "Brisbane, Australia",
+   -27.47,
+   153.02
+  ],
+  "soccer:5327": [
+   "Sydney FC",
+   "Sydney, Australia",
+   -33.87,
+   151.21
+  ],
+  "soccer:5328": [
+   "Melbourne Victory",
+   "Melbourne, Australia",
+   -37.81,
+   144.96
+  ],
+  "soccer:5480": [
+   "Boyacá Chicó FC",
+   "Tunja, Colombia",
+   5.53,
+   -73.36
+  ],
+  "soccer:5484": [
+   "Millonarios",
+   "Bogota, Colombia",
+   4.65,
+   -74.08
+  ],
+  "soccer:5485": [
+   "Deportivo Pasto",
+   "Pasto, Colombia",
+   1.21,
+   -77.28
+  ],
+  "soccer:5486": [
+   "Deportivo Pereira",
+   "Pereira, Risaralda, Colombia",
+   4.79,
+   -75.79
+  ],
+  "soccer:5488": [
+   "Independiente Santa Fe",
+   "Bogota, Colombia",
+   4.65,
+   -74.08
+  ],
+  "soccer:5489": [
+   "Deportes Tolima",
+   "Ibague, Colombia",
+   4.44,
+   -75.21
+  ],
+  "soccer:5492": [
+   "Liverpool",
+   "Montevideo, Uruguay",
+   -34.91,
+   -56.19
+  ],
+  "soccer:5570": [
+   "Sport Boys",
+   "Callao, Peru",
+   -12.09,
+   -77.22
   ],
   "soccer:570": [
    "Club Brugge",
@@ -3038,11 +4484,53 @@
    52.52,
    13.4
   ],
+  "soccer:6037": [
+   "Carabobo",
+   "Valencia, Venezuela",
+   10.17,
+   -68
+  ],
+  "soccer:6072": [
+   "O'Higgins",
+   "Rancagua, Chile",
+   -34.17,
+   -70.74
+  ],
   "soccer:6077": [
    "Houston Dynamo FC",
    "Houston, Texas, United States",
    29.76,
    -95.37
+  ],
+  "soccer:6079": [
+   "Red Bull Bragantino",
+   "Bragança Paulista, Brazil",
+   -22.95,
+   -46.54
+  ],
+  "soccer:6086": [
+   "Botafogo",
+   "Rio de Janeiro, Brazil",
+   -22.91,
+   -43.21
+  ],
+  "soccer:6097": [
+   "2 de Mayo",
+   "Pedro Juan Caballero, Paraguay",
+   -22.55,
+   -55.74
+  ],
+  "soccer:6101": [
+   "Cúcuta Deportivo",
+   "Cúcuta, Colombia",
+   8.08,
+   -72.47
+  ],
+  "soccer:6137": [
+   "Atlético Bucaramanga",
+   "Bucaramanga, Colombia",
+   7.17,
+   -73.1
   ],
   "soccer:617": [
    "Omonia Nicosia",
@@ -3056,11 +4544,23 @@
    47.5,
    19.04
   ],
+  "soccer:6273": [
+   "Grêmio",
+   "Porto Alegre, Brazil",
+   -30.03,
+   -51.23
+  ],
   "soccer:6851": [
    "Paris FC",
    "Paris, France",
    48.85,
    2.35
+  ],
+  "soccer:6870": [
+   "Kasimpasa",
+   "Istanbul, Türkiye",
+   41.01,
+   28.98
   ],
   "soccer:6997": [
    "Brest",
@@ -3068,11 +4568,227 @@
    48.39,
    -4.49
   ],
+  "soccer:7077": [
+   "Golden Arrows",
+   "Durban, South Africa",
+   -29.86,
+   31.01
+  ],
+  "soccer:7079": [
+   "AmaZulu",
+   "Durban, South Africa",
+   -29.86,
+   31.01
+  ],
+  "soccer:7081": [
+   "Kaizer Chiefs",
+   "Johannesburg, South Africa",
+   -26.2,
+   28.05
+  ],
+  "soccer:7084": [
+   "Mamelodi Sundowns",
+   "Pretoria, South Africa",
+   -25.75,
+   28.19
+  ],
+  "soccer:7085": [
+   "Orlando Pirates",
+   "Johannesburg, South Africa",
+   -26.2,
+   28.05
+  ],
+  "soccer:7099": [
+   "Polokwane City FC",
+   "Polokwane, South Africa",
+   -23.91,
+   29.46
+  ],
+  "soccer:7102": [
+   "Gamba Osaka",
+   "Osaka, Japan",
+   34.69,
+   135.5
+  ],
+  "soccer:7104": [
+   "Shimizu S-Pulse",
+   "Shizuoka, Japan",
+   34.98,
+   138.38
+  ],
+  "soccer:7107": [
+   "Avispa Fukuoka",
+   "Hakata-ku, Fukuoka, Japan",
+   33.59,
+   130.41
+  ],
+  "soccer:7108": [
+   "Nagoya Grampus",
+   "Toyota, Japan",
+   35.08,
+   137.16
+  ],
+  "soccer:7109": [
+   "Cerezo Osaka",
+   "Osaka, Japan",
+   34.69,
+   135.5
+  ],
+  "soccer:7111": [
+   "JEF United Ichihara-Chiba",
+   "Chiba, Japan",
+   35.55,
+   140.26
+  ],
+  "soccer:7112": [
+   "Kawasaki Frontale",
+   "Kawasaki, Japan",
+   35.53,
+   139.7
+  ],
+  "soccer:7114": [
+   "Sanfrecce Hiroshima",
+   "Hiroshima, Japan",
+   34.39,
+   132.45
+  ],
+  "soccer:7115": [
+   "Kashima Antlers",
+   "Kashima, Japan",
+   35.97,
+   140.65
+  ],
+  "soccer:7116": [
+   "Yokohama F. Marinos",
+   "Yokohama, Japan",
+   35.45,
+   139.63
+  ],
+  "soccer:7119": [
+   "Jeonbuk Hyundai Motors",
+   "Jeonju, South Korea",
+   35.82,
+   127.15
+  ],
+  "soccer:7123": [
+   "Pakhtakor",
+   "Tashkent, Uzbekistan",
+   41.31,
+   69.28
+  ],
+  "soccer:7128": [
+   "Al Ain",
+   "Al Ain, United Arab Emirates",
+   24.22,
+   55.75
+  ],
+  "soccer:7129": [
+   "Al-Gharafa",
+   "Ar-Rayyan, Qatar",
+   25.08,
+   51.16
+  ],
+  "soccer:7135": [
+   "Al Sadd",
+   "Doha, Qatar",
+   25.31,
+   51.51
+  ],
+  "soccer:7138": [
+   "Buriram United",
+   "Buriram, Thailand",
+   14.61,
+   102.65
+  ],
+  "soccer:7312": [
+   "Melgar",
+   "Arequipa, Peru",
+   -16.4,
+   -71.54
+  ],
   "soccer:7318": [
    "Toronto FC",
    "Toronto, Canada",
    43.65,
    -79.38
+  ],
+  "soccer:7385": [
+   "Guaraní",
+   "Asunción, Paraguay",
+   -25.28,
+   -57.63
+  ],
+  "soccer:7445": [
+   "Internacional de Bogotá",
+   "Bogota, Colombia",
+   4.65,
+   -74.08
+  ],
+  "soccer:7476": [
+   "Kashiwa Reysol",
+   "Kashiwa, Japan",
+   35.87,
+   139.98
+  ],
+  "soccer:7477": [
+   "Vissel Kobe",
+   "Kobe, Japan",
+   34.69,
+   135.19
+  ],
+  "soccer:7501": [
+   "MC Alger",
+   "Douera, Algeria",
+   36.67,
+   2.94
+  ],
+  "soccer:7521": [
+   "Shandong Taishan",
+   "Jinan, China",
+   36.65,
+   117.11
+  ],
+  "soccer:7525": [
+   "Esteghlal FC",
+   "Tehran, Iran",
+   35.69,
+   51.39
+  ],
+  "soccer:7530": [
+   "Neftchi Fergana",
+   "Fergana, Uzbekistan",
+   40.38,
+   71.79
+  ],
+  "soccer:7632": [
+   "Atlético-MG",
+   "Belo Horizonte, Brazil",
+   -19.92,
+   -43.95
+  ],
+  "soccer:7648": [
+   "Konyaspor",
+   "Konya, Türkiye",
+   37.87,
+   32.49
+  ],
+  "soccer:7656": [
+   "Caykur Rizespor",
+   "Rize, Türkiye",
+   40.96,
+   40.88
+  ],
+  "soccer:7764": [
+   "Platense",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
+  ],
+  "soccer:7767": [
+   "Tigre",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
   ],
   "soccer:7868": [
    "Angers",
@@ -3080,17 +4796,143 @@
    47.47,
    -0.55
   ],
+  "soccer:789": [
+   "Goztepe",
+   "Izmir, Türkiye",
+   38.42,
+   27.13
+  ],
+  "soccer:790": [
+   "Shabab Al Ahli",
+   "Dubai, United Arab Emirates",
+   25.07,
+   55.19
+  ],
   "soccer:7911": [
    "TSG Hoffenheim",
    "Sinsheim, Germany",
    49.23,
    8.9
   ],
+  "soccer:7914": [
+   "Istanbul Basaksehir",
+   "Istanbul, Türkiye",
+   41.01,
+   28.98
+  ],
+  "soccer:7915": [
+   "Llaneros FC",
+   "Villavicencio, Colombia",
+   4.11,
+   -73.5
+  ],
+  "soccer:793": [
+   "Al Shabab",
+   "King Fahd International Stadium, Saudi Arabia",
+   24.79,
+   46.84
+  ],
+  "soccer:8": [
+   "Estudiantes de La Plata",
+   "La Plata, Argentina",
+   -34.92,
+   -57.95
+  ],
+  "soccer:8004": [
+   "Gor Mahia",
+   "Nairobi, Kenya",
+   -1.29,
+   36.82
+  ],
+  "soccer:8054": [
+   "Power Dynamos",
+   "Ndola, Zambia",
+   -12.97,
+   28.64
+  ],
+  "soccer:8109": [
+   "América de Cali",
+   "Cali, Colombia",
+   3.41,
+   -76.58
+  ],
+  "soccer:817": [
+   "Al Nassr",
+   "King Fahd International Stadium, Saudi Arabia",
+   24.79,
+   46.84
+  ],
+  "soccer:8186": [
+   "Coquimbo Unido",
+   "Coquimbo, Chile",
+   -30.75,
+   -70.9
+  ],
+  "soccer:819": [
+   "Flamengo",
+   "Rio de Janeiro, Brazil",
+   -22.91,
+   -43.21
+  ],
+  "soccer:8239": [
+   "Tianjin Jinmen Tiger",
+   "Tianjin, China",
+   39.3,
+   117.42
+  ],
+  "soccer:8240": [
+   "Henan",
+   "Zhengzhou, China",
+   34.75,
+   113.62
+  ],
   "soccer:83": [
    "Barcelona",
    "Barcelona, Spain",
    41.38,
    2.18
+  ],
+  "soccer:8346": [
+   "Al Ahli",
+   "Jeddah, Saudi Arabia",
+   21.55,
+   39.17
+  ],
+  "soccer:8352": [
+   "Wellington Phoenix",
+   "Wellington, New Zealand",
+   -41.29,
+   174.78
+  ],
+  "soccer:8363": [
+   "Al Ettifaq",
+   "Dammam, Saudi Arabia",
+   26.44,
+   50.1
+  ],
+  "soccer:8365": [
+   "Al Wasl",
+   "Dubai, United Arab Emirates",
+   25.07,
+   55.19
+  ],
+  "soccer:8377": [
+   "Esperance Sportive de Tunis",
+   "Hammadi Agrebi Stadium, Tunisia",
+   36.75,
+   10.27
+  ],
+  "soccer:8392": [
+   "Zamalek",
+   "Cairo, Egypt",
+   30.04,
+   31.24
+  ],
+  "soccer:8416": [
+   "Juventud",
+   "Montevideo, Uruguay",
+   -34.91,
+   -56.19
   ],
   "soccer:85": [
    "Celta Vigo",
@@ -3110,11 +4952,23 @@
    43.46,
    -3.81
   ],
+  "soccer:874": [
+   "Corinthians",
+   "Sao Paulo, Brazil",
+   -23.55,
+   -46.63
+  ],
   "soccer:88": [
    "Espanyol",
    "Barcelona, Spain",
    41.38,
    2.18
+  ],
+  "soccer:885": [
+   "Universidad Católica",
+   "Santiago, Chile",
+   -33.44,
+   -70.65
   ],
   "soccer:887": [
    "AEK Athens",
@@ -3122,11 +4976,35 @@
    37.98,
    23.73
   ],
+  "soccer:8896": [
+   "Churchill Brothers",
+   "Fatorda, Goa, India",
+   15.3,
+   73.97
+  ],
+  "soccer:8897": [
+   "East Bengal FC",
+   "Kolkata, India",
+   22.57,
+   88.36
+  ],
   "soccer:89": [
    "Real Sociedad",
    "San Sebastian, Spain",
    43.32,
    -1.98
+  ],
+  "soccer:8950": [
+   "Defensa y Justicia",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
+  ],
+  "soccer:9": [
+   "Gimnasia La Plata",
+   "La Plata, Argentina",
+   -34.92,
+   -57.95
   ],
   "soccer:90": [
    "Deportivo",
@@ -3134,11 +5012,35 @@
    43.35,
    -8.41
   ],
+  "soccer:9078": [
+   "Alanyaspor",
+   "Antalya, Türkiye",
+   36.89,
+   30.7
+  ],
+  "soccer:9169": [
+   "Mirassol",
+   "Mirassol, Brazil",
+   -20.81,
+   -49.51
+  ],
+  "soccer:929": [
+   "Al Hilal",
+   "King Fahd International Stadium, Saudi Arabia",
+   24.79,
+   46.84
+  ],
   "soccer:93": [
    "Athletic Club",
    "Bilbao, Spain",
    43.26,
    -2.94
+  ],
+  "soccer:9318": [
+   "Chapecoense",
+   "Chapecó, Brazil",
+   -27.11,
+   -52.6
   ],
   "soccer:94": [
    "Valencia",
@@ -3151,6 +5053,12 @@
    "Vitoria-Gasteiz, Spain",
    42.85,
    -2.66
+  ],
+  "soccer:9693": [
+   "Pohang Steelers",
+   "Pohang, South Korea",
+   36.02,
+   129.34
   ],
   "soccer:97": [
    "Osasuna",
@@ -3182,6 +5090,42 @@
    49.26,
    -123.11
   ],
+  "soccer:9739": [
+   "Aldosivi",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
+  ],
+  "soccer:9744": [
+   "Independiente Rivadavia",
+   "Mendoza, Argentina",
+   -34.6,
+   -68.73
+  ],
+  "soccer:9761": [
+   "Alianza FC",
+   "Valledupar, Colombia",
+   10.34,
+   -73.38
+  ],
+  "soccer:9762": [
+   "Águilas Doradas",
+   "Medellin, Colombia",
+   6.27,
+   -75.6
+  ],
+  "soccer:977": [
+   "Shanghai Shenhua FC",
+   "Shanghai, China",
+   31.23,
+   121.47
+  ],
+  "soccer:9785": [
+   "Atlético Tucumán",
+   "Tucuman, Argentina",
+   -27.04,
+   -65.37
+  ],
   "soccer:987": [
    "Lillestrom",
    "Lillestrøm, Norway",
@@ -3193,6 +5137,30 @@
    "Malaga, Spain",
    36.76,
    -4.44
+  ],
+  "soccer:995": [
+   "Kocaelispor",
+   "Kocaeli, Türkiye",
+   40.82,
+   29.95
+  ],
+  "soccer:996": [
+   "Genclerbirligi",
+   "Ankara, Türkiye",
+   39.92,
+   32.85
+  ],
+  "soccer:9967": [
+   "Bahia",
+   "Salvador, Brazil",
+   -12.98,
+   -38.48
+  ],
+  "soccer:997": [
+   "Trabzonspor",
+   "Trabzon, Türkiye",
+   41.01,
+   39.73
   ]
  },
  "circuits": {

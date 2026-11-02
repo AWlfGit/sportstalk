@@ -133,6 +133,8 @@ main{padding-block:26px 120px}
 .tt-fx button{flex:0 0 auto;background:var(--glass);border:1px solid var(--hair);border-radius:999px;padding:7px 12px;color:var(--muted);font:600 13px/1 var(--f-body);cursor:pointer;white-space:nowrap}
 .tt-fx button:hover{color:var(--chalk)}
 .tt-fx button[aria-pressed=true]{background:var(--flood);border-color:var(--flood);color:var(--flood-ink)}
+.tt-lgsel{padding:0 16px 12px}
+.tt-lgsel .fld{max-width:none}
 .tt-list{position:relative;max-height:min(62vh,600px);overflow-y:auto;border-top:1px solid var(--hair);scrollbar-width:thin;scrollbar-color:var(--line) transparent}
 .tt-day{position:sticky;top:0;z-index:1;padding:8px 16px;font:700 11px/1 var(--f-body);text-transform:uppercase;letter-spacing:.14em;color:var(--muted);background:var(--turf);border-bottom:1px solid var(--hair)}
 .tt-row{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;row-gap:7px;align-items:center;width:100%;background:none;border:0;border-bottom:1px solid var(--hair);padding:11px 16px;text-align:left;cursor:pointer;font:inherit;color:var(--chalk);transition:background-color .15s}
@@ -483,6 +485,8 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .tt-fx{gap:5px;padding:0 14px 10px}
 :root:not([data-skin=retro]) .tt-fx button{border-radius:6px;background:var(--m-slab-2);padding:6px 9px;font:700 12px/1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase}
 :root:not([data-skin=retro]) .tt-fx button[aria-pressed=true]{background:var(--flood);border-color:var(--flood);color:var(--flood-ink)}
+:root:not([data-skin=retro]) .tt-lgsel{padding:0 14px 10px}
+:root:not([data-skin=retro]) .tt-lgsel .fld{gap:5px;font:700 10.5px/1 var(--f-cap);letter-spacing:.12em}
 :root:not([data-skin=retro]) .tt-list{max-height:min(68vh,640px);scrollbar-color:var(--line) transparent}
 :root:not([data-skin=retro]) .tt-day{padding:6px 14px;background:#090d12;color:var(--flood);border-bottom:1px solid var(--hair)}
 :root:not([data-skin=retro]) .tt-row{row-gap:5px;padding:8px 14px;border-bottom:1px solid rgba(255,255,255,.05)}
@@ -1008,6 +1012,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root[data-skin=retro] .where-opt b{font:bold 15px/1.2 var(--f-body)}
 @media(pointer:coarse){:root[data-skin=retro] .tt-where button,:root[data-skin=retro] .where-sub .btn{min-height:36px}:root[data-skin=retro] .linkish{min-height:36px;padding:0 4px}}
 :root[data-skin=retro] .tt-fx button{color:var(--r-ink);text-decoration:underline;text-transform:none;font-size:12px;padding:2px 4px;border-radius:4px}
+:root[data-skin=retro] .tt-lgsel{padding:8px 12px;border-bottom:2px solid var(--turf-2)}
 :root[data-skin=retro] .tt-fx button[aria-pressed=true]{color:var(--r-white);background:var(--r-green-edge);text-decoration:none;font-weight:bold}
 :root[data-skin=retro] .tt-day{color:var(--r-white);background:var(--r-green-edge);font:bold 11px/1 var(--f-body);padding:5px 12px;text-transform:uppercase;letter-spacing:.05em;margin-top:4px}
 :root[data-skin=retro] .tt-row{font-size:13px;text-transform:none;padding:6px 12px;border-bottom:1px solid var(--turf-2);color:var(--r-ink)}
@@ -1245,8 +1250,8 @@ const ESPN=(()=>{
   const SITE="https://site.api.espn.com/apis/site/v2/sports/";
   const V2="https://site.api.espn.com/apis/v2/sports/";
   const LEAGUES={
-    football:[["soccer/eng.1","Premier League"],["soccer/eng.2","Championship"],["soccer/sco.1","Scottish Premiership"],["soccer/uefa.champions","Champions League"],["soccer/uefa.europa","Europa League"],["soccer/esp.1","LaLiga"],["soccer/ita.1","Serie A"],["soccer/ger.1","Bundesliga"],["soccer/fra.1","Ligue 1"],["soccer/usa.1","MLS"]],
-    rugby:[["rugby/267979","Premiership Rugby"],["rugby/270557","United Rugby Championship"],["rugby/289234","Test matches"],["rugby/271937","Champions Cup"],["rugby/180659","Six Nations"]],
+    football:[["soccer/eng.1","Premier League"],["soccer/eng.2","Championship"],["soccer/sco.1","Scottish Premiership"],["soccer/uefa.champions","Champions League"],["soccer/uefa.europa","Europa League"],["soccer/esp.1","LaLiga"],["soccer/ita.1","Serie A"],["soccer/ger.1","Bundesliga"],["soccer/fra.1","Ligue 1"],["soccer/usa.1","MLS"],["soccer/tur.1","Turkish Super Lig"],["soccer/mex.1","Liga MX"],["soccer/bra.1","Brazilian Serie A"],["soccer/arg.1","Argentine Primera División"],["soccer/col.1","Colombian Primera A"],["soccer/per.1","Peruvian Liga 1"],["soccer/conmebol.libertadores","Copa Libertadores"],["soccer/aus.1","A-League Men"],["soccer/jpn.1","J1 League"],["soccer/chn.1","Chinese Super League"],["soccer/ksa.1","Saudi Pro League"],["soccer/ind.1","Indian Super League"],["soccer/afc.champions","AFC Champions League Elite"],["soccer/rsa.1","South African Premiership"],["soccer/caf.champions","CAF Champions League"]],
+    rugby:[["rugby/267979","Premiership Rugby"],["rugby/270557","United Rugby Championship"],["rugby/242041","Super Rugby Pacific"],["rugby/289234","Test matches"],["rugby/271937","Champions Cup"],["rugby/180659","Six Nations"]],
     cricket:[],
     f1:[["racing/f1","Formula 1"]],
     nfl:[["football/nfl","NFL"],["football/college-football","College football"],["football/cfl","CFL"]],
@@ -1660,7 +1665,13 @@ function lingoByName(name,sp,exact){
   const near=pool.filter(t=>norm(t.team).includes(n)||(t.aliases||[]).some(a=>{const x=norm(a);return x.length>=4&&(x.includes(n)||n.includes(x))}));
   return near.length===1?near[0]:null;
 }
-function lingoOf(lg,t){if(!t||!lg)return null;return LINGO_ID[lkey(lg,t.id)]||lingoByName(t.n,sportOf(lg),true)}
+function lingoOf(lg,t){
+  if(!t||!lg)return null;
+  const byId=LINGO_ID[lkey(lg,t.id)];if(byId)return byId;
+  // A guide tied to another team in the same competitions isn't this one (Super Rugby's Chiefs aren't Exeter Chiefs)
+  const L=lingoByName(t.n,sportOf(lg),true);
+  return L&&L.espnId&&L.league&&lkey(L.league,0).split("|")[0]===lkey(lg,0).split("|")[0]?null:L;
+}
 const regionOf=L=>(L&&L.region&&REGIONS[L.region])||null;
 const myLingo=()=>{const k=S.sport+"|"+teamName();if(lingoMemo.k!==k)lingoMemo={k,v:lingoByName(teamName(),S.sport)};return lingoMemo.v};
 function rivalOf(L,t){
@@ -1726,11 +1737,16 @@ const typedMemo={};
 function typedKeys(sp){
   const raw=(S.teams[sp]||"").trim(),m=norm(raw);if(m.length<2)return null;
   const lgs=(ESPN.LEAGUES[sp]||[]).map(x=>x[0]);
-  const k=sp+"|"+m+"|"+lgs.map(lg=>DATA.cache[lg]?DATA.cache[lg].games.length+(DATA.cache[lg].src||""):"-").join(",");
+  const A=area();
+  const k=sp+"|"+m+"|"+(A?A.ll.join(","):"")+"|"+lgs.map(lg=>DATA.cache[lg]?DATA.cache[lg].games.length+(DATA.cache[lg].src||""):"-").join(",");
   if(typedMemo[k])return typedMemo[k];
   const teams=new Map();
   for(const lg of lgs){const e=DATA.cache[lg];if(!e)continue;for(const g of e.games){if(g.res)continue;for(const t of [g.h,g.a])if(t&&t.id!=null)teams.set(LOCAL.placeKey(lg,t.id),t)}}
   let keys=[...teams].filter(([,t])=>[t.n,t.s,t.ab].some(x=>norm(x)===m)).map(([key])=>key);
+  // One name, several clubs ("Liverpool" in England and Uruguay, "Santos" in Brazil and Mexico):
+  // the one with a fan guide, else the one nearest the visitor
+  if(keys.length>1){const L=lingoByName(raw,sp),gk=L&&L.espnId?LOCAL.placeKey(L.league,L.espnId):null;if(gk&&keys.includes(gk))keys=[gk]}
+  if(keys.length>1&&A){let best=null,d=Infinity;for(const key of keys){const p=PLACES.t[key];if(p){const x=LOCAL.km(A.ll,p);if(x<d){d=x;best=key}}}if(best)keys=[best]}
   if(!keys.length){const ends=[...teams].filter(([,t])=>{const n=norm(t.n);return n.endsWith(" "+m)||n.startsWith(m+" ")});if(ends.length===1)keys=[ends[0][0]]}
   if(!keys.length){const L=lingoByName(raw,sp);if(L&&L.espnId)keys=[LOCAL.placeKey(L.league,L.espnId)]}
   return(typedMemo[k]=keys);
@@ -1759,6 +1775,16 @@ const ALL_LEAGUES=()=>Object.values(ESPN.LEAGUES).flat().map(x=>x[0]);
 // One sport: its leagues, or the one picked with the league buttons ("All leagues" is the default near
 // you; Everywhere starts on the sport's first league, as before)
 const lgChoice=()=>{const l=(ESPN.LEAGUES[S.pick]||[]).map(x=>x[0]);const c=area()?(S.lgLocal[S.pick]||"all"):(S.leagues[S.pick]||l[0]);return c==="all"||l.includes(c)?c:l[0]};
+// Near the visitor, a league gets a button only when it has a game in reach (or isn't loaded yet), or it's the one picked
+// Many leagues (football everywhere): a menu grouped by region instead of a long row of buttons
+const LG_REGION=lg=>/^soccer\/(usa|mex|bra|arg|col|per|conmebol|concacaf)\./.test(lg)?"The Americas":/^soccer\/(aus|jpn|chn|ksa|ind|afc)\./.test(lg)?"Asia and Oceania":/^soccer\/(rsa|caf)\./.test(lg)?"Africa":"Europe";
+function lgMenu(lgs,lc){
+  const groups=[];
+  for(const [k,n] of lgs){const r=LG_REGION(k);let g=groups.find(x=>x[0]===r);if(!g)groups.push(g=[r,[]]);g[1].push([k,n])}
+  return `<div class="tt-lgsel"><label class="fld" for="ttLeague">League<select id="ttLeague"><option value="all"${lc==="all"?" selected":""}>All leagues</option>${groups.map(([r,list])=>`<optgroup label="${esc(r)}">${list.map(([k,n])=>`<option value="${esc(k)}"${k===lc?" selected":""}>${esc(n)}</option>`).join("")}</optgroup>`).join("")}</select></label></div>`;
+}
+function pickLeague(v){if(area())S.lgLocal[S.pick]=v;else{S.leagues[S.pick]=v;store.set("leagues",S.leagues)}S.game=null;S.ttAll=false;poolMemo={k:null,v:null};return loadAndRender()}
+function lgsNear(A){const l=(ESPN.LEAGUES[S.pick]||[]);if(!A)return l;const lc=lgChoice();return l.filter(([k])=>{const e=DATA.cache[k];return k===lc||!e||e.games.some(g=>LOCAL.isLocal(g,A,PLACES,typedMine))})}
 function poolLeagues(){
   if(S.pick==="all")return ALL_LEAGUES();
   const l=(ESPN.LEAGUES[S.pick]||[]).map(x=>x[0]),c=lgChoice();
@@ -1787,7 +1813,7 @@ function pool(){
 }
 const findGame=(id,lg)=>{for(const e of Object.values(DATA.cache))for(const g of e.games)if(g.id===id&&(!lg||g.lg===lg))return g;return null};
 // Short league names for mixed lists
-const LG_SHORT={"soccer/eng.1":"Premier League","soccer/eng.2":"Championship","soccer/sco.1":"Scottish Prem","soccer/uefa.champions":"Champions League","soccer/uefa.europa":"Europa League","soccer/esp.1":"LaLiga","soccer/ita.1":"Serie A","soccer/ger.1":"Bundesliga","soccer/fra.1":"Ligue 1","soccer/usa.1":"MLS","rugby/267979":"Prem Rugby","rugby/270557":"URC","rugby/289234":"Rugby Test","rugby/271937":"Champions Cup","rugby/180659":"Six Nations","racing/f1":"F1","football/nfl":"NFL","football/college-football":"College football","football/cfl":"CFL","basketball/nba":"NBA","hockey/nhl":"NHL","baseball/mlb":"MLB"};
+const LG_SHORT={"soccer/eng.1":"Premier League","soccer/eng.2":"Championship","soccer/sco.1":"Scottish Prem","soccer/uefa.champions":"Champions League","soccer/uefa.europa":"Europa League","soccer/esp.1":"LaLiga","soccer/ita.1":"Serie A","soccer/ger.1":"Bundesliga","soccer/fra.1":"Ligue 1","soccer/usa.1":"MLS","soccer/tur.1":"Süper Lig","soccer/mex.1":"Liga MX","soccer/bra.1":"Brasileirão","soccer/arg.1":"Argentina","soccer/col.1":"Colombia","soccer/per.1":"Peru Liga 1","soccer/conmebol.libertadores":"Libertadores","soccer/aus.1":"A-League","soccer/jpn.1":"J1 League","soccer/chn.1":"Chinese SL","soccer/ksa.1":"Saudi Pro","soccer/ind.1":"ISL","soccer/afc.champions":"AFC Champions","soccer/rsa.1":"SA Premiership","soccer/caf.champions":"CAF Champions","rugby/267979":"Prem Rugby","rugby/270557":"URC","rugby/242041":"Super Rugby","rugby/289234":"Rugby Test","rugby/271937":"Champions Cup","rugby/180659":"Six Nations","racing/f1":"F1","football/nfl":"NFL","football/college-football":"College football","football/cfl":"CFL","basketball/nba":"NBA","hockey/nhl":"NHL","baseball/mlb":"MLB"};
 const lgShort=lg=>LG_SHORT[lg]||leagueName(lg);
 function whereText(){const A=area();return S.where.mode==="off"?"Everywhere":A?"Near "+placeShort(A.label):"Pick your area"}
 function updateWhereBtn(){const b=$("#whereBtn");if(b){b.textContent=whereText();b.classList.toggle("off",S.where.mode==="off")}}
@@ -2523,11 +2549,11 @@ function crest(t,big){
 document.addEventListener("error",e=>{const im=e.target;if(im&&im.tagName==="IMG"&&im.parentNode&&im.parentNode.classList.contains("crest")){im.parentNode.classList.remove("logo");im.remove()}},true);
 function ttPage(entry){
   const now=new Date(),A=area(),all=S.pick==="all",sp=SPORTS[all?S.sport:S.pick],lg=currentLg();
-  const lgs=all?[]:leagueList(),title=all?"All sports":sp.label.replace(/ \(.*\)/,""),lc=all?null:lgChoice(),kind=all?"":sportWord(S.pick)+" ";
+  const lgs=all?[]:entry&&entry.fallback?leagueList():lgsNear(A),title=all?"All sports":sp.label.replace(/ \(.*\)/,""),lc=all?null:lgChoice(),kind=all?"":sportWord(S.pick)+" ";
   // One tap between local and everywhere, right on the list
   const toggle=`<div class="tt-where" role="group" aria-label="Where"><button type="button" data-where="local" aria-pressed="${S.where.mode!=="off"&&!!A}">${esc((()=>{const L=A||LOCAL.area(Object.assign({},S.where,{mode:S.where.last&&S.where.last!=="off"?S.where.last:"auto"}),PLACES,TZ);return L?"Near "+placeShort(L.label):"Near me"})())}</button><button type="button" data-where="off" aria-pressed="${S.where.mode==="off"||!A}">Everywhere</button></div>`;
   const head=`<div class="tt-head"><div><p class="tt-kick">Results · ${esc(now.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"}))}</p><h3 class="tt-title">${esc(title)}</h3></div><span class="tt-clock">${String(now.getHours()).padStart(2,"0")}:${String(now.getMinutes()).padStart(2,"0")}</span></div>
-  ${entry&&entry.none?"":toggle}${entry&&entry.fallback?`<p class="tt-guess">Nothing within ${esc(kmText(A.km))} of ${esc(placeShort(A.label))} this week, so here's every game.${A.km<2000?` <button type="button" class="linkish" data-wider="1">Look further</button> ·`:""} <button type="button" class="linkish" id="whereBtn4">${A.src==="tz"?"Pick my city":"Change your area"}</button></p>`:""}${A&&A.src==="tz"&&!S.where.tzOk&&!(entry&&entry.fallback)?`<p class="tt-guess">Near ${esc(placeShort(A.label))} is a guess from your device's time zone, so this looks ${esc(kmText(A.km))} out. <button type="button" class="linkish" data-guess="ok">That's right</button> · <button type="button" class="linkish" id="whereBtn4">Pick my city</button></p>`:""}${lgs.length>1?`<div class="tt-fx" role="group" aria-label="League">${[["all","All leagues"]].concat(lgs).map(([k,n])=>`<button type="button" data-lg="${esc(k)}" aria-pressed="${k===lc}">${esc(n)}</button>`).join("")}</div>`:""}`;
+  ${entry&&entry.none?"":toggle}${entry&&entry.fallback?`<p class="tt-guess">Nothing within ${esc(kmText(A.km))} of ${esc(placeShort(A.label))} this week, so here's every game.${A.km<2000?` <button type="button" class="linkish" data-wider="1">Look further</button> ·`:""} <button type="button" class="linkish" id="whereBtn4">${A.src==="tz"?"Pick my city":"Change your area"}</button></p>`:""}${A&&A.src==="tz"&&!S.where.tzOk&&!(entry&&entry.fallback)?`<p class="tt-guess">Near ${esc(placeShort(A.label))} is a guess from your device's time zone, so this looks ${esc(kmText(A.km))} out. <button type="button" class="linkish" data-guess="ok">That's right</button> · <button type="button" class="linkish" id="whereBtn4">Pick my city</button></p>`:""}${lgs.length>12?lgMenu(lgs,lc):lgs.length>1?`<div class="tt-fx" role="group" aria-label="League">${[["all","All leagues"]].concat(lgs).map(([k,n])=>`<button type="button" data-lg="${esc(k)}" aria-pressed="${k===lc}">${esc(n)}</button>`).join("")}</div>`:""}`;
   if(entry&&entry.none)return `<div class="tt">${head}<div class="tt-msg">No results service for ${esc(sp.label)}.<br><span class="y">Use the phrase book and the pub test.</span></div></div>`;
   if(!entry||entry.partial&&!entry.games.length)return `<div class="tt">${head}<div class="tt-msg"><span class="blink">Searching</span> for ${esc(all?"the week's":A?"local":leagueName(lg))} results…</div></div>`;
   let list="";
@@ -3426,7 +3452,7 @@ document.addEventListener("click",e=>{
   if(d.skin){setSkin(d.skin);return}
   if(d.tab){go(d.tab);return}
   if(d.go){go(d.go);return}
-  if(d.lg){if(area())S.lgLocal[S.pick]=d.lg;else{S.leagues[S.pick]=d.lg;store.set("leagues",S.leagues)}S.game=null;S.ttAll=false;poolMemo={k:null,v:null};loadAndRender();return}
+  if(d.lg){pickLeague(d.lg);return}
   if(d.guess){setWhere(Object.assign({},S.where,{tzOk:true}),true);focusList();return}
   if(d.wider){const k=LOCAL.kmOf(S.where),n=LOCAL.DISTANCES.find(x=>x>k);if(n)setWhere(Object.assign({},S.where,{km:n}));focusList();return}
   if(d.more!=null){S.ttAll=true;renderScript();return}
@@ -3469,6 +3495,8 @@ document.addEventListener("click",e=>{
 });
 document.addEventListener("change",e=>{
   if(e.target.id==="driverSel"){S.driver=e.target.value;pub=null;drill=null;renderScript()}
+  // The league menu is redrawn with the list, so keyboard focus goes back to it
+  if(e.target.id==="ttLeague")Promise.resolve(pickLeague(e.target.value)).then(()=>{const s=$("#ttLeague");if(s)s.focus()});
   if(e.target.name==="where"){const v=e.target.value;if(v==="city"){const c=S.where.city;if(c)setWhere({mode:"city",city:c,gps:S.where.gps,km:S.where.km});else{wherePending="city";$("#whereKm").disabled=false;$("#whereCity").focus();$("#whereMsg").textContent="Type your city, then pick it from the list."}}else setWhere(Object.assign({},S.where,{mode:v}))}
   if(e.target.id==="whereCity"){const v=e.target.value;if(PLACES.cities.some(c=>c[0]===v))pickCity(v)}
   if(e.target.id==="whereKm"){$("#whereMsg").textContent=WHERE_PRIVACY;setWhere(Object.assign({},S.where,{km:+e.target.value}))}

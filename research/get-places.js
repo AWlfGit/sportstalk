@@ -5,7 +5,8 @@
 // the page.
 //
 // 1. ESPN: each league's teams, then each team's schedule. A team's home is the city of the venue
-//    where it plays most of its home games (games ESPN marks as neutral-site don't count). Rugby
+//    where it plays most of its home games (games ESPN marks as neutral-site don't count). Domestic
+//    leagues go first, so a club in a continental cup keeps the home of its league games. Rugby
 //    schedules carry no venues, so rugby clubs and national sides come from
 //    research/places-manual.json. F1 races use the circuit's city.
 // 2. OpenStreetMap's Nominatim service: each city's coordinates, at most one request a second (its
@@ -55,28 +56,33 @@ async function teamsOf(lg) {
   const j = await getJSON(SITE + lg + "/teams?limit=1000");
   return (((j && j.sports && j.sports[0] && j.sports[0].leagues[0].teams) || [])).map((x) => ({ id: String(x.team.id), n: x.team.displayName }));
 }
+// ESPN's country names that OpenStreetMap reads differently ("China PR" finds Cape Verde)
+const COUNTRY = { USA: "United States", "China PR": "China", "Comoros Islands": "Comoros", "Korea Republic": "South Korea", "IR Iran": "Iran", "Congo DR": "DR Congo" };
 const addr = (a) => {
   if (!a || !a.city) return null;
-  const country = a.country === "USA" ? "United States" : a.country || "";
+  const country = COUNTRY[a.country] || a.country || "";
   return [a.city, a.state && a.state !== country ? a.state : "", country].filter(Boolean).join(", ");
 };
-const few = [];
+// A team's home: the city of most of its home games this season, adding last season's while this
+// one has fewer than three (early in a season one game can be at a stand-in ground)
 async function homeOf(lg, id) {
-  const seasons = ["", "?season=" + (new Date().getFullYear() - 1)];
-  for (const q of seasons) {
+  const count = new Map();
+  let games = 0;
+  for (const q of ["", "?season=" + (new Date().getFullYear() - 1)]) {
     const j = await getJSON(SITE + lg + "/teams/" + id + "/schedule" + q);
-    const count = new Map();
     for (const e of (j && j.events) || []) {
       const c = e.competitions && e.competitions[0];
       if (!c || c.neutralSite) continue;
       const home = (c.competitors || []).find((x) => x.homeAway === "home");
       if (!home || String(home.id || (home.team && home.team.id)) !== String(id)) continue;
       const a = addr(c.venue && c.venue.address);
-      if (a) count.set(a, (count.get(a) || 0) + 1);
+      if (a) { count.set(a, (count.get(a) || 0) + 1); games++; }
     }
-    if (count.size) { const [c, n] = [...count.entries()].sort((x, y) => y[1] - x[1])[0]; if (n < 3) few.push(placeKey(lg, id) + " " + c + " (" + n + " home game" + (n > 1 ? "s" : "") + ")"); return c; }
+    if (games >= 3) break;
   }
-  return null;
+  if (!count.size) return null;
+  const [c, n] = [...count.entries()].sort((x, y) => y[1] - x[1])[0];
+  return { c, n };
 }
 
 // ---- Coordinates ----
@@ -100,16 +106,25 @@ async function geocode(q, cityOnly) {
 }
 
 // Countries each league's teams should be in (a check, not a filter)
-const EXPECT = { "football/nfl": ["us"], "football/college-football": ["us"], "football/cfl": ["ca"], "basketball/nba": ["us", "ca"], "hockey/nhl": ["us", "ca"], "baseball/mlb": ["us", "ca"], "soccer/usa.1": ["us", "ca"], "soccer/eng.1": ["gb"], "soccer/eng.2": ["gb"], "soccer/sco.1": ["gb"], "soccer/esp.1": ["es"], "soccer/ita.1": ["it"], "soccer/ger.1": ["de"], "soccer/fra.1": ["fr", "mc"] };
+const EXPECT = { "football/nfl": ["us"], "football/college-football": ["us"], "football/cfl": ["ca"], "basketball/nba": ["us", "ca"], "hockey/nhl": ["us", "ca"], "baseball/mlb": ["us", "ca"], "soccer/usa.1": ["us", "ca"], "soccer/eng.1": ["gb"], "soccer/eng.2": ["gb"], "soccer/sco.1": ["gb"], "soccer/esp.1": ["es"], "soccer/ita.1": ["it"], "soccer/ger.1": ["de"], "soccer/fra.1": ["fr", "mc"], "soccer/tur.1": ["tr"], "soccer/mex.1": ["mx"], "soccer/bra.1": ["br"], "soccer/arg.1": ["ar"], "soccer/col.1": ["co"], "soccer/per.1": ["pe"], "soccer/aus.1": ["au", "nz"], "soccer/jpn.1": ["jp"], "soccer/chn.1": ["cn"], "soccer/ksa.1": ["sa"], "soccer/ind.1": ["in"], "soccer/rsa.1": ["za"] };
+// Continental cups (UEFA, CONMEBOL, AFC, CAF, Concacaf): their "home" games can be played away from home
+const CUP = /^soccer\/(uefa|conmebol|afc|caf|concacaf)\./;
 
 (async () => {
-  const teams = {}, warn = [], none = [];
-  const leagues = Object.values(LEAGUES).flat().map((x) => x[0]).filter((lg) => !/^racing|^rugby/.test(lg)).sort((a, b) => /uefa/.test(a) - /uefa/.test(b));
+  const teams = {}, warn = [], none = [], few = [];
+  const leagues = Object.values(LEAGUES).flat().map((x) => x[0]).filter((lg) => !/^racing|^rugby/.test(lg)).sort((a, b) => CUP.test(a) - CUP.test(b));
   for (const lg of leagues) {
     const list = await teamsOf(lg);
     const homes = await pool(list, 6, (t) => homeOf(lg, t.id));
     let found = 0;
-    list.forEach((t, i) => { const k = placeKey(lg, t.id); if (homes[i]) { found++; if (!teams[k]) teams[k] = { n: t.n, c: homes[i], lg }; } else if (!teams[k]) none.push(lg + " " + t.n); });
+    list.forEach((t, i) => {
+      const k = placeKey(lg, t.id), h = homes[i];
+      if (!h) { if (!teams[k]) none.push(lg + " " + t.n); return; }
+      found++;
+      if (teams[k]) return;
+      teams[k] = { n: t.n, c: h.c, lg };
+      if (h.n < 3) few.push(k + " " + t.n + ": " + h.c + " (" + h.n + " home game" + (h.n > 1 ? "s" : "") + ")");
+    });
     console.log(`${lg}: ${list.length} teams, ${found} with a home venue`);
   }
   const MAN = JSON.parse(fs.readFileSync(path.join(__dirname, "places-manual.json"), "utf8"));

@@ -18,19 +18,35 @@ const src = fs.readFileSync(path.join(__dirname, "app.html"), "utf8");
 const code = src.split("/*ESPN-START*/")[1].split("/*ESPN-END*/")[0];
 const ESPN = new Function(code + ";return ESPN;")();
 
-// Team guides: merges research/out/*.json, keeps only the fields the page uses, and drops any
-// text containing a phrase listed in research/blocked.json (a JSON array of strings).
-// Without the research folder (for example on GitHub), it uses src/lingo.json, the cleaned copy
-// this script saves whenever the research folder is present.
+const str = (v) => (typeof v === "string" ? v.trim() : "");
+const arr = (v) => (Array.isArray(v) ? v : []);
+let blocked = [];
+try { blocked = JSON.parse(fs.readFileSync(path.join(root, "research", "blocked.json"), "utf8")); } catch (e) { /* none */ }
+const ok = (text) => !blocked.some((b) => String(text).toLowerCase().includes(String(b).toLowerCase()));
+// Which page sport a league belongs to (the same split the page uses)
+const SPORT_OF = (lg) => ({ soccer: "football", rugby: "rugby", cricket: "cricket", racing: "f1", football: "nfl", basketball: "nba", hockey: "nhl", baseball: "mlb" })[String(lg).split("/")[0]] || "";
+
+// Local lingo: team guides (research/out/*.json) and region packs (research/regions/*.json), keeping
+// only the fields the page uses, and dropping any text containing a phrase listed in
+// research/blocked.json. Pronunciation respellings (tts) are collected separately into the speech
+// lexicon. Without the research folder (for example on GitHub), it uses src/lingo.json, the cleaned
+// copy this script saves whenever the research folder is present.
 function loadLingo() {
   const dir = path.join(root, "research", "out");
   const saved = path.join(__dirname, "lingo.json");
-  if (!fs.existsSync(dir)) return fs.existsSync(saved) ? JSON.parse(fs.readFileSync(saved, "utf8")) : [];
-  const str = (v) => (typeof v === "string" ? v.trim() : "");
-  const arr = (v) => (Array.isArray(v) ? v : []);
-  let blocked = [];
-  try { blocked = JSON.parse(fs.readFileSync(path.join(root, "research", "blocked.json"), "utf8")); } catch (e) { /* none */ }
-  const ok = (text) => !blocked.some((b) => String(text).toLowerCase().includes(String(b).toLowerCase()));
+  if (!fs.existsSync(dir)) {
+    const d = fs.existsSync(saved) ? JSON.parse(fs.readFileSync(saved, "utf8")) : {};
+    return Array.isArray(d) ? { teams: d, regions: {}, say: {} } : { teams: arr(d.teams), regions: d.regions || {}, say: d.say || {} };
+  }
+  const say = {};
+  // A respelling only matters if it differs from the word itself
+  const addSay = (scope, word, tts) => {
+    word = str(word); tts = str(tts);
+    if (!word || !tts || tts.toLowerCase() === word.toLowerCase() || !/^(?:[a-z']+|A)(?: (?:[a-z']+|A))*$/.test(tts)) return;
+    const m = (say[scope] = say[scope] || {});
+    if (!(word in m)) m[word] = tts;
+  };
+  const regions = loadRegions(addSay);
   const out = [], seen = new Set();
   for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort()) {
     let data;
@@ -39,23 +55,81 @@ function loadLingo() {
       const team = str(t.team), league = str(t.league);
       if (!team || !league || seen.has(league + "|" + team)) continue;
       seen.add(league + "|" + team);
+      const sp = SPORT_OF(league);
+      const WHEN = ["any", "win", "loss", "rival"];
       const e = {
-        team, espnId: str(t.espnId), league,
+        team, espnId: str(t.espnId), league, region: str(t.region),
         aliases: arr(t.aliases).map(str).filter(Boolean).map((s) => s.toLowerCase()).slice(0, 8),
         nickname: str(t.nickname), fans: str(t.fans), ground: str(t.ground),
         rivals: arr(t.rivals).map((r) => ({ team: str(r && r.team), name: str(r && r.name) || str(r && r.team), derby: str(r && r.derby) })).filter((r) => r.name).slice(0, 3),
         legends: arr(t.legends).map(str).filter(Boolean).slice(0, 4),
         memory: str(t.memory),
-        lingo: arr(t.lingo).map((x) => ({ term: str(x && x.term), say: str(x && x.say), means: str(x && x.means) })).filter((x) => x.term && x.means && ok(x.term + " " + x.means)).slice(0, 5),
-        lines: arr(t.lines).map((x) => ({ t: str(x && x.t), m: str(x && x.m) })).filter((x) => x.t && ok(x.t + " " + x.m)).slice(0, 6),
-        avoid: arr(t.avoid).map((x) => ({ say: str(x && x.say), instead: str(x && x.instead), why: str(x && x.why) })).filter((x) => x.say && x.instead && ok(x.say + " " + x.why)).slice(0, 3),
+        lingo: arr(t.lingo).map((x) => ({ term: str(x && x.term), say: str(x && x.say), means: str(x && x.means), tts: str(x && x.tts) })).filter((x) => x.term && x.means && ok(x.term + " " + x.means)).slice(0, 8),
+        lines: arr(t.lines).map((x) => ({ t: str(x && x.t), m: str(x && x.m), when: WHEN.includes(str(x && x.when)) ? str(x.when) : "any" })).filter((x) => x.t && ok(x.t + " " + x.m)).slice(0, 8),
+        traditions: arr(t.traditions).map((x) => ({ name: str(x && x.name), means: str(x && x.means) })).filter((x) => x.name && x.means && ok(x.name + " " + x.means)).slice(0, 3),
+        sore: arr(t.sore).map((x) => ({ topic: str(x && x.topic), why: str(x && x.why) })).filter((x) => x.topic && x.why && ok(x.topic + " " + x.why)).slice(0, 2),
+        pronounce: arr(t.pronounce).map((x) => ({ word: str(x && x.word), say: str(x && x.say), why: str(x && x.why), tts: str(x && x.tts) })).filter((x) => x.word && x.say && ok(x.word + " " + x.why)).slice(0, 3),
+        avoid: arr(t.avoid).map((x) => ({ say: str(x && x.say), instead: str(x && x.instead), why: str(x && x.why) })).filter((x) => x.say && x.instead && ok(x.say + " " + x.why)).slice(0, 4),
       };
       if (!ok(e.memory)) e.memory = "";
       if (Array.isArray(t.drivers)) e.drivers = t.drivers.map(str).filter(Boolean).slice(0, 3);
+      // Respellings go to the speech lexicon; the page itself doesn't need them
+      for (const x of e.lingo) { addSay(sp, x.term, x.tts); delete x.tts; }
+      for (const x of e.pronounce) { addSay(sp, x.word, x.tts); delete x.tts; }
+      for (const k of ["traditions", "sore", "pronounce"]) if (!e[k].length) delete e[k];
+      if (!e.region) delete e.region;
       out.push(e);
     }
   }
-  return out;
+  // Region words are spoken in every sport whose teams sit in that region
+  for (const t of out) {
+    const r = t.region && regions.list[t.region];
+    if (r) for (const x of r._say) addSay(SPORT_OF(t.league), x.word, x.tts);
+  }
+  // Hand-checked entries (research/pronounce.json) win over everything else
+  const P = loadPronounce();
+  for (const x of P.entries) {
+    const scopes = x.scope === "*" ? ["*"] : String(x.scope || "*").split(",").map(str);
+    for (const sc of scopes) { const m = (say[sc] = say[sc] || {}); m[str(x.word)] = str(x.tts); }
+  }
+  // Words that are also everyday English ("mate", "gone"): the page respells them only when the word
+  // is spoken on its own, from its word card, so ordinary sentences keep the ordinary word
+  if (P.alone.length) say._alone = P.alone;
+  const regionsOut = {};
+  for (const [id, r] of Object.entries(regions.list)) { const c = Object.assign({}, r); delete c._say; regionsOut[id] = c; }
+  return { teams: out, regions: regionsOut, say };
+}
+function loadRegions() {
+  const dir = path.join(root, "research", "regions"), list = {};
+  if (!fs.existsSync(dir)) return { list };
+  for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort()) {
+    let data;
+    try { data = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")); } catch (e) { console.warn("Skipping", f, "-", e.message); continue; }
+    for (const r of arr(data)) {
+      const id = str(r.id);
+      if (!id || list[id]) continue;
+      const words = arr(r.words).map((x) => ({ term: str(x && x.term), say: str(x && x.say), means: str(x && x.means), use: str(x && x.use), tts: str(x && x.tts) })).filter((x) => x.term && x.means && ok(x.term + " " + x.means + " " + x.use)).slice(0, 14);
+      const pron = arr(r.pronounce).map((x) => ({ word: str(x && x.word), say: str(x && x.say), why: str(x && x.why), tts: str(x && x.tts) })).filter((x) => x.word && x.say && ok(x.word + " " + x.why)).slice(0, 6);
+      const _say = words.map((x) => ({ word: x.term, tts: x.tts })).concat(pron.map((x) => ({ word: x.word, tts: x.tts })));
+      for (const x of words) delete x.tts;
+      for (const x of pron) delete x.tts;
+      list[id] = {
+        id, name: str(r.name), covers: str(r.covers), dialect: str(r.dialect), words, pronounce: pron,
+        lines: arr(r.lines).map((x) => ({ t: str(x && x.t), m: str(x && x.m) })).filter((x) => x.t && ok(x.t + " " + x.m)).slice(0, 6),
+        avoid: arr(r.avoid).map((x) => ({ say: str(x && x.say), instead: str(x && x.instead), why: str(x && x.why) })).filter((x) => x.say && x.instead && ok(x.say + " " + x.why)).slice(0, 5),
+        habits: arr(r.habits).map(str).filter((h) => h && ok(h)).slice(0, 4),
+        _say,
+      };
+    }
+  }
+  return { list };
+}
+// Hand-checked pronunciation fixes, e.g. the Canadian "eh" (research/pronounce.json)
+function loadPronounce() {
+  try {
+    const d = JSON.parse(fs.readFileSync(path.join(root, "research", "pronounce.json"), "utf8"));
+    return { entries: arr(d.entries).filter((x) => str(x.word) && str(x.tts)), alone: arr(d.alone).map(str).filter(Boolean).map((w) => w.toLowerCase()) };
+  } catch (e) { return { entries: [], alone: [] }; }
 }
 
 // Talk packs: researched slang, phrases, pub-test rounds and five-beat exchanges for a sport.
@@ -163,13 +237,14 @@ const feedUrl = fu > 0 && process.argv[fu + 1] ? process.argv[fu + 1] : "https:/
     .split(String.fromCharCode(0x2029)).join("\\u2029");
   const json = safe(snap);
   const lingo = loadLingo();
-  if (fs.existsSync(path.join(root, "research", "out"))) fs.writeFileSync(path.join(__dirname, "lingo.json"), JSON.stringify(lingo, null, 1));
+  if (fs.existsSync(path.join(root, "research", "out"))) fs.writeFileSync(path.join(__dirname, "lingo.json"), JSON.stringify(lingo));
   const talk = loadTalk();
   console.log("Talk packs:", Object.keys(talk).map((k) => k + " (" + Object.keys(talk[k].exchanges).length + " exchanges, " + talk[k].terms.length + " terms)").join(", ") || "none");
   // Character art in src/art/ is embedded into the page, so every copy works as a single file.
   const art = (m, f) => 'url("data:image/' + (f.endsWith(".png") ? "png" : "webp") + ";base64," + fs.readFileSync(path.join(__dirname, "art", f)).toString("base64") + '")';
   const base = src.replace(/url\("art\/([\w.-]+\.(?:webp|png))"\)/g, art)
-    .replace("__SNAPSHOT__", () => json).replace("__LINGO__", () => safe(lingo)).replace("__TALK__", () => safe(talk));
+    .replace("__SNAPSHOT__", () => json).replace("__TALK__", () => safe(talk)).replace("__SAY__", () => safe(lingo.say));
+  const lingoAll = { teams: lingo.teams, regions: lingo.regions };
   // Logos are embedded in the single-file copies; the website copy serves them as files instead.
   const logos = await fetchLogos(snap);
   const embedded = {}, files = {};
@@ -177,9 +252,10 @@ const feedUrl = fu > 0 && process.argv[fu + 1] ? process.argv[fu + 1] : "https:/
     embedded[k] = ["data:image/png;base64," + v.big.toString("base64"), "data:image/png;base64," + v.px.toString("base64")];
     files[k] = ["logos/" + k + ".png", "logos/" + k + "-px.png"];
   }
-  const page = base.replace("__LOGOS__", () => safe(embedded));
+  const page = base.replace("__LOGOS__", () => safe(embedded)).replace("__LINGO__", () => safe(lingoAll));
   console.log("Logo data:", (safe(embedded).length / 1024).toFixed(0), "KB embedded");
-  console.log("Team guides:", lingo.length, "teams,", (safe(lingo).length / 1024).toFixed(0), "KB");
+  const sayCount = Object.entries(lingo.say).filter(([k]) => k !== "_alone").reduce((n, [, m]) => n + Object.keys(m).length, 0);
+  console.log("Local lingo:", lingo.teams.length, "teams,", Object.keys(lingo.regions).length, "regions,", (safe(lingoAll).length / 1024).toFixed(0), "KB;", sayCount, "pronunciation fixes");
   const siteOnly = process.argv.includes("--site-only");
   if (!siteOnly) fs.writeFileSync(path.join(__dirname, "artifact.html"), page);
 
@@ -197,7 +273,7 @@ const feedUrl = fu > 0 && process.argv[fu + 1] ? process.argv[fu + 1] : "https:/
   if (at > 0 && process.argv[at + 1]) {
     const dir = path.resolve(process.argv[at + 1]);
     const swap = (s, from, to) => { if (!from.test(s)) throw new Error("Site build: pattern not found " + from); return s.replace(from, to); };
-    let site = base.replace("__LOGOS__", () => safe(files));
+    let site = base.replace("__LOGOS__", () => safe(files)).replace("__LINGO__", () => safe({ split: true }));
     site = swap(site, /<!--FONTS-->[\s\S]*?<!--\/FONTS-->/, '<link rel="stylesheet" href="fonts/fonts.css">');
     site = swap(site, /const LIVE_MODE="auto";/, 'const LIVE_MODE="ask";');
     site = swap(site, /const FEED_URL="";/, () => "const FEED_URL=" + JSON.stringify(feedUrl) + ";");
@@ -213,7 +289,17 @@ const feedUrl = fu > 0 && process.argv[fu + 1] ? process.argv[fu + 1] : "https:/
     // Fonts that are no longer used (VT323) are removed from the site folder
     for (const f of fs.readdirSync(path.join(dir, "fonts"))) if (/^(vt323|OFL-vt323)/i.test(f)) fs.unlinkSync(path.join(dir, "fonts", f));
     writeLogos(path.join(dir, "logos"), logos);
-    console.log("Website copy written to", dir, "(results feed: " + feedUrl + ")");
+    // Local lingo, one file per sport (its teams and their regions), fetched when the sport is picked
+    fs.mkdirSync(path.join(dir, "lingo"), { recursive: true });
+    const sizes = [];
+    for (const sp of ["football", "rugby", "cricket", "f1", "nfl", "nba", "nhl", "mlb"]) {
+      const teams = lingo.teams.filter((t) => SPORT_OF(t.league) === sp), regions = {};
+      for (const t of teams) if (t.region && lingo.regions[t.region]) regions[t.region] = lingo.regions[t.region];
+      const body = JSON.stringify({ teams, regions });
+      fs.writeFileSync(path.join(dir, "lingo", sp + ".json"), body);
+      sizes.push(sp + " " + (body.length / 1024).toFixed(0) + "KB");
+    }
+    console.log("Website copy written to", dir, "(results feed: " + feedUrl + "; lingo: " + sizes.join(", ") + ")");
   }
 
   // Results feed (node src/build.js --feed <folder>): the snapshot plus every team logo, which the

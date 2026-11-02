@@ -282,6 +282,12 @@ main{padding-block:26px 120px}
 footer{border-top:1px solid var(--hair);padding-block:22px 30px;color:var(--muted);font-size:13px}
 footer p{margin:0 0 4px;max-width:90ch}
 .home-link{margin-bottom:10px!important;font-weight:600}
+.lg-bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:flex-end;margin:0 0 18px}
+.lg-bar .fld{flex:1 1 240px;max-width:none}
+:root:not([data-skin=retro]) .lg-bar .fld{flex:1 1 260px;max-width:440px}
+.lg-team,.lg-region{margin-bottom:22px}
+.lg-team p,.lg-region p{margin:0 0 8px;max-width:70ch}
+.lg-team .row{margin-top:12px}
 .home-link a{text-decoration:none}
 .home-link a:hover{text-decoration:underline}
 
@@ -700,8 +706,10 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root[data-skin=retro] .pill.hot{background:linear-gradient(var(--r-orange-top),var(--r-orange-bot));border-color:var(--r-orange-edge);color:var(--r-white)}
 :root[data-skin=retro] .facts li::before{background:var(--r-green)}
 :root[data-skin=retro] .star{font:bold 10px/1 var(--f-body);color:var(--r-ink);border-color:var(--r-ink);background:var(--r-gold)}
-:root[data-skin=retro] .script{gap:16px}
+:root[data-skin=retro] .script{gap:16px;grid-template-columns:minmax(0,1fr)}
 :root[data-skin=retro] .beat{display:flex;align-items:flex-end;gap:14px}
+/* On a phone the "From the episode" badge can't wrap after the closing quote, so it gets its own line */
+@media (max-width:520px){:root[data-skin=retro] .script .line .star{display:table;margin:6px 0 0}}
 :root[data-skin=retro] .beat.them{flex-direction:row-reverse}
 :root[data-skin=retro] .beat .who{flex:0 0 60px;width:60px;height:60px;min-width:0;padding:0;border:0;border-radius:50%;font-size:0;color:transparent;background:var(--r-white) var(--r-you) center/88% no-repeat;box-shadow:0 0 0 3px var(--r-ink)}
 :root[data-skin=retro] .beat.them .who{background-image:var(--r-them)}
@@ -815,6 +823,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 <nav class="tabs" aria-label="Sections">
   <div class="in" role="tablist">
     <button role="tab" id="t-script" data-tab="script">Today's script</button>
+    <button role="tab" id="t-lingo" data-tab="lingo">Local lingo</button>
     <button role="tab" id="t-pub" data-tab="pub">Pub test</button>
     <button role="tab" id="t-cover" data-tab="cover">Cover story</button>
     <button role="tab" id="t-phrases" data-tab="phrases">Phrase book</button>
@@ -824,6 +833,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 </nav>
 <main class="in">
   <section id="tab-script" role="tabpanel" aria-labelledby="t-script"></section>
+  <section id="tab-lingo" role="tabpanel" aria-labelledby="t-lingo" hidden></section>
   <section id="tab-pub" role="tabpanel" aria-labelledby="t-pub" hidden></section>
   <section id="tab-cover" role="tabpanel" aria-labelledby="t-cover" hidden></section>
   <section id="tab-phrases" role="tabpanel" aria-labelledby="t-phrases" hidden></section>
@@ -872,6 +882,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 <script type="application/json" id="lingo">__LINGO__</script>
 <script type="application/json" id="talk">__TALK__</script>
 <script type="application/json" id="logos">__LOGOS__</script>
+<script type="application/json" id="say">__SAY__</script>
 <script>
 /*ESPN-START*/
 const ESPN=(()=>{
@@ -1261,11 +1272,21 @@ const LIVE_MODE="auto";
 const FEED_URL="";
 const DATA={cache:{},tables:{},liveFailed:false,loading:{},liveAllowed:LIVE_MODE!=="ask"};
 
-/* Team guides: researched fan lingo, keyed by ESPN team id and searchable by name */
-let LINGO=[];
-try{const raw=document.getElementById("lingo").textContent.trim();if(raw.charAt(0)==="[")LINGO=JSON.parse(raw)}catch(e){LINGO=[]}
+/* Team guides and region packs: researched local lingo, keyed by ESPN team id and searchable by
+   name. Single-file copies carry all of it; the website copy fetches one sport's worth
+   (lingo/<sport>.json, from the same site) when that sport is picked, so the page stays light. */
+const LINGO=[],LINGO_ID={},REGIONS={},lingoLoaded={},lingoLoading={};
+let LINGO_SPLIT=false,lingoMemo={k:null,v:null};
 const lkey=(lg,id)=>(/^(soccer|rugby)\//.test(lg)?lg.split("/")[0]:lg)+"|"+id;
-const LINGO_ID={};for(const t of LINGO)if(t.espnId)LINGO_ID[lkey(t.league,t.espnId)]=t;
+function addLingo(d){
+  for(const t of d.teams||[]){if(t.espnId&&LINGO_ID[lkey(t.league,t.espnId)])continue;LINGO.push(t);if(t.espnId)LINGO_ID[lkey(t.league,t.espnId)]=t}
+  Object.assign(REGIONS,d.regions||{});lingoMemo={k:null,v:null};
+}
+try{const raw=JSON.parse(document.getElementById("lingo").textContent.trim());if(Array.isArray(raw))addLingo({teams:raw});else if(raw.split)LINGO_SPLIT=true;else addLingo(raw)}catch(e){}
+function ensureLingo(sp){
+  if(!LINGO_SPLIT||lingoLoaded[sp])return Promise.resolve();
+  return lingoLoading[sp]||(lingoLoading[sp]=fetch("lingo/"+sp+".json").then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(d=>{addLingo(d);lingoLoaded[sp]=true}).catch(()=>{}).finally(()=>{delete lingoLoading[sp]}));
+}
 const PREFIX={football:["soccer/"],rugby:["rugby/"],cricket:["cricket/"],f1:["racing/"],nfl:["football/"],nba:["basketball/"],nhl:["hockey/"],mlb:["baseball/"]};
 const sportOf=lg=>Object.keys(ESPN.LEAGUES).find(k=>ESPN.LEAGUES[k].some(x=>x[0]===lg))||null;
 const lingoPool=sp=>LINGO.filter(t=>(PREFIX[sp]||[]).some(p=>t.league.indexOf(p)===0));
@@ -1281,7 +1302,7 @@ function lingoByName(name,sp,exact){
   return near.length===1?near[0]:null;
 }
 function lingoOf(lg,t){if(!t||!lg)return null;return LINGO_ID[lkey(lg,t.id)]||lingoByName(t.n,sportOf(lg),true)}
-let lingoMemo={k:null,v:null};
+const regionOf=L=>(L&&L.region&&REGIONS[L.region])||null;
 const myLingo=()=>{const k=S.sport+"|"+teamName();if(lingoMemo.k!==k)lingoMemo={k,v:lingoByName(teamName(),S.sport)};return lingoMemo.v};
 function rivalOf(L,t){
   if(!L||!t)return null;const tn=norm(t.n),ts=norm(t.s);
@@ -1829,8 +1850,37 @@ function pickVoices(){
   return{you,them};
 }
 /* Say it the way a fan would: "5-0" is "five nil", not "five minus zero" */
+/* Pronunciation lexicon, compiled at build time from the research: for each sport, words the voices
+   misread and a respelling they read correctly ("eh" becomes "A", "Leicester" becomes "lester").
+   research/pronounce-check.ps1 checks each respelling against its IPA.
+   Names match only as written ("Lima" the city, not "LA"; "Dale" the cheer, not Dale Hawerchuk in
+   mid-sentence): a lower-case word matches in lower case, or capitalised at the start of a sentence.
+   Words that are also everyday English (SAY._alone: "mate", "gone") are respelled only when spoken on
+   their own, from their word card, so "Alright, mate" keeps the ordinary word. */
+let SAY={};try{const raw=document.getElementById("say").textContent.trim();if(raw.charAt(0)==="{")SAY=JSON.parse(raw)}catch(e){SAY={}}
+const sayRx={},SAY_ALONE=new Set((Array.isArray(SAY._alone)?SAY._alone:[]).map(w=>String(w).toLowerCase()));
+const atSentenceStart=(s,i)=>/(?:^|[.!?…:;—–])["'“‘(\s]*$/.test(s.slice(0,i));
+function sayFix(text){
+  const sp=S.sport;text=String(text);
+  if(!(sp in sayRx)){
+    const m=Object.assign({},SAY["*"]||{},SAY[sp]||{}),all=new Map(Object.keys(m).map(k=>[k.toLowerCase(),{k,v:m[k]}]));
+    const keys=Object.keys(m).filter(k=>!SAY_ALONE.has(k.toLowerCase())).sort((a,b)=>b.length-a.length);
+    let rx=null;try{if(keys.length)rx=new RegExp("(?<![\\p{L}\\p{N}'’])("+keys.map(k=>k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")(?![\\p{L}\\p{N}'’])","giu")}catch(e){rx=null}
+    sayRx[sp]={all,rx};
+  }
+  const r=sayRx[sp],t=text.trim(),end=(t.match(/[.!?…]+$/)||[""])[0],whole=r.all.get(t.slice(0,t.length-end.length).toLowerCase());
+  if(whole)return whole.v+end;
+  if(!r.rx)return text;
+  return text.replace(r.rx,(w,g,i,s)=>{
+    const e=r.all.get(w.toLowerCase());if(!e||SAY_ALONE.has(e.k.toLowerCase()))return w;
+    if(w===e.k)return e.v;
+    const cap=e.k.charAt(0).toUpperCase()+e.k.slice(1);
+    // "Dale!" starts a sentence; "Dale Hawerchuk" is a name
+    return cap!==e.k&&w===cap&&atSentenceStart(s,i)&&!/^\s+\p{Lu}/u.test(s.slice(i+w.length))?e.v:w;
+  });
+}
 function speechText(t){
-  let s=String(t).replace(/[“”"]/g,"").replace(/(\d+)\s*[–-]\s*(\d+)/g,(m,a,b)=>a+" "+(b==="0"&&US.has(S.sport)?"nothing":b)).replace(/\bvs?\.?(?=\s)/gi,"versus").replace(/\bP(\d+)\b/g,"P $1");
+  let s=sayFix(t).replace(/[“”"]/g,"").replace(/(\d+)\s*[–-]\s*(\d+)/g,(m,a,b)=>a+" "+(b==="0"&&US.has(S.sport)?"nothing":b)).replace(/\bvs?\.?(?=\s)/gi,"versus").replace(/\bP(\d+)\b/g,"P $1");
   if(S.sport==="football")s=s.replace(/\b0\b/g,"nil");
   return s;
 }
@@ -2028,10 +2078,23 @@ function localPanel(B){
   if(!LM&&!LO)return "";
   let h=`<div class="panel"><h3>Local touch</h3>`;
   if(LM&&(LM.lines||[]).length){
-    h+=`<p class="kicker">Sound like ${esc(fanPhrase(LM))}</p><ul class="local">${LM.lines.slice(0,4).map(x=>`<li><div class="line">“${esc(x.t)}”</div><div class="note">${esc(x.m)}</div>${tools(x.t)}</li>`).join("")}</ul>`;
+    const fit=F.derby?"rival":F.res==="W"?"win":F.res==="L"?"loss":"";
+    const lines=LM.lines.filter(x=>x.when===fit).concat(LM.lines.filter(x=>!x.when||x.when==="any")).slice(0,4);
+    h+=`<p class="kicker">Sound like ${esc(fanPhrase(LM))}</p><ul class="local">${lines.map(x=>`<li><div class="line">“${esc(x.t)}”</div><div class="note">${esc(x.m)}</div>${tools(x.t)}</li>`).join("")}</ul>`;
   }
+  const RG=regionOf(LM);
+  if(RG&&(RG.words||[]).length){
+    h+=`<p class="kicker" style="margin-top:18px">Drop in a local word</p><ul class="local">${pickN(RG.words,2,(B.g&&B.g.id||"")+"w").map(x=>`<li><div class="line">${esc(x.term)}${x.say?` <span class="say">${esc(x.say)}</span>`:""}</div><div class="note">${esc(x.means)}</div>${tools(x.term)}</li>`).join("")}</ul>`;
+  }
+  if(LM)h+=`<div class="row" style="margin-top:14px"><button class="btn small" type="button" data-go="lingo">All the local lingo</button></div>`;
   if(LO)h+=`<p class="kicker" style="margin-top:${LM?18:0}px">Know the other lot</p><p class="other">${teamBits(LO)}</p>`;
   return h+`</div>`;
+}
+// n items from a list, the same ones for the same game, so the panel doesn't reshuffle on every redraw
+function pickN(list,n,seed){
+  let h=0;for(const c of String(seed))h=(h*31+c.charCodeAt(0))|0;
+  const a=list.slice(),out=[];while(a.length&&out.length<n){h=(h*1103515245+12345)|0;out.push(a.splice(Math.abs(h)%a.length,1)[0])}
+  return out;
 }
 function guideSummary(L){
   const r=(L.rivals||[])[0],bits=[];
@@ -2041,6 +2104,78 @@ function guideSummary(L){
   if(r)bits.push("Biggest rival: "+r.name+(r.derby?" ("+r.derby+")":"")+".");
   return bits.join(" ");
 }
+
+/* ---------- Local lingo ---------- */
+/* How a team's fans and their city really talk: words, sayings by result, traditions, sore subjects,
+   names to say right, giveaways, and the region's dialect. Every word can be heard. */
+const WHEN_LABEL={any:"Any time",win:"After a win",loss:"After a loss",rival:"Rival week"};
+function lingoPick(){
+  const pool=lingoPool(S.sport);if(!pool.length)return null;
+  const want=(S.lingoPick||{})[S.sport];
+  return pool.find(t=>t.team===want)||myLingo()||(S.game&&!S.game.res&&S.game.h&&lingoOf(S.game.lg,S.game.h))||pool[0];
+}
+function wordCard(term,say,means,use){
+  return `<div class="term"><b>${esc(term)}</b>${canSpeak?`<button class="btn small" type="button" data-say="${esc(term)}">Hear it</button>`:"<span></span>"}${say?`<span class="say">${esc(say)}</span>`:""}<p>${esc(means)}${use?` <span class="muted">“${esc(use)}”</span>`:""}</p></div>`;
+}
+const lineCard=x=>`<div class="card"><div class="phrase">“${esc(x.t)}”</div><div class="meta">${esc(x.m||"")}</div>${tools(x.t)}</div>`;
+const catBlock=(title,note,body)=>`<div class="cat"><h3>${esc(title)}</h3>${note?`<p class="when">${esc(note)}</p>`:""}${body}</div>`;
+function lingoTeamHTML(L){
+  let h=`<div class="panel lg-team"><h3>${esc(L.team)}</h3><p>${esc(guideSummary(L))}</p>`;
+  if((L.legends||[]).length)h+=`<p class="muted">Legends: ${esc(L.legends.join(", "))}.</p>`;
+  if(L.memory)h+=`<p class="muted">The memory fans bring up: ${esc(L.memory)}.</p>`;
+  h+=`<div class="row"><button class="btn primary" type="button" data-drill="lingo" data-team="${esc(L.team)}">Quiz me on ${esc(L.team)}</button></div></div>`;
+  if((L.lingo||[]).length)h+=catBlock("Their words","What "+fanPhrase(L).replace(/^one of /,"")+" say, and what it means.",`<div class="jargon">${L.lingo.map(x=>wordCard(x.term,x.say,x.means)).join("")}</div>`);
+  for(const w of ["any","win","loss","rival"]){
+    const lines=(L.lines||[]).filter(x=>(x.when||"any")===w);
+    if(lines.length)h+=catBlock("What fans say: "+WHEN_LABEL[w].toLowerCase(),"",`<div class="cards">${lines.map(lineCard).join("")}</div>`);
+  }
+  if((L.traditions||[]).length)h+=catBlock("Traditions","",`<ul class="facts">${L.traditions.map(x=>`<li><b>${esc(x.name)}.</b> ${esc(x.means)}</li>`).join("")}</ul>`);
+  if((L.sore||[]).length)h+=catBlock("Don't bring up","Sore subjects. Let a fan raise them, and then just agree.",`<ul class="dont">${L.sore.map(x=>`<li><span><b>${esc(x.topic)}.</b> ${esc(x.why)}</span></li>`).join("")}</ul>`);
+  if((L.pronounce||[]).length)h+=catBlock("Say it right","",`<div class="jargon">${L.pronounce.map(x=>wordCard(x.word,x.say,x.why)).join("")}</div>`);
+  if((L.avoid||[]).length)h+=catBlock("Outsider giveaways","",`<ul class="dont">${L.avoid.map(x=>`<li><span>Say “${esc(x.instead)}”, not “${esc(x.say)}”. ${esc(x.why)}</span></li>`).join("")}</ul>`);
+  return h;
+}
+function lingoRegionHTML(R){
+  let h=`<div class="panel lg-region"><h3>Sound like you're from ${esc(R.name)}</h3><p>${esc([R.dialect,R.covers].filter(Boolean).join(". "))}.</p></div>`;
+  if((R.words||[]).length)h+=catBlock("Local words","",`<div class="jargon">${R.words.map(x=>wordCard(x.term,x.say,x.means,x.use)).join("")}</div>`);
+  if((R.pronounce||[]).length)h+=catBlock("Place names to say right","",`<div class="jargon">${R.pronounce.map(x=>wordCard(x.word,x.say,x.why)).join("")}</div>`);
+  if((R.lines||[]).length)h+=catBlock("How locals talk sport","",`<div class="cards">${R.lines.map(lineCard).join("")}</div>`);
+  if((R.habits||[]).length)h+=catBlock("Local habits","",`<ul class="facts">${R.habits.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`);
+  if((R.avoid||[]).length)h+=catBlock("Giveaways about "+R.name,"",`<ul class="dont">${R.avoid.map(x=>`<li><span>Say “${esc(x.instead)}”, not “${esc(x.say)}”. ${esc(x.why)}</span></li>`).join("")}</ul>`);
+  return h;
+}
+function lingoSearch(q){
+  const n=norm(q),hits=[],seen=new Set();
+  const add=(src,term,say,means,use)=>{if(!term||!means)return;const k=norm(term)+"|"+norm(means);if(seen.has(k))return;const a=norm(term).includes(n),b=norm(means).includes(n)||norm(use||"").includes(n);if(a||b){seen.add(k);hits.push({src,term,say,means,use,rank:a?0:1})}};
+  const pool=lingoPool(S.sport);
+  for(const t of pool){for(const x of t.lingo||[])add(t.team,x.term,x.say,x.means);for(const x of t.pronounce||[])add(t.team,x.word,x.say,x.why)}
+  for(const id of new Set(pool.map(t=>t.region).filter(Boolean))){const R=REGIONS[id];if(!R)continue;for(const x of R.words||[])add(R.name,x.term,x.say,x.means,x.use);for(const x of R.pronounce||[])add(R.name,x.word,x.say,x.why)}
+  for(const [w,sy,m] of SPORTS[S.sport].jargon||[])add(SPORTS[S.sport].label,w,sy,m);
+  hits.sort((a,b)=>a.rank-b.rank||a.term.localeCompare(b.term));
+  if(!hits.length)return `<div class="empty"><b>Nothing for “${esc(q)}”</b>Try part of the word, or pick a team to browse its lingo.</div>`;
+  return `<p class="kicker">${hits.length} ${hits.length===1?"match":"matches"}${hits.length>60?", showing 60":""}</p><div class="jargon">${hits.slice(0,60).map(x=>wordCard(x.term,x.say,x.means+" ("+x.src+")",x.use)).join("")}</div>`;
+}
+function lingoBody(){
+  const q=(S.lingoQ||"").trim();
+  if(q)return lingoSearch(q);
+  const L=lingoPick();if(!L)return "";
+  const R=regionOf(L);
+  return lingoTeamHTML(L)+(R?lingoRegionHTML(R):"");
+}
+function renderLingo(){
+  const el=$("#tab-lingo"),sp=SPORTS[S.sport];
+  S.lingoPick=S.lingoPick||{};
+  // The sport's name as it reads mid-sentence: "football", "hockey", "Formula 1"
+  const l0=sp.label.replace(/ \(.*\)/,""),sportWord=/^Formula/.test(l0)?l0:l0.charAt(0).toLowerCase()+l0.slice(1);
+  const head=`<h2 class="sec">${esc(tabLabel("lingo"))}</h2><p class="lede">How ${esc(sportWord)} fans really talk, team by team and city by city: their words, what they say after a win or a loss, the traditions, the sore subjects and the giveaways. Press Hear it to hear any word said the local way.</p>`;
+  if(LINGO_SPLIT&&!lingoLoaded[S.sport]){el.innerHTML=head+`<div class="empty"><b>Loading the local lingo</b>One moment.</div>`;const s0=S.sport;ensureLingo(s0).then(()=>{if(S.tab==="lingo"&&S.sport===s0&&lingoLoaded[s0])renderLingo()});return}
+  const pool=lingoPool(S.sport).slice().sort((a,b)=>a.team.localeCompare(b.team));
+  if(!pool.length){el.innerHTML=head+`<div class="empty"><b>No team guides for ${esc(sp.label)} yet</b>The phrase book has the sport's own slang.</div>`;return}
+  const L=lingoPick();
+  el.innerHTML=head+`<div class="lg-bar"><label class="fld" for="lgTeam">Team<select id="lgTeam">${pool.map(t=>`<option${t===L?" selected":""}>${esc(t.team)}</option>`).join("")}</select></label><label class="fld" for="lgSearch">Look up a word<input id="lgSearch" type="text" inputmode="search" enterkeyhint="search" maxlength="40" autocomplete="off" value="${esc(S.lingoQ||"")}" placeholder="Any word, from any ${esc(sportWord)} team or city"></label></div><div id="lgBody">${lingoBody()}</div>`;
+}
+document.addEventListener("input",e=>{if(e.target.id==="lgSearch"){S.lingoQ=e.target.value;const b=$("#lgBody");if(b)b.innerHTML=lingoBody()}});
+document.addEventListener("change",e=>{if(e.target.id==="lgTeam"){S.lingoPick=S.lingoPick||{};S.lingoPick[S.sport]=e.target.value;S.lingoQ="";const q=$("#lgSearch");if(q)q.value="";const b=$("#lgBody");if(b)b.innerHTML=lingoBody()}});
 
 /* ---------- Pub test ---------- */
 let pub=null;
@@ -2064,6 +2199,19 @@ function fansRound(L){
   const fp=fanPhrase(L);
   return{kind:"off",say:"So you're "+(fp.indexOf("one of ")===0?"":"part of ")+fp+(isNA()?", huh?":", then?"),opts:shuffle([O("Since I was a kid.",2,"Right. \""+L.fans+"\" is what "+L.team+" fans call themselves."),O("One of the what?",-2,"\""+L.fans+"\" is what "+L.team+" fans call themselves. Every fan knows it."),O("Is that a band?",-2,"Rumbled.")])};
 }
+function regionRound(L){
+  const R=regionOf(L),words=((R&&R.words)||[]).filter(x=>x.means&&x.term);if(!words.length)return null;
+  const w=words[Math.floor(Math.random()*words.length)];
+  const others=Object.values(REGIONS).filter(x=>x!==R).reduce((a,x)=>a.concat(x.words||[]),[]).filter(x=>x.means&&x.means!==w.means);
+  const opts=[O(w.means,2,"Right. Around "+R.name+" you'll hear it all the time."),O(isNA()?"No idea, honestly.":"No idea, to be honest.",0,"Honest. You'll get away with it once.")];
+  if(others.length)opts.push(O(others[Math.floor(Math.random()*others.length)].means,-2,"No. Around "+R.name+", \""+w.term+"\" means: "+w.means));
+  return{kind:"off",say:(w.use?w.use+" ":"")+"You know what \""+w.term+"\" means "+(isNA()?"around here":"round here")+", right?",opts:shuffle(opts)};
+}
+function soreRound(L){
+  const list=(L&&L.sore)||[];if(!list.length)return null;
+  const x=list[Math.floor(Math.random()*list.length)];
+  return{kind:"off",say:"Somebody at work brought up "+x.topic+" again.",opts:shuffle([O(isNA()?"Ugh. We don't talk about that.":"We don't talk about that.",2,"Right. "+x.why),O("Oh, I loved that! What a time.",-2,"Wrong. "+x.why),O("Remind me what happened?",-1,"Asking gives you away. "+x.why)])};
+}
 function giveawayRound(L){
   const list=(L&&L.avoid)||[];if(!list.length)return null;
   const a=list[Math.floor(Math.random()*list.length)];
@@ -2075,7 +2223,7 @@ function termRound(L){
   const others=lingoPool(S.sport).filter(x=>x!==L).reduce((a,x)=>a.concat(x.lingo||[]),[]).filter(x=>x.means&&x.means!==t.means);
   const opts=[O(t.means,2,"Correct. Knowing the local words is what separates fans from tourists."),O("Ask him, not me.",0,"A dodge. It works once.")];
   if(others.length)opts.push(O(others[Math.floor(Math.random()*others.length)].means,-2,"No. \""+t.term+"\": "+t.means));
-  return{kind:"off",say:"What does \""+t.term+"\" mean again? My lad keeps saying it.",opts:shuffle(opts)};
+  return{kind:"off",say:"What does \""+t.term+"\" mean again? "+(isNA()?"My kid keeps saying it.":"My lad keeps saying it."),opts:shuffle(opts)};
 }
 function ponyRound(){
   if(isNA())return{kind:"off",say:"I've got a parlay going tonight with "+teamName()+" on it. You want in?",opts:shuffle([O("Sure, throw me in for a few bucks.",2,"Right. A parlay rolls several bets into one, and every leg has to win."),O("Ha, a parley? Like pirates calling a truce?",-2,"Wrong word. A parlay is a combined bet, and he'll know you don't follow it."),O("I don't really bet, but good luck with it.",1,"A safe answer. No harm done.")])};
@@ -2125,14 +2273,15 @@ function gameRounds(B){
   r.push({kind:"script",label:"Comeback",say:L.them,opts:shuffle([O(L.back,2,"That's the comeback. It sounds like years of opinion."),O(SPORTS[S.sport].nerd,-1,"Fine on a podcast. In a pub it sounds rehearsed."),O(wrongScore,-2,"That's not what happened. Check the briefing: "+B.facts[0])])});
   r.push(leaveRound(L.exit,L.agree));
   const TL=B.f1?(B.LM||myLingo()):((F.neutral?null:F.LM)||myLingo());
-  const off=[...factRounds(B).slice(0,2),coverRound(),fansRound(TL),ponyRound(),termRound(TL),rivalRound(TL),giveawayRound(TL)||giveawayRound({avoid:SPORTS[S.sport].avoid}),offRound()].filter(Boolean).slice(0,5);
+  const pool=shuffle([coverRound(),fansRound(TL),ponyRound(),termRound(TL),regionRound(TL),soreRound(TL),rivalRound(TL),giveawayRound(TL)||giveawayRound({avoid:SPORTS[S.sport].avoid}),offRound()].filter(Boolean));
+  const off=factRounds(B).slice(0,2).concat(pool).slice(0,5);
   return r.concat(off,[inviteRound()]);
 }
 function generalRounds(){
   const sp=SPORTS[S.sport];
   const base=(sp.talk?shuffle(sp.pub).slice(0,3):shuffle(sp.pub).slice(0,2).concat(shuffle(isNA()?UNIVERSAL_PUB_NA:UNIVERSAL_PUB).slice(0,1))).map((x,i)=>({kind:"script",label:"Chat "+(i+1),say:fill(x.say),opts:shuffle(x.o.map(o=>O(fill(o[0]),o[1],o[2])))}));
   const L=myLingo();
-  const off=[coverRound(),fansRound(L),ponyRound(),termRound(L),rivalRound(L),giveawayRound(L)||giveawayRound({avoid:sp.avoid}),offRound()].filter(Boolean).slice(0,5);
+  const off=shuffle([coverRound(),fansRound(L),ponyRound(),termRound(L),regionRound(L),soreRound(L),rivalRound(L),giveawayRound(L)||giveawayRound({avoid:sp.avoid}),offRound()].filter(Boolean)).slice(0,5);
   return base.concat([leaveRound(isNA()?"Alright, I'm grabbing another drink. Later.":"Right, whose round is it?")],off,[inviteRound()]);
 }
 function newPub(mode){
@@ -2283,7 +2432,7 @@ function deck(kind){
     return [{sit:"Opener",q:"Someone mentions "+(B.f1?"the race":B.T)+". Start the chat.",a:L.open},{sit:"Comeback",q:"They say: “"+L.them+"”",a:L.back},{sit:"Exit",q:"They say: “"+L.agree+"”",a:L.exit}].concat(B.qa.map(x=>({sit:"If they ask",q:"“"+x.q+"”",a:x.a})));
   }
   if(kind==="lingo"){
-    const L=myLingo();if(!L)return [];
+    const L=(S.quizTeam&&lingoByName(S.quizTeam,S.sport,true))||myLingo();S.quizTeam=null;if(!L)return [];
     const d=[];
     if(L.nickname)d.push({sit:"Team guide",q:"“What do people call "+L.team+"?”",a:L.nickname});
     if(L.fans)d.push({sit:"Team guide",q:"“What do the fans call themselves?”",a:L.fans});
@@ -2294,7 +2443,12 @@ function deck(kind){
     for(const x of L.lingo||[])d.push({sit:"Local lingo",q:x.term+(x.say?" ("+x.say+")":""),a:x.means});
     for(const x of L.avoid||[])d.push({sit:"Outsider giveaway",q:"Real fans don't say “"+x.say+"”. What do they say?",a:x.instead,m:x.why});
     for(const x of L.lines||[])d.push({sit:"Sound like a local",q:x.m,a:x.t});
-    return d;
+    for(const x of L.traditions||[])d.push({sit:"Traditions",q:"What's “"+x.name+"”?",a:x.means});
+    for(const x of L.sore||[])d.push({sit:"Don't bring up",q:"Why not mention "+x.topic+"?",a:x.why});
+    for(const x of L.pronounce||[])d.push({sit:"Say it right",q:"How do locals say “"+x.word+"”?",a:x.say||x.word,m:x.why});
+    const R=regionOf(L);
+    if(R){for(const x of R.words||[])d.push({sit:"Around "+R.name,q:x.term+(x.say?" ("+x.say+")":""),a:x.means,m:x.use?"“"+x.use+"”":""});for(const x of R.pronounce||[])d.push({sit:"Around "+R.name,q:"How do locals say “"+x.word+"”?",a:x.say||x.word,m:x.why})}
+    return shuffle(d);
   }
   if(kind==="jargon")return shuffle(SPORTS[S.sport].jargon.concat(bettingFor(S.sport))).map(([w,s,m])=>({sit:"What does it mean?",q:w+" ("+s+")",a:m}));
   if(kind==="cover"){const c=cover();return [{sit:"Cover story",q:"“"+supportQ()+"”",a:teamName()}].concat(coverFields().filter(([k])=>c[k]).map(([k,,,q])=>({sit:"Cover story",q:"“"+q+"”",a:c[k]})))}
@@ -2365,7 +2519,7 @@ function openPanic(){$("#panicSheet").hidden=false;speak(panicLine());$("#panicA
 function closePanic(){$("#panicSheet").hidden=true;$("#panicBtn").focus()}
 
 /* ---------- Look: Modern or Retro ---------- */
-const TAB_LABELS={modern:{},retro:{script:"Today's phrases",pub:"Pub test",cover:"Cover story",phrases:"Pronunciation guide",drill:"Practice",pocket:"Updates to mobile"}};
+const TAB_LABELS={modern:{},retro:{script:"Today's phrases",pub:"Pub test",cover:"Cover story",phrases:"Pronunciation guide",drill:"Practice",pocket:"Updates to mobile",lingo:"Talk like a local"}};
 document.querySelectorAll(".tabs button").forEach(b=>{TAB_LABELS.modern[b.dataset.tab]=b.textContent});
 const skin=()=>document.documentElement.getAttribute("data-skin")==="retro"?"retro":"modern";
 const tabLabel=t=>TAB_LABELS[skin()][t]||TAB_LABELS.modern[t];
@@ -2418,8 +2572,8 @@ function setSkin(sk){
 }
 
 /* ---------- Tabs and setup ---------- */
-const TABS=["script","pub","cover","phrases","drill","pocket"];
-const RENDER={script:renderScript,pub:renderPub,cover:renderCover,phrases:renderPhrases,drill:renderDrill,pocket:renderPocket};
+const TABS=["script","lingo","pub","cover","phrases","drill","pocket"];
+const RENDER={script:renderScript,lingo:renderLingo,pub:renderPub,cover:renderCover,phrases:renderPhrases,drill:renderDrill,pocket:renderPocket};
 function show(tab){
   if(!TABS.includes(tab))tab="script";
   if(playing)stopPlaying();
@@ -2432,7 +2586,8 @@ function refresh(){RENDER[S.tab]()}
 function go(tab){try{if(location.hash.slice(1)!==tab)history.replaceState(null,"","#"+tab)}catch(e){}show(tab);const h=$(".head").offsetHeight;if(window.scrollY>h)window.scrollTo(0,h)}
 async function loadAndRender(force){
   refresh();updateTicker();
-  await ensureGame(force);
+  const sp=S.sport;
+  await Promise.all([ensureGame(force),ensureLingo(sp).then(()=>{if(S.sport===sp)fillTeamList()})]);
   refresh();updateTicker();
 }
 
@@ -2450,7 +2605,7 @@ document.addEventListener("click",e=>{
   if(d.side!=null){S.side=d.side||null;pub=null;drill=null;renderScript();return}
   if(d.pubmode){newPub(d.pubmode);renderPub();return}
   if(d.opt!=null){answerPub(+d.opt);return}
-  if(d.drill){newDrill(d.drill);if(S.tab!=="drill")go("drill");else renderDrill();return}
+  if(d.drill){if(d.team)S.quizTeam=d.team;newDrill(d.drill);if(S.tab!=="drill")go("drill");else renderDrill();return}
   switch(t.id){
     case "playScript":playInto("script",t,[...document.querySelectorAll("#brief .script .beat")]);break;
     case "playPhone":playInto("phone",t,[...document.querySelectorAll(".chat .msg")]);break;

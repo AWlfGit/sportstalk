@@ -1,0 +1,7 @@
+{
+  "about": "Hand-checked pronunciation fixes for the page's speech voices. entries: word: as written in the page; tts: the respelling the voices read correctly; ipa: the reference pronunciation; scope: '*' for every sport, or a comma-separated list of page sports (football, rugby, cricket, f1, nfl, nba, nhl, mlb). Checked with research/pronounce-check.ps1. alone: words with a local respelling that are also everyday English (Argentina's 'mate' tea, Lyon's 'gone' for a kid, Yorkshire 'happen' for perhaps). The page uses their respelling only when the word is spoken on its own from its word card, so 'Alright, mate' still sounds right.",
+  "entries": [
+    {"word": "eh", "tts": "A", "ipa": "eɪ", "scope": "*", "source": "https://en.wiktionary.org/wiki/eh", "note": "The Canadian (and British) 'eh?' sounds like the letter A. Voices read 'eh' as in 'bed', and 'ay' or 'aye' as 'eye'; 'A' gives the right vowel (measured with Microsoft David: EY)."}
+  ],
+  "alone": ["mate", "gone", "happen", "plate", "wholly", "meta", "wean", "brat", "main", "athletic", "humble", "your man", "lima"]
+}

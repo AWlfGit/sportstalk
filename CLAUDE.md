@@ -48,8 +48,25 @@ has the commands.
 
 ## How the content fits together
 
-- `research/out/*.json`: per-team guides (nicknames, fans, rivals, sayings, giveaways), shown as
-  "talk like a local" and used in the pub test.
+Local lingo is the site's main strength. Keep it deep, accurate and current.
+
+- `research/out/*.json`: per-team guides (nicknames, fans, rivals, sayings tagged by result,
+  traditions, sore subjects, names to say right, giveaways), each with a `region`. Shown in the
+  Local lingo tab, the script's "Local touch" panel, the pub test and the drill.
+- `research/regions/*.json`: region packs (dialect words, place names, local habits), one per id
+  in `research/REGIONS.md`. Shared by every team in that region.
+- Research rules: `research/BRIEF.md` (version 2). Sources and method: `research/SOURCES.md`.
+- Pronunciation: every term carries `say` (for people), `ipa` (the reference) and, where voices
+  misread the spelling, `tts` (a respelling they read correctly). The build compiles respellings
+  into a per-sport speech lexicon applied before speaking; `research/pronounce.json` holds
+  hand-checked fixes (e.g. "eh" -> "A"). On Windows, `node research/pronounce-check.js` verifies
+  them against the IPA using a Windows voice, and `node research/pronounce-fix.js --write` finds a
+  better respelling for any that sound wrong.
+- The lexicon matches names as written (lower-case words in lower case, or capitalised at the
+  start of a sentence), so "LA" and "Dale Hawerchuk" keep their own sound. Words that are also
+  everyday English ("mate", "gone", "happen") go in `alone` in `research/pronounce.json`: they
+  get the local sound only when spoken on their own, from their word card.
+- The website copy loads lingo per sport (`lingo/<sport>.json`); single-file copies embed it all.
 - Talk packs (`research/hockey-canada.json`, `football-uk.json`, `football-nfl.json`,
   `basketball-nba.json`, `baseball-mlb.json`, `f1-na.json`): sport-wide slang, phrase-book lines,
   pub-test rounds, giveaways, and a five-beat exchange per kind of result. `talkSituation()` in
@@ -60,11 +77,13 @@ has the commands.
 
 ## Before publishing
 
-1. `node src/build.js` and `node research/audit.js`.
+1. `node research/audit.js`; on Windows also `node research/pronounce-check.js` (fix anything it
+   lists with `node research/pronounce-fix.js --write`, or by hand). Then `node src/build.js`.
 2. `node src/serve.js`, open http://localhost:8765/, and in the browser console run
    `(0,eval)(await (await fetch("/src/checks.js")).text())` at desktop width and again at phone
-   width (about 375px). It renders every game in both looks and lists stray text, overflow and
-   errors.
+   width (about 375px). It renders every game, every team's Local lingo page and every tab in
+   both looks, and lists stray text, overflow and errors. Keep the browser window visible while it
+   runs: a hidden or background window slows its timers right down.
 3. If a look was restyled, compare the other look against the previous build.
 4. Push to main (the workflow rebuilds the feed), republish the claude.ai artifact, rebuild the
    website folder and `SITE.zip`.

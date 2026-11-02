@@ -9,9 +9,11 @@
 //     "the the", "Go the"
 //   - anything wider than the window (run it once at desktop width and once at phone width, ~375px)
 //   - errors thrown while rendering
+// It also renders the Local lingo tab for every team (with its region) and a word search.
 // It reloads the page when it's done, so nothing it changed sticks.
 (async () => {
-  const B1 = /undefined|NaN|\[object|\bnull\b|\{team\}|\{opp\}|\{player\}|\{score\}|\{when\}/, B2 = /\bthe the |\bGo the /i;
+  // ("null vier" is German for Leverkusen's 04, so it's allowed)
+  const B1 = /undefined|NaN|\[object|\bnull\b(?! vier)|\{team\}|\{opp\}|\{player\}|\{score\}|\{when\}|\{driver\}|\{winner\}|\{pos\}|\{race\}/, B2 = /\bthe the |\bGo the /i;
   const bad = (t) => { const m = B1.exec(t) || B2.exec(t); return m ? t.slice(Math.max(0, m.index - 60), m.index + 30).replace(/\n/g, " ") : null; };
   // A hidden or minimised window reports 0px; only check width when there is one
   const wide = () => innerWidth > 0 && document.documentElement.scrollWidth > innerWidth + 1;
@@ -39,6 +41,24 @@
           }
           if (renders % 300 < 3) await new Promise((r) => setTimeout(r, 0)); // let the page breathe now and then
         }
+      }
+      // Local lingo: every team's guide with its region, then a word search
+      if (typeof renderLingo === "function") {
+        if (typeof ensureLingo === "function") await ensureLingo(sp);
+        S.lingoQ = "";
+        for (const t of lingoPool(sp)) {
+          try {
+            S.lingoPick = { [sp]: t.team }; renderLingo(); renders++;
+            const b = bad(document.getElementById("tab-lingo").innerText);
+            if (b) problems.push(`${look} ${sp} lingo ${t.team}: …${b}…`);
+            if (wide()) problems.push(`${look} ${sp} lingo ${t.team}: wider than the window`);
+          } catch (e) { problems.push(`${look} ${sp} lingo ${t.team}: ${e.message}`); }
+        }
+        try {
+          S.lingoQ = "the"; renderLingo(); renders++;
+          if (wide()) problems.push(`${look} ${sp} lingo search: wider than the window`);
+        } catch (e) { problems.push(`${look} ${sp} lingo search: ${e.message}`); }
+        S.lingoQ = ""; S.lingoPick = {};
       }
       for (const [render, id] of tabs) {
         try {

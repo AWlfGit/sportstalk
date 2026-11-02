@@ -1,0 +1,571 @@
+[
+  {
+    "id": "es-madrid",
+    "name": "Madrid",
+    "covers": "Madrid: Real Madrid and Atlético Madrid",
+    "dialect": "Madrid Spanish (castizo)",
+    "words": [
+      {"term": "Hala Madrid", "say": "AH-lah mah-DREED", "ipa": "ˈala maˈdɾid", "tts": "ah la ma dreed", "means": "Real Madrid's rallying cry: roughly 'Come on, Madrid!' Atleti fans never say it.", "use": "Hala Madrid! Another big European night.", "common": true},
+      {"term": "Aúpa Atleti", "say": "ah-OO-pah aht-LEH-tee", "ipa": "aˈupa aˈtleti", "tts": "ah oo pa at let ee", "means": "Atlético's cry: 'Come on, Atleti!' The club signs off its posts with it.", "use": "Aúpa Atleti, see you at the Metropolitano.", "common": true},
+      {"term": "los merengues", "say": "lohs meh-REN-gess", "ipa": "los meˈɾenɡes", "tts": "loss meh ren gess", "means": "The meringues: Real Madrid, after their all-white kit. Used by Spanish media and rival fans alike.", "use": "The merengues are top again, of course.", "common": true},
+      {"term": "el derbi", "say": "el DEHR-bee", "ipa": "el ˈdeɾbi", "tts": "el dare bee", "means": "The Madrid derby, Real against Atlético. Spanish spells it with an i.", "use": "Derbi on Saturday. Whose side is your boss on?", "common": true},
+      {"term": "golazo", "say": "go-LAH-tho", "ipa": "ɡoˈlaθo", "tts": "go lath oh", "means": "A stunning goal. English-speaking fans use it too.", "use": "What a golazo, top corner from thirty yards.", "common": true},
+      {"term": "remontada", "say": "reh-mon-TAH-dah", "ipa": "remonˈtada", "tts": "ray mon ta da", "means": "A comeback from a big deficit. Real fans see it as a Bernabéu speciality on European nights.", "use": "Two down after the first leg? We've seen remontadas before.", "common": true},
+      {"term": "pañolada", "say": "pahn-yo-LAH-dah", "ipa": "paɲoˈlada", "tts": "pan yo la da", "means": "When the crowd waves white handkerchiefs in protest at the team, the coach or the president. The worst verdict a home crowd can give.", "use": "Lose again and it'll be a pañolada.", "common": true},
+      {"term": "pitada", "say": "pee-TAH-dah", "ipa": "piˈtada", "tts": "pee ta da", "means": "A round of whistling. Spanish crowds whistle where English ones boo.", "use": "Big pitada for the referee at half-time.", "common": true},
+      {"term": "la Champions", "say": "lah CHAM-pyons", "ipa": "la ˈtʃampjons", "tts": "la champ yons", "means": "The Champions League. Spaniards just say 'la Champions'.", "use": "Forget the league, it's all about la Champions.", "common": true},
+      {"term": "gato", "say": "GAH-toh", "ipa": "ˈɡato", "tts": "gah toe", "means": "A cat: a born-and-bred madrileño whose parents and grandparents were born in the city too. Said with pride.", "use": "He's a proper gato, been going to the derbi since he was five.", "common": false},
+      {"term": "una caña", "say": "OO-nah KAHN-yah", "ipa": "ˈuna ˈkaɲa", "tts": "oona can ya", "means": "A small draught beer, the unit of Madrid's pre-match bar crawl.", "use": "Unas cañas near the ground before kick-off?", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Bernabéu", "say": "ber-nah-BAY-oo", "ipa": "beɾnaˈβew", "tts": "bear nah bay ooh", "why": "Real's ground, officially just 'Bernabéu' since 2025. Outsiders say 'BER-na-bow'; the end runs 'bay-oo'."},
+      {"word": "Madrid", "say": "mah-DREETH", "ipa": "maˈdɾiθ", "tts": "ma dreeth", "why": "Locals soften the final d almost to a 'th' (the city jokes about it as 'Madriz'). A hard English d sounds foreign."},
+      {"word": "Cibeles", "say": "thee-BEH-less", "ipa": "θiˈbeles", "tts": "thee bell ess", "why": "The fountain where Real celebrate titles. The c is a 'th' in Madrid, not 'sigh-BEELZ'."},
+      {"word": "Neptuno", "say": "nep-TOO-noh", "ipa": "nepˈtuno", "tts": "nep too no", "why": "Neptune's fountain, where Atlético celebrate. Use the Spanish name, not 'Neptune'."},
+      {"word": "Valdebebas", "say": "bahl-deh-BEH-bahs", "ipa": "baldeˈbebas", "tts": "bahl deh beh bahs", "why": "Real's training ground. The v is said as a soft b."},
+      {"word": "Chamartín", "say": "chah-mar-TEEN", "ipa": "tʃamaɾˈtin", "tts": "cha mar teen", "why": "The district around the Bernabéu, often used to mean Real Madrid itself. Stress the end."}
+    ],
+    "lines": [
+      {"t": "Hala Madrid! Cibeles tonight.", "m": "A Real fan after a trophy: the party heads to the fountain."},
+      {"t": "Cibeles is theirs, Neptuno is ours.", "m": "An Atleti fan on where each club celebrates."},
+      {"t": "Derbi week. This city is split down the middle.", "m": "Madrid is not all Real: families and offices divide."},
+      {"t": "The Bernabéu got the hankies out again.", "m": "Moaning about a pañolada: the crowd's patience has run out."},
+      {"t": "Unas cañas before the game?", "m": "The pre-match invite: small beers in a bar near the ground."},
+      {"t": "Never leave early. Remontada.", "m": "Real fans' faith in the late comeback."}
+    ],
+    "avoid": [
+      {"say": "Atlético play at the Calderón", "instead": "Atleti play at the Metropolitano", "why": "They left the Vicente Calderón in 2017 and it has been demolished."},
+      {"say": "Everyone in Madrid supports Real", "instead": "Madrid is split, and Atleti have a huge local following", "why": "Plenty of madrileños are colchoneros and will tell you so."},
+      {"say": "Let's celebrate at Cibeles in red and white", "instead": "Atleti celebrate at Neptuno", "why": "Each club has its own fountain on the Paseo del Prado, a few hundred metres apart."}
+    ],
+    "habits": ["Title parties end at the fountains on the Paseo del Prado: Real at Cibeles, where the captains drape the statue in a scarf, Atlético at Neptuno.", "Pre-match means cañas and tapas in bars around the ground; evening kick-offs can be as late as 9pm, so dinner comes after.", "Anger comes as whistles (a pitada) or, at its worst, white handkerchiefs waved at the president's box."],
+    "sources": ["https://www.football-espana.net/2022/05/31/why-do-real-madrid-celebrate-their-titles-at-cibeles", "https://tacklefrombehind.com/?p=1742", "https://www.thelocal.es/20220215/gatos-why-are-people-from-madrid-referred-to-as-cats-in-spain", "https://themakingofmadrid.com/2022/01/02/ten-words-for-the-true-madrilleno/", "https://www.laliga.com/en-GB/news/why-are-real-madrid-players-called-merengues", "https://en.wikipedia.org/wiki/Santiago_Bernab%C3%A9u_Stadium", "https://en.wiktionary.org/wiki/remontada", "https://en.wiktionary.org/wiki/golazo", "https://en.wiktionary.org/wiki/pa%C3%B1olada"],
+    "unsure": []
+  },
+  {
+    "id": "es-catalonia",
+    "name": "Barcelona",
+    "covers": "Barcelona and Catalonia: FC Barcelona",
+    "dialect": "Catalan and Barcelona Spanish",
+    "words": [
+      {"term": "culer", "say": "koo-LAY", "ipa": "kuˈle", "tts": "koo lay", "means": "A Barça fan; 'culé' in Spanish. From 'cul', backside: early fans sat on the ground's wall with their behinds to the street.", "use": "Lifelong culer. My dad took me to my first Clàssic.", "common": true},
+      {"term": "Força Barça", "say": "FOR-sah BAR-sah", "ipa": "ˈfɔɾsə ˈbaɾsə", "tts": "for sah bar sah", "means": "Catalan for 'Come on, Barça!' The everyday sign-off among fans.", "use": "Big one tonight. Força Barça!", "common": true},
+      {"term": "Visca", "say": "BEES-kah", "ipa": "ˈbiskə", "tts": "bees ka", "means": "Catalan for 'long live', as in 'Visca el Barça'. The v sounds like a b in Barcelona.", "use": "Visca el Barça! What a win.", "common": true},
+      {"term": "Més que un club", "say": "MESS kuh oon KLOOP", "ipa": "ˈmes kə un ˈklup", "tts": "mess ka oon kloop", "means": "'More than a club': the motto painted on the stands. Fans quote it with pride; rivals quote it with a smirk.", "use": "Més que un club, mate. It's a way of life.", "common": true},
+      {"term": "penya", "say": "PEN-yah", "ipa": "ˈpɛɲə", "tts": "pen ya", "means": "An official supporters' club. There are well over a thousand worldwide, and they meet in a bar to watch games.", "use": "Watching it with the penya down the road.", "common": true},
+      {"term": "soci", "say": "SOH-see", "ipa": "ˈsɔsi", "tts": "so see", "means": "A club member. Barça is owned by its socis, who elect the president.", "use": "The socis vote for a new president next month.", "common": true},
+      {"term": "La Masia", "say": "lah mah-ZEE-ah", "ipa": "lə məˈzi.ə", "tts": "la ma zee a", "means": "Barça's youth academy, named after the old farmhouse that housed it. A home-grown player is 'from La Masia'.", "use": "Another kid from La Masia. Unbelievable touch.", "common": true},
+      {"term": "el Clàssic", "say": "ul KLAH-sik", "ipa": "əl ˈklasik", "tts": "el class ick", "means": "Barça against Real Madrid; 'el Clásico' in Spanish.", "use": "Clàssic week. Nobody here talks about anything else.", "common": true},
+      {"term": "pericos", "say": "peh-REE-koss", "ipa": "peˈɾikos", "tts": "peh ree koss", "means": "Parakeets: fans of Espanyol, the city's other club, now based in Cornellà.", "use": "The pericos will be up for the derby.", "common": true},
+      {"term": "derbi barceloní", "say": "DEHR-bee bar-suh-loo-NEE", "ipa": "ˈdɛɾbi bəɾsəluˈni", "tts": "dare bee bar suh loo nee", "means": "The Barcelona derby, Barça against Espanyol.", "use": "Derbi barceloní on Saturday. Should be tasty.", "common": false},
+      {"term": "tiki-taka", "say": "TEE-kee TAH-kah", "ipa": "ˈtiki ˈtaka", "tts": "", "means": "Short, quick passing football. English fans use it for the Barça style; purists prefer 'positional play'.", "use": "Pure tiki-taka for ten minutes, then a tap-in.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Camp Nou", "say": "kahm NOH-oo", "ipa": "ˈkam ˈnɔw", "tts": "cam no ooh", "why": "'New field' in Catalan. Never 'the Nou Camp', and 'Nou' is not 'noo'."},
+      {"word": "Barcelona", "say": "bar-suh-LOH-nuh", "ipa": "bəɾsəˈlonə", "tts": "buhr suhloh nuh", "why": "In Catalan the c is an s. The 'Barthelona' lisp is Madrid Spanish, not local."},
+      {"word": "Montjuïc", "say": "mon-zhoo-EEK", "ipa": "ˌmoɲʒuˈik", "tts": "mohnzhoo eek", "why": "The hill with the Olympic stadium, Barça's home from 2023 to 2025. The j is soft and the end is 'eek'."},
+      {"word": "Les Corts", "say": "less KORTS", "ipa": "ləs ˈkɔɾts", "tts": "less courts", "why": "The district around the Camp Nou, and the name of the club's old ground."},
+      {"word": "Joan Gamper", "say": "zhoo-AN GAM-per", "ipa": "ʒuˈan ˈɡampəɾ", "tts": "joo an gam per", "why": "The founder, and the name of Barça's pre-season trophy. Joan is a man's name in Catalan: 'zhoo-AN', not 'Jone'."},
+      {"word": "Canaletes", "say": "kah-nah-LEH-tess", "ipa": "kənəˈlɛtəs", "tts": "can a let ess", "why": "The fountain at the top of La Rambla where fans gather after titles."}
+    ],
+    "lines": [
+      {"t": "Força Barça! Canaletes if we win it.", "m": "A fan before a title decider: the party spot is the fountain on La Rambla."},
+      {"t": "Back at the Camp Nou, even half-built.", "m": "Barça returned in November 2025 while the rebuild carries on."},
+      {"t": "That's a Masia kid, you can tell.", "m": "Praise for a home-grown player's touch."},
+      {"t": "Clàssic week. Nobody in this city talks about anything else.", "m": "Real Madrid week takes over Barcelona."},
+      {"t": "The pericos? Fine, but this city is blaugrana.", "m": "Mild banter about Espanyol, the city's other club."}
+    ],
+    "avoid": [
+      {"say": "Barthelona", "instead": "bar-suh-LOH-nuh", "why": "Catalan has no 'th'; locals speaking Catalan say it with an s."},
+      {"say": "'Visca' is Spanish for 'long live'", "instead": "'Visca' is Catalan", "why": "Catalan is its own language, and it's the language of the club's announcements and fan cries."},
+      {"say": "Barça are Barcelona's only club", "instead": "Espanyol are the city's other club", "why": "Barcelona has two top-flight clubs and a real derby."}
+    ],
+    "habits": ["Titles are celebrated at the Canaletes fountain at the top of La Rambla; when building work closed it in 2026, fans gathered in Plaça de Catalunya.", "Many culers watch with their local penya, the official supporters' clubs found in towns across Catalonia and abroad.", "The socis own the club and vote for the president; more than 100,000 were called to vote in March 2026."],
+    "sources": ["https://en.wikipedia.org/wiki/Supporters_of_FC_Barcelona", "https://www.laliga.com/en-GB/news/why-are-barcelona-called-the-cules", "https://en.wiktionary.org/wiki/cul%C3%A9", "https://en.wikipedia.org/wiki/Camp_Nou", "https://www.fcbarcelona.com/en/news/3345559/canaletes-is-blaugrana-again", "https://www.catalannews.com/sports/item/photo-gallery-barca-fans-celebrate-29th-la-liga-title-in-barcelona-", "https://www.laliga.com/en-GB/news/why-are-the-players-from-espanyol-called-pericos", "https://en.wiktionary.org/wiki/Montju%C3%AFc", "https://en.wiktionary.org/wiki/penya"],
+    "unsure": ["pronounce: Canaletes IPA built from Catalan spelling rules, not found in a dictionary"]
+  },
+  {
+    "id": "es-basque",
+    "name": "Bilbao",
+    "covers": "Bilbao and Bizkaia: Athletic Club",
+    "dialect": "Basque (Euskara) and Basque Spanish",
+    "words": [
+      {"term": "Aupa", "say": "OW-pah", "ipa": "ˈau̯pa", "tts": "ahoo pah", "means": "Basque for 'come on!' and also an everyday 'hi'. 'Aupa Athletic!' is the cry.", "use": "Aupa! See you at the ground.", "common": true},
+      {"term": "Lehoiak", "say": "leh-OY-ak", "ipa": "leoi̯ak", "tts": "leh oh eeahk", "means": "Basque for 'the Lions', the players' nickname. In Spanish, 'los Leones'.", "use": "The Lehoiak need a win tonight.", "common": true},
+      {"term": "zuri-gorriak", "say": "SOO-ree GOR-ree-ak", "ipa": "s̻uɾi ɡoriak", "tts": "soo ree gor ree ack", "means": "Basque for 'the red-and-whites': the team, and the fans in their striped shirts.", "use": "Whole city in zuri-gorri today.", "common": false},
+      {"term": "bacalao", "say": "bah-kah-LAH-oh", "ipa": "bakaˈlao", "tts": "back a la oh", "means": "Cod. What Bilbao's Radio Popular shouts instead of 'gol' when Athletic score, since 1984. Fans copy it.", "use": "Bacalao! Bacalao! One-nil.", "common": true},
+      {"term": "cachorros", "say": "kah-CHOR-ross", "ipa": "kaˈtʃoros", "tts": "ka chor ross", "means": "The cubs: players in Bilbao Athletic, the reserve side. You're a cub until your first-team debut, then a lion.", "use": "Two cachorros on the bench today.", "common": false},
+      {"term": "cantera", "say": "kahn-TEH-rah", "ipa": "kanˈteɾa", "tts": "can tair a", "means": "The quarry: the youth system. Athletic field only players born or trained in the Basque Country, so the cantera is everything.", "use": "All cantera, no big signings, and we won the cup.", "common": true},
+      {"term": "Pichichi", "say": "pee-CHEE-chee", "ipa": "piˈtʃitʃi", "tts": "pee chee chee", "means": "La Liga's top-scorer award, named after an Athletic striker of the 1910s. Locals are proud it's theirs.", "use": "Fancy him for the Pichichi this year?", "common": true},
+      {"term": "el Botxo", "say": "el BOT-cho", "ipa": "el ˈbotʃo", "tts": "el bot cho", "means": "'The hole': Bilbao's nickname, because the city sits in a bowl of hills. A local is a 'botxero'.", "use": "Nothing beats a derby night in the Botxo.", "common": true},
+      {"term": "agur", "say": "ah-GOOR", "ipa": "aˈɡuɾ", "tts": "", "means": "Basque for 'bye', used by everyone in Bilbao, even mid-Spanish.", "use": "Agur, see you Sunday.", "common": true},
+      {"term": "poteo", "say": "poh-TEH-oh", "ipa": "poˈteo", "tts": "po tay oh", "means": "Going bar to bar for small glasses of wine. The standard pre-match warm-up.", "use": "Poteo round Pozas at five?", "common": true},
+      {"term": "pintxos", "say": "PEEN-chos", "ipa": "ˈpintʃos", "tts": "peen chos", "means": "The snacks lined up on Basque bar counters. 'Tx' is said 'ch'.", "use": "Couple of pintxos and then up to San Mamés.", "common": true},
+      {"term": "sirimiri", "say": "see-ree-MEE-ree", "ipa": "siɾiˈmiɾi", "tts": "see ree mee ree", "means": "The fine drizzle Bilbao is known for, from the Basque 'zirimiri'.", "use": "Bit of sirimiri. Proper football weather.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "San Mamés", "say": "san mah-MESS", "ipa": "san maˈmes", "tts": "san ma mess", "why": "Athletic's ground, 'La Catedral'. Stress the last syllable; not 'MAH-mez'."},
+      {"word": "Athletic", "say": "AHT-leh-teek", "ipa": "ˈatletik", "tts": "at let ick", "why": "Locals say the club's English name the Spanish way, stress at the front, and don't add 'Bilbao'."},
+      {"word": "Bilbao", "say": "beel-BAH-oh", "ipa": "bilˈbao", "tts": "beel bah oh", "why": "Three clear syllables locally, not a clipped 'bil-BOW'."},
+      {"word": "Lezama", "say": "leh-THAH-mah", "ipa": "leˈθama", "tts": "leth ah ma", "why": "Athletic's training ground and academy, where the cantera is raised. The z is a 'th'."},
+      {"word": "Bizkaia", "say": "beess-KYE-ah", "ipa": "bis̺ˈkai̯a", "tts": "beeskah eeah", "why": "The province around Bilbao (Vizcaya in Spanish, Biscay in English). The Basque spelling is what you'll see on signs."}
+    ],
+    "lines": [
+      {"t": "Aupa! Poteo round Pozas before kick-off?", "m": "The meet-up: bar-hopping in the streets by San Mamés."},
+      {"t": "Bacalao! Bacalao!", "m": "Shouted for an Athletic goal, the way local radio calls it."},
+      {"t": "Sirimiri again. Perfect San Mamés weather.", "m": "Fond moaning about Bilbao's drizzle."},
+      {"t": "Basque lads only, and we still win trophies.", "m": "Pride in the home-grown policy."},
+      {"t": "Get the gabarra out!", "m": "After a trophy: time for the barge parade down the river."}
+    ],
+    "avoid": [
+      {"say": "Let's get some tapas", "instead": "Let's go for pintxos", "why": "In Bilbao the bar snacks are pintxos, and the word marks who's local."},
+      {"say": "Basque is a kind of Spanish", "instead": "Basque, Euskara, is its own language", "why": "It's unrelated to Spanish; fans mix Basque words like aupa and agur into their Spanish."},
+      {"say": "Athletic should buy a star striker", "instead": "Athletic bring players through the cantera", "why": "The club only fields players born or trained in the Basque Country, and fans love it that way."}
+    ],
+    "habits": ["Before home games, thousands do the poteo, wine and pintxos bar to bar, in the Pozas streets beside the stadium.", "Visiting teams on their first trip to San Mamés lay flowers at the bust of Pichichi by the tunnel, a custom since 1927.", "Trophies sail down the river on the gabarra barge; the 2024 Copa del Rey parade drew crowds put at up to a million."],
+    "sources": ["https://www.athletic-club.eus/en/news/2021/10/12/the-language-of-athletic-club-pt-2-lions-and-cubs/", "https://www.athletic-club.eus/en/news/2021/10/17/the-language-of-athletic-club-pt-7-bacalao", "https://www.athletic-club.eus/en/news/2021/10/18/the-language-of-athletic-club-pt-8-pichichi/", "https://sanmames.athletic-club.eus/en/blog/the-red-white-atmosphere-on-big-occasions/", "https://en.wikipedia.org/wiki/Athletic_Bilbao", "https://www.thelocal.es/20240412/in-images-1-million-revellers-flood-into-bilbao-to-celebrate-first-trophy-in-40-years", "https://en.wiktionary.org/wiki/aupa", "https://en.wiktionary.org/wiki/lehoi", "https://en.wiktionary.org/wiki/agur", "https://en.wiktionary.org/wiki/sirimiri"],
+    "unsure": []
+  },
+  {
+    "id": "es-andalusia",
+    "name": "Seville",
+    "covers": "Seville: Sevilla and Real Betis",
+    "dialect": "Andalusian Spanish",
+    "words": [
+      {"term": "mi arma", "say": "mee AR-mah", "ipa": "mi ˈaɾma", "tts": "mee ar ma", "means": "'My soul' said the Seville way (alma becomes arma). A warm 'mate' or 'love', very Sevillian.", "use": "Calm down, mi arma, it's only the first half.", "common": true},
+      {"term": "quillo", "say": "KEE-yo", "ipa": "ˈkiʝo", "tts": "kee yo", "means": "Short for 'chiquillo', kid: the Andalusian 'mate' or 'oi'. Often cut to 'illo'.", "use": "Quillo, did you see that goal?", "common": true},
+      {"term": "el Gran Derbi", "say": "el gran DEHR-bee", "ipa": "el ɡɾan ˈdeɾbi", "tts": "el gran dare bee", "means": "The Seville derby, Sevilla against Betis. One of Spain's fiercest.", "use": "Gran Derbi on Sunday. I can't sleep.", "common": true},
+      {"term": "¿Bético o sevillista?", "say": "BEH-tee-ko oh seh-vee-YEES-tah", "ipa": "ˈbetiko o sebiˈʝista", "tts": "beh teekoh ohseh bee yees tah", "means": "'Betis or Sevilla?' The first thing a Sevillano asks you. There is no neutral answer.", "use": "So, bético o sevillista?", "common": true},
+      {"term": "balompié", "say": "bah-lom-PYEH", "ipa": "balomˈpje", "tts": "bah lohm pyeh", "means": "Old Spanish for football (ball-foot), kept in Real Betis Balompié's full name.", "use": "Real Betis Balompié. Even the name is old school.", "common": false},
+      {"term": "olé", "say": "oh-LEH", "ipa": "oˈle", "tts": "oh lay", "means": "Shouted with every pass when your team keeps the ball and the other side chases shadows.", "use": "Olé! Olé! Keep it, keep it.", "common": true},
+      {"term": "la Feria", "say": "lah FEH-ryah", "ipa": "la ˈfeɾja", "tts": "la fair ya", "means": "The April Fair: a week of tents, dancing and late nights that takes over the city.", "use": "Home game in Feria week? Good luck getting anyone there.", "common": true},
+      {"term": "flipando", "say": "flee-PAN-doh", "ipa": "fliˈpando", "tts": "flee pan doe", "means": "Amazed, blown away: 'estoy flipando'. Sevillanos add 'en colores' when it's really big.", "use": "That comeback? I'm still flipando.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Sevilla", "say": "seh-VEE-yah", "ipa": "seˈbiʝa", "tts": "sehbee yah", "why": "The club always goes by the Spanish name. The double l is a 'y', not 'se-VIL-a'."},
+      {"word": "Sánchez-Pizjuán", "say": "SAHN-chess peess-HWAHN", "ipa": "ˈsantʃes pisˈxwan", "tts": "san chess peace hwan", "why": "Sevilla's ground. The j is a breathy h, and many Sevillanos say the z as an s."},
+      {"word": "Villamarín", "say": "bee-yah-mah-REEN", "ipa": "biʝamaˈɾin", "tts": "bee ya ma reen", "why": "Betis's home, being rebuilt. V is a soft b and ll is a y."},
+      {"word": "La Cartuja", "say": "lah kar-TOO-hah", "ipa": "la kaɾˈtuxa", "tts": "la car too ha", "why": "The Olympic stadium by the river where Betis play while the Villamarín is rebuilt. The j is an h."},
+      {"word": "Nervión", "say": "nehr-BYON", "ipa": "neɾˈbjon", "tts": "nehrbyohn", "why": "Sevilla's neighbourhood, hence 'los nervionenses'. Stress the end."},
+      {"word": "Heliópolis", "say": "eh-LYOH-poh-lees", "ipa": "eˈljopolis", "tts": "el yo po lees", "why": "Betis's neighbourhood around the Villamarín. The h is silent."}
+    ],
+    "lines": [
+      {"t": "Bético o sevillista? Pick one, mi arma.", "m": "Seville's first question for anyone new."},
+      {"t": "Gran Derbi week. The whole city's on edge.", "m": "Sevilla against Betis takes over everything."},
+      {"t": "Quillo, what a goal!", "m": "Andalusian 'mate' plus pure joy."},
+      {"t": "Forty degrees and a five o'clock kick-off. Who planned this?", "m": "Moaning about Seville's heat at early and late-season games."},
+      {"t": "Olé! Let them chase it.", "m": "When your side is passing rings round the opponents."}
+    ],
+    "avoid": [
+      {"say": "The Seville derby's a friendly one", "instead": "El Gran Derbi is serious", "why": "It's one of Spain's most heated rivalries, and families split over it."},
+      {"say": "I support both Seville clubs", "instead": "Pick Sevilla or Betis", "why": "Nobody here is both; saying so gets you laughed at by each side."},
+      {"say": "the Peeth-HWAHN, with a Madrid 'th'", "instead": "the Pizjuán, peess-HWAHN", "why": "Many Sevillanos say an s where Madrid says 'th', so the lisp sounds imported."}
+    ],
+    "habits": ["Spring belongs to Semana Santa processions and the Feria de Abril; locals plan games, trips and nights out around them.", "Sevilla home games open with the whole ground roaring out the club's 2005 centenary anthem, the 'Himno del Centenario'.", "Betis fans head to La Cartuja by the river until the rebuilt Benito Villamarín opens, now planned for about 2028."],
+    "sources": ["https://matadornetwork.com/read/15-andalucian-expressions-know-go-spain", "https://storiesfromsevilla.substack.com/p/see-you-later-my-soul-hasta-luego", "https://www.ceastudyabroad.com/blog/content-creator/2014/11/05/mi-alma-the-little-things-in-seville", "https://stadiumdb.com/news/2025/12/spain_betis_officially_targets_villamarin_opening_in_2028", "https://www.uefa.com/uefaeuropaleague/news/022d-0e9458d73601-1a480f9da4cc-1000--himno-centenario-sevilla-s-song-for-all-seasons", "https://www.football-espana.net/2022/05/18/andalusian-passion-the-ramon-sanchez-pizjuan/amp"],
+    "unsure": ["words: 'flipando' confirmed as Sevilla slang by one travel source plus general Spanish usage only"]
+  },
+  {
+    "id": "es-valencia",
+    "name": "Valencia",
+    "covers": "Valencia city: Valencia CF",
+    "dialect": "Valencian and Spanish",
+    "words": [
+      {"term": "Amunt", "say": "ah-MOONT", "ipa": "aˈmunt", "tts": "ah moont", "means": "Valencian for 'up!': the club's battle cry, as in 'Amunt València'. Also the name of the bat mascot.", "use": "Amunt València! Three points.", "common": true},
+      {"term": "xe", "say": "CHEH", "ipa": "ˈtʃɛ", "tts": "cheh", "means": "Valencian for 'hey' or 'mate', often spelled 'che'. It's why the club is called 'los Che'.", "use": "Xe, what a night at Mestalla.", "common": true},
+      {"term": "valencianista", "say": "bah-len-thyah-NEES-tah", "ipa": "balenθjaˈnista", "tts": "bah len thee a neestah", "means": "A Valencia CF fan.", "use": "Three generations of valencianistas in my family.", "common": true},
+      {"term": "ratpenat", "say": "rat-peh-NAT", "ipa": "ˌratpeˈnat", "tts": "rat peh nat", "means": "Valencian for bat. The bat sits on the crest and the city's coat of arms; Spanish speakers say 'murciélago'.", "use": "Ratpenat on the shirt, ratpenat on the town hall.", "common": false},
+      {"term": "granotes", "say": "grah-NOH-tess", "ipa": "ɡɾaˈnɔtes", "tts": "granot ess", "means": "The frogs: Levante, the city's other club, whose old ground sat by the riverbed.", "use": "Derbi with the granotes on Sunday.", "common": true},
+      {"term": "el Submarino Amarillo", "say": "el soob-mah-REE-noh ah-mah-REE-yo", "ipa": "el submaˈɾino amaˈɾiʝo", "tts": "el soob ma ree no ah ma ree yo", "means": "The Yellow Submarine: Villarreal, the nearby town club and regional rival.", "use": "The Submarino are flying again this year.", "common": true},
+      {"term": "Falles", "say": "FAH-yes", "ipa": "ˈfaʎes", "tts": "fa yes", "means": "The March festival ('Fallas' in Spanish): giant satirical figures, fireworks, and their burning on the last night.", "use": "Home game in Falles week. Bring earplugs.", "common": true},
+      {"term": "mascletà", "say": "mass-kleh-TAH", "ipa": "maskleˈta", "tts": "mask leh ta", "means": "The deafening daytime firecracker barrage held at 2pm every day from 1 to 19 March in the town-hall square.", "use": "Mascletà at two, Mestalla at nine.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Mestalla", "say": "mess-TAH-yah", "ipa": "mesˈtaʎa", "tts": "mess ta ya", "why": "Spain's oldest top-flight ground. The double l is a 'y'-like sound, not 'mes-TAL-a'."},
+      {"word": "Nou Mestalla", "say": "NOH-oo mess-TAH-yah", "ipa": "ˈnɔw mesˈtaʎa", "tts": "", "why": "The new stadium, due to open in summer 2027. 'Nou' is Valencian for new."},
+      {"word": "València", "say": "vah-LEN-see-ah", "ipa": "vaˈlensia", "tts": "", "why": "The Valencian name, with a v and an s; the Spanish 'ba-LEN-thya' sounds different."},
+      {"word": "Levante", "say": "leh-BAHN-teh", "ipa": "leˈbante", "tts": "leh ban teh", "why": "The city's other club. Outsiders say 'luh-VAN-tee'."},
+      {"word": "Villarreal", "say": "bee-yah-reh-AHL", "ipa": "biʝareˈal", "tts": "bee ya ray al", "why": "The rival town club. Four syllables, not 'VILL-a-real'."}
+    ],
+    "lines": [
+      {"t": "Amunt València!", "m": "The cry: 'Up Valencia!'"},
+      {"t": "Xe, what a night at Mestalla.", "m": "Valencian 'hey' after a big home win."},
+      {"t": "Derbi with the granotes on Sunday.", "m": "Valencia against Levante, the city derby."},
+      {"t": "Enjoy old Mestalla while it lasts.", "m": "The club is due to move to the Nou Mestalla in summer 2027."},
+      {"t": "Falles week: mascletà at two, football at nine.", "m": "March in Valencia, when fireworks and football share the day."}
+    ],
+    "avoid": [
+      {"say": "Paella with chorizo", "instead": "Valencian paella: chicken, rabbit and beans", "why": "Paella is Valencia's own dish and locals are fierce about the recipe."},
+      {"say": "Levante are the new club in town", "instead": "Levante are older than Valencia CF", "why": "Levante date from 1909, ten years before Valencia CF, and their fans like saying so."}
+    ],
+    "habits": ["In March the Falles festival fills the city: the mascletà shakes the town-hall square every afternoon and home games are played around it.", "The bat, the ratpenat, is everywhere: on the crest, as the mascot Amunt, and on the city's coat of arms.", "Fans are counting down their last seasons at old Mestalla before the move to the Nou Mestalla."],
+    "sources": ["https://www.valenciacf.com/en-valencia-cf-and-the-bat-a-timeless-story-2023-11-22", "https://thesefootballtimes.co/2020/04/23/behind-the-badge-what-the-bat-means-to-valencia-and-its-history/", "https://www.laliga.com/en-ES/news/why-are-levante-called-the-granotas", "https://en.wikipedia.org/wiki/Levante_UD", "https://www.valenciacf.com/the-construction-of-the-nou-mestalla-is-moving-forward-with-the-installation-of-the-first-pillars-stair-towers-and-roof-elements", "https://en.wikipedia.org/wiki/Falles", "https://en.wiktionary.org/wiki/amunt", "https://en.wiktionary.org/wiki/xe", "https://en.wiktionary.org/wiki/ratpenat", "https://en.wiktionary.org/wiki/Val%C3%A8ncia"],
+    "unsure": ["avoid: the paella rule is well known locally but not confirmed in a second written source during this research"]
+  },
+  {
+    "id": "it-milan",
+    "name": "Milan",
+    "covers": "Milan: AC Milan and Inter",
+    "dialect": "Milanese Italian",
+    "words": [
+      {"term": "tifoso", "say": "tee-FOH-zoh", "ipa": "tiˈfozo", "tts": "tee foe zo", "means": "A fan; plural 'tifosi'. A tifoso of Milan is a milanista, of Inter an interista.", "use": "He's been a tifoso since the eighties.", "common": true},
+      {"term": "la Curva", "say": "lah KOOR-vah", "ipa": "la ˈkurva", "tts": "la koor vah", "means": "The curved end behind the goal where the loudest fans stand. At San Siro, Milan's is the Curva Sud and Inter's the Curva Nord.", "use": "The Curva was unreal tonight.", "common": true},
+      {"term": "bauscia", "say": "bah-OO-shah", "ipa": "baˈyʃa", "tts": "bah oohshah", "means": "Milanese for 'braggart': the old nickname for Inter fans, once the posh club. Milan fans were 'casciavid', screwdrivers, the workers.", "use": "The bauscia are unbearable after a derby win.", "common": false},
+      {"term": "la Madonnina", "say": "lah mah-don-NEE-nah", "ipa": "la madonˈnina", "tts": "lah mah dohn neenah", "means": "The little golden statue of Mary on top of the Duomo, Milan's symbol. The derby is the 'Derby della Madonnina'.", "use": "Madonnina derby on Sunday. Can't wait.", "common": true},
+      {"term": "derby meneghino", "say": "DEHR-bee meh-neh-GHEE-noh", "ipa": "ˈdɛrbi meneˈɡino", "tts": "dare bee meh neh ghee no", "means": "Another name for the Milan derby. 'Meneghino' means Milanese, from the city's traditional comic character.", "use": "Derby meneghino: the city stops.", "common": false},
+      {"term": "Scudetto", "say": "skoo-DET-toh", "ipa": "skuˈdetto", "tts": "skoo det toe", "means": "The Serie A title, after the little shield champions wear on their shirts.", "use": "The Scudetto's coming back to Milan.", "common": true},
+      {"term": "la Stella", "say": "lah STEL-lah", "ipa": "la ˈstella", "tts": "la stell a", "means": "The star sewn above the badge for every ten league titles. Inter have two; Milan have one.", "use": "Two stars on the shirt now. Count them.", "common": true},
+      {"term": "Forza", "say": "FOR-tsah", "ipa": "ˈfɔrtsa", "tts": "fort sa", "means": "'Come on!' or 'Up the...': 'Forza Milan', 'Forza Inter'. The everyday sign-off.", "use": "Forza Inter, see you at San Siro.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Milan", "say": "MEE-lan", "ipa": "ˈmilan", "tts": "mee lan", "why": "Italians call the club 'il Milan', keeping the English spelling, with the stress at the front. The city is Milano."},
+      {"word": "Meazza", "say": "meh-AHT-sah", "ipa": "meˈattsa", "tts": "meh aht tsah", "why": "San Siro's official name is Stadio Giuseppe Meazza. The double z is 'ts'."},
+      {"word": "Duomo", "say": "DWOH-moh", "ipa": "ˈdwɔmo", "tts": "dwor mo", "why": "Milan's cathedral and the square where titles are celebrated. Two syllables, not 'doo-OH-mo'."},
+      {"word": "Milanello", "say": "mee-lah-NEL-loh", "ipa": "milaˈnɛllo", "tts": "mee la nell oh", "why": "AC Milan's training ground, outside the city. Stress the 'NEL'."},
+      {"word": "Appiano Gentile", "say": "ap-PYAH-noh jen-TEE-leh", "ipa": "apˈpjano dʒenˈtile", "tts": "ap yah no jen tee leh", "why": "The town where Inter train. The final e is said."},
+      {"word": "Navigli", "say": "nah-VEEL-yee", "ipa": "naˈviʎʎi", "tts": "nah veelylyee", "why": "The canal district full of bars. The 'gli' is a soft 'lyee'; the g is silent."}
+    ],
+    "lines": [
+      {"t": "Derby week. Half the office isn't talking to the other half.", "m": "Milan and Inter split families and workplaces."},
+      {"t": "Can't see the far Curva in this fog.", "m": "Milan's winter fog, the city's classic weather moan."},
+      {"t": "Aperitivo on the Navigli, then San Siro?", "m": "The plan before an evening game."},
+      {"t": "You've got two stars. We've got seven European Cups.", "m": "A Milan fan's comeback when Inter fans brag about league titles."},
+      {"t": "Enjoy San Siro while it lasts.", "m": "The clubs bought the stadium in 2025 and plan a new one next door for the early 2030s."}
+    ],
+    "avoid": [
+      {"say": "Milan's the workers' club and Inter's the posh one", "instead": "That split faded decades ago", "why": "Supporting either club is a family matter now, and fans of both will tell you so."},
+      {"say": "The Madonna derby", "instead": "The Derby della Madonnina", "why": "It's named after the little gilded statue on the Duomo, not the singer or a church."},
+      {"say": "Milan and Inter have different stadiums", "instead": "They share San Siro", "why": "Same ground, opposite ends: Curva Sud for Milan, Curva Nord for Inter."}
+    ],
+    "habits": ["Both clubs share San Siro: Milan's ultras fill the Curva Sud, Inter's the Curva Nord.", "Titles are celebrated in Piazza del Duomo, under the Madonnina.", "Before an evening game: an aperitivo in town, then the metro out to San Siro."],
+    "sources": ["https://en.wikipedia.org/wiki/Derby_della_Madonnina", "https://en.wikipedia.org/wiki/San_Siro", "https://en.wikipedia.org/wiki/AC_Milan", "https://en.wikipedia.org/wiki/Inter_Milan", "https://en.wiktionary.org/wiki/tifoso", "https://en.wiktionary.org/wiki/bauscia", "https://en.wiktionary.org/wiki/meneghino", "https://en.wiktionary.org/wiki/curva", "https://en.wiktionary.org/wiki/scudetto"],
+    "unsure": ["words: 'bauscia' is confirmed as the historic Inter nickname; current use is banter-level and not measured"]
+  },
+  {
+    "id": "it-turin",
+    "name": "Turin",
+    "covers": "Turin: Juventus",
+    "dialect": "Piedmontese Italian",
+    "words": [
+      {"term": "la Madama", "say": "lah mah-DAH-mah", "ipa": "la maˈdama", "tts": "la ma dah ma", "means": "Piedmontese for 'Madam': Turin's own nickname for Juventus, alongside 'la Vecchia Signora'.", "use": "La Madama's top of the table again.", "common": false},
+      {"term": "la Fidanzata d'Italia", "say": "lah fee-dahn-TSAH-tah dee-TAHL-yah", "ipa": "la fidanˈtsata diˈtalja", "tts": "la fee dant sah ta dee tal ya", "means": "'Italy's sweetheart': Juve, the club with fans all over the country, many from families who moved north to work at Fiat.", "use": "Fidanzata d'Italia: you'll find juventini in every town.", "common": false},
+      {"term": "i gobbi", "say": "ee GOB-bee", "ipa": "i ˈɡɔbbi", "tts": "ee gob bee", "means": "'The hunchbacks': rivals' teasing name for Juve fans, from the baggy shirts of the 1950s that puffed up at the back. Some juventini wear it with pride.", "use": "The gobbi win again. Of course they do.", "common": true},
+      {"term": "il Toro", "say": "eel TOH-roh", "ipa": "il ˈtɔro", "tts": "eel tor oh", "means": "'The Bull': Torino, the city's other club, in maroon ('granata'). Founded by players who broke away from Juve.", "use": "The Toro fans never let us forget they're the real Turin club.", "common": true},
+      {"term": "Derby della Mole", "say": "DEHR-bee DEL-lah MOH-leh", "ipa": "ˈdɛrbi della ˈmɔle", "tts": "dare bee dell a moll eh", "means": "The Turin derby, Juve against Torino, named after the Mole Antonelliana, the spire on the city's skyline.", "use": "Derby della Mole Saturday. No excuses.", "common": true},
+      {"term": "Derby d'Italia", "say": "DEHR-bee dee-TAHL-yah", "ipa": "ˈdɛrbi diˈtalja", "tts": "dare bee dee tal ya", "means": "Juve against Inter: the 'derby of Italy' between the two clubs that most often fight for the title.", "use": "Derby d'Italia next week. The whole country will be watching.", "common": true},
+      {"term": "Scudetto", "say": "skoo-DET-toh", "ipa": "skuˈdetto", "tts": "skoo det toe", "means": "The Serie A title, after the little shield champions wear on their shirts. Juve have won more than anyone.", "use": "Another Scudetto would do nicely.", "common": true},
+      {"term": "mister", "say": "MEES-ter", "ipa": "ˈmister", "tts": "", "means": "What Italian players and fans call the head coach, borrowed from English.", "use": "The mister has to change something at half-time.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Juventus", "say": "yoo-VEN-toos", "ipa": "juˈvɛntus", "tts": "you ven toose", "why": "The j is a 'y' and the end is 'toos'. Short form Juve: 'YOO-veh'."},
+      {"word": "Torino", "say": "toh-REE-noh", "ipa": "toˈrino", "tts": "toe ree no", "why": "The city's Italian name and the other club. Stress the middle."},
+      {"word": "Mole Antonelliana", "say": "MOH-leh an-toh-nel-LYAH-nah", "ipa": "ˈmɔle antonelˈljana", "tts": "moll eh an toe nell ya na", "why": "The landmark that names the derby. 'Mole' has two syllables."},
+      {"word": "Continassa", "say": "kon-tee-NAHS-sah", "ipa": "kontiˈnassa", "tts": "kohn tee nahs sah", "why": "Juve's headquarters and training centre, next to the stadium."},
+      {"word": "Agnelli", "say": "ahn-YEL-lee", "ipa": "aɲˈɲɛlli", "tts": "ahny nyehl lee", "why": "The Fiat family who have owned Juve for a century. The 'gn' is 'ny'."}
+    ],
+    "lines": [
+      {"t": "Derby della Mole this weekend. The Toro will be up for it.", "m": "Torino always raise their game for the derby."},
+      {"t": "Love us or hate us, nobody's neutral on Juve.", "m": "Juve have fans everywhere in Italy, and plenty of people who can't stand them."},
+      {"t": "Call us gobbi if you like. Count the Scudetti.", "m": "A juventino's reply to the rivals' nickname."},
+      {"t": "Derby d'Italia: the whole country's watching.", "m": "Juve against Inter, the big one."},
+      {"t": "The mister needs to sort the midfield out.", "m": "Moaning about the coach, Italian style, without naming names."}
+    ],
+    "avoid": [
+      {"say": "Turin FC", "instead": "Torino, or il Toro", "why": "The city's other club uses the Italian name."},
+      {"say": "Juve play at the Delle Alpi", "instead": "Juve play at the Allianz Stadium", "why": "They left the Stadio delle Alpi in 2006; the new ground opened on its site in 2011."},
+      {"say": "Calling a Juve fan a gobbo", "instead": "juventino, or bianconero", "why": "It's the rivals' teasing word. Leave it to them."}
+    ],
+    "habits": ["Juve's support is national: families who moved north to work at Fiat made it 'Italy's sweetheart', while Torino stayed the city's own club.", "The derby takes its name from the Mole Antonelliana, the tall spire that is Turin's symbol."],
+    "sources": ["https://en.wikipedia.org/wiki/Juventus_FC", "https://en.wikipedia.org/wiki/Derby_della_Mole", "https://en.wiktionary.org/wiki/scudetto", "https://en.wiktionary.org/wiki/mister", "https://en.wikipedia.org/wiki/Inter_Milan"],
+    "unsure": ["pronounce: Continassa and Agnelli IPA follow Italian spelling rules, not a dictionary entry"]
+  },
+  {
+    "id": "it-rome",
+    "name": "Rome",
+    "covers": "Rome: Roma and Lazio",
+    "dialect": "Romanesco",
+    "words": [
+      {"term": "Daje", "say": "DAI-yeh", "ipa": "ˈdajje", "tts": "die yeah", "means": "Roman for 'come on!', 'let's go!' or 'yes!'. 'E daje!' is pure celebration. Fans of both clubs use it.", "use": "Daje! Three points!", "common": true},
+      {"term": "aridaje", "say": "ah-ree-DAI-yeh", "ipa": "ˌariˈdajje", "tts": "ah ree die yeah", "means": "Roman for 'here we go again', when the same bad thing happens twice. The local moan.", "use": "Another late goal conceded. Aridaje.", "common": true},
+      {"term": "ammazza", "say": "ahm-MAHT-tsah", "ipa": "amˈmattsa", "tts": "am mat sah", "means": "Roman for 'wow!' or 'blimey!'.", "use": "Ammazza, what a strike.", "common": true},
+      {"term": "sfottò", "say": "sfot-TOH", "ipa": "sfotˈtɔ", "tts": "sfot taw", "means": "Teasing banter between rival fans. After a Rome derby the sfottò goes on for days.", "use": "The sfottò at work tomorrow will be brutal.", "common": true},
+      {"term": "la Curva Sud", "say": "lah KOOR-vah SOOD", "ipa": "la ˈkurva ˈsud", "tts": "la koor va sood", "means": "Roma's end of the Olimpico. Lazio's fans have the Curva Nord at the other end.", "use": "Season ticket in the Curva Sud since I was ten.", "common": true},
+      {"term": "tifo", "say": "TEE-foh", "ipa": "ˈtifo", "tts": "tee foe", "means": "Fan support; in English, the giant choreographed displays fans hold up before big games. Rome's derby tifos are famous.", "use": "Did you see the tifo before kick-off?", "common": true},
+      {"term": "Derby del Cupolone", "say": "DEHR-bee del koo-poh-LOH-neh", "ipa": "ˈdɛrbi del kupoˈlone", "tts": "dare bee dell koo po low neh", "means": "A Roman name for the derby: 'the big dome' is St Peter's. Also called the Derby della Capitale.", "use": "Derby del Cupolone: winner owns the city for six months.", "common": false},
+      {"term": "romanista o laziale?", "say": "roh-mah-NEES-tah oh lah-TSYAH-leh", "ipa": "romaˈnista o latˈtsjale", "tts": "roh mah nees tah oh laht tsyah leh", "means": "'Roma or Lazio?' The question every Roman asks. There's no third answer.", "use": "So, romanista o laziale?", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Lazio", "say": "LAHT-tsyoh", "ipa": "ˈlattsjo", "tts": "lahtsyo", "why": "Named after the region around Rome. The z is 'ts'; not 'LAY-zee-oh'."},
+      {"word": "Trigoria", "say": "tree-GOR-yah", "ipa": "triˈɡɔrja", "tts": "tree gor ya", "why": "Roma's training centre. 'Trigoria' in the news means the club itself."},
+      {"word": "Formello", "say": "for-MEL-loh", "ipa": "forˈmɛllo", "tts": "for mell oh", "why": "Lazio's training centre, north of the city."},
+      {"word": "Testaccio", "say": "teh-STAHT-cho", "ipa": "teˈstattʃo", "tts": "tess tatch oh", "why": "The working-class district where Roma played early on. The 'cc' is 'ch'."},
+      {"word": "Ponte Milvio", "say": "PON-teh MEEL-vyoh", "ipa": "ˈponte ˈmilvjo", "tts": "pon teh meel vee oh", "why": "The old bridge and bar district near the Olimpico. Both words end in a clear vowel."}
+    ],
+    "lines": [
+      {"t": "Daje!", "m": "Roman 'come on!' or 'yes!'; works for either club."},
+      {"t": "Aridaje. Same mistakes every week.", "m": "The Roman 'here we go again'."},
+      {"t": "Derby week. Nobody in Rome talks about anything else.", "m": "Roma against Lazio takes over the city."},
+      {"t": "Ammazza, what a goal!", "m": "Roman 'wow' after a stunner."},
+      {"t": "The sfottò starts the morning after the derby.", "m": "The teasing between the two sets of fans is part of the fun."}
+    ],
+    "avoid": [
+      {"say": "Roma and Lazio have their own stadiums", "instead": "They share the Olimpico", "why": "Same ground, opposite ends: Curva Sud for Roma, Curva Nord for Lazio."},
+      {"say": "Lazio's a town near Rome", "instead": "Lazio is the region around Rome", "why": "The club is from Rome itself and takes the region's name."},
+      {"say": "Romanista and laziale, same thing really", "instead": "Pick one", "why": "The rivalry is about who owns the city, and nobody is both."}
+    ],
+    "habits": ["Both clubs share the Stadio Olimpico, and on derby day the Curva Sud and Curva Nord face each other with tifos planned for weeks.", "The sfottò, teasing banter, carries on at work, in bars and online for days after a derby.", "Fans meet in the bars around Ponte Milvio and walk to the Olimpico."],
+    "sources": ["https://en.wikipedia.org/wiki/Derby_della_Capitale", "https://en.wiktionary.org/wiki/daje", "https://en.wiktionary.org/wiki/aridaje", "https://en.wiktionary.org/wiki/ammazza", "https://en.wiktionary.org/wiki/tifo", "https://en.wikipedia.org/wiki/Tifosi", "https://en.wiktionary.org/wiki/curva"],
+    "unsure": ["words: 'sfottò' IPA from Italian spelling (Wiktionary gives none)", "habits: Ponte Milvio as the pre-match meeting spot is from general knowledge, not a second source"]
+  },
+  {
+    "id": "it-naples",
+    "name": "Naples",
+    "covers": "Naples: Napoli",
+    "dialect": "Neapolitan",
+    "words": [
+      {"term": "Forza Napoli", "say": "FOR-tsah NAH-poh-lee", "ipa": "ˈfɔrtsa ˈnapoli", "tts": "fort sa nah po lee", "means": "'Come on, Napoli!' Often finished with 'sempre', always.", "use": "Forza Napoli, sempre.", "common": true},
+      {"term": "guaglione", "say": "wahl-YOH-neh", "ipa": "waʎˈʎonə", "tts": "wal yo nuh", "means": "Neapolitan for a lad or boy. Shouted as 'guagliò!' to a mate or a player.", "use": "Guagliò, what a goal!", "common": true},
+      {"term": "scugnizzo", "say": "skoon-YEET-tsoh", "ipa": "skuɲˈɲittso", "tts": "skoon yeet so", "means": "A Naples street kid. Said fondly of a cheeky, streetwise player.", "use": "Proper scugnizzo, that one. Nutmegged him twice.", "common": true},
+      {"term": "scaramanzia", "say": "skah-rah-mahn-TSEE-ah", "ipa": "skaramanˈtsia", "tts": "ska ra mant see a", "means": "Superstition, and Napoli fans take it seriously: you never mention the title until it's won.", "use": "Don't say the word. Scaramanzia.", "common": true},
+      {"term": "cornicello", "say": "kor-nee-CHEL-loh", "ipa": "korniˈtʃɛllo", "tts": "kor nee chell oh", "means": "The little red horn charm against bad luck ('curniciello' in Neapolitan). Fans touch it at tense moments.", "use": "Penalty. Grab the cornicello.", "common": true},
+      {"term": "Curva A, Curva B", "say": "KOOR-vah AH, KOOR-vah BEE", "ipa": "ˈkurva ˈa ˈkurva ˈbi", "tts": "koor vah ah koor vah bee", "means": "The two ends of the Maradona where the loudest Napoli fans stand. Naples names them by letter, not north and south.", "use": "Curva B was bouncing all night.", "common": true},
+      {"term": "Scudetto", "say": "skoo-DET-toh", "ipa": "skuˈdetto", "tts": "skoo det toe", "means": "The Serie A title. Napoli won it in 2023 and 2025, their first since the Maradona years.", "use": "Two Scudetti in three years. Who'd have believed it?", "common": true},
+      {"term": "Derby del Sole", "say": "DEHR-bee del SOH-leh", "ipa": "ˈdɛrbi del ˈsole", "tts": "dare bee dell so leh", "means": "'The derby of the sun': Napoli against Roma, the south's big rivalry.", "use": "Derby del Sole on Sunday. Rome's going to hear us.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Napoli", "say": "NAH-poh-lee", "ipa": "ˈnapoli", "tts": "nah po lee", "why": "Stress the first syllable; not 'na-POH-lee'."},
+      {"word": "Fuorigrotta", "say": "fwor-ee-GROT-tah", "ipa": "fwɔriˈɡrɔtta", "tts": "fwor ee grot ta", "why": "The district around the stadium. Locals use it for the ground itself."},
+      {"word": "Vesuvio", "say": "veh-ZOO-vyoh", "ipa": "veˈzuvjo", "tts": "veh zoo vee oh", "why": "The volcano over the bay. Locals use the Italian name, not 'Vesuvius'."},
+      {"word": "Partenope", "say": "par-TEH-noh-peh", "ipa": "parˈtɛnope", "tts": "par ten oh peh", "why": "The siren of legend and the city's ancient name; hence 'Partenopei'. Stress the second syllable."},
+      {"word": "Posillipo", "say": "poh-ZEEL-lee-poh", "ipa": "poˈzillipo", "tts": "po zill ee po", "why": "The hill and seafront district. Stress the second syllable, not the third."}
+    ],
+    "lines": [
+      {"t": "Forza Napoli sempre.", "m": "The everyday sign-off."},
+      {"t": "Don't say it yet. Scaramanzia.", "m": "Napoli fans won't say 'Scudetto' until it's mathematically won."},
+      {"t": "Guagliò, what a goal!", "m": "Neapolitan 'lad!' in pure joy."},
+      {"t": "That kid's a proper scugnizzo.", "m": "Praise for a cheeky, streetwise player."},
+      {"t": "The whole city was sky blue for weeks.", "m": "Remembering the title parties of 2023 and 2025."}
+    ],
+    "avoid": [
+      {"say": "Naples FC", "instead": "Napoli", "why": "The club only goes by its Italian name."},
+      {"say": "The Azzurri? You mean Italy?", "instead": "In Naples, 'gli Azzurri' means Napoli", "why": "Napoli play in sky blue and share the nickname with the national team."},
+      {"say": "Congratulations on the title!", "instead": "Let's not say it until it's done", "why": "Celebrating early is the worst bad luck there is."}
+    ],
+    "habits": ["Superstition runs deep: a red cornicello on the keyring, and no talk of the title until it's mathematically won.", "Title wins turn the city sky blue for weeks, with flags and bunting strung across the alleys.", "Maradona's face is on murals across the city, and many fans still call the stadium San Paolo, its name until 2020."],
+    "sources": ["https://en.wikipedia.org/wiki/SSC_Napoli", "https://en.wikipedia.org/wiki/Stadio_Diego_Armando_Maradona", "https://en.wikipedia.org/wiki/Cornicello", "https://en.wiktionary.org/wiki/guaglione", "https://en.wiktionary.org/wiki/scugnizzo", "https://en.wiktionary.org/wiki/scaramanzia", "https://en.wiktionary.org/wiki/scudetto"],
+    "unsure": ["words: Curva A and Curva B, and the no-mention-of-the-title superstition, are from general knowledge; web search ran out before a second written source", "habits: sky-blue street decorations not confirmed in a fetched source"]
+  },
+  {
+    "id": "it-italy",
+    "name": "Italy",
+    "covers": "Italy's national sides, Benetton Treviso, Zebre Parma and Ferrari's tifosi",
+    "dialect": "Italian",
+    "words": [
+      {"term": "tifosi", "say": "tee-FOH-zee", "ipa": "tiˈfozi", "tts": "tee foe zee", "means": "Fans; one fan is a tifoso. In English it often means Ferrari's fans in particular.", "use": "The tifosi will be out in force at Monza.", "common": true},
+      {"term": "Azzurri", "say": "ahd-DZOOR-ree", "ipa": "adˈdzurri", "tts": "ad zoo ree", "means": "'The Blues': Italy's national teams in football and rugby. The women are the Azzurre.", "use": "Big night for the Azzurri.", "common": true},
+      {"term": "la Scuderia", "say": "lah skoo-deh-REE-ah", "ipa": "la skudeˈria", "tts": "la skoo deh ree a", "means": "'The stable': Ferrari's racing team, Scuderia Ferrari. Fans just say 'la Scuderia'.", "use": "The Scuderia need a better strategy call than that.", "common": true},
+      {"term": "la Rossa", "say": "lah ROHS-sah", "ipa": "la ˈrossa", "tts": "lah rohs sah", "means": "'The red one': what Italians call Ferrari's car and team.", "use": "La Rossa looked quick in practice.", "common": true},
+      {"term": "il Cavallino", "say": "eel kah-vahl-LEE-noh", "ipa": "il kavalˈlino", "tts": "eel ka val lee no", "means": "The prancing horse on Ferrari's badge, and shorthand for the team.", "use": "Cavallino flags all over the grandstand.", "common": true},
+      {"term": "Temple of Speed", "say": "TEM-pul of SPEED", "ipa": "", "tts": "", "means": "Monza, home of the Italian Grand Prix, known for its long straights and flat-out speed.", "use": "Ferrari at the Temple of Speed. Nothing like it.", "common": true},
+      {"term": "terzo tempo", "say": "TEHR-tsoh TEM-poh", "ipa": "ˈtɛrtso ˈtɛmpo", "tts": "tert so tem po", "means": "Rugby's 'third half': food and drinks with the other team after the match. Italian rugby is proud of it.", "use": "Terzo tempo first, analysis later.", "common": true},
+      {"term": "meta", "say": "MEH-tah", "ipa": "ˈmɛta", "tts": "met a", "means": "Italian for a rugby try.", "use": "What a meta, right in the corner.", "common": true},
+      {"term": "the Wooden Spoon", "say": "the WOOD-en SPOON", "ipa": "", "tts": "", "means": "Last place in the Six Nations. Italy collected plenty after joining in 2000; avoiding it is now the minimum.", "use": "No Wooden Spoon this year. Progress.", "common": true},
+      {"term": "i Mondiali", "say": "ee mon-DYAH-lee", "ipa": "i monˈdjali", "tts": "ee mon dee ah lee", "means": "The World Cup. Italy have won it four times, most recently in 2006.", "use": "I still remember the 2006 Mondiali like yesterday.", "common": true},
+      {"term": "catenaccio", "say": "kah-teh-NAHT-choh", "ipa": "katenatˈtʃo", "tts": "ka ten atch oh", "means": "'The door bolt': the ultra-defensive style Italian football was once known for. Used in English too.", "use": "Proper catenaccio in the second half. One-nil and lock the door.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Maranello", "say": "mah-rah-NEL-loh", "ipa": "maraˈnɛllo", "tts": "mah rah nehl loh", "why": "Ferrari's home town and factory. Stress the 'NEL'."},
+      {"word": "Monza", "say": "MON-tsah", "ipa": "ˈmontsa", "tts": "mont sah", "why": "The Italian Grand Prix circuit. The z is 'ts', not a buzzing z."},
+      {"word": "Imola", "say": "EE-moh-lah", "ipa": "ˈimola", "tts": "ee mo la", "why": "The circuit near Maranello. Stress the first syllable, not 'ee-MOH-la'."},
+      {"word": "Mugello", "say": "moo-JEL-loh", "ipa": "muˈdʒɛllo", "tts": "moo jell oh", "why": "Ferrari's own circuit in Tuscany. The g is soft."},
+      {"word": "Treviso", "say": "treh-VEE-zoh", "ipa": "treˈvizo", "tts": "treh vee zo", "why": "Home of Benetton rugby. The s is a z sound."},
+      {"word": "Coverciano", "say": "koh-ver-CHAH-noh", "ipa": "koverˈtʃano", "tts": "ko vair chah no", "why": "The national football team's training centre in Florence. The c before i is 'ch'."}
+    ],
+    "lines": [
+      {"t": "Forza Ferrari! Monza will be a sea of red.", "m": "The tifosi before the Italian Grand Prix."},
+      {"t": "Three World Cups missed. Don't start me.", "m": "Italy failed to qualify for 2018, 2022 and 2026: the big football moan."},
+      {"t": "We beat England in the Six Nations!", "m": "The rugby Azzurri beat Scotland and England in 2026."},
+      {"t": "Terzo tempo first, analysis later.", "m": "Rugby's 'third half' with the opposition comes before any post-mortem."},
+      {"t": "La Rossa will come good. Next year.", "m": "Ferrari fans' eternal hope."}
+    ],
+    "avoid": [
+      {"say": "He's a real tifosi", "instead": "He's a real tifoso", "why": "Tifosi is the plural."},
+      {"say": "Italy are the Six Nations whipping boys", "instead": "Italy beat Scotland and England in 2026", "why": "Italian rugby has moved on, and fans will remind you."},
+      {"say": "How did Italy do at the 2026 World Cup?", "instead": "Italy missed out again", "why": "Their third missed World Cup in a row is a sore point."}
+    ],
+    "habits": ["At the Italian Grand Prix the Monza grandstands turn into a sea of red, and after the race the tifosi gather under the podium.", "Before matches the Azzurri belt out the national anthem, the 'Inno di Mameli', and the crowd joins in at full volume.", "Rugby's heartland is the north-east: Treviso and the Veneto, where club rugby is part of the weekend."],
+    "sources": ["https://en.wikipedia.org/wiki/Tifosi", "https://en.wiktionary.org/wiki/tifoso", "https://en.wikipedia.org/wiki/Italy_national_football_team", "https://en.wikipedia.org/wiki/Italy_national_rugby_union_team", "https://en.wikipedia.org/wiki/Monza_Circuit", "https://en.wikipedia.org/wiki/Benetton_Rugby", "https://en.wiktionary.org/wiki/meta"],
+    "unsure": ["words: 'terzo tempo' and 'la Rossa' are from general knowledge; no second written source fetched after web search ran out"]
+  },
+  {
+    "id": "de-bavaria",
+    "name": "Munich and Bavaria",
+    "covers": "Munich and Bavaria: Bayern Munich",
+    "dialect": "Bavarian (Boarisch)",
+    "words": [
+      {"term": "Mia san mia", "say": "MEE-ah san MEE-ah", "ipa": "ˈmiɐ san ˈmiɐ", "tts": "mee a san mee a", "means": "Bavarian for 'we are who we are': Bayern's motto and the club's swagger in three words.", "use": "Two-nil down, won three-two. Mia san mia.", "common": true},
+      {"term": "Servus", "say": "SAIR-vooss", "ipa": "ˈsɛɐ̯ʋus", "tts": "sehuh oos", "means": "Bavarian for 'hi', 'bye' and even 'cheers'. The all-purpose word.", "use": "Servus! You coming to the game Saturday?", "common": true},
+      {"term": "Grüß Gott", "say": "GREE-ass GOT", "ipa": "ɡriɐs ˈɡɔt", "tts": "gree ass got", "means": "The southern 'good day', said 'Griaß God' in Bavarian. Polite, for strangers and shops.", "use": "Grüß Gott! Two for the Südkurve, please.", "common": true},
+      {"term": "Schmarrn", "say": "SHMARN", "ipa": "ʃmarn", "tts": "shmarn", "means": "Bavarian for 'rubbish!' or 'nonsense!' 'So a Schmarrn!' is the verdict on a bad call or a bad opinion.", "use": "Penalty? So a Schmarrn!", "common": true},
+      {"term": "grantig", "say": "GRAN-tick", "ipa": "ˈɡrantɪk", "tts": "grant ick", "means": "Grumpy, the Bavarian way. A professional grumbler is a 'Grantler', and the city is proud of them.", "use": "Don't mind him, he's just grantig.", "common": true},
+      {"term": "Wiesn", "say": "VEE-zn", "ipa": "ˈviːsn̩", "tts": "vee sen", "means": "Locals' name for the Oktoberfest, after the meadow it's held on.", "use": "Off to the Wiesn after the match.", "common": true},
+      {"term": "a Mass", "say": "ah MASS", "ipa": "a ˈmas", "tts": "ah mass", "means": "A one-litre mug of beer, the standard beer-hall measure. Said with a short a.", "use": "One more Mass and I'll explain the offside rule.", "common": true},
+      {"term": "Südkurve", "say": "ZOOD-koor-veh", "ipa": "ˈzyːtˌkʊrvə", "tts": "zoot koor vuh", "means": "The south curve: the home end at the Allianz Arena where Bayern's loudest fans stand.", "use": "The Südkurve had a huge display before kick-off.", "common": true},
+      {"term": "Stern des Südens", "say": "SHTAIRN dess ZOO-dens", "ipa": "ʃtɛrn dɛs ˈzyːdn̩s", "tts": "shtairn dess zoo dens", "means": "'Star of the South': a nickname for Bayern, and the title of the tune the whole ground belts out at home games.", "use": "Stern des Südens at full volume. Goosebumps.", "common": true},
+      {"term": "Sechzig", "say": "ZESH-tsick", "ipa": "ˈzɛçtsɪk", "tts": "zehk tsik", "means": "'Sixty': TSV 1860 München, the city's other club, also 'die Löwen' (the Lions). Their fans are 'Sechzger'.", "use": "My uncle's Sechzig. We don't talk on derby day.", "common": true},
+      {"term": "Schlauchboot", "say": "SHLOWKH-boat", "ipa": "ˈʃlaʊxˌboːt", "tts": "shlowk boat", "means": "'The dinghy': locals' nickname for the Allianz Arena, after its puffed-up outer panels.", "use": "Meet you at the Schlauchboot at six.", "common": false},
+      {"term": "Meisterschale", "say": "MY-ster-shah-leh", "ipa": "ˈmaɪstɐˌʃaːlə", "tts": "my ster shah la", "means": "The Bundesliga trophy, a silver plate, jokingly called the 'salad bowl'. Bayern know it well.", "use": "Meisterschale back on the balcony again.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Bayern", "say": "BY-ern", "ipa": "ˈbaɪɐn", "tts": "by ern", "why": "The first part rhymes with 'by', not 'bay'. It's also the German name for Bavaria."},
+      {"word": "München", "say": "MUN-shen", "ipa": "ˈmʏnçn̩", "tts": "", "why": "The city's own name. The ü is a rounded 'ee', and the ch is soft."},
+      {"word": "Allianz Arena", "say": "ah-lee-ANTS ah-RAY-nah", "ipa": "aˈli̯ants ʔaˌʁeːna", "tts": "ah lee ants ah ray na", "why": "German stresses 'ANTS', not 'a-LYE-ance'."},
+      {"word": "Säbener Straße", "say": "ZAY-ben-er SHTRAH-seh", "ipa": "ˈzɛːbənɐ ˈʃtʁaːsə", "tts": "zay ben uh shtrah suh", "why": "Bayern's headquarters and training ground; used to mean the club's bosses. The ß is an s."},
+      {"word": "Fröttmaning", "say": "FRURT-mah-ning", "ipa": "ˈfrœtmanɪŋ", "tts": "frurt ma ning", "why": "The U6 station and heath where the stadium stands. Stress the first syllable."},
+      {"word": "Marienplatz", "say": "mah-REE-en-plats", "ipa": "maˈriːənˌplats", "tts": "ma ree en plats", "why": "The central square where titles are celebrated. Four syllables, stress on 'REE'."}
+    ],
+    "lines": [
+      {"t": "Mia san mia.", "m": "Bayern's motto, for any win, especially a cocky one."},
+      {"t": "Servus! Weißwurst before the game?", "m": "The Bavarian matchday breakfast invite."},
+      {"t": "So a Schmarrn!", "m": "'What rubbish!' for a bad decision or a bad take."},
+      {"t": "Another Meisterschale. Getting a bit routine.", "m": "The mock-weary brag; Bayern won their 34th Bundesliga title in 2025-26."},
+      {"t": "Don't mind him, he's just grantig.", "m": "Local grumpiness, said fondly."}
+    ],
+    "avoid": [
+      {"say": "1860 share the Allianz Arena", "instead": "Sechzig are back at the Grünwalder", "why": "They left the arena in 2017 and play in the fourth tier in 2026-27."},
+      {"say": "Oktoberfest, so it's in October", "instead": "The Wiesn starts in September", "why": "It opens in late September and finishes in early October."},
+      {"say": "A pint, please", "instead": "a Mass", "why": "Beer halls serve by the litre."}
+    ],
+    "habits": ["Matchday breakfast is Weißwurst with sweet mustard, a pretzel and a wheat beer, traditionally finished before noon.", "Each autumn the squad visits the Wiesn in Lederhosen and Dirndl.", "Title parties end on the town hall balcony at Marienplatz, with the Meisterschale held up to the square.", "The Südkurve leads the noise, and its ultras are known for campaigns against racism and homophobia."],
+    "sources": ["https://en.wikipedia.org/wiki/FC_Bayern_Munich", "https://en.wikipedia.org/wiki/Allianz_Arena", "https://en.wikipedia.org/wiki/TSV_1860_Munich", "https://en.wikipedia.org/wiki/Meisterschale", "https://en.wikipedia.org/wiki/Bavarian_language", "https://en.wiktionary.org/wiki/servus", "https://en.wiktionary.org/wiki/Schmarrn", "https://en.wiktionary.org/wiki/grantig", "https://en.wiktionary.org/wiki/Wiesn"],
+    "unsure": ["habits: the squad's Wiesn visit and the Marienplatz balcony are long-running and widely photographed, but not in a fetched source", "words: 'a Mass' and 'Schlauchboot' have one written source each"]
+  },
+  {
+    "id": "de-west",
+    "name": "Western Germany",
+    "covers": "The Ruhr, the Rhineland and Frankfurt: Borussia Dortmund, Bayer Leverkusen and Eintracht Frankfurt",
+    "dialect": "Ruhr German (Ruhrdeutsch), Rhineland and Hessian",
+    "words": [
+      {"term": "der Pott", "say": "dair POT", "ipa": "deːɐ̯ ˈpɔt", "tts": "dair pot", "means": "Short for 'Ruhrpott': the Ruhr, the old coal-and-steel country around Dortmund.", "use": "Nothing beats a derby in the Pott.", "common": true},
+      {"term": "Revierderby", "say": "reh-VEER-dair-bee", "ipa": "ʁeˈviːɐ̯ˌdɛʁbi", "tts": "reh veer dare bee", "means": "Dortmund against Schalke. 'Revier' is the Ruhr's old mining district. For BVB fans, bigger than Bayern.", "use": "Revierderby week. Nothing else matters.", "common": true},
+      {"term": "Glückauf", "say": "glook-OWF", "ipa": "ɡlʏkˈʔaʊ̯f", "tts": "glkowf", "means": "The traditional miners' greeting, 'good luck up there'. Still heard across the Ruhr.", "use": "Glückauf! See you on the terrace.", "common": true},
+      {"term": "Malocher", "say": "mah-LOH-kher", "ipa": "maˈloːxɐ", "tts": "ma low ha", "means": "A grafter, a hard manual worker. The Ruhr's highest praise for a player who runs all day.", "use": "Not pretty, but a proper Malocher.", "common": true},
+      {"term": "Kumpel", "say": "KOOM-pel", "ipa": "ˈkʊmpl̩", "tts": "koom pel", "means": "A mate, and in the Ruhr originally a fellow miner.", "use": "Going to the game with my Kumpels.", "common": true},
+      {"term": "Südtribüne", "say": "ZOOD-tree-boo-neh", "ipa": "ˈzyːttʁiˌbyːnə", "tts": "zoottree boo nuh", "means": "Dortmund's south stand, 'die Süd': the Yellow Wall, Europe's largest standing terrace.", "use": "Season ticket on the Süd for twenty years.", "common": true},
+      {"term": "Stehplatz", "say": "SHTAY-plats", "ipa": "ˈʃteːˌplats", "tts": "shtay plats", "means": "A standing place on the terrace. German fans fight to keep them.", "use": "Stehplatz, always. Seats are for the boardroom.", "common": true},
+      {"term": "50+1", "say": "FIF-tee plus WUN", "ipa": "", "tts": "", "means": "The rule that members must keep a majority vote in their club. Leverkusen are one of the few exceptions.", "use": "50+1 is why the tickets are still cheap.", "common": true},
+      {"term": "Fußballgott", "say": "FOOS-bal-got", "ipa": "ˈfuːsbalˌɡɔt", "tts": "foos bahl gawt", "means": "'Football god': the fans' title for a cult hero, often a hard-working local favourite.", "use": "He's not the best player, but he's our Fußballgott.", "common": true},
+      {"term": "Pokal", "say": "poh-KAHL", "ipa": "poˈkaːl", "tts": "po kahl", "means": "The cup, meaning the DFB-Pokal, whose final is always in Berlin.", "use": "Pokal run this year? Berlin, here we come.", "common": true},
+      {"term": "Gude", "say": "GOO-deh", "ipa": "ˈɡuːdə", "tts": "goo duh", "means": "Frankfurt's 'hi', from 'guten Tag'. 'Ei Gude, wie?' means 'Hey, how's it going?'", "use": "Ei Gude! Ready for the game?", "common": true},
+      {"term": "Ebbelwoi", "say": "EB-bel-voy", "ipa": "ˈɛbl̩vɔɪ̯", "tts": "ebble voy", "means": "Frankfurt's apple wine, served from a grey-and-blue jug called a Bembel.", "use": "Ebbelwoi in Sachsenhausen before the game?", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Dortmund", "say": "DORT-moont", "ipa": "ˈdɔʁtmʊnt", "tts": "dort moont", "why": "The u is 'oo' and the d at the end is a t."},
+      {"word": "Westfalenstadion", "say": "vest-FAH-len-shtah-dee-on", "ipa": "vɛstˈfaːlənˌʃtaːdi̯ɔn", "tts": "vest fah len shtah dee on", "why": "Dortmund's ground, the name fans still use. The w is a v and the st is 'sht'."},
+      {"word": "Signal Iduna Park", "say": "zig-NAHL ee-DOO-nah PARK", "ipa": "zɪɡˌnaːl ʔiˈduːna ˌpaʁk", "tts": "zig nahl ee doo na park", "why": "The sponsor's name for the Westfalenstadion. Signal is 'zig-NAHL', not the English word."},
+      {"word": "Bayer 04 Leverkusen", "say": "BY-er nool FEER LAY-ver-koo-zen", "ipa": "ˈbaɪ̯ɐ nʊl ˈfiːɐ̯ ˈleːvɐˌkuːzn̩", "tts": "beye uh nool fee uh lay vuh koozn", "why": "The 04 is said 'null vier', zero four. Bayer is 'BY-er', not 'BAY-er'."},
+      {"word": "Eintracht", "say": "INE-trakht", "ipa": "ˈaɪntʁaxt", "tts": "", "why": "'Harmony', German for 'United'. The ei is 'eye' and the ch is a throaty h."},
+      {"word": "Waldstadion", "say": "VALT-shtah-dee-on", "ipa": "ˈvaltˌʃtaːdi̯ɔn", "tts": "valt shtah dee on", "why": "Frankfurt's 'forest stadium', home since 1925. Fans use it over the sponsor's name."}
+    ],
+    "lines": [
+      {"t": "Glückauf! See you on the Süd.", "m": "Ruhr greeting before a Dortmund home game."},
+      {"t": "Revierderby week. Bayern? That's just business.", "m": "For BVB fans, Schalke is the real rival."},
+      {"t": "Ei Gude! Ebbelwoi before the game?", "m": "Frankfurt's greeting and its pre-match drink."},
+      {"t": "Proper Malocher, that one. Runs all day.", "m": "Ruhr praise for a hard worker."},
+      {"t": "Thirty thousand of us at the Camp Nou. Never forget.", "m": "Frankfurt fans on their 2022 Europa League run."},
+      {"t": "50+1 keeps the fans in charge.", "m": "Pride in Germany's member-ownership rule."}
+    ],
+    "avoid": [
+      {"say": "Leverkusen break the 50+1 rule", "instead": "Leverkusen are an approved exception", "why": "Bayer has backed the club since before the Bundesliga existed."},
+      {"say": "Everyone should have seats, like England", "instead": "German grounds keep their standing terraces", "why": "Dortmund's Südtribüne alone holds about 25,000 standing, and fans want it that way."},
+      {"say": "the Signal Iduna Park, the Deutsche Bank Park", "instead": "the Westfalenstadion, the Waldstadion", "why": "Fans stick to the old names; sponsor names are for TV."}
+    ],
+    "habits": ["Standing terraces are sacred: Dortmund's Südtribüne holds about 25,000 on its own, the biggest in Europe.", "Clubs are member-run under 50+1, and fans protest loudly whenever investors push for more say; in 2024, tennis balls on pitches helped sink a league investor deal.", "Frankfurt's pre-match drink is Ebbelwoi from a Bembel jug in the taverns of Sachsenhausen, and the club's fans travel in huge numbers: about 30,000 went to the Camp Nou in 2022."],
+    "sources": ["https://en.wikipedia.org/wiki/Westfalenstadion", "https://en.wikipedia.org/wiki/Revierderby", "https://en.wikipedia.org/wiki/50%2B1_rule", "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen", "https://en.wikipedia.org/wiki/Eintracht_Frankfurt", "https://en.wikipedia.org/wiki/Apfelwein", "https://en.wiktionary.org/wiki/Gl%C3%BCckauf", "https://en.wiktionary.org/wiki/Malocher", "https://en.wiktionary.org/wiki/Pott", "https://en.wiktionary.org/wiki/Gude", "https://en.wiktionary.org/wiki/Fu%C3%9Fballgott"],
+    "unsure": ["words: 'Kumpel' and 'Stehplatz' IPA from German spelling, not a fetched entry", "habits: the 2024 tennis-ball protests are from general knowledge, not a fetched source", "pronounce: 'Ebbelwoi' IPA built from the Hessian spelling"]
+  },
+  {
+    "id": "fr-paris",
+    "name": "Paris",
+    "covers": "Paris: Paris Saint-Germain and France's national sides in football and rugby",
+    "dialect": "Parisian French",
+    "words": [
+      {"term": "Allez Paris", "say": "ah-LAY pah-REE", "ipa": "ale paʁi", "tts": "ah lay pa ree", "means": "'Come on, Paris!' The everyday PSG cry. 'Allez' alone works for any team.", "use": "Allez Paris! Big night at the Parc.", "common": true},
+      {"term": "Allez les Bleus", "say": "ah-LAY lay BLUH", "ipa": "ale le blø", "tts": "ah lay lay bler", "means": "'Come on, the Blues!' for France's national sides in football and rugby. The women's teams are 'les Bleues'.", "use": "Allez les Bleus! Saturday night in Saint-Denis.", "common": true},
+      {"term": "Paname", "say": "pah-NAM", "ipa": "panam", "tts": "pa nam", "means": "Slang for Paris, used with affection by Parisians.", "use": "Paname's buzzing tonight.", "common": true},
+      {"term": "titi", "say": "tee-TEE", "ipa": "titi", "tts": "tee tee", "means": "A streetwise Parisian kid, the 'titi parisien'. PSG's academy players are 'les titis'.", "use": "Another titi in the first team. Love it.", "common": true},
+      {"term": "Auteuil", "say": "oh-TOY", "ipa": "otœj", "tts": "oh ter", "means": "The Parc des Princes end where PSG's loudest fans stand, the Virage Auteuil. Named after the district.", "use": "Auteuil were bouncing from the first minute.", "common": true},
+      {"term": "virage", "say": "vee-RAHZH", "ipa": "viʁaʒ", "tts": "vee rahj", "means": "The French word for the curved end stands where ultras gather: the French 'Curva'.", "use": "Tickets in the virage? Bring your voice.", "common": true},
+      {"term": "le Crunch", "say": "luh CRUNCH", "ipa": "lə kʁœnʃ", "tts": "lur crunch", "means": "France against England in rugby. Both countries use the English name.", "use": "Le Crunch in Saint-Denis. Can't wait.", "common": true},
+      {"term": "le XV de France", "say": "luh KANZ duh FRAHNSS", "ipa": "lə kɛ̃z də fʁɑ̃s", "tts": "lur kehz duh frahs", "means": "'France's fifteen': the national rugby team, also les Bleus. The XV is said 'quinze'.", "use": "The XV de France look sharp this year.", "common": true},
+      {"term": "chambrer", "say": "shom-BRAY", "ipa": "ʃɑ̃bʁe", "tts": "shom bray", "means": "To tease or mock someone. After a loss, expect to get 'chambré' at work.", "use": "My colleagues are going to chambrer me all week.", "common": true},
+      {"term": "la C1", "say": "lah SAY UHN", "ipa": "la se œ̃", "tts": "la say un", "means": "French shorthand for the Champions League, Europe's first competition. PSG won it for the first time in 2025.", "use": "The league is nice, but la C1 is everything.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Parc des Princes", "say": "park day PRANSS", "ipa": "paʁk de pʁɛ̃s", "tts": "park day prance", "why": "PSG's ground, 'le Parc'. 'Des' is 'day' and the s at the end of Princes is heard."},
+      {"word": "Saint-Germain", "say": "san zhair-MAN", "ipa": "sɛ̃ ʒɛʁmɛ̃", "tts": "sehzhehr meh", "why": "The 'saint' is a nasal 'san' and the end is a nasal 'man'. Not 'saint JER-main'."},
+      {"word": "Saint-Denis", "say": "san duh-NEE", "ipa": "sɛ̃ dəni", "tts": "sehduhnee", "why": "The suburb north of Paris with the Stade de France. The s is silent."},
+      {"word": "Clairefontaine", "say": "klair-fon-TEN", "ipa": "klɛʁfɔ̃tɛn", "tts": "clair fon ten", "why": "French football's national training centre, where les Bleus prepare."},
+      {"word": "Marcoussis", "say": "mar-koo-SEE", "ipa": "maʁkusi", "tts": "mar koo see", "why": "The rugby team's national training centre south of Paris. The final s is silent."},
+      {"word": "Champs-Élysées", "say": "shonz ay-lee-ZAY", "ipa": "ʃɑ̃zelize", "tts": "shon zay lee zay", "why": "Where Paris celebrates. The s of Champs runs into Élysées."}
+    ],
+    "lines": [
+      {"t": "Allez Paris! Off to the Parc.", "m": "Before a PSG home game."},
+      {"t": "Le Crunch this weekend. England won't enjoy Saint-Denis.", "m": "France beat England 48-46 at the Stade de France in the 2026 Six Nations."},
+      {"t": "Another titi from the academy. Paris breeds them.", "m": "The Paris region is one of the world's great talent pools."},
+      {"t": "Champs-Élysées tonight!", "m": "Where Paris celebrates the biggest wins."},
+      {"t": "My colleagues are going to chambrer me all week.", "m": "French for getting teased after a bad result."}
+    ],
+    "avoid": [
+      {"say": "Ligue 1, said 'League One'", "instead": "'leeg UHN'", "why": "England's League One is the third tier; Ligue 1 is France's top flight."},
+      {"say": "PSG play at the Stade de France", "instead": "PSG play at the Parc des Princes", "why": "The Stade de France belongs to the national sides; PSG's home is the Parc."},
+      {"say": "The Stade de France, in central Paris", "instead": "The Stade de France, in Saint-Denis", "why": "It's just north of the city, a short train ride out."}
+    ],
+    "habits": ["Big wins end on the Champs-Élysées, from France's World Cups in 1998 and 2018 to PSG's first Champions League in 2025.", "PSG's loudest fans stand in the Virage Auteuil; the national sides play at the Stade de France in Saint-Denis.", "Rugby fans bring the Gallic rooster, on flags and hats and, now and then, a live one released before kick-off."],
+    "sources": ["https://en.wikipedia.org/wiki/Parc_des_Princes", "https://en.wikipedia.org/wiki/Le_Crunch", "https://en.wikipedia.org/wiki/France_national_rugby_union_team", "https://en.wikipedia.org/wiki/Olympique_de_Marseille", "https://en.wiktionary.org/wiki/Paname", "https://en.wiktionary.org/wiki/titi", "https://en.wiktionary.org/wiki/chambrer"],
+    "unsure": ["words: 'Auteuil' as PSG's ultras' end and 'la C1' are from general knowledge; the fetched Parc des Princes article lists the stands but not who stands where"]
+  },
+  {
+    "id": "fr-south",
+    "name": "Southern France",
+    "covers": "Marseille, Lyon and Monaco",
+    "dialect": "Provençal and Lyonnais French",
+    "words": [
+      {"term": "Allez l'OM", "say": "ah-LAY loh-EM", "ipa": "ale loɛm", "tts": "ah lay low em", "means": "'Come on, OM!' Marseille's cry. OM is said as two letters, 'oh-em'.", "use": "Allez l'OM! The Vélodrome will be rocking.", "common": true},
+      {"term": "fada", "say": "fah-DAH", "ipa": "fada", "tts": "fah da", "means": "Southern French for crazy, or a nutter. Said with affection.", "use": "That keeper's a fada, coming out to the halfway line.", "common": true},
+      {"term": "dégun", "say": "day-GUN", "ipa": "deɡœ̃", "tts": "day gun", "means": "Provençal for 'nobody', or a nobody. A favourite Marseille put-down.", "use": "Who's scared of them? Dégun.", "common": true},
+      {"term": "peuchère", "say": "puh-SHAIR", "ipa": "pœʃɛʁ", "tts": "per share", "means": "Provençal sigh of pity or sympathy, like 'oh dear' or 'poor thing'. The local way of moaning.", "use": "Peuchère, another draw.", "common": true},
+      {"term": "minot", "say": "mee-NOH", "ipa": "mino", "tts": "mee no", "means": "Provençal for a kid. A young player from Marseille is 'un minot'.", "use": "The minot from the academy scored. The whole ground went up.", "common": true},
+      {"term": "le mistral", "say": "luh mees-TRAHL", "ipa": "lə mistʁal", "tts": "lur miss trahl", "means": "The cold, strong north-west wind of southern France. It can wreck a game plan.", "use": "With this mistral, nobody's scoring from a cross.", "common": true},
+      {"term": "la Bonne Mère", "say": "lah bon MAIR", "ipa": "la bɔn mɛʁ", "tts": "la bon mair", "means": "'The Good Mother': Notre-Dame de la Garde, the hilltop basilica that watches over Marseille.", "use": "The Bonne Mère's looking after us tonight.", "common": true},
+      {"term": "le Classique", "say": "luh klah-SEEK", "ipa": "lə klasik", "tts": "lur class eek", "means": "OM against PSG, framed as the south against the north. For Marseille, the game of the season.", "use": "Classique week. The whole city's on edge.", "common": true},
+      {"term": "virage", "say": "vee-RAHZH", "ipa": "viʁaʒ", "tts": "vee rahj", "means": "The curved end stands. At the Vélodrome the Virage Nord and Virage Sud hold the supporter groups.", "use": "Ticket in the Virage Sud? Lucky you.", "common": true},
+      {"term": "gone", "say": "GON", "ipa": "ɡon", "tts": "gohn", "means": "Lyon dialect for a kid. Lyon fans and players are 'les Gones'.", "use": "Proper gone, born in the Croix-Rousse.", "common": true},
+      {"term": "bouchon", "say": "boo-SHON", "ipa": "buʃɔ̃", "tts": "boo shon", "means": "A traditional Lyon bistro, the classic place for a long lunch before a game.", "use": "Bouchon at noon, then the tram out to the stadium.", "common": true},
+      {"term": "les Verts", "say": "lay VAIR", "ipa": "le vɛʁ", "tts": "lay vair", "means": "'The Greens': Saint-Étienne, Lyon's rivals in the Derby du Rhône.", "use": "Lose to les Verts and you can't show your face in Lyon.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Marseille", "say": "mar-SAY", "ipa": "maʁsɛj", "tts": "mar say", "why": "Two syllables, ending in a light 'y'. Not 'mar-SAY-lee' or 'mar-SALE'."},
+      {"word": "Vélodrome", "say": "vay-loh-DROM", "ipa": "velodʁom", "tts": "vay lo drom", "why": "OM's ground, once a cycling track. French stresses the end; not 'VEL-o-drome'."},
+      {"word": "Canebière", "say": "kan-BYAIR", "ipa": "kanbjɛʁ", "tts": "kahnb yehr", "why": "Marseille's main avenue, running down to the Vieux-Port. Locals drop the middle e: 'kan-BYAIR'."},
+      {"word": "Lyon", "say": "lee-OHN", "ipa": "ljɔ̃", "tts": "lee awn", "why": "Run together as 'lee-OHN', ending in a nasal 'on'. Not 'LYE-on'."},
+      {"word": "Décines", "say": "day-SEEN", "ipa": "desin", "tts": "day seen", "why": "The suburb where Lyon's stadium has stood since 2016. The s at the end is silent."},
+      {"word": "Fontvieille", "say": "fon-VYAY", "ipa": "fɔ̃vjɛj", "tts": "fawv yehy", "why": "The Monaco district with the Stade Louis II. The t is silent."}
+    ],
+    "lines": [
+      {"t": "Allez l'OM! The Vélodrome will be rocking.", "m": "Before a big Marseille home game."},
+      {"t": "Peuchère, another draw.", "m": "A Provençal sigh, the Marseille way of moaning."},
+      {"t": "With this mistral, nobody's scoring from a cross.", "m": "Blaming the wind, a southern classic."},
+      {"t": "Paris? Dégun.", "m": "Mild Marseille banter: 'nobody', when PSG come up."},
+      {"t": "Bouchon lunch, then off to Décines.", "m": "A Lyon matchday: a long lunch, then the stadium."}
+    ],
+    "avoid": [
+      {"say": "Lyon play at Gerland", "instead": "Lyon play at the Groupama Stadium in Décines", "why": "They moved out of the Stade de Gerland in January 2016."},
+      {"say": "The Marseillaise are so loud", "instead": "The Marseillais are so loud", "why": "La Marseillaise is the national anthem; the people are Marseillais."},
+      {"say": "OM against Lyon is Marseille's big one", "instead": "For OM, it's PSG", "why": "Le Classique matters most; the Olympico against Lyon is a lesser rivalry."}
+    ],
+    "habits": ["OM's supporter groups, six in one stadium, fill the Virage Nord and Virage Sud; the Vélodrome is one of France's loudest grounds.", "Big Marseille nights spill down the Canebière to the Vieux-Port.", "In Lyon a match day often starts with a long lunch in a bouchon."],
+    "sources": ["https://en.wikipedia.org/wiki/Olympique_de_Marseille", "https://en.wikipedia.org/wiki/Groupama_Stadium", "https://en.wikipedia.org/wiki/Stade_Louis_II", "https://en.wiktionary.org/wiki/fada", "https://en.wiktionary.org/wiki/d%C3%A9gun", "https://en.wiktionary.org/wiki/peuch%C3%A8re", "https://en.wiktionary.org/wiki/minot", "https://en.wiktionary.org/wiki/gone", "https://en.wiktionary.org/wiki/mistral", "https://en.wiktionary.org/wiki/bouchon"],
+    "unsure": ["words: 'bouchon' as a Lyon bistro and 'la Bonne Mère' are from general knowledge; Wiktionary gives only 'small restaurant' for bouchon", "habits: Canebière celebrations and the bouchon lunch are not in a fetched source"]
+  }
+]

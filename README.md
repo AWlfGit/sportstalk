@@ -28,8 +28,25 @@ the website.
 - `src/art/`: the Retro look's characters (`football.webp` for the header and the fan's
   lines, `glasses.webp` for yours). The build embeds them into the page, so swap a file and
   rebuild to change one.
-- `research/out/*.json`: the team guides, one file per league group. Edit these to change
-  nicknames, fan terms, rivals, sayings and giveaways.
+- `research/out/*.json`: the team guides, one file per league group: nicknames, fan terms,
+  sayings by result (any time, after a win, after a loss, rival week), traditions, sore
+  subjects, names to say right, rivals and giveaways. Each team has a `region`.
+- `research/regions/*.json`: region packs (72 regions, from Boston and Pittsburgh to Merseyside,
+  Glasgow, Montreal and New Zealand): the dialect words locals use about sport, place names to
+  say right, how the area talks sport, local habits and giveaways. Listed in
+  `research/REGIONS.md`.
+- `research/SOURCES.md`: where the lingo and pronunciations come from, and how far to trust each
+  source.
+- `research/pronounce.json`, `research/pronounce-check.js` (with `pronounce-check.ps1`): the
+  speech lexicon and its checker. Every researched word carries its IPA and, where the voices
+  would misread the spelling, a respelling they read correctly; the build turns those into a
+  lexicon the page applies before speaking ("eh" is said like the letter A, "Barça" as
+  "barsa"). On Windows, `node research/pronounce-check.js` speaks every word and respelling
+  with a Windows voice and compares the sounds with the IPA, and
+  `node research/pronounce-fix.js --write` tries other respellings for any that sound wrong and
+  saves the closest. Words that are also everyday English ("mate", "gone") are listed under
+  `alone` in `pronounce.json`, so they only get the local sound when that word is played on its
+  own, and "Alright, mate" still sounds normal.
 - `research/hockey-canada.json`, `football-uk.json`, `football-nfl.json`, `basketball-nba.json`,
   `baseball-mlb.json`, `f1-na.json`: talk packs. Soccer's is British; the rest are North
   American (hockey's is Canadian rink talk). Each holds sport-wide slang,
@@ -39,7 +56,7 @@ the website.
   `{when}`; if a slot can't be filled, it uses the built-in line instead.
 - `research/BRIEF.md`: the rules the team guides were researched to (format, accuracy, no
   lyrics, nothing offensive)
-- `research/audit.js`: checks the team guides and talk packs against those rules
+- `research/audit.js`: checks the team guides, region packs and talk packs against those rules
 - `research/get-teams.js` and `research/teams/`: ESPN's team lists, used when researching
 - `.github/workflows/refresh.yml`: rebuilds the results feed twice a day
 
@@ -74,7 +91,7 @@ folder's `SITE.zip`. Rebuild the folder with the latest results:
 node src/build.js --site-only --site "<site folder>/sportstalk"
 ```
 
-That writes `index.html`, `fonts/` and `logos/`. Then put the folder into `SITE.zip`:
+That writes `index.html`, `fonts/`, `logos/` and `lingo/` (one file of local lingo per sport, which the page loads when that sport is picked). Then put the folder into `SITE.zip`:
 
 ```bash
 node src/pack-site.js "<site folder>"
@@ -99,8 +116,23 @@ Before publishing, run the checks in a browser:
    (0,eval)(await (await fetch("/src/checks.js")).text())
    ```
 3. Do it at desktop width and again at phone width (about 375px). It renders every game in both
-   looks and lists any stray text (undefined, unfilled slots), anything wider than the window,
-   and errors. It reloads the page when it's done.
+   looks, plus every team's Local lingo page, and lists any stray text (undefined, unfilled
+   slots), anything wider than the window, and errors. It reloads the page when it's done. Keep
+   the window visible while it runs; a background window slows it right down.
+
+## Changing the lingo
+
+1. Edit the team in `research/out/<group>.json` or the region in `research/regions/`,
+   following `research/BRIEF.md` and `research/REGIONS.md`, or the sport-wide talk in one of
+   the talk-pack files. `research/SOURCES.md` says where to look.
+2. Run `node research/audit.js` (add a filter such as `out/nhl` or `regions/uk` to see one
+   file) and review anything it flags.
+3. On Windows, run `node research/pronounce-check.js` and fix any respelling it lists
+   (`node research/pronounce-fix.js --write` does most of them). To fix a word everywhere, add it
+   to `research/pronounce.json`; if it's also an everyday English word, add it to `alone` there.
+4. To drop a line without editing the research, add a phrase from it to
+   `research/blocked.json` (a JSON list of strings). The build skips any text containing it.
+5. Build, check the page, and push.
 
 ## The results feed
 

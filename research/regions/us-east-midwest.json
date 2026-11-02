@@ -1,0 +1,524 @@
+[
+  {
+    "id": "us-new-england",
+    "name": "Boston and New England",
+    "covers": "Boston and New England",
+    "dialect": "Boston and Eastern New England English",
+    "words": [
+      {"term": "wicked", "say": "WICK-id", "ipa": "ˈwɪkɪd", "tts": "", "means": "Very. Boston's favorite intensifier: wicked good, wicked cold.", "use": "That was a wicked good catch in the fourth.", "common": true},
+      {"term": "packie", "say": "PACK-ee", "ipa": "ˈpæki", "tts": "", "means": "A liquor store, short for 'package store'.", "use": "Hit the packie before we head down to Foxborough.", "common": true},
+      {"term": "Dunks", "say": "DUNKS", "ipa": "dʌŋks", "tts": "", "means": "Dunkin', the coffee chain born in Quincy. A 'regular' comes with cream and sugar.", "use": "Grab me a Dunks on the way to the rink.", "common": true},
+      {"term": "bubbler", "say": "BUB-ler", "ipa": "ˈbʌblɚ", "tts": "", "means": "A drinking fountain.", "use": "Kids are lined up at the bubbler at halftime.", "common": true},
+      {"term": "the T", "say": "the TEE", "ipa": "ðə ˈtiː", "tts": "", "means": "The MBTA, Boston's subway and buses. Locals ride it and complain about it.", "use": "Take the T to Fenway, you'll never find parking.", "common": true},
+      {"term": "the Pike", "say": "the PIKE", "ipa": "ðə ˈpaɪk", "tts": "", "means": "The Massachusetts Turnpike, I-90.", "use": "The Pike was a parking lot after the game.", "common": true},
+      {"term": "bang a uey", "say": "BANG uh YOO-ee", "ipa": "bæŋ ə ˈjuːi", "tts": "bang a you ee", "means": "Make a U-turn, often a quick illegal one.", "use": "Missed the exit for the Garden, so I had to bang a uey.", "common": true},
+      {"term": "all set", "say": "all SET", "ipa": "ɔːl ˈsɛt", "tts": "", "means": "Done, or no thanks. What you tell the bartender when you don't want another.", "use": "Another round? Nah, I'm all set, I'm driving.", "common": true},
+      {"term": "so don't I", "say": "so DOHNT eye", "ipa": "soʊ ˈdoʊnt aɪ", "tts": "", "means": "Me too. It means the opposite of what it sounds like to outsiders.", "use": "I can't stand the Yankees. So don't I.", "common": true},
+      {"term": "no suh", "say": "NO-suh", "ipa": "ˈnoʊsə", "tts": "", "means": "A fast 'no sir!' that means 'no way, really?'", "use": "He hit for the cycle? No suh.", "common": true},
+      {"term": "kid", "say": "KID", "ipa": "kɪd", "tts": "", "means": "Friendly way to address a buddy, any age.", "use": "Let's go, kid, puck drops in ten minutes.", "common": true},
+      {"term": "townie", "say": "TOWN-ee", "ipa": "ˈtaʊni", "tts": "", "means": "A lifelong local who stayed in the old neighborhood.", "use": "Ask the townies at the bar, they've had season tickets for forty years.", "common": true},
+      {"term": "the Hub", "say": "the HUB", "ipa": "ðə ˈhʌb", "tts": "", "means": "A nickname for Boston that locals actually use, unlike 'Beantown'.", "use": "Another parade in the Hub.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Worcester", "say": "WUSS-ter", "ipa": "ˈwʊstɚ", "tts": "wuss ter", "why": "Home of the WooSox. Outsiders say 'wor-CHESS-ter'."},
+      {"word": "Quincy", "say": "KWIN-zee", "ipa": "ˈkwɪnzi", "tts": "kwin zee", "why": "The city south of Boston has a z sound, not 'KWIN-see'."},
+      {"word": "Peabody", "say": "PEE-buh-dee", "ipa": "ˈpibədi", "tts": "pee buh dee", "why": "North Shore city. Not 'PEA-body'."},
+      {"word": "Gloucester", "say": "GLOSS-ter", "ipa": "ˈɡlɑstɚ", "tts": "gloss ter", "why": "The fishing city on Cape Ann. Two syllables."},
+      {"word": "Haverhill", "say": "HAY-vrill", "ipa": "ˈheɪvɹɪl", "tts": "hay vrill", "why": "Merrimack Valley city. Locals squeeze it to two syllables, not 'HAVE-er-hill'."}
+    ],
+    "lines": [
+      {"t": "Wicked good win last night.", "m": "The standard happy reaction the morning after."},
+      {"t": "We've won everything this century and we still call sports radio to complain.", "m": "Boston knows it's spoiled and complains anyway."},
+      {"t": "Take the T, don't even try to park near Fenway.", "m": "Practical local advice for any game day."},
+      {"t": "Nothing better than beating New York.", "m": "The Yankees, Jets, Knicks and Rangers are the rivals that matter most."},
+      {"t": "Yankees suck.", "m": "Heard at Fenway, at Celtics games, even at weddings. Mild, ritual banter."}
+    ],
+    "avoid": [
+      {"say": "Beantown", "instead": "Boston, or the Hub", "why": "Locals never say it; it marks a tourist."},
+      {"say": "Pahk the cah in Hahvahd Yahd", "instead": "Just talk normally", "why": "Locals are tired of the movie-accent impression."},
+      {"say": "the Boston Patriots", "instead": "the Patriots, or the Pats", "why": "They've been New England since 1971 and play in Foxborough, not Boston."}
+    ],
+    "habits": ["Sports radio is a way of life: WEEI and 98.5 The Sports Hub take calls all day after a loss.", "Titles end in a duck boat parade through downtown, the amphibious tour boats loaded with players.", "Patriots' Day in April means the Boston Marathon and a Red Sox home game that starts around 11 a.m.", "A Dunks in hand on the way to the game, in any season."],
+    "sources": ["https://www.wbur.org/news/2023/11/03/massachusetts-bostonians-common-expressions-field-guide", "https://www.timeout.com/boston/news/50-boston-slang-words-and-sayings-you-should-know-083022", "https://en.wikipedia.org/wiki/New_England_English", "https://en.wiktionary.org/wiki/wicked", "https://en.wiktionary.org/wiki/packie", "https://en.wiktionary.org/wiki/bubbler", "https://en.wiktionary.org/wiki/Worcester"],
+    "unsure": []
+  },
+  {
+    "id": "us-new-york",
+    "name": "New York",
+    "covers": "New York City, Long Island and northern New Jersey",
+    "dialect": "New York City English",
+    "words": [
+      {"term": "on line", "say": "on LINE", "ipa": "", "tts": "", "means": "In line. New Yorkers wait on line, not in line.", "use": "We were on line for an hour to get into the Garden.", "common": true},
+      {"term": "the city", "say": "the CITY", "ipa": "", "tts": "", "means": "Manhattan, to anyone in the other boroughs, Long Island or Jersey.", "use": "You going into the city for the game or watching out here?", "common": true},
+      {"term": "mad", "say": "MAD", "ipa": "", "tts": "", "means": "Very, or a lot of.", "use": "That crowd was mad loud in the ninth.", "common": true},
+      {"term": "brick", "say": "BRICK", "ipa": "", "tts": "", "means": "Freezing cold, of the weather.", "use": "It's brick out, bring a hat to MetLife.", "common": true},
+      {"term": "yerr", "say": "YURR", "ipa": "jɝ", "tts": "yur", "means": "A loud hello or 'hey!' across the street; you answer it louder.", "use": "Yerr! Saw you on the jumbotron last night.", "common": true},
+      {"term": "a minute", "say": "uh MIN-it", "ipa": "", "tts": "", "means": "A long time, not sixty seconds.", "use": "Haven't been to a Knicks game in a minute.", "common": true},
+      {"term": "bodega", "say": "boh-DAY-guh", "ipa": "boʊˈdeɪɡə", "tts": "", "means": "The corner store, often with a cat and a sandwich counter.", "use": "Grab a hero at the bodega before we get on the train.", "common": true},
+      {"term": "hero", "say": "HEER-oh", "ipa": "", "tts": "", "means": "A long sandwich; elsewhere it's a sub or a hoagie.", "use": "Two chicken parm heroes for the tailgate.", "common": true},
+      {"term": "have a catch", "say": "have uh CATCH", "ipa": "", "tts": "", "means": "Play catch, toss a ball back and forth.", "use": "Bring the gloves, we'll have a catch in the park.", "common": true},
+      {"term": "the Garden", "say": "the GAR-den", "ipa": "", "tts": "", "means": "Madison Square Garden, home of the Knicks and Rangers.", "use": "Nothing like the Garden when the Knicks are good.", "common": true},
+      {"term": "Subway Series", "say": "SUB-way SEER-eez", "ipa": "", "tts": "", "means": "Any Yankees against Mets meeting; the city picks a side.", "use": "Subway Series this weekend, my whole office is split.", "common": true},
+      {"term": "the LIE", "say": "the ELL-eye-EE", "ipa": "ðə ˌɛl aɪ ˈiː", "tts": "the l i e", "means": "The Long Island Expressway, famous for traffic.", "use": "Leave early, the LIE is gonna be a parking lot after the Islanders game.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Houston Street", "say": "HOW-stun street", "ipa": "ˈhaʊstən stɹiːt", "tts": "how stun street", "why": "The Manhattan street isn't said like the Texas city."},
+      {"word": "Greenwich Village", "say": "GREN-itch VIL-ij", "ipa": "ˈɡɹɛnɪtʃ ˈvɪlɪdʒ", "tts": "gren itch village", "why": "The w is silent; 'the Village' for short."},
+      {"word": "Van Wyck Expressway", "say": "van WIKE", "ipa": "væn ˈwaɪk", "tts": "van wike", "why": "The road past Citi Field to JFK. Not 'van WICK'."},
+      {"word": "Hauppauge", "say": "HAW-pog", "ipa": "ˈhɔːpɒɡ", "tts": "haw pog", "why": "Suffolk County, Long Island. The spelling fools everyone."},
+      {"word": "Secaucus", "say": "SEE-kaw-kus", "ipa": "ˈsiːkɔːkəs", "tts": "see caw cus", "why": "Where you change trains for MetLife Stadium. Stress the first syllable."}
+    ],
+    "lines": [
+      {"t": "The Giants and Jets play in Jersey, and Jersey never lets you forget it.", "m": "MetLife Stadium is in East Rutherford, New Jersey."},
+      {"t": "Yankees or Mets? You can't be both.", "m": "The city splits, and families split with it."},
+      {"t": "Wait till you see the back page tomorrow.", "m": "The tabloids roast the team after a bad loss."},
+      {"t": "This city doesn't do patience.", "m": "The local moan: New York wants a winner now."},
+      {"t": "Anybody but Boston.", "m": "The rivalry that matters most, from the Bronx to the Garden."}
+    ],
+    "avoid": [
+      {"say": "the Big Apple", "instead": "the city, or New York", "why": "Ads and tourists say it; locals rarely do."},
+      {"say": "fuhgeddaboudit", "instead": "Just talk normally", "why": "The movie-gangster impression marks you as a visitor."},
+      {"say": "Let's watch the game in Times Square", "instead": "Let's find a bar in the neighborhood", "why": "Locals avoid Times Square; it's for tourists."}
+    ],
+    "habits": ["The back pages of the New York Post and Daily News are how the city grades its teams.", "Game day travel is by train: the 7 to Citi Field, the 4 or D to Yankee Stadium, NJ Transit through Secaucus to MetLife.", "Sports radio WFAN, 'the Fan', fields callers all day when a team is losing."],
+    "sources": ["https://dominicanabroad.com/new-york-slang-words-nyc", "https://www.fox5ny.com/news/most-loved-slang-words-nyc-2024", "https://gothamist.com/arts-entertainment/do-you-refer-to-manhattan-as-the-city", "https://en.wikipedia.org/wiki/New_York_City_English", "https://folklore.usc.edu/?p=88269", "https://en.wiktionary.org/wiki/on_line", "https://en.wiktionary.org/wiki/mad", "https://en.wikipedia.org/wiki/Robert_Anderson_Van_Wyck"],
+    "unsure": ["words: 'have a catch' confirmed only by Wikipedia's New York City English article", "words: 'deadass' left out as too close to swearing"]
+  },
+  {
+    "id": "us-philadelphia",
+    "name": "Philadelphia",
+    "covers": "Philadelphia",
+    "dialect": "Philadelphia English",
+    "words": [
+      {"term": "jawn", "say": "JAWN", "ipa": "dʒɔn", "tts": "", "means": "Any thing, place, event or person. Philly's all-purpose noun.", "use": "That fourth-quarter comeback was a jawn.", "common": true},
+      {"term": "youse", "say": "YOOZ", "ipa": "juz", "tts": "yooz", "means": "You, for more than one person. Often said fast, like 'yiz'.", "use": "Youse coming to the tailgate or what?", "common": true},
+      {"term": "Go Birds", "say": "go BURDZ", "ipa": "ɡoʊ ˈbɝdz", "tts": "", "means": "Hello, goodbye and good luck, all in one, in any season. The Birds are the Eagles.", "use": "See you Monday. Go Birds.", "common": true},
+      {"term": "yo", "say": "YO", "ipa": "joʊ", "tts": "", "means": "Hey, or listen up. Philly gave it to the world.", "use": "Yo, you see that hit last night?", "common": true},
+      {"term": "hoagie", "say": "HOH-gee", "ipa": "ˈhoʊɡi", "tts": "", "means": "A long sandwich on an Italian roll. Never call it a sub here.", "use": "I'll bring a tray of hoagies for the game.", "common": true},
+      {"term": "water ice", "say": "WOOD-er ice", "ipa": "ˈwʊdɚ aɪs", "tts": "wooder ice", "means": "The local Italian ice, said the Philly way.", "use": "Grab a water ice on the walk back from the ballpark.", "common": true},
+      {"term": "jimmies", "say": "JIM-eez", "ipa": "ˈdʒɪmiz", "tts": "", "means": "Sprinkles on ice cream.", "use": "Soft serve with jimmies after a summer game, every time.", "common": true},
+      {"term": "Wawa", "say": "WAH-wah", "ipa": "ˈwɑwɑ", "tts": "wah wah", "means": "The local convenience store chain, a regional obsession.", "use": "Meet at the Wawa, then we'll head down to the stadium.", "common": true},
+      {"term": "Delco", "say": "DEL-ko", "ipa": "ˈdɛlkoʊ", "tts": "", "means": "Delaware County, just southwest of the city, and the people from there.", "use": "He's Delco through and through, season tickets since the Vet.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Schuylkill", "say": "SKOOL-kill", "ipa": "ˈskuːlkɪl", "tts": "school kill", "why": "The river and the expressway into the city. Outsiders try 'SKY-ul-kill'."},
+      {"word": "Manayunk", "say": "MAN-uh-yunk", "ipa": "ˈmænəjʌŋk", "tts": "man uh yunk", "why": "The hilly neighborhood on the river, famous for its bars."},
+      {"word": "Bala Cynwyd", "say": "BAL-uh KIN-wood", "ipa": "ˌbælə ˈkɪnwʊd", "tts": "bal uh kin wood", "why": "A Main Line suburb with a Welsh name; the y's fool everyone."},
+      {"word": "Acme", "say": "ACK-uh-mee", "ipa": "ˈækəmi", "tts": "ack uh me", "why": "Locals give the supermarket chain three syllables."}
+    ],
+    "lines": [
+      {"t": "Go Birds.", "m": "Fits any conversation, any season, any sport."},
+      {"t": "Beat Dallas, that's all I ask.", "m": "The Cowboys are the rival the whole city agrees on."},
+      {"t": "We boo because we care.", "m": "The local defense of a famously tough crowd."},
+      {"t": "Youse watching at the bar or the house?", "m": "Planning the game day."},
+      {"t": "Meet at the Wawa before the game.", "m": "Every Philly plan starts at a Wawa."}
+    ],
+    "avoid": [
+      {"say": "Didn't you people boo Santa Claus?", "instead": "Philly fans are passionate", "why": "Locals are sick of hearing about a 1968 football game."},
+      {"say": "a Philly cheesesteak", "instead": "a cheesesteak", "why": "In Philly it's just a cheesesteak."},
+      {"say": "a sub", "instead": "a hoagie", "why": "Sub is the giveaway word; hoagie is the local one."}
+    ],
+    "habits": ["Eagles, Phillies, Sixers and Flyers all play side by side in the South Philly sports complex; fans ride the Broad Street Line or tailgate in the lots.", "Sports radio 94.1 WIP takes the calls the morning after every loss.", "Eagles green goes on long before kickoff, and 'Go Birds' is how people say goodbye at work."],
+    "sources": ["https://en.wikipedia.org/wiki/Philadelphia_English", "https://whyy.org/articles/jawn-more-than-a-noun-philadelphia-eyes-on-the-street/", "https://www.inquirer.com/philly/news/pennsylvania/philadelphia/merriam-webster-analyzes-jawn-the-wawa-of-words-20171005.html", "https://billypenn.com/2021/06/02/mare-of-easttown-philadelphia-delco-accent-winslet-wawa-obsession-season-2/", "http://www.phillymag.com/articles/features-how-to-speak-philadelphian-accent-on-chris-matthews/", "https://6abc.com/jeopardy-goat-tournament-greatest/5832228/", "https://en.wiktionary.org/wiki/hoagie", "https://en.wiktionary.org/wiki/jimmies"],
+    "unsure": ["words: 'Iggles' (the Eagles in a thick accent) left out; only one reference found", "words: 'down the shore', 'wit' (cheesesteak with onions) and 'drawlin' left out; no second source reached"]
+  },
+  {
+    "id": "us-pittsburgh",
+    "name": "Pittsburgh",
+    "covers": "Pittsburgh and western Pennsylvania",
+    "dialect": "Pittsburghese (Western Pennsylvania English)",
+    "words": [
+      {"term": "yinz", "say": "YINZ", "ipa": "jɪnz", "tts": "", "means": "You all. The city's signature word.", "use": "Yinz going to the game Sunday?", "common": true},
+      {"term": "n'at", "say": "NAT", "ipa": "næt", "tts": "nat", "means": "'And that': and so on, tacked onto the end of a list.", "use": "We got chips, pop, hoagies n'at for the tailgate.", "common": true},
+      {"term": "yinzer", "say": "YIN-zer", "ipa": "ˈjɪnzɚ", "tts": "", "means": "A true-blue Pittsburgher, usually with the accent. Said with pride or a grin.", "use": "My uncle's a total yinzer, black and gold head to toe.", "common": true},
+      {"term": "the Burgh", "say": "the BURG", "ipa": "ðə ˈbɝɡ", "tts": "the berg", "means": "Pittsburgh.", "use": "Nothing beats a playoff night in the Burgh.", "common": true},
+      {"term": "Stillers", "say": "STILL-erz", "ipa": "ˈstɪlɚz", "tts": "", "means": "The Steelers, the way plenty of locals say it.", "use": "The Stillers are up early, get the TV on.", "common": true},
+      {"term": "nebby", "say": "NEB-ee", "ipa": "ˈnɛbi", "tts": "", "means": "Nosy.", "use": "Don't be nebby, nobody's telling you the trade rumors.", "common": true},
+      {"term": "slippy", "say": "SLIP-ee", "ipa": "ˈslɪpi", "tts": "", "means": "Slippery.", "use": "The steps by the stadium get slippy in December.", "common": true},
+      {"term": "redd up", "say": "RED up", "ipa": "ˈɹɛd ʌp", "tts": "red up", "means": "Tidy up.", "use": "Redd up the living room, the guys are coming over for the game.", "common": true},
+      {"term": "gumband", "say": "GUM-band", "ipa": "ˈɡʌmbænd", "tts": "", "means": "A rubber band.", "use": "Put a gumband around the tickets so they don't blow away.", "common": true},
+      {"term": "chipped ham", "say": "CHIPT ham", "ipa": "", "tts": "", "means": "Ham lunch meat sliced paper thin, a local sandwich staple.", "use": "Chipped ham sandwiches in the cooler for the tailgate.", "common": true},
+      {"term": "needs washed", "say": "NEEDZ washt", "ipa": "", "tts": "", "means": "Needs to be washed. Locals drop the 'to be' with any verb.", "use": "My lucky jersey needs washed but I'm not touching it till we lose.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Duquesne", "say": "doo-KANE", "ipa": "duːˈkeɪn", "tts": "doo cane", "why": "The incline, the university and plenty of streets. Outsiders say 'duh-KWEZ-nee'."},
+      {"word": "Monongahela", "say": "muh-NON-guh-HEE-luh", "ipa": "məˌnɑŋɡəˈhiːlə", "tts": "muh nongguh heeluh", "why": "One of the three rivers. Locals mostly just say 'the Mon'."},
+      {"word": "Allegheny", "say": "al-ih-GAY-nee", "ipa": "ˌælɪˈɡeɪni", "tts": "al ihgaynee", "why": "The river and the county. The stress is on 'GAY'."},
+      {"word": "Versailles", "say": "ver-SALES", "ipa": "vɚˈseɪlz", "tts": "ver sales", "why": "The borough down the Mon. Not said the French way."}
+    ],
+    "lines": [
+      {"t": "Yinz ready for Sunday?", "m": "The standard game-week greeting."},
+      {"t": "City of Champions, don't forget it.", "m": "The nickname from 1979, when the Pirates and Steelers both won it all."},
+      {"t": "Beat Cleveland, beat Philly, and it's a good week.", "m": "The Browns and the Flyers are the rivals locals love to beat."},
+      {"t": "That whole defense needs fixed.", "m": "The local way to moan, grammar included."},
+      {"t": "Black and gold, n'at.", "m": "Every team in town wears the same colors, so it fits any sport."}
+    ],
+    "avoid": [
+      {"say": "Pittsburg", "instead": "Pittsburgh", "why": "The h matters to locals; the one without it is in Kansas or California."},
+      {"say": "So you're near Philly?", "instead": "Western PA", "why": "Philly is five hours away, and Pittsburgh is proud of the difference."},
+      {"say": "Fries on the side, please", "instead": "Fries on it", "why": "Pittsburgh famously puts the fries in the sandwich and on the salad."}
+    ],
+    "habits": ["Black and gold on Fridays before a home game, at work and at school.", "Fans ride the T from downtown to the North Shore stadiums, and that stretch is free.", "A Primanti's sandwich, fries and slaw inside, before or after the game."],
+    "sources": ["https://en.wikipedia.org/wiki/Western_Pennsylvania_English", "https://theburghermag.wordpress.com/2012/03/21/yinzer-basics-pittsburghese-for-beginners/", "https://guides.library.duq.edu/pittsburghese", "https://en.wiktionary.org/wiki/yinz", "https://en.wiktionary.org/wiki/slippy", "https://en.wiktionary.org/wiki/gumband", "https://en.wiktionary.org/wiki/redd_up", "https://en.wikipedia.org/wiki/Duquesne,_Pennsylvania"],
+    "unsure": ["words: 'jagoff' left out; the local Burgher guide glosses it as a strong insult, not a mild one"]
+  },
+  {
+    "id": "us-baltimore-dc",
+    "name": "Baltimore and Washington",
+    "covers": "Baltimore and Washington, D.C.",
+    "dialect": "Baltimorese and D.C. talk",
+    "words": [
+      {"term": "hon", "say": "HUN", "ipa": "hʌn", "tts": "hun", "means": "Short for honey, Baltimore's famous friendly address, often at the end of a sentence.", "use": "You want a Natty Boh, hon?", "common": true},
+      {"term": "down the ocean", "say": "DOWN-ee OH-shun", "ipa": "ˈdaʊni ˈoʊʃən", "tts": "downy ocean", "means": "At or to the beach, usually Ocean City, Maryland.", "use": "We'll catch the Orioles game on the radio down the ocean.", "common": true},
+      {"term": "Natty Boh", "say": "NAT-ee BOH", "ipa": "ˈnæti ˈboʊ", "tts": "natty bo", "means": "National Bohemian, Baltimore's old hometown beer.", "use": "Grab a Natty Boh before first pitch at Camden Yards.", "common": true},
+      {"term": "Old Bay", "say": "OHLD BAY", "ipa": "", "tts": "", "means": "The seasoning Maryland puts on crabs, fries and just about everything else.", "use": "Fries with Old Bay at the ballpark, obviously.", "common": true},
+      {"term": "yo", "say": "YO", "ipa": "joʊ", "tts": "", "means": "In Black Baltimore speech, also a pronoun for any person: he or she.", "use": "Yo caught that ball one-handed.", "common": true},
+      {"term": "woe", "say": "WOH", "ipa": "woʊ", "tts": "", "means": "Baltimore word for a close friend, also used as a greeting.", "use": "What's up, woe, you watching the Ravens tonight?", "common": true},
+      {"term": "Charm City", "say": "CHARM SIT-ee", "ipa": "", "tts": "", "means": "Baltimore's nickname.", "use": "Purple everywhere in Charm City this week.", "common": true},
+      {"term": "the DMV", "say": "the DEE-em-VEE", "ipa": "ðə ˌdiː ɛm ˈviː", "tts": "", "means": "The D.C. area: the District, Maryland and Virginia.", "use": "The whole DMV is riding with the Caps tonight.", "common": true},
+      {"term": "the District", "say": "the DIS-trict", "ipa": "", "tts": "", "means": "Washington, D.C. itself, as locals say it.", "use": "Living in the District, you take Metro to every game.", "common": true},
+      {"term": "the Beltway", "say": "the BELT-way", "ipa": "", "tts": "", "means": "I-495, the ring road around D.C., and its endless traffic.", "use": "The Beltway was jammed all the way to Landover.", "common": true},
+      {"term": "mumbo sauce", "say": "MUM-boh sauce", "ipa": "ˈmʌmboʊ sɔs", "tts": "", "means": "D.C.'s sweet, tangy red sauce for wings and fries.", "use": "Wings with mumbo sauce and the Wizards game on.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Baltimore", "say": "BAWL-mer", "ipa": "ˈbɔlmɚ", "tts": "ball mer", "why": "Many locals swallow the middle syllable; others say 'BALL-duh-more'. Few say all three syllables slowly."},
+      {"word": "Towson", "say": "TOW-sun", "ipa": "ˈtaʊsən", "tts": "tau sun", "why": "The suburb north of Baltimore rhymes with 'cow', not 'toe'."},
+      {"word": "Bowie", "say": "BOO-ee", "ipa": "ˈbuːi", "tts": "boo ee", "why": "The Prince George's County city isn't said like the singer."},
+      {"word": "Anacostia", "say": "an-uh-KOSS-tee-uh", "ipa": "ˌænəˈkɑstiə", "tts": "an uh koss tee uh", "why": "The river by Nationals Park and the neighborhood across it."}
+    ],
+    "lines": [
+      {"t": "Ravens or Commanders? Depends where you grew up.", "m": "Baltimore is Ravens country; D.C. and its suburbs mostly go Commanders."},
+      {"t": "Nothing like beating Pittsburgh.", "m": "Ravens against Steelers is the region's meanest rivalry."},
+      {"t": "D.C. is a sports town now, it just took a while.", "m": "The Capitals won the Cup in 2018 and the Nationals the World Series in 2019."},
+      {"t": "Half the crowd's from out of town.", "m": "D.C. is full of transplants who still root for their hometown teams."},
+      {"t": "See you down the ocean, hon.", "m": "The Baltimore summer goodbye."}
+    ],
+    "avoid": [
+      {"say": "the Commanders play in D.C.", "instead": "they play in Landover, Maryland", "why": "The stadium is in Prince George's County, outside the city."},
+      {"say": "Baltimore's basically a suburb of D.C.", "instead": "Baltimore and D.C. are two different cities", "why": "Baltimore has its own teams, accent and pride."},
+      {"say": "BAL-ti-MORE, every syllable", "instead": "BAWL-mer", "why": "Saying it slowly and fully marks you as a visitor."}
+    ],
+    "habits": ["Purple Friday in Baltimore during football season: Ravens purple at work and school.", "Summer means crabs, Old Bay and the Orioles on the radio.", "D.C. fans ride Metro to games: Navy Yard for Nationals Park, Gallery Place for Capital One Arena."],
+    "sources": ["https://en.wikipedia.org/wiki/Baltimore_accent", "https://www.baltimoresun.com/2017/02/10/hold-up-hon-baltimores-black-vernacular-youthful-dynamic-if-less-recognized-than-bawlmerese/", "https://www.washingtonpost.com/wp-dyn/content/article/2010/07/29/AR2010072905868.html", "https://en.wiktionary.org/wiki/DMV", "https://en.wiktionary.org/wiki/Natty_Boh", "https://en.wikipedia.org/wiki/Mumbo_sauce", "https://en.wikipedia.org/wiki/Bowie,_Maryland", "https://en.wikipedia.org/wiki/Towson,_Maryland"],
+    "unsure": ["words: D.C. slang such as 'jont', 'Moe' and 'bamma' left out; no two sources reached ('bamma' is also an insult)"]
+  },
+  {
+    "id": "us-buffalo",
+    "name": "Buffalo",
+    "covers": "Buffalo and western New York",
+    "dialect": "Western New York English (Inland North)",
+    "words": [
+      {"term": "wings", "say": "WINGZ", "ipa": "", "tts": "", "means": "Chicken wings. Nobody here calls them 'Buffalo wings'.", "use": "Two dozen wings, medium, for the game.", "common": true},
+      {"term": "pop", "say": "POP", "ipa": "", "tts": "", "means": "A soft drink. Buffalo says pop; downstate says soda.", "use": "Grab some pop and beer for the tailgate.", "common": true},
+      {"term": "beef on weck", "say": "BEEF on WECK", "ipa": "ˈbiːf ɑn ˈwɛk", "tts": "", "means": "Roast beef on a salty, caraway-topped kummelweck roll, with horseradish.", "use": "Beef on weck at halftime, can't beat it.", "common": true},
+      {"term": "sponge candy", "say": "SPUNJ CAN-dee", "ipa": "", "tts": "", "means": "Crunchy, airy toffee dipped in chocolate; a local treat.", "use": "My aunt brings sponge candy to every playoff party.", "common": true},
+      {"term": "fish fry", "say": "FISH fry", "ipa": "", "tts": "", "means": "The Friday-night fried fish dinner at bars and churches.", "use": "Friday fish fry, then the Sabres game.", "common": true},
+      {"term": "lake effect", "say": "LAKE uh-FECT", "ipa": "", "tts": "", "means": "Heavy snow off Lake Erie that can bury one town and miss the next.", "use": "Lake effect's coming, dig out early for the game.", "common": true},
+      {"term": "WNY", "say": "DUB-yuh en WHY", "ipa": "ˌdʌbəljuː ɛn ˈwaɪ", "tts": "", "means": "Western New York, the region's name for itself.", "use": "All of WNY is wearing red and blue today.", "common": true},
+      {"term": "the 716", "say": "the SEV-en-one-SIX", "ipa": "ðə ˌsɛvən wʌn ˈsɪks", "tts": "the seven one six", "means": "Buffalo's area code, worn as local pride.", "use": "Nobody tailgates like the 716.", "common": true},
+      {"term": "City of Good Neighbors", "say": "CITY of good NAY-borz", "ipa": "", "tts": "", "means": "Buffalo's favorite nickname for itself, from shoveling each other out.", "use": "City of Good Neighbors, but not on game day against Miami.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Cheektowaga", "say": "CHEEK-tuh-WAH-guh", "ipa": "ˌtʃiːktəˈwɑɡə", "tts": "", "why": "The big suburb east of the city. Five syllables become four."},
+      {"word": "Lackawanna", "say": "LACK-uh-WAH-nuh", "ipa": "ˌlækəˈwɑnə", "tts": "lack uh wah nuh", "why": "The old steel city just south of Buffalo."},
+      {"word": "Amherst", "say": "AM-herst", "ipa": "ˈæmhɚst", "tts": "am hurst", "why": "Home of UB. Buffalo says the h, unlike Amherst, Massachusetts."}
+    ],
+    "lines": [
+      {"t": "Go Bills.", "m": "Hello, goodbye and good luck, all fall long."},
+      {"t": "Let 'em come play in Buffalo in January.", "m": "Locals love making warm-weather teams play in the snow."},
+      {"t": "Leafs fans are taking over our building again.", "m": "Toronto fans cross the border for Sabres games, and locals hate it."},
+      {"t": "Wings, a beef on weck and the game on. Perfect Sunday.", "m": "The Buffalo idea of a good day."},
+      {"t": "Snow's not stopping anybody.", "m": "Bad weather never empties the parking lots."}
+    ],
+    "avoid": [
+      {"say": "Buffalo wings", "instead": "wings", "why": "In Buffalo they're just wings."},
+      {"say": "So you're near New York City?", "instead": "Western New York", "why": "Manhattan is a six- or seven-hour drive; Toronto is much closer."},
+      {"say": "upstate, near Albany", "instead": "Buffalo, out by Niagara Falls", "why": "Locals don't want to be lumped in with the rest of upstate."}
+    ],
+    "habits": ["Tailgating in the lots around the new Highmark Stadium in Orchard Park, in any weather, with the famous folding tables.", "Friday fish fry at the corner bar, often with the Sabres on TV.", "Wings from a local spot and Chiavetta's chicken at the tailgate."],
+    "sources": ["https://en.wikipedia.org/wiki/Western_New_York", "https://en.wikipedia.org/wiki/Inland_Northern_American_English", "https://visitbuffalo.com/visiting-the-new-highmark-stadium-a-buffalo-bills-fan-guide/", "https://en.wikipedia.org/wiki/Buffalo,_New_York", "https://en.wikipedia.org/wiki/Beef_on_weck", "https://en.wikipedia.org/wiki/Cheektowaga,_New_York", "https://en.wiktionary.org/wiki/Lackawanna"],
+    "unsure": ["words: 'the 716' as local pride confirmed only by Wikipedia; 'the 33' and 'the 190' (saying 'the' before route numbers) left out, no source reached"]
+  },
+  {
+    "id": "us-chicago",
+    "name": "Chicago",
+    "covers": "Chicago",
+    "dialect": "Chicago English (Inland North)",
+    "words": [
+      {"term": "North Sider, South Sider", "say": "NORTH SY-der, SOUTH SY-der", "ipa": "", "tts": "", "means": "Where you're from, and so whether you're Cubs or Sox.", "use": "He's a South Sider, don't even mention Wrigley.", "common": true},
+      {"term": "the L", "say": "the ELL", "ipa": "ðə ˈɛl", "tts": "", "means": "Chicago's elevated trains and subway.", "use": "Take the Red Line, it stops at both ballparks.", "common": true},
+      {"term": "the Dan Ryan", "say": "the dan RYE-un", "ipa": "", "tts": "", "means": "The expressway down the South Side, right past the White Sox ballpark.", "use": "The Dan Ryan's backed up, we'll miss first pitch.", "common": true},
+      {"term": "the Ike", "say": "the IKE", "ipa": "ðə ˈaɪk", "tts": "", "means": "The Eisenhower Expressway, I-290. Chicagoans call expressways by name, not number.", "use": "Took the Ike in from the west suburbs for the Bulls game.", "common": true},
+      {"term": "gapers' block", "say": "GAY-perz BLOCK", "ipa": "ˈɡeɪpɚz ˈblɑk", "tts": "", "means": "A traffic jam from drivers slowing to look at an accident.", "use": "Gapers' block on the Kennedy, leave early.", "common": true},
+      {"term": "gym shoes", "say": "JIM shoos", "ipa": "", "tts": "", "means": "Sneakers or athletic shoes.", "use": "Wear gym shoes, we're walking from the L.", "common": true},
+      {"term": "dibs", "say": "DIBZ", "ipa": "dɪbz", "tts": "", "means": "Claiming a shoveled parking spot with a chair after a snowstorm.", "use": "Somebody put a lawn chair in my dibs spot while I was at the game.", "common": true},
+      {"term": "Chiberia", "say": "chy-BEER-ee-uh", "ipa": "tʃaɪˈbɪɹiə", "tts": "chai beer ee uh", "means": "Chicago in a deep freeze.", "use": "It's Chiberia out, the Bears better win.", "common": true},
+      {"term": "the Loop", "say": "the LOOP", "ipa": "", "tts": "", "means": "Downtown, inside the ring of L tracks.", "use": "Meet in the Loop, then head to the United Center.", "common": true},
+      {"term": "a beef, dipped", "say": "uh BEEF, DIPT", "ipa": "", "tts": "", "means": "An Italian beef sandwich dunked in the meat juices. Add 'hot' for giardiniera.", "use": "Get me a beef, dipped, hot, before the game.", "common": true},
+      {"term": "cash station", "say": "CASH STAY-shun", "ipa": "", "tts": "", "means": "An ATM, the old Chicago way.", "use": "Hit the cash station, the bar outside Wrigley is cash only.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Devon Avenue", "say": "deh-VON", "ipa": "dɪˈvɑn", "tts": "dih von", "why": "The North Side street stresses the second syllable, unlike the English county."},
+      {"word": "Des Plaines", "say": "dess PLAINS", "ipa": "dɪs ˈpleɪnz", "tts": "diss planes", "why": "The suburb and river. Say the s's, not the French way."},
+      {"word": "Schaumburg", "say": "SHAWM-burg", "ipa": "ˈʃɔmbɝɡ", "tts": "shawm burg", "why": "The northwest suburb; the 'au' is 'aw'."}
+    ],
+    "lines": [
+      {"t": "North Side or South Side?", "m": "The question that sorts Cubs fans from Sox fans."},
+      {"t": "It's Bears weather.", "m": "Cold, gray and windy: how Chicago likes its football."},
+      {"t": "Anybody but the Packers.", "m": "Bears against Packers is the NFL's oldest rivalry."},
+      {"t": "Take the L, the Ryan's a parking lot.", "m": "Game-day travel advice."},
+      {"t": "Get a beef before the game.", "m": "Italian beef is the city's pregame meal."}
+    ],
+    "avoid": [
+      {"say": "Chi-Town", "instead": "Chicago", "why": "Visitors love it; plenty of locals cringe."},
+      {"say": "Deep dish every night", "instead": "Tavern-style thin crust", "why": "Locals mostly eat thin, square-cut pizza; deep dish is for visitors."},
+      {"say": "Ketchup on that hot dog", "instead": "Mustard, relish, onions, no ketchup", "why": "Ketchup on a Chicago dog is the classic outsider move."}
+    ],
+    "habits": ["The Red Line runs to both ballparks: Addison for Wrigley, Sox-35th for the White Sox.", "Wrigleyville bars fill before and after Cubs games; Sox fans tailgate in the lots by the ballpark.", "Winter means dibs: a chair or a cone holding the parking spot you shoveled out."],
+    "sources": ["https://en.wikipedia.org/wiki/Inland_Northern_American_English", "https://en.wikipedia.org/wiki/Nicknames_of_Chicago", "https://www.cbsnews.com/chicago/news/meet-the-man-who-coined-the-word-chiberia/", "https://news.wttw.com/2024/01/08/wttw-news-explains-uniquely-chicago-tradition-dibs", "https://www.chicagotribune.com/news/ct-chitown-as-chicago-nickname-20151202-htmlstory.html", "https://en.wikipedia.org/wiki/Interstate_290_(Illinois)", "https://en.wikipedia.org/wiki/Italian_beef", "https://en.wiktionary.org/wiki/gapers'_block", "https://en.wikipedia.org/wiki/Devon_Avenue"],
+    "unsure": ["words: 'cash station' confirmed only by Wikipedia's Inland Northern English article; 'jagoff' left out as in Pittsburgh", "words: 'frunchroom' left out; only Wiktionary found"]
+  },
+  {
+    "id": "us-detroit",
+    "name": "Detroit and Michigan",
+    "covers": "Detroit and Michigan",
+    "dialect": "Michigan English (Inland North)",
+    "words": [
+      {"term": "the D", "say": "the DEE", "ipa": "ðə ˈdiː", "tts": "", "means": "Detroit.", "use": "Nothing like a playoff run in the D.", "common": true},
+      {"term": "Hockeytown", "say": "HOCK-ee-town", "ipa": "ˈhɑkiˌtaʊn", "tts": "", "means": "Detroit's hockey nickname, from the Red Wings' Stanley Cups.", "use": "Welcome to Hockeytown.", "common": true},
+      {"term": "pop", "say": "POP", "ipa": "", "tts": "", "means": "A soft drink. Say soda and they'll know you're not from here.", "use": "Grab a pop from the cooler, the game's starting.", "common": true},
+      {"term": "party store", "say": "PAR-tee store", "ipa": "", "tts": "", "means": "A corner store that sells beer, wine and snacks.", "use": "Stop at the party store for ice before the tailgate.", "common": true},
+      {"term": "Coney", "say": "KOH-nee", "ipa": "ˈkoʊni", "tts": "", "means": "A hot dog with chili, mustard and onions, or the diner that sells it.", "use": "Two Coneys and a Lions game, perfect Sunday.", "common": true},
+      {"term": "Up North", "say": "up NORTH", "ipa": "", "tts": "", "means": "The cabin country of northern Michigan. Where it starts is endlessly argued.", "use": "We'll catch the game Up North at the cabin.", "common": true},
+      {"term": "the Mitten", "say": "the MIT-en", "ipa": "", "tts": "", "means": "Michigan's Lower Peninsula. Locals hold up a hand to show where they're from.", "use": "Best fans in the Mitten, no question.", "common": true},
+      {"term": "Michigan left", "say": "MISH-ih-gun LEFT", "ipa": "", "tts": "", "means": "Turning left by going past the light and making a U-turn; Michigan's roads are built for it.", "use": "Make a Michigan left and the stadium lot's right there.", "common": true},
+      {"term": "Yooper", "say": "YOO-per", "ipa": "ˈjuːpɚ", "tts": "yoo per", "means": "Someone from the Upper Peninsula, the U.P. Said with pride.", "use": "My cousin's a Yooper, drives five hours for every Wings game.", "common": true},
+      {"term": "gym shoes", "say": "JIM shoos", "ipa": "", "tts": "", "means": "Sneakers or athletic shoes.", "use": "Wear gym shoes, we're walking from the parking deck.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Mackinac", "say": "MACK-in-aw", "ipa": "ˈmækənɔ", "tts": "mack in aw", "why": "The island and the bridge. The final c is silent."},
+      {"word": "Gratiot Avenue", "say": "GRASH-it", "ipa": "ˈɡɹæʃɪt", "tts": "grash it", "why": "A main Detroit avenue running out to the northeast suburbs."},
+      {"word": "Livernois", "say": "LIV-er-noy", "ipa": "ˈlɪvɚnɔɪ", "tts": "liver noy", "why": "The west side avenue. French spelling, Detroit sound."},
+      {"word": "Charlevoix", "say": "SHAR-luh-voy", "ipa": "ˈʃɑɹləvɔɪ", "tts": "sharluh voy", "why": "A favorite Up North lake town."},
+      {"word": "Ypsilanti", "say": "ip-suh-LAN-tee", "ipa": "ˌɪpsəˈlænti", "tts": "ip suh lan tee", "why": "Next to Ann Arbor, home of Eastern Michigan. Locals just say 'Ypsi'."}
+    ],
+    "lines": [
+      {"t": "Welcome to Hockeytown.", "m": "Detroit's hockey pride, said to any visitor."},
+      {"t": "Same old Lions.", "m": "The decades-old local groan when things go wrong; heard less in recent seasons."},
+      {"t": "Beat Ohio.", "m": "Michigan against Ohio State colors everything, all year round."},
+      {"t": "Meet at the Coney before the game.", "m": "The standard downtown plan."},
+      {"t": "Driving Up North, I'll listen on the radio.", "m": "Summer weekends empty the city toward the lakes."}
+    ],
+    "avoid": [
+      {"say": "MACK-in-ack", "instead": "MACK-in-aw", "why": "The classic outsider giveaway."},
+      {"say": "soda", "instead": "pop", "why": "Michigan says pop."},
+      {"say": "Is it safe to go downtown?", "instead": "How's downtown these days?", "why": "Locals are tired of outsiders' old clichés about Detroit."}
+    ],
+    "habits": ["The Lions play at home every Thanksgiving, and the game is part of dinner.", "Tigers Opening Day downtown is treated as a day off work.", "Summer weekends Up North at the cabin, with the game on the radio."],
+    "sources": ["https://en.wikipedia.org/wiki/Inland_Northern_American_English", "https://en.wikipedia.org/wiki/Nicknames_of_Detroit", "https://www.detroitnews.com/story/news/local/michigan/2023/06/30/where-does-up-north-begin-for-some-its-an-attitude-more-than-a-latitude/70344338007/", "https://www.clickondetroit.com/all-about-michigan/2018/06/29/where-does-michigans-up-north-begin-heres-what-michiganders-think/", "https://en.wikipedia.org/wiki/Lower_Peninsula_of_Michigan", "https://en.wikipedia.org/wiki/Coney_Island_hot_dog", "https://en.wiktionary.org/wiki/party_store", "https://en.wiktionary.org/wiki/Yooper", "https://en.wikipedia.org/wiki/Mackinac_Island"],
+    "unsure": []
+  },
+  {
+    "id": "us-ohio",
+    "name": "Ohio",
+    "covers": "Cleveland, Columbus, Cincinnati",
+    "dialect": "Ohio English (Inland North in Cleveland, Midland in Columbus and Cincinnati)",
+    "words": [
+      {"term": "O-H, I-O", "say": "OH AYCH, EYE OH", "ipa": "oʊ ˈeɪtʃ, aɪ ˈoʊ", "tts": "oh aitch eye oh", "means": "Yell 'O-H!' anywhere and an Ohioan yells 'I-O!' back. Ohio State's call and response.", "use": "O-H! I-O! Saw your Buckeyes hat across the bar.", "common": true},
+      {"term": "Buckeye", "say": "BUCK-eye", "ipa": "ˈbʌkaɪ", "tts": "", "means": "An Ohioan, an Ohio State fan, or the peanut butter and chocolate candy.", "use": "Mom made Buckeyes for the game.", "common": true},
+      {"term": "pop", "say": "POP", "ipa": "", "tts": "", "means": "A soft drink, all over Ohio.", "use": "Grab a pop, it's almost kickoff.", "common": true},
+      {"term": "the Land", "say": "the LAND", "ipa": "", "tts": "", "means": "Cleveland, the way locals and fans say it.", "use": "Playoff basketball is back in the Land.", "common": true},
+      {"term": "Believeland", "say": "bih-LEEV-land", "ipa": "bɪˈlivlənd", "tts": "", "means": "Hopeful Cleveland, born in the long wait for a title and cashed in when the Cavs won in 2016.", "use": "Welcome to Believeland, we never quit on this team.", "common": true},
+      {"term": "the 216", "say": "the TWO-one-SIX", "ipa": "ðə ˌtuː wʌn ˈsɪks", "tts": "the two one six", "means": "Cleveland's area code, worn as pride.", "use": "Loudest crowd in the 216.", "common": true},
+      {"term": "Cbus", "say": "SEE-bus", "ipa": "ˈsiːbʌs", "tts": "see bus", "means": "Columbus.", "use": "Crew game in Cbus tonight.", "common": true},
+      {"term": "Cincy", "say": "SIN-see", "ipa": "ˈsɪnsi", "tts": "sin see", "means": "Cincinnati.", "use": "Cincy's all orange this week.", "common": true},
+      {"term": "Please?", "say": "PLEEZ?", "ipa": "pliːz", "tts": "", "means": "In Cincinnati, 'Sorry, say that again?' A habit from the city's German roots.", "use": "Please? I couldn't hear you over the crowd.", "common": true},
+      {"term": "three-way", "say": "THREE-way", "ipa": "", "tts": "", "means": "Cincinnati chili on spaghetti under a heap of shredded cheese. Add onions or beans for a four-way.", "use": "Three-way before the Reds game, like always.", "common": true},
+      {"term": "the Shoe", "say": "the SHOO", "ipa": "", "tts": "", "means": "Ohio Stadium, the Horseshoe, in Columbus.", "use": "Got tickets to the Shoe for the big game.", "common": true},
+      {"term": "Battle of Ohio", "say": "BAT-ul of oh-HY-oh", "ipa": "", "tts": "", "means": "Browns against Bengals, or Guardians against Reds: bragging rights across the state.", "use": "Battle of Ohio on Sunday, my family's split down the middle.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Cuyahoga", "say": "ky-uh-HOG-uh", "ipa": "ˌkaɪəˈhɑɡə", "tts": "kai uh hog uh", "why": "Cleveland's river and county."},
+      {"word": "Bellefontaine", "say": "bell-FOWN-tin", "ipa": "bɛlˈfaʊntən", "tts": "bell fount in", "why": "The town between Columbus and Lima. Not the French way."},
+      {"word": "Lima", "say": "LYE-muh", "ipa": "ˈlaɪmə", "tts": "lie muh", "why": "Like the bean, not the capital of Peru."},
+      {"word": "Milan", "say": "MY-lun", "ipa": "ˈmaɪlən", "tts": "my lun", "why": "Thomas Edison's birthplace. Not like the Italian city."},
+      {"word": "Mantua", "say": "MAN-uh-way", "ipa": "ˈmænəweɪ", "tts": "man uh way", "why": "The village east of Cleveland surprises everyone."}
+    ],
+    "lines": [
+      {"t": "O-H!", "m": "Say it and wait: the answer is always 'I-O!'"},
+      {"t": "Beat that team up north.", "m": "Ohio State fans would rather not say 'Michigan' at all."},
+      {"t": "Who's got the Battle of Ohio this year?", "m": "Cleveland against Cincinnati, every season."},
+      {"t": "There's always next year in Cleveland.", "m": "The Browns are the city's lifelong heartbreak, said with a shrug."},
+      {"t": "Three-way after the game?", "m": "The Cincinnati invitation."}
+    ],
+    "avoid": [
+      {"say": "the Mistake by the Lake", "instead": "the Land", "why": "It's an old put-down of Cleveland."},
+      {"say": "the Cleveland Indians", "instead": "the Guardians", "why": "The team has been the Guardians since 2022."},
+      {"say": "That's not real chili", "instead": "I'll take a three-way", "why": "Cincinnati is proud of its chili and tired of hearing that."}
+    ],
+    "habits": ["Saturdays belong to Ohio State football; Sundays to the Browns or the Bengals.", "Cincinnati opens the baseball season with the Findlay Market Parade, and plenty of people take the day off for it.", "A plate of Cincinnati chili from Skyline or Gold Star before or after a Reds or Bengals game."],
+    "sources": ["https://en.wikipedia.org/wiki/Nicknames_of_Cleveland", "https://www.dispatch.com/content/stories/local/2014/02/28/like-it-or-not-cbus-now-citys-nickname.html", "https://en.wikipedia.org/wiki/Cincinnati", "https://en.wikipedia.org/wiki/Cincinnati_chili", "https://www.wcpo.com/longform/cincinnati-chili-we-cant-eat-enough-of-it-heres-where-it-started", "https://en.wikipedia.org/wiki/Michigan%E2%80%93Ohio_State_football_rivalry", "https://en.wikipedia.org/wiki/Ohio_Stadium", "https://en.wikipedia.org/wiki/Cuyahoga_River", "https://en.wikipedia.org/wiki/Inland_Northern_American_English"],
+    "unsure": ["words: 'O-H, I-O' confirmed only through Wikipedia's Ohio State pages; no local source fetched"]
+  },
+  {
+    "id": "us-indiana",
+    "name": "Indianapolis",
+    "covers": "Indianapolis",
+    "dialect": "Hoosier English (Midland)",
+    "words": [
+      {"term": "Hoosier", "say": "HOO-zher", "ipa": "ˈhuːʒɚ", "tts": "hoo zher", "means": "Anyone from Indiana, not just IU fans.", "use": "Real Hoosiers know high school basketball comes first.", "common": true},
+      {"term": "Indy", "say": "IN-dee", "ipa": "ˈɪndi", "tts": "", "means": "Indianapolis.", "use": "Indy's packed this weekend, Colts and the Pacers both at home.", "common": true},
+      {"term": "Naptown", "say": "NAP-town", "ipa": "ˈnæpˌtaʊn", "tts": "", "means": "An old nickname for Indianapolis that locals still use with a grin.", "use": "Big night in Naptown.", "common": false},
+      {"term": "the Circle City", "say": "the SUR-kul SIT-ee", "ipa": "", "tts": "", "means": "Indianapolis, after Monument Circle at the center of downtown.", "use": "The Circle City loves a playoff run.", "common": true},
+      {"term": "the 500", "say": "the five HUN-dred", "ipa": "ðə ˌfaɪv ˈhʌndɹəd", "tts": "", "means": "The Indianapolis 500, the race that runs the city's whole month of May.", "use": "You going to the 500 this year?", "common": true},
+      {"term": "the Brickyard", "say": "the BRICK-yard", "ipa": "", "tts": "", "means": "Indianapolis Motor Speedway, named for its old brick track.", "use": "Spent the whole weekend out at the Brickyard.", "common": true},
+      {"term": "Hoosier hysteria", "say": "HOO-zher hih-STAIR-ee-uh", "ipa": "ˈhuːʒɚ hɪˈstɛɹiə", "tts": "hoo zher histeh ree uh", "means": "Indiana's love of basketball, high school basketball above all.", "use": "Hoosier hysteria hits every March.", "common": true},
+      {"term": "the Region", "say": "the REE-jun", "ipa": "", "tts": "", "means": "Northwest Indiana, next to Chicago. People there often root for Chicago teams.", "use": "He's from the Region, so he's a Bears fan.", "common": true},
+      {"term": "carry-in", "say": "CARE-ee-in", "ipa": "ˈkɛɹi ˌɪn", "tts": "", "means": "A potluck: everyone brings a dish.", "use": "Carry-in at my place for the Colts game.", "common": true},
+      {"term": "chuckhole", "say": "CHUCK-hole", "ipa": "ˈtʃʌkˌhoʊl", "tts": "", "means": "A pothole.", "use": "Hit a chuckhole on 465 on the way to the game.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Terre Haute", "say": "TARE-uh HOTE", "ipa": "ˈtɛɹə ˈhoʊt", "tts": "tehruh hoht", "why": "The west-central city. Not the French way."},
+      {"word": "Vevay", "say": "VEE-vee", "ipa": "ˈviːviː", "tts": "vee vee", "why": "The Ohio River town is said nothing like its spelling."},
+      {"word": "Peru", "say": "PEE-roo", "ipa": "ˈpiːɹu", "tts": "pee roo", "why": "The Indiana town stresses the first syllable, unlike the country."},
+      {"word": "Valparaiso", "say": "val-puh-RAY-zoh", "ipa": "ˌvælpəˈɹeɪzoʊ", "tts": "val puh ray zo", "why": "Up in the Region. Locals just say 'Valpo'."},
+      {"word": "Lafayette", "say": "lah-fee-ET", "ipa": "ˌlɑfiˈɛt", "tts": "lah fee et", "why": "Purdue is in West Lafayette. Not 'la-fay-ET'."}
+    ],
+    "lines": [
+      {"t": "In 49 states it's just basketball. This is Indiana.", "m": "The state's basketball pride in one line."},
+      {"t": "It's May, the whole city's going racing.", "m": "The Indy 500 takes over Indianapolis every May."},
+      {"t": "Beat the Knicks.", "m": "The Pacers' feud with New York goes back to the 1990s."},
+      {"t": "IU or Purdue?", "m": "The question that splits the state."},
+      {"t": "Watch the chuckholes on 465.", "m": "The local moan about the roads around the city."}
+    ],
+    "avoid": [
+      {"say": "the Indy 500, downtown", "instead": "out at the Speedway", "why": "The track is in the town of Speedway, west of downtown."},
+      {"say": "You're a Hoosier, so you root for IU", "instead": "IU or Purdue?", "why": "Every Indiana native is a Hoosier; Purdue fans would never root for IU."},
+      {"say": "Terry Hut", "instead": "TARE-uh HOTE", "why": "The classic mispronunciation of Terre Haute."}
+    ],
+    "habits": ["Memorial Day weekend is the Indy 500: 'Back Home Again in Indiana' before the start and a bottle of milk for the winner.", "High school basketball still fills small-town gyms all winter, and the state tournament is a big deal.", "Watch parties are carry-ins: everybody brings a dish."],
+    "sources": ["https://en.wikipedia.org/wiki/Hoosier", "https://en.wikipedia.org/wiki/Indianapolis", "https://en.wiktionary.org/wiki/Naptown", "https://en.wikipedia.org/wiki/Northwest_Indiana", "https://en.wikipedia.org/wiki/Midland_American_English", "https://en.wikipedia.org/wiki/Indianapolis_500", "https://www.indystar.com/story/entertainment/indy-500/2019/05/26/indy-500-jim-cornelison-back-home-again-in-indiana/1245174001/", "https://en.wikipedia.org/wiki/Hoosier_hysteria", "https://en.wikipedia.org/wiki/Terre_Haute,_Indiana"],
+    "unsure": ["words: 'carry-out' left out; only a general Midland source found"]
+  },
+  {
+    "id": "us-wisconsin",
+    "name": "Wisconsin",
+    "covers": "Milwaukee and Green Bay",
+    "dialect": "Wisconsin English (Upper Midwest)",
+    "words": [
+      {"term": "bubbler", "say": "BUB-ler", "ipa": "ˈbʌblɚ", "tts": "", "means": "A drinking fountain, especially around Milwaukee.", "use": "Meet you by the bubbler at the top of the section.", "common": true},
+      {"term": "ope", "say": "OHP", "ipa": "oʊp", "tts": "", "means": "The little 'oops, sorry' when you bump into someone.", "use": "Ope, sorry, just gonna squeeze past ya.", "common": true},
+      {"term": "come with", "say": "kum WITH", "ipa": "", "tts": "", "means": "Come along. No 'me' or 'us' needed at the end.", "use": "We're heading to the tailgate, wanna come with?", "common": true},
+      {"term": "brat", "say": "BRAHT", "ipa": "bɹɑt", "tts": "braht", "means": "A bratwurst. It rhymes with 'pot', not with a spoiled kid.", "use": "Throw a few more brats on the grill before kickoff.", "common": true},
+      {"term": "fish fry", "say": "FISH fry", "ipa": "", "tts": "", "means": "The Friday night fried fish dinner, served at bars, churches and supper clubs.", "use": "Fish fry Friday, then the Bucks game.", "common": true},
+      {"term": "supper club", "say": "SUP-er club", "ipa": "", "tts": "", "means": "An old-school restaurant out on the edge of town: relish tray, prime rib, cocktails.", "use": "Dinner at the supper club after the game.", "common": true},
+      {"term": "brandy old fashioned", "say": "BRAN-dee old FASH-und", "ipa": "", "tts": "", "means": "Wisconsin's official state cocktail, made with brandy; order it 'sweet' or 'sour'.", "use": "Brandy old fashioned sweet, and turn up the Packers game.", "common": true},
+      {"term": "Cheesehead", "say": "CHEEZ-hed", "ipa": "ˈtʃizˌhɛd", "tts": "", "means": "A person from Wisconsin, or a Packers fan in the foam cheese hat. Worn with pride.", "use": "A whole row of Cheeseheads at the away game.", "common": true},
+      {"term": "TYME machine", "say": "TIME muh-SHEEN", "ipa": "ˈtaɪm məˌʃin", "tts": "time machine", "means": "An ATM, around Milwaukee, from an old local cash-machine brand.", "use": "Hit the TYME machine, the parking lot's cash only.", "common": false},
+      {"term": "parking ramp", "say": "PAR-king RAMP", "ipa": "", "tts": "", "means": "A parking garage.", "use": "Park in the ramp by the arena and walk over.", "common": true},
+      {"term": "soda", "say": "SOH-duh", "ipa": "", "tts": "", "means": "A soft drink, around Milwaukee; much of the rest of the Midwest says pop.", "use": "Grab me a soda from the cooler.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Milwaukee", "say": "muh-WAW-kee", "ipa": "məˈwɔːki", "tts": "", "why": "Locals often swallow the 'l' and the first syllable."},
+      {"word": "Oconomowoc", "say": "uh-KON-uh-muh-wok", "ipa": "əˈkɑnəməˌwɑk", "tts": "uh con uh muh wock", "why": "The lake town west of Milwaukee. Stress the second syllable."},
+      {"word": "Waukesha", "say": "WAW-kih-shaw", "ipa": "ˈwɔːkɪʃɔː", "tts": "", "why": "The western suburb. First syllable stressed."},
+      {"word": "De Pere", "say": "dih-PEER", "ipa": "dɪˈpɪɹ", "tts": "dih peer", "why": "Right next to Green Bay. Not 'day-PAIR'."},
+      {"word": "Prairie du Chien", "say": "PRAIR-ee doo SHEEN", "ipa": "ˌpɹɛɹi du ˈʃiːn", "tts": "prairie doo sheen", "why": "The Mississippi River town; the French has gone Wisconsin."}
+    ],
+    "lines": [
+      {"t": "Ope, sorry, just gonna squeeze past ya.", "m": "The Wisconsin apology, heard in every stadium row."},
+      {"t": "Fish fry Friday, Badgers Saturday, Packers Sunday.", "m": "The perfect Wisconsin fall weekend."},
+      {"t": "It's not cold, it's Lambeau weather.", "m": "Locals wear the cold like a badge."},
+      {"t": "Bears week. Enough said.", "m": "Packers against Bears is the NFL's oldest rivalry."},
+      {"t": "Brandy old fashioned, sweet.", "m": "How you order at a supper club."}
+    ],
+    "avoid": [
+      {"say": "BRAT, like a spoiled kid", "instead": "BRAHT", "why": "The sausage rhymes with 'pot' in Wisconsin."},
+      {"say": "Isn't Cheesehead an insult?", "instead": "Cheeseheads wear it with pride", "why": "Fans wear the foam cheese hats on purpose."},
+      {"say": "Where's the water fountain?", "instead": "Where's the bubbler?", "why": "Around Milwaukee it's a bubbler."}
+    ],
+    "habits": ["Friday fish fry at a bar, church or supper club, all year round.", "Tailgating hours before kickoff at Lambeau, brats on the grill, even in January.", "Brewers fans tailgate in the ballpark lots too, which most baseball cities don't do."],
+    "sources": ["https://en.wikipedia.org/wiki/North-Central_American_English", "https://www.thenorthwestern.com/story/life/2020/05/04/ope-sorry-deeper-look-into-midwests-favorite-expression/3003713001/", "https://eu.jsonline.com/story/life/food/2023/03/30/what-makes-a-brat-different-from-sausage-and-why-wisconsin-loves-them/70039496007/", "https://www.jsonline.com/story/money/business/2022/10/13/landmark-credit-union-bringing-back-tyme-machine-atms-wisconsin/10478688002", "https://www.wpr.org/culture/why-do-people-wear-cheeseheads", "https://www.npr.org/2023/11/14/1213008601/wisconsin-crowns-the-brandy-old-fashioned-as-the-official-state-cocktail", "https://en.wikipedia.org/wiki/Fish_fry", "https://isthmus.com/api/content/cc09cbde-0b6d-11ec-b64d-1244d5f7c7c6/", "https://en.wikipedia.org/wiki/Milwaukee"],
+    "unsure": []
+  },
+  {
+    "id": "us-minnesota",
+    "name": "Minnesota",
+    "covers": "Minneapolis–St. Paul",
+    "dialect": "Minnesotan (Upper Midwest)",
+    "words": [
+      {"term": "uff da", "say": "OOF-duh", "ipa": "ˈʊfdə", "tts": "oof duh", "means": "Oof: for surprise, dismay, relief or exhaustion. A Scandinavian import.", "use": "Uff da, that was a rough fourth quarter.", "common": true},
+      {"term": "ope", "say": "OHP", "ipa": "oʊp", "tts": "", "means": "The quick 'oops, sorry' when you bump into someone.", "use": "Ope, scuse me, just gotta get to my seat.", "common": true},
+      {"term": "you bet", "say": "yoo BET", "ipa": "", "tts": "", "means": "Yes, sure, no problem.", "use": "Want a brat? You bet.", "common": true},
+      {"term": "hotdish", "say": "HOT-dish", "ipa": "ˈhɑtˌdɪʃ", "tts": "", "means": "A baked casserole: starch, meat, vegetables and canned soup, often topped with tater tots.", "use": "Bring a hotdish to the Vikings party.", "common": true},
+      {"term": "Minnesota nice", "say": "min-uh-SOH-tuh NICE", "ipa": "", "tts": "", "means": "The state's polite, reserved friendliness; it can hide what people really think.", "use": "Minnesota nice goes out the window when the Packers are in town.", "common": true},
+      {"term": "spendy", "say": "SPEN-dee", "ipa": "ˈspɛndi", "tts": "", "means": "Expensive.", "use": "Playoff tickets are spendy this year.", "common": true},
+      {"term": "the Cities", "say": "the SIT-eez", "ipa": "", "tts": "", "means": "Minneapolis and St. Paul, as the rest of the state says it.", "use": "Driving down to the Cities for the Wild game.", "common": true},
+      {"term": "skyway", "say": "SKY-way", "ipa": "", "tts": "", "means": "The enclosed walkways between downtown buildings, used all winter.", "use": "Take the skyway, it's ten below out there.", "common": true},
+      {"term": "Skol", "say": "SKOHL", "ipa": "skoʊl", "tts": "skole", "means": "The Vikings' rallying cry, and a hello between fans anywhere in the state.", "use": "Skol! See you at the game Sunday.", "common": true},
+      {"term": "stocking cap", "say": "STOCK-ing CAP", "ipa": "", "tts": "", "means": "A knit winter hat.", "use": "Grab a stocking cap, the bus stop is freezing.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Wayzata", "say": "why-ZET-uh", "ipa": "waɪˈzɛtə", "tts": "why zet uh", "why": "The lake suburb west of Minneapolis. Nothing like the spelling."},
+      {"word": "Edina", "say": "ee-DYE-nuh", "ipa": "iˈdaɪnə", "tts": "ee dye nuh", "why": "The southwest suburb. Not 'eh-DEE-nuh'."},
+      {"word": "Shakopee", "say": "SHAH-kuh-pee", "ipa": "ˈʃɑkəpi", "tts": "shah kuh pee", "why": "The river town south of the Cities."},
+      {"word": "Mahtomedi", "say": "MAH-toh-MEE-dye", "ipa": "ˌmɑtoʊˈmiːdaɪ", "tts": "mah toe mee dye", "why": "East of St. Paul. The ending is 'dye', not 'dee'."},
+      {"word": "Bde Maka Ska", "say": "buh-DAY muh-KAH skah", "ipa": "bəˈdeɪ məˈkɑ ˈskɑ", "tts": "buh day muh kah skah", "why": "The big Minneapolis city lake, under its Dakota name."}
+    ],
+    "lines": [
+      {"t": "Uff da.", "m": "Fits any letdown, big or small."},
+      {"t": "Skol!", "m": "The Vikings cheer, and a hello in any season."},
+      {"t": "They'll find a way to break our hearts. They always do.", "m": "The local brand of sports pessimism."},
+      {"t": "Beat Green Bay and the season's a success.", "m": "Vikings against Packers is the rivalry that matters."},
+      {"t": "It's a dry cold.", "m": "Minnesota weather bravado, said at ten below."}
+    ],
+    "avoid": [
+      {"say": "Duck, duck, goose", "instead": "Duck, duck, gray duck", "why": "Minnesota kids play it differently, and adults will tell you so."},
+      {"say": "Oh yah, you betcha, don'tcha know", "instead": "Just talk normally", "why": "Locals are tired of the movie-accent impression."},
+      {"say": "Minneapolis and St. Paul are the same city", "instead": "the Twin Cities: two cities", "why": "St. Paul is the capital and has its own pride."}
+    ],
+    "habits": ["Winter is hockey: outdoor rinks and pond hockey, and the state high school tournament fills the arena in St. Paul.", "Downtown fans walk the skyways to games instead of braving the cold.", "Summer weekends up at the cabin, with the Twins on the radio."],
+    "sources": ["https://en.wikipedia.org/wiki/North-Central_American_English", "https://www.startribune.com/where-does-the-term-minnesota-nice-come-from-and-what-does-it-mean/502474301/", "https://www.mprnews.org/story/2016/03/12/mankato-cookbook-gets-credit-for-first-hot-dish-recipe", "https://en.wiktionary.org/wiki/uff_da", "https://en.wiktionary.org/wiki/spendy", "https://en.wiktionary.org/wiki/skol", "https://en.wikipedia.org/wiki/Minneapolis_Skyway_System", "https://en.wikipedia.org/wiki/Wayzata,_Minnesota", "https://www.thenorthwestern.com/story/life/2020/05/04/ope-sorry-deeper-look-into-midwests-favorite-expression/3003713001/"],
+    "unsure": ["words: 'the Cities' (short for the Twin Cities) and 'you bet' not confirmed in two sources"]
+  },
+  {
+    "id": "us-missouri",
+    "name": "St. Louis and Kansas City",
+    "covers": "St. Louis and Kansas City",
+    "dialect": "Missouri English (Midland)",
+    "words": [
+      {"term": "soda", "say": "SOH-duh", "ipa": "", "tts": "", "means": "A soft drink in St. Louis. Kansas City, across the state, says pop.", "use": "Grab me a soda on your way back from the concourse.", "common": true},
+      {"term": "pop", "say": "POP", "ipa": "", "tts": "", "means": "A soft drink in Kansas City and western Missouri.", "use": "Pop and a plate of burnt ends, that's the tailgate.", "common": true},
+      {"term": "Highway 40", "say": "HY-way FOR-tee", "ipa": "", "tts": "", "means": "What St. Louis still calls I-64, decades after the number changed.", "use": "Take Highway 40 downtown to the ballpark.", "common": true},
+      {"term": "T-ravs", "say": "TEE-ravz", "ipa": "ˈtiːˌrævz", "tts": "", "means": "Toasted ravioli: breaded, fried and dunked in marinara. A St. Louis invention.", "use": "Order some T-ravs for the table before first pitch.", "common": true},
+      {"term": "Provel", "say": "proh-VEL", "ipa": "proʊˈvɛl", "tts": "pro vel", "means": "The soft white processed cheese on St. Louis-style pizza.", "use": "Thin crust, square cut, Provel. That's game-night pizza.", "common": true},
+      {"term": "concrete", "say": "KON-kreet", "ipa": "", "tts": "", "means": "Frozen custard so thick it's handed over upside down, made famous by Ted Drewes in St. Louis.", "use": "Concretes after the Cardinals game, it's tradition.", "common": true},
+      {"term": "burnt ends", "say": "BURNT ENDZ", "ipa": "", "tts": "", "means": "The crispy, fatty brisket ends Kansas City barbecue made famous.", "use": "Burnt ends on the grill at the Arrowhead lot.", "common": true},
+      {"term": "the Plaza", "say": "the PLAH-zuh", "ipa": "", "tts": "", "means": "Country Club Plaza, Kansas City's Spanish-style shopping district.", "use": "Watch parties all over the Plaza tonight.", "common": true},
+      {"term": "KCMO and KCK", "say": "KAY-see-em-OH and KAY-see-KAY", "ipa": "ˌkeɪsiˌɛmˈoʊ ən ˌkeɪsiˈkeɪ", "tts": "", "means": "Kansas City, Missouri, and Kansas City, Kansas: one metro, two states.", "use": "I live in KCK but work in KCMO.", "common": true},
+      {"term": "State Line", "say": "STATE LINE", "ipa": "", "tts": "", "means": "State Line Road, the street that splits Kansas City between Missouri and Kansas.", "use": "Meet at the bar just off State Line.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Missouri", "say": "mih-ZUR-ee", "ipa": "mɪˈzɝi", "tts": "", "why": "Most say 'mih-ZUR-ee'; older and rural locals often say 'mih-ZUR-uh'. Both are local."},
+      {"word": "Florissant", "say": "FLOR-ih-sunt", "ipa": "ˈflɔɹɪsənt", "tts": "flor ih sunt", "why": "The north county suburb. Not the French way."},
+      {"word": "Des Peres", "say": "duh-PAIR", "ipa": "dəˈpɛɹ", "tts": "duh pair", "why": "The west county suburb. One syllable at the end."},
+      {"word": "Creve Coeur", "say": "KREEV KOR", "ipa": "ˈkɹiːv kɔɹ", "tts": "creev core", "why": "The St. Louis suburb's French name, said the local way."},
+      {"word": "Olathe", "say": "oh-LAY-thuh", "ipa": "oʊˈleɪθə", "tts": "oh lay thuh", "why": "The Kansas City suburb on the Kansas side."}
+    ],
+    "lines": [
+      {"t": "So, where'd you go to high school?", "m": "The St. Louis icebreaker; locals size each other up by the answer."},
+      {"t": "Kansas side or Missouri side?", "m": "Kansas City sits on the state line, so locals always ask."},
+      {"t": "Cardinals or Royals? Depends which end of I-70 you live on.", "m": "St. Louis and Kansas City split the state."},
+      {"t": "Best barbecue in town? Pull up a chair, this'll take a while.", "m": "Everyone in Kansas City has a barbecue opinion."},
+      {"t": "Get some T-ravs before the game.", "m": "The St. Louis pregame order."}
+    ],
+    "avoid": [
+      {"say": "pop, in St. Louis", "instead": "soda", "why": "St. Louis says soda; Kansas City says pop."},
+      {"say": "Kansas City is in Kansas", "instead": "mostly Missouri", "why": "Downtown, Arrowhead and Kauffman are on the Missouri side; only Sporting plays in Kansas."},
+      {"say": "That cheese on the pizza is weird", "instead": "I'll try the Provel", "why": "St. Louis defends its pizza."}
+    ],
+    "habits": ["Red Friday in Kansas City: red at work and school before a Chiefs game.", "Tailgating at the Truman Sports Complex, where Arrowhead and Kauffman share the lots and the smokers start early.", "St. Louis goes red all summer for the Cardinals, then gets a concrete at Ted Drewes on the way home."],
+    "sources": ["https://en.wikipedia.org/wiki/Midland_American_English", "https://en.wikipedia.org/wiki/Interstate_64_in_Missouri", "https://en.wikipedia.org/wiki/Toasted_ravioli", "https://www.stlmag.com/news/who-invented-toasted-ravioli/", "https://en.wikipedia.org/wiki/Provel_cheese", "https://en.wikipedia.org/wiki/Ted_Drewes", "https://en.wikipedia.org/wiki/Burnt_ends", "https://en.wikipedia.org/wiki/Country_Club_Plaza", "https://en.wikipedia.org/wiki/Kansas_City,_Missouri", "https://en.wikipedia.org/wiki/Missouri"],
+    "unsure": ["lines: 'where'd you go to high school?' is a well-known St. Louis custom but no source was fetched for it"]
+  }
+]

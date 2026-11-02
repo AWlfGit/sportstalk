@@ -3,6 +3,7 @@
     "team": "Arizona Cardinals",
     "espnId": "22",
     "league": "football/nfl",
+    "region": "us-arizona",
     "aliases": ["arizona", "cardinals", "cards", "ari", "az cardinals"],
     "nickname": "the Cards",
     "fans": "the Red Sea",
@@ -15,27 +16,42 @@
     "legends": ["Larry Fitzgerald", "Kurt Warner", "Aeneas Williams", "Roger Wehrli"],
     "memory": "The 2008 season run to Super Bowl XLIII, lost late to the Steelers in February 2009",
     "lingo": [
-      {"term": "Red Sea", "say": "RED SEE", "means": "The Cardinals fan base, named for the wall of red shirts at home games."},
-      {"term": "Bird Gang", "say": "BURD gang", "means": "Another name fans and the team use for the Cardinals community."},
-      {"term": "Big Red", "say": "big RED", "means": "An old nickname for the team from its St. Louis days."}
+      {"term": "Red Sea", "say": "RED SEE", "ipa": "ˈɹɛd ˈsi", "tts": "", "means": "The Cardinals fan base, named for the wall of red shirts at home games."},
+      {"term": "Bird Gang", "say": "BURD gang", "ipa": "ˈbɝd ˌɡæŋ", "tts": "", "means": "Another name for the fan base. The team's hype crew uses it too."},
+      {"term": "Big Red", "say": "big RED", "ipa": "ˈbɪɡ ˈɹɛd", "tts": "", "means": "The cardinal mascot, and an old nickname for the team from its St. Louis days."},
+      {"term": "Rise up, Red Sea", "say": "RYZ up red SEE", "ipa": "ˈɹaɪz ˈʌp ˈɹɛd ˈsi", "tts": "", "means": "The fans' rallying call on game days and online."},
+      {"term": "the Cards", "say": "the KARDZ", "ipa": "ðə ˈkɑɹdz", "tts": "", "means": "The everyday short name for the team."}
     ],
     "lines": [
-      {"t": "Rise up, Red Sea!", "m": "A rallying cry fans shout and post on game days."},
-      {"t": "Oldest franchise in the league and we're still chasing that first Super Bowl.", "m": "Rueful pride: the club dates back to 1898 in Chicago."},
-      {"t": "Fitz never dropped anything.", "m": "Fans revere Larry Fitzgerald and his famously sure hands."},
-      {"t": "Beat the Niners and I'm happy.", "m": "San Francisco is a division rival fans love to beat."}
+      {"t": "Rise up, Red Sea!", "m": "The rallying cry fans shout and post on game days.", "when": "any"},
+      {"t": "Oldest franchise in the league and we're still chasing that first Super Bowl.", "m": "Rueful pride: the club dates back to 1898 in Chicago.", "when": "any"},
+      {"t": "Fitz never dropped anything.", "m": "Fans revere Larry Fitzgerald and his famously sure hands.", "when": "any"},
+      {"t": "Last title was 1947. We're due.", "m": "The Cardinals' last championship came in Chicago in 1947.", "when": "any"},
+      {"t": "The Red Sea showed up today.", "m": "Praise for a loud, red-clad home crowd after a win.", "when": "win"},
+      {"t": "Beat the Niners and I'm happy.", "m": "San Francisco is a division rival fans love to beat.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Wear red", "means": "Home crowds dress in red to make the 'Red Sea' that visiting teams see when they come out of the tunnel."},
+      {"name": "The roll-out field", "means": "The stadium's grass field sits on a huge tray that rolls outside to get sun between games. Locals love telling visitors about it."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl XLIII", "why": "A Steelers touchdown in the last minute took the title away in February 2009."},
+      {"topic": "The 1947 drought", "why": "No championship since 1947 is the longest wait in the league, and fans hear about it plenty."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Phoenix Cardinals", "instead": "the Arizona Cardinals", "why": "The team dropped 'Phoenix' in 1994, and the stadium is in Glendale."},
-      {"say": "Are they the baseball Cardinals?", "instead": "the Arizona Cardinals", "why": "The St. Louis Cardinals are an unrelated baseball club; the football team left St. Louis in 1988."}
+      {"say": "Are they the baseball Cardinals?", "instead": "the Arizona Cardinals", "why": "The St. Louis Cardinals are an unrelated baseball club; the football team left St. Louis in 1988."},
+      {"say": "University of Phoenix Stadium", "instead": "State Farm Stadium", "why": "The stadium took the State Farm name in 2018, in a deal that runs to 2036."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Arizona_Cardinals", "https://en.wikipedia.org/wiki/Red_Sea_(football)"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Arizona_Cardinals", "https://en.wikipedia.org/wiki/Red_Sea_(football)", "https://en.wikipedia.org/wiki/State_Farm_Stadium", "https://www.fox10phoenix.com/news/rise-up-red-sea-fans-cheer-for-az-cardinals-from-a-distance", "https://blog.ticketmaster.com/passionate-iconic-nfl-fan-bases"],
+    "unsure": ["traditions: a pre-game 'Big Red' siren sounded by a guest appears in one local report only, so it is left out"]
   },
   {
     "team": "Atlanta Falcons",
     "espnId": "1",
     "league": "football/nfl",
+    "region": "us-atlanta",
     "aliases": ["atlanta", "falcons", "atl", "dirty birds"],
     "nickname": "the Falcons",
     "fans": "",
@@ -48,27 +64,42 @@
     "legends": ["Tommy Nobis", "Steve Bartkowski", "Jamal Anderson", "Roddy White"],
     "memory": "The 1998 'Dirty Bird' season: 14-2 and the club's first Super Bowl trip",
     "lingo": [
-      {"term": "Rise Up", "say": "RYZ up", "means": "The team's long-running rallying slogan."},
-      {"term": "Dirty Bird", "say": "DUR-tee burd", "means": "The 1998 touchdown dance, and a nickname for that team and its fans."},
-      {"term": "the Benz", "say": "the BENZ", "means": "Mercedes-Benz Stadium, home since 2017."}
+      {"term": "Rise Up", "say": "RYZ UP", "ipa": "ˈɹaɪz ˈʌp", "tts": "", "means": "The club's rallying slogan since a 2010 campaign. Fans use it as a greeting and a sign-off."},
+      {"term": "Dirty Birds", "say": "DUR-tee BURDZ", "ipa": "ˈdɝti ˈbɝdz", "tts": "", "means": "The 1998 team and its flapping touchdown dance, and still a nickname for the team and fans."},
+      {"term": "the Benz", "say": "the BENZ", "ipa": "ðə ˈbɛnz", "tts": "", "means": "Mercedes-Benz Stadium, home since 2017."},
+      {"term": "Freddie Falcon", "say": "FRED-ee FAL-kun", "ipa": "ˈfɹɛdi ˈfælkən", "tts": "", "means": "The team mascot, a regular in the tailgate lots."},
+      {"term": "Matty Ice", "say": "MAT-ee ICE", "ipa": "ˈmæti ˈaɪs", "tts": "", "means": "Retired quarterback Matt Ryan, the 2016 MVP, known for staying cool late in games."}
     ],
     "lines": [
-      {"t": "Rise up!", "m": "The all-purpose Falcons rallying cry."},
-      {"t": "Nothing beats a win over the Saints.", "m": "New Orleans is the rival that matters most."},
-      {"t": "We don't talk about 28-3.", "m": "A rueful in-joke about the blown lead against the Patriots in Super Bowl LI in 2017."},
-      {"t": "Cheapest hot dogs in the league, at least.", "m": "The Benz is known for its low 'fan-first' food prices."}
+      {"t": "Rise up!", "m": "The all-purpose Falcons rallying cry.", "when": "any"},
+      {"t": "Nothing beats a Sunday at the Benz.", "m": "Home pride in the stadium downtown.", "when": "any"},
+      {"t": "Still chasing that first ring.", "m": "Atlanta has reached two Super Bowls and lost both.", "when": "any"},
+      {"t": "Dirty Birds are back!", "m": "Said after a big win, often with a flap of the arms.", "when": "win"},
+      {"t": "At least the hot dogs are cheap.", "m": "A rueful joke after a loss: the Benz is known for its low food prices.", "when": "loss"},
+      {"t": "Saints week. Nothing else matters.", "m": "New Orleans is the rival that matters most.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Dirty Bird", "means": "Players and fans still do Jamal Anderson's 1998 touchdown dance, and the team brought it back officially in 2018."},
+      {"name": "Fan-first prices", "means": "The Benz sells hot dogs, soda and other basics cheaply, and fans like to brag about it to visitors."}
+    ],
+    "sore": [
+      {"topic": "28-3", "why": "Atlanta led New England 28-3 in Super Bowl LI and lost in overtime. Rivals never let it go."},
+      {"topic": "No Super Bowl title", "why": "Two trips, two defeats, in 1999 and 2017."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Georgia Dome", "instead": "the Benz", "why": "The Georgia Dome closed in 2017 and was demolished."},
-      {"say": "Who dat!", "instead": "Rise up!", "why": "'Who Dat' is the cheer of the rival Saints."}
+      {"say": "Who dat!", "instead": "Rise up!", "why": "'Who Dat' is the cheer of the rival Saints."},
+      {"say": "the Falcons' Super Bowl win", "instead": "two Super Bowl trips, no ring yet", "why": "Atlanta lost Super Bowls XXXIII and LI."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Atlanta_Falcons", "https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium"],
+    "sources": ["https://en.wikipedia.org/wiki/Atlanta_Falcons", "https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium", "https://www.fox5atlanta.com/good-day-atlanta/atlanta-falcons-rise-up-for-kickoff-rally-the-dirty-bird-returns", "https://www.atlantafalcons.com/news/longform/home-field-advantage", "https://www.ajc.com/sports/atlanta-falcons/mercedes-benz-stadium-crowd-starting-give-falcons-a-home-field-advantage/QGGVKR2H5FDBFCTQMF4YGFJAYA"],
     "unsure": []
   },
   {
     "team": "Baltimore Ravens",
     "espnId": "33",
     "league": "football/nfl",
+    "region": "us-baltimore-dc",
     "aliases": ["baltimore", "ravens", "bal", "the flock"],
     "nickname": "the Ravens",
     "fans": "the Ravens Flock",
@@ -81,27 +112,42 @@
     "legends": ["Ray Lewis", "Ed Reed", "Jonathan Ogden", "Terrell Suggs"],
     "memory": "Winning Super Bowl XXXV in January 2001 behind a record-setting defense",
     "lingo": [
-      {"term": "the Flock", "say": "the FLOK", "means": "Ravens fans as a group."},
-      {"term": "Purple Friday", "say": "PUR-pul FRY-day", "means": "The city habit of wearing purple on the Friday before a game."},
-      {"term": "Poe", "say": "POH", "means": "The raven mascot, named after Baltimore poet Edgar Allan Poe, who inspired the team name."}
+      {"term": "the Flock", "say": "the FLOK", "ipa": "ðə ˈflɑk", "tts": "", "means": "Ravens fans as a group."},
+      {"term": "Purple Friday", "say": "PUR-pul FRY-day", "ipa": "ˈpɝpəl ˈfɹaɪdeɪ", "tts": "", "means": "The city habit of wearing purple on the Friday before a game, with team rallies around town."},
+      {"term": "Poe", "say": "POH", "ipa": "ˈpoʊ", "tts": "", "means": "The raven mascot, named for Edgar Allan Poe, whose poem gave the team its name."},
+      {"term": "the Bank", "say": "the BANK", "ipa": "ðə ˈbæŋk", "tts": "", "means": "Fans' and players' short name for M&T Bank Stadium."},
+      {"term": "the Marching Ravens", "say": "MAR-ching RAY-vunz", "ipa": "ˈmɑɹtʃɪŋ ˈɹeɪvənz", "tts": "", "means": "The team's marching band. It began as the Baltimore Colts band and kept playing after the Colts left."}
     ],
     "lines": [
-      {"t": "Happy Purple Friday!", "m": "Said on Fridays before games, when Baltimore dresses in purple."},
-      {"t": "Steelers week hits different.", "m": "Pittsburgh games are the most physical and the most important."},
-      {"t": "Defense wins here. Always has.", "m": "Baltimore's identity is built on hard-hitting defenses."},
-      {"t": "Ray Lewis set the standard.", "m": "Fans see the great linebacker as the face of the franchise."}
+      {"t": "Happy Purple Friday!", "m": "Said on Fridays before games, when Baltimore dresses in purple.", "when": "any"},
+      {"t": "Defense wins here. Always has.", "m": "Baltimore's identity is built on hard-hitting defenses.", "when": "any"},
+      {"t": "Ray Lewis set the standard.", "m": "Fans see the great linebacker as the face of the franchise.", "when": "any"},
+      {"t": "Two rings, and we want more.", "m": "The Ravens won Super Bowls XXXV and XLVII.", "when": "any"},
+      {"t": "The Bank was rocking today.", "m": "Praise for a loud home crowd after a win.", "when": "win"},
+      {"t": "Steelers week hits different.", "m": "Pittsburgh games are the most physical and the most important.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Purple Friday rallies", "means": "The band, cheerleaders and Poe tour the city and suburbs before big games, and fans decorate homes and offices in purple."},
+      {"name": "The Marching Ravens", "means": "The band plays at home games and rallies. Fans are proud it kept Baltimore's football music going in the years with no NFL team."}
+    ],
+    "sore": [
+      {"topic": "The Colts' 1984 move", "why": "Older fans still bristle at the Colts leaving for Indianapolis overnight in moving vans."},
+      {"topic": "Where the team came from", "why": "The club began when the Browns' owner moved to Baltimore in 1996. Cleveland fans still resent it, and Ravens fans are tired of hearing it."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Baltimore Colts", "instead": "the Ravens", "why": "The Colts left for Indianapolis in 1984; the Ravens arrived in 1996."},
-      {"say": "the Ravens are the old Browns", "instead": "the Ravens started in 1996", "why": "The Browns' name and history stayed in Cleveland, so Ravens fans count from 1996."}
+      {"say": "the Ravens are the old Browns", "instead": "the Ravens started in 1996", "why": "The Browns' name and history stayed in Cleveland, so Ravens fans count from 1996."},
+      {"say": "the game at Camden Yards", "instead": "the game at the Bank", "why": "Camden Yards is the Orioles' ballpark next door."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Baltimore_Ravens"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Baltimore_Ravens", "https://en.wikipedia.org/wiki/M%26T_Bank_Stadium", "https://en.wikipedia.org/wiki/Baltimore%27s_Marching_Ravens", "https://www.baltimoreravens.com/news/media-advisory-ravens-purple-friday-caravan-in-annapolis-august-4-19103328", "https://www.cbsnews.com/baltimore/news/ravens-president-upgrades-accompany-m-t-bank-stadium-renewed-naming-rights/"],
+    "unsure": ["traditions: fans chanting the 'Seven Nation Army' riff found only in a weak source, so left out"]
   },
   {
     "team": "Buffalo Bills",
     "espnId": "2",
     "league": "football/nfl",
+    "region": "us-buffalo",
     "aliases": ["buffalo", "bills", "buf", "bills mafia"],
     "nickname": "the Bills",
     "fans": "Bills Mafia",
@@ -114,28 +160,43 @@
     "legends": ["Jim Kelly", "Thurman Thomas", "Bruce Smith", "Andre Reed"],
     "memory": "Four straight Super Bowl trips, from the 1990 to the 1993 season",
     "lingo": [
-      {"term": "Bills Mafia", "say": "BILZ MAH-fee-uh", "means": "The fan base's proud name for itself, born on social media around 2010."},
-      {"term": "the Ralph", "say": "the RALF", "means": "Fans' old name for the previous stadium, after founder Ralph Wilson."},
-      {"term": "Shout", "say": "SHOWT", "means": "Fans sing a Bills version of the song 'Shout' after scores."}
+      {"term": "Bills Mafia", "say": "BILZ MAH-fee-uh", "ipa": "ˈbɪlz ˈmɑfiə", "tts": "", "means": "The fan base's proud name for itself, born on social media around 2010."},
+      {"term": "the Ralph", "say": "the RALF", "ipa": "ðə ˈɹælf", "tts": "", "means": "Fans' name for the old stadium across the street, after founder Ralph Wilson. It closed after the 2025 season."},
+      {"term": "the Comeback", "say": "the KUM-bak", "ipa": "ðə ˈkʌmˌbæk", "tts": "", "means": "Buffalo's rally from 32 points down to beat the Houston Oilers in the January 1993 playoffs, the biggest comeback in NFL playoff history."},
+      {"term": "the K-Gun", "say": "the KAY-gun", "ipa": "ðə ˈkeɪ ˌɡʌn", "tts": "", "means": "The fast no-huddle offense of the early-1990s Jim Kelly teams."},
+      {"term": "Highmark", "say": "HY-mark", "ipa": "ˈhaɪˌmɑɹk", "tts": "", "means": "What most fans call the stadium. The name moved with the team to the new building in 2026."}
     ],
     "lines": [
-      {"t": "Go Bills!", "m": "The standard greeting and sign-off in Western New York."},
-      {"t": "Bills Mafia travels.", "m": "Fans pride themselves on taking over road games."},
-      {"t": "New stadium, same tailgates.", "m": "The team moved across the street to the new Highmark Stadium in 2026, and the parking-lot parties came too."},
-      {"t": "Snow game? Even better.", "m": "Fans see Buffalo winters as a home advantage."},
-      {"t": "Wide right still hurts.", "m": "A rueful nod to the missed kick that lost Super Bowl XXV in 1991."}
+      {"t": "Go Bills!", "m": "The standard greeting and sign-off in Western New York.", "when": "any"},
+      {"t": "Bills Mafia travels.", "m": "Fans pride themselves on taking over road games.", "when": "any"},
+      {"t": "New stadium, same tailgates.", "m": "The team moved across the street to the new Highmark Stadium in 2026, and the parking-lot parties came too.", "when": "any"},
+      {"t": "Snow game? Even better.", "m": "Fans see Buffalo winters as a home advantage.", "when": "any"},
+      {"t": "Where would you rather be than right here, right now?", "m": "Coach Marv Levy's famous line, still quoted after big wins.", "when": "win"},
+      {"t": "Wide right still hurts.", "m": "A rueful nod to the missed kick that lost Super Bowl XXV in 1991. Only for fans to say.", "when": "loss"},
+      {"t": "Nothing better than beating Miami in the snow.", "m": "The Dolphins are the oldest division rival, and they hate the cold.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'Shout' after scores", "means": "The stadium plays the Bills' own version of the song 'Shout' after every score, and the crowd joins in."},
+      {"name": "Tailgating in Orchard Park", "means": "Fans fill the lots hours before kickoff, with grills going whatever the weather."}
+    ],
+    "sore": [
+      {"topic": "Four Super Bowl losses", "why": "Buffalo lost four in a row in the early 1990s, and fans have heard every joke."},
+      {"topic": "13 seconds", "why": "The Bills led Kansas City with 13 seconds left in the January 2022 playoffs and lost in overtime."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the New York Bills", "instead": "the Buffalo Bills", "why": "Buffalo is hours from New York City, and locals guard the difference."},
-      {"say": "they play in downtown Buffalo", "instead": "they play in Orchard Park", "why": "The stadium is in the suburb of Orchard Park, south of the city."}
+      {"say": "they play in downtown Buffalo", "instead": "they play in Orchard Park", "why": "The stadium is in the suburb of Orchard Park, south of the city."},
+      {"say": "the Bills still play in the old stadium", "instead": "they moved to the new Highmark Stadium", "why": "The new stadium across the street opened for the 2026 season."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Buffalo_Bills", "https://www.espn.com.sg/nfl/story/_/id/48744949/bills-play-first-regular-season-game-new-stadium-week-2"],
+    "sources": ["https://en.wikipedia.org/wiki/Buffalo_Bills", "https://en.wikipedia.org/wiki/Highmark_Stadium", "https://www.buffalorumblings.com/2021/4/11/22377759/poll-what-are-you-gonna-call-the-buffalo-bills-stadium", "https://www.profootballnetwork.com/?p=417810", "https://www.espn.com.sg/nfl/story/_/id/48744949/bills-play-first-regular-season-game-new-stadium-week-2"],
     "unsure": []
   },
   {
     "team": "Carolina Panthers",
     "espnId": "29",
     "league": "football/nfl",
+    "region": "us-carolinas",
     "aliases": ["carolina", "panthers", "car", "charlotte"],
     "nickname": "the Panthers",
     "fans": "",
@@ -148,29 +209,45 @@
     "legends": ["Steve Smith Sr.", "Julius Peppers", "Luke Kuechly", "Sam Mills"],
     "memory": "The 2015 season: 15-1 and a trip to Super Bowl 50",
     "lingo": [
-      {"term": "Keep Pounding", "say": "keep POWN-ding", "means": "The club motto, from a famous 2003 pep talk by linebacker Sam Mills."},
-      {"term": "the drum", "say": "the DRUM", "means": "Before home games a guest beats the big 'Keep Pounding' drum."},
-      {"term": "Sir Purr", "say": "sur PUR", "means": "The team's panther mascot."}
+      {"term": "Keep Pounding", "say": "keep POWN-ding", "ipa": "ˈkip ˈpaʊndɪŋ", "tts": "", "means": "The club motto, from a famous 2003 pep talk by linebacker-turned-coach Sam Mills."},
+      {"term": "the drum", "say": "the DRUM", "ipa": "ðə ˈdɹʌm", "tts": "", "means": "The big 'Keep Pounding' drum a guest strikes before home games."},
+      {"term": "Sir Purr", "say": "sur PUR", "ipa": "sɝ ˈpɝ", "tts": "", "means": "The team's panther mascot. He hands the guest drummer the mallet."},
+      {"term": "Roaring Riot", "say": "ROR-ing RY-ut", "ipa": "ˈɹɔɹɪŋ ˈɹaɪət", "tts": "", "means": "A fan club founded in 2008, with chapters in many cities, that runs tailgates and road trips."},
+      {"term": "Riverboat Ron", "say": "RIV-er-boht RON", "ipa": "ˈɹɪvɚˌboʊt ˈɹɑn", "tts": "", "means": "Fans' name for former coach Ron Rivera, for his gambles on fourth down in 2013."}
     ],
     "lines": [
-      {"t": "Keep pounding!", "m": "The club motto, said in good times and bad."},
-      {"t": "This team belongs to both Carolinas.", "m": "Fans from Charlotte to South Carolina claim it."},
-      {"t": "Steve Smith played like he was ten feet tall.", "m": "Fans love the small, fierce receiver."},
-      {"t": "Beat Atlanta, that's the main thing.", "m": "The Falcons are the rival fans most enjoy beating."}
+      {"t": "Keep pounding!", "m": "The club motto, said in good times and bad.", "when": "any"},
+      {"t": "This team belongs to both Carolinas.", "m": "Fans from Charlotte to South Carolina claim it.", "when": "any"},
+      {"t": "Steve Smith played like he was ten feet tall.", "m": "Fans love the small, fierce receiver.", "when": "any"},
+      {"t": "That 15-1 team was something special.", "m": "Fans still talk about the 2015 season.", "when": "any"},
+      {"t": "That's Panthers football right there.", "m": "Said after a tough, physical win.", "when": "win"},
+      {"t": "Keep pounding. That's all you can do.", "m": "The motto doubles as comfort after a loss.", "when": "loss"},
+      {"t": "Beat Atlanta, that's the main thing.", "m": "The Falcons are the rival fans most enjoy beating.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Keep Pounding drum", "means": "After the coin toss, an honorary drummer strikes the big drum four times, once for each quarter."},
+      {"name": "Keep, Pounding", "means": "One side of the stadium shouts 'Keep' and the other answers 'Pounding'."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl 50", "why": "The 15-1 team lost to Denver in February 2016."},
+      {"topic": "Super Bowl XXXVIII", "why": "New England won it with a field goal in the final seconds in February 2004."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Charlotte Panthers", "instead": "the Carolina Panthers", "why": "The team is named for both Carolinas, not just the city."},
-      {"say": "the Panthers? Great hockey team", "instead": "the Carolina Panthers", "why": "The Florida Panthers are an NHL team; Carolina's hockey team is the Hurricanes."}
+      {"say": "the Panthers? Great hockey team", "instead": "the Carolina Panthers", "why": "The Florida Panthers are an NHL team; Carolina's hockey team is the Hurricanes."},
+      {"say": "Ericsson Stadium", "instead": "Bank of America Stadium", "why": "The stadium has carried the Bank of America name since 2004."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Carolina_Panthers"],
+    "sources": ["https://en.wikipedia.org/wiki/Carolina_Panthers", "https://www.panthers.com/keep-pounding/drummers", "https://wcnc.com/article/sports/locked-on/nfl-podcast/panthers-show/carolina-panthers-keep-pounding-bank-of-america-stadium-roaring-riot/275-8622faef-7e70-45f1-a23e-3c0e96338722", "https://seatgeek.com/blog/carolina-panthers-fan-guide-best-bank-of-america-stadium-seats-food-and-more-game-tips", "https://artsandculture.google.com/story/ogWBhogzIBqjKw"],
     "unsure": []
   },
   {
     "team": "Chicago Bears",
     "espnId": "3",
     "league": "football/nfl",
+    "region": "us-chicago",
     "aliases": ["chicago", "bears", "chi", "da bears"],
-    "nickname": "the Bears",
+    "nickname": "Da Bears",
     "fans": "",
     "ground": "Soldier Field",
     "rivals": [
@@ -181,29 +258,45 @@
     "legends": ["Walter Payton", "Dick Butkus", "Gale Sayers", "Brian Urlacher"],
     "memory": "The 1985 Bears: 15-1, the Super Bowl Shuffle and a Super Bowl XX rout of the Patriots",
     "lingo": [
-      {"term": "Da Bears", "say": "duh BAIRZ", "means": "The Chicago-accent way to say the team name. Fans say it with a wink."},
-      {"term": "the Fridge", "say": "the FRIJ", "means": "William Perry, the huge 1985 defensive lineman who also ran in a touchdown in Super Bowl XX."},
-      {"term": "Monsters of the Midway", "say": "MON-sterz uv the MID-way", "means": "A classic nickname for great Bears defenses."},
-      {"term": "Bear Down", "say": "bair DOWN", "means": "The fight song title, also used as a greeting."},
-      {"term": "Sweetness", "say": "SWEET-ness", "means": "Walter Payton's nickname."}
+      {"term": "Da Bears", "say": "duh BAIRZ", "ipa": "də ˈbɛɹz", "tts": "duh bears", "means": "The Chicago-accent way to say the team name. Fans say it with a wink."},
+      {"term": "Bear Down", "say": "bair DOWN", "ipa": "ˈbɛɹ ˈdaʊn", "tts": "", "means": "From the fight song title. Used as a greeting, a cheer and a sign-off."},
+      {"term": "Monsters of the Midway", "say": "MON-sterz uv the MID-way", "ipa": "ˈmɑnstɚz əv ðə ˈmɪdˌweɪ", "tts": "", "means": "A classic nickname for the team and its great defenses."},
+      {"term": "the Fridge", "say": "the FRIJ", "ipa": "ðə ˈfɹɪdʒ", "tts": "", "means": "William Perry, the huge 1985 defensive lineman who also ran in a touchdown in Super Bowl XX."},
+      {"term": "Sweetness", "say": "SWEET-ness", "ipa": "ˈswitnəs", "tts": "", "means": "Walter Payton's nickname."},
+      {"term": "Papa Bear", "say": "PAH-puh BAIR", "ipa": "ˈpɑpə ˈbɛɹ", "tts": "", "means": "George Halas, the club's founder, owner and longtime coach."},
+      {"term": "Staley Da Bear", "say": "STAY-lee duh BAIR", "ipa": "ˈsteɪli də ˈbɛɹ", "tts": "stay lee duh bear", "means": "The mascot, named after the Decatur Staleys, the club's first name in 1920."}
     ],
     "lines": [
-      {"t": "Bear down!", "m": "A greeting, cheer and sign-off in one."},
-      {"t": "Still hate the Packers.", "m": "Green Bay is the eternal enemy, in the NFL's oldest rivalry."},
-      {"t": "Nothing beats the '85 Bears.", "m": "The 1985 champions are the standard every Bears team is measured against."},
-      {"t": "Now that's Bears weather.", "m": "Said on cold, windy days by the lake, which fans see as home advantage."}
+      {"t": "Bear down!", "m": "A greeting, cheer and sign-off in one.", "when": "any"},
+      {"t": "Nothing beats the '85 Bears.", "m": "The 1985 champions are the standard every Bears team is measured against.", "when": "any"},
+      {"t": "Now that's Bears weather.", "m": "Said on cold, windy days by the lake, which fans see as home advantage.", "when": "any"},
+      {"t": "Sweetness was the best there ever was.", "m": "Fans revere Walter Payton above everyone.", "when": "any"},
+      {"t": "Da Bears!", "m": "Shouted after a win, in the thickest Chicago accent you can manage.", "when": "win"},
+      {"t": "Still hate the Packers.", "m": "Green Bay is the eternal enemy, in the NFL's oldest rivalry.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'Bear Down, Chicago Bears'", "means": "The fight song plays after every Bears score, and fans know every word."},
+      {"name": "GSH on the sleeve", "means": "The jerseys carry George Halas's initials on the left sleeve, in his honor since 1984."},
+      {"name": "Lakefront tailgates", "means": "Fans grill in the lots by Lake Michigan before kickoff, cold or not."}
+    ],
+    "sore": [
+      {"topic": "The quarterback curse", "why": "Decades without a long-term star quarterback are a sore point. Let fans raise it."},
+      {"topic": "Super Bowl XLI", "why": "The Bears lost to the Colts in the rain in Miami in February 2007, their last Super Bowl trip."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "The Bears play in a dome", "instead": "they play outdoors at Soldier Field", "why": "Soldier Field is an open-air stadium on Lake Michigan."},
-      {"say": "Go Pack Go", "instead": "Bear down", "why": "That's the Packers' cheer, the worst thing to say in Chicago."}
+      {"say": "Go Pack Go", "instead": "Bear down", "why": "That's the Packers' cheer, the worst thing to say in Chicago."},
+      {"say": "Soldiers Field", "instead": "Soldier Field", "why": "No s on Soldier. Locals notice."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Chicago_Bears"],
+    "sources": ["https://en.wikipedia.org/wiki/Chicago_Bears", "https://en.wikipedia.org/wiki/Soldier_Field", "https://en.wikipedia.org/wiki/Bear_Down,_Chicago_Bears", "https://en.wikipedia.org/wiki/Bears%E2%80%93Packers_rivalry"],
     "unsure": []
   },
   {
     "team": "Cincinnati Bengals",
     "espnId": "4",
     "league": "football/nfl",
+    "region": "us-ohio",
     "aliases": ["cincinnati", "cincy", "bengals", "cin", "who dey"],
     "nickname": "the Bengals",
     "fans": "the Who Dey Nation",
@@ -216,28 +309,43 @@
     "legends": ["Anthony Muñoz", "Ken Anderson", "Boomer Esiason", "Ken Riley"],
     "memory": "Reaching Super Bowl LVI in February 2022, the club's first in 33 years",
     "lingo": [
-      {"term": "Who Dey", "say": "hoo DAY", "means": "The Bengals' signature cheer, and the name of the fan base."},
-      {"term": "the Jungle", "say": "the JUNG-gul", "means": "Fans' name for the home stadium."},
-      {"term": "Ickey Shuffle", "say": "IK-ee SHUF-ul", "means": "The 1988 touchdown dance by running back Ickey Woods."}
+      {"term": "Who Dey", "say": "hoo DAY", "ipa": "ˈhu ˈdeɪ", "tts": "who day", "means": "The Bengals' signature cheer, and the name of the fan base."},
+      {"term": "the Jungle", "say": "the JUNG-gul", "ipa": "ðə ˈdʒʌŋɡəl", "tts": "", "means": "Fans' name for the home stadium, whatever the sponsor."},
+      {"term": "Rule the Jungle", "say": "ROOL the JUNG-gul", "ipa": "ˈɹul ðə ˈdʒʌŋɡəl", "tts": "", "means": "The team's slogan, seen on banners and in hashtags."},
+      {"term": "Ickey Shuffle", "say": "IK-ee SHUF-ul", "ipa": "ˈɪki ˈʃʌfəl", "tts": "i kee shuh fuhl", "means": "The 1988 touchdown dance by running back Ickey Woods."},
+      {"term": "the stripes", "say": "the STRYPS", "ipa": "ðə ˈstɹaɪps", "tts": "", "means": "The tiger-stripe helmets and uniforms, the team's trademark look."}
     ],
     "lines": [
-      {"t": "Who dey!", "m": "The universal Bengals greeting and cheer."},
-      {"t": "Welcome to the Jungle.", "m": "Said to visiting fans at the home stadium."},
-      {"t": "Steelers week. Circle it.", "m": "Pittsburgh is the rival fans most want to beat."},
-      {"t": "Nobody else has stripes on the helmet.", "m": "Fans love the tiger-stripe helmets."}
+      {"t": "Who dey!", "m": "The universal Bengals greeting and cheer.", "when": "any"},
+      {"t": "Welcome to the Jungle.", "m": "Said to visiting fans at the home stadium.", "when": "any"},
+      {"t": "Nobody else has stripes on the helmet.", "m": "Fans love the tiger-stripe helmets.", "when": "any"},
+      {"t": "Rule the Jungle!", "m": "The slogan, posted and shouted after a home win.", "when": "win"},
+      {"t": "Classic Bengals.", "m": "A rueful shrug after a bad loss. Only for fans to say.", "when": "loss"},
+      {"t": "Steelers week. Circle it.", "m": "Pittsburgh is the rival fans most want to beat.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Who Dey cheer", "means": "The whole stadium does the call-and-response 'Who Dey' cheer before kickoff and after scores."},
+      {"name": "Striped everything", "means": "Fans wear the tiger stripes head to toe, from face paint to full-body suits."}
+    ],
+    "sore": [
+      {"topic": "Two Super Bowl losses to the Niners", "why": "Cincinnati lost Super Bowls XVI and XXIII to San Francisco, the second on a last-minute drive."},
+      {"topic": "The lean years", "why": "The club went 31 years without a playoff win before January 2022."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "Who dat!", "instead": "Who dey!", "why": "'Who Dat' is the New Orleans Saints' cheer; mixing them up is a classic slip."},
-      {"say": "Paul Brown Stadium", "instead": "Paycor Stadium", "why": "The stadium was renamed in 2022."}
+      {"say": "Paul Brown Stadium", "instead": "Paycor Stadium", "why": "The stadium was renamed in 2022."},
+      {"say": "the Bungles", "instead": "the Bengals", "why": "Fans use the old insult about their own team; from an outsider it's a jab."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Cincinnati_Bengals", "https://www.cbssports.com/nfl/news/bengals-stadium-gets-new-name-nfl-teams-home-will-go-from-paul-brown-stadium-to-paycor-stadium"],
-    "unsure": ["ground: Paychex bought Paycor in 2025; no rename found, so Paycor Stadium kept"]
+    "sources": ["https://en.wikipedia.org/wiki/Cincinnati_Bengals", "https://en.wikipedia.org/wiki/Who_Dey", "https://www.cbssports.com/nfl/news/bengals-stadium-gets-new-name-nfl-teams-home-will-go-from-paul-brown-stadium-to-paycor-stadium", "https://www.local12.com/news/local/paycor-ceo-acquisition-paychex-bengals-stadium-naming-rights-downtown-headquarters-cincinnati-raul-villar"],
+    "unsure": ["ground: Paychex bought Paycor in 2025 and said it would keep the naming deal; no rename found, so Paycor Stadium kept"]
   },
   {
     "team": "Cleveland Browns",
     "espnId": "5",
     "league": "football/nfl",
-    "aliases": ["cleveland", "browns", "cle", "brownies", "dawg pound"],
+    "region": "us-ohio",
+    "aliases": ["cleveland", "browns", "cle", "dawg pound"],
     "nickname": "the Browns",
     "fans": "the Dawg Pound",
     "ground": "Huntington Bank Field",
@@ -249,28 +357,43 @@
     "legends": ["Jim Brown", "Otto Graham", "Joe Thomas", "Bernie Kosar"],
     "memory": "The 1964 NFL Championship, the club's last league title",
     "lingo": [
-      {"term": "Dawg Pound", "say": "DAWG pownd", "means": "The fan base, and the bleacher section behind the east end zone. Fans bark."},
-      {"term": "Factory of Sadness", "say": "FAK-tor-ee uv SAD-ness", "means": "A dark-humor fan nickname for the stadium in losing years."},
-      {"term": "Brownies", "say": "BROW-neez", "means": "An affectionate nickname for the team."}
+      {"term": "Dawg Pound", "say": "DAWG pownd", "ipa": "ˈdɔɡ ˌpaʊnd", "tts": "", "means": "The fan base, and the bleacher section behind the east end zone. Fans bark."},
+      {"term": "Factory of Sadness", "say": "FAK-tor-ee uv SAD-ness", "ipa": "ˈfæktəɹi əv ˈsædnəs", "tts": "", "means": "A dark-humor fan nickname for the lakefront stadium in losing years."},
+      {"term": "the Muni Lot", "say": "the MYOO-nee lot", "ipa": "ðə ˈmjuni ˌlɑt", "tts": "the mew nee lot", "means": "The big municipal parking lot east of the stadium, famous for its tailgates."},
+      {"term": "Kardiac Kids", "say": "KAR-dee-ak KIDZ", "ipa": "ˈkɑɹdiˌæk ˈkɪdz", "tts": "", "means": "The 1980 team, known for nail-biting finishes."},
+      {"term": "Brownie the Elf", "say": "BROW-nee the ELF", "ipa": "ˈbɹaʊni ði ˈɛlf", "tts": "", "means": "The club's old elf mascot, back in favor with fans and painted at midfield."}
     ],
     "lines": [
-      {"t": "Woof woof!", "m": "Fans bark to show Dawg Pound loyalty."},
-      {"t": "Next year is our year.", "m": "The eternal, hopeful Browns refrain."},
-      {"t": "Beat Pittsburgh and I'm happy.", "m": "The Steelers are the rival that counts most."},
-      {"t": "Named after Paul Brown, not the color.", "m": "The club takes its name from founding coach Paul Brown."},
-      {"t": "Enjoy the lakefront while it lasts.", "m": "The team plans to move to a domed stadium in Brook Park around 2029."}
+      {"t": "Woof woof!", "m": "Fans bark to show Dawg Pound loyalty.", "when": "any"},
+      {"t": "Named after Paul Brown, not the color.", "m": "The club takes its name from founding coach Paul Brown.", "when": "any"},
+      {"t": "Enjoy the lakefront while it lasts.", "m": "The team plans to move to a domed stadium in Brook Park around 2029.", "when": "any"},
+      {"t": "See you in the Muni Lot.", "m": "How fans arrange to meet before a home game.", "when": "any"},
+      {"t": "The Dawg Pound was barking today.", "m": "Praise for a loud home crowd after a win.", "when": "win"},
+      {"t": "Next year is our year.", "m": "The eternal, hopeful Browns refrain after a loss.", "when": "loss"},
+      {"t": "Beat Pittsburgh and I'm happy.", "m": "The Steelers are the rival that counts most.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Barking", "means": "Fans in the Dawg Pound bark, wear dog masks and wave dog bones."},
+      {"name": "The plain orange helmet", "means": "The Browns are the only NFL team with no logo on the helmet, and fans like it that way."}
+    ],
+    "sore": [
+      {"topic": "The Drive and The Fumble", "why": "Denver knocked Cleveland out of the AFC title game in January 1987 and again in January 1988."},
+      {"topic": "The 1995 move", "why": "The owner moved the team to Baltimore; Cleveland went three seasons without football."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Ravens are the old Browns", "instead": "the Browns' history stayed in Cleveland", "why": "When the team moved in 1996, the name, colors and records stayed for the 1999 relaunch."},
-      {"say": "FirstEnergy Stadium", "instead": "Huntington Bank Field", "why": "The stadium took its current name in 2024."}
+      {"say": "FirstEnergy Stadium", "instead": "Huntington Bank Field", "why": "The stadium took its current name in 2024."},
+      {"say": "Go Steelers", "instead": "Go Browns", "why": "Pittsburgh is the enemy, just down the Turnpike."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Cleveland_Browns", "https://www.nfl.com/news/browns-break-ground-2-billion-domed-stadium-brook-park-2029"],
+    "sources": ["https://en.wikipedia.org/wiki/Cleveland_Browns", "https://en.wikipedia.org/wiki/Dawg_Pound", "https://en.wikipedia.org/wiki/Huntington_Bank_Field", "https://www.nfl.com/news/browns-break-ground-2-billion-domed-stadium-brook-park-2029"],
     "unsure": []
   },
   {
     "team": "Dallas Cowboys",
     "espnId": "6",
     "league": "football/nfl",
+    "region": "us-texas",
     "aliases": ["dallas", "cowboys", "dal", "america's team"],
     "nickname": "the Cowboys",
     "fans": "Cowboys Nation",
@@ -283,28 +406,43 @@
     "legends": ["Roger Staubach", "Troy Aikman", "Emmitt Smith", "Michael Irvin"],
     "memory": "Three Super Bowl wins in four seasons, from 1992 to 1995",
     "lingo": [
-      {"term": "America's Team", "say": "uh-MAIR-ih-kuz TEEM", "means": "The famous 1970s nickname. Fans embrace it; everyone else rolls their eyes."},
-      {"term": "Jerry World", "say": "JAIR-ee wurld", "means": "Nickname for AT&T Stadium, after owner Jerry Jones."},
-      {"term": "How 'bout them Cowboys!", "say": "HOW bowt them KOW-boyz", "means": "The famous 1990s victory shout by coach Jimmy Johnson."},
-      {"term": "Doomsday Defense", "say": "DOOMZ-day dee-FENS", "means": "Nickname for the great Cowboys defenses of the 1960s and 70s."}
+      {"term": "America's Team", "say": "uh-MAIR-ih-kuz TEEM", "ipa": "əˈmɛɹɪkəz ˈtim", "tts": "", "means": "The famous 1970s nickname. Fans embrace it; everyone else rolls their eyes."},
+      {"term": "Jerry World", "say": "JAIR-ee wurld", "ipa": "ˈdʒɛɹi ˈwɝld", "tts": "", "means": "Nickname for AT&T Stadium, after owner Jerry Jones."},
+      {"term": "How 'bout them Cowboys!", "say": "HOW bowt them KOW-boyz", "ipa": "ˈhaʊ ˈbaʊt ðɛm ˈkaʊbɔɪz", "tts": "", "means": "The famous 1990s victory shout by coach Jimmy Johnson."},
+      {"term": "Doomsday Defense", "say": "DOOMZ-day DEE-fense", "ipa": "ˈdumzˌdeɪ ˈdiˌfɛns", "tts": "", "means": "Nickname for the great Cowboys defenses of the 1960s and 70s."},
+      {"term": "the Triplets", "say": "the TRIP-lets", "ipa": "ðə ˈtɹɪpləts", "tts": "", "means": "Troy Aikman, Emmitt Smith and Michael Irvin, the stars of the 1990s title teams."},
+      {"term": "the Star", "say": "the STAR", "ipa": "ðə ˈstɑɹ", "tts": "", "means": "The blue star logo, and the team's headquarters in Frisco."}
     ],
     "lines": [
-      {"t": "How 'bout them Cowboys!", "m": "The classic victory shout."},
-      {"t": "Five rings, and we want number six.", "m": "Dallas has won five Super Bowls."},
-      {"t": "Nothing better than beating the Eagles.", "m": "Philadelphia is the rival fans most love to beat."},
-      {"t": "That star on the helmet means something.", "m": "Fans are proud of the famous blue star logo."}
+      {"t": "Five rings, and we want number six.", "m": "Dallas has won five Super Bowls.", "when": "any"},
+      {"t": "That star on the helmet means something.", "m": "Fans are proud of the famous blue star logo.", "when": "any"},
+      {"t": "We're still America's Team.", "m": "Fans' answer to anyone who doubts the team's pull.", "when": "any"},
+      {"t": "How 'bout them Cowboys!", "m": "The classic victory shout.", "when": "win"},
+      {"t": "This is the year. I mean it this time.", "m": "The hopeful refrain of a fan base waiting since the 1995 season.", "when": "loss"},
+      {"t": "Nothing better than beating the Eagles.", "m": "Philadelphia is the rival fans most love to beat.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Thanksgiving in Dallas", "means": "The Cowboys host a Thanksgiving Day game almost every year, a fixture of the holiday since 1966."},
+      {"name": "The cheerleaders", "means": "The Dallas Cowboys Cheerleaders are as famous as the team, and fans are proud of them."}
+    ],
+    "sore": [
+      {"topic": "No Super Bowl since 1996", "why": "Dallas hasn't been back to a Super Bowl since winning one in January 1996, and rivals love to point it out."},
+      {"topic": "January exits", "why": "Strong regular seasons keep ending in early playoff losses."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "they play in Dallas", "instead": "they play in Arlington", "why": "AT&T Stadium is in Arlington, between Dallas and Fort Worth."},
-      {"say": "Texas Stadium", "instead": "AT&T Stadium", "why": "The old stadium with the hole in the roof closed in 2008 and was demolished."}
+      {"say": "Texas Stadium", "instead": "AT&T Stadium", "why": "The old stadium with the hole in the roof closed in 2008 and was demolished."},
+      {"say": "Fly, Eagles, fly", "instead": "How 'bout them Cowboys", "why": "Philadelphia's fight song is the last thing to say in Dallas."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Dallas_Cowboys"],
+    "sources": ["https://en.wikipedia.org/wiki/Dallas_Cowboys", "https://en.wikipedia.org/wiki/AT%26T_Stadium", "https://en.wikipedia.org/wiki/Thanksgiving_Day_football", "https://en.wikipedia.org/wiki/Dallas_Cowboys_Cheerleaders"],
     "unsure": []
   },
   {
     "team": "Denver Broncos",
     "espnId": "7",
     "league": "football/nfl",
+    "region": "us-colorado",
     "aliases": ["denver", "broncos", "den", "broncos country"],
     "nickname": "the Broncos",
     "fans": "Broncos Country",
@@ -317,27 +455,44 @@
     "legends": ["John Elway", "Terrell Davis", "Steve Atwater", "Champ Bailey"],
     "memory": "Back-to-back Super Bowl wins after the 1997 and 1998 seasons, John Elway's farewell",
     "lingo": [
-      {"term": "Mile High", "say": "MYL HY", "means": "What fans call the stadium (Empower Field at Mile High), whatever the sponsor."},
-      {"term": "Orange Crush", "say": "OR-inj KRUSH", "means": "The famous late-1970s defense, and a nickname for the orange-clad crowd."},
-      {"term": "The Helicopter", "say": "the HEL-ih-kop-ter", "means": "Elway's spinning dive for a first down in Super Bowl XXXII."},
-      {"term": "In-com-plete!", "say": "in-kum-PLEET", "means": "The crowd call after an opponent's missed pass."}
+      {"term": "Mile High", "say": "MYL HY", "ipa": "ˈmaɪl ˈhaɪ", "tts": "", "means": "What fans call the stadium (Empower Field at Mile High), whatever the sponsor."},
+      {"term": "Broncos Country", "say": "BRONG-kohz KUN-tree", "ipa": "ˈbɹɑŋkoʊz ˈkʌntɹi", "tts": "", "means": "The fan base and the whole Rocky Mountain region that backs the team."},
+      {"term": "Orange Crush", "say": "OR-inj KRUSH", "ipa": "ˈɔɹɪndʒ ˈkɹʌʃ", "tts": "", "means": "The famous late-1970s defense, and a nickname for the orange-clad crowd."},
+      {"term": "the Helicopter", "say": "the HEL-ih-kop-ter", "ipa": "ðə ˈhɛlɪˌkɑptɚ", "tts": "", "means": "Elway's spinning dive for a first down in Super Bowl XXXII."},
+      {"term": "In-com-plete!", "say": "IN-kom-PLEET", "ipa": "ˌɪnˌkɑmˈplit", "tts": "", "means": "The crowd call, one syllable at a time, after an opponent's missed pass."},
+      {"term": "Thunder", "say": "THUN-der", "ipa": "ˈθʌndɚ", "tts": "", "means": "The live white horse that gallops down the field after Broncos touchdowns."},
+      {"term": "No-Fly Zone", "say": "noh-FLY zohn", "ipa": "ˌnoʊˈflaɪ ˌzoʊn", "tts": "", "means": "Nickname for the pass defense of the 2015 Super Bowl team."}
     ],
     "lines": [
-      {"t": "Visiting teams always run out of gas up here.", "m": "Fans believe Denver's thin air wears out visiting teams."},
-      {"t": "I'll never like the Raiders.", "m": "Las Vegas is the old enemy."},
-      {"t": "Elway is still the greatest Bronco.", "m": "Fans revere the quarterback who won two Super Bowls."},
-      {"t": "That Super Bowl 50 defense was something else.", "m": "Fans remember the dominant defense of the 2015 title team."}
+      {"t": "Broncos Country, let's ride!", "m": "The team's rallying cry before kickoff.", "when": "any"},
+      {"t": "Visiting teams always run out of gas up here.", "m": "Fans believe Denver's thin air wears out visiting teams.", "when": "any"},
+      {"t": "Elway is still the greatest Bronco.", "m": "Fans revere the quarterback who won two Super Bowls.", "when": "any"},
+      {"t": "That Super Bowl 50 defense was something else.", "m": "Fans remember the dominant defense of the 2015 title team.", "when": "any"},
+      {"t": "Thunder got a workout today.", "m": "Lots of touchdowns means lots of runs for the horse.", "when": "win"},
+      {"t": "I'll never like the Raiders.", "m": "Las Vegas is the old enemy.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Thunder's run", "means": "After every Broncos touchdown, a rider gallops Thunder down the field."},
+      {"name": "The incomplete call", "means": "After an opponent's missed pass, the crowd booms 'in-com-plete' along with the announcer."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl XLVIII", "why": "Seattle beat Denver 43-8 in February 2014."},
+      {"topic": "The 1980s Super Bowls", "why": "Denver lost three Super Bowls in four seasons, all by big margins."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "Invesco Field", "instead": "Mile High", "why": "The stadium has had several sponsor names; fans just say Mile High."}
+      {"say": "Invesco Field", "instead": "Mile High", "why": "The stadium has had several sponsor names; fans just say Mile High."},
+      {"say": "Empower Field", "instead": "Mile High", "why": "Using only the sponsor's name marks you as an outsider."},
+      {"say": "Chiefs Kingdom", "instead": "Broncos Country", "why": "That's Kansas City's fan base, a bitter division rival."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Denver_Broncos"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Denver_Broncos", "https://en.wikipedia.org/wiki/Empower_Field_at_Mile_High", "https://en.wikipedia.org/wiki/Orange_Crush_Defense", "https://www.denverbroncos.com/"],
+    "unsure": ["lingo: the 'In-com-plete' crowd call and 'Broncos Country, let's ride' are from memory and the team's own use; not re-checked against a second source"]
   },
   {
     "team": "Detroit Lions",
     "espnId": "8",
     "league": "football/nfl",
+    "region": "us-detroit",
     "aliases": ["detroit", "lions", "det", "honolulu blue"],
     "nickname": "the Lions",
     "fans": "",
@@ -350,28 +505,43 @@
     "legends": ["Barry Sanders", "Calvin Johnson", "Lem Barney", "Joe Schmidt"],
     "memory": "Ending a 32-year wait for a playoff win in January 2024",
     "lingo": [
-      {"term": "One Pride", "say": "WUN PRYD", "means": "The team's slogan for the whole fan base."},
-      {"term": "Honolulu Blue", "say": "hon-uh-LOO-loo BLOO", "means": "The team's signature shade of blue."},
-      {"term": "Megatron", "say": "MEG-uh-tron", "means": "Calvin Johnson's nickname."},
-      {"term": "Same Old Lions", "say": "SAYM OHLD LY-unz", "means": "The old fan lament in losing years."}
+      {"term": "One Pride", "say": "WUN PRYD", "ipa": "ˈwʌn ˈpɹaɪd", "tts": "", "means": "The team's slogan for the whole fan base."},
+      {"term": "Honolulu Blue", "say": "hon-uh-LOO-loo BLOO", "ipa": "ˌhɑnəˈlulu ˈblu", "tts": "", "means": "The team's signature shade of blue."},
+      {"term": "Megatron", "say": "MEG-uh-tron", "ipa": "ˈmɛɡəˌtɹɑn", "tts": "", "means": "Calvin Johnson's nickname."},
+      {"term": "Same Old Lions", "say": "SAYM OHLD LY-unz", "ipa": "ˈseɪm ˈoʊld ˈlaɪənz", "tts": "", "means": "The old fan lament in losing years, often shortened to SOL."},
+      {"term": "the Curse of Bobby Layne", "say": "the KURS uv BOB-ee LAYN", "ipa": "ðə ˈkɝs əv ˈbɑbi ˈleɪn", "tts": "", "means": "Local legend that quarterback Bobby Layne cursed the team for 50 years when he was traded in 1958."},
+      {"term": "Roary", "say": "ROR-ee", "ipa": "ˈɹɔɹi", "tts": "", "means": "The lion mascot."}
     ],
     "lines": [
-      {"t": "Thanksgiving means Lions football.", "m": "Detroit has hosted a Thanksgiving Day game almost every year since 1934."},
-      {"t": "Barry Sanders was magic.", "m": "Fans revere the elusive 1990s running back."},
-      {"t": "Beat the Packers and it's a good week.", "m": "Green Bay is the division rival fans most enjoy beating."},
-      {"t": "We waited forever for this. Let us enjoy it.", "m": "Fans' feeling after decades of losing ended in the 2020s."}
+      {"t": "Thanksgiving means Lions football.", "m": "Detroit has hosted a Thanksgiving Day game almost every year since 1934.", "when": "any"},
+      {"t": "Barry Sanders was magic.", "m": "Fans revere the elusive 1990s running back.", "when": "any"},
+      {"t": "One Pride!", "m": "The team slogan, used as a cheer and a sign-off.", "when": "any"},
+      {"t": "We waited forever for this. Let us enjoy it.", "m": "Fans' feeling after decades of losing ended in the 2020s.", "when": "win"},
+      {"t": "Same old Lions.", "m": "The old groan after a painful loss. Only fans get to say it.", "when": "loss"},
+      {"t": "Beat the Packers and it's a good week.", "m": "Green Bay is the division rival fans most enjoy beating.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Thanksgiving Day game", "means": "The Lions play at home on Thanksgiving every year, a family ritual across Michigan."},
+      {"name": "Honolulu Blue", "means": "Fans wear the bright blue to Ford Field, and the city lights up in it for big games."}
+    ],
+    "sore": [
+      {"topic": "No Super Bowl trip", "why": "Detroit is one of the few teams never to reach a Super Bowl."},
+      {"topic": "0-16", "why": "The 2008 team lost every game, the first 0-16 season in NFL history."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "The Lions have never won anything", "instead": "they won four NFL titles before the Super Bowl era", "why": "Detroit won titles in 1935, 1952, 1953 and 1957."},
-      {"say": "the Silverdome", "instead": "Ford Field", "why": "The Lions moved downtown to Ford Field in 2002."}
+      {"say": "the Silverdome", "instead": "Ford Field", "why": "The Lions moved downtown to Ford Field in 2002."},
+      {"say": "Same old Lions", "instead": "let a fan say it first", "why": "Fans use the phrase about their own team; from an outsider it stings."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Detroit_Lions"],
+    "sources": ["https://en.wikipedia.org/wiki/Detroit_Lions", "https://en.wikipedia.org/wiki/Ford_Field", "https://en.wikipedia.org/wiki/Bobby_Layne", "https://en.wikipedia.org/wiki/2008_Detroit_Lions_season"],
     "unsure": []
   },
   {
     "team": "Green Bay Packers",
     "espnId": "9",
     "league": "football/nfl",
+    "region": "us-wisconsin",
     "aliases": ["green bay", "packers", "pack", "gb"],
     "nickname": "the Pack",
     "fans": "Cheeseheads",
@@ -384,29 +554,48 @@
     "legends": ["Bart Starr", "Brett Favre", "Reggie White", "Ray Nitschke"],
     "memory": "The Ice Bowl: beating Dallas at a frozen Lambeau in the 1967 NFL Championship",
     "lingo": [
-      {"term": "Cheesehead", "say": "CHEEZ-hed", "means": "A Packers fan, often in the foam cheese-wedge hat."},
-      {"term": "Lambeau Leap", "say": "LAM-bo LEEP", "means": "A player's jump into the end-zone crowd after a touchdown."},
-      {"term": "Titletown", "say": "TY-tul-town", "means": "Green Bay's nickname, for its record haul of league titles."},
-      {"term": "the Frozen Tundra", "say": "FROH-zen TUN-druh", "means": "Lambeau Field in deep winter."}
+      {"term": "Cheesehead", "say": "CHEEZ-hed", "ipa": "ˈtʃizˌhɛd", "tts": "", "means": "A Packers fan, often in the foam cheese-wedge hat."},
+      {"term": "Lambeau Leap", "say": "LAM-bo LEEP", "ipa": "ˈlæmboʊ ˈlip", "tts": "", "means": "A player's jump into the end-zone crowd after a touchdown."},
+      {"term": "Titletown", "say": "TY-tul-town", "ipa": "ˈtaɪtəlˌtaʊn", "tts": "", "means": "Green Bay's nickname, for its record haul of league titles."},
+      {"term": "the Frozen Tundra", "say": "FROH-zen TUN-druh", "ipa": "ðə ˈfɹoʊzən ˈtʌndɹə", "tts": "", "means": "Lambeau Field in deep winter."},
+      {"term": "Packer Backer", "say": "PAK-er BAK-er", "ipa": "ˈpækɚ ˈbækɚ", "tts": "", "means": "A loyal Packers fan."},
+      {"term": "the Pack", "say": "the PAK", "ipa": "ðə ˈpæk", "tts": "", "means": "The everyday short name for the team."}
     ],
     "lines": [
-      {"t": "Go Pack Go!", "m": "The standard Packers cheer."},
-      {"t": "We own the team, you know.", "m": "The Packers are owned by thousands of fan shareholders."},
-      {"t": "Thirteen titles. Nobody else is close.", "m": "Green Bay has the most NFL championships, counting the pre-Super Bowl era."},
-      {"t": "Beat the Bears, everything else is a bonus.", "m": "Chicago is the oldest rival."}
+      {"t": "Go Pack Go!", "m": "The standard Packers cheer.", "when": "any"},
+      {"t": "We own the team, you know.", "m": "The Packers are owned by thousands of fan shareholders.", "when": "any"},
+      {"t": "Thirteen titles. Nobody else is close.", "m": "Green Bay has the most NFL championships, counting the pre-Super Bowl era.", "when": "any"},
+      {"t": "Nothing like a December game at Lambeau.", "m": "Fans love the cold and snow at home.", "when": "any"},
+      {"t": "The Pack is back!", "m": "The classic shout after a big win.", "when": "win"},
+      {"t": "Beat the Bears, everything else is a bonus.", "m": "Chicago is the oldest rival.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Lambeau Leap", "means": "Players jump into the stands after touchdowns, and fans in the front rows hope to catch one."},
+      {"name": "Bikes at training camp", "means": "Each summer, kids lend their bikes to players for the ride from the locker room to practice."},
+      {"name": "Shareholders", "means": "Fans buy shares that pay no dividends and can't be resold, just to own a piece of the team."}
+    ],
+    "sore": [
+      {"topic": "The 2015 NFC title game", "why": "Green Bay led at Seattle late and lost in overtime in January 2015."},
+      {"topic": "Favre in purple", "why": "Brett Favre's later years with the rival Vikings still annoy some fans."}
+    ],
+    "pronounce": [
+      {"word": "Lambeau", "say": "LAM-bo", "ipa": "ˈlæmboʊ", "tts": "", "why": "Stress the first syllable, like 'lamb-oh'. It's named for founder Curly Lambeau."},
+      {"word": "Nitschke", "say": "NITCH-kee", "ipa": "ˈnɪtʃki", "tts": "nitch key", "why": "The great linebacker Ray Nitschke. The 'sch' is a 'ch' sound."}
     ],
     "avoid": [
-      {"say": "lam-BOH", "instead": "LAM-bo", "why": "Lambeau is said like 'lamb-oh', after founder Curly Lambeau."},
-      {"say": "the Milwaukee Packers", "instead": "the Green Bay Packers", "why": "Green Bay is a small city of its own; Milwaukee only hosted some games until 1994."}
+      {"say": "lam-BOH", "instead": "LAM-bo", "why": "Locals stress the first syllable."},
+      {"say": "the Milwaukee Packers", "instead": "the Green Bay Packers", "why": "Green Bay is a small city of its own; Milwaukee only hosted some games until 1994."},
+      {"say": "Lambeau Stadium", "instead": "Lambeau Field", "why": "It has always been a field, and fans just say Lambeau."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Green_Bay_Packers"],
+    "sources": ["https://en.wikipedia.org/wiki/Green_Bay_Packers", "https://en.wikipedia.org/wiki/Lambeau_Field", "https://en.wikipedia.org/wiki/Lambeau_Leap", "https://en.wikipedia.org/wiki/Cheesehead"],
     "unsure": []
   },
   {
     "team": "Houston Texans",
     "espnId": "34",
     "league": "football/nfl",
-    "aliases": ["houston", "texans", "hou", "h-town"],
+    "region": "us-texas",
+    "aliases": ["houston", "texans", "hou"],
     "nickname": "the Texans",
     "fans": "",
     "ground": "Reliant Stadium",
@@ -418,27 +607,42 @@
     "legends": ["Andre Johnson", "J.J. Watt", "Arian Foster"],
     "memory": "Beating Dallas in the club's very first game, September 2002",
     "lingo": [
-      {"term": "Battle Red", "say": "BAT-ul RED", "means": "The team's red, and Battle Red Day, when team and fans go all-red."},
-      {"term": "Bulls on Parade", "say": "BULLZ on puh-RAYD", "means": "A defensive nickname, after the Rage Against the Machine song played at home games."},
-      {"term": "Toro", "say": "TOR-oh", "means": "The bull mascot."}
+      {"term": "Battle Red", "say": "BAT-ul RED", "ipa": "ˈbætəl ˈɹɛd", "tts": "", "means": "The team's red, and Battle Red Day, when team and fans go all-red."},
+      {"term": "Bulls on Parade", "say": "BULLZ on puh-RAYD", "ipa": "ˈbʊlz ɑn pəˈɹeɪd", "tts": "", "means": "A nickname for the defense, from the rock track played at home games."},
+      {"term": "Toro", "say": "TOR-oh", "ipa": "ˈtɔɹoʊ", "tts": "", "means": "The bull mascot, known for his stunts."},
+      {"term": "Deep Steel Blue", "say": "DEEP STEEL BLOO", "ipa": "ˈdip ˈstil ˈblu", "tts": "", "means": "The team's main color, and the name fans use for it."},
+      {"term": "the Reliant", "say": "the ree-LY-unt", "ipa": "ðə ɹɪˈlaɪənt", "tts": "", "means": "Short for Reliant Stadium, the original name that came back in August 2026."}
     ],
     "lines": [
-      {"t": "Battle Red Day is the best day of the season.", "m": "Fans dress in red for the team's all-red home game."},
-      {"t": "Good to have the Reliant name back.", "m": "The stadium returned to its original name in August 2026."},
-      {"t": "Titans week, let's go.", "m": "Tennessee carries extra edge: they used to be Houston's team, the Oilers."},
-      {"t": "Andre Johnson is the original Texans great.", "m": "Fans revere the receiver from the club's early years."}
+      {"t": "Battle Red Day is the best day of the season.", "m": "Fans dress in red for the team's all-red home game.", "when": "any"},
+      {"t": "Good to have the Reliant name back.", "m": "The stadium returned to its original name in August 2026, for the team's 25th season.", "when": "any"},
+      {"t": "Andre Johnson is the original Texans great.", "m": "Fans revere the receiver from the club's early years.", "when": "any"},
+      {"t": "J.J. Watt gave everything to this city.", "m": "Fans adore the retired defensive end.", "when": "any"},
+      {"t": "Bulls on parade!", "m": "Shouted after a big defensive stop or a win built on defense.", "when": "win"},
+      {"t": "Titans week, let's go.", "m": "Tennessee carries extra edge: they used to be Houston's team, the Oilers.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Battle Red Day", "means": "For certain home games the team wears all red and fans are asked to match."},
+      {"name": "'Bulls on Parade'", "means": "The Rage Against the Machine track blasts in the stadium on big defensive downs."}
+    ],
+    "sore": [
+      {"topic": "The divisional round", "why": "Houston has never reached an AFC Championship game."},
+      {"topic": "The Oilers leaving", "why": "Older Houstonians still resent the Oilers' move to Tennessee in 1997."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Houston Oilers", "instead": "the Texans", "why": "The Oilers left for Tennessee in 1997 and became the Titans; the Texans began in 2002."},
-      {"say": "NRG Stadium", "instead": "Reliant Stadium", "why": "The stadium went back to its original Reliant name in August 2026."}
+      {"say": "NRG Stadium", "instead": "Reliant Stadium", "why": "The stadium went back to its original Reliant name in August 2026."},
+      {"say": "the Astrodome", "instead": "Reliant Stadium", "why": "The Astrodome is the empty old dome next door; the Texans have never played there."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Houston_Texans", "https://abc13.com/post/nrg-stadium-home-houston-texans-rodeo-renamed-reliant-august-2026-company-announces/18893525/"],
+    "sources": ["https://en.wikipedia.org/wiki/Houston_Texans", "https://abc13.com/post/nrg-stadium-home-houston-texans-rodeo-renamed-reliant-august-2026-company-announces/18893525/", "https://www.click2houston.com/sports/2026/04/15/back-to-reliant-stadium-home-of-the-texans-shifting-to-original-name-in-25th-season/", "https://www.si.com/nfl/texans/onsi/houston-texans-home-stadium-gets-a-familiar-new-name", "https://www.click2houston.com/sports/2026/04/15/back-to-reliant-stadium-home-of-the-texans-shifting-to-original-name-in-25th-season/"],
     "unsure": []
   },
   {
     "team": "Indianapolis Colts",
     "espnId": "11",
     "league": "football/nfl",
+    "region": "us-indiana",
     "aliases": ["indianapolis", "indy", "colts", "ind"],
     "nickname": "the Colts",
     "fans": "",
@@ -451,26 +655,42 @@
     "legends": ["Peyton Manning", "Johnny Unitas", "Marvin Harrison", "Edgerrin James"],
     "memory": "Winning Super Bowl XLI over the Bears in the Miami rain, February 2007",
     "lingo": [
-      {"term": "the Horseshoe", "say": "the HORS-shoo", "means": "The team logo, and a nickname for the club."},
-      {"term": "Indy", "say": "IN-dee", "means": "Indianapolis, as locals say it."},
-      {"term": "the House That Peyton Built", "say": "HOWS that PAY-tun BILT", "means": "Nickname for Lucas Oil Stadium, credited to Peyton Manning's era."}
+      {"term": "the Horseshoe", "say": "the HORS-shoo", "ipa": "ðə ˈhɔɹsˌʃu", "tts": "", "means": "The team logo, and a nickname for the club. 'The Shoe' for short."},
+      {"term": "the House That Peyton Built", "say": "HOWS that PAY-tun BILT", "ipa": "ðə ˈhaʊs ðæt ˈpeɪtən ˈbɪlt", "tts": "", "means": "Nickname for Lucas Oil Stadium, credited to Peyton Manning's era."},
+      {"term": "Omaha", "say": "OH-muh-hah", "ipa": "ˈoʊməˌhɑ", "tts": "", "means": "Peyton Manning's famous shout at the line before the snap. Fans still yell it."},
+      {"term": "Blue", "say": "BLOO", "ipa": "ˈblu", "tts": "", "means": "The team's horse mascot, a famous prankster."},
+      {"term": "the Mayflower move", "say": "the MAY-flow-er MOOV", "ipa": "ðə ˈmeɪˌflaʊɚ ˈmuv", "tts": "", "means": "The night in March 1984 when moving vans took the team from Baltimore to Indianapolis."}
     ],
     "lines": [
-      {"t": "Peyton built this place.", "m": "Fans credit Peyton Manning's era for the stadium and the team's popularity."},
-      {"t": "Brady versus Manning was the best rivalry in football.", "m": "Fans remember the 2000s battles with New England."},
-      {"t": "Indiana's a basketball state, but Sundays belong to the Colts.", "m": "Local pride in both sports."}
+      {"t": "Peyton built this place.", "m": "Fans credit Peyton Manning's era for the stadium and the team's popularity.", "when": "any"},
+      {"t": "Indiana's a basketball state, but Sundays belong to the Colts.", "m": "Local pride in both sports.", "when": "any"},
+      {"t": "Omaha! Omaha!", "m": "Fans shout Manning's old line-of-scrimmage call for fun.", "when": "any"},
+      {"t": "Two great quarterbacks wore the Horseshoe: Unitas and Manning.", "m": "Fans claim both eras, Baltimore and Indy.", "when": "any"},
+      {"t": "Lucas Oil was rocking today.", "m": "Praise for a loud home crowd after a win.", "when": "win"},
+      {"t": "Brady versus Manning was the best rivalry in football.", "m": "Fans remember the 2000s battles with New England.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Blue's pranks", "means": "The mascot is known for silly stunts on fans and visiting players during games."},
+      {"name": "Super Bowl in the rain", "means": "Fans still talk about Super Bowl XLI, won in a downpour in Miami in 2007."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl XLIV", "why": "The Colts lost to New Orleans in February 2010, three years after their title."},
+      {"topic": "Andrew Luck's retirement", "why": "The star quarterback quit suddenly at 29 in August 2019, and some fans booed him as he left."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "Unitas played in Indianapolis", "instead": "Unitas was a Baltimore Colt", "why": "The Colts moved from Baltimore in 1984, long after Unitas retired."},
-      {"say": "the RCA Dome", "instead": "Lucas Oil Stadium", "why": "The Colts left the RCA Dome in 2008."}
+      {"say": "the RCA Dome", "instead": "Lucas Oil Stadium", "why": "The Colts left the RCA Dome in 2008."},
+      {"say": "Peyton won both his rings in Indy", "instead": "one in Indy, one in Denver", "why": "Manning's second Super Bowl came with the Broncos."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Indianapolis_Colts"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Indianapolis_Colts", "https://en.wikipedia.org/wiki/Lucas_Oil_Stadium", "https://en.wikipedia.org/wiki/Blue_(mascot)", "https://en.wikipedia.org/wiki/Super_Bowl_XLI"],
+    "unsure": ["lingo: no fan-base nickname found, so 'fans' left empty"]
   },
   {
     "team": "Jacksonville Jaguars",
     "espnId": "30",
     "league": "football/nfl",
+    "region": "us-florida",
     "aliases": ["jacksonville", "jaguars", "jags", "jax", "duval"],
     "nickname": "the Jags",
     "fans": "",
@@ -483,26 +703,42 @@
     "legends": ["Tony Boselli", "Fred Taylor", "Jimmy Smith", "Maurice Jones-Drew"],
     "memory": "The January 1997 playoff upset at Denver, in only the club's second season",
     "lingo": [
-      {"term": "Duval", "say": "DOO-vul", "means": "Jacksonville's county, and the fans' battle cry, stretched out as 'DUUUVAL'."},
-      {"term": "Sacksonville", "say": "SAKS-un-vil", "means": "Nickname for the 2017 pass-rushing defense."},
-      {"term": "Jags", "say": "JAGZ", "means": "Short for Jaguars."}
+      {"term": "Duval", "say": "DOO-vul", "ipa": "ˈduvəl", "tts": "doo vul", "means": "Jacksonville's county, and the fans' battle cry, stretched out as 'DUUUVAL'."},
+      {"term": "Sacksonville", "say": "SAKS-un-vil", "ipa": "ˈsæksənˌvɪl", "tts": "", "means": "Nickname for the 2017 pass-rushing defense."},
+      {"term": "Jags", "say": "JAGZ", "ipa": "ˈdʒæɡz", "tts": "", "means": "Short for Jaguars."},
+      {"term": "Jaxson de Ville", "say": "JAK-sun duh VIL", "ipa": "ˈdʒæksən də ˈvɪl", "tts": "jackson duh vill", "means": "The jaguar mascot, known for bungee jumps and zip lines from the stadium roof."},
+      {"term": "the pools", "say": "the POOLZ", "ipa": "ðə ˈpulz", "tts": "", "means": "The swimming pools on the stadium's party deck, a Jacksonville one-off."}
     ],
     "lines": [
-      {"t": "DUUUVAL!", "m": "The all-purpose Jaguars cheer. Stretch the middle as long as you can."},
-      {"t": "London's our second home.", "m": "The Jaguars play in London most years, including two games in 2026."},
-      {"t": "Stadium's half rebuilt, we're still loud.", "m": "EverBank Stadium is being renovated, with fewer seats in 2026 and a year in Orlando in 2027."},
-      {"t": "Boselli was the best left tackle of his time.", "m": "Fans revere the club's first Hall of Famer."}
+      {"t": "DUUUVAL!", "m": "The all-purpose Jaguars cheer. Stretch the middle as long as you can.", "when": "any"},
+      {"t": "London's our second home.", "m": "The Jaguars have played in London most years since 2013.", "when": "any"},
+      {"t": "Stadium's half rebuilt, we're still loud.", "m": "EverBank Stadium is being rebuilt, with fewer seats in 2026 and a year in Orlando in 2027.", "when": "any"},
+      {"t": "Boselli was the best left tackle of his time.", "m": "Fans revere the club's first Hall of Famer.", "when": "any"},
+      {"t": "Sacksonville is back!", "m": "Said after the defense piles up sacks in a win.", "when": "win"},
+      {"t": "Titans week. Let's go.", "m": "Tennessee is the division rival with the most history.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Duval call", "means": "The stadium announcer shouts 'Duval' and the crowd roars it back, dragging out the middle."},
+      {"name": "Pool seats", "means": "Fans can watch from the swimming pools in the stands. They'll be part of the rebuilt stadium too."}
+    ],
+    "sore": [
+      {"topic": "The 2018 AFC title game", "why": "The Jaguars led at New England in the fourth quarter and lost, one step from a Super Bowl."},
+      {"topic": "Moving rumors", "why": "Talk of the team moving to London has dogged it for years. The stadium deal signed in 2024 keeps them home for 30 years."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "TIAA Bank Field", "instead": "EverBank Stadium", "why": "The stadium took the EverBank name in 2023."}
+      {"say": "TIAA Bank Field", "instead": "EverBank Stadium", "why": "The stadium took the EverBank name in 2023."},
+      {"say": "the London Jaguars", "instead": "the Jacksonville Jaguars", "why": "They play a game or two in London, but Jacksonville is home, and fans bristle at the joke."},
+      {"say": "doo-VAL", "instead": "DOO-vul", "why": "Locals stress the first syllable."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Jacksonville_Jaguars", "https://www.jaguars.com/news/jaguars-provide-2026-stadium-and-ticketing-updates"],
+    "sources": ["https://en.wikipedia.org/wiki/Jacksonville_Jaguars", "https://en.wikipedia.org/wiki/EverBank_Stadium", "https://www.nfl.com/news/jaguars-everbank-stadium-renovation-2026-season", "https://www.tsn.ca/nfl/article/jaguars-okd-to-play-27-home-games-in-orlando-during-renovations-n1-48360475/", "https://www.jaguars.com/news/jaguars-provide-2026-stadium-and-ticketing-updates"],
     "unsure": []
   },
   {
     "team": "Kansas City Chiefs",
     "espnId": "12",
     "league": "football/nfl",
+    "region": "us-missouri",
     "aliases": ["kansas city", "chiefs", "kc", "chiefs kingdom"],
     "nickname": "the Chiefs",
     "fans": "Chiefs Kingdom",
@@ -515,27 +751,44 @@
     "legends": ["Len Dawson", "Derrick Thomas", "Tony Gonzalez", "Bobby Bell"],
     "memory": "Ending a 50-year title wait by winning Super Bowl LIV in February 2020",
     "lingo": [
-      {"term": "Chiefs Kingdom", "say": "CHEEFS KING-dum", "means": "The fan base's name for itself."},
-      {"term": "Red Friday", "say": "RED FRY-day", "means": "Kansas City's habit of wearing red on the Friday before games."},
-      {"term": "Sea of Red", "say": "SEE uv RED", "means": "Arrowhead packed with fans in red."}
+      {"term": "Chiefs Kingdom", "say": "CHEEFS KING-dum", "ipa": "ˈtʃifs ˈkɪŋdəm", "tts": "", "means": "The fan base's name for itself."},
+      {"term": "Red Friday", "say": "RED FRY-day", "ipa": "ˈɹɛd ˈfɹaɪdeɪ", "tts": "", "means": "Kansas City's habit of wearing red on the Friday before games."},
+      {"term": "Sea of Red", "say": "SEE uv RED", "ipa": "ˈsi əv ˈɹɛd", "tts": "", "means": "Arrowhead packed with fans in red."},
+      {"term": "KC Wolf", "say": "KAY-see WULF", "ipa": "ˈkeɪ ˈsi ˈwʊlf", "tts": "", "means": "The wolf mascot, named after the old 'Wolfpack' fans of the 1980s."},
+      {"term": "Lenny the Cool", "say": "LEN-ee the KOOL", "ipa": "ˈlɛni ðə ˈkul", "tts": "", "means": "Hall of Fame quarterback Len Dawson, who won Super Bowl IV."},
+      {"term": "keep matriculating the ball", "say": "keep muh-TRIK-yoo-lay-ting the BALL", "ipa": "ˈkip məˈtɹɪkjəˌleɪtɪŋ ðə ˈbɔl", "tts": "", "means": "Coach Hank Stram's famous sideline line from Super Bowl IV. Fans quote it when a drive is going well."}
     ],
     "lines": [
-      {"t": "Loudest stadium in the world.", "m": "Arrowhead set a Guinness crowd-noise record in 2014."},
-      {"t": "Barbecue in the lot, then the game.", "m": "Arrowhead tailgates are famous for Kansas City barbecue."},
-      {"t": "Raiders week is still the big one.", "m": "The old AFL rivalry matters most to longtime fans."},
-      {"t": "Enjoy Arrowhead while we've got it.", "m": "The team plans to move to a new domed stadium in Kansas around 2031."}
+      {"t": "Happy Red Friday!", "m": "Said on Fridays before games, when the city dresses in red.", "when": "any"},
+      {"t": "Loudest stadium in the world.", "m": "Arrowhead set a Guinness crowd-noise record in 2014.", "when": "any"},
+      {"t": "Barbecue in the lot, then the game.", "m": "Arrowhead tailgates are famous for Kansas City barbecue.", "when": "any"},
+      {"t": "Enjoy Arrowhead while we've got it.", "m": "The team plans to move to a new domed stadium in Kansas City, Kansas, around 2031.", "when": "any"},
+      {"t": "Keep matriculating the ball down the field!", "m": "Hank Stram's old line, quoted for fun during a long scoring drive or after a win.", "when": "win"},
+      {"t": "Raiders week is still the big one.", "m": "The old AFL rivalry matters most to longtime fans.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Red Friday", "means": "Offices, schools and shops across the metro wear red before game days."},
+      {"name": "Arrowhead tailgates", "means": "The lots fill hours early with smokers and grills, and the barbecue is part of the day."},
+      {"name": "The noise record", "means": "Fans set a Guinness record for crowd noise at Arrowhead in 2014 and still try to top it."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl LIX", "why": "Philadelphia routed Kansas City in February 2025, ending hopes of three titles in a row."},
+      {"topic": "Super Bowl LV", "why": "Tampa Bay beat the Chiefs easily in February 2021."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Chiefs are from Kansas", "instead": "Arrowhead is in Kansas City, Missouri", "why": "The team plays on the Missouri side of the state line, at least until its planned move."},
-      {"say": "GEHA Field", "instead": "Arrowhead", "why": "The sponsor name was dropped for the 2026 season."}
+      {"say": "GEHA Field", "instead": "Arrowhead", "why": "The sponsor name was dropped for the 2026 season."},
+      {"say": "Go Raiders", "instead": "Go Chiefs", "why": "The Raiders are the oldest and bitterest rival."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Kansas_City_Chiefs", "https://bleacherreport.com/articles/25461827-chiefs-reveal-name-change-arrowhead-stadium-ahead-2026-nfl-season"],
+    "sources": ["https://en.wikipedia.org/wiki/Kansas_City_Chiefs", "https://en.wikipedia.org/wiki/Arrowhead_Stadium", "https://bleacherreport.com/articles/25461827-chiefs-reveal-name-change-arrowhead-stadium-ahead-2026-nfl-season", "https://en.wikipedia.org/wiki/Super_Bowl_IV"],
     "unsure": []
   },
   {
     "team": "Las Vegas Raiders",
     "espnId": "13",
     "league": "football/nfl",
+    "region": "us-las-vegas",
     "aliases": ["las vegas", "vegas", "raiders", "lv", "raider nation"],
     "nickname": "the Raiders",
     "fans": "Raider Nation",
@@ -548,28 +801,43 @@
     "legends": ["Marcus Allen", "Tim Brown", "Howie Long", "Charles Woodson"],
     "memory": "Winning Super Bowl XI in January 1977 under coach John Madden",
     "lingo": [
-      {"term": "Raider Nation", "say": "RAY-der NAY-shun", "means": "The fan base, famous for costumes and loyalty through three cities."},
-      {"term": "Silver and Black", "say": "SIL-ver un BLAK", "means": "The team's colors, also used as a nickname."},
-      {"term": "the Black Hole", "say": "the BLAK HOHL", "means": "The costumed superfan section that began in Oakland."},
-      {"term": "the Death Star", "say": "the DETH STAR", "means": "Nickname for Allegiant Stadium, for its sleek black dome."}
+      {"term": "Raider Nation", "say": "RAY-der NAY-shun", "ipa": "ˈɹeɪdɚ ˈneɪʃən", "tts": "", "means": "The fan base, famous for costumes and loyalty through three cities."},
+      {"term": "Silver and Black", "say": "SIL-ver un BLAK", "ipa": "ˈsɪlvɚ ən ˈblæk", "tts": "", "means": "The team's colors, also used as a nickname."},
+      {"term": "the Black Hole", "say": "the BLAK HOHL", "ipa": "ðə ˈblæk ˈhoʊl", "tts": "", "means": "The costumed superfan section that began in Oakland."},
+      {"term": "Commitment to Excellence", "say": "kuh-MIT-ment tuh EK-suh-lens", "ipa": "kəˈmɪtmənt tə ˈɛksələns", "tts": "", "means": "One of Al Davis's mottos, still on the team's banners."},
+      {"term": "the Snake", "say": "the SNAYK", "ipa": "ðə ˈsneɪk", "tts": "", "means": "Quarterback Ken Stabler, leader of the 1970s teams."},
+      {"term": "the Holy Roller", "say": "the HOH-lee ROH-ler", "ipa": "ðə ˈhoʊli ˈɹoʊlɚ", "tts": "", "means": "A 1978 last-play fumble that rolled into the end zone for a Raiders win at San Diego."}
     ],
     "lines": [
-      {"t": "Just win, baby.", "m": "The famous motto of longtime owner Al Davis."},
-      {"t": "Once a Raider, always a Raider.", "m": "Fans' loyalty slogan through Oakland, LA and Vegas."},
-      {"t": "Raider Nation travels.", "m": "Raiders fans take over road games."},
-      {"t": "Chiefs week. Wear black.", "m": "Kansas City is the bitterest rival."}
+      {"t": "Just win, baby.", "m": "The famous motto of longtime owner Al Davis.", "when": "any"},
+      {"t": "Once a Raider, always a Raider.", "m": "Fans' loyalty slogan through Oakland, LA and Vegas.", "when": "any"},
+      {"t": "Raider Nation travels.", "m": "Raiders fans take over road games.", "when": "any"},
+      {"t": "Silver and Black, baby!", "m": "A shout after a win.", "when": "win"},
+      {"t": "The Tuck Rule still makes me mad.", "m": "Fans never got over the 2002 playoff loss in the snow at New England.", "when": "loss"},
+      {"t": "Chiefs week. Wear black.", "m": "Kansas City is the bitterest rival.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Black Hole", "means": "Fans dress in spikes, skulls and face paint for home games, a style carried from Oakland to Las Vegas."},
+      {"name": "The Al Davis torch", "means": "Before kickoff a guest lights the giant torch inside Allegiant Stadium, in honor of the longtime owner."}
+    ],
+    "sore": [
+      {"topic": "The Tuck Rule", "why": "A fumble was ruled an incomplete pass in the January 2002 playoffs, and New England went on to win."},
+      {"topic": "The Immaculate Reception", "why": "Raiders fans still say the 1972 Steelers catch shouldn't have counted."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Oakland Raiders", "instead": "the Las Vegas Raiders", "why": "The team moved to Las Vegas in 2020."},
-      {"say": "The Immaculate Reception was a great play", "instead": "don't bring it up", "why": "Raiders fans still say that 1972 Steelers catch shouldn't have counted."}
+      {"say": "The Immaculate Reception was a great play", "instead": "don't bring it up", "why": "Raiders fans think it was illegal."},
+      {"say": "the stadium on the Strip", "instead": "Allegiant, just west of the Strip", "why": "The stadium sits across the freeway from the Strip."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Las_Vegas_Raiders"],
+    "sources": ["https://en.wikipedia.org/wiki/Las_Vegas_Raiders", "https://en.wikipedia.org/wiki/Allegiant_Stadium", "https://en.wikipedia.org/wiki/Raider_Nation", "https://en.wikipedia.org/wiki/Tuck_Rule_Game", "https://en.wikipedia.org/wiki/Holy_Roller_(American_football)"],
     "unsure": []
   },
   {
     "team": "Los Angeles Chargers",
     "espnId": "24",
     "league": "football/nfl",
+    "region": "us-socal",
     "aliases": ["chargers", "bolts", "lac", "la chargers"],
     "nickname": "the Bolts",
     "fans": "",
@@ -582,28 +850,44 @@
     "legends": ["LaDainian Tomlinson", "Dan Fouts", "Junior Seau", "Lance Alworth"],
     "memory": "The Epic in Miami: a 41-38 overtime playoff win over the Dolphins in January 1982",
     "lingo": [
-      {"term": "Bolt Up", "say": "BOHLT UP", "means": "The team's rallying cry."},
-      {"term": "Powder Blue", "say": "POW-der BLOO", "means": "The beloved light-blue uniforms from the early days."},
-      {"term": "Air Coryell", "say": "AIR KOR-ee-el", "means": "The pass-happy offense of coach Don Coryell around 1980."},
-      {"term": "Chargering", "say": "CHAR-jer-ing", "means": "Fans' self-mocking word for blowing a big lead."}
+      {"term": "Bolt Up", "say": "BOHLT UP", "ipa": "ˈboʊlt ˈʌp", "tts": "", "means": "The team's rallying cry."},
+      {"term": "the Bolts", "say": "the BOHLTS", "ipa": "ðə ˈboʊlts", "tts": "", "means": "The everyday nickname, from the lightning-bolt logo."},
+      {"term": "Powder Blue", "say": "POW-der BLOO", "ipa": "ˈpaʊdɚ ˈblu", "tts": "", "means": "The beloved light-blue uniforms from the early days, now the team's main look again."},
+      {"term": "Air Coryell", "say": "AIR kor-ee-EL", "ipa": "ˈɛɹ ˌkɔɹiˈɛl", "tts": "air core ee ell", "means": "The pass-happy offense of coach Don Coryell around 1980."},
+      {"term": "Chargering", "say": "CHAR-jer-ing", "ipa": "ˈtʃɑɹdʒɚɪŋ", "tts": "", "means": "Fans' self-mocking word for blowing a big lead or losing in a strange way."},
+      {"term": "LT", "say": "el-TEE", "ipa": "ˌɛlˈti", "tts": "", "means": "LaDainian Tomlinson, the great running back."}
     ],
     "lines": [
-      {"t": "Bolt up!", "m": "The standard Chargers rallying cry."},
-      {"t": "Powder blues are the best uniforms in football.", "m": "Fans love the throwback look."},
-      {"t": "LT was the best back of his era.", "m": "Fans revere LaDainian Tomlinson."},
-      {"t": "Plenty of us still drive up from San Diego.", "m": "Much of the fan base dates from the San Diego years."}
+      {"t": "Bolt up!", "m": "The standard Chargers rallying cry.", "when": "any"},
+      {"t": "Powder blues are the best uniforms in football.", "m": "Fans love the throwback look.", "when": "any"},
+      {"t": "LT was the best back of his era.", "m": "Fans revere LaDainian Tomlinson.", "when": "any"},
+      {"t": "Plenty of us still drive up from San Diego.", "m": "Much of the fan base dates from the San Diego years.", "when": "any"},
+      {"t": "No Chargering today. We closed it out.", "m": "Relief after a win where the lead held.", "when": "win"},
+      {"t": "Classic Chargering.", "m": "The groan after a blown lead. Only fans get to say it.", "when": "loss"},
+      {"t": "Chiefs week. We owe them.", "m": "Kansas City has had the upper hand in the division for years.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Powder blue at home", "means": "Fans pack the stadium in powder blue, the color of the 1960s San Diego teams."},
+      {"name": "Driving up from San Diego", "means": "Many longtime fans still make the trip north on game days."}
+    ],
+    "sore": [
+      {"topic": "Leaving San Diego", "why": "The 2017 move still hurts the fans the team left behind."},
+      {"topic": "The 27-0 collapse", "why": "The Chargers led Jacksonville 27-0 in the January 2023 playoffs and lost."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the San Diego Chargers", "instead": "the Los Angeles Chargers", "why": "The team moved to Los Angeles in 2017."},
-      {"say": "the Chargers' own stadium", "instead": "SoFi, shared with the Rams", "why": "The Chargers share SoFi with the Rams, whose owner built it."}
+      {"say": "the Chargers' own stadium", "instead": "SoFi, shared with the Rams", "why": "The Chargers share SoFi with the Rams, whose owner built it."},
+      {"say": "Chargering", "instead": "let a fan say it first", "why": "Fans mock their own team with it; from an outsider it's a jab."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Chargers"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Chargers", "https://en.wikipedia.org/wiki/SoFi_Stadium", "https://en.wikipedia.org/wiki/Air_Coryell", "https://en.wikipedia.org/wiki/The_Epic_in_Miami"],
+    "unsure": ["lingo: 'Chargering' is widely used by fans online but not confirmed in a second written source"]
   },
   {
     "team": "Los Angeles Rams",
     "espnId": "14",
     "league": "football/nfl",
+    "region": "us-socal",
     "aliases": ["rams", "lar", "la rams"],
     "nickname": "the Rams",
     "fans": "",
@@ -616,26 +900,42 @@
     "legends": ["Eric Dickerson", "Deacon Jones", "Kurt Warner", "Marshall Faulk"],
     "memory": "Winning Super Bowl LVI in their own SoFi Stadium in February 2022",
     "lingo": [
-      {"term": "Rams House", "say": "RAMZ HOWS", "means": "The team slogan for SoFi, part of a call-and-response heard at home games."},
-      {"term": "the Greatest Show on Turf", "say": "GRAY-test SHOH on TURF", "means": "The high-scoring St. Louis Rams offense of 1999 to 2001."},
-      {"term": "the Fearsome Foursome", "say": "FEER-sum FOR-sum", "means": "The 1960s defensive line led by Deacon Jones."}
+      {"term": "Rams House", "say": "RAMZ HOWS", "ipa": "ˈɹæmz ˈhaʊs", "tts": "", "means": "The team slogan for SoFi, the answer in a call-and-response at home games."},
+      {"term": "the Greatest Show on Turf", "say": "the GRAY-test SHOH on TURF", "ipa": "ðə ˈɡɹeɪtəst ˈʃoʊ ɑn ˈtɝf", "tts": "", "means": "The high-scoring St. Louis Rams offense of 1999 to 2001."},
+      {"term": "the Fearsome Foursome", "say": "the FEER-sum FOR-sum", "ipa": "ðə ˈfɪɹsəm ˈfɔɹsəm", "tts": "", "means": "The 1960s defensive line led by Deacon Jones."},
+      {"term": "the horns", "say": "the HORNZ", "ipa": "ðə ˈhɔɹnz", "tts": "", "means": "The ram's horns on the helmet, the NFL's first helmet logo, painted in 1948."},
+      {"term": "Rampage", "say": "RAM-payj", "ipa": "ˈɹæmˌpeɪdʒ", "tts": "", "means": "The ram mascot."}
     ],
     "lines": [
-      {"t": "Beat the Niners, that's the one that matters.", "m": "San Francisco is the oldest and fiercest rival."},
-      {"t": "LA is a Rams town.", "m": "Fans' claim over the Chargers, who arrived from San Diego in 2017."},
-      {"t": "Kurt Warner went from stocking shelves to Super Bowl MVP.", "m": "Fans love the 1999 underdog story."}
+      {"t": "Whose house? Rams house!", "m": "The call-and-response at SoFi. If someone shouts the first half, you answer.", "when": "any"},
+      {"t": "LA is a Rams town.", "m": "Fans' claim over the Chargers, who arrived from San Diego in 2017.", "when": "any"},
+      {"t": "Kurt Warner went from stocking shelves to Super Bowl MVP.", "m": "Fans love the 1999 underdog story.", "when": "any"},
+      {"t": "We won it in our own house. Nobody can take that away.", "m": "Pride in the Super Bowl LVI win at SoFi.", "when": "any"},
+      {"t": "Rams house tonight!", "m": "A shout after a home win.", "when": "win"},
+      {"t": "Beat the Niners, that's the one that matters.", "m": "San Francisco is the oldest and fiercest rival.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Whose house?", "means": "The stadium asks 'Whose house?' and fans roar back 'Rams house!'"},
+      {"name": "The horns", "means": "Fans are proud the Rams were the first team to put a logo on the helmet, in 1948."}
+    ],
+    "sore": [
+      {"topic": "Super Bowls against New England", "why": "The Rams lost Super Bowl XXXVI in 2002 and LIII in 2019 to the Patriots."},
+      {"topic": "The moves", "why": "The team left LA for St. Louis in 1995 and came back in 2016, and fans in both cities have feelings about it."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the St. Louis Rams", "instead": "the Los Angeles Rams", "why": "The Rams returned to LA in 2016 after 21 seasons in St. Louis."},
-      {"say": "the Coliseum", "instead": "SoFi", "why": "The Rams only used the LA Coliseum while SoFi was being built, until 2019."}
+      {"say": "the Coliseum", "instead": "SoFi", "why": "The Rams only used the LA Coliseum while SoFi was being built, until 2019."},
+      {"say": "they play in downtown LA", "instead": "they play in Inglewood", "why": "SoFi Stadium is in Inglewood, near the airport."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Rams"],
+    "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Rams", "https://en.wikipedia.org/wiki/SoFi_Stadium", "https://en.wikipedia.org/wiki/Fearsome_Foursome_(American_football)", "https://en.wikipedia.org/wiki/The_Greatest_Show_on_Turf"],
     "unsure": []
   },
   {
     "team": "Miami Dolphins",
     "espnId": "15",
     "league": "football/nfl",
+    "region": "us-florida",
     "aliases": ["miami", "dolphins", "fins", "phins", "mia"],
     "nickname": "the Fins",
     "fans": "",
@@ -648,27 +948,43 @@
     "legends": ["Dan Marino", "Larry Csonka", "Bob Griese", "Jason Taylor"],
     "memory": "The 1972 Perfect Season: 17-0, still the only unbeaten champion in NFL history",
     "lingo": [
-      {"term": "Fins Up", "say": "FINZ UP", "means": "Fans' salute: a hand on top of the head like a dorsal fin."},
-      {"term": "Phins", "say": "FINZ", "means": "Short for Dolphins."},
-      {"term": "the Killer B's", "say": "KIL-er BEEZ", "means": "The 1980s defense, when many starters' last names started with B."}
+      {"term": "Fins Up", "say": "FINZ UP", "ipa": "ˈfɪnz ˈʌp", "tts": "", "means": "Fans' salute: a hand on top of the head like a dorsal fin."},
+      {"term": "Phins", "say": "FINZ", "ipa": "ˈfɪnz", "tts": "", "means": "Short for Dolphins, often written this way."},
+      {"term": "the Killer B's", "say": "the KIL-er BEEZ", "ipa": "ðə ˈkɪlɚ ˈbiz", "tts": "the killer bees", "means": "The 1980s defense, when many starters' last names started with B."},
+      {"term": "the No-Name Defense", "say": "the NOH-naym DEE-fense", "ipa": "ðə ˈnoʊˌneɪm ˈdiˌfɛns", "tts": "", "means": "The unsung defense of the early-1970s title teams."},
+      {"term": "the Marks Brothers", "say": "the MARKS BRUH-therz", "ipa": "ðə ˈmɑɹks ˈbɹʌðɚz", "tts": "", "means": "Receivers Mark Clayton and Mark Duper, Dan Marino's favorite targets."},
+      {"term": "Dan the Man", "say": "DAN the MAN", "ipa": "ˈdæn ðə ˈmæn", "tts": "", "means": "Dan Marino's nickname."}
     ],
     "lines": [
-      {"t": "Fins up!", "m": "The standard Dolphins greeting."},
-      {"t": "Pop the champagne.", "m": "What the '72 team and fans say when the last unbeaten team finally loses each season."},
-      {"t": "Marino never got his ring, and it still hurts.", "m": "Dan Marino is the greatest Dolphin but never won a Super Bowl."},
-      {"t": "Jets week. Need this one.", "m": "New York is the old AFC East enemy."}
+      {"t": "Fins up!", "m": "The standard Dolphins greeting.", "when": "any"},
+      {"t": "Seventeen and oh. Still the only ones.", "m": "Pride in the 1972 perfect season.", "when": "any"},
+      {"t": "Pop the champagne.", "m": "What the '72 team and fans say when the last unbeaten team finally loses each season.", "when": "any"},
+      {"t": "Marino never got his ring, and it still hurts.", "m": "Dan Marino is the greatest Dolphin but never won a Super Bowl.", "when": "any"},
+      {"t": "Fins up, baby!", "m": "A shout after a win.", "when": "win"},
+      {"t": "Jets week. Need this one.", "m": "New York is the old AFC East enemy.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The champagne toast", "means": "Members of the 1972 team are said to toast each year when the last unbeaten team loses."},
+      {"name": "Fins Up", "means": "Fans put a hand on their head like a fin after scores and in photos."}
+    ],
+    "sore": [
+      {"topic": "The playoff drought", "why": "Miami hasn't won a playoff game since the 2000 season."},
+      {"topic": "Marino's missing ring", "why": "The greatest Dolphin reached one Super Bowl, in 1985, and lost it."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "Joe Robbie Stadium", "instead": "Hard Rock Stadium", "why": "The stadium has had many names; it has been Hard Rock Stadium since 2016."},
-      {"say": "they play in Miami", "instead": "they play in Miami Gardens", "why": "Hard Rock Stadium is in the suburb of Miami Gardens."}
+      {"say": "they play in Miami", "instead": "they play in Miami Gardens", "why": "Hard Rock Stadium is in the suburb of Miami Gardens."},
+      {"say": "the Orange Bowl", "instead": "Hard Rock Stadium", "why": "The Dolphins left the old Orange Bowl stadium in 1987."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Miami_Dolphins"],
+    "sources": ["https://en.wikipedia.org/wiki/Miami_Dolphins", "https://en.wikipedia.org/wiki/Hard_Rock_Stadium", "https://en.wikipedia.org/wiki/1972_Miami_Dolphins_season", "https://en.wikipedia.org/wiki/Killer_B%27s_(Miami_Dolphins)"],
     "unsure": []
   },
   {
     "team": "Minnesota Vikings",
     "espnId": "16",
     "league": "football/nfl",
+    "region": "us-minnesota",
     "aliases": ["minnesota", "vikings", "vikes", "min", "skol"],
     "nickname": "the Vikes",
     "fans": "",
@@ -681,27 +997,44 @@
     "legends": ["Fran Tarkenton", "Alan Page", "Cris Carter", "Randy Moss"],
     "memory": "The Minneapolis Miracle: a last-play touchdown to beat the Saints in the January 2018 playoffs",
     "lingo": [
-      {"term": "Skol", "say": "SKOHL", "means": "The Vikings' battle cry, used with the slow 'Viking clap' in the stadium."},
-      {"term": "Purple People Eaters", "say": "PUR-pul PEE-pul EE-terz", "means": "The famous 1970s defensive line."},
-      {"term": "the Gjallarhorn", "say": "YAHL-ar-horn", "means": "The big horn sounded before kickoff."}
+      {"term": "Skol", "say": "SKOHL", "ipa": "ˈskoʊl", "tts": "skole", "means": "The Vikings' battle cry and toast, from the Scandinavian word for 'cheers'."},
+      {"term": "the Skol clap", "say": "the SKOHL klap", "ipa": "ðə ˈskoʊl ˌklæp", "tts": "the skole clap", "means": "The slow, booming overhead clap the whole stadium does, each clap answered with a shout of 'Skol'."},
+      {"term": "Purple People Eaters", "say": "PUR-pul PEE-pul EE-terz", "ipa": "ˈpɝpəl ˈpipəl ˈitɚz", "tts": "", "means": "The famous 1970s defensive line."},
+      {"term": "the Gjallarhorn", "say": "the YAH-lar-horn", "ipa": "ðə ˈjɑlɑɹˌhɔɹn", "tts": "the yahl ar horn", "means": "The big horn sounded before kickoff, named after the horn of Norse myth."},
+      {"term": "the Minneapolis Miracle", "say": "min-ee-AP-uh-lis MEER-uh-kul", "ipa": "ðə ˌmɪniˈæpəlɪs ˈmɪɹəkəl", "tts": "", "means": "The last-play, 61-yard touchdown that beat New Orleans in the January 2018 playoffs."},
+      {"term": "Vikes", "say": "VYKS", "ipa": "ˈvaɪks", "tts": "", "means": "Short for Vikings."}
     ],
     "lines": [
-      {"t": "Skol!", "m": "Greeting, cheer and toast in one."},
-      {"t": "Beat the Packers and nothing else matters.", "m": "Green Bay is the border rival fans most want to beat."},
-      {"t": "Four Super Bowls, no rings. We're due.", "m": "The Vikings lost all four of their Super Bowls, the last in 1977."},
-      {"t": "Moss was unstoppable in '98.", "m": "Fans remember Randy Moss's rookie year and the 15-1 team."}
+      {"t": "Skol!", "m": "Greeting, cheer and toast in one.", "when": "any"},
+      {"t": "Four Super Bowls, no rings. We're due.", "m": "The Vikings lost all four of their Super Bowls, the last in 1977.", "when": "any"},
+      {"t": "Moss was unstoppable in '98.", "m": "Fans remember Randy Moss's rookie year and the 15-1 team.", "when": "any"},
+      {"t": "The Minneapolis Miracle, best moment of my life.", "m": "Fans never tire of the January 2018 finish.", "when": "any"},
+      {"t": "Skol, baby!", "m": "A shout after a big win.", "when": "win"},
+      {"t": "Beat the Packers and nothing else matters.", "m": "Green Bay is the border rival fans most want to beat.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Skol clap", "means": "Since 2016 the whole stadium does the slow overhead clap, a habit borrowed from Iceland's football fans."},
+      {"name": "Sounding the Gjallarhorn", "means": "A guest, often a former player, blows the big horn before kickoff."},
+      {"name": "Horned helmets", "means": "Fans wear plastic Viking helmets, braids and fur to games."}
+    ],
+    "sore": [
+      {"topic": "Four Super Bowl losses", "why": "The Vikings reached four Super Bowls between 1970 and 1977 and lost every one."},
+      {"topic": "The 1999 NFC title game", "why": "The 15-1 team lost at home after a kicker who hadn't missed all year missed a late field goal."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Minneapolis Vikings", "instead": "the Minnesota Vikings", "why": "The team represents the whole state."},
-      {"say": "the Metrodome", "instead": "U.S. Bank Stadium", "why": "The Metrodome closed after 2013; U.S. Bank Stadium opened in 2016."}
+      {"say": "the Metrodome", "instead": "U.S. Bank Stadium", "why": "The Metrodome closed after 2013; U.S. Bank Stadium opened in 2016."},
+      {"say": "Go Pack Go", "instead": "Skol", "why": "That's the Packers' cheer, the border rival."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Minnesota_Vikings"],
-    "unsure": ["lingo: 'Gjallarhorn' pronunciation varies among fans"]
+    "sources": ["https://en.wikipedia.org/wiki/Minnesota_Vikings", "https://en.wikipedia.org/wiki/Gjallarhorn", "https://en.wikipedia.org/wiki/Minneapolis_Miracle", "https://en.wikipedia.org/wiki/Purple_People_Eaters", "https://en.wikipedia.org/wiki/U.S._Bank_Stadium"],
+    "unsure": ["lingo: fans say Gjallarhorn several ways (YAH-lar-horn, GYAH-lar-horn); the Old Norse is ˈɡjɑlːɑrˌhorn, and no team pronunciation guide was found"]
   },
   {
     "team": "New England Patriots",
     "espnId": "17",
     "league": "football/nfl",
+    "region": "us-new-england",
     "aliases": ["new england", "patriots", "pats", "ne"],
     "nickname": "the Pats",
     "fans": "",
@@ -714,28 +1047,45 @@
     "legends": ["Tom Brady", "Rob Gronkowski", "Tedy Bruschi", "John Hannah"],
     "memory": "The 28-3 comeback: an overtime win over Atlanta in Super Bowl LI, February 2017",
     "lingo": [
-      {"term": "Pats", "say": "PATS", "means": "Short for Patriots."},
-      {"term": "Foxborough", "say": "FOKS-bur-oh", "means": "The town southwest of Boston where Gillette Stadium stands."},
-      {"term": "Do your job", "say": "DOO yer JOB", "means": "The dynasty-era motto about everyone handling their own role."},
-      {"term": "Gronk", "say": "GRONK", "means": "Rob Gronkowski's nickname."}
+      {"term": "Pats", "say": "PATS", "ipa": "ˈpæts", "tts": "", "means": "Short for Patriots."},
+      {"term": "Do your job", "say": "DOO yer JOB", "ipa": "ˈdu jɚ ˈdʒɑb", "tts": "", "means": "The dynasty-era motto about everyone handling their own role."},
+      {"term": "the Patriot Way", "say": "the PAY-tree-ut WAY", "ipa": "ðə ˈpeɪtɹiət ˈweɪ", "tts": "", "means": "The club's no-nonsense, team-first culture from the title years."},
+      {"term": "Gronk", "say": "GRONK", "ipa": "ˈɡɹɑŋk", "tts": "", "means": "Rob Gronkowski's nickname."},
+      {"term": "Pat Patriot", "say": "PAT PAY-tree-ut", "ipa": "ˈpæt ˈpeɪtɹiət", "tts": "", "means": "The old logo of a minuteman hiking a ball, seen on the red throwback uniforms."},
+      {"term": "the Flying Elvis", "say": "the FLY-ing EL-vis", "ipa": "ðə ˈflaɪɪŋ ˈɛlvɪs", "tts": "", "means": "Fans' nickname for the current logo, a streaking head in a tricorn hat."}
     ],
     "lines": [
-      {"t": "Six rings. Can't complain.", "m": "The Patriots won six Super Bowls between 2002 and 2019."},
-      {"t": "Do your job.", "m": "The motto fans still quote."},
-      {"t": "Jets week never gets old.", "m": "New York is the oldest AFC East rival."},
-      {"t": "Brady is the GOAT. No debate.", "m": "Fans see Tom Brady as the greatest of all time."}
+      {"t": "Six rings. Can't complain.", "m": "The Patriots won six Super Bowls between 2002 and 2019.", "when": "any"},
+      {"t": "Do your job.", "m": "The motto fans still quote.", "when": "any"},
+      {"t": "Brady is the GOAT. No debate.", "m": "Fans see Tom Brady as the greatest of all time.", "when": "any"},
+      {"t": "That's the Patriot Way.", "m": "Said after a smart, mistake-free win.", "when": "win"},
+      {"t": "We were spoiled for twenty years.", "m": "A shrug after a loss, remembering the dynasty.", "when": "loss"},
+      {"t": "Jets week never gets old.", "m": "New York is the oldest AFC East rival.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The End Zone Militia", "means": "Men dressed as Revolutionary War minutemen fire muskets from the end zone after every Patriots score."},
+      {"name": "Red throwbacks", "means": "Fans love the red Pat Patriot uniforms when the team wears them."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl XLII", "why": "The 18-0 team lost to the Giants in February 2008, one win from a perfect season."},
+      {"topic": "Deflategate and Spygate", "why": "Fans are tired of hearing that the titles came from cheating."}
+    ],
+    "pronounce": [
+      {"word": "Foxborough", "say": "FOKS-bur-uh", "ipa": "ˈfɑksbəɹə", "tts": "fox bur uh", "why": "The town where the stadium stands, southwest of Boston. Locals say it fast, and often spell it Foxboro."}
     ],
     "avoid": [
       {"say": "the Boston Patriots", "instead": "the New England Patriots", "why": "The team dropped 'Boston' in 1971 and plays in Foxborough."},
-      {"say": "Foxboro Stadium", "instead": "Gillette Stadium", "why": "The old stadium closed after 2001; Gillette opened next door in 2002."}
+      {"say": "Foxboro Stadium", "instead": "Gillette Stadium", "why": "The old stadium closed after 2001; Gillette opened next door in 2002."},
+      {"say": "they only won because they cheated", "instead": "six rings", "why": "It's the fastest way to start an argument in New England."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/New_England_Patriots"],
+    "sources": ["https://en.wikipedia.org/wiki/New_England_Patriots", "https://en.wikipedia.org/wiki/Gillette_Stadium", "https://en.wikipedia.org/wiki/Foxborough,_Massachusetts", "https://en.wikipedia.org/wiki/End_Zone_Militia"],
     "unsure": []
   },
   {
     "team": "New Orleans Saints",
     "espnId": "18",
     "league": "football/nfl",
+    "region": "us-new-orleans",
     "aliases": ["new orleans", "saints", "nola", "who dat"],
     "nickname": "the Saints",
     "fans": "the Who Dat Nation",
@@ -748,28 +1098,44 @@
     "legends": ["Drew Brees", "Archie Manning", "Rickey Jackson", "Willie Roaf"],
     "memory": "Winning Super Bowl XLIV over the Colts in February 2010",
     "lingo": [
-      {"term": "Who Dat", "say": "hoo DAT", "means": "The Saints' signature cheer, and the name of the fan base."},
-      {"term": "Geaux", "say": "GOH", "means": "'Go' with a Cajun-French spelling, as in 'Geaux Saints'."},
-      {"term": "Black and Gold", "say": "BLAK un GOHLD", "means": "The team's colors, also used as a nickname."},
-      {"term": "the Dome", "say": "the DOHM", "means": "The Caesars Superdome, home since 1975."}
+      {"term": "Who Dat", "say": "hoo DAT", "ipa": "ˈhu ˈdæt", "tts": "", "means": "The Saints' signature cheer, and the name of the fan base."},
+      {"term": "Geaux Saints", "say": "GOH SAYNTS", "ipa": "ˈɡoʊ ˈseɪnts", "tts": "go saints", "means": "'Go Saints' with the Cajun-French spelling."},
+      {"term": "Black and Gold", "say": "BLAK un GOHLD", "ipa": "ˈblæk ən ˈɡoʊld", "tts": "", "means": "The team's colors, also used as a nickname."},
+      {"term": "the Dome", "say": "the DOHM", "ipa": "ðə ˈdoʊm", "tts": "", "means": "The Caesars Superdome, home since 1975."},
+      {"term": "the Dome Patrol", "say": "the DOHM puh-TROHL", "ipa": "ðə ˈdoʊm pəˈtɹoʊl", "tts": "", "means": "The great linebacker group of the late 1980s and early 90s."},
+      {"term": "Sir Saint", "say": "sur SAYNT", "ipa": "ˈsɝ ˈseɪnt", "tts": "", "means": "The mascot, a cartoon Saint with a helmet and a big chin."},
+      {"term": "fleur-de-lis", "say": "flur-duh-LEE", "ipa": "ˌflɝdəˈli", "tts": "flur duh lee", "means": "The lily logo on the helmet, seen all over the city."}
     ],
     "lines": [
-      {"t": "Who dat!", "m": "Greeting, cheer and sign-off for Saints fans."},
-      {"t": "Geaux Saints!", "m": "Said and written with the Louisiana spelling."},
-      {"t": "Beat the Falcons and the season's a success.", "m": "Atlanta is the biggest rival."},
-      {"t": "Nothing's louder than the Dome.", "m": "Fans are proud of the noise under the Superdome roof."}
+      {"t": "Who dat!", "m": "Greeting, cheer and sign-off for Saints fans.", "when": "any"},
+      {"t": "Geaux Saints!", "m": "Said and written with the Louisiana spelling.", "when": "any"},
+      {"t": "Nothing's louder than the Dome.", "m": "Fans are proud of the noise under the Superdome roof.", "when": "any"},
+      {"t": "Put on the black and gold, we're celebrating tonight.", "m": "After a big win the party moves to the bars and the streets.", "when": "win"},
+      {"t": "Still mad about the no-call.", "m": "Fans never got over the missed penalty in the January 2019 NFC title game.", "when": "loss"},
+      {"t": "Beat the Falcons and the season's a success.", "m": "Atlanta is the biggest rival.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'When the Saints Go Marching In'", "means": "The old tune plays after Saints scores, and the whole Dome joins in."},
+      {"name": "Rebirth", "means": "A statue outside the Dome shows Steve Gleason's blocked punt from the September 2006 game that reopened the stadium."}
+    ],
+    "sore": [
+      {"topic": "The 'Aints'", "why": "In the losing 1980 season fans wore paper bags over their heads; it's history, not a joke for outsiders."},
+      {"topic": "The no-call", "why": "A missed pass-interference call cost New Orleans a Super Bowl trip in January 2019."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "Who dey!", "instead": "Who dat!", "why": "'Who Dey' belongs to the Cincinnati Bengals."},
-      {"say": "the Mercedes-Benz Superdome", "instead": "the Dome", "why": "The sponsor changed to Caesars in 2021; fans just say the Dome."}
+      {"say": "the Mercedes-Benz Superdome", "instead": "the Dome", "why": "The sponsor changed to Caesars in 2021; fans just say the Dome."},
+      {"say": "the Aints", "instead": "the Saints", "why": "An old insult from the bag-over-the-head years."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/New_Orleans_Saints"],
+    "sources": ["https://en.wikipedia.org/wiki/New_Orleans_Saints", "https://en.wikipedia.org/wiki/Caesars_Superdome", "https://en.wikipedia.org/wiki/Dome_Patrol", "https://en.wikipedia.org/wiki/Nola_No-Call"],
     "unsure": []
   },
   {
     "team": "New York Giants",
     "espnId": "19",
     "league": "football/nfl",
+    "region": "us-new-york",
     "aliases": ["giants", "ny giants", "nyg", "big blue", "g-men"],
     "nickname": "Big Blue",
     "fans": "",
@@ -782,28 +1148,43 @@
     "legends": ["Lawrence Taylor", "Michael Strahan", "Eli Manning", "Phil Simms"],
     "memory": "Upsetting the unbeaten Patriots in Super Bowl XLII, February 2008, with David Tyree's helmet catch",
     "lingo": [
-      {"term": "Big Blue", "say": "BIG BLOO", "means": "The team's main nickname."},
-      {"term": "G-Men", "say": "JEE-men", "means": "Another nickname for the Giants."},
-      {"term": "the Helmet Catch", "say": "HEL-mit KACH", "means": "David Tyree pinning the ball to his helmet in Super Bowl XLII."},
-      {"term": "LT", "say": "el-TEE", "means": "Lawrence Taylor, the great linebacker."}
+      {"term": "Big Blue", "say": "BIG BLOO", "ipa": "ˈbɪɡ ˈblu", "tts": "", "means": "The team's main nickname."},
+      {"term": "G-Men", "say": "JEE-men", "ipa": "ˈdʒi ˌmɛn", "tts": "", "means": "Another nickname for the Giants."},
+      {"term": "the Helmet Catch", "say": "the HEL-mit KACH", "ipa": "ðə ˈhɛlmət ˌkætʃ", "tts": "", "means": "David Tyree pinning the ball to his helmet in Super Bowl XLII."},
+      {"term": "LT", "say": "el-TEE", "ipa": "ˌɛlˈti", "tts": "", "means": "Lawrence Taylor, the great linebacker."},
+      {"term": "the Big Blue Wrecking Crew", "say": "the BIG BLOO REK-ing KROO", "ipa": "ðə ˈbɪɡ ˈblu ˈɹɛkɪŋ ˌkɹu", "tts": "", "means": "The ferocious defense of the 1986 title team."},
+      {"term": "the Tuna", "say": "the TOO-nuh", "ipa": "ðə ˈtunə", "tts": "", "means": "Bill Parcells, coach of the first two Super Bowl teams."}
     ],
     "lines": [
-      {"t": "Let's go Giants!", "m": "The standard cheer."},
-      {"t": "Four Super Bowls, and two of them over Brady.", "m": "Both Eli Manning titles came against New England."},
-      {"t": "Beating Dallas is always sweet.", "m": "The Cowboys rivalry is the one many Giants fans care about most."},
-      {"t": "LT changed the game.", "m": "Fans say Lawrence Taylor reinvented the linebacker position."}
+      {"t": "Let's go Giants!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Four Super Bowls, and two of them over Brady.", "m": "Both Eli Manning titles came against New England.", "when": "any"},
+      {"t": "LT changed the game.", "m": "Fans say Lawrence Taylor reinvented the linebacker position.", "when": "any"},
+      {"t": "The New York Football Giants. Say it right.", "m": "Fans like the old full name, which sets them apart from baseball's Giants.", "when": "any"},
+      {"t": "Somebody get the Gatorade ready.", "m": "Said as a big win wraps up.", "when": "win"},
+      {"t": "Beating Dallas is always sweet.", "m": "The Cowboys rivalry is the one many Giants fans care about most.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Gatorade shower", "means": "Dumping the drink cooler on the coach after a big win began with the Giants in the 1980s."},
+      {"name": "Meadowlands tailgates", "means": "Fans grill in the huge stadium lots before kickoff."}
+    ],
+    "sore": [
+      {"topic": "The Miracle at the Meadowlands", "why": "A botched handoff in the last seconds handed the Eagles a win in November 1978."},
+      {"topic": "Playing in New Jersey", "why": "Rival fans never stop pointing out that the 'New York' Giants play in New Jersey."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "they play in New York", "instead": "they play in East Rutherford, New Jersey", "why": "MetLife Stadium is in New Jersey, a favorite dig from rival fans."},
-      {"say": "the Giants won the World Series", "instead": "that's baseball's San Francisco Giants", "why": "The football Giants are often called the 'New York Football Giants' to avoid this mix-up."}
+      {"say": "the Giants won the World Series", "instead": "that's baseball's San Francisco Giants", "why": "The football Giants are often called the 'New York Football Giants' to avoid this mix-up."},
+      {"say": "Giants Stadium", "instead": "MetLife Stadium", "why": "The old stadium next door was torn down in 2010."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/New_York_Giants"],
+    "sources": ["https://en.wikipedia.org/wiki/New_York_Giants", "https://en.wikipedia.org/wiki/MetLife_Stadium", "https://en.wikipedia.org/wiki/Gatorade_shower", "https://en.wikipedia.org/wiki/Miracle_at_the_Meadowlands"],
     "unsure": []
   },
   {
     "team": "New York Jets",
     "espnId": "20",
     "league": "football/nfl",
+    "region": "us-new-york",
     "aliases": ["jets", "ny jets", "nyj", "gang green"],
     "nickname": "the Jets",
     "fans": "",
@@ -816,29 +1197,44 @@
     "legends": ["Joe Namath", "Curtis Martin", "Darrelle Revis", "Joe Klecko"],
     "memory": "Joe Namath's guarantee and the Super Bowl III upset of the Colts, January 1969",
     "lingo": [
-      {"term": "Gang Green", "say": "GANG GREEN", "means": "Nickname for the team and its fans."},
-      {"term": "Broadway Joe", "say": "BRAWD-way JOH", "means": "Joe Namath's nickname."},
-      {"term": "Revis Island", "say": "REE-vis EYE-lund", "means": "Where receivers vanished when Darrelle Revis covered them."},
-      {"term": "Same Old Jets", "say": "SAYM OHLD JETS", "means": "The rueful fan phrase for another letdown."}
+      {"term": "Gang Green", "say": "GANG GREEN", "ipa": "ˈɡæŋ ˈɡɹin", "tts": "", "means": "Nickname for the team and its fans."},
+      {"term": "Broadway Joe", "say": "BRAWD-way JOH", "ipa": "ˈbɹɔdˌweɪ ˈdʒoʊ", "tts": "", "means": "Joe Namath's nickname."},
+      {"term": "the Guarantee", "say": "the gair-un-TEE", "ipa": "ðə ˌɡɛɹənˈti", "tts": "", "means": "Namath promising a Super Bowl III win over the heavily favored Colts, then delivering."},
+      {"term": "Revis Island", "say": "REE-vis EYE-lund", "ipa": "ˈɹivɪs ˈaɪlənd", "tts": "", "means": "Where receivers vanished when Darrelle Revis covered them."},
+      {"term": "the Sack Exchange", "say": "the SAK eks-CHAYNJ", "ipa": "ðə ˈsæk ɪksˈtʃeɪndʒ", "tts": "", "means": "The early-1980s defensive line, a play on the New York Stock Exchange."},
+      {"term": "Same Old Jets", "say": "SAYM OHLD JETS", "ipa": "ˈseɪm ˈoʊld ˈdʒɛts", "tts": "", "means": "The rueful fan phrase for another letdown."}
     ],
     "lines": [
-      {"t": "Let's go Jets!", "m": "The standard cheer. Fans also spell out the team name in a famous stadium chant."},
-      {"t": "Broadway Joe called it.", "m": "Namath publicly guaranteed the Super Bowl III win, then delivered."},
-      {"t": "Patriots week. Need this one.", "m": "New England is the rival fans most want to beat."},
-      {"t": "Same old Jets.", "m": "What fans mutter after a painful loss. Only say it if a fan says it first."}
+      {"t": "Let's go Jets!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Broadway Joe called it.", "m": "Namath publicly guaranteed the Super Bowl III win, then delivered.", "when": "any"},
+      {"t": "Revis Island was closed for business.", "m": "Fans remember Darrelle Revis shutting down top receivers.", "when": "any"},
+      {"t": "Gang Green is back!", "m": "A hopeful shout after a good win.", "when": "win"},
+      {"t": "Same old Jets.", "m": "What fans mutter after a painful loss. Only say it if a fan says it first.", "when": "loss"},
+      {"t": "Patriots week. Need this one.", "m": "New England is the rival fans most want to beat.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The spelled-out cheer", "means": "The crowd spells the team name one letter at a time, then shouts 'Jets' three times. Superfan Fireman Ed led it for years."},
+      {"name": "Meadowlands tailgates", "means": "Fans fill the stadium lots for hours before kickoff."}
+    ],
+    "sore": [
+      {"topic": "The Butt Fumble", "why": "The quarterback ran into a lineman's backside and fumbled on national TV on Thanksgiving 2012."},
+      {"topic": "The playoff drought", "why": "The Jets haven't made the playoffs since the 2010 season, the longest wait in the league."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Jets play at Shea", "instead": "they play at MetLife", "why": "The Jets left Shea Stadium in Queens after 1983."},
-      {"say": "Jets and Giants fans are the same", "instead": "they share a stadium, not a fan base", "why": "The two teams are rivals for the city's loyalty."}
+      {"say": "Jets and Giants fans are the same", "instead": "they share a stadium, not a fan base", "why": "The two teams are rivals for the city's loyalty."},
+      {"say": "the Butt Fumble", "instead": "leave it alone", "why": "Jets fans have heard that joke a thousand times."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/New_York_Jets"],
+    "sources": ["https://en.wikipedia.org/wiki/New_York_Jets", "https://en.wikipedia.org/wiki/MetLife_Stadium", "https://en.wikipedia.org/wiki/Butt_fumble", "https://en.wikipedia.org/wiki/New_York_Sack_Exchange", "https://en.wikipedia.org/wiki/Fireman_Ed"],
     "unsure": []
   },
   {
     "team": "Philadelphia Eagles",
     "espnId": "21",
     "league": "football/nfl",
-    "aliases": ["philadelphia", "philly", "eagles", "phi", "iggles"],
+    "region": "us-philadelphia",
+    "aliases": ["philadelphia", "philly", "eagles", "phi", "iggles", "the birds"],
     "nickname": "the Birds",
     "fans": "",
     "ground": "the Linc",
@@ -850,30 +1246,45 @@
     "legends": ["Reggie White", "Chuck Bednarik", "Brian Dawkins", "Jason Kelce"],
     "memory": "The Philly Special and the Super Bowl LII win over the Patriots, February 2018",
     "lingo": [
-      {"term": "Go Birds", "say": "GOH BURDZ", "means": "The all-purpose Eagles greeting, used in place of hello or goodbye."},
-      {"term": "the Linc", "say": "the LINK", "means": "Lincoln Financial Field, home since 2003."},
-      {"term": "Philly Special", "say": "FIL-ee SPESH-ul", "means": "The trick play where the quarterback caught a touchdown in Super Bowl LII."},
-      {"term": "Iggles", "say": "IG-ulz", "means": "The Philly-accent way to say Eagles."}
+      {"term": "Go Birds", "say": "GOH BURDZ", "ipa": "ˈɡoʊ ˈbɝdz", "tts": "", "means": "The all-purpose Eagles greeting, used in place of hello or goodbye."},
+      {"term": "the Linc", "say": "the LINK", "ipa": "ðə ˈlɪŋk", "tts": "", "means": "Lincoln Financial Field, home since 2003."},
+      {"term": "Philly Special", "say": "FIL-ee SPESH-ul", "ipa": "ˈfɪli ˈspɛʃəl", "tts": "", "means": "The trick play where the quarterback caught a touchdown in Super Bowl LII."},
+      {"term": "Iggles", "say": "IG-ulz", "ipa": "ˈɪɡəlz", "tts": "", "means": "The Philly-accent way to say Eagles."},
+      {"term": "the 700 Level", "say": "the SEV-en HUN-dred LEV-ul", "ipa": "ðə ˈsɛvən ˈhʌndɹəd ˈlɛvəl", "tts": "the seven hundred level", "means": "The rowdy upper deck at the old Veterans Stadium, still a byword for tough fans."},
+      {"term": "Swoop", "say": "SWOOP", "ipa": "ˈswup", "tts": "", "means": "The eagle mascot."}
     ],
     "lines": [
-      {"t": "Go Birds!", "m": "Works as hello, goodbye, or a reply to almost anything."},
-      {"t": "Fly, Eagles, fly!", "m": "The fight song's title; fans sing the song after every score."},
-      {"t": "Two Lombardis now.", "m": "The Eagles won Super Bowls LII and LIX, in 2018 and 2025."},
-      {"t": "Anybody but Dallas.", "m": "Fans can stomach any champion except the Cowboys."},
-      {"t": "Dawk was the heart of that defense.", "m": "Safety Brian Dawkins is a huge fan favorite."}
+      {"t": "Go Birds!", "m": "Works as hello, goodbye, or a reply to almost anything.", "when": "any"},
+      {"t": "Two Lombardis now.", "m": "The Eagles won Super Bowls LII and LIX, in 2018 and 2025.", "when": "any"},
+      {"t": "Dawk was the heart of that defense.", "m": "Safety Brian Dawkins is a huge fan favorite.", "when": "any"},
+      {"t": "Bring out the underdog masks.", "m": "Fans wore dog masks during the 2018 title run, and they come out whenever the Birds aren't favored.", "when": "any"},
+      {"t": "Fly, Eagles, fly!", "m": "The fight song's title, shouted after a score or a win.", "when": "win"},
+      {"t": "Anybody but Dallas.", "m": "Fans can stomach any champion except the Cowboys.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'Fly, Eagles, Fly'", "means": "The fight song plays after every Eagles score, and the crowd belts it out."},
+      {"name": "The spelled-out cheer", "means": "After the fight song, fans spell out E-A-G-L-E-S letter by letter, at the stadium and at the bar."},
+      {"name": "Underdog masks", "means": "Rubber dog masks became the symbol of the 2018 Super Bowl team, which was the underdog in every playoff game."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl LVII", "why": "Kansas City beat the Eagles with a late field goal in February 2023."},
+      {"topic": "The Santa snowballs", "why": "Outsiders love the 1968 story of fans pelting Santa with snowballs. Locals have heard it enough."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "Veterans Stadium", "instead": "the Linc", "why": "The Vet was demolished in 2004."},
-      {"say": "How 'bout them Cowboys", "instead": "Go Birds", "why": "That's the Dallas slogan, the last thing to say in Philly."}
+      {"say": "How 'bout them Cowboys", "instead": "Go Birds", "why": "That's the Dallas slogan, the last thing to say in Philly."},
+      {"say": "the Eagles have one Super Bowl", "instead": "two Lombardis", "why": "The second came in February 2025."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Philadelphia_Eagles"],
+    "sources": ["https://en.wikipedia.org/wiki/Philadelphia_Eagles", "https://en.wikipedia.org/wiki/Lincoln_Financial_Field", "https://en.wikipedia.org/wiki/Fly,_Eagles,_Fly", "https://en.wikipedia.org/wiki/Philly_Special", "https://en.wikipedia.org/wiki/Super_Bowl_LIX"],
     "unsure": []
   },
   {
     "team": "Pittsburgh Steelers",
     "espnId": "23",
     "league": "football/nfl",
-    "aliases": ["pittsburgh", "steelers", "pit", "stillers", "steel city"],
+    "region": "us-pittsburgh",
+    "aliases": ["pittsburgh", "steelers", "pit", "stillers"],
     "nickname": "the Steelers",
     "fans": "Steeler Nation",
     "ground": "Acrisure Stadium",
@@ -885,27 +1296,45 @@
     "legends": ["Terry Bradshaw", "Franco Harris", "Joe Greene", "Troy Polamalu"],
     "memory": "The Immaculate Reception: Franco Harris's deflected-pass touchdown to beat Oakland, December 1972",
     "lingo": [
-      {"term": "Terrible Towel", "say": "TAIR-ih-bul TOW-ul", "means": "The gold towel fans wave, created by broadcaster Myron Cope in 1975."},
-      {"term": "Yinz", "say": "YINZ", "means": "Pittsburgh for 'you all'. A local is a 'yinzer'."},
-      {"term": "Stillers", "say": "STIL-erz", "means": "The local pronunciation of Steelers."},
-      {"term": "the Steel Curtain", "say": "STEEL KUR-tin", "means": "The famous 1970s defense."}
+      {"term": "Terrible Towel", "say": "TAIR-ih-bul TOW-ul", "ipa": "ˈtɛɹəbəl ˈtaʊəl", "tts": "", "means": "The gold towel fans wave, created by broadcaster Myron Cope in 1975."},
+      {"term": "Stillers", "say": "STIL-erz", "ipa": "ˈstɪlɚz", "tts": "", "means": "The local pronunciation of Steelers."},
+      {"term": "Steeler Nation", "say": "STEE-ler NAY-shun", "ipa": "ˈstilɚ ˈneɪʃən", "tts": "", "means": "The fan base, at home and scattered across the country."},
+      {"term": "the Steel Curtain", "say": "the STEEL KUR-tin", "ipa": "ðə ˈstil ˈkɝtən", "tts": "", "means": "The famous 1970s defense."},
+      {"term": "Mean Joe", "say": "MEEN JOH", "ipa": "ˈmin ˈdʒoʊ", "tts": "", "means": "Joe Greene, the heart of the Steel Curtain."},
+      {"term": "the Bus", "say": "the BUS", "ipa": "ðə ˈbʌs", "tts": "", "means": "Jerome Bettis, the bruising running back who retired a champion in 2006."},
+      {"term": "Franco's Italian Army", "say": "FRANG-kohz ih-TAL-yun AR-mee", "ipa": "ˈfɹæŋkoʊz ɪˈtæljən ˈɑɹmi", "tts": "", "means": "The 1970s fan club for Franco Harris, in army helmets."}
     ],
     "lines": [
-      {"t": "Wave the towel!", "m": "Fans swing Terrible Towels at key moments."},
-      {"t": "Six rings. Most in the league, tied with New England.", "m": "Pittsburgh and New England each have six Super Bowl wins."},
-      {"t": "Ravens week means bruises.", "m": "Baltimore games are famously physical."},
-      {"t": "Are yinz goin' to the game?", "m": "Pittsburgh dialect for 'Are you all going to the game?'"}
+      {"t": "Wave the towel!", "m": "Fans swing Terrible Towels at key moments.", "when": "any"},
+      {"t": "Six rings. Most in the league, tied with New England.", "m": "Pittsburgh and New England each have six Super Bowl wins.", "when": "any"},
+      {"t": "Steeler Nation travels.", "m": "Road stadiums often fill with black and gold.", "when": "any"},
+      {"t": "Cue Renegade.", "m": "Said late in a close game, when the stadium plays the rock track to fire up the defense.", "when": "any"},
+      {"t": "That's Steelers football. Defense wins.", "m": "Pride after a tough, low-scoring win.", "when": "win"},
+      {"t": "Ravens week means bruises.", "m": "Baltimore games are famously physical.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Terrible Towel", "means": "Fans wave the gold towels at every big moment, at home and on the road."},
+      {"name": "'Renegade' in the fourth quarter", "means": "The Styx track plays on the big screen before a key defensive series, and the stadium goes wild."},
+      {"name": "One-sided helmet logo", "means": "The logo sits only on the right side of the helmet, a quirk from 1962 that the team kept."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl XXX", "why": "Dallas beat Pittsburgh in January 1996, and two interceptions decided it."},
+      {"topic": "January exits", "why": "Recent seasons have ended early in the playoffs, which grates in a six-ring town."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "Heinz Field", "instead": "Acrisure Stadium", "why": "The stadium was renamed in 2022, though some fans miss the old name."}
+      {"say": "Heinz Field", "instead": "Acrisure Stadium", "why": "The stadium was renamed in 2022, though some fans miss the old name."},
+      {"say": "Three Rivers Stadium", "instead": "Acrisure Stadium", "why": "Three Rivers was knocked down in 2001."},
+      {"say": "The Immaculate Reception was a fluke", "instead": "the greatest play ever", "why": "Steelers fans treat it as sacred."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Pittsburgh_Steelers"],
+    "sources": ["https://en.wikipedia.org/wiki/Pittsburgh_Steelers", "https://en.wikipedia.org/wiki/Terrible_Towel", "https://en.wikipedia.org/wiki/Acrisure_Stadium", "https://en.wikipedia.org/wiki/Steel_Curtain", "https://en.wikipedia.org/wiki/Franco%27s_Italian_Army"],
     "unsure": []
   },
   {
     "team": "San Francisco 49ers",
     "espnId": "25",
     "league": "football/nfl",
+    "region": "us-norcal",
     "aliases": ["san francisco", "49ers", "niners", "sf", "forty niners"],
     "nickname": "the Niners",
     "fans": "the Faithful",
@@ -918,27 +1347,43 @@
     "legends": ["Joe Montana", "Jerry Rice", "Steve Young", "Ronnie Lott"],
     "memory": "The Catch: Montana to Dwight Clark to beat Dallas in the January 1982 NFC Championship",
     "lingo": [
-      {"term": "Niner Faithful", "say": "NY-ner FAYTH-ful", "means": "The fan base's name for itself."},
-      {"term": "Niner Empire", "say": "NY-ner EM-pyr", "means": "Another name for the fan base."},
-      {"term": "The Catch", "say": "the KACH", "means": "Dwight Clark's leaping touchdown catch in 1982."}
+      {"term": "Niner Faithful", "say": "NY-ner FAYTH-ful", "ipa": "ˈnaɪnɚ ˈfeɪθfəl", "tts": "", "means": "The fan base's name for itself."},
+      {"term": "Niner Empire", "say": "NY-ner EM-pyr", "ipa": "ˈnaɪnɚ ˈɛmpaɪɚ", "tts": "", "means": "Another name for the fan base."},
+      {"term": "The Catch", "say": "the KACH", "ipa": "ðə ˈkætʃ", "tts": "", "means": "Dwight Clark's leaping touchdown catch in 1982."},
+      {"term": "Joe Cool", "say": "JOH KOOL", "ipa": "ˈdʒoʊ ˈkul", "tts": "", "means": "Joe Montana's nickname, for his calm in big moments."},
+      {"term": "the Stick", "say": "the STIK", "ipa": "ðə ˈstɪk", "tts": "", "means": "Candlestick Park, the windy old home in San Francisco until 2013."},
+      {"term": "the Quest for Six", "say": "the KWEST fer SIKS", "ipa": "ðə ˈkwɛst fɚ ˈsɪks", "tts": "", "means": "Fans' phrase for the long hunt for a sixth Super Bowl."},
+      {"term": "Sourdough Sam", "say": "SOW-er-doh SAM", "ipa": "ˈsaʊɚˌdoʊ ˈsæm", "tts": "", "means": "The gold-miner mascot."}
     ],
     "lines": [
-      {"t": "Five rings.", "m": "The 49ers won five Super Bowls between the 1981 and 1994 seasons."},
-      {"t": "Joe Cool never panicked.", "m": "Joe Montana's nickname, for his calm in big moments."},
-      {"t": "Jerry Rice is the greatest receiver who ever lived.", "m": "Fans won't hear otherwise."},
-      {"t": "Beat Dallas, always.", "m": "The Cowboys rivalry goes back to The Catch and beyond."}
+      {"t": "Five rings.", "m": "The 49ers won five Super Bowls between the 1981 and 1994 seasons.", "when": "any"},
+      {"t": "Joe Cool never panicked.", "m": "Joe Montana's nickname, for his calm in big moments.", "when": "any"},
+      {"t": "Jerry Rice is the greatest receiver who ever lived.", "m": "Fans won't hear otherwise.", "when": "any"},
+      {"t": "The Faithful took over that stadium.", "m": "Niners fans pride themselves on filling road games.", "when": "win"},
+      {"t": "The quest for six goes on.", "m": "A sigh after a big loss, especially in January.", "when": "loss"},
+      {"t": "Beat Dallas, always.", "m": "The Cowboys rivalry goes back to The Catch and beyond.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Taking over road games", "means": "The Faithful travel well, and Niners red often fills other teams' stadiums."}
+    ],
+    "sore": [
+      {"topic": "Two Super Bowl losses to the Chiefs", "why": "Kansas City came from behind to beat San Francisco in February 2020 and again in February 2024."},
+      {"topic": "Leaving the city", "why": "Some fans still grumble that the team moved its home games 45 miles south in 2014."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "they play in San Francisco", "instead": "they play in Santa Clara", "why": "Levi's Stadium is about 45 miles south, in Silicon Valley."},
-      {"say": "Candlestick Park", "instead": "Levi's", "why": "The team left Candlestick after 2013."}
+      {"say": "Candlestick Park", "instead": "Levi's", "why": "The team left Candlestick after 2013."},
+      {"say": "the Bay has two NFL teams", "instead": "the Niners are the Bay's team now", "why": "The Raiders left Oakland for Las Vegas in 2020."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/San_Francisco_49ers"],
+    "sources": ["https://en.wikipedia.org/wiki/San_Francisco_49ers", "https://en.wikipedia.org/wiki/Levi%27s_Stadium", "https://en.wikipedia.org/wiki/The_Catch_(American_football)", "https://en.wikipedia.org/wiki/Candlestick_Park", "https://en.wikipedia.org/wiki/Super_Bowl_LVIII"],
     "unsure": []
   },
   {
     "team": "Seattle Seahawks",
     "espnId": "26",
     "league": "football/nfl",
+    "region": "us-pacific-northwest",
     "aliases": ["seattle", "seahawks", "hawks", "sea"],
     "nickname": "the Hawks",
     "fans": "the 12s",
@@ -951,31 +1396,48 @@
     "legends": ["Steve Largent", "Walter Jones", "Kenny Easley", "Marshawn Lynch"],
     "memory": "Super Bowl wins in February 2014 over Denver and in February 2026 over New England",
     "lingo": [
-      {"term": "12s", "say": "TWELVZ", "means": "Seahawks fans, the team's 'twelfth man'. A 12 flag flies at every home game."},
-      {"term": "Legion of Boom", "say": "LEE-jun uv BOOM", "means": "The famous defensive backfield of the early 2010s."},
-      {"term": "Beast Quake", "say": "BEEST KWAYK", "means": "Marshawn Lynch's 2011 playoff run, when the crowd set off a seismograph."}
+      {"term": "12s", "say": "TWELVZ", "ipa": "ˈtwɛlvz", "tts": "twelves", "means": "Seahawks fans, the team's 'twelfth man'. A 12 flag flies at every home game."},
+      {"term": "the 12 flag", "say": "the TWELV flag", "ipa": "ðə ˈtwɛlv ˌflæɡ", "tts": "the twelve flag", "means": "The big blue flag with a 12, raised before every home kickoff and flown all over the city."},
+      {"term": "Legion of Boom", "say": "LEE-jun uv BOOM", "ipa": "ˈlidʒən əv ˈbum", "tts": "", "means": "The famous defensive backfield of the early 2010s."},
+      {"term": "Beast Quake", "say": "BEEST KWAYK", "ipa": "ˈbist ˌkweɪk", "tts": "", "means": "Marshawn Lynch's 2011 playoff run, when the crowd set off a seismograph."},
+      {"term": "Beast Mode", "say": "BEEST MOHD", "ipa": "ˈbist ˌmoʊd", "tts": "", "means": "Marshawn Lynch's nickname, shouted after any powerful run."},
+      {"term": "Taima", "say": "TY-muh", "ipa": "ˈtaɪmə", "tts": "tie muh", "means": "The live hawk that flies out of the tunnel to lead the team onto the field."}
     ],
     "lines": [
-      {"t": "Go Hawks!", "m": "The everyday greeting and cheer."},
-      {"t": "Loudest crowd in football.", "m": "Fans pride themselves on noise that causes false starts."},
-      {"t": "Two rings now.", "m": "Seattle won Super Bowl XLVIII and Super Bowl LX."},
-      {"t": "Beast Mode!", "m": "Marshawn Lynch's nickname, still shouted after a powerful run."}
+      {"t": "Go Hawks!", "m": "The everyday greeting and cheer.", "when": "any"},
+      {"t": "Loudest crowd in football.", "m": "Fans pride themselves on noise that causes false starts.", "when": "any"},
+      {"t": "Two rings now.", "m": "Seattle won Super Bowl XLVIII and Super Bowl LX.", "when": "any"},
+      {"t": "Beast Mode!", "m": "Still shouted after a powerful run.", "when": "win"},
+      {"t": "Why didn't we just run it?", "m": "The groan that still follows the Super Bowl XLIX goal-line pass. Fans say it after any bad late call.", "when": "loss"},
+      {"t": "Niners week. Bring the noise.", "m": "San Francisco is the rival that matters most.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Raising the 12 flag", "means": "Before kickoff a guest raises the 12 flag at the south end of the stadium as the crowd roars."},
+      {"name": "Taima's flight", "means": "The team's live hawk flies out of the tunnel ahead of the players."},
+      {"name": "Noise", "means": "Fans aim to be so loud that visiting offenses can't hear the snap count."}
+    ],
+    "sore": [
+      {"topic": "Super Bowl XLIX", "why": "Seattle threw an interception at the 1-yard line in the final minute against New England in February 2015."},
+      {"topic": "Super Bowl XL", "why": "Fans still blame the officiating for the loss to Pittsburgh in February 2006."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the 12th Man", "instead": "the 12s", "why": "Texas A&M owns the '12th Man' trademark, so Seattle uses '12s'."},
-      {"say": "CenturyLink Field", "instead": "Lumen Field", "why": "The stadium took the Lumen name in 2020."}
+      {"say": "CenturyLink Field", "instead": "Lumen Field", "why": "The stadium took the Lumen name in 2020."},
+      {"say": "the Kingdome", "instead": "Lumen Field", "why": "The old dome was knocked down in 2000."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Seattle_Seahawks", "https://www.cbssports.com/nfl/news/super-bowl-results-winners-mvps-history-full-list/"],
+    "sources": ["https://en.wikipedia.org/wiki/Seattle_Seahawks", "https://en.wikipedia.org/wiki/Super_Bowl_LX", "https://en.wikipedia.org/wiki/Lumen_Field", "https://en.wikipedia.org/wiki/12th_man_(football)", "https://en.wikipedia.org/wiki/Beast_Quake"],
     "unsure": []
   },
   {
     "team": "Tampa Bay Buccaneers",
     "espnId": "27",
     "league": "football/nfl",
+    "region": "us-florida",
     "aliases": ["tampa bay", "tampa", "buccaneers", "bucs", "tb"],
     "nickname": "the Bucs",
     "fans": "",
-    "ground": "Raymond James Stadium",
+    "ground": "Ray Jay",
     "rivals": [
       {"team": "New Orleans Saints", "name": "the Saints", "derby": ""},
       {"team": "Atlanta Falcons", "name": "the Falcons", "derby": ""},
@@ -984,27 +1446,44 @@
     "legends": ["Derrick Brooks", "Warren Sapp", "Ronde Barber", "Mike Alstott"],
     "memory": "Winning Super Bowl LV in their own stadium in February 2021",
     "lingo": [
-      {"term": "Fire the cannons", "say": "FYR the KAN-unz", "means": "The stadium's pirate ship fires its cannons after Bucs scores."},
-      {"term": "Creamsicle", "say": "KREEM-sik-ul", "means": "The old orange uniforms of 1976 to 1996, now worn as throwbacks."},
-      {"term": "Bucco Bruce", "say": "BOO-koh BROOS", "means": "The winking pirate logo from the orange-uniform days."},
-      {"term": "the A-Train", "say": "the AY-trayn", "means": "Fullback Mike Alstott's nickname."}
+      {"term": "Ray Jay", "say": "RAY JAY", "ipa": "ˈɹeɪ ˈdʒeɪ", "tts": "", "means": "Raymond James Stadium, home since 1998."},
+      {"term": "Fire the cannons", "say": "FYR the KAN-unz", "ipa": "ˈfaɪɚ ðə ˈkænənz", "tts": "", "means": "The stadium's pirate ship fires its cannons after Bucs scores."},
+      {"term": "Creamsicle", "say": "KREEM-sik-ul", "ipa": "ˈkɹimˌsɪkəl", "tts": "", "means": "The old orange uniforms of 1976 to 1996, now worn as throwbacks."},
+      {"term": "Bucco Bruce", "say": "BUK-oh BROOS", "ipa": "ˈbʌkoʊ ˈbɹus", "tts": "buck oh bruce", "means": "The winking pirate logo from the orange-uniform days."},
+      {"term": "the A-Train", "say": "the AY-trayn", "ipa": "ði ˈeɪ ˌtɹeɪn", "tts": "", "means": "Fullback Mike Alstott's nickname."},
+      {"term": "the Tampa 2", "say": "the TAM-puh TOO", "ipa": "ðə ˈtæmpə ˈtu", "tts": "the tampa two", "means": "The zone defense the great 2002 team made famous."},
+      {"term": "Captain Fear", "say": "KAP-tun FEER", "ipa": "ˈkæptən ˈfɪɹ", "tts": "", "means": "The pirate mascot."}
     ],
     "lines": [
-      {"t": "Fire the cannons!", "m": "What fans shout after a touchdown."},
-      {"t": "That 2002 defense was the best ever.", "m": "Fans revere the team that won Super Bowl XXXVII."},
-      {"t": "Creamsicle throwbacks, best uniforms in the league.", "m": "Fans love the retro orange look."},
-      {"t": "Saints week is the big one.", "m": "New Orleans is the main division rival."}
+      {"t": "Fire the cannons!", "m": "What fans shout after a touchdown.", "when": "any"},
+      {"t": "That 2002 defense was the best ever.", "m": "Fans revere the team that won Super Bowl XXXVII.", "when": "any"},
+      {"t": "Creamsicle throwbacks, best uniforms in the league.", "m": "Fans love the retro orange look.", "when": "any"},
+      {"t": "Two Lombardis, and one of them at home.", "m": "Tampa Bay won Super Bowl XXXVII and Super Bowl LV, the second at Ray Jay.", "when": "any"},
+      {"t": "Ray Jay was rocking today.", "m": "Praise for a loud home crowd after a win.", "when": "win"},
+      {"t": "Saints week is the big one.", "m": "New Orleans is the main division rival.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The pirate ship", "means": "A full-size pirate ship sits in the north end zone and fires its cannons when the Bucs score."},
+      {"name": "Creamsicle game", "means": "The team wears the orange throwbacks for a game or two each year, and fans dig out their old jerseys."}
+    ],
+    "sore": [
+      {"topic": "0-26", "why": "The expansion Bucs lost their first 26 games in 1976 and 1977."},
+      {"topic": "The losing years", "why": "Fourteen straight losing seasons from 1983 to 1996 earned the team the nickname 'the Yucks'."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "Tampa Bay is a city", "instead": "the team plays in Tampa", "why": "Tampa Bay is the bay and the region; the stadium is in the city of Tampa."}
+      {"say": "Tampa Bay is a city", "instead": "the team plays in Tampa", "why": "Tampa Bay is the bay and the region; the stadium is in the city of Tampa."},
+      {"say": "they play in St. Pete", "instead": "they play in Tampa", "why": "St. Petersburg is across the bay; the Bucs have always been in Tampa."},
+      {"say": "the Yucks", "instead": "the Bucs", "why": "An old insult from the losing years."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers"],
+    "sources": ["https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers", "https://en.wikipedia.org/wiki/Raymond_James_Stadium", "https://en.wikipedia.org/wiki/Tampa_2", "https://en.wikipedia.org/wiki/Super_Bowl_LV"],
     "unsure": []
   },
   {
     "team": "Tennessee Titans",
     "espnId": "10",
     "league": "football/nfl",
+    "region": "us-tennessee",
     "aliases": ["tennessee", "titans", "ten", "nashville"],
     "nickname": "the Titans",
     "fans": "",
@@ -1017,29 +1496,42 @@
     "legends": ["Steve McNair", "Bruce Matthews", "Earl Campbell", "Warren Moon"],
     "memory": "The Music City Miracle: a last-second kick-return lateral to beat Buffalo in the January 2000 playoffs",
     "lingo": [
-      {"term": "Titan Up", "say": "TY-tun UP", "means": "The team's rallying cry."},
-      {"term": "Music City Miracle", "say": "MYOO-zik SIT-ee MEER-uh-kul", "means": "The famous 2000 playoff kick-return touchdown against the Bills."},
-      {"term": "One Yard Short", "say": "WUN YARD SHORT", "means": "Kevin Dyson stopped at the 1-yard line on the last play of Super Bowl XXXIV."},
-      {"term": "Luv Ya Blue", "say": "LUV yuh BLOO", "means": "The late-1970s Houston Oilers fan craze from the franchise's past."}
+      {"term": "Titan Up", "say": "TY-tun UP", "ipa": "ˈtaɪtən ˈʌp", "tts": "", "means": "The team's rallying cry."},
+      {"term": "the Music City Miracle", "say": "MYOO-zik SIT-ee MEER-uh-kul", "ipa": "ðə ˈmjuzɪk ˈsɪti ˈmɪɹəkəl", "tts": "", "means": "The famous 2000 playoff kick-return touchdown against the Bills."},
+      {"term": "Home Run Throwback", "say": "HOHM run THROH-bak", "ipa": "ˈhoʊm ˈɹʌn ˈθɹoʊˌbæk", "tts": "", "means": "The name of the trick kick-return play behind the Music City Miracle."},
+      {"term": "Air McNair", "say": "AIR mik-NAIR", "ipa": "ˈɛɹ məkˈnɛɹ", "tts": "", "means": "Quarterback Steve McNair's nickname."},
+      {"term": "T-Rac", "say": "TEE-rak", "ipa": "ˈti ˌɹæk", "tts": "tee rack", "means": "The raccoon mascot, named for Tennessee's state animal."},
+      {"term": "Luv Ya Blue", "say": "LUV yuh BLOO", "ipa": "ˈlʌv jə ˈblu", "tts": "", "means": "The late-1970s Houston Oilers fan craze from the franchise's past."}
     ],
     "lines": [
-      {"t": "Titan up!", "m": "The team's rallying cry."},
-      {"t": "Music City Miracle, best play I ever saw.", "m": "Fans' favorite moment, from the January 2000 playoffs."},
-      {"t": "One more yard and we'd have had a ring.", "m": "The Titans lost Super Bowl XXXIV a yard short."},
-      {"t": "Last year in the old place.", "m": "2026 is the final season in the current Nissan Stadium; the new domed one opens next door in 2027."}
+      {"t": "Titan up!", "m": "The team's rallying cry.", "when": "any"},
+      {"t": "Music City Miracle, best play I ever saw.", "m": "Fans' favorite moment, from the January 2000 playoffs.", "when": "any"},
+      {"t": "One more yard and we'd have had a ring.", "m": "The Titans lost Super Bowl XXXIV a yard short.", "when": "any"},
+      {"t": "Last year in the old place.", "m": "2026 is the final season in the current Nissan Stadium; the new domed one opens next door in 2027.", "when": "any"},
+      {"t": "Broadway's going to be loud tonight.", "m": "After a home win, fans cross the river to the honky-tonks downtown.", "when": "win"},
+      {"t": "Beat Houston, always.", "m": "The Texans rivalry has extra edge because the franchise began as Houston's Oilers.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Crossing the bridge", "means": "Fans walk from downtown over the Cumberland River on the pedestrian bridge to the stadium."},
+      {"name": "T-Rac's stunts", "means": "The raccoon mascot zips, rides and clowns around the stadium during games."}
+    ],
+    "sore": [
+      {"topic": "One Yard Short", "why": "Kevin Dyson was stopped at the 1-yard line on the last play of Super Bowl XXXIV in January 2000."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Houston Oilers", "instead": "the Titans", "why": "The franchise left Houston in 1997 and became the Titans in 1999."},
       {"say": "they play in Memphis", "instead": "they play in Nashville", "why": "The team spent only one season, 1997, in Memphis."},
-      {"say": "LP Field", "instead": "Nissan Stadium", "why": "The stadium has been Nissan Stadium since 2015."}
+      {"say": "LP Field", "instead": "Nissan Stadium", "why": "The stadium has been Nissan Stadium since 2015, and the new one keeps the name."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Tennessee_Titans", "https://www.wsmv.com/2026/08/12/its-starting-feel-like-stadium-titans-share-construction-progress-new-nissan-stadium/"],
-    "unsure": ["lingo: 'Titan Up' slogan not re-checked against a current source"]
+    "sources": ["https://en.wikipedia.org/wiki/Tennessee_Titans", "https://en.wikipedia.org/wiki/Music_City_Miracle", "https://en.wikipedia.org/wiki/Nissan_Stadium", "https://www.wsmv.com/2026/08/12/its-starting-feel-like-stadium-titans-share-construction-progress-new-nissan-stadium/"],
+    "unsure": ["lingo: 'Titan Up' is long established but not re-checked against a 2026 source"]
   },
   {
     "team": "Washington Commanders",
     "espnId": "28",
     "league": "football/nfl",
+    "region": "us-baltimore-dc",
     "aliases": ["washington", "commanders", "wsh", "dc"],
     "nickname": "the Commanders",
     "fans": "",
@@ -1052,30 +1544,44 @@
     "legends": ["Sonny Jurgensen", "Art Monk", "Darrell Green", "John Riggins"],
     "memory": "Three Super Bowl wins under coach Joe Gibbs, after the 1982, 1987 and 1991 seasons",
     "lingo": [
-      {"term": "HTTC", "say": "aych-tee-tee-SEE", "means": "Short for 'Hail to the Commanders', the fans' sign-off and the team hashtag."},
-      {"term": "Burgundy and Gold", "say": "BUR-gun-dee un GOHLD", "means": "The team's colors, also used as a nickname."},
-      {"term": "the Hogs", "say": "the HAWGZ", "means": "The famous 1980s offensive line."},
-      {"term": "the DMV", "say": "dee-em-VEE", "means": "The DC, Maryland and Virginia area the team represents."}
+      {"term": "HTTC", "say": "aych-tee-tee-SEE", "ipa": "ˌeɪtʃ ˌti ˌti ˈsi", "tts": "", "means": "Short for 'Hail to the Commanders', the fight song and the fans' sign-off."},
+      {"term": "Burgundy and Gold", "say": "BUR-gun-dee un GOHLD", "ipa": "ˈbɝɡəndi ən ˈɡoʊld", "tts": "", "means": "The team's colors, also used as a nickname."},
+      {"term": "the Hogs", "say": "the HAWGZ", "ipa": "ðə ˈhɔɡz", "tts": "", "means": "The famous 1980s offensive line."},
+      {"term": "the Fun Bunch", "say": "the FUN bunch", "ipa": "ðə ˈfʌn ˌbʌntʃ", "tts": "", "means": "The 1980s receivers known for their group high-five in the end zone."},
+      {"term": "Riggo", "say": "RIG-oh", "ipa": "ˈɹɪɡoʊ", "tts": "", "means": "Running back John Riggins, hero of Super Bowl XVII."},
+      {"term": "Major Tuddy", "say": "MAY-jer TUD-ee", "ipa": "ˈmeɪdʒɚ ˈtʌdi", "tts": "", "means": "The hog mascot, a nod to the Hogs, introduced in 2023."}
     ],
     "lines": [
-      {"t": "HTTC!", "m": "The fans' sign-off."},
-      {"t": "Dallas week. Circle it.", "m": "The Cowboys are the oldest and fiercest rival."},
-      {"t": "Riggo was a legend.", "m": "John Riggins's big run won Super Bowl XVII."},
-      {"t": "Can't wait for the new stadium at RFK.", "m": "The club plans to move back into DC, on the old RFK site, around 2030."}
+      {"t": "HTTC!", "m": "The fans' sign-off.", "when": "any"},
+      {"t": "Riggo was a legend.", "m": "John Riggins's big run won Super Bowl XVII.", "when": "any"},
+      {"t": "Three rings under Gibbs.", "m": "Joe Gibbs won three Super Bowls with three different quarterbacks.", "when": "any"},
+      {"t": "Can't wait for the new stadium at RFK.", "m": "The club plans to move back into DC, on the old RFK site, around 2030.", "when": "any"},
+      {"t": "Hail to the Commanders!", "m": "The fight song's title, shouted after a win.", "when": "win"},
+      {"t": "Dallas week. Circle it.", "m": "The Cowboys are the oldest and fiercest rival.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'Hail to the Commanders'", "means": "The team's fight song, one of the oldest in the NFL, plays after every score."},
+      {"name": "The Hogettes", "means": "For 30 years a group of superfans came to games in dresses and pig snouts to honor the Hogs."}
+    ],
+    "sore": [
+      {"topic": "The name change", "why": "The old name was dropped in 2020; fans are split on the new one and tired of the debate."},
+      {"topic": "The lean ownership years", "why": "Two decades of losing and off-field trouble before the 2023 sale still sting."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the team's old pre-2020 name", "instead": "the Commanders, or just Washington", "why": "The old name was dropped in 2020 as offensive."},
       {"say": "the Washington Football Team", "instead": "the Commanders", "why": "That was a stopgap name for 2020 and 2021."},
       {"say": "FedExField", "instead": "Northwest Stadium", "why": "The stadium in Landover, Maryland, was renamed in 2024."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Washington_Commanders", "https://en.wikipedia.org/wiki/Hail_to_the_Commanders"],
+    "sources": ["https://en.wikipedia.org/wiki/Washington_Commanders", "https://en.wikipedia.org/wiki/Hail_to_the_Commanders", "https://en.wikipedia.org/wiki/The_Hogs_(American_football)", "https://en.wikipedia.org/wiki/Northwest_Stadium"],
     "unsure": []
   },
   {
     "team": "BC Lions",
     "espnId": "79",
     "league": "football/cfl",
-    "aliases": ["bc lions", "bc", "lions", "leos", "vancouver"],
+    "region": "ca-bc",
+    "aliases": ["bc lions", "bc", "leos", "vancouver"],
     "nickname": "the Leos",
     "fans": "",
     "ground": "BC Place",
@@ -1084,27 +1590,45 @@
       {"team": "Edmonton Elks", "name": "the Elks", "derby": ""},
       {"team": "Saskatchewan Roughriders", "name": "the Riders", "derby": ""}
     ],
-    "legends": ["Lui Passaglia", "Joe Kapp", "Willie Fleming", "Jim Young"],
+    "legends": ["Lui Passaglia", "Joe Kapp", "Willie Fleming", "Geroy Simon"],
     "memory": "Lui Passaglia's last-second field goal to beat the Baltimore Stallions in the 1994 Grey Cup at BC Place",
     "lingo": [
-      {"term": "Leos", "say": "LEE-ohz", "means": "The Lions' nickname."},
-      {"term": "Cardiac Kids", "say": "KAR-dee-ak KIDZ", "means": "The 1977 team, known for last-minute wins."}
+      {"term": "Leos", "say": "LEE-ohz", "ipa": "ˈlioʊz", "tts": "", "means": "The Lions' nickname."},
+      {"term": "Cardiac Kids", "say": "KAR-dee-ak KIDZ", "ipa": "ˈkɑɹdiˌæk ˈkɪdz", "tts": "", "means": "The 1977 team, known for last-minute comebacks."},
+      {"term": "Leo the Lion", "say": "LEE-oh the LY-un", "ipa": "ˈlioʊ ðə ˈlaɪən", "tts": "", "means": "The team mascot, with his partner Rory."},
+      {"term": "Roar, You Lions, Roar", "say": "ROR yoo LY-unz ROR", "ipa": "ˈɹɔɹ ju ˈlaɪənz ˈɹɔɹ", "tts": "", "means": "The club's fight song, written by Vancouver bandleader Dal Richards."},
+      {"term": "Empire Field", "say": "EM-pyr FEELD", "ipa": "ˈɛmpaɪɚ ˈfild", "tts": "", "means": "The temporary stadium the Lions used in 2010 and 2011 while BC Place got its new roof."}
     ],
     "lines": [
-      {"t": "Go Leos!", "m": "The standard cheer."},
-      {"t": "Lui kept the Cup in Canada in '94.", "m": "Passaglia's kick beat Baltimore, the American-based team, in the 1994 Grey Cup."},
-      {"t": "Beat Calgary and I'm happy.", "m": "The Stampeders are a long-time West rival."}
+      {"t": "Go Leos!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Lui kept the Cup in Canada in '94.", "m": "Passaglia's kick beat Baltimore, the American-based team, in the 1994 Grey Cup.", "when": "any"},
+      {"t": "We won the Cup at home twice.", "m": "BC won the Grey Cup at BC Place in 1994 and 2011. The 1994 win was the first by a western team at home.", "when": "any"},
+      {"t": "Close the roof and it gets loud in there.", "m": "BC Place's retractable roof traps the noise.", "when": "any"},
+      {"t": "Roar, you Lions, roar!", "m": "The fight song title, shouted after a win.", "when": "win"},
+      {"t": "Beat Calgary and I'm happy.", "m": "The Stampeders are a long-time West Division rival.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'Roar, You Lions, Roar'", "means": "The fight song, written by Vancouver bandleader Dal Richards, is a fixture at home games."},
+      {"name": "Home Grey Cups", "means": "Fans are proud of winning the Cup in front of their own crowd, in 1994 and 2011."}
+    ],
+    "sore": [
+      {"topic": "The 1988 Grey Cup", "why": "BC lost 22-21 to Winnipeg after a late interception near the goal line."},
+      {"topic": "Playoff exits to Calgary", "why": "The Stamps knocked the Lions out with late comebacks in 1991 and 1999."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "the Vancouver Lions", "instead": "the BC Lions", "why": "The team represents the whole province of British Columbia."}
+      {"say": "the Vancouver Lions", "instead": "the BC Lions", "why": "The team represents the whole province of British Columbia."},
+      {"say": "the Detroit Lions", "instead": "the BC Lions", "why": "Detroit's NFL team is a different club; in Vancouver, 'the Lions' means BC."},
+      {"say": "the Lions' Super Bowl", "instead": "the Grey Cup", "why": "The CFL's championship is the Grey Cup."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/BC_Lions"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/BC_Lions", "https://en.wikipedia.org/wiki/BC_Place", "https://en.wikipedia.org/wiki/82nd_Grey_Cup", "https://en.wikipedia.org/wiki/Empire_Field"],
+    "unsure": ["fans: no settled name for the fan base found"]
   },
   {
     "team": "Calgary Stampeders",
     "espnId": "80",
     "league": "football/cfl",
+    "region": "ca-prairies",
     "aliases": ["calgary", "stampeders", "stamps", "horsemen"],
     "nickname": "the Stamps",
     "fans": "",
@@ -1115,28 +1639,47 @@
       {"team": "BC Lions", "name": "the Lions", "derby": ""}
     ],
     "legends": ["Allen Pitts", "Wayne Harris", "Willie Burden", "Doug Flutie"],
-    "memory": "The unbeaten 1948 season and Grey Cup, when Calgary fans rode horses into a Toronto hotel and started the Grey Cup party",
+    "memory": "The unbeaten 1948 season and Grey Cup, when Calgary fans rode a horse into a Toronto hotel lobby and started the Grey Cup party",
     "lingo": [
-      {"term": "Stamps", "say": "STAMPS", "means": "Short for Stampeders."},
-      {"term": "Touchdown Horse", "say": "TUCH-down HORS", "means": "The white horse, Quick Six, that gallops the sideline after Calgary touchdowns."},
-      {"term": "white hat", "say": "WYT HAT", "means": "The white Stetson, Calgary's welcome symbol, linked to fans at the 1948 Grey Cup."}
+      {"term": "Stamps", "say": "STAMPS", "ipa": "ˈstæmps", "tts": "", "means": "Short for Stampeders."},
+      {"term": "the Horsemen", "say": "the HORS-men", "ipa": "ðə ˈhɔɹsmən", "tts": "", "means": "An old nickname for the team."},
+      {"term": "Quick Six", "say": "KWIK SIKS", "ipa": "ˈkwɪk ˈsɪks", "tts": "", "means": "The white touchdown horse that gallops the sideline after Calgary touchdowns."},
+      {"term": "white hat", "say": "WYT HAT", "ipa": "ˈwaɪt ˈhæt", "tts": "", "means": "The white Stetson, Calgary's symbol since fans wore them to the 1948 Grey Cup in Toronto."},
+      {"term": "Ralph the Dog", "say": "RALF the DOG", "ipa": "ˈɹælf ðə ˈdɑɡ", "tts": "", "means": "The team's dog mascot."},
+      {"term": "the Battle of Alberta", "say": "BAT-ul uv al-BUR-tuh", "ipa": "ðə ˈbætəl əv ælˈbɝtə", "tts": "", "means": "The rivalry with Edmonton, in football and hockey alike."}
     ],
     "lines": [
-      {"t": "Go Stamps go!", "m": "The standard cheer."},
-      {"t": "Battle of Alberta, the only game that matters.", "m": "Edmonton is the provincial rival."},
-      {"t": "Cue the horse!", "m": "Said when Calgary scores and Quick Six sets off down the sideline."},
-      {"t": "Calgary invented the Grey Cup party.", "m": "Fans credit the 1948 trip to Toronto with starting the festival."}
+      {"t": "Go Stamps go!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Calgary invented the Grey Cup party.", "m": "Fans credit the 1948 trip to Toronto with starting the festival.", "when": "any"},
+      {"t": "Labour Day at McMahon against Edmonton. Can't miss it.", "m": "The Labour Day Classic is the biggest home date of the year.", "when": "any"},
+      {"t": "Bring your white hat.", "m": "Fans wear white Stetsons to games, and to Grey Cups anywhere.", "when": "any"},
+      {"t": "Cue the horse!", "m": "Said when Calgary scores and Quick Six sets off down the sideline.", "when": "win"},
+      {"t": "Battle of Alberta, the only game that matters.", "m": "Edmonton is the provincial rival.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The touchdown horse", "means": "After every Calgary touchdown, a rider gallops Quick Six down the sideline."},
+      {"name": "The Labour Day Classic", "means": "Calgary hosts Edmonton every Labour Day Monday, and the two meet again in Edmonton soon after."},
+      {"name": "Grey Cup parties", "means": "Calgary fans bring white hats and pancake breakfasts to the Grey Cup festival wherever it is held."}
+    ],
+    "sore": [
+      {"topic": "The 2016 Grey Cup", "why": "The 15-2-1 Stamps lost in overtime to an Ottawa team that had finished 8-9-1."},
+      {"topic": "Back-to-back Cup losses", "why": "Calgary lost the 2016 and 2017 Grey Cups before finally winning in 2018."}
+    ],
+    "pronounce": [
+      {"word": "McMahon", "say": "mik-MAN", "ipa": "məkˈmæn", "tts": "mick man", "why": "The stadium is named for the McMahon brothers. Locals say it in two syllables, not 'mik-MAY-un'."}
     ],
     "avoid": [
-      {"say": "the Calgary Stampede", "instead": "the Stampeders", "why": "The Stampede is the July rodeo; the football team is the Stampeders."}
+      {"say": "the Calgary Stampede", "instead": "the Stampeders", "why": "The Stampede is the July rodeo; the football team is the Stampeders."},
+      {"say": "the Calgary Flames' stadium", "instead": "McMahon Stadium", "why": "The Flames are the NHL team and play indoors; the Stamps play outdoors at McMahon."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Calgary_Stampeders", "https://www.stampeders.com/quick-six/"],
-    "unsure": ["lingo: white hat link to 1948 from memory, not re-checked"]
+    "sources": ["https://en.wikipedia.org/wiki/Calgary_Stampeders", "https://www.stampeders.com/quick-six/", "https://en.wikipedia.org/wiki/McMahon_Stadium", "https://en.wikipedia.org/wiki/104th_Grey_Cup", "https://en.wikipedia.org/wiki/36th_Grey_Cup"],
+    "unsure": ["pronounce: 'mik-MAN' for McMahon is the usual Canadian way to say the surname; no local pronunciation guide found"]
   },
   {
     "team": "Edmonton Elks",
     "espnId": "81",
     "league": "football/cfl",
+    "region": "ca-prairies",
     "aliases": ["edmonton", "elks", "the herd", "double e"],
     "nickname": "the Elks",
     "fans": "",
@@ -1148,25 +1691,42 @@
     "legends": ["Warren Moon", "Jackie Parker", "Henry 'Gizmo' Williams", "Johnny Bright"],
     "memory": "Five straight Grey Cups from 1978 to 1982, a CFL record",
     "lingo": [
-      {"term": "the Herd", "say": "the HURD", "means": "Nickname for the team since it became the Elks in 2021."},
-      {"term": "Double E", "say": "DUB-ul EE", "means": "Nickname from the interlocking E logo."},
-      {"term": "Green and Gold", "say": "GREEN un GOHLD", "means": "The team colours."}
+      {"term": "the Herd", "say": "the HURD", "ipa": "ðə ˈhɝd", "tts": "", "means": "Nickname for the team since it became the Elks in 2021."},
+      {"term": "Double E", "say": "DUB-ul EE", "ipa": "ˈdʌbəl ˈi", "tts": "", "means": "Nickname from the interlocking EE logo, the main logo again since 2025."},
+      {"term": "the Evil Empire", "say": "the EE-vul EM-pyr", "ipa": "ði ˈivəl ˈɛmpaɪɚ", "tts": "", "means": "What rivals called the dominant Edmonton teams from the 1970s to the 1990s. Fans wear it with pride."},
+      {"term": "Green and Gold", "say": "GREEN un GOHLD", "ipa": "ˈɡɹin ən ˈɡoʊld", "tts": "", "means": "The team colours."},
+      {"term": "Nanook", "say": "NAN-ook", "ipa": "ˈnænʊk", "tts": "nan nook", "means": "The polar bear mascot, brought back in 2025."},
+      {"term": "Gizmo", "say": "GIZ-moh", "ipa": "ˈɡɪzmoʊ", "tts": "", "means": "Henry Williams, the CFL's great kick returner."}
     ],
     "lines": [
-      {"t": "Battle of Alberta, nothing like it.", "m": "Calgary games are the biggest of the year."},
-      {"t": "Five in a row. Nobody's matched that.", "m": "Edmonton won five straight Grey Cups, 1978 to 1982."},
-      {"t": "Gizmo was electric on returns.", "m": "Henry 'Gizmo' Williams is the league's great kick returner."}
+      {"t": "Go Elks!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Five in a row. Nobody's matched that.", "m": "Edmonton won five straight Grey Cups, 1978 to 1982.", "when": "any"},
+      {"t": "Fourteen Grey Cups. Only Toronto has more.", "m": "Edmonton's last title came in 2015.", "when": "any"},
+      {"t": "Gizmo was electric on returns.", "m": "Henry 'Gizmo' Williams is the league's great kick returner.", "when": "any"},
+      {"t": "The Herd is rolling!", "m": "A shout after a win.", "when": "win"},
+      {"t": "Battle of Alberta, nothing like it.", "m": "Calgary games are the biggest of the year.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Big crowds at Commonwealth", "means": "The CFL's biggest stadium fills for Calgary games and playoff nights."},
+      {"name": "The Labour Day rematch", "means": "After the Labour Day game in Calgary, the Elks host the Stamps soon after for the return match."}
+    ],
+    "sore": [
+      {"topic": "The home losing streak", "why": "Edmonton lost 22 straight home games from 2019 to 2023, a league record."},
+      {"topic": "The rename", "why": "The club dropped its old name in 2020, and some fans still haven't warmed to 'Elks'."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "the team's old pre-2020 name", "instead": "the Elks", "why": "The club dropped its old name in 2020 and became the Elks in 2021."}
+      {"say": "the team's old pre-2020 name", "instead": "the Elks", "why": "The club dropped its old name in 2020 and became the Elks in 2021."},
+      {"say": "the Oilers", "instead": "the Elks", "why": "The Oilers are Edmonton's NHL team."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Edmonton_Elks", "https://amp.cbc.ca/news/canada/edmonton/football-field-at-commonwealth-stadium-now-named-play-alberta-field-1.7536067"],
-    "unsure": ["ground: the field itself has been Play Alberta Field since 2025; the stadium is still Commonwealth"]
+    "sources": ["https://en.wikipedia.org/wiki/Edmonton_Elks", "https://en.wikipedia.org/wiki/Commonwealth_Stadium_(Edmonton)", "https://amp.cbc.ca/news/canada/edmonton/football-field-at-commonwealth-stadium-now-named-play-alberta-field-1.7536067", "https://en.wikipedia.org/wiki/Battle_of_Alberta"],
+    "unsure": []
   },
   {
     "team": "Hamilton Tiger-Cats",
     "espnId": "82",
     "league": "football/cfl",
+    "region": "ca-ontario",
     "aliases": ["hamilton", "tiger-cats", "tiger cats", "ticats", "cats"],
     "nickname": "the Ticats",
     "fans": "",
@@ -1178,56 +1738,94 @@
     "legends": ["Angelo Mosca", "Bernie Faloney", "Garney Henley", "Danny McManus"],
     "memory": "Winning the 1999 Grey Cup, the club's most recent title",
     "lingo": [
-      {"term": "Oskee Wee Wee", "say": "OS-kee WEE-wee", "means": "The century-old Ticats cheer, led by mascot Pigskin Pete."},
-      {"term": "Tabbies", "say": "TAB-eez", "means": "An old affectionate nickname for the team."},
-      {"term": "the Donut Box", "say": "the DOH-nut BOKS", "means": "Nickname for the stadium from its Tim Hortons days."}
+      {"term": "Oskee Wee Wee", "say": "OS-kee WEE-wee", "ipa": "ˈɑski ˈwi ˈwi", "tts": "", "means": "The century-old Ticats cheer, led by Pigskin Pete."},
+      {"term": "Pigskin Pete", "say": "PIG-skin PEET", "ipa": "ˈpɪɡˌskɪn ˈpit", "tts": "", "means": "The club's official cheerleader since the 1920s, in a bowler hat and a number 6 jersey."},
+      {"term": "Tabbies", "say": "TAB-eez", "ipa": "ˈtæbiz", "tts": "", "means": "An old affectionate nickname for the team."},
+      {"term": "the Cats", "say": "the KATS", "ipa": "ðə ˈkæts", "tts": "", "means": "The everyday short name for the team."},
+      {"term": "the Donut Box", "say": "the DOH-nut BOKS", "ipa": "ðə ˈdoʊnʌt ˈbɑks", "tts": "", "means": "Nickname for the stadium from its Tim Hortons days, which many fans still use."},
+      {"term": "Ivor Wynne", "say": "EYE-ver WIN", "ipa": "ˈaɪvɚ ˈwɪn", "tts": "eye ver win", "means": "The old stadium on the same site, home from 1950 to 2012. Older fans still talk about it."}
     ],
     "lines": [
-      {"t": "Oskee Wee Wee!", "m": "The classic Ticats cheer. Shout it back if you hear it."},
-      {"t": "Beat the Argos on Labour Day and the season's made.", "m": "The Labour Day Classic in Hamilton is the biggest game of the year."},
-      {"t": "Hamilton's a football town.", "m": "Fans see the Ticats as the heart of the steel city."}
+      {"t": "Oskee Wee Wee!", "m": "The classic Ticats cheer. Shout it back if you hear it.", "when": "any"},
+      {"t": "Hamilton's a football town.", "m": "Fans see the Ticats as the heart of the steel city.", "when": "any"},
+      {"t": "Last Cup was 1999. This is the year.", "m": "Hope springs eternal; Hamilton is the only club without a Grey Cup this century.", "when": "any"},
+      {"t": "Pigskin Pete's got them going today.", "m": "Said when the crowd is loud and the cheer keeps coming.", "when": "any"},
+      {"t": "The Cats are back!", "m": "A shout after a big win.", "when": "win"},
+      {"t": "Beat the Argos on Labour Day and the season's made.", "m": "The Labour Day Classic in Hamilton is the biggest game of the year.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Oskee Wee Wee", "means": "Pigskin Pete leads the stadium in the old cheer before and during games."},
+      {"name": "The Labour Day Classic", "means": "Hamilton hosts Toronto on Labour Day Monday almost every year, with the rematch in Toronto soon after."}
+    ],
+    "sore": [
+      {"topic": "The Grey Cup drought", "why": "Hamilton hasn't won the Cup since 1999 and has lost four finals since 2013."},
+      {"topic": "The 2021 Grey Cup", "why": "The Ticats lost to Winnipeg in overtime in their own stadium."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "the Hamilton Tigers", "instead": "the Tiger-Cats, or Ticats", "why": "The Tigers merged with the Wildcats in 1950 to form the Tiger-Cats."}
+      {"say": "the Hamilton Tigers", "instead": "the Tiger-Cats, or Ticats", "why": "The Tigers merged with the Wildcats in 1950 to form the Tiger-Cats."},
+      {"say": "Ivor Wynne Stadium", "instead": "Hamilton Stadium", "why": "Ivor Wynne was knocked down in 2012 and the new stadium opened on the site in 2014."},
+      {"say": "Go Argos", "instead": "Oskee Wee Wee", "why": "Toronto is the enemy, just down the highway."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Hamilton_Tiger-Cats", "https://www.ticats.ca/2024/12/18/hamiltons-stadium-will-have-a-new-name/"],
-    "unsure": ["ground: 'Hamilton Stadium' is a stopgap name since Tim Hortons left after 2024; no new sponsor found, and many fans still say Tim Hortons Field"]
+    "sources": ["https://en.wikipedia.org/wiki/Hamilton_Tiger-Cats", "https://en.wikipedia.org/wiki/Hamilton_Stadium", "https://www.ticats.ca/2024/12/18/hamiltons-stadium-will-have-a-new-name/", "https://dev.3downnation.com/2024/12/18/tim-hortons-field-no-more-hamilton-stadium-to-get-new-name-in-2025/", "https://en.wikipedia.org/wiki/Labour_Day_Classic"],
+    "unsure": ["ground: 'Hamilton Stadium' is a stopgap name while the city looks for a new sponsor; many fans still say Tim Hortons Field"]
   },
   {
     "team": "Montreal Alouettes",
     "espnId": "83",
     "league": "football/cfl",
+    "region": "ca-quebec",
     "aliases": ["montreal", "alouettes", "als", "mtl"],
     "nickname": "the Als",
     "fans": "",
     "ground": "Molson Stadium",
     "rivals": [
       {"team": "Toronto Argonauts", "name": "the Argos", "derby": ""},
-      {"team": "Ottawa Red Blacks", "name": "the Redblacks", "derby": ""},
-      {"team": "Hamilton Tiger-Cats", "name": "the Ticats", "derby": ""}
+      {"team": "Hamilton Tiger-Cats", "name": "the Ticats", "derby": ""},
+      {"team": "Ottawa Red Blacks", "name": "the Redblacks", "derby": ""}
     ],
-    "legends": ["Mike Pringle", "Sam Etcheverry", "Hal Patterson", "Tracy Ham"],
+    "legends": ["Anthony Calvillo", "Mike Pringle", "Sam Etcheverry", "Hal Patterson"],
     "memory": "Upsetting Winnipeg 28-24 to win the 2023 Grey Cup",
     "lingo": [
-      {"term": "les Als", "say": "lay ZAL", "means": "The French short name; English speakers just say 'the Als'."},
-      {"term": "Alouette", "say": "al-oo-ET", "means": "French for 'lark'. The team is named after the folk song."}
+      {"term": "les Als", "say": "lay ZAL", "ipa": "le zal", "tts": "lay zal", "means": "The French short name; English speakers just say 'the Als'."},
+      {"term": "Alouette", "say": "al-oo-ET", "ipa": "a.lwɛt", "tts": "ah lweht", "means": "French for 'lark'. The team is named after the folk song and a wartime RCAF squadron."},
+      {"term": "the Larks", "say": "the LARKS", "ipa": "ðə ˈlɑɹks", "tts": "", "means": "An old English nickname, from the meaning of 'alouette'."},
+      {"term": "les Moineaux", "say": "lay mwah-NOH", "ipa": "le mwa.no", "tts": "lay mwah no", "means": "'The sparrows', a French nickname for the team."},
+      {"term": "Touché", "say": "too-SHAY", "ipa": "tu.ʃe", "tts": "too shay", "means": "The bird mascot."},
+      {"term": "the mountain", "say": "the MOWN-tun", "ipa": "ðə ˈmaʊntən", "tts": "", "means": "Mount Royal. Molson Stadium sits on its slope, on the McGill campus."}
     ],
     "lines": [
-      {"t": "Allez les Als!", "m": "French for 'Go Als!', heard all over the stadium."},
-      {"t": "Nothing beats a game on the mountain.", "m": "Molson Stadium sits on the slope of Mount Royal, at McGill University."},
-      {"t": "Pringle could run all day.", "m": "Mike Pringle is the CFL's career rushing leader."}
+      {"t": "Allez les Als!", "m": "French for 'Go Als!', heard all over the stadium.", "when": "any"},
+      {"t": "Nothing beats a game on the mountain.", "m": "Molson Stadium sits on the slope of Mount Royal, at McGill University.", "when": "any"},
+      {"t": "Pringle could run all day.", "m": "Mike Pringle is the CFL's career rushing leader.", "when": "any"},
+      {"t": "Calvillo threw for more yards than anyone in pro football.", "m": "Anthony Calvillo retired in 2014 as pro football's career passing leader.", "when": "any"},
+      {"t": "On a gagné!", "m": "French for 'We won!'", "when": "win"},
+      {"t": "Beat Toronto. Always.", "m": "The Toronto rivalry is one of the oldest in Canadian sport.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Games on the mountain", "means": "Fans climb the slope of Mount Royal to the small, open stadium at McGill, where the city skyline sits behind the stands."},
+      {"name": "Two languages", "means": "The announcer works in French and English, and the cheers come in both."}
+    ],
+    "sore": [
+      {"topic": "1987", "why": "The original club folded just before the season; Montreal had no team until 1996."},
+      {"topic": "The 2025 Grey Cup", "why": "The Als lost 25-17 to Saskatchewan, two years after their 2023 title."}
+    ],
+    "pronounce": [
+      {"word": "Alouettes", "say": "al-oo-ETS", "ipa": "ˌæluˈɛts", "tts": "", "why": "The 'ou' is an 'oo' sound, and English speakers stress the last syllable."}
     ],
     "avoid": [
-      {"say": "they play at the Olympic Stadium", "instead": "they play at Molson Stadium", "why": "The Als moved regular home games to Molson Stadium in 1998."},
-      {"say": "ah-LOW-ets", "instead": "al-oo-ETS", "why": "The name is French, so the 'ou' sounds like 'oo'."}
+      {"say": "they play at the Olympic Stadium", "instead": "they play at Molson Stadium", "why": "The Als have played all their home games at Molson Stadium since 2014; the Big O hosted some games until 2013."},
+      {"say": "ah-LOW-ets", "instead": "al-oo-ETS", "why": "The name is French, so the 'ou' sounds like 'oo'."},
+      {"say": "the Als have always been in Montreal", "instead": "they came back in 1996", "why": "The original club folded in 1987; today's team moved from Baltimore in 1996 and took the old name."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Montreal_Alouettes"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Montreal_Alouettes", "https://en.wikipedia.org/wiki/Percival_Molson_Memorial_Stadium", "https://en.wikipedia.org/wiki/110th_Grey_Cup", "https://en.wikipedia.org/wiki/112th_Grey_Cup", "https://en.wiktionary.org/wiki/alouette"],
+    "unsure": ["lingo: 'les Moineaux' is listed on Wikipedia but its everyday use by French-speaking fans wasn't checked in a French-language source"]
   },
   {
     "team": "Ottawa Red Blacks",
     "espnId": "87",
     "league": "football/cfl",
+    "region": "ca-ontario",
     "aliases": ["ottawa", "redblacks", "red blacks", "rouge et noir"],
     "nickname": "the Redblacks",
     "fans": "R-Nation",
@@ -1240,25 +1838,42 @@
     "legends": ["Henry Burris", "Russ Jackson", "Tony Gabriel"],
     "memory": "The 2016 Grey Cup: an overtime upset of Calgary in only the club's third season",
     "lingo": [
-      {"term": "R-Nation", "say": "AR NAY-shun", "means": "The fan base. The R covers Ottawa's Rough Riders, Renegades and Redblacks."},
-      {"term": "Lansdowne", "say": "LANZ-down", "means": "The park where TD Place stands. Locals often just say 'Lansdowne'."},
-      {"term": "Rouge et Noir", "say": "roozh ay NWAR", "means": "The team's official French name."}
+      {"term": "R-Nation", "say": "AR NAY-shun", "ipa": "ˈɑɹ ˈneɪʃən", "tts": "are nation", "means": "The fan base. The R covers Ottawa's Rough Riders, Renegades and Redblacks."},
+      {"term": "Lansdowne", "say": "LANZ-down", "ipa": "ˈlænzˌdaʊn", "tts": "", "means": "The park where TD Place stands. Locals often just say 'Lansdowne'."},
+      {"term": "Rouge et Noir", "say": "roozh ay NWAR", "ipa": "ʁuʒ e nwaʁ", "tts": "rooj A nwar", "means": "The team's official French name."},
+      {"term": "Big Joe", "say": "BIG JOH", "ipa": "ˈbɪɡ ˈdʒoʊ", "tts": "", "means": "The lumberjack mascot, named after Ottawa Valley folk hero Big Joe Mufferaw."},
+      {"term": "the Rough Riders", "say": "the RUF RY-derz", "ipa": "ðə ˈɹʌf ˈɹaɪdɚz", "tts": "", "means": "Ottawa's old team, which won nine Grey Cups before folding in 1996."}
     ],
     "lines": [
-      {"t": "Go Redblacks!", "m": "The standard cheer."},
-      {"t": "See you at Lansdowne.", "m": "How locals say they're going to the game."},
-      {"t": "Burris in 2016, what a finish.", "m": "Henry Burris was Grey Cup MVP in Ottawa's overtime title win."}
+      {"t": "Go Redblacks!", "m": "The standard cheer.", "when": "any"},
+      {"t": "See you at Lansdowne.", "m": "How locals say they're going to the game.", "when": "any"},
+      {"t": "Burris in 2016, what a finish.", "m": "Henry Burris was Grey Cup MVP in Ottawa's overtime title win.", "when": "any"},
+      {"t": "Ottawa's had football since 1876.", "m": "Fans are proud of the city's long football history, Rough Riders included.", "when": "any"},
+      {"t": "R-Nation, let's go!", "m": "A shout after a home win.", "when": "win"},
+      {"t": "Als week. Let's go.", "m": "Montreal is the nearest East Division rival.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Walking to Lansdowne", "means": "There's little parking, so fans walk or take shuttles down Bank Street through the Glebe to the stadium."},
+      {"name": "The R", "means": "Fans wear the big R logo, which links the Redblacks to the Rough Riders of the past."}
+    ],
+    "sore": [
+      {"topic": "Losing the team twice", "why": "The Rough Riders folded in 1996 and the Renegades in 2006, so Ottawa went years without football."},
+      {"topic": "Grey Cup losses", "why": "The Redblacks lost the 2015 and 2018 Grey Cups."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "the Ottawa Rough Riders", "instead": "the Redblacks", "why": "The Rough Riders folded in 1996; the Redblacks began in 2014. Don't mix them up with Saskatchewan's Roughriders either."}
+      {"say": "the Ottawa Rough Riders", "instead": "the Redblacks", "why": "The Rough Riders folded in 1996; the Redblacks began in 2014. Don't mix them up with Saskatchewan's Roughriders either."},
+      {"say": "the Red Blacks", "instead": "the Redblacks", "why": "The team name is one word."},
+      {"say": "Frank Clair Stadium", "instead": "TD Place", "why": "The stadium was rebuilt and renamed when the Redblacks arrived in 2014."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Ottawa_Redblacks", "https://jzmedia.ca/2021/07/24/ottawa-redblacks-to-host-fans-at-inner-squad-game-who-should-r-nation-be-watching-today/"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Ottawa_Redblacks", "https://en.wikipedia.org/wiki/TD_Place_Stadium", "https://en.wikipedia.org/wiki/Ottawa_Rough_Riders", "https://en.wikipedia.org/wiki/104th_Grey_Cup", "https://jzmedia.ca/2021/07/24/ottawa-redblacks-to-host-fans-at-inner-squad-game-who-should-r-nation-be-watching-today/"],
+    "unsure": ["traditions: the walk down Bank Street is from local knowledge, not checked in a second written source"]
   },
   {
     "team": "Saskatchewan Roughriders",
     "espnId": "84",
     "league": "football/cfl",
+    "region": "ca-prairies",
     "aliases": ["saskatchewan", "roughriders", "riders", "sask", "rider nation"],
     "nickname": "the Riders",
     "fans": "Rider Nation",
@@ -1271,28 +1886,46 @@
     "legends": ["George Reed", "Ron Lancaster", "Dave Ridgway", "Gene Makowsky"],
     "memory": "Winning the 2013 Grey Cup at home in Regina, then the 2025 Cup over Montreal",
     "lingo": [
-      {"term": "Rider Nation", "say": "RY-der NAY-shun", "means": "The fan base, spread across the province and far beyond."},
-      {"term": "melon head", "say": "MEL-un hed", "means": "A fan wearing a hollowed-out watermelon as a helmet."},
-      {"term": "Green and White", "say": "GREEN un WYT", "means": "The team colours, and a nickname for the club."}
+      {"term": "Rider Nation", "say": "RY-der NAY-shun", "ipa": "ˈɹaɪdɚ ˈneɪʃən", "tts": "", "means": "The fan base, spread across the province and far beyond."},
+      {"term": "melon head", "say": "MEL-un hed", "ipa": "ˈmɛlən ˌhɛd", "tts": "", "means": "A fan wearing a hollowed-out watermelon as a helmet."},
+      {"term": "Green and White", "say": "GREEN un WYT", "ipa": "ˈɡɹin ən ˈwaɪt", "tts": "", "means": "The team colours, and a nickname for the club."},
+      {"term": "Gainer the Gopher", "say": "GAY-ner the GOH-fer", "ipa": "ˈɡeɪnɚ ðə ˈɡoʊfɚ", "tts": "", "means": "The gopher mascot."},
+      {"term": "Riderville", "say": "RY-der-vil", "ipa": "ˈɹaɪdɚˌvɪl", "tts": "", "means": "Fans' name for Regina on game day, and the team's shop and website."},
+      {"term": "the 13th man", "say": "the THUR-teenth MAN", "ipa": "ðə ˈθɝˌtinθ ˈmæn", "tts": "the thirteenth man", "means": "The too-many-men penalty that cost Saskatchewan the 2009 Grey Cup."}
     ],
     "lines": [
-      {"t": "Go Riders!", "m": "The standard cheer, heard all across the prairies."},
-      {"t": "Labour Day in Regina against Winnipeg. Nothing bigger.", "m": "The Labour Day Classic is the province's biggest sporting day."},
-      {"t": "Bring your watermelon.", "m": "Fans wear melon helmets to games."},
-      {"t": "We own this team, the whole province does.", "m": "The Riders are community-owned and non-profit."}
+      {"t": "Go Riders!", "m": "The standard cheer, heard all across the prairies.", "when": "any"},
+      {"t": "Bring your watermelon.", "m": "Fans wear melon helmets to games.", "when": "any"},
+      {"t": "We own this team, the whole province does.", "m": "The Riders are community-owned and non-profit.", "when": "any"},
+      {"t": "Champs again in 2025.", "m": "Saskatchewan beat Montreal 25-17 for its fifth Grey Cup.", "when": "any"},
+      {"t": "Green and white, baby!", "m": "A shout after a win.", "when": "win"},
+      {"t": "Thirteen men. Still hurts.", "m": "The 2009 Grey Cup penalty. Only fans get to joke about it.", "when": "loss"},
+      {"t": "Labour Day in Regina against Winnipeg. Nothing bigger.", "m": "The Labour Day Classic is the province's biggest sporting day.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Melon heads", "means": "Fans carve watermelons into helmets and wear them in the stands."},
+      {"name": "The Labour Day Classic", "means": "Saskatchewan hosts Winnipeg in Regina every Labour Day Monday, then plays the rematch in Winnipeg."},
+      {"name": "Road trips", "means": "Rider Nation fills other teams' stadiums in green, especially in Calgary and Edmonton."}
+    ],
+    "sore": [
+      {"topic": "The 13th man", "why": "An extra player on the field on the last play let Montreal kick again and win the 2009 Grey Cup."}
+    ],
+    "pronounce": [
+      {"word": "Regina", "say": "ruh-JY-nuh", "ipa": "ɹəˈdʒaɪnə", "tts": "ruh jeye nuh", "why": "The city where the Riders play. Locals say it with a long 'i' in the middle."}
     ],
     "avoid": [
       {"say": "ruh-JEE-nuh", "instead": "ruh-JY-nuh", "why": "Locals say Regina with a long 'i' in the middle."},
       {"say": "the Banjo Bowl", "instead": "the Labour Day rematch", "why": "Riders fans and the club avoid the Winnipeg-coined name for the return game."},
       {"say": "Taylor Field", "instead": "Mosaic Stadium", "why": "The Riders moved next door to the new Mosaic Stadium in 2017."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Saskatchewan_Roughriders", "https://en.wikipedia.org/wiki/112th_Grey_Cup", "https://en.wikipedia.org/wiki/Banjo_Bowl"],
+    "sources": ["https://en.wikipedia.org/wiki/Saskatchewan_Roughriders", "https://en.wikipedia.org/wiki/112th_Grey_Cup", "https://en.wikipedia.org/wiki/97th_Grey_Cup", "https://en.wikipedia.org/wiki/Banjo_Bowl", "https://en.wiktionary.org/wiki/Regina"],
     "unsure": []
   },
   {
     "team": "Toronto Argonauts",
     "espnId": "85",
     "league": "football/cfl",
+    "region": "ca-ontario",
     "aliases": ["toronto", "argonauts", "argos", "double blue"],
     "nickname": "the Argos",
     "fans": "",
@@ -1304,27 +1937,42 @@
     "legends": ["Michael 'Pinball' Clemons", "Doug Flutie", "Damon Allen", "Condredge Holloway"],
     "memory": "Beating Winnipeg 41-24 in the 2024 Grey Cup for a record 19th title",
     "lingo": [
-      {"term": "Double Blue", "say": "DUB-ul BLOO", "means": "The team colours, from Oxford and Cambridge blues, and a nickname for the club."},
-      {"term": "Boatmen", "say": "BOHT-men", "means": "An old nickname from the club's rowing roots."},
-      {"term": "Argo Bounce", "say": "AR-goh BOWNS", "means": "A strange bounce of the ball. It began meaning Argo luck and flipped to mean bad luck."}
+      {"term": "Argos", "say": "AR-gohz", "ipa": "ˈɑɹɡoʊz", "tts": "", "means": "Short for Argonauts, and what everyone calls the team."},
+      {"term": "Double Blue", "say": "DUB-ul BLOO", "ipa": "ˈdʌbəl ˈblu", "tts": "", "means": "The team colours, from Oxford and Cambridge blues, and a nickname for the club."},
+      {"term": "the Boatmen", "say": "the BOHT-men", "ipa": "ðə ˈboʊtmən", "tts": "", "means": "An old nickname from the club's rowing roots."},
+      {"term": "Argo Bounce", "say": "AR-goh BOWNS", "ipa": "ˈɑɹɡoʊ ˈbaʊns", "tts": "", "means": "A strange bounce of the ball. It began meaning Argo luck and flipped to mean bad luck."},
+      {"term": "Pinball", "say": "PIN-bawl", "ipa": "ˈpɪnˌbɑl", "tts": "", "means": "Michael Clemons, the tiny, bouncing returner who later coached and ran the club."}
     ],
     "lines": [
-      {"t": "Go Argos!", "m": "The standard cheer."},
-      {"t": "Most Grey Cups in the league. Look it up.", "m": "Toronto holds the record for Grey Cup wins."},
-      {"t": "Oldest pro football team in North America.", "m": "The Argos were founded in 1873 and still use the name."},
-      {"t": "Classic Argo Bounce.", "m": "Said when the ball takes a cruel bounce against Toronto."}
+      {"t": "Go Argos!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Most Grey Cups in the league. Look it up.", "m": "Toronto holds the record for Grey Cup wins.", "when": "any"},
+      {"t": "Oldest pro football team in North America.", "m": "The Argos were founded in 1873 and still use the name.", "when": "any"},
+      {"t": "Pinball was the heart of this team.", "m": "Michael 'Pinball' Clemons is the club's most beloved figure.", "when": "any"},
+      {"t": "Double Blue, baby!", "m": "A shout after a win.", "when": "win"},
+      {"t": "Classic Argo Bounce.", "m": "Said when the ball takes a cruel bounce against Toronto.", "when": "loss"},
+      {"t": "Beat Hamilton and the season's a success.", "m": "The Ticats are the bitter rival down the highway.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Labour Day Classic", "means": "The Argos visit Hamilton on Labour Day Monday, then host the rematch soon after."},
+      {"name": "Lakeside games", "means": "BMO Field sits by Lake Ontario at Exhibition Place, and fans dress for the wind."}
+    ],
+    "sore": [
+      {"topic": "Small crowds", "why": "In a hockey and baseball city, the Argos are often overlooked, and fans are tired of hearing it."}
+    ],
+    "pronounce": [],
     "avoid": [
-      {"say": "they play at the SkyDome", "instead": "they play at BMO Field", "why": "The Argos moved to BMO Field in 2016."}
+      {"say": "they play at the SkyDome", "instead": "they play at BMO Field", "why": "The Argos moved to BMO Field in 2016."},
+      {"say": "Toronto doesn't have a football team", "instead": "the Argos, since 1873", "why": "The Argos are older than any NFL team."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Toronto_Argonauts", "https://cbra.library.utoronto.ca/items/show/38267"],
+    "sources": ["https://en.wikipedia.org/wiki/Toronto_Argonauts", "https://en.wikipedia.org/wiki/BMO_Field", "https://en.wikipedia.org/wiki/111th_Grey_Cup", "https://cbra.library.utoronto.ca/items/show/38267", "https://en.wikipedia.org/wiki/Labour_Day_Classic"],
     "unsure": []
   },
   {
     "team": "Winnipeg Blue Bombers",
     "espnId": "86",
     "league": "football/cfl",
-    "aliases": ["winnipeg", "blue bombers", "bombers", "big blue", "wpg"],
+    "region": "ca-prairies",
+    "aliases": ["winnipeg", "blue bombers", "bombers", "wpg"],
     "nickname": "the Bombers",
     "fans": "",
     "ground": "Princess Auto Stadium",
@@ -1335,20 +1983,34 @@
     "legends": ["Ken Ploen", "Milt Stegall", "Chris Walby", "Leo Lewis"],
     "memory": "Ending a 28-year wait with the 2019 Grey Cup, then winning again in 2021",
     "lingo": [
-      {"term": "Big Blue", "say": "BIG BLOO", "means": "The team's nickname."},
-      {"term": "Blue and Gold", "say": "BLOO un GOHLD", "means": "The team colours, another nickname."},
-      {"term": "Banjo Bowl", "say": "BAN-joh BOHL", "means": "The home rematch with Saskatchewan the week after Labour Day."}
+      {"term": "Big Blue", "say": "BIG BLOO", "ipa": "ˈbɪɡ ˈblu", "tts": "", "means": "The team's nickname."},
+      {"term": "Blue and Gold", "say": "BLOO un GOHLD", "ipa": "ˈblu ən ˈɡoʊld", "tts": "", "means": "The team colours, another nickname."},
+      {"term": "Banjo Bowl", "say": "BAN-joh BOHL", "ipa": "ˈbændʒoʊ ˈboʊl", "tts": "", "means": "The home rematch with Saskatchewan the week after Labour Day."},
+      {"term": "Buzz and Boomer", "say": "BUZ un BOO-mer", "ipa": "ˈbʌz ən ˈbumɚ", "tts": "", "means": "The two bee mascots."},
+      {"term": "Blue Bombers", "say": "BLOO BOM-erz", "ipa": "ˈblu ˈbɑmɚz", "tts": "", "means": "The name came from a 1936 sportswriter, after boxer Joe Louis, the 'Brown Bomber'."}
     ],
     "lines": [
-      {"t": "Go Big Blue!", "m": "The standard Bombers cheer."},
-      {"t": "Banjo Bowl weekend is the best in Winnipeg.", "m": "The Riders rematch is the biggest home game of the year."},
-      {"t": "Stegall could catch anything.", "m": "Milt Stegall is the club's great receiver."}
+      {"t": "Go Big Blue!", "m": "The standard Bombers cheer.", "when": "any"},
+      {"t": "Stegall could catch anything.", "m": "Milt Stegall is the club's great receiver.", "when": "any"},
+      {"t": "Back-to-back Cups after 28 years of waiting.", "m": "Winnipeg won the Grey Cup in 2019 and 2021, its first since 1990.", "when": "any"},
+      {"t": "Bombers win!", "m": "The simple shout after a win.", "when": "win"},
+      {"t": "Three Grey Cup losses in a row. Don't remind me.", "m": "Winnipeg lost the 2022, 2023 and 2024 finals.", "when": "loss"},
+      {"t": "Banjo Bowl weekend is the best in Winnipeg.", "m": "The Riders rematch is the biggest home game of the year.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Banjo Bowl", "means": "The week after the Labour Day game in Regina, Winnipeg hosts the Riders in a sold-out rematch."}
+    ],
+    "sore": [
+      {"topic": "Three straight Grey Cup losses", "why": "Winnipeg lost the Cup in 2022, 2023 and 2024."},
+      {"topic": "The long drought", "why": "The 28 years without a Cup from 1990 to 2019 still make older fans wince."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "the Banjo Bowl in Regina", "instead": "the Labour Day Classic in Regina", "why": "Regina hosts on Labour Day; the Banjo Bowl is the Winnipeg rematch."},
-      {"say": "Investors Group Field", "instead": "Princess Auto Stadium", "why": "The stadium opened under that name but now carries the Princess Auto name."}
+      {"say": "Investors Group Field", "instead": "Princess Auto Stadium", "why": "The stadium opened under that name but has carried the Princess Auto name since 2022."},
+      {"say": "the Jets' arena", "instead": "Princess Auto Stadium", "why": "The Jets are the NHL team downtown; the Bombers play outdoors at the university."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Winnipeg_Blue_Bombers", "https://en.wikipedia.org/wiki/Banjo_Bowl"],
+    "sources": ["https://en.wikipedia.org/wiki/Winnipeg_Blue_Bombers", "https://en.wikipedia.org/wiki/Princess_Auto_Stadium", "https://en.wikipedia.org/wiki/Banjo_Bowl", "https://en.wikipedia.org/wiki/111th_Grey_Cup"],
     "unsure": []
   }
 ]

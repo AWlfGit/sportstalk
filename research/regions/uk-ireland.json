@@ -1,0 +1,696 @@
+[
+  {
+    "id": "uk-london",
+    "name": "London",
+    "covers": "London and the Home Counties (Arsenal, Chelsea, Spurs, West Ham, Crystal Palace, Fulham, Brentford, QPR, Millwall, Charlton, Watford, Harlequins, Saracens)",
+    "dialect": "Cockney, Estuary English and Multicultural London English (MLE)",
+    "words": [
+      {"term": "geezer", "say": "GEE-zuh", "ipa": "ˈɡiːzə", "tts": "", "means": "A bloke, usually a likeable, larger-than-life one. Old Cockney, still everywhere.", "use": "Proper geezer, their centre-half. Wins everything in the air.", "common": true},
+      {"term": "bruv", "say": "BRUV", "ipa": "bɹʌv", "tts": "", "means": "Mate. Short for brother, used to any friend.", "use": "Bruv, did you see that miss?", "common": true},
+      {"term": "innit", "say": "IN-it", "ipa": "ˈɪnɪʔ", "tts": "", "means": "Isn't it. Tagged on the end to agree or round off a point.", "use": "Big game Saturday, innit.", "common": true},
+      {"term": "boozer", "say": "BOO-zuh", "ipa": "ˈbuːzə", "tts": "", "means": "The pub, where the match gets talked over before and after.", "use": "Meet you in the boozer before kick-off.", "common": true},
+      {"term": "mugged off", "say": "MUGD OFF", "ipa": "ˌmʌɡd ˈɒf", "tts": "", "means": "Made to look a fool, taken for a mug.", "use": "Their keeper got mugged off by that chip.", "common": true},
+      {"term": "a butcher's", "say": "uh BUTCH-uz", "ipa": "ə ˈbʊtʃəz", "tts": "", "means": "A look. Rhyming slang: butcher's hook, look.", "use": "Have a butcher's at the replay. Never a penalty.", "common": true},
+      {"term": "Adam and Eve it", "say": "AD-um un EEV it", "ipa": "ˌædəm ən ˈiːv ɪt", "tts": "", "means": "Believe it. Classic rhyming slang, said with a grin.", "use": "Would you Adam and Eve it? Two down at home again.", "common": false},
+      {"term": "manor", "say": "MAN-uh", "ipa": "ˈmænə", "tts": "", "means": "Your patch, your part of London.", "use": "Nobody comes on our manor and wins easy.", "common": false},
+      {"term": "lairy", "say": "LAIR-ee", "ipa": "ˈlɛəɹi", "tts": "", "means": "Loud, cocky and spoiling for an argument.", "use": "Their lot got a bit lairy after the second goal.", "common": true},
+      {"term": "bare", "say": "BAIR", "ipa": "bɛː", "tts": "", "means": "Very, or loads of. MLE, used by younger fans.", "use": "We had bare chances and still lost.", "common": true},
+      {"term": "peak", "say": "PEEK", "ipa": "piːk", "tts": "", "means": "Rotten luck, awful. MLE.", "use": "Hit the post twice and lost? That's peak.", "common": true},
+      {"term": "allow it", "say": "uh-LOW it", "ipa": "əˈlaʊ ɪt", "tts": "", "means": "Leave it out, stop that. MLE.", "use": "Another penalty to them? Allow it.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Tottenham", "say": "TOT-num", "ipa": "ˈtɒtnəm", "tts": "tot num", "why": "Two syllables, no 'ham'. Spurs' home and the area around it."},
+      {"word": "Plaistow", "say": "PLAH-stoh", "ipa": "ˈplɑːstəʊ", "tts": "plah stow", "why": "West Ham heartland in Newham. Outsiders say 'PLAY-stow'."},
+      {"word": "Greenwich", "say": "GREN-itch", "ipa": "ˈɡɹɛnɪtʃ", "tts": "gren itch", "why": "Charlton's borough. The 'w' is silent and the first vowel is short."},
+      {"word": "Southwark", "say": "SUTH-uk", "ipa": "ˈsʌðək", "tts": "suthuk", "why": "The south London borough that takes in Bermondsey, Millwall's patch. Never 'south-wark'."}
+    ],
+    "lines": [
+      {"t": "Proper London derby, this. Nobody wants to lose it.", "m": "London has loads of derbies, and every one of them matters to someone."},
+      {"t": "Nightmare getting across town on a matchday.", "m": "Moaning about the Tube and the traffic is part of the London matchday."},
+      {"t": "Fancy a pint in the boozer after?", "m": "The pub is where the match gets picked apart."},
+      {"t": "Would you Adam and Eve it? Another late one against us.", "m": "Rhyming slang for 'believe', said after a late goal goes in."},
+      {"t": "Out of order, that tackle. Bang out of order.", "m": "Something unfair or over the line. 'Bang' makes it stronger."}
+    ],
+    "avoid": [
+      {"say": "the London derby", "instead": "a London derby, or the North London derby", "why": "London has dozens of derbies, so name the one you mean."},
+      {"say": "all Londoners are Cockneys", "instead": "Londoners", "why": "Strictly, Cockneys come from the East End. Most Londoners aren't."},
+      {"say": "apples and pears", "instead": "plain English, or 'a butcher's'", "why": "Real Londoners rarely use the tourist rhyming slang. A few bits like 'a butcher's' survive."}
+    ],
+    "habits": ["Most fans travel by Tube, Overground or train, and the walk from the station is part of the day.", "A pre-match pint near the ground; on derby days many pubs near the stadium are home fans only.", "Clubs are tied to their part of the city (north, south, east, west), so family roots usually decide who you support."],
+    "sources": ["https://en.wikipedia.org/wiki/Multicultural_London_English", "https://en.wikipedia.org/wiki/Cockney", "https://www.eastlondonhistory.co.uk/history-east-end-cockney/", "https://en.wiktionary.org/wiki/geezer", "https://en.wiktionary.org/wiki/bruv", "https://en.wiktionary.org/wiki/manor", "https://en.wiktionary.org/wiki/Plaistow", "https://en.wiktionary.org/wiki/Southwark"],
+    "unsure": []
+  },
+  {
+    "id": "uk-south-coast",
+    "name": "The South Coast",
+    "covers": "Bournemouth, Brighton, Southampton, Portsmouth",
+    "dialect": "Southern English (Hampshire, Sussex and Dorset), with Portsmouth slang",
+    "words": [
+      {"term": "Pompey", "say": "POM-pee", "ipa": "ˈpɒmpi", "tts": "", "means": "Portsmouth: the city, the naval base and the football club all share the name.", "use": "Off to Pompey for the game Saturday.", "common": true},
+      {"term": "dinlo", "say": "DIN-loh", "ipa": "ˈdɪnləʊ", "tts": "din low", "means": "A fool or a daft so-and-so. Portsmouth slang, said with more fondness than spite.", "use": "Who's the dinlo who left the striker free at the back post?", "common": true},
+      {"term": "Sotonian", "say": "soh-TOH-nee-un", "ipa": "səʊˈtəʊniən", "tts": "so toe nee an", "means": "Someone from Southampton.", "use": "Born and bred Sotonian, Saints since I could walk.", "common": false},
+      {"term": "twitten", "say": "TWIT-un", "ipa": "ˈtwɪtən", "tts": "", "means": "Sussex word for a narrow alley or footpath between walls. Brighton and Lewes are full of them.", "use": "Cut down the twitten and you're at the station before the crowds.", "common": false},
+      {"term": "nipper", "say": "NIP-uh", "ipa": "ˈnɪpə", "tts": "", "means": "A child. Common all along the coast and over on the Isle of Wight.", "use": "Took the nipper to his first game. He's hooked.", "common": true},
+      {"term": "grockle", "say": "GROK-ul", "ipa": "ˈɡɹɒkəl", "tts": "", "means": "A summer tourist. Bournemouth and Dorset borrowed it from Devon.", "use": "Grockles everywhere in August. Couldn't get parked near the ground.", "common": true},
+      {"term": "overner", "say": "OH-vuh-nuh", "ipa": "ˈəʊvənə", "tts": "oh vuh nuh", "means": "Isle of Wight word for someone from the mainland, or an incomer.", "use": "He's lived on the Island twenty years and he's still an overner.", "common": false},
+      {"term": "caulkhead", "say": "KAWK-hed", "ipa": "ˈkɔːkhɛd", "tts": "cork head", "means": "Someone born and raised on the Isle of Wight.", "use": "Half the away end on the ferry home were caulkheads.", "common": false},
+      {"term": "the south coast derby", "say": "the SOWTH kohst DAR-bee", "ipa": "ðə ˈsaʊθ kəʊst ˈdɑːbi", "tts": "", "means": "Southampton against Portsmouth, the fiercest game in the region.", "use": "Fixtures are out. When's the south coast derby?", "common": true},
+      {"term": "the M23 derby", "say": "the em-twen-tee-THREE DAR-bee", "ipa": "ðə ˌɛm ˌtwɛnti ˈθɹiː ˈdɑːbi", "tts": "", "means": "Brighton against Crystal Palace, named after the road between Sussex and south London.", "use": "Nothing matters more in Brighton than the M23 derby.", "common": true},
+      {"term": "London-by-the-Sea", "say": "LUN-dun by the SEE", "ipa": "ˈlʌndən baɪ ðə ˈsiː", "tts": "", "means": "Old nickname for Brighton, thanks to all the Londoners who visit and move there.", "use": "Half the crowd came down on the train. London-by-the-Sea, innit.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Bournemouth", "say": "BORN-muth", "ipa": "ˈbɔːnməθ", "tts": "born muth", "why": "The ending is a short 'muth', never 'mouth'."},
+      {"word": "Southampton", "say": "sowth-AMP-tun", "ipa": "saʊθˈæmptən", "tts": "south ampton", "why": "One word with no 'h' sound in the middle. Outsiders say 'South Hampton'."},
+      {"word": "Portsmouth", "say": "PORTS-muth", "ipa": "ˈpɔːtsməθ", "tts": "ports muth", "why": "Same short 'muth' ending as Bournemouth."},
+      {"word": "Lewes", "say": "LOO-iss", "ipa": "ˈluːɪs", "tts": "", "why": "The Sussex county town next to Brighton's Amex stadium at Falmer. Two syllables, not 'lewz'."}
+    ],
+    "lines": [
+      {"t": "Whole of Hampshire stops for the south coast derby.", "m": "Saints against Pompey matters more than any other game round here."},
+      {"t": "Bit of a dinlo, that defender.", "m": "Portsmouth slang for a fool, aimed at a player who's just made a mess of it."},
+      {"t": "Lovely day for it. Shame about the wind off the sea.", "m": "Coastal grounds get a stiff sea breeze, and moaning about it is tradition."},
+      {"t": "Grockles everywhere in August, and the traffic's murder.", "m": "Summer visitors clog the roads to the ground in Bournemouth and along the coast."},
+      {"t": "Palace again? Get it won, it's the M23 derby.", "m": "Brighton fans before the game against Crystal Palace."}
+    ],
+    "avoid": [
+      {"say": "South Hampton", "instead": "Southampton", "why": "It's one word, and the 'h' in the middle is silent."},
+      {"say": "Saints and Pompey get on fine", "instead": "the south coast derby is fierce", "why": "They're bitter rivals who are only twenty miles apart."},
+      {"say": "Brighton and Palace is a friendly", "instead": "the M23 derby", "why": "It's grown into a proper rivalry since the 1970s."}
+    ],
+    "habits": ["Isle of Wight fans cross the Solent by ferry to watch Southampton and Portsmouth.", "Brighton fans take the train to Falmer, which stops right by the Amex.", "Summer means county cricket: Hampshire at the Utilita Bowl and Sussex at Hove."],
+    "sources": ["https://en.wiktionary.org/wiki/dinlo", "https://en.wiktionary.org/wiki/twitten", "https://en.wiktionary.org/wiki/grockle", "https://en.wiktionary.org/wiki/Sotonian", "https://en.wikipedia.org/wiki/Isle_of_Wight", "https://en.wikipedia.org/wiki/South_Coast_derby", "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.%E2%80%93Crystal_Palace_F.C._rivalry", "https://en.wikipedia.org/wiki/Brighton"],
+    "unsure": ["words: Portsmouth slang like 'squinny' and 'dabbers' left out; could not confirm in a second source", "words: dinlo confirmed in Wiktionary (Thorne's slang dictionary) but no local Portsmouth source reachable"]
+  },
+  {
+    "id": "uk-west-country",
+    "name": "The West Country",
+    "covers": "Bristol, Bath, Exeter, Gloucester",
+    "dialect": "West Country English, including Bristolian",
+    "words": [
+      {"term": "gert", "say": "GURT", "ipa": "ɡɝːt", "tts": "", "means": "Bristol for big, or very. Also spelled 'gurt'.", "use": "Gert big crowd in today.", "common": true},
+      {"term": "gert lush", "say": "gurt LUSH", "ipa": "ˌɡɝːt ˈlʌʃ", "tts": "", "means": "Bristol for really good, brilliant.", "use": "Gert lush goal, that. Top corner.", "common": true},
+      {"term": "lush", "say": "LUSH", "ipa": "lʌʃ", "tts": "", "means": "Lovely, great. Used for anything from a pint to a pass.", "use": "Lush afternoon for it.", "common": true},
+      {"term": "alright my lover", "say": "all-RITE my LUV-er", "ipa": "ɔːlˈɹaɪt maɪ ˈlʌvɚ", "tts": "", "means": "A friendly hello to anyone, man or woman. Nothing romantic about it.", "use": "Alright my lover? You going to the game Saturday?", "common": true},
+      {"term": "me babber", "say": "mee BAB-er", "ipa": "miː ˈbæbɚ", "tts": "", "means": "Bristol term of affection, like 'mate'. Babber means baby.", "use": "Get in, me babber! Three points.", "common": true},
+      {"term": "cheers drive", "say": "CHEERZ DRYVE", "ipa": "ˈtʃɪɚz ˈdɹaɪv", "tts": "", "means": "What Bristolians say to the bus driver when they get off. 'Drive' means any bus or taxi driver.", "use": "Cheers drive! Off at the ground, mate.", "common": true},
+      {"term": "where's it to?", "say": "WAIRZ it TOO", "ipa": "ˈwɛɚz ɪt ˈtuː", "tts": "", "means": "Where is it? The 'to' on the end is pure West Country.", "use": "New stand's opening next year. Where's it to, behind the goal?", "common": true},
+      {"term": "proper job", "say": "PROP-er JOB", "ipa": "ˈpɹɒpɚ ˈdʒɒb", "tts": "", "means": "Well done, a job done right. Strong in Devon and Cornwall.", "use": "Clean sheet and three points. Proper job.", "common": true},
+      {"term": "dreckly", "say": "DREK-lee", "ipa": "ˈdɹɛkli", "tts": "", "means": "Soon, or some time, or never. Devon and Cornwall's relaxed take on 'directly'.", "use": "They'll sign a striker dreckly.", "common": true},
+      {"term": "daps", "say": "DAPS", "ipa": "dæps", "tts": "", "means": "Trainers or plimsolls. Bristol and Gloucestershire, shared with South Wales.", "use": "Wearing daps to the game in this rain? Brave.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Gloucester", "say": "GLOSS-tuh", "ipa": "ˈɡlɒstə", "tts": "gloster", "why": "Two syllables. The middle 'ce' is silent."},
+      {"word": "Gloucestershire", "say": "GLOSS-tuh-shuh", "ipa": "ˈɡlɒstəʃə", "tts": "gloster shuh", "why": "The county cricket side. Same silent 'ce', and the end is a soft 'shuh'."},
+      {"word": "Cheltenham", "say": "CHELT-num", "ipa": "ˈtʃɛltnəm", "tts": "chelt num", "why": "Home of the racing festival. Locals squeeze it to two syllables and drop the 'ham'."},
+      {"word": "Torquay", "say": "tor-KEE", "ipa": "tɔːˈkiː", "tts": "tor key", "why": "The second half sounds like 'key'. Outsiders say 'tor-KWAY'."}
+    ],
+    "lines": [
+      {"t": "Gert lush goal, that.", "m": "Bristol for a cracking goal."},
+      {"t": "Proper job, boys. Proper job.", "m": "West Country well done after a good win."},
+      {"t": "They'll sort the defence out dreckly.", "m": "Dreckly means soon-ish, so don't hold your breath."},
+      {"t": "Nothing beats a West Country derby.", "m": "Bath, Bristol, Gloucester and Exeter all treat each other as local rugby rivals."},
+      {"t": "Bristol's big enough for two clubs. Only one of them's any good.", "m": "Mild Bristol derby banter between City and Rovers fans."}
+    ],
+    "avoid": [
+      {"say": "ooh arr", "instead": "just talk normally", "why": "It's the cartoon version of the accent, and locals hear it as mockery."},
+      {"say": "Your lover? Steady on.", "instead": "Alright my lover?", "why": "It's just a friendly greeting round here, said to anyone."},
+      {"say": "jam first on a Devon scone", "instead": "cream first in Devon", "why": "The one Devon-versus-Cornwall argument that never ends. Jam first is the Cornish way."}
+    ],
+    "habits": ["Rugby is as big as football here: Bath, Bristol Bears, Gloucester and Exeter Chiefs all pull big crowds.", "The Cheltenham Festival each March brings the racing world to Gloucestershire.", "Bristol's football and rugby both play at Ashton Gate, so the stadium is busy most weekends."],
+    "sources": ["https://en.wikipedia.org/wiki/West_Country_English", "https://dialectandheritage.org.uk/stories/spotlight-on-the-south-west/west-country-english/", "https://en.wiktionary.org/wiki/gert", "https://en.wiktionary.org/wiki/proper_job", "https://en.wiktionary.org/wiki/dreckly", "https://en.wiktionary.org/wiki/Gloucester", "https://en.wiktionary.org/wiki/Torquay"],
+    "unsure": ["words: Bristol Post and BBC Bristol pages could not be fetched, so local confirmation rests on Wikipedia's cited local press and the Leeds dialect project", "pronounce: Kingsholm left out; could not confirm whether locals sound the 'l'"]
+  },
+  {
+    "id": "uk-west-midlands",
+    "name": "The West Midlands",
+    "covers": "Birmingham and the Black Country, Coventry, the Potteries (Aston Villa, Birmingham City, West Brom, Wolves, Coventry, Stoke)",
+    "dialect": "Brummie, Black Country (Yam Yam) and Potteries",
+    "words": [
+      {"term": "bostin", "say": "BOS-tin", "ipa": "ˈbɒstɪn", "tts": "", "means": "Brilliant, great. Black Country and Brummie, used by every generation.", "use": "Bostin goal, that. Never seen one like it.", "common": true},
+      {"term": "ta-ra-a-bit", "say": "tuh-RAH-uh-bit", "ipa": "təˈɹɑː ə ˈbɪt", "tts": "ta rah a bit", "means": "Bye for now. Often shortened to 'ta-ra'.", "use": "Ta-ra-a-bit, see you at the match.", "common": true},
+      {"term": "bab", "say": "BAB", "ipa": "bæb", "tts": "", "means": "Brummie term of affection, like 'love' or 'babe'.", "use": "Alright, bab? You going to Villa Park Saturday?", "common": true},
+      {"term": "yam yam", "say": "YAM yam", "ipa": "ˈjæm jæm", "tts": "", "means": "What Brummies call people from the Black Country, from their 'yow am' for 'you are'. Banter, mostly friendly.", "use": "Wolves away? Full of yam yams, that ground.", "common": true},
+      {"term": "ow bist?", "say": "ow BIST", "ipa": "aʊ ˈbɪst", "tts": "owbist", "means": "Black Country for 'how are you?'.", "use": "Ow bist, mate? Ready for the derby?", "common": false},
+      {"term": "yampy", "say": "YAM-pee", "ipa": "ˈjæmpi", "tts": "", "means": "Daft, barmy, useless. Black Country, picked up in Birmingham and Coventry too.", "use": "That pass was yampy. Gave the ball straight to them.", "common": false},
+      {"term": "island", "say": "EYE-lund", "ipa": "ˈaɪlənd", "tts": "", "means": "A roundabout. Only the West Midlands calls it that.", "use": "Traffic's backed up to the island by the ground.", "common": true},
+      {"term": "outdoor", "say": "OWT-dor", "ipa": "ˈaʊtdɔː", "tts": "", "means": "An off-licence. A West Midlands word.", "use": "Grab a few cans from the outdoor on the way.", "common": false},
+      {"term": "mom", "say": "MOM", "ipa": "mɒm", "tts": "", "means": "Mum. Brummies say and spell it 'mom'.", "use": "Taking me mom to her first Blues game.", "common": true},
+      {"term": "duck", "say": "DUCK", "ipa": "dʊk", "tts": "", "means": "Potteries term of affection for anyone, man or woman. 'Ay up, duck.'", "use": "Ay up, duck. You going to the match?", "common": true},
+      {"term": "oatcake", "say": "OHT-kayk", "ipa": "ˈəʊtkeɪk", "tts": "", "means": "The Staffordshire oatcake, a soft savoury pancake, nothing like the Scottish biscuit. Stoke's pride.", "use": "Cheese and bacon oatcake, then up to the ground.", "common": true},
+      {"term": "Brum", "say": "BRUM", "ipa": "bɹʊm", "tts": "", "means": "Birmingham. A Brummie is someone from there.", "use": "Biggest derby in Brum this weekend.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "West Bromwich", "say": "west BROM-itch", "ipa": "wɛst ˈbɹɒmɪtʃ", "tts": "west brom itch", "why": "Home of West Brom. The 'w' in Bromwich is silent."},
+      {"word": "Smethwick", "say": "SMETH-ik", "ipa": "ˈsmɛðɪk", "tts": "smethick", "why": "Next door to the Hawthorns. The 'w' is silent here too."},
+      {"word": "Molineux", "say": "MOL-in-yoo", "ipa": "ˈmɒlɪnjuː", "tts": "mollin you", "why": "Wolves' ground. Ends in 'yoo', not the French 'nuh'."},
+      {"word": "Edgbaston", "say": "EJ-bus-tun", "ipa": "ˈɛdʒbəstən", "tts": "edge bustun", "why": "The Test cricket ground. The middle is a quick 'bus', not 'BASS-ton'."},
+      {"word": "Coventry", "say": "KOV-un-tree", "ipa": "ˈkɒvəntɹi", "tts": "kovuhnt ree", "why": "Locals start it like 'cough', and call the city 'Cov'. Some outsiders say 'KUV'."}
+    ],
+    "lines": [
+      {"t": "Bostin game, that.", "m": "Black Country and Brummie for a great one."},
+      {"t": "Second City derby this weekend. Villa or Blues, no middle ground.", "m": "Aston Villa against Birmingham City splits the city."},
+      {"t": "Nothing matters more round here than the Black Country derby.", "m": "Wolves against West Brom."},
+      {"t": "Ta-ra-a-bit, see you down the ground Saturday.", "m": "The local way to say goodbye."},
+      {"t": "Ay up, duck. Kettle on, then up to the match.", "m": "A Potteries hello before a Stoke game."}
+    ],
+    "avoid": [
+      {"say": "Wolves fans are Brummies", "instead": "Wolves are Black Country", "why": "The Black Country has its own dialect and pride. Mixing it up with Birmingham annoys both sides."},
+      {"say": "Coventry's part of Birmingham", "instead": "Cov's its own city", "why": "Coventry has its own accent and identity, and its club isn't a Birmingham side."},
+      {"say": "Stoke's basically Birmingham", "instead": "the Potteries", "why": "Stoke sits up in north Staffordshire with its own accent, closer in sound to the North."}
+    ],
+    "habits": ["Derby games often get early kick-offs, so pre-match pints start before lunch.", "Summer means Edgbaston: Warwickshire's Bears and Test matches, with the famous Hollies Stand.", "In the Potteries a hot oatcake, often cheese and bacon, is the Saturday breakfast before the match."],
+    "sources": ["https://en.wikipedia.org/wiki/Brummie_dialect", "https://en.wikipedia.org/wiki/Black_Country_dialect", "http://www.sedgleymanor.com/dictionaries/dialect.html", "https://en.wikipedia.org/wiki/Potteries_dialect", "https://en.wikipedia.org/wiki/Stoke-on-Trent", "https://en.wiktionary.org/wiki/yam_yam", "https://en.wiktionary.org/wiki/island", "https://en.wikipedia.org/wiki/West_Bromwich"],
+    "unsure": []
+  },
+  {
+    "id": "uk-east-midlands",
+    "name": "The East Midlands",
+    "covers": "Nottingham, Derby, Leicester, Northampton, Lincoln",
+    "dialect": "East Midlands English",
+    "words": [
+      {"term": "ay up me duck", "say": "ay UP mee DUCK", "ipa": "eɪ ˈʊp mi ˈdʊk", "tts": "A up me duck", "means": "Hello, love. The region's signature greeting, said to men and women alike. 'Duck' has nothing to do with the bird.", "use": "Ay up me duck, you going to the match?", "common": true},
+      {"term": "mardy", "say": "MAR-dee", "ipa": "ˈmɑːdi", "tts": "", "means": "Sulky, grumpy, in a mood.", "use": "Don't be mardy, it's only one defeat.", "common": true},
+      {"term": "nesh", "say": "NESH", "ipa": "nɛʃ", "tts": "", "means": "Soft about the cold. Someone who needs a coat in May.", "use": "Two coats at the City Ground? You're nesh.", "common": true},
+      {"term": "cob", "say": "KOB", "ipa": "kɒb", "tts": "", "means": "A bread roll. Call it anything else round here and you'll be corrected.", "use": "Cheese cob and a tea at half-time.", "common": true},
+      {"term": "mash", "say": "MASH", "ipa": "maʃ", "tts": "", "means": "To brew a pot of tea.", "use": "Get back from the game and mash a pot of tea.", "common": false},
+      {"term": "jitty", "say": "JIT-ee", "ipa": "ˈdʒɪti", "tts": "", "means": "An alley between houses. Leicester and Northamptonshire say jitty.", "use": "Cut down the jitty, it's quicker to the ground.", "common": true},
+      {"term": "twitchel", "say": "TWITCH-ul", "ipa": "ˈtwɪtʃəl", "tts": "", "means": "Nottingham's word for an alley or path between houses.", "use": "Meet you at the end of the twitchel and we'll walk down.", "common": false},
+      {"term": "wazzock", "say": "WAZ-uk", "ipa": "ˈwazək", "tts": "", "means": "A fool. Mild, used all over the Midlands and the North.", "use": "Which wazzock left him unmarked?", "common": true},
+      {"term": "yellowbelly", "say": "YEL-oh-bel-ee", "ipa": "ˈjɛləʊbɛli", "tts": "", "means": "Someone from Lincolnshire. Locals wear it with pride.", "use": "Proper yellowbelly, been going to Lincoln since he was five.", "common": true},
+      {"term": "it's looking black over Bill's mother's", "say": "its LOOK-in BLAK oh-vuh BILZ MUTH-uhz", "ipa": "ɪts ˈlʊkɪn ˈblak ˈʊvə ˈbɪlz ˈmʊðəz", "tts": "", "means": "Rain's on its way. An old Midlands saying nobody can explain.", "use": "Bring a coat, it's looking black over Bill's mother's.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Leicester", "say": "LES-tuh", "ipa": "ˈlɛstə", "tts": "lester", "why": "Home of the Foxes and the Tigers. Two syllables, never 'Lie-chester'."},
+      {"word": "Loughborough", "say": "LUFF-bruh", "ipa": "ˈlʌfbɹə", "tts": "luff bruh", "why": "The sports university town in Leicestershire. 'Lough' is 'luff'."},
+      {"word": "Derby", "say": "DAR-bee", "ipa": "ˈdɑːbi", "tts": "darby", "why": "The city, and the word for a local derby game. Never the American 'DUR-bee'."},
+      {"word": "Southwell", "say": "SUTH-ul", "ipa": "ˈsʌðəl", "tts": "suthul", "why": "Nottinghamshire's racecourse town. Many locals say 'SUTH-ul'."}
+    ],
+    "lines": [
+      {"t": "Ay up me duck, you going to the match?", "m": "The East Midlands hello, said to anyone."},
+      {"t": "Don't be mardy, it's only one defeat.", "m": "Mardy means sulky. Said to a friend after a loss."},
+      {"t": "Bring a coat, it's looking black over Bill's mother's.", "m": "The old local way of saying rain is coming."},
+      {"t": "Forest and Derby this week. Nothing else matters.", "m": "The East Midlands derby is the region's big one."},
+      {"t": "Tigers on Saturday, Foxes on Sunday.", "m": "Leicester is as much a rugby city as a football one."}
+    ],
+    "avoid": [
+      {"say": "Lie-chester", "instead": "Lester", "why": "Leicester is two syllables. Getting it wrong marks you out instantly."},
+      {"say": "a bap, please", "instead": "a cob, please", "why": "In the East Midlands a bread roll is a cob."},
+      {"say": "Forest and Derby get on fine", "instead": "the East Midlands derby", "why": "Nottingham and Derby are fierce rivals, only fifteen miles apart."}
+    ],
+    "habits": ["In Nottingham the City Ground, Meadow Lane and Trent Bridge cricket ground all sit within a short walk along the River Trent.", "Leicester Tigers at Welford Road draw big rugby crowds, and many locals follow both the Tigers and the Foxes.", "Northampton Saints at Franklin's Gardens are the town's big sporting draw."],
+    "sources": ["https://en.wikipedia.org/wiki/East_Midlands_English", "http://www.sulgrave.org/Chronicles/Local%20Dialect%20Words%20and%20Usage.html", "https://en.wiktionary.org/wiki/mardy", "https://en.wiktionary.org/wiki/twitchel", "https://en.wiktionary.org/wiki/cob", "https://en.wiktionary.org/wiki/yellowbelly", "https://en.wiktionary.org/wiki/Southwell", "https://en.wiktionary.org/wiki/Loughborough"],
+    "unsure": ["words: Nottingham Post, Derby Telegraph and Leicester Mercury pages could not be fetched; local confirmation for most words rests on the Sulgrave village glossary and Wikipedia's cited local sources"]
+  },
+  {
+    "id": "uk-east-anglia",
+    "name": "East Anglia",
+    "covers": "Norwich, Ipswich",
+    "dialect": "East Anglian English (Broad Norfolk and Suffolk)",
+    "words": [
+      {"term": "bor", "say": "BOR", "ipa": "bɔː", "tts": "", "means": "Mate. The Norfolk and Suffolk way to address a man.", "use": "Alright, bor? Coming down Carrow Road?", "common": true},
+      {"term": "squit", "say": "SKWIT", "ipa": "skwɪt", "tts": "", "means": "Nonsense. 'A load of old squit' is the classic.", "use": "That ref's talking a load of old squit.", "common": true},
+      {"term": "hold yew hard", "say": "HOLD yoo HARD", "ipa": "ˈhəʊld juː ˈhɑːd", "tts": "hold you hard", "means": "Hang on a minute, listen.", "use": "Hold yew hard, was that offside?", "common": false},
+      {"term": "on the huh", "say": "on the HUH", "ipa": "ɒn ðə ˈhʌ", "tts": "", "means": "Crooked, not level, askew.", "use": "Their wall's all on the huh. Shoot!", "common": false},
+      {"term": "mardle", "say": "MAR-dul", "ipa": "ˈmɑːdəl", "tts": "", "means": "A chat or a gossip, or to have one.", "use": "Having a mardle about the game over a pint.", "common": false},
+      {"term": "wholly", "say": "HULL-ee", "ipa": "ˈhʊli", "tts": "hully", "means": "Very. Norfolk says it 'hully'.", "use": "That was wholly good, that goal.", "common": false},
+      {"term": "hull", "say": "HULL", "ipa": "hʌl", "tts": "", "means": "To throw or chuck. Nothing to do with the city.", "use": "Just hull it in the box!", "common": false},
+      {"term": "rafty", "say": "RAF-tee", "ipa": "ˈɹafti", "tts": "", "means": "Damp, raw and miserable weather.", "use": "Rafty old night for a game.", "common": false},
+      {"term": "loke", "say": "LOHK", "ipa": "ləʊk", "tts": "", "means": "A narrow lane or dead-end alley. Norwich has dozens.", "use": "Park up the loke and walk to the ground.", "common": false},
+      {"term": "dew yew keep a troshin", "say": "dyoo yoo KEEP uh TROSH-in", "ipa": "ˈdjuː juː ˈkiːp ə ˈtɹɒʃɪn", "tts": "do you keep a troshin", "means": "Goodbye and take care. Literally 'keep on threshing'.", "use": "See you next home game. Dew yew keep a troshin.", "common": false},
+      {"term": "the East Anglian derby", "say": "the eest ANG-lee-un DAR-bee", "ipa": "ði ˈiːst ˈæŋɡliən ˈdɑːbi", "tts": "", "means": "Norwich against Ipswich. Jokingly called the Old Farm derby.", "use": "East Anglian derby Sunday. Nothing else counts.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Norwich", "say": "NORR-idge", "ipa": "ˈnɒɹɪdʒ", "tts": "norridge", "why": "The 'w' is silent and it ends in 'idge'. Never 'Nor-witch'."},
+      {"word": "Wymondham", "say": "WIN-dum", "ipa": "ˈwɪndəm", "tts": "windum", "why": "Market town just outside Norwich. Two syllables, nothing like the spelling."},
+      {"word": "Costessey", "say": "KOSS-ee", "ipa": "ˈkɒsi", "tts": "cossy", "why": "Suburb on Norwich's western edge. Locals say 'Cossey'."},
+      {"word": "Happisburgh", "say": "HAZE-bruh", "ipa": "ˈheɪzbəɹə", "tts": "haze bruh", "why": "Norfolk coast village and a famous outsider trap."}
+    ],
+    "lines": [
+      {"t": "That ref's talking a load of old squit.", "m": "Squit is Norfolk for nonsense."},
+      {"t": "Hold yew hard, was that offside?", "m": "Norfolk for 'hang on a minute'."},
+      {"t": "Rafty old night for it.", "m": "Damp, raw weather, normal for a winter game out east."},
+      {"t": "East Anglian derby Sunday. Nothing else counts.", "m": "Norwich against Ipswich is the one that matters."},
+      {"t": "Dew yew keep a troshin, bor.", "m": "The old Norfolk goodbye: take care, mate."}
+    ],
+    "avoid": [
+      {"say": "Nor-witch", "instead": "Norridge", "why": "The 'w' is silent. Get it wrong and everyone knows you're not from round here."},
+      {"say": "normal for Norfolk", "instead": "leave it out", "why": "It's an outsider's joke at the county's expense, and locals are sick of it."},
+      {"say": "Ipswich is in Norfolk", "instead": "Ipswich is in Suffolk", "why": "Different counties, and the two clubs are fierce rivals."}
+    ],
+    "habits": ["Norwich fans keep up 'On the Ball, City', a club song dating from the 1890s.", "Both grounds sit close to the town centre, so fans walk down from the pubs and the station.", "With a spread-out, rural region, plenty of fans drive in from villages and market towns on matchday."],
+    "sources": ["https://friendsofnorfolkdialect.com/portfolio-items/norfolk-glossary/", "https://en.wikipedia.org/wiki/Norfolk_dialect", "https://en.wiktionary.org/wiki/bor", "https://en.wiktionary.org/wiki/squit", "https://en.wiktionary.org/wiki/mardle", "https://en.wiktionary.org/wiki/Norwich", "https://en.wiktionary.org/wiki/Wymondham", "https://en.wiktionary.org/wiki/Happisburgh"],
+    "unsure": ["words: Suffolk-specific words (e.g. 'together' for 'you lot') left out; only Norfolk glossaries could be reached"]
+  },
+  {
+    "id": "uk-merseyside",
+    "name": "Merseyside",
+    "covers": "Liverpool, Everton",
+    "dialect": "Scouse",
+    "words": [
+      {"term": "boss", "say": "BOSS", "ipa": "bɒs", "tts": "", "means": "Great, first-rate. The classic Scouse word of praise.", "use": "Boss goal, that. Top bins.", "common": true},
+      {"term": "sound", "say": "SOWND", "ipa": "", "tts": "", "means": "Fine, sorted, or a decent person. 'He's sound.'", "use": "Can't get a ticket? Sound, I'll watch it in the pub.", "common": true},
+      {"term": "made up", "say": "mayd UP", "ipa": "ˌmeɪd ˈʊp", "tts": "", "means": "Delighted, chuffed.", "use": "Made up for the lads. Deserved that.", "common": true},
+      {"term": "la", "say": "LAH", "ipa": "lɑː", "tts": "lah", "means": "Lad, mate. Tagged on the end: 'alright, la?'", "use": "Alright, la? You going the match?", "common": true},
+      {"term": "kidder", "say": "KID-uh", "ipa": "ˈkɪdə", "tts": "", "means": "Mate, usually to a younger lad.", "use": "Get in, kidder! What a finish.", "common": true},
+      {"term": "come 'ead", "say": "kum ED", "ipa": "kʊm ˈɛd", "tts": "come ed", "means": "Come on! Scouse for 'come ahead', shouted at players and mates.", "use": "Come 'ead, get it forward!", "common": true},
+      {"term": "bevvy", "say": "BEV-ee", "ipa": "ˈbɛvi", "tts": "", "means": "A drink, usually a pint. 'On the bevvy' means out drinking.", "use": "Few bevvies in town before the game?", "common": true},
+      {"term": "scran", "say": "SKRAN", "ipa": "skɹan", "tts": "", "means": "Food. Shared with Manchester and Glasgow.", "use": "Get some scran in before kick-off.", "common": true},
+      {"term": "jarg", "say": "JARG", "ipa": "dʒɑːɡ", "tts": "", "means": "Fake, knock-off. Usually said about a shirt or a watch.", "use": "That's a jarg shirt, that. Badge is on upside down.", "common": true},
+      {"term": "antwacky", "say": "ANT-wak-ee", "ipa": "ˈæntwæki", "tts": "ant wacky", "means": "Old-fashioned, out of date.", "use": "That retro kit's antwacky, but I love it.", "common": false},
+      {"term": "have a cob on", "say": "hav uh KOB on", "ipa": "hav ə ˈkɒb ɒn", "tts": "", "means": "To be in a bad mood, sulking.", "use": "Don't have a cob on, we'll win the next one.", "common": true},
+      {"term": "woolyback", "say": "WOOL-ee-bak", "ipa": "ˈwʊlibak", "tts": "", "means": "Teasing name for someone from just outside the city, like Skem, Southport or the Wirral. Banter, not a real insult.", "use": "He's a woolyback from Skem, but he never misses a game.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Kirkby", "say": "KUR-bee", "ipa": "ˈkɜːbi", "tts": "kur bee", "why": "Where Liverpool train. The middle 'k' is silent."},
+      {"word": "Huyton", "say": "HY-tun", "ipa": "ˈhaɪtən", "tts": "high tun", "why": "Town on the city's eastern edge. The 'uy' sounds like 'high'."},
+      {"word": "Knowsley", "say": "NOHZ-lee", "ipa": "ˈnəʊzli", "tts": "nose lee", "why": "The borough that takes in Kirkby and Huyton. Silent 'k', and 'know' as in knowing."},
+      {"word": "Birkenhead", "say": "bur-kun-HED", "ipa": "ˌbɜːkənˈhɛd", "tts": "", "why": "Across the Mersey on the Wirral. The stress falls on the end, not 'BIRK-en-head'."}
+    ],
+    "lines": [
+      {"t": "Come 'ead! Get it forward!", "m": "Scouse for 'come on', shouted at the players."},
+      {"t": "Boss, that. Made up for the lads.", "m": "Delighted after a win."},
+      {"t": "Derby week. Half the family's not talking to the other half.", "m": "Plenty of Liverpool families have both Reds and Blues."},
+      {"t": "Don't have a cob on, la. Next week.", "m": "Cheering a mate up after a defeat."},
+      {"t": "Few bevvies in town first?", "m": "'Town' means Liverpool city centre."}
+    ],
+    "avoid": [
+      {"say": "the Pool", "instead": "Liverpool, or the Reds", "why": "Locals never call the city or the club 'the Pool'. It's a classic outsider giveaway."},
+      {"say": "Everton play at Goodison", "instead": "Everton play at Bramley-Moore Dock", "why": "Everton moved to their new waterfront stadium in 2025."},
+      {"say": "Scouse and Manc are basically the same", "instead": "Scouse is its own thing", "why": "The accents are very different, and the two cities are fierce rivals."}
+    ],
+    "habits": ["The Merseyside derby was long called the friendly derby because so many families have both Reds and Blues.", "Matchday starts in the pubs near the ground or in town, the city centre.", "The Grand National at Aintree each April is the city's biggest day out in racing."],
+    "sources": ["https://en.wiktionary.org/wiki/Category:Liverpudlian_English", "https://en.wiktionary.org/wiki/jarg", "https://en.wiktionary.org/wiki/antwacky", "https://en.wiktionary.org/wiki/come_%27ead", "https://en.wiktionary.org/wiki/woolly_back", "https://en.wikipedia.org/wiki/Scouse", "https://en.wikipedia.org/wiki/Merseyside_derby", "https://en.wikipedia.org/wiki/Kirkby"],
+    "unsure": ["words: the Liverpool Echo and BBC Liverpool could not be fetched, so most words rest on Wiktionary's Liverpool labels plus Wikipedia, not a local paper"]
+  },
+  {
+    "id": "uk-manchester",
+    "name": "Manchester",
+    "covers": "Manchester City, Manchester United, Sale Sharks",
+    "dialect": "Mancunian (Manc)",
+    "words": [
+      {"term": "our kid", "say": "AH kid", "ipa": "ɑː kɪd", "tts": "ah kid", "means": "Your brother, or a close mate. Mancs say it 'ahh kid'.", "use": "Going to the game with our kid.", "common": true},
+      {"term": "mither", "say": "MY-thuh", "ipa": "ˈmaɪðə", "tts": "my the", "means": "To pester or bother someone, or to moan and fuss.", "use": "Stop mithering, we'll be fine.", "common": true},
+      {"term": "ginnel", "say": "GIN-ul (hard g)", "ipa": "ˈɡɪnəl", "tts": "ghinnel", "means": "A narrow alley between terraced houses.", "use": "Cut through the ginnel, it's quicker to the tram.", "common": true},
+      {"term": "barm", "say": "BARM", "ipa": "bɑːm", "tts": "", "means": "A soft bread roll, or barm cake. Chips in one is a chip barm.", "use": "Chip barm and a brew before the game.", "common": true},
+      {"term": "bobbins", "say": "BOB-inz", "ipa": "ˈbɒbɪnz", "tts": "", "means": "Rubbish, useless. A polite word for something much worse.", "use": "That second half was bobbins.", "common": true},
+      {"term": "mint", "say": "MINT", "ipa": "mɪnt", "tts": "", "means": "Brilliant, top quality.", "use": "Mint goal, that.", "common": true},
+      {"term": "buzzin'", "say": "BUZZ-in", "ipa": "ˈbʊzɪn", "tts": "", "means": "Absolutely delighted.", "use": "Buzzin' with that result.", "common": true},
+      {"term": "dead", "say": "DED", "ipa": "dɛd", "tts": "", "means": "Very. 'Dead good', 'dead nervous'.", "use": "Dead nervous about Sunday.", "common": true},
+      {"term": "angin'", "say": "ANG-in", "ipa": "ˈaŋɪn", "tts": "ah ngin", "means": "Disgusting, grim. Dropped 'h' from 'hanging'.", "use": "That pie was angin'.", "common": true},
+      {"term": "mad for it", "say": "MAD for it", "ipa": "ˈmad fəɹ ɪt", "tts": "", "means": "Up for it, full of enthusiasm. A Madchester-era phrase that never went away.", "use": "Big night under the lights. Crowd's mad for it.", "common": true},
+      {"term": "Manc", "say": "MANK", "ipa": "maŋk", "tts": "mank", "means": "Someone from Manchester, or the accent. Mancs use it proudly.", "use": "Proper Manc, born and bred.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Mancunian", "say": "man-KYOO-nee-un", "ipa": "manˈkjuːniən", "tts": "man cue nee un", "why": "The word for a Manchester person, from the Roman name for the city."},
+      {"word": "Salford", "say": "SOL-fud", "ipa": "ˈsɒlfəd", "tts": "sol fud", "why": "The city next door, home of Sale Sharks' ground. The 'al' is short 'ol', and the end is a quick 'fud'."},
+      {"word": "Altrincham", "say": "OLL-tring-um", "ipa": "ˈɒltɹɪŋəm", "tts": "olt ringuhm", "why": "South Manchester town with its own football club. Nothing like 'Al-trin-cham'."},
+      {"word": "Bury", "say": "BERRY", "ipa": "ˈbɛɹi", "tts": "berry", "why": "Town to the north with a famous old football club. Said like the fruit."}
+    ],
+    "lines": [
+      {"t": "Manchester derby Sunday. Red or blue, there's no in between.", "m": "City against United splits families and workplaces."},
+      {"t": "Buzzin' with that.", "m": "Delighted after a win."},
+      {"t": "That second half was bobbins.", "m": "Manc for rubbish. Polite enough for the family."},
+      {"t": "Stop mithering, we'll be fine.", "m": "Said to a mate who won't stop worrying."},
+      {"t": "Raining again. It's Manchester, what did you expect?", "m": "Locals joke about the weather before anyone else can."}
+    ],
+    "avoid": [
+      {"say": "Old Trafford is in Manchester", "instead": "Old Trafford is in Trafford", "why": "United's ground sits just outside the city boundary, a favourite City fan dig."},
+      {"say": "Salford is part of Manchester", "instead": "Salford is its own city", "why": "Salford has its own city status and locals are proud of it."},
+      {"say": "Is 'our kid' your son?", "instead": "our kid means your brother or a mate", "why": "It's a sibling or close friend, never a child."}
+    ],
+    "habits": ["Trams carry fans to the game: Metrolink stops serve both Old Trafford and the Etihad Campus.", "Summer means Lancashire cricket at Old Trafford, right next door to United's ground.", "Pre-match pints in town, especially the Northern Quarter, or in the pubs round the ground."],
+    "sources": ["https://en.wikipedia.org/wiki/Manchester_dialect", "https://en.wiktionary.org/wiki/our_kid", "https://en.wiktionary.org/wiki/mither", "https://en.wiktionary.org/wiki/ginnel", "https://en.wiktionary.org/wiki/bobbins", "https://en.wiktionary.org/wiki/mint", "https://en.wiktionary.org/wiki/Altrincham", "https://en.wiktionary.org/wiki/Mancunian"],
+    "unsure": ["words: Manchester Evening News and local weeklies could not be fetched; local confirmation rests on Wikipedia's cited Manchester Voices research"]
+  },
+  {
+    "id": "uk-lancashire",
+    "name": "Lancashire",
+    "covers": "Burnley, Blackburn, Preston, Bolton",
+    "dialect": "Lancashire (Lanky) English",
+    "words": [
+      {"term": "nowt", "say": "NOWT", "ipa": "naʊt", "tts": "", "means": "Nothing.", "use": "We got nowt today. Absolutely nowt.", "common": true},
+      {"term": "owt", "say": "OWT", "ipa": "aʊt", "tts": "", "means": "Anything.", "use": "Did we have owt on target?", "common": true},
+      {"term": "summat", "say": "SUM-ut", "ipa": "ˈsʊmət", "tts": "summut", "means": "Something.", "use": "We need summat from the bench.", "common": true},
+      {"term": "brew", "say": "BROO", "ipa": "bɹuː", "tts": "", "means": "A cup of tea. 'Fancy a brew?' is the start of most things.", "use": "Fancy a brew before we set off for Turf Moor?", "common": true},
+      {"term": "butty", "say": "BUT-ee", "ipa": "ˈbʊti", "tts": "", "means": "A sandwich. The chip butty is a matchday classic.", "use": "Chip butty, then up to the ground.", "common": true},
+      {"term": "nithered", "say": "NITH-ud", "ipa": "ˈnɪðəd", "tts": "", "means": "Frozen stiff, very cold.", "use": "Nithered at the match again. Should've brought another coat.", "common": true},
+      {"term": "skrike", "say": "SKRYKE", "ipa": "skɹaɪk", "tts": "", "means": "To cry or wail.", "use": "Stop skriking, it was never a penalty.", "common": false},
+      {"term": "gradely", "say": "GRAYD-lee", "ipa": "ˈɡɹeɪdli", "tts": "", "means": "Proper, excellent, decent. Old Lancashire, still heard from older fans.", "use": "Gradely performance, that.", "common": false},
+      {"term": "happen", "say": "AP-un", "ipa": "ˈapən", "tts": "appen", "means": "Perhaps, maybe. Usually said with a dropped 'h'.", "use": "Happen we'll nick a point.", "common": false},
+      {"term": "Lanky", "say": "LANG-kee", "ipa": "ˈlaŋki", "tts": "", "means": "Lancashire, its people or its dialect.", "use": "Proper Lanky lad, never missed a home game.", "common": true},
+      {"term": "the Cotton Mills derby", "say": "the KOT-un MILZ DAR-bee", "ipa": "ðə ˈkɒtən ˈmɪlz ˈdɑːbi", "tts": "", "means": "Burnley against Blackburn, also called the East Lancashire derby.", "use": "Cotton Mills derby's on. Nothing else matters this week.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Darwen", "say": "DARR-un", "ipa": "ˈdaɹən", "tts": "darren", "why": "Town next to Blackburn. Locals often say it like the name Darren."},
+      {"word": "Padiham", "say": "PAD-ee-um", "ipa": "ˈpædiəm", "tts": "paddy um", "why": "Next door to Burnley. Three short syllables, no 'ham'."},
+      {"word": "Rawtenstall", "say": "ROT-un-stawl", "ipa": "ˈɹɒtənstɔːl", "tts": "rotten stall", "why": "Rossendale town. It starts like 'rotten', not 'raw'."},
+      {"word": "Lytham", "say": "LITH-um", "ipa": "ˈlɪðəm", "tts": "lithum", "why": "Seaside town near Preston and home of Royal Lytham golf. Soft 'th', no 'ham'."},
+      {"word": "Clitheroe", "say": "KLITH-uh-roh", "ipa": "ˈklɪðəɹəʊ", "tts": "clither oh", "why": "Ribble Valley market town. Soft 'th' as in 'this'."}
+    ],
+    "lines": [
+      {"t": "We got nowt today. Absolutely nowt.", "m": "Lancashire for nothing. Said after a flat defeat."},
+      {"t": "Fancy a brew before we set off?", "m": "A brew is a cup of tea."},
+      {"t": "Nithered again. Should've brought a second coat.", "m": "Pennine grounds get bitterly cold in winter."},
+      {"t": "Cotton Mills derby this weekend. They'll get nowt from us.", "m": "Burnley and Blackburn are fierce rivals."},
+      {"t": "Happen we'll nick a point.", "m": "Cautious Lancashire optimism before a hard away game."}
+    ],
+    "avoid": [
+      {"say": "Bolton's a Manchester club", "instead": "Bolton's a Lancashire town", "why": "Plenty of Bolton fans see themselves as Lancastrian, not Mancunian."},
+      {"say": "Burnley and Blackburn get on fine", "instead": "the Cotton Mills derby", "why": "The two towns are bitter rivals, about a dozen miles apart."},
+      {"say": "Lancashire and Yorkshire, same thing", "instead": "the Roses rivalry", "why": "The old Lancashire-Yorkshire rivalry is alive and well, especially at cricket."}
+    ],
+    "habits": ["The Roses match against Yorkshire is the county's oldest sporting grudge, at its fiercest in cricket.", "Summer weekends mean Lancashire League cricket, where town clubs often sign a professional from overseas.", "Matchday food is a pie or a chip butty, washed down with a brew."],
+    "sources": ["https://en.wikipedia.org/wiki/Lancashire_dialect", "https://en.wikipedia.org/wiki/East_Lancashire_derby", "https://en.wiktionary.org/wiki/gradely", "https://en.wiktionary.org/wiki/nowt", "https://en.wiktionary.org/wiki/summat", "https://en.wiktionary.org/wiki/nithered", "https://en.wiktionary.org/wiki/Lanky", "https://en.wiktionary.org/wiki/Darwen"],
+    "unsure": ["words: the Lancashire Telegraph and Lancashire Post could not be fetched; local confirmation rests on Wikipedia's Lancashire dialect sources"]
+  },
+  {
+    "id": "uk-yorkshire",
+    "name": "Yorkshire",
+    "covers": "Leeds, Sheffield, Hull",
+    "dialect": "Yorkshire English (Tyke)",
+    "words": [
+      {"term": "ey up", "say": "ay UP", "ipa": "eɪ ˈʊp", "tts": "A up", "means": "Hello, or 'look out'. Depends on the tone.", "use": "Ey up! Reet good game, that.", "common": true},
+      {"term": "reet", "say": "REET", "ipa": "ɹiːt", "tts": "", "means": "Right, or very. 'Reet good' means really good.", "use": "Reet good win, that.", "common": true},
+      {"term": "laikin'", "say": "LAY-kin", "ipa": "ˈleɪkɪn", "tts": "lay kin", "means": "Playing. West Yorkshire uses 'laik' for 'play'.", "use": "Stop laikin' about at the back and clear it!", "common": false},
+      {"term": "brayed", "say": "BRAYD", "ipa": "bɹeɪd", "tts": "", "means": "Hit hard, battered. 'We got brayed' means we got hammered.", "use": "We got brayed four-nil.", "common": true},
+      {"term": "give over", "say": "giv OH-vuh", "ipa": "ɡɪv ˈəʊvə", "tts": "", "means": "Stop it, pack it in, don't be daft.", "use": "Give over, that were never a foul.", "common": true},
+      {"term": "snicket", "say": "SNIK-it", "ipa": "ˈsnɪkɪt", "tts": "", "means": "A narrow alley or path between buildings.", "use": "Cut down the snicket, we'll make kick-off.", "common": true},
+      {"term": "tenfoot", "say": "TEN-fut", "ipa": "ˈtɛnfʊt", "tts": "ten foot", "means": "Hull's word for the back alley behind a row of houses.", "use": "Lads were kicking a ball about in the tenfoot.", "common": true},
+      {"term": "while", "say": "WILE", "ipa": "waɪl", "tts": "", "means": "Until. 'Wait while three' means wait until three.", "use": "No food in the ground while half-time.", "common": true},
+      {"term": "breadcake", "say": "BRED-kayk", "ipa": "ˈbɹɛdkeɪk", "tts": "", "means": "A bread roll, in much of West and South Yorkshire.", "use": "Bacon breadcake on the way to the game.", "common": true},
+      {"term": "spice", "say": "SPICE", "ipa": "spaɪs", "tts": "", "means": "Sweets. Strongest in Sheffield and South Yorkshire.", "use": "Bag of spice for the kids at half-time.", "common": true},
+      {"term": "chunter", "say": "CHUN-tuh", "ipa": "ˈtʃʊntə", "tts": "", "means": "To grumble or mutter on.", "use": "He's been chuntering about the ref all game.", "common": true},
+      {"term": "God's own county", "say": "GODZ ohn KOWN-tee", "ipa": "ˈɡɒdz əʊn ˈkaʊnti", "tts": "", "means": "Yorkshire's name for itself. Said with total sincerity.", "use": "Best cricket in the land, God's own county.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Keighley", "say": "KEETH-lee", "ipa": "ˈkiːθli", "tts": "keeth lee", "why": "Rugby league town near Bradford. The 'gh' sounds like 'th'."},
+      {"word": "Doncaster", "say": "don-KAS-tuh", "ipa": "dɒnˈkastə", "tts": "don cass tuh", "why": "Locals often stress the middle, with a short Yorkshire 'a'. Home of the St Leger at Town Moor."},
+      {"word": "Sheffield", "say": "SHEF-ild", "ipa": "ˈʃɛfɪld", "tts": "sheff ild", "why": "Locals clip the end to 'ild', not 'feeld'."},
+      {"word": "Slaithwaite", "say": "SLAU-it", "ipa": "ˈslaʊɪt", "tts": "slough it", "why": "Village near Huddersfield and a famous trap. Locals say 'Slawit'."}
+    ],
+    "lines": [
+      {"t": "Ey up! Reet good game, that.", "m": "A Yorkshire hello, and 'really good'."},
+      {"t": "We got brayed. Give over talking about it.", "m": "Brayed means hammered. Said after a heavy defeat."},
+      {"t": "Roses match at Headingley. Lancashire won't know what's hit them.", "m": "Yorkshire against Lancashire at cricket is the old grudge match."},
+      {"t": "Steel City derby this week. Blades or Owls, pick one.", "m": "Sheffield United against Sheffield Wednesday splits the city."},
+      {"t": "God's own county, this.", "m": "Yorkshire pride, said about anything from the cricket to the scenery."}
+    ],
+    "avoid": [
+      {"say": "the Sheffield clubs get on fine", "instead": "the Steel City derby", "why": "United and Wednesday are fierce rivals across the city."},
+      {"say": "Hull's in Lincolnshire", "instead": "Hull's in East Yorkshire", "why": "Hull sits on the north bank of the Humber, firmly in Yorkshire."},
+      {"say": "ee by gum", "instead": "ey up", "why": "It's an old music-hall cliché. Real Yorkshire folk hardly ever say it."}
+    ],
+    "habits": ["Headingley in Leeds hosts Yorkshire and Test cricket, and its Western Terrace is the lively stand.", "Rugby league is huge in West Yorkshire towns and in Hull, where Hull FC against Hull KR splits the city.", "In Sheffield a bottle of Henderson's Relish on the table is a point of local pride."],
+    "sources": ["https://en.wikipedia.org/wiki/Yorkshire_dialect", "https://www.yorkshiredialectsociety.org.uk/", "https://en.wiktionary.org/wiki/reet", "https://en.wiktionary.org/wiki/snicket", "https://en.wiktionary.org/wiki/tenfoot", "https://en.wiktionary.org/wiki/bray", "https://en.wiktionary.org/wiki/Doncaster", "https://en.wikipedia.org/wiki/Slaithwaite"],
+    "unsure": ["words: Yorkshire Post and Examiner Live pages could not be fetched, and the Yorkshire Dialect Society word list was unreachable; local confirmation rests on Wikipedia's Yorkshire dialect sources", "words: 'brayed' for a heavy defeat is a common extension of the Yorkshire sense 'to hit'; Wiktionary gives only 'to hit'"]
+  },
+  {
+    "id": "uk-north-east",
+    "name": "The North East",
+    "covers": "Newcastle (Geordie), Sunderland (Mackem), Middlesbrough (Smoggie), Newcastle Falcons",
+    "dialect": "Geordie, Mackem and Smoggie (Teesside)",
+    "words": [
+      {"term": "howay", "say": "huh-WAY", "ipa": "həˈweː", "tts": "huh way", "means": "Come on! Tyneside spells it 'howay', Wearside 'haway', and the spelling tells you which club someone backs.", "use": "Howay man, get it forward!", "common": true},
+      {"term": "canny", "say": "KAN-ee", "ipa": "ˈkani", "tts": "", "means": "Good, nice, or very. 'Canny good' means really good.", "use": "Canny game, that.", "common": true},
+      {"term": "divvent", "say": "DIV-unt", "ipa": "ˈdɪvənt", "tts": "", "means": "Don't. 'Divvent dee that' means don't do that.", "use": "Divvent start, man, we were robbed.", "common": true},
+      {"term": "gan", "say": "GAN", "ipa": "ɡan", "tts": "", "means": "To go. 'Gan yem' means go home.", "use": "Are you gannin' to the match?", "common": true},
+      {"term": "bairn", "say": "BAIRN", "ipa": "bɛːn", "tts": "", "means": "A child.", "use": "Took the bairn to his first game.", "common": true},
+      {"term": "pet", "say": "PET", "ipa": "pɛt", "tts": "", "means": "Love, dear. A friendly word for anyone. 'Hinny' is the older version.", "use": "Alright, pet? Two pies, please.", "common": true},
+      {"term": "wor", "say": "WOR", "ipa": "wɔː", "tts": "", "means": "Our. 'Wor lass' is my wife or girlfriend, 'wor kid' my brother.", "use": "Wor kid's got the tickets.", "common": true},
+      {"term": "bait", "say": "BAYT", "ipa": "beɪt", "tts": "", "means": "A packed lunch or snack, from the old mining districts.", "use": "Bring some bait, it's a long way to the away game.", "common": true},
+      {"term": "hacky", "say": "HAK-ee", "ipa": "ˈhaki", "tts": "", "means": "Filthy, mucky.", "use": "Pitch is hacky after all that rain.", "common": true},
+      {"term": "marra", "say": "MARR-uh", "ipa": "ˈmaɹə", "tts": "", "means": "Mate, friend. Originally a miner's work partner, strong on Wearside and in Durham.", "use": "Me and my marra never miss a home game.", "common": true},
+      {"term": "belta", "say": "BEL-tuh", "ipa": "ˈbɛltə", "tts": "", "means": "Fantastic, a cracker. 'Pure belta' is top praise.", "use": "Pure belta of a goal.", "common": true},
+      {"term": "parmo", "say": "PAR-moh", "ipa": "ˈpɑːməʊ", "tts": "pah moh", "means": "Teesside's famous dish: breaded chicken under white sauce and cheese.", "use": "Parmo and a pint after the game?", "common": true},
+      {"term": "Smoggie", "say": "SMOG-ee", "ipa": "ˈsmɒɡi", "tts": "", "means": "Someone from Teesside. Started as a jibe from away fans; locals now use it with pride.", "use": "Proper Smoggie, Boro through and through.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Newcastle", "say": "new-KAS-ul", "ipa": "ˌnjuːˈkasəl", "tts": "new cass ul", "why": "Locals stress the middle with a short 'a'. 'NEW-carsel' is the southern way."},
+      {"word": "Middlesbrough", "say": "MID-ulz-bruh", "ipa": "ˈmɪdəlzbɹə", "tts": "middles bruh", "why": "Ends in a quick 'bruh', not 'borough'. Locals just say 'Boro'."},
+      {"word": "Alnwick", "say": "AN-ik", "ipa": "ˈænɪk", "tts": "annick", "why": "Northumberland castle town. The 'l' and 'w' are silent."},
+      {"word": "Hartlepool", "say": "HART-lee-pool", "ipa": "ˈhɑːʔlɪpuːl", "tts": "hart lee pool", "why": "Locals swallow the 't' and say the middle as 'lee', not 'le'."}
+    ],
+    "lines": [
+      {"t": "Howay man, get it forward!", "m": "Geordie for 'come on'. On Wearside it's 'haway'."},
+      {"t": "Canny game, that.", "m": "Canny means good."},
+      {"t": "Divvent start, man. We were robbed.", "m": "'Don't start', said to a mate after a bad result."},
+      {"t": "Derby week. Divvent even talk to me till Sunday.", "m": "Newcastle against Sunderland, the Tyne-Wear derby, is the region's fiercest game."},
+      {"t": "Parmo after the match?", "m": "The Teesside way to end a Boro matchday."}
+    ],
+    "avoid": [
+      {"say": "Sunderland fans are Geordies", "instead": "Sunderland fans are Mackems", "why": "Geordies are from Tyneside. Wearside folk are Mackems, and they're rivals."},
+      {"say": "Smoggies are Geordies", "instead": "Smoggies are from Teesside", "why": "Teesside has its own accent and identity."},
+      {"say": "Howay the lads, at Sunderland", "instead": "Haway the lads", "why": "The spelling and sound mark which side of the Tyne-Wear divide you're on."}
+    ],
+    "habits": ["St James' Park sits right in the city centre, so Newcastle fans walk up from the pubs in town.", "The Great North Run from Newcastle to South Shields each September is the region's big sporting day out.", "On Teesside, a parmo from the takeaway is the classic end to a matchday."],
+    "sources": ["https://englandsnortheast.co.uk/geordie-origins/", "https://englandsnortheast.co.uk/geordie-dictionary-c-e/", "https://englandsnortheast.co.uk/geordie-dictionary-f-h/", "https://englandsnortheast.co.uk/geordie-dictionary-m-q/", "https://en.wikipedia.org/wiki/Geordie", "https://en.wikipedia.org/wiki/Smoggie", "https://en.wikipedia.org/wiki/Parmo", "https://en.wiktionary.org/wiki/howay", "https://en.wiktionary.org/wiki/Newcastle"],
+    "unsure": []
+  },
+  {
+    "id": "uk-wales",
+    "name": "Wales",
+    "covers": "Cardiff, Swansea, Wrexham, the Welsh regions (Cardiff Rugby, Dragons, Ospreys, Scarlets), Wales",
+    "dialect": "Welsh English (Wenglish), with Welsh words fans use",
+    "words": [
+      {"term": "tidy", "say": "TY-dee", "ipa": "ˈtaɪdi", "tts": "", "means": "Good, great, or a fair amount. The hardest-working word in Welsh English.", "use": "Tidy win, that. Tidy.", "common": true},
+      {"term": "cwtch", "say": "KUTCH", "ipa": "kʊtʃ", "tts": "cutch", "means": "A hug, or a cosy little cubbyhole. Welsh people are proud of it.", "use": "Final whistle, everyone's in a cwtch.", "common": true},
+      {"term": "butty", "say": "BUT-ee", "ipa": "ˈbʊti", "tts": "", "means": "Mate, friend. South Wales, from the Welsh 'byti'.", "use": "Me and my butty never miss a game.", "common": true},
+      {"term": "bach", "say": "BAHKH", "ipa": "baːχ", "tts": "bahk", "means": "Little one, love. A friendly word tagged on to a name.", "use": "Alright, bach? Got your ticket?", "common": true},
+      {"term": "tamping", "say": "TAMP-in", "ipa": "ˈtampɪn", "tts": "", "means": "Furious, fuming.", "use": "Tamping, I am. That was never a penalty.", "common": true},
+      {"term": "twp", "say": "TUP", "ipa": "tʊp", "tts": "tup", "means": "Daft, a bit stupid. From Welsh.", "use": "Twp decision by the ref, that.", "common": true},
+      {"term": "chopsy", "say": "CHOP-see", "ipa": "ˈtʃɒpsi", "tts": "", "means": "Mouthy, always answering back.", "use": "Their winger's a chopsy one.", "common": true},
+      {"term": "now in a minute", "say": "now in uh MIN-it", "ipa": "", "tts": "", "means": "Soon, at some point. Not 'now', and not really 'in a minute'.", "use": "I'll get the drinks in now in a minute.", "common": true},
+      {"term": "ych a fi", "say": "UKH-uh-VEE", "ipa": "ˌəχ a ˈviː", "tts": "uck a vee", "means": "Yuck! Welsh, used by English speakers too.", "use": "Ych a fi, that pie's cold.", "common": true},
+      {"term": "iechyd da", "say": "YEKH-id DAH", "ipa": "ˌjɛχɪd ˈdaː", "tts": "yeh kid dah", "means": "Cheers! Welsh for 'good health'.", "use": "Iechyd da! Here's to the boys.", "common": true},
+      {"term": "diolch", "say": "DEE-olkh", "ipa": "ˈdiːɔlχ", "tts": "dee awlh", "means": "Thanks. Welsh, heard everywhere.", "use": "Diolch, butt. I'll get the next one.", "common": true},
+      {"term": "Cymru am byth", "say": "KUM-ree am BITH", "ipa": "ˈkəmri am ˈbɪθ", "tts": "kum ree am bith", "means": "Wales forever. The proudest thing a Welsh fan can shout.", "use": "Cymru am byth! What a night.", "common": true},
+      {"term": "hwyl", "say": "HOO-il", "ipa": "hʊɪl", "tts": "hoo ill", "means": "Passion, spirit, a stirring mood. Also a casual 'bye'.", "use": "Proper hwyl in the stadium tonight.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Cymru", "say": "KUM-ree", "ipa": "ˈkəmri", "tts": "kum ree", "why": "Welsh for Wales, and the name the football team uses. The 'y' is like the 'u' in 'cup'."},
+      {"word": "Llanelli", "say": "hlan-ETH-lee", "ipa": "ɬaˈnɛɬi", "tts": "thlan eth lee", "why": "Home of the Scarlets. Welsh 'll' is a breathy hiss, not an English 'l'."},
+      {"word": "Parc y Scarlets", "say": "park uh SKAR-lets", "ipa": "ˈpark ə ˈskarlɛts", "tts": "park uh scarlets", "why": "The Scarlets' ground. The 'y' is 'uh', not 'why'."},
+      {"word": "Pontypridd", "say": "pont-uh-PREETH", "ipa": "ˌpɒntəˈpɹiːð", "tts": "pont uh preeth", "why": "Valleys rugby town. The 'y' is 'uh', and 'dd' is a soft 'th'."},
+      {"word": "Caerphilly", "say": "kur-FIL-ee", "ipa": "kəɹˈfɪli", "tts": "kur filly", "why": "Valleys town. Starts 'kur', not 'care'."},
+      {"word": "Wrexham", "say": "REK-sum", "ipa": "ˈɹɛksəm", "tts": "rek sum", "why": "The 'W' is silent and there's no 'ham'."}
+    ],
+    "lines": [
+      {"t": "Tidy win, that.", "m": "Tidy means good."},
+      {"t": "Cymru am byth!", "m": "'Wales forever', shouted after a big win."},
+      {"t": "Tamping, I am. That was never a penalty.", "m": "Tamping means furious, and putting 'I am' at the end is pure Welsh English."},
+      {"t": "I'll be there now in a minute.", "m": "Welsh for 'soon-ish', so don't wait up."},
+      {"t": "International weekend. Whole of Cardiff's red.", "m": "Match days take over the city centre."}
+    ],
+    "avoid": [
+      {"say": "Wales is part of England", "instead": "Wales is its own country", "why": "Nothing annoys a Welsh fan faster."},
+      {"say": "Cardiff and Swansea get on fine", "instead": "the South Wales derby", "why": "They're fierce rivals about forty miles apart."},
+      {"say": "Wrexham only exist because of Hollywood", "instead": "Wrexham, founded 1864", "why": "One of the world's oldest clubs. Locals were there long before the cameras."}
+    ],
+    "habits": ["The Principality Stadium sits in the middle of Cardiff, so fans walk in from the city-centre pubs on international days.", "Before kick-off the crowd sings Hen Wlad Fy Nhadau, and often Calon Lân; football fans adopted Yma o Hyd.", "Football fans call themselves the Red Wall (Y Wal Goch) and wear red, yellow and green bucket hats."],
+    "sources": ["https://en.wikipedia.org/wiki/Welsh_English", "https://en.wiktionary.org/wiki/cwtch", "https://en.wiktionary.org/wiki/tamping", "https://en.wiktionary.org/wiki/twp", "https://en.wiktionary.org/wiki/now_in_a_minute", "https://en.wiktionary.org/wiki/iechyd_da", "https://en.wiktionary.org/wiki/Llanelli", "https://en.wiktionary.org/wiki/Pontypridd"],
+    "unsure": ["words: WalesOnline and BBC Wales pages could not be fetched; local confirmation rests on Wikipedia's Welsh English sources and Wiktionary's Wales labels"]
+  },
+  {
+    "id": "uk-glasgow",
+    "name": "Glasgow and the west of Scotland",
+    "covers": "Celtic, Rangers, Glasgow Warriors, Kilmarnock, Motherwell, St Mirren",
+    "dialect": "Glaswegian (the Glasgow patter)",
+    "words": [
+      {"term": "gallus", "say": "GAL-us", "ipa": "ˈɡaləs", "tts": "", "means": "Bold, cocky, full of swagger. Usually praise.", "use": "Gallus wee winger, that boy. Fears nobody.", "common": true},
+      {"term": "pure", "say": "PYOOR", "ipa": "pjuːɾ", "tts": "", "means": "Totally, really. 'Pure brilliant' means really brilliant.", "use": "That was pure magic.", "common": true},
+      {"term": "Weegie", "say": "WEE-jee", "ipa": "ˈwiːdʒi", "tts": "weejee", "means": "A Glaswegian. Glaswegians use it themselves; from elsewhere it can be a dig.", "use": "Proper Weegie, never misses a home game.", "common": true},
+      {"term": "greetin'", "say": "GREE-tin", "ipa": "ˈɡɾiːtɪn", "tts": "greetin", "means": "Crying, or moaning and whingeing.", "use": "Stop greetin', it was a stonewall penalty.", "common": true},
+      {"term": "boggin", "say": "BOG-in", "ipa": "ˈbɔɡɪn", "tts": "", "means": "Disgusting, filthy, stinking.", "use": "That pitch is boggin' after all the rain.", "common": true},
+      {"term": "wean", "say": "WAYN", "ipa": "weːn", "tts": "wane", "means": "A child. From 'wee ane', little one.", "use": "Took the wean to his first game. He loved it.", "common": true},
+      {"term": "piece", "say": "PEESS", "ipa": "pis", "tts": "", "means": "A sandwich. A 'jeely piece' is a jam sandwich.", "use": "Bring a piece, the queue for the pies is massive.", "common": true},
+      {"term": "messages", "say": "MESS-uh-jiz", "ipa": "ˈmɛsɪdʒɪz", "tts": "", "means": "The shopping, the groceries.", "use": "Get the messages done before kick-off.", "common": true},
+      {"term": "bampot", "say": "BAM-pot", "ipa": "ˈbampɔt", "tts": "", "means": "An idiot, a nutter. Mild.", "use": "Some bampot ran on the pitch.", "common": true},
+      {"term": "hen", "say": "HEN", "ipa": "hɛn", "tts": "", "means": "A friendly way to address a woman or girl. 'Alright, hen?'", "use": "Two pies and a Bovril, hen. Ta.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Glasgow", "say": "GLAZ-go", "ipa": "ˈɡlazɡo", "tts": "glaz go", "why": "A 'z' sound in the middle and a plain 'go' at the end. Locals often say 'Glesga'. Never 'Glas-cow'."},
+      {"word": "Glaswegian", "say": "glaz-WEE-jun", "ipa": "ɡlazˈwiːdʒən", "tts": "glaz wee jun", "why": "The stress falls on 'wee'."},
+      {"word": "Milngavie", "say": "mul-GUY", "ipa": "mʌlˈɡaɪ", "tts": "mull guy", "why": "Northern suburb and a famous trap. Nothing like the spelling."},
+      {"word": "Hampden", "say": "HAM-dun", "ipa": "ˈhɑːmdən", "tts": "ham dun", "why": "Scotland's national stadium on the south side. The 'p' is barely there."}
+    ],
+    "lines": [
+      {"t": "Pure brilliant, that.", "m": "'Pure' means totally."},
+      {"t": "Gallus wee player, that.", "m": "Gallus is praise: bold and cocky."},
+      {"t": "Stop greetin', it was a clear penalty.", "m": "Greetin' means crying or moaning."},
+      {"t": "Absolutely boggin' weather for it.", "m": "Glasgow rain, and the standard moan about it."},
+      {"t": "Derby day. Whole city's on edge.", "m": "The Glasgow derby takes over the city."}
+    ],
+    "avoid": [
+      {"say": "Glass-cow", "instead": "Glaz-go", "why": "Glaswegians wince at the 'cow' ending."},
+      {"say": "och aye the noo", "instead": "aye", "why": "It's an outsider's cartoon of Scots. Nobody really says it."},
+      {"say": "Edinburgh's the biggest city", "instead": "Glasgow's the biggest city", "why": "Glasgow is Scotland's largest city, and locals will tell you so."}
+    ],
+    "habits": ["A pie and a cup of Bovril at half-time is the Scottish football ritual.", "Hampden Park on the south side hosts Scotland games and cup finals, so the whole country comes to Glasgow.", "Glasgow Warriors play at Scotstoun in the city's west end, a smaller, close-up rugby ground."],
+    "sources": ["https://en.wikipedia.org/wiki/Glasgow_dialect", "https://en.wiktionary.org/wiki/gallus", "https://en.wiktionary.org/wiki/boggin", "https://en.wiktionary.org/wiki/wean", "https://dsl.ac.uk/entry/snd/wean", "https://en.wiktionary.org/wiki/bampot", "https://en.wiktionary.org/wiki/Glasgow", "https://en.wikipedia.org/wiki/Milngavie"],
+    "unsure": ["words: 'gubbed' (heavily beaten) left out; the Dictionary of the Scots Language and Wiktionary don't record that sense", "words: Glasgow Live and The Herald could not be fetched; local confirmation rests on the Dictionary of the Scots Language (Glasgow) and Wiktionary's Scots labels"]
+  },
+  {
+    "id": "uk-scotland-east",
+    "name": "Edinburgh and the east of Scotland",
+    "covers": "Edinburgh (Hearts, Hibs, Edinburgh Rugby), Falkirk, Dundee, Dundee United, St Johnstone, Aberdeen",
+    "dialect": "East-coast Scots: Edinburgh, Dundonian and north-east Doric",
+    "words": [
+      {"term": "ken", "say": "KEN", "ipa": "kɛn", "tts": "", "means": "Know. 'Ye ken' is tagged on to sentences all over the east.", "use": "We should've won that, ken.", "common": true},
+      {"term": "Embra", "say": "EM-bruh", "ipa": "ˈɛmbɹə", "tts": "em bruh", "means": "Edinburgh, the way locals say it.", "use": "Derby day in Embra. Nothing else on.", "common": true},
+      {"term": "barry", "say": "BARR-ee", "ipa": "ˈbaɾi", "tts": "bah ree", "means": "Great, brilliant. Edinburgh slang.", "use": "Barry goal, that.", "common": true},
+      {"term": "radge", "say": "RADJ", "ipa": "radʒ", "tts": "", "means": "Mad, wild, raging. 'Gone radge' means lost the plot.", "use": "The ref's gone radge with the cards.", "common": true},
+      {"term": "gadge", "say": "GADJ", "ipa": "ɡadʒ", "tts": "", "means": "A bloke, a guy. Edinburgh slang.", "use": "Some gadge behind me never stopped moaning.", "common": true},
+      {"term": "peh", "say": "PAY", "ipa": "pe", "tts": "pay", "means": "A pie, the Dundee way.", "use": "Peh and a Bovril at half-time.", "common": true},
+      {"term": "bridie", "say": "BRY-dee", "ipa": "ˈbɹəidi", "tts": "", "means": "A horseshoe-shaped meat pastry from Forfar, loved across Angus and Dundee.", "use": "Grab a bridie on the way to the ground.", "common": true},
+      {"term": "fit like?", "say": "fit LIKE", "ipa": "fɪt ˈləik", "tts": "fit like", "means": "Doric for 'how are you?'. 'Fit' is 'what' in Aberdeen.", "use": "Fit like? Ye going tae the game?", "common": true},
+      {"term": "foo", "say": "FOO", "ipa": "fuː", "tts": "", "means": "Doric for 'how'.", "use": "Foo did he miss that?", "common": true},
+      {"term": "loon", "say": "LOON", "ipa": "luːn", "tts": "", "means": "Doric for a boy or young man.", "use": "That young loon in midfield can play.", "common": true},
+      {"term": "quine", "say": "KWINE", "ipa": "kwəin", "tts": "kwine", "means": "Doric for a girl or young woman.", "use": "The quine next to me kent every player's name.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Edinburgh", "say": "ED-in-bruh", "ipa": "ˈɛdɪnbɹə", "tts": "edin bruh", "why": "Ends in 'bruh'. Never 'Edin-burg' or 'Edin-burrow'."},
+      {"word": "Kirkcaldy", "say": "kur-KAW-dee", "ipa": "kəɹˈkɔːdi", "tts": "kur caw dee", "why": "Fife town, home of Raith Rovers. The 'l' is silent."},
+      {"word": "Falkirk", "say": "FAWL-kurk", "ipa": "ˈfɔːlkɪɹk", "tts": "fall kirk", "why": "Home of the Bairns. Many locals drop the 'l' and say 'FAW-kirk'."},
+      {"word": "Gorgie", "say": "GOR-ghee", "ipa": "ˈɡɔɹɡi", "tts": "gor ghee", "why": "Hearts' part of Edinburgh. Both g's are hard."}
+    ],
+    "lines": [
+      {"t": "Fit like? Ye going tae Pittodrie?", "m": "Doric 'how are you?' before an Aberdeen home game."},
+      {"t": "Barry result, that.", "m": "Edinburgh slang for a great one."},
+      {"t": "Edinburgh derby Sunday. Whole of Embra's split.", "m": "Hearts against Hibs divides the capital."},
+      {"t": "Dundee derby? The two grounds are on the same street.", "m": "Dens Park and Tannadice are a short walk apart."},
+      {"t": "The ref's gone radge.", "m": "Radge means mad or raging."}
+    ],
+    "avoid": [
+      {"say": "Aberdeen's in the Highlands", "instead": "Aberdeen's in the north-east", "why": "The north-east has its own identity and its own dialect, Doric."},
+      {"say": "Doric is just bad English", "instead": "Doric is a dialect of Scots", "why": "The north-east is proud of it, and it's taught and written."},
+      {"say": "the Dundee clubs share a ground", "instead": "Dens Park and Tannadice", "why": "They're two separate grounds, just yards apart on the same street."}
+    ],
+    "habits": ["Dundee's two grounds, Dens Park and Tannadice, sit on the same street, the closest pair of senior grounds in Britain.", "Edinburgh Rugby play in a smaller stadium right beside Murrayfield, so rugby days fill the west of the city.", "Forfar bridies and Dundee pehs are the local matchday fuel, with a hot Bovril."],
+    "sources": ["https://en.wikipedia.org/wiki/Doric_dialect_(Scotland)", "https://en.wiktionary.org/wiki/barry", "https://en.wiktionary.org/wiki/Embra", "https://en.wiktionary.org/wiki/fit_like", "https://en.wiktionary.org/wiki/quine", "https://dsl.ac.uk/entry/snd/radge", "https://dsl.ac.uk/entry/snd/bridie", "https://en.wikipedia.org/wiki/Kirkcaldy"],
+    "unsure": ["words: Edinburgh Live, The Courier and the Press and Journal could not be fetched; local confirmation rests on the Dictionary of the Scots Language and Wiktionary's Scots and Doric labels", "pronounce: Pittodrie and Tannadice left out; no reference IPA found"]
+  },
+  {
+    "id": "uk-scotland",
+    "name": "Scotland",
+    "covers": "Scotland's national sides",
+    "dialect": "Scottish English and Scots",
+    "words": [
+      {"term": "the Tartan Army", "say": "the TAR-tun AR-mee", "ipa": "ðə ˈtɑɹtən ˈɑɹmi", "tts": "", "means": "Scotland's travelling football fans, famous for kilts and good humour.", "use": "The Tartan Army took over the whole town.", "common": true},
+      {"term": "the Auld Enemy", "say": "thee AWLD EN-uh-mee", "ipa": "ði ˈɔːld ˈɛnəmi", "tts": "", "means": "England. The one game every Scotland fan wants to win.", "use": "Auld Enemy next. Bring it on.", "common": true},
+      {"term": "braw", "say": "BRAH", "ipa": "bɹɑː", "tts": "brah", "means": "Fine, great, lovely.", "use": "Braw day for it.", "common": true},
+      {"term": "dreich", "say": "DREEKH", "ipa": "dɹix", "tts": "dreek", "means": "Grey, wet and miserable weather. Scotland's favourite word.", "use": "Dreich day at Murrayfield, but what a win.", "common": true},
+      {"term": "scunnered", "say": "SKUN-urd", "ipa": "ˈskʌnəɹd", "tts": "", "means": "Fed up, sick of something.", "use": "Another late goal against us. Scunnered.", "common": true},
+      {"term": "glaikit", "say": "GLAY-kit", "ipa": "ˈɡlekɪt", "tts": "glay kit", "means": "Gormless, stupid-looking.", "use": "Glaikit defending, that.", "common": true},
+      {"term": "haud yer wheesht", "say": "HAWD yer WEESHT", "ipa": "ˈhɔːd jəɹ ˈʍiːʃt", "tts": "hawd yer wheesht", "means": "Be quiet, shut up. Firm but not rude.", "use": "Haud yer wheesht, it's not over yet.", "common": true},
+      {"term": "wee", "say": "WEE", "ipa": "wiː", "tts": "", "means": "Small, little. Also used for anything you're fond of.", "use": "Gallus wee striker, that.", "common": true},
+      {"term": "aye", "say": "EYE", "ipa": "aɪ", "tts": "", "means": "Yes.", "use": "Aye, we'll beat them.", "common": true},
+      {"term": "cannae", "say": "KAN-ee", "ipa": "ˈkanɪ", "tts": "canny", "means": "Can't. 'Dinnae' is don't.", "use": "Cannae believe we lost that.", "common": true},
+      {"term": "the Calcutta Cup", "say": "the kal-KUT-uh KUP", "ipa": "ðə kalˈkʌtə ˈkʌp", "tts": "", "means": "The rugby trophy Scotland and England play for every Six Nations.", "use": "Calcutta Cup's staying in Scotland.", "common": true},
+      {"term": "the Hampden Roar", "say": "the HAM-dun ROAR", "ipa": "ðə ˈhɑːmdən ˈɹɔːɹ", "tts": "the ham dun roar", "means": "The famous noise of a full Hampden crowd.", "use": "Get the Hampden Roar going and we've a chance.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Carnoustie", "say": "kar-NOO-stee", "ipa": "kɑɹˈnuːsti", "tts": "car noo stee", "why": "The Open Championship golf course on the Angus coast. Stress on 'NOO'."},
+      {"word": "Musselburgh", "say": "MUSS-ul-bruh", "ipa": "ˈmʌsəlbəɹə", "tts": "mussel bruh", "why": "Racecourse town near Edinburgh. The '-burgh' is 'bruh', as in Edinburgh."},
+      {"word": "Ayr", "say": "AIR", "ipa": "eɾ", "tts": "air", "why": "Home of the Scottish Grand National. One syllable, said like 'air', not 'eye-er'."},
+      {"word": "Scone", "say": "SKOON", "ipa": "skuːn", "tts": "scoon", "why": "Perth's racecourse sits at Scone Palace. Rhymes with 'moon'."}
+    ],
+    "lines": [
+      {"t": "Beat the Auld Enemy and the year's made.", "m": "England is the one Scotland fans most want to beat."},
+      {"t": "Another late goal against us. Scunnered.", "m": "Fed up after yet another near miss."},
+      {"t": "Dreich day, but the Tartan Army's out in force.", "m": "Scotland fans turn up whatever the weather."},
+      {"t": "Haud yer wheesht, it's not over yet.", "m": "'Be quiet', said to a doom-monger with ten minutes left."},
+      {"t": "Calcutta Cup's staying in Scotland.", "m": "After beating England at rugby."}
+    ],
+    "avoid": [
+      {"say": "Scotch fans", "instead": "Scottish fans, or Scots", "why": "Scotch is whisky. People are Scottish."},
+      {"say": "Britain's football team", "instead": "Scotland", "why": "Scotland has its own national sides. Team GB only exists at the Olympics."},
+      {"say": "Scotland's rugby home is Hampden", "instead": "Murrayfield", "why": "Hampden in Glasgow is football. Rugby is Murrayfield in Edinburgh."}
+    ],
+    "habits": ["Before kick-off the crowd sings Flower of Scotland, at football and rugby alike.", "The Tartan Army travel in kilts and are known for good-natured support and raising money for children's charities.", "At tournaments the fans' slogan 'No Scotland, No Party' and the adopted song 'Yes Sir, I Can Boogie' follow the team."],
+    "sources": ["https://en.wikipedia.org/wiki/Tartan_Army", "https://en.wikipedia.org/wiki/Calcutta_Cup", "https://en.wikipedia.org/wiki/Hampden_Park", "https://en.wiktionary.org/wiki/Auld_Enemy", "https://en.wiktionary.org/wiki/dreich", "https://dsl.ac.uk/entry/snd/dreich", "https://dsl.ac.uk/entry/snd/glaikit", "https://dsl.ac.uk/entry/snd/scunner"],
+    "unsure": []
+  },
+  {
+    "id": "uk-england",
+    "name": "England",
+    "covers": "England's national sides",
+    "dialect": "English fan talk (national, across accents)",
+    "words": [
+      {"term": "the Three Lions", "say": "the THREE LY-unz", "ipa": "ðə ˈθɹiː ˈlaɪənz", "tts": "", "means": "England's men's football team, after the three lions on the badge.", "use": "Three Lions at Wembley Saturday. Who's coming?", "common": true},
+      {"term": "the Lionesses", "say": "the LY-uh-ness-iz", "ipa": "ðə ˈlaɪənɛsɪz", "tts": "", "means": "England's women's football team.", "use": "Lionesses on the telly tonight, get the pub booked.", "common": true},
+      {"term": "the Red Roses", "say": "the RED ROH-ziz", "ipa": "ðə ˈɹɛd ˈɹəʊzɪz", "tts": "", "means": "England's women's rugby team, world champions in 2025.", "use": "Red Roses at Twickers, sold out again.", "common": true},
+      {"term": "the Barmy Army", "say": "the BAR-mee AR-mee", "ipa": "ðə ˈbɑːmi ˈɑːmi", "tts": "", "means": "England's travelling cricket fans. Australian media gave them the name in 1994-95.", "use": "Barmy Army are louder than the home crowd again.", "common": true},
+      {"term": "Twickers", "say": "TWIK-uz", "ipa": "ˈtwɪkəz", "tts": "", "means": "Twickenham, England's rugby home. Also called HQ.", "use": "Twickers on Saturday, picnic in the car park first.", "common": true},
+      {"term": "the Ashes", "say": "thee ASH-iz", "ipa": "ði ˈæʃɪz", "tts": "", "means": "England against Australia at Test cricket, played for a tiny urn.", "use": "Nothing matters like an Ashes summer.", "common": true},
+      {"term": "Bazball", "say": "BAZ-bawl", "ipa": "ˈbæzbɔːl", "tts": "", "means": "England's all-out attacking Test cricket, named after coach Brendon 'Baz' McCullum.", "use": "Two hundred before lunch. Proper Bazball.", "common": true},
+      {"term": "Ingerland", "say": "ING-guh-land", "ipa": "ˈɪŋɡəlænd", "tts": "ingguh land", "means": "England, the way it's bellowed from the stands.", "use": "Ingerland! Come on!", "common": true},
+      {"term": "gutted", "say": "GUT-id", "ipa": "ˈɡʌtɪd", "tts": "", "means": "Devastated, crushed after a defeat.", "use": "Gutted. Thought we had that.", "common": true},
+      {"term": "bottled it", "say": "BOT-uld it", "ipa": "ˈbɒtəld ɪt", "tts": "", "means": "Lost their nerve when it mattered.", "use": "Two up at half-time and we bottled it.", "common": true},
+      {"term": "squeaky bum time", "say": "SKWEE-kee BUM time", "ipa": "ˈskwiːki ˈbʌm taɪm", "tts": "", "means": "The nervy final stretch of a close game or season.", "use": "Ten minutes left, one goal in it. Squeaky bum time.", "common": true},
+      {"term": "having a mare", "say": "HAV-ing uh MAIR", "ipa": "ˈhævɪŋ ə ˈmɛə", "tts": "", "means": "Having a nightmare, playing terribly.", "use": "Keeper's having a mare today.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Twickenham", "say": "TWIK-un-um", "ipa": "ˈtwɪkənəm", "tts": "twick un um", "why": "England's rugby home, now sponsored as the Allianz Stadium. No 'ham' at the end."},
+      {"word": "Marylebone", "say": "MAR-luh-bun", "ipa": "ˈmɑːləbən", "tts": "mahluh buhn", "why": "The MCC, owners of Lord's, is the Marylebone Cricket Club. Nobody says 'Mary-le-bone'."},
+      {"word": "Worcestershire", "say": "WUSS-tuh-shuh", "ipa": "ˈwʊstəʃə", "tts": "wuss tuh shuh", "why": "County cricket side at New Road. Three syllables, like the sauce."},
+      {"word": "Warwickshire", "say": "WORR-ik-shuh", "ipa": "ˈwɒɹɪkʃə", "tts": "worrick shuh", "why": "Edgbaston's county side. The middle 'w' is silent."}
+    ],
+    "lines": [
+      {"t": "Please, not penalties.", "m": "England fans dread shoot-outs after years of heartbreak."},
+      {"t": "Squeaky bum time now.", "m": "The tense last few minutes of a close game."},
+      {"t": "Barmy Army are louder than the home crowd again.", "m": "England's cricket fans travel in numbers."},
+      {"t": "Bazball or bust.", "m": "Backing England's attacking style of Test cricket."},
+      {"t": "Twickers on Saturday, car park picnic first.", "m": "The Twickenham car-park picnic is part of rugby day."}
+    ],
+    "avoid": [
+      {"say": "soccer", "instead": "football", "why": "In England it's football. 'Soccer' marks you as American."},
+      {"say": "Britain's football team", "instead": "England", "why": "England, Scotland and Wales play separately. Team GB only exists at the Olympics."},
+      {"say": "England play rugby at Wembley", "instead": "England play rugby at Twickenham", "why": "Wembley is the football home. Twickenham is HQ for rugby."}
+    ],
+    "habits": ["Rugby internationals start with picnics and drinks from car boots in Twickenham's West Car Park.", "Big tournaments are watched in packed pubs and fan zones, with St George's flags in windows and on cars.", "The Barmy Army follows England's cricketers round the world, and cricket crowds strike up Jerusalem; football fans have 'Three Lions' and 'Sweet Caroline'."],
+    "sources": ["https://en.wikipedia.org/wiki/Twickenham_Stadium", "https://en.wikipedia.org/wiki/Barmy_Army", "https://en.wikipedia.org/wiki/Bazball", "https://en.wikipedia.org/wiki/England_women%27s_national_rugby_union_team", "https://en.wiktionary.org/wiki/Ingerland", "https://en.wiktionary.org/wiki/squeaky_bum_time", "https://en.wiktionary.org/wiki/Marylebone", "https://en.wiktionary.org/wiki/Worcestershire"],
+    "unsure": []
+  },
+  {
+    "id": "ie-ireland",
+    "name": "Ireland",
+    "covers": "Leinster, Munster, Connacht, Ulster, Ireland (rugby is all-island; keep it non-political)",
+    "dialect": "Irish English (Hiberno-English), including Ulster English, with a few Irish words",
+    "words": [
+      {"term": "craic", "say": "KRAK", "ipa": "kɹæk", "tts": "crack", "means": "Fun, good company, or the news. 'What's the craic?' means 'how's it going?'.", "use": "Great craic in the pub after the match.", "common": true},
+      {"term": "grand", "say": "GRAND", "ipa": "ɡɹand", "tts": "", "means": "Fine, OK. Not 'magnificent', just fine.", "use": "Ah, we'll be grand. Plenty of time left.", "common": true},
+      {"term": "deadly", "say": "DED-lee", "ipa": "ˈdɛdli", "tts": "", "means": "Brilliant, excellent. Dublin especially.", "use": "Deadly try, that.", "common": true},
+      {"term": "savage", "say": "SAV-ij", "ipa": "ˈsævɪdʒ", "tts": "", "means": "Brilliant, amazing. Younger fans' favourite.", "use": "That tackle was savage.", "common": true},
+      {"term": "your man", "say": "yer MAN", "ipa": "jəɹ ˈman", "tts": "yer man", "means": "That fella, the man in question. 'Your one' is the woman.", "use": "Your man at full-back is having a stormer.", "common": true},
+      {"term": "giving out", "say": "GIV-in OWT", "ipa": "ˈɡɪvɪn ˈaʊt", "tts": "", "means": "Complaining, or telling someone off.", "use": "He's been giving out about the ref all match.", "common": true},
+      {"term": "gas", "say": "GAS", "ipa": "ɡas", "tts": "", "means": "Funny, a laugh. 'He's gas' means he's hilarious.", "use": "The away trip was gas.", "common": true},
+      {"term": "eejit", "say": "EE-jit", "ipa": "ˈiːdʒɪt", "tts": "", "means": "An idiot. Mild, often affectionate.", "use": "Some eejit kicked it straight into touch.", "common": true},
+      {"term": "banjaxed", "say": "BAN-jaxt", "ipa": "ˈbændʒækst", "tts": "", "means": "Broken, wrecked, or exhausted.", "use": "Hamstring's banjaxed. He's out for the season.", "common": true},
+      {"term": "fair play", "say": "fair PLAY", "ipa": "ˌfɛəɹ ˈpleɪ", "tts": "", "means": "Well done, credit where it's due.", "use": "Fair play to the lads, they dug that out.", "common": true},
+      {"term": "bout ye?", "say": "BOWT yeh", "ipa": "ˈbaʊt jə", "tts": "bout ya", "means": "Ulster for 'how are you?'. Short for 'what about you?'.", "use": "Bout ye? You heading to Ravenhill Friday?", "common": true},
+      {"term": "sláinte", "say": "SLAWN-chuh", "ipa": "ˈslɑːntʲə", "tts": "slawn cha", "means": "Cheers! Irish for 'health'.", "use": "Sláinte, lads. Here's to a Grand Slam.", "common": true},
+      {"term": "garryowen", "say": "garry-OH-in", "ipa": "ˌɡæɹiˈəʊən", "tts": "garry owen", "means": "A high, short up-and-under kick, named after the Limerick club Garryowen.", "use": "Stick a garryowen up and chase it!", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Leinster", "say": "LEN-stuh", "ipa": "ˈlɛnstəɹ", "tts": "lenster", "why": "The eastern province and its team. 'Lein' is 'len', not 'line'."},
+      {"word": "Connacht", "say": "KON-ukht", "ipa": "ˈkɒnəxt", "tts": "con uckt", "why": "The western province, based in Galway. Many locals also say 'KON-awt'."},
+      {"word": "Dún Laoghaire", "say": "dun LEER-ee", "ipa": "dʌn ˈlɪəɹi", "tts": "dun leery", "why": "South Dublin harbour town in Leinster country. Nothing like the spelling."},
+      {"word": "Naas", "say": "NAYSS", "ipa": "neɪs", "tts": "nace", "why": "Kildare racing town. One syllable, rhymes with 'face'."}
+    ],
+    "lines": [
+      {"t": "What's the craic?", "m": "How's it going? The all-purpose Irish hello."},
+      {"t": "Ah, we'll be grand.", "m": "Grand means fine. Said to calm the nerves before a big game."},
+      {"t": "Fair play to the lads, that was deadly.", "m": "Well done, that was brilliant."},
+      {"t": "Interpro weekend. No friends on the pitch.", "m": "The derbies between Leinster, Munster, Connacht and Ulster are fiercely fought."},
+      {"t": "Your man hasn't stopped giving out all match.", "m": "That fella has complained the whole game."}
+    ],
+    "avoid": [
+      {"say": "St Patty's Day", "instead": "St Paddy's Day, or St Patrick's Day", "why": "Patty is a girl's name. Paddy comes from Pádraig."},
+      {"say": "the British Lions", "instead": "the British & Irish Lions", "why": "Irish players tour with the Lions too, and the name says so."},
+      {"say": "top o' the morning", "instead": "what's the craic?", "why": "It's a film cliché. Nobody in Ireland says it."},
+      {"say": "Ulster players play for Northern Ireland at rugby", "instead": "Ulster players play for Ireland", "why": "Rugby picks one Ireland team from the whole island."}
+    ],
+    "habits": ["Before rugby internationals the team lines up for 'Ireland's Call', the anthem written for the all-island side.", "The festive Interpros, derbies between the four provinces around Christmas and New Year, are a fixture of the season.", "Grounds by their everyday names: the Aviva (still Lansdowne Road to many), Thomond Park, the RDS, Ravenhill (now the Affidea Stadium) and the Sportsground (now the Dexcom Stadium)."],
+    "sources": ["https://en.wikipedia.org/wiki/Hiberno-English", "https://en.wikipedia.org/wiki/Ulster_English", "https://en.wikipedia.org/wiki/Ravenhill_Stadium", "https://en.wikipedia.org/wiki/The_Sportsground", "https://en.wiktionary.org/wiki/craic", "https://en.wiktionary.org/wiki/banjaxed", "https://en.wiktionary.org/wiki/garryowen", "https://en.wiktionary.org/wiki/Connacht"],
+    "unsure": ["words: Irish Times and TheJournal.ie were reachable but no slang article could be located without search; local confirmation rests on Wikipedia's Hiberno-English and Ulster English sources and Wiktionary's Ireland labels"]
+  }
+]

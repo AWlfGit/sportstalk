@@ -3,7 +3,8 @@
     "team": "Aberdeen",
     "espnId": "263",
     "league": "soccer/sco.1",
-    "aliases": ["aberdeen", "the dons", "dons", "aberdeen fc", "the reds"],
+    "region": "uk-scotland-east",
+    "aliases": ["aberdeen", "aberdeen fc", "the dons", "dons", "the dandy dons", "the reds"],
     "nickname": "the Dons",
     "fans": "the Red Army",
     "ground": "Pittodrie",
@@ -15,64 +16,96 @@
     "legends": ["Willie Miller", "Alex McLeish", "Jim Leighton", "Gordon Strachan"],
     "memory": "Gothenburg 1983: beating Real Madrid 2-1 after extra time to win the European Cup Winners' Cup",
     "lingo": [
-      {"term": "the Dons", "say": "the DONZ", "means": "The team's main nickname. Nobody is sure where it came from, and fans don't mind."},
-      {"term": "Pittodrie", "say": "pih-TOD-ree", "means": "Aberdeen's home ground since the club began, close to the beach."},
-      {"term": "Gothenburg Greats", "say": "GOTH-en-burg GRAYTS", "means": "The 1983 side that beat Real Madrid in Sweden. Every Dons fan knows them."},
-      {"term": "the Red Army", "say": "the RED AR-mee", "means": "What Aberdeen's support call themselves."}
+      {"term": "the Dons", "say": "the DONZ", "ipa": "ðə ˈdɔnz", "tts": "", "means": "The team's main nickname, used since at least 1913. Nobody is sure where it came from, and fans don't mind."},
+      {"term": "the Dandy Dons", "say": "the DAN-dee DONZ", "ipa": "ðə ˈdandi ˈdɔnz", "tts": "", "means": "An older, fond version of the nickname. You'll also hear 'the Dandies'."},
+      {"term": "the Red Army", "say": "the RED AR-mee", "ipa": "ðə ˈrɛd ˈarmi", "tts": "", "means": "What Aberdeen's support call themselves. The club keeps the number 12 shirt for them, as the twelfth man."},
+      {"term": "the Gothenburg Greats", "say": "the GOTH-en-burg GRAYTS", "ipa": "ðə ˈɡɔθənbʌrɡ ˈɡrets", "tts": "", "means": "Alex Ferguson's 1983 side that beat Real Madrid in Sweden. Every Dons fan knows them."},
+      {"term": "the RDS", "say": "the AR-dee-ESS", "ipa": "ðə ˌar di ˈɛs", "tts": "", "means": "The Richard Donald Stand, Pittodrie's big two-tier stand, named after a former chairman. Fans just say 'the RDS'."},
+      {"term": "the Beach End", "say": "the BEECH END", "ipa": "ðə ˈbitʃ ˈɛnd", "tts": "", "means": "The old stand at the seaward end of Pittodrie, where the RDS now stands. Older fans still use the name."}
     ],
     "lines": [
-      {"t": "We're the only Scottish club with two European trophies.", "m": "The 1983 Cup Winners' Cup and Super Cup. A favourite boast."},
-      {"t": "Gothenburg will never be forgotten.", "m": "Fans bring up 1983 at any excuse. Agreeing is always safe."},
-      {"t": "Pittodrie with the wind coming off the North Sea, that's proper football.", "m": "Fans take pride in their cold, exposed seaside ground."},
-      {"t": "Beat Rangers and the season's a success.", "m": "Wins over Rangers matter more to Dons fans than almost anything."},
-      {"t": "Fergie's side showed the Glasgow clubs could be beaten.", "m": "Under Alex Ferguson in the early 1980s, Aberdeen broke Celtic and Rangers' grip on the league."}
+      {"t": "We're the only Scottish club with two European trophies.", "m": "The 1983 Cup Winners' Cup and Super Cup. A favourite boast.", "when": "any"},
+      {"t": "Gothenburg will never be forgotten.", "m": "Fans bring up 1983 at any excuse. Agreeing is always safe.", "when": "any"},
+      {"t": "Pittodrie with the wind coming off the North Sea. That's proper football.", "m": "The ground is about 550 yards from the sea and one of the coldest in Britain. Fans are proud of it.", "when": "any"},
+      {"t": "Fergie's side showed the Glasgow clubs could be beaten.", "m": "Under Alex Ferguson in the early 1980s, Aberdeen broke Celtic and Rangers' grip on the league.", "when": "any"},
+      {"t": "Hampden 2025. Thirty-five years, and worth every one.", "m": "Aberdeen beat Celtic on penalties to win the 2025 Scottish Cup, their first since 1990, and stopped a Celtic treble.", "when": "win"},
+      {"t": "Beat Rangers and the season's a success.", "m": "Wins over Rangers matter more to Dons fans than almost anything.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The number 12 shirt", "means": "The club lists the Red Army in the squad as the twelfth man, so no player wears 12."},
+      {"name": "'The Northern Lights of Old Aberdeen'", "means": "An old song about the city that the Pittodrie crowd has made its own."},
+      {"name": "The dug-out", "means": "Fans like telling you football's first dug-out was built at Pittodrie in the 1920s, by coach Donald Colman."}
+    ],
+    "sore": [
+      {"topic": "The league since 1985", "why": "Aberdeen haven't won the title since Fergie's side did it in 1985, and fans don't need reminding."}
+    ],
+    "pronounce": [
+      {"word": "Pittodrie", "say": "pih-TOD-ree", "ipa": "pɪˈtɔdri", "tts": "", "why": "The stress is on the middle syllable. Outsiders often say PIT-oh-dree."}
     ],
     "avoid": [
-      {"say": "pit-oh-DREE", "instead": "pih-TOD-ree", "why": "The stress is on the middle syllable. Getting the ground wrong is an instant giveaway."},
       {"say": "Aberdeen have never won anything big", "instead": "Aberdeen beat Real Madrid in a European final", "why": "Gothenburg is the club's proudest moment and fans will correct you fast."},
-      {"say": "Rangers are a good side, to be fair", "instead": "Anyone but Rangers", "why": "Rangers are the rival Dons fans care about most."}
+      {"say": "Rangers are a good side, to be fair", "instead": "Anyone but Rangers", "why": "Rangers are the rival Dons fans care about most."},
+      {"say": "Aberdeen are a Highland club", "instead": "Aberdeen are the North East's club", "why": "Aberdeen isn't in the Highlands, and locals call their part of Scotland the North East."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Aberdeen_F.C.", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Scottish_Premiership"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Aberdeen_F.C.", "https://en.wikipedia.org/wiki/Pittodrie_Stadium", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership"],
+    "unsure": ["traditions: 'The Northern Lights of Old Aberdeen' is listed among the club's songs, but I couldn't confirm when it's played at Pittodrie"]
   },
   {
     "team": "Celtic",
     "espnId": "256",
     "league": "soccer/sco.1",
-    "aliases": ["celtic", "the bhoys", "bhoys", "the hoops", "celtic fc"],
+    "region": "uk-glasgow",
+    "aliases": ["celtic", "celtic fc", "the bhoys", "bhoys", "the hoops", "the celts"],
     "nickname": "the Bhoys",
     "fans": "",
     "ground": "Celtic Park (Parkhead)",
     "rivals": [
       {"team": "Rangers", "name": "Rangers", "derby": "the Old Firm derby"}
     ],
-    "legends": ["Billy McNeill", "Jimmy Johnstone", "Kenny Dalglish", "Henrik Larsson"],
+    "legends": ["Billy McNeill", "Jimmy Johnstone", "Jimmy McGrory", "Kenny Dalglish"],
     "memory": "Lisbon 1967: the Lisbon Lions beat Inter 2-1 and became the first British club to win the European Cup",
     "lingo": [
-      {"term": "the Bhoys", "say": "the BOYZ", "means": "The team's nickname. The odd spelling goes back over a century and fans keep it."},
-      {"term": "the Hoops", "say": "the HOOPS", "means": "Another name for the team, from the green-and-white hooped shirts."},
-      {"term": "Paradise", "say": "PAIR-uh-dice", "means": "Fans' name for Celtic Park."},
-      {"term": "the Lisbon Lions", "say": "the LIZ-bun LY-unz", "means": "The 1967 European Cup winners. Mentioning them shows you know the history."}
+      {"term": "the Bhoys", "say": "the BOYZ", "ipa": "ðə ˈbɔɪz", "tts": "the boys", "means": "The official nickname, said just like 'boys'. The odd spelling goes back to an early 1900s postcard, and fans keep it."},
+      {"term": "the Hoops", "say": "the HOOPS", "ipa": "ðə ˈhups", "tts": "", "means": "From the green-and-white hooped shirts, worn since 1903."},
+      {"term": "the Celts", "say": "the SELTS", "ipa": "ðə ˈsɛlts", "tts": "", "means": "Another nickname from the club's name, with a soft S like the club itself."},
+      {"term": "Paradise", "say": "PARR-uh-dice", "ipa": "ˈparədaɪs", "tts": "", "means": "Fans' name for Celtic Park, used since the club moved to the ground in 1892."},
+      {"term": "the Lisbon Lions", "say": "the LIZ-bun LY-unz", "ipa": "ðə ˈlɪzbən ˈlaɪənz", "tts": "", "means": "The 1967 European Cup winners. Mentioning them shows you know the history."},
+      {"term": "the Jungle", "say": "the JUNG-gul", "ipa": "ðə ˈdʒʌŋɡəl", "tts": "", "means": "The old covered terrace along the north side of Celtic Park, knocked down in 1994. Older fans still talk about it."}
     ],
     "lines": [
-      {"t": "Heading to Paradise on Saturday.", "m": "Going to a home game at Celtic Park."},
-      {"t": "The Lisbon Lions were all born within about 30 miles of the ground.", "m": "A favourite fact about 1967: a local team that won the European Cup."},
-      {"t": "Nothing beats a European night at Celtic Park.", "m": "Fans rate the noise on big Champions League nights as the best in Britain."},
-      {"t": "C'mon the Hoops!", "m": "A simple rallying cry before or during a game."},
-      {"t": "Larsson was the King of Kings.", "m": "Fans' name for Henrik Larsson. Safe praise for a club hero."}
+      {"t": "Heading to Paradise on Saturday.", "m": "Going to a home game at Celtic Park.", "when": "any"},
+      {"t": "The Lisbon Lions were all born within 30 miles of Glasgow.", "m": "A favourite fact about 1967: a local team that won the European Cup.", "when": "any"},
+      {"t": "Nothing beats a European night at Celtic Park.", "m": "Fans rate the noise on big Champions League nights as the best in Britain.", "when": "any"},
+      {"t": "C'mon the Hoops!", "m": "A simple rallying cry before or during a game.", "when": "any"},
+      {"t": "Larsson was the King of Kings.", "m": "Fans' name for Henrik Larsson. Safe praise for a club hero.", "when": "any"},
+      {"t": "We stopped the ten in '98.", "m": "Celtic's 1997-98 title stopped Rangers winning ten in a row. Fans still enjoy saying it.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Huddle", "means": "Before kick-off the players huddle on the pitch, a habit since 1995. Fans link arms in the stands and copy it."},
+      {"name": "'You'll Never Walk Alone'", "means": "Fans hold up green-and-white scarves when it's played at Celtic Park."},
+      {"name": "'The Celtic Song'", "means": "Played as the players walk out onto the pitch."}
+    ],
+    "sore": [
+      {"topic": "Ten in a row, 2020-21", "why": "Celtic were chasing a record tenth straight title and finished well behind Rangers."},
+      {"topic": "Seville 2003", "why": "The UEFA Cup final, lost 3-2 to Porto after extra time. Fans are proud of the 80,000 who went, not of the result."}
+    ],
+    "pronounce": [
+      {"word": "Celtic", "say": "SEL-tik", "ipa": "ˈsɛltɪk", "tts": "seltic", "why": "The club is said with a soft S, unlike the Celtic of history books."}
     ],
     "avoid": [
-      {"say": "KEL-tik", "instead": "SEL-tik", "why": "The club is said with a soft S. A hard K marks you as an outsider straight away."},
-      {"say": "Glasgow Celtic", "instead": "Celtic", "why": "Fans just say Celtic. The longer name sounds like a foreign newspaper."}
+      {"say": "KEL-tik", "instead": "SEL-tik", "why": "A hard K marks you as an outsider straight away."},
+      {"say": "Glasgow Celtic", "instead": "Celtic", "why": "Fans just say Celtic. The longer name sounds like a foreign newspaper."},
+      {"say": "the Celtics", "instead": "Celtic", "why": "The Celtics are Boston's basketball team. The football club is just Celtic, with no S."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Celtic_F.C.", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Celtic_F.C.", "https://en.wikipedia.org/wiki/Celtic_Park", "https://en.wiktionary.org/wiki/Celtic", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership"],
+    "unsure": ["traditions: I couldn't confirm in a second source exactly when 'You'll Never Walk Alone' is played (every game or only big nights), so the note doesn't say"]
   },
   {
     "team": "Dundee",
     "espnId": "261",
     "league": "soccer/sco.1",
-    "aliases": ["dundee", "dundee fc", "the dee", "dark blues"],
+    "region": "uk-scotland-east",
+    "aliases": ["dundee", "dundee fc", "the dee", "dark blues", "the dark blues"],
     "nickname": "the Dee",
     "fans": "",
     "ground": "Dens Park",
@@ -83,61 +116,83 @@
     "legends": ["Alan Gilzean", "Bobby Cox", "Ian Ure"],
     "memory": "1961-62: Dundee won the Scottish title, then reached the European Cup semi-finals the next season",
     "lingo": [
-      {"term": "the Dee", "say": "the DEE", "means": "The short name fans use for the club."},
-      {"term": "the Dark Blues", "say": "the DARK BLOOZ", "means": "Nickname from the navy shirts. It also sets them apart from tangerine United."},
-      {"term": "Dens", "say": "DENZ", "means": "Short for Dens Park, home since 1899."}
+      {"term": "the Dee", "say": "the DEE", "ipa": "ðə ˈdi", "tts": "", "means": "The short name fans use for the club."},
+      {"term": "the Dark Blues", "say": "the DARK BLOOZ", "ipa": "ðə ˈdark ˈbluz", "tts": "", "means": "Nickname from the navy shirts. It also sets them apart from tangerine United."},
+      {"term": "Dens", "say": "DENZ", "ipa": "ˈdɛnz", "tts": "", "means": "Short for Dens Park, home since 1899."},
+      {"term": "the Bobby Cox Stand", "say": "the BOB-ee KOKS STAND", "ipa": "ðə ˈbɔbi ˈkɔks ˈstand", "tts": "", "means": "The home stand at Dens, named after a club great. The away end is named after Bob Shankly, manager of the 1962 title side."},
+      {"term": "Camperdown", "say": "KAM-per-down", "ipa": "ˈkampərdaʊn", "tts": "", "means": "The site on the edge of the city where the club plans a new stadium. Fans have been hearing about it since 2016."}
     ],
     "lines": [
-      {"t": "Dens and Tannadice are a stone's throw apart.", "m": "The two Dundee grounds are about 100 yards apart on the same street, the closest in Britain."},
-      {"t": "C'mon the Dee!", "m": "The standard rallying cry."},
-      {"t": "We were champions before United ever were.", "m": "Dundee won the league in 1962, United in 1983. A gentle dig at the neighbours."},
-      {"t": "Derby day, the whole city stops.", "m": "The Dundee derby splits families and workplaces."}
+      {"t": "Dens and Tannadice are a stone's throw apart.", "m": "The two Dundee grounds are barely 200 yards apart, the closest senior grounds in Britain.", "when": "any"},
+      {"t": "C'mon the Dee!", "m": "The standard rallying cry.", "when": "any"},
+      {"t": "We got to a European Cup semi-final in 1963.", "m": "The season after the title, Dundee reached the last four before losing to AC Milan.", "when": "any"},
+      {"t": "Albert Kidd, 1986. Two goals off the bench.", "m": "Kidd's late double against Hearts on the last day of 1985-86 cost them the title. Dundee fans still raise a glass to him.", "when": "any"},
+      {"t": "We were champions before United ever were.", "m": "Dundee won the league in 1962, United in 1983. A gentle dig at the neighbours.", "when": "rival"},
+      {"t": "Derby day, the whole city stops.", "m": "The Dundee derby splits families and workplaces, though it's friendlier than the Old Firm.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "Derby day on the same street", "means": "For a Dundee derby the away fans only walk a couple of hundred yards along the road from their own ground."}
+    ],
+    "sore": [],
+    "pronounce": [],
     "avoid": [
       {"say": "Dundee and Dundee United are the same club", "instead": "Dundee are the Dark Blues; United are the other lot", "why": "They are two separate clubs, and mixing them up annoys both."},
-      {"say": "Tannadice", "instead": "Dens Park", "why": "Tannadice is United's ground across the street."}
+      {"say": "Tannadice", "instead": "Dens Park", "why": "Tannadice is United's ground along the street."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Dundee_F.C.", "https://en.wikipedia.org/wiki/Dundee_United_F.C.", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Scottish_Premiership"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Dundee_F.C.", "https://en.wikipedia.org/wiki/Dens_Park", "https://en.wikipedia.org/wiki/Tannadice_Park", "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C."],
+    "unsure": ["traditions: I found no well-documented Dundee matchday ritual, so only the derby-day walk is listed", "lingo: Bobby Cox's career details aren't in the sources I read, so the stand note just calls him a club great"]
   },
   {
     "team": "Dundee United",
     "espnId": "264",
     "league": "soccer/sco.1",
-    "aliases": ["dundee united", "dundee utd", "the terrors", "the arabs", "tangerines"],
+    "region": "uk-scotland-east",
+    "aliases": ["dundee united", "dundee utd", "the terrors", "the arabs", "the tangerines", "tangerines"],
     "nickname": "the Terrors",
     "fans": "the Arabs",
     "ground": "Tannadice",
     "rivals": [
       {"team": "Dundee", "name": "Dundee", "derby": "the Dundee derby"},
-      {"team": "Aberdeen", "name": "Aberdeen", "derby": "the New Firm"}
+      {"team": "Aberdeen", "name": "Aberdeen", "derby": "the New Firm"},
+      {"team": "St Johnstone", "name": "Saints", "derby": "the Tayside derby"}
     ],
     "legends": ["David Narey", "Paul Hegarty", "Maurice Malpas", "Paul Sturrock"],
     "memory": "1982-83: United won the Scottish title for the only time, then reached the European Cup semi-finals",
     "lingo": [
-      {"term": "Arabs", "say": "AR-ubz", "means": "What United fans call themselves, with pride."},
-      {"term": "the Terrors", "say": "the TEH-rurz", "means": "The team's nickname."},
-      {"term": "the Tangerines", "say": "the TAN-juh-reenz", "means": "From the tangerine home shirts."},
-      {"term": "Tannadice", "say": "TAN-uh-dice", "means": "The home ground, about 100 yards from Dundee's Dens Park."}
+      {"term": "Arabs", "say": "AR-ubz", "ipa": "ˈarəbz", "tts": "", "means": "What United fans call themselves, with pride."},
+      {"term": "the Terrors", "say": "the TEH-rurz", "ipa": "ðə ˈtɛrərz", "tts": "", "means": "The team's nickname."},
+      {"term": "the Tangerines", "say": "the TAN-juh-reenz", "ipa": "ðə ˌtandʒəˈrinz", "tts": "", "means": "From the tangerine shirts, worn since 1969. The colour came from the club's 1967 summer in America, playing as the Dallas Tornado."},
+      {"term": "Tannadice", "say": "TAN-uh-dice", "ipa": "ˈtanədaɪs", "tts": "tanna dice", "means": "The home ground since the club began in 1909, along the street from Dundee's Dens Park."},
+      {"term": "the Shed", "say": "the SHED", "ipa": "ðə ˈʃɛd", "tts": "", "means": "The West Stand at Tannadice, under a roof that dates from 1957."}
     ],
     "lines": [
-      {"t": "We've never lost to Barcelona.", "m": "United knocked Barcelona out of Europe in 1966 and again in 1987. Fans love telling people."},
-      {"t": "C'mon United!", "m": "The standard rallying cry."},
-      {"t": "That 1987 run to the UEFA Cup final was something special.", "m": "United reached a European final against IFK Gothenburg. Fans still talk about it."},
-      {"t": "The New Firm was the real power in Scotland in the eighties.", "m": "United and Aberdeen both won the league in the early 1980s."}
+      {"t": "C'mon United!", "m": "The standard rallying cry.", "when": "any"},
+      {"t": "That 1987 run to the UEFA Cup final was something special.", "m": "United reached a European final against IFK Gothenburg. Fans still talk about it.", "when": "any"},
+      {"t": "The New Firm was the real power in Scotland in the eighties.", "m": "United and Aberdeen both won the league in the early 1980s.", "when": "any"},
+      {"t": "Champions in '83. Jim McLean's finest hour.", "m": "The only league title, won by the manager who built the club's greatest era.", "when": "win"},
+      {"t": "We've never lost to Barcelona.", "m": "United beat Barcelona home and away in 1966 and again in 1987: four games, four wins.", "when": "rival"},
+      {"t": "Dens is just along the road, and that's close enough.", "m": "Mild banter about Dundee, whose ground is a couple of hundred yards away.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The 1987 Fair Play award", "means": "After losing the UEFA Cup final, United's fans applauded the winners, and FIFA gave them a Fair Play award. Fans are proud of it."}
+    ],
+    "sore": [
+      {"topic": "Relegation in 2016", "why": "United's drop was confirmed by a derby defeat to Dundee, of all teams."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "Dundee", "instead": "United, or Dundee United", "why": "Dundee is the other club in the city. Neither set of fans likes being mixed up."},
       {"say": "orange shirts", "instead": "tangerine", "why": "Fans call the colour tangerine, and it's a point of pride."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Dundee_United_F.C.", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Scottish_Premiership"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Dundee_United_F.C.", "https://en.wikipedia.org/wiki/Tannadice_Park", "https://en.wikipedia.org/wiki/Dundee_F.C.", "https://en.wikipedia.org/wiki/Dens_Park"],
+    "unsure": ["lingo: I couldn't confirm where the 'Arabs' name comes from, so the note doesn't give an origin", "traditions: Terry the Terror, the mascot, left out as I couldn't confirm it"]
   },
   {
     "team": "Falkirk",
     "espnId": "254",
     "league": "soccer/sco.1",
-    "aliases": ["falkirk", "the bairns", "bairns", "falkirk fc"],
+    "region": "uk-scotland-east",
+    "aliases": ["falkirk", "falkirk fc", "the bairns", "bairns"],
     "nickname": "the Bairns",
     "fans": "Bairns",
     "ground": "the Falkirk Stadium",
@@ -148,28 +203,39 @@
     "legends": ["Alex Parker", "Kevin McAllister", "Syd Puddefoot"],
     "memory": "2025: back-to-back titles took Falkirk back to the top flight for the first time in 15 years",
     "lingo": [
-      {"term": "the Bairns", "say": "the BAIRNZ", "means": "Scots for 'children'. The old name for people from Falkirk, and the team's nickname."},
-      {"term": "Fa'kirk", "say": "FAW-kurk", "means": "How many locals say the town's name, without the L."},
-      {"term": "Brockville", "say": "BROK-vil", "means": "The old ground, used until 2003. Older fans still talk about it fondly."}
+      {"term": "the Bairns", "say": "the BAIRNZ", "ipa": "ðə ˈbernz", "tts": "", "means": "Scots for 'children'. The old name for people from Falkirk, and the team's nickname."},
+      {"term": "Fa'kirk", "say": "FAW-kurk", "ipa": "ˈfɔkɪrk", "tts": "faw kirk", "means": "How many locals say the town's name, without the L."},
+      {"term": "Brockville", "say": "BROK-vil", "ipa": "ˈbrɔkvɪl", "tts": "", "means": "The old ground near the town centre, used from 1885 to 2003. Older fans still talk about it fondly."},
+      {"term": "the Kevin McAllister Stand", "say": "the KEV-in muh-KAL-is-ter STAND", "ipa": "ðə ˈkɛvɪn məˈkalɪstər ˈstand", "tts": "", "means": "The south stand at the Falkirk Stadium, renamed in 2022 after the club great."}
     ],
     "lines": [
-      {"t": "Better meddle wi' the deil than the Bairns o' Fa'kirk.", "m": "The old town motto: you'd be safer messing with the devil than with Falkirk folk."},
-      {"t": "C'mon the Bairns!", "m": "The usual rallying cry."},
-      {"t": "Fifteen years out of the top flight felt like forever.", "m": "Fans remember the long wait before the 2025 promotion."},
-      {"t": "Nothing beats beating the Pars.", "m": "Wins over Dunfermline, just across the Forth, are the ones fans enjoy most."}
+      {"t": "Better meddle wi' the deil than the Bairns o' Fa'kirk.", "m": "The old town motto: you'd be safer messing with the devil than with Falkirk folk.", "when": "any"},
+      {"t": "C'mon the Bairns!", "m": "The usual rallying cry.", "when": "any"},
+      {"t": "Fifteen years out of the top flight felt like forever.", "m": "Fans remember the long wait before the 2025 promotion.", "when": "any"},
+      {"t": "Unbeaten all season in League One. Not many can say that.", "m": "Falkirk won League One in 2023-24 without losing a league game, then won the Championship the next year.", "when": "any"},
+      {"t": "Top six in our first season back.", "m": "Falkirk finished sixth in the 2025-26 Premiership after promotion.", "when": "win"},
+      {"t": "Nothing beats beating the Pars.", "m": "Wins over Dunfermline, just across the Forth, are the ones fans enjoy most.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Brockville turnstile", "means": "The supermarket built on the old ground keeps one of its turnstiles and other club memorabilia on show."}
+    ],
+    "sore": [
+      {"topic": "Scottish Cup finals", "why": "Falkirk reached the final in 1997, 2009 and 2015 and lost all three."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "Brockville", "instead": "the Falkirk Stadium", "why": "The club left Brockville in 2003, so calling it home is out of date."},
       {"say": "the Barns", "instead": "the Bairns", "why": "It's the Scots word for children, not a farm building."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Falkirk_F.C.", "https://www.beinsports.com/en-au/football/articles-video/falkirk-stays-top-after-wild-dunfermline-derby-2024-12-27"],
-    "unsure": ["rivals: Wikipedia calls the Dunfermline game the 'Kincardine derby', but I couldn't confirm fans use that name, so derby is left blank"]
+    "sources": ["https://en.wikipedia.org/wiki/Falkirk_F.C.", "https://en.wikipedia.org/wiki/Falkirk_Stadium", "https://en.wiktionary.org/wiki/bairn", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership"],
+    "unsure": ["rivals: Wikipedia calls the Dunfermline game the 'Kincardine derby', but I couldn't confirm fans use that name, so derby is left blank", "traditions: I found no well-documented matchday ritual, so only the Brockville turnstile is listed"]
   },
   {
     "team": "Heart of Midlothian",
     "espnId": "262",
     "league": "soccer/sco.1",
-    "aliases": ["hearts", "heart of midlothian", "jambos", "jam tarts", "hmfc"],
+    "region": "uk-scotland-east",
+    "aliases": ["hearts", "heart of midlothian", "jambos", "the jambos", "jam tarts", "hmfc"],
     "nickname": "the Jambos",
     "fans": "Jambos",
     "ground": "Tynecastle",
@@ -179,29 +245,46 @@
     "legends": ["Dave Mackay", "Willie Bauld", "John Robertson", "Gary Mackay"],
     "memory": "2012: Hearts beat Hibs 5-1 in the Scottish Cup final at Hampden",
     "lingo": [
-      {"term": "Jambos", "say": "JAM-bohz", "means": "Hearts fans, and the team. It grew out of 'Jam Tarts'."},
-      {"term": "Jam Tarts", "say": "JAM TARTS", "means": "Rhyming slang for Hearts. Used with affection."},
-      {"term": "Gorgie", "say": "GOR-gee", "means": "The area of west Edinburgh around Tynecastle. 'Going down Gorgie' means going to the game."}
+      {"term": "Jambos", "say": "JAM-bohz", "ipa": "ˈdʒamboz", "tts": "", "means": "Hearts fans, and the team. It grew out of 'Jam Tarts'."},
+      {"term": "Jam Tarts", "say": "JAM TARTS", "ipa": "ˈdʒam ˈtarts", "tts": "", "means": "Rhyming slang for Hearts. Used with affection."},
+      {"term": "the Maroons", "say": "the muh-ROONZ", "ipa": "ðə məˈrunz", "tts": "", "means": "From the maroon shirts. Commentators and older fans use it."},
+      {"term": "Gorgie", "say": "GOR-ghee", "ipa": "ˈɡɔrɡi", "tts": "gor ghee", "means": "The area of west Edinburgh around Tynecastle, with a hard G at both ends. 'Going down Gorgie' means going to the game."},
+      {"term": "Tynie", "say": "TY-nee", "ipa": "ˈtaɪni", "tts": "tiny", "means": "Fans' short name for Tynecastle."},
+      {"term": "the Wheatfield", "say": "the WEET-feeld", "ipa": "ðə ˈʍitfild", "tts": "", "means": "The big stand along one side of Tynecastle, built as steep as the rules allow."},
+      {"term": "the Foundation", "say": "the fown-DAY-shun", "ipa": "ðə faʊnˈdeʃən", "tts": "", "means": "The Foundation of Hearts, the supporters' group that owns the club. Thousands of fans pay in every month."}
     ],
     "lines": [
-      {"t": "Five-one.", "m": "Just saying the score of the 2012 cup final is enough to wind up a Hibs fan."},
-      {"t": "Going down Gorgie on Saturday?", "m": "Asking a mate if they're going to Tynecastle."},
-      {"t": "Tynecastle is the loudest ground in Scotland for its size.", "m": "Fans boast that the steep, tight stands make it a tough place for visitors."},
-      {"t": "C'mon the Hearts!", "m": "Rallying cry. Older fans often say 'the Hearts'."}
+      {"t": "Going down Gorgie on Saturday?", "m": "Asking a mate if they're going to Tynecastle.", "when": "any"},
+      {"t": "Tynecastle is the loudest ground in Scotland for its size.", "m": "Fans boast that the steep, tight stands make it a tough place for visitors.", "when": "any"},
+      {"t": "C'mon the Hearts!", "m": "Rallying cry. Older fans often say 'the Hearts'.", "when": "any"},
+      {"t": "It's our club. The fans own it.", "m": "Since 2021 the Foundation of Hearts has owned the club, the biggest fan-owned club in the UK.", "when": "any"},
+      {"t": "Tynie was bouncing tonight.", "m": "After a big home win. Tynie is the fans' name for Tynecastle.", "when": "win"},
+      {"t": "Supporting Hearts was never meant to be easy.", "m": "Gallows humour after a bad result. Fans have lost the league on the last day twice, in 1986 and 2026.", "when": "loss"},
+      {"t": "Five-one.", "m": "Just saying the score of the 2012 cup final is enough to wind up a Hibs fan.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'The Hearts Song'", "means": "Written by the comedian Hector Nicol. A modern version is played before home games."},
+      {"name": "The Heart of Midlothian mosaic", "means": "A heart set in the cobbles of the Royal Mile, copied on the club crest. Locals spit on it as they pass, an old custom from the jail that stood there."}
+    ],
+    "sore": [
+      {"topic": "Dens Park, 1986", "why": "Hearts needed a draw at Dundee on the last day, lost 2-0, and Celtic took the title on goal difference."},
+      {"topic": "16 May 2026", "why": "Top of the league for most of 2025-26, Hearts lost the final-day decider 3-1 at Celtic Park and finished second."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "Heart of Midlothian is", "instead": "Hearts are", "why": "Nobody uses the full name in conversation, and the club is always plural."},
       {"say": "Hearts are from Midlothian", "instead": "Hearts are from Edinburgh", "why": "The name is historical. The club plays in Gorgie, Edinburgh."},
       {"say": "Hibs are a lovely club", "instead": "Hibs? Don't start me", "why": "The Edinburgh derby is a real rivalry. Hearts fans never warm to Hibs."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Scottish_Premiership"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.", "https://en.wikipedia.org/wiki/Tynecastle_Park", "https://en.wikipedia.org/wiki/Gorgie", "https://en.wiktionary.org/wiki/Jambo", "https://en.wikipedia.org/wiki/Edinburgh_derby", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership"],
+    "unsure": ["lingo: 'Tynie' for Tynecastle is in Wikipedia's Tynecastle Park article, but I couldn't find a second written source"]
   },
   {
     "team": "Hibernian",
     "espnId": "258",
     "league": "soccer/sco.1",
-    "aliases": ["hibernian", "hibs", "hibees", "the hibees", "the cabbage"],
+    "region": "uk-scotland-east",
+    "aliases": ["hibernian", "hibs", "hibees", "the hibees", "hibernian fc", "the cabbage"],
     "nickname": "the Hibees",
     "fans": "Hibbies",
     "ground": "Easter Road",
@@ -211,29 +294,45 @@
     "legends": ["Gordon Smith", "Lawrie Reilly", "Pat Stanton", "Joe Baker"],
     "memory": "2016: Hibs beat Rangers 3-2 to win the Scottish Cup for the first time since 1902",
     "lingo": [
-      {"term": "Hibs", "say": "HIBZ", "means": "What everyone calls the club. The full name, Hibernian, is rarely used."},
-      {"term": "the Hibees", "say": "the HY-beez", "means": "The team's nickname. It rhymes with 'high', not 'hip'."},
-      {"term": "the Cabbage", "say": "the KAB-ij", "means": "Short for 'cabbage and ribs', rhyming slang for Hibs."},
-      {"term": "the Famous Five", "say": "the FAY-mus FIVE", "means": "The great forward line of the late 1940s and 1950s: Smith, Johnstone, Reilly, Turnbull and Ormond."}
+      {"term": "Hibs", "say": "HIBZ", "ipa": "ˈhɪbz", "tts": "hibz", "means": "What everyone calls the club. The full name, Hibernian, is rarely used."},
+      {"term": "the Hibees", "say": "the HY-beez", "ipa": "ðə ˈhaɪbiz", "tts": "", "means": "The team's nickname. It starts like 'high', not 'hip'."},
+      {"term": "the Cabbage", "say": "the KAB-ij", "ipa": "ðə ˈkabɪdʒ", "tts": "", "means": "Short for 'cabbage and ribs', rhyming slang for Hibs."},
+      {"term": "the Famous Five", "say": "the FAY-mus FIVE", "ipa": "ðə ˈfeməs ˈfaɪv", "tts": "", "means": "The great forward line of 1948-52: Smith, Johnstone, Reilly, Turnbull and Ormond. The north stand at Easter Road is named after them."},
+      {"term": "Turnbull's Tornadoes", "say": "TURN-bulz tor-NAY-dohz", "ipa": "ˈtʌrnbʊlz tɔrˈnedoz", "tts": "", "means": "Eddie Turnbull's exciting side of the early 1970s."},
+      {"term": "the Leith San Siro", "say": "the LEETH san SEE-roh", "ipa": "ðə ˈliθ san ˈsiro", "tts": "the leeth san see roe", "means": "A tongue-in-cheek nickname for Easter Road, in Leith."}
     ],
     "lines": [
-      {"t": "114 years we waited, and it was worth every one.", "m": "The 2016 Scottish Cup win ended a wait going back to 1902."},
-      {"t": "Sunshine on Leith at Hampden in 2016, there wasn't a dry eye.", "m": "Fans sing the Proclaimers' 'Sunshine on Leith'. After the 2016 final it became legendary."},
-      {"t": "Easter Road on derby day, nothing like it.", "m": "Home games against Hearts are the biggest of the season."},
-      {"t": "2012? Never heard of it.", "m": "Hibs fans' joking way of brushing off the 5-1 cup final defeat to Hearts."}
+      {"t": "114 years we waited, and it was worth every one.", "m": "The 2016 Scottish Cup win ended a wait going back to 1902.", "when": "any"},
+      {"t": "Sunshine on Leith at Hampden in 2016. There wasn't a dry eye.", "m": "Fans sing the Proclaimers' 'Sunshine on Leith' after big wins. After the 2016 final it became legendary.", "when": "any"},
+      {"t": "Glory, glory to the Hibees!", "m": "The title of the club anthem, also used as a cheer and a sign-off.", "when": "any"},
+      {"t": "We won the cup as a second-tier side. Remember that.", "m": "Hibs were in the Championship when they won the 2016 Scottish Cup. A good answer to a bad day.", "when": "loss"},
+      {"t": "Easter Road on derby day. Nothing like it.", "m": "Home games against Hearts are the biggest of the season.", "when": "rival"},
+      {"t": "2012? Never heard of it.", "m": "Hibs fans' joking way of brushing off the 5-1 cup final defeat to Hearts.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'Sunshine on Leith'", "means": "The Proclaimers' song, sung by the whole ground after big wins at Easter Road and at cup finals."},
+      {"name": "'Glory, Glory to the Hibees'", "means": "The club anthem. Hibs say they were the first club to record their own version of the tune."},
+      {"name": "The slope", "means": "Easter Road's pitch ran about six feet downhill from end to end until 2000. Older fans still remember it."}
+    ],
+    "sore": [
+      {"topic": "The 2012 Scottish Cup final", "why": "Hearts won 5-1. Hibs fans can joke about it with each other, not with outsiders."},
+      {"topic": "Relegation in 2014", "why": "Hibs lost a play-off to Hamilton and spent three seasons in the Championship."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "HIB-eez", "instead": "HY-beez", "why": "Hibees starts like 'high'. Saying it like 'hip' is a giveaway."},
-      {"say": "Hibernian are", "instead": "Hibs are", "why": "The full name sounds formal. Everyone just says Hibs."}
+      {"say": "Hibernian are", "instead": "Hibs are", "why": "The full name sounds formal. Everyone just says Hibs."},
+      {"say": "Hibs play in Gorgie", "instead": "Hibs are Leith's club", "why": "Gorgie is Hearts territory. Hibs' roots are in Leith and the east of the city."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Hibernian_F.C.", "https://dsl.ac.uk/entry/snd/cabbage"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Hibernian_F.C.", "https://en.wikipedia.org/wiki/Easter_Road", "https://en.wikipedia.org/wiki/Edinburgh_derby", "https://dsl.ac.uk/entry/snd/cabbage"],
+    "unsure": ["lingo: 'the Leith San Siro' is listed as a ground nickname by Wikipedia; I found no second written source", "lines: 'Glory, glory to the Hibees' as a spoken cheer rests on the anthem's title and fans' online use (GGTTH); not confirmed in a second written source"]
   },
   {
     "team": "Kilmarnock",
     "espnId": "260",
     "league": "soccer/sco.1",
-    "aliases": ["kilmarnock", "killie", "kilmarnock fc"],
+    "region": "uk-glasgow",
+    "aliases": ["kilmarnock", "kilmarnock fc", "killie"],
     "nickname": "Killie",
     "fans": "",
     "ground": "Rugby Park",
@@ -243,28 +342,38 @@
     "legends": ["Frank Beattie", "Tommy McLean", "Ray Montgomerie"],
     "memory": "1965: Killie won their only league title on the last day, beating Hearts 2-0 at Tynecastle",
     "lingo": [
-      {"term": "Killie", "say": "KIL-ee", "means": "The club's universal nickname, and the local name for the town."},
-      {"term": "Killie Pie", "say": "KIL-ee PIE", "means": "The famous matchday steak pie. Fans will tell you it's the best in Scotland."},
-      {"term": "the Pride of Ayrshire", "say": "the PRIDE of AIR-shur", "means": "The club's other nickname, and a dig at Ayr United."}
+      {"term": "Killie", "say": "KIL-ee", "ipa": "ˈkɪli", "tts": "", "means": "The club's universal nickname, and the local name for the town."},
+      {"term": "the Killie Pie", "say": "the KIL-ee PIE", "ipa": "ðə ˈkɪli ˈpaɪ", "tts": "", "means": "The famous steak pie first made for Rugby Park. It was once named the best pie in football two years running."},
+      {"term": "the Pride of Ayrshire", "say": "the PRIDE of AIR-shur", "ipa": "ðə ˈpraɪd əv ˈerʃər", "tts": "", "means": "The club's other nickname, and a dig at Ayr United."},
+      {"term": "Rugby Park", "say": "RUG-bee PARK", "ipa": "ˈrʌɡbi ˈpark", "tts": "", "means": "The home ground since 1899. Yes, a football ground called Rugby Park."}
     ],
     "lines": [
-      {"t": "Grab a Killie Pie at half-time.", "m": "The pie is part of the matchday ritual at Rugby Park."},
-      {"t": "We won the league at Tynecastle in '65.", "m": "The 1965 title, won on the final day. Killie's proudest moment."},
-      {"t": "C'mon Killie!", "m": "The standard rallying cry."},
-      {"t": "Beat Ayr and the season's not a total loss.", "m": "The Ayrshire derby is the local game that matters most."}
+      {"t": "Grab a Killie Pie at half-time.", "m": "The pie is part of the matchday ritual at Rugby Park.", "when": "any"},
+      {"t": "We won the league at Tynecastle in '65.", "m": "The 1965 title, won on the final day. Killie's proudest moment.", "when": "any"},
+      {"t": "C'mon Killie!", "m": "The standard rallying cry.", "when": "any"},
+      {"t": "Oldest club in the Premiership, and still here.", "m": "Killie were founded in 1869, earlier than any other club in the top flight.", "when": "any"},
+      {"t": "Hampden 2012. One-nil to Killie, and Celtic went home with nothing.", "m": "Killie beat Celtic 1-0 in the 2012 League Cup final, the club's first major trophy since 1997.", "when": "win"},
+      {"t": "Beat Ayr and the season's not a total loss.", "m": "The Ayrshire derby is the local game that matters most.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "'Paper Roses'", "means": "The club anthem, taken from Anita Bryant's recording. The Rugby Park crowd treats it as its own."},
+      {"name": "Captain Conker", "means": "The club mascot, a squirrel who took over from the earlier mascot, Nutz."}
+    ],
+    "sore": [],
+    "pronounce": [],
     "avoid": [
       {"say": "KIL-mar-nok", "instead": "kil-MAR-nuk, or just Killie", "why": "The stress falls in the middle, and locals mostly say Killie anyway."},
       {"say": "Kilmarnock are the oldest club in Scotland", "instead": "Killie are the oldest club in the Premiership", "why": "Queen's Park are older. Fans claim the top-flight record instead."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Kilmarnock_F.C.", "https://kilmarnockfc.co.uk/?p=18381"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Kilmarnock_F.C.", "https://en.wikipedia.org/wiki/Killie_pie", "https://kilmarnockfc.co.uk/?p=18381"],
+    "unsure": ["lingo: after a 2017 trademark dispute the original bakery sells its pie as the 'Kilmarnock Pie'; I couldn't confirm who makes the pie sold at Rugby Park now"]
   },
   {
     "team": "Motherwell",
     "espnId": "266",
     "league": "soccer/sco.1",
-    "aliases": ["motherwell", "the well", "steelmen", "motherwell fc"],
+    "region": "uk-glasgow",
+    "aliases": ["motherwell", "motherwell fc", "the well", "steelmen", "the steelmen"],
     "nickname": "the Well",
     "fans": "",
     "ground": "Fir Park",
@@ -272,31 +381,42 @@
       {"team": "Hamilton Academical", "name": "Accies", "derby": "the Lanarkshire derby"},
       {"team": "Airdrieonians", "name": "Airdrie", "derby": "the Lanarkshire derby"}
     ],
-    "legends": ["Andy Paton", "Ian St John", "Hughie Ferguson"],
+    "legends": ["Andy Paton", "Ian St John", "Willie MacFadyen"],
     "memory": "1991: Motherwell beat Dundee United 4-3 after extra time in a classic Scottish Cup final",
     "lingo": [
-      {"term": "the Well", "say": "the WELL", "means": "Short name for the club, used by fans and pundits alike."},
-      {"term": "the Steelmen", "say": "the STEEL-men", "means": "Nickname from the town's steelworks history."},
-      {"term": "claret and amber", "say": "KLAR-et and AM-bur", "means": "The club colours, worn since 1913."}
+      {"term": "the Well", "say": "the WELL", "ipa": "ðə ˈwɛl", "tts": "", "means": "Short name for the club, used by fans and pundits alike."},
+      {"term": "the Steelmen", "say": "the STEEL-men", "ipa": "ðə ˈstilmɛn", "tts": "", "means": "Nickname from the town's steelworks history."},
+      {"term": "claret and amber", "say": "KLAR-et and AM-bur", "ipa": "ˈklarət ən ˈambər", "tts": "", "means": "The club colours, worn since 1913."},
+      {"term": "the Well Society", "say": "the WELL suh-SY-uh-tee", "ipa": "ðə ˈwɛl səˈsaɪəti", "tts": "", "means": "The supporters' society that has owned the club since 2016."},
+      {"term": "the John Hunter Stand", "say": "the JON HUN-ter STAND", "ipa": "ðə ˈdʒɔn ˈhʌntər ˈstand", "tts": "", "means": "The east stand, where the loudest home fans sit. It is named after the manager of the 1932 title side."}
     ],
     "lines": [
-      {"t": "C'mon the Well!", "m": "The classic Motherwell rallying cry."},
-      {"t": "The '91 final was the best Scottish Cup final ever.", "m": "Motherwell's 4-3 win over Dundee United is a fan favourite."},
-      {"t": "We were champions in 1932, mind.", "m": "Motherwell's only league title. Fans bring it up with a grin."},
-      {"t": "Beat Hamilton and it's a good week.", "m": "The Lanarkshire derby is the local game fans care about most."}
+      {"t": "C'mon the Well!", "m": "The classic Motherwell rallying cry.", "when": "any"},
+      {"t": "The '91 final was the best Scottish Cup final ever.", "m": "Motherwell's 4-3 win over Dundee United is a fan favourite.", "when": "any"},
+      {"t": "We were champions in 1932, mind.", "m": "Motherwell's only league title. Fans bring it up with a grin.", "when": "any"},
+      {"t": "The fans own this club, and we're proud of it.", "m": "The Well Society bought the club for £1 in 2016.", "when": "any"},
+      {"t": "We were doing the thunderclap before Iceland.", "m": "Motherwell fans claim they started the slow, booming clap that Iceland's fans made famous at Euro 2016.", "when": "any"},
+      {"t": "Beat Hamilton and it's a good week.", "m": "The Lanarkshire derby is the local game fans care about most.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The thunderclap", "means": "The slow, building clap, arms raised over heads. Sports Illustrated has suggested Motherwell fans were doing it before Iceland made it famous."},
+      {"name": "Claret and amber", "means": "The club switched from blue in 1913. Some say the colours were copied from Bradford City, others that they are the racing colours of Lord Hamilton, the local landowner."}
+    ],
+    "sore": [],
+    "pronounce": [],
     "avoid": [
       {"say": "maroon and yellow", "instead": "claret and amber", "why": "Fans are particular about the club colours."},
       {"say": "Motherwell are a Glasgow club", "instead": "Motherwell are a Lanarkshire club", "why": "The town is in Lanarkshire, south-east of Glasgow, and locals are proud of it."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Motherwell_F.C."],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Motherwell_F.C.", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership", "https://en.wikipedia.org/wiki/Fir_Park"],
+    "unsure": ["traditions: the thunderclap claim rests on Wikipedia citing Sports Illustrated; I couldn't open a second source", "legends: Willie MacFadyen (52 league goals in 1931-32) replaces Hughie Ferguson from version 1, whom the sources I read didn't mention"]
   },
   {
     "team": "Rangers",
     "espnId": "257",
     "league": "soccer/sco.1",
-    "aliases": ["rangers", "the gers", "gers", "the bears", "rangers fc"],
+    "region": "uk-glasgow",
+    "aliases": ["rangers", "rangers fc", "the gers", "gers", "the bears", "the light blues"],
     "nickname": "the Gers",
     "fans": "the Bears",
     "ground": "Ibrox",
@@ -307,30 +427,46 @@
     "legends": ["John Greig", "Ally McCoist", "Brian Laudrup", "Richard Gough"],
     "memory": "1972: Rangers beat Dynamo Moscow 3-2 at the Camp Nou to win the European Cup Winners' Cup",
     "lingo": [
-      {"term": "the Gers", "say": "the JURZ", "means": "Short for Rangers. The G is soft, as in 'jersey'."},
-      {"term": "the Teddy Bears", "say": "the TED-ee BAIRZ", "means": "Rhyming slang for 'Gers'. That's why fans call themselves the Bears."},
-      {"term": "Ibrox", "say": "EYE-broks", "means": "The home ground on the south side of Glasgow."},
-      {"term": "the Light Blues", "say": "the LITE BLOOZ", "means": "A traditional nickname for the team."}
+      {"term": "the Gers", "say": "the JURZ", "ipa": "ðə ˈdʒɛrz", "tts": "", "means": "Short for Rangers. The G is soft, as in 'jersey'."},
+      {"term": "the Teddy Bears", "say": "the TED-ee BAIRZ", "ipa": "ðə ˈtɛdi ˈberz", "tts": "", "means": "Rhyming slang for 'Gers'. That's why fans call themselves the Bears."},
+      {"term": "the Light Blues", "say": "the LITE BLOOZ", "ipa": "ðə ˈlaɪt ˈbluz", "tts": "", "means": "A traditional nickname for the team, from the blue shirts. Commentators still use it."},
+      {"term": "Broxi Bear", "say": "BROK-see BAIR", "ipa": "ˈbrɔksi ˈber", "tts": "", "means": "The club mascot since 1993. The name is an anagram of Ibrox."},
+      {"term": "the Club Deck", "say": "the KLUB DEK", "ipa": "ðə ˈklʌb ˈdɛk", "tts": "", "means": "The third tier added to Ibrox's Main Stand in 1991."}
     ],
     "lines": [
-      {"t": "Barcelona '72, our greatest night.", "m": "The 1972 Cup Winners' Cup win at the Camp Nou."},
-      {"t": "Get 'Simply the Best' on!", "m": "Tina Turner's 'Simply the Best' is the Ibrox victory song."},
-      {"t": "C'mon the Gers!", "m": "The standard rallying cry."},
-      {"t": "Ibrox on a European night is something else.", "m": "Fans love the big European games. Rangers reached UEFA finals in 2008 and 2022."},
-      {"t": "Seville 2022 still hurts.", "m": "Rangers lost the Europa League final to Eintracht Frankfurt on penalties. Sympathy goes down well."}
+      {"t": "Barcelona '72, our greatest night.", "m": "The 1972 Cup Winners' Cup win at the Camp Nou.", "when": "any"},
+      {"t": "C'mon the Gers!", "m": "The standard rallying cry.", "when": "any"},
+      {"t": "Ibrox on a European night is something else.", "m": "Fans love the big European games. Rangers reached UEFA finals in 2008 and 2022.", "when": "any"},
+      {"t": "Turn it up for 'Simply the Best'.", "m": "Tina Turner's 'The Best' plays at Ibrox as the teams come out, and the whole ground joins in.", "when": "any"},
+      {"t": "Unbeaten, 102 points. That 2020-21 side was special.", "m": "Rangers went the whole 2020-21 league season unbeaten to win their 55th title.", "when": "win"},
+      {"t": "We stopped the ten.", "m": "Rangers' 2020-21 title stopped Celtic winning ten in a row. Fans still love saying it.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Simply the Best'", "means": "Tina Turner's 'The Best' is played as the teams come out at Ibrox, and the crowd joins in."},
+      {"name": "The marble staircase", "means": "Inside the listed red-brick Main Stand, a marble staircase leads up to the trophy room. Fans on stadium tours love it."}
+    ],
+    "sore": [
+      {"topic": "Seville 2022", "why": "Rangers lost the Europa League final to Eintracht Frankfurt on penalties, after around 100,000 fans travelled."},
+      {"topic": "2012", "why": "The club went into administration and had to start again in the fourth tier. It took four seasons to get back to the top flight."}
+    ],
+    "pronounce": [
+      {"word": "Ibrox", "say": "EYE-broks", "ipa": "ˈaɪbrɔks", "tts": "eye brocks", "why": "The first syllable rhymes with 'eye'. Outsiders sometimes say IB-rocks."},
+      {"word": "Govan", "say": "GUV-un", "ipa": "ˈɡʌvən", "tts": "guvvan", "why": "The district around Ibrox. It rhymes with 'oven', not 'go'."}
     ],
     "avoid": [
       {"say": "the Gers with a hard G", "instead": "the Gers said 'Jers'", "why": "It's short for Rangers, so the G stays soft."},
-      {"say": "IB-rocks", "instead": "EYE-broks", "why": "The first syllable rhymes with 'eye'."},
-      {"say": "Celtic Park is the best ground in Glasgow", "instead": "Ibrox, obviously", "why": "Never praise the rival ground to a Rangers fan."}
+      {"say": "Glasgow Rangers", "instead": "Rangers", "why": "Fans just say Rangers. 'Glasgow Rangers' is how foreign media put it."},
+      {"say": "Celtic Park is the best ground in Glasgow", "instead": "Ibrox, obviously", "why": "Never praise the rival ground to a Rangers fan."},
+      {"say": "Rangers have won more titles than anyone", "instead": "Fifty-five league titles", "why": "Celtic moved ahead with their 56th in 2026, so the old boast is out of date."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Rangers_F.C.", "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Rangers_F.C.", "https://en.wikipedia.org/wiki/Ibrox_Stadium", "https://en.wiktionary.org/wiki/Gers", "https://en.wikipedia.org/wiki/Celtic_F.C.", "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"],
+    "unsure": ["lingo: 'the Light Blues' origin isn't explained in the sources I read, so the note is kept general", "lingo: 'the Teddy Bears' as rhyming slang for 'Gers' is kept from version 1; the sources I opened list the nickname without explaining it"]
   },
   {
     "team": "St Johnstone",
     "espnId": "267",
     "league": "soccer/sco.1",
+    "region": "uk-scotland-east",
     "aliases": ["st johnstone", "saint johnstone", "st johnstone fc", "sjfc"],
     "nickname": "Saints",
     "fans": "",
@@ -342,27 +478,38 @@
     "legends": ["Henry Hall", "John Brogan", "John Connolly"],
     "memory": "2020-21: Saints won both the League Cup and the Scottish Cup in the same season",
     "lingo": [
-      {"term": "Saints", "say": "SAINTS", "means": "The team's nickname. Fans usually say it without 'the'."},
-      {"term": "St John's Toun", "say": "snt JONZ TOON", "means": "Perth's old name, which gave the club its name."},
-      {"term": "McDiarmid", "say": "mik-DUR-mid", "means": "Short for McDiarmid Park, home since 1989."}
+      {"term": "Saints", "say": "SAINTS", "ipa": "ˈsents", "tts": "", "means": "The team's nickname. Fans usually say it without 'the'."},
+      {"term": "St John's Toun", "say": "saint JONZ TOON", "ipa": "sənt ˈdʒɔnz ˈtun", "tts": "saint johns toon", "means": "An old name for Perth, after its church of St John the Baptist. It gave the club its name."},
+      {"term": "McDiarmid", "say": "mik-DUR-mid", "ipa": "məkˈdʌrmɪd", "tts": "mick dur mid", "means": "Short for McDiarmid Park, home since 1989. It's named after the farmer who gave the land."},
+      {"term": "the Ormond Stand", "say": "the OR-mund STAND", "ipa": "ðə ˈɔrmənd ˈstand", "tts": "", "means": "The south stand, named after Willie Ormond, one of the club's great managers."}
     ],
     "lines": [
-      {"t": "Two cups in one season, not bad for a wee club from Perth.", "m": "The 2021 cup double is the fans' proudest boast."},
-      {"t": "C'mon Saints!", "m": "The standard rallying cry."},
-      {"t": "2014 was our first major trophy, and we'll never forget it.", "m": "The 2014 Scottish Cup, the first big trophy in the club's history."},
-      {"t": "Beat either of the Dundee clubs and it's a good weekend.", "m": "The Tayside derbies are the games fans care about most."}
+      {"t": "Two cups in one season, not bad for a wee club from Perth.", "m": "The 2021 cup double is the fans' proudest boast.", "when": "any"},
+      {"t": "C'mon Saints!", "m": "The standard rallying cry.", "when": "any"},
+      {"t": "2014 was our first major trophy, and we'll never forget it.", "m": "The 2014 Scottish Cup, the first big trophy in the club's history.", "when": "any"},
+      {"t": "Top of the league from the first day to the last.", "m": "Saints led the 2025-26 Championship from the opening day and came straight back up.", "when": "win"},
+      {"t": "Down one year, champions the next. We'll be fine.", "m": "Fans' reminder after a bad day: relegated in 2025, Championship winners in 2026.", "when": "loss"},
+      {"t": "Beat either of the Dundee clubs and it's a good weekend.", "m": "The Tayside derbies are the games fans care about most.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "McDiarmid Park", "means": "Fans like to tell you it was the first purpose-built all-seater stadium in the UK, built in 1989 on land given by a local farmer."}
+    ],
+    "sore": [
+      {"topic": "Relegation in 2025", "why": "Saints went down after a 2-1 defeat at Hearts in May 2025. They came straight back, but it stung."}
+    ],
+    "pronounce": [],
     "avoid": [
       {"say": "St Johnstone are from Johnstone", "instead": "St Johnstone are Perth's team", "why": "The name comes from Perth's old name. Johnstone is a different town, near Paisley."},
       {"say": "St Mirren", "instead": "St Johnstone", "why": "Both are called Saints, but St Mirren are from Paisley. Mixing them up is a classic slip."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/St_Johnstone_F.C.", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Scottish_Premiership"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/St_Johnstone_F.C.", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership", "https://en.wikipedia.org/wiki/Dundee_F.C."],
+    "unsure": ["lingo: the local pronunciation of McDiarmid (mik-DUR-mid) is kept from version 1; I found no recording to confirm it"]
   },
   {
     "team": "St Mirren",
     "espnId": "250",
     "league": "soccer/sco.1",
+    "region": "uk-glasgow",
     "aliases": ["st mirren", "saint mirren", "the buddies", "buddies", "smfc"],
     "nickname": "the Buddies",
     "fans": "Buddies",
@@ -373,160 +520,245 @@
     "legends": ["Tony Fitzpatrick", "Frank McGarvey", "Hugh Murray"],
     "memory": "1987: St Mirren beat Dundee United 1-0 after extra time to win the Scottish Cup",
     "lingo": [
-      {"term": "Buddies", "say": "BUD-eez", "means": "People from Paisley are known as Buddies, and so are the team and their fans."},
-      {"term": "Saints", "say": "SAINTS", "means": "The other nickname, from Saint Mirin, Paisley's patron saint."},
-      {"term": "Love Street", "say": "LUV STREET", "means": "The old ground, used until 2009. Older fans still talk about it."}
+      {"term": "Buddies", "say": "BUD-eez", "ipa": "ˈbʌdiz", "tts": "", "means": "People from Paisley are known as Buddies, and so are the team and their fans."},
+      {"term": "Saints", "say": "SAINTS", "ipa": "ˈsents", "tts": "", "means": "The other nickname, from Saint Mirin, Paisley's patron saint."},
+      {"term": "Love Street", "say": "LUV STREET", "ipa": "ˈlʌv ˈstrit", "tts": "", "means": "The old ground, used from 1894 to 2009. Older fans still talk about it."},
+      {"term": "Paisley Panda", "say": "PAYZ-lee PAN-duh", "ipa": "ˈpezli ˈpandə", "tts": "", "means": "The club mascot. He has company on matchdays from Junior P and Mrs Panda."}
     ],
     "lines": [
-      {"t": "C'mon the Buddies!", "m": "The usual rallying cry."},
-      {"t": "Morton? Who are they?", "m": "Pretend indifference towards the Greenock rivals. Mild and expected."},
-      {"t": "Still miss Love Street.", "m": "Fond memories of the old ground before the 2009 move."},
-      {"t": "'87 was the greatest day Paisley ever had.", "m": "The 1987 Scottish Cup win is the big memory."}
+      {"t": "C'mon the Buddies!", "m": "The usual rallying cry.", "when": "any"},
+      {"t": "Still miss Love Street.", "m": "Fond memories of the old ground before the 2009 move.", "when": "any"},
+      {"t": "'87 was the greatest day Paisley ever had.", "m": "The 1987 Scottish Cup win is the big memory.", "when": "any"},
+      {"t": "Buddies 3, Celtic 1. Hampden, December 2025.", "m": "St Mirren beat Celtic in the 2025-26 League Cup final, their first League Cup since 2013.", "when": "win"},
+      {"t": "Morton? Who are they?", "m": "Pretend indifference towards the Greenock rivals. Mild and expected.", "when": "rival"}
     ],
+    "traditions": [
+      {"name": "The Pandas", "means": "Paisley Panda and Junior P are matchday regulars at St Mirren Park, and Mrs Panda turns up too."}
+    ],
+    "sore": [],
+    "pronounce": [],
     "avoid": [
       {"say": "St Mirren are from Glasgow", "instead": "St Mirren are Paisley's team", "why": "Paisley is its own town, and locals are proud of that."},
       {"say": "St Johnstone", "instead": "St Mirren", "why": "Both are called Saints, but St Johnstone are from Perth."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/St_Mirren_F.C."],
-    "unsure": ["ground: sponsor name unclear (SMiSA Stadium or Marbill Coaches Stadium), so I used St Mirren Park", "memory: Wikipedia lists a 2025-26 League Cup win I couldn't confirm, so I used the 1987 Scottish Cup"]
+    "sources": ["https://en.wikipedia.org/wiki/St_Mirren_F.C.", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership", "https://en.wikipedia.org/wiki/2025_Scottish_League_Cup_final"],
+    "unsure": ["ground: sponsored as the Marbill Coaches Stadium; fans and the club's own records use St Mirren Park, so I kept that", "memory: the December 2025 League Cup win over Celtic is in the lines rather than the memory, which stays on 1987"]
   },
   {
     "team": "Real Madrid",
     "espnId": "86",
     "league": "soccer/esp.1",
-    "aliases": ["real madrid", "los blancos", "merengues", "rmcf", "real madrid cf"],
+    "region": "es-madrid",
+    "aliases": ["real madrid", "real madrid cf", "rmcf", "los blancos", "merengues", "los merengues", "madridistas"],
     "nickname": "Los Blancos",
     "fans": "madridistas",
     "ground": "the Bernabéu",
     "rivals": [
       {"team": "Barcelona", "name": "Barça", "derby": "El Clásico"},
-      {"team": "Atlético Madrid", "name": "Atleti", "derby": "the Madrid derby (El Derbi madrileño)"}
+      {"team": "Atlético Madrid", "name": "Atleti", "derby": "the Madrid derby (el derbi madrileño)"}
     ],
     "legends": ["Alfredo Di Stéfano", "Ferenc Puskás", "Paco Gento", "Iker Casillas"],
-    "memory": "2014: La Décima, the club's tenth European Cup, won against Atlético in Lisbon",
+    "memory": "2014: La Décima, the club's tenth European Cup, won 4-1 after extra time against Atlético in Lisbon",
     "lingo": [
-      {"term": "Los Blancos", "say": "lohs BLAHN-kohs", "means": "'The Whites', from the all-white kit. English-speaking fans use it too."},
-      {"term": "madridista", "say": "mah-dree-DEES-tah", "means": "A Real Madrid fan."},
-      {"term": "Hala Madrid", "say": "AH-lah mah-DREED", "means": "'Come on, Madrid!' The club's rallying cry, and the name of its anthem."},
-      {"term": "la remontada", "say": "lah reh-mon-TAH-dah", "means": "A comeback. Madridistas think late comebacks in Europe are their speciality."}
+      {"term": "Los Blancos", "say": "lohs BLAHN-kohs", "ipa": "los ˈβlaŋkos", "tts": "loce blahn koce", "means": "'The Whites', from the all-white kit. English-speaking fans use it too."},
+      {"term": "madridista", "say": "mah-dree-DEES-tah", "ipa": "maðɾiˈðista", "tts": "mah dree deece tah", "means": "A Real Madrid fan (plural madridistas)."},
+      {"term": "Hala Madrid", "say": "AH-lah mah-DREED", "ipa": "ˈala maˈðɾið", "tts": "ah lah mah dreed", "means": "'Come on, Madrid!' The club's rallying cry, and the title of its anthem."},
+      {"term": "los Merengues", "say": "lohs meh-REN-gehs", "ipa": "los meˈɾeŋɡes", "tts": "loce meh reng guess", "means": "'The Meringues', another nickname from the white kit. The Spanish press uses it all the time."},
+      {"term": "la Décima", "say": "lah DEH-thee-mah", "ipa": "la ˈðeθima", "tts": "lah deth eemah", "means": "'The Tenth': the tenth European Cup, won in 2014. Fans number their European Cups like this."},
+      {"term": "miedo escénico", "say": "MYEH-doh es-THEH-nee-koh", "ipa": "ˈmjeðo esˈθeniko", "tts": "mee eh though ess thehnico", "means": "'Stage fright'. Jorge Valdano's phrase for how the Bernabéu crowd rattles visiting teams on big European nights."},
+      {"term": "La Fábrica", "say": "lah FAH-bree-kah", "ipa": "la ˈfaβɾika", "tts": "lah fa bree kah", "means": "'The Factory', the club's youth academy. Raúl and Casillas both came through it."}
     ],
     "lines": [
-      {"t": "¡Hala Madrid!", "m": "The all-purpose cheer."},
-      {"t": "This club never knows when it's beaten.", "m": "Fans are proud of the team's habit of winning big European games late."},
-      {"t": "Count the European Cups, then talk.", "m": "The standard reply to any rival fan, especially from Barcelona."},
-      {"t": "The Bernabéu on a Champions League night, nothing like it.", "m": "Fans see Europe's top competition as their own."}
+      {"t": "¡Hala Madrid!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "This club never knows when it's beaten.", "m": "Fans are proud of the team's habit of winning big European ties late.", "when": "any"},
+      {"t": "A Champions League night at the Bernabéu. Nothing like it.", "m": "Fans see Europe's top competition as their own.", "when": "any"},
+      {"t": "Ninety minutes at the Bernabéu is a very long time.", "m": "Juanito's famous warning to an Inter defender in the 1980s, after a first-leg defeat. Fans quote it when they need a comeback.", "when": "loss"},
+      {"t": "See you at Cibeles!", "m": "Where fans go to celebrate a trophy. The captain puts a club flag and scarf on the goddess statue.", "when": "win"},
+      {"t": "Count the European Cups, then talk.", "m": "The standard reply to rival fans, especially from Barcelona.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Hala Madrid y nada más", "means": "Written to celebrate La Décima in 2014. Fans sing it before kick-off at the Bernabéu and again after Madrid goals."},
+      {"name": "Cibeles", "means": "Titles are celebrated at the Cibeles fountain in central Madrid, where the captain drapes a flag and scarf on the statue."}
+    ],
+    "sore": [
+      {"topic": "The 6-2 against Barça at the Bernabéu in 2009", "why": "Barcelona scored six in Madrid's own ground, and fans still wince at it."},
+      {"topic": "The 32-year wait for a seventh European Cup (1966-1998)", "why": "For a club that defines itself by Europe, it was a long, gloomy gap."}
+    ],
+    "pronounce": [
+      {"word": "Bernabéu", "say": "behr-nah-BEH-oo", "ipa": "beɾnaˈβeu̯", "tts": "bear nah beh woo", "why": "Four syllables with the stress on BEH. Outsiders often say BER-na-bow."},
+      {"word": "Real", "say": "reh-AHL", "ipa": "reˈal", "tts": "reh al", "why": "Two syllables, meaning 'royal'. Not 'reel'."},
+      {"word": "Cibeles", "say": "thee-BEH-les", "ipa": "θiˈβeles", "tts": "thih bell ess", "why": "In Madrid the C is a 'th' sound, and the stress is on BEH."}
     ],
     "avoid": [
-      {"say": "REEL Madrid", "instead": "ray-AHL Madrid, or just Madrid", "why": "Real means 'royal' and is said ray-AHL. Spanish fans usually just say 'el Madrid'."},
+      {"say": "REEL Madrid", "instead": "reh-AHL Madrid, or just Madrid", "why": "Real means 'royal' and has two syllables."},
+      {"say": "Real are flying", "instead": "Madrid are flying", "why": "Spanish fans say 'el Madrid'. Calling them 'Real' sounds like a foreign commentator."},
+      {"say": "See you at Neptuno", "instead": "See you at Cibeles", "why": "Neptuno is where Atlético celebrate. Madrid go to Cibeles."},
       {"say": "Barça really are more than a club", "instead": "¡Hala Madrid!", "why": "Praising Barcelona is the fastest way to lose a madridista."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Real_Madrid_CF", "https://stadiumdb.com/news/2024/12/spain_real_madrid_revises_the_name_of_estadio_santiago_bernabeu"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Real_Madrid_CF", "https://es.wikipedia.org/wiki/Real_Madrid_Club_de_F%C3%BAtbol", "https://en.wikipedia.org/wiki/Hala_Madrid_y_nada_m%C3%A1s", "https://en.wikipedia.org/wiki/Plaza_de_Cibeles", "https://misterdato.wordpress.com/2008/04/03/miedo-escenico-el-dia-que-valdano-se-hizo-escritor/", "https://stadiumdb.com/news/2024/12/spain_real_madrid_revises_the_name_of_estadio_santiago_bernabeu"],
+    "unsure": ["ground: the club now brands the stadium simply 'Bernabéu', but the official name is still Estadio Santiago Bernabéu", "lines: the 'ninety minutes' saying is sourced to Spanish Wikipedia, which cites the club's own (now archived) article and a 20 Minutos blog; I couldn't open the club page itself"]
   },
   {
     "team": "Barcelona",
     "espnId": "83",
     "league": "soccer/esp.1",
-    "aliases": ["barcelona", "barça", "barca", "fc barcelona", "blaugrana"],
+    "region": "es-catalonia",
+    "aliases": ["barcelona", "barça", "barca", "fc barcelona", "fcb", "blaugrana", "culers", "culés"],
     "nickname": "Barça",
-    "fans": "culés",
-    "ground": "the Camp Nou (back since late 2025, still being finished)",
+    "fans": "culers (culés in Spanish)",
+    "ground": "the Camp Nou (back since November 2025, still being rebuilt)",
     "rivals": [
       {"team": "Real Madrid", "name": "Madrid", "derby": "El Clásico"},
-      {"team": "Espanyol", "name": "Espanyol", "derby": "the Barcelona derby"}
+      {"team": "Espanyol", "name": "Espanyol", "derby": "the Barcelona derby (el derbi barceloní)"}
     ],
     "legends": ["Johan Cruyff", "László Kubala", "Carles Puyol", "Ronaldinho"],
-    "memory": "1992: Barça won their first European Cup, at Wembley",
+    "memory": "1992: Barça won their first European Cup at Wembley, with Ronald Koeman's extra-time free kick against Sampdoria",
     "lingo": [
-      {"term": "Barça", "say": "BAR-sah", "means": "The short name everyone uses. English-speaking fans write 'Barca' and should still say BAR-sah."},
-      {"term": "culé", "say": "koo-LAY", "means": "A Barça fan (plural culés). The name comes from fans once perched on the old ground's wall."},
-      {"term": "Blaugrana", "say": "blow-GRAH-nah", "means": "Catalan for the blue-and-deep-red club colours. Also used as a nickname."},
-      {"term": "Visca el Barça", "say": "BEES-kah el BAR-sah", "means": "Catalan for 'Long live Barça'."}
+      {"term": "Barça", "say": "BAR-sah", "ipa": "ˈbarsə", "tts": "barsa", "means": "The short name everyone uses. Written 'Barca' in English, but still said BAR-sah."},
+      {"term": "culer", "say": "koo-LEH", "ipa": "kuˈle", "tts": "koo leh", "means": "A Barça fan (plural culers; culé in Spanish). From 'cul', backside: early fans sat on the wall of the old Carrer Indústria ground with their backsides to the street."},
+      {"term": "Blaugrana", "say": "blow-GRAH-nah", "ipa": "bləwˈɣɾanə", "tts": "blow grahna", "means": "Catalan for the blue and deep-red colours. Also used for the club and its players."},
+      {"term": "Visca el Barça", "say": "BEES-kah el BAR-sah", "ipa": "ˈbiskə əl ˈbarsə", "tts": "bees kuh el barsa", "means": "Catalan for 'Long live Barça'."},
+      {"term": "La Masia", "say": "lah mah-ZEE-ah", "ipa": "lə məˈziə", "tts": "lah muh zee uh", "means": "The club's youth academy, named after the old farmhouse where young players once lived."},
+      {"term": "the Dream Team", "say": "the DREEM TEEM", "ipa": "ðə ˈdɹiːm ˈtiːm", "tts": "", "means": "Johan Cruyff's side of the early 1990s, which won the 1992 European Cup. Still the yardstick for great Barça teams."},
+      {"term": "el sextete", "say": "el sek-STEH-teh", "ipa": "el seksˈtete", "tts": "el sex tet teh", "means": "The six trophies Barça won in 2009, the first European club to manage it. Fans love bringing it up."}
     ],
     "lines": [
-      {"t": "Més que un club.", "m": "'More than a club', the club motto, spelled out in the stands."},
-      {"t": "Visca el Barça!", "m": "The classic Catalan cheer."},
-      {"t": "La Masia is the heart of this club.", "m": "Fans are proud of the youth academy and its home-grown players."},
-      {"t": "Win the Clásico and the season's half done.", "m": "Beating Real Madrid matters more than almost anything."},
-      {"t": "Good to be home at the Camp Nou.", "m": "The team played at Montjuïc during the rebuild and came back in late 2025."}
+      {"t": "Més que un club.", "m": "'More than a club', the club motto, often spelled out in the stands.", "when": "any"},
+      {"t": "Visca el Barça!", "m": "The classic Catalan cheer.", "when": "any"},
+      {"t": "La Masia is the heart of this club.", "m": "Fans are proud of the youth academy and its home-grown players.", "when": "any"},
+      {"t": "Good to be home at the Camp Nou.", "m": "The team played at Montjuïc during the rebuild and came back in November 2025. Work on the top tier is still going on.", "when": "any"},
+      {"t": "That's football the Barça way.", "m": "Said after a passing, attacking display. Fans prize a style that goes back to Cruyff.", "when": "win"},
+      {"t": "We've come back from worse. Remember the 6-1.", "m": "In 2017 Barça beat PSG 6-1 after losing the first leg 4-0, the biggest comeback in Champions League history.", "when": "loss"},
+      {"t": "Win the Clásico and the season feels half done.", "m": "Beating Real Madrid matters more than almost anything.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Cant del Barça", "means": "The club anthem plays just before kick-off and as the players come out, and the whole ground joins in."},
+      {"name": "The Joan Gamper Trophy", "means": "A friendly against a visiting club every August, before the league starts, named after the club's founder."}
+    ],
+    "sore": [
+      {"topic": "The 8-2 against Bayern in Lisbon, 2020", "why": "Barça's heaviest defeat in decades, in a Champions League quarter-final."},
+      {"topic": "Anfield, 2019", "why": "Barça took a 3-0 lead to Liverpool for the semi-final second leg and lost 4-0."}
+    ],
+    "pronounce": [
+      {"word": "Camp Nou", "say": "kahm NOH", "ipa": "ˈkam ˈnɔw", "tts": "kahm noh", "why": "Catalan for 'new ground', noun first. Nou sounds close to 'no', not 'new'."},
+      {"word": "Montjuïc", "say": "moon-zhoo-EEK", "ipa": "ˌmunʒuˈik", "tts": "mohnzhoo eek", "why": "The hill stadium Barça used during the rebuild. Three syllables, stress on the last."}
     ],
     "avoid": [
-      {"say": "the Nou Camp", "instead": "the Camp Nou", "why": "In Catalan the noun comes first. Locals hear 'Nou Camp' as a British giveaway."},
-      {"say": "BAR-ka", "instead": "BAR-sah", "why": "The ç is an S sound."}
+      {"say": "the Nou Camp", "instead": "the Camp Nou", "why": "In Catalan the noun comes first. 'Nou Camp' is a British habit locals notice."},
+      {"say": "BAR-ka", "instead": "BAR-sah", "why": "The ç is an S sound."},
+      {"say": "Barcelona FC", "instead": "FC Barcelona, or just Barça", "why": "The FC goes first, and fans just say Barça."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/FC_Barcelona", "https://www.football-espana.net/2026/04/02/april-2027-barcelona-set-target-to-have-camp-nou-operating-at-capacity"],
-    "unsure": ["ground: capacity is still limited (about 62,500 reported in 2026) while works finish"]
+    "sources": ["https://en.wikipedia.org/wiki/FC_Barcelona", "https://es.wikipedia.org/wiki/F%C3%BAtbol_Club_Barcelona", "https://en.wikipedia.org/wiki/Camp_Nou", "https://blogs.20minutos.es/yaestaellistoquetodolosabe/por-que-a-los-aficionados-del-barca-se-les-llama-cules/", "https://en.wiktionary.org/wiki/culer", "https://cronicaglobal.elespanol.com/culemania/palco/20260930/nuevo-ayuntamiento-barcelona-barca-spotify-camp-nou/1003742798690_0.html"],
+    "unsure": ["ground: capacity is about 62,600 for now; late-September 2026 reports say the third tier won't open this season, and the club plans to move back to Montjuïc for part of 2027-28 while the roof goes on", "traditions: the card mosaics before big games are well known, but I couldn't confirm them in two sources, so left them out"]
   },
   {
     "team": "Atlético Madrid",
     "espnId": "1068",
     "league": "soccer/esp.1",
-    "aliases": ["atlético madrid", "atletico madrid", "atleti", "atlético", "atletico"],
+    "region": "es-madrid",
+    "aliases": ["atlético madrid", "atletico madrid", "atlético de madrid", "atletico de madrid", "atleti", "atlético", "atletico", "colchoneros"],
     "nickname": "Atleti",
     "fans": "colchoneros",
     "ground": "the Metropolitano",
     "rivals": [
-      {"team": "Real Madrid", "name": "Madrid", "derby": "the Madrid derby (El Derbi madrileño)"}
+      {"team": "Real Madrid", "name": "Madrid", "derby": "the Madrid derby (el derbi madrileño)"}
     ],
-    "legends": ["Luis Aragonés", "Adelardo Rodríguez", "Paulo Futre", "Diego Forlán"],
+    "legends": ["Luis Aragonés", "Adelardo Rodríguez", "Paulo Futre", "Diego Godín"],
     "memory": "2014: a 1-1 draw at the Camp Nou on the final day won Atleti the league title",
     "lingo": [
-      {"term": "Atleti", "say": "aht-LEH-tee", "means": "What fans call the club. English-speaking fans have picked it up too."},
-      {"term": "colchoneros", "say": "kol-cho-NEH-ros", "means": "'Mattress makers'. The red-and-white stripes are said to look like old mattress covers."},
-      {"term": "rojiblancos", "say": "ro-hee-BLAHN-kos", "means": "'Red-and-whites', from the striped shirts."},
-      {"term": "el Metropolitano", "say": "el meh-tro-po-lee-TAH-no", "means": "The stadium. Sponsored as the Riyadh Air Metropolitano, but fans just say Metropolitano."}
+      {"term": "Atleti", "say": "aht-LEH-tee", "ipa": "aˈtleti", "tts": "at lettee", "means": "What fans call the club. English-speaking fans have picked it up too."},
+      {"term": "colchoneros", "say": "kol-cho-NEH-ros", "ipa": "koltʃoˈneɾos", "tts": "coal cho nair oce", "means": "'Mattress makers'. The red-and-white stripes looked like the mattress covers of the time."},
+      {"term": "rojiblancos", "say": "ro-hee-BLAHN-kos", "ipa": "roxiˈβlaŋkos", "tts": "roe hee blahn koce", "means": "'Red-and-whites', from the striped shirts. Athletic Club get called it too, so context matters."},
+      {"term": "el Metropolitano", "say": "el meh-tro-po-lee-TAH-no", "ipa": "el metɾopoliˈtano", "tts": "el meh troh poh lee tah noh", "means": "The stadium since 2017. Sponsored as the Riyadh Air Metropolitano, but fans just say Metropolitano."},
+      {"term": "el Pupas", "say": "el POO-pahs", "ipa": "el ˈpupas", "tts": "el pooh pass", "means": "'The jinxed one'. Club president Vicente Calderón coined it after Bayern's last-minute equaliser in the 1974 European Cup final. Fans use it about themselves, half joking."},
+      {"term": "el Calderón", "say": "el kal-deh-RON", "ipa": "el kaldeˈɾon", "tts": "el kahl deh rone", "means": "The old riverside stadium by the Manzanares, home until 2017. Older fans still talk about it fondly."}
     ],
     "lines": [
-      {"t": "¡Aúpa Atleti!", "m": "'Come on Atleti!' The standard cheer."},
-      {"t": "We're the people's club in Madrid.", "m": "Atleti fans see themselves as the working-class alternative to Real."},
-      {"t": "Suffering is part of being Atleti.", "m": "Fans joke about painful defeats, like the 2014 and 2016 Champions League finals lost to Real."},
-      {"t": "Still miss the Calderón.", "m": "The old riverside stadium, left in 2017."}
+      {"t": "¡Aúpa Atleti!", "m": "'Come on Atleti!' The standard cheer.", "when": "any"},
+      {"t": "Suffering is part of being Atleti.", "m": "Fans joke that nothing ever comes easy, from the 1974 final to the two Champions League finals lost to Real.", "when": "any"},
+      {"t": "Still miss the Calderón.", "m": "The old ground by the river, left in 2017.", "when": "any"},
+      {"t": "See you at Neptuno!", "m": "Where fans gather to celebrate a trophy. The captain climbs up and drapes a flag over the god's trident.", "when": "win"},
+      {"t": "Classic Pupas.", "m": "A rueful shrug after a late or unlucky defeat.", "when": "loss"},
+      {"t": "They have Cibeles, we have Neptuno.", "m": "Each Madrid club has its own fountain for celebrations, and Atleti fans like it that way.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Neptuno", "means": "Trophies are celebrated at the Neptune fountain on the Paseo del Prado, a short walk from Real's Cibeles."},
+      {"name": "The club anthems", "means": "The 1972 club anthem is one of Atleti's best-loved symbols. Joaquín Sabina wrote 'Motivos de un sentimiento' for the 2003 centenary."}
+    ],
+    "sore": [
+      {"topic": "Lisbon 2014 and Milan 2016", "why": "Two Champions League finals, both lost to Real Madrid, the first after an injury-time equaliser."},
+      {"topic": "Relegation in 2000", "why": "Atleti spent two seasons in the second tier, a spell fans still joke about through gritted teeth."}
+    ],
+    "pronounce": [
+      {"word": "Atlético", "say": "aht-LEH-tee-koh", "ipa": "aˈtletiko", "tts": "at let tee coe", "why": "The stress is on LEH. Outsiders often say at-le-TEE-ko."},
+      {"word": "Neptuno", "say": "nep-TOO-noh", "ipa": "neβˈtuno", "tts": "nep too noh", "why": "Fans use the Spanish name for the fountain, not 'Neptune'."}
     ],
     "avoid": [
       {"say": "Athletic Madrid", "instead": "Atlético, or Atleti", "why": "Athletic Club is the Bilbao side. Mixing the names up is a classic slip."},
-      {"say": "Madrid's other club", "instead": "Atleti", "why": "Fans hate being treated as the city's second team."}
+      {"say": "Madrid's other club", "instead": "Atleti", "why": "Fans hate being treated as the city's second team."},
+      {"say": "Celebrating at Cibeles", "instead": "Celebrating at Neptuno", "why": "Cibeles belongs to Real Madrid. Atleti go to Neptuno."},
+      {"say": "a game at the Calderón", "instead": "a game at the Metropolitano", "why": "The Calderón closed in 2017."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid", "https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_de_Madrid", "https://en.wikipedia.org/wiki/Fountain_of_Neptune,_Madrid", "https://www.mundodeportivo.com/20100514/cibeles-sono-con-ser-rojiblanca_53926415880.html", "https://elpais.com/elpais/2016/05/03/icon/1462289029_852905.html", "https://en.wiktionary.org/wiki/colchonero"],
+    "unsure": ["traditions: I couldn't confirm in two sources which anthem the crowd sings at kick-off, so the note names the anthems without saying when they're sung"]
   },
   {
     "team": "Athletic Club",
     "espnId": "93",
     "league": "soccer/esp.1",
-    "aliases": ["athletic club", "athletic bilbao", "athletic", "bilbao", "los leones"],
+    "region": "es-basque",
+    "aliases": ["athletic club", "athletic bilbao", "athletic", "bilbao", "los leones", "lehoiak"],
     "nickname": "Los Leones",
     "fans": "",
     "ground": "San Mamés",
     "rivals": [
-      {"team": "Real Sociedad", "name": "la Real", "derby": "the Basque derby"},
+      {"team": "Real Sociedad", "name": "la Real", "derby": "the Basque derby (el derbi vasco)"},
       {"team": "Real Madrid", "name": "Madrid", "derby": ""}
     ],
-    "legends": ["Telmo Zarra", "José Ángel Iribar", "Aritz Aduriz", "Andoni Zubizarreta"],
-    "memory": "2024: the gabarra barge sailed through Bilbao after a Copa del Rey win ended a 40-year trophy wait",
+    "legends": ["Telmo Zarra", "José Ángel Iribar", "Andoni Zubizarreta", "Aritz Aduriz"],
+    "memory": "2024: the gabarra barge sailed through Bilbao after a Copa del Rey win ended a 40-year wait for a trophy",
     "lingo": [
-      {"term": "Los Leones", "say": "lohs leh-OH-nes", "means": "'The Lions'. The ground is named after Saint Mamés, who legend says was thrown to lions. In Basque it's 'Lehoiak'."},
-      {"term": "La Catedral", "say": "lah kah-teh-DRAHL", "means": "'The Cathedral', the fans' name for San Mamés."},
-      {"term": "la gabarra", "say": "lah gah-BAH-rah", "means": "The river barge the team rides to celebrate a trophy."},
-      {"term": "Aupa Athletic", "say": "OW-pah AHT-leh-teek", "means": "'Come on Athletic!' Aupa is a Basque cheer."}
+      {"term": "Los Leones", "say": "lohs leh-OH-nes", "ipa": "los leˈones", "tts": "loce leh oh ness", "means": "'The Lions'. The ground is named after Saint Mamés, who legend says was thrown to the lions. In Basque it's Lehoiak."},
+      {"term": "La Catedral", "say": "lah kah-teh-DRAHL", "ipa": "la kateˈðɾal", "tts": "lah kah teh drahl", "means": "'The Cathedral', the fans' name for San Mamés, old and new."},
+      {"term": "la gabarra", "say": "lah gah-BAH-rah", "ipa": "la ɣaˈβara", "tts": "lah gah bah rah", "means": "The river barge the team rides through Bilbao to show off a trophy. It came out in 1983, 1984 and 2024."},
+      {"term": "Aupa Athletic", "say": "OW-pah AHT-leh-teek", "ipa": "ˈau̯pa ˈatletik", "tts": "ah oohpahaht leh teek", "means": "'Come on Athletic!' Aupa is a Basque cheer."},
+      {"term": "Lezama", "say": "leh-THAH-mah", "ipa": "leˈθama", "tts": "leth ah mah", "means": "The club's training ground and academy. A player 'from Lezama' is home-grown."},
+      {"term": "la filosofía", "say": "lah fee-loh-soh-FEE-ah", "ipa": "la filosoˈfia", "tts": "lah fee loh soh fee ah", "means": "'The philosophy': the club's tradition of fielding only players born or trained in the Basque Country."}
     ],
     "lines": [
-      {"t": "Aupa Athletic!", "m": "The standard cheer."},
-      {"t": "We do it with our own players.", "m": "Athletic only field players from the Basque Country, and fans are fiercely proud of it."},
-      {"t": "Get the gabarra out!", "m": "What fans say when they dream of a trophy. The barge only comes out for silverware."},
-      {"t": "Never relegated, not once.", "m": "Athletic are one of only three clubs never relegated from La Liga, with Real Madrid and Barcelona."}
+      {"t": "Aupa Athletic!", "m": "The standard cheer.", "when": "any"},
+      {"t": "We do it with our own players.", "m": "Fans are fiercely proud that the club only fields players born or developed in the Basque Country.", "when": "any"},
+      {"t": "Never relegated, not once.", "m": "Athletic are one of only three clubs never relegated from La Liga, with Real Madrid and Barcelona.", "when": "any"},
+      {"t": "Get the gabarra out!", "m": "What fans shout when a trophy is in sight. The barge only comes out for silverware.", "when": "win"},
+      {"t": "Another one from Lezama.", "m": "Said with pride when a young academy player shines.", "when": "win"},
+      {"t": "We waited 40 years for the gabarra. One bad night won't hurt.", "m": "A shrug after a defeat, nodding to the trophy drought that ended in 2024.", "when": "loss"},
+      {"t": "Derby day with la Real. We share the bars, not the points.", "m": "Fans of the two Basque clubs often mix before the game, but both badly want the win.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "La gabarra", "means": "After a trophy the team sails down the river on the barge while huge crowds line the banks. The last time was April 2024."},
+      {"name": "Flowers for Pichichi", "means": "On a club's first visit to San Mamés, its captain leaves a bouquet at the bust of Pichichi, an early Athletic great."}
+    ],
+    "sore": [
+      {"topic": "The 2025 Europa League final", "why": "It was played at San Mamés, but Athletic lost the semi-final to Manchester United and had to watch others use their ground."},
+      {"topic": "The 2012 Europa League final", "why": "Athletic lost 3-0 to Atlético in Bucharest."}
+    ],
+    "pronounce": [
+      {"word": "San Mamés", "say": "sahn mah-MESS", "ipa": "san maˈmes", "tts": "sahn mah mess", "why": "The stress is on the last syllable: mah-MESS."}
     ],
     "avoid": [
       {"say": "Athletico Bilbao", "instead": "Athletic", "why": "It's 'Athletic', with the English spelling. Atlético is the Madrid club."},
-      {"say": "Athletic Bilbao", "instead": "Athletic, or Athletic Club", "why": "English media say Athletic Bilbao, but locals just say Athletic."}
+      {"say": "Athletic Bilbao", "instead": "Athletic, or Athletic Club", "why": "English media say Athletic Bilbao, but locals just say Athletic."},
+      {"say": "la Real", "instead": "Athletic", "why": "La Real means Real Sociedad, the rivals from San Sebastián."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Athletic_Bilbao"],
-    "unsure": ["fans: 'athleticzales' may be used for fans, but I couldn't confirm it, so left blank"]
+    "sources": ["https://en.wikipedia.org/wiki/Athletic_Bilbao", "https://es.wikipedia.org/wiki/Athletic_Club", "https://es.wikipedia.org/wiki/Gabarra_del_Athletic", "https://www.rtve.es/deportes/20240411/celebracion-athletic-gabarra-directo/16055619.shtml", "https://en.wikipedia.org/wiki/San_Mam%C3%A9s_Stadium", "https://en.wikipedia.org/wiki/Basque_derby"],
+    "unsure": ["fans: 'athleticzales' is often used for Athletic fans, but I couldn't confirm it in two sources, so left it blank", "lingo: the local stress on 'Athletic' (AHT-leh-teek) is kept from the earlier version; I found no pronunciation reference for it"]
   },
   {
     "team": "Sevilla",
     "espnId": "243",
     "league": "soccer/esp.1",
-    "aliases": ["sevilla", "sevilla fc", "seville fc", "sevillistas"],
+    "region": "es-andalusia",
+    "aliases": ["sevilla", "sevilla fc", "sevilla fútbol club", "seville fc", "sevillistas", "los nervionenses"],
     "nickname": "los Nervionenses",
     "fans": "sevillistas",
     "ground": "the Sánchez-Pizjuán",
@@ -536,94 +768,145 @@
     "legends": ["Juan Arza", "Frédéric Kanouté", "Luis Fabiano"],
     "memory": "2006-2023: seven UEFA Cup and Europa League titles, more than any other club",
     "lingo": [
-      {"term": "sevillista", "say": "seh-vee-YEES-tah", "means": "A Sevilla fan."},
-      {"term": "los Nervionenses", "say": "lohs nehr-byoh-NEN-ses", "means": "Nickname from Nervión, the area around the stadium."},
-      {"term": "el Pizjuán", "say": "el peeth-HWAHN", "means": "Short for the Ramón Sánchez-Pizjuán stadium."},
-      {"term": "El Gran Derbi", "say": "el grahn DEHR-bee", "means": "'The Great Derby' against Betis, the city's biggest game."}
+      {"term": "sevillista", "say": "seh-bee-YEES-tah", "ipa": "seβiˈʝista", "tts": "say bee yeast ah", "means": "A Sevilla fan."},
+      {"term": "los Nervionenses", "say": "lohs nehr-byoh-NEN-ses", "ipa": "los neɾβjoˈnenses", "tts": "loce nair bee oh nehn sess", "means": "Nickname from Nervión, the district around the stadium. The press calls the team 'el conjunto nervionense'."},
+      {"term": "Nervión", "say": "nehr-BYON", "ipa": "neɾˈβjon", "tts": "nair byone", "means": "The neighbourhood where the stadium stands. 'The club from Nervión' means Sevilla."},
+      {"term": "el Pizjuán", "say": "el peeth-HWAHN", "ipa": "el piθˈxwan", "tts": "el peeth khwahn", "means": "Short for the Ramón Sánchez-Pizjuán stadium."},
+      {"term": "El Gran Derbi", "say": "el grahn DEHR-bee", "ipa": "el ɣɾan ˈdeɾβi", "tts": "el grahn dair bee", "means": "'The Great Derby' against Betis, the city's biggest game."},
+      {"term": "El Arrebato", "say": "el ah-reh-BAH-toh", "ipa": "el areˈβato", "tts": "el ah reh bah toe", "means": "The singer behind the 2005 centenary anthem. Fans call the song 'el himno de El Arrebato' and treat it as a lucky charm."}
     ],
     "lines": [
-      {"t": "The Europa League is ours.", "m": "Sevilla have won it seven times, and fans treat it as their competition."},
-      {"t": "Seville is red and white.", "m": "A claim to be the city's top club, aimed at Betis fans."},
-      {"t": "When the anthem plays at the Pizjuán, you feel it.", "m": "Fans sing the centenary anthem by El Arrebato before games."},
-      {"t": "Win the Gran Derbi and nothing else matters.", "m": "The Betis game decides bragging rights for months."}
+      {"t": "The Europa League is ours.", "m": "Sevilla have won it seven times, and fans treat it as their competition.", "when": "any"},
+      {"t": "When El Arrebato's tune starts at the Pizjuán, you feel it.", "m": "Fans sing the 2005 centenary anthem at home games and every celebration.", "when": "any"},
+      {"t": "Enjoy the old Pizjuán while it lasts.", "m": "The club plans to knock it down and rebuild from summer 2027.", "when": "any"},
+      {"t": "Seven finals, seven wins.", "m": "Sevilla have never lost a UEFA Cup or Europa League final.", "when": "win"},
+      {"t": "We've been through worse and come back stronger.", "m": "Sevilla dropped to the second tier in 2000 and were winning European trophies six years later.", "when": "loss"},
+      {"t": "Win the Gran Derbi and nothing else matters.", "m": "The Betis game decides bragging rights for months.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Himno del Centenario", "means": "El Arrebato's 2005 centenary anthem became a number-one hit. Fans sing it at matches and celebrations, and many see it as the soundtrack of the trophy years."}
+    ],
+    "sore": [
+      {"topic": "Relegation in 2000", "why": "Sevilla spent a season in the second tier just before the great run began."}
+    ],
+    "pronounce": [
+      {"word": "Sevilla", "say": "seh-BEE-yah", "ipa": "seˈβiʝa", "tts": "say bee yah", "why": "The V is soft, close to a B, and the double L sounds like a Y. Not se-VIL-a."}
     ],
     "avoid": [
       {"say": "Seville FC", "instead": "Sevilla", "why": "Fans use the Spanish name, even when speaking English."},
-      {"say": "Betis and Sevilla are much the same", "instead": "Sevilla, obviously", "why": "One city, two clubs, and a fierce rivalry."}
+      {"say": "Betis and Sevilla are much the same", "instead": "Sevilla, obviously", "why": "One city, two clubs, and a fierce rivalry."},
+      {"say": "Sevilla play at La Cartuja", "instead": "Sevilla play at the Sánchez-Pizjuán", "why": "La Cartuja is Betis's temporary home. Sevilla are still in Nervión this season."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Sevilla_FC", "https://stadiumdb.com/news/2025/12/spain_from_crisis_to_recovery_sevilla_fc_bets_on_a_new_stadium"],
-    "unsure": ["ground: a rebuild of the Sánchez-Pizjuán is planned from 2027 and reports on timing conflict, but Sevilla appear to be there for 2026-27"]
+    "sources": ["https://en.wikipedia.org/wiki/Sevilla_FC", "https://es.wikipedia.org/wiki/Sevilla_F%C3%BAtbol_Club", "https://en.wikipedia.org/wiki/Seville_derby", "https://www.sevillaactualidad.com/deportes/sevilla-fc/585226-el-sanchez-pizjuan-sera-demolido-en-2027-para-construir-un-nuevo-estadio/", "https://www.vamosmisevillafc.com/anuncian-una-jugada-del-betis-para-dejar-al-sevilla-fc-sin-la-cartuja/", "https://en.wiktionary.org/wiki/sevillista"],
+    "unsure": ["ground: demolition and rebuild are planned from summer 2027, but where Sevilla will play during the works is unsettled because Betis are using La Cartuja", "legends: Jesús Navas (retired December 2024) left out because I couldn't confirm whether he now has a coaching role"]
   },
   {
     "team": "Real Betis",
     "espnId": "244",
     "league": "soccer/esp.1",
-    "aliases": ["real betis", "betis", "béticos", "verdiblancos"],
+    "region": "es-andalusia",
+    "aliases": ["real betis", "betis", "real betis balompié", "real betis balompie", "béticos", "beticos"],
     "nickname": "los Verdiblancos",
     "fans": "béticos",
-    "ground": "La Cartuja (temporary home while the Benito Villamarín is rebuilt)",
+    "ground": "La Cartuja (home while the Benito Villamarín is rebuilt)",
     "rivals": [
       {"team": "Sevilla", "name": "Sevilla", "derby": "El Gran Derbi (the Seville derby)"}
     ],
     "legends": ["Rafael Gordillo", "Joaquín", "Hipólito Rincón"],
     "memory": "2022: Betis beat Valencia on penalties at La Cartuja to win the Copa del Rey",
     "lingo": [
-      {"term": "béticos", "say": "BEH-tee-kos", "means": "Betis fans."},
-      {"term": "manque pierda", "say": "MAHN-keh PYEHR-dah", "means": "'Even if they lose'. From the motto 'Viva er Betis manque pierda'."},
-      {"term": "los Verdiblancos", "say": "lohs behr-dee-BLAHN-kos", "means": "'The green-and-whites', from the striped shirts."},
-      {"term": "el Villamarín", "say": "el bee-yah-mah-REEN", "means": "The club's real home, being rebuilt. Fans can't wait to go back."}
+      {"term": "béticos", "say": "BEH-tee-kos", "ipa": "ˈbetikos", "tts": "beh tee koce", "means": "Betis fans (singular bético)."},
+      {"term": "manque pierda", "say": "MAHN-keh PYEHR-dah", "ipa": "ˈmaŋke ˈpjeɾða", "tts": "mahng kehpyehr thah", "means": "'Even if they lose'. From the club motto 'Viva er Betis manque pierda'."},
+      {"term": "los Verdiblancos", "say": "lohs behr-dee-BLAHN-kos", "ipa": "los βeɾðiˈβlaŋkos", "tts": "loce bair dee blahn koce", "means": "'The green-and-whites', from the striped shirts."},
+      {"term": "el Villamarín", "say": "el bee-yah-mah-REEN", "ipa": "el βiʝamaˈɾin", "tts": "el bee yah mah reen", "means": "The club's real home, named after a former president. It's being rebuilt, and fans can't wait to go back."},
+      {"term": "Heliópolis", "say": "eh-LYOH-po-lees", "ipa": "eˈljopolis", "tts": "eh lee oh poh lease", "means": "The district where the Villamarín stands. 'Going back to Heliópolis' means going home."},
+      {"term": "las trece barras", "say": "lahs TREH-theh BAH-rahs", "ipa": "las ˈtɾeθe ˈβaras", "tts": "lahs treth eh bah rahs", "means": "'The thirteen stripes' of green and white on the crest. 'El equipo de las trece barras' means Betis."}
     ],
     "lines": [
-      {"t": "¡Viva er Betis manque pierda!", "m": "The famous motto: long live Betis, even if they lose. 'Er' is Andalusian for 'el'."},
-      {"t": "La Cartuja's fine, but we want to go home.", "m": "Fans miss the Villamarín while it's rebuilt."},
-      {"t": "No fans are more loyal than béticos.", "m": "Fans pride themselves on sticking with the club through lean years."},
-      {"t": "The Gran Derbi is the only game that matters.", "m": "Beating Sevilla is the highlight of any season."}
+      {"t": "¡Viva er Betis manque pierda!", "m": "The famous motto: long live Betis, even if they lose. 'Er' is the Andalusian way of saying 'el'.", "when": "any"},
+      {"t": "La Cartuja's fine, but we want to go home.", "m": "Fans miss the Villamarín. Delays mean the move back may not happen until 2029.", "when": "any"},
+      {"t": "No fans are more loyal than béticos.", "m": "Through relegations and lean years, the support never drops off.", "when": "any"},
+      {"t": "Seville is green and white tonight.", "m": "Said after a big win, especially over Sevilla. Green and white are the Betis colours.", "when": "win"},
+      {"t": "Manque pierda. We go again.", "m": "A shrug after a defeat. The motto was made for nights like this.", "when": "loss"},
+      {"t": "The Gran Derbi is the only game that matters.", "m": "Beating Sevilla is the highlight of any season.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Viva er Betis manque pierda", "means": "The motto turns up on banners, scarves and in everyday talk. Saying it shows you stick with Betis, win or lose."}
+    ],
+    "sore": [
+      {"topic": "The 2025 Conference League final", "why": "Betis's first European final ended in a 4-1 defeat to Chelsea."},
+      {"topic": "Sevilla's seven Europa Leagues", "why": "Béticos are tired of hearing about their rivals' European record."}
+    ],
+    "pronounce": [
+      {"word": "Betis", "say": "BEH-tees", "ipa": "ˈbetis", "tts": "beh teece", "why": "Two syllables, with an 'ee' in the second. Locals add the article: 'el Betis'."},
+      {"word": "Balompié", "say": "bah-lom-PYEH", "ipa": "balomˈpje", "tts": "bah lohm pee eh", "why": "The old Spanish word for football in the full club name. The stress is on the last syllable."},
+      {"word": "La Cartuja", "say": "lah kar-TOO-hah", "ipa": "la kaɾˈtuxa", "tts": "lah kar too hah", "why": "The J is a throaty H sound, and the stress is on TOO."}
     ],
     "avoid": [
       {"say": "BET-iss", "instead": "BEH-tees, or 'el Betis'", "why": "The I is an 'ee' sound. Locals usually just say 'el Betis'."},
-      {"say": "Real Betis and Sevilla share a stadium", "instead": "Betis are at La Cartuja for now", "why": "They're two separate clubs with separate grounds and a big rivalry."}
+      {"say": "Betis and Sevilla share a stadium", "instead": "Betis are at La Cartuja for now", "why": "They're two separate clubs with separate grounds and a big rivalry."},
+      {"say": "Betis are back at the Villamarín", "instead": "Betis are still at La Cartuja", "why": "The rebuild has been delayed, and the return is now expected around 2029."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Real_Betis", "https://stadiumdb.com/news/2025/11/spain_betis_facing_longer_exile_villamarin_rebuild_slipping_away_from_original_plan"],
-    "unsure": ["ground: return to the rebuilt Villamarín is expected in 2027-28 or later; reports differ"]
+    "sources": ["https://en.wikipedia.org/wiki/Real_Betis", "https://es.wikipedia.org/wiki/Real_Betis_Balompi%C3%A9", "https://elpais.com/deportes/2019/12/08/actualidad/1575827927_450864.html", "https://www.elpespunte.es/deportes/real-betis/betis-contempla-prolongar-estancia-cartuja-2029/20261028112305158957.html", "https://en.wiktionary.org/wiki/b%C3%A9tico", "https://en.wikipedia.org/wiki/Seville_derby"],
+    "unsure": ["ground: the return to the rebuilt Villamarín keeps slipping; late-October 2026 reports point to the end of 2028-29, possibly later", "lingo: 'Musho Betis' is a well-known fan greeting, but I couldn't confirm it in two sources, so left it out", "traditions: the Christmas soft-toy throw at a December home game and the anthem 'Como Balas de Cañón' were left out for the same reason"]
   },
   {
     "team": "Valencia",
     "espnId": "94",
     "league": "soccer/esp.1",
-    "aliases": ["valencia", "valencia cf", "los che", "vcf"],
+    "region": "es-valencia",
+    "aliases": ["valencia", "valencia cf", "vcf", "los che", "valencianistas"],
     "nickname": "Los Che",
     "fans": "valencianistas",
-    "ground": "Mestalla",
+    "ground": "Mestalla (its last season before the move to Nou Mestalla, planned for summer 2027)",
     "rivals": [
-      {"team": "Levante", "name": "Levante", "derby": "the Valencia derby"},
+      {"team": "Levante", "name": "Levante", "derby": "the Valencia derby (el derbi valenciano)"},
       {"team": "Real Madrid", "name": "Madrid", "derby": ""}
     ],
     "legends": ["Mario Kempes", "Fernando Gómez", "Gaizka Mendieta", "Santiago Cañizares"],
     "memory": "2004: Valencia won La Liga and the UEFA Cup in the same season",
     "lingo": [
-      {"term": "Amunt", "say": "ah-MOONT", "means": "Valencian for 'Up!' or 'Forward!'. 'Amunt Valencia' is the fans' cry."},
-      {"term": "Los Che", "say": "lohs CHEH", "means": "Nickname from 'che', a word Valencians use a lot, a bit like 'hey'."},
-      {"term": "valencianista", "say": "bah-len-thyah-NEES-tah", "means": "A Valencia fan."},
-      {"term": "los Murciélagos", "say": "lohs moor-THYEH-lah-gos", "means": "'The Bats', from the bat on the club crest."}
+      {"term": "Amunt", "say": "ah-MOONT", "ipa": "aˈmunt", "tts": "ah moont", "means": "Valencian for 'Up!' or 'Forward!'. 'Amunt Valencia' is the fans' cry."},
+      {"term": "Los Che", "say": "lohs CHEH", "ipa": "los ˈtʃe", "tts": "loce cheh", "means": "Nickname from 'che', a word Valencians use a lot, a bit like 'hey'. A Valencia player or fan can be called a 'che'."},
+      {"term": "valencianista", "say": "bah-len-thyah-NEES-tah", "ipa": "balenθjaˈnista", "tts": "bah lenth yah neest ah", "means": "A Valencia fan (valencianistes in Valencian)."},
+      {"term": "el ratpenat", "say": "el rat-peh-NAT", "ipa": "el ˌratpeˈnat", "tts": "el rat peh nat", "means": "Valencian for 'bat', the animal perched on top of the club crest and a symbol of the city for centuries."},
+      {"term": "Nou Mestalla", "say": "NOH mes-TAH-yah", "ipa": "ˈnɔw mesˈtaʎa", "tts": "noh mess tah yah", "means": "The new stadium. Building stopped in 2009, the bare concrete frame stood for about 16 years, and it's now due to open in summer 2027."}
     ],
     "lines": [
-      {"t": "Amunt Valencia!", "m": "The standard cheer."},
-      {"t": "Mestalla's stands are so steep, you're right on top of the pitch.", "m": "Fans love the near-vertical old stadium. Visitors find it intimidating."},
-      {"t": "Two Champions League finals in a row, 2000 and 2001.", "m": "Fans still remember the side that nearly won Europe twice."},
-      {"t": "We'll miss the old place when we move.", "m": "The club plans to move to the new Nou Mestalla stadium in 2027."}
+      {"t": "Amunt Valencia!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Mestalla's stands are so steep you're right on top of the pitch.", "m": "Fans love the near-vertical old ground. Visitors find it intimidating.", "when": "any"},
+      {"t": "Last season at Mestalla. Let's make it count.", "m": "2026-27 is the final season at the old ground before the move to Nou Mestalla.", "when": "any"},
+      {"t": "Our bat was on the crest long before Batman.", "m": "DC Comics once objected to the club's centenary bat logo. Fans love pointing out who came first.", "when": "any"},
+      {"t": "Mestalla was shaking tonight.", "m": "Those steep stands make the noise feel twice as loud after a big win.", "when": "win"},
+      {"t": "Amunt, always. Even on nights like this.", "m": "Amunt works after a defeat too: chin up and push on.", "when": "loss"},
+      {"t": "Derby day. This city is ours, not Levante's.", "m": "Levante are the other club in the city, and the derby decides local bragging rights.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Amunt València", "means": "The club anthem, a pasodoble from 1993 with words in Valencian. It rings round Mestalla at every home game."},
+      {"name": "The bat", "means": "The ratpenat sits on top of the crest, so it is on every shirt and scarf in the ground."}
+    ],
+    "sore": [
+      {"topic": "The 2000 and 2001 Champions League finals", "why": "Valencia lost both, to Real Madrid and then to Bayern on penalties."},
+      {"topic": "The Nou Mestalla saga", "why": "The half-built stadium sat untouched for about 16 years, a long-running embarrassment for the club."}
+    ],
+    "pronounce": [
+      {"word": "Mestalla", "say": "mes-TAH-yah", "ipa": "mesˈtaʎa", "tts": "mess tah yah", "why": "The double L is a 'y' or 'ly' sound, and the stress is on TAH."},
+      {"word": "Valencia", "say": "bah-LEN-thyah", "ipa": "baˈlenθja", "tts": "bah lenth yah", "why": "In Spain the V is close to a B and the C is a 'th'. Not va-LEN-see-a."}
     ],
     "avoid": [
-      {"say": "mes-TAL-ah", "instead": "mes-TAH-yah", "why": "The double L sounds like a Y in Spanish."},
-      {"say": "Valencia and Villarreal, same thing", "instead": "Valencia", "why": "Villarreal is a separate, smaller club from a town up the coast."}
+      {"say": "mes-TAL-ah", "instead": "mes-TAH-yah", "why": "The double L sounds like a Y."},
+      {"say": "Valencia and Villarreal, same thing", "instead": "Valencia", "why": "Villarreal is a separate, smaller club from a town up the coast."},
+      {"say": "Valencia play at the new stadium", "instead": "Valencia are at Mestalla for one last season", "why": "Nou Mestalla isn't due to open until summer 2027."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Valencia_CF", "https://stadiumdb.com/news/2026/04/spain_valencia_accelerates_nou_mestalla_works_and_prepares_sale_of_old_stadium"],
-    "unsure": ["ground: move to Nou Mestalla is targeted for 2027-28 but depends on building work"]
+    "sources": ["https://en.wikipedia.org/wiki/Valencia_CF", "https://es.wikipedia.org/wiki/Valencia_Club_de_F%C3%BAtbol", "https://www.valenciacf.com/all-the-secrets-behind-the-emotional-spot-for-the-final-season-ticket-campaign-at-mestalla", "https://www.relevo.com/futbol/liga-primera/himno-valencia-letra-completa-historia-20240422135014-nt.html", "https://www.elconfidencial.com/deportes/futbol/2019-03-18/valencia-cf-batman-centenario-logo-dc-comics_1889694/", "https://stadiumdb.com/news/2026/01/spain_from_a_skeleton_to_a_symbol_of_valencia_nou_mestalla_enters_a_new_construction_phase"],
+    "unsure": ["ground: the move to Nou Mestalla depends on the works finishing on time; the club says summer 2027", "lingo: 'los Murciélagos' (the Bats) from the earlier version was dropped, as I couldn't confirm fans use it as a nickname; replaced with el ratpenat"]
   },
   {
     "team": "AC Milan",
     "espnId": "103",
     "league": "soccer/ita.1",
-    "aliases": ["ac milan", "milan", "rossoneri", "acm"],
+    "region": "it-milan",
+    "aliases": ["ac milan", "milan", "rossoneri", "acm", "il milan", "il diavolo"],
     "nickname": "the Rossoneri",
     "fans": "milanisti",
     "ground": "San Siro",
@@ -634,32 +917,53 @@
     "legends": ["Paolo Maldini", "Franco Baresi", "Marco van Basten", "Gianni Rivera"],
     "memory": "1994: Milan thrashed Barcelona 4-0 in the Champions League final in Athens",
     "lingo": [
-      {"term": "Rossoneri", "say": "ross-oh-NEH-ree", "means": "'Red-and-blacks', from the striped shirts. English-speaking fans use it too."},
-      {"term": "il Diavolo", "say": "eel DYAH-vo-lo", "means": "'The Devil', the club's symbol."},
-      {"term": "milanista", "say": "mee-lah-NEES-tah", "means": "A Milan fan."},
-      {"term": "Curva Sud", "say": "KOOR-vah SOOD", "means": "The south end of San Siro, where the loudest Milan fans stand."}
+      {"term": "Rossoneri", "say": "ross-oh-NEH-ree", "ipa": "rossoˈneri", "tts": "rosso nehree", "means": "'The red-and-blacks', from the striped shirts. English-speaking fans use it too."},
+      {"term": "il Diavolo", "say": "eel DYAH-voh-loh", "ipa": "il ˈdjavolo", "tts": "eel dee ah voh low", "means": "'The Devil', the club's symbol. The founder wanted a team of devils: red for fire, black for the fear they would cause."},
+      {"term": "milanista", "say": "mee-lah-NEES-tah", "ipa": "milaˈnista", "tts": "mee la neesta", "means": "A Milan fan. The plural is milanisti."},
+      {"term": "casciavit", "say": "kah-shah-VEET", "ipa": "kaʃaˈvit", "tts": "kasha veet", "means": "Old Milanese for 'screwdriver'. Inter fans' name for Milan's working-class support. It lives on as a fond derby label."},
+      {"term": "Milanello", "say": "mee-lah-NEL-loh", "ipa": "milaˈnɛllo", "tts": "mee la nello", "means": "The club's training ground, outside the city. News 'from Milanello' means news from inside the club."},
+      {"term": "la Scala del calcio", "say": "lah SKAH-lah del KAHL-choh", "ipa": "la ˈskala del ˈkaltʃo", "tts": "la skahla del kalcho", "means": "'Football's La Scala', San Siro's nickname, after Milan's opera house. Both clubs use it."},
+      {"term": "Curva Sud", "say": "KOOR-vah SOOD", "ipa": "ˈkurva ˈsud", "tts": "kur vah sood", "means": "The south end of San Siro, where Milan's loudest fans stand."}
     ],
     "lines": [
-      {"t": "Forza Milan!", "m": "'Come on Milan!' Note it's 'Milan', not 'Milano'."},
-      {"t": "Seven European Cups. Only Real Madrid have more.", "m": "Fans' standard boast."},
-      {"t": "The derby is the real final.", "m": "Games against Inter split the city."},
-      {"t": "Maldini played his whole career here.", "m": "Fans use Paolo Maldini's 25 seasons as the model of loyalty."}
+      {"t": "Forza Milan!", "m": "'Come on Milan!' Fans say Milan (MEE-lan), never Milano.", "when": "any"},
+      {"t": "Seven European Cups. Only Real Madrid have more.", "m": "The standard Milan boast. Europe is where the club feels most at home.", "when": "any"},
+      {"t": "Maldini played his whole career here.", "m": "Paolo Maldini spent 25 seasons at Milan. Fans hold him up as the model of loyalty.", "when": "any"},
+      {"t": "The derby is the real final.", "m": "Games against Inter split the city, and fans rate them above anything else.", "when": "rival"},
+      {"t": "Two stars? We've got seven European Cups.", "m": "The comeback when Inter fans show off their second star. Inter have three European Cups.", "when": "rival"},
+      {"t": "The Devil's back!", "m": "Said after a big win, borrowing the club's devil symbol. Italian papers use the same line.", "when": "win"},
+      {"t": "One bad night. This club has won Europe seven times.", "m": "How fans shrug off a defeat: the history is bigger than one result.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "Coreografie at the derby", "means": "Before a derby both ends of San Siro hold up giant card and banner displays. Milan fans in the Curva Sud take great pride in theirs."},
+      {"name": "'Milan Milan'", "means": "The official club anthem, by Tony Renis, first released in 1988."},
+      {"name": "The English name", "means": "The club kept the English spelling 'Milan' in honour of its English founder, Herbert Kilpin, who started it in 1899."}
+    ],
+    "sore": [
+      {"topic": "Istanbul 2005", "why": "Milan led Liverpool 3-0 at half-time in the Champions League final and lost on penalties."},
+      {"topic": "Inter's second star", "why": "Inter clinched their 20th title, and a second star, by beating Milan in the April 2024 derby."}
+    ],
+    "pronounce": [
+      {"word": "Milan", "say": "MEE-lan", "ipa": "ˈmilan", "tts": "mee lan", "why": "The club keeps the English spelling, but Italians stress the first syllable. The city itself is Milano."},
+      {"word": "San Siro", "say": "san SEE-roh", "ipa": "san ˈsiro", "tts": "san seero", "why": "The stadium's everyday name, from its district. Not 'sigh-ro'."}
     ],
     "avoid": [
-      {"say": "AC Milano", "instead": "Milan (MEE-lan)", "why": "The club uses the English-style 'Milan', stressed on the first syllable."},
-      {"say": "Milan and Inter are basically one club", "instead": "Milan are red and black; Inter are blue and black", "why": "They share San Siro but are fierce rivals."}
+      {"say": "AC Milano", "instead": "Milan", "why": "The club uses the English spelling, after its English founder."},
+      {"say": "the Meazza", "instead": "San Siro", "why": "Giuseppe Meazza is remembered mostly as an Inter man, so Milan fans stick to San Siro."},
+      {"say": "Milan and Inter are basically one club", "instead": "Milan are red and black, Inter blue and black", "why": "They share San Siro but are fierce rivals."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/AC_Milan"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/AC_Milan", "https://it.wikipedia.org/wiki/Associazione_Calcio_Milan", "https://en.wikipedia.org/wiki/Milan_derby", "https://www.milanofree.it/milano/eventi/derby-di-milano-bauscia-e-casciavit.html", "https://en.wikipedia.org/wiki/San_Siro", "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals"],
+    "unsure": ["lines: 'The Devil's back!' rests on the club's devil symbol and Italian headline usage ('il Diavolo è tornato'); no fan-site quote found"]
   },
   {
     "team": "Internazionale",
     "espnId": "110",
     "league": "soccer/ita.1",
-    "aliases": ["inter", "inter milan", "internazionale", "nerazzurri", "fc internazionale"],
+    "region": "it-milan",
+    "aliases": ["inter", "inter milan", "internazionale", "fc internazionale", "la beneamata", "il biscione"],
     "nickname": "the Nerazzurri",
     "fans": "interisti",
-    "ground": "San Siro (many Inter fans say 'the Meazza')",
+    "ground": "San Siro",
     "rivals": [
       {"team": "AC Milan", "name": "Milan", "derby": "the Derby della Madonnina"},
       {"team": "Juventus", "name": "Juve", "derby": "the Derby d'Italia"}
@@ -667,29 +971,51 @@
     "legends": ["Javier Zanetti", "Giuseppe Meazza", "Giacinto Facchetti", "Sandro Mazzola"],
     "memory": "2010: the Treble, winning Serie A, the Coppa Italia and the Champions League in one season",
     "lingo": [
-      {"term": "Nerazzurri", "say": "neh-raht-SOOR-ree", "means": "'Black-and-blues', from the striped shirts."},
-      {"term": "interista", "say": "een-teh-REES-tah", "means": "An Inter fan."},
-      {"term": "Pazza Inter", "say": "PAHT-sah EEN-tehr", "means": "'Crazy Inter'. Fans' fond name for a team that can do anything, good or bad."},
-      {"term": "il Biscione", "say": "eel bee-SHOH-neh", "means": "'The big snake', the club symbol, taken from Milan's coat of arms."}
+      {"term": "Nerazzurri", "say": "neh-rahd-DZOOR-ree", "ipa": "neradˈdzurri", "tts": "nerrad zoo ree", "means": "'The black-and-blues', from the striped shirts."},
+      {"term": "interista", "say": "een-teh-REES-tah", "ipa": "inteˈrista", "tts": "inter eesta", "means": "An Inter fan. The plural is interisti."},
+      {"term": "Pazza Inter", "say": "PAHT-tsah EEN-ter", "ipa": "ˈpattsa ˈintɛr", "tts": "patsa inter", "means": "'Crazy Inter'. Fans' fond name for a side that can beat anyone, or lose to anyone."},
+      {"term": "il Biscione", "say": "eel bee-SHOH-neh", "ipa": "il biʃˈʃone", "tts": "eel bee show neh", "means": "'The big snake', the club symbol, taken from Milan's old coat of arms."},
+      {"term": "la Beneamata", "say": "lah beh-neh-ah-MAH-tah", "ipa": "la beneaˈmata", "tts": "la benneh ah mahta", "means": "'The beloved', an old and affectionate nickname for the club."},
+      {"term": "bauscia", "say": "bah-OO-shah", "ipa": "baˈuʃʃa", "tts": "bah oosh shah", "means": "Milanese for a show-off. Milan fans' old name for Inter's better-off supporters. It lives on as a fond derby label."},
+      {"term": "il Triplete", "say": "eel tree-PLEH-teh", "ipa": "il triˈplete", "tts": "eel tree plet eh", "means": "The 2010 Treble. Italians borrowed the Spanish word, and Inter are still the only Italian club to win one."}
     ],
     "lines": [
-      {"t": "Forza Inter!", "m": "'Come on Inter!'"},
-      {"t": "We've never been relegated. Ever.", "m": "Inter have played every Serie A season. Fans enjoy reminding Milan and Juve."},
-      {"t": "Pazza Inter, never boring.", "m": "Fans' shrug after a wild result, good or bad."},
-      {"t": "No other Italian club has won the Treble.", "m": "The 2010 season is Inter's proudest boast."}
+      {"t": "Forza Inter!", "m": "'Come on Inter!'", "when": "any"},
+      {"t": "Never relegated. Not once.", "m": "Inter have played every Serie A season since 1929. Milan and Juve have both spent time in Serie B.", "when": "any"},
+      {"t": "Pazza Inter. Never boring.", "m": "Fans' shrug after a wild result, good or bad.", "when": "any"},
+      {"t": "No other Italian club has won the Treble.", "m": "The 2010 season is Inter's proudest boast.", "when": "any"},
+      {"t": "Two stars on the shirt. Milan are still waiting for their second.", "m": "Inter reached 20 league titles, and a second star, in 2024. Milan are on 19.", "when": "rival"},
+      {"t": "Lose this one, beat the champions next week. That's Inter.", "m": "How fans shrug off a bad defeat: this club can turn it round any time.", "when": "loss"},
+      {"t": "Pazza Inter, the good kind this time.", "m": "After a wild, high-scoring win, fans joke that the crazy side showed up for once.", "when": "win"}
+    ],
+    "traditions": [
+      {"name": "The second star", "means": "Since the 20th title in 2024, Inter's shirt carries two stars, one for every ten league titles."},
+      {"name": "'C'è solo l'Inter' and 'Pazza Inter'", "means": "Two club songs every fan knows: the official anthem, by Elio and Graziano Romani, and the squad's own record from 2003."},
+      {"name": "Brothers of the world", "means": "Inter were founded in 1908 by members who left Milan because they wanted foreign players. The founders chose 'Internazionale' because they were brothers of the world."}
+    ],
+    "sore": [
+      {"topic": "5 May 2002", "why": "Inter lost at Lazio on the final day and handed the title to Juventus. Fans just call it 'il 5 maggio'."},
+      {"topic": "The 2025 Champions League final", "why": "Inter lost 5-0 to Paris Saint-Germain, a night fans would rather forget."}
+    ],
+    "pronounce": [
+      {"word": "Internazionale", "say": "een-ter-naht-tsyoh-NAH-leh", "ipa": "internattsjoˈnale", "tts": "inter nats yo nah leh", "why": "The full name. The z is a 'ts' sound and the stress falls on NAH."},
+      {"word": "Giuseppe Meazza", "say": "joo-ZEP-peh meh-AHT-tsah", "ipa": "dʒuˈzɛppe meˈattsa", "tts": "joo zeppeh meh atsa", "why": "The Inter great the stadium is officially named after. Not 'mee-AZZ-a'."},
+      {"word": "Giacinto Facchetti", "say": "jah-CHEEN-toh fahk-KET-tee", "ipa": "dʒaˈtʃinto fakˈketti", "tts": "juh cheento fak ketty", "why": "The great captain and full-back. The 'cch' is a hard k, not 'ch'."}
     ],
     "avoid": [
-      {"say": "Inter Milan", "instead": "Inter", "why": "English media say Inter Milan, but Italian fans just say Inter (EEN-tehr)."},
-      {"say": "AC Inter", "instead": "Inter", "why": "AC is Milan's prefix. Inter's full name is Internazionale."}
+      {"say": "Inter Milan", "instead": "Inter", "why": "English media say Inter Milan; Italian fans just say Inter (EEN-ter)."},
+      {"say": "AC Inter", "instead": "Inter", "why": "AC belongs to Milan. Inter's full name is Internazionale."},
+      {"say": "Inter play at the Meazza, Milan at San Siro", "instead": "both play at San Siro", "why": "It's one stadium with two names, and fans of both clubs mostly say San Siro."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Inter_Milan"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Inter_Milan", "https://it.wikipedia.org/wiki/Football_Club_Internazionale_Milano", "https://it.wikipedia.org/wiki/Pazza_Inter", "https://en.wikipedia.org/wiki/Milan_derby", "https://en.wikipedia.org/wiki/San_Siro", "https://www.inter.it/it/notizie/inter-parma-serie-a-2025-2026"],
+    "unsure": ["lingo: the Italian vowels of 'Triplete' (borrowed from Spanish) vary by speaker; ipa follows the Spanish closed e"]
   },
   {
     "team": "Juventus",
     "espnId": "111",
     "league": "soccer/ita.1",
-    "aliases": ["juventus", "juve", "bianconeri", "the old lady"],
+    "region": "it-turin",
+    "aliases": ["juventus", "juve", "the old lady", "la vecchia signora", "juventus fc", "la signora"],
     "nickname": "Juve",
     "fans": "juventini",
     "ground": "the Allianz Stadium",
@@ -698,31 +1024,52 @@
       {"team": "Torino", "name": "Toro", "derby": "the Derby della Mole"}
     ],
     "legends": ["Alessandro Del Piero", "Gianluigi Buffon", "Michel Platini", "Gaetano Scirea"],
-    "memory": "2012-2020: nine Serie A titles in a row",
+    "memory": "2012 to 2020: nine Serie A titles in a row",
     "lingo": [
-      {"term": "Juve", "say": "YOO-veh", "means": "Short for Juventus. English speakers often say JOO-vee; Italians say YOO-veh."},
-      {"term": "la Vecchia Signora", "say": "lah VEK-kyah see-NYOH-rah", "means": "'The Old Lady', the best-known nickname. In English, fans say 'the Old Lady'."},
-      {"term": "bianconeri", "say": "byahn-koh-NEH-ree", "means": "'White-and-blacks', from the striped shirts."},
-      {"term": "Fino alla fine", "say": "FEE-noh AHL-lah FEE-neh", "means": "'Until the end', the club motto."}
+      {"term": "Juve", "say": "YOO-veh", "ipa": "ˈjuve", "tts": "you veh", "means": "Short for Juventus, and what everyone calls the club. Italians say YOO-veh, not JOO-vee."},
+      {"term": "la Vecchia Signora", "say": "lah VEK-kyah seen-YOH-rah", "ipa": "la ˈvɛkkja siɲˈɲora", "tts": "la vekkya seen yora", "means": "'The Old Lady', the best-known nickname. In English, fans say 'the Old Lady'."},
+      {"term": "Madama", "say": "mah-DAH-mah", "ipa": "maˈdama", "tts": "mah dahma", "means": "Piedmontese for 'Madam', an older Turin nickname for the club."},
+      {"term": "bianconeri", "say": "byahn-koh-NEH-ree", "ipa": "bjankoˈneri", "tts": "bee anko nehree", "means": "'The white-and-blacks', from the striped shirts."},
+      {"term": "le Zebre", "say": "leh DZEH-breh", "ipa": "le ˈdzɛbre", "tts": "leh zeh breh", "means": "'The Zebras', for the stripes. The zebra is also the club mascot."},
+      {"term": "la Fidanzata d'Italia", "say": "lah fee-dahn-TSAH-tah dee-TAH-lyah", "ipa": "la fidanˈtsata diˈtalja", "tts": "la fee dant sahta dee tahl yah", "means": "'Italy's sweetheart', because Juve have fans in every corner of the country, more than any other club."},
+      {"term": "Fino alla fine", "say": "FEE-noh AHL-lah FEE-neh", "ipa": "ˈfino ˈalla ˈfine", "tts": "feeno alla feeneh", "means": "'Until the end', the club motto: keep going until the final whistle."}
     ],
     "lines": [
-      {"t": "Fino alla fine!", "m": "The motto: keep fighting until the final whistle."},
-      {"t": "Forza Juve!", "m": "'Come on Juve!'"},
-      {"t": "Winning isn't everything here, it's the only thing.", "m": "Juve fans expect trophies every season."},
-      {"t": "Nine in a row. Say no more.", "m": "The run of league titles from 2012 to 2020."}
+      {"t": "Fino alla fine!", "m": "The motto. Fans say it while chasing a late goal, and again when it goes in.", "when": "any"},
+      {"t": "Winning isn't important here. It's the only thing that counts.", "m": "A famous line from Giampiero Boniperti, the club's great player and president. Fans quote it when trophies are expected.", "when": "any"},
+      {"t": "Nine in a row. Say no more.", "m": "The run of league titles from 2012 to 2020. Fans play it as a trump card.", "when": "any"},
+      {"t": "Derby d'Italia week. Nothing else matters.", "m": "Juve against Inter is the 'Derby of Italy', between the two clubs with fans all over the country.", "when": "rival"},
+      {"t": "Turin is black and white.", "m": "Mild banter before the Derby della Mole against Torino, the city's other club.", "when": "rival"},
+      {"t": "A 1-0 is still three points.", "m": "Juve fans take pride in tight, hard-earned wins, however ugly.", "when": "win"},
+      {"t": "We'll be back. Juve always come back.", "m": "After a bad run, fans point to the club's habit of bouncing back to the top.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "The Notts County stripes", "means": "Juve first played in pink. In the early 1900s a set of black-and-white shirts, copied from Notts County, was sent from Nottingham, and the stripes stuck."},
+      {"name": "Villar Perosa", "means": "The Agnelli family's home village, in a valley west of Turin, where the first team traditionally plays the club's youth side in a summer friendly."},
+      {"name": "'Juve (storia di un grande amore)'", "means": "The club anthem, in its 2007 version by Paolo Belli, played at the stadium before games."}
+    ],
+    "sore": [
+      {"topic": "Champions League finals", "why": "Juve have lost seven European Cup finals, more than any other club, and won only two."},
+      {"topic": "The Serie B season", "why": "Juve spent 2006-07 in Serie B. Fans would rather not hear about it from an outsider."}
+    ],
+    "pronounce": [
+      {"word": "Juventus", "say": "yoo-VEN-toos", "ipa": "juˈvɛntus", "tts": "you ventoos", "why": "The J is a Y sound and the stress falls on VEN."},
+      {"word": "Gaetano Scirea", "say": "gah-eh-TAH-noh shee-REH-ah", "ipa": "ɡaeˈtano ʃiˈrɛa", "tts": "gah eh tahno shee reh ah", "why": "The great sweeper of the 1970s and 80s. 'Sci' is 'shee', not 'sky'."}
     ],
     "avoid": [
       {"say": "JOO-ven-tus", "instead": "yoo-VEN-toos, or just Juve", "why": "The J is said like a Y in Italian."},
-      {"say": "Juventus are from Milan", "instead": "Juve are from Turin", "why": "Milan has Inter and Milan. Juve are a Turin club."}
+      {"say": "the Delle Alpi", "instead": "the Allianz Stadium", "why": "Juve left the Delle Alpi in 2006 and moved into their own ground in 2011."},
+      {"say": "Juve are Turin's only club", "instead": "Turin has Juve and Torino", "why": "Torino are the city's other club, and the Derby della Mole matters to both sides."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Juventus_FC"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Juventus_FC", "https://it.wikipedia.org/wiki/Juventus_Football_Club", "https://en.wikipedia.org/wiki/Juventus_Stadium", "https://en.wikipedia.org/wiki/Derby_d%27Italia", "https://en.wikipedia.org/wiki/Giampiero_Boniperti", "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals"],
+    "unsure": ["traditions: Wikipedia describes the Villar Perosa friendly as annual, but I couldn't confirm the 2025 or 2026 editions", "lingo: 'Fino alla fine' kept from version 1 as the club motto; I found no second written source for it this session", "traditions: the anthem being played before games is standard practice but not confirmed in a written source"]
   },
   {
     "team": "Napoli",
     "espnId": "114",
     "league": "soccer/ita.1",
-    "aliases": ["napoli", "ssc napoli", "naples", "partenopei"],
+    "region": "it-naples",
+    "aliases": ["napoli", "ssc napoli", "naples", "partenopei", "il napoli"],
     "nickname": "the Partenopei",
     "fans": "",
     "ground": "the Maradona",
@@ -733,29 +1080,48 @@
     "legends": ["Diego Maradona", "Marek Hamšík", "Antonio Juliano", "Careca"],
     "memory": "1987: Napoli's first Scudetto (league title), led by Diego Maradona",
     "lingo": [
-      {"term": "Partenopei", "say": "par-teh-noh-PEH-ee", "means": "From Parthenope, the ancient name of Naples. English commentators use it a lot."},
-      {"term": "gli Azzurri", "say": "lyee ahd-DZOOR-ree", "means": "'The Blues', from the sky-blue shirts."},
-      {"term": "'o ciuccio", "say": "oh CHOO-choh", "means": "Neapolitan for 'the donkey', the club's mascot."},
-      {"term": "Scudetto", "say": "skoo-DET-toh", "means": "The Serie A title. Napoli won it in 1987, 1990, 2023 and 2025."}
+      {"term": "Partenopei", "say": "par-teh-noh-PEH-ee", "ipa": "partenoˈpɛi", "tts": "parr teh no peh ee", "means": "From Parthenope, the ancient Greek name for Naples. Italian and English commentators use it a lot."},
+      {"term": "gli Azzurri", "say": "lyee ahd-DZOOR-ree", "ipa": "ʎi adˈdzurri", "tts": "lee ad zoo ree", "means": "'The Blues', from the sky-blue shirts. Italy's national side shares the name."},
+      {"term": "'o ciuccio", "say": "oh CHOOT-chuh", "ipa": "o ˈtʃuttʃə", "tts": "oh choo chuh", "means": "Neapolitan for 'the donkey', the club's mascot."},
+      {"term": "i ciucciarelli", "say": "ee choot-chah-REL-lee", "ipa": "i tʃuttʃaˈrɛlli", "tts": "ee choo cha relly", "means": "'The little donkeys', an affectionate old nickname for the team."},
+      {"term": "il Napoli", "say": "eel NAH-poh-lee", "ipa": "il ˈnapoli", "tts": "eel nah polly", "means": "The club is masculine in Italian, 'il Napoli', while the city is feminine. Getting the 'il' right shows you follow the team."},
+      {"term": "Scudetto", "say": "skoo-DET-toh", "ipa": "skuˈdetto", "tts": "skoo detto", "means": "'Little shield', the Serie A title badge. Napoli have four: 1987, 1990, 2023 and 2025."}
     ],
     "lines": [
-      {"t": "Forza Napoli sempre!", "m": "'Come on Napoli, always!' A common sign-off among fans."},
-      {"t": "Maradona is still the king of Naples.", "m": "Diego Maradona is close to a saint in the city, and the stadium is named after him."},
-      {"t": "Beat Juve and the season's made.", "m": "Juventus are the rival Napoli fans most love to beat."},
-      {"t": "Nobody parties like Naples after a Scudetto.", "m": "The city's title celebrations are famous."}
+      {"t": "Forza Napoli sempre!", "m": "'Come on Napoli, always!' The usual sign-off among fans.", "when": "any"},
+      {"t": "Diego is still the king of Naples.", "m": "Maradona is close to a saint in the city. The stadium carries his name, and nobody wears his number 10.", "when": "any"},
+      {"t": "1987, 1990, 2023, 2025. Every one a party.", "m": "Napoli's four league titles. The city's celebrations are famous.", "when": "any"},
+      {"t": "Nobody parties like Naples after a win like that.", "m": "Said after a big win. Naples celebrates like nowhere else.", "when": "win"},
+      {"t": "Beat Juve and the season's made.", "m": "Juventus are the side Napoli fans most love to beat.", "when": "rival"},
+      {"t": "Roma next? That's the Derby del Sole.", "m": "Napoli against Roma is the 'Derby of the Sun', a rivalry going back decades.", "when": "rival"},
+      {"t": "Bad day. The Maradona will still be full next week.", "m": "Napoli's support doesn't drop after a defeat.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "'O surdato 'nnammurato", "means": "A Neapolitan classic from 1915. Fans sing it together after big wins."},
+      {"name": "The number 10", "means": "Napoli retired Maradona's number 10 in 2000. No Napoli player wears it."}
+    ],
+    "sore": [
+      {"topic": "2018: 91 points and second", "why": "Napoli piled up 91 points in 2017-18 and still finished behind Juventus."}
+    ],
+    "pronounce": [
+      {"word": "Maradona", "say": "mah-rah-DOH-nah", "ipa": "maraˈdona", "tts": "mara doe nah", "why": "Locals stress DOH, with a pure 'o'. English speakers often say 'mara-DONN-a'."},
+      {"word": "Fuorigrotta", "say": "fwoh-ree-GROT-tah", "ipa": "fworiˈɡrɔtta", "tts": "fwoh ree grawt tah", "why": "The district where the Maradona stadium stands."},
+      {"word": "Antonio Juliano", "say": "ahn-TOH-nyoh yoo-LYAH-noh", "ipa": "anˈtɔnjo juˈljano", "tts": "an tone yo yoo lee ah no", "why": "The 1970s captain. In Italian the J is a Y sound."}
     ],
     "avoid": [
       {"say": "the San Paolo", "instead": "the Maradona", "why": "The stadium was renamed after Diego Maradona in 2020."},
-      {"say": "na-POH-lee", "instead": "NAH-poh-lee", "why": "Italians stress the first syllable."}
+      {"say": "na-POH-lee", "instead": "NAH-poh-lee", "why": "Italians stress the first syllable."},
+      {"say": "Napoli only won it with Maradona", "instead": "they won it again in 2023 and 2025", "why": "The modern titles matter just as much to fans."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/SSC_Napoli"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/SSC_Napoli", "https://it.wikipedia.org/wiki/Societ%C3%A0_Sportiva_Calcio_Napoli", "https://en.wikipedia.org/wiki/Stadio_Diego_Armando_Maradona", "https://en.wikipedia.org/wiki/%27O_surdato_%27nnammurato", "https://en.wikipedia.org/wiki/Diego_Maradona", "https://en.wikipedia.org/wiki/2017%E2%80%9318_Serie_A"],
+    "unsure": ["traditions: Maradona murals and shrines in the Quartieri Spagnoli left out; I couldn't confirm details in two sources this session", "fans: no club-specific name for Napoli supporters found, so left blank"]
   },
   {
     "team": "AS Roma",
     "espnId": "104",
     "league": "soccer/ita.1",
-    "aliases": ["roma", "as roma", "giallorossi", "la roma"],
+    "region": "it-rome",
+    "aliases": ["roma", "as roma", "la roma", "la magica", "i lupi"],
     "nickname": "the Giallorossi",
     "fans": "romanisti",
     "ground": "the Olimpico",
@@ -763,32 +1129,52 @@
       {"team": "Lazio", "name": "Lazio", "derby": "the Derby della Capitale"},
       {"team": "Napoli", "name": "Napoli", "derby": "the Derby del Sole"}
     ],
-    "legends": ["Francesco Totti", "Bruno Conti", "Agostino Di Bartolomei", "Giacomo Losi"],
+    "legends": ["Francesco Totti", "Bruno Conti", "Paulo Roberto Falcão", "Giacomo Losi"],
     "memory": "2001: Roma won their third Scudetto, with Francesco Totti leading the side",
     "lingo": [
-      {"term": "Giallorossi", "say": "jahl-loh-ROSS-ee", "means": "'Yellow-and-reds', from the club colours. English commentators use it too."},
-      {"term": "romanista", "say": "roh-mah-NEES-tah", "means": "A Roma fan."},
-      {"term": "Daje", "say": "DAH-yeh", "means": "Roman slang for 'Come on!'. You'll hear 'Daje Roma' everywhere."},
-      {"term": "la Lupa", "say": "lah LOO-pah", "means": "The she-wolf on the crest, from the legend of Rome's founding."}
+      {"term": "Giallorossi", "say": "jahl-loh-ROHS-see", "ipa": "dʒalloˈrossi", "tts": "jallo rossy", "means": "'The yellow-and-reds', from the club colours, which are the city's own. English commentators use it too."},
+      {"term": "romanista", "say": "roh-mah-NEES-tah", "ipa": "romaˈnista", "tts": "roma neesta", "means": "A Roma fan. The plural is romanisti."},
+      {"term": "la Magica", "say": "lah MAH-jee-kah", "ipa": "la ˈmadʒika", "tts": "la mah jee ka", "means": "'The magic one', a fond nickname for the club."},
+      {"term": "la Lupa", "say": "lah LOO-pah", "ipa": "la ˈlupa", "tts": "la loo pah", "means": "The she-wolf on the crest, from the legend of Rome's founding. The players are 'i Lupi', the wolves."},
+      {"term": "er Pupone", "say": "air poo-POH-neh", "ipa": "er puˈpone", "tts": "air pooh poe neh", "means": "'The big baby', Rome's fond name for Francesco Totti. 'Er' is the Roman way of saying 'il', 'the'."},
+      {"term": "Curva Sud", "say": "KOOR-vah SOOD", "ipa": "ˈkurva ˈsud", "tts": "kur vah sood", "means": "The south end of the Olimpico, Roma's end. Lazio fans have the north end."}
     ],
     "lines": [
-      {"t": "Daje Roma!", "m": "The Roman way to say 'Come on Roma'."},
-      {"t": "Totti only ever played for one club.", "m": "Francesco Totti spent his whole career at Roma. Fans hold him up as the ideal."},
-      {"t": "Put 'Grazie Roma' on!", "m": "Fans sing Antonello Venditti's 'Grazie Roma' after big wins."},
-      {"t": "The derby is the only game that matters in this city.", "m": "Roma against Lazio splits Rome down the middle."}
+      {"t": "Daje Roma!", "m": "The Roman way to say 'Come on Roma!'", "when": "any"},
+      {"t": "Totti only ever played for one club.", "m": "Francesco Totti spent his whole career at Roma, retiring in 2017. Fans hold him up as the ideal.", "when": "any"},
+      {"t": "Three Scudetti, and we remember every one.", "m": "Roma won the league in 1942, 1983 and 2001. Titles are rare, so each one is treasured.", "when": "any"},
+      {"t": "Put 'Grazie Roma' on!", "m": "Antonello Venditti's 'Grazie Roma' is played over the Olimpico speakers after every Roma win.", "when": "win"},
+      {"t": "The derby is the only game that matters in this city.", "m": "Roma against Lazio splits Rome down the middle.", "when": "rival"},
+      {"t": "Remember Totti's derby selfie?", "m": "In 2015 Totti scored against Lazio and took a selfie in front of the Curva Sud. Fans still love it.", "when": "rival"},
+      {"t": "You don't stop loving Roma over one result.", "m": "How fans shrug off a defeat. Loyalty comes first.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "Venditti before and after", "means": "Antonello Venditti's 'Roma (non si discute, si ama)' is sung by the crowd before every match, and his 'Grazie Roma' plays after every win."},
+      {"name": "Campo Testaccio", "means": "Roma's home ground in the 1930s, in the Testaccio district. A pitch at the training ground still carries its name."}
+    ],
+    "sore": [
+      {"topic": "The 1984 European Cup final", "why": "Roma lost to Liverpool on penalties in their own stadium, the Olimpico."},
+      {"topic": "26 May 2013", "why": "Lazio beat Roma 1-0 in the Coppa Italia final, the first derby to decide a trophy."}
+    ],
+    "pronounce": [
+      {"word": "Trigoria", "say": "tree-GOR-yah", "ipa": "triˈɡɔrja", "tts": "tree gore ya", "why": "Roma's training ground, known simply by its district's name."},
+      {"word": "Testaccio", "say": "tes-TAHT-choh", "ipa": "tesˈtattʃo", "tts": "tess tah cho", "why": "The district of Roma's first proper ground. The 'cc' is a 'ch' sound."}
     ],
     "avoid": [
       {"say": "AS Roma", "instead": "la Roma, or just Roma", "why": "Italians say 'la Roma'. The 'AS' sounds stiff."},
-      {"say": "Lazio are Rome's team", "instead": "Roma are Rome's team", "why": "Lazio share the city and the stadium. Say this and you'll start an argument."}
+      {"say": "the Olympic Stadium", "instead": "the Olimpico", "why": "Everyone in Rome calls it the Olimpico."},
+      {"say": "DAY-jay Roma", "instead": "DAH-yeh Roma", "why": "Daje is Roman for 'come on', and the j is a y sound."},
+      {"say": "Roma and Lazio, same thing really", "instead": "Roma are yellow and red, Lazio white and sky blue", "why": "They share a stadium and nothing else."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/AS_Roma"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/AS_Roma", "https://it.wikipedia.org/wiki/Associazione_Sportiva_Roma", "https://it.wikipedia.org/wiki/Grazie_Roma", "https://en.wikipedia.org/wiki/Derby_della_Capitale", "https://en.wikipedia.org/wiki/Francesco_Totti", "https://it.wikipedia.org/wiki/Centro_sportivo_Fulvio_Bernardini"],
+    "unsure": ["ground: a new stadium at Pietralata is planned, but Roma still play at the Olimpico in 2026-27 and the opening date is unconfirmed"]
   },
   {
     "team": "Lazio",
     "espnId": "112",
     "league": "soccer/ita.1",
-    "aliases": ["lazio", "ss lazio", "biancocelesti", "le aquile"],
+    "region": "it-rome",
+    "aliases": ["lazio", "ss lazio", "biancocelesti", "le aquile", "la lazio"],
     "nickname": "the Biancocelesti",
     "fans": "laziali",
     "ground": "the Olimpico",
@@ -798,28 +1184,47 @@
     "legends": ["Giorgio Chinaglia", "Silvio Piola", "Giuseppe Signori", "Giuseppe Wilson"],
     "memory": "2000: Lazio won the Scudetto in the club's centenary season",
     "lingo": [
-      {"term": "Biancocelesti", "say": "byahn-koh-cheh-LESS-tee", "means": "'White-and-sky-blues', the club colours."},
-      {"term": "laziali", "say": "lah-tsee-AH-lee", "means": "Lazio fans."},
-      {"term": "le Aquile", "say": "leh AH-kwee-leh", "means": "'The Eagles', from the eagle on the crest."}
+      {"term": "Biancocelesti", "say": "byahn-koh-cheh-LES-tee", "ipa": "bjankotʃeˈlɛsti", "tts": "bee anko cheh lesty", "means": "'The white-and-sky-blues', the club colours, chosen in honour of Greece and the Olympics."},
+      {"term": "laziali", "say": "laht-TSYAH-lee", "ipa": "latˈtsjali", "tts": "lats yah lee", "means": "Lazio fans. One fan is a laziale."},
+      {"term": "le Aquile", "say": "leh AH-kwee-leh", "ipa": "le ˈakwile", "tts": "leh ah kwee leh", "means": "'The Eagles', from the eagle on the crest."},
+      {"term": "gli Aquilotti", "say": "lyee ah-kwee-LOT-tee", "ipa": "ʎi akwiˈlɔtti", "tts": "lee akwee lotty", "means": "'The young eagles', a fond nickname for the team."},
+      {"term": "Biancazzurri", "say": "byahn-kahd-DZOOR-ree", "ipa": "bjankadˈdzurri", "tts": "byahn kahd dzoor ree", "means": "'The white-and-blues', another name from the club colours."},
+      {"term": "la Lazio", "say": "lah LAHT-tsyoh", "ipa": "la ˈlattsjo", "tts": "la lats yo", "means": "The club is always 'la Lazio'. 'Il Lazio' is the region around Rome."}
     ],
     "lines": [
-      {"t": "Forza Lazio!", "m": "'Come on Lazio!'"},
-      {"t": "We were here first.", "m": "Lazio were founded in 1900, Roma in 1927. Fans never let Roma forget it."},
-      {"t": "1974 and 2000, two Scudetti we'll always treasure.", "m": "Lazio's two league titles."},
-      {"t": "Win the derby and Rome is ours.", "m": "Beating Roma is the highlight of any season."}
+      {"t": "Forza Lazio!", "m": "'Come on Lazio!'", "when": "any"},
+      {"t": "1974 and 2000. We treasure both.", "m": "Lazio's two league titles, the second in the club's centenary season.", "when": "any"},
+      {"t": "Our colours come from Greece, home of the Olympics.", "m": "A favourite fact: the founders picked white and sky blue in honour of Greece.", "when": "any"},
+      {"t": "We were here first.", "m": "Lazio were founded in 1900, Roma in 1927. Fans never let Roma forget it.", "when": "rival"},
+      {"t": "26 May 2013. Need I say more?", "m": "Lazio beat Roma 1-0 in the Coppa Italia final, the first time the derby decided a trophy. Fans treasure the date.", "when": "rival"},
+      {"t": "Win the derby and Rome is ours.", "m": "Beating Roma is the highlight of any season.", "when": "win"},
+      {"t": "Heads up. The eagle always flies again.", "m": "A fan's shrug after a defeat, borrowing the club's eagle.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "The eagle flight", "means": "A trained eagle, the club's emblem, flies over the Olimpico before home games. Olympia did it from 2010; a younger eagle, Flaminia, took over in 2025."},
+      {"name": "'Vola Lazio vola'", "means": "The club anthem, by Toni Malco. The title means 'Fly, Lazio, fly'."}
+    ],
+    "sore": [
+      {"topic": "The wait since 2000", "why": "Lazio haven't won the league since 2000. Fans know it and don't need reminding."},
+      {"topic": "Roma's 2001 title", "why": "Roma won the Scudetto the season straight after Lazio did."}
+    ],
+    "pronounce": [
+      {"word": "Giorgio Chinaglia", "say": "JOR-joh kee-NAHL-yah", "ipa": "ˈdʒordʒo kiˈnaʎʎa", "tts": "jor joe key nahl ya", "why": "The striker of the 1974 title side. 'Chi' is 'kee', and 'gli' is like the 'lli' in 'million'."}
     ],
     "avoid": [
-      {"say": "LAY-zee-oh", "instead": "LAHT-see-oh", "why": "The Z sounds like 'ts' in Italian."},
-      {"say": "Roma's little brother", "instead": "Lazio, the city's first club", "why": "Lazio are older than Roma, and fans are proud of it."}
+      {"say": "LAY-zee-oh", "instead": "LAHT-syoh", "why": "The z sounds like 'ts' in Italian, and there's no 'ay'."},
+      {"say": "Roma's little brother", "instead": "the city's first club", "why": "Lazio are older than Roma, and fans are proud of it."},
+      {"say": "Lazio, the town", "instead": "Lazio, the Rome club", "why": "Lazio is the region around Rome. The club is from the city itself."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/SS_Lazio"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/SS_Lazio", "https://it.wikipedia.org/wiki/Societ%C3%A0_Sportiva_Lazio", "https://en.wikipedia.org/wiki/Derby_della_Capitale", "https://it.wikipedia.org/wiki/Derby_di_Roma", "https://thelaziali.com/2025/11/24/three-things-we-learned-from-lazio-vs-lecce-new-eagle-same-lotito/", "https://www.ilgiornale.it/news/calcio/niente-pi-aquila-allolimpico-lazio-licenzia-falconiere-foto-2422857.html"],
+    "unsure": ["traditions: Olympia stopped flying in January 2025 and Flaminia first flew at the Olimpico in November 2025, but reports differ on how regularly she flies, so it may not be every home game", "lingo: 'lazialità' (the Lazio spirit) left out; couldn't confirm it in two written sources this session"]
   },
   {
     "team": "Bayern Munich",
     "espnId": "132",
     "league": "soccer/ger.1",
-    "aliases": ["bayern munich", "bayern", "fc bayern", "bayern münchen", "fcb"],
+    "region": "de-bavaria",
+    "aliases": ["bayern munich", "bayern", "fc bayern", "bayern münchen", "fc bayern münchen", "fcb"],
     "nickname": "the Bavarians",
     "fans": "",
     "ground": "the Allianz Arena",
@@ -828,31 +1233,52 @@
       {"team": "TSV 1860 Munich", "name": "1860", "derby": "the Munich derby"}
     ],
     "legends": ["Franz Beckenbauer", "Gerd Müller", "Sepp Maier", "Philipp Lahm"],
-    "memory": "2013: the Treble, sealed by beating Dortmund in the Champions League final at Wembley",
+    "memory": "2013: the Treble, sealed by beating Dortmund 2-1 in the Champions League final at Wembley",
     "lingo": [
-      {"term": "Mia san mia", "say": "MEE-ah zahn MEE-ah", "means": "Bavarian for 'We are who we are', the club motto."},
-      {"term": "die Roten", "say": "dee ROH-ten", "means": "'The Reds', from the red shirts."},
-      {"term": "der Rekordmeister", "say": "dehr reh-KORT-my-ster", "means": "'The record champions'. Germans use it as shorthand for Bayern."},
-      {"term": "FC Bayern", "say": "eff-tseh BY-ern", "means": "What Germans call the club. English speakers say Bayern Munich, or just Bayern."}
+      {"term": "Mia san mia", "say": "MEE-uh sun MEE-uh", "ipa": "ˈmiɐ̯ san ˈmiɐ̯", "tts": "mee uh sun mee uh", "means": "Bavarian for 'We are who we are'. The club motto: Bayern do things their own way."},
+      {"term": "die Roten", "say": "dee ROH-ten", "ipa": "diː ˈʁoːtn̩", "tts": "dee roaten", "means": "'The Reds', after the red kit."},
+      {"term": "der Rekordmeister", "say": "dair reh-KORT-my-ster", "ipa": "deːɐ̯ ʁeˈkɔʁtˌmaɪ̯stɐ", "tts": "dare reh kort my ster", "means": "'The record champions'. German fans and media use it as shorthand for Bayern, who have won more league titles than anyone."},
+      {"term": "FC Hollywood", "say": "eff-TSEH HOL-ee-vood", "ipa": "ʔɛf ˈt͡seː ˈhɔlivʊt", "tts": "ef tseh holly vood", "means": "A 1990s tag from when star players' rows filled the tabloids. Fans dust it off whenever the drama is back."},
+      {"term": "die Säbener Straße", "say": "dee ZAY-ben-er SHTRAH-seh", "ipa": "diː ˈzɛːbənɐ ˈʃtʁaːsə", "tts": "dee zay benna shtrossa", "means": "The street where the club's headquarters and training ground are. Reporters use it as shorthand for the club itself."},
+      {"term": "das Schlauchboot", "say": "dass SHLOWKH-boht", "ipa": "das ˈʃlaʊ̯xˌboːt", "tts": "dass shlouck boat", "means": "'The rubber dinghy', a nickname for the Allianz Arena, from its puffy, rounded shape."},
+      {"term": "der Stern des Südens", "say": "dair SHTAIRN dess ZÜ-dens", "ipa": "deːɐ̯ ˈʃtɛʁn dɛs ˈzyːdn̩s", "tts": "dare shtairn dess zoo dens", "means": "'The Star of the South'. A nickname for the club, and the title of its anthem."}
     ],
     "lines": [
-      {"t": "Mia san mia.", "m": "The motto: Bayern do things their own way."},
-      {"t": "Turn up 'Stern des Südens'!", "m": "Fans sing the club anthem, 'Star of the South'."},
-      {"t": "A season without the league title is a bad season.", "m": "Bayern fans expect to win the Bundesliga every year."},
-      {"t": "Der Kaiser was the greatest of them all.", "m": "Franz Beckenbauer, 'the Emperor', is the club's biggest legend."}
+      {"t": "Mia san mia.", "m": "The motto: Bayern do things their own way.", "when": "any"},
+      {"t": "A season without the Meisterschale is a bad season.", "m": "Bayern fans expect the league title every year. The Meisterschale is the Bundesliga trophy, a big silver plate.", "when": "any"},
+      {"t": "Der Kaiser was the greatest of them all.", "m": "Franz Beckenbauer, 'the Emperor', is the club's biggest legend.", "when": "any"},
+      {"t": "Rekordmeister for a reason.", "m": "A shrug at anyone who doubts Bayern: they have won more German titles than anyone.", "when": "any"},
+      {"t": "Get the Weißbier ready.", "m": "Said when the title is close. Players celebrate by tipping huge glasses of wheat beer over each other.", "when": "win"},
+      {"t": "FC Hollywood is back.", "m": "Said half-joking when bad results and boardroom rows take over the headlines.", "when": "loss"},
+      {"t": "Klassiker week. Dortmund always raise their game against us.", "m": "Matches with Dortmund are the big rivalry of the modern era.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Stern des Südens'", "means": "The club anthem, 'Star of the South'. Fans sing it at every home game."},
+      {"name": "The Weißbierdusche", "means": "The wheat-beer shower. When the title is won, players soak each other and the coach with giant glasses of beer."},
+      {"name": "The town hall balcony", "means": "After a title, the team shows the trophy to fans from the balcony of the town hall on the Marienplatz."}
+    ],
+    "sore": [
+      {"topic": "The 1999 Champions League final", "why": "Bayern led Manchester United into stoppage time, then lost to two late goals."},
+      {"topic": "Finale dahoam, 2012", "why": "Bayern lost the Champions League final to Chelsea on penalties in their own stadium."}
+    ],
+    "pronounce": [
+      {"word": "Bayern", "say": "BY-ern", "ipa": "ˈbaɪ̯ɐn", "tts": "buy un", "why": "The German 'ay' sounds like 'eye', and the end is soft, close to 'BY-un'."},
+      {"word": "Allianz Arena", "say": "ah-lee-ANTS ah-RAY-nah", "ipa": "aliˈant͡s aˈʁeːna", "tts": "ah lee ants ah ray nuh", "why": "Locals stress the end of 'Allianz' and say it like 'ants'."}
     ],
     "avoid": [
-      {"say": "BAY-ern", "instead": "BY-ern", "why": "The 'ay' in German sounds like 'eye'."},
-      {"say": "Munich", "instead": "Bayern", "why": "The city has another club, 1860. Fans call their team Bayern."}
+      {"say": "BAY-ern", "instead": "BY-ern", "why": "In German the 'ay' sounds like 'eye'."},
+      {"say": "Lucky Bayern again", "instead": "We earned that", "why": "Rivals call late Bayern winners 'Bayern-Dusel', pure luck. Fans hate the jibe."},
+      {"say": "the Olympiastadion", "instead": "the Allianz Arena", "why": "Bayern left the old Olympic Stadium in 2005."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/FC_Bayern_Munich"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/FC_Bayern_Munich", "https://bulinews.com/news/386/heres-where-the-bundesliga-clubs-nicknames-come-from", "https://www.goal.com/en/news/bayern-munich-fc-hollywood-nickname-explained/mhmmxbn8cmee169a61y20ilyl", "https://www.bundesliga.com/en/bundesliga/news/beer-shower-bayern-munich-traditional-celebration-champions-bierdusche-32052", "https://de.wikipedia.org/wiki/Bayern-Dusel", "https://www.sportskeeda.com/football/history-bayern-munich-allianz-arena-stadium"],
+    "unsure": ["lingo: 'Schlauchboot' for the Allianz Arena is confirmed by stadium guides and the Swiss press, but I couldn't confirm how often fans themselves use it"]
   },
   {
     "team": "Borussia Dortmund",
     "espnId": "124",
     "league": "soccer/ger.1",
-    "aliases": ["dortmund", "borussia dortmund", "bvb", "schwarzgelben"],
+    "region": "de-west",
+    "aliases": ["dortmund", "borussia dortmund", "bvb", "bvb 09", "schwarzgelben", "die schwarzgelben"],
     "nickname": "BVB",
     "fans": "",
     "ground": "the Westfalenstadion (Signal Iduna Park)",
@@ -861,94 +1287,157 @@
       {"team": "Bayern Munich", "name": "Bayern", "derby": "Der Klassiker"}
     ],
     "legends": ["Michael Zorc", "Jürgen Kohler", "Matthias Sammer", "Lars Ricken"],
-    "memory": "1997: Dortmund beat Juventus 3-1 in Munich to win the Champions League",
+    "memory": "1997: Dortmund beat Juventus 3-1 to win the Champions League, with Lars Ricken scoring 16 seconds after coming on",
     "lingo": [
-      {"term": "BVB", "say": "bay-fow-BAY", "means": "Short for Ballspielverein Borussia. Germans say it the German way; English speakers say B-V-B."},
-      {"term": "die Schwarzgelben", "say": "dee SHVARTS-gel-ben", "means": "'The black-and-yellows', from the club colours."},
-      {"term": "die Gelbe Wand", "say": "dee GEL-beh VAHNT", "means": "'The Yellow Wall', the huge standing terrace behind one goal. English-speaking fans call it the Yellow Wall."},
-      {"term": "Echte Liebe", "say": "EKH-teh LEE-beh", "means": "'True love', the club slogan."}
+      {"term": "BVB", "say": "bay-fow-BAY", "ipa": "beːfaʊ̯ˈbeː", "tts": "bay fow bay", "means": "Short for Ballspielverein Borussia, the club's full name. Germans say the letters the German way."},
+      {"term": "die Schwarzgelben", "say": "dee SHVARTS-gel-ben", "ipa": "diː ˈʃvaʁt͡sˌɡɛlbn̩", "tts": "dee shvarts ghell ben", "means": "'The black-and-yellows', from the club colours."},
+      {"term": "die Gelbe Wand", "say": "dee GEL-beh VAHNT", "ipa": "diː ˈɡɛlbə ˈvant", "tts": "dee ghell bah vahnt", "means": "'The Yellow Wall', the standing terrace on the south stand, about 25,000 strong. English-speaking fans just say the Yellow Wall."},
+      {"term": "die Südtribüne", "say": "dee ZOOT-tree-bew-neh", "ipa": "diː ˈzyːtˌtʁibyːnə", "tts": "dee zoot tree boo nuh", "means": "'The South Stand', the official name for the Yellow Wall."},
+      {"term": "Echte Liebe", "say": "EKH-teh LEE-beh", "ipa": "ˈʔɛçtə ˈliːbə", "tts": "eshta leeba", "means": "'True love', the club slogan, seen all over the stadium."},
+      {"term": "der Borsigplatz", "say": "dair BOR-zikh-plats", "ipa": "deːɐ̯ ˈbɔʁzɪçˌplat͡s", "tts": "dare bor zish plats", "means": "The square in the north of the city where the club was founded in 1909. Fans head there to celebrate trophies."}
     ],
     "lines": [
-      {"t": "Heja BVB!", "m": "'Come on BVB!' A common cheer."},
-      {"t": "You haven't lived until you've stood on the Yellow Wall.", "m": "The south stand is famous across Europe."},
-      {"t": "Scarves up for 'You'll Never Walk Alone'.", "m": "Fans sing it before kick-off."},
-      {"t": "Revierderby week is the biggest week of the year.", "m": "Games against Schalke are the heart of the rivalry in the Ruhr."}
+      {"t": "Heja BVB!", "m": "'Come on BVB!' The basic cheer. It's also the title of the tune played just before kick-off.", "when": "any"},
+      {"t": "Echte Liebe, win or lose.", "m": "The club slogan: true love for the club, whatever the result.", "when": "any"},
+      {"t": "You haven't lived until you've stood on the Yellow Wall.", "m": "The south stand is the biggest standing terrace in European football.", "when": "any"},
+      {"t": "See you at the Borsigplatz!", "m": "Where fans celebrate a trophy: the square in the north of the city where the club was founded.", "when": "win"},
+      {"t": "We go again. The Wall will be full next week anyway.", "m": "A shrug after a defeat: the south stand sells out whatever happens.", "when": "loss"},
+      {"t": "Revierderby week is the biggest week of the year.", "m": "Games against Schalke are the heart of the Ruhr rivalry. Schalke are back in the Bundesliga in 2026-27, so it's on again.", "when": "rival"},
+      {"t": "Klassiker or not, beating Bayern never gets old.", "m": "Mild banter about the record champions, the other big rival.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'You'll Never Walk Alone'", "means": "Fans hold their scarves up and sing it before kick-off, just like at Liverpool."},
+      {"name": "The Yellow Wall's tifos", "means": "For big games the south stand holds up huge displays of flags and coloured cards."},
+      {"name": "The Borsigplatz parade", "means": "After a trophy, fans and often the team head to the Borsigplatz, usually in a long car parade with horns blaring."}
+    ],
+    "sore": [
+      {"topic": "The last day of 2022-23", "why": "Dortmund went into the final match top of the league, drew 2-2 at home to Mainz and lost the title to Bayern on goal difference."},
+      {"topic": "Wembley", "why": "Dortmund lost Champions League finals there twice: to Bayern in 2013 and to Real Madrid in 2024."}
+    ],
+    "pronounce": [
+      {"word": "Westfalenstadion", "say": "vest-FAH-len-shtah-dee-on", "ipa": "vɛstˈfaːlənˌʃtaːdi̯ɔn", "tts": "vest fahlen shtahd yon", "why": "The W is a V sound and the stress falls on 'FAH'."},
+      {"word": "Signal Iduna Park", "say": "zig-NAHL ee-DOO-nah park", "ipa": "zɪˈɡnaːl iˈduːna paʁk", "tts": "zig naal e doo nuh park", "why": "The sponsor's name. Germans stress the end of 'Signal' and start 'Iduna' with 'ee'."}
     ],
     "avoid": [
-      {"say": "Borussia", "instead": "Dortmund, or BVB", "why": "Borussia Mönchengladbach use the name too, so 'Borussia' on its own is ambiguous."},
-      {"say": "Bayern are the big rivals", "instead": "Schalke are the real rivals", "why": "The Klassiker gets the TV hype, but the Revierderby is the one fans care about."}
+      {"say": "Borussia", "instead": "Dortmund, or BVB", "why": "Borussia Mönchengladbach use the name too, so it's ambiguous on its own."},
+      {"say": "Bayern are the big rivals", "instead": "Schalke are the real rivals", "why": "The Klassiker gets the TV hype, but the Revierderby is the one fans care about."},
+      {"say": "Signal Iduna Park", "instead": "the Westfalenstadion", "why": "Fans still use the stadium's old name."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Borussia_Dortmund"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Borussia_Dortmund", "https://de.wikipedia.org/wiki/Borussia_Dortmund", "https://en.wikipedia.org/wiki/Westfalenstadion", "https://de.wikipedia.org/wiki/Borsigplatz", "https://bulinews.com/news/386/heres-where-the-bundesliga-clubs-nicknames-come-from", "https://www.getfootballnewsgermany.com/2026/schalke-04-promotion-off/"],
+    "unsure": ["lingo: the jibe 'Herne-West' for Schalke is well known, but I couldn't confirm it in two sources, so it's left out", "lingo: 'Echte Liebe' is kept from version 1; I couldn't open a club page to re-check it"]
   },
   {
     "team": "Bayer Leverkusen",
     "espnId": "131",
     "league": "soccer/ger.1",
-    "aliases": ["leverkusen", "bayer leverkusen", "bayer 04", "werkself", "b04"],
+    "region": "de-west",
+    "aliases": ["leverkusen", "bayer leverkusen", "bayer 04", "bayer 04 leverkusen", "werkself", "b04"],
     "nickname": "die Werkself",
     "fans": "",
     "ground": "the BayArena",
     "rivals": [
-      {"team": "FC Cologne", "name": "Köln", "derby": "the Rhine derby"}
+      {"team": "1. FC Köln", "name": "Köln", "derby": "the Rhine derby"}
     ],
     "legends": ["Ulf Kirsten", "Bernd Schneider", "Stefan Kießling"],
-    "memory": "2023-24: Leverkusen went unbeaten to win their first Bundesliga title, and the German Cup too",
+    "memory": "2023-24: Leverkusen went the whole Bundesliga season unbeaten to win their first title, and won the DFB-Pokal too",
     "lingo": [
-      {"term": "die Werkself", "say": "dee VERKS-elf", "means": "'The works eleven'. The club was founded in 1904 by workers at the Bayer company."},
-      {"term": "Bayer", "say": "BY-er", "means": "The company name. It rhymes with 'buyer'."},
-      {"term": "Neverkusen", "say": "NEV-er-koo-zen", "means": "An old jibe about always finishing second. The unbeaten 2024 title killed it off."},
-      {"term": "BayArena", "say": "BY-ah-RAY-nah", "means": "The home ground."}
+      {"term": "die Werkself", "say": "dee VERKS-elf", "ipa": "diː ˈvɛʁksˌʔɛlf", "tts": "dee vairks elf", "means": "'The works eleven'. The club was founded in 1904 by workers at the Bayer company, and fans wear the name with pride."},
+      {"term": "die Pillendreher", "say": "dee PILL-en-dray-er", "ipa": "diː ˈpɪlənˌdʁeːɐ", "tts": "dee pillen drayer", "means": "'The pill-rollers', after Bayer's medicine business. It started as a jibe, and the club and fans took it over."},
+      {"term": "die Schwarzroten", "say": "dee SHVARTS-roh-ten", "ipa": "diː ˈʃvaʁt͡sˌʁoːtn̩", "tts": "dee shvarts roaten", "means": "'The black-and-reds', from the club colours."},
+      {"term": "Vizekusen", "say": "FEET-seh-koo-zen", "ipa": "ˈfiːt͡səˌkuːzn̩", "tts": "feetsa koo zen", "means": "From 'Vize', runner-up. The press coined it after Leverkusen came second in the league, the cup and the Champions League in 2002."},
+      {"term": "Neverkusen", "say": "NEV-er-koo-zen", "ipa": "ˈnɛvəˌkuːzn̩", "tts": "never koo zen", "means": "The English-language version of the same jibe. The unbeaten 2024 title finally put it to bed."},
+      {"term": "die BayArena", "say": "dee BY-ah-ray-nah", "ipa": "diː ˈbaɪ̯ʔaˌʁeːna", "tts": "dee buy ah rayna", "means": "The home ground, a compact 30,000-capacity stadium. It was once the Ulrich-Haberland-Stadion."}
     ],
     "lines": [
-      {"t": "Nobody calls us Neverkusen any more.", "m": "The 2024 title ended the joke about always coming second."},
-      {"t": "Unbeaten. A whole league season.", "m": "Fans' proudest boast about 2023-24."},
-      {"t": "Köln is the one we have to win.", "m": "The Rhine derby against Cologne is the big local game."}
+      {"t": "Nobody calls us Neverkusen any more.", "m": "The 2024 title ended the joke about always coming second.", "when": "any"},
+      {"t": "Unbeaten. A whole league season.", "m": "Fans' proudest boast: no league defeats in 2023-24.", "when": "any"},
+      {"t": "2002 still stings, but 2024 made up for it.", "m": "The year of three second places, set against the unbeaten double.", "when": "any"},
+      {"t": "That's proper Werkself football.", "m": "Praise for a slick team display, using the old works-team name.", "when": "win"},
+      {"t": "Here comes the Vizekusen talk again.", "m": "Said with a groan when Leverkusen slip up near the top.", "when": "loss"},
+      {"t": "Köln is the one we have to win.", "m": "The Rhine derby against Köln is the big local game, and both clubs are in the Bundesliga this season.", "when": "rival"},
+      {"t": "So who's the power on the Rhine now?", "m": "The rivalry with Köln is about which club rules the Rhineland. A good one after beating them.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Bayer Cross", "means": "The giant lit-up Bayer logo near the ground. When the company planned to take it down in 2007, fans campaigned to keep it."},
+      {"name": "The Offenbach friendship", "means": "Leverkusen and Kickers Offenbach fans have been friends since 1980, when Offenbach's fans looked after the visiting Leverkusen supporters at a cup tie."}
+    ],
+    "sore": [
+      {"topic": "2002", "why": "Leverkusen threw away the league on the last weekends and lost both the cup final and the Champions League final, all in a few weeks."},
+      {"topic": "The 2024 Europa League final", "why": "A 3-0 loss to Atalanta was the only defeat of the whole 2023-24 season."}
+    ],
+    "pronounce": [
+      {"word": "Bayer", "say": "BY-er", "ipa": "ˈbaɪ̯ɐ", "tts": "buyer", "why": "The company name rhymes with 'buyer', not 'player'."},
+      {"word": "Leverkusen", "say": "LAY-ver-koo-zen", "ipa": "ˈleːvɐˌkuːzn̩", "tts": "lay ver koo zen", "why": "Locals start with 'LAY', not 'LEV'."},
+      {"word": "Kießling", "say": "KEES-ling", "ipa": "ˈkiːslɪŋ", "tts": "keesling", "why": "The 'ie' is a long 'ee' and the 'ß' is just an S."}
     ],
     "avoid": [
       {"say": "BAY-er Leverkusen", "instead": "BY-er Leverkusen", "why": "Bayer is German and rhymes with 'buyer'."},
-      {"say": "Bayern Leverkusen", "instead": "Bayer Leverkusen", "why": "Bayern is Munich. Bayer is the company behind Leverkusen."}
+      {"say": "Bayern Leverkusen", "instead": "Bayer Leverkusen", "why": "Bayern are the club from Bavaria. Bayer is the company behind Leverkusen."},
+      {"say": "Neverkusen", "instead": "Leverkusen", "why": "Fans can joke about it themselves, but from an outsider it's a dig."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Bayer_04_Leverkusen", "https://de.wikipedia.org/wiki/Bayer_04_Leverkusen", "https://bulinews.com/news/386/heres-where-the-bundesliga-clubs-nicknames-come-from", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Bundesliga"],
+    "unsure": ["lingo: 'Neverlusen', a 2024 play on the old jibe, appears on English Wikipedia but I couldn't find a second source, so it's left out", "traditions: the Bayer Cross campaign comes from German Wikipedia only"]
   },
   {
     "team": "Eintracht Frankfurt",
     "espnId": "125",
     "league": "soccer/ger.1",
-    "aliases": ["eintracht frankfurt", "frankfurt", "eintracht", "sge", "die adler"],
+    "region": "de-west",
+    "aliases": ["eintracht frankfurt", "frankfurt", "eintracht", "sge", "die adler", "adler"],
     "nickname": "the Eagles",
     "fans": "",
     "ground": "the Waldstadion (Deutsche Bank Park)",
     "rivals": [
-      {"team": "Kickers Offenbach", "name": "Offenbach", "derby": "the Main derby"}
+      {"team": "Kickers Offenbach", "name": "Offenbach", "derby": "the Main derby"},
+      {"team": "SV Darmstadt 98", "name": "Darmstadt", "derby": ""}
     ],
     "legends": ["Jürgen Grabowski", "Bernd Hölzenbein", "Charly Körbel"],
     "memory": "2022: Eintracht beat Rangers on penalties in Seville to win the Europa League",
     "lingo": [
-      {"term": "die Adler", "say": "dee AHD-ler", "means": "'The Eagles', from the crest. A live golden eagle called Attila is the mascot."},
-      {"term": "SGE", "say": "ess-geh-EH", "means": "Short for the club's old name, Sportgemeinde Eintracht. Fans use it everywhere."},
-      {"term": "die Diva vom Main", "say": "dee DEE-vah fom MINE", "means": "'The Diva of the Main'. For a team that can beat anyone, or lose to anyone."},
-      {"term": "die Eintracht", "say": "dee INE-trakht", "means": "How locals refer to the club. English speakers usually just say Frankfurt."}
+      {"term": "die Adler", "say": "dee AHD-ler", "ipa": "diː ˈʔaːdlɐ", "tts": "dee ahdler", "means": "'The Eagles', from the eagle on the crest."},
+      {"term": "SGE", "say": "ess-geh-EH", "ipa": "ʔɛsɡeːˈʔeː", "tts": "ess gay A", "means": "Short for the club's old name, Sportgemeinde Eintracht. Fans use it everywhere."},
+      {"term": "die Eintracht", "say": "dee INE-trakht", "ipa": "diː ˈʔaɪ̯ntʁaxt", "tts": "dee ayent rakht", "means": "How locals refer to the club. English speakers usually just say Frankfurt."},
+      {"term": "die Diva vom Main", "say": "dee DEE-vah fom MINE", "ipa": "diː ˈdiːva fɔm ˈmaɪ̯n", "tts": "dee deeva fom mine", "means": "'The Diva of the Main', for a moody team that can beat anyone, or lose to anyone."},
+      {"term": "Attila", "say": "AH-tee-lah", "ipa": "ˈatila", "tts": "ah tee lah", "means": "The club's live golden eagle mascot, carried round the ground by his falconer before home games."},
+      {"term": "das Waldstadion", "say": "dass VAHLT-shtah-dee-on", "ipa": "das ˈvaltˌʃtaːdi̯ɔn", "tts": "dass vahlt shtahd yon", "means": "'The forest stadium', the ground's real name since 1925. Fans use it rather than the sponsor's name."},
+      {"term": "die Schlappekicker", "say": "dee SHLAP-eh-kick-er", "ipa": "diː ˈʃlapəˌkɪkɐ", "tts": "dee shlappa kicker", "means": "'The slipper kickers', an old nickname from the 1920s, when a slipper maker backed the club."}
     ],
     "lines": [
-      {"t": "We took over the Camp Nou in 2022.", "m": "Tens of thousands of Frankfurt fans went to Barcelona for a Europa League quarter-final."},
-      {"t": "Seville 2022, best night of our lives.", "m": "The Europa League final win over Rangers."},
-      {"t": "Körbel played 602 Bundesliga games, all for us.", "m": "No one has played more Bundesliga matches."},
-      {"t": "Forget Bayern, Offenbach is the one.", "m": "The local rivalry with Kickers Offenbach matters most to old-school fans."}
+      {"t": "Seville 2022, best night of our lives.", "m": "The Europa League final win over Rangers.", "when": "any"},
+      {"t": "We took over the Camp Nou in 2022.", "m": "About 30,000 Frankfurt fans went to Barcelona for a Europa League quarter-final, and Eintracht won.", "when": "any"},
+      {"t": "Körbel played 602 Bundesliga games, all for us.", "m": "No one has played more Bundesliga matches than Charly Körbel.", "when": "any"},
+      {"t": "The Diva turned up tonight.", "m": "After a big win: the moody 'Diva vom Main' was in a good mood for once.", "when": "win"},
+      {"t": "Typical Diva. Beat the best, lose to the worst.", "m": "The 'Diva vom Main' moan after a shock defeat.", "when": "loss"},
+      {"t": "Lebbe geht weider.", "m": "Hessian for 'Life goes on'. Coach Dragoslav Stepanović's shrug after the 1992 title slipped away. Fans still quote it after a bad day.", "when": "loss"},
+      {"t": "No Main derby in the league for years. Offenbach are three divisions down.", "m": "Mild banter: Kickers Offenbach play in the fourth tier, so the old derby is off the fixture list.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Attila's lap", "means": "Before home games the falconer carries Attila, the golden eagle, on a lap of the ground. He isn't allowed to fly free."},
+      {"name": "'Im Herzen von Europa'", "means": "The club anthem, 'In the Heart of Europe', plays before every home game."},
+      {"name": "European away days", "means": "Fans follow the team across Europe in huge numbers, like the 30,000 at the Camp Nou in 2022."}
+    ],
+    "sore": [
+      {"topic": "Rostock, 1992", "why": "Eintracht needed only a final-day win at relegated Hansa Rostock, lost 2-1 after a penalty wasn't given, and Stuttgart took the title."}
+    ],
+    "pronounce": [
+      {"word": "Main", "say": "MINE", "ipa": "maɪ̯n", "tts": "mine", "why": "The river is said like 'mine', not 'mane'."},
+      {"word": "Hölzenbein", "say": "HURL-tsen-bine", "ipa": "ˈhœlt͡sn̩baɪ̯n", "tts": "hulltsen bine", "why": "The legend's name: the 'z' is 'ts' and 'bein' rhymes with 'mine'."}
     ],
     "avoid": [
       {"say": "Frankfurt FC", "instead": "Eintracht, or SGE", "why": "Fans call the club Eintracht, never 'Frankfurt FC'."},
-      {"say": "EYEN-track", "instead": "INE-trakht", "why": "The 'ch' is a throaty sound, like in 'loch'."}
+      {"say": "EYEN-track", "instead": "INE-trakht", "why": "The 'ch' is a throaty sound, like in 'loch'."},
+      {"say": "Mainz are our derby rivals", "instead": "Offenbach are the old enemy", "why": "The media talk up games with Mainz, but fans don't count them as a derby."},
+      {"say": "Deutsche Bank Park", "instead": "the Waldstadion", "why": "Fans prefer the stadium's old name."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Eintracht_Frankfurt", "https://www.insideworldfootball.com/2026/01/12/deutsche-bank-extends-eintracht-frankfurt-stadium-naming-rights-2035/"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Eintracht_Frankfurt", "https://de.wikipedia.org/wiki/Eintracht_Frankfurt", "https://de.wikipedia.org/wiki/Attila_(Adler)", "https://de.wikipedia.org/wiki/Dragoslav_Stepanovi%C4%87", "https://en.wikipedia.org/wiki/Kickers_Offenbach", "https://www.insideworldfootball.com/2026/01/12/deutsche-bank-extends-eintracht-frankfurt-stadium-naming-rights-2035/"],
+    "unsure": ["traditions: Attila's appearances are confirmed up to 2024; I couldn't confirm he still does the lap in 2026-27", "lines: 'Lebbe geht weider' is confirmed by German Wikipedia's Stepanović article, which cites a biography and a TV show of that name, but not by a second independent page I could open", "rivals: Darmstadt are listed as a regional rival by German Wikipedia; I couldn't confirm a fixed derby name, so derby is blank"]
   },
   {
     "team": "Paris Saint-Germain",
     "espnId": "160",
     "league": "soccer/fra.1",
-    "aliases": ["psg", "paris saint-germain", "paris saint germain", "paris sg"],
+    "region": "fr-paris",
+    "aliases": ["psg", "paris saint-germain", "paris saint germain", "paris sg", "le psg"],
     "nickname": "PSG",
     "fans": "",
     "ground": "the Parc des Princes",
@@ -957,64 +1446,104 @@
       {"team": "Paris FC", "name": "Paris FC", "derby": "the Paris derby"}
     ],
     "legends": ["Raí", "Pauleta", "Safet Sušić", "Zlatan Ibrahimović"],
-    "memory": "2025: PSG won their first Champions League, beating Inter 5-0 in the final in Munich",
+    "memory": "2025: PSG thrashed Inter 5-0 in the final to win their first Champions League, then kept the trophy by beating Arsenal on penalties in 2026",
     "lingo": [
-      {"term": "Ici c'est Paris", "say": "ee-SEE seh pah-REE", "means": "'This is Paris', the club slogan and the fans' favourite cry."},
-      {"term": "le Parc", "say": "luh PARK", "means": "Short for the Parc des Princes, home since 1974."},
-      {"term": "les Parisiens", "say": "leh pah-ree-ZYAN", "means": "'The Parisians', a common nickname for the team."},
-      {"term": "le PSG", "say": "luh peh-ess-ZHAY", "means": "How French fans say it. English speakers say P-S-G."}
+      {"term": "Ici c'est Paris", "say": "ee-SEE seh pah-REE", "ipa": "i.si sɛ pa.ʁi", "tts": "e see say pa ree", "means": "'This is Paris', the club's best-known motto and the fans' favourite cry."},
+      {"term": "le Parc", "say": "luh PARK", "ipa": "lə paʁk", "tts": "lur park", "means": "Short for the Parc des Princes, home since 1974."},
+      {"term": "les Parisiens", "say": "lay pah-ree-ZYAN", "ipa": "le pa.ʁi.zjɛ̃", "tts": "lay pah ree zee yan", "means": "'The Parisians', the usual nickname for the team in the French press."},
+      {"term": "les Rouge et Bleu", "say": "lay ROOZH ay BLUH", "ipa": "le ʁuʒ e blø", "tts": "lay rouge A bluh", "means": "'The Red and Blues', from the colours on the shirt."},
+      {"term": "le PSG", "say": "luh pay-ess-ZHAY", "ipa": "lə pe.ɛs.ʒe", "tts": "lur pay ess zhe", "means": "How French fans say it, always with 'le'. English speakers say P-S-G."},
+      {"term": "les Titis", "say": "lay tee-TEE", "ipa": "le ti.ti", "tts": "lay tee tee", "means": "Old Paris slang for a cheeky city kid. Fans use it for Paris-born players who came through the club's academy."},
+      {"term": "le Classique", "say": "luh klah-SEEK", "ipa": "lə kla.sik", "tts": "lur class eek", "means": "The match against Marseille, the biggest fixture in French football."}
     ],
     "lines": [
-      {"t": "Ici c'est Paris!", "m": "The club slogan and the go-to chant."},
-      {"t": "Le Classique is the game that matters.", "m": "Games against Marseille are the biggest in France."},
-      {"t": "Nothing in France sounds like the Parc.", "m": "Fans rate their home atmosphere the best in the country."},
-      {"t": "Munich 2025, we finally did it.", "m": "The first Champions League title after years of near misses."}
+      {"t": "Ici c'est Paris!", "m": "The club motto and the go-to cry.", "when": "any"},
+      {"t": "Nothing in France sounds like the Parc.", "m": "Fans rate their home atmosphere the best in the country.", "when": "any"},
+      {"t": "Champions of Europe twice in a row. Let that sink in.", "m": "PSG won the Champions League in 2025 and kept it in 2026.", "when": "any"},
+      {"t": "That was a proper Parc night.", "m": "Praise for a big home win under the lights.", "when": "win"},
+      {"t": "One bad night. We'll still be top in May.", "m": "PSG have won the league almost every season lately, so fans shrug off a defeat.", "when": "loss"},
+      {"t": "Le Classique is the game that matters.", "m": "Games against Marseille are the biggest in France.", "when": "rival"},
+      {"t": "Marseille can keep talking about 1993.", "m": "Mild banter: OM fans boast they won the Champions League first, but Paris now have two.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Ô Ville Lumière'", "means": "A fans' anthem to Paris, 'City of Light', sung in the stands at the Parc."},
+      {"name": "'Allez Paris Saint-Germain'", "means": "The official club anthem, heard at the Parc on match days."}
+    ],
+    "sore": [
+      {"topic": "La remontada, 2017", "why": "PSG won the first leg 4-0 against Barcelona, then lost the return 6-1 and went out."},
+      {"topic": "The 2020 Champions League final", "why": "PSG lost 1-0 to Bayern, and the winner came from a Paris-born player from their own academy."}
+    ],
+    "pronounce": [
+      {"word": "Parc des Princes", "say": "park day PRANSS", "ipa": "paʁk de pʁɛ̃s", "tts": "park day prance", "why": "'des' sounds like 'day', and 'Princes' is one syllable with a nasal vowel."},
+      {"word": "Saint-Germain", "say": "san zhair-MAN", "ipa": "sɛ̃ ʒɛʁ.mɛ̃", "tts": "sehzhehr meh", "why": "It's French: the T is silent, the G is soft and the ending is nasal."}
     ],
     "avoid": [
-      {"say": "Paris Saint-JER-main", "instead": "Paris san-zhair-MAN, or just PSG", "why": "It's French: the G is soft and the final N is nasal."},
-      {"say": "Paris FC", "instead": "PSG", "why": "Paris FC are the city's other top-flight club, a separate team."}
+      {"say": "Paris Saint-JER-main", "instead": "PSG, or Paris san-zhair-MAN", "why": "The G is soft and the final N is nasal."},
+      {"say": "Paris FC", "instead": "PSG", "why": "Paris FC are the city's other Ligue 1 club, a separate team."},
+      {"say": "the Stade de France", "instead": "the Parc", "why": "PSG play at the Parc des Princes. The Stade de France is the national stadium."},
+      {"say": "PSG can't win in Europe", "instead": "PSG are double European champions", "why": "That old jibe ended in 2025, and they won it again in 2026."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC", "https://en.wikipedia.org/wiki/Paris_Saint-Germain_Academy", "https://fr.wikipedia.org/wiki/Titi_parisien", "https://www.euronews.com/2026/05/30/paris-saint-germain-wins-the-champions-league-after-penalty-shootout-victory-against-arsen", "https://www.insideworldfootball.com/2025/10/21/paris-saint-germain-launch-supporter-consultation-potential-new-stadium/", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1"],
+    "unsure": ["ground: PSG have shortlisted Massy and Poissy for a possible new stadium; I found no final decision, so the ground stays the Parc for 2026-27", "traditions: I couldn't confirm exactly when 'Allez Paris Saint-Germain' is played on match days"]
   },
   {
     "team": "Marseille",
     "espnId": "176",
     "league": "soccer/fra.1",
+    "region": "fr-south",
     "aliases": ["marseille", "om", "l'om", "olympique de marseille", "olympique marseille"],
     "nickname": "l'OM",
     "fans": "",
-    "ground": "the Vélodrome",
+    "ground": "the Vélodrome (CEPAC Vélodrome)",
     "rivals": [
       {"team": "Paris Saint-Germain", "name": "Paris", "derby": "Le Classique"},
       {"team": "Lyon", "name": "Lyon", "derby": "the Olympico"}
     ],
     "legends": ["Jean-Pierre Papin", "Chris Waddle", "Basile Boli", "Josip Skoblar"],
-    "memory": "1993: Marseille beat AC Milan 1-0 in Munich and became the first French club to win the Champions League",
+    "memory": "1993: a Basile Boli header beat AC Milan 1-0 and made Marseille the first French club to win the Champions League",
     "lingo": [
-      {"term": "l'OM", "say": "loh-EM", "means": "Short for Olympique de Marseille. How everyone in France refers to the club."},
-      {"term": "Droit au but", "say": "drwah-toh BEW", "means": "'Straight for goal', the club motto on the crest."},
-      {"term": "À jamais les premiers", "say": "ah zhah-MAY leh pruh-MYAY", "means": "'Forever the first'. Fans' reminder that they won the Champions League before any other French club."},
-      {"term": "les Phocéens", "say": "leh foh-say-AN", "means": "Nickname from the ancient Greeks of Phocaea, who founded Marseille."}
+      {"term": "l'OM", "say": "loh-EM", "ipa": "lo.ɛm", "tts": "low em", "means": "Short for Olympique de Marseille. How everyone in France refers to the club."},
+      {"term": "Droit au but", "say": "drwah-toh BOOT", "ipa": "dʁwa.to.byt", "tts": "drewah toe boot", "means": "'Straight for goal', the club motto, in gold under the crest."},
+      {"term": "À jamais les premiers", "say": "ah zhah-MEH lay pruh-MYAY", "ipa": "a ʒa.mɛ le pʁə.mje", "tts": "ah zha may lay pruh mee A", "means": "'Forever the first'. Fans' reminder that OM won the Champions League before any other French club."},
+      {"term": "les Phocéens", "say": "lay foh-say-AN", "ipa": "le fɔ.se.ɛ̃", "tts": "leh fawseh eh", "means": "After the Greeks from Phocaea who founded the city. A favourite nickname for the team."},
+      {"term": "les Olympiens", "say": "lay zoh-lan-PYAN", "ipa": "le zɔ.lɛ̃.pjɛ̃", "tts": "leh zaw leh pyeh", "means": "'The Olympians', from the club's name."},
+      {"term": "le Vél'", "say": "luh VEL", "ipa": "lə vɛl", "tts": "lur vell", "means": "Fans' short name for the Stade Vélodrome."}
     ],
     "lines": [
-      {"t": "Allez l'OM!", "m": "'Come on OM!' The basic cheer."},
-      {"t": "À jamais les premiers.", "m": "Forever the first: 1993 still beats anything Paris have done."},
-      {"t": "The Vélodrome is the loudest ground in France.", "m": "Fans take huge pride in their home atmosphere."},
-      {"t": "Paris has the money, we have the passion.", "m": "Mild banter aimed at PSG."}
+      {"t": "Allez l'OM!", "m": "'Come on OM!' The basic cheer.", "when": "any"},
+      {"t": "À jamais les premiers.", "m": "Forever the first: OM won the Champions League in 1993, before any other French club.", "when": "any"},
+      {"t": "The Vél' is the loudest ground in France.", "m": "Fans take huge pride in their home atmosphere.", "when": "any"},
+      {"t": "The Vél' was bouncing tonight.", "m": "After a big home win, when the whole stadium jumps.", "when": "win"},
+      {"t": "Win or lose, the Vél' will be full next week.", "m": "A shrug after a defeat: the crowd always comes back.", "when": "loss"},
+      {"t": "Paris have the money, we have the passion.", "m": "Mild banter aimed at PSG.", "when": "rival"},
+      {"t": "Two Champions Leagues or not, we got there first.", "m": "Paris have now won it twice, but OM fans point out they did it in 1993.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Jump' by Van Halen", "means": "It plays before every home game, and the whole stadium bounces."},
+      {"name": "'Come with Me'", "means": "The Puff Daddy track that plays when OM score at home."}
+    ],
+    "sore": [
+      {"topic": "Bari, 1991", "why": "OM lost the European Cup final to Red Star Belgrade on penalties."},
+      {"topic": "The 1993 league title", "why": "It was taken away after a match-fixing case, and OM were sent down. Fans would rather talk about the European win."}
+    ],
+    "pronounce": [
+      {"word": "Vélodrome", "say": "vay-loh-DROM", "ipa": "ve.lo.dʁɔm", "tts": "vay low drom", "why": "Locals say 'vay', not 'vel', and stress the end."},
+      {"word": "Papin", "say": "pah-PAN", "ipa": "pa.pɛ̃", "tts": "pa pan", "why": "The legend's name ends in a nasal vowel, with no clear N."}
     ],
     "avoid": [
       {"say": "Olympique Marseille", "instead": "l'OM, or Marseille", "why": "Nobody uses the full name in conversation."},
-      {"say": "mar-SAY-lee", "instead": "mar-SAY", "why": "The '-eille' ending is said like 'ay'."}
+      {"say": "mar-SAY-lee", "instead": "mar-SAY", "why": "The '-eille' ending is said like 'ay'."},
+      {"say": "the Orange Vélodrome", "instead": "the Vél'", "why": "The sponsor's name changed in 2026, and fans just say the Vél' anyway."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Olympique_de_Marseille"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Olympique_de_Marseille", "https://fr.wikipedia.org/wiki/Olympique_de_Marseille", "https://en.wikipedia.org/wiki/Stade_V%C3%A9lodrome", "https://fr.wikipedia.org/wiki/Stade_V%C3%A9lodrome"],
+    "unsure": ["lingo: 'À jamais les premiers' is kept from version 1; I couldn't open a second page that confirms it", "ground: the CEPAC Vélodrome name (since July 2026) comes from English and French Wikipedia; I couldn't open a club or news page to double-check it"]
   },
   {
     "team": "Lyon",
     "espnId": "167",
     "league": "soccer/fra.1",
-    "aliases": ["lyon", "ol", "olympique lyonnais", "olympique lyon"],
+    "region": "fr-south",
+    "aliases": ["lyon", "ol", "l'ol", "olympique lyonnais", "olympique lyon", "les gones"],
     "nickname": "les Gones",
     "fans": "",
     "ground": "the Groupama Stadium (Parc OL)",
@@ -1025,54 +1554,91 @@
     "legends": ["Juninho Pernambucano", "Sonny Anderson", "Fleury Di Nallo", "Grégory Coupet"],
     "memory": "2002-2008: Lyon won seven French titles in a row, still a record",
     "lingo": [
-      {"term": "les Gones", "say": "leh GON", "means": "Lyon dialect for 'the kids'. The team's nickname; the biggest fan group is the Bad Gones."},
-      {"term": "l'OL", "say": "loh-EL", "means": "Short for Olympique Lyonnais. English speakers just say Lyon."},
-      {"term": "le Derby", "say": "luh dair-BEE", "means": "Locals call the Saint-Étienne game simply 'the Derby'."}
+      {"term": "les Gones", "say": "lay GON", "ipa": "le ɡɔn", "tts": "lay gon", "means": "'The kids' in old Lyon slang. It's the team's nickname."},
+      {"term": "l'OL", "say": "loh-EL", "ipa": "lo.ɛl", "tts": "low el", "means": "Short for Olympique Lyonnais. English speakers just say Lyon."},
+      {"term": "le Parc OL", "say": "luh park oh-EL", "ipa": "lə paʁk o.ɛl", "tts": "lur park oh el", "means": "Fans' name for the stadium, officially the Groupama Stadium, home since 2016."},
+      {"term": "Décines", "say": "day-SEEN", "ipa": "de.sin", "tts": "day seen", "means": "Short for Décines-Charpieu, the suburb east of the city where the stadium stands."},
+      {"term": "Gerland", "say": "zhair-LAHN", "ipa": "ʒɛʁ.lɑ̃", "tts": "zhehr lah", "means": "The old ground, home from 1950 to 2015. Older fans still talk about the Gerland years."},
+      {"term": "le Derby", "say": "luh dair-BEE", "ipa": "lə dɛʁ.bi", "tts": "lur dair bee", "means": "Locals call the Saint-Étienne game simply 'the Derby'. It isn't on this season, with Saint-Étienne in Ligue 2."},
+      {"term": "l'Olympico", "say": "loh-lan-pee-KOH", "ipa": "lɔ.lɛ̃.pi.ko", "tts": "low lan peeko", "means": "The match against Marseille, the other Olympique. Also called the 'Choc des Olympiques'."}
     ],
     "lines": [
-      {"t": "Allez l'OL!", "m": "'Come on Lyon!' The basic cheer."},
-      {"t": "Seven titles in a row. Nobody else in France has done that.", "m": "The 2002 to 2008 run is a French record."},
-      {"t": "Juninho's free kicks were works of art.", "m": "Juninho scored a club-record 44 free kicks."},
-      {"t": "Beat Saint-Étienne and nothing else matters.", "m": "The Derby du Rhône is the game Lyon fans care about most."}
+      {"t": "Allez l'OL!", "m": "'Come on Lyon!' The basic cheer.", "when": "any"},
+      {"t": "Seven titles in a row. Nobody else in France has done that.", "m": "The 2002 to 2008 run is a French record.", "when": "any"},
+      {"t": "Juninho's free kicks were works of art.", "m": "Juninho scored a club-record 44 free kicks.", "when": "any"},
+      {"t": "Décines was rocking tonight.", "m": "After a big home win at the new stadium.", "when": "win"},
+      {"t": "Still the club that won seven in a row.", "m": "Fans fall back on the glory years after a bad result.", "when": "loss"},
+      {"t": "No derby this season. Saint-Étienne are still in Ligue 2.", "m": "Saint-Étienne lost a play-off to Nice in 2026, so the Derby du Rhône is off the fixture list.", "when": "rival"},
+      {"t": "The Olympico is the big one this season.", "m": "With no derby, the games against Marseille matter most.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Virage Nord", "means": "The end behind one goal where the loudest home fans stand and the big displays start."}
+    ],
+    "sore": [
+      {"topic": "Summer 2025", "why": "French football's money watchdog sent Lyon down to Ligue 2 over the club's debts. The appeal kept them up, but it was a scare."},
+      {"topic": "No title since 2008", "why": "The seven-in-a-row era ended in 2008, and Lyon haven't won the league since."}
+    ],
+    "pronounce": [
+      {"word": "Lyonnais", "say": "lee-oh-NAY", "ipa": "ljɔ.nɛ", "tts": "lyaw neh", "why": "The ending is 'nay', and the S is silent."},
+      {"word": "Juninho", "say": "zhoo-NEEN-yoo", "ipa": "ʒuˈnĩɲu", "tts": "joo neen yoo", "why": "The Brazilian legend's name: the 'nh' sounds like the 'ny' in 'canyon'."}
     ],
     "avoid": [
-      {"say": "LYE-on", "instead": "lee-OHN", "why": "In French, Lyon has two syllables and a soft, nasal N."},
-      {"say": "Olympique Lyon", "instead": "Lyon, or l'OL", "why": "The full name is Olympique Lyonnais, and fans just say l'OL."}
+      {"say": "LYE-on", "instead": "lee-OHN", "why": "In French, Lyon has a soft, nasal ending and no 'eye' sound."},
+      {"say": "Olympique Lyon", "instead": "Lyon, or l'OL", "why": "The full name is Olympique Lyonnais, and fans just say l'OL."},
+      {"say": "Lyon still play at Gerland", "instead": "Lyon play at Décines", "why": "The club left Gerland for the new stadium in 2016."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/Olympique_Lyonnais"],
-    "unsure": []
+    "sources": ["https://en.wikipedia.org/wiki/Olympique_Lyonnais", "https://en.wikipedia.org/wiki/Parc_Olympique_Lyonnais", "https://fr.wikipedia.org/wiki/Parc_Olympique_lyonnais", "https://en.wikipedia.org/wiki/Olympique_de_Marseille", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1"],
+    "unsure": ["lingo: 'Décines' as fans' shorthand for the stadium rests on French Wikipedia listing 'Stade de Décines-Charpieu' as one of its names", "traditions: Lyon has few well-documented match-day rituals I could confirm, so only the Virage Nord is listed"]
   },
   {
     "team": "AS Monaco",
     "espnId": "174",
     "league": "soccer/fra.1",
-    "aliases": ["monaco", "as monaco", "asm", "les monégasques"],
+    "region": "fr-south",
+    "aliases": ["monaco", "as monaco", "asm", "as monaco fc", "les monégasques"],
     "nickname": "les Monégasques",
     "fans": "",
     "ground": "the Stade Louis II",
     "rivals": [
-      {"team": "Nice", "name": "Nice", "derby": ""},
+      {"team": "Nice", "name": "Nice", "derby": "the Côte d'Azur derby"},
       {"team": "Marseille", "name": "l'OM", "derby": ""}
     ],
     "legends": ["Jean-Luc Ettori", "Delio Onnis", "Ludovic Giuly", "Thierry Henry"],
     "memory": "2004: Monaco knocked out Real Madrid and Chelsea on the way to the Champions League final",
     "lingo": [
-      {"term": "Daghe Munegu", "say": "DAH-geh moo-NEH-goo", "means": "Monegasque for 'Come on Monaco'. Printed on shirts and posted after every game."},
-      {"term": "les Monégasques", "say": "leh moh-nay-GASK", "means": "'The Monegasques', the team's nickname."},
-      {"term": "le Rocher", "say": "luh roh-SHAY", "means": "'The Rock', a nickname from Monaco's rocky headland."},
-      {"term": "Louis II", "say": "loo-EE DUH", "means": "Short for the Stade Louis II, the stadium with the famous arches."}
+      {"term": "Daghe Munegu", "say": "DAH-geh MOO-neh-goo", "ipa": "ˈdaɡe ˈmuneɡu", "tts": "dah gay moo nay goo", "means": "Monégasque for 'Come on Monaco'. The club and fans post it at every match."},
+      {"term": "les Monégasques", "say": "lay moh-nay-GASK", "ipa": "le mɔ.ne.ɡask", "tts": "lay moe nay gask", "means": "'The Monegasques', the team's nickname."},
+      {"term": "le Rocher", "say": "luh roh-SHAY", "ipa": "lə ʁɔ.ʃe", "tts": "lur roe shay", "means": "'The Rock', a nickname from Monaco's rocky headland."},
+      {"term": "les Rouge et Blanc", "say": "lay ROOZH ay BLAHN", "ipa": "le ʁuʒ e blɑ̃", "tts": "lay rouge A blon", "means": "'The Red and Whites', from the club colours, split diagonally on the shirt."},
+      {"term": "Louis II", "say": "lwee DUH", "ipa": "lwi dø", "tts": "lwee duh", "means": "Short for the Stade Louis II, the stadium with the famous arches."},
+      {"term": "l'ASM", "say": "lah-ess-EM", "ipa": "la.ɛs.ɛm", "tts": "la ess em", "means": "Short for AS Monaco, used by fans and the local press."}
     ],
     "lines": [
-      {"t": "Daghe Munegu!", "m": "Fans' cheer in the local Monegasque language."},
-      {"t": "Small stadium, big European nights.", "m": "The ground is small but has hosted famous wins."},
-      {"t": "Our academy gives the world its stars.", "m": "Fans are proud of the young players Monaco develop and sell."},
-      {"t": "Beating Nice down the coast is what counts.", "m": "Mild banter about the nearby rival."}
+      {"t": "Daghe Munegu!", "m": "Fans' cry in the local Monégasque language.", "when": "any"},
+      {"t": "Small stadium, big European nights.", "m": "The ground is small but has hosted famous wins.", "when": "any"},
+      {"t": "Our academy gives the world its stars.", "m": "Fans are proud of the young players Monaco develop and sell.", "when": "any"},
+      {"t": "Red and white all over the Rock tonight.", "m": "After a win: 'le Rocher' is the Rock, and red and white are the club colours.", "when": "win"},
+      {"t": "Bad night at Louis II. Plenty of season left.", "m": "A calm shrug after a defeat.", "when": "loss"},
+      {"t": "Beating Nice is what counts on this coast.", "m": "Mild banter about the Côte d'Azur derby against the neighbours 20 km away.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Daghe Munegu", "means": "The club and its fans post the cry at every match, win or lose."},
+      {"name": "The arches of Louis II", "means": "The nine arches behind one goal are the stadium's trademark."}
+    ],
+    "sore": [
+      {"topic": "The 2004 final", "why": "After that famous run, Monaco lost the Champions League final 3-0 to Porto."},
+      {"topic": "2011", "why": "Monaco finished 18th and went down to Ligue 2 for two seasons."}
+    ],
+    "pronounce": [
+      {"word": "Fontvieille", "say": "fohn-VYAY", "ipa": "fɔ̃.vjɛj", "tts": "fawvyehy", "why": "The district where the stadium stands. The 'ille' is a 'y' sound."},
+      {"word": "Giuly", "say": "zhoo-LEE", "ipa": "ʒy.li", "tts": "joo lee", "why": "The legend's name is French: a soft G and the stress at the end."}
     ],
     "avoid": [
       {"say": "Monaco are a French club", "instead": "Monaco play in the French league", "why": "Monaco is its own country. The club just plays in Ligue 1."},
-      {"say": "Stade Louis Two", "instead": "Stade Louis Deux", "why": "In French the numeral is said 'deux'."}
+      {"say": "Stade Louis Two", "instead": "Stade Louis Deux", "why": "In French the numeral is said 'deux'."},
+      {"say": "Monte Carlo", "instead": "Monaco", "why": "Monte Carlo is one district. The club is AS Monaco."}
     ],
-    "sources": ["https://en.wikipedia.org/wiki/AS_Monaco_FC", "https://www.monaco-tribune.com/2020/04/umparamu-u-munegascu-a-la-decouverte-du-monegasque/"],
-    "unsure": ["rivals: Nice is the nearby rival, but I couldn't confirm a fixed name for the derby, so derby is left blank"]
+    "sources": ["https://en.wikipedia.org/wiki/AS_Monaco_FC", "https://fr.wikipedia.org/wiki/Association_sportive_de_Monaco_football_club", "https://www.monaco-tribune.com/2020/04/umparamu-u-munegascu-a-la-decouverte-du-monegasque/", "https://fr.wikipedia.org/wiki/Derby_de_la_C%C3%B4te_d%27Azur", "https://en.wikipedia.org/wiki/Mon%C3%A9gasque_language"],
+    "unsure": ["lingo: the stress in 'Munegu' (on the first syllable) comes from the Wiktionary spelling 'Mùnegu'; I found no recording to confirm it", "rivals: Marseille are called 'bitter rivals' by English Wikipedia, but I couldn't confirm a name for that fixture"]
   }
 ]

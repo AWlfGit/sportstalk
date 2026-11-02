@@ -1,0 +1,553 @@
+[
+  {
+    "id": "nz",
+    "name": "New Zealand",
+    "covers": "New Zealand's national sides (the All Blacks, Black Ferns and Black Caps) and Kiwi sport generally",
+    "dialect": "New Zealand English, with everyday te reo Māori",
+    "words": [
+      {"term": "chur", "say": "CHUR", "ipa": "tʃɜː", "tts": "", "means": "Thanks, cheers, or 'awesome'. Short, warm and very Kiwi.", "use": "Chur for grabbing the tickets, bro.", "common": true},
+      {"term": "sweet as", "say": "SWEET az", "ipa": "", "tts": "", "means": "Great, no worries. The 'as' just finishes it off; nothing comes after it.", "use": "Meet you outside the ground at six? Sweet as.", "common": true},
+      {"term": "hard out", "say": "HARD owt", "ipa": "", "tts": "", "means": "Totally. Strong agreement, or doing something flat out.", "use": "Best forward pack in the world? Hard out.", "common": true},
+      {"term": "munted", "say": "MUN-tid", "ipa": "ˈmʌntəd", "tts": "", "means": "Broken or wrecked. Said of a bad injury, a car or a ruined pitch.", "use": "His knee's munted. He's gone for the season.", "common": true},
+      {"term": "kia ora", "say": "kee-ah OR-ah", "ipa": "ˌkiaˈɔɾa", "tts": "", "means": "Hello, or thanks. Te reo Māori, used by everyone from broadcasters to the person next to you in the stand.", "use": "Kia ora, bro. You heading to the test?", "common": true},
+      {"term": "ka pai", "say": "kah PIE", "ipa": "ka paɪ", "tts": "", "means": "Good, well done. Te reo Māori, heard at junior rugby and in the stands.", "use": "Ka pai, team. That's a proper first half.", "common": true},
+      {"term": "kia kaha", "say": "kee-ah KAH-hah", "ipa": "kia kaha", "tts": "", "means": "Be strong, keep going. Te reo Māori, said to back a team before a big game or someone doing it tough.", "use": "Kia kaha, Black Caps. Big day tomorrow.", "common": true},
+      {"term": "mana", "say": "MAH-nah", "ipa": "ˈmana", "tts": "", "means": "Prestige, authority and respect. Te reo Māori; people say the black jersey carries mana.", "use": "You don't just get handed that jersey. It's got mana.", "common": true},
+      {"term": "whānau", "say": "FAH-now", "ipa": "ˈfaːnaʊ", "tts": "far now", "means": "Family, including the wider family and close friends. Te reo Māori; clubs and teams often call themselves a whānau.", "use": "The whole whānau's coming to the club final.", "common": true},
+      {"term": "haka", "say": "HAH-kah", "ipa": "ˈhaka", "tts": "", "means": "A Māori ceremonial dance performed at welcomes, celebrations and big occasions. The All Blacks perform one before tests, usually Ka Mate or Kapa o Pango, and fans treat it with respect.", "use": "Great seats for the haka. Goosebumps every time.", "common": true},
+      {"term": "the Log o' Wood", "say": "the LOG-a-wood", "ipa": "", "tts": "", "means": "The Ranfurly Shield, the domestic rugby challenge trophy. The holder defends it at home and can lose it in any one game.", "use": "Shield challenge on Saturday. Let's bring the Log o' Wood home.", "common": false},
+      {"term": "the Cake Tin", "say": "the KAYK tin", "ipa": "", "tts": "", "means": "Wellington's main stadium (Sky Stadium), named for its round, metal look.", "use": "Freezing at the Cake Tin last night. That wind never stopped.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Māori", "say": "MAH-aw-ree", "ipa": "ˈmaːɔɾi", "tts": "mah oh ree", "why": "Said the te reo way, three short sounds. 'MAY-or-ee' sounds out of touch."},
+      {"word": "Whangārei", "say": "fong-ah-RAY", "ipa": "faˈŋaːɾeɪ", "tts": "fong ah ray", "why": "Northland's city. The 'wh' is said like an f in most of the country."},
+      {"word": "Tauranga", "say": "TAO-rah-ngah", "ipa": "ˈtaʊɾaŋa", "tts": "tao rung ah", "why": "Bay of Plenty city. No stress on the middle: not 'tor-RANG-ah'."},
+      {"word": "Taranaki", "say": "TAH-rah-nah-kee", "ipa": "ˈtaɾanaki", "tts": "tah rah nah key", "why": "The province and its rugby side. Every vowel is an 'ah' or an 'ee'."},
+      {"word": "Ka Mate", "say": "kah MAH-teh", "ipa": "ka ˈmatɛ", "tts": "kah mah tay", "why": "The best-known All Blacks haka, composed by the chief Te Rauparaha. Name it; don't attempt it."}
+    ],
+    "lines": [
+      {"t": "Eden Park's a fortress. Nobody beats us there.", "m": "The All Blacks haven't lost a test at Eden Park since 1994."},
+      {"t": "Bring on the Wallabies. That Bledisloe isn't going anywhere.", "m": "New Zealand have held the Bledisloe Cup every year since 2003."},
+      {"t": "Alarm's set for four. Test kicks off in Europe overnight.", "m": "Tests in the northern hemisphere start in the early hours in New Zealand."},
+      {"t": "Blowing a gale at the Cake Tin again.", "m": "The Wellington wind is the standard moan about any game there."},
+      {"t": "Small country, punching above its weight as usual.", "m": "Kiwi pride, for the Black Caps especially; they won the first World Test Championship in 2021."}
+    ],
+    "avoid": [
+      {"say": "the Kiwis (for the All Blacks)", "instead": "the All Blacks, or the ABs", "why": "The Kiwis are the rugby league side. The rugby union team is the All Blacks."},
+      {"say": "the haka war dance", "instead": "the haka", "why": "Haka are performed at all kinds of occasions, not only as a challenge."},
+      {"say": "MAY-or-ee", "instead": "MAH-aw-ree", "why": "Mangling Māori is the fastest way to sound like a tourist."},
+      {"say": "So you're Australian?", "instead": "So you're a Kiwi?", "why": "Lumping New Zealanders in with Aussies goes down badly, especially in a Bledisloe week."}
+    ],
+    "habits": ["Big tests are a social event: the pub, the club rooms or a mate's lounge, often with a barbecue first.", "Tests played up north kick off in the early hours in New Zealand, so fans set alarms or stay up.", "Saturday club rugby runs through every town, from juniors in the morning to the premier grade in the afternoon.", "Fans wear black for the national sides: the All Blacks, the Black Ferns and the Black Caps."],
+    "sources": ["https://en.wikipedia.org/wiki/New_Zealand_English", "https://en.wiktionary.org/wiki/chur", "https://en.wikipedia.org/wiki/List_of_English_words_of_M%C4%81ori_origin", "https://maoridictionary.co.nz/search?keywords=ka+pai", "https://maoridictionary.co.nz/search?keywords=kia+kaha", "https://maoridictionary.co.nz/search?keywords=mana", "https://maoridictionary.co.nz/search?keywords=wh%C4%81nau", "https://en.wikipedia.org/wiki/Haka", "https://en.wikipedia.org/wiki/Ranfurly_Shield", "https://www.stuff.co.nz/sport/rugby/provincial/132760483/a-new-log-o-wood-ranfurly-shield-undergoes-major-restoration-as-old-version-is-retired", "https://en.wikipedia.org/wiki/Sky_Stadium", "https://en.wikipedia.org/wiki/Eden_Park", "https://en.wikipedia.org/wiki/Bledisloe_Cup", "https://en.wikipedia.org/wiki/M%C4%81ori_people", "https://en.wikipedia.org/wiki/Whang%C4%81rei"],
+    "unsure": ["words: 'tu meke' (awesome) and 'ka mau te wehi' left out: Te Aka has 'tumeke' only as 'startled', and no second source for the slang sense could be checked.", "words: 'sweet as', 'hard out' and 'munted' are confirmed in Wikipedia and Wiktionary, but no New Zealand newspaper page could be opened to check them (web search was unavailable).", "pronounce: Tauranga's te reo vowel is closer to [aʉ] than [aʊ]; the respelling is an approximation."]
+  },
+  {
+    "id": "au",
+    "name": "Australia",
+    "covers": "Australia's national sides (the Wallabies and the cricket teams) and Aussie sport generally",
+    "dialect": "Australian English",
+    "words": [
+      {"term": "footy", "say": "FUT-ee", "ipa": "ˈfʊti", "tts": "", "means": "Football, but which code depends on the city: Aussie rules (AFL) in Melbourne, Adelaide and Perth, rugby league in Sydney and Brisbane. Never soccer.", "use": "You going to the footy Saturday?", "common": true},
+      {"term": "arvo", "say": "AH-voh", "ipa": "ˈɑːvəʊ", "tts": "", "means": "Afternoon.", "use": "Footy's on Saturday arvo, then a barbie at ours.", "common": true},
+      {"term": "barrack for", "say": "BA-ruk for", "ipa": "ˈbærək fɔː", "tts": "", "means": "To support a team. Australians barrack for a club; they don't root for one.", "use": "Who do you barrack for?", "common": true},
+      {"term": "esky", "say": "ES-kee", "ipa": "ˈɛski", "tts": "", "means": "A portable cool box, packed with drinks for the cricket or the beach.", "use": "Chuck a few more in the esky. Long day at the cricket.", "common": true},
+      {"term": "stubby", "say": "STUB-ee", "ipa": "ˈstʌbi", "tts": "", "means": "A small bottle of beer, usually 375 ml.", "use": "Grab us a stubby while you're up.", "common": true},
+      {"term": "sledging", "say": "SLEJ-ing", "ipa": "ˈslɛdʒɪŋ", "tts": "", "means": "Trash talk from fielders aimed at the batter. Aussie sides are famous for it.", "use": "Bit of sledging out there today. The umpires had a word.", "common": true},
+      {"term": "ripper", "say": "RIP-er", "ipa": "ˈɹɪpə", "tts": "", "means": "Excellent. 'You little ripper!' when something great happens.", "use": "What a ripper of a catch!", "common": true},
+      {"term": "the G", "say": "the JEE", "ipa": "", "tts": "", "means": "The Melbourne Cricket Ground (the MCG), home of the Boxing Day Test and the AFL Grand Final.", "use": "Ninety thousand at the G. Unreal.", "common": true},
+      {"term": "grand final", "say": "GRAND FY-nul", "ipa": "", "tts": "", "means": "The last game of the season, which decides the premiership. AFL and NRL both have one.", "use": "Grand final week. Nobody at work's getting anything done.", "common": true},
+      {"term": "shout", "say": "SHOWT", "ipa": "", "tts": "", "means": "A round of drinks. 'My shout' means I'm buying.", "use": "Your shout, mate. I got the last one.", "common": true},
+      {"term": "footy tipping", "say": "FUT-ee TIP-ing", "ipa": "", "tts": "", "means": "A work or family competition to pick the winner of every game each week.", "use": "Dead last in the footy tipping again.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Melbourne", "say": "MEL-bn", "ipa": "ˈmælbən", "tts": "mel bun", "why": "Two syllables, the second one swallowed. Not 'mel-BORN'."},
+      {"word": "Brisbane", "say": "BRIZ-bn", "ipa": "ˈbɹɪzbən", "tts": "", "why": "A z sound and a swallowed ending. Not 'BRIS-bane'."},
+      {"word": "Canberra", "say": "KAN-bruh", "ipa": "ˈkænbɹə", "tts": "can bra", "why": "The capital. Locals squash it to two syllables."},
+      {"word": "Cairns", "say": "KANZ", "ipa": "kænz", "tts": "cans", "why": "Far north Queensland city. No r and no i sound."},
+      {"word": "Woolloongabba", "say": "wool-un-GAB-uh", "ipa": "ˌwʊlənˈɡæbə", "tts": "", "why": "The Brisbane suburb that gives the Gabba its name. Everyone just says 'the Gabba'."}
+    ],
+    "lines": [
+      {"t": "Who do you barrack for?", "m": "The first footy question you'll get. Answer with a club."},
+      {"t": "Boxing Day at the G. Best day of the year.", "m": "The Boxing Day Test starts at the MCG on 26 December."},
+      {"t": "Blues or Maroons? You've got to pick a side for Origin.", "m": "State of Origin rugby league: New South Wales (Blues) against Queensland (Maroons), three games every winter."},
+      {"t": "One of these years we'll get the Bledisloe back.", "m": "The Wallabies fan's hope. New Zealand have held it since 2003."},
+      {"t": "Dead last in the tipping again. Don't ask.", "m": "The office footy-tipping moan."}
+    ],
+    "avoid": [
+      {"say": "Who do you root for?", "instead": "Who do you barrack for?", "why": "In Australia 'root' is slang for sex, so the question gets a laugh."},
+      {"say": "Sydney, the capital", "instead": "Canberra, the capital", "why": "Canberra is the capital, whatever Sydney and Melbourne think."},
+      {"say": "rugby (meaning league)", "instead": "league, or union", "why": "In Sydney and Brisbane people say which code. Plain 'rugby' usually means union."},
+      {"say": "mel-BORN", "instead": "MEL-bn", "why": "The full 'bourne' is the classic visitor's giveaway."}
+    ],
+    "habits": ["Summer is cricket: the Boxing Day Test at the MCG on 26 December, then the New Year's Test at the SCG.", "Grand final day means a barbecue and the telly. Victoria gets a public holiday on the Friday before the AFL decider.", "State of Origin nights fill pubs in New South Wales and Queensland, everyone in sky blue or maroon.", "Footy tipping competitions run all season at work and among mates."],
+    "sources": ["https://history.cass.anu.edu.au/centres/andc/australian-words-a", "https://history.cass.anu.edu.au/centres/andc/australian-words-b", "https://history.cass.anu.edu.au/centres/andc/australian-words-e", "https://history.cass.anu.edu.au/centres/andc/australian-words-s", "https://en.wikipedia.org/wiki/Australian_English_vocabulary", "https://www.australiangeographic.com.au/history-culture/2023/09/the-a-z-of-aussie-slang/", "https://en.wiktionary.org/wiki/footy", "https://en.wiktionary.org/wiki/esky", "https://en.wiktionary.org/wiki/shout", "https://en.wikipedia.org/wiki/Melbourne_Cricket_Ground", "https://en.wikipedia.org/wiki/Footy_tipping", "https://en.wikipedia.org/wiki/Grand_final", "https://en.wikipedia.org/wiki/Melbourne", "https://en.wikipedia.org/wiki/Cairns"],
+    "unsure": ["words: 'Pom' left out: Wiktionary calls it mildly derogatory and sometimes an ethnic slur, and the ANDC says it can be friendly or derogatory.", "words: 'shout' and 'grand final' are confirmed in Wiktionary and Wikipedia, but no Australian dictionary page for them could be opened; 'spewing', 'rapt' and 'dead set' were left out for lack of a second source.", "habits: the Victorian public holiday before the AFL Grand Final and Origin's three-game format are from general knowledge; no page was opened to confirm them."]
+  },
+  {
+    "id": "za",
+    "name": "South Africa",
+    "covers": "South Africa's national sides (the Springboks and the Proteas) and the URC sides: the Bulls, Lions, Sharks and Stormers",
+    "dialect": "South African English, with Afrikaans and township slang",
+    "words": [
+      {"term": "Bokke", "say": "BOK-uh", "ipa": "ˈbɔkə", "tts": "bock uh", "means": "The Springboks. Afrikaans plural of 'Bok'; 'Go Bokke!' is the cry for any Springbok test.", "use": "Bokke! What a win.", "common": true},
+      {"term": "lekker", "say": "LEK-uh", "ipa": "ˈlɛkə", "tts": "", "means": "Nice, great, tasty. The all-purpose word of approval, from Afrikaans.", "use": "Lekker win, hey. Proper Bok performance.", "common": true},
+      {"term": "braai", "say": "BRY", "ipa": "braɪ", "tts": "bry", "means": "A barbecue over an open fire, and the gathering around it. Test day isn't complete without one.", "use": "Come round for the braai. Kickoff's at five.", "common": true},
+      {"term": "eish", "say": "AYSH", "ipa": "eɪʃ", "tts": "eighshh", "means": "Oh no, wow, or 'what can you do'. Covers frustration, surprise and resignation.", "use": "Eish, another yellow card. We're down to fourteen.", "common": true},
+      {"term": "howzit", "say": "HOW-zit", "ipa": "ˈhaʊzət", "tts": "", "means": "Hello, how are you? The everyday greeting.", "use": "Howzit, bru. You watching the game later?", "common": true},
+      {"term": "bru", "say": "BROO", "ipa": "bruː", "tts": "brew", "means": "Mate, buddy. Used to anyone, friend or stranger.", "use": "Relax, bru. There's still twenty minutes to go.", "common": true},
+      {"term": "boet", "say": "BUT (as in 'put')", "ipa": "bʊt", "tts": "boot", "means": "Brother, or a friendly 'mate'. From Afrikaans.", "use": "Thanks, boet. I owe you one for the tickets.", "common": true},
+      {"term": "vasbyt", "say": "FUSS-bait", "ipa": "ˈfasbeɪt", "tts": "fuss bait", "means": "Hang in there, grit your teeth. Afrikaans, literally 'bite tight'; said when a team is defending for its life.", "use": "Ten minutes left and they're camped on our line. Vasbyt, boys.", "common": true},
+      {"term": "jislaaik", "say": "YIS-like", "ipa": "ˈjɪslaɪk", "tts": "yis like", "means": "Wow! or Oh no! An exclamation for anything shocking.", "use": "Jislaaik, did you see that tackle?", "common": true},
+      {"term": "jol", "say": "JAWL", "ipa": "dʒɔl", "tts": "", "means": "A party or a good time out.", "use": "If we win the final, it's going to be a massive jol.", "common": true},
+      {"term": "bakkie", "say": "BUCK-ee", "ipa": "ˈbʌki", "tts": "bucky", "means": "A pickup truck. Fans braai off the back of one in the stadium car park.", "use": "We'll braai off the back of the bakkie at Loftus.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Loftus Versfeld", "say": "LOF-tus FERS-felt", "ipa": "ˈlɔftəs ˈfɛrsfɛlt", "tts": "loftus fair felt", "why": "The Bulls' ground in Pretoria. Afrikaans v is an f, and the d sounds like a t. Most people just say 'Loftus'."},
+      {"word": "Bloemfontein", "say": "BLOOM-fon-tayn", "ipa": "ˈbluːmfɒnteɪn", "tts": "", "why": "Free State city, home of the Cheetahs. The 'oe' is an 'oo'. Locals often say 'Bloem'."},
+      {"word": "Stellenbosch", "say": "STEL-en-boss", "ipa": "ˈstɛlənbɒs", "tts": "", "why": "The university town near Cape Town. The 'sch' is just an s, not 'bosh'."},
+      {"word": "Afrikaans", "say": "af-rih-KAHNS", "ipa": "ˌæfrɪˈkɑːns", "tts": "", "why": "Stress on the last syllable, with a long 'ah'."}
+    ],
+    "lines": [
+      {"t": "Four World Cups, bru. Nobody's got more.", "m": "The Springboks won in 1995, 2007, 2019 and 2023, more than any other country."},
+      {"t": "Braai's going, Bokke at five. Lekker Saturday.", "m": "Test day in a sentence."},
+      {"t": "Bulls or Stormers? Can't sit on the fence for this one.", "m": "Pretoria against Cape Town is the big domestic rivalry."},
+      {"t": "Eish, that ref. Every week.", "m": "The universal moan."},
+      {"t": "The Proteas finally lifted one. Lord's, 2025.", "m": "South Africa beat Australia in the 2025 World Test Championship final, ending a long wait for a major cricket title."}
+    ],
+    "avoid": [
+      {"say": "the Bulls in Super Rugby", "instead": "the Bulls in the URC", "why": "South African sides left Super Rugby in 2020 and now play in the United Rugby Championship."},
+      {"say": "a barbecue", "instead": "a braai", "why": "It's a braai, over wood or charcoal, and the person at the fire is in charge."},
+      {"say": "the Proteas (for the rugby team)", "instead": "the Boks", "why": "The Proteas are the cricket team. The rugby side is the Springboks."},
+      {"say": "Afrikaans is basically Dutch", "instead": "Afrikaans", "why": "It's its own language, and plenty of fans' words come from it."}
+    ],
+    "habits": ["Test days start with a braai, at home or in the stadium car park, with the fire lit well before kickoff.", "Big games are watched at pubs, sports bars or a mate's place, with the whole family in green and gold.", "Summer means cricket, and the New Year's Test at Newlands in Cape Town is a fixture on the calendar."],
+    "sources": ["https://dsae.co.za/entry/lekker/e04283", "https://dsae.co.za/entry/braai/e01198", "https://dsae.co.za/entry/eish/e10058", "https://dsae.co.za/entry/howzit/e03125", "https://dsae.co.za/entry/bru/e10032", "https://dsae.co.za/entry/boet/e01017", "https://dsae.co.za/entry/vasbyt/e07582", "https://dsae.co.za/entry/jislaaik/e03481", "https://dsae.co.za/entry/jol/e03505", "https://dsae.co.za/entry/springbok/e06794", "https://en.wiktionary.org/wiki/Bokke", "https://en.wiktionary.org/wiki/bakkie", "https://en.wikipedia.org/wiki/South_African_English", "https://en.wikipedia.org/wiki/South_Africa_national_rugby_union_team", "https://en.wikipedia.org/wiki/Loftus_Versfeld_Stadium", "https://en.wikipedia.org/wiki/Stellenbosch", "https://en.wikipedia.org/wiki/Afrikaans"],
+    "unsure": ["words: 'vasbyt' and 'jol' are confirmed in the Dictionary of South African English, but there was no Wiktionary page to cross-check 'vasbyt'.", "pronounce: 'Loftus Versfeld' IPA follows Afrikaans spelling rules; no recorded pronunciation was found.", "habits: braaiing in the car park at Loftus and the New Year's Test at Newlands are from general knowledge; no page was opened to confirm them.", "words: 'shot' (thanks) and 'gees' (team spirit) left out; the DSAE has no entry for either."]
+  },
+  {
+    "id": "ar",
+    "name": "Argentina",
+    "covers": "Los Pumas and Argentine rugby, from the Buenos Aires clubs to Tucumán and Rosario",
+    "dialect": "Rioplatense (Argentine) Spanish",
+    "words": [
+      {"term": "¡Vamos!", "say": "BAH-mos", "ipa": "ˈbamos", "tts": "bah moss", "means": "Come on, let's go! The basic cheer: '¡Vamos, Pumas!'", "use": "¡Vamos, Pumas! One more scrum.", "common": true},
+      {"term": "garra", "say": "GAH-rrah", "ipa": "ˈɡara", "tts": "gah rah", "means": "Grit, heart, fighting spirit. The quality Argentine fans prize most.", "use": "No stars today, just garra. That's Pumas rugby.", "common": true},
+      {"term": "hincha", "say": "EEN-chah", "ipa": "ˈintʃa", "tts": "een cha", "means": "A devoted fan. 'Soy hincha de los Pumas': I'm a Pumas fan.", "use": "My dad's a real hincha. Hasn't missed a home test in years.", "common": true},
+      {"term": "la hinchada", "say": "lah een-CHAH-dah", "ipa": "la inˈtʃada", "tts": "la een chah dah", "means": "The crowd of fans, the support as a whole.", "use": "The hinchada was unreal tonight. You couldn't hear the ref.", "common": true},
+      {"term": "¡aguante!", "say": "ah-GWAHN-teh", "ipa": "aˈɣwante", "tts": "ah gwan tay", "means": "Long live, up with. '¡Aguante los Pumas!' is pure Argentine fan talk.", "use": "¡Aguante los Pumas! Win or lose.", "common": true},
+      {"term": "tercer tiempo", "say": "ter-SER TYEM-po", "ipa": "teɾˈseɾ ˈtjempo", "tts": "tair sair tee em po", "means": "The 'third half': after the game both teams share food and drinks at the club. As much a part of the day as the match.", "use": "Great game. See you at the tercer tiempo.", "common": true},
+      {"term": "che", "say": "CHEH", "ipa": "tʃe", "tts": "cheh", "means": "Hey, mate. The most Argentine word there is, used to get attention or between friends.", "use": "Che, did you see that try?", "common": true},
+      {"term": "dale", "say": "DAH-leh", "ipa": "ˈdale", "tts": "dah lay", "means": "Go on! Or 'OK, sure'. Shouted at a runner in space, or used to agree to plans.", "use": "Dale, dale, he's through!", "common": true},
+      {"term": "vos", "say": "BOS", "ipa": "bos", "tts": "boss", "means": "'You'. Argentines say vos instead of tú, with their own verb endings ('vos sabés').", "use": "¿Vos viste el partido? Did you see the game?", "common": true},
+      {"term": "pibe", "say": "PEE-beh", "ipa": "ˈpibe", "tts": "pee bay", "means": "Kid, young lad. Said of a young player who's just broken through.", "use": "That pibe on the wing is only twenty and he's flying.", "common": true},
+      {"term": "asado", "say": "ah-SAH-doh", "ipa": "aˈsado", "tts": "ah sah doe", "means": "The Argentine barbecue, a long meal of grilled meat with friends and family.", "use": "Asado at the club, then we watch the Pumas.", "common": true},
+      {"term": "mate", "say": "MAH-teh", "ipa": "ˈmate", "tts": "mah tay", "means": "The herbal tea drunk from a shared gourd through a metal straw. Not 'mate' as in friend.", "use": "Pass the mate, che. Second half's starting.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Los Pumas", "say": "los POO-mahs", "ipa": "los ˈpumas", "tts": "los poomahs", "why": "The Spanish way, with an 'oo'. 'PYOO-muhz' is the English way."},
+      {"word": "Buenos Aires", "say": "BWEH-nos EYE-res", "ipa": "ˈbwenos ˈajɾes", "tts": "bway noss eye ress", "why": "Four clear syllables in the second word: not 'BWAY-nus AIR-eez'."},
+      {"word": "San Isidro", "say": "san ee-SEE-dro", "ipa": "san iˈsiðɾo", "tts": "", "why": "The rugby suburb north of the city, home of the big clubs CASI and SIC."},
+      {"word": "Tucumán", "say": "too-koo-MAHN", "ipa": "tukuˈman", "tts": "too koo mahn", "why": "The northern province that breeds forwards. Stress on the last syllable."}
+    ],
+    "lines": [
+      {"t": "We've beaten the All Blacks now. Nobody laughs at us anymore.", "m": "Argentina first beat New Zealand in 2020 and have done it again since."},
+      {"t": "Beat the Lions in Dublin, che. Who saw that coming?", "m": "Argentina beat the British & Irish Lions 28-24 in June 2025."},
+      {"t": "Club rugby here is still amateur. That's the beauty of it.", "m": "Argentina's domestic club rugby stayed amateur even after the national side turned professional."},
+      {"t": "See you at the tercer tiempo.", "m": "After the game it's food and drinks with the other team."},
+      {"t": "Football's the religion, but rugby's the family.", "m": "Rugby fans know football rules the country, and are proud of their own close-knit world."}
+    ],
+    "avoid": [
+      {"say": "the PYOO-muhs", "instead": "los Pumas (POO-mahs)", "why": "Say it the Spanish way."},
+      {"say": "¿Cómo estás tú?", "instead": "¿Cómo andás?", "why": "Argentines use vos, not tú, so textbook Spanish stands out."},
+      {"say": "Argentina's only into football", "instead": "Rugby's huge in Buenos Aires, Tucumán and Rosario", "why": "The Pumas are a national team people adore, and club rugby has deep roots."}
+    ],
+    "habits": ["Rugby is club life: families spend Saturdays at the club, juniors in the morning and the first team in the afternoon, then the tercer tiempo.", "Big games go with an asado, a long barbecue with family and friends, and mate passed round the group.", "Pumas tests in the Rugby Championship are watched together at the club, at home or in a bar."],
+    "sources": ["https://en.wiktionary.org/wiki/garra", "https://en.wiktionary.org/wiki/hincha", "https://en.wiktionary.org/wiki/hinchada", "https://en.wiktionary.org/wiki/aguante", "https://en.wiktionary.org/wiki/che", "https://en.wiktionary.org/wiki/dale", "https://en.wiktionary.org/wiki/pibe", "https://es.wikipedia.org/wiki/Tercer_tiempo", "https://web.archive.org/web/20080112093641/http://www.rugbyinfantil.org.ar/tercertiempo.htm", "https://en.wikipedia.org/wiki/Rioplatense_Spanish", "https://en.wikipedia.org/wiki/Rugby_union_in_Argentina", "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_rugby_de_Argentina", "https://en.wikipedia.org/wiki/Buenos_Aires"],
+    "unsure": ["words: most terms are confirmed in Wiktionary (with Rioplatense or Argentina labels) and Wikipedia, but Argentine dictionaries (RAE, ASALE) blocked automated access and no Argentine newspaper page could be opened to cross-check them.", "words: 'la bajadita' (the San Isidro Club scrum technique) and 'bárbaro' (great) left out for lack of a checkable source.", "habits: the club Saturday and asado habits are from general knowledge and the tercer tiempo sources."]
+  },
+  {
+    "id": "fj",
+    "name": "Fiji",
+    "covers": "Fiji's national sides (the Flying Fijians, the sevens teams) and the Fijian Drua",
+    "dialect": "Fijian and Fiji English",
+    "words": [
+      {"term": "bula", "say": "MBOO-lah", "ipa": "ˈᵐbula", "tts": "boo lah", "means": "Hello! Literally 'life'. The everyday greeting, and a cheer.", "use": "Bula! You watching the sevens today?", "common": true},
+      {"term": "vinaka", "say": "vee-NAH-kah", "ipa": "βiˈnaka", "tts": "vee nah kah", "means": "Thank you; also 'good'.", "use": "Vinaka for saving me a seat.", "common": true},
+      {"term": "vinaka vakalevu", "say": "vee-NAH-kah vah-kah-LEH-voo", "ipa": "βiˈnaka βakaˈleβu", "tts": "vee nah kah vah kah leh voo", "means": "Thank you very much.", "use": "Vinaka vakalevu, boys. What a tournament.", "common": true},
+      {"term": "moce", "say": "MOH-theh", "ipa": "ˈmoðe", "tts": "moe they", "means": "Goodbye, or good night. The c is said like the th in 'this'.", "use": "Moce, see you at the final.", "common": true},
+      {"term": "Viti", "say": "VEE-chee", "ipa": "ˈβitʃi", "tts": "vee chee", "means": "Fiji, in Fijian. Before an i, the t sounds like 'ch'.", "use": "Go Viti! Toughest team in the Pacific.", "common": false},
+      {"term": "yaqona", "say": "yahng-GOH-nah", "ipa": "jaˈŋɡona", "tts": "yahng go nah", "means": "Kava, the drink made from pepper-plant root, shared from a communal bowl at gatherings.", "use": "Bowl of yaqona and the sevens on the TV. Perfect Saturday.", "common": true},
+      {"term": "the sevens", "say": "the SEV-unz", "ipa": "", "tts": "", "means": "Seven-a-side rugby, Fiji's great love. The men won Olympic gold in 2016 and 2020.", "use": "Everything stops when the sevens are on.", "common": true},
+      {"term": "cibi", "say": "THIM-bee", "ipa": "ˈðimbi", "tts": "thim bee", "means": "The war dance the Flying Fijians perform before tests, first taught to the team in 1939. A proud tradition, watched with respect.", "use": "The cibi before kickoff gave me chills.", "common": true},
+      {"term": "Drua", "say": "NDROO-ah", "ipa": "ˈⁿdrua", "tts": "droo ah", "means": "A double-hulled canoe, and the name of Fiji's Super Rugby side, the Fijian Drua.", "use": "Drua at home this week. It'll be loud.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Nadi", "say": "NAHN-dee", "ipa": "ˈnandi", "tts": "nahn dee", "why": "The airport town. In Fijian, d has a soft n before it."},
+      {"word": "Suva", "say": "SOO-vah", "ipa": "ˈsuːvə", "tts": "", "why": "The capital, home of the national stadium."},
+      {"word": "Lautoka", "say": "low-TOH-kah", "ipa": "lɔuˈtoka", "tts": "", "why": "The west's big town. The 'au' rhymes with 'now'."},
+      {"word": "Beqa", "say": "MBENG-gah", "ipa": "ˈᵐbeŋɡa", "tts": "beng gah", "why": "The island off Viti Levu. In Fijian, q is 'ng-g' and b has an m before it."}
+    ],
+    "lines": [
+      {"t": "Bula! You watching the sevens?", "m": "The greeting and the question that start most Fiji sports chats."},
+      {"t": "Two Olympic golds. The whole country stopped.", "m": "Fiji's men won sevens gold in 2016, the country's first Olympic medal, and again in 2020."},
+      {"t": "Offload, offload! That's Fiji rugby.", "m": "Fans love the running, offloading flair the islands are famous for."},
+      {"t": "Drua at home this week. It'll be loud.", "m": "The Fijian Drua play in Super Rugby, and home crowds are proud and noisy."},
+      {"t": "Bowl of yaqona after the game?", "m": "Sharing kava after a match is the Fijian way to wind down."}
+    ],
+    "avoid": [
+      {"say": "NAH-dee", "instead": "NAHN-dee", "why": "Fijian d has an n in front of it."},
+      {"say": "SEE-bee", "instead": "THIM-bee", "why": "In Fijian, c is the 'th' in 'this' and b has an m before it."},
+      {"say": "Fiji only plays sevens", "instead": "Fiji play sevens and fifteens", "why": "The Flying Fijians reached the 2023 World Cup quarter-finals."}
+    ],
+    "habits": ["Sevens tournaments bring the country to a standstill, with families gathered round the TV or the radio.", "Kava (yaqona) is shared from one bowl at gatherings, and rugby is a favourite topic round it.", "Rugby is the national sport; Saturday games draw whole villages and towns."],
+    "sources": ["https://en.wiktionary.org/wiki/bula", "https://en.wiktionary.org/wiki/vinaka", "https://en.wiktionary.org/wiki/moce", "https://en.wiktionary.org/wiki/Viti", "https://en.wikipedia.org/wiki/Cibi", "https://en.wikipedia.org/wiki/Rugby_union_in_Fiji", "https://en.wikipedia.org/wiki/Fiji_national_rugby_sevens_team", "https://en.wikipedia.org/wiki/Kava", "https://en.wikipedia.org/wiki/Fijian_Drua", "https://en.wikipedia.org/wiki/Nadi", "https://en.wikipedia.org/wiki/Suva", "https://en.wikipedia.org/wiki/Beqa"],
+    "unsure": ["words: Fijian terms are confirmed in Wiktionary and Wikipedia only; Fiji Times, Fiji Village and FBC pages could not be searched or opened.", "words: 'io' (yes), 'isa' and 'toso Fiji' left out for lack of a second source.", "habits: the whole country stopping for the sevens is widely reported but no page was opened to confirm it."]
+  },
+  {
+    "id": "jp",
+    "name": "Japan",
+    "covers": "Japan's national side (the Brave Blossoms) and Japan Rugby League One",
+    "dialect": "Japanese rugby fan talk",
+    "words": [
+      {"term": "ganbare (頑張れ)", "say": "gahm-BAH-reh", "ipa": "ɡambaɾe", "tts": "gahm bah ray", "means": "Go for it! Hang in there! The all-purpose cheer: 'Ganbare Nippon!'", "use": "Ganbare Nippon! Five minutes to hold on.", "common": true},
+      {"term": "no side (ノーサイド)", "say": "noh SIDE", "ipa": "noː saɪdo", "tts": "", "means": "Full time, and the spirit behind it: once the whistle goes there are no sides, only respect. English speakers stopped saying it; Japan kept it.", "use": "No side. Good game to both teams.", "common": true},
+      {"term": "ONE TEAM (ワンチーム)", "say": "wun TEEM", "ipa": "", "tts": "", "means": "The 2019 World Cup squad's motto, which became Japan's buzzword of the year.", "use": "That's what ONE TEAM looks like. Everybody tackling.", "common": true},
+      {"term": "oshi (推し)", "say": "OH-shee", "ipa": "oʃi", "tts": "oh she", "means": "Your favourite player. Borrowed from idol fandom.", "use": "My oshi's the fullback. I've got his jersey.", "common": true},
+      {"term": "Hanazono (花園)", "say": "hah-nah-ZOH-noh", "ipa": "hanazono", "tts": "", "means": "The national high-school tournament, played at Hanazono stadium in East Osaka over New Year. Rugby's answer to baseball's Kōshien.", "use": "My nephew's school made Hanazono this year.", "common": true},
+      {"term": "League One (リーグワン)", "say": "LEEG WUN", "ipa": "", "tts": "", "means": "Japan Rugby League One, the top domestic league, run by company-backed clubs.", "use": "League One starts in December. Season tickets sorted?", "common": true},
+      {"term": "the Brave Blossoms", "say": "the BRAVE BLOSS-umz", "ipa": "", "tts": "", "means": "The national team's nickname, after the cherry blossom (sakura) on the jersey. Also called the Cherry Blossoms.", "use": "The Brave Blossoms are at home this autumn.", "common": true},
+      {"term": "Buraiton no kiseki (ブライトンの奇跡)", "say": "boo-RAI-ton noh kee-SEH-kee", "ipa": "bɯɾaɪton no kiseki", "tts": "", "means": "'The Brighton Miracle': Japan's 34-32 win over South Africa at the 2015 World Cup in Brighton, one of the biggest shocks in rugby.", "use": "I still watch the Brighton Miracle highlights when I'm down.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Kobe", "say": "KOH-beh", "ipa": "koːbe", "tts": "", "why": "Home of the Kobelco Kobe Steelers. Japanese vowels are pure: not 'KOH-bee'."},
+      {"word": "Chichibunomiya", "say": "chee-chee-boo-noh-MEE-yah", "ipa": "tʃitʃibunomija", "tts": "chee chee boo no me ya", "why": "Tokyo's rugby ground, in full the Prince Chichibu Memorial Rugby Ground. Fans just say 'Chichibu'."},
+      {"word": "Shizuoka", "say": "shee-zoo-OH-kah", "ipa": "ʃizɯoka", "tts": "she zoo oh kah", "why": "Where Japan beat Ireland at the 2019 World Cup. Every vowel is said."},
+      {"word": "Nippon", "say": "NEEP-pon", "ipa": "nippon", "tts": "neep pone", "why": "What fans shout for Japan, with a held p. 'Nihon' is the everyday name."}
+    ],
+    "lines": [
+      {"t": "Ganbare Nippon!", "m": "Go for it, Japan! The cheer for any national side."},
+      {"t": "Remember Brighton, 2015? Still gives me chills.", "m": "Japan's win over South Africa at the 2015 World Cup is the great memory."},
+      {"t": "No side. Good game, both teams.", "m": "Said at full time. After the whistle, there are no sides."},
+      {"t": "2019 was the best: first time in the quarter-finals.", "m": "Japan hosted the 2019 World Cup, topped their pool and reached the last eight for the first time."},
+      {"t": "Off to Hanazono over New Year.", "m": "The high-school tournament runs from late December into early January."}
+    ],
+    "avoid": [
+      {"say": "KOH-bee", "instead": "KOH-beh", "why": "Japanese vowels are pure, and locals notice."},
+      {"say": "Japan's new to rugby", "instead": "Japan's played rugby for over a century", "why": "The game has been played in Japan since the late 1800s, with deep school and company roots."},
+      {"say": "the J.League (for rugby)", "instead": "League One", "why": "The J.League is football. Rugby's top league is Japan Rugby League One."}
+    ],
+    "habits": ["The national high-school tournament at Hanazono, from late December to early January, is a winter ritual on TV and in the stands.", "League One clubs are backed by big companies, and employees turn out to support their firm's side.", "Fans wear the red-and-white hoops for the Brave Blossoms and applaud good rugby from both teams."],
+    "sources": ["https://en.wiktionary.org/wiki/%E9%A0%91%E5%BC%B5%E3%82%8C", "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89", "https://ja.wikipedia.org/wiki/%E6%96%B0%E8%AA%9E%E3%83%BB%E6%B5%81%E8%A1%8C%E8%AA%9E%E5%A4%A7%E8%B3%9E", "https://en.wiktionary.org/wiki/%E6%8E%A8%E3%81%97", "https://en.wiktionary.org/wiki/%E8%8A%B1%E5%9C%92", "https://en.wikipedia.org/wiki/Rugby_union_in_Japan", "https://en.wikipedia.org/wiki/Japan_Rugby_League_One", "https://en.wiktionary.org/wiki/%E7%A5%9E%E6%88%B8", "https://en.wikipedia.org/wiki/Kobe", "https://mainichi.jp/articles/20191014/k00/00m/050/002000c"],
+    "unsure": ["words: 'niwaka fan' (bandwagon fan) and 'jackal' (breakdown steal) were big 2019 rugby words but weren't in the buzzword top ten and no second source could be opened, so they're left out.", "habits: applauding both teams is in keeping with the 'no side' spirit but no page describing crowd behaviour was opened.", "words: 'oshi' comes from idol fandom; its use for rugby players is general fan usage, not a rugby-specific source."]
+  },
+  {
+    "id": "in",
+    "name": "India",
+    "covers": "India's national cricket teams and Indian cricket fans",
+    "dialect": "Indian English, with Hindi",
+    "words": [
+      {"term": "yaar", "say": "YAAR", "ipa": "jaːr", "tts": "", "means": "Mate, friend. Tagged onto almost any sentence.", "use": "What a finish, yaar!", "common": true},
+      {"term": "bhai", "say": "BYE (with a breathy b)", "ipa": "bʱaɪ", "tts": "", "means": "Brother; used to any man, friend or stranger.", "use": "Bhai, what's the score?", "common": true},
+      {"term": "shabash", "say": "shah-BAHSH", "ipa": "ʃaːˈbaːʃ", "tts": "", "means": "Well done! Bravo! Shouted at a good shot or a great catch.", "use": "Shabash! What a catch at long-on.", "common": true},
+      {"term": "paisa vasool", "say": "PAY-saa vuh-SOOL", "ipa": "ˈpɛːsaː vəˈsuːl", "tts": "pay sah vuh sool", "means": "Worth every rupee. A match that gave full value for the ticket.", "use": "Last-ball finish? Full paisa vasool match.", "common": true},
+      {"term": "pakka", "say": "PUCK-kah", "ipa": "ˈpəkkaː", "tts": "puck ah", "means": "Definitely, for sure. Also 'proper, the real thing'.", "use": "We'll chase this down, pakka.", "common": true},
+      {"term": "sixer", "say": "SIK-ser", "ipa": "ˈsɪksə", "tts": "", "means": "A six. Indian commentators and fans say sixer as often as six.", "use": "Three sixers in the last over!", "common": true},
+      {"term": "gully cricket", "say": "GUL-ee KRIK-it", "ipa": "", "tts": "", "means": "Street cricket in a lane or courtyard, with a tennis ball and house rules (hit it over the wall and you're out).", "use": "Played gully cricket every evening as a kid.", "common": true},
+      {"term": "maidan", "say": "my-DAHN", "ipa": "maɪˈdɑːn", "tts": "my dahn", "means": "A big open ground in the city, often packed with dozens of matches at once, like Mumbai's Azad Maidan.", "use": "He learned his cricket on the maidan.", "common": true},
+      {"term": "timepass", "say": "TIME-pahs", "ipa": "ˈtaɪmpɑːs", "tts": "", "means": "Killing time; something not worth much attention. 'That match was just timepass.'", "use": "Dead rubber today, just timepass.", "common": true},
+      {"term": "the IPL", "say": "the eye-pee-EL", "ipa": "", "tts": "", "means": "The Indian Premier League, the franchise T20 competition that takes over every spring.", "use": "IPL's back next month. Who are you backing?", "common": true},
+      {"term": "Men in Blue", "say": "men in BLOO", "ipa": "", "tts": "", "means": "India's national side, after the blue kit.", "use": "Men in Blue need a good start here.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Bengaluru", "say": "BENG-guh-loo-roo", "ipa": "ˌbɛŋɡəˈlʊruː", "tts": "", "why": "The city's official name since 2014; the IPL side became Royal Challengers Bengaluru in 2024."},
+      {"word": "Kolkata", "say": "KOL-kuh-tah", "ipa": "kolˈkata", "tts": "", "why": "Home of Eden Gardens. The old 'Calcutta' spelling went in 2001."},
+      {"word": "Chepauk", "say": "cheh-PAWK", "ipa": "tʃeːˈpaːk", "tts": "chay pahk", "why": "What fans call Chennai's MA Chidambaram Stadium, after the neighbourhood."}
+    ],
+    "lines": [
+      {"t": "India-Pakistan? The whole country stops.", "m": "It's the biggest fixture in cricket, and offices and streets empty for it."},
+      {"t": "Kya shot hai! Straight back over the bowler.", "m": "'What a shot!' in Hindi."},
+      {"t": "Full paisa vasool, that last over.", "m": "A finish that was worth the ticket."},
+      {"t": "Batting's fine. It's the bowling at the end that worries me.", "m": "The classic fan worry about the last few overs of an innings."},
+      {"t": "IPL season. Nobody's getting any work done.", "m": "The league runs most evenings from spring into early summer."}
+    ],
+    "avoid": [
+      {"say": "Bangalore", "instead": "Bengaluru", "why": "The city and its IPL side now go by Bengaluru."},
+      {"say": "a home run", "instead": "a six, or a sixer", "why": "Baseball words give you away at once."},
+      {"say": "Is cricket the only sport?", "instead": "Cricket's the big one", "why": "Kabaddi, football, hockey and badminton have big followings too."}
+    ],
+    "habits": ["Big matches are watched together: at home, on a phone at work, or on a big screen outside a shop.", "Every lane and park has gully cricket in the evenings, with a tennis ball and a crate for stumps.", "During the IPL, families pick franchises and follow them every night through the spring.", "Superstitions are serious: nobody moves from their seat during a run chase."],
+    "sources": ["https://en.wiktionary.org/wiki/yaar", "https://en.wiktionary.org/wiki/bhai", "https://en.wiktionary.org/wiki/shabash", "https://en.wiktionary.org/wiki/paisa_vasool", "https://en.wiktionary.org/wiki/pakka", "https://en.wiktionary.org/wiki/sixer", "https://en.wiktionary.org/wiki/maidan", "https://en.wiktionary.org/wiki/timepass", "https://en.wikipedia.org/wiki/Gully_cricket", "https://sportstar.thehindu.com/cricket/world-cup-2019-street-gully-cricket-rules-team-india-pakistan-england/article27248698.ece", "https://en.wikipedia.org/wiki/Indian_English", "https://en.wiktionary.org/wiki/Bengaluru", "https://en.wikipedia.org/wiki/Kolkata"],
+    "unsure": ["words: confirmed in Wiktionary (India labels) and Wikipedia; Indian newspaper pages couldn't be searched, so each word has only one Indian source at most (Sportstar for gully cricket).", "pronounce: Chepauk's IPA is an approximation of the Tamil name (Cēppākkam); no recorded pronunciation was found.", "habits: seat superstitions and watching outside shops are from general knowledge."]
+  },
+  {
+    "id": "pk",
+    "name": "Pakistan",
+    "covers": "Pakistan's national cricket teams and Pakistani cricket fans",
+    "dialect": "Pakistani English, with Urdu",
+    "words": [
+      {"term": "yaar", "say": "YAAR", "ipa": "jaːr", "tts": "", "means": "Mate, friend. Used in every other sentence.", "use": "Yaar, I can't watch the last over.", "common": true},
+      {"term": "bhai", "say": "BYE (with a breathy b)", "ipa": "bʱaɪ", "tts": "", "means": "Brother; how you address any man, from your best friend to the shopkeeper.", "use": "Bhai, turn it up, he's on a hat-trick.", "common": true},
+      {"term": "tape ball", "say": "TAYP bawl", "ipa": "", "tts": "", "means": "A tennis ball wrapped in electrical tape: the ball of street cricket. It started in Karachi and made generations of fast bowlers.", "use": "He learned his yorkers playing tape ball in the street.", "common": true},
+      {"term": "Ramzan tournament", "say": "rum-ZAHN TOOR-nuh-ment", "ipa": "rəmˈzaːn ˈtʊənəmənt", "tts": "rum zahn tournament", "means": "Night-time tape-ball competitions held during Ramadan, a big part of the street-cricket calendar.", "use": "Our team made the final of the Ramzan tournament.", "common": true},
+      {"term": "doosra", "say": "DOOS-ruh", "ipa": "ˈduːsɹə", "tts": "", "means": "Urdu for 'the other one': the off-spinner's ball that turns the other way. Pakistani spinners made it famous.", "use": "Beaten by the doosra. Never saw it coming.", "common": true},
+      {"term": "reverse swing", "say": "ree-VURS SWING", "ipa": "", "tts": "", "means": "Swing with the old ball, an art pioneered by Pakistani fast bowlers and still a point of pride.", "use": "Ball's forty overs old. Time for some reverse swing.", "common": true},
+      {"term": "the PSL", "say": "the pee-ess-EL", "ipa": "", "tts": "", "means": "The Pakistan Super League, the franchise T20 competition fans follow city by city.", "use": "Karachi or Lahore in the PSL? Pick a side.", "common": true},
+      {"term": "the Shaheens", "say": "the shah-HEENZ", "ipa": "ʃaːˈhiːnz", "tts": "", "means": "Pakistan's national side; a shaheen is a falcon. Also called the Green Shirts or the Men in Green.", "use": "Come on, Shaheens! Just one more wicket.", "common": true},
+      {"term": "Green Shirts", "say": "GREEN shirts", "ipa": "", "tts": "", "means": "Another name for the national side, after the green kit.", "use": "Green Shirts need forty off the last four.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Karachi", "say": "kuh-RAH-chee", "ipa": "kəˈɾɑːtʃi", "tts": "", "why": "The biggest city and the home of tape ball. Not 'kuh-RATCH-ee'."},
+      {"word": "Lahore", "say": "luh-HOR", "ipa": "ləˈhɔːɾ", "tts": "", "why": "Stress on the second syllable."},
+      {"word": "Rawalpindi", "say": "rah-wul-PIN-dee", "ipa": "ɾaːʋəlˈpɪndi", "tts": "", "why": "Test venue, home of the Pindi Stadium. Locals just say 'Pindi'."},
+      {"word": "Peshawar", "say": "peh-SHAH-wur", "ipa": "pɪˈʃɑːwər", "tts": "pesh ah war", "why": "Stress on the 'shah'."},
+      {"word": "Multan", "say": "mool-TAHN", "ipa": "mʊlˈtaːn", "tts": "", "why": "The southern Punjab city and Test venue. Stress on the second syllable."}
+    ],
+    "lines": [
+      {"t": "You never know which Pakistan will turn up.", "m": "Fans' favourite way of describing their gloriously unpredictable team."},
+      {"t": "Reverse swing is ours. We taught the world.", "m": "Pride in Pakistan's fast-bowling tradition."},
+      {"t": "Every great fast bowler here started with a tape ball.", "m": "Street cricket is where Pakistan's quicks are made."},
+      {"t": "Champions Trophy 2017. Still the best night.", "m": "Pakistan won the 2017 Champions Trophy at The Oval."},
+      {"t": "Karachi or Lahore? Can't support both in the PSL.", "m": "City pride decides your PSL team."}
+    ],
+    "avoid": [
+      {"say": "Karachi, the capital", "instead": "Islamabad, the capital", "why": "Karachi is the biggest city, but the capital is Islamabad."},
+      {"say": "kuh-RATCH-ee", "instead": "kuh-RAH-chee", "why": "The flat 'a' marks you as a visitor."},
+      {"say": "a home run", "instead": "a six", "why": "Baseball talk gives you away."}
+    ],
+    "habits": ["Streets, rooftops and car parks fill with tape-ball cricket every evening.", "During Ramadan, night-time tape-ball tournaments run after the fast is broken, with big crowds and prizes.", "Big matches are watched in groups at home, in cafes and on big screens, with chai on the go."],
+    "sources": ["https://en.wiktionary.org/wiki/yaar", "https://en.wiktionary.org/wiki/doosra", "https://en.wikipedia.org/wiki/Tape_ball", "https://www.dawn.com/news/1121087", "https://tribune.com.pk/story/2335819/jheel-park-to-get-tape-ball-cricket-ground", "https://en.wikipedia.org/wiki/Gully_cricket", "https://en.wikipedia.org/wiki/Pakistan_national_cricket_team", "https://en.wikipedia.org/wiki/Doosra", "https://en.wikipedia.org/wiki/Reverse_swing", "https://en.wikipedia.org/wiki/Karachi", "https://en.wikipedia.org/wiki/Lahore", "https://en.wiktionary.org/wiki/Peshawar"],
+    "unsure": ["words: 'zabardast', 'kamaal' and 'shabash' are everyday Urdu praise but had no Wiktionary page with a Pakistan label to cross-check, so they're left out; 'inshallah' left out as religious.", "words: 'the Shaheens' IPA is from the Urdu word shāhīn; no recorded pronunciation was checked.", "habits: the Ramadan tournaments are confirmed by Wikipedia and Dawn; group viewing with chai is general knowledge."]
+  },
+  {
+    "id": "lk",
+    "name": "Sri Lanka",
+    "covers": "Sri Lanka's national cricket teams (the Lions) and Sri Lankan cricket fans",
+    "dialect": "Sri Lankan English, with Sinhala and Tamil",
+    "words": [
+      {"term": "papare", "say": "pah-PAH-reh", "ipa": "paˈpaɾe", "tts": "pah pah reh", "means": "Fast, brassy band music played in the stands at cricket matches to lift the crowd.", "use": "The papare band never stopped all day.", "common": true},
+      {"term": "Big Match", "say": "BIG MATCH", "ipa": "", "tts": "", "means": "The annual cricket match between rival schools, a citywide festival. Schools close so students can go.", "use": "Big Match is next week. Nobody's working Thursday.", "common": true},
+      {"term": "Battle of the Blues", "say": "BAT-ul of the BLOOZ", "ipa": "", "tts": "", "means": "Royal College against S. Thomas' College, the most famous Big Match, played every March since the 1880s.", "use": "Royal or Thomian? You can't be neutral for the Battle of the Blues.", "common": true},
+      {"term": "cycle parade", "say": "SY-kul puh-RAYD", "ipa": "", "tts": "", "means": "The noisy procession of decorated bikes and bands through the city the day before a Big Match.", "use": "Traffic's stuck: it's the cycle parade.", "common": false},
+      {"term": "baila", "say": "BY-lah", "ipa": "ˈbaɪla", "tts": "", "means": "Sri Lankan dance music, played and danced to in the stands and the tents at big games.", "use": "Two wickets and the whole stand is doing the baila.", "common": true},
+      {"term": "aiyo", "say": "eye-YOH", "ipa": "aɪˈjoʊ", "tts": "eye yo", "means": "Oh no! The sound of a dropped catch or a run-out.", "use": "Aiyo, dropped him again.", "common": true},
+      {"term": "ayubowan", "say": "AH-yoo-boh-wun", "ipa": "aːjuˈboːwan", "tts": "ah you bo wan", "means": "The Sinhala greeting, wishing someone a long life. Heard as a welcome at grounds and on air.", "use": "Ayubowan, and welcome to Galle.", "common": true},
+      {"term": "Shape!", "say": "SHAYP", "ipa": "", "tts": "", "means": "Sri Lankan English for 'it's alright, no problem'.", "use": "Rain delay? Shape, we'll still get forty overs.", "common": false},
+      {"term": "the Lions", "say": "the LY-unz", "ipa": "", "tts": "", "means": "The national side's nickname, after the lion on the flag.", "use": "Come on, Lions! Big chase tonight.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Sri Lanka", "say": "shree LUNG-kah", "ipa": "ʃriː ˈlaŋkaː", "tts": "shree lunka", "why": "Locals say 'shree', with a broad 'a' in Lanka. Not 'sree LAN-kuh'."},
+      {"word": "Galle", "say": "GAHL", "ipa": "ˈɡaːlːə", "tts": "", "why": "The Test ground by the old fort. One syllable in English: not 'GAL-ee' or 'GAYL'."},
+      {"word": "Pallekele", "say": "pah-leh-KEH-leh", "ipa": "palːeˈkele", "tts": "pal eh kell eh", "why": "The stadium outside Kandy. Every e is short."}
+    ],
+    "lines": [
+      {"t": "1996. We beat the world.", "m": "Sri Lanka won the 1996 World Cup, the country's greatest sporting moment."},
+      {"t": "Galle on day one is a road. By day four it's spinning square.", "m": "The classic view of the Galle pitch."},
+      {"t": "Without papare it's not a match.", "m": "The band is half the fun of a day at the cricket."},
+      {"t": "Big Match season. Whole of Colombo goes mad.", "m": "March brings the school Big Matches, parades and parties."},
+      {"t": "Aiyo, the rain again.", "m": "Monsoon delays are the standard moan."}
+    ],
+    "avoid": [
+      {"say": "Ceylon", "instead": "Sri Lanka", "why": "The country has been Sri Lanka since 1972; Ceylon is for tea."},
+      {"say": "sree LAN-kuh", "instead": "shree LUNG-kah", "why": "The local way is softer and broader."},
+      {"say": "That's basically India", "instead": "Sri Lanka", "why": "Sri Lanka is its own country with its own languages and cricket culture."}
+    ],
+    "habits": ["Papare bands play in the stands all day, and the crowd dances along.", "In March, school Big Matches bring cycle parades, tents, flags and old boys flying home for the weekend.", "Fans watch big games together at home, at clubs or on big screens, and the whole island follows the Lions."],
+    "sources": ["https://en.wikipedia.org/wiki/Papare_(music)", "http://www.sundaytimes.lk/110227/Plus/plus_01.html", "https://en.wikipedia.org/wiki/Royal%E2%80%93Thomian", "https://english.newsfirst.lk/2025/11/24/cricket-fans-mark-your-calendars-dates-announced-for-147th-battle-of-the-blues", "https://www.thepapare.com/march-madness/", "https://en.wiktionary.org/wiki/aiyo", "https://en.wiktionary.org/wiki/ayubowan", "https://en.wikipedia.org/wiki/Sri_Lankan_English", "https://en.wikipedia.org/wiki/Indian_English", "https://en.wiktionary.org/wiki/Sri_Lanka", "https://en.wikipedia.org/wiki/Galle"],
+    "unsure": ["words: 'machan' (mate) and 'jayawewa' (victory) are very common but no dictionary entry could be opened to confirm them, so they're left out.", "words: 'baila' at Big Matches is from the Royal–Thomian article; its use at internationals is general knowledge.", "pronounce: Pallekele's IPA follows Sinhala spelling; no recorded pronunciation was found."]
+  },
+  {
+    "id": "caribbean",
+    "name": "the Caribbean",
+    "covers": "The West Indies cricket teams, drawn from over a dozen Caribbean countries and territories, and Caribbean cricket fans",
+    "dialect": "Caribbean English and Creoles (Jamaican, Trinidadian, Bajan and more)",
+    "words": [
+      {"term": "the Windies", "say": "the WIN-deez", "ipa": "ˈwɪndiːz", "tts": "", "means": "The West Indies cricket team.", "use": "Windies need sixty off the last five. Easy.", "common": true},
+      {"term": "liming", "say": "LY-ming", "ipa": "ˈlaɪmɪŋ", "tts": "", "means": "Hanging out with friends. A day at the cricket is a lime as much as a match. Trinidadian first, now everywhere.", "use": "We're liming at the Oval all day Saturday.", "common": true},
+      {"term": "big up", "say": "BIG UP", "ipa": "", "tts": "", "means": "Praise, respect. 'Big up yourself' means well done. Jamaican.", "use": "Big up the bowlers today, they were brilliant.", "common": true},
+      {"term": "irie", "say": "EYE-ree", "ipa": "ˈaɪɹi", "tts": "", "means": "Good, cool, everything's fine. Jamaican.", "use": "Sun's out, Windies batting. Everything irie.", "common": true},
+      {"term": "nuff", "say": "NUFF", "ipa": "nʌf", "tts": "", "means": "Plenty, a lot. 'Nuff respect' is high praise.", "use": "Nuff respect to the openers. What a stand.", "common": true},
+      {"term": "mash up", "say": "MASH UP", "ipa": "", "tts": "", "means": "To destroy or smash. A batter can mash up the bowling.", "use": "He mash up the bowling. Six sixes in the innings.", "common": true},
+      {"term": "steups", "say": "STEUPS", "ipa": "stɛps", "tts": "", "means": "The sound of sucking your teeth in annoyance, or the word for it. A dropped catch gets a steups.", "use": "Steups. Dropped him again.", "common": true},
+      {"term": "Bajan", "say": "BAY-jun", "ipa": "ˈbeɪdʒən", "tts": "", "means": "Someone from Barbados, or anything Barbadian.", "use": "Bajans think Kensington Oval is the best ground in the world.", "common": true},
+      {"term": "Trini", "say": "TRIN-ee", "ipa": "ˈtɹɪni", "tts": "", "means": "Someone from Trinidad, or anything Trinidadian.", "use": "Trinis bring the loudest party to the cricket.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Antigua", "say": "an-TEE-guh", "ipa": "ænˈtiːɡə", "tts": "antiga", "why": "No w sound: not 'an-TIG-wah' or 'an-TEE-gwuh'."},
+      {"word": "Grenada", "say": "gruh-NAY-duh", "ipa": "ɡɹəˈneɪdə", "tts": "gruh nay duh", "why": "Rhymes with 'say'. 'Gruh-NAH-duh' is the city in Spain."},
+      {"word": "Guyana", "say": "guy-AN-uh", "ipa": "ɡaɪˈænə", "tts": "guy anna", "why": "On the South American mainland, but proudly West Indian. Starts like 'guy'."},
+      {"word": "Dominica", "say": "dom-ih-NEE-kuh", "ipa": "ˌdɒmɪˈniːkə", "tts": "", "why": "Stress on 'nee'. Not the Dominican Republic."}
+    ],
+    "lines": [
+      {"t": "Back in the eighties, nobody could touch us.", "m": "The great West Indies sides of the 1980s won 11 Tests in a row in 1984."},
+      {"t": "Two T20 World Cups. We know how to win the short stuff.", "m": "West Indies won the T20 World Cup in 2012 and 2016, and the 50-over World Cup in 1975 and 1979."},
+      {"t": "Which island you from?", "m": "Fans are Windies together, but island pride never sleeps."},
+      {"t": "Big up the bowlers. They mash up the top order.", "m": "Praise after a good bowling day."},
+      {"t": "Steups. Rain again.", "m": "The sound of a rain delay."}
+    ],
+    "avoid": [
+      {"say": "the West Indies, the country", "instead": "the West Indies, the team", "why": "The team represents over a dozen countries and territories."},
+      {"say": "So you're Jamaican?", "instead": "Which island are you from?", "why": "Every island has its own pride, and assuming Jamaica grates."},
+      {"say": "an-TIG-wah", "instead": "an-TEE-guh", "why": "The w gives you away straight off."}
+    ],
+    "habits": ["A day at the cricket is a party: music, horns, dancing and food in the stands, with the noisiest crowds in the party stands.", "Fans lime at the ground with friends all day, and the cricket is only part of it.", "The Caribbean Premier League runs in late summer, with each island backing its own franchise."],
+    "sources": ["https://en.wiktionary.org/wiki/Windies", "https://en.wikipedia.org/wiki/West_Indies_cricket_team", "https://en.wikipedia.org/wiki/Trinidadian_and_Tobagonian_English", "https://globalvoices.org/2021/09/09/the-origins-of-liming-in-trinidad-and-tobago/", "https://en.wiktionary.org/wiki/lime", "https://en.wiktionary.org/wiki/big_up", "https://en.wiktionary.org/wiki/irie", "https://en.wiktionary.org/wiki/nuff", "https://en.wiktionary.org/wiki/mash_up", "https://en.wiktionary.org/wiki/steups", "https://en.wiktionary.org/wiki/Bajan", "https://en.wiktionary.org/wiki/Trini", "https://en.wiktionary.org/wiki/Antigua", "https://en.wiktionary.org/wiki/Guyana"],
+    "unsure": ["words: confirmed in Wiktionary and Wikipedia; Caribbean newspapers and the wiwords.com dictionary couldn't be opened, so only 'liming' has a Caribbean-written source (Global Voices).", "words: 'bacchanal', 'licks', 'allyuh' and 'Vincy' left out for lack of a checkable source.", "lines: the famous 15-year unbeaten run in Test series (1980-1995) isn't stated in the Wikipedia article checked, so the line uses the confirmed 11-Test winning streak of 1984.", "habits: party stands, music and CPL timing are from general knowledge."]
+  },
+  {
+    "id": "ca-ontario",
+    "name": "Toronto and Ontario",
+    "covers": "Toronto, Ottawa and Hamilton (the Maple Leafs, Senators, Raptors, Blue Jays, Argonauts, Redblacks, Tiger-Cats and Toronto FC)",
+    "dialect": "Canadian English, with Toronto slang (Multicultural Toronto English)",
+    "words": [
+      {"term": "eh", "say": "AY", "ipa": "eɪ", "tts": "A", "means": "The tag that turns a sentence into a question: 'right?' Said like the letter A. Once in a while, not every sentence.", "use": "Cold one at the game tonight, eh?", "common": true},
+      {"term": "the Six", "say": "the SIX", "ipa": "ðə sɪks", "tts": "the six", "means": "Toronto. Also written 'the 6ix', after the 416 and 647 area codes.", "use": "Nothing like the Six when the Raptors are rolling.", "common": true},
+      {"term": "the Big Smoke", "say": "the big SMOKE", "ipa": "", "tts": "", "means": "Toronto, usually from someone outside it.", "use": "Heading into the Big Smoke for the Leafs game.", "common": true},
+      {"term": "the 905", "say": "the nine-oh-FIVE", "ipa": "ðə naɪn oʊ faɪv", "tts": "the nine oh five", "means": "The suburbs around Toronto, after their area code. The city itself is 'the 416'.", "use": "Half the crowd drives in from the 905.", "common": true},
+      {"term": "the Hammer", "say": "the HAM-er", "ipa": "", "tts": "", "means": "Hamilton, the steel city, home of the Tiger-Cats.", "use": "Labour Day in the Hammer. Ticats and Argos.", "common": true},
+      {"term": "ahlie", "say": "uh-LIE", "ipa": "əˈlaɪ", "tts": "uh lie", "means": "'Right?' or 'for real'. Toronto slang from Jamaican Patois.", "use": "That was a beauty of a goal, ahlie?", "common": true},
+      {"term": "mans", "say": "MANZ", "ipa": "mænz", "tts": "", "means": "Toronto slang for 'he', 'I' or 'guys'. 'Mans was cooking' means he was playing great.", "use": "Mans had thirty points by the third quarter.", "common": true},
+      {"term": "cheesed", "say": "CHEEZD", "ipa": "tʃiːzd", "tts": "", "means": "Annoyed, fed up.", "use": "I'm cheesed about that call, honestly.", "common": true},
+      {"term": "styll", "say": "STILL", "ipa": "stɪl", "tts": "still", "means": "'For real', 'I agree'. Tagged on the end for emphasis.", "use": "Best fans in the league, styll.", "common": false},
+      {"term": "Timmies", "say": "TIM-eez", "ipa": "ˈtɪmiz", "tts": "", "means": "Tim Hortons, the coffee-and-doughnut chain. The first one opened in Hamilton in 1964.", "use": "Timmies run before puck drop?", "common": true},
+      {"term": "double-double", "say": "DUB-ul DUB-ul", "ipa": "", "tts": "", "means": "A coffee with two creams and two sugars, the classic Timmies order.", "use": "Grab me a double-double, I'll save the seats.", "common": true},
+      {"term": "two-four", "say": "too-FOR", "ipa": "tuˈfɔɹ", "tts": "", "means": "A case of 24 beers. The May long weekend is 'May two-four'.", "use": "Bring a two-four, the game's at my place.", "common": true},
+      {"term": "keener", "say": "KEE-ner", "ipa": "ˈkiːnɚ", "tts": "", "means": "Someone a bit too eager. The guy doing the stats in the group chat.", "use": "Don't be a keener, we're not making a spreadsheet of the standings.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Toronto", "say": "tuh-RAH-no", "ipa": "təˈɹɑnoʊ", "tts": "tuh rah no", "why": "Locals drop the second t; some squash it to 'TRAH-no'. Both t's sounds like a visitor."},
+      {"word": "Etobicoke", "say": "eh-TOE-bih-coe", "ipa": "ɪˈtoʊbɪkoʊ", "tts": "", "why": "Toronto's west end. The k is silent."},
+      {"word": "Spadina", "say": "spuh-DY-nuh", "ipa": "spəˈdaɪnə", "tts": "spuh dye nuh", "why": "The avenue near the ballpark and the arena. 'Dy', not 'dee'."},
+      {"word": "Yonge", "say": "YUNG", "ipa": "jʌŋ", "tts": "young", "why": "Toronto's main street, said like 'young'."},
+      {"word": "Mississauga", "say": "miss-ih-SAW-guh", "ipa": "ˌmɪsɪˈsɔːɡə", "tts": "", "why": "The big city west of Toronto, in the 905. Often just 'Sauga'."}
+    ],
+    "lines": [
+      {"t": "Same old Leafs.", "m": "The Toronto moan. The Leafs haven't won the Cup since 1967."},
+      {"t": "Jays took the Dodgers to seven in '25. So close.", "m": "The Blue Jays lost the 2025 World Series in seven games, after titles in 1992 and 1993."},
+      {"t": "Battle of Ontario tonight. Ottawa's going to be loud.", "m": "Leafs against Senators: Toronto against the capital."},
+      {"t": "Gardiner's a parking lot. I'm going to miss puck drop.", "m": "Moaning about getting downtown is a Toronto ritual."},
+      {"t": "Hamilton's a football town. Always has been.", "m": "The Tiger-Cats are the Hammer's pride, and Labour Day against the Argos is the big one."}
+    ],
+    "avoid": [
+      {"say": "Toronto, the capital", "instead": "Ottawa, the capital", "why": "Toronto's the biggest city, but Ottawa's the capital, and Sens fans will tell you."},
+      {"say": "tor-ON-toe", "instead": "tuh-RAH-no", "why": "Saying both t's marks you as from out of town."},
+      {"say": "Hamilton's basically Toronto", "instead": "Hamilton", "why": "The Hammer is its own city and doesn't like being lumped in."}
+    ],
+    "habits": ["Saturday night is Hockey Night in Canada, usually with the Leafs on.", "Big playoff games fill the square outside the arena with fans watching on the big screen.", "A Timmies run on the way to the rink or the game.", "Summer weekends up at the cottage, with the Jays on the radio."],
+    "sources": ["https://en.wiktionary.org/wiki/eh", "https://en.wiktionary.org/wiki/Big_Smoke", "https://en.wiktionary.org/wiki/ahlie", "https://en.wiktionary.org/wiki/mans", "https://en.wiktionary.org/wiki/cheesed", "https://en.wiktionary.org/wiki/styll", "https://en.wiktionary.org/wiki/Timmies", "https://en.wiktionary.org/wiki/two-four", "https://en.wiktionary.org/wiki/keener", "https://en.wikipedia.org/wiki/Multicultural_Toronto_English", "https://magazine.utoronto.ca/research-ideas/culture-society/do-you-know-toronto-slang/", "https://www.narcity.com/toronto/toronto-slang-words", "https://en.wikipedia.org/wiki/Canadian_English", "https://en.wiktionary.org/wiki/Toronto", "https://en.wiktionary.org/wiki/Etobicoke", "https://en.wiktionary.org/wiki/Spadina", "https://en.wikipedia.org/wiki/2025_World_Series"],
+    "unsure": ["words: the Dictionary of Canadianisms (DCHP-2) wouldn't load, so the Canadianisms rest on Wiktionary's Canada labels and Wikipedia; Toronto slang also on the U of T Magazine and Narcity (from Wikipedia's references).", "words: 'the 905' and 'the Hammer' are from general knowledge and Raptors 905's name; no dictionary page was opened for them.", "words: Toronto slang (ahlie, mans, styll) is mostly younger people's talk; older fans may not use it."]
+  },
+  {
+    "id": "ca-quebec",
+    "name": "Montreal",
+    "covers": "Montreal and Quebec (the Canadiens, Alouettes and CF Montréal)",
+    "dialect": "Quebec French and Montreal English, with plenty of switching between them",
+    "words": [
+      {"term": "le but!", "say": "luh BUE", "ipa": "lə by", "tts": "lah bue", "means": "Goal! What the French broadcasters and the Bell Centre shout when the Habs score.", "use": "Et le but! Quel tir!", "common": true},
+      {"term": "la rondelle", "say": "la ron-DELL", "ipa": "la ʁɔ̃dɛl", "tts": "", "means": "The puck, in Quebec French. In France it's 'le palet'.", "use": "Lance la rondelle! Just shoot it!", "common": true},
+      {"term": "tour du chapeau", "say": "TOOR dew sha-POH", "ipa": "tuʁ dy ʃapo", "tts": "", "means": "A hat trick.", "use": "Un tour du chapeau au Centre Bell, the hats are coming down.", "common": true},
+      {"term": "patinoire", "say": "pa-tee-NWAR", "ipa": "patinwaʁ", "tts": "", "means": "A skating rink, especially the outdoor ones in every park all winter.", "use": "Shinny at the patinoire after work?", "common": true},
+      {"term": "plate", "say": "PLAT", "ipa": "plat", "tts": "platt", "means": "Boring, or a shame. 'C'est plate' is the Quebec verdict on a dull game.", "use": "Zero shots in the first period. C'est plate.", "common": true},
+      {"term": "écœurant", "say": "ay-ker-RAHN", "ipa": "ekœʁɑ̃", "tts": "eh ker ron", "means": "Quebec slang for amazing, brilliant. (In France it means sickening.)", "use": "Ce but-là, c'était écœurant!", "common": true},
+      {"term": "the dep", "say": "the DEP", "ipa": "ðə dɛp", "tts": "the depp", "means": "The corner store (dépanneur), where you grab beer before the game. Montreal English.", "use": "Stop at the dep, we need beer for the game.", "common": true},
+      {"term": "5 à 7", "say": "SANK ah SET", "ipa": "sɛ̃k a sɛt", "tts": "sank ah set", "means": "After-work drinks, roughly 5 to 7 p.m. Said in English too.", "use": "5 à 7 downtown, then the game at the Bell Centre.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Montréal", "say": "mun-tree-ALL (English), mon-ray-AL (French)", "ipa": "ˌmʌntɹiˈɑl", "tts": "", "why": "English Montrealers say 'mun-tree-ALL'; in French it's 'mon-ray-AL'. Either works locally; 'MON-tree-al' doesn't."},
+      {"word": "Canadiens", "say": "kuh-NAY-dee-enz (English), ka-na-DYEN (French)", "ipa": "kəˈneɪdiənz", "tts": "", "why": "Spelled with an e, the French way, in both languages."},
+      {"word": "Châteauguay", "say": "SHAT-oh-gay", "ipa": "ˈʃætoʊɡeɪ", "tts": "shat oh gay", "why": "South Shore town. Anglophones say SHAT-oh-gay; no w sound."}
+    ],
+    "lines": [
+      {"t": "Twenty-four Cups. Nobody else is close.", "m": "The Canadiens have won the Stanley Cup a record 24 times."},
+      {"t": "Conference final in '26. La Coupe s'en vient.", "m": "'The Cup is coming.' The Habs reached the 2026 Eastern Conference Final; their last Cup, in 1993, is still the last by a Canadian team."},
+      {"t": "C'est plate, ce match-là.", "m": "'That game's boring.' The standard verdict on a dull night."},
+      {"t": "5 à 7, then the game?", "m": "The Montreal plan for a weeknight game."},
+      {"t": "Grand Prix weekend. The whole city's out on the terrasses.", "m": "The Canadian Grand Prix fills Montreal; since 2026 it's held in late May."}
+    ],
+    "avoid": [
+      {"say": "Montreal, the capital of Quebec", "instead": "Quebec City, the capital", "why": "Montreal's the biggest city, but the capital is Quebec City."},
+      {"say": "le palet", "instead": "la rondelle", "why": "Palet is France's word for the puck; it sounds like a tourist from Paris."},
+      {"say": "the Montreal Canadians", "instead": "the Canadiens, or the Habs", "why": "It's spelled and said the French way."}
+    ],
+    "habits": ["Many fans follow the Habs in French on RDS or TVA Sports, and switch languages mid-sentence at the bar.", "Every park has an outdoor patinoire in winter, busy from after school until late.", "After a big playoff win, fans pour onto rue Sainte-Catherine honking car horns."],
+    "sources": ["https://en.wiktionary.org/wiki/rondelle", "https://en.wiktionary.org/wiki/tour_du_chapeau", "https://en.wiktionary.org/wiki/patinoire", "https://en.wiktionary.org/wiki/plate", "https://en.wiktionary.org/wiki/%C3%A9c%C5%93urant", "https://en.wiktionary.org/wiki/d%C3%A9panneur", "https://en.wiktionary.org/wiki/cinq_%C3%A0_sept", "https://en.wikipedia.org/wiki/Canadian_English", "https://en.wiktionary.org/wiki/Canadiens", "https://en.wikipedia.org/wiki/Ch%C3%A2teauguay", "https://en.wikipedia.org/wiki/2026_Stanley_Cup_Final", "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix"],
+    "unsure": ["words: Quebec French senses are confirmed in Wiktionary (Quebec or North America labels) only; the OQLF and Usito weren't reachable without search, and 'plate' has no Quebec label in Wiktionary.", "words: 'les séries' (the playoffs), 'lâche pas' and 'malade' (awesome) left out for lack of a second source.", "habits: horn-honking on Sainte-Catherine and switching languages at the bar are from general knowledge."]
+  },
+  {
+    "id": "ca-prairies",
+    "name": "the Prairies",
+    "covers": "Calgary, Edmonton, Winnipeg and Saskatchewan (the Flames, Oilers, Jets, Stampeders, Elks, Roughriders and Blue Bombers)",
+    "dialect": "Prairie Canadian English",
+    "words": [
+      {"term": "bunnyhug", "say": "BUN-ee-hug", "ipa": "ˈbʌnihʌɡ", "tts": "bunny hug", "means": "A hoodie, in Saskatchewan. Using it marks you as from the province.", "use": "Grab your green bunnyhug, Riders are on.", "common": true},
+      {"term": "Rider Nation", "say": "RY-der NAY-shun", "ipa": "", "tts": "", "means": "Saskatchewan Roughriders fans, wherever they live. The whole province counts.", "use": "Rider Nation travels. Half the stadium's green.", "common": true},
+      {"term": "the Battle of Alberta", "say": "the BAT-ul of al-BUR-tuh", "ipa": "", "tts": "", "means": "Flames against Oilers, Calgary against Edmonton. Also the cities' rivalry in general.", "use": "Battle of Alberta tonight. My brother-in-law's an Oilers fan.", "common": true},
+      {"term": "Cowtown", "say": "COW-town", "ipa": "ˈkaʊtaʊn", "tts": "", "means": "Calgary, after its ranching roots and the Stampede.", "use": "Flames win and all of Cowtown's honking.", "common": true},
+      {"term": "Winterpeg", "say": "WIN-ter-peg", "ipa": "ˈwɪntəɹpɛɡ", "tts": "", "means": "Winnipeg, in winter. Winnipeggers say it with pride.", "use": "Minus thirty in Winterpeg and the rink's still packed.", "common": true},
+      {"term": "chinook", "say": "shuh-NOOK", "ipa": "ʃɪˈnʊk", "tts": "", "means": "The warm, dry wind off the Rockies that can lift a Calgary winter day by twenty degrees.", "use": "Chinook's coming. Plus ten by Saturday's game.", "common": true},
+      {"term": "jambuster", "say": "JAM-bus-ter", "ipa": "ˈdʒæmbʌstɚ", "tts": "", "means": "A jam-filled doughnut, in Manitoba.", "use": "Grab a jambuster on the way to the Bombers game.", "common": false},
+      {"term": "gitch", "say": "GITCH", "ipa": "ɡɪtʃ", "tts": "", "means": "Underwear, in Saskatchewan and Manitoba. Hence the 'lucky gitch' worn all playoffs.", "use": "Same lucky gitch till they lose. That's the rule.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Regina", "say": "ruh-JY-nuh", "ipa": "ɹɪˈdʒaɪnə", "tts": "ruh jine uh", "why": "Home of the Riders. It rhymes with 'China', not 'Gina'."},
+      {"word": "Saskatchewan", "say": "suh-SKATCH-uh-wun", "ipa": "səˈskætʃəwən", "tts": "", "why": "Locals often just say 'Sask'. The last syllable is a quick 'wun'."},
+      {"word": "Calgary", "say": "CAL-gree", "ipa": "ˈkælɡɹi", "tts": "", "why": "Locals squash it to two syllables."},
+      {"word": "Assiniboine", "say": "uh-SIN-ih-boyn", "ipa": "əˈsɪnɪbɔɪn", "tts": "", "why": "Winnipeg's river, and plenty of streets and parks."}
+    ],
+    "lines": [
+      {"t": "Battle of Alberta tonight. Pick a side.", "m": "Flames against Oilers. There's no neutral in Alberta."},
+      {"t": "Grey Cup champs. Rider Nation's still celebrating.", "m": "Saskatchewan beat Montreal 25-17 in the 2025 Grey Cup in Winnipeg."},
+      {"t": "Two Finals in a row and nothing to show for it.", "m": "The Edmonton moan: the Oilers lost the 2024 and 2025 Stanley Cup Finals to Florida."},
+      {"t": "Chinook's coming. Plus ten by the weekend.", "m": "Calgary's warm winter wind, the cheerful weather line."},
+      {"t": "It's a dry cold.", "m": "Winnipeg's standard comeback about the winter."}
+    ],
+    "avoid": [
+      {"say": "Calgary, the capital of Alberta", "instead": "Edmonton, the capital", "why": "Calgary's bigger, but Edmonton's the capital, and Oilers fans will mention it."},
+      {"say": "ruh-JEE-nuh", "instead": "ruh-JY-nuh", "why": "Getting Regina wrong is the classic outsider slip."},
+      {"say": "Saskatchewan doesn't have a team", "instead": "the Riders are Saskatchewan's team", "why": "The Roughriders are followed across the whole province, in every small town."}
+    ],
+    "habits": ["Rider Nation wears green on game day across Saskatchewan, some with watermelon helmets.", "The Calgary Stampede takes over the city for ten days every July: cowboy hats, jeans and pancake breakfasts.", "Outdoor rinks in every town all winter, and the late game on Hockey Night in Canada is often Calgary, Edmonton or Winnipeg."],
+    "sources": ["https://en.wiktionary.org/wiki/bunny_hug", "https://en.wikipedia.org/wiki/Canadian_English", "https://en.wiktionary.org/wiki/Cowtown", "https://en.wiktionary.org/wiki/Winterpeg", "https://en.wiktionary.org/wiki/chinook", "https://en.wiktionary.org/wiki/jambuster", "https://en.wiktionary.org/wiki/gitch", "https://en.wikipedia.org/wiki/Battle_of_Alberta", "https://en.wikipedia.org/wiki/Saskatchewan_Roughriders", "https://en.wikipedia.org/wiki/112th_Grey_Cup", "https://en.wikipedia.org/wiki/Regina,_Saskatchewan", "https://en.wiktionary.org/wiki/Calgary"],
+    "unsure": ["words: the Dictionary of Canadianisms (DCHP-2) wouldn't load and local papers couldn't be searched, so Prairie words rest on Wiktionary's regional labels and Wikipedia.", "words: 'slough' (said SLOO), 'social' (a Manitoba fundraising dance) and 'give'r' left out: no source could be opened for the local sense or pronunciation.", "habits: watermelon helmets, Stampede details and late HNIC games are from general knowledge."]
+  },
+  {
+    "id": "ca-bc",
+    "name": "Vancouver and BC",
+    "covers": "Vancouver and British Columbia (the Canucks, BC Lions and Whitecaps)",
+    "dialect": "West Coast Canadian English, with some Chinook Jargon",
+    "words": [
+      {"term": "skookum", "say": "SKOO-kum", "ipa": "ˈskuːkəm", "tts": "", "means": "Great, strong, solid. From Chinook Jargon, the old trade language of the coast.", "use": "That was a skookum hit along the boards.", "common": true},
+      {"term": "Raincouver", "say": "rain-COO-ver", "ipa": "ɹeɪnˈkuːvɚ", "tts": "", "means": "Vancouver, on one of its many wet days. Also 'the Wet Coast'.", "use": "Raincouver again. Good thing BC Place has a roof.", "common": true},
+      {"term": "the Lower Mainland", "say": "the LOW-er MAIN-land", "ipa": "", "tts": "", "means": "Vancouver and the suburbs around it.", "use": "Traffic from anywhere in the Lower Mainland is brutal on game night.", "common": true},
+      {"term": "Lotusland", "say": "LOH-tus-land", "ipa": "ˈloʊtəslænd", "tts": "", "means": "Vancouver (or all of BC) as the laid-back good life. Coined by a Vancouver Sun writer.", "use": "Canucks fans in Lotusland, too relaxed to boo.", "common": false},
+      {"term": "Vancity", "say": "VAN-sit-ee", "ipa": "ˈvænsɪti", "tts": "", "means": "Vancouver. Started in local hip hop, now everywhere.", "use": "Vancity's buzzing for the playoffs.", "common": true},
+      {"term": "the 604", "say": "the six-oh-FOUR", "ipa": "ðə sɪks oʊ fɔɹ", "tts": "the six oh four", "means": "Vancouver, after its area code.", "use": "Best fans in the 604.", "common": true},
+      {"term": "the Drive", "say": "the DRYVE", "ipa": "", "tts": "", "means": "Commercial Drive, the East Van street known for its cafés and big crowds for soccer.", "use": "Watching the final on the Drive. It'll be packed.", "common": true},
+      {"term": "No Fun City", "say": "NO FUN SIT-ee", "ipa": "", "tts": "", "means": "Vancouver's own joke about early closing times and strict rules.", "use": "Bars closing already? No Fun City strikes again.", "common": true},
+      {"term": "saltchuck", "say": "SALT-chuck", "ipa": "ˈsɔltʃʌk", "tts": "", "means": "The ocean, in Chinook Jargon. Still heard on the coast.", "use": "Morning on the saltchuck, Canucks at night.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Tsawwassen", "say": "tuh-WAH-sun", "ipa": "təˈwɑːsən", "tts": "tuh wah sun", "why": "The ferry terminal town. The Ts is a quick 't'."},
+      {"word": "Coquitlam", "say": "koh-KWIT-lum", "ipa": "koʊˈkwɪtləm", "tts": "", "why": "Suburb east of Vancouver. Stress on 'KWIT'."},
+      {"word": "Nanaimo", "say": "nuh-NY-moh", "ipa": "nəˈnaɪmoʊ", "tts": "", "why": "On Vancouver Island, and famous for its bars (the dessert)."},
+      {"word": "Squamish", "say": "SKWAH-mish", "ipa": "ˈskwɔːmɪʃ", "tts": "skwah mish", "why": "On the Sea-to-Sky road to Whistler. 'SKWAH', not 'SKWAY'."},
+      {"word": "Sechelt", "say": "SEE-shelt", "ipa": "ˈsiːʃɛlt", "tts": "see shelt", "why": "On the Sunshine Coast. The ch is a 'sh'."},
+      {"word": "Ucluelet", "say": "yoo-CLUE-let", "ipa": "juːˈkluːlɪt", "tts": "you clue let", "why": "Surf town on the Island's west coast. Starts with a 'you'."}
+    ],
+    "lines": [
+      {"t": "East Coast bias, as usual.", "m": "Canucks fans' complaint: home games start at 7 p.m. Pacific, 10 p.m. in Toronto, so the national media ignore them."},
+      {"t": "This is the year. Again.", "m": "The Canucks reached the Final in 1982, 1994 and 2011 but have never won the Cup."},
+      {"t": "Whitecaps made MLS Cup last year. That's skookum.", "m": "Vancouver reached MLS Cup 2025, losing to Inter Miami."},
+      {"t": "Raincouver strikes again.", "m": "The default weather moan."},
+      {"t": "Ski in the morning, game at night. Only in Van.", "m": "Local pride in the mountains-and-ocean lifestyle."}
+    ],
+    "avoid": [
+      {"say": "Vancouver, the capital of BC", "instead": "Victoria, the capital", "why": "Vancouver's the big city, but the capital is Victoria, over on the Island."},
+      {"say": "Vancouver's on Vancouver Island", "instead": "Vancouver's on the mainland", "why": "The city is on the mainland. Victoria and Nanaimo are on the Island."},
+      {"say": "TSAH-wah-sen", "instead": "tuh-WAH-sun", "why": "Sounding out the Ts is the giveaway."}
+    ],
+    "habits": ["Canucks home games start at 7 p.m.; road games out east mean a 4 p.m. puck drop and an early exit from work.", "Big soccer nights fill the cafés and bars on Commercial Drive with flags and noise.", "Saturday ends with the late game on Hockey Night in Canada, often the Canucks."],
+    "sources": ["https://en.wiktionary.org/wiki/skookum", "https://en.wikipedia.org/wiki/Canadian_English", "https://en.wikipedia.org/wiki/Nicknames_of_Vancouver", "https://dailyhive.com/vancouver/vancouver-no-fun-city-opinion", "https://en.wiktionary.org/wiki/Lower_Mainland", "https://en.wiktionary.org/wiki/Lotusland", "https://en.wiktionary.org/wiki/saltchuck", "https://en.wikipedia.org/wiki/Commercial_Drive", "https://en.wikipedia.org/wiki/MLS_Cup_2025", "https://en.wikipedia.org/wiki/Tsawwassen", "https://en.wiktionary.org/wiki/Coquitlam", "https://en.wiktionary.org/wiki/Nanaimo", "https://en.wikipedia.org/wiki/Squamish,_British_Columbia", "https://en.wikipedia.org/wiki/Ucluelet"],
+    "unsure": ["words: DCHP-2 wouldn't load and local papers couldn't be searched, so BC words rest on Wiktionary (BC labels) and Wikipedia's 'Nicknames of Vancouver' (with its Vancouver Sun, Georgia Straight and Daily Hive references).", "habits: soccer crowds on Commercial Drive are well known but Wikipedia's article doesn't mention them; 'East Coast bias' is a common fan complaint without a dictionary source.", "lines: the Canucks' Final years are from general knowledge; no page was opened to check them."]
+  }
+]

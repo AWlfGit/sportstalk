@@ -1,0 +1,560 @@
+[
+  {
+    "id": "us-atlanta",
+    "name": "Atlanta",
+    "covers": "Atlanta and Georgia",
+    "dialect": "Southern American English, Atlanta style",
+    "words": [
+      {"term": "y'all", "say": "YAWL", "ipa": "jɔl", "tts": "", "means": "You all. The everyday plural 'you' across Georgia.", "use": "Y'all watching the game tonight?", "common": true},
+      {"term": "fixin' to", "say": "FIK-sin too", "ipa": "ˈfɪksɪn tu", "tts": "", "means": "About to.", "use": "I'm fixin' to head downtown for the game.", "common": true},
+      {"term": "ITP", "say": "EYE-tee-PEE", "ipa": "ˌaɪ tiː ˈpiː", "tts": "", "means": "Inside the Perimeter: in the city, inside the I-285 loop.", "use": "We're ITP, so we'll take MARTA to the game.", "common": true},
+      {"term": "OTP", "say": "OH-tee-PEE", "ipa": "ˌoʊ tiː ˈpiː", "tts": "", "means": "Outside the Perimeter: the suburbs beyond I-285.", "use": "He's OTP now, so he watches from a sports bar in Marietta.", "common": true},
+      {"term": "the Perimeter", "say": "thuh puh-RIM-ih-ter", "ipa": "", "tts": "", "means": "I-285, the highway loop around the city. Locals also just say '285'.", "use": "Wreck on the Perimeter, I'll miss kickoff.", "common": true},
+      {"term": "the Connector", "say": "thuh kuh-NEK-ter", "ipa": "", "tts": "", "means": "The downtown stretch where I-75 and I-85 run together, famous for traffic.", "use": "The Connector's backed up, leave early.", "common": true},
+      {"term": "the A", "say": "thee AY", "ipa": "ði ˈeɪ", "tts": "the A", "means": "Atlanta. The most common local shorthand, alongside ATL.", "use": "Nobody in the A is calm during the playoffs.", "common": true},
+      {"term": "A-Town", "say": "AY-town", "ipa": "ˈeɪ taʊn", "tts": "A town", "means": "Another fond name for Atlanta, popular in music and sports.", "use": "A-Town showed up loud tonight.", "common": false},
+      {"term": "Dawgs", "say": "DAWGZ", "ipa": "dɔɡz", "tts": "", "means": "The Georgia Bulldogs (UGA). Huge in Atlanta, even among pro fans.", "use": "Go Dawgs! Then the Falcons on Sunday.", "common": true},
+      {"term": "Clean, Old-Fashioned Hate", "say": "KLEEN ohld-FASH-und HAYT", "ipa": "", "tts": "", "means": "The name of the Georgia vs. Georgia Tech football rivalry, played at the end of the season.", "use": "It's Clean, Old-Fashioned Hate week, so pick a side.", "common": false},
+      {"term": "coke", "say": "KOHK", "ipa": "koʊk", "tts": "", "means": "Any soft drink, in much of the South. Coca-Cola is an Atlanta company.", "use": "Grab me a coke from the cooler, a Sprite's fine.", "common": false},
+      {"term": "lemon pepper wet", "say": "LEM-un PEP-er WET", "ipa": "", "tts": "", "means": "The city's signature wing order: lemon pepper wings tossed in extra butter or sauce. Standard game-night food.", "use": "Get two dozen lemon pepper wet for the watch party.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Atlanta", "say": "at-LAN-uh", "ipa": "ætˈlænə", "tts": "at lanna", "why": "Many locals drop the second t ('At-lanna'). Saying every letter is fine, but sounds new in town."},
+      {"word": "Ponce de Leon", "say": "PAHNS duh LEE-un", "ipa": "ˌpɑns də ˈliːən", "tts": "pahns duh lee un", "why": "The avenue and Ponce City Market. Not said the Spanish way; locals mostly just say 'Ponce'."},
+      {"word": "DeKalb", "say": "dee-KAB", "ipa": "dɪˈkæb", "tts": "dee cab", "why": "The county east of the city. The l is silent."},
+      {"word": "Gwinnett", "say": "gwih-NET", "ipa": "ɡwɪˈnɛt", "tts": "gwin net", "why": "The big suburban county to the northeast. Stress the end."},
+      {"word": "Chattahoochee", "say": "chat-uh-HOO-chee", "ipa": "ˌtʃætəˈhuːtʃi", "tts": "", "why": "The river on the city's northwest side. Locals shorten it to 'the Hooch'."}
+    ],
+    "lines": [
+      {"t": "Y'all ITP or OTP? Let's meet somewhere in the middle.", "m": "Everyone in Atlanta sorts friends by the Perimeter."},
+      {"t": "Leave now. The Connector's a parking lot by four.", "m": "Traffic is the city's favorite moan, game day or not."},
+      {"t": "Saturday's for college football. The pros get Sunday.", "m": "Georgia is SEC country first."},
+      {"t": "Don't call it Hotlanta. It's the A.", "m": "Locals wince at the old nickname."},
+      {"t": "It's not the heat, it's the humidity.", "m": "Said at every summer day game."},
+      {"t": "Atlanta always finds a way to make it interesting.", "m": "Rueful pride after years of near-misses; a local can say it, a visitor shouldn't."}
+    ],
+    "avoid": [
+      {"say": "Hotlanta", "instead": "the A, or ATL", "why": "Locals find the old nickname dated and corny."},
+      {"say": "Ponce, said the Spanish way", "instead": "Ponce, rhyming with 'response'", "why": "The avenue is said the Atlanta way, not the Spanish way."},
+      {"say": "Meet me on Peachtree", "instead": "Peachtree Street at 10th", "why": "Dozens of streets carry the name, so locals always say which one."},
+      {"say": "Got any Pepsi?", "instead": "Is Coke OK?", "why": "Coca-Cola is an Atlanta company and locals are loyal to it."}
+    ],
+    "habits": ["College football Saturdays come first for many: UGA, Georgia Tech and SEC games fill the bars before the pros play on Sunday.", "Game plans start with traffic: MARTA to the downtown stadium and arena, or leaving very early for the ballpark in Cobb County.", "Watch parties run on wings, and the order is usually lemon pepper wet."],
+    "sources": ["https://www.ajc.com/accessatl/2022/09/visiting-atlanta-or-just-recently-moved-here-are-10-things-you-need-to-know-about-the-city/", "https://atlanta.com/articles/georgia/atlanta-georgia-slang", "https://www.mentalfloss.com/language/slang/atlanta-slang-terms", "https://thecitizen.com/2025/03/06/talking-southern-saying-place-names/", "https://en.wikipedia.org/wiki/Ponce_de_Leon_Avenue", "https://en.wikipedia.org/wiki/Clean,_Old-Fashioned_Hate", "https://en.wikipedia.org/wiki/Southern_American_English", "https://en.wiktionary.org/wiki/y%27all"],
+    "unsure": ["pronounce: the AJC newcomer guide gives 'pon-say' for Ponce; Wikipedia and The Citizen give 'ponts'/'PONSS', used here."]
+  },
+  {
+    "id": "us-carolinas",
+    "name": "Charlotte and Raleigh",
+    "covers": "Charlotte, Raleigh and the Triangle",
+    "dialect": "Southern American English, North Carolina style",
+    "words": [
+      {"term": "y'all", "say": "YAWL", "ipa": "jɔl", "tts": "", "means": "You all. The everyday plural 'you' across the Carolinas.", "use": "Y'all coming to the tailgate?", "common": true},
+      {"term": "fixin' to", "say": "FIK-sin too", "ipa": "ˈfɪksɪn tu", "tts": "", "means": "About to.", "use": "I'm fixin' to put the game on.", "common": true},
+      {"term": "bless your heart", "say": "BLESS yer HART", "ipa": "", "tts": "", "means": "Sympathy, or a polite put-down, depending on the tone.", "use": "He thought we'd win by twenty, bless his heart.", "common": true},
+      {"term": "Uptown", "say": "UP-town", "ipa": "", "tts": "", "means": "Downtown Charlotte. Locals have called it Uptown for over a century.", "use": "Meet you Uptown before the game.", "common": true},
+      {"term": "the Queen City", "say": "thuh KWEEN SIT-ee", "ipa": "", "tts": "", "means": "Charlotte, named for Queen Charlotte. Often shortened to the QC.", "use": "The Queen City needs a winner.", "common": true},
+      {"term": "the 704", "say": "thuh SEV-un-oh-FOR", "ipa": "ðə ˌsɛvən oʊ ˈfɔr", "tts": "the seven oh four", "means": "Charlotte, by its area code.", "use": "Repping the 704 at the road game.", "common": false},
+      {"term": "the Triangle", "say": "thuh TRY-ang-gul", "ipa": "", "tts": "", "means": "Raleigh, Durham and Chapel Hill and the towns around them.", "use": "The whole Triangle stops for Duke and Carolina.", "common": true},
+      {"term": "Tobacco Road", "say": "tuh-BAK-oh ROHD", "ipa": "", "tts": "", "means": "The rivalry between Duke, UNC, NC State and Wake Forest, above all in basketball.", "use": "Nothing beats a Tobacco Road game in February.", "common": true},
+      {"term": "Carolina", "say": "kair-uh-LY-nuh", "ipa": "", "tts": "", "means": "In North Carolina, usually means UNC Chapel Hill, not the state next door.", "use": "Did Carolina win last night?", "common": true},
+      {"term": "Tar Heel", "say": "TAR heel", "ipa": "", "tts": "", "means": "A North Carolinian, or a UNC fan.", "use": "My whole family's Tar Heels, so I never stood a chance.", "common": true},
+      {"term": "barbecue", "say": "BAR-bih-kyoo", "ipa": "", "tts": "", "means": "A noun meaning chopped or pulled pork: Eastern style with a vinegar sauce, Lexington style with a red dip. A backyard grill-out is a cookout.", "use": "Bring barbecue to the tailgate, Eastern style.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Appalachian", "say": "ap-uh-LATCH-un", "ipa": "ˌæpəˈlætʃən", "tts": "app uh latch un", "why": "The mountains and App State. Transplants say 'ap-uh-LAY-shun'; in North Carolina it has a 'latch' in it."},
+      {"word": "Raleigh", "say": "RAH-lee", "ipa": "ˈrɑli", "tts": "", "why": "The capital and home of the Hurricanes. Two syllables, first one stressed."},
+      {"word": "Durham", "say": "DUR-um", "ipa": "ˈdɝəm", "tts": "", "why": "Home of Duke. Locals squeeze it to nearly one syllable: 'DURM'."},
+      {"word": "Concord", "say": "KON-kord", "ipa": "ˈkɑnˌkɔrd", "tts": "con cord", "why": "The town by Charlotte Motor Speedway. Both syllables are clear, unlike the Massachusetts 'conquered'."},
+      {"word": "Cabarrus", "say": "kuh-BAIR-us", "ipa": "kəˈbɛrəs", "tts": "kuh bare us", "why": "The county that holds Concord and the speedway, and a street in Raleigh."}
+    ],
+    "lines": [
+      {"t": "Carolina blue or Duke blue? Choose carefully.", "m": "In the Triangle, your college team says more about you than your address."},
+      {"t": "Meet you Uptown before the game.", "m": "Charlotte's downtown is always Uptown."},
+      {"t": "77 at rush hour. Pray for us.", "m": "Charlotte's standard traffic moan, about I-77."},
+      {"t": "When someone says Carolina, ask which one.", "m": "UNC, South Carolina, the Panthers and the Hurricanes all use the name."},
+      {"t": "That's not barbecue, that's pork with ketchup on it.", "m": "Eastern-style fans teasing Lexington style. Barbecue arguments are a state pastime."},
+      {"t": "Football's fine. Basketball is what we live for.", "m": "ACC basketball is the state's first love."}
+    ],
+    "avoid": [
+      {"say": "the Raleigh Triangle", "instead": "the Triangle", "why": "The Triangle is Raleigh, Durham and Chapel Hill together."},
+      {"say": "RDU, meaning the area", "instead": "the Triangle", "why": "Locals use RDU only for the airport."},
+      {"say": "downtown Charlotte", "instead": "Uptown", "why": "Charlotte calls its center Uptown."},
+      {"say": "Carolina, meaning the Gamecocks", "instead": "South Carolina", "why": "In North Carolina, plain 'Carolina' means UNC."}
+    ],
+    "habits": ["ACC basketball, above all Duke against UNC, puts every bar and office TV on the same game in February and March.", "Late May is race week in Concord, with the Coca-Cola 600 at Charlotte Motor Speedway on Memorial Day weekend.", "Tailgates run on barbecue, sweet tea and hush puppies."],
+    "sources": ["https://www.aol.com/talk-native-pronounce-raleigh-nc-180815291.html", "https://guides.lib.unc.edu/talk-like-a-tar-heel", "https://www.axios.com/local/charlotte/2016/06/07/charlotte-glossary-newcomers-guide-translating-queen-city-speak-50414", "https://www.sparefoot.com/moving/moving-to-raleigh-nc/how-to-sound-like-a-local-in-raleigh/", "https://city-data.com/forum/raleigh-durham-chapel-hill-cary/796380-newcomer-triangle-terms-survival-guide.html", "https://en.wikipedia.org/wiki/Uptown_Charlotte", "https://en.wikipedia.org/wiki/Tobacco_Road_(rivalry)", "https://en.wikipedia.org/wiki/Southern_American_English"],
+    "unsure": []
+  },
+  {
+    "id": "us-tennessee",
+    "name": "Nashville and Memphis",
+    "covers": "Nashville, Memphis and the rest of Tennessee",
+    "dialect": "Southern American English, Tennessee style",
+    "words": [
+      {"term": "y'all", "say": "YAWL", "ipa": "jɔl", "tts": "", "means": "You all. The everyday plural 'you' across Tennessee.", "use": "Y'all going to the game or watching on Broadway?", "common": true},
+      {"term": "fixin' to", "say": "FIK-sin too", "ipa": "ˈfɪksɪn tu", "tts": "", "means": "About to.", "use": "We're fixin' to head down for puck drop.", "common": true},
+      {"term": "bless your heart", "say": "BLESS yer HART", "ipa": "", "tts": "", "means": "Sympathy when said to you; often a polite dig when said about someone else.", "use": "He tried to block that shot with his face, bless his heart.", "common": true},
+      {"term": "Music City", "say": "MYOO-zik SIT-ee", "ipa": "", "tts": "", "means": "Nashville's nickname, used everywhere from bowl games to the soccer club's crest.", "use": "Music City shows up for big games.", "common": true},
+      {"term": "Lower Broad", "say": "LOH-er BRAWD", "ipa": "", "tts": "", "means": "Lower Broadway, Nashville's strip of honky-tonks next to the arena.", "use": "Meet on Lower Broad after the game.", "common": true},
+      {"term": "honky-tonk", "say": "HONG-kee tonk", "ipa": "ˈhɑŋki ˌtɑŋk", "tts": "", "means": "A bar with live country music. Going to several in a night is honky-tonkin'.", "use": "Find a honky-tonk with the game on.", "common": true},
+      {"term": "Smashville", "say": "SMASH-vil", "ipa": "ˈsmæʃvɪl", "tts": "", "means": "What hockey fans call Nashville, and the arena, during Predators season.", "use": "Welcome to Smashville.", "common": true},
+      {"term": "unicorn", "say": "YOO-nih-korn", "ipa": "", "tts": "", "means": "A rare person actually born in Nashville, in a city full of newcomers.", "use": "Born at Vanderbilt? You're a unicorn.", "common": false},
+      {"term": "Vols", "say": "VAHLZ", "ipa": "vɑlz", "tts": "", "means": "The University of Tennessee Volunteers, the state's big college team. Fans say 'Big Orange' too.", "use": "The Vols play at noon, then the Titans tomorrow.", "common": true},
+      {"term": "mane", "say": "MAYN", "ipa": "meɪn", "tts": "", "means": "Memphis for 'man': a greeting, a cheer or a groan, depending on the tone.", "use": "Mane, what a finish.", "common": true},
+      {"term": "Bluff City", "say": "BLUF SIT-ee", "ipa": "", "tts": "", "means": "Memphis, which sits on bluffs above the Mississippi.", "use": "Bluff City's buzzing tonight.", "common": false},
+      {"term": "Grind City", "say": "GRYND SIT-ee", "ipa": "", "tts": "", "means": "Memphis, from the Grizzlies' 'Grit and Grind' years. Stands for the city's hard-working pride.", "use": "That's a Grind City win right there.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Demonbreun", "say": "duh-MUN-bree-un", "ipa": "dəˈmʌnbriən", "tts": "duh mun bree un", "why": "The Nashville street by Music Row and the Gulch. Visitors, and phone assistants, say 'demon-broon'."},
+      {"word": "Lebanon", "say": "LEB-uh-nun", "ipa": "ˈlɛbənən", "tts": "lebuh nun", "why": "The town east of Nashville. It ends in '-nun', and locals often squeeze it to 'LEB-nun'."},
+      {"word": "Lafayette", "say": "luh-FAY-it", "ipa": "ləˈfeɪət", "tts": "luhfay it", "why": "Lafayette Street in Nashville. Said the Tennessee way, not the French way."},
+      {"word": "Maury", "say": "MUR-ee", "ipa": "ˈmɝi", "tts": "murry", "why": "The county south of Nashville. Not 'MORE-ee'."}
+    ],
+    "lines": [
+      {"t": "Meet you on Lower Broad after the game.", "m": "Nashville's postgame plan, win or lose."},
+      {"t": "You're from here? A real unicorn.", "m": "Half of Nashville moved here recently, so natives are rare."},
+      {"t": "Mane, that one hurt.", "m": "A Memphis groan after a loss."},
+      {"t": "Saturdays in this state are orange.", "m": "University of Tennessee football owns fall Saturdays."},
+      {"t": "Don't talk to me about barbecue unless it's Memphis.", "m": "Memphians defend their dry-rub ribs and slaw-topped pork."},
+      {"t": "Bless his heart, he tried.", "m": "Southern sympathy for a player who had a rough night."}
+    ],
+    "avoid": [
+      {"say": "Nashvegas", "instead": "Nashville, or Music City", "why": "Locals only say it as a joke, usually about tourists."},
+      {"say": "Demon-broon Street", "instead": "duh-MUN-bree-un", "why": "The street is said the local way, and getting it wrong marks a visitor at once."},
+      {"say": "Memphis barbecue is overrated", "instead": "Where do you get your ribs?", "why": "Memphians take barbecue personally."}
+    ],
+    "habits": ["In Nashville the arena sits on Broadway among the honky-tonks, so fans go straight from the game to the bars.", "Fall Saturdays belong to college football: the Vols in Knoxville, Vanderbilt in Nashville and the Memphis Tigers.", "Memphians ask which high school you went to before they ask anything else, and school loyalties carry into sport."],
+    "sources": ["https://www.mentalfloss.com/language/slang/nashville-slang-terms", "https://wpln.org/post/curious-nashville-how-to-say-demonbreun-and-4-other-unusual-tennessee-pronunciations/", "https://www.wkrn.com/news/local-news/10-places-in-middle-tennessee-commonly-mispronounced-2/amp", "https://www.sparefoot.com/moving/moving-to-nashville-tn/how-to-sound-like-a-local-in-nashville/", "https://matadornetwork.com/life/20-things-people-memphis-constantly-explain-towners", "https://dailymemphian.com/article/64019/memphis-morning-podcast-discovering-memphians-sound-accent", "https://www.destguides.com/united-states/tennessee/memphis/memphis-nicknames", "https://en.wikipedia.org/wiki/Southern_American_English"],
+    "unsure": []
+  },
+  {
+    "id": "us-florida",
+    "name": "Florida",
+    "covers": "Miami and South Florida, Tampa Bay, Orlando and Jacksonville",
+    "dialect": "Florida English, with Miami's Spanish-English mix",
+    "words": [
+      {"term": "the 305", "say": "thuh THREE-oh-FIVE", "ipa": "ðə ˌθri oʊ ˈfaɪv", "tts": "the three oh five", "means": "Miami, by its area code. Saying you're from the 305 is a point of pride.", "use": "The 305 shows up for a playoff game.", "common": true},
+      {"term": "dale", "say": "DAH-leh", "ipa": "ˈdale", "tts": "dah leh", "means": "Spanish, used by everyone in Miami: yes, go on, let's go, or bye.", "use": "Dale, we're up by two!", "common": true},
+      {"term": "bro", "say": "BROH", "ipa": "", "tts": "", "means": "Miami's all-purpose word for anyone, of any age, at the start or end of a sentence. Stretch the o for shock.", "use": "Bro, did you see that save?", "common": true},
+      {"term": "¿Qué bolá?", "say": "keh boh-LAH", "ipa": "ke boˈla", "tts": "kehbo lah", "means": "Cuban Spanish for 'what's up?'", "use": "Qué bolá, you watching the game?", "common": false},
+      {"term": "pero like", "say": "PEH-roh LYK", "ipa": "ˈpeɾo laɪk", "tts": "pay ro like", "means": "Spanglish 'but like', to push back or keep a thought going.", "use": "We won, pero like, that defense was scary.", "common": true},
+      {"term": "cafecito", "say": "kah-feh-SEE-toh", "ipa": "kafeˈsito", "tts": "kah feh see toe", "means": "A small, strong, sweet Cuban coffee. A colada is a bigger one with little cups for sharing.", "use": "Grab a cafecito before the game.", "common": true},
+      {"term": "the U", "say": "thuh YOO", "ipa": "ðə ˈjuː", "tts": "the you", "means": "The University of Miami, its Hurricanes and its hand sign.", "use": "Saturday it's the U, Sunday it's the Dolphins.", "common": true},
+      {"term": "Duval", "say": "doo-VAL", "ipa": "duˈvæl", "tts": "doo val", "means": "Jacksonville, by its county name. Jaguars fans shout it with a long u.", "use": "Duuuval! Big win today.", "common": true},
+      {"term": "Bold City", "say": "BOHLD SIT-ee", "ipa": "", "tts": "", "means": "Jacksonville, short for its old slogan 'the Bold New City of the South'. Fans use it for clubs and jerseys.", "use": "Bold City showed up loud.", "common": false},
+      {"term": "Cigar City", "say": "sih-GAR SIT-ee", "ipa": "", "tts": "", "means": "Tampa, from its cigar-making past in Ybor City.", "use": "Cigar City's ready for the playoffs.", "common": false},
+      {"term": "snowbirds", "say": "SNOH-burdz", "ipa": "", "tts": "", "means": "Northerners who spend the winter in Florida, and often bring their home teams' jerseys.", "use": "Snowbirds are back, so half the arena's cheering for Boston.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Kissimmee", "say": "kih-SIM-ee", "ipa": "kɪˈsɪmi", "tts": "kih simmy", "why": "The city south of Orlando. Visitors say 'KISS-ih-mee'."},
+      {"word": "Ybor City", "say": "EE-bor SIT-ee", "ipa": "ˈiːbɔr ˈsɪti", "tts": "ee bore city", "why": "Tampa's historic district. 'Why-bore' marks you as just arrived."},
+      {"word": "Osceola", "say": "ah-see-OH-luh", "ipa": "ˌɑsiˈoʊlə", "tts": "", "why": "The county around Kissimmee, and a name seen across the state."},
+      {"word": "Calle Ocho", "say": "KAH-yeh OH-choh", "ipa": "ˈkaje ˈotʃo", "tts": "kah yeh oh cho", "why": "Southwest 8th Street in Little Havana. 'Calle' is never 'call'."},
+      {"word": "Hialeah", "say": "hy-uh-LEE-uh", "ipa": "ˌhaɪəˈliːə", "tts": "hi uh lee uh", "why": "The city next to Miami, home of the old Hialeah Park racetrack."}
+    ],
+    "lines": [
+      {"t": "Dale, let's go!", "m": "Miami's all-purpose cheer."},
+      {"t": "Duuuval!", "m": "Jacksonville's call. Stretch the u as long as you can."},
+      {"t": "Half the crowd is snowbirds cheering for the other team.", "m": "The Florida moan when winter visitors take over the arena."},
+      {"t": "Four o'clock storm again. Lightning delay, bro.", "m": "Summer afternoons bring a daily thunderstorm that stops outdoor games."},
+      {"t": "We're South Florida, not just Miami.", "m": "The teams are spread from Miami to Miami Gardens and Sunrise, so locals use the bigger name."}
+    ],
+    "avoid": [
+      {"say": "WHY-bor City", "instead": "EE-bor City", "why": "Every local in Tampa will know you just arrived."},
+      {"say": "KISS-ih-mee", "instead": "kih-SIM-ee", "why": "The local stress is on the middle syllable."},
+      {"say": "the city of Tampa Bay", "instead": "Tampa, or St. Pete", "why": "Tampa Bay is the water and the region; the cities are Tampa, St. Petersburg and Clearwater."},
+      {"say": "Miami, for all of South Florida", "instead": "South Florida", "why": "Broward and Palm Beach fans don't live in Miami and will tell you so."}
+    ],
+    "habits": ["February and March bring the Grapefruit League: big-league baseball teams hold spring training all over the state.", "Winter crowds are full of snowbirds and transplants, so visiting jerseys are everywhere at hockey and basketball games.", "In Miami, a cafecito from a walk-up coffee window starts any big day out.", "Fall Saturdays mean college football: the U, the Gators, Florida State and UCF."],
+    "sources": ["https://themiamihurricane.com/2023/08/01/miami-phrases-every-cane-should-know/", "https://www.timeout.com/miami/news/the-best-and-weirdest-miami-slang-you-need-to-know-071818", "https://www.miaminewtimes.com/news/miami-slang-glossary-pero-like-its-super-definitive-bro-6528513", "https://www.cbsnews.com/miami/news/dale-learn-about-miami-lingo-while-in-town-for-super-bowl-54", "https://sports.yahoo.com/duuuval-know-jacksonville-jaguars-chant-120128789.html", "https://www.orlandoweekly.com/orlando-guides/how-to-pronounce-challenging-place-names-around-orlando-34578909/", "https://www.sparefoot.com/moving/city-guides/4329-how-to-sound-like-a-local-in-tampa/", "https://en.wikipedia.org/wiki/Ybor_City", "https://en.wikipedia.org/wiki/Snowbird_(person)", "https://en.wikipedia.org/wiki/Jacksonville,_Florida"],
+    "unsure": ["words: 'Champa Bay' (Tampa Bay's title-years nickname) left out; could not confirm it in two sources."]
+  },
+  {
+    "id": "us-new-orleans",
+    "name": "New Orleans",
+    "covers": "New Orleans and the parishes around it",
+    "dialect": "New Orleans English (Yat)",
+    "words": [
+      {"term": "Who Dat", "say": "HOO DAT", "ipa": "ˈhuː ˌdæt", "tts": "", "means": "The Saints' rallying call, a greeting, and a name for a Saints fan. All the fans together are the Who Dat Nation.", "use": "Who Dat! See you at the Dome.", "common": true},
+      {"term": "where y'at", "say": "WAIR YAT", "ipa": "ˌwɛr ˈjæt", "tts": "where yat", "means": "The classic greeting: how are you doing? The answer is 'awright'.", "use": "Where y'at? You going to the game?", "common": true},
+      {"term": "Yat", "say": "YAT", "ipa": "jæt", "tts": "", "means": "A born-and-raised New Orleanian with the local accent, named after the greeting.", "use": "My uncle's a real Yat, he's had season tickets forever.", "common": false},
+      {"term": "lagniappe", "say": "LAN-yap", "ipa": "ˈlænjæp", "tts": "lan yap", "means": "A little something extra, thrown in for free.", "use": "That late touchdown was lagniappe.", "common": true},
+      {"term": "neutral ground", "say": "NOO-trul GROWND", "ipa": "", "tts": "", "means": "The median strip down the middle of a wide street. Locals never say 'median'.", "use": "Park on the neutral ground and walk to the Dome.", "common": true},
+      {"term": "making groceries", "say": "MAY-kin GROH-sreez", "ipa": "", "tts": "", "means": "Grocery shopping.", "use": "I'm making groceries for the watch party.", "common": true},
+      {"term": "dressed", "say": "DREST", "ipa": "", "tts": "", "means": "A po' boy with lettuce, tomato, pickles and mayo.", "use": "Two shrimp po' boys, dressed, for halftime.", "common": true},
+      {"term": "yeah you right", "say": "YEAH yoo RYTE", "ipa": "", "tts": "", "means": "Strong agreement, with the stress on 'yeah'.", "use": "Best fans in the league? Yeah you right.", "common": true},
+      {"term": "cher", "say": "SHA", "ipa": "ʃæ", "tts": "sha", "means": "A warm term of address, like 'dear'. Not romantic.", "use": "Don't worry, cher, we'll get 'em next week.", "common": false},
+      {"term": "krewe", "say": "KROO", "ipa": "kruː", "tts": "crew", "means": "A club that puts on a Mardi Gras parade. Fans borrow the word for their own groups.", "use": "Our tailgate krewe meets at ten.", "common": true},
+      {"term": "parish", "say": "PAIR-ish", "ipa": "", "tts": "", "means": "Louisiana's word for a county: Orleans, Jefferson, St. Bernard.", "use": "Half the stadium drove in from Jefferson Parish.", "common": true},
+      {"term": "lakeside, riverside", "say": "LAYK-syde, RIV-er-syde", "ipa": "", "tts": "", "means": "Directions: toward Lake Pontchartrain or toward the Mississippi. The river bends, so north and south don't help.", "use": "The bar's on the lakeside of Claiborne.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "New Orleans", "say": "noo OR-linz", "ipa": "nuˈɔrlɪnz", "tts": "new or linz", "why": "Locals say 'New OR-linz', often run together as 'nuh-WAW-linz'. Not 'New Or-LEENZ'."},
+      {"word": "Tchoupitoulas", "say": "chop-ih-TOO-lus", "ipa": "ˌtʃɑpɪˈtuːləs", "tts": "", "why": "The long street along the river. The T is silent."},
+      {"word": "Burgundy", "say": "bur-GUN-dee", "ipa": "bərˈɡʌndi", "tts": "bur gun dee", "why": "The French Quarter street. Not like the wine."},
+      {"word": "Calliope", "say": "KAL-ee-ope", "ipa": "ˈkæli.oʊp", "tts": "callee ope", "why": "The street by the expressway. It rhymes with 'rope', not 'kuh-LIE-uh-pee'."},
+      {"word": "Metairie", "say": "MET-uh-ree", "ipa": "ˈmɛtəri", "tts": "met uh ree", "why": "The suburb where the Saints and Pelicans train. Hardcore locals say 'MET-tree'."}
+    ],
+    "lines": [
+      {"t": "Who Dat!", "m": "The Saints call, and a greeting all on its own."},
+      {"t": "Where y'at? Awright.", "m": "The classic greeting and its answer."},
+      {"t": "Yeah you right!", "m": "Agreement, the louder the better."},
+      {"t": "Saints on Sunday, red beans on Monday.", "m": "The weekly rhythm in a football city."},
+      {"t": "Win or lose, we're still eating well tonight.", "m": "The New Orleans way of moaning: the party goes on regardless."}
+    ],
+    "avoid": [
+      {"say": "N'awlins", "instead": "New Orleans", "why": "It's the tourist version; natives rarely say it."},
+      {"say": "the median", "instead": "the neutral ground", "why": "Nobody local calls it a median."},
+      {"say": "Burgundy, like the wine", "instead": "bur-GUN-dee", "why": "The street has its own stress."}
+    ],
+    "habits": ["Game days fill downtown with black and gold; the Superdome sits on Poydras Street, a walk from the bars of the CBD and the French Quarter.", "Carnival season runs from January to Mardi Gras, so parades and krewe parties share the calendar with playoff football and the Pelicans' season.", "Game food is local: po' boys dressed, boiled crawfish in spring, and red beans on Monday."],
+    "sources": ["https://en.wikipedia.org/wiki/New_Orleans_English", "https://en.wikipedia.org/wiki/Who_dat%3F", "http://www.gumbopages.com/yatspeak.html", "http://www.experienceneworleans.com/glossary.html", "https://en.wikipedia.org/wiki/Lagniappe", "https://en.wikipedia.org/wiki/Tchoupitoulas_Street", "https://en.wikipedia.org/wiki/Metairie,_Louisiana"],
+    "unsure": []
+  },
+  {
+    "id": "us-texas",
+    "name": "Texas",
+    "covers": "Dallas–Fort Worth, Houston, San Antonio and Austin",
+    "dialect": "Texan English",
+    "words": [
+      {"term": "y'all", "say": "YAWL", "ipa": "jɔl", "tts": "", "means": "You all. 'All y'all' is the bigger plural, for everybody.", "use": "Y'all coming to the tailgate? All y'all?", "common": true},
+      {"term": "fixin' to", "say": "FIK-sin too", "ipa": "ˈfɪksɪn tu", "tts": "", "means": "About to.", "use": "We're fixin' to leave for the stadium.", "common": true},
+      {"term": "might could", "say": "MYTE kood", "ipa": "", "tts": "", "means": "Maybe could. A soft, polite 'perhaps'.", "use": "We might could make the playoffs this year.", "common": false},
+      {"term": "howdy", "say": "HOW-dee", "ipa": "ˈhaʊdi", "tts": "", "means": "Hello. Short for 'how do you do'.", "use": "Howdy, y'all, who's got the brisket?", "common": true},
+      {"term": "the Metroplex", "say": "thuh MET-roh-pleks", "ipa": "ðə ˈmɛtroʊplɛks", "tts": "", "means": "Dallas–Fort Worth and its suburbs. Locals also say DFW.", "use": "The whole Metroplex is watching tonight.", "common": true},
+      {"term": "H-Town", "say": "AYCH-town", "ipa": "ˈeɪtʃ ˌtaʊn", "tts": "aitch town", "means": "Houston. Also the 713, after its area code.", "use": "H-Town showed up loud.", "common": true},
+      {"term": "Space City", "say": "SPAYS SIT-ee", "ipa": "", "tts": "", "means": "Houston's official nickname, from NASA's Johnson Space Center.", "use": "Space City's ready for October.", "common": true},
+      {"term": "feeder", "say": "FEE-der", "ipa": "", "tts": "", "means": "Houston's word for the frontage road beside a freeway. Dallas says 'service road', San Antonio 'access road'.", "use": "Take the feeder, the freeway's jammed.", "common": true},
+      {"term": "Hook 'em", "say": "HOOK-um", "ipa": "ˈhʊkəm", "tts": "hook um", "means": "The University of Texas greeting, with the Longhorns hand sign. Texas A&M fans answer with a thumbs-up and 'Gig 'em'.", "use": "Hook 'em! See you Saturday.", "common": true},
+      {"term": "mum", "say": "MUM", "ipa": "", "tts": "", "means": "A huge ribboned corsage worn to the high school homecoming game.", "use": "Her homecoming mum is bigger than her backpack.", "common": false},
+      {"term": "coke", "say": "KOHK", "ipa": "koʊk", "tts": "", "means": "Any soft drink, in much of Texas.", "use": "Want a coke? We've got Dr Pepper.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Bexar", "say": "BAIR", "ipa": "bɛr", "tts": "bear", "why": "San Antonio's county. It sounds like the animal."},
+      {"word": "Humble", "say": "UM-bul", "ipa": "ˈʌmbəl", "tts": "umble", "why": "The Houston suburb by the airport. The h is silent."},
+      {"word": "Burnet", "say": "BUR-nit", "ipa": "ˈbɝnɪt", "tts": "burn it", "why": "Burnet Road in Austin and the Hill Country town. Stress the first syllable, not 'bur-NET'."},
+      {"word": "Waxahachie", "say": "WAWK-suh-HATCH-ee", "ipa": "ˌwɑksəˈhætʃi", "tts": "wok suh hatchy", "why": "The town south of Dallas. It ends in 'hatchy'."}
+    ],
+    "lines": [
+      {"t": "Friday's for high school, Saturday's for college, Sunday's for the pros.", "m": "Texas football runs all weekend."},
+      {"t": "Dallas or Houston? Pick one and never switch.", "m": "The state's big-city rivalry runs through every sport."},
+      {"t": "Take the feeder, the freeway's backed up.", "m": "Houston traffic talk on the way to the game."},
+      {"t": "A hundred degrees at the tailgate. Normal September.", "m": "The early-season heat is a standing moan."},
+      {"t": "Hook 'em!", "m": "Longhorn fans' greeting, with the hand sign. Never say it to an Aggie."}
+    ],
+    "avoid": [
+      {"say": "Hook 'em, to an Aggie", "instead": "Gig 'em", "why": "Texas and Texas A&M are bitter rivals, and each has its own salute."},
+      {"say": "BEX-ar County", "instead": "BAIR County", "why": "The x is silent in English, and San Antonio notices."},
+      {"say": "Dallas, for all of DFW", "instead": "the Metroplex, or DFW", "why": "Fort Worth and Arlington are not Dallas, and they'll tell you."},
+      {"say": "frontage road, in Houston", "instead": "the feeder", "why": "Houstonians call it the feeder."}
+    ],
+    "habits": ["Friday night high school football fills big stadiums all over the state, with bands and drill teams.", "Homecoming week means mums, pep rallies and the homecoming game.", "Fall Saturdays are for college football: the Longhorns, the Aggies, Texas Tech, TCU, Baylor, SMU and Houston.", "Tailgates run on brisket, breakfast tacos and coolers, even in the September heat."],
+    "sources": ["https://www.tshaonline.org/handbook/online/articles/pcd01", "https://texasstandard.org/stories/whats-a-double-modal-it-could-be-key-to-sounding-like-a-texan/", "https://en.wikipedia.org/wiki/Texan_English", "https://en.wikipedia.org/wiki/Frontage_road", "https://en.wikipedia.org/wiki/Dallas%E2%80%93Fort_Worth_metroplex", "https://en.wikipedia.org/wiki/Houston", "https://en.wikipedia.org/wiki/Hook_%27em_Horns", "https://en.wikipedia.org/wiki/Homecoming_mum", "https://en.wikipedia.org/wiki/Bexar_County,_Texas", "https://en.wikipedia.org/wiki/Waxahachie,_Texas"],
+    "unsure": ["words: 'Big D' (Dallas) and 'Clutch City' (Houston) left out; not confirmed in two sources."]
+  },
+  {
+    "id": "us-oklahoma",
+    "name": "Oklahoma City",
+    "covers": "Oklahoma City and the rest of Oklahoma",
+    "dialect": "Southern and South Midland American English, Oklahoma style",
+    "words": [
+      {"term": "y'all", "say": "YAWL", "ipa": "jɔl", "tts": "", "means": "You all. The everyday plural 'you' in Oklahoma.", "use": "Y'all watching the game at the house?", "common": true},
+      {"term": "fixin' to", "say": "FIK-sin too", "ipa": "ˈfɪksɪn tu", "tts": "", "means": "About to.", "use": "I'm fixin' to head downtown for tip-off.", "common": true},
+      {"term": "OKC", "say": "OH-kay-SEE", "ipa": "ˌoʊ keɪ ˈsiː", "tts": "", "means": "Oklahoma City. The usual short name.", "use": "OKC was rocking last night.", "common": true},
+      {"term": "the 405", "say": "thuh FOR-oh-FYVE", "ipa": "ðə ˌfɔr oʊ ˈfaɪv", "tts": "the four oh five", "means": "Oklahoma City, by its area code. (In Los Angeles, the 405 is a freeway.)", "use": "Whole 405 is behind this team.", "common": true},
+      {"term": "the Big Friendly", "say": "thuh BIG FREND-lee", "ipa": "", "tts": "", "means": "A fond nickname for Oklahoma City.", "use": "Welcome to the Big Friendly.", "common": false},
+      {"term": "Loud City", "say": "LOWD SIT-ee", "ipa": "", "tts": "", "means": "A nickname for the city and its arena crowd.", "use": "Loud City lived up to the name.", "common": true},
+      {"term": "Bricktown", "say": "BRIK-town", "ipa": "", "tts": "", "means": "The old warehouse district by downtown, with the canal, the ballpark and the bars near the arena.", "use": "Dinner in Bricktown, then the game.", "common": true},
+      {"term": "Sooner", "say": "SOO-ner", "ipa": "ˈsuːnər", "tts": "", "means": "A University of Oklahoma fan or athlete, and a name for any Oklahoman. From the settlers who jumped the start of the 1889 Land Run.", "use": "He's a Sooner fan, but he'll cheer for anybody from Oklahoma.", "common": true},
+      {"term": "Pokes", "say": "POHKS", "ipa": "poʊks", "tts": "", "means": "Oklahoma State's Cowboys, from 'cowpokes'. Their mascot is Pistol Pete.", "use": "Go Pokes! See you in Stillwater.", "common": true},
+      {"term": "Bedlam", "say": "BED-lum", "ipa": "ˈbɛdləm", "tts": "", "means": "The Oklahoma vs. Oklahoma State rivalry, in every sport.", "use": "Bedlam in basketball still splits the office.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Chickasha", "say": "CHIK-uh-shay", "ipa": "ˈtʃɪkəʃeɪ", "tts": "chick uh shay", "why": "The town southwest of the city. It ends in 'shay', not 'shaw'."},
+      {"word": "Chisholm", "say": "CHIZ-um", "ipa": "ˈtʃɪzəm", "tts": "chizzum", "why": "The cattle trail, and Chisholm Creek in north Oklahoma City. The h and l are silent."},
+      {"word": "Muskogee", "say": "mus-KOH-ghee", "ipa": "məˈskoʊɡi", "tts": "musko ghee", "why": "The city in eastern Oklahoma. Stress the middle syllable; the g is hard."}
+    ],
+    "lines": [
+      {"t": "Meet in Bricktown before tip.", "m": "The pregame plan for a downtown game."},
+      {"t": "Bedlam's not the same without football.", "m": "OU's move to the SEC paused the football series after 2023."},
+      {"t": "We're the Big Friendly, until you wear the other team's colors.", "m": "Oklahoma hospitality with a competitive streak."},
+      {"t": "Storm's coming. Watch them break in with the weather.", "m": "Spring storms bring weather bulletins, even in the middle of a game."},
+      {"t": "Small market, loud building.", "m": "The city's standard answer to big-market teams."}
+    ],
+    "avoid": [
+      {"say": "you Okies", "instead": "Oklahomans", "why": "Locals may say 'Okie' with pride, but from an outsider it can echo an old insult."},
+      {"say": "the Sooners of Oklahoma State", "instead": "OU's Sooners, OSU's Cowboys", "why": "They're rivals; mixing them up is a fast way to annoy both."},
+      {"say": "chick-uh-SHAW", "instead": "CHIK-uh-shay", "why": "The town's name ends in 'shay'."}
+    ],
+    "habits": ["Fall Saturdays split the state between OU in Norman and Oklahoma State in Stillwater.", "Spring is storm season, and local TV weather coverage can cut into anything, games included.", "With one big-league team in the state, fans drive in from Tulsa and small towns for games downtown."],
+    "sources": ["https://en.wikipedia.org/wiki/Oklahoma_City", "https://en.wikipedia.org/wiki/Bedlam_Series", "https://en.wikipedia.org/wiki/Oklahoma_Sooners", "https://en.wikipedia.org/wiki/Oklahoma_State_Cowboys_and_Cowgirls", "https://en.wiktionary.org/wiki/Okie", "https://en.wikipedia.org/wiki/Chickasha,_Oklahoma", "https://en.wikipedia.org/wiki/Chisholm_Trail", "https://en.wikipedia.org/wiki/Muskogee,_Oklahoma"],
+    "unsure": ["sources: no Oklahoma newspaper or fan-site glossary could be checked (web search limit reached); words rest on Wikipedia and Wiktionary.", "lines: the storm-coverage line is common local knowledge, not confirmed in a written source."]
+  },
+  {
+    "id": "us-colorado",
+    "name": "Denver",
+    "covers": "Denver and Colorado's Front Range",
+    "dialect": "Western American English, Colorado style",
+    "words": [
+      {"term": "the Mile High City", "say": "thuh MYLE HY SIT-ee", "ipa": "", "tts": "", "means": "Denver, which sits about 5,280 feet up. 'Mile High' alone usually means the Broncos' stadium.", "use": "Nobody likes playing in the Mile High City in January.", "common": true},
+      {"term": "Mile High", "say": "MYLE HY", "ipa": "", "tts": "", "means": "What locals call the Broncos' stadium, whatever the sponsor's name.", "use": "Tailgate at Mile High at ten.", "common": true},
+      {"term": "the Front Range", "say": "thuh FRUNT RAYNJ", "ipa": "", "tts": "", "means": "The cities along the eastern edge of the Rockies, from Fort Collins through Denver to Colorado Springs and Pueblo.", "use": "The whole Front Range is orange this week.", "common": true},
+      {"term": "the Springs", "say": "thuh SPRINGZ", "ipa": "", "tts": "", "means": "Colorado Springs, an hour south of Denver.", "use": "My cousin drove up from the Springs for the game.", "common": true},
+      {"term": "fourteener", "say": "for-TEE-ner", "ipa": "fɔrˈtiːnər", "tts": "", "means": "A peak over 14,000 feet. Colorado has more than fifty, and locals count how many they've climbed. Also written 14er.", "use": "Did a fourteener this morning, now it's game time.", "common": true},
+      {"term": "bluebird day", "say": "BLOO-burd DAY", "ipa": "", "tts": "", "means": "A clear, sunny day after fresh snow. Skiers' favorite weather.", "use": "Bluebird day: ski in the morning, game at night.", "common": true},
+      {"term": "powder day", "say": "POW-der DAY", "ipa": "", "tts": "", "means": "A day with deep fresh snow, when half the office is suddenly 'working remotely' from a ski lift.", "use": "Powder day, so the seats beside me are empty.", "common": false},
+      {"term": "Coloradan", "say": "kah-luh-RAD-un", "ipa": "ˌkɑləˈrædən", "tts": "", "means": "Someone from Colorado. The older 'Coloradoan' survives mainly in a newspaper name.", "use": "Real Coloradans wear shorts until it actually snows.", "common": false},
+      {"term": "transplant", "say": "TRANS-plant", "ipa": "", "tts": "", "means": "Someone who moved to Colorado from elsewhere, as many Denverites did. Natives like to point it out.", "use": "He's a transplant, but he bleeds orange now.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Buena Vista", "say": "BYOO-nuh VIS-tuh", "ipa": "ˈbjuːnə ˈvɪstə", "tts": "byoona vista", "why": "The mountain town. Locals use the English 'BYOO-nuh', not the Spanish 'BWAY-nah'."},
+      {"word": "Louisville", "say": "LOO-iss-vil", "ipa": "ˈluːɪsvɪl", "tts": "lewis vill", "why": "The town near Boulder. The s is sounded, unlike Kentucky's 'LOO-uh-vul'."},
+      {"word": "Arapahoe", "say": "uh-RAP-uh-hoh", "ipa": "əˈræpəhoʊ", "tts": "uh rap uh hoe", "why": "The county, the road and the A-Basin ski area. Stress the second syllable."},
+      {"word": "Pueblo", "say": "PWEB-loh", "ipa": "ˈpwɛbloʊ", "tts": "pweb low", "why": "The city south of Colorado Springs. Two syllables, not 'pew-EB-loh'."}
+    ],
+    "lines": [
+      {"t": "They always run out of gas in the fourth quarter. It's the altitude.", "m": "Denver's favorite home advantage: thin air at a mile up."},
+      {"t": "Snowing at breakfast, seventy by first pitch.", "m": "Colorado's fast-changing spring weather."},
+      {"t": "Leave by six or you'll sit on I-70 all morning.", "m": "The weekend ski-traffic moan."},
+      {"t": "Native or transplant?", "m": "A standard Denver question in a city full of newcomers."},
+      {"t": "Drink water, you're a mile up.", "m": "What locals tell visiting fans who arrive for a game."}
+    ],
+    "avoid": [
+      {"say": "Coloradoan", "instead": "Coloradan", "why": "The state's people are Coloradans; the longer form is old-fashioned."},
+      {"say": "BWAY-nah VEES-tah", "instead": "BYOO-nuh VIS-tuh", "why": "The town is said the local English way."},
+      {"say": "LOO-uh-vul, Colorado", "instead": "LOO-iss-vil", "why": "Colorado's Louisville keeps its s."}
+    ],
+    "habits": ["Winter weekends are split between the mountains and the games: ski in the morning, watch at night.", "At Coors Field a row of purple seats marks one mile up, and the baseballs live in a humidor because of the thin, dry air.", "Broncos Sundays dominate the fall, and orange jerseys are everywhere in town."],
+    "sources": ["https://en.wikipedia.org/wiki/Denver", "https://en.wikipedia.org/wiki/Colorado", "https://en.wikipedia.org/wiki/Colorado_Springs,_Colorado", "https://en.wikipedia.org/wiki/Fourteener", "https://en.wiktionary.org/wiki/bluebird", "https://en.wikipedia.org/wiki/Coors_Field", "https://en.wikipedia.org/wiki/Buena_Vista,_Colorado", "https://en.wikipedia.org/wiki/Louisville,_Colorado", "https://en.wikipedia.org/wiki/Arapahoe_County,_Colorado", "https://en.wikipedia.org/wiki/Pueblo,_Colorado"],
+    "unsure": ["sources: no Denver newspaper or fan-site glossary could be checked (web search limit reached); words rest on Wikipedia and Wiktionary.", "words: 'the 303' (area code) and the 'Native' bumper sticker left out; not confirmed in a source."]
+  },
+  {
+    "id": "us-utah",
+    "name": "Salt Lake City",
+    "covers": "Salt Lake City and the Wasatch Front",
+    "dialect": "Western American English, Utah style",
+    "words": [
+      {"term": "oh my heck", "say": "oh my HEK", "ipa": "", "tts": "", "means": "A mild Utah exclamation for surprise or dismay, in place of a stronger word.", "use": "Oh my heck, did you see that shot?", "common": true},
+      {"term": "fry sauce", "say": "FRY sawss", "ipa": "", "tts": "", "means": "The pink mix of ketchup and mayo Utahns put on fries. A point of state pride.", "use": "Grab extra fry sauce for the game.", "common": true},
+      {"term": "dirty soda", "say": "DUR-tee SOH-duh", "ipa": "", "tts": "", "means": "Soda mixed with cream, syrup or juice, from drive-through soda shops. Utah's answer to the coffee run.", "use": "Dirty soda run before tip-off?", "common": true},
+      {"term": "the U", "say": "thuh YOO", "ipa": "ðə ˈjuː", "tts": "the you", "means": "The University of Utah, whose teams are the Utes. Their color is red.", "use": "He's a U fan, so don't mention Provo.", "common": true},
+      {"term": "the Y", "say": "thuh WHY", "ipa": "ðə ˈwaɪ", "tts": "the why", "means": "BYU, in Provo, whose teams are the Cougars. Their color is blue.", "use": "She went to the Y, so she's a Cougar for life.", "common": true},
+      {"term": "Holy War", "say": "HOH-lee WOR", "ipa": "", "tts": "", "means": "The Utah vs. BYU rivalry, in football above all. Now an annual Big 12 game.", "use": "Holy War's this weekend, the office is split.", "common": true},
+      {"term": "Wasatch Front", "say": "WAH-satch FRUNT", "ipa": "ˈwɑsætʃ ˈfrʌnt", "tts": "wah satch front", "means": "The string of cities under the Wasatch Mountains, from Ogden through Salt Lake to Provo.", "use": "Fans drive in from all over the Wasatch Front.", "common": true},
+      {"term": "Silicon Slopes", "say": "SIL-ih-kun SLOHPS", "ipa": "", "tts": "", "means": "The tech region around Lehi and the south valley. Plenty of season tickets are bought there.", "use": "He works down in Silicon Slopes, so he leaves early for games.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Tooele", "say": "too-WIL-uh", "ipa": "tuːˈwɪlə", "tts": "too will uh", "why": "The town and county west of Salt Lake. Not 'TOO-ee-lee'."},
+      {"word": "Weber", "say": "WEE-ber", "ipa": "ˈwiːbər", "tts": "wee ber", "why": "Weber State and Weber County, up by Ogden. Not 'WEB-er'."},
+      {"word": "Lehi", "say": "LEE-hye", "ipa": "ˈliːhaɪ", "tts": "lee high", "why": "The tech hub south of Salt Lake. It ends in 'high'."}
+    ],
+    "lines": [
+      {"t": "Oh my heck, what a finish.", "m": "Utah's mild exclamation, for joy or pain."},
+      {"t": "Holy War week. Red or blue?", "m": "Utah wears red, BYU blue; the 2026 game is on November 7."},
+      {"t": "Fries without fry sauce? No.", "m": "Utahns defend their pink sauce."},
+      {"t": "Ski in the morning, game at night.", "m": "A good winter Saturday in Salt Lake: the resorts are close to town."},
+      {"t": "Dirty soda run on the way?", "m": "The Utah pregame stop."}
+    ],
+    "avoid": [
+      {"say": "Utah and BYU fans are the same", "instead": "Ute or Cougar?", "why": "The rivalry runs through families, and everyone has a side."},
+      {"say": "TOO-ee-lee", "instead": "too-WIL-uh", "why": "Tooele has its own local sound."},
+      {"say": "WEB-er State", "instead": "WEE-ber State", "why": "The school and county use the long e."}
+    ],
+    "habits": ["BYU teams don't play on Sundays, and Sunday is a quiet day for sport in much of the state.", "In winter, the ski resorts are under an hour from downtown, so fans ski by day and watch hockey or basketball at night.", "Pregame stops are often a drive-through soda shop rather than a bar."],
+    "sources": ["https://en.wiktionary.org/wiki/oh_my_heck", "https://en.wikipedia.org/wiki/Fry_sauce", "https://en.wikipedia.org/wiki/Dirty_soda", "https://www.sltrib.com/news/business/2017/11/08/dirty-soda-utah-court-battle-ends-with-legal-settlement/", "https://en.wikipedia.org/wiki/Holy_War_(BYU%E2%80%93Utah)", "https://en.wikipedia.org/wiki/Western_American_English", "https://en.wikipedia.org/wiki/Lehi,_Utah", "https://en.wikipedia.org/wiki/Tooele,_Utah", "https://en.wikipedia.org/wiki/Weber_County,_Utah"],
+    "unsure": ["sources: no Salt Lake fan-site or newspaper slang guide could be checked (web search limit reached); 'oh my heck' rests on Wiktionary plus common Utah use.", "words: 'oh my flip', 'fetch' and Utah 'scones' (fried dough) left out; not confirmed in two sources."]
+  },
+  {
+    "id": "us-arizona",
+    "name": "Phoenix",
+    "covers": "Phoenix and the Valley of the Sun",
+    "dialect": "Western American English, Arizona style",
+    "words": [
+      {"term": "the Valley", "say": "thuh VAL-ee", "ipa": "", "tts": "", "means": "Metro Phoenix: Phoenix, Tempe, Mesa, Scottsdale, Glendale, Chandler and the rest. The everyday local name.", "use": "The whole Valley's behind this team.", "common": true},
+      {"term": "Valley of the Sun", "say": "VAL-ee uv thuh SUN", "ipa": "", "tts": "", "means": "The fuller name for metro Phoenix, used on signs and broadcasts.", "use": "The Valley of the Sun in July is no joke.", "common": false},
+      {"term": "dry heat", "say": "DRY HEET", "ipa": "", "tts": "", "means": "Phoenix's standard, half-joking defense of 110-degree days: no humidity.", "use": "Hundred and twelve? It's a dry heat.", "common": true},
+      {"term": "monsoon", "say": "mon-SOON", "ipa": "mɑnˈsuːn", "tts": "", "means": "The summer storm season, roughly June to September, with sudden downpours and wind.", "use": "Monsoon's here, so the drive home will be a mess.", "common": true},
+      {"term": "haboob", "say": "huh-BOOB", "ipa": "həˈbuːb", "tts": "huh boob", "means": "A huge wall of dust blown in ahead of a summer storm.", "use": "Haboob coming, get inside.", "common": true},
+      {"term": "snowbirds", "say": "SNOH-burdz", "ipa": "", "tts": "", "means": "Winter visitors from the Midwest and Canada. They fill spring training and bring their own jerseys.", "use": "Snowbirds are back, so the Cubs crowd is huge in Mesa.", "common": true},
+      {"term": "Cactus League", "say": "KAK-tus LEEG", "ipa": "", "tts": "", "means": "Spring training: fifteen big-league baseball teams train around the Valley every February and March.", "use": "Cactus League tickets are the best deal in town.", "common": true},
+      {"term": "Sun Devils", "say": "SUN DEV-ulz", "ipa": "", "tts": "", "means": "Arizona State in Tempe. Their rival is the University of Arizona Wildcats in Tucson.", "use": "Sun Devils on Saturday, the Cardinals on Sunday.", "common": true},
+      {"term": "Territorial Cup", "say": "tair-ih-TOR-ee-ul KUP", "ipa": "", "tts": "", "means": "The trophy for the Arizona State vs. Arizona football game, played every year around Thanksgiving. Also called the Duel in the Desert.", "use": "Territorial Cup week, so my brother-in-law isn't speaking to me.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Tempe", "say": "tem-PEE", "ipa": "tɛmˈpiː", "tts": "tem pee", "why": "Home of Arizona State. Stress the second syllable."},
+      {"word": "Mesa", "say": "MAY-suh", "ipa": "ˈmeɪsə", "tts": "may suh", "why": "The big East Valley city, where the Cubs train."},
+      {"word": "Tucson", "say": "TOO-sahn", "ipa": "ˈtuːsɑn", "tts": "too sahn", "why": "Home of the University of Arizona. The c is silent."},
+      {"word": "Gila", "say": "HEE-luh", "ipa": "ˈhiːlə", "tts": "", "why": "The river, the county and the Gila monster. The g sounds like an h."},
+      {"word": "Saguaro", "say": "suh-WAH-roh", "ipa": "səˈwɑroʊ", "tts": "suh wah row", "why": "The tall cactus on everything in Arizona. The g is nearly silent."}
+    ],
+    "lines": [
+      {"t": "It's a dry heat.", "m": "Said with a straight face at 115 degrees."},
+      {"t": "Thank goodness for the roof.", "m": "The Diamondbacks and Cardinals play under roofs for a reason."},
+      {"t": "Spring training is our holiday season.", "m": "Cactus League season fills the Valley every February and March."},
+      {"t": "Half the crowd is snowbirds cheering for the other team.", "m": "The winter moan when visiting fans take over."},
+      {"t": "Monsoon's coming, cancel practice.", "m": "Summer storms roll in fast in the afternoon."}
+    ],
+    "avoid": [
+      {"say": "TEM-pee", "instead": "tem-PEE", "why": "Locals stress the end; the wrong stress marks a visitor at once."},
+      {"say": "TUK-son", "instead": "TOO-sahn", "why": "The c in Tucson is silent."},
+      {"say": "GEE-luh", "instead": "HEE-luh", "why": "Gila is said the Spanish way, with an h sound."}
+    ],
+    "habits": ["February and March are spring training: fifteen teams in the Cactus League, cheap seats on the grass, and crowds of snowbirds.", "Summer sport happens indoors or after dark; the ballpark and the football stadium have roofs, and youth games start at dawn.", "Lots of fans are transplants from the Midwest and California, so visiting teams often draw big crowds."],
+    "sources": ["https://en.wikipedia.org/wiki/Phoenix_metropolitan_area", "https://en.wikipedia.org/wiki/Cactus_League", "https://en.wikipedia.org/wiki/Territorial_Cup", "https://en.wikipedia.org/wiki/North_American_monsoon", "https://en.wikipedia.org/wiki/Haboob", "https://en.wikipedia.org/wiki/Snowbird_(person)", "https://en.wikipedia.org/wiki/Tempe,_Arizona", "https://en.wikipedia.org/wiki/Tucson,_Arizona", "https://en.wikipedia.org/wiki/Gila_River", "https://en.wikipedia.org/wiki/Saguaro"],
+    "unsure": ["sources: no Phoenix newspaper or fan-site glossary could be checked (web search limit reached); words rest on Wikipedia.", "words: freeway names with 'the' ('the 101', 'the 202') left out of words; Phoenix usage not confirmed in a source."]
+  },
+  {
+    "id": "us-las-vegas",
+    "name": "Las Vegas",
+    "covers": "Las Vegas, Henderson and the Las Vegas Valley",
+    "dialect": "Western American English, Las Vegas style",
+    "words": [
+      {"term": "the Strip", "say": "thuh STRIP", "ipa": "", "tts": "", "means": "The resort corridor on Las Vegas Boulevard, mostly outside city limits. Locals avoid it, except for games and shows.", "use": "Game's on the Strip, so leave an hour early.", "common": true},
+      {"term": "off-Strip", "say": "awf-STRIP", "ipa": "", "tts": "", "means": "Anywhere away from the resort corridor, where locals actually live, eat and drink.", "use": "Let's watch somewhere off-Strip.", "common": true},
+      {"term": "locals casino", "say": "LOH-kulz kuh-SEE-noh", "ipa": "", "tts": "", "means": "A neighborhood casino built for residents, with cheaper food, a sportsbook and the game on every screen.", "use": "Meet at the locals casino for the watch party.", "common": true},
+      {"term": "the valley", "say": "thuh VAL-ee", "ipa": "", "tts": "", "means": "The Las Vegas Valley: Las Vegas, Henderson, North Las Vegas, Summerlin and the rest.", "use": "The whole valley turned out for the parade.", "common": true},
+      {"term": "Fremont Street", "say": "FREE-mont STREET", "ipa": "", "tts": "", "means": "Downtown's old casino strip, under its giant canopy screen.", "use": "Watching the game on Fremont tonight.", "common": false},
+      {"term": "the Spaghetti Bowl", "say": "thuh spuh-GET-ee BOHL", "ipa": "", "tts": "", "means": "The tangled freeway interchange downtown where I-15 meets US 95.", "use": "Spaghetti Bowl's jammed, take surface streets.", "common": true},
+      {"term": "sportsbook", "say": "SPORTS-book", "ipa": "", "tts": "", "means": "The betting room in a casino, where people watch and wager. Locals just say 'the book'.", "use": "Line moved at the book this morning.", "common": true},
+      {"term": "Hawaii's Ninth Island", "say": "huh-WY-eez NYNTH EYE-lund", "ipa": "", "tts": "", "means": "A fond nickname for Las Vegas, which draws many Hawaiian visitors and residents.", "use": "Ninth Island crowd showed up for the road game.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Nevada", "say": "nuh-VAD-uh", "ipa": "nəˈvædə", "tts": "nuh vadda", "why": "The middle a is as in 'apple'. Nevadans notice 'nuh-VAH-duh' at once."},
+      {"word": "Mojave", "say": "moh-HAH-vee", "ipa": "moʊˈhɑvi", "tts": "mo hah vee", "why": "The desert around the city. The j sounds like an h."},
+      {"word": "Paiute", "say": "PY-yoot", "ipa": "ˈpaɪjuːt", "tts": "pie yoot", "why": "The Native nation of southern Nevada, and many local place names. Two syllables."}
+    ],
+    "lines": [
+      {"t": "I don't go near the Strip unless there's a game.", "m": "Locals stay away from the tourist corridor; the arena and stadium are the exceptions."},
+      {"t": "It's nuh-VAD-uh.", "m": "Locals correct the state's name, politely."},
+      {"t": "Half the building is visiting fans on vacation.", "m": "Road-trip fans love Vegas, so home fans work to keep it loud."},
+      {"t": "What's the line?", "m": "In a betting town, everyone knows the spread."},
+      {"t": "We're a real sports town now.", "m": "Vegas pride since the Golden Knights (2017) and Raiders (2020) arrived, with the A's due in 2028."}
+    ],
+    "avoid": [
+      {"say": "nuh-VAH-duh", "instead": "nuh-VAD-uh", "why": "The local pronunciation uses the 'a' in 'apple'."},
+      {"say": "So you live on the Strip?", "instead": "Which part of the valley?", "why": "Locals live in the neighborhoods, not the resorts."}
+    ],
+    "habits": ["Locals watch games at neighborhood casinos and sportsbooks rather than on the Strip.", "Game nights fill the south end of the Strip around the arena and the stadium, with plenty of visiting jerseys.", "Summer means sport indoors: the stadium has a roof, and the heat keeps people in air conditioning."],
+    "sources": ["https://en.wikipedia.org/wiki/Las_Vegas", "https://en.wikipedia.org/wiki/Nevada", "https://en.wikipedia.org/wiki/Station_Casinos", "https://en.wikipedia.org/wiki/Spaghetti_Bowl_(Las_Vegas)", "https://en.wikipedia.org/wiki/Mojave_Desert", "https://en.wikipedia.org/wiki/Paiute"],
+    "unsure": ["sources: no Las Vegas newspaper or fan-site glossary could be checked (web search limit reached); words rest on Wikipedia.", "words: 'the 702' (area code) left out; not confirmed in a source."]
+  },
+  {
+    "id": "us-socal",
+    "name": "Southern California",
+    "covers": "Los Angeles, Orange County, the Inland Empire and San Diego",
+    "dialect": "California English, Southern California style",
+    "words": [
+      {"term": "the 405", "say": "thuh FOR-oh-FYVE", "ipa": "ðə ˌfɔr oʊ ˈfaɪv", "tts": "the four oh five", "means": "Southern Californians put 'the' before freeway numbers: the 405, the 5, the 10, the 101.", "use": "The 405 was a parking lot, so I missed first pitch.", "common": true},
+      {"term": "SigAlert", "say": "SIG-uh-lurt", "ipa": "ˈsɪɡəlɝt", "tts": "sig alert", "means": "A traffic alert for a crash or closure that blocks lanes. A Los Angeles word since the 1950s.", "use": "SigAlert on the 5, leave now.", "common": true},
+      {"term": "June Gloom", "say": "JOON GLOOM", "ipa": "", "tts": "", "means": "The gray, cool marine layer over the coast in early summer. In May it's May Gray.", "use": "June Gloom again, bring a hoodie to the ballpark.", "common": true},
+      {"term": "Santa Anas", "say": "SAN-tuh AN-uhz", "ipa": "", "tts": "", "means": "Hot, dry desert winds that blow toward the coast, mostly in fall.", "use": "Santa Anas are blowing, it'll be ninety at kickoff.", "common": false},
+      {"term": "the Valley", "say": "thuh VAL-ee", "ipa": "", "tts": "", "means": "In LA, the San Fernando Valley, over the hills from Hollywood.", "use": "He drives in from the Valley for every home game.", "common": true},
+      {"term": "the IE", "say": "thee EYE-EE", "ipa": "ði ˌaɪ ˈiː", "tts": "the eye ee", "means": "The Inland Empire: Riverside, San Bernardino and the cities east of LA.", "use": "Half the crowd drove in from the IE.", "common": true},
+      {"term": "OC", "say": "OH-SEE", "ipa": "ˌoʊ ˈsiː", "tts": "", "means": "Orange County, south of LA, home of Anaheim's teams.", "use": "OC showed up for the playoff game.", "common": true},
+      {"term": "SoCal", "say": "SOH-kal", "ipa": "ˈsoʊkæl", "tts": "so cal", "means": "Southern California.", "use": "Best weather in SoCal for a day game.", "common": true},
+      {"term": "dude", "say": "DOOD", "ipa": "", "tts": "", "means": "Friend, or anyone. Works as a greeting, a cheer or a groan.", "use": "Dude. Did you see that?", "common": true},
+      {"term": "bro", "say": "BROH", "ipa": "", "tts": "", "means": "Friend; an all-purpose way to address anyone.", "use": "Bro, we needed that win.", "common": true},
+      {"term": "gnarly", "say": "NAR-lee", "ipa": "ˈnɑrli", "tts": "", "means": "Surfer slang still heard: extreme, either amazing or awful.", "use": "That collision was gnarly.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Los Feliz", "say": "lohs FEE-liss", "ipa": "loʊs ˈfiːlɪs", "tts": "lohs fee liss", "why": "The LA neighborhood by Griffith Park. The local English way stresses 'FEE'."},
+      {"word": "La Jolla", "say": "luh HOY-uh", "ipa": "lə ˈhɔɪə", "tts": "lur hoy uh", "why": "The seaside part of San Diego. The double l sounds like a y and the j like an h."},
+      {"word": "San Pedro", "say": "san PEE-droh", "ipa": "sæn ˈpiːdroʊ", "tts": "san pee dro", "why": "LA's port town. Longtime residents say 'PEE-droh', not the Spanish 'PAY-droh'."}
+    ],
+    "lines": [
+      {"t": "How'd you come, the 405 or the 10?", "m": "Every LA conversation starts with the route."},
+      {"t": "Leave early or sit in the lot for an hour.", "m": "Stadium parking is LA's other opponent."},
+      {"t": "Seventy-two and sunny. Another rough one.", "m": "Mock-moaning about perfect weather."},
+      {"t": "June Gloom at the ballpark again.", "m": "Early-summer clouds over the coast."},
+      {"t": "San Diego isn't LA.", "m": "San Diegans keep their own identity, and their own teams."}
+    ],
+    "avoid": [
+      {"say": "hella", "instead": "super, or so", "why": "Hella is Northern California slang; down south it marks you as from the Bay."},
+      {"say": "San PAY-droh", "instead": "san PEE-droh", "why": "The port town keeps its anglicized name."},
+      {"say": "LA, for all of SoCal", "instead": "LA, OC, the IE or San Diego", "why": "Each area has its own identity, and San Diego especially is not LA."}
+    ],
+    "habits": ["Every game plan starts with traffic: which freeway, and when to leave.", "College football splits the city between USC and UCLA, now rivals in the Big Ten.", "Outdoor sport runs all year, so a beach morning before an afternoon game is normal."],
+    "sources": ["https://en.wikipedia.org/wiki/California_English", "https://en.wikipedia.org/wiki/SigAlert", "https://en.wikipedia.org/wiki/June_Gloom", "https://en.wikipedia.org/wiki/Inland_Empire", "https://en.wikipedia.org/wiki/Orange_County,_California", "https://www.cbsnews.com/losangeles/news/knx-on-your-corner-san-pee-dro-vs-san-pay-dro/", "https://en.wikipedia.org/wiki/Los_Feliz,_Los_Angeles", "https://en.wikipedia.org/wiki/La_Jolla", "https://en.wiktionary.org/wiki/hella", "https://en.wikipedia.org/wiki/Santa_Ana_winds"],
+    "unsure": ["sources: no LA or San Diego newspaper slang guide could be checked (web search limit reached); words rest on Wikipedia, with KNX for San Pedro.", "pronounce: Sepulveda, La Cienega and Cahuenga left out; no reference IPA found.", "avoid: 'the O.C.' (said to annoy locals) left out; not confirmed in a source checked here."]
+  },
+  {
+    "id": "us-norcal",
+    "name": "the Bay Area and Sacramento",
+    "covers": "San Francisco, Oakland, San Jose, the rest of the Bay Area, and Sacramento",
+    "dialect": "California English, Northern California style",
+    "words": [
+      {"term": "hella", "say": "HEL-uh", "ipa": "ˈhɛlə", "tts": "", "means": "Very, really, or a lot. The Bay Area's signature word.", "use": "That was hella close.", "common": true},
+      {"term": "hecka", "say": "HEK-uh", "ipa": "ˈhɛkə", "tts": "", "means": "The politer version of hella, for kids and the office.", "use": "Traffic on the bridge was hecka bad.", "common": false},
+      {"term": "the City", "say": "thuh SIT-ee", "ipa": "", "tts": "", "means": "San Francisco, to everyone in the Bay Area. Locals also say SF.", "use": "Going into the City for the game.", "common": true},
+      {"term": "the Bay", "say": "thuh BAY", "ipa": "", "tts": "", "means": "The Bay Area as a whole. Locals rep it with pride.", "use": "The whole Bay is riding with us.", "common": true},
+      {"term": "the Town", "say": "thuh TOWN", "ipa": "", "tts": "", "means": "Oakland, also Oaktown. Oaklanders use it proudly.", "use": "Born and raised in the Town.", "common": true},
+      {"term": "the East Bay", "say": "thee EEST BAY", "ipa": "", "tts": "", "means": "Oakland, Berkeley and the cities across the bay. The Peninsula, the South Bay and the North Bay are the other parts.", "use": "He's East Bay, so don't get him started on the Raiders leaving.", "common": true},
+      {"term": "101", "say": "WUN-oh-WUN", "ipa": "ˌwʌn oʊ ˈwʌn", "tts": "one oh one", "means": "Freeways go without 'the' up here: 101, 280, 880. 'The 101' is how Southern California talks.", "use": "Take 101 down to Santa Clara.", "common": true},
+      {"term": "BART", "say": "BART", "ipa": "bɑrt", "tts": "bart", "means": "Bay Area Rapid Transit, the train most fans take to games. Said as a word, not letters.", "use": "Just take BART, parking is a nightmare.", "common": true},
+      {"term": "Karl the Fog", "say": "KARL thuh FOG", "ipa": "", "tts": "", "means": "San Francisco's fog, nicknamed like a person since a joke social-media account in 2010.", "use": "Karl's rolling in, bring a jacket.", "common": false},
+      {"term": "Sactown", "say": "SAK-town", "ipa": "ˈsæktaʊn", "tts": "sack town", "means": "Sacramento, also just Sac.", "use": "Sactown loves its basketball.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Vallejo", "say": "vuh-LAY-oh", "ipa": "vəˈleɪoʊ", "tts": "vuh lay oh", "why": "The North Bay city. Locals use the English 'vuh-LAY-oh', not the Spanish."},
+      {"word": "Noe Valley", "say": "NOH-ee VAL-ee", "ipa": "ˈnoʊi ˈvæli", "tts": "no ee valley", "why": "The San Francisco neighborhood. Two syllables in Noe."},
+      {"word": "San Joaquin", "say": "san wah-KEEN", "ipa": "ˌsæn wɑˈkiːn", "tts": "san wah keen", "why": "The valley and county east of the Bay, toward Sacramento. The 'Joa' sounds like 'wah'."}
+    ],
+    "lines": [
+      {"t": "That was hella good.", "m": "Bay Area praise."},
+      {"t": "Bring a jacket. It's July.", "m": "Summer fog makes night games cold by the water."},
+      {"t": "Take BART, don't even think about parking.", "m": "Transit is the easy way into the City on game day."},
+      {"t": "Take 101, then 280.", "m": "No 'the' up here; that's a Southern California habit."},
+      {"t": "The Town still loves its teams.", "m": "Oakland pride, after the Raiders, the Warriors and the A's all left. Tread lightly."}
+    ],
+    "avoid": [
+      {"say": "Frisco", "instead": "SF, or the City", "why": "Many locals bristle at it; Frisco is also a city in Texas."},
+      {"say": "San Fran", "instead": "SF", "why": "It splits residents and sounds like a visitor."},
+      {"say": "the 101", "instead": "101", "why": "Northern Californians drop 'the' before freeway numbers."}
+    ],
+    "habits": ["Fans take BART, Caltrain or the ferry to games in the City; the waterfront ballpark gets cold and windy at night, even in summer.", "The Bay splits by side of the water: San Francisco, the East Bay and the South Bay each have their own loyalties.", "Sacramento is a Kings town, with the A's playing at the minor-league ballpark in West Sacramento until their move to Las Vegas."],
+    "sources": ["https://en.wiktionary.org/wiki/hella", "https://en.wikipedia.org/wiki/California_English", "https://en.wikipedia.org/wiki/San_Francisco", "https://en.wiktionary.org/wiki/Frisco", "https://en.wikipedia.org/wiki/San_Francisco_Bay_Area", "https://en.wikipedia.org/wiki/Oakland,_California", "https://en.wikipedia.org/wiki/Sacramento,_California", "https://en.wikipedia.org/wiki/Fog_in_San_Francisco", "https://www.sfchronicle.com/news/article/How-Karl-the-Fog-rolls-Twitter-presence-s-11740478.php", "https://en.wikipedia.org/wiki/Vallejo,_California", "https://en.wikipedia.org/wiki/Noe_Valley,_San_Francisco", "https://en.wikipedia.org/wiki/San_Joaquin_County,_California"],
+    "unsure": ["sources: SFGate/SF Chronicle pages could not be opened; Bay Area words rest on Wikipedia, Wiktionary and their cited local sources."]
+  },
+  {
+    "id": "us-pacific-northwest",
+    "name": "Seattle and Portland",
+    "covers": "Seattle, Portland and the Pacific Northwest",
+    "dialect": "Pacific Northwest English",
+    "words": [
+      {"term": "the Mountain", "say": "thuh MOWN-tun", "ipa": "", "tts": "", "means": "Mount Rainier. On a clear day locals say the Mountain is out.", "use": "The Mountain's out, great day for a ballgame.", "common": true},
+      {"term": "sunbreak", "say": "SUN-brayk", "ipa": "ˈsʌnbreɪk", "tts": "", "means": "A spell of sunshine through the clouds on a gray day.", "use": "Sunbreak at halftime, everybody look up.", "common": true},
+      {"term": "spendy", "say": "SPEN-dee", "ipa": "ˈspɛndi", "tts": "", "means": "Expensive.", "use": "Playoff tickets are spendy this year.", "common": true},
+      {"term": "the Seattle Freeze", "say": "thuh see-AT-ul FREEZ", "ipa": "", "tts": "", "means": "The polite-but-distant way locals treat newcomers. Game day is when it thaws.", "use": "Strangers high-fiving after a goal? So much for the Seattle Freeze.", "common": true},
+      {"term": "Cascadia", "say": "kas-KAY-dee-uh", "ipa": "kæsˈkeɪdiə", "tts": "", "means": "The Pacific Northwest as one region, from Oregon up into British Columbia. Its soccer clubs play for the Cascadia Cup.", "use": "Cascadia Cup's on the line this weekend.", "common": true},
+      {"term": "Rip City", "say": "RIP SIT-ee", "ipa": "", "tts": "", "means": "Portland. Born as a Trail Blazers broadcaster's cheer in 1971, now a name for the whole city.", "use": "Rip City showed up tonight.", "common": true},
+      {"term": "PDX", "say": "PEE-dee-EKS", "ipa": "ˌpiː diː ˈɛks", "tts": "", "means": "Portland, by its airport code. Locals use it in everyday talk.", "use": "Moving back to PDX after the season.", "common": true},
+      {"term": "Stumptown", "say": "STUMP-town", "ipa": "", "tts": "", "means": "An old nickname for Portland, from the tree stumps of its early days.", "use": "Stumptown loves its soccer.", "common": false},
+      {"term": "Rose City", "say": "ROHZ SIT-ee", "ipa": "", "tts": "", "means": "Portland's official-sounding nickname, also the City of Roses. Soccer fans use it proudly.", "use": "Rose City is packed for the derby.", "common": true},
+      {"term": "skookum", "say": "SKOO-kum", "ipa": "ˈskuːkəm", "tts": "", "means": "Strong, big or excellent, from the old Chinook Jargon trade language.", "use": "That's a skookum defense.", "common": false},
+      {"term": "pop", "say": "POP", "ipa": "", "tts": "", "means": "A soft drink, in much of the Northwest.", "use": "Grab me a pop on the way back.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Rainier", "say": "ray-NEER", "ipa": "reɪˈnɪr", "tts": "ray neer", "why": "The mountain, the avenue and the beer. Not 'rainy-er'."},
+      {"word": "Puyallup", "say": "pyoo-AL-up", "ipa": "pjuˈæləp", "tts": "pew al up", "why": "The city and river south of Seattle, home of the state fair. Stress the middle."},
+      {"word": "Willamette", "say": "wil-AM-it", "ipa": "wɪˈlæmɪt", "tts": "will am it", "why": "The river through Portland. Stress the second syllable."},
+      {"word": "Oregon", "say": "OR-ih-gun", "ipa": "ˈɔrɪɡən", "tts": "or ihgun", "why": "Oregonians say 'gun' at the end, not 'gone'."},
+      {"word": "Spokane", "say": "spoh-KAN", "ipa": "spoʊˈkæn", "tts": "spo can", "why": "The eastern Washington city. It ends like 'can', not 'cane'."}
+    ],
+    "lines": [
+      {"t": "The Mountain's out!", "m": "Said on clear days when Mount Rainier shows itself."},
+      {"t": "It's not raining, it's just misting.", "m": "Locals barely count drizzle as rain."},
+      {"t": "Seattle or Portland? Settle it in the Cascadia Cup.", "m": "The soccer rivalry between Seattle, Portland and Vancouver."},
+      {"t": "Rip City!", "m": "Portland's cheer, now a name for the city itself."},
+      {"t": "Sunbreak! Everyone outside.", "m": "A gap in the clouds after a gray week."}
+    ],
+    "avoid": [
+      {"say": "Or-uh-GONE", "instead": "OR-ih-gun", "why": "Oregonians hear the 'gone' ending as an outsider's."},
+      {"say": "Will-uh-MET", "instead": "wil-AM-it", "why": "The river's stress is on the second syllable."},
+      {"say": "Rainy-er", "instead": "ray-NEER", "why": "Mount Rainier rhymes with 'near'."}
+    ],
+    "habits": ["Drizzle doesn't stop anyone: fans dress in layers and hoods for outdoor games.", "Soccer is big here: both cities pack their stadiums for MLS, and supporters march to the match together.", "Seattle and Portland are rivals as much as neighbors, and the Cascadia Cup keeps score."],
+    "sources": ["https://en.wikipedia.org/wiki/Pacific_Northwest_English", "https://en.wikipedia.org/wiki/Mount_Rainier", "https://en.wikipedia.org/wiki/Seattle_Freeze", "https://www.knkx.org/other-news/2012-01-06/why-is-the-seattle-freeze-so-hard-to-melt", "https://en.wiktionary.org/wiki/spendy", "https://en.wikipedia.org/wiki/Cascadia_Cup", "https://en.wikipedia.org/wiki/Rip_City", "https://en.wikipedia.org/wiki/Portland,_Oregon", "https://en.wikipedia.org/wiki/Puyallup,_Washington", "https://en.wikipedia.org/wiki/Willamette_River", "https://en.wikipedia.org/wiki/Oregon", "https://en.wikipedia.org/wiki/Spokane,_Washington"],
+    "unsure": ["sources: Seattle Times pages could not be opened; most words rest on Wikipedia and Wiktionary, with KNKX for the Seattle Freeze.", "words: Portland's 'Couch Street' (said 'cooch') and 'the Eastside' left out; not confirmed in a source checked here."]
+  }
+]

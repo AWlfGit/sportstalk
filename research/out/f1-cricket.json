@@ -16,19 +16,19 @@
     "legends": ["Ayrton Senna", "Alain Prost", "Mika Häkkinen", "Bruce McLaren"],
     "memory": "1988: Senna and Prost won 15 of the 16 races between them",
     "lingo": [
-      {"term": "Papaya", "say": "puh-PIE-uh", "means": "The team's orange colour. Fans call it papaya, never just orange."},
+      {"term": "Papaya", "say": "puh-PIE-uh", "means": "The team's orange color. Fans call it papaya, never just orange."},
       {"term": "Macca", "say": "MACK-uh", "means": "Informal nickname for McLaren, used a lot by Australian and British fans."},
       {"term": "Woking", "say": "WOH-king", "means": "The Surrey town where the factory is. Fans use it to mean the team itself."},
-      {"term": "Papaya rules", "say": "puh-PIE-uh ROOLZ", "means": "The team's code for letting its two drivers race each other fairly. Fans quote it whenever the team-mates fight on track."}
+      {"term": "Papaya rules", "say": "puh-PIE-uh ROOLZ", "means": "The team's code for letting its two drivers race each other fairly. Fans quote it whenever the teammates fight on track."}
     ],
     "lines": [
       {"t": "Papaya rules. Let them race.", "m": "Said when the two McLarens battle each other. Fans want a fair fight, not team orders."},
       {"t": "Senna and Prost in the same garage. Imagine the debriefs.", "m": "A nod to the famous 1988-89 pairing and their bitter rivalry."},
-      {"t": "Only Ferrari have won more constructors' titles.", "m": "A point of pride. McLaren are second on the all-time list."},
+      {"t": "Only Ferrari has won more constructors' titles.", "m": "A point of pride. McLaren is second on the all-time list."},
       {"t": "Bruce McLaren's name is still over the door.", "m": "Respect for the New Zealander who founded the team in the 1960s."}
     ],
     "avoid": [
-      {"say": "the orange car", "instead": "the papaya car", "why": "Fans are particular about the colour's name."},
+      {"say": "the orange car", "instead": "the papaya car", "why": "Fans are particular about the color's name."},
       {"say": "McLaren-Honda", "instead": "McLaren-Mercedes", "why": "The Honda days ended in 2017. They run Mercedes engines now."}
     ],
     "sources": [
@@ -64,7 +64,7 @@
       {"t": "Forza Ferrari!", "m": "The all-purpose cheer. Works win or lose."},
       {"t": "Next year is our year.", "m": "A long-running, self-mocking Ferrari fan joke. Say it with a sigh."},
       {"t": "Nothing beats Monza when the tifosi pour onto the track.", "m": "Fans flood the circuit for the podium at the Italian Grand Prix. A sea of red."},
-      {"t": "We are checking.", "m": "Quoting a famous Ferrari radio reply. Fans use it to tease the strategy team after a muddled call."}
+      {"t": "We are checking.", "m": "Quoting a famous Ferrari radio reply. Fans use it to tease the strategy team after a confusing call."}
     ],
     "avoid": [
       {"say": "the bull on the badge", "instead": "the Prancing Horse", "why": "The bull is Lamborghini's. Ferrari's badge is a horse."},
@@ -96,17 +96,17 @@
     "lingo": [
       {"term": "RBR", "say": "ar-bee-AR", "means": "Short for Red Bull Racing, the senior team. Used to tell it apart from Racing Bulls."},
       {"term": "MK", "say": "em-KAY", "means": "Milton Keynes, where the factory is. Fans say 'MK' for the team's base."},
-      {"term": "Multi 21", "say": "MUL-tee TWEN-tee-WUN", "means": "A 2013 team-order code that Vettel ignored to pass Webber in Malaysia. Shorthand for team-mates defying orders."},
+      {"term": "Multi 21", "say": "MUL-tee TWEN-tee-WUN", "means": "A 2013 team-order code that Vettel ignored to pass Webber in Malaysia. Shorthand for teammates defying orders."},
       {"term": "the second seat", "say": "thuh SEK-und SEET", "means": "The drive alongside the team leader. Famous for being the toughest job in the paddock."}
     ],
     "lines": [
-      {"t": "That second Red Bull seat is the hardest job in F1.", "m": "A running theme. Many team-mates have struggled there or been swapped out."},
-      {"t": "Multi 21, anyone?", "m": "A joke about the 2013 team-order row. Use it when team-mates ignore orders."},
-      {"t": "Building their own engine with Ford was a massive gamble.", "m": "Since 2026 Red Bull make their own power units, with Ford as partner."},
-      {"t": "Austria is basically a home race for them.", "m": "The team races under an Austrian licence, and the owners rebuilt the Red Bull Ring."}
+      {"t": "That second Red Bull seat is the hardest job in F1.", "m": "A running theme. Many teammates have struggled there or been swapped out."},
+      {"t": "Multi 21, anyone?", "m": "A joke about the 2013 team-orders blowup. Use it when teammates ignore orders."},
+      {"t": "Building their own engine with Ford was a massive gamble.", "m": "Since 2026 Red Bull has built its own power units, with Ford as a partner."},
+      {"t": "Austria is basically a home race for them.", "m": "The team races under an Austrian license, and the owners rebuilt the Red Bull Ring."}
     ],
     "avoid": [
-      {"say": "Red Bull-Honda", "instead": "Red Bull-Ford", "why": "Honda moved to Aston Martin for 2026. Red Bull now build their own engine with Ford."},
+      {"say": "Red Bull-Honda", "instead": "Red Bull-Ford", "why": "Honda moved to Aston Martin for 2026. Red Bull now builds its own engine with Ford."},
       {"say": "Red Bull and Racing Bulls are the same team", "instead": "Racing Bulls is the sister team", "why": "They are separate teams. Racing Bulls is the junior outfit in Faenza."}
     ],
     "sources": [
@@ -137,13 +137,13 @@
     "memory": "Eight constructors' titles in a row, 2014 to 2021, a record",
     "lingo": [
       {"term": "Silver Arrows", "say": "SIL-ver AR-ohz", "means": "The team's nickname, going back to Mercedes' silver racing cars of the 1930s."},
-      {"term": "Merc", "say": "MURK", "means": "The everyday short form. Fans and pundits say 'Merc' far more than 'Mercedes'."},
+      {"term": "Merc", "say": "MURK", "means": "The everyday short form. Fans and commentators say 'Merc' far more than 'Mercedes'."},
       {"term": "Brackley", "say": "BRAK-lee", "means": "The Northamptonshire town where the cars are built. Used to mean the team."},
       {"term": "Brixworth", "say": "BRIKS-wurth", "means": "Where the engines are made. 'Brixworth' means the power-unit side of the team."}
     ],
     "lines": [
-      {"t": "Brackley always seem to nail a big rule change.", "m": "They dominated after the 2014 engine change. Fans expect the same whenever the rules reset."},
-      {"t": "Eight constructors' titles on the bounce. Nobody else has done that.", "m": "The 2014-2021 record run. A go-to brag."},
+      {"t": "Brackley always seems to nail a big rule change.", "m": "They dominated after the 2014 engine change. Fans expect the same whenever the rules reset."},
+      {"t": "Eight constructors' titles in a row. Nobody else has done that.", "m": "The 2014-2021 record run. A go-to brag."},
       {"t": "Abu Dhabi 2021 still stings.", "m": "The disputed last-lap title decider. Mercedes fans are still sore about it."},
       {"t": "A German name, built in Northamptonshire.", "m": "A fond joke. The badge is German but the team is very English."}
     ],
@@ -178,7 +178,7 @@
       {"term": "the junior team", "say": "thuh JOO-nee-er TEEM", "means": "Red Bull's proving ground. Drivers here hope to be promoted to the senior team."}
     ],
     "lines": [
-      {"t": "Faenza is where Red Bull find out who's the real deal.", "m": "Most Red Bull stars came through this team first."},
+      {"t": "Faenza is where Red Bull finds out who's the real deal.", "m": "Most Red Bull stars came through this team first."},
       {"t": "I'll always call them Toro Rosso.", "m": "The team has had four names since 2006. Old fans stick with the first."},
       {"t": "Vettel winning Monza in a Toro Rosso. Upset of the century.", "m": "2008, in the rain. Still the team's most famous day."},
       {"t": "Every promotion to the big team is a gamble.", "m": "Moves up to Red Bull have made and broken careers."}
@@ -213,18 +213,18 @@
     "memory": "Back-to-back titles as Renault in 2005 and 2006, with the cars built at Enstone",
     "lingo": [
       {"term": "Enstone", "say": "EN-stun", "means": "The Oxfordshire village where the cars are built. Fans say 'Enstone' to mean the team."},
-      {"term": "Team Enstone", "say": "TEEM EN-stun", "means": "What long-time fans call the outfit, whatever name is on the cars."},
+      {"term": "Team Enstone", "say": "TEEM EN-stun", "means": "What longtime fans call the team, whatever name is on the cars."},
       {"term": "Viry", "say": "VEE-ree", "means": "Short for Viry-Châtillon, the French base that built Renault's F1 engines until 2025."}
     ],
     "lines": [
       {"t": "Enstone has won titles as Benetton and as Renault.", "m": "The same factory has had many names. Fans are proud of the history."},
-      {"t": "Mercedes engines in an Enstone car. Strange times.", "m": "Since 2026 Alpine buy Mercedes engines, after Renault stopped making its own."},
+      {"t": "Mercedes engines in an Enstone car. Strange times.", "m": "Since 2026 Alpine has bought Mercedes engines, after Renault stopped making its own."},
       {"t": "Kimi's 'leave me alone' race was in an Enstone car.", "m": "Räikkönen's famous radio reply came during his 2012 Abu Dhabi win for Lotus, the same team."},
       {"t": "Same factory that built Schumacher's first title car.", "m": "Benetton, 1994."}
     ],
     "avoid": [
       {"say": "Renault", "instead": "Alpine", "why": "The team became Alpine in 2021. Renault is the parent company."},
-      {"say": "Alpine's own engine", "instead": "the Mercedes engine", "why": "Alpine have used Mercedes power since 2026."}
+      {"say": "Alpine's own engine", "instead": "the Mercedes engine", "why": "Alpine has used Mercedes power since 2026."}
     ],
     "sources": [
       "https://en.wikipedia.org/wiki/Alpine_F1_Team",
@@ -260,7 +260,7 @@
       {"t": "Points in their very first race. Not many new teams manage that.", "m": "Grosjean was sixth in Melbourne in 2016."},
       {"t": "Drive to Survive made me a Haas fan.", "m": "Common among newer fans who found the team through Netflix."},
       {"t": "Magnussen's pole in Brazil. What a day.", "m": "The team's first pole, at the 2022 São Paulo Grand Prix."},
-      {"t": "Small team, punching above its weight.", "m": "Haas run lean and buy many parts from Ferrari."}
+      {"t": "Small team, punching above its weight.", "m": "Haas runs lean and buys many parts from Ferrari."}
     ],
     "avoid": [
       {"say": "a German team", "instead": "an American team", "why": "The name looks German, but Haas is American, based in North Carolina."},
@@ -340,11 +340,11 @@
     "lines": [
       {"t": "Nine constructors' titles. Only Ferrari and McLaren have more.", "m": "A reminder of the team's golden era in the 1980s and 90s."},
       {"t": "Red 5 forever.", "m": "A nod to Mansell's famous red number five."},
-      {"t": "Grove is a proper racing team, not a car maker's marketing arm.", "m": "Fans are proud that Williams is not owned by a car company."},
-      {"t": "Sir Frank would have loved that.", "m": "Said when the team does something gutsy. Honours the late founder."}
+      {"t": "Williams is a real racing team, not some carmaker's marketing arm.", "m": "Fans are proud that Williams is not owned by a car company."},
+      {"t": "Sir Frank would have loved that.", "m": "Said when the team does something gutsy. A tribute to the founder."}
     ],
     "avoid": [
-      {"say": "the Williams family still run it", "instead": "it's owned by Dorilton Capital", "why": "The family sold the team in 2020."},
+      {"say": "the Williams family still runs it", "instead": "it's owned by Dorilton Capital", "why": "The family sold the team in 2020."},
       {"say": "Williams-Renault", "instead": "Williams-Mercedes", "why": "The famous Renault era was the 1990s. They have used Mercedes engines since 2014."}
     ],
     "sources": [
@@ -373,14 +373,14 @@
     "memory": "Fernando Alonso piling up podiums in the first half of 2023, the best start under the Aston Martin name",
     "lingo": [
       {"term": "Aston", "say": "ASS-tun", "means": "The everyday short name for the team."},
-      {"term": "British racing green", "say": "BRIT-ish RAY-sing GREEN", "means": "The team's colour, the traditional British motor-racing green."},
-      {"term": "AMR", "say": "ay-em-AR", "means": "Short for Aston Martin Racing. You see it on the cars and kit."}
+      {"term": "British racing green", "say": "BRIT-ish RAY-sing GREEN", "means": "The team's color, the traditional British motor-racing green."},
+      {"term": "AMR", "say": "ay-em-AR", "means": "Short for Aston Martin Racing. You see it on the cars and team gear."}
     ],
     "lines": [
-      {"t": "Factory right next to the circuit. Silverstone is a proper home race.", "m": "The team's base sits beside the Silverstone track."},
-      {"t": "British racing green just looks right on an F1 car.", "m": "Fans love the classic colour."},
-      {"t": "A Honda works deal. They're building for the long haul.", "m": "Since 2026 Honda have made the team's engines as a full works partner."},
-      {"t": "Remember when this lot were Jordan?", "m": "The team traces back to Eddie Jordan's outfit, via Force India and Racing Point."}
+      {"t": "Factory right next to the track. Silverstone is a real home race.", "m": "The team's base sits beside the Silverstone track."},
+      {"t": "British racing green just looks right on an F1 car.", "m": "Fans love the classic color."},
+      {"t": "A Honda works deal. They're building for the long haul.", "m": "Since 2026 Honda has made the team's engines as a full works partner."},
+      {"t": "Remember when these guys were Jordan?", "m": "The team traces back to Eddie Jordan's outfit, via Force India and Racing Point."}
     ],
     "avoid": [
       {"say": "Racing Point", "instead": "Aston Martin", "why": "The team took the Aston Martin name in 2021."},
@@ -420,10 +420,10 @@
       {"t": "Eleven teams on the grid now. About time.", "m": "Cadillac was the first new team since Haas joined in 2016."},
       {"t": "Ferrari engines for now, GM's own engine later.", "m": "The plan is to become a full works team, with a GM engine from 2029."},
       {"t": "An American team with an American world champion on the board.", "m": "Mario Andretti, the 1978 champion, is a director."},
-      {"t": "Every step is a milestone for a new team.", "m": "New teams take time. Fans enjoy each small breakthrough."}
+      {"t": "New team. Every little bit of progress counts.", "m": "New teams take time. Fans enjoy each small breakthrough."}
     ],
     "avoid": [
-      {"say": "the Andretti team", "instead": "Cadillac", "why": "F1 turned down the original Andretti bid. The team that got in is run by General Motors."}
+      {"say": "the Andretti team", "instead": "Cadillac", "why": "F1 turned down the original Andretti bid. The team that got in is backed by General Motors."}
     ],
     "sources": [
       "https://en.wikipedia.org/wiki/Cadillac_in_Formula_One",

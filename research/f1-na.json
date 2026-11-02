@@ -1,0 +1,220 @@
+{
+  "terms": [
+    {"term": "Grand Prix", "say": "grahn PREE", "means": "An F1 race, named for its country or city, like the Miami Grand Prix. The x is silent. Fans often just say 'the race' or 'the GP.'", "use": "You watching the Grand Prix this weekend?", "common": true},
+    {"term": "Pole position", "say": "POHL puh-ZISH-un", "means": "First place on the starting grid, for the fastest driver in qualifying. Fans say a driver is 'on pole' or 'took pole.' It isn't a win.", "use": "He's on pole, so it's all about the start.", "common": true},
+    {"term": "Quali", "say": "KWAH-lee", "means": "Short for qualifying, usually on Saturday, which sets the starting grid. It has three knockout rounds. With 22 cars in 2026, six drop out in Q1, six more in Q2, and the top ten fight for pole in Q3.", "use": "Rough quali. He's starting way back.", "common": true},
+    {"term": "P1", "say": "PEE-wun", "means": "A position. P1 is first, P7 is seventh. Fans use it for grid spots and finishing spots. On the schedule, FP1 means first practice.", "use": "P6 from fifteenth on the grid? I'll take that.", "common": true},
+    {"term": "Podium", "say": "POH-dee-um", "means": "A top-three finish. The top three stand on the podium after the race, and the winner is on the 'top step.'", "use": "A podium on a tough weekend. Can't complain.", "common": true},
+    {"term": "In the points", "say": "in the POYNTS", "means": "Finishing in the top ten, the only places that score: 25 for a win, down to 1 for tenth. The bonus point for fastest lap was dropped in 2025.", "use": "P9. At least he's in the points.", "common": true},
+    {"term": "DNF", "say": "dee-en-EF", "means": "Did not finish. Any car that drops out of the race, whatever the reason.", "use": "Another DNF. That car can't catch a break.", "common": true},
+    {"term": "Box", "say": "BOKS", "means": "The team-radio word for 'pit this lap,' from the German for pit stop. You'll also hear 'they boxed him.'", "use": "They boxed him early. Let's see if it pays off.", "common": true},
+    {"term": "Undercut", "say": "UN-dur-kut", "means": "Pitting before the car ahead, so your fresh tires let you jump in front when they stop.", "use": "They went for the undercut, and it worked.", "common": true},
+    {"term": "Overcut", "say": "OH-vur-kut", "means": "The opposite of the undercut: staying out longer while a rival pits, and coming out ahead. It works less often.", "use": "Staying out was a gamble, but the overcut paid off.", "common": false},
+    {"term": "Tire deg", "say": "tyer DEG", "means": "Short for tire degradation: how quickly tires lose grip. High deg means more pit stops.", "use": "Deg is brutal here. Nobody's making one stop work.", "common": true},
+    {"term": "Stint", "say": "STINT", "means": "The laps a driver does on one set of tires, between pit stops.", "use": "He's flying in this stint. Those tires are holding up.", "common": true},
+    {"term": "Softs, mediums and hards", "say": "SOFTS, MEE-dee-umz, HARDZ", "means": "The three dry tires each weekend, marked red, yellow and white. Softer is faster but wears out sooner. In the rain it's inters (green stripe) or full wets (blue).", "use": "He's on the softs, so he has to go now.", "common": true},
+    {"term": "Dirty air", "say": "DUR-tee air", "means": "The turbulent wake behind a car. Following close costs grip in the corners and makes the tires slide and overheat. Running alone out front is 'clean air.'", "use": "He's quicker, but he can't get close in the dirty air.", "common": true},
+    {"term": "Tow", "say": "TOH", "means": "A slipstream. Tucking in behind another car on a straight to cut drag and gain speed. NASCAR fans call it drafting.", "use": "He got a tow down the back straight and went right by.", "common": true},
+    {"term": "Dive-bomb", "say": "DYVE-bom", "means": "A very late lunge up the inside into a corner, usually from a long way back.", "use": "That was a dive-bomb. No way he was making that corner.", "common": true},
+    {"term": "Safety car", "say": "SAYF-tee kar", "means": "A road car that leads the field at reduced speed after an incident. The field bunches up, and a pit stop costs much less time. NASCAR and IndyCar call it a pace car.", "use": "Safety car! Perfect time for a cheap pit stop.", "common": true},
+    {"term": "VSC", "say": "vee-es-SEE", "means": "Virtual safety car. Everyone has to slow to a set pace, but no car comes out. A pit stop still costs less than usual.", "use": "Just a VSC. Do they pit or stay out?", "common": true},
+    {"term": "Red flag", "say": "RED flag", "means": "The session stops and the cars go back to the pit lane, usually because the track is blocked. Teams can change tires during the stoppage.", "use": "Red flag. Everybody gets fresh tires for the restart.", "common": true},
+    {"term": "Track limits", "say": "TRAK lim-its", "means": "The white lines at the edges of the track. Keep running past them and you get a penalty.", "use": "Track limits again? Give him the penalty already.", "common": true},
+    {"term": "Stewards", "say": "STOO-urdz", "means": "The officials who investigate incidents and hand out penalties, from five or ten seconds added to a driver's time up to a drive-through of the pit lane.", "use": "Contact at Turn 1. The stewards are looking at it.", "common": true},
+    {"term": "Grid penalty", "say": "GRID pen-ul-tee", "means": "Starting further back than you qualified, often for using too many engine parts or for an earlier offense.", "use": "Great lap, but the grid penalty drops him to tenth.", "common": true},
+    {"term": "Constructors' championship", "say": "kun-STRUK-turz CHAM-pee-un-ship", "means": "The team title. Both drivers' points count, and the prize money depends on where the team finishes. Fans just say 'the constructors'.'", "use": "P8 isn't exciting, but it all counts in the constructors'.", "common": true},
+    {"term": "Team principal", "say": "TEEM PRIN-suh-pul", "means": "The person who runs an F1 team. The closest thing to a head coach.", "use": "The team principal has some explaining to do.", "common": true},
+    {"term": "Pit wall", "say": "PIT wawl", "means": "The stand next to the pit lane where the team runs its race strategy. Fans blame it for bad calls.", "use": "What is the pit wall doing? Bring him in!", "common": true},
+    {"term": "Team orders", "say": "TEEM or-durz", "means": "The team telling one driver to let the other through, or to hold position.", "use": "If they use team orders here, the group chat's going to explode.", "common": true},
+    {"term": "Backmarker", "say": "BAK-mar-kur", "means": "A slow car at the back, about to be lapped by the leaders. Blue flags tell it to move over.", "use": "He lost a second stuck behind a backmarker.", "common": true},
+    {"term": "Lights out", "say": "lyts OWT", "means": "The start. Five red lights come on one by one, and the race begins when they all go out.", "use": "Lights out is at 9 Eastern. I'm setting an alarm.", "common": true},
+    {"term": "Sprint", "say": "SPRINT", "means": "A short Saturday race of about 60 miles, held on six weekends in 2026. The top eight score points.", "use": "Sprint weekend, so Saturday actually matters.", "common": true},
+    {"term": "Silly season", "say": "SIL-ee see-zun", "means": "Rumor season for who's driving where next year. F1's version of free agency.", "use": "Silly season is wild. Nobody knows who's driving where.", "common": true},
+    {"term": "COTA", "say": "KOH-tuh", "means": "Circuit of the Americas in Austin, Texas, home of the United States Grand Prix. Said as one word.", "use": "COTA is a blast in person. That uphill first corner is something else.", "common": true},
+    {"term": "Midfield", "say": "MID-feeld", "means": "The pack of teams between the front-runners and the back. A lot of the closest fights happen there.", "use": "The midfield is so tight. One bad pit stop and you drop five spots.", "common": true},
+    {"term": "Lockup", "say": "LOK-up", "means": "Braking so hard a wheel stops turning, with a puff of tire smoke. It can leave a flat spot that makes the car shake.", "use": "Big lockup into the hairpin. That's going to cost him.", "common": true},
+    {"term": "Overtake mode", "say": "OH-vur-tayk mohd", "means": "The 2026 passing aid that replaced DRS. A driver within a second of the car ahead gets extra battery energy to use on the next lap. Boost is a separate button for battery power any time.", "use": "He's got overtake mode next lap. Watch him go for it.", "common": false},
+    {"term": "Lift and coast", "say": "LIFT-un-KOHST", "means": "Easing off the throttle before braking to save fuel or, in the 2026 cars, to recharge the battery. Plenty of fans grumble about it.", "use": "All this lift and coast. Just let them race!", "common": false}
+  ],
+  "phrases": {
+    "open": [
+      {"t": "You catch the race?", "m": "Works the day after any Grand Prix. Let them tell you how it went."},
+      {"t": "You get up early for the race?", "m": "Races in Europe start around 9 a.m. Eastern, 6 a.m. Pacific, and races in Asia run overnight. Fans love comparing alarms."},
+      {"t": "Who's your driver?", "m": "Ask before you share an opinion. Most fans back one driver above all."},
+      {"t": "How's {team} looking this year?", "m": "Lets a fan of that team brag or vent about the car."},
+      {"t": "You watching quali?", "m": "Before a race weekend. Qualifying, usually on Saturday, sets the starting grid."},
+      {"t": "Ever been to a race in person?", "m": "North American fans love trading stories about Austin, Miami, Vegas, Montreal or Mexico City."},
+      {"t": "Did you see the start?", "m": "The first lap is often the wildest part of a race. Safe to ask about any of them."},
+      {"t": "How's your F1 Fantasy team doing?", "m": "The official F1 Fantasy game. Some offices and group chats run a league."}
+    ],
+    "opinion": [
+      {"t": "Track position is everything. You have to qualify up front.", "m": "Passing is hard at a lot of tracks. A safe take any weekend."},
+      {"t": "It all comes down to tire management.", "m": "Tires wear out over a stint. Praising or blaming tire management always sounds right."},
+      {"t": "The pit wall needs to make braver calls.", "m": "Blaming the team's strategists is a fan tradition."},
+      {"t": "The first guy you have to beat is your teammate.", "m": "Teammates drive the same car, so it's the only fair comparison. An old F1 saying."},
+      {"t": "Even the best driver can only do so much in a slow car.", "m": "The car-versus-driver debate never ends. This keeps you on safe ground."},
+      {"t": "Rain makes everything more interesting.", "m": "Wet races shuffle the order. Most fans love them."},
+      {"t": "All this battery saving with the new cars takes some getting used to.", "m": "The 2026 rules made energy management a big deal, and plenty of fans grumbled about it."},
+      {"t": "Every year I tell myself this is {team}'s year.", "m": "Hopeful and a bit self-mocking. Works for any team."}
+    ],
+    "agree": [
+      {"t": "A hundred percent.", "m": "Full agreement. Keeps them going."},
+      {"t": "Facts.", "m": "Slang for 'that's true.' Short and natural."},
+      {"t": "Couldn't agree more.", "m": "Safe for any take, good or bad."},
+      {"t": "That's what I said in the group chat!", "m": "Makes it sound like you called it first."},
+      {"t": "No question.", "m": "Firm agreement without adding anything you'd have to back up."},
+      {"t": "Every single race.", "m": "For any complaint about your own team."},
+      {"t": "Tell me about it.", "m": "Shared misery after a bad result."}
+    ],
+    "dodge": [
+      {"t": "That's racing.", "m": "After any incident or bad break. Ends the debate without blaming anyone."},
+      {"t": "Let's see what the stewards say.", "m": "Any contact or possible penalty. The stewards are the race officials."},
+      {"t": "Ask me again after qualifying.", "m": "Someone wants a prediction before the weekend. Grid spots change everything."},
+      {"t": "Anything can happen with a safety car.", "m": "For any prediction. A safety car bunches up the field and shuffles the order."},
+      {"t": "Depends who gets the strategy right.", "m": "Sounds smart and commits to nothing."},
+      {"t": "I'll believe it when I see it.", "m": "Someone predicts big things. Doubt sounds wise."},
+      {"t": "Honestly, I just want a clean race.", "m": "Nobody can argue with it, and it ends the question."},
+      {"t": "Way above my pay grade. I just watch for the overtakes.", "m": "When it gets technical. Gets a laugh and moves things on."}
+    ],
+    "telly": [
+      {"t": "Send it!", "m": "Your driver is right behind someone heading into a corner. It means go for the pass."},
+      {"t": "Cover the inside!", "m": "Someone is attacking your driver into a corner."},
+      {"t": "Bring him in! Bring him in!", "m": "The safety car just came out, or your driver's tires are fading."},
+      {"t": "Stay out! Don't pit!", "m": "You think your team is about to make the wrong call."},
+      {"t": "Track limits! Come on!", "m": "A rival keeps running wide past the white lines."},
+      {"t": "That's a penalty!", "m": "A rival just pushed your driver off the track."},
+      {"t": "Just get past him already!", "m": "Your driver has been stuck behind a slower car for laps."},
+      {"t": "Hold on! Just a few more laps!", "m": "Your driver is holding off a faster car near the end."}
+    ],
+    "exit": [
+      {"t": "Alright, I gotta run. Enjoy the race.", "m": "On a race weekend."},
+      {"t": "Anyway, we'll see what happens next race.", "m": "Noncommittal. Works whatever happened last time."},
+      {"t": "I'll text you during the race.", "m": "With a friend. Promises you'll be watching."},
+      {"t": "I need another beer. Good talk.", "m": "At the bar or a watch party. Nobody questions it."},
+      {"t": "Gotta go, but I'll be up early for the next one.", "m": "When the next race is in Europe or Asia. Shows you watch live."},
+      {"t": "Let me go check the standings. Talk soon.", "m": "After a race. Sounds like you're already doing the math."},
+      {"t": "Gotta run. The group chat's going to be wild after this one.", "m": "Right after a race. Works whatever happened."}
+    ]
+  },
+  "exchanges": {
+    "win": {"open": "Did you see {driver} win {race} {when}?", "them": "I saw! You must've been off the couch at the checkered flag.", "back": "Wins are hard to come by in F1. The car, the strategy and the driver all have to click on the same day.", "agree": "And they did. Everything came together.", "exit": "I'm riding this high all week. Catch you later."},
+    "podium": {"open": "{driver} finished {pos} at {race} {when}. I'll take a podium.", "them": "Not bad at all. {winner} got the win, though.", "back": "Podiums on the days you don't win are what win championships. Bank the points.", "agree": "Yep. Consistency is everything.", "exit": "Top step next time. Talk soon."},
+    "points": {"open": "{driver} brought it home {pos} {when}.", "them": "Not a podium, but points are points.", "back": "Exactly. And every point counts in the constructors' standings. That's where the prize money is.", "agree": "True. It all adds up by the end of the year.", "exit": "On to the next one. Catch you later."},
+    "outOfPoints": {"open": "{pos} for {driver} {when}. Not the result I wanted.", "them": "Oof. Outside the points. Rough day.", "back": "Only the top ten score, so P11 or last, it's the same zero. Nothing to do but reset for the next race.", "agree": "Yep. Flush it and move on.", "exit": "We'll bounce back next race. See ya."}
+  },
+  "pub": [
+    {"say": "Can you believe they left him out that long?", "o": [
+      ["Is he out of gas? Is that why they stop?", -2, "F1 cars don't refuel during a race. They stop for tires."],
+      ["They should've pitted him way earlier. The undercut was right there.", 2, "Second-guessing the pit wall is exactly what fans do."],
+      ["The pit wall must have expected the overcut to work once the cars ahead pitted into traffic.", -1, "Could be right, but it sounds like you're defending the strategists."]
+    ]},
+    {"say": "He's stuck in dirty air. He can't get close.", "o": [
+      ["Is the air dirty from the exhaust?", -2, "Dirty air is the turbulence behind a car, not pollution."],
+      ["The wake from the car ahead cuts his downforce through the fast corners.", -1, "Correct, but it sounds like an engineering class."],
+      ["And he's cooking his tires sitting back there.", 2, "Following close makes the tires overheat. A real fan worry."]
+    ]},
+    {"say": "Safety car's out!", "o": [
+      ["Yes! Cheap pit stop! Get him in!", 2, "A stop costs far less behind the safety car. Fans yell exactly that."],
+      ["Behind the safety car the field runs slower, so a stop loses less time to rivals.", -1, "Exactly right, and exactly how not to talk at a watch party."],
+      ["Wait, why's the pace car out? Is it racing too?", -2, "In F1 it's the safety car, and it doesn't race. It leads the field at low speed."]
+    ]},
+    {"say": "He's on pole for tomorrow!", "o": [
+      ["Wait, so he already won?", -2, "Pole is first place on the starting grid. The race is still to come."],
+      ["Huge. Now he just needs a clean start.", 2, "From pole the start is everything. Right on."],
+      ["Pole-sitters convert more often at tracks where passing is hard.", -1, "Likely true, but nobody wants the stats at a watch party."]
+    ]},
+    {"say": "Five-second penalty? Are you kidding me?", "o": [
+      ["The stewards are making it up as they go.", 2, "Complaining about the stewards is an F1 tradition."],
+      ["Does he have to go to the penalty box?", -2, "That's hockey. The five seconds are added to his time or served at his pit stop."],
+      ["That's pretty consistent with how the stewards have ruled on contact like that.", -1, "Maybe true, but defending the stewards won't make you friends here."]
+    ]},
+    {"say": "My guy got outqualified by his teammate again.", "o": [
+      ["Teammates have the same equipment, so qualifying head-to-heads are the purest measure of pace.", -1, "Right idea, but it sounds like a spreadsheet."],
+      ["Ouch. Your teammate's the first guy you have to beat.", 2, "That's the oldest rule in F1."],
+      ["Do they take turns driving the car?", -2, "Each driver has his own car. Every team runs two."]
+    ]},
+    {"say": "We should go to a race next year.", "o": [
+      ["Only if we sit where the braking zones give us the best look at overtakes.", -1, "Sounds like you're planning an engineering field trip."],
+      ["Which one, the Indy 500?", -2, "The Indy 500 is IndyCar. F1 races in the US at Austin, Miami and Las Vegas."],
+      ["I'm in. Let's get seats by Turn 1 for the start.", 2, "The first corner is where the start gets wild. Good call."]
+    ]},
+    {"say": "That race was a total snoozefest.", "o": [
+      ["Total parade. Nobody could get close enough to pass.", 2, "Fans call a race with no passing a parade or a procession."],
+      ["Isn't it always just cars turning left?", -2, "That's the oval joke. F1 tracks turn both ways, and fans are sick of hearing it."],
+      ["Low tire deg meant everyone did one stop, so the strategies never split.", -1, "Maybe the reason, but it's a lecture, not a reply."]
+    ]}
+  ],
+  "avoid": [
+    {"say": "You watching NASCAR this weekend?", "instead": "You catching the Grand Prix?", "why": "F1 and NASCAR are different series. Mixing them up is the fastest way to get caught."},
+    {"say": "Did you see the car race?", "instead": "Did you catch the race?", "why": "Nobody calls it the car race. It's the race, or the Grand Prix."},
+    {"say": "The pace car's out.", "instead": "Safety car's out.", "why": "Pace car is NASCAR and IndyCar talk. F1 calls it the safety car."},
+    {"say": "He's on pit road.", "instead": "He's in the pit lane.", "why": "Pit road is NASCAR's word. In F1 it's the pit lane."},
+    {"say": "Don't they just turn left?", "instead": "That track's a tough one.", "why": "Left turns are the oval joke. F1 only races on road and street circuits that turn both ways."},
+    {"say": "He got pole, so he won?", "instead": "He's on pole. Now he has to turn it into a win.", "why": "Pole is the front of the starting grid, earned in qualifying. The race comes after."},
+    {"say": "Is it 500 laps?", "instead": "How many laps to go?", "why": "The 500s are NASCAR and Indy, and that's miles. An F1 race is about 190 miles, so the lap count depends on the track."},
+    {"say": "He just lapped him!", "instead": "He just passed him!", "why": "Lapping means putting a whole lap on a slower car. A pass for position is an overtake."},
+    {"say": "What's the score?", "instead": "Who's leading?", "why": "A race has no score. Fans ask who's leading, or how big the gap is."},
+    {"say": "Who's their coach?", "instead": "Who's the team principal?", "why": "F1 teams are run by a team principal. Nobody calls it a coach."}
+  ],
+  "nerd": "Honestly, it came down to energy deployment. He had more battery left on the straights, and his deg on the mediums was a couple of tenths a lap better over that stint.",
+  "offq": "Wait, were they on the C3 or the C4 for the first stint?",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Glossary_of_motorsport_terms",
+    "https://www.formula1.com/en/latest/article/a-beginners-guide-to-f1-slang.1Pg6tvGZ2y7u4KAnc8WXGl",
+    "https://www.planetf1.com/news/f1-jargon-decoded-common-terms-glossary",
+    "https://www.pitdebrief.com/?p=93876",
+    "https://sidepodcast.com/post/an-americans-guide-to-formula-one",
+    "https://www.nbcchicago.com/news/sports/unfamiliar-with-nascar-heres-a-guide-to-all-the-unique-racing-terms/3174340/",
+    "https://www.formula1.com/en/latest/article/explained-the-new-key-terms-for-formula-1s-new-for-2026-rules.3T5BU6TC9quGcIpGzoWkY0",
+    "https://www.the-race.com/formula-1/boost-overtake-mode-active-aero-recharge-key-2026-terms-explained",
+    "https://jalopnik.com/2119191/super-clipping-formula-1-hated-term-australia-opener/",
+    "https://www.espn.com/f1/story/_/id/48548710/explained-f1-2026-rule-tweaks-changed-impact-difference-driver-criticism-max-verstappen",
+    "https://www.formula1.com/en/latest/article/fastest-lap-point-to-be-scrapped-in-2025-after-latest-fia-world-motor-sport.4pUjDzWnGRN7KVWENLc1BY",
+    "https://racer.com/2024/10/17/f1-drops-fastest-lap-point-while-26-regulations-get-extensive-enhancements/",
+    "https://www.the-race.com/formula-1/how-does-f1-qualifying-work-2026/",
+    "https://www.motorsport.com/f1/news/2026-f1-qualifying-format-explained-as-cadillac-expands-the-grid-to-22-cars/10788081/",
+    "https://www.nbcnews.com/sports/formula-1/formula-1-officially-approves-cadillac-new-american-team-starting-2026-rcna195322",
+    "https://www.motorsportmagazine.com/articles/single-seaters/f1/how-2026-f1-sprint-races-work-qualifying-points-and-schedule/",
+    "https://www.williamsf1.com/articles/dfb02eb4-f6c5-4058-8612-a93d76f0d17e/your-f1-sprint-refresher-for-2026",
+    "https://www.the-race.com/formula-1/how-will-f1-sprint-race-work-rules-format/",
+    "https://www.grandprix247.com/2025/12/09/f1-news-pirelli-reveal-2026-f1-tyre-compounds-along-with-a-new-logo-abu-dhabi-gp-tyre-test-formula-1-2026-regulations/",
+    "https://flowracers.com/blog/what-is-tow-in-f1",
+    "https://www.crash.net/f1/news/1101380/1/max-verstappen-reveals-just-how-crucial-isack-hadjars-tow-was-f1-belgian-gp",
+    "https://flowracers.com/blog/dirty-air-f1/",
+    "https://www.autosport.com/f1/news/analysis-does-f1-have-a-dirty-air-problem/10584169/",
+    "https://www.formula1-dictionary.net/f1-virtual-safety-car/",
+    "https://flowracers.com/blog/f1-pit-stop-safety-car/",
+    "https://www.f1-fansite.com/uk/glossary/drive-through-penalty/",
+    "https://www.motorsportmagazine.com/articles/single-seaters/f1/what-are-f1-track-limits-rules-penalties-and-what-is-changing",
+    "https://www.autosport.com/f1/news/why-the-f1-constructors-championship-really-matters/10694340/",
+    "https://racer.com/2026/08/12/for-drivers-navigating-f1-s-silly-season-has-become-more-complicated-than-ever",
+    "https://www.motorsportmagazine.com/archive/article/january-2024/66/f1s-team-mate-rivalries-the-enemy-within",
+    "https://www.williamsf1.com/posts/39840a3f-b81e-4a40-93e1-c94c84471f49/early-birds-or-night-owls-2025-f1-calendar",
+    "https://www.formulaonehistory.com/how-long-is-an-f1-race-distance/",
+    "https://www.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555079/",
+    "https://speedcafe.com/analysis-the-red-flag-ruined-monaco/",
+    "https://www.crash.net/f1/news/169808/1/monaco-red-flag-tyre-change-detracted-from-race",
+    "https://www.dictionary.com/browse/Grand%20Prix",
+    "https://www.merriam-webster.com/dictionary/grand%20prix",
+    "https://www.dictionary.com/e/slang/send-it/",
+    "https://getcarcurious.com/glossary/kota",
+    "https://www.formula1.com/en/latest/article/boost-the-fun-with-friends-and-family-this-season-f1-fantasy-is-back.2xVBBN90riZiaYXeYhOe0Z",
+    "https://www.essesmag.com/articles/sunday-in-nyc-is-for-racing",
+    "https://f1arcade.com/us/blog/news/what-is-a-watch-party"
+  ],
+  "unsure": [
+    "'Won the pole': NASCAR and F1 coverage both say 'won pole' and 'took pole', so it isn't listed as a giveaway. The avoid entry targets mistaking pole for the race win instead.",
+    "COTA: no dictionary gives a pronunciation. 'KOH-tuh' comes from podcast transcripts that spell it 'Kota' and from common use.",
+    "'Send it': dictionary.com confirms the general slang meaning (fully committing to a risky move), but no F1 glossary lists it. Used only as a shout at the TV, not as a term.",
+    "Track limits: sources disagree on how many strikes drivers get in 2026 before a penalty, so the term gives no numbers.",
+    "DRS was dropped for 2026 and replaced by active aero and overtake mode (F1.com, The Race). Some fans may still loosely say 'DRS'; couldn't confirm, so it isn't flagged as a giveaway. 'Super clipping' left out as too niche.",
+    "Race times: 9 a.m. Eastern / 6 a.m. Pacific for European races comes from Williams' 2025 calendar guide. It varies by race and daylight saving, so lines say 'around'.",
+    "TV: Apple TV is the exclusive US broadcaster from 2026. The Canadian broadcaster wasn't checked, so no broadcaster is named in any line.",
+    "US race venues (Austin, Miami, Las Vegas) are named only as this year's US races. Future contracts weren't checked.",
+    "Left out though confirmed: Driver of the Day (still running in 2026), parc ferme, purple sector, sandbagging, graining, marbles, double stack. Too niche for a short chat, or no room.",
+    "Win exchange avoids '25 points' because a shortened race can pay reduced points. Prize money by constructors' position is from Autosport (Ferrari's separate heritage bonus aside).",
+    "'That's racing' and 'the first guy you have to beat is your teammate' are common motorsport sayings, not broadcast catchphrases. Famous commentator lines and team-radio memes are avoided.",
+    "Placeholders: no line puts a verb straight after {team}, since names like 'Racing Bulls' read oddly that way. Exchanges use only {driver}, {winner}, {pos}, {race} and {when}.",
+    "oversteer48.com (403) and sportskeeda.com (405) refused fetches; f1-fansite's glossary index had no definitions. Their points were covered from other sources."
+  ]
+}

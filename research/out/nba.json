@@ -57,8 +57,8 @@
     "memory": "1957-1969: Bill Russell wins 11 titles in 13 seasons",
     "lingo": [
       {"term": "Celtics", "say": "SELL-tiks", "means": "How the team name is said. Always with an S sound, never a K."},
-      {"term": "Banner 18", "say": "BAN-er ay-TEEN", "means": "The 2024 title, the club's 18th, which put Boston one clear of the Lakers for most ever."},
-      {"term": "Gino", "say": "JEE-noh", "means": "When a home win is safe late on, the big screen plays an old disco dancing clip of a man fans call Gino. It means the game is over."},
+      {"term": "Banner 18", "say": "BAN-er ay-TEEN", "means": "The 2024 title, the team's 18th, which put Boston one ahead of the Lakers for the most ever."},
+      {"term": "Gino", "say": "JEE-noh", "means": "When a home win is locked up late, the big screen plays an old disco dancing clip of a man fans call Gino. It means the game is over."},
       {"term": "The parquet", "say": "thuh par-KAY", "means": "The Celtics' famous patterned wooden floor, carried over from the old Boston Garden."}
     ],
     "lines": [
@@ -134,7 +134,7 @@
       {"term": "Buzz City", "say": "BUZZ SIT-ee", "means": "Charlotte's nickname on Hornets nights. The team has put it on jerseys."},
       {"term": "The Hive", "say": "thuh HYVE", "means": "The home crowd and arena. It began with the old Charlotte Coliseum and now covers the Spectrum Center."},
       {"term": "Hugo", "say": "HYOO-goh", "means": "Hugo the Hornet, the mascot, famous for his dunk shows."},
-      {"term": "Grandmama", "say": "GRAND-muh-mah", "means": "Larry Johnson's nickname, from a shoe advert where he dressed as a granny."}
+      {"term": "Grandmama", "say": "GRAND-muh-mah", "means": "Larry Johnson's nickname, from a shoe commercial where he dressed up as a grandma."}
     ],
     "lines": [
       {"t": "Teal never goes out of style.", "m": "Pride in the famous teal-and-purple look from the 1990s."},
@@ -180,7 +180,7 @@
     "lines": [
       {"t": "Six rings, and never needed a Game 7 in the Finals.", "m": "Pride in how dominant the Jordan-era Finals runs were."},
       {"t": "Lights down, intro music, chills every time.", "m": "The famous starting-lineup introduction, set to the Alan Parsons Project track 'Sirius'."},
-      {"t": "72 and 10, and a ring. Golden State only got the first part.", "m": "The Warriors won 73 in 2016 but lost the Finals."},
+      {"t": "73 wins and no ring? We'll take 72 and a title.", "m": "The Warriors won 73 in 2016 but lost the Finals."},
       {"t": "Rose was the youngest MVP ever, and he was ours.", "m": "Pride in hometown hero Derrick Rose's 2011 MVP."},
       {"t": "Never cheer for Detroit.", "m": "The Bad Boys rivalry still runs deep."}
     ],
@@ -208,7 +208,7 @@
       {"team": "Chicago Bulls", "name": "the Bulls", "derby": ""}
     ],
     "legends": ["Mark Price", "Brad Daugherty", "Zydrunas Ilgauskas", "Austin Carr"],
-    "memory": "2016: coming back from 3-1 down to beat the 73-win Warriors, ending Cleveland's 52-year wait for a major title",
+    "memory": "2016: rallying from down 3-1 to beat the 73-win Warriors, ending Cleveland's 52-year championship drought",
     "lingo": [
       {"term": "The Q", "say": "thuh KYOO", "means": "Old nickname for the arena from its Quicken Loans Arena days. Many fans still use it."},
       {"term": "The Land", "say": "thuh LAND", "means": "Cleveland's nickname for itself, all over Cavs gear."},
@@ -220,7 +220,7 @@
       {"t": "We waited 52 years. Worth it.", "m": "The 2016 title ended the city's long drought."},
       {"t": "It's still the Q to me.", "m": "Long-time fans ignoring the arena's newer names."},
       {"t": "The Shot still hurts.", "m": "Michael Jordan's 1989 series winner over Craig Ehlo stings older fans."},
-      {"t": "Z was a lifer.", "m": "Affection for Lithuanian big man Zydrunas Ilgauskas, whose number is retired."}
+      {"t": "Z will always be a Cav.", "m": "Affection for Lithuanian big man Zydrunas Ilgauskas, whose number is retired."}
     ],
     "avoid": [
       {"say": "Rocket Mortgage FieldHouse", "instead": "Rocket Arena, or the Q", "why": "The arena became Rocket Arena in 2025."},
@@ -257,7 +257,7 @@
       {"t": "MFFL.", "m": "Short sign-off that marks you as a lifer."},
       {"t": "Twenty-one seasons, one team. That's Dirk.", "m": "Praise for Nowitzki's loyalty to Dallas."},
       {"t": "2011 still feels good.", "m": "About beating Miami's superteam for the title."},
-      {"t": "Never trust anybody from San Antonio on game night.", "m": "Gentle I-35 rivalry banter."}
+      {"t": "Never trust anybody from San Antonio on game night.", "m": "Friendly I-35 rivalry trash talk."}
     ],
     "avoid": [
       {"say": "Dallas has never won it all", "instead": "Dallas won the 2011 title", "why": "The 2011 title is the high point of the franchise."}
@@ -335,7 +335,7 @@
       {"t": "Nobody gave us a chance in 2004.", "m": "Pride in beating the Lakers' superstars as underdogs."},
       {"t": "The Bad Boys made Jordan earn it.", "m": "Detroit held off Chicago for years before the Bulls broke through."},
       {"t": "Defense first. That's Detroit.", "m": "The city's view of how the game should be played."},
-      {"t": "Big Ben's afro was the best part of 2004.", "m": "Fans wore afro wigs in honour of Ben Wallace."}
+      {"t": "Big Ben's afro was the best part of 2004.", "m": "Fans wore afro wigs in honor of Ben Wallace."}
     ],
     "avoid": [
       {"say": "the Palace", "instead": "LCA", "why": "The team moved downtown from Auburn Hills in 2017."},
@@ -410,7 +410,7 @@
       {"t": "Never underestimate the heart of a champion.", "m": "Coach Rudy Tomjanovich's famous line after the 1995 title. Quoted after comebacks."},
       {"t": "Nobody could guard the Dream Shake.", "m": "Praise for Hakeem Olajuwon."},
       {"t": "Clutch City never quits.", "m": "Said during a late comeback."},
-      {"t": "Yao opened the door to the whole world.", "m": "Pride in Yao Ming's global impact."}
+      {"t": "Yao made the Rockets huge in China.", "m": "Pride in Yao Ming's global impact."}
     ],
     "avoid": [
       {"say": "the San Diego Rockets", "instead": "the Houston Rockets", "why": "The team left San Diego in 1971."},
@@ -489,7 +489,7 @@
     ],
     "avoid": [
       {"say": "They play at Crypto.com Arena", "instead": "They play at the Intuit Dome in Inglewood", "why": "The Clippers moved out of the shared arena in 2024."},
-      {"say": "Wearing Lakers gold in The Wall", "instead": "Wear Clippers colours", "why": "Opposing gear is banned in that section."}
+      {"say": "Wearing Lakers gold in The Wall", "instead": "Wear Clippers colors", "why": "Opposing gear is banned in that section."}
     ],
     "sources": [
       "https://www.espn.co.uk/nba/story/_/id/48350302/inside-clippers-wall-swell-intuit-dome-experience",
@@ -517,7 +517,7 @@
     "lingo": [
       {"term": "Showtime", "say": "SHOH-tyme", "means": "The fast-breaking 1980s Lakers of Magic Johnson and Kareem."},
       {"term": "Lake Show", "say": "LAYK SHOH", "means": "Casual nickname for the team."},
-      {"term": "Purple and Gold", "say": "PUR-pul and GOHLD", "means": "The team colours, used as shorthand for the team itself."},
+      {"term": "Purple and Gold", "say": "PUR-pul and GOHLD", "means": "The team colors, used as shorthand for the team itself."},
       {"term": "Staples", "say": "STAY-pulz", "means": "What many fans still call the arena, renamed Crypto.com Arena in 2021."}
     ],
     "lines": [
@@ -670,13 +670,13 @@
     "lingo": [
       {"term": "Wolves", "say": "WOOLVZ", "means": "What almost everyone calls the team."},
       {"term": "Raised by Wolves", "say": "RAYZD by WOOLVZ", "means": "A team campaign from 2020 that fans took up, about growing up loyal to the Wolves."},
-      {"term": "KG", "say": "KAY-JEE", "means": "Kevin Garnett, the franchise icon. His number 21 is due to be retired on 28 February 2027."},
+      {"term": "KG", "say": "KAY-JEE", "means": "Kevin Garnett, the franchise icon. His number 21 will be retired on February 28, 2027."},
       {"term": "Crunch", "say": "KRUNCH", "means": "Crunch the Wolf, the stunt-loving mascot."}
     ],
     "lines": [
-      {"t": "KG's 21 belongs in the rafters.", "m": "Fans waited years for the team to honour Kevin Garnett."},
+      {"t": "KG's 21 belongs in the rafters.", "m": "Fans waited years for the team to honor Kevin Garnett."},
       {"t": "Raised by Wolves.", "m": "A badge for loyal, long-suffering fans."},
-      {"t": "Denver is the team I most want to beat.", "m": "The Nuggets are the closest thing to a true rival."},
+      {"t": "Just beat Denver. That's all I ask.", "m": "The Nuggets are the closest thing to a true rival."},
       {"t": "Being a Wolves fan builds character.", "m": "Self-deprecating joke about the team's long dry spells."}
     ],
     "avoid": [
@@ -832,13 +832,13 @@
     "memory": "1995: Shaq and Penny take the young Magic to the NBA Finals in only the team's sixth season",
     "lingo": [
       {"term": "Stuff", "say": "STUFF", "means": "Stuff the Magic Dragon, the team mascot."},
-      {"term": "Shaq and Penny", "say": "SHAK and PEN-ee", "means": "The 1990s duo of Shaquille O'Neal and Anfernee 'Penny' Hardaway. The fans' favourite era."},
+      {"term": "Shaq and Penny", "say": "SHAK and PEN-ee", "means": "The 1990s duo of Shaquille O'Neal and Anfernee 'Penny' Hardaway. The fans' favorite era."},
       {"term": "Magic Together", "say": "MAJ-ik tuh-GETH-ur", "means": "The team's brand slogan since 2020."},
       {"term": "The O-rena", "say": "thee oh-REE-nuh", "means": "The old Orlando Arena, where the Shaq and Penny teams played."}
     ],
     "lines": [
       {"t": "Shaq and Penny should have won one together.", "m": "Fans still wonder what might have been after Shaq left in 1996."},
-      {"t": "Florida belongs to Orlando.", "m": "Mild banter in the Sunshine State rivalry with Miami."},
+      {"t": "Florida belongs to Orlando.", "m": "Mild trash talk in the Sunshine State rivalry with Miami."},
       {"t": "2009 was so close.", "m": "The Magic reached the Finals in 2009 but lost to the Lakers."},
       {"t": "Nick Anderson deserved better.", "m": "Sympathy for the missed free throws in Game 1 of the 1995 Finals."}
     ],
@@ -1041,7 +1041,7 @@
     ],
     "avoid": [
       {"say": "the AT&T Center", "instead": "the Frost Bank Center", "why": "The arena was renamed in 2023."},
-      {"say": "Like Tottenham?", "instead": "No relation", "why": "The San Antonio Spurs have nothing to do with the London football club."}
+      {"say": "Like Tottenham?", "instead": "No relation", "why": "The San Antonio Spurs have nothing to do with the London soccer club."}
     ],
     "sources": [
       "https://wtop.com/news/2026/06/spurs-fans-still-believe-they-can-overcome-3-1-deficit-against-knicks-to-capture-6th-nba-title/",

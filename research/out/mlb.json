@@ -20,7 +20,7 @@
       {"term": "the BOB", "say": "the BOB", "means": "Old fans' name for the ballpark, from its first name, Bank One Ballpark."}
     ],
     "lines": [
-      {"t": "Somebody's getting a home run ball in the pool tonight.", "m": "Chase Field has a swimming pool just past the right-centre field fence."},
+      {"t": "Somebody's getting a home run ball in the pool tonight.", "m": "Chase Field has a swimming pool just past the right-center field fence."},
       {"t": "Gonzo's bloop is still the biggest hit in Arizona history.", "m": "Luis Gonzalez's soft single off Mariano Rivera won Game 7 of the 2001 World Series."},
       {"t": "Roof's closed, it's 110 outside.", "m": "The retractable roof stays shut on hot summer days in Phoenix."},
       {"t": "The Big Unit was unhittable here.", "m": "Randy Johnson won four Cy Young Awards in a row with Arizona, 1999 to 2002."},
@@ -53,15 +53,15 @@
     "memory": "1972-74: three World Series titles in a row for the 'Swingin' A's'",
     "lingo": [
       {"term": "A's", "say": "AYZ", "means": "The usual name for the Athletics."},
-      {"term": "the Swingin' A's", "say": "the SWING-in AYZ", "means": "The early-1970s champions, famous for their moustaches and loud uniforms."},
-      {"term": "Moneyball", "say": "MUN-ee-ball", "means": "The data-driven approach of the early-2000s A's, later a book and a film."},
+      {"term": "the Swingin' A's", "say": "the SWING-in AYZ", "means": "The early-1970s champions, famous for their mustaches and loud uniforms."},
+      {"term": "Moneyball", "say": "MUN-ee-ball", "means": "The data-driven approach of the early-2000s A's, later a book and a movie."},
       {"term": "Stomper", "say": "STOMP-er", "means": "The elephant mascot. The elephant logo is over a century old."}
     ],
     "lines": [
       {"t": "Let's go, A's!", "m": "The standard chant at games."},
       {"t": "Three straight titles in the '70s. Not many teams can say that.", "m": "The A's won the World Series in 1972, 1973 and 1974."},
       {"t": "Rickey was the greatest leadoff man ever.", "m": "Rickey Henderson holds the career records for stolen bases and runs scored."},
-      {"t": "The elephant's been on the sleeve for over a hundred years.", "m": "A rival manager mocked the team as a 'white elephant' in 1902, so the club adopted it."},
+      {"t": "The elephant's been ours since 1902.", "m": "A rival manager mocked the team as a 'white elephant' in 1902, so the club adopted it."},
       {"t": "Sacramento for now, Vegas in 2028.", "m": "The A's play in West Sacramento while their Las Vegas Strip ballpark is built."}
     ],
     "avoid": [
@@ -205,7 +205,7 @@
     "lingo": [
       {"term": "the Friendly Confines", "say": "the FREND-lee KON-fynz", "means": "Wrigley Field's old nickname."},
       {"term": "Fly the W", "say": "FLY the DUB-ul-yoo", "means": "A white flag with a blue W goes up after every win."},
-      {"term": "Wrigleyville", "say": "RIG-lee-vil", "means": "The bar-filled neighbourhood around the park."},
+      {"term": "Wrigleyville", "say": "RIG-lee-vil", "means": "The bar-filled neighborhood around the park."},
       {"term": "Bleacher Bums", "say": "BLEE-cher BUMZ", "means": "The loyal crowd in the outfield bleachers."}
     ],
     "lines": [
@@ -323,8 +323,8 @@
     ],
     "lines": [
       {"t": "Go Guards!", "m": "The standard cheer."},
-      {"t": "The name comes from the bridge statues.", "m": "The Guardians of Traffic stand on the Hope Memorial Bridge, near the ballpark."},
-      {"t": "The '90s teams sold out 455 straight games.", "m": "The Jacobs Field sellout streak ran from 1995 to 2001."},
+      {"t": "We're named after the statues on the bridge.", "m": "The Guardians of Traffic stand on the Hope Memorial Bridge, near the ballpark."},
+      {"t": "455 straight sellouts at the Jake.", "m": "The Jacobs Field sellout streak ran from 1995 to 2001."},
       {"t": "One of these years we end the drought.", "m": "Cleveland has the longest current wait for a title in MLB, back to 1948."}
     ],
     "avoid": [
@@ -437,12 +437,12 @@
       {"t": "Watch the train!", "m": "A full-size train rolls along the left-field wall after Astros home runs."},
       {"t": "That's in the Crawford Boxes.", "m": "Left field is short, so routine fly balls can sneak over."},
       {"t": "Biggio and Bagwell are both in Cooperstown.", "m": "Two Killer B's in the Hall of Fame."},
-      {"t": "Win the Silver Boot.", "m": "The trophy for winning the season series against Texas."}
+      {"t": "The Silver Boot stays in Houston.", "m": "The trophy for winning the season series against Texas."}
     ],
     "avoid": [
       {"say": "Minute Maid Park", "instead": "Daikin Park", "why": "The park was renamed before the 2025 season."},
       {"say": "the Astros are in the National League", "instead": "the AL West", "why": "Houston moved to the American League in 2013."},
-      {"say": "bringing up the trash cans", "instead": "talk about the 2022 title", "why": "The 2017 sign-stealing scandal is rivals' favourite jab and a sore spot."}
+      {"say": "bringing up the trash cans", "instead": "talk about the 2022 title", "why": "The 2017 sign-stealing scandal is rivals' favorite jab and a sore spot."}
     ],
     "sources": [
       "https://en.wikipedia.org/wiki/Houston_Astros",
@@ -540,7 +540,7 @@
     "memory": "1988: Kirk Gibson's limping pinch-hit home run wins Game 1 of the World Series",
     "lingo": [
       {"term": "Doyers", "say": "DOY-erz", "means": "Affectionate Spanglish name for the Dodgers."},
-      {"term": "Dodger Blue", "say": "DOD-jer BLOO", "means": "The team colour, and a byword for loyalty."},
+      {"term": "Dodger Blue", "say": "DOD-jer BLOO", "means": "The team color, and a byword for loyalty."},
       {"term": "Chavez Ravine", "say": "CHAH-vez ruh-VEEN", "means": "The hillside where Dodger Stadium sits."},
       {"term": "Fernandomania", "say": "fer-NAN-doh-MAY-nee-uh", "means": "The 1981 craze around rookie pitcher Fernando Valenzuela."}
     ],
@@ -549,7 +549,7 @@
       {"t": "I bleed Dodger blue.", "m": "Tommy Lasorda's line for total loyalty."},
       {"t": "Grab a Dodger Dog.", "m": "The ballpark's famous hot dog."},
       {"t": "Losing to the Giants is the worst.", "m": "The oldest rivalry, dating back to New York."},
-      {"t": "Jackie's 42 is retired across baseball.", "m": "Jackie Robinson broke the colour barrier with the Brooklyn Dodgers in 1947."}
+      {"t": "Jackie's 42 is retired across baseball.", "m": "Jackie Robinson broke the color barrier with the Brooklyn Dodgers in 1947."}
     ],
     "avoid": [
       {"say": "the Brooklyn Dodgers", "instead": "the Dodgers", "why": "They moved to LA in 1958."},
@@ -620,8 +620,8 @@
       {"term": "AmFam", "say": "AM-fam", "means": "Short for American Family Field."}
     ],
     "lines": [
-      {"t": "Stay up for the polka.", "m": "The Beer Barrel Polka plays right after Take Me Out to the Ball Game."},
-      {"t": "Who won the sausage race?", "m": "The racing sausages run in the sixth inning; everyone has a favourite."},
+      {"t": "Don't sit down yet, it's polka time.", "m": "The Beer Barrel Polka plays right after Take Me Out to the Ball Game."},
+      {"t": "Who won the sausage race?", "m": "The racing sausages run in the sixth inning; everyone has a favorite."},
       {"t": "Tailgate starts three hours before first pitch.", "m": "Parking-lot tailgating is a big part of a Milwaukee game day."},
       {"t": "Get up, get outta here, gone!", "m": "Bob Uecker's home run call; fans still repeat it."},
       {"t": "Bernie's going down the slide!", "m": "Said after a Brewers home run."}
@@ -691,7 +691,7 @@
     "lingo": [
       {"term": "Amazin's", "say": "uh-MAY-zinz", "means": "Old nickname for the Mets."},
       {"term": "LGM", "say": "EL-jee-EM", "means": "Short for 'Let's Go Mets'."},
-      {"term": "Home Run Apple", "say": "HOHM run AP-ul", "means": "The big apple that rises in centre field after Mets homers."},
+      {"term": "Home Run Apple", "say": "HOHM run AP-ul", "means": "The big apple that rises in center field after Mets homers."},
       {"term": "Ya Gotta Believe", "say": "yuh GOT-uh buh-LEEV", "means": "Tug McGraw's 1973 rallying cry."}
     ],
     "lines": [
@@ -734,7 +734,7 @@
     "lines": [
       {"t": "Stay for Roll Call.", "m": "The bleachers chant the fielders' names in the top of the first."},
       {"t": "Most rings in the sport.", "m": "The Yankees have far more World Series titles than any other team."},
-      {"t": "Go see Monument Park before the game.", "m": "Plaques and retired numbers for Yankee greats behind centre field."},
+      {"t": "Go see Monument Park before the game.", "m": "Plaques and retired numbers for Yankee greats behind center field."},
       {"t": "New York, New York after the last out.", "m": "Sinatra's song plays as fans leave."}
     ],
     "avoid": [
@@ -768,7 +768,7 @@
       {"term": "Red October", "say": "RED ok-TOH-ber", "means": "The playoff-time crowd, all in red."}
     ],
     "lines": [
-      {"t": "Ring the bell!", "m": "The big Liberty Bell in right-centre lights up after Phillies home runs."},
+      {"t": "Ring the bell!", "m": "The big Liberty Bell in right-center lights up after Phillies home runs."},
       {"t": "Outta here!", "m": "Harry Kalas's home run call; he was the voice of the Phillies for decades."},
       {"t": "Cue Dancing On My Own.", "m": "The Calum Scott cover became the anthem for big wins in 2022."},
       {"t": "Red October's back.", "m": "Said when the park turns into a sea of red for the playoffs."}
@@ -805,7 +805,7 @@
     ],
     "lines": [
       {"t": "Raise the Jolly Roger!", "m": "Said after a win."},
-      {"t": "Yinz going to the Bucs game?", "m": "Pittsburgh slang for 'are you all going'; local flavour."},
+      {"t": "Yinz going to the Bucs game?", "m": "Pittsburgh slang for 'are you all going'; local flavor."},
       {"t": "Walk over the Clemente Bridge.", "m": "The bridge closes to cars on game days so fans can walk to the park."},
       {"t": "We Are Family.", "m": "The Sister Sledge song was the anthem of the 1979 champions."},
       {"t": "Clemente was more than a ballplayer.", "m": "MLB's top award for charity work is named after him."}
@@ -842,7 +842,7 @@
     ],
     "lines": [
       {"t": "Hells Bells. Game over.", "m": "AC/DC's song played when closer Trevor Hoffman came in."},
-      {"t": "Brown and gold forever.", "m": "Fans love the original colours, now back as the main look."},
+      {"t": "Brown and gold forever.", "m": "Fans love the original colors, now back as the main look."},
       {"t": "Gwynn hit .394 in '94.", "m": "Tony Gwynn's best season, cut short by the strike."},
       {"t": "Beat LA!", "m": "The chant aimed at the Dodgers up the freeway."},
       {"t": "Grab a spot on the grass at the Park at the Park.", "m": "The grassy hill beyond the outfield."}
@@ -911,7 +911,7 @@
     "lingo": [
       {"term": "M's", "say": "EMZ", "means": "Short for the Mariners."},
       {"term": "the Double", "say": "the DUB-ul", "means": "Edgar's 1995 extra-inning hit that won the series against the Yankees."},
-      {"term": "Sodo Mojo", "say": "SOH-doh MOH-joh", "means": "Team rallying slogan, named for the park's neighbourhood."},
+      {"term": "Sodo Mojo", "say": "SOH-doh MOH-joh", "means": "Team rallying slogan, named for the park's neighborhood."},
       {"term": "the Safe", "say": "the SAYF", "means": "Fond old name for the park, from Safeco Field."}
     ],
     "lines": [
@@ -989,7 +989,7 @@
       {"term": "the catwalks", "say": "the KAT-wawks", "means": "Rings in the dome roof that high fly balls sometimes hit."}
     ],
     "lines": [
-      {"t": "More cowbell!", "m": "Rays crowds ring cowbells to make noise."},
+      {"t": "Ring that cowbell!", "m": "Rays crowds ring cowbells to make noise."},
       {"t": "Rays up!", "m": "The fan rallying cry."},
       {"t": "That one hit the catwalk.", "m": "Balls that strike the roof rings follow special ground rules."},
       {"t": "Game 162. Never forget.", "m": "In 2011 the Rays came back from 7-0 down on the last night and won the wild card."},
@@ -1105,7 +1105,7 @@
       {"t": "Let Teddy win!", "m": "Teddy Roosevelt lost the Presidents Race for years before finally winning in 2012."},
       {"t": "Fight finished.", "m": "The 2019 motto was 'stay in the fight'; this is how fans sum up the title."},
       {"t": "Go Nats!", "m": "The standard cheer."},
-      {"t": "Drinks at Navy Yard before the game.", "m": "The park sits in the Navy Yard neighbourhood by the river."}
+      {"t": "Drinks at Navy Yard before the game.", "m": "The park sits in the Navy Yard neighborhood by the river."}
     ],
     "avoid": [
       {"say": "the Senators", "instead": "the Nats", "why": "The Senators left town twice and became the Twins and the Rangers."},

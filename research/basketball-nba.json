@@ -1,0 +1,220 @@
+{
+  "terms": [
+    {"term": "And-one", "say": "and-WUN", "means": "Scoring while getting fouled, which earns one free throw on top. Fans yell it as the ball drops.", "use": "Took the hit and still scored. And-one!", "common": true},
+    {"term": "Bucket", "say": "BUK-it", "means": "A made basket. Saying a player 'gets buckets' means he can really score.", "use": "Say what you want about him, the man gets buckets.", "common": true},
+    {"term": "Brick", "say": "BRIK", "means": "A badly missed shot that clanks off the rim. A night of misses is 'throwing up bricks.'", "use": "Brick after brick in the fourth. Painful to watch.", "common": true},
+    {"term": "Airball", "say": "AIR-bawl", "means": "A shot that misses everything, rim and backboard. Crowds chant it at the shooter.", "use": "He airballed a wide-open three. The whole arena let him hear it.", "common": true},
+    {"term": "Swish", "say": "SWISH", "means": "A shot that drops through without touching the rim. Also 'nothing but net.'", "use": "Didn't even touch the rim. Swish.", "common": true},
+    {"term": "Cooking", "say": "KOOK-ing", "means": "Playing great, usually scoring at will. 'Let him cook' means stay out of his way and keep feeding him the ball.", "use": "He's cooking tonight. Just keep giving him the ball.", "common": true},
+    {"term": "Cooked", "say": "KOOKT", "means": "Beaten badly, usually on defense: 'he got cooked.' Also 'we're cooked,' meaning the team is done.", "use": "Their guard cooked us all night. Nobody could stay in front of him.", "common": true},
+    {"term": "Heat check", "say": "HEET chek", "means": "After making a few in a row, a player tries a ridiculously hard shot to see if he's really that hot.", "use": "Three straight threes, then a heat check from 35 feet. Love it.", "common": true},
+    {"term": "Dime", "say": "DYME", "means": "An assist, especially a slick pass that sets up an easy basket. 'Dropping dimes' means passing well.", "use": "That no-look pass was a dime.", "common": true},
+    {"term": "Posterize", "say": "POH-stur-ize", "means": "Dunking right over a defender, so hard it belongs on a poster. Also 'put him on a poster.'", "use": "He went straight at the big man and put him on a poster.", "common": true},
+    {"term": "Broke his ankles", "say": "brohk hiz ANG-kulz", "means": "A dribble move so quick the defender stumbles or falls. The move is an 'ankle breaker.'", "use": "One crossover and he broke his ankles. The guy hit the floor.", "common": true},
+    {"term": "Clamps", "say": "KLAMPS", "means": "Tight, smothering defense. 'He put the clamps on him' means his man got nothing.", "use": "He put the clamps on their best scorer in the fourth.", "common": true},
+    {"term": "Logo three", "say": "LOH-goh THREE", "means": "A three-pointer from way out near the logo at center court. It still only counts for three.", "use": "Pulling up from the logo like it's a layup. Unreal.", "common": true},
+    {"term": "The paint", "say": "the PAYNT", "means": "The painted area under the basket, also called the lane or the key. Most dunks and layups happen here.", "use": "They're killing us in the paint. Nobody's protecting the rim.", "common": true},
+    {"term": "Boards", "say": "BORDZ", "means": "Rebounds. 'Crash the boards' means go hard after missed shots.", "use": "We have to crash the boards. They're getting every second chance.", "common": true},
+    {"term": "Pick-and-roll", "say": "PIK-un-ROHL", "means": "A teammate sets a screen (stands in the defender's way) for the ball handler, then rolls to the basket for a pass. Teams run it all game long.", "use": "They ran the same pick-and-roll five times and we never stopped it.", "common": true},
+    {"term": "Alley-oop", "say": "al-ee-OOP", "means": "A lob pass near the rim that a teammate catches in midair and dunks. Fans often just say 'lob.'", "use": "Lob, slam. That alley-oop got everybody off the couch.", "common": true},
+    {"term": "Iso", "say": "EYE-soh", "means": "Short for isolation. Teammates clear out so one player can go one-on-one against his defender.", "use": "Too much iso in the fourth. Four guys just standing around watching.", "common": true},
+    {"term": "Hero ball", "say": "HEER-oh bawl", "means": "One player trying to win it alone with tough shots instead of passing. Usually a complaint, unless it works.", "use": "Down two and he's playing hero ball again. Pass it!", "common": true},
+    {"term": "Run", "say": "RUN", "means": "A stretch where one team scores a bunch of points in a row, like a 12-0 run. The other coach usually calls a timeout to stop it.", "use": "They went on a 15-0 run and we still hadn't called a timeout.", "common": true},
+    {"term": "Dagger", "say": "DAG-ur", "means": "A late shot that pretty much ends the game.", "use": "Step-back three with a minute left. Dagger.", "common": true},
+    {"term": "Buzzer-beater", "say": "BUZ-ur bee-tur", "means": "A shot let go just before time runs out that goes in. Best of all when it wins the game.", "use": "Buzzer-beater to win it. I jumped off the couch.", "common": true},
+    {"term": "Crunch time", "say": "KRUNCH tyme", "means": "The last few minutes of a close game, when every possession matters.", "use": "Who do you want with the ball in crunch time?", "common": true},
+    {"term": "Garbage time", "say": "GAR-bij tyme", "means": "The end of a blowout, when the result is settled and the backups play. Stats from then don't count for much.", "use": "Don't get excited about his numbers. That was all garbage time.", "common": true},
+    {"term": "Triple-double", "say": "TRIP-ul DUB-ul", "means": "Ten or more in three stat categories in one game, usually points, rebounds and assists. Two categories is a double-double.", "use": "Triple-double and a win. Can't ask for more.", "common": true},
+    {"term": "Flop", "say": "FLOP", "means": "Falling down dramatically, with barely any contact, to fool the ref into calling a foul.", "use": "That was a flop. He barely touched him!", "common": true},
+    {"term": "Load management", "say": "LOHD MAN-ij-ment", "means": "Resting a healthy player for a game to keep him fresh over the long season. Fans who bought tickets to see him hate it.", "use": "I bought tickets to see him and he's sitting out for load management.", "common": true},
+    {"term": "Back-to-back", "say": "BAK-tuh-BAK", "means": "Games on two nights in a row. On the second night, tired legs get the blame. It can also mean winning two titles in a row.", "use": "Second night of a back-to-back. I'm expecting tired legs.", "common": true},
+    {"term": "Schedule loss", "say": "SKEJ-ool laws", "means": "A loss you blame on the calendar, like the second night of a back-to-back or the end of a long road trip. Often called before the game even starts.", "use": "Fourth game in six nights on the road? Schedule loss. Don't overthink it.", "common": false},
+    {"term": "Tanking", "say": "TANGK-ing", "means": "Losing on purpose, or not trying hard to win, to get better odds of a top draft pick. The league reworked the draft lottery for 2026-27 to make it less tempting.", "use": "At this point, are they trying to win, or are they tanking?", "common": true},
+    {"term": "Play-in", "say": "PLAY-in", "means": "A mini-tournament for the teams that finish 7th to 10th in each conference. Two from each side earn the last playoff spots.", "use": "As long as we make the play-in, we've got a shot.", "common": true},
+    {"term": "Sixth man", "say": "SIKSTH man", "means": "The first player off the bench, usually there to score. There's a Sixth Man of the Year award.", "use": "Our sixth man comes in and scores right away. Huge.", "common": true},
+    {"term": "He's him", "say": "heez HIM", "means": "High praise: he's the real deal, the star who takes over. 'He thinks he's him' is the mocking version.", "use": "Forty points and the game-winner? He's him.", "common": true},
+    {"term": "Chucker", "say": "CHUK-ur", "means": "A player who shoots too much, often bad shots. Not a compliment.", "use": "He's a chucker. Never met a shot he didn't like.", "common": false},
+    {"term": "Stretch four", "say": "STRETCH FOR", "means": "A power forward who can shoot threes, pulling the other team's big man away from the basket.", "use": "Our stretch four drags their big out of the paint and opens everything up.", "common": false}
+  ],
+  "phrases": {
+    "open": [
+      {"t": "You catch the game last night?", "m": "NBA teams play every two or three days, so there usually was one."},
+      {"t": "You watching {team} tonight?", "m": "On a game day. Gets them talking about the matchup."},
+      {"t": "What'd you make of that ending?", "m": "Open-ended. They'll fill in the details for you."},
+      {"t": "You stay up for the end of that one?", "m": "After a late tip, like a West Coast game. Fans love to complain about lost sleep."},
+      {"t": "Who do you root for?", "m": "Ask before you commit to an opinion. Saves you praising their rival."},
+      {"t": "Who you got coming out of the East this year?", "m": "Asks who'll reach the Finals from the Eastern Conference. Swap in 'West' for the other side, then let them talk."},
+      {"t": "You see the highlights?", "m": "For when you only caught clips. Plenty of real fans only watch highlights too."}
+    ],
+    "opinion": [
+      {"t": "We live and die by the three.", "m": "Teams shoot a ton of threes now. Works after any game, win or lose."},
+      {"t": "You can't win if you don't rebound.", "m": "Rebounding is always a fair complaint. Nobody argues with it."},
+      {"t": "Too much iso. Move the ball!", "m": "Fans hate watching one guy dribble while four teammates stand around."},
+      {"t": "Our bench has to give us more.", "m": "Blaming the backups is safe for almost any team."},
+      {"t": "Regular season's a warm-up. It's all about the playoffs.", "m": "A classic fall take. Nobody can prove you wrong until April."},
+      {"t": "We need a real rim protector.", "m": "Nearly every fan wants a big man who blocks shots and owns the paint."},
+      {"t": "We have to take care of the ball.", "m": "Turnovers are always a fair complaint."},
+      {"t": "No lead is safe in this league.", "m": "Teams come back from big deficits all the time. Works after any wild finish."}
+    ],
+    "agree": [
+      {"t": "Facts.", "m": "Current slang for 'that's true.' Short and safe."},
+      {"t": "A hundred percent.", "m": "Full agreement. Keeps them going."},
+      {"t": "That's what I've been saying!", "m": "Makes it sound like you had the take first."},
+      {"t": "Say it louder.", "m": "For a take you strongly agree with, especially about the refs."},
+      {"t": "Every single game.", "m": "For any complaint about your own team."},
+      {"t": "Tell me about it.", "m": "Shared misery after a bad loss."},
+      {"t": "Can't argue with that.", "m": "Safe for any take, good or bad."}
+    ],
+    "dodge": [
+      {"t": "It's a long season.", "m": "Eighty-two games. Ends any argument before spring."},
+      {"t": "Ask me after the All-Star break.", "m": "The break is in February. Buys you months."},
+      {"t": "Playoffs are a different animal.", "m": "When someone hypes a team's regular season."},
+      {"t": "Depends who's healthy.", "m": "Injuries and rest nights shape every season. Nobody can argue."},
+      {"t": "I'll believe it in April.", "m": "The playoffs start in April. Doubt sounds wise."},
+      {"t": "I stopped making predictions with this team a long time ago.", "m": "Sounds like a fan who's been burned before."},
+      {"t": "Above my pay grade. I just yell at the TV.", "m": "When it gets technical. Gets a laugh and moves things on."}
+    ],
+    "telly": [
+      {"t": "And one!", "m": "Your player scores while getting fouled. Yell it as the ball goes in."},
+      {"t": "Box out!", "m": "The other team keeps grabbing rebounds off their own misses."},
+      {"t": "Get back on D!", "m": "The other team is racing up the court and yours is jogging back."},
+      {"t": "That's a travel!", "m": "An opponent took too many steps with the ball. 'He walked!' works too."},
+      {"t": "Call a timeout!", "m": "The other team is on a run and your coach is just watching."},
+      {"t": "He flopped! Come on!", "m": "An opponent goes down way too easily and gets the call."},
+      {"t": "Ball don't lie!", "m": "An opponent misses free throws after a foul call you hated. Say it exactly like that, grammar and all."},
+      {"t": "Shoot it!", "m": "Your player is wide open and hesitating."}
+    ],
+    "exit": [
+      {"t": "Alright, I gotta run. Long season.", "m": "Works any time, whatever happened last night."},
+      {"t": "Anyway, there's another game in a couple of days.", "m": "Teams play every two or three days, so it's almost always true."},
+      {"t": "I'll text you during the game.", "m": "With a friend. Promises you'll be watching."},
+      {"t": "Let's hope they figure it out by April. Catch you later.", "m": "After any game that wasn't perfect, which is most of them."},
+      {"t": "Gonna grab another beer. Good talk.", "m": "At the bar. Nobody questions it."},
+      {"t": "Gotta go. Talk after the game.", "m": "Before tip-off. Postpones the hard questions."}
+    ]
+  },
+  "exchanges": {
+    "win": {"open": "Good win {when}. Took care of business.", "them": "I'll take a win like that any night.", "back": "Me too. Stack enough of those and we're in good shape come April.", "agree": "Long season, but that's how you build it.", "exit": "One game at a time. Catch you later."},
+    "bigWin": {"open": "Did you see {team} {when}? {score}. Total blowout.", "them": "That's what I like to see. Statement win.", "back": "Win big like that and the starters can sit late. That adds up over 82 games.", "agree": "Exactly. Long season.", "exit": "Enjoy it while it lasts. Talk soon."},
+    "narrowWin": {"open": "That game {when} took a year off my life.", "them": "{score}. Way closer than it needed to be.", "back": "We'll take it. Closing out tight games now pays off in the playoffs.", "agree": "A win's a win.", "exit": "I need a calmer one next time. See ya."},
+    "loss": {"open": "Rough one {when}, huh?", "them": "Yeah. Just one of those nights.", "back": "Too much one-on-one. When the ball stops moving, we're in trouble.", "agree": "Same old story.", "exit": "Short memory. Next game's in a couple of days. Catch you later."},
+    "bigLoss": {"open": "Please tell me you didn't watch {team} {when}.", "them": "I did. {score}. I turned it off in the fourth.", "back": "Some nights you just throw out the tape. You get a few of those in 82 games.", "agree": "Flush it and move on.", "exit": "On to the next one. We're not talking about this again."},
+    "otWin": {"open": "Overtime {when}! Did you see the finish?", "them": "Of course. I was on my feet the whole overtime.", "back": "Those are the games that build a team. Good teams find a way in crunch time.", "agree": "Gutsy win.", "exit": "That's why you watch till the end. Catch you later."},
+    "otLoss": {"open": "Losing in overtime {when}. Of course.", "them": "So close. That one stings.", "back": "We had our chances. One more stop in regulation and we win that.", "agree": "Brutal way to lose.", "exit": "Whatever. Next game. Talk soon."},
+    "comeback": {"open": "How about that comeback {when}? We were down going into the fourth!", "them": "I almost changed the channel, honestly.", "back": "Never count this team out. No lead is safe in this league.", "agree": "Gotta love a team that doesn't quit.", "exit": "Hope they don't make me sweat like that again. See ya."},
+    "blewLead": {"open": "We were up going into the fourth {when}. How do you lose that?", "them": "Same story. We stopped attacking and started protecting the lead.", "back": "You can't coast in this league. Somebody always makes a run.", "agree": "Preach.", "exit": "From now on I'm only watching the first three quarters. Later."},
+    "bigScorerWin": {"open": "{player} was cooking {when}. Did you see that?", "them": "They had no answer for him.", "back": "When he gets going like that, just get him the ball and let him cook.", "agree": "He's him.", "exit": "Keep that up and we're dangerous. Catch you later."},
+    "tripleDoubleWin": {"open": "Triple-double for {player} {when}. Did you see that?", "them": "Filled up the stat sheet. Did a bit of everything.", "back": "That's the best version of him. When he's involved in everything, the whole team plays better.", "agree": "Makes everybody around him better.", "exit": "Hope he keeps it up. See ya."},
+    "rivalWin": {"open": "We beat {opp} {when}. Best night of the season.", "them": "Nothing better than beating them.", "back": "{score}, and I finally get some peace in the group chat.", "agree": "Bragging rights.", "exit": "I'm wearing my jersey to work all week. Later."},
+    "rivalLoss": {"open": "Losing to {opp} {when}. Worst feeling there is.", "them": "Their fans are gonna be insufferable.", "back": "Already got texts from my buddies who root for {opp}. I'm muting the group chat.", "agree": "Smart move.", "exit": "We'll get 'em next time. Talk soon."}
+  },
+  "pub": [
+    {"say": "We can't buy a bucket tonight. Brick after brick.", "o": [
+      ["Somebody hit a shot. Anybody. Please.", 2, "Shared frustration. Exactly the mood."],
+      ["Bricks? Is the arena under construction?", -2, "A brick is a badly missed shot. Now you're the joke."],
+      ["Our effective field goal percentage must be in the thirties.", -1, "Maybe true, but nobody talks in percentages mid-meltdown."]
+    ]},
+    {"say": "He's been cooking all night.", "o": [
+      ["His usage rate is up and his efficiency hasn't dropped.", -1, "Right idea, but it sounds like a stats site."],
+      ["Let him cook. Keep giving him the ball.", 2, "Exactly the phrase fans use."],
+      ["Cooking? Did he open a restaurant?", -2, "Cooking means playing great. Every fan knows it."]
+    ]},
+    {"say": "That was a flop. He barely touched him.", "o": [
+      ["He fell over, though. Shouldn't that be a foul?", -2, "A flop is faking it to get a foul. You just defended the faker."],
+      ["And the ref bought it. Unbelievable.", 2, "Blaming the refs is always welcome."],
+      ["The league can review flops after the game and fine players for them.", -1, "True, but nobody wants a rulebook lecture."]
+    ]},
+    {"say": "They're on a 12-0 run and we're just standing around.", "o": [
+      ["Runs like that usually come down to shooting variance evening out.", -1, "Possibly true, and completely the wrong mood."],
+      ["Twelve to nothing? Is that like a shutout?", -2, "A run is a stretch of the game, not the final score."],
+      ["Call a timeout! Stop the bleeding.", 2, "Fans always want a timeout during a run."]
+    ]},
+    {"say": "You coming over Friday to watch the game?", "o": [
+      ["I'm in. What time's tip?", 2, "Short and right. 'Tip' is tip-off, the start of the game."],
+      ["Sure. I'm mostly interested in how they guard the pick-and-roll.", -1, "Nobody comes over for the coverage schemes."],
+      ["Sure, what time's kickoff?", -2, "Football kicks off. Basketball tips off."]
+    ]},
+    {"say": "He had a triple-double last night.", "o": [
+      ["Is that like a double play in baseball?", -2, "A triple-double is double figures in three stat categories."],
+      ["Triple-doubles are a pretty flawed measure of overall impact.", -1, "A real debate, but way too stats-y for small talk."],
+      ["Love it. Doing a little bit of everything.", 2, "Exactly the kind of praise fans give."]
+    ]},
+    {"say": "He hit four threes in a row, then pulled up from the logo.", "o": [
+      ["Long pull-up threes are low-percentage even for elite shooters.", -1, "Accurate, but nobody wants the math."],
+      ["Heat check. Can't even be mad at it.", 2, "Exactly the term, and the right attitude."],
+      ["Is a logo shot worth more points?", -2, "It's still a three. Nothing in the NBA is worth four."]
+    ]},
+    {"say": "Second night of a back-to-back. I'm not expecting much.", "o": [
+      ["Tired legs. Just get through it and get home healthy.", 2, "Shows you know what a back-to-back does to a team."],
+      ["Back-to-back? Did they win the title twice?", -2, "Here it means games on two nights in a row."],
+      ["Teams on zero days' rest tend to underperform their season net rating.", -1, "Probably true, but it sounds like a spreadsheet."]
+    ]}
+  ],
+  "avoid": [
+    {"say": "Great goal!", "instead": "Nice bucket!", "why": "Basketball has baskets, not goals. Fans call a made shot a bucket."},
+    {"say": "What a match!", "instead": "What a game!", "why": "'Match' is for tennis and soccer. It's always a game."},
+    {"say": "They're all over the pitch.", "instead": "They're all over the court.", "why": "Basketball is played on a court. 'Pitch' gives you away instantly."},
+    {"say": "What half is it?", "instead": "What quarter is it?", "why": "The NBA plays four 12-minute quarters. Halves are men's college basketball."},
+    {"say": "It went to extra time.", "instead": "It went to OT.", "why": "NBA overtime is five extra minutes, and fans just say OT."},
+    {"say": "He got a penalty shot.", "instead": "He went to the line.", "why": "A foul on a shot means free throws, taken from the free-throw line."},
+    {"say": "Who's in the final?", "instead": "Who's in the Finals?", "why": "The championship is a best-of-seven series called the Finals. Always plural."},
+    {"say": "What time's kickoff?", "instead": "What time's tip?", "why": "Basketball starts with a jump ball, so it's tip-off."},
+    {"say": "Boston are playing well.", "instead": "Boston is playing well.", "why": "With a city name, Americans say 'is.' 'The Celtics are' is fine."},
+    {"say": "I only watch the last two minutes.", "instead": "I caught the whole fourth.", "why": "Fans hear the last-two-minutes line constantly and hate it."}
+  ],
+  "nerd": "Honestly, once you strip out garbage time, his true shooting is way above league average, and our net rating is about ten points better per 100 possessions when he's on the floor.",
+  "offq": "Wait, are we still playing drop coverage against the pick-and-roll, or switching everything now?",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Glossary_of_basketball_terms",
+    "https://www.mentalfloss.com/posts/basketball-slang-terms",
+    "https://slang.net/blog/basketball_slang",
+    "https://www.hoopsaddict.com/the-ultimate-list-of-basketball-slang-terms/",
+    "https://dunkorthree.com/?p=12088",
+    "https://www.redbull.com/ca-en/nba-2k-slang-terms",
+    "https://en.wiktionary.org/wiki/cook",
+    "https://knowyourmeme.com/memes/bro-thinks-hes-him-im-him",
+    "https://slang.net/meaning/he's_him",
+    "https://slang.net/meaning/clamp",
+    "https://hoopsaddict.com/clamp-mean-in-basketball/",
+    "https://hoopsaddict.com/what-is-a-heat-check-in-basketball/",
+    "https://www.hoopsbeast.com/?p=2395",
+    "https://www.vocabulary.com/articles/dictionary/nba-lingo-staying-aggressive-while-avoiding-hero-ball/",
+    "https://grantland.com/the-triangle/hero-ball-is-awful-except-when-it-works-because-then-its-the-best/",
+    "https://en.wikipedia.org/wiki/Stretch_four",
+    "https://www.cbssports.com/nba/news/stretch-4s-in-the-nba-the-balance-between-stretching-and-defense",
+    "https://en.wiktionary.org/wiki/logo_3",
+    "https://sportskeeda.com/basketball/news-what-logo-3-nba-closer-look-one-hardest-feats-league",
+    "https://www.espn.com.au/nba/story/_/id/28066201/nba-load-management-know-know",
+    "https://www.thescore.com/nba/news/1890389",
+    "https://global.espn.com/nba/story/_/id/23094298/how-fatigue-shaped-nba-season-means-playoffs",
+    "https://www.silverscreenandroll.com/2011/2/14/1993086/lakers-bobcats-preview-back-to-back-schedule-losses",
+    "https://bleacherreport.com/articles/2762927-the-truths-about-garbage-time-in-the-nba",
+    "https://samford.edu/sports-analytics/fans/2020/Tanking-The-NBAs-Pressing-Issue",
+    "https://www.cbssports.com/watch/nba/video/how-do-you-define-tanking-in-the-nba",
+    "https://frontofficesports.com/article/five-biggest-storylines-nba-season-player-movement-parity-and-lottery-reform/",
+    "https://bleacherreport.com/articles/25513499-explaining-nba-rule-changes-2026-27-season-including-nba-cup-bracket-format",
+    "https://www.nbcsports.com/nba/news/2026-nba-play-in-tournament-schedule-how-does-it-work-which-teams-are-in-how-to-watch",
+    "https://official.nba.com/rule-no-5-scoring-and-timing",
+    "https://slang.net/meaning/ball_don't_lie",
+    "https://defector.com/how-ball-dont-lie-became-more-than-a-basketball-mantra",
+    "https://www.dictionary.com/browse/fact",
+    "https://bleacherreport.com/articles/1233519-10-things-casual-fans-will-never-understand-about-the-nba",
+    "https://www.sportsbookreview.com/forum/players-talk/1489181-it-s-the-nba-all-star-break-who-do-you-like-to-come-out-of-the-west"
+  ],
+  "unsure": [
+    "frauds (calling a team frauds): heard constantly online, but no glossary or reliable source defines it. Left out.",
+    "wet (shooting well), walking bucket, yam, microwave: no reliable definitions found. Left out.",
+    "make-or-miss league: confirmed as a common NBA saying, but sources credit a TV analyst with coining it, so it's left out under the no-TV-catchphrase rule.",
+    "Ball don't lie: confirmed by slang.net and Defector as a fan saying shouted at missed free throws after a bad call. It was popularized by a retired player (not named). Kept in the TV shouts; drop it if that counts as a catchphrase.",
+    "cooking and cooked: no basketball-only glossary defines them. Confirmed through Wiktionary's slang senses (with sports examples), the Red Bull basketball-game glossary and Know Your Meme.",
+    "clamps: slang.net and Hoops Addict agree on the meaning. The NBA's own rulebook videos use 'clamps' differently (a defender holding in the post), so the definition sticks to fan use.",
+    "Tanking: the 2026-27 lottery rework is confirmed (Front Office Sports, Bleacher Report: a '3-2-1' lottery for the 2027-2029 drafts, 16 lottery teams, worse odds for the bottom three). The term only says the lottery was reworked, without exact odds.",
+    "Play-in: format (seeds 7 to 10, two spots per conference) confirmed for 2026 by NBC Sports and permanent since 2022. Nothing found suggests it changed for 2026-27, and lottery-reform coverage still refers to play-in teams.",
+    "NBA Cup: group games run through November and count in the standings (except the final), but it was left out of the terms because the sponsor name and format keep changing.",
+    "Schedule loss: informal shorthand confirmed by ESPN and a team blog, not an official term. Marked niche.",
+    "'Who you got coming out of the East/West': confirmed only from fan forums, some of them old.",
+    "Dictionary.com's basketball glossary page returned no content when fetched, and Merriam-Webster has no 'heat check' entry. Wiktionary, Hoops Addict and Hoops Beast were used for it instead. The ESPN load-management and tanking pieces were seen through search summaries, not fetched in full.",
+    "Exchanges: the overtime lines avoid saying 'five minutes', since games can go to more than one overtime. The rivalLoss line avoids promising a rematch, because not every pair of teams meets again in a season.",
+    "Placeholders: the app fills {team} and {opp} with names like 'the Lakers', so lines avoid 'the {team}' and 'Go {team}'."
+  ]
+}

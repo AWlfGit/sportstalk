@@ -1,0 +1,223 @@
+{
+  "terms": [
+    {"term": "Walk-off", "say": "WAWK-off", "means": "A hit or play in the bottom of the last inning that puts the home team ahead and ends the game on the spot. If your team loses one on the road, you 'got walked off.'", "use": "Walk-off single in the ninth. The whole dugout came pouring out.", "common": true},
+    {"term": "Dinger", "say": "DING-er", "means": "A home run. Also a bomb, a tater or a jack.", "use": "Two dingers last night. The bats are finally waking up.", "common": true},
+    {"term": "Grand slam", "say": "grand SLAM", "means": "A home run with the bases loaded. Four runs on one swing.", "use": "Bases loaded and he hits a grand slam. Ballgame.", "common": true},
+    {"term": "Crooked number", "say": "KROOK-id NUM-ber", "means": "Two or more runs in one inning. Anything on the scoreboard that isn't a 0 or a 1.", "use": "We need a crooked number here, not one run at a time.", "common": false},
+    {"term": "Ace", "say": "AYSS", "means": "A team's best starting pitcher.", "use": "Our ace goes tonight. I like our chances.", "common": true},
+    {"term": "Bullpen", "say": "BULL-pen", "means": "The relief pitchers, and the area where they warm up. Fans often shorten it to 'the pen.'", "use": "Starter was great, then the bullpen gave it all back.", "common": true},
+    {"term": "Closer", "say": "KLOH-zer", "means": "The relief pitcher who gets the last outs of a close game, usually in the ninth inning.", "use": "Bring in the closer and let's go home.", "common": true},
+    {"term": "Blown save", "say": "blohn SAYV", "means": "A reliever comes in to protect a narrow late lead and gives up the tying run.", "use": "Another blown save. I can't watch the ninth inning anymore.", "common": true},
+    {"term": "Dealing", "say": "DEE-ling", "means": "Pitching really well. 'He's dealing' means hitters can't touch him.", "use": "He's dealing tonight. Six innings and they've barely made contact.", "common": true},
+    {"term": "Filthy", "say": "FIL-thee", "means": "A pitch with so much movement it's close to unhittable. 'Nasty' means the same thing.", "use": "That slider was filthy. The guy had no chance.", "common": true},
+    {"term": "Gas", "say": "GAS", "means": "A hard fastball. Also called heat or cheese.", "use": "Kid's throwing gas. He touched a hundred on the radar gun.", "common": true},
+    {"term": "Meatball", "say": "MEET-bawl", "means": "An easy pitch right down the middle that's begging to be hit.", "use": "He threw a meatball and the guy crushed it.", "common": true},
+    {"term": "Hanger", "say": "HANG-er", "means": "A curveball or slider that doesn't break and just hangs in the middle of the zone. It usually gets hit a long way.", "use": "That was a hanger. You can't throw that pitch there.", "common": true},
+    {"term": "Painting the corners", "say": "PAYN-ting the KOR-nerz", "means": "Throwing pitches that just catch the edges of the strike zone. Also 'painting the black.'", "use": "He's painting the corners all night. Nothing to hit.", "common": true},
+    {"term": "Punchout", "say": "PUNCH-owt", "means": "A strikeout. When the batter doesn't swing at strike three, it's a strikeout looking, scored as a backwards K.", "use": "Another punchout. That's ten on the night.", "common": true},
+    {"term": "Golden sombrero", "say": "GOHL-den sum-BRAIR-oh", "means": "Striking out four times in one game.", "use": "Four at-bats, four strikeouts. Golden sombrero.", "common": false},
+    {"term": "Mendoza line", "say": "men-DOH-zuh lyne", "means": "A .200 batting average. A hitter below it is really struggling.", "use": "He's hitting under the Mendoza line. Something has to change.", "common": true},
+    {"term": "Bases juiced", "say": "BAY-siz JOOST", "means": "Bases loaded: a runner on first, second and third.", "use": "Bases juiced, nobody out, and we don't score. Unbelievable.", "common": true},
+    {"term": "Can of corn", "say": "KAN uv KORN", "means": "An easy, routine fly ball.", "use": "Can of corn to end the inning. Easy.", "common": true},
+    {"term": "Rake", "say": "RAYK", "means": "To hit really well. A hitter on a hot streak is 'raking.'", "use": "He's been raking all month. They can't get him out.", "common": true},
+    {"term": "Oppo", "say": "OP-oh", "means": "To the opposite field: a right-handed hitter going to right field, or a lefty going to left.", "use": "He went oppo for a home run. That's real strength.", "common": true},
+    {"term": "Bat flip", "say": "BAT flip", "means": "Tossing the bat in celebration after a big hit, usually a home run. Some fans love it. Old-school types call it showing up the pitcher.", "use": "Did you see that bat flip? He knew it was gone.", "common": true},
+    {"term": "Rubber game", "say": "RUB-er gaym", "means": "The deciding game of a tied series, usually game three after the teams split the first two.", "use": "Rubber game tonight. Win it and we take the series.", "common": true},
+    {"term": "Sweep", "say": "SWEEP", "means": "Winning every game of a series. On the losing end, you 'got swept.'", "use": "We swept them. Three for three.", "common": true},
+    {"term": "Pitchers' duel", "say": "PICH-erz DOO-ul", "means": "A low-scoring game where both starting pitchers are on top of their game.", "use": "One-nothing in the seventh. Real pitchers' duel.", "common": true},
+    {"term": "Small ball", "say": "SMAWL bawl", "means": "Scoring with bunts, stolen bases and singles instead of waiting for home runs.", "use": "Bunt him over, steal a base. A little small ball never hurt.", "common": true},
+    {"term": "Free baseball", "say": "FREE BAYSS-bawl", "means": "Extra innings. A tie after nine means more baseball for the same ticket.", "use": "Tied after nine. Free baseball!", "common": true},
+    {"term": "Ghost runner", "say": "GOHST RUN-er", "means": "In regular-season extra innings, every half-inning starts with a runner on second base. The playoffs don't use it.", "use": "Ghost runner on second and we can't even get him home.", "common": true},
+    {"term": "Pitch clock", "say": "PICH klok", "means": "A timer, since 2023, that gives pitchers 15 seconds to throw with the bases empty and 18 with runners on. A slow pitcher gets an automatic ball, and a batter who isn't ready gets an automatic strike.", "use": "The pitch clock's been great. Games actually move now.", "common": true},
+    {"term": "ABS challenge", "say": "ay-bee-ESS CHAL-inj", "means": "Since 2026, the batter, pitcher or catcher can challenge a ball or strike call by tapping his helmet or cap. A tracking system decides, and the result shows on the scoreboard in seconds. Each team starts with two and keeps a challenge when it's right. Some fans call it the robo ump.", "use": "He challenged it and won. Strike three got overturned.", "common": true},
+    {"term": "Rally cap", "say": "RAL-ee kap", "means": "Wearing your cap inside out or backward to will your team into a late comeback. A superstition, mostly for fun.", "use": "Down two in the ninth. Rally caps on, everybody.", "common": true},
+    {"term": "Hot stove", "say": "hot STOHV", "means": "The offseason, when fans argue about trades, free agents and rumors.", "use": "Hot stove season. Everybody's got a trade idea.", "common": true},
+    {"term": "Magic number", "say": "MAJ-ik NUM-ber", "means": "The combined wins by the first-place team, or losses by the team chasing it, needed to clinch. Fans count it down in September.", "use": "Magic number's down to three. Let's wrap this up.", "common": true},
+    {"term": "Position player pitching", "say": "puh-ZISH-un PLAY-er PICH-ing", "means": "In a blowout, a team sends an infielder or outfielder to the mound to save its real pitchers. Once that happens, the game is over.", "use": "They brought in the shortstop to pitch. Yeah, it's over.", "common": true},
+    {"term": "The hook", "say": "the HOOK", "means": "The manager taking a pitcher out of the game. Fans say he 'got the hook' or 'got pulled.'", "use": "Three straight hits and he got the hook.", "common": true}
+  ],
+  "phrases": {
+    "open": [
+      {"t": "You catch the game?", "m": "Works almost any day in the season. There's a game nearly every day."},
+      {"t": "You watching {team} tonight?", "m": "During the season. Gets them talking about the team."},
+      {"t": "How about that game?", "m": "Open-ended. They'll fill in the details for you."},
+      {"t": "Who do you root for?", "m": "Ask before you commit to an opinion. 'Root for' is how Americans say it."},
+      {"t": "You going to a game this weekend?", "m": "Fans love talking about trips to the ballpark."},
+      {"t": "How's the bullpen been lately?", "m": "Every fan has complaints about the relievers. Safe bet."},
+      {"t": "Big series this weekend, huh?", "m": "Teams usually play three games in a row against the same opponent. Somebody always calls it big."},
+      {"t": "How do you think they look this year?", "m": "Early in the season. Everybody has a take."}
+    ],
+    "opinion": [
+      {"t": "It all comes down to the bullpen.", "m": "Blaming or praising the relievers works after almost any game."},
+      {"t": "We have to hit with runners in scoring position.", "m": "Stranding runners is the classic fan complaint. It's always true somewhere."},
+      {"t": "You win with pitching. Always have, always will.", "m": "An old baseball belief. Best after a low-scoring game."},
+      {"t": "They left him in too long.", "m": "Second-guessing when the manager pulled the pitcher is a fan tradition."},
+      {"t": "Too many strikeouts. Just put the ball in play.", "m": "Fans of every team say this."},
+      {"t": "Way too early to panic. It's only April.", "m": "Early in the year, after a bad stretch."},
+      {"t": "The pitch clock was the best thing they've done in years.", "m": "Most fans like the faster games. A safe opinion since 2023."},
+      {"t": "We need another bat.", "m": "Means they need a better hitter. Big in midsummer, before the trade deadline."}
+    ],
+    "agree": [
+      {"t": "A hundred percent.", "m": "Full agreement. Keeps them going."},
+      {"t": "Every single time.", "m": "For any complaint about your own team."},
+      {"t": "Tell me about it.", "m": "Shared misery after a bad game."},
+      {"t": "Can't argue with that.", "m": "Safe for any take, good or bad."},
+      {"t": "That's what I've been saying!", "m": "Makes it sound like you had the take first."},
+      {"t": "Same old story.", "m": "For a familiar problem, like a bullpen meltdown or a night with no hitting."},
+      {"t": "You said it.", "m": "Quick agreement that doesn't commit you to anything."}
+    ],
+    "dodge": [
+      {"t": "It's a long season.", "m": "Any time before September. 162 games settle a lot of arguments."},
+      {"t": "Ask me again in September.", "m": "When someone wants a prediction. That's when the playoff race heats up."},
+      {"t": "Anything can happen in October.", "m": "About the playoffs. Short series can go either way."},
+      {"t": "Baseball's a weird game, man.", "m": "Ends any debate about a strange result."},
+      {"t": "I'll believe it when I see it.", "m": "Someone predicts big things. Doubt sounds wise."},
+      {"t": "Honestly, I just want them in the race in September.", "m": "Modest and hard to argue with."},
+      {"t": "Depends which version of them shows up.", "m": "Works for any team, because every team is streaky."},
+      {"t": "Above my pay grade. I just yell at the TV.", "m": "When it gets technical. Gets a laugh and moves things on."}
+    ],
+    "telly": [
+      {"t": "Swing the bat!", "m": "Your hitter just watched strike three go by."},
+      {"t": "Throw strikes!", "m": "Your pitcher keeps missing the zone and walking people."},
+      {"t": "Come on, blue!", "m": "A bad call. Fans call the umpire 'blue.'"},
+      {"t": "Challenge it! Challenge it!", "m": "A ball or strike call looks wrong. Since 2026, the batter, pitcher or catcher can challenge it."},
+      {"t": "Get him out of there!", "m": "Your pitcher is getting hit hard and the manager hasn't come to get him."},
+      {"t": "Turn two!", "m": "Ground ball with a runner on first. You want the double play."},
+      {"t": "Stay fair! Stay fair!", "m": "A long hit is curving toward the foul pole and you need it to land fair."},
+      {"t": "Just put it in play!", "m": "Runner on third, fewer than two outs, and your hitter keeps swinging and missing."}
+    ],
+    "exit": [
+      {"t": "Alright, I gotta run. Enjoy the game tonight.", "m": "During the season, there's usually a game tonight."},
+      {"t": "Long season. We'll see what happens.", "m": "Noncommittal. Works after any result."},
+      {"t": "I'll text you if they do anything crazy.", "m": "With a friend. Suggests you'll be watching."},
+      {"t": "There's always tomorrow. Catch you later.", "m": "After a loss. Teams play almost every day."},
+      {"t": "I need another beer. Good talk, man.", "m": "At the bar. Nobody questions it."},
+      {"t": "I'm heading out to beat the traffic. Later.", "m": "At the ballpark, late in the game. Fans leave early to beat traffic all the time."},
+      {"t": "Let me know when they fix the bullpen. See ya.", "m": "Gets a laugh from any fan."}
+    ]
+  },
+  "exchanges": {
+    "win": {"open": "Good win {when}. Took care of business.", "them": "Yeah, solid all around. Nothing fancy.", "back": "That's how you win in this sport. Pitch well enough, get a couple of big hits, go home.", "agree": "That's all you can ask.", "exit": "Now go do it again. Catch you later."},
+    "bigWin": {"open": "Did you see {team} {when}? {score}!", "them": "The bats showed up big time.", "back": "And a lead like that lets you rest the back end of the bullpen. That matters over a long season.", "agree": "Huge. Fresh arms for the next one.", "exit": "Enjoy it while it lasts. Talk soon."},
+    "narrowWin": {"open": "Hung on {when}. {score}. My nerves are shot.", "them": "One-run games will take years off your life.", "back": "Those games are always on the bullpen. One bad pitch late and it's tied.", "agree": "Good thing nobody blinked.", "exit": "A win's a win. Give me an easy one next time. See ya."},
+    "loss": {"open": "Tough one {when}, huh?", "them": "Yeah, they just couldn't come up with the big hit.", "back": "Same story. You have to cash in when you get guys on base.", "agree": "Every single time.", "exit": "Long season. Get 'em next time. Catch you later."},
+    "bigLoss": {"open": "Please tell me you didn't watch {team} {when}.", "them": "I did. {score}. I turned it off early.", "back": "Hey, a blowout still only counts as one loss. Flush it.", "agree": "True. Short memory.", "exit": "On to the next one. I'm not talking about that game again."},
+    "extrasWin": {"open": "Extra innings {when}! Did you make it to the end?", "them": "Barely. Free baseball, but my nerves didn't love it.", "back": "Extras always come down to who's got arms left in the bullpen. Glad it was us.", "agree": "Yep. Gotta have the arms.", "exit": "Hopefully the next one ends in nine. See ya."},
+    "extrasLoss": {"open": "Lost in extras {when}. Of course we did.", "them": "Ugh. All that and nothing to show for it.", "back": "Should've won it in nine. We had our chances.", "agree": "Yeah, it never should've gone that long.", "exit": "Whatever. Shake it off. Talk soon."},
+    "walkOffWin": {"open": "Walk-off {when}! Did you see it?", "them": "I jumped off the couch. What a way to end it.", "back": "Best feeling in baseball. The whole dugout comes pouring out and the home crowd goes nuts.", "agree": "Nothing better.", "exit": "Sends everybody home happy. Catch you later."},
+    "walkOffLoss": {"open": "We got walked off {when}. Worst way to lose.", "them": "Ugh. Standing there watching them celebrate on their own field.", "back": "That's the brutal part of playing on the road. They bat last, and you never get to answer back.", "agree": "Yep. Nothing to do but walk off the field.", "exit": "Shake it off and get the next one. Later."},
+    "comeback": {"open": "How about that comeback {when}? We were down to our last three outs!", "them": "I almost turned it off, honestly.", "back": "That's why you never leave early. Nothing's over till the last out.", "agree": "Never leave early. Lesson learned.", "exit": "Just don't make me sweat like that every night. See ya."},
+    "blewLead": {"open": "We were three outs away from a win {when}. How do you lose that?", "them": "The bullpen just couldn't close the door.", "back": "That's the kind that stings. Do all the hard work and hand it back at the very end.", "agree": "Those ones keep you up at night.", "exit": "I'm turning games off after the eighth from now on. Later."},
+    "shutoutWin": {"open": "Shutout {when}! {score}.", "them": "The pitchers were dealing. Didn't give {opp} a thing.", "back": "When your pitching puts up zeros all night, one run is all you need.", "agree": "Pitching and defense, man.", "exit": "Keep putting up zeros. Catch you later."},
+    "shutoutLoss": {"open": "Shut out {when}. Not a single run.", "them": "{score}. The bats never showed up.", "back": "You can't ask the pitchers to throw a shutout every night. Somebody's got to get a big hit.", "agree": "Seriously. Wake up the bats.", "exit": "Hopefully they find some runs next time. Talk soon."},
+    "rivalWin": {"open": "We beat {opp} {when}. Love to see it.", "them": "Nothing better than beating them.", "back": "{score}, and their fans in my group chat have gone real quiet.", "agree": "Bragging rights, baby.", "exit": "Wearing my cap to work all week. Later."},
+    "rivalLoss": {"open": "Losing to {opp} {when}. Worst feeling there is.", "them": "Their fans are gonna be unbearable.", "back": "My buddy who roots for {opp} already texted me. I'm not answering.", "agree": "Smart move.", "exit": "We'll get 'em next time. Talk soon."}
+  },
+  "pub": [
+    {"say": "The bullpen blew it again.", "o": [
+      ["Starter did his job. The pen just can't hold a lead.", 2, "Blaming the bullpen is every fan's right."],
+      ["Reliever performance swings a lot from year to year, so I'd expect it to even out.", -1, "Probably true, but he wants to vent, not hear perspective."],
+      ["Wait, which ones are the bullpen?", -2, "The relief pitchers. Every fan knows that."]
+    ]},
+    {"say": "Did you see that walk-off?", "o": [
+      ["Who walked off? Was he hurt?", -2, "A walk-off is the hit that wins it for the home team in the last inning."],
+      ["Unreal. The whole dugout came flying out.", 2, "Excited and short. Perfect."],
+      ["Only the home team can win on a walk-off, since it bats last.", -1, "Correct, and he already knows. Now you're explaining baseball to him."]
+    ]},
+    {"say": "Can you believe they pulled him in the sixth?", "o": [
+      ["Third time through the order, the numbers say you get him out of there.", -1, "That's front-office logic. Fans hate hearing it."],
+      ["Pulled him where?", -2, "'Pulled' means the manager took the pitcher out of the game."],
+      ["He was cruising! Let the guy work.", 2, "Fans almost always want the starter left in."]
+    ]},
+    {"say": "Bases juiced, nobody out, and we didn't score.", "o": [
+      ["Teams average more than two runs from bases loaded and nobody out.", -1, "True, but he doesn't want the run-expectancy chart."],
+      ["Brutal. Somebody just put the ball in play!", 2, "Right frustration, right words."],
+      ["Juiced? Like orange juice?", -2, "'Bases juiced' means bases loaded. Now he's annoyed and explaining."]
+    ]},
+    {"say": "What do you think of the ghost runner in extras?", "o": [
+      ["Is the stadium haunted?", -2, "The ghost runner is the extra runner who starts on second base in extra innings."],
+      ["With a runner on second and nobody out, the odds of scoring go way up.", -1, "Right, but nobody asked for the math."],
+      ["Purists hate it, but I don't miss the 15-inning marathons.", 2, "A real opinion, and it shows you know what it changed."]
+    ]},
+    {"say": "Games fly by with the pitch clock now.", "o": [
+      ["Best thing they've done in years. Games actually move now.", 2, "Most fans love it. Safe and natural."],
+      ["What happens when it hits zero? Is that halftime?", -2, "There's no halftime in baseball. The clock times each pitch."],
+      ["Average game times dropped by more than 20 minutes the first year.", -1, "Accurate, and it sounds like you memorized it."]
+    ]},
+    {"say": "He's hitting under the Mendoza line.", "o": [
+      ["His batting average on balls in play says he's been unlucky.", -1, "BABIP talk. Right idea, wrong crowd."],
+      ["Under .200? Give somebody else a shot.", 2, "Shows you know what the Mendoza line is, and you have a take."],
+      ["Is that a subway line?", -2, "The Mendoza line is a .200 batting average. Below it is bad."]
+    ]},
+    {"say": "Want to catch a game this weekend?", "o": [
+      ["Sure, how long is the match?", -2, "It's a game, not a match. 'Match' sounds British."],
+      ["I'm in. Hot dogs and a cold beer in the bleachers.", 2, "Food and enthusiasm. Perfect."],
+      ["Sure. I'm curious how they've been using the bullpen lately.", -1, "Nobody goes to the ballpark to study bullpen usage."]
+    ]}
+  ],
+  "avoid": [
+    {"say": "Great innings!", "instead": "Great inning!", "why": "In baseball it's one inning, two innings. A single 'innings' is cricket."},
+    {"say": "Their batsman is good.", "instead": "That guy can hit.", "why": "'Batsman' is cricket. Baseball has batters and hitters."},
+    {"say": "He bowled a strike.", "instead": "He threw a strike.", "why": "Pitchers throw or pitch. Bowling is cricket, or the bowling alley."},
+    {"say": "They scored three points.", "instead": "They scored three runs.", "why": "Baseball counts runs. Nobody calls them points."},
+    {"say": "Was it a draw?", "instead": "Who won?", "why": "MLB games don't end tied. They play extra innings until somebody wins."},
+    {"say": "They're top of the table.", "instead": "They're in first place.", "why": "Americans talk about the standings and first place, not a table."},
+    {"say": "Boston are playing well.", "instead": "Boston is playing well.", "why": "With a city name, Americans say 'is.' 'The Red Sox are' is fine."},
+    {"say": "Who's in the World Series final?", "instead": "Who's in the World Series?", "why": "The World Series is the final. It's a best-of-seven series, so adding 'final' sounds foreign."},
+    {"say": "They're all over the pitch.", "instead": "They're all over the field.", "why": "In baseball a pitch is a throw. The grass is the field, and the whole place is the ballpark."},
+    {"say": "Isn't this just rounders?", "instead": "Great night for a ballgame.", "why": "Most Americans have never heard of rounders. Comparing the two marks you as a visitor instantly."}
+  ],
+  "nerd": "Honestly, his surface numbers are lying. His xwOBA is way above his actual line, his barrel rate is elite and his chase rate is down. He's just been unlucky.",
+  "offq": "Wait, are they going with a six-man rotation this year, or sticking with five?",
+  "sources": [
+    "https://www.mlb.com/news/best-baseball-slang-terms",
+    "https://legionreport.com/baseball-slang-glossary/",
+    "https://www.baseballmonkey.com/baseball-terms-slang-defined",
+    "https://sportsexcellence.com/blogs/game-assist/baseball-slang-101-our-guide-to-ball-lingo-jargon-and-terminology",
+    "https://www.mentalfloss.com/sports/baseball/baseball-slang-terms",
+    "https://en.wikipedia.org/wiki/Glossary_of_baseball_terms",
+    "https://en.wiktionary.com/wiki/Appendix:Glossary_of_baseball_jargon_(D)",
+    "https://slang.net/terms/baseball",
+    "https://sabr.org/?p=46894",
+    "https://en.wikipedia.org/wiki/Pitch_clock",
+    "https://mlbtraderumors.com/2023/12/mlb-rule-changes-pitch-clock-18-seconds-mound-visits-2024.html",
+    "https://www.nbcsportsboston.com/mlb/mlb-game-time-drops-24-minutes-in-first-year-with-pitch-clock/556787/",
+    "https://www.tsn.ca/mlb/article/mlb-unveils-abs-challenge-system-guidelines-for-2026-season-n1-47914496/",
+    "https://www.si.com/mlb/diamondbacks/onsi/arizona-diamondbacks-news/everything-know-mlb-abs-challenge-diamondbacks",
+    "https://m.washingtontimes.com/news/2026/apr/2/mlbs-robo-umps-receive-rave-reviews-reinvigorate-stadium-experience/",
+    "https://www.cbssports.com/mlb/news/mlb-robot-umpires-automated-ball-strike-system-approved-2026-season",
+    "https://www.cbssports.com/mlb/news/mlb-makes-extra-innings-ghost-runner-rule-permanent-for-regular-season-games-per-report",
+    "https://www.mlb.com/news/mlb-extra-innings-rules-for-playoffs-2024-automatic-runners-and-pitch-clock",
+    "https://scoring.theyawns.com/docs/runners/ghost-runner/",
+    "https://www.baseballbible.net/?p=3583",
+    "https://www.pressherald.com/?p=1347352",
+    "https://www.mlb.com/news/time-to-consider-change-to-extra-innings-c215582354",
+    "https://en.wikipedia.org/wiki/Rally_cap",
+    "https://mountvernonnews.com/stories/623188054-let-s-talk-sports-rally-caps-for-the-win",
+    "https://en.wikipedia.org/wiki/Bat_flip",
+    "https://www.baseball-reference.com/bullpen/Sweep",
+    "https://www.nbcchicago.com/mlb/chicago-baseball/explainer-how-does-baseballs-magic-number-work/2608861/",
+    "https://sportslingo.com/sports-glossary/p/pitchers-duel",
+    "https://www.cbssports.com/mlb/news/dont-you-love-seeing-position-players-pitch-ron-washington-doesnt",
+    "https://www.nbcsportsbayarea.com/mlb/san-francisco-giants/why-kapler-has-no-problem-using-position-players-as-pitchers/1423721",
+    "https://clutchpoints.com/mlb/brewers-news-milwaukee-walked-off-worst-possible-way-mets",
+    "https://sportsfanfocus.com/why-are-umpires-called-blue/",
+    "https://en.wikipedia.org/wiki/Double_play",
+    "https://sportslingo.com/sports-glossary/b/bullpen"
+  ],
+  "unsure": [
+    "got walked off: confirmed from news headlines (ClutchPoints, game coverage), not from a glossary. Every glossary confirms 'walk-off' itself.",
+    "ghost runner: the main fan name in every source. 'Manfred runner' turned up nowhere and 'zombie runner' in one low-quality page, so both were left out. It's regular season only, so the extra-innings exchanges don't mention it (they could fire after a playoff game).",
+    "ABS challenge: two per team, kept when right, batter, pitcher or catcher taps helmet or cap (SI, ESPN/TSN, Feb 2026). Sources word the extra-innings bonus challenge differently, so it's left out. Didn't confirm whether the system was used in the 2026 postseason; no line depends on it. 'Robo ump' is in headlines, but one blog objects to the name, so it's only mentioned as what some fans say.",
+    "pitch clock: 15 seconds with the bases empty and 18 with runners on (cut from 20 in 2024), confirmed still current through a 2026 World Baseball Classic report. The batter's timer and the disengagement limit were left out. First-year game-time drop is 20 to 30 minutes depending on the source; the pub line says 'more than 20 minutes'.",
+    "position player pitching: MLB has limited it to lopsided games and extra innings since 2023, but the exact run margins weren't confirmed, so no numbers are given.",
+    "hanger: one glossary lists it as a noun; Wikipedia defines 'hang' and 'hanging curveball'. Both agree on the meaning.",
+    "pitchers' duel: definitions differ on how low the score has to be, so the term just says low-scoring.",
+    "Left out as dated or broadcaster talk even though confirmed: Texas Leaguer, chin music, Uncle Charlie, yakker, twin killing, ducks on the pond, frozen rope, laugher, seeing-eye single.",
+    "Left out for the content rules: 'Get up!' at a long fly ball (tied to a famous broadcaster's home-run call), 'You can't predict baseball' (broadcaster catchphrase), 'It ain't over till it's over' (famous quote), 'meaningful games in September' (traced to a quote by former Mets owner Fred Wilpon; the dodge line uses our own wording). Nothing mentions the seventh-inning stretch, so its song never comes up.",
+    "Pub round 4's giveaway uses orange juice rather than the steroid sense of 'juiced', to keep it light.",
+    "Fetches refused: Baseball-Reference Bullpen slang page (403), most MLB.com news and glossary pages (406), Wiktionary baseball appendix pages (404), Merriam-Webster. Sweep (Baseball-Reference), dealing (Wiktionary) and the MLB playoff extra-innings rule come from search-result excerpts of those pages. The slang.net, SABR, SportsLingo, Press Herald, CBS robot-umpire and second MLB.com extra-innings sources were also read only as search excerpts.",
+    "Placeholders: {team} and {opp} include 'the', so lines never say 'the {team}'. No {player} is used. Comeback says 'down to our last three outs' and blewLead says 'three outs away', so both work whether the team was home or away and whatever inning ended it.",
+    "No player, manager or current-standings references anywhere. Mendoza line is named after a retired player, but the name isn't spelled out as a person."
+  ]
+}

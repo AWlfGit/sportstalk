@@ -87,7 +87,7 @@
     ],
     "lines": [
       {"t": "Happy Purple Friday!", "m": "Said on Fridays before games, when Baltimore dresses in purple."},
-      {"t": "Steelers week is a different kind of week.", "m": "Pittsburgh games are the most physical and the most important."},
+      {"t": "Steelers week hits different.", "m": "Pittsburgh games are the most physical and the most important."},
       {"t": "Defense wins here. Always has.", "m": "Baltimore's identity is built on hard-hitting defenses."},
       {"t": "Ray Lewis set the standard.", "m": "Fans see the great linebacker as the face of the franchise."}
     ],
@@ -120,8 +120,8 @@
     ],
     "lines": [
       {"t": "Go Bills!", "m": "The standard greeting and sign-off in Western New York."},
-      {"t": "Bills Mafia travels.", "m": "Fans pride themselves on filling away stadiums."},
-      {"t": "New stadium, same tailgates.", "m": "The team moved across the road to the new Highmark Stadium in 2026, and the parking-lot parties came too."},
+      {"t": "Bills Mafia travels.", "m": "Fans pride themselves on taking over road games."},
+      {"t": "New stadium, same tailgates.", "m": "The team moved across the street to the new Highmark Stadium in 2026, and the parking-lot parties came too."},
       {"t": "Snow game? Even better.", "m": "Fans see Buffalo winters as a home advantage."},
       {"t": "Wide right still hurts.", "m": "A rueful nod to the missed kick that lost Super Bowl XXV in 1991."}
     ],
@@ -181,7 +181,8 @@
     "legends": ["Walter Payton", "Dick Butkus", "Gale Sayers", "Brian Urlacher"],
     "memory": "The 1985 Bears: 15-1, the Super Bowl Shuffle and a Super Bowl XX rout of the Patriots",
     "lingo": [
-      {"term": "Da Bears", "say": "duh BAIRZ", "means": "The Chicago-accent way to say the team name, made famous by a comedy sketch. Fans use it with a wink."},
+      {"term": "Da Bears", "say": "duh BAIRZ", "means": "The Chicago-accent way to say the team name. Fans say it with a wink."},
+      {"term": "the Fridge", "say": "the FRIJ", "means": "William Perry, the huge 1985 defensive lineman who also ran in a touchdown in Super Bowl XX."},
       {"term": "Monsters of the Midway", "say": "MON-sterz uv the MID-way", "means": "A classic nickname for great Bears defenses."},
       {"term": "Bear Down", "say": "bair DOWN", "means": "The fight song title, also used as a greeting."},
       {"term": "Sweetness", "say": "SWEET-ness", "means": "Walter Payton's nickname."}
@@ -190,7 +191,7 @@
       {"t": "Bear down!", "m": "A greeting, cheer and sign-off in one."},
       {"t": "Still hate the Packers.", "m": "Green Bay is the eternal enemy, in the NFL's oldest rivalry."},
       {"t": "Nothing beats the '85 Bears.", "m": "The 1985 champions are the standard every Bears team is measured against."},
-      {"t": "Proper Bears weather today.", "m": "Said on cold, windy days by the lake, which fans see as home advantage."}
+      {"t": "Now that's Bears weather.", "m": "Said on cold, windy days by the lake, which fans see as home advantage."}
     ],
     "avoid": [
       {"say": "The Bears play in a dome", "instead": "they play outdoors at Soldier Field", "why": "Soldier Field is an open-air stadium on Lake Michigan."},
@@ -249,18 +250,18 @@
     "memory": "The 1964 NFL Championship, the club's last league title",
     "lingo": [
       {"term": "Dawg Pound", "say": "DAWG pownd", "means": "The fan base, and the bleacher section behind the east end zone. Fans bark."},
-      {"term": "Factory of Sadness", "say": "FAK-tor-ee uv SAD-ness", "means": "A dark-humour fan nickname for the stadium in losing years."},
+      {"term": "Factory of Sadness", "say": "FAK-tor-ee uv SAD-ness", "means": "A dark-humor fan nickname for the stadium in losing years."},
       {"term": "Brownies", "say": "BROW-neez", "means": "An affectionate nickname for the team."}
     ],
     "lines": [
       {"t": "Woof woof!", "m": "Fans bark to show Dawg Pound loyalty."},
       {"t": "Next year is our year.", "m": "The eternal, hopeful Browns refrain."},
       {"t": "Beat Pittsburgh and I'm happy.", "m": "The Steelers are the rival that counts most."},
-      {"t": "Named after Paul Brown, not the colour.", "m": "The club takes its name from founding coach Paul Brown."},
+      {"t": "Named after Paul Brown, not the color.", "m": "The club takes its name from founding coach Paul Brown."},
       {"t": "Enjoy the lakefront while it lasts.", "m": "The team plans to move to a domed stadium in Brook Park around 2029."}
     ],
     "avoid": [
-      {"say": "the Ravens are the old Browns", "instead": "the Browns' history stayed in Cleveland", "why": "When the team moved in 1996, the name, colours and records stayed for the 1999 relaunch."},
+      {"say": "the Ravens are the old Browns", "instead": "the Browns' history stayed in Cleveland", "why": "When the team moved in 1996, the name, colors and records stayed for the 1999 relaunch."},
       {"say": "FirstEnergy Stadium", "instead": "Huntington Bank Field", "why": "The stadium took its current name in 2024."}
     ],
     "sources": ["https://en.wikipedia.org/wiki/Cleveland_Browns", "https://www.nfl.com/news/browns-break-ground-2-billion-domed-stadium-brook-park-2029"],
@@ -322,7 +323,7 @@
       {"term": "In-com-plete!", "say": "in-kum-PLEET", "means": "The crowd call after an opponent's missed pass."}
     ],
     "lines": [
-      {"t": "Visitors always struggle with the altitude.", "m": "Fans believe Denver's thin air wears out away teams."},
+      {"t": "Visiting teams always run out of gas up here.", "m": "Fans believe Denver's thin air wears out visiting teams."},
       {"t": "I'll never like the Raiders.", "m": "Las Vegas is the old enemy."},
       {"t": "Elway is still the greatest Bronco.", "m": "Fans revere the quarterback who won two Super Bowls."},
       {"t": "That Super Bowl 50 defense was something else.", "m": "Fans remember the dominant defense of the 2015 title team."}
@@ -358,10 +359,10 @@
       {"t": "Thanksgiving means Lions football.", "m": "Detroit has hosted a Thanksgiving Day game almost every year since 1934."},
       {"t": "Barry Sanders was magic.", "m": "Fans revere the elusive 1990s running back."},
       {"t": "Beat the Packers and it's a good week.", "m": "Green Bay is the division rival fans most enjoy beating."},
-      {"t": "We waited a long time for this. Let us enjoy it.", "m": "Fans' feeling after decades of losing ended in the 2020s."}
+      {"t": "We waited forever for this. Let us enjoy it.", "m": "Fans' feeling after decades of losing ended in the 2020s."}
     ],
     "avoid": [
-      {"say": "The Lions have never won anything", "instead": "they won four NFL titles before the Super Bowl era", "why": "Detroit were champions in 1935, 1952, 1953 and 1957."},
+      {"say": "The Lions have never won anything", "instead": "they won four NFL titles before the Super Bowl era", "why": "Detroit won titles in 1935, 1952, 1953 and 1957."},
       {"say": "the Silverdome", "instead": "Ford Field", "why": "The Lions moved downtown to Ford Field in 2002."}
     ],
     "sources": ["https://en.wikipedia.org/wiki/Detroit_Lions"],
@@ -548,14 +549,14 @@
     "memory": "Winning Super Bowl XI in January 1977 under coach John Madden",
     "lingo": [
       {"term": "Raider Nation", "say": "RAY-der NAY-shun", "means": "The fan base, famous for costumes and loyalty through three cities."},
-      {"term": "Silver and Black", "say": "SIL-ver un BLAK", "means": "The team colours, and a nickname for the club."},
+      {"term": "Silver and Black", "say": "SIL-ver un BLAK", "means": "The team's colors, also used as a nickname."},
       {"term": "the Black Hole", "say": "the BLAK HOHL", "means": "The costumed superfan section that began in Oakland."},
       {"term": "the Death Star", "say": "the DETH STAR", "means": "Nickname for Allegiant Stadium, for its sleek black dome."}
     ],
     "lines": [
-      {"t": "Just win, baby.", "m": "The famous motto of late owner Al Davis."},
+      {"t": "Just win, baby.", "m": "The famous motto of longtime owner Al Davis."},
       {"t": "Once a Raider, always a Raider.", "m": "Fans' loyalty slogan through Oakland, LA and Vegas."},
-      {"t": "Raider Nation travels.", "m": "Raiders fans fill away stadiums."},
+      {"t": "Raider Nation travels.", "m": "Raiders fans take over road games."},
       {"t": "Chiefs week. Wear black.", "m": "Kansas City is the bitterest rival."}
     ],
     "avoid": [
@@ -649,7 +650,7 @@
     "lingo": [
       {"term": "Fins Up", "say": "FINZ UP", "means": "Fans' salute: a hand on top of the head like a dorsal fin."},
       {"term": "Phins", "say": "FINZ", "means": "Short for Dolphins."},
-      {"term": "the Killer B's", "say": "KIL-er BEEZ", "means": "The 1980s defense, when many starters' surnames began with B."}
+      {"term": "the Killer B's", "say": "KIL-er BEEZ", "means": "The 1980s defense, when many starters' last names started with B."}
     ],
     "lines": [
       {"t": "Fins up!", "m": "The standard Dolphins greeting."},
@@ -749,7 +750,7 @@
     "lingo": [
       {"term": "Who Dat", "say": "hoo DAT", "means": "The Saints' signature cheer, and the name of the fan base."},
       {"term": "Geaux", "say": "GOH", "means": "'Go' with a Cajun-French spelling, as in 'Geaux Saints'."},
-      {"term": "Black and Gold", "say": "BLAK un GOHLD", "means": "The team colours, and a nickname for the club."},
+      {"term": "Black and Gold", "say": "BLAK un GOHLD", "means": "The team's colors, also used as a nickname."},
       {"term": "the Dome", "say": "the DOHM", "means": "The Caesars Superdome, home since 1975."}
     ],
     "lines": [
@@ -793,7 +794,7 @@
       {"t": "LT changed the game.", "m": "Fans say Lawrence Taylor reinvented the linebacker position."}
     ],
     "avoid": [
-      {"say": "they play in New York", "instead": "they play in East Rutherford, New Jersey", "why": "MetLife Stadium is in New Jersey, a favourite rival jibe."},
+      {"say": "they play in New York", "instead": "they play in East Rutherford, New Jersey", "why": "MetLife Stadium is in New Jersey, a favorite dig from rival fans."},
       {"say": "the Giants won the World Series", "instead": "that's baseball's San Francisco Giants", "why": "The football Giants are often called the 'New York Football Giants' to avoid this mix-up."}
     ],
     "sources": ["https://en.wikipedia.org/wiki/New_York_Giants"],
@@ -828,7 +829,7 @@
     ],
     "avoid": [
       {"say": "the Jets play at Shea", "instead": "they play at MetLife", "why": "The Jets left Shea Stadium in Queens after 1983."},
-      {"say": "Jets and Giants fans are the same", "instead": "they share a stadium, not a fan base", "why": "The two clubs are rivals for the city's loyalty."}
+      {"say": "Jets and Giants fans are the same", "instead": "they share a stadium, not a fan base", "why": "The two teams are rivals for the city's loyalty."}
     ],
     "sources": ["https://en.wikipedia.org/wiki/New_York_Jets"],
     "unsure": []
@@ -859,7 +860,7 @@
       {"t": "Fly, Eagles, fly!", "m": "The fight song's title; fans sing the song after every score."},
       {"t": "Two Lombardis now.", "m": "The Eagles won Super Bowls LII and LIX, in 2018 and 2025."},
       {"t": "Anybody but Dallas.", "m": "Fans can stomach any champion except the Cowboys."},
-      {"t": "Dawk was the heart of that defense.", "m": "Safety Brian Dawkins is a huge fan favourite."}
+      {"t": "Dawk was the heart of that defense.", "m": "Safety Brian Dawkins is a huge fan favorite."}
     ],
     "avoid": [
       {"say": "Veterans Stadium", "instead": "the Linc", "why": "The Vet was demolished in 2004."},
@@ -991,7 +992,7 @@
     "lines": [
       {"t": "Fire the cannons!", "m": "What fans shout after a touchdown."},
       {"t": "That 2002 defense was the best ever.", "m": "Fans revere the team that won Super Bowl XXXVII."},
-      {"t": "Creamsicle throwbacks, best uniforms in the league.", "m": "Fans love the retro orange kits."},
+      {"t": "Creamsicle throwbacks, best uniforms in the league.", "m": "Fans love the retro orange look."},
       {"t": "Saints week is the big one.", "m": "New Orleans is the main division rival."}
     ],
     "avoid": [
@@ -1023,7 +1024,7 @@
     ],
     "lines": [
       {"t": "Titan up!", "m": "The team's rallying cry."},
-      {"t": "Music City Miracle, best play I ever saw.", "m": "Fans' favourite moment, from the January 2000 playoffs."},
+      {"t": "Music City Miracle, best play I ever saw.", "m": "Fans' favorite moment, from the January 2000 playoffs."},
       {"t": "One more yard and we'd have had a ring.", "m": "The Titans lost Super Bowl XXXIV a yard short."},
       {"t": "Last year in the old place.", "m": "2026 is the final season in the current Nissan Stadium; the new domed one opens next door in 2027."}
     ],
@@ -1052,7 +1053,7 @@
     "memory": "Three Super Bowl wins under coach Joe Gibbs, after the 1982, 1987 and 1991 seasons",
     "lingo": [
       {"term": "HTTC", "say": "aych-tee-tee-SEE", "means": "Short for 'Hail to the Commanders', the fans' sign-off and the team hashtag."},
-      {"term": "Burgundy and Gold", "say": "BUR-gun-dee un GOHLD", "means": "The team colours, used as a nickname for the club."},
+      {"term": "Burgundy and Gold", "say": "BUR-gun-dee un GOHLD", "means": "The team's colors, also used as a nickname."},
       {"term": "the Hogs", "say": "the HAWGZ", "means": "The famous 1980s offensive line."},
       {"term": "the DMV", "say": "dee-em-VEE", "means": "The DC, Maryland and Virginia area the team represents."}
     ],

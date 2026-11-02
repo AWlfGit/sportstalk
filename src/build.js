@@ -60,7 +60,7 @@ function loadLingo() {
 
 // Talk packs: researched slang, phrases, pub-test rounds and five-beat exchanges for a sport.
 // Each file in research/ maps to a sport key in the page; missing files are simply skipped.
-const TALK_FILES = { nhl: "hockey-canada.json", football: "football-uk.json", nfl: "football-nfl.json" };
+const TALK_FILES = { nhl: "hockey-canada.json", football: "football-uk.json", nfl: "football-nfl.json", nba: "basketball-nba.json", mlb: "baseball-mlb.json", f1: "f1-na.json" };
 function loadTalk() {
   const str = (v) => (typeof v === "string" ? v.trim() : "");
   const arr = (v) => (Array.isArray(v) ? v : []);

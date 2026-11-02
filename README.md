@@ -16,6 +16,10 @@ the website.
 - `src/fonts/`: self-hosted fonts, SIL Open Font License (see the `OFL-*.txt` files);
   `src/get-fonts.js` re-downloads them
 - `src/serve.js`: a small local preview server
+- `src/pack-site.js`: puts the website folder into the c0rw1n.com `SITE.zip`
+- `src/checks.js`: pre-publish checks you run in the browser (see "Checking a build")
+- `CLAUDE.md`: the project's rules and where each copy lives, for anyone (or any Claude
+  session) picking the work up on another computer
 - Team logos: the build downloads each team's logo from ESPN's image server in two sizes (a
   crisp 96px one for the Modern look and a 16px one the Retro look enlarges into pixels) and
   caches them in `_cache/logos` (not committed). The single-file copies embed them; the website
@@ -26,8 +30,9 @@ the website.
   rebuild to change one.
 - `research/out/*.json`: the team guides, one file per league group. Edit these to change
   nicknames, fan terms, rivals, sayings and giveaways.
-- `research/hockey-canada.json`, `research/football-uk.json`, `research/football-nfl.json`:
-  talk packs for hockey, football (soccer) and American football. Each holds sport-wide slang,
+- `research/hockey-canada.json`, `football-uk.json`, `football-nfl.json`, `basketball-nba.json`,
+  `baseball-mlb.json`, `f1-na.json`: talk packs. Soccer's is British; the rest are North
+  American (hockey's is Canadian rink talk). Each holds sport-wide slang,
   phrase-book lines, pub-test rounds, outsider giveaways, and a five-beat exchange for each
   kind of result (an overtime win, a late winner, a shutout and so on). The script picks the
   exchange that matches the game and fills in `{team}`, `{opp}`, `{player}`, `{score}` and
@@ -40,7 +45,9 @@ the website.
 
 ## Working on it from any computer
 
-You need git and Node.js 18 or later.
+You need git and Node.js 18 or later. To push changes, sign the GitHub CLI in once
+(`gh auth login`, then `gh auth setup-git`). To update the website you also need the c0rw1n.com
+site folder, which syncs through Dropbox.
 
 ```bash
 git clone https://github.com/AWlfGit/sportstalk.git
@@ -59,19 +66,41 @@ That writes two files, which git ignores:
 
 ## Updating the website
 
-The website copy lives in the c0rw1n.com site folder, `Dropbox\C01InnovativeWebsite\sportstalk`,
-and goes up inside that folder's `SITE.zip`. To rebuild it with the latest results:
+The website copy lives in the c0rw1n.com site folder (`Dropbox/C01InnovativeWebsite` on the main
+computer; use wherever Dropbox puts it on yours) as `sportstalk/`, and goes up inside that
+folder's `SITE.zip`. Rebuild the folder with the latest results:
 
 ```bash
-node src/build.js --site-only --site "C:/Users/Awake/Dropbox/C01InnovativeWebsite/sportstalk"
+node src/build.js --site-only --site "<site folder>/sportstalk"
 ```
 
-That writes `index.html`, `fonts/` and `logos/` into the folder. Then add the folder to
-`SITE.zip` (replacing the `sportstalk/` entries) and upload the site as usual. To preview it
-first, run `node src/serve.js "C:/Users/Awake/Dropbox/C01InnovativeWebsite" 8766` and open
+That writes `index.html`, `fonts/` and `logos/`. Then put the folder into `SITE.zip`:
+
+```bash
+node src/pack-site.js "<site folder>"
+```
+
+It replaces only the `sportstalk/` entries, copies everything else across untouched, checks the
+result, and backs up the previous zip to your temp folder. Then upload the site as usual. To
+preview first, run `node src/serve.js "<site folder>" 8766` and open
 http://localhost:8766/sportstalk/.
 
+On the main computer, `<site folder>` is `C:/Users/Awake/Dropbox/C01InnovativeWebsite`.
+
 You only need to re-upload when the page itself changes. Results stay fresh through the feed.
+
+## Checking a build
+
+Before publishing, run the checks in a browser:
+
+1. `node src/build.js`, then `node src/serve.js`, and open http://localhost:8765/.
+2. In the browser's developer console, run:
+   ```js
+   (0,eval)(await (await fetch("/src/checks.js")).text())
+   ```
+3. Do it at desktop width and again at phone width (about 375px). It renders every game in both
+   looks and lists any stray text (undefined, unfilled slots), anything wider than the window,
+   and errors. It reloads the page when it's done.
 
 ## The results feed
 

@@ -41,9 +41,9 @@ for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort()) {
 }
 // Talk packs (sport-wide slang, phrases, pub-test rounds and five-beat exchanges)
 const SWEAR = /\b(fuck\w*|shit\w*|cunts?|twats?|wank\w*|bastards?|pricks?|dickheads?|bitch\w*|assholes?|arseholes?|goddamn\w*)\b/i;
-const PLACEHOLDER = /\{(\w+)\}/g, KNOWN = new Set(["team", "opp", "player", "score", "when"]);
+const PLACEHOLDER = /\{(\w+)\}/g, KNOWN = new Set(["team", "opp", "player", "score", "when", "driver", "winner", "pos", "race"]); // the last four are F1's
 let packs = 0;
-for (const f of ["hockey-canada.json", "football-uk.json", "football-nfl.json"]) {
+for (const f of ["hockey-canada.json", "football-uk.json", "football-nfl.json", "basketball-nba.json", "baseball-mlb.json", "f1-na.json"]) {
   const p = path.join(__dirname, f);
   if (!fs.existsSync(p)) continue;
   packs++;

@@ -49,7 +49,7 @@
       {
         "term": "the Finnish Flash",
         "say": "the FIN-ish FLASH",
-        "means": "Teemu Selanne, the fans' favourite goal scorer."
+        "means": "Teemu Selanne, the fans' favorite goal scorer."
       }
     ],
     "lines": [
@@ -58,7 +58,7 @@
         "m": "Said before any game against the Kings."
       },
       {
-        "t": "We were the first California team to lift the Cup.",
+        "t": "We were the first California team to win the Cup.",
         "m": "A dig at the Kings and Sharks: Anaheim won it first, in 2007."
       },
       {
@@ -145,7 +145,7 @@
       {
         "term": "the Black and Gold",
         "say": "the BLAK and GOLD",
-        "means": "The team colours, used as another name for the club."
+        "means": "The team colors, used as another name for the club."
       }
     ],
     "lines": [
@@ -162,7 +162,7 @@
         "m": "The famous picture of his 1970 Cup-winning goal."
       },
       {
-        "t": "Play it like the Big Bad Bruins.",
+        "t": "Bring back the Big Bad Bruins.",
         "m": "A call for hard-working, physical hockey."
       },
       {
@@ -428,7 +428,7 @@
       {
         "term": "Bunch of Jerks",
         "say": "BUNCH of JERKS",
-        "means": "A TV pundit's 2019 jibe about the Storm Surge. The team and fans adopted it as a badge of honour."
+        "means": "A TV analyst's 2019 dig at the Storm Surge. The team and fans adopted it as a badge of honor."
       },
       {
         "term": "the Whalers",
@@ -447,10 +447,10 @@
       },
       {
         "t": "Best tailgating in the NHL.",
-        "m": "Canes fans tailgate in the arena car parks, which is rare in hockey."
+        "m": "Canes fans tailgate in the arena parking lots, which is rare in hockey."
       },
       {
-        "t": "Two Cups, twenty years apart. Worth every minute.",
+        "t": "Two Cups, twenty years apart. Worth the wait.",
         "m": "Carolina won in 2006, then again in 2026."
       },
       {
@@ -1075,7 +1075,7 @@
       {
         "term": "the Rat Trick",
         "say": "the RAT TRIK",
-        "means": "In 1995 Scott Mellanby killed a rat in the dressing room with his stick, then scored twice. Fans began throwing plastic rats on the ice."
+        "means": "In 1995 Scott Mellanby killed a rat in the locker room with his stick, then scored twice. Fans began throwing plastic rats on the ice."
       },
       {
         "term": "the Year of the Rat",
@@ -1524,8 +1524,8 @@
       },
       {
         "say": "the tiger logo",
-        "instead": "the sabre-tooth",
-        "why": "The logo is a sabre-toothed cat, after a fossil found under downtown Nashville."
+        "instead": "the saber-tooth",
+        "why": "The logo is a saber-toothed cat, after a fossil found under downtown Nashville."
       }
     ],
     "sources": [
@@ -1606,7 +1606,7 @@
       },
       {
         "t": "Three Cups since '95. The Rangers have one since 1940.",
-        "m": "Mild banter at New York's expense."
+        "m": "Mild trash talk at New York's expense."
       },
       {
         "t": "Newark on game night is electric.",
@@ -1703,7 +1703,7 @@
       },
       {
         "t": "Rangers fans can keep Manhattan.",
-        "m": "Mild Long Island banter."
+        "m": "Mild Long Island trash talk."
       }
     ],
     "avoid": [
@@ -1775,7 +1775,7 @@
       {
         "term": "the Guarantee",
         "say": "the gair-un-TEE",
-        "means": "Mark Messier promising a win in Game 6 of the 1994 conference final, then scoring a hat-trick to deliver it."
+        "means": "Mark Messier promising a win in Game 6 of the 1994 conference final, then scoring a hat trick to deliver it."
       },
       {
         "term": "King Henrik",
@@ -1990,7 +1990,7 @@
         "m": "The home chant."
       },
       {
-        "t": "Gritty is the best mascot in sports. Fact.",
+        "t": "Gritty is the best mascot in sports. Period.",
         "m": "Philly loves Gritty."
       },
       {
@@ -2002,7 +2002,7 @@
         "m": "Pittsburgh is the cross-state enemy."
       },
       {
-        "t": "Play it like the Broad Street Bullies.",
+        "t": "Time for some Broad Street hockey.",
         "m": "A call for gritty, physical hockey."
       }
     ],
@@ -2174,7 +2174,7 @@
       {
         "term": "teal",
         "say": "TEEL",
-        "means": "The team's signature colour. Fans call it Sharks teal."
+        "means": "The team's signature color. Fans call it Sharks teal."
       }
     ],
     "lines": [
@@ -2265,7 +2265,7 @@
         "m": "The Metropolitans won it in 1917, the first US team to do so."
       },
       {
-        "t": "Canucks fans coming down the I-5 again? Drown them out.",
+        "t": "Canucks fans coming down I-5 again? Drown them out.",
         "m": "Vancouver is just up the highway, and its fans travel to Seattle in numbers."
       },
       {

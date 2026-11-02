@@ -281,6 +281,9 @@ main{padding-block:26px 120px}
 .toast.show{opacity:1}
 footer{border-top:1px solid var(--hair);padding-block:22px 30px;color:var(--muted);font-size:13px}
 footer p{margin:0 0 4px;max-width:90ch}
+.home-link{margin-bottom:10px!important;font-weight:600}
+.home-link a{text-decoration:none}
+.home-link a:hover{text-decoration:underline}
 
 .voicefld{flex:0 0 auto;max-width:none}
 .voice-card{display:grid;gap:12px;text-align:left}
@@ -829,6 +832,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 </main>
 <footer>
   <div class="in credits">
+    <p class="home-link"><a href="https://c0rw1n.com/">← Back to c0rw1n.com</a></p>
     <h2 class="credits-h">Credits</h2>
     <p><b>A parody of Bluffball</b>, the website Moss and Roy use in <i>The IT Crowd</i>, series 3, episode 2, "Are We Not Men?" (Channel 4, 2008; <a href="https://www.imdb.com/title/tt1320784/" target="_blank" rel="noopener">IMDb</a>). <i>The IT Crowd</i> was created and written by Graham Linehan and produced by Talkback Thames for Channel 4.</p>
     <p>This is an unofficial fan tribute, not affiliated with or endorsed by Channel 4, Talkback Thames or the show's makers. Bluffball and everything from the show belong to their owners. The football and glasses characters in the Retro look are fan redrawings of the Bluffball characters seen in the episode; the rest of the artwork is original.</p>
@@ -1032,7 +1036,8 @@ const CATS={
   clean:{name:"Come clean",when:"You're out of your depth. Admit it before someone mentions a pony.",tip:"Grin. Honesty is disarming, and most fans love explaining."}
 };
 const CAT_ORDER=["open","opinion","agree","dodge","telly","exit","clean"];
-const catName=k=>k==="telly"&&US.has(S.sport)?"Watching on TV":CATS[k].name;
+const catName=k=>k==="telly"&&isNA()?"Watching on TV":CATS[k].name;
+const catWhen=k=>isNA()?CATS[k].when.replace("a pony","a parlay"):CATS[k].when;
 const UNIVERSAL={
   agree:[{t:"Exactly. That's what I've been saying.",m:"Agrees with anything. They'll assume you've said it for weeks."},{t:"Credit to the other lot, mind.",m:"Sounds fair-minded. Nobody argues with it."}],
   dodge:[{t:"Don't get me started.",m:"They will start, and answer their own question."},{t:"They just didn't want it enough.",m:"Fits any loss in any sport."},{t:"Form is temporary, class is permanent.",m:"Fits any slump. Sounds wise."}],
@@ -1040,6 +1045,14 @@ const UNIVERSAL={
   exit:[{t:"Right, whose round is it?",m:"The universal conversation ender."},{t:"Can't talk about it. Too painful.",m:"Works win or lose. Even a win can be too painful."}],
   clean:[{t:"Honestly, I've not been following it closely. What's the story?",m:"Gets them talking. Most fans love explaining."},{t:"I'm more of a highlights person, if I'm honest.",m:"Lowers expectations without ending the chat."},{t:"Go on then, who should I be watching?",m:"Turns you into the student. People like a student."}]
 };
+const UNIVERSAL_NA={
+  agree:[{t:"Exactly. That's what I've been saying.",m:"Agrees with anything. They'll assume you've said it for weeks."},{t:"Gotta give the other guys some credit, though.",m:"Sounds fair-minded. Nobody argues with it."}],
+  dodge:[{t:"Don't get me started.",m:"They will start, and answer their own question."},{t:"They just didn't want it bad enough.",m:"Fits any loss in any sport."},{t:"Long season. Lot can change.",m:"Fits any slump. Sounds patient."}],
+  telly:[{t:"Oh, come ON!",m:"Any call against your team."},{t:"Let's GO!",m:"Your team scores. Keep it short."},{t:"Here we go again.",m:"The other team scores. Weary, not angry."},{t:"How is that not a penalty?",m:"Any call that goes the other way."}],
+  exit:[{t:"Alright, I gotta run. Talk later.",m:"The universal conversation ender."},{t:"Can't talk about it. Too painful.",m:"Works win or lose. Even a win can be too stressful."}],
+  clean:[{t:"Honestly, I haven't been following it that closely. What's the story?",m:"Gets them talking. Most fans love explaining."},{t:"I'm more of a highlights guy, honestly.",m:"Lowers expectations without ending the chat."},{t:"Okay, who should I be watching?",m:"Turns you into the student. People like a student."}]
+};
+const UNI=()=>isNA()?UNIVERSAL_NA:UNIVERSAL;
 const BETTING=[["Pony","POH-nee","£25. Don't claim you've put one on anything unless you know this."],["Ton","TUN","£100."],["Monkey","MUN-kee","£500."],["Acca","AK-uh","An accumulator: several bets rolled into one. Usually lost on the last leg."],["Each way","EECH way","A bet split in two: one half on winning, one on finishing near the top."]];
 
 const SPORTS={
@@ -1095,22 +1108,22 @@ const SPORTS={
       {say:"Pitch was dead flat.",o:[["Absolute road. Bowlers' graveyard.",2,"'Road' is perfect cricket slang."],["Shouldn't all pitches be flat?",-2,"Not in the way he means."],["Yes, very flat.",0,"You've agreed, but added nothing."]]},
       {say:"Fancy them on day five?",o:[["Depends what the pitch does. If it turns, anything can happen.",2,"Classic hedge."],["There's a day five?",-2,"There is. Tests last five days."],["Statistically, most Tests end in a result.",-1,"Too much like a lecture."]]}
     ]},
-  f1:{label:"Formula 1",team:"Ferrari",page:360,play:"race",nerd:"Their tyre degradation curve was suboptimal.",offq:"What about the new floor upgrade, though?",
+  f1:{label:"Formula 1",team:"Ferrari",page:360,play:"race",nerd:"Their tire degradation curve was suboptimal.",offq:"What about the new floor upgrade, though?",
     cover:{nickname:"the Scuderia",rival:"McLaren",ground:"Monza, their home race",player:"Michael Schumacher",since:"2000",memory:"A Monza win"},
     others:["McLaren","Red Bull","Mercedes","Williams","Aston Martin"],
     phrases:{
       open:[{t:"What a race. Did you see that start?",m:"Starts are always chaotic."}],
-      opinion:[{t:"Strategy cost them. Pitted a lap too late.",m:"Fits almost any race result."},{t:"It's all about tyre management now.",m:"Always true in modern F1."},{t:"The car's just not quick in the slow corners.",m:"A technical-sounding excuse for a slow car."},{t:"At a track like that, qualifying is everything.",m:"Hard-to-overtake tracks reward grid position."}],
+      opinion:[{t:"Strategy cost them. Pitted a lap too late.",m:"Fits almost any race result."},{t:"It's all about tire management now.",m:"Always true in modern F1."},{t:"The car's just not quick in the slow corners.",m:"A technical-sounding excuse for a slow car."},{t:"At a track like that, qualifying is everything.",m:"Hard-to-overtake tracks reward grid position."}],
       agree:[{t:"The team radio said it all.",m:"There's always a spicy radio message."}],
       dodge:[{t:"Let's see what the upgrades do.",m:"Teams bring upgrades all season. Pushes any question off."}],
-      telly:[{t:"Box, box! Box now!",m:"Shout it whenever your driver's tyres look tired."}]
+      telly:[{t:"Box, box! Box now!",m:"Yell it whenever your driver's tires look worn out."}]
     },
-    jargon:[["Undercut","UN-der-kut","Pitting before a rival to gain time on fresh tyres."],["DRS","dee-ar-ESS","A rear-wing flap that opens to help overtaking."],["Pole","POHL","Starting first, after the fastest qualifying lap."],["Box, box","BOKS boks","Radio call: come into the pits now."],["Dirty air","DUR-tee air","Turbulence behind a car that makes following hard."],["Constructors'","kun-STRUK-terz","The team championship, as opposed to the drivers'."]],
+    jargon:[["Undercut","UN-der-kut","Pitting before a rival to gain time on fresh tires."],["DRS","dee-ar-ESS","A rear-wing flap that opens to help overtaking."],["Pole","POHL","Starting first, after the fastest qualifying lap."],["Box, box","BOKS boks","Radio call: come into the pits now."],["Dirty air","DUR-tee air","Turbulence behind a car that makes following hard."],["Constructors'","kun-STRUK-terz","The team championship, as opposed to the drivers'."]],
     pub:[
-      {say:"Their strategy was a mess.",o:[["Pitted a lap too late. The undercut killed them.",2,"Very paddock."],["They should've just driven faster.",-1,"Technically true. Not helpful."],["Did they forget to stop for petrol?",-2,"Refuelling during races was banned in 2010."]]},
-      {say:"Rain forecast for Sunday.",o:[["Then anything can happen. The tyre call is everything.",2,"Perfect."],["Will they cancel it?",-1,"They usually race in the wet."],["Do the cars have windscreen wipers?",-2,"Hmm."]]},
+      {say:"Their strategy was a mess.",o:[["Pitted a lap too late. The undercut killed them.",2,"Very paddock."],["They should've just driven faster.",-1,"Technically true. Not helpful."],["Did they forget to stop for gas?",-2,"Refueling during races has been banned since 2010."]]},
+      {say:"Rain forecast for Sunday.",o:[["Then anything can happen. The tire call is everything.",2,"Perfect."],["Will they cancel it?",-1,"They usually race in the wet."],["Do the cars have windshield wipers?",-2,"Hmm."]]},
       {say:"Did you see that overtake?!",o:[["Sent it down the inside. Pure commitment.",2,"'Sent it' is exactly right."],["I think he indicated, to be fair.",-1,"Funny, but they'll notice."],["Is overtaking when you go past someone?",-2,"Yes. And now they know."]]},
-      {say:"Car's a dog this year.",o:[["No grip in the slow corners. Simple as.",2,"Sounds like you've read the data."],["Aww, I like dogs.",-2,"No."],["Maybe a new paint job?",-1,"Unlikely to help."]]}
+      {say:"Car's a dog this year.",o:[["No grip in the slow corners. Plain and simple.",2,"Sounds like you've read the data."],["Aww, I like dogs.",-2,"No."],["Maybe a new paint job?",-1,"Unlikely to help."]]}
     ]},
   nfl:{label:"American football",team:"the Bears",page:380,play:"game",nerd:"Their EPA per play was below average.",offq:"What about the left tackle, though?",
     cover:{nickname:"Da Bears",rival:"the Packers",ground:"Soldier Field",player:"Walter Payton",since:"1985",memory:"The 1985 Super Bowl team"},
@@ -1135,16 +1148,16 @@ const SPORTS={
     phrases:{
       open:[{t:"Did you catch the game last night?",m:"There's almost always a game last night."}],
       opinion:[{t:"No ball movement. Way too much isolation.",m:"One player dribbling while four watch."},{t:"They live and die by the three.",m:"Fits any team that shoots a lot of threes, which is all of them."},{t:"Bench didn't show up.",m:"The substitutes. Blame them."},{t:"Got killed on the boards.",m:"Lost the rebounding battle."}],
-      agree:[{t:"Defence wins championships.",m:"Old saying. Nobody disagrees."}],
+      agree:[{t:"Defense wins championships.",m:"Old saying. Nobody disagrees."}],
       dodge:[{t:"It's a long season.",m:"82 games. Pushes off any panic."}],
       telly:[{t:"And-one!",m:"Any basket where the scorer gets fouled."}]
     },
     jargon:[["Triple-double","TRIP-ul DUB-ul","Double figures in three stats, like points, rebounds and assists."],["And-one","and-WUN","Scoring while fouled, with a free throw to come."],["Pick-and-roll","pik-and-ROHL","A screen for the ball handler, then the screener rolls to the basket."],["Paint","PAYNT","The painted area under the basket."],["Buzzer-beater","BUZZ-er bee-ter","A shot that goes in as time runs out."],["Load management","LOHD man-ij-ment","Resting a healthy star. Fans hate it."]],
     pub:[
       {say:"They just jacked up threes all night.",o:[["Live by the three, die by the three.",2,"Classic."],["Three what?",-2,"Three-point shots."],["Threes are worth more, though.",-1,"Correct, but you're arguing on the wrong side."]]},
-      {say:"Bench was terrible.",o:[["Starters can't carry it alone for 48 minutes.",2,"Accurate and seasoned."],["Was it uncomfortable to sit on?",-2,"The players, not the furniture."],["Bit harsh, maybe?",0,"Okay."]]},
-      {say:"No defence. None.",o:[["Defence wins championships. Simple as.",2,"Universally agreed."],["Maybe they're pacifists?",-2,"No."],["Attack is fun, though.",-1,"Hmm."]]},
-      {say:"Worried about the start?",o:[["It's a long season. Marathon, not a sprint.",2,"Calm and wise."],["Didn't they start at 7:30?",-2,"The start of the season."],["Bit, yeah.",0,"Fine but flat."]]}
+      {say:"Bench was terrible.",o:[["Starters can't carry it alone for 48 minutes.",2,"Accurate and seasoned."],["Was it uncomfortable to sit on?",-2,"The players, not the furniture."],["Kind of harsh, maybe?",0,"Okay."]]},
+      {say:"No defense. None.",o:[["Defense wins championships. Plain and simple.",2,"Universally agreed."],["Maybe they're pacifists?",-2,"No."],["Offense is fun, though.",-1,"Hmm."]]},
+      {say:"Worried about the start?",o:[["It's a long season. Marathon, not a sprint.",2,"Calm and wise."],["Didn't they start at 7:30?",-2,"The start of the season."],["A little, yeah.",0,"Fine but flat."]]}
     ]},
   nhl:{label:"Hockey (NHL)",team:"the Leafs",page:395,play:"game",nerd:"Their Corsi numbers were terrible.",offq:"What about the third line, though?",
     cover:{nickname:"the Buds",rival:"the Canadiens",ground:"Scotiabank Arena",player:"Mats Sundin",since:"1999",memory:"A playoff run"},
@@ -1156,11 +1169,11 @@ const SPORTS={
       dodge:[{t:"It's a long season. 82 games.",m:"Pushes off any panic."}],
       telly:[{t:"Shoot! SHOOT!",m:"Any time your team has the puck near goal."}]
     },
-    jargon:[["Power play","POW-er play","Playing with an extra skater while an opponent is in the penalty box."],["Hat trick","HAT trik","Three goals by one player. Fans throw hats on the ice."],["Five-hole","FIVE-hohl","The gap between the goalie's legs."],["Empty net","EMP-tee net","Goalie pulled for an extra attacker late on."],["Icing","EYE-sing","Shooting the puck the length of the ice. Play stops."],["Shutout","SHUT-owt","A goalie conceding none all game."]],
+    jargon:[["Power play","POW-er play","Playing with an extra skater while an opponent is in the penalty box."],["Hat trick","HAT trik","Three goals by one player. Fans throw hats on the ice."],["Five-hole","FIVE-hohl","The gap between the goalie's legs."],["Empty net","EMP-tee net","Goalie pulled for an extra attacker late in the game."],["Icing","EYE-sing","Shooting the puck the length of the ice. Play stops."],["Shutout","SHUT-owt","A goalie allowing no goals all game."]],
     pub:[
-      {say:"Power play's gone missing again.",o:[["Nothing on the man advantage. Need someone who'll shoot the puck.",2,"Very fluent."],["Did they lose it? Check behind the bench.",-2,"The power play isn't an object."],["Power plays convert at about twenty per cent.",-1,"Probably true. Definitely suspicious."]]},
-      {say:"Goalie stood on his head tonight.",o:[["Stole that game on his own.",2,"Perfect. 'Stood on his head' means made loads of saves."],["Is that allowed?",-2,"It's an expression."],["Yes, he made several saves.",0,"Correct but flat."]]},
-      {say:"Went to overtime again!",o:[["Three-on-three is chaos. Love it.",2,"Regular-season overtime is three skaters a side. Proper knowledge."],["Do they get paid extra?",-2,"Not that kind of overtime."],["Overtime seems unfair on the losing side.",-1,"An odd thing to say in a bar."]]},
+      {say:"Power play's gone missing again.",o:[["Nothing on the man advantage. Need someone who'll shoot the puck.",2,"Very fluent."],["Did they lose it? Check behind the bench.",-2,"The power play isn't an object."],["Power plays convert at about twenty percent.",-1,"Probably true. Definitely suspicious."]]},
+      {say:"Goalie stood on his head tonight.",o:[["Stole that game on his own.",2,"Perfect. 'Stood on his head' means made a ton of saves."],["Is that allowed?",-2,"It's an expression."],["Yes, he made several saves.",0,"Correct but flat."]]},
+      {say:"Went to overtime again!",o:[["Three-on-three is chaos. Love it.",2,"Regular-season overtime is three skaters a side. Real knowledge."],["Do they get paid extra?",-2,"Not that kind of overtime."],["Overtime seems unfair on the losing side.",-1,"An odd thing to say in a bar."]]},
       {say:"That hit in the second, though!",o:[["Finished his check. Clean hit.",2,"'Finishing your check' means completing a body check. Spot on."],["Was anyone hurt? Is there a medic?",-1,"Kind, but suspicious."],["I thought hitting wasn't allowed?",-2,"It is in hockey. Rumbled."]]}
     ]},
   mlb:{label:"Baseball",team:"the Yankees",page:385,play:"game",nerd:"Their BABIP was unlucky, statistically.",offq:"What about the setup man, though?",
@@ -1175,16 +1188,29 @@ const SPORTS={
     },
     jargon:[["Bullpen","BULL-pen","The relief pitchers, and where they warm up."],["Walk-off","WAWK-off","A home win sealed in the final inning. Game over instantly."],["RBI","ar-bee-EYE","Run batted in: a batter credited with a run scoring."],["Bases loaded","BAY-sez LOH-did","Runners on first, second and third."],["Dinger","DING-er","A home run."],["ERA","ee-ar-AY","Earned run average: a pitcher's runs allowed per nine innings. Lower is better."]],
     pub:[
-      {say:"Bullpen did it again!",o:[["Can't hold a lead to save their lives.",2,"Classic bullpen moaning."],["Is the bullpen where they keep the bulls?",-2,"It's where relief pitchers warm up."],["Relievers have high variance over small samples.",-1,"True. Not pub talk."]]},
+      {say:"Bullpen did it again!",o:[["Can't hold a lead to save their lives.",2,"Classic bullpen moaning."],["Is the bullpen where they keep the bulls?",-2,"It's where relief pitchers warm up."],["Relievers have high variance over small samples.",-1,"True. Not bar talk."]]},
       {say:"Left the bases loaded in the ninth.",o:[["Brutal. One hit and it's a different game.",2,"Exactly the right pain."],["How many bases are there again?",-2,"Four, counting home. Rumbled."],["Loaded with what?",-2,"Runners on all three bases."]]},
-      {say:"Fancy them in the playoffs?",o:[["Pitching wins in October.",2,"The playoffs are in October. Sounds seasoned."],["Isn't it a bit cold for baseball then?",-1,"Fair point. Wrong vibe."],["Which ones are the playoffs?",-2,"Oh dear."]]},
-      {say:"Walk-off last night!",o:[["Scenes. That's why you stay till the end.",2,"A walk-off ends the game with a home win in the last inning."],["Did everyone walk off early?",-2,"It means the winning run scored to end it."],["Nice.",0,"Fine, but flat."]]}
+      {say:"You like their chances in the playoffs?",o:[["Pitching wins in October.",2,"The playoffs are in October. Sounds seasoned."],["Isn't it a bit cold for baseball then?",-1,"Fair point. Wrong vibe."],["Which ones are the playoffs?",-2,"Oh dear."]]},
+      {say:"Walk-off last night!",o:[["Unreal. That's why you stay till the end.",2,"A walk-off ends the game with a home win in the last inning."],["Did everyone walk off early?",-2,"It means the winning run scored to end it."],["Nice.",0,"Fine, but flat."]]}
     ]}
 };
 const UNIVERSAL_PUB=[
   {say:"Mate, you look like you've never watched a game in your life.",o:[["Ha! Fair. Didn't stop me shouting at the telly, though.",2,"Self-deprecating and on topic. Accepted."],["I have weak ankles. It's medically documented.",-2,"Too much detail."],["Bad knee. Gave it up years ago.",0,"Works, until he asks what position you played."]]},
   {say:"Pint?",o:[["Go on then.",2,"Easy."],["Go on, mine's a lemonade. Early start.",1,"Totally fine. Nobody minds."],["Is this a work-sanctioned beverage break?",-2,"Oh no."]]},
   {say:"What did you make of the ref?",o:[["Shocking all round. Didn't help either side.",2,"Blaming the ref unites everyone."],["Refereeing is a thankless, underappreciated profession.",-1,"True. Still a giveaway."],["Which one was the ref? The one in the different colour?",-2,"Yes. Unfortunately."]]}
+];
+const UNIVERSAL_PUB_NA=[
+  {say:"Dude, you look like you've never watched a game in your life.",o:[["Ha! Fair. Doesn't stop me yelling at the TV, though.",2,"Self-deprecating and on topic. Accepted."],["I have weak ankles. It's medically documented.",-2,"Too much detail."],["Bad knee. Had to give it up years ago.",0,"Works, until he asks what position you played."]]},
+  {say:"Want another beer?",o:[["Sure, why not.",2,"Easy."],["I'm good with a soda. Early morning.",1,"Totally fine. Nobody minds."],["Is this a company-approved beverage break?",-2,"Oh no."]]},
+  {say:"What did you think of the refs?",o:[["Terrible both ways. Nobody's happy.",2,"Blaming the officials unites everyone."],["Officiating is a thankless, underappreciated job.",-1,"True. Still a giveaway."],["Which ones were the refs? The striped shirts?",-2,"Yes. Unfortunately."]]}
+];
+const COVER_FIELDS_NA=[
+  ["nickname","Nickname","What fans call the team. You'll hear it constantly.","What do people call them?"],
+  ["rival","Biggest rival","Know who you hate. Praising them is the worst slip there is.","Who's your biggest rival?"],
+  ["ground","Home arena or stadium","Where they play. Someone will ask if you've been.","Where do they play?"],
+  ["player","Favorite player","Past or present. Pick one you can say something about.","Who's your favorite player?"],
+  ["since","Fan since","A year. Keep it consistent every time.","How long have you been a fan?"],
+  ["memory","Best memory","One story you can tell. Keep it short.","Best thing you've seen them do?"]
 ];
 const COVER_FIELDS=[
   ["nickname","Nickname","What fans call the team. You'll hear it constantly.","What do you call them, then?"],
@@ -1195,11 +1221,14 @@ const COVER_FIELDS=[
   ["memory","Best memory","One story you can tell. Keep it short.","Best thing you've seen them do?"]
 ];
 const NAMES=["Big Dave","Gaz","Terry from accounts","Steve","Mick","Dan"];
+const NAMES_NA=["Big Mike","Dave from accounting","Kyle","Tony","Steve","Jen"];
+const coverFields=()=>isNA()?COVER_FIELDS_NA:COVER_FIELDS;
+const supportQ=()=>isNA()?"Who do you root for?":"Who do you support?";
 const BIG={football:3,rugby:15,nfl:14,nba:15,nhl:3,mlb:5};
 const NARROW={football:1,rugby:7,nfl:7,nba:5,nhl:1,mlb:1};
 const US=new Set(["nfl","nba","nhl","mlb"]);
-const NA_BETTING=[["Parlay","PAR-lay","Several bets rolled into one. Every leg has to win."],["The spread","the SPRED","How many points the favourite has to win by for a bet on them to pay."],["Puck line","PUK line","Hockey's version of the spread, usually a goal and a half."],["Over/under","OH-ver UN-der","A bet on whether the total score goes over or under a set number."],["Moneyline","MUN-ee-line","A straight bet on who wins, no spread."]];
-const bettingFor=sp=>US.has(sp)?NA_BETTING:BETTING;
+const NA_BETTING=[["Parlay","PAR-lay","Several bets rolled into one. Every leg has to win."],["The spread","the SPRED","How many points the favorite has to win by for a bet on them to pay."],["Puck line","PUK line","Hockey's version of the spread, usually a goal and a half."],["Over/under","OH-ver UN-der","A bet on whether the total score goes over or under a set number."],["Moneyline","MUN-ee-line","A straight bet on who wins, no spread."]];
+const bettingFor=sp=>isNA(sp)?NA_BETTING:BETTING;
 
 /* Talk packs: researched slang, phrases, pub-test rounds and five-beat exchanges for a sport */
 let TALK={};
@@ -1405,34 +1434,36 @@ const scorerList=list=>list.map(x=>sur(x.p)+" "+x.mins.join(", ")+(x.og?" (own g
 
 function moods(F){
   const m=[],sp=F.sp,g=F.g;
-  if(F.derby)m.push("Derby");
+  if(F.derby)m.push(isNA(sp)?"Rivalry":"Derby");
   if(sp==="football"&&g.h.sc===0&&g.a.sc===0)m.push("Bore draw");
   if(F.comeback)m.push("Comeback");
   if(F.late)m.push(F.res==="W"?"Late winner":F.res==="D"?"Late leveller":"Late heartbreak");
-  if(F.ot)m.push(F.so?"Shootout":"Overtime");
+  if(sp==="mlb"&&walkOff(F))m.push("Walk-off");
+  if(F.ot)m.push(F.so?"Shootout":sp==="mlb"?"Extra innings":"Overtime");
   if(F.upset)m.push("Upset");
-  if(F.big)m.push(F.res==="W"?"Thrashing":"Hammered");
+  if(F.big)m.push(F.res==="W"?(isNA(sp)?"Blowout":"Thrashing"):(isNA(sp)?"Blown out":"Hammered"));
   if(F.hat)m.push("Hat-trick");
   if(sp==="football"&&F.res==="W"&&F.poss&&F.poss[0]<45)m.push("Smash and grab");
   if(F.redM&&F.redM.length||F.redO&&F.redO.length)m.push("Red card");
   if(F.tryBonusM)m.push("Try bonus");
-  if(F.narrow&&!m.length)m.push(F.res==="W"?"Nervy win":"So close");
-  if(!m.length)m.push(F.res==="W"?"Job done":F.res==="L"?"Bad day":"Honours even");
+  if(F.narrow&&!m.length)m.push(F.res==="W"?(isNA(sp)?"Close call":"Nervy win"):"So close");
+  if(!m.length)m.push(F.res==="W"?(isNA(sp)?"Got it done":"Job done"):F.res==="L"?"Bad day":(isNA(sp)?"Tie":"Honours even"));
   return m.slice(0,3);
 }
 
 function lines(F){
   const sp=F.sp,T=F.T,Tc=cap(F.T),when=F.when,k=F.key,g=F.g;
   const classic="Did you see that ludicrous display "+when+"?";
+  const na=isNA(sp),huh=sp==="nhl"||!na?"eh?":"huh?";
   let open,them,back,openStar=false,backStar=false;
   if(F.neutral)open=pick(["You catch "+g.h.s+" and "+g.a.s+" "+when+"?","See "+g.h.s+" against "+g.a.s+" "+when+"?"],k);
   else if(F.res==="L"){open=classic;openStar=true}
-  else if(F.res==="D")open=pick([Tc+" "+when+". Point gained or two dropped?","Honours even "+when+", eh?"],k);
+  else if(F.res==="D")open=na?"A tie "+when+". Weird one.":pick([Tc+" "+when+". Point gained or two dropped?","Honours even "+when+", eh?"],k);
   else if(F.comeback)open="Never in doubt "+when+". Never in doubt.";
   else if(F.late)open="Did you see the end "+when+"? I was off my seat.";
-  else if(F.big)open=Tc+" "+when+", eh? Different class.";
-  else if(F.narrow)open="Bit nervy "+when+", wasn't it?";
-  else open="Good win for "+T+" "+when+", eh?";
+  else if(F.big)open=na?Tc+" "+when+", "+huh+" Total domination.":Tc+" "+when+", eh? Different class.";
+  else if(F.narrow)open=na?"Little too close for comfort "+when+", "+huh:"Bit nervy "+when+", wasn't it?";
+  else open="Good win for "+T+" "+when+", "+huh;
 
   if(sp==="football"){
     if(F.res==="L"){
@@ -1485,17 +1516,17 @@ function lines(F){
       them=F.blew?"We were winning going into the fourth!":F.ot?"Overtime, and we still lose.":F.big?F.line+". Embarrassing.":L.passO&&yds(L.passO)>=250?sur(L.passO.p)+" carved us up. "+yds(L.passO)+" yards.":"Couldn't get anything going.";
       back=F.blew?"Clock management was criminal.":F.big?"It's won in the trenches. The line couldn't protect.":"Way too conservative on fourth down.";
     }else if(F.res==="W"){
-      them=F.comeback?"Down going into the fourth and they still won it!":F.ot?"Overtime! My heart can't take it.":L.pass&&tds(L.pass)>=3?sur(L.pass.p)+" threw "+tds(L.pass)+" touchdowns!":L.pass&&yds(L.pass)?sur(L.pass.p)+", though. "+yds(L.pass)+" yards.":L.rush?sur(L.rush.p)+" ran all over them.":"Defence was immense.";
-      back=F.comeback?"The thing about "+T+" is, they never know when they're beaten.":F.big?"When the line gives him time, he picks you apart.":"Defence travels. That's the thing about "+T+".";
-    }else{them="A tie. Nobody wins.";back="Strange old game."}
+      them=F.comeback?"Down going into the fourth and they still won it!":F.ot?"Overtime! My heart can't take it.":L.pass&&tds(L.pass)>=3?sur(L.pass.p)+" threw "+tds(L.pass)+" touchdowns!":L.pass&&yds(L.pass)?sur(L.pass.p)+", though. "+yds(L.pass)+" yards.":L.rush?sur(L.rush.p)+" ran all over them.":"The defense was huge.";
+      back=F.comeback?"The thing about "+T+" is, they never know when they're beaten.":F.big?"When the line gives him time, he picks you apart.":"Defense travels. That's the thing about "+T+".";
+    }else{them="A tie. Nobody wins.";back="Weird one. Nobody goes home happy."}
   }else if(sp==="nba"){
     const L=F.lead;
     if(F.res==="L"){
-      them=F.blew?"We were ahead going into the fourth!":F.ot?"Overtime, and we still lost.":F.big?F.line+". Ugly.":L.ptsO?sur(L.ptsO.p)+" dropped "+L.ptsO.v+" on us.":"No defence. None.";
+      them=F.blew?"We were ahead going into the fourth!":F.ot?"Overtime, and we still lost.":F.big?F.line+". Ugly.":L.ptsO?sur(L.ptsO.p)+" dropped "+L.ptsO.v+" on us.":"No defense. None.";
       back=F.blew?"No ball movement down the stretch. Too much isolation.":F.big?"Got killed on the boards.":"They live and die by the three.";
     }else{
       them=F.comeback?"Down after three and they still won it!":L.pts&&+L.pts.v>=30?sur(L.pts.p)+" had "+L.pts.v+"!":F.ot?"Overtime! What a game.":L.pts?sur(L.pts.p)+" with "+L.pts.v+". Steady.":"Never in doubt.";
-      back=F.comeback?"The thing about "+T+" is, they never know when they're beaten.":F.big?"When the threes are falling, nobody stops them.":"Defence wins championships.";
+      back=F.comeback?"The thing about "+T+" is, they never know when they're beaten.":F.big?"When the threes are falling, nobody stops them.":"Defense wins championships.";
     }
   }else if(sp==="nhl"){
     const gl=F.lead.goals&&+F.lead.goals.v>=1?F.lead.goals:null;
@@ -1503,7 +1534,7 @@ function lines(F){
       them=F.ot?(F.so?"Lost in a shootout. Lottery.":"Lost in overtime again."):F.blew?"We were up after two!":F.big?F.line+". Embarrassing.":"Their goalie stood on his head.";
       back=F.ot?"Three-on-three is a lottery anyway.":F.big?"Too many penalties. You can't keep giving them the power play.":"They need to get more pucks on net.";
     }else{
-      them=F.ot?(F.so?"Won the shootout!":"Overtime winner! Scenes!"):gl&&+gl.v>=3?sur(gl.p)+" with a hat trick!":F.comeback?"Down after two and we came back!":gl?sur(gl.p)+" again!":"Goalie was brilliant.";
+      them=F.ot?(F.so?"Won the shootout!":"Overtime winner! What a finish!"):gl&&+gl.v>=3?sur(gl.p)+" with a hat trick!":F.comeback?"Down after two and we came back!":gl?sur(gl.p)+" again!":"Goalie was unreal.";
       back=F.comeback?"Third period. That's where it's won.":"Goaltending wins you games in this league.";
     }
   }else{
@@ -1511,18 +1542,18 @@ function lines(F){
       them=F.blew?"Had it won and the bullpen blew it.":F.big?F.line+". Ouch.":F.narrow?"One run. Couldn't find one run.":"Couldn't get anything going.";
       back=F.blew?"The bullpen blew it again.":"Left too many men on base.";
     }else{
-      them=F.comeback?"Came back from behind!":F.big?"The bats came alive!":F.narrow?"Nervy finish!":"Good win, that.";
-      back=F.big?"When this lineup gets going, look out.":"Pitching wins. Simple as.";
+      them=F.comeback?"Came back from behind!":F.big?"The bats came alive!":F.narrow?"Too close for comfort!":"Good win.";
+      back=F.big?"When this lineup gets going, look out.":"Pitching wins. Every time.";
     }
   }
   if(F.derby&&!F.neutral){
-    const dn=F.derby.derby||"the derby";
+    const dn=F.derby.derby||(na?"the rivalry game":"the derby");
     if(F.res==="W"){open=cap(dn)+" "+when+". Bragging rights.";openStar=false}
     else if(F.res==="L")them="Losing to "+F.derby.name+". I'll never hear the end of it.";
-    else them="A draw in "+dn+". Nobody's happy.";
+    else them=(na?"A tie in ":"A draw in ")+dn+". Nobody's happy.";
   }
   const agree=pick(["That is true.","Exactly.","You're not wrong.","Couldn't have put it better myself."],k+"a");
-  const exit=pick(["Right, whose round is it?","Anyway, I'd better get back to it.","Right, I'm getting one in. Same again?"],k+"x");
+  const exit=pick(na?["Alright, I gotta run. Talk later.","Anyway, I'll let you get back to it.","I'm grabbing another drink. You want one?"]:["Right, whose round is it?","Anyway, I'd better get back to it.","Right, I'm getting one in. Same again?"],k+"x");
   return applyTalk(F,{open,them,back,agree,exit,openStar,backStar});
 }
 /* Pick the researched exchange that matches what happened, and fill in teams, score and player */
@@ -1566,13 +1597,57 @@ function talkSituation(F){
     if(ints((F.lead||{}).pass)>=2)return "turnoverLoss";
     return F.big?"bigLoss":"loss";
   }
+  if(sp==="nba"){
+    if(F.derby)return res==="W"?"rivalWin":"rivalLoss";
+    if(F.ot)return res==="W"?"otWin":"otLoss";
+    if(F.comeback)return "comeback";
+    if(F.blew)return "blewLead";
+    if(res==="W"){const L=F.lead||{};if(tripleDouble(F))return "tripleDoubleWin";if(L.pts&&+L.pts.v>=35)return "bigScorerWin";if(F.big)return "bigWin";if(F.narrow)return "narrowWin";return "win"}
+    return F.big?"bigLoss":"loss";
+  }
+  if(sp==="mlb"){
+    if(F.derby)return res==="W"?"rivalWin":"rivalLoss";
+    if(walkOff(F))return res==="W"?"walkOffWin":"walkOffLoss";
+    if(F.ot)return res==="W"?"extrasWin":"extrasLoss";
+    const d8=afterEight(F);
+    if(res==="W"&&d8<0)return "comeback";
+    if(res==="L"&&d8>0)return "blewLead";
+    if(res==="W"&&F.O.sc===0)return "shutoutWin";
+    if(res==="L"&&F.M.sc===0)return "shutoutLoss";
+    if(F.big)return res==="W"?"bigWin":"bigLoss";
+    if(res==="W"&&F.narrow)return "narrowWin";
+    return res==="W"?"win":"loss";
+  }
   return null;
+}
+// A triple-double we can see: the same player leads the team in points, rebounds and assists, all 10 or more
+function tripleDouble(F){
+  const L=F.lead||{},c=[L.pts,L.reb,L.ast];
+  return c.every(x=>x&&+x.v>=10&&x.p===c[0].p)?c[0].p:null;
+}
+// Baseball: our lead (or deficit) after eight innings, so "down to our last three outs" is true
+function afterEight(F){
+  const ls=F.g.ls||{},m=ls[F.ps]||[],o=ls[F.os]||[];
+  return m.length>=8&&o.length>=8?sum(m.slice(0,8))-sum(o.slice(0,8)):0;
+}
+// Walk-off: the home side won, both sides batted in the final inning, and home wasn't ahead before its last at-bat
+function walkOff(F){
+  const ls=F.g.ls||{},h=ls.h||[],a=ls.a||[];
+  if(F.g.h.sc<=F.g.a.sc||h.length<9||h.length!==a.length)return false;
+  return sum(h)-h[h.length-1]<=sum(a);
 }
 function talkPlayer(F,sit){
   if(F.sp==="football"){if(sit==="lateWinner")return F.late&&F.late.p&&F.late.k!=="og"?sur(F.late.p):null;const x=F.hat||F.topM;return x&&x.p?sur(x.p):null}
   if(F.sp==="nhl"){const x=F.lead&&(F.lead.goals||F.lead.pts);return x?sur(x.p):null}
   if(F.sp==="nfl"){const L=F.lead||{},x=sit==="runGame"?L.rush:(L.pass||L.rush);return x?sur(x.p):null}
+  if(F.sp==="nba"){const td=sit==="tripleDoubleWin"&&tripleDouble(F),L=F.lead||{};return td?sur(td):L.pts?sur(L.pts.p):null}
   return null;
+}
+// Fill {team}, {player} and the rest; null if any slot has no value, so the built-in line is used instead
+function fillSlots(t,vals){
+  if(!t)return null;let ok=true;
+  const s=String(t).replace(/\{(\w+)\}/g,(m,k,i)=>{const v=vals[k];if(v==null||v===""){ok=false;return m}return i===0?cap(v):v});
+  return ok?s:null;
 }
 function applyTalk(F,base){
   const P=TALK[F.sp];
@@ -1580,9 +1655,8 @@ function applyTalk(F,base){
   const sit=talkSituation(F),ex=sit&&(P.exchanges[sit]||P.exchanges[F.res==="W"?"win":"loss"]);
   if(!ex)return base;
   const vals={team:F.T,opp:F.OT,player:talkPlayer(F,sit),score:F.line,when:F.when};
-  const fillT=t=>{if(!t)return null;let ok=true;const s=String(t).replace(/\{(\w+)\}/g,(m,k,i)=>{const v=vals[k];if(v==null||v===""){ok=false;return m}return i===0?cap(v):v});return ok?s:null};
   const out=Object.assign({},base,{openStar:false,backStar:false});
-  for(const k of ["open","them","back","agree","exit"]){const v=fillT(ex[k]);if(v)out[k]=v}
+  for(const k of ["open","them","back","agree","exit"]){const v=fillSlots(ex[k],vals);if(v)out[k]=v}
   // The episode's own lines stay where they fit: the opener after a football loss (unless the reply
   // needs the researched opener for context, as with a red card or a late goal), "walk it in" when we had the ball
   if(F.sp==="football"&&base.openStar&&sit!=="redCardLoss"&&sit!=="lateConcede"){out.open=base.open;out.openStar=true}
@@ -1645,26 +1719,26 @@ function followUps(F){
   else if(F.M.rec)qa.push({q:"What's their record?",a:F.M.rec+"."});
   if(F.LM&&!F.neutral){
     const r=(F.LM.rivals||[])[0];
-    if(r)qa.push({q:"Who do you lot hate most?",a:r.name+(r.derby?". It's "+r.derby+".":".")});
+    if(r)qa.push({q:isNA(F.sp)?"Who do you guys hate most?":"Who do you lot hate most?",a:r.name+(r.derby?". It's "+r.derby+".":".")});
     if(F.LM.ground)qa.push({q:"Been to a game?",a:"Say yes, at "+F.LM.ground+". Then change the subject."});
   }
   if(F.M.form){const f=F.M.form.toUpperCase().split("").filter(c=>"WDL".includes(c));if(f.length){const w=f.filter(c=>c==="W").length,d=f.filter(c=>c==="D").length,l=f.filter(c=>c==="L").length;qa.push({q:"How's their form?",a:w+" won, "+d+" drawn, "+l+" lost in the last "+f.length+" (latest first: "+f.join(" ")+")."})}}
   const c=cover();
-  qa.push({q:"Who do you support?",a:cap(teamName())+(c.nickname?". "+cap(String(c.nickname).trim()):"")+". Same answer all night."});
+  qa.push({q:supportQ(),a:cap(teamName())+(c.nickname?". "+cap(String(c.nickname).trim()):"")+". Same answer all night."});
   return qa;
 }
 function dontsFor(F){
   const g=F.g,sp=F.sp,d=[];
-  if(F.res==="W")d.push("Don't moan about the result. "+cap(F.T)+" won.");
+  if(F.res==="W")d.push((isNA(F.sp)?"Don't complain about the result. ":"Don't moan about the result. ")+cap(F.T)+" won.");
   else if(F.res==="L")d.push("Don't call it a good result. "+cap(F.T)+" lost "+F.line+".");
   else d.push("Don't call it a win. It finished level at "+F.line+".");
-  if(F.derby&&!F.neutral)d.push("Don't say anything nice about "+F.derby.name+". It's a derby.");
+  if(F.derby&&!F.neutral)d.push("Don't say anything nice about "+F.derby.name+(isNA(F.sp)?". It's a rivalry game.":". It's a derby."));
   const av=F.LM&&!F.neutral&&(F.LM.avoid||[])[0];
   if(av)d.push("Say \""+av.instead+"\", not \""+av.say+"\". "+av.why);
   d.push("Don't get the score backwards: "+g.h.s+" (home) "+g.h.sc+", "+g.a.s+" "+g.a.sc+".");
   if(sp==="football"&&F.O.sc>0)d.push("Don't mention a clean sheet. "+cap(F.T)+" let in "+F.O.sc+".");
   if((sp==="football"||sp==="rugby")&&!g.ev.some(e=>e.k==="red"))d.push("Nobody was sent off. Don't blame a red card.");
-  if(g.venue)d.push(F.home?"It was at home ("+g.venue+"). Don't call it an away day.":"It was away, at "+g.venue+". Don't say \"at home\".");
+  if(g.venue)d.push(F.home?"It was at home ("+g.venue+")."+(isNA(F.sp)?" Don't say it was a road game.":" Don't call it an away day."):"It was away, at "+g.venue+". Don't say \"at home\".");
   if(F.ot&&!F.so)d.push("It went to overtime. Don't say it was settled in regulation.");
   return d.slice(0,5);
 }
@@ -1689,11 +1763,14 @@ function briefF1(g,driver){
   else if(pos>10){open="Did you see that ludicrous display "+when+"?";openStar=true}
   else open="Tough one for "+D+" "+when+".";
   them=pos===1?D+" was untouchable.":pos<=3?"Podium, though. Can't complain.":Wn+" again. Boring.";
-  back=pos===1?"Tyre management. That's where he won it.":pos<=3?"Car's finally quick in the slow corners.":"Strategy cost them. Pitted a lap too late.";
-  const L={open,them,back,agree:pick(["That is true.","Exactly.","You're not wrong."],k+"a"),exit:pick(["Right, whose round is it?","Anyway, I'd better get back to it."],k+"x"),openStar,backStar:false};
+  back=pos===1?"Tire management. That's where he won it.":pos<=3?"Car's finally quick in the slow corners.":"Strategy cost them. Pitted a lap too late.";
+  let L={open,them,back,agree:pick(["That is true.","Exactly.","You're not wrong."],k+"a"),exit:pick(["Alright, I gotta run. Talk later.","Anyway, I'll let you get back to it."],k+"x"),openStar,backStar:false};
+  // The researched exchange for how your driver finished, when there is one
+  const P=TALK.f1,ex=P&&P.exchanges&&P.exchanges[pos===1?"win":pos<=3?"podium":pos<=10?"points":"outOfPoints"];
+  if(ex){const vals={driver:D,winner:Wn,pos:"P"+pos,race:"the "+rn,when};L=Object.assign({},L,{openStar:false});for(const b of ["open","them","back","agree","exit"]){const v=fillSlots(ex[b],vals);if(v)L[b]=v}}
   const facts=[win.n+" won the "+rn+".","Podium: "+podium.map((r,i)=>(i+1)+". "+r.n).join(", ")+"."];
   if(d!==win)facts.push(d.n+" finished P"+pos+".");
-  const qa=[{q:"Who won?",a:win.n+"."},{q:"Who else was on the podium?",a:podium.slice(1).map(r=>r.n).join(" and ")+"."},{q:"Where did "+D+" finish?",a:"P"+pos+"."},{q:"Who do you support?",a:cap(teamName())+". Same answer all night."}];
+  const qa=[{q:"Who won?",a:win.n+"."},{q:"Who else was on the podium?",a:podium.slice(1).map(r=>r.n).join(" and ")+"."},{q:"Where did "+D+" finish?",a:"P"+pos+"."},{q:supportQ(),a:cap(teamName())+". Same answer all night."}];
   const dont=[];
   if(pos!==1)dont.push("Don't say "+D+" won. "+Wn+" did.");
   if(pos>3)dont.push("No podium for "+D+". P"+pos+".");
@@ -1712,10 +1789,11 @@ function currentBrief(){
 
 /* ---------- Speech, copy, toast ---------- */
 const canSpeak=typeof window!=="undefined"&&"speechSynthesis" in window;
-/* Voices follow the look. Retro: old-school computer voices, slow and flat, the other bloke pitched
-   higher. Modern: the smoothest natural voices, a touch quicker, like a sports presenter.
-   "You" can use a deeper pub voice; "them", the other bloke, always gets a different person's voice. */
-const MALE=/ryan|thomas|george|daniel|arthur|oliver|alfie|elliot|guy|brian|james|harry|liam|connor|william|fred|\bmale/i;
+/* Voices follow the look and the sport's region. Retro: old-school computer voices, slow and flat, the
+   other fan pitched higher. Modern: the smoothest natural voices, a touch quicker, like a sports presenter.
+   Accent: British for soccer, rugby and cricket; American for the North American sports and F1.
+   "You" can use a deeper voice; "them", the other fan, always gets a different person's voice. */
+const MALE=/ryan|thomas|george|daniel|arthur|oliver|alfie|elliot|guy|brian|james|harry|liam|connor|william|fred|andrew|christopher|eric|roger|steffan|davis|tony|jason|evan|nathan|aaron|david|mark|tom\b|\bmale/i;
 const ROBOT=/\b(fred|albert|ralph|zarvox|trinoids|espeak|robot)\b/i;
 const NATURAL=/natural|neural|enhanced|premium|wavenet|studio|siri/i;
 const voiceMode=()=>document.documentElement.getAttribute("data-skin")==="retro"?"retro":"modern";
@@ -1729,20 +1807,25 @@ function voiceScore(v,mode){
     if(v.localService)s+=10;
   }else{
     if(NATURAL.test(n))s+=60;
-    if(NATURAL.test(n)&&/\b(ryan|thomas|guy|andrew|brian|christopher|davis|eric)\b/i.test(n))s+=10;
+    if(NATURAL.test(n)&&/\b(ryan|thomas|guy|andrew|brian|christopher|davis|eric|roger|steffan|evan|nathan)\b/i.test(n))s+=10;
     if(/google/i.test(n))s+=25;
     if(/compact|desktop/i.test(n)||ROBOT.test(n))s-=40;
   }
-  if(/en[-_]GB/i.test(v.lang))s+=20;else if(/en[-_](IE|AU|NZ)/i.test(v.lang))s+=12;else s+=6;
+  if(isNA()){if(/en[-_]US/i.test(v.lang))s+=30;else if(/en[-_]CA/i.test(v.lang))s+=20;else if(/en[-_]GB/i.test(v.lang))s-=10}
+  else if(/en[-_]GB/i.test(v.lang))s+=20;else if(/en[-_](IE|AU|NZ)/i.test(v.lang))s+=12;else s+=6;
   return s;
 }
+/* Region decides accent and wording: British for soccer, rugby and cricket, North American for the rest */
+const REGION={football:"uk",rugby:"uk",cricket:"uk",f1:"na",nfl:"na",nba:"na",nhl:"na",mlb:"na"};
+const isNA=sp=>REGION[sp||S.sport]==="na";
+const voiceKey=(id,m)=>id+"_"+m+(isNA()?"_na":"");
 const englishVoices=()=>canSpeak?speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang)).sort((a,b)=>voiceScore(b)-voiceScore(a)):[];
-const personOf=v=>v?v.name.replace(/\(.*?\)|microsoft|google|apple|online|natural|neural|desktop|enhanced|premium|compact|english|united kingdom|[-_]/gi," ").trim().replace(/\s+/g," ").toLowerCase():"";
+const personOf=v=>v?v.name.replace(/\(.*?\)|microsoft|google|apple|online|natural|neural|desktop|enhanced|premium|compact|english|united kingdom|united states|canada|[-_]/gi," ").trim().replace(/\s+/g," ").toLowerCase():"";
 function pickVoices(){
   const vs=englishVoices(),byUri=u=>u?vs.find(v=>v.voiceURI===u):null;
   const m=voiceMode();
-  const you=byUri(store.get("voiceYou_"+m,""))||vs.slice().sort((a,b)=>(voiceScore(b)+(MALE.test(b.name)?8:0))-(voiceScore(a)+(MALE.test(a.name)?8:0)))[0]||null;
-  const them=byUri(store.get("voiceThem_"+m,""))||vs.find(v=>personOf(v)!==personOf(you))||you;
+  const you=byUri(store.get(voiceKey("voiceYou",m),""))||vs.slice().sort((a,b)=>(voiceScore(b)+(MALE.test(b.name)?8:0))-(voiceScore(a)+(MALE.test(a.name)?8:0)))[0]||null;
+  const them=byUri(store.get(voiceKey("voiceThem",m),""))||vs.find(v=>personOf(v)!==personOf(you))||you;
   return{you,them};
 }
 /* Say it the way a fan would: "5-0" is "five nil", not "five minus zero" */
@@ -1753,7 +1836,7 @@ function speechText(t){
 }
 function utter(text,who){
   const u=new SpeechSynthesisUtterance(speechText(text)),V=pickVoices(),v=who==="them"?V.them:V.you;
-  if(v)u.voice=v;u.lang=(v&&v.lang)||"en-GB";
+  if(v)u.voice=v;u.lang=(v&&v.lang)||(isNA()?"en-US":"en-GB");
   const deep=$("#deep").checked;
   if(voiceMode()==="retro"){
     if(who==="them"){u.pitch=1.35;u.rate=.88}else{u.pitch=deep?.4:.7;u.rate=.85}
@@ -1765,10 +1848,11 @@ function utter(text,who){
 function fillVoiceLists(){
   const vs=englishVoices();
   const m=voiceMode();
+  const accent=isNA()?"American":"British";
   $("#voiceTitle").textContent="Voices for the "+(m==="retro"?"Retro":"Modern")+" look";
-  $("#voiceMode").textContent=m==="retro"?"Retro uses old-school computer voices, slow and flat, for that 2008 talking-website feel.":"Modern uses the smoothest, most natural voices on this device, with a bit of pace, like a sports presenter.";
+  $("#voiceMode").textContent=(m==="retro"?"Retro uses old-school computer voices, slow and flat, for that 2008 talking-website feel.":"Modern uses the smoothest, most natural voices on this device, with a bit of pace, like a sports presenter.")+" "+SPORTS[S.sport].label+" gets "+accent+" voices where this device has them; your picks here are kept separately for "+(isNA()?"North American sports and F1":"soccer, rugby and cricket")+".";
   for(const id of ["voiceYou","voiceThem"]){
-    const el=document.getElementById(id);if(!el)continue;const cur=store.get(id+"_"+m,"");
+    const el=document.getElementById(id);if(!el)continue;const cur=store.get(voiceKey(id,m),"");
     el.innerHTML=`<option value="">Best available</option>`+vs.map(v=>`<option value="${esc(v.voiceURI)}"${v.voiceURI===cur?" selected":""}>${esc(v.name.replace(/\s*-\s*English.*$/i,""))} · ${esc(v.lang)}${v.localService?"":" · online"}</option>`).join("");
   }
   const n=document.getElementById("voiceCount");
@@ -1924,7 +2008,8 @@ function briefHTML(entry){
 }
 
 const groupName=f=>/\b(army|nation|mafia|country|kingdom|faithful|pound|flock|sea|c of red|12s|clan|fanatics)\b/i.test(f)||!/s$/i.test(f.trim());
-const fanPhrase=L=>!L.fans?"a "+L.team+" fan":(groupName(L.fans)?"the ":"one of the ")+L.fans.replace(/^the\s+/i,"");
+// "the C of Red" keeps its "the"; "Leafs Nation" and "Bills Mafia" never take one; plurals become "one of the Gooners"
+const fanPhrase=L=>{if(!L.fans)return "a "+L.team+" fan";const f=L.fans.trim();return /^the\s/i.test(f)||groupName(f)?f:"one of the "+f};
 function teamBits(L){
   const bits=[esc(L.team)+(L.nickname?" are "+esc(L.nickname):"")+(L.fans?", and their fans are "+esc(L.fans):"")+"."];
   if(L.ground)bits.push("Home is "+esc(L.ground)+".");
@@ -1967,7 +2052,7 @@ function coverRound(){
   const c=cover(),me=teamName(),other=pick(SPORTS[S.sport].others.filter(o=>norm(o)!==norm(me)),Date.now());
   const set=!!(S.covers[S.sport]&&Object.values(S.covers[S.sport]).some(Boolean));
   const ML=myLingo(),nick=String(c.nickname||(ML&&ML.nickname)||"");
-  return{kind:"off",say:"Who do you support, anyway?",opts:shuffle([O(cap(me)+(/^the\s+/i.test(nick)?". Up the "+nick.replace(/^the\s+/i,"")+"!":", always."),2,set?"Consistent. Your cover story is doing its job.":"Fine this time. Fill in your cover story so the follow-ups don't catch you out."),O(cap(other)+", I suppose.",-2,"That's not your team. Pick one before you go out, or you'll end up claiming his team by accident."),O("Bit of everyone, me.",-1,"Nobody supports everyone. Now he's suspicious.")])};
+  return{kind:"off",say:supportQ().replace("?",", anyway?"),opts:shuffle([O(cap(me)+(/^the\s+/i.test(nick)?(isNA()?". Let's go "+nick.replace(/^the\s+/i,"")+"!":". Up the "+nick.replace(/^the\s+/i,"")+"!"):", always."),2,set?"Consistent. Your cover story is doing its job.":"Fine this time. Fill in your cover story so the follow-ups don't catch you out."),O(cap(other)+", I suppose.",-2,"That's not your team. Pick one before you go out, or you'll end up claiming his team by accident."),O(isNA()?"Kind of everyone, honestly.":"Bit of everyone, me.",-1,"Nobody roots for everyone. Now he's suspicious.")])};
 }
 function rivalRound(L){
   const c=cover(),mine=!L||L===myLingo();
@@ -1977,7 +2062,7 @@ function rivalRound(L){
 function fansRound(L){
   if(!L||!L.fans)return null;
   const fp=fanPhrase(L);
-  return{kind:"off",say:"So you're "+(fp.indexOf("the ")===0?"part of ":"")+fp+", then?",opts:shuffle([O("Since I was a kid.",2,"Right. \""+L.fans+"\" is what "+L.team+" fans call themselves."),O("One of the what?",-2,"\""+L.fans+"\" is what "+L.team+" fans call themselves. Every fan knows it."),O("Is that a band?",-2,"Rumbled.")])};
+  return{kind:"off",say:"So you're "+(fp.indexOf("one of ")===0?"":"part of ")+fp+(isNA()?", huh?":", then?"),opts:shuffle([O("Since I was a kid.",2,"Right. \""+L.fans+"\" is what "+L.team+" fans call themselves."),O("One of the what?",-2,"\""+L.fans+"\" is what "+L.team+" fans call themselves. Every fan knows it."),O("Is that a band?",-2,"Rumbled.")])};
 }
 function giveawayRound(L){
   const list=(L&&L.avoid)||[];if(!list.length)return null;
@@ -1993,7 +2078,7 @@ function termRound(L){
   return{kind:"off",say:"What does \""+t.term+"\" mean again? My lad keeps saying it.",opts:shuffle(opts)};
 }
 function ponyRound(){
-  if(US.has(S.sport))return{kind:"off",say:"I've got a parlay going tonight with "+teamName()+" on it. You want in?",opts:shuffle([O("Sure, throw me in for a few bucks.",2,"Right. A parlay rolls several bets into one, and every leg has to win."),O("Ha, a parley? Like pirates calling a truce?",-2,"Wrong word. A parlay is a combined bet, and he'll know you don't follow it."),O("I don't really bet, but good luck with it.",1,"A safe answer. No harm done.")])};
+  if(isNA())return{kind:"off",say:"I've got a parlay going tonight with "+teamName()+" on it. You want in?",opts:shuffle([O("Sure, throw me in for a few bucks.",2,"Right. A parlay rolls several bets into one, and every leg has to win."),O("Ha, a parley? Like pirates calling a truce?",-2,"Wrong word. A parlay is a combined bet, and he'll know you don't follow it."),O("I don't really bet, but good luck with it.",1,"A safe answer. No harm done.")])};
   return{kind:"off",say:"I've got a pony on "+teamName()+" next week. You in?",opts:shuffle([O("Twenty-five quid? Go on then.",2,"Right. A pony is £25. Knowing the slang saves you."),O("Ha, I'll put a whole horse on it!",-2,"A pony isn't a horse here. It's £25. In the episode, Moss gets into trouble with exactly this word."),O("I don't bet, but good luck with it.",1,"A safe answer. No harm done.")])};
 }
 function offRound(){
@@ -2012,7 +2097,7 @@ function factRounds(B){
   }
   const F=B.F,g=B.g;
   const wrong=F.res==="W"?F.line+" to "+F.O.s+".":F.res==="L"?F.line+" to "+F.M.s+".":(F.M.sc+1)+"–"+F.O.sc+" to "+F.M.s+".";
-  out.push({kind:"off",say:"What did it finish in the end?",opts:shuffle([O(F.res==="D"?F.line+". Honours even.":F.line+" to "+F.W.s+".",2,"Correct. You know the score."),O(wrong,-2,"Wrong. It was "+g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc+". He knows the score and now he knows you don't."),O("Don't remind me.",0,"Works as a dodge, once.")])});
+  out.push({kind:"off",say:isNA()?"What was the final?":"What did it finish in the end?",opts:shuffle([O(F.res==="D"?F.line+(isNA()?". A tie.":". Honours even."):F.line+" to "+F.W.s+".",2,"Correct. You know the score."),O(wrong,-2,"Wrong. It was "+g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc+". He knows the score and now he knows you don't."),O("Don't remind me.",0,"Works as a dodge, once.")])});
   if(F.tM){
     const r=F.tM.r,wr=r>4?r-4:r+5;
     out.push({kind:"off",say:"Where's that leave "+F.T+" in the table?",opts:shuffle([O(cap(ord(r))+". "+(r<=4?"Up where we belong.":"Plenty to play for."),2,"Correct, straight from your briefing."),O(cap(ord(wr))+". "+(wr<=4?"Up where we belong.":"Plenty to play for."),-2,"Wrong. They're "+ord(r)+". League tables are easy to check."),O("Don't look at the table till spring, me.",0,"A decent dodge.")])});
@@ -2023,7 +2108,7 @@ function factRounds(B){
   else if(F.sp==="nfl"&&F.lead.pass){who=F.lead.pass.p;wrongWho=F.lead.passO&&F.lead.passO.p;q="Who was throwing for us?"}
   else if(F.sp==="nhl"&&F.lead.goals){who=F.lead.goals.p;wrongWho=F.lead.goalsO&&F.lead.goalsO.p;q="Who scored for us?"}
   else if(F.sp==="rugby"&&F.triesM[0]){who=F.triesM[0].p;wrongWho=F.triesO[0]&&F.triesO[0].p;q="Who got our try?"}
-  if(who&&wrongWho&&sur(who)!==sur(wrongWho))out.push({kind:"off",say:q,opts:shuffle([O(sur(who)+". Different class.",2,"Correct."),O(sur(wrongWho)+", wasn't it?",-2,sur(wrongWho)+" plays for the other lot."),O("Can't remember, I was too busy shouting.",0,"Believable, once.")])});
+  if(who&&wrongWho&&sur(who)!==sur(wrongWho))out.push({kind:"off",say:q,opts:shuffle([O(sur(who)+(isNA()?". He was unreal.":". Different class."),2,"Correct."),O(sur(wrongWho)+", wasn't it?",-2,sur(wrongWho)+(isNA()?" plays for the other team.":" plays for the other lot.")),O("Can't remember, I was too busy shouting.",0,"Believable, once.")])});
   return out;
 }
 function gameRounds(B){
@@ -2045,16 +2130,16 @@ function gameRounds(B){
 }
 function generalRounds(){
   const sp=SPORTS[S.sport];
-  const base=(sp.talk?shuffle(sp.pub).slice(0,3):shuffle(sp.pub).slice(0,2).concat(shuffle(UNIVERSAL_PUB).slice(0,1))).map((x,i)=>({kind:"script",label:"Chat "+(i+1),say:fill(x.say),opts:shuffle(x.o.map(o=>O(fill(o[0]),o[1],o[2])))}));
+  const base=(sp.talk?shuffle(sp.pub).slice(0,3):shuffle(sp.pub).slice(0,2).concat(shuffle(isNA()?UNIVERSAL_PUB_NA:UNIVERSAL_PUB).slice(0,1))).map((x,i)=>({kind:"script",label:"Chat "+(i+1),say:fill(x.say),opts:shuffle(x.o.map(o=>O(fill(o[0]),o[1],o[2])))}));
   const L=myLingo();
   const off=[coverRound(),fansRound(L),ponyRound(),termRound(L),rivalRound(L),giveawayRound(L)||giveawayRound({avoid:sp.avoid}),offRound()].filter(Boolean).slice(0,5);
-  return base.concat([leaveRound("Right, whose round is it?")],off,[inviteRound()]);
+  return base.concat([leaveRound(isNA()?"Alright, I'm grabbing another drink. Later.":"Right, whose round is it?")],off,[inviteRound()]);
 }
 function newPub(mode){
   const B=currentBrief();
   mode=mode||(pub&&pub.mode)||(B?"game":"general");
   if(mode==="game"&&!B)mode="general";
-  pub={mode,rounds:mode==="game"?gameRounds(B):generalRounds(),i:0,score:0,max:0,sus:0,answered:null,left:false,name:NAMES[Math.floor(Math.random()*NAMES.length)]};
+  pub={mode,rounds:mode==="game"?gameRounds(B):generalRounds(),i:0,score:0,max:0,sus:0,answered:null,left:false,name:(L=>L[Math.floor(Math.random()*L.length)])(isNA()?NAMES_NA:NAMES)};
 }
 function meters(){
   const cred=pub.max?Math.max(0,Math.round(pub.score/pub.max*100)):0,sus=Math.min(100,pub.sus);
@@ -2085,7 +2170,7 @@ function renderPub(){
       :pub.left&&pub.i<=exitAt?(cred>=80?["Clean getaway","Three beats, out the door. That's exactly how the script is meant to be used."]:["Got out alive","You left on time, but the script was shaky. Run it again."])
       :pub.left&&pub.sus<50?["Made your excuses","You went off script, then got out before it went wrong. Next time, leave at the exit beat."]
       :pub.sus>=50?["In too deep","They've saved you a seat for Saturday and asked if you can drive a van on Thursday. Leave earlier next time."]
-      :cred>=75?["Proper fan","You went off script and survived. Respect."]:["Suspicious","There's a long pause every time you speak."];
+      :cred>=75?[isNA()?"Real fan":"Proper fan","You went off script and survived. Respect."]:["Suspicious","There's a long pause every time you speak."];
     const best=store.get("best_"+S.sport,0);if(cred>best)store.set("best_"+S.sport,cred);
     el.innerHTML=`${intro}${modeBtns}<div style="height:14px"></div>${meters()}<div class="panel result"><p class="kicker">Credibility ${cred}% · Suspicion ${Math.min(100,pub.sus)}% · Best for ${esc(SPORTS[S.sport].label)}: ${Math.max(cred,best)}%</p><div class="big">${title}</div><p>${line}</p><div class="row"><button class="btn primary" type="button" id="pubAgain">Another round</button><button class="btn" type="button" data-go="script">Back to the script</button></div></div>`;
     return;
@@ -2125,7 +2210,7 @@ function nextPub(leaveNow){
 
 /* ---------- Cover story ---------- */
 function strengthHTML(){
-  const c=cover(),filled=COVER_FIELDS.filter(([k])=>c[k]&&String(c[k]).trim()).length;
+  const c=cover(),filled=coverFields().filter(([k])=>c[k]&&String(c[k]).trim()).length;
   const word=filled>=5?"Watertight":filled>=3?"Decent":filled>=1?"Thin":"Empty";
   return `<span class="kicker">${word} · ${filled}/6</span><div class="bar"><i style="width:${filled/6*100}%;background:${filled>=5?"var(--good)":filled>=3?"var(--flood)":"var(--meh)"}"></i></div>`;
 }
@@ -2141,7 +2226,7 @@ function coverGuideHTML(){
 }
 function updateCoverHints(){
   const sug=coverSuggest();
-  for(const [k] of COVER_FIELDS){const el=document.getElementById("cv-"+k);if(el)el.placeholder=sug[k]?"e.g. "+sug[k]:""}
+  for(const [k] of coverFields()){const el=document.getElementById("cv-"+k);if(el)el.placeholder=sug[k]?"e.g. "+sug[k]:""}
   const g=$("#coverGuide");if(g)g.innerHTML=coverGuideHTML();
 }
 function renderCover(){
@@ -2151,7 +2236,7 @@ function renderCover(){
   <div class="strength" id="coverStrength">${strengthHTML()}</div>
   <div class="panel"><div class="guide" id="coverGuide">${coverGuideHTML()}</div><div class="cover">
     <label class="fld" for="cv-team">Your team<input id="cv-team" type="text" maxlength="40" list="teamList" value="${esc(S.teams[S.sport]||"")}" placeholder="${esc(SPORTS[S.sport].team)}"><span class="tip">Pick one you can defend, not one at random.</span></label>
-    ${COVER_FIELDS.map(([k,label,tip])=>`<label class="fld" for="cv-${k}">${esc(label)}<input id="cv-${k}" data-cover="${k}" type="text" maxlength="120" value="${esc(c[k]||"")}" placeholder="${isDefault&&ex[k]?"e.g. "+esc(ex[k]):""}"><span class="tip">${esc(tip)}</span></label>`).join("")}
+    ${coverFields().map(([k,label,tip])=>`<label class="fld" for="cv-${k}">${esc(label)}<input id="cv-${k}" data-cover="${k}" type="text" maxlength="120" value="${esc(c[k]||"")}" placeholder="${isDefault&&ex[k]?"e.g. "+esc(ex[k]):""}"><span class="tip">${esc(tip)}</span></label>`).join("")}
   </div>
   <div class="row" style="margin-top:16px"><button class="btn primary" type="button" data-drill="cover">Test me on it</button><button class="btn" type="button" data-go="pub">Pub test</button></div></div>`;
 }
@@ -2160,7 +2245,7 @@ function renderCover(){
 function allPhrases(){
   const sp=SPORTS[S.sport].phrases,out=[];
   const packed=SPORTS[S.sport].talk;
-  for(const c of CAT_ORDER)for(const p of (sp[c]||[]).concat(packed&&c!=="clean"&&(sp[c]||[]).length?[]:(UNIVERSAL[c]||[])))out.push(Object.assign({},p,{cat:c}));
+  for(const c of CAT_ORDER)for(const p of (sp[c]||[]).concat(packed&&c!=="clean"&&(sp[c]||[]).length?[]:(UNI()[c]||[])))out.push(Object.assign({},p,{cat:c}));
   return out;
 }
 function renderPhrases(){
@@ -2178,7 +2263,7 @@ function renderPhrases(){
   }
   for(const k of CAT_ORDER){
     const items=list.filter(p=>p.cat===k);if(!items.length)continue;const c=CATS[k];
-    h+=`<div class="cat"><h3>${esc(catName(k))}</h3><p class="when">${esc(c.when)} <b style="color:var(--flood)">Delivery:</b> ${esc(c.tip)}</p><div class="cards">${items.map(p=>{const t=fill(p.t);return `<div class="card"><div class="phrase">“${esc(t)}”${p.star?`<span class="star">From the episode</span>`:""}</div><div class="meta">${esc(p.m)}</div>${tools(t,{raw:p.t})}</div>`}).join("")}</div></div>`;
+    h+=`<div class="cat"><h3>${esc(catName(k))}</h3><p class="when">${esc(catWhen(k))} <b style="color:var(--flood)">Delivery:</b> ${esc(c.tip)}</p><div class="cards">${items.map(p=>{const t=fill(p.t);return `<div class="card"><div class="phrase">“${esc(t)}”${p.star?`<span class="star">From the episode</span>`:""}</div><div class="meta">${esc(p.m)}</div>${tools(t,{raw:p.t})}</div>`}).join("")}</div></div>`;
   }
   const term=([w,say,mean])=>`<div class="term"><b>${esc(w)}</b>${canSpeak?`<button class="btn small" type="button" data-say="${esc(w)}">Hear it</button>`:"<span></span>"}<span class="say">${esc(say)}</span><p>${esc(mean)}</p></div>`;
   h+=`<div class="cat"><h3>Pronunciation guide</h3><p class="when">Bluffball came with a pronunciation guide. Capitals show the stressed syllable.</p><div class="jargon">${sp.jargon.map(term).join("")}</div></div>`;
@@ -2203,7 +2288,7 @@ function deck(kind){
     if(L.nickname)d.push({sit:"Team guide",q:"“What do people call "+L.team+"?”",a:L.nickname});
     if(L.fans)d.push({sit:"Team guide",q:"“What do the fans call themselves?”",a:L.fans});
     if(L.ground)d.push({sit:"Team guide",q:"“Where do they play?”",a:L.ground});
-    const r=(L.rivals||[])[0];if(r)d.push({sit:"Rivals",q:"“Who do you lot hate most?”",a:r.name+(r.derby?" ("+r.derby+")":"")});
+    const r=(L.rivals||[])[0];if(r)d.push({sit:"Rivals",q:isNA()?"“Who do you guys hate most?”":"“Who do you lot hate most?”",a:r.name+(r.derby?" ("+r.derby+")":"")});
     if((L.legends||[]).length)d.push({sit:"Legends",q:"“Best player you've ever seen in the shirt?”",a:L.legends.join(", ")});
     if(L.memory)d.push({sit:"Legends",q:"“What's the best thing you've seen them do?”",a:L.memory});
     for(const x of L.lingo||[])d.push({sit:"Local lingo",q:x.term+(x.say?" ("+x.say+")":""),a:x.means});
@@ -2212,8 +2297,8 @@ function deck(kind){
     return d;
   }
   if(kind==="jargon")return shuffle(SPORTS[S.sport].jargon.concat(bettingFor(S.sport))).map(([w,s,m])=>({sit:"What does it mean?",q:w+" ("+s+")",a:m}));
-  if(kind==="cover"){const c=cover();return [{sit:"Cover story",q:"“Who do you support?”",a:teamName()}].concat(COVER_FIELDS.filter(([k])=>c[k]).map(([k,,,q])=>({sit:"Cover story",q:"“"+q+"”",a:c[k]})))}
-  return shuffle(allPhrases()).map(p=>({sit:catName(p.cat),q:CATS[p.cat].when,a:fill(p.t),m:p.m}));
+  if(kind==="cover"){const c=cover();return [{sit:"Cover story",q:"“"+supportQ()+"”",a:teamName()}].concat(coverFields().filter(([k])=>c[k]).map(([k,,,q])=>({sit:"Cover story",q:"“"+q+"”",a:c[k]})))}
+  return shuffle(allPhrases()).map(p=>({sit:catName(p.cat),q:catWhen(p.cat),a:fill(p.t),m:p.m}));
 }
 function newDrill(kind){const d=deck(kind);drill={kind,deck:d,i:0,shown:false,got:0,again:0}}
 function renderDrill(){
@@ -2247,7 +2332,7 @@ function pocketText(){
     for(const x of (TL.avoid||[]).slice(0,2))lines.push("NOT:  \""+x.say+"\". Say \""+x.instead+"\".");
   }
   lines.push("","MY COVER STORY","Team: "+teamName());
-  for(const [k,label] of COVER_FIELDS)if(c[k])lines.push(label+": "+c[k]);
+  for(const [k,label] of coverFields())if(c[k])lines.push(label+": "+c[k]);
   const saved=S.saved.filter(x=>x.sp===S.sport);
   if(saved.length){lines.push("","SAVED LINES");for(const x of saved)lines.push("- "+fill(x.t))}
   return lines.join("\n");
@@ -2378,7 +2463,7 @@ document.addEventListener("click",e=>{
     case "drillGot":drill.got++;drill.i++;drill.shown=false;renderDrill();break;
     case "drillAgain":drill.again++;drill.deck.push(drill.deck[drill.i]);drill.i++;drill.shown=false;renderDrill();break;
     case "drillRestart":newDrill(drill.kind);renderDrill();break;
-    case "coverFill":{const sug=coverSuggest(),c=Object.assign({},S.covers[S.sport]||{});let n=0;for(const [k] of COVER_FIELDS)if(!String(c[k]||"").trim()&&sug[k]){c[k]=sug[k];n++}S.covers[S.sport]=c;store.set("covers",S.covers);pub=null;drill=null;renderCover();toast(n?"Filled "+n+" field"+(n>1?"s":"")+" from the team guide":"Nothing to fill");break}
+    case "coverFill":{const sug=coverSuggest(),c=Object.assign({},S.covers[S.sport]||{});let n=0;for(const [k] of coverFields())if(!String(c[k]||"").trim()&&sug[k]){c[k]=sug[k];n++}S.covers[S.sport]=c;store.set("covers",S.covers);pub=null;drill=null;renderCover();toast(n?"Filled "+n+" field"+(n>1?"s":"")+" from the team guide":"Nothing to fill");break}
     case "pocketCopy":copy(pocketText());break;
     case "pocketClear":S.saved=S.saved.filter(x=>x.sp!==S.sport);store.set("saved",S.saved);renderPocket();break;
     case "panicBtn":openPanic();break;
@@ -2392,7 +2477,7 @@ document.addEventListener("click",e=>{
 });
 document.addEventListener("change",e=>{
   if(e.target.id==="driverSel"){S.driver=e.target.value;pub=null;drill=null;renderScript()}
-  if(e.target.id==="voiceYou"||e.target.id==="voiceThem")store.set(e.target.id+"_"+voiceMode(),e.target.value);
+  if(e.target.id==="voiceYou"||e.target.id==="voiceThem")store.set(voiceKey(e.target.id,voiceMode()),e.target.value);
 });
 document.addEventListener("input",e=>{
   const el=e.target;

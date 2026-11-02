@@ -9,7 +9,8 @@
 //     "the the", "Go the"
 //   - anything wider than the window (run it once at desktop width and once at phone width, ~375px)
 //   - errors thrown while rendering
-// It also renders the Local lingo tab for every team (with its region) and a word search.
+// It also renders the Local lingo tab for every team (with its region) and a word search, and the
+// All sports list with Local mode on for a few sample cities (including one with nothing near).
 // It reloads the page when it's done, so nothing it changed sticks.
 (async () => {
   // ("null vier" is German for Leverkusen's 04, so it's allowed)
@@ -21,14 +22,33 @@
   const problems = [];
   let renders = 0;
   DATA.liveFailed = true; DATA.liveAllowed = false;
+  const savedWhere = S.where, savedPick = S.pick;
+  for (const lg of Object.values(ESPN.LEAGUES).flat().map((x) => x[0])) { DATA.cache[lg] = { games: (SNAP && SNAP.leagues[lg]) || [], src: "snap", at: new Date(SNAP.taken) }; DATA.tables[lg] = (SNAP && SNAP.tables[lg]) || {}; }
+  const AREAS = [["Toronto, ON", 43.65, -79.38], ["London, England", 51.51, -0.13], ["Los Angeles, CA", 34.05, -118.24], ["Madrid, Spain", 40.42, -3.7], ["Reykjavik", 64.15, -21.94]];
   for (const look of ["modern", "retro"]) {
     setSkin(look);
+    // All sports, Local on: every game near each sample city
+    S.pick = "all";
+    for (const city of AREAS) {
+      S.where = { mode: "city", city }; poolMemo = { k: null, v: null };
+      const P = pool(), list = [null].concat((P && P.games.slice(0, 25)) || []);
+      for (const g of list) {
+        if (g) selectGame(g); else S.game = null;
+        renders++;
+        try {
+          renderScript();
+          const b = bad(document.getElementById("tab-script").innerText + " " + document.getElementById("strip").innerText);
+          if (b) problems.push(`${look} all near ${city[0]} ${g ? g.id : "(none)"}: …${b}…`);
+          if (wide()) problems.push(`${look} all near ${city[0]} ${g ? g.id : "(none)"}: wider than the window`);
+        } catch (e) { problems.push(`${look} all near ${city[0]} ${g ? g.id : "(none)"}: ${e.message}`); }
+      }
+    }
+    // Then each sport and league on its own, everywhere
+    S.where = { mode: "off" }; poolMemo = { k: null, v: null };
     for (const sp of Object.keys(SPORTS)) {
-      S.sport = sp;
+      S.pick = sp; S.sport = sp;
       for (const [lg] of ESPN.LEAGUES[sp] || []) {
-        S.leagues[sp] = lg;
-        DATA.cache[lg] = { games: (SNAP && SNAP.leagues[lg]) || [], src: "snap", at: new Date(SNAP.taken) };
-        DATA.tables[lg] = (SNAP && SNAP.tables[lg]) || {};
+        S.leagues[sp] = lg; poolMemo = { k: null, v: null };
         for (const g of DATA.cache[lg].games) {
           for (const side of g.res ? [null] : ["h", "a", null]) {
             S.game = g; S.side = side; if (g.res) S.driver = g.res[0].n; pub = null; drill = null; renders++;
@@ -70,6 +90,7 @@
       }
     }
   }
+  S.where = savedWhere; S.pick = savedPick;
   console.log(`Checked ${renders} renders${innerWidth ? " at " + innerWidth + "px wide" : " (window has no width, so widths weren't checked)"}: ${problems.length ? problems.length + " problems" : "no problems"}`);
   for (const p of problems.slice(0, 50)) console.warn(p);
   setTimeout(() => location.reload(), 500);

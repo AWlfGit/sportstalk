@@ -293,6 +293,27 @@ footer p{margin:0 0 4px;max-width:90ch}
 .home-link a:hover{text-decoration:underline}
 
 .voicefld{flex:0 0 auto;max-width:none}
+/* Local mode: the Where button and its panel, the Near/Everywhere switch on the results list, and
+   the league tag on rows when sports are mixed */
+.wherefld{flex:0 0 auto;max-width:none}
+#whereBtn{max-width:220px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;justify-content:flex-start}
+.where-card{display:grid;gap:10px;text-align:left;max-height:calc(100vh - 32px);max-height:calc(100svh - 32px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));overflow-y:auto;overscroll-behavior:contain}
+.where-fine{flex:1 1 100%;font-size:12px}
+.tt-guess{margin:0;padding:0 16px 10px;color:var(--muted);font-size:13px}
+.where-note{margin:0;font-size:13px}
+.where-opts{display:grid;gap:6px}
+.where-opt{display:flex;align-items:flex-start;gap:10px;padding:8px 2px;cursor:pointer}
+.where-opt input{flex:0 0 auto;width:18px;height:18px;margin:2px 0 0;accent-color:var(--flood)}
+.where-opt>span{display:grid;gap:2px}
+.where-opt .muted{font-size:13px}
+.where-sub{display:flex;flex-wrap:wrap;gap:8px;padding:0 0 4px 30px}
+.where-city{flex:1 1 100%;max-width:none}
+.where-km{max-width:none;flex:none;margin-top:4px}
+.tt-where{display:flex;gap:6px;padding:0 16px 10px}
+.tt-where button{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:var(--glass);border:1px solid var(--hair);border-radius:999px;padding:6px 12px;color:var(--muted);font:600 13px/1 var(--f-body);cursor:pointer}
+.tt-where button[aria-pressed=true]{background:var(--chalk);border-color:var(--chalk);color:var(--pitch)}
+.tt-lg{grid-column:1;color:var(--muted);font:700 10.5px/1 var(--f-body);letter-spacing:.1em;text-transform:uppercase}
+.linkish{background:none;border:0;padding:0;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:.2em;cursor:pointer}
 .voice-card{display:grid;gap:12px;text-align:left}
 .voice-card .fld{max-width:none;flex:none}
 .voice-note{margin:0;font-size:13px}
@@ -845,8 +866,9 @@ footer p{margin:0 0 4px;max-width:90ch}
   :root:not([data-skin=retro]) .head .in{flex-wrap:wrap;align-items:center;row-gap:6px}
   :root:not([data-skin=retro]) .brand h1{font-size:22px}
   :root:not([data-skin=retro]) .mark{width:28px;height:28px;font-size:13px}
-  :root:not([data-skin=retro]) .setup{flex:1 1 380px;flex-wrap:nowrap;gap:6px}
-  :root:not([data-skin=retro]) .fld{flex:1 1 0;gap:0;font-size:0;max-width:none}
+  :root:not([data-skin=retro]) .setup{flex:1 1 380px;flex-wrap:wrap;gap:6px}
+  :root:not([data-skin=retro]) .head .fld{flex:1 1 128px;gap:0;font-size:0;max-width:none}
+  :root:not([data-skin=retro]) .head .skinfld,:root:not([data-skin=retro]) .head .voicefld,:root:not([data-skin=retro]) .head .wherefld{flex:0 0 auto}
   :root:not([data-skin=retro]) .skinfld,:root:not([data-skin=retro]) .voicefld{flex:0 0 auto}
   :root:not([data-skin=retro]) .team-crest{bottom:auto;top:50%;transform:translateY(-50%)}
   :root:not([data-skin=retro]) .how{display:none}
@@ -861,6 +883,31 @@ footer p{margin:0 0 4px;max-width:90ch}
   :root:not([data-skin=retro]) body.has-bluff .toast{bottom:calc(60px + env(safe-area-inset-bottom,0px))}
   :root:not([data-skin=retro]) .bluff-sheet{max-height:calc(100vh - 66px);max-height:calc(100svh - 66px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px))}
   :root:not([data-skin=retro]){scroll-padding-top:0;scroll-padding-bottom:calc(66px + env(safe-area-inset-bottom,0px))}
+}
+
+/* Local mode, Modern */
+:root:not([data-skin=retro]) .wherefld .btn{padding:7px 11px}
+:root:not([data-skin=retro]) #whereBtn::before{content:"";flex:0 0 auto;width:1.15em;height:1.15em;background:var(--flood);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") center/contain no-repeat}
+:root:not([data-skin=retro]) #whereBtn.off::before{background:var(--muted)}
+:root:not([data-skin=retro]) .tt-where{gap:4px;padding:0 14px 10px}
+:root:not([data-skin=retro]) .tt-where button{border-radius:var(--m-r-sm);background:var(--m-slab-2);padding:7px 10px;font:700 12px/1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase;transition:background-color var(--m-fast) var(--m-ease),color var(--m-fast) var(--m-ease)}
+:root:not([data-skin=retro]) .tt-where button[aria-pressed=true]{background:var(--flood);border-color:transparent;color:var(--flood-ink)}
+:root:not([data-skin=retro]) .tt-lg{color:var(--m-dim-2);font:italic 700 10.5px/1 var(--f-cap);letter-spacing:.12em}
+:root:not([data-skin=retro]) .tt-row[aria-pressed=true] .tt-lg{color:var(--flood)}
+:root:not([data-skin=retro]) .where-card{gap:12px;padding:20px}
+:root:not([data-skin=retro]) .where-opt{padding:10px 12px;border:1px solid var(--hair);border-radius:var(--m-r-md);background:var(--m-slab-2);transition:border-color var(--m-fast) var(--m-ease)}
+:root:not([data-skin=retro]) .where-opt:has(input:checked){border-color:var(--flood-35);background:linear-gradient(135deg,rgba(212,255,58,.1),rgba(212,255,58,.02))}
+:root:not([data-skin=retro]) .where-opt b{font:800 17px/1.1 var(--f-display);letter-spacing:.02em;text-transform:uppercase}
+:root:not([data-skin=retro]) .where-sub{padding:0 0 4px 12px}
+@media(pointer:coarse){:root:not([data-skin=retro]) .tt-where button{min-height:36px}:root:not([data-skin=retro]) .linkish{min-height:36px;padding:0 4px}}
+:root:not([data-skin=retro]) .tt-guess{padding:0 14px 10px;font-size:12.5px}
+@media(max-height:520px) and (orientation:landscape){:root:not([data-skin=retro]) .wherefld{flex:0 0 auto}}
+/* Small phones in landscape: the Look switch sits in the logo row, so the other settings fit on one line */
+@media(max-height:520px) and (max-width:700px) and (orientation:landscape){
+  :root:not([data-skin=retro]) .head .in{position:relative}
+  :root:not([data-skin=retro]) .brand{min-height:42px}
+  :root:not([data-skin=retro]) .setup{flex-basis:100%}
+  :root:not([data-skin=retro]) .head .skinfld{position:absolute;top:0;right:max(16px,env(safe-area-inset-right,0px))}
 }
 
 /* Retro: a late-2000s football chat-site look. Dark green page, chunky orange speech-bubble logo
@@ -949,6 +996,17 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root[data-skin=retro] .tt-top b{color:var(--r-ink)}
 :root[data-skin=retro] .tt-band{margin:10px 12px 2px}
 :root[data-skin=retro] .tt-fx{gap:4px 10px;padding:8px 12px;border-bottom:2px solid var(--turf-2)}
+:root[data-skin=retro] .tt-where{gap:6px;padding:8px 12px;border-bottom:2px solid var(--turf-2);background:var(--r-white)}
+:root[data-skin=retro] .tt-where button{border:2px solid #136b4f;border-radius:6px;background:var(--r-white);color:#136b4f;font:bold 12px/1 var(--f-body);padding:5px 10px}
+:root[data-skin=retro] .tt-where button[aria-pressed=true]{background:#136b4f;color:var(--r-white)}
+:root[data-skin=retro] .tt-guess{color:var(--r-ink);background:var(--r-white);padding:6px 12px}
+:root[data-skin=retro] .tt-lg{color:var(--r-ink);font:bold 10px/1 var(--f-body);letter-spacing:.06em}
+:root[data-skin=retro] .where-card{background:var(--r-window-b);color:var(--r-ink)}
+:root[data-skin=retro] .where-card .kicker{color:var(--r-ink);font:bold 18px/1.2 var(--f-body);text-transform:none;letter-spacing:0}
+:root[data-skin=retro] .where-card .muted{color:var(--r-ink);opacity:.8}
+:root[data-skin=retro] .where-opt{border:2px solid var(--line);border-radius:10px;background:var(--r-white);padding:8px 10px;color:var(--r-ink)}
+:root[data-skin=retro] .where-opt b{font:bold 15px/1.2 var(--f-body)}
+@media(pointer:coarse){:root[data-skin=retro] .tt-where button,:root[data-skin=retro] .where-sub .btn{min-height:36px}:root[data-skin=retro] .linkish{min-height:36px;padding:0 4px}}
 :root[data-skin=retro] .tt-fx button{color:var(--r-ink);text-decoration:underline;text-transform:none;font-size:12px;padding:2px 4px;border-radius:4px}
 :root[data-skin=retro] .tt-fx button[aria-pressed=true]{color:var(--r-white);background:var(--r-green-edge);text-decoration:none;font-weight:bold}
 :root[data-skin=retro] .tt-day{color:var(--r-white);background:var(--r-green-edge);font:bold 11px/1 var(--f-body);padding:5px 12px;text-transform:uppercase;letter-spacing:.05em;margin-top:4px}
@@ -1075,8 +1133,9 @@ footer p{margin:0 0 4px;max-width:90ch}
       </div>
     </div>
     <div class="setup">
+      <div class="fld wherefld"><span id="whereLbl">Where</span><button class="btn" type="button" id="whereBtn" aria-haspopup="dialog" aria-describedby="whereLbl">Near you</button></div>
       <label class="fld" for="sport">Sport<select id="sport"></select></label>
-      <label class="fld" for="team">Your team<input id="team" type="text" maxlength="40" autocomplete="off" list="teamList"><span class="team-crest" id="teamCrest" aria-hidden="true" hidden></span></label>
+      <label class="fld" for="team"><span id="teamLbl">Your team</span><input id="team" type="text" maxlength="40" autocomplete="off" list="teamList"><span class="team-crest" id="teamCrest" aria-hidden="true" hidden></span></label>
       <datalist id="teamList"></datalist>
       <div class="fld voicefld" id="voiceWrap" hidden><span>Speech</span><button class="btn" type="button" id="voicesBtn" aria-haspopup="dialog">Voices</button></div>
       <div class="fld skinfld"><span id="skinLbl">Look</span><div class="skin" role="group" aria-labelledby="skinLbl"><button type="button" data-skin="modern" aria-pressed="true">Modern</button><button type="button" data-skin="retro" aria-pressed="false">Retro</button></div></div>
@@ -1111,7 +1170,7 @@ footer p{margin:0 0 4px;max-width:90ch}
     <h2 class="credits-h">Credits</h2>
     <p><b>A parody of Bluffball</b>, the website Moss and Roy use in <i>The IT Crowd</i>, series 3, episode 2, "Are We Not Men?" (Channel 4, 2008; <a href="https://www.imdb.com/title/tt1320784/" target="_blank" rel="noopener">IMDb</a>). <i>The IT Crowd</i> was created and written by Graham Linehan and produced by Talkback Thames for Channel 4.</p>
     <p>This is an unofficial fan tribute, not affiliated with or endorsed by Channel 4, Talkback Thames or the show's makers. Bluffball and everything from the show belong to their owners. The football and glasses characters in the Retro look are fan redrawings of the Bluffball characters seen in the episode; the rest of the artwork is original.</p>
-    <p><b>Results:</b> ESPN's public scoreboard feeds. Talking points are generated from those facts, so check anything important on <a href="https://www.espn.com/" target="_blank" rel="noopener">ESPN</a>. <b>Team guides:</b> researched from public sources such as club websites and Wikipedia. <b>Fonts:</b> Barlow, Barlow Condensed and Big Shoulders Display, under the SIL Open Font License.</p>
+    <p><b>Results:</b> ESPN's public scoreboard feeds. Talking points are generated from those facts, so check anything important on <a href="https://www.espn.com/" target="_blank" rel="noopener">ESPN</a>. <b>Team guides:</b> researched from public sources such as club websites and Wikipedia. <b>Local mode:</b> team home cities from ESPN's schedules; map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>. Where you are is worked out in your browser and never sent anywhere. <b>Fonts:</b> Barlow, Barlow Condensed and Big Shoulders Display, under the SIL Open Font License.</p>
   </div>
 </footer>
 <!-- The Modern look's status bar (Bluff meter). Before Panic so keyboard order matches the screen: meter, next step, Panic. -->
@@ -1142,6 +1201,22 @@ footer p{margin:0 0 4px;max-width:90ch}
     </div>
   </div>
 </div>
+<div class="sheet" id="whereSheet" role="dialog" aria-modal="true" aria-labelledby="whereTitle" hidden>
+  <div class="sheet-card where-card">
+    <p class="kicker" id="whereTitle">Where are you?</p>
+    <p class="muted where-note">Local shows games with a team based near you, home or away, plus your team's games.</p>
+    <div class="where-opts">
+      <label class="where-opt"><input type="radio" name="where" value="auto"><span><b>Near me</b><span class="muted" id="whereAutoTxt"></span></span></label>
+      <div class="where-sub"><button class="btn small" type="button" id="whereGps">Use my precise location</button><button class="btn small" type="button" id="whereForget" hidden>Forget my location</button><span class="muted where-fine">Your browser may ask its location service; this page rounds the answer to about a kilometre and never sends it anywhere.</span></div>
+      <label class="where-opt"><input type="radio" name="where" value="city"><span><b>Near a city</b><span class="muted">Pick the nearest big city</span></span></label>
+      <div class="where-sub"><label class="fld where-city" for="whereCity"><span class="sr">City</span><input id="whereCity" type="text" list="cityList" autocomplete="off" maxlength="60" placeholder="Start typing a city"></label><datalist id="cityList"></datalist></div>
+      <label class="where-opt"><input type="radio" name="where" value="off"><span><b>Everywhere</b><span class="muted">Every game, wherever it was played</span></span></label>
+    </div>
+    <label class="fld where-km" for="whereKm">How near<select id="whereKm"><option value="250">Within 250 km (155 miles)</option><option value="500">Within 500 km (310 miles)</option><option value="1000">Within 1,000 km (620 miles)</option><option value="2000">Within 2,000 km (1,240 miles)</option></select></label>
+    <p class="muted where-note" id="whereMsg" role="status">Your location stays in this browser. The page never sends it anywhere.</p>
+    <div class="row"><button class="btn primary" type="button" id="whereDone">Done</button></div>
+  </div>
+</div>
 <div class="sheet" id="voiceSheet" role="dialog" aria-modal="true" aria-labelledby="voiceTitle" hidden>
   <div class="sheet-card voice-card">
     <p class="kicker" id="voiceTitle">Voices</p>
@@ -1163,6 +1238,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 <script type="application/json" id="talk">__TALK__</script>
 <script type="application/json" id="logos">__LOGOS__</script>
 <script type="application/json" id="say">__SAY__</script>
+<script type="application/json" id="places">__PLACES__</script>
 <script>
 /*ESPN-START*/
 const ESPN=(()=>{
@@ -1288,6 +1364,9 @@ const ESPN=(()=>{
   return{LEAGUES,games,standings};
 })();
 /*ESPN-END*/
+</script>
+<script>
+__LOCAL_JS__
 </script>
 <script>
 /* ---------- Helpers ---------- */
@@ -1590,14 +1669,18 @@ function rivalOf(L,t){
 }
 function isMyDriver(name){const L=myLingo();if(L&&(L.drivers||[]).includes(name))return true;return isMine({n:name,s:sur(name)})}
 const S={
-  sport:"nhl", // every visit opens on hockey; the sport can still be changed during the visit
+  // pick: the Sport menu. Every visit opens on All sports. sport: the sport whose talk is showing
+  // (the picked sport, or the current game's sport when the menu says All sports)
+  pick:"all",sport:"nhl",lgLocal:{},
+  where:(w=>w&&/^(auto|city|off)$/.test(w.mode)?w:{mode:"auto"})(store.get("where",null)),
   teams:store.get("teams",{}),
   leagues:store.get("leagues",{}),
   covers:store.get("covers",{}),
   saved:store.get("saved",[]),
   game:null,side:null,driver:null,tab:"script"
 };
-const teamName=()=>((S.teams[S.sport]||"").trim()||SPORTS[S.sport].team);
+const teamNameFor=sp=>((S.teams[sp]||"").trim()||SPORTS[sp].team);
+const teamName=()=>teamNameFor(S.sport);
 /* How a fan says the team mid-sentence. North American teams take "the" ("the Flames"), so a
    name typed without it falls back to the team guide's short name when there is one. */
 const teamSay=()=>{const n=teamName();if(!US.has(S.sport)||/^the /i.test(n))return n;const L=myLingo();return L&&/^the /i.test(L.nickname||"")?L.nickname:n};
@@ -1608,10 +1691,144 @@ const leagueName=lg=>{for(const arr of Object.values(ESPN.LEAGUES))for(const [k,
 const cover=()=>Object.assign({},S.covers[S.sport]||{});
 function isMine(t,lg){
   if(!t)return false;
-  const L=lg&&myLingo();
+  const sp=(lg&&sportOf(lg))||S.sport;
+  // A typed team: by identity (see typedKeys). F1 drivers (no league given) keep the name match.
+  if(lg&&(S.teams[sp]||"").trim()){const k=typedKeys(sp);return !!(k&&k.includes(LOCAL.placeKey(lg,t.id)))}
+  if(lg&&!exampleOk())return false;
+  const L=lg&&sp===S.sport&&myLingo();
   if(L&&L.espnId&&t.id&&lkey(lg,t.id)===lkey(L.league,L.espnId))return true;
-  const m=norm(teamName());if(m.length<3)return false;
+  const m=norm(teamNameFor(sp));if(m.length<3)return false;
   return [t.n,t.s,t.ab].some(x=>{const n=norm(x);return n&&(n===m||n.includes(m)||(n.length>=4&&m.includes(n)))});
+}
+
+/* ---------- Local mode ---------- */
+/* Where the visitor is (their choice, or their device's time zone) and which games count as local.
+   The rules are in LOCAL (src/local.js); team bases are in PLACES, built from research/places.json. */
+let PLACES={t:{},c:{},z:{},cities:[]};
+try{const raw=document.getElementById("places").textContent.trim();if(raw.charAt(0)==="{")PLACES=Object.assign(PLACES,JSON.parse(raw))}catch(e){}
+const TZ=(()=>{try{return Intl.DateTimeFormat().resolvedOptions().timeZone||""}catch(e){return ""}})();
+// Quebec's devices report America/Toronto; a French-language one is far likelier to be near Montreal
+function area(){
+  const A=LOCAL.area(S.where,PLACES,TZ);
+  if(A&&A.src==="tz"&&TZ==="America/Toronto"&&/^fr(-|$)/i.test(navigator.language||"")){const c=LOCAL.findCity(PLACES,"Montreal");if(c)return Object.assign({},A,{ll:[c[1],c[2]],label:c[0]})}
+  return A;
+}
+const placeShort=l=>String(l||"").split(",")[0];
+const kmText=k=>k.toLocaleString("en-GB")+" km ("+Math.round(k*0.621371/5)*5+" miles)";
+// How the team box names a sport in All sports ("Your NBA team", "Your football team")
+const TEAM_WORD={football:"football",rugby:"rugby",cricket:"cricket",f1:"F1",nfl:"NFL",nba:"NBA",nhl:"hockey",mlb:"baseball"};
+// Only a team the visitor typed counts as "theirs" for Local mode (not the example team)
+// The visitor's typed team, resolved to team ids in that sport's results: an exact name, short name
+// or abbreviation; else a unique name ending or starting with it ("Leafs" -> Toronto Maple Leafs);
+// else the team guide's names ("Man Utd"). Never a loose match across leagues ("Lions" is not Penn
+// State Nittany Lions, "Rangers" is not Angers).
+const typedMemo={};
+function typedKeys(sp){
+  const raw=(S.teams[sp]||"").trim(),m=norm(raw);if(m.length<2)return null;
+  const lgs=(ESPN.LEAGUES[sp]||[]).map(x=>x[0]);
+  const k=sp+"|"+m+"|"+lgs.map(lg=>DATA.cache[lg]?DATA.cache[lg].games.length+(DATA.cache[lg].src||""):"-").join(",");
+  if(typedMemo[k])return typedMemo[k];
+  const teams=new Map();
+  for(const lg of lgs){const e=DATA.cache[lg];if(!e)continue;for(const g of e.games){if(g.res)continue;for(const t of [g.h,g.a])if(t&&t.id!=null)teams.set(LOCAL.placeKey(lg,t.id),t)}}
+  let keys=[...teams].filter(([,t])=>[t.n,t.s,t.ab].some(x=>norm(x)===m)).map(([key])=>key);
+  if(!keys.length){const ends=[...teams].filter(([,t])=>{const n=norm(t.n);return n.endsWith(" "+m)||n.startsWith(m+" ")});if(ends.length===1)keys=[ends[0][0]]}
+  if(!keys.length){const L=lingoByName(raw,sp);if(L&&L.espnId)keys=[LOCAL.placeKey(L.league,L.espnId)]}
+  return(typedMemo[k]=keys);
+}
+// Is this game the visitor's own team's? Only a team they typed counts (not the example team).
+// F1: a typed team's drivers, or a typed driver.
+function typedMine(g){
+  if(!g)return false;
+  const sp=sportOf(g.lg),raw=(S.teams[sp]||"").trim();if(!raw)return false;
+  if(g.res){const L=lingoByName(raw,"f1"),m=norm(raw),ds=(L&&L.drivers)||[];return g.res.some(r=>ds.includes(r.n)||(m.length>=4&&norm(r.n).split(" ").pop()===m.split(" ").pop()))}
+  const keys=typedKeys(sp);
+  return !!(keys&&keys.length&&[g.h,g.a].some(t=>t&&keys.includes(LOCAL.placeKey(g.lg,t.id))));
+}
+// The example team ("the Leafs", "Arsenal") stands in for "your team" only when one sport shows
+// everywhere, as before Local mode. With All sports or Local on, an untyped team box means no team.
+const exampleOk=()=>S.pick!=="all"&&!area();
+// In a local game with no team of yours, back the team based nearer you
+function localSide(g){
+  const A=area();if(!A||!g||g.res||!g.h)return null;
+  const d=t=>{const p=LOCAL.teamAt(PLACES,g.lg,t);return p?LOCAL.km(A.ll,p):Infinity};
+  const h=d(g.h),a=d(g.a);return Math.min(h,a)>A.km?null:h<=a?"h":"a";
+}
+const ALL_LEAGUES=()=>Object.values(ESPN.LEAGUES).flat().map(x=>x[0]);
+// The leagues behind the results list: every league for All sports; every league of one sport when
+// Local is on; otherwise the one league picked with the league buttons
+// One sport: its leagues, or the one picked with the league buttons ("All leagues" is the default near
+// you; Everywhere starts on the sport's first league, as before)
+const lgChoice=()=>{const l=(ESPN.LEAGUES[S.pick]||[]).map(x=>x[0]);const c=area()?(S.lgLocal[S.pick]||"all"):(S.leagues[S.pick]||l[0]);return c==="all"||l.includes(c)?c:l[0]};
+function poolLeagues(){
+  if(S.pick==="all")return ALL_LEAGUES();
+  const l=(ESPN.LEAGUES[S.pick]||[]).map(x=>x[0]),c=lgChoice();
+  return c==="all"?l:l.filter(x=>x===c);
+}
+const poolSig=()=>S.pick+"|"+JSON.stringify(S.where)+"|"+poolLeagues().join(",");
+// The games to show: the pool's leagues, local ones only when Local is on, newest first
+let poolMemo={k:null,v:null};
+function pool(){
+  const lgs=poolLeagues();
+  if(!lgs.length)return{games:[],lgs,src:"none",at:null,none:true,mixed:false};
+  const got=lgs.map(lg=>DATA.cache[lg]).filter(Boolean);
+  if(!got.length)return null;
+  const A=area(),k=poolSig()+"|"+lgs.map(lg=>{const e=DATA.cache[lg];return e?lg+":"+e.games.length+":"+e.src+":"+(+e.at||0):"-"}).join(",")+"|"+JSON.stringify(S.teams);
+  if(poolMemo.k===k)return poolMemo.v;
+  let games=[];for(const e of got)games=games.concat(e.games);
+  games.sort((x,y)=>String(y.date).localeCompare(String(x.date)));
+  // Nothing near (most of the world, for these leagues): show every game, with a note saying so
+  let fallback=false;
+  if(A){const near=games.filter(g=>LOCAL.isLocal(g,A,PLACES,typedMine));if(near.length||got.length<lgs.length)games=near;else fallback=games.length>0}
+  // Mixed sources (some leagues live, some saved) are reported as saved, so the note offers Refresh
+  const src=got.every(e=>e.src==="live")?"live":got.every(e=>e.src==="feed")?"feed":got.some(e=>e.src==="snap")?"snap":got[0].src;
+  const at=got.map(e=>e.at).filter(Boolean).sort((a,b)=>b-a)[0]||null;
+  const v={games,lgs,src,at,area:A,fallback,mixed:S.pick==="all"||new Set(games.map(g=>g.lg)).size>1,partial:got.length<lgs.length};
+  poolMemo={k,v};return v;
+}
+const findGame=(id,lg)=>{for(const e of Object.values(DATA.cache))for(const g of e.games)if(g.id===id&&(!lg||g.lg===lg))return g;return null};
+// Short league names for mixed lists
+const LG_SHORT={"soccer/eng.1":"Premier League","soccer/eng.2":"Championship","soccer/sco.1":"Scottish Prem","soccer/uefa.champions":"Champions League","soccer/uefa.europa":"Europa League","soccer/esp.1":"LaLiga","soccer/ita.1":"Serie A","soccer/ger.1":"Bundesliga","soccer/fra.1":"Ligue 1","soccer/usa.1":"MLS","rugby/267979":"Prem Rugby","rugby/270557":"URC","rugby/289234":"Rugby Test","rugby/271937":"Champions Cup","rugby/180659":"Six Nations","racing/f1":"F1","football/nfl":"NFL","football/college-football":"College football","football/cfl":"CFL","basketball/nba":"NBA","hockey/nhl":"NHL","baseball/mlb":"MLB"};
+const lgShort=lg=>LG_SHORT[lg]||leagueName(lg);
+function whereText(){const A=area();return S.where.mode==="off"?"Everywhere":A?"Near "+placeShort(A.label):"Pick your area"}
+function updateWhereBtn(){const b=$("#whereBtn");if(b){b.textContent=whereText();b.classList.toggle("off",S.where.mode==="off")}}
+// Changing where: keep the game if it's still in the list, otherwise pick again
+function setWhere(w,quiet){
+  if(w.mode!=="off")w.last=w.mode;else w.last=S.where.mode!=="off"?S.where.mode:(S.where.last||"auto");
+  if(w.mode!=="auto"||w.gps)delete w.tzOk;
+  S.where=w;store.set("where",w);poolMemo={k:null,v:null};S.ttAll=false;wherePending=null;
+  updateWhereBtn();if(!$("#whereSheet").hidden)fillWhere();
+  if(quiet)refresh();else loadAndRender();
+}
+let wherePending=null,whereOpener=null;
+function focusList(){setTimeout(()=>{const b=document.querySelector('.tt-where button[aria-pressed="true"]')||$("#whereBtn");if(b&&document.activeElement===document.body||document.activeElement&&!document.activeElement.isConnected)b.focus()},60)}
+let cityListFilled=false;
+function fillWhere(){
+  const w=S.where,z=PLACES.z[TZ];
+  document.querySelectorAll('#whereSheet input[name=where]').forEach(r=>{r.checked=r.value===(wherePending||w.mode)});
+  $("#whereAutoTxt").textContent=w.gps?(()=>{const A=LOCAL.area({mode:"auto",gps:w.gps},PLACES,TZ);return A&&A.label!=="your location"?"Your location, near "+placeShort(A.label):"Your location"})():z?placeShort(z[0])+", from your device's time zone":"Your device didn't say. Use your location or pick a city.";
+  $("#whereForget").hidden=!w.gps;$("#whereKm").value=String(LOCAL.chosenKm(w)||(w.mode==="auto"&&!w.gps&&PLACES.z[TZ]?LOCAL.TZ_KM:LOCAL.RADIUS_KM));$("#whereKm").disabled=w.mode==="off"&&!wherePending;
+  if(w.mode==="city"&&w.city&&document.activeElement!==$("#whereCity"))$("#whereCity").value=w.city[0];
+  if(!cityListFilled){cityListFilled=true;$("#cityList").innerHTML=PLACES.cities.map(c=>`<option value="${esc(c[0])}"></option>`).join("")}
+}
+const WHERE_PRIVACY="Your location stays in this browser. The page never sends it anywhere.";
+function openWhere(){whereOpener=document.activeElement;wherePending=null;fillWhere();$("#whereMsg").textContent=WHERE_PRIVACY;$("#whereSheet").hidden=false;const r=document.querySelector('#whereSheet input[name=where]:checked');(r||$("#whereDone")).focus()}
+function closeWhere(){$("#whereSheet").hidden=true;wherePending=null;const o=whereOpener&&whereOpener.isConnected&&!whereOpener.closest("#whereSheet")?whereOpener:$("#whereBtn");o.focus()}
+function pickCity(text){
+  const c=LOCAL.findCity(PLACES,text);
+  if(!c){$("#whereMsg").textContent="No city by that name in the list. Try the nearest big city.";return false}
+  $("#whereCity").value=c[0];
+  if(!(S.where.mode==="city"&&S.where.city&&S.where.city[0]===c[0]))setWhere({mode:"city",city:[c[0],c[1],c[2]],gps:S.where.gps,km:S.where.km});
+  $("#whereMsg").textContent="Showing games with a team within "+kmText(LOCAL.kmOf(S.where))+" of "+placeShort(c[0])+".";return true;
+}
+function useGps(){
+  const msg=$("#whereMsg");
+  if(!navigator.geolocation){msg.textContent="This browser can't share a location. Pick a city instead.";return}
+  msg.textContent="Asking your browser where you are. It may ask its own location service; this page rounds the answer to about a kilometre and keeps it in this browser.";
+  try{navigator.geolocation.getCurrentPosition(p=>{
+    // Rounded to about a kilometre, and kept in this browser
+    const ll=[Math.round(p.coords.latitude*100)/100,Math.round(p.coords.longitude*100)/100];
+    setWhere(Object.assign({},S.where,{mode:"auto",gps:ll}));msg.textContent="Got it. Your location stays in this browser.";
+  },()=>{msg.textContent="Your browser didn't share a location here. Pick a city instead."},{enableHighAccuracy:false,timeout:12000,maximumAge:36e5})}catch(e){msg.textContent="Your browser didn't share a location here. Pick a city instead."}
 }
 
 /* ---------- Data loading ---------- */
@@ -1649,19 +1866,36 @@ function loadFeed(){
   if(!DATA.feed)DATA.feed=fetch(FEED_URL+"results.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(d=>{if(!d||!d.leagues||isNaN(new Date(d.taken)))throw new Error("Bad feed");return d});
   return DATA.feed;
 }
-function defaultSide(g){if(!g||!g.h)return null;if(isMine(g.h,g.lg))return "h";if(isMine(g.a,g.lg))return "a";return null}
+function defaultSide(g){if(!g||!g.h)return null;if(isMine(g.h,g.lg))return "h";if(isMine(g.a,g.lg))return "a";return localSide(g)}
 function chooseGame(games){
-  const mine=games.find(g=>g.h?(isMine(g.h,g.lg)||isMine(g.a,g.lg)):(g.res||[]).some(r=>isMyDriver(r.n)));
-  return mine||games[0]||null;
+  const mine=games.find(g=>typedMine(g))||(exampleOk()?games.find(g=>g.h?(isMine(g.h,g.lg)||isMine(g.a,g.lg)):S.sport==="f1"&&(g.res||[]).some(r=>isMyDriver(r.n))):null);
+  if(mine)return mine;
+  // Near the visitor: the newest game of the nearest teams (within 100 km first, then 250, and so on)
+  const A=area();
+  if(A)for(const k of [100,250,500,1000,2000]){const g=games.find(x=>LOCAL.distance(x,A,PLACES)<=k);if(g)return g}
+  return games[0]||null;
 }
 async function ensureGame(force){
-  const sp=S.sport,lg=currentLg();
-  if(!lg){S.game=null;return}
-  const entry=await loadLeague(lg,force);
-  if(S.sport!==sp||currentLg()!==lg)return;
-  if(force||!S.game||S.game.lg!==lg||!entry.games.some(g=>g.id===S.game.id))selectGame(chooseGame(entry.games));
+  if(force){DATA.cache={};DATA.liveFailed=false;DATA.feed=null}
+  const sig=poolSig(),lgs=poolLeagues();
+  if(!lgs.length){S.game=null;return}
+  await Promise.all(lgs.map(lg=>loadLeague(lg).catch(()=>null)));
+  if(poolSig()!==sig)return;
+  poolMemo={k:null,v:null};
+  const P=pool();if(!P)return;
+  if(force||!S.game||!P.games.some(g=>g.id===S.game.id&&g.lg===S.game.lg))selectGame(chooseGame(P.games));
 }
+// All sports: the talk, voices and team box follow the current game's sport
+function setSport(sp){
+  if(!SPORTS[sp]||sp===S.sport)return;
+  S.sport=sp;pub=null;drill=null;
+  $("#team").value=S.teams[sp]||"";$("#team").placeholder="e.g. "+SPORTS[sp].team;
+  fillTeamList();updateTeamLbl();
+  ensureLingo(sp).then(()=>{if(S.sport===sp){fillTeamList();refresh()}});
+}
+function updateTeamLbl(){const l=$("#teamLbl");if(l)l.textContent=S.pick==="all"?"Your "+(TEAM_WORD[S.sport]||sportWord(S.sport))+" team":"Your team"}
 function selectGame(g){
+  if(g&&S.pick==="all"){const sp=sportOf(g.lg);if(sp)setSport(sp)}
   S.game=g;S.side=defaultSide(g);
   if(g&&g.res){const m=g.res.find(r=>isMyDriver(r.n));S.driver=(m||g.res[0]).n}else S.driver=null;
   pub=null;drill=null;
@@ -2287,31 +2521,34 @@ function crest(t,big){
   return `<i class="crest${big?" big":""}${src?" logo":""}" style="--c:#${hex};--ct:${ink}" aria-hidden="true">${ab}${src?`<img src="${esc(src)}" alt="" decoding="async">`:""}</i>`;
 }
 document.addEventListener("error",e=>{const im=e.target;if(im&&im.tagName==="IMG"&&im.parentNode&&im.parentNode.classList.contains("crest")){im.parentNode.classList.remove("logo");im.remove()}},true);
-function ttPage(entry,lg){
-  const sp=SPORTS[S.sport],now=new Date();
-  const lgs=leagueList();
-  const head=`<div class="tt-head"><div><p class="tt-kick">Results · ${esc(now.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"}))}</p><h3 class="tt-title">${esc(sp.label.replace(/ \(.*\)/,""))}</h3></div><span class="tt-clock">${String(now.getHours()).padStart(2,"0")}:${String(now.getMinutes()).padStart(2,"0")}</span></div>
-  ${lgs.length>1?`<div class="tt-fx" role="group" aria-label="League">${lgs.map(([k,n])=>`<button type="button" data-lg="${esc(k)}" aria-pressed="${k===lg}">${esc(n)}</button>`).join("")}</div>`:""}`;
-  if(!lgs.length)return `<div class="tt">${head}<div class="tt-msg">No results service for ${esc(sp.label)}.<br><span class="y">Use the phrase book and the pub test.</span></div></div>`;
-  if(!entry)return `<div class="tt">${head}<div class="tt-msg"><span class="blink">Searching</span> for ${esc(leagueName(lg))} results…</div></div>`;
+function ttPage(entry){
+  const now=new Date(),A=area(),all=S.pick==="all",sp=SPORTS[all?S.sport:S.pick],lg=currentLg();
+  const lgs=all?[]:leagueList(),title=all?"All sports":sp.label.replace(/ \(.*\)/,""),lc=all?null:lgChoice(),kind=all?"":sportWord(S.pick)+" ";
+  // One tap between local and everywhere, right on the list
+  const toggle=`<div class="tt-where" role="group" aria-label="Where"><button type="button" data-where="local" aria-pressed="${S.where.mode!=="off"&&!!A}">${esc((()=>{const L=A||LOCAL.area(Object.assign({},S.where,{mode:S.where.last&&S.where.last!=="off"?S.where.last:"auto"}),PLACES,TZ);return L?"Near "+placeShort(L.label):"Near me"})())}</button><button type="button" data-where="off" aria-pressed="${S.where.mode==="off"||!A}">Everywhere</button></div>`;
+  const head=`<div class="tt-head"><div><p class="tt-kick">Results · ${esc(now.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"}))}</p><h3 class="tt-title">${esc(title)}</h3></div><span class="tt-clock">${String(now.getHours()).padStart(2,"0")}:${String(now.getMinutes()).padStart(2,"0")}</span></div>
+  ${entry&&entry.none?"":toggle}${entry&&entry.fallback?`<p class="tt-guess">Nothing within ${esc(kmText(A.km))} of ${esc(placeShort(A.label))} this week, so here's every game.${A.km<2000?` <button type="button" class="linkish" data-wider="1">Look further</button> ·`:""} <button type="button" class="linkish" id="whereBtn4">${A.src==="tz"?"Pick my city":"Change your area"}</button></p>`:""}${A&&A.src==="tz"&&!S.where.tzOk&&!(entry&&entry.fallback)?`<p class="tt-guess">Near ${esc(placeShort(A.label))} is a guess from your device's time zone, so this looks ${esc(kmText(A.km))} out. <button type="button" class="linkish" data-guess="ok">That's right</button> · <button type="button" class="linkish" id="whereBtn4">Pick my city</button></p>`:""}${lgs.length>1?`<div class="tt-fx" role="group" aria-label="League">${[["all","All leagues"]].concat(lgs).map(([k,n])=>`<button type="button" data-lg="${esc(k)}" aria-pressed="${k===lc}">${esc(n)}</button>`).join("")}</div>`:""}`;
+  if(entry&&entry.none)return `<div class="tt">${head}<div class="tt-msg">No results service for ${esc(sp.label)}.<br><span class="y">Use the phrase book and the pub test.</span></div></div>`;
+  if(!entry||entry.partial&&!entry.games.length)return `<div class="tt">${head}<div class="tt-msg"><span class="blink">Searching</span> for ${esc(all?"the week's":A?"local":leagueName(lg))} results…</div></div>`;
   let list="";
-  if(!entry.games.length)list=`<div class="tt-msg">No finished ${esc(leagueName(lg))} games in the last three weeks.<br><span class="y">Try another league.</span></div>`;
+  if(!entry.games.length)list=A?`<div class="tt-msg">${S.pick==="f1"?`No F1 race at a circuit within ${esc(kmText(A.km))} of ${esc(placeShort(A.label))} lately.`:`No ${esc(kind)}games with a team within ${esc(kmText(A.km))} of ${esc(placeShort(A.label))} in the last week.`}<br><span class="y"><button type="button" class="linkish" data-where="off">Show everywhere</button> or <button type="button" class="linkish" id="whereBtn2">change your area</button>.</span></div>`:`<div class="tt-msg">No finished ${esc(all?"":leagueName(lg)+" ")}games in the last three weeks.${lgs.length>1?`<br><span class="y">Try another league.</span>`:""}</div>`;
   else{
-    let day="";
-    for(const g of entry.games){
+    let day="";const cap=S.ttAll?entry.games.length:80;
+    for(const g of entry.games.slice(0,cap)){
       const dl=dayLabel(g.date);
       if(dl!==day){day=dl;list+=`<div class="tt-day">${esc(dl)}</div>`}
-      const on=S.game&&S.game.id===g.id;
+      const on=S.game&&S.game.id===g.id&&S.game.lg===g.lg,tag=entry.mixed?`<span class="tt-lg">${esc(lgShort(g.lg))}</span>`:"";
       if(g.res){
         const w=g.res[0],mine=g.res.find(r=>isMyDriver(r.n));
-        list+=`<button type="button" class="tt-row f1" data-game="${esc(g.id)}" aria-pressed="${on}"><span class="tt-team win"><span class="nm">${esc(raceName(g.race))}</span></span><span class="tt-team${mine===w?" mine":""}"><i class="crest p" aria-hidden="true">P1</i><span class="nm">${esc(w.n)}</span></span>${mine&&mine!==w?`<span class="tt-team mine"><i class="crest p" aria-hidden="true">P${mine.pos||""}</i><span class="nm">${esc(mine.n)}</span></span>`:""}<span class="tt-st">Race</span></button>`;
+        list+=`<button type="button" class="tt-row f1" data-game="${esc(g.id)}" data-glg="${esc(g.lg)}" aria-pressed="${on}">${tag}<span class="tt-team win"><span class="nm">${esc(raceName(g.race))}</span></span><span class="tt-team${mine===w?" mine":""}"><i class="crest p" aria-hidden="true">P1</i><span class="nm">${esc(w.n)}</span></span>${mine&&mine!==w?`<span class="tt-team mine"><i class="crest p" aria-hidden="true">P${mine.pos||""}</i><span class="nm">${esc(mine.n)}</span></span>`:""}<span class="tt-st">Race</span></button>`;
       }else{
         const st=g.xt?(/SO/.test(g.st)?"SO":/Pen/i.test(g.st)?"Pens":/AET/.test(g.st)?"AET":"OT"):"FT";
         const team=(t,o)=>`<span class="tt-team${t.sc>o.sc?" win":""}${isMine(t,g.lg)?" mine":""}">${crest(t)}<span class="nm">${esc(t.s)}</span><b class="pts">${t.sc}</b></span>`;
-        list+=`<button type="button" class="tt-row" data-game="${esc(g.id)}" aria-pressed="${on}" aria-label="${esc(g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc+(st==="FT"?"":", "+st))}">${team(g.h,g.a)}${team(g.a,g.h)}<span class="tt-st">${st}</span></button>`;
+        list+=`<button type="button" class="tt-row" data-game="${esc(g.id)}" data-glg="${esc(g.lg)}" aria-pressed="${on}" aria-label="${esc((entry.mixed?lgShort(g.lg)+": ":"")+g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc+(st==="FT"?"":", "+st))}">${tag}${team(g.h,g.a)}${team(g.a,g.h)}<span class="tt-st">${st}</span></button>`;
       }
     }
   }
+  if(entry.games.length>(S.ttAll?entry.games.length:80))list+=`<div class="tt-msg"><button type="button" class="btn small" data-more="1">Show all ${entry.games.length} games</button></div>`;
   const hm=d=>String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0");
   const stamp=entry.src==="live"?"Live "+hm(entry.at):entry.src==="feed"?"Updated "+entry.at.toLocaleDateString("en-GB",{day:"numeric",month:"short"})+" "+hm(entry.at):entry.src==="snap"?"Saved "+entry.at.toLocaleDateString("en-GB",{day:"numeric",month:"short"}):"No data";
   return `<div class="tt">${head}<div class="tt-list" id="ttList">${list}</div><div class="tt-foot"><span>${esc(stamp)} · ESPN</span>${DATA.liveAllowed?`<button type="button" id="ttRefresh">Refresh</button>`:""}</div></div>`;
@@ -2332,12 +2569,12 @@ function srcNote(entry){
   return `<p class="src"><span class="dot"></span><span>ESPN couldn't be reached. Check your connection and press Refresh.</span></p>`;
 }
 function renderScript(){
-  const el=$("#tab-script"),lg=currentLg(),entry=lg?DATA.cache[lg]:null;
+  const el=$("#tab-script"),entry=pool();
   updateStrip();
   // Say it from memory starts on the first line not yet done for this game
   const bk=bluffKey();if(S.memKey!==bk){S.memKey=bk;const r=bluffRec(false),n=[0,1,2].find(j=>!(r&&r.m[j]));S.memI=n==null?0:n}
   const how=`<ol class="how"><li><span><b>Pick a game</b> from the results page. Bluffball's list was always about last night's match.</span></li><li><span><b>Learn the script.</b> Three beats: your line, the reply to expect, your comeback.</span></li><li><span><b>Then leave.</b> After beat three you're off script, and that's where people get caught.</span></li></ol>`;
-  el.innerHTML=`${how}<div class="script-grid"><div class="tt-wrap">${ttPage(entry,lg)}${srcNote(entry)}</div><div class="brief" id="brief">${briefHTML(entry)}</div></div>`;
+  el.innerHTML=`${how}<div class="script-grid"><div class="tt-wrap">${ttPage(entry)}${srcNote(entry)}</div><div class="brief" id="brief">${briefHTML(entry)}</div></div>`;
   const sel=el.querySelector('.tt-row[aria-pressed="true"]');
   if(sel&&sel.scrollIntoView){const list=$("#ttList");if(list&&sel.offsetTop>list.clientHeight)list.scrollTop=sel.offsetTop-list.clientHeight/2}
   bluffWatchBeats();bluffRender();scoreIntro();
@@ -2347,9 +2584,20 @@ function openerHTML(B){
   if(skin()!=="modern"||!B)return "";
   return `<div class="panel opener"><div class="oc-text"><p class="kicker">Your opening line</p><p class="oc-line">“${esc(B.L.open)}”</p><p class="oc-tip">Start with the result. Let them do the analysis.</p></div><div class="oc-acts"><button class="btn primary" type="button" data-bluff="pub">${isNA()?"Practice this game":"Practise this match"} →</button>${canSpeak?`<button class="btn" type="button" data-say="${esc(B.L.open)}" data-who="you">Hear the line</button>`:""}</div></div>`;
 }
+// Redraw just the game panel and the list's selection (a full redraw of a long list is slow)
+function renderBrief(){
+  const b=$("#brief");if(!b){renderScript();return}
+  const bk=bluffKey();if(S.memKey!==bk){S.memKey=bk;const r=bluffRec(false),n=[0,1,2].find(j=>!(r&&r.m[j]));S.memI=n==null?0:n}
+  b.innerHTML=briefHTML(pool());
+  document.querySelectorAll("#ttList .tt-row").forEach(x=>x.setAttribute("aria-pressed",String(!!(S.game&&x.dataset.game===S.game.id&&x.dataset.glg===S.game.lg))));
+  updateStrip();bluffWatchBeats();bluffRender();scoreIntro();
+}
 function briefHTML(entry){
-  if(!leagueList().length)return `<div class="empty"><b>No live results for ${esc(SPORTS[S.sport].label)}</b>ESPN's free feed doesn't carry it. The phrase book, pub test and drill still work.</div>`;
+  if(entry&&entry.none)return `<div class="empty"><b>No live results for ${esc(SPORTS[S.sport].label)}</b>ESPN's free feed doesn't carry it. The phrase book, pub test and drill still work.</div>`;
   if(!entry)return `<div class="empty"><b>Loading results</b>Pulling the last week from ESPN.</div>`;
+  const A=area();
+  if(entry.partial&&!entry.games.length)return `<div class="empty"><b>Loading results</b>Pulling the last week from ESPN.</div>`;
+  if(A&&!entry.games.length&&!S.game)return `<div class="empty"><b>Nothing near ${esc(placeShort(A.label))} this week</b>No games with a team based within ${esc(kmText(A.km))}. <span class="row" style="margin-top:12px"><button class="btn primary" type="button" data-where="off">Show everywhere</button><button class="btn" type="button" id="whereBtn3">Change your area</button></span></div>`;
   const B=currentBrief();
   if(!B)return `<div class="empty"><b>No game picked</b>Choose a league with recent games.</div>`;
   const g=B.g,L=B.L;
@@ -2453,7 +2701,8 @@ const WHEN_LABEL={any:"Any time",win:"After a win",loss:"After a loss",rival:"Ri
 function lingoPick(){
   const pool=lingoPool(S.sport);if(!pool.length)return null;
   const want=(S.lingoPick||{})[S.sport];
-  return pool.find(t=>t.team===want)||myLingo()||(S.game&&!S.game.res&&S.game.h&&lingoOf(S.game.lg,S.game.h))||pool[0];
+  const g=S.game,side=g&&!g.res&&g.h?(S.side||localSide(g)||"h"):null;
+  return pool.find(t=>t.team===want)||((S.teams[S.sport]||"").trim()||exampleOk()?myLingo():null)||(side&&lingoOf(g.lg,side==="a"?g.a:g.h))||pool[0];
 }
 function wordCard(term,say,means,use){
   return `<div class="term"><b>${esc(term)}</b>${canSpeak?`<button class="btn small" type="button" data-say="${esc(term)}">Hear it</button>`:"<span></span>"}${say?`<span class="say">${esc(say)}</span>`:""}<p>${esc(means)}${use?` <span class="muted">“${esc(use)}”</span>`:""}</p></div>`;
@@ -2934,8 +3183,7 @@ function bluffCount(to,key){
 }
 // Your team, as a team in the current league's recent results (for its crest in the team box)
 function myTeamObj(){
-  const lg=currentLg(),e=lg&&DATA.cache[lg];if(!e)return null;
-  for(const g of e.games){if(g.res)continue;for(const t of [g.h,g.a])if(isMine(t,lg))return t}
+  for(const [lg] of leagueList()){const e=DATA.cache[lg];if(!e)continue;for(const g of e.games){if(g.res)continue;for(const t of [g.h,g.a])if(isMine(t,lg))return t}}
   return null;
 }
 function bluffRender(){
@@ -3055,9 +3303,9 @@ const skin=()=>document.documentElement.getAttribute("data-skin")==="retro"?"ret
 const tabLabel=t=>TAB_LABELS[skin()][t]||TAB_LABELS.modern[t];
 function updateTicker(){
   const el=document.getElementById("tickerText");if(!el)return;
-  const entry=DATA.cache[currentLg()],items=[];
-  if(entry)for(const g of entry.games.slice(0,14))items.push(g.res?raceName(g.race)+": "+sur(g.res[0].n)+" wins":g.h.s+" "+g.h.sc+"-"+g.a.sc+" "+g.a.s);
-  const text=items.length?items.join("   •   "):leagueList().length?"Loading the latest scores…":"No live scores for "+SPORTS[S.sport].label;
+  const entry=pool(),items=[];
+  if(entry)for(const g of entry.games.slice(0,14))items.push((entry.mixed&&!g.res?lgShort(g.lg)+": ":"")+(g.res?raceName(g.race)+": "+sur(g.res[0].n)+" wins":g.h.s+" "+g.h.sc+"-"+g.a.sc+" "+g.a.s));
+  const text=items.length?items.join("   •   "):entry&&entry.none?"No live scores for "+SPORTS[S.pick].label:entry&&entry.area?"No games near "+placeShort(entry.area.label)+" this week":"Loading the latest scores…";
   if(el.textContent!==text){el.textContent=text;el.style.setProperty("--tick-dur",Math.max(20,Math.round(text.length*.22))+"s")}
   updateStrip();
 }
@@ -3101,17 +3349,18 @@ const stripScores=new Map(),stripLeagues=new Set();
 let stripHTML="",stripSel=null;
 function updateStrip(){
   const el=document.getElementById("strip");if(!el)return;
-  const lg=currentLg(),entry=lg?DATA.cache[lg]:null,games=entry?entry.games.slice(0,40):[];
+  const entry=pool(),games=entry?entry.games.slice(0,40):[],lg=poolSig();
   if(!games.length){el.hidden=true;el.innerHTML="";stripHTML="";return}
+  const mixed=entry.mixed,label=entry.area&&!entry.fallback?"Near "+placeShort(entry.area.label):S.pick==="all"?"All sports":leagueName(currentLg());
   const card=g=>{
     const on=false,day=dayLabel(g.date).replace(/ \S+$/,"");
-    if(g.res)return `<button type="button" class="sc" data-game="${esc(g.id)}" aria-pressed="${on}"><span class="sc-st">${esc(day)}</span><span class="sc-t win"><span class="nm">${esc(raceName(g.race))}</span></span><span class="sc-t"><i class="crest p" aria-hidden="true">P1</i><span class="nm">${esc(sur(g.res[0].n))}</span></span></button>`;
+    if(g.res)return `<button type="button" class="sc" data-game="${esc(g.id)}" data-glg="${esc(g.lg)}" aria-pressed="${on}"><span class="sc-st">${esc((mixed?"F1 · ":"")+day)}</span><span class="sc-t win"><span class="nm">${esc(raceName(g.race))}</span></span><span class="sc-t"><i class="crest p" aria-hidden="true">P1</i><span class="nm">${esc(sur(g.res[0].n))}</span></span></button>`;
     const st=g.xt?(/SO/.test(g.st)?"Final/SO":/Pen/i.test(g.st)?"Pens":/AET/.test(g.st)?"AET":"Final/OT"):(/^soccer\//.test(g.lg)?"FT":"Final");
     const row=(t,o)=>`<span class="sc-t${t.sc>o.sc?" win":""}${isMine(t,g.lg)?" mine":""}">${crest(t)}<span class="nm">${esc(t.ab||t.s)}</span><b>${t.sc}</b></span>`;
-    return `<button type="button" class="sc" data-game="${esc(g.id)}" aria-pressed="${on}" aria-label="${esc(g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc)}"><span class="sc-st">${esc(st)} · ${esc(day)}</span>${row(g.h,g.a)}${row(g.a,g.h)}</button>`;
+    return `<button type="button" class="sc" data-game="${esc(g.id)}" data-glg="${esc(g.lg)}" aria-pressed="${on}" aria-label="${esc((mixed?lgShort(g.lg)+": ":"")+g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc)}"><span class="sc-st">${esc(mixed?lgShort(g.lg)+" · "+st:st+" · "+day)}</span>${row(g.h,g.a)}${row(g.a,g.h)}</button>`;
   };
   // Rebuild only when the games change, so a strip the visitor has scrolled stays put
-  const html=`<div class="strip-lg">${esc(leagueName(lg))}</div><div class="strip-row">${games.map(card).join("")}</div>`;
+  const html=`<div class="strip-lg">${esc(label)}</div><div class="strip-row">${games.map(card).join("")}</div>`;
   const fresh=html!==stripHTML;
   if(fresh){el.innerHTML=html;stripHTML=html}
   // New results for a league already on screen: the scores that changed flip over like a stadium board
@@ -3123,7 +3372,7 @@ function updateStrip(){
   }
   el.hidden=false;
   let sel=null;
-  el.querySelectorAll(".sc").forEach(b=>{const on=!!(S.game&&b.dataset.game===S.game.id);b.setAttribute("aria-pressed",String(on));if(on)sel=b});
+  el.querySelectorAll(".sc").forEach(b=>{const on=!!(S.game&&b.dataset.game===S.game.id&&b.dataset.glg===S.game.lg);b.setAttribute("aria-pressed",String(on));if(on)sel=b});
   const row=el.querySelector(".strip-row"),id=S.game&&S.game.id;
   // Bring the chosen game into the middle: straight away on a new strip, gliding when the pick changes
   if(sel&&row&&(fresh||id!==stripSel)){
@@ -3177,8 +3426,12 @@ document.addEventListener("click",e=>{
   if(d.skin){setSkin(d.skin);return}
   if(d.tab){go(d.tab);return}
   if(d.go){go(d.go);return}
-  if(d.lg){S.leagues[S.sport]=d.lg;store.set("leagues",S.leagues);S.game=null;loadAndRender();return}
-  if(d.game){const entry=DATA.cache[currentLg()];const g=entry&&entry.games.find(x=>x.id===d.game);if(g&&t.closest("#strip")){selectGame(g);refresh();updateStrip();return}if(g){selectGame(g);renderScript();if(window.innerWidth<940){const b=$("#brief");if(b)b.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})}}return}
+  if(d.lg){if(area())S.lgLocal[S.pick]=d.lg;else{S.leagues[S.pick]=d.lg;store.set("leagues",S.leagues)}S.game=null;S.ttAll=false;poolMemo={k:null,v:null};loadAndRender();return}
+  if(d.guess){setWhere(Object.assign({},S.where,{tzOk:true}),true);focusList();return}
+  if(d.wider){const k=LOCAL.kmOf(S.where),n=LOCAL.DISTANCES.find(x=>x>k);if(n)setWhere(Object.assign({},S.where,{km:n}));focusList();return}
+  if(d.more!=null){S.ttAll=true;renderScript();return}
+  if(d.where){setTimeout(focusList,0);setWhere(d.where==="off"?Object.assign({},S.where,{mode:"off"}):Object.assign({},S.where,{mode:S.where.last&&S.where.last!=="off"&&(S.where.last!=="city"||S.where.city)?S.where.last:"auto"}));if(d.where==="local"&&!area())openWhere();return}
+  if(d.game){const g=findGame(d.game,d.glg);if(g&&t.closest("#strip")){selectGame(g);refresh();updateStrip();return}if(g){const sp0=S.sport;selectGame(g);if(S.sport!==sp0)renderScript();else renderBrief();if(window.innerWidth<940){const b=$("#brief");if(b)b.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})}}return}
   if(d.side!=null){S.side=d.side||null;pub=null;drill=null;renderScript();return}
   if(d.pubmode){newPub(d.pubmode);renderPub();return}
   if(d.opt!=null){answerPub(+d.opt);return}
@@ -3199,6 +3452,10 @@ document.addEventListener("click",e=>{
     case "pocketCopy":copy(pocketText());break;
     case "pocketClear":S.saved=S.saved.filter(x=>x.sp!==S.sport);store.set("saved",S.saved);renderPocket();break;
     case "panicBtn":openPanic();break;
+    case "whereBtn":case "whereBtn2":case "whereBtn3":case "whereBtn4":openWhere();break;
+    case "whereDone":closeWhere();break;
+    case "whereGps":useGps();break;
+    case "whereForget":{const w=Object.assign({},S.where);delete w.gps;setWhere(w);$("#whereMsg").textContent=w.mode==="auto"?(PLACES.z[TZ]?"Forgotten. Near me now means near "+placeShort(PLACES.z[TZ][0])+", from your device's time zone.":"Forgotten. Pick a city, or share your location again."):"Forgotten.";$("#whereGps").focus();break}
     case "bluffBtn":if($("#bluffSheet").hidden)openBluff();else closeBluff();break;
     case "bluffNext":bluffGo(t.dataset.act,t.dataset.i===""?null:+t.dataset.i);break;
     case "bluffReset":{const k=bluffKey();if(k){delete bluffAll[k];bluffSave()}S.memKey=null;if(S.tab==="script")renderScript();bluffRender();openBluff();toast("Meter reset for this game");break}
@@ -3212,26 +3469,41 @@ document.addEventListener("click",e=>{
 });
 document.addEventListener("change",e=>{
   if(e.target.id==="driverSel"){S.driver=e.target.value;pub=null;drill=null;renderScript()}
+  if(e.target.name==="where"){const v=e.target.value;if(v==="city"){const c=S.where.city;if(c)setWhere({mode:"city",city:c,gps:S.where.gps,km:S.where.km});else{wherePending="city";$("#whereKm").disabled=false;$("#whereCity").focus();$("#whereMsg").textContent="Type your city, then pick it from the list."}}else setWhere(Object.assign({},S.where,{mode:v}))}
+  if(e.target.id==="whereCity"){const v=e.target.value;if(PLACES.cities.some(c=>c[0]===v))pickCity(v)}
+  if(e.target.id==="whereKm"){$("#whereMsg").textContent=WHERE_PRIVACY;setWhere(Object.assign({},S.where,{km:+e.target.value}))}
   if(e.target.id==="voiceYou"||e.target.id==="voiceThem")store.set(voiceKey(e.target.id,voiceMode()),e.target.value);
 });
 document.addEventListener("input",e=>{
   const el=e.target;
   if(el.dataset&&el.dataset.cover){const c=Object.assign({},S.covers[S.sport]||{});c[el.dataset.cover]=el.value;S.covers[S.sport]=c;store.set("covers",S.covers);const s=$("#coverStrength");if(s)s.innerHTML=strengthHTML();pub=null;drill=null}
-  if(el.id==="cv-team"||el.id==="team"){S.teams[S.sport]=el.value;store.set("teams",S.teams);if(el.id==="cv-team")$("#team").value=el.value;pub=null;drill=null;clearTimeout(window.teamT);window.teamT=setTimeout(()=>{const entry=DATA.cache[currentLg()];if(entry&&el.id==="team"){selectGame(chooseGame(entry.games))}if(S.tab==="cover")updateCoverHints();else refresh()},400)}
+  if(el.id==="cv-team"||el.id==="team"){S.teams[S.sport]=el.value;store.set("teams",S.teams);if(el.id==="cv-team")$("#team").value=el.value;pub=null;drill=null;clearTimeout(window.teamT);window.teamT=setTimeout(()=>{poolMemo={k:null,v:null};const entry=pool();if(entry&&el.id==="team"){const g=entry.games.find(x=>sportOf(x.lg)===S.sport&&typedMine(x));const inList=S.game&&entry.games.some(x=>x.id===S.game.id&&x.lg===S.game.lg);if(g)selectGame(g);else if(S.pick!=="all"||!inList)selectGame(entry.games.find(x=>sportOf(x.lg)===S.sport)||chooseGame(entry.games))}if(S.tab==="cover")updateCoverHints();else refresh()},400)}
 });
 document.addEventListener("submit",e=>{if(e.target.id==="memForm"){e.preventDefault();memCheck()}});
-document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;if(!$("#panicSheet").hidden)closePanic();if(!$("#voiceSheet").hidden)closeVoices();if(!$("#bluffSheet").hidden)closeBluff()});
+// An open dialog keeps Tab and Shift+Tab inside it
+document.addEventListener("keydown",e=>{
+  if(e.key!=="Tab")return;
+  const sh=[...document.querySelectorAll(".sheet")].find(x=>!x.hidden);if(!sh)return;
+  const f=[...sh.querySelectorAll("button,input,select,textarea,a[href]")].filter(x=>!x.disabled&&!x.hidden&&x.offsetParent!==null);
+  if(!f.length)return;
+  const i=f.indexOf(document.activeElement);
+  if(e.shiftKey&&(i<=0)){e.preventDefault();f[f.length-1].focus()}
+  else if(!e.shiftKey&&(i<0||i===f.length-1)){e.preventDefault();f[0].focus()}
+});
+document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;if(!$("#panicSheet").hidden)closePanic();if(!$("#voiceSheet").hidden)closeVoices();if(!$("#whereSheet").hidden)closeWhere();if(!$("#bluffSheet").hidden)closeBluff()});
 $("#panicSheet").addEventListener("click",e=>{if(e.target.id==="panicSheet")closePanic()});
 $("#voiceSheet").addEventListener("click",e=>{if(e.target.id==="voiceSheet")closeVoices()});
+$("#whereSheet").addEventListener("click",e=>{if(e.target.id==="whereSheet")closeWhere()});
+$("#whereCity").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();pickCity(e.target.value)}});
 
 const sel=$("#sport");
-sel.innerHTML=Object.entries(SPORTS).map(([k,s])=>`<option value="${k}">${esc(s.label)}</option>`).join("");
-sel.value=S.sport;
-$("#team").value=S.teams[S.sport]||"";$("#team").placeholder=SPORTS[S.sport].team;
+sel.innerHTML=`<option value="all">All sports</option>`+Object.entries(SPORTS).map(([k,s])=>`<option value="${k}">${esc(s.label)}</option>`).join("");
+sel.value=S.pick;updateWhereBtn();updateTeamLbl();
+$("#team").value=S.teams[S.sport]||"";$("#team").placeholder="e.g. "+SPORTS[S.sport].team;
 function fillTeamList(){$("#teamList").innerHTML=lingoPool(S.sport).map(t=>`<option value="${esc(t.team)}"></option>`).join("")}
 fillTeamList();
 setSkin(document.documentElement.getAttribute("data-skin")||store.get("skin","modern"));
-sel.addEventListener("change",()=>{S.sport=sel.value;$("#team").value=S.teams[S.sport]||"";$("#team").placeholder=SPORTS[S.sport].team;fillTeamList();S.game=null;pub=null;drill=null;loadAndRender()});
+sel.addEventListener("change",()=>{S.pick=sel.value;if(S.pick!=="all"){S.sport=S.pick;$("#team").value=S.teams[S.sport]||"";$("#team").placeholder="e.g. "+SPORTS[S.sport].team;fillTeamList()}updateTeamLbl();S.game=null;S.ttAll=false;pub=null;drill=null;poolMemo={k:null,v:null};loadAndRender()});
 if(canSpeak){$("#voiceWrap").hidden=false;try{speechSynthesis.getVoices();speechSynthesis.addEventListener("voiceschanged",()=>{if(!$("#voiceSheet").hidden)fillVoiceLists()})}catch(e){}}
 $("#deep").checked=store.get("deep",true);
 $("#deep").addEventListener("change",e=>store.set("deep",e.target.checked));

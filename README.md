@@ -63,6 +63,24 @@ the website.
 - `research/get-teams.js` and `research/teams/`: ESPN's team lists, used when researching
 - `.github/workflows/refresh.yml`: rebuilds the results feed twice a day
 
+## Local mode
+
+Every visit opens on **All sports**, showing games **near you**. The **Where** button sets the
+area: *Near me* (the city of your device's time zone, or your precise location if you choose to
+share it), a city you pick, or *Everywhere*. A game counts as local when either team is based
+within 500 km of you, home or away, or when your own team plays; *How near* changes the distance
+(250 to 2,000 km), and a time-zone guess reaches 1,000 km until you choose. The page opens on the
+nearest team's latest game. Where nothing is near (most of Asia, Africa and Oceania, for the
+leagues the site covers), it shows every game with a note saying so. Your location is worked out
+in your browser and never sent anywhere.
+
+- `src/local.js`: the rules (the build puts it into the page; tests can `require()` it)
+- `research/places.json`: where every team is based, plus the city of each time zone. Made by
+  `node research/get-places.js`: home venues from ESPN team schedules (rugby by hand in
+  `research/places-manual.json`), coordinates from OpenStreetMap's Nominatim, cached in
+  `research/geocode-cache.json`. Re-run it for a new season or promoted teams.
+- `node research/test-local.js`: checks the rules and the data against sample cities
+
 ## Working on it from any computer
 
 You need git and Node.js 18 or later. To push changes, sign the GitHub CLI in once

@@ -1,0 +1,6288 @@
+{
+ "about": "Where teams are based, for Local mode. Built by research/get-places.js: home venues from ESPN team schedules (rugby by hand, research/places-manual.json), coordinates © OpenStreetMap contributors (ODbL) via Nominatim. Keys match placeKey() in src/app.html.",
+ "built": "2026-11-02",
+ "teams": {
+  "baseball/mlb:1": [
+   "Baltimore Orioles",
+   "Baltimore, Maryland",
+   39.29,
+   -76.61
+  ],
+  "baseball/mlb:10": [
+   "New York Yankees",
+   "Bronx, New York",
+   40.85,
+   -73.88
+  ],
+  "baseball/mlb:11": [
+   "Athletics",
+   "Sacramento, California",
+   38.58,
+   -121.49
+  ],
+  "baseball/mlb:12": [
+   "Seattle Mariners",
+   "Seattle, Washington",
+   47.6,
+   -122.33
+  ],
+  "baseball/mlb:13": [
+   "Texas Rangers",
+   "Arlington, Texas",
+   32.74,
+   -97.11
+  ],
+  "baseball/mlb:14": [
+   "Toronto Blue Jays",
+   "Toronto, Ontario",
+   43.65,
+   -79.38
+  ],
+  "baseball/mlb:15": [
+   "Atlanta Braves",
+   "Atlanta, Georgia",
+   33.75,
+   -84.39
+  ],
+  "baseball/mlb:16": [
+   "Chicago Cubs",
+   "Chicago, Illinois",
+   41.88,
+   -87.62
+  ],
+  "baseball/mlb:17": [
+   "Cincinnati Reds",
+   "Cincinnati, Ohio",
+   39.1,
+   -84.51
+  ],
+  "baseball/mlb:18": [
+   "Houston Astros",
+   "Houston, Texas",
+   29.76,
+   -95.37
+  ],
+  "baseball/mlb:19": [
+   "Los Angeles Dodgers",
+   "Los Angeles, California",
+   34.05,
+   -118.24
+  ],
+  "baseball/mlb:2": [
+   "Boston Red Sox",
+   "Boston, Massachusetts",
+   42.36,
+   -71.06
+  ],
+  "baseball/mlb:20": [
+   "Washington Nationals",
+   "Washington, District of Columbia",
+   38.9,
+   -77.04
+  ],
+  "baseball/mlb:21": [
+   "New York Mets",
+   "Queens, New York",
+   40.71,
+   -73.83
+  ],
+  "baseball/mlb:22": [
+   "Philadelphia Phillies",
+   "Philadelphia, Pennsylvania",
+   39.95,
+   -75.16
+  ],
+  "baseball/mlb:23": [
+   "Pittsburgh Pirates",
+   "Pittsburgh, Pennsylvania",
+   40.44,
+   -80
+  ],
+  "baseball/mlb:24": [
+   "St. Louis Cardinals",
+   "St. Louis, Missouri",
+   38.63,
+   -90.19
+  ],
+  "baseball/mlb:25": [
+   "San Diego Padres",
+   "San Diego, California",
+   32.72,
+   -117.16
+  ],
+  "baseball/mlb:26": [
+   "San Francisco Giants",
+   "San Francisco, California",
+   37.79,
+   -122.41
+  ],
+  "baseball/mlb:27": [
+   "Colorado Rockies",
+   "Denver, Colorado",
+   39.74,
+   -104.98
+  ],
+  "baseball/mlb:28": [
+   "Miami Marlins",
+   "Miami, Florida",
+   25.77,
+   -80.19
+  ],
+  "baseball/mlb:29": [
+   "Arizona Diamondbacks",
+   "Phoenix, Arizona",
+   33.45,
+   -112.07
+  ],
+  "baseball/mlb:3": [
+   "Los Angeles Angels",
+   "Anaheim, California",
+   33.83,
+   -117.91
+  ],
+  "baseball/mlb:30": [
+   "Tampa Bay Rays",
+   "St. Petersburg, Florida",
+   27.77,
+   -82.63
+  ],
+  "baseball/mlb:4": [
+   "Chicago White Sox",
+   "Chicago, Illinois",
+   41.88,
+   -87.62
+  ],
+  "baseball/mlb:5": [
+   "Cleveland Guardians",
+   "Cleveland, Ohio",
+   41.5,
+   -81.69
+  ],
+  "baseball/mlb:6": [
+   "Detroit Tigers",
+   "Detroit, Michigan",
+   42.33,
+   -83.05
+  ],
+  "baseball/mlb:7": [
+   "Kansas City Royals",
+   "Kansas City, Missouri",
+   39.1,
+   -94.58
+  ],
+  "baseball/mlb:8": [
+   "Milwaukee Brewers",
+   "Milwaukee, Wisconsin",
+   43.04,
+   -87.91
+  ],
+  "baseball/mlb:9": [
+   "Minnesota Twins",
+   "Minneapolis, Minnesota",
+   44.98,
+   -93.27
+  ],
+  "basketball/nba:1": [
+   "Atlanta Hawks",
+   "Atlanta, GA",
+   33.75,
+   -84.39
+  ],
+  "basketball/nba:10": [
+   "Houston Rockets",
+   "Houston, TX",
+   29.76,
+   -95.37
+  ],
+  "basketball/nba:11": [
+   "Indiana Pacers",
+   "Indianapolis, IN",
+   39.77,
+   -86.16
+  ],
+  "basketball/nba:12": [
+   "LA Clippers",
+   "Inglewood, CA",
+   33.96,
+   -118.35
+  ],
+  "basketball/nba:13": [
+   "Los Angeles Lakers",
+   "Los Angeles, CA",
+   34.05,
+   -118.24
+  ],
+  "basketball/nba:14": [
+   "Miami Heat",
+   "Miami, FL",
+   25.77,
+   -80.19
+  ],
+  "basketball/nba:15": [
+   "Milwaukee Bucks",
+   "Milwaukee, WI",
+   43.04,
+   -87.91
+  ],
+  "basketball/nba:16": [
+   "Minnesota Timberwolves",
+   "Minneapolis, MN",
+   44.98,
+   -93.27
+  ],
+  "basketball/nba:17": [
+   "Brooklyn Nets",
+   "Brooklyn, NY",
+   40.65,
+   -73.95
+  ],
+  "basketball/nba:18": [
+   "New York Knicks",
+   "New York, NY",
+   40.71,
+   -74.01
+  ],
+  "basketball/nba:19": [
+   "Orlando Magic",
+   "Orlando, FL",
+   28.54,
+   -81.38
+  ],
+  "basketball/nba:2": [
+   "Boston Celtics",
+   "Boston, MA",
+   42.36,
+   -71.06
+  ],
+  "basketball/nba:20": [
+   "Philadelphia 76ers",
+   "Philadelphia, PA",
+   39.95,
+   -75.16
+  ],
+  "basketball/nba:21": [
+   "Phoenix Suns",
+   "Phoenix, AZ",
+   33.45,
+   -112.07
+  ],
+  "basketball/nba:22": [
+   "Portland Trail Blazers",
+   "Portland, OR",
+   45.52,
+   -122.67
+  ],
+  "basketball/nba:23": [
+   "Sacramento Kings",
+   "Sacramento, CA",
+   38.58,
+   -121.49
+  ],
+  "basketball/nba:24": [
+   "San Antonio Spurs",
+   "San Antonio, TX",
+   29.42,
+   -98.5
+  ],
+  "basketball/nba:25": [
+   "Oklahoma City Thunder",
+   "Oklahoma City, OK",
+   35.47,
+   -97.52
+  ],
+  "basketball/nba:26": [
+   "Utah Jazz",
+   "Salt Lake City, UT",
+   40.76,
+   -111.89
+  ],
+  "basketball/nba:27": [
+   "Washington Wizards",
+   "Washington, DC",
+   38.9,
+   -77.04
+  ],
+  "basketball/nba:28": [
+   "Toronto Raptors",
+   "Toronto, ON",
+   43.65,
+   -79.38
+  ],
+  "basketball/nba:29": [
+   "Memphis Grizzlies",
+   "Memphis, TN",
+   35.15,
+   -90.05
+  ],
+  "basketball/nba:3": [
+   "New Orleans Pelicans",
+   "New Orleans, LA",
+   29.96,
+   -90.06
+  ],
+  "basketball/nba:30": [
+   "Charlotte Hornets",
+   "Charlotte, NC",
+   35.23,
+   -80.84
+  ],
+  "basketball/nba:4": [
+   "Chicago Bulls",
+   "Chicago, IL",
+   41.88,
+   -87.62
+  ],
+  "basketball/nba:5": [
+   "Cleveland Cavaliers",
+   "Cleveland, OH",
+   41.5,
+   -81.69
+  ],
+  "basketball/nba:6": [
+   "Dallas Mavericks",
+   "Dallas, TX",
+   32.78,
+   -96.8
+  ],
+  "basketball/nba:7": [
+   "Denver Nuggets",
+   "Denver, CO",
+   39.74,
+   -104.98
+  ],
+  "basketball/nba:8": [
+   "Detroit Pistons",
+   "Detroit, MI",
+   42.33,
+   -83.05
+  ],
+  "basketball/nba:9": [
+   "Golden State Warriors",
+   "San Francisco, CA",
+   37.79,
+   -122.41
+  ],
+  "football/cfl:79": [
+   "BC Lions",
+   "Vancouver, Canada",
+   49.26,
+   -123.11
+  ],
+  "football/cfl:80": [
+   "Calgary Stampeders",
+   "Calgary, Canada",
+   51.05,
+   -114.06
+  ],
+  "football/cfl:81": [
+   "Edmonton Elks",
+   "Edmonton, Canada",
+   53.55,
+   -113.49
+  ],
+  "football/cfl:82": [
+   "Hamilton Tiger-Cats",
+   "Hamilton, Ontario, Canada",
+   43.26,
+   -79.87
+  ],
+  "football/cfl:83": [
+   "Montreal Alouettes",
+   "Montreal, Canada",
+   45.5,
+   -73.57
+  ],
+  "football/cfl:84": [
+   "Saskatchewan Roughriders",
+   "Regina, Canada",
+   50.45,
+   -104.62
+  ],
+  "football/cfl:85": [
+   "Toronto Argonauts",
+   "Toronto, Canada",
+   43.65,
+   -79.38
+  ],
+  "football/cfl:86": [
+   "Winnipeg Blue Bombers",
+   "Winnipeg, Canada",
+   49.9,
+   -97.14
+  ],
+  "football/cfl:87": [
+   "Ottawa Red Blacks",
+   "Ottawa, Canada",
+   45.42,
+   -75.69
+  ],
+  "football/college-football:103": [
+   "Boston College Eagles",
+   "Chestnut Hill, MA, United States",
+   42.32,
+   -71.16
+  ],
+  "football/college-football:113": [
+   "Massachusetts Minutemen",
+   "Amherst, MA, United States",
+   42.37,
+   -72.52
+  ],
+  "football/college-football:12": [
+   "Arizona Wildcats",
+   "Tucson, AZ, United States",
+   32.22,
+   -110.97
+  ],
+  "football/college-football:120": [
+   "Maryland Terrapins",
+   "College Park, MD, United States",
+   38.98,
+   -76.94
+  ],
+  "football/college-football:127": [
+   "Michigan State Spartans",
+   "East Lansing, MI, United States",
+   42.73,
+   -84.47
+  ],
+  "football/college-football:130": [
+   "Michigan Wolverines",
+   "Ann Arbor, MI, United States",
+   42.28,
+   -83.75
+  ],
+  "football/college-football:135": [
+   "Minnesota Golden Gophers",
+   "Minneapolis, MN, United States",
+   44.98,
+   -93.27
+  ],
+  "football/college-football:142": [
+   "Missouri Tigers",
+   "Columbia, MO, United States",
+   38.95,
+   -92.33
+  ],
+  "football/college-football:145": [
+   "Ole Miss Rebels",
+   "Oxford, MS, United States",
+   34.37,
+   -89.52
+  ],
+  "football/college-football:150": [
+   "Duke Blue Devils",
+   "Durham, NC, United States",
+   36,
+   -78.9
+  ],
+  "football/college-football:151": [
+   "East Carolina Pirates",
+   "Greenville, NC, United States",
+   35.61,
+   -77.37
+  ],
+  "football/college-football:152": [
+   "NC State Wolfpack",
+   "Raleigh, NC, United States",
+   35.78,
+   -78.64
+  ],
+  "football/college-football:153": [
+   "North Carolina Tar Heels",
+   "Chapel Hill, NC, United States",
+   35.91,
+   -79.06
+  ],
+  "football/college-football:154": [
+   "Wake Forest Demon Deacons",
+   "Winston-Salem, NC, United States",
+   36.1,
+   -80.24
+  ],
+  "football/college-football:158": [
+   "Nebraska Cornhuskers",
+   "Lincoln, NE, United States",
+   40.81,
+   -96.71
+  ],
+  "football/college-football:16": [
+   "Sacramento State Hornets",
+   "Sacramento, CA, United States",
+   38.58,
+   -121.49
+  ],
+  "football/college-football:164": [
+   "Rutgers Scarlet Knights",
+   "Piscataway, NJ, United States",
+   40.55,
+   -74.47
+  ],
+  "football/college-football:166": [
+   "New Mexico State Aggies",
+   "Las Cruces, NM, United States",
+   32.31,
+   -106.78
+  ],
+  "football/college-football:167": [
+   "New Mexico Lobos",
+   "Albuquerque, NM, United States",
+   35.08,
+   -106.65
+  ],
+  "football/college-football:183": [
+   "Syracuse Orange",
+   "Syracuse, NY, United States",
+   43.05,
+   -76.15
+  ],
+  "football/college-football:189": [
+   "Bowling Green Falcons",
+   "Bowling Green, OH, United States",
+   41.37,
+   -83.65
+  ],
+  "football/college-football:193": [
+   "Miami (OH) RedHawks",
+   "Oxford, OH, United States",
+   39.51,
+   -84.74
+  ],
+  "football/college-football:194": [
+   "Ohio State Buckeyes",
+   "Columbus, OH, United States",
+   39.96,
+   -83
+  ],
+  "football/college-football:195": [
+   "Ohio Bobcats",
+   "Athens, OH, United States",
+   39.36,
+   -82.06
+  ],
+  "football/college-football:197": [
+   "Oklahoma State Cowboys",
+   "Stillwater, OK, United States",
+   36.12,
+   -97.06
+  ],
+  "football/college-football:2": [
+   "Auburn Tigers",
+   "Auburn, AL, United States",
+   32.61,
+   -85.48
+  ],
+  "football/college-football:2005": [
+   "Air Force Falcons",
+   "USAF Academy, CO, United States",
+   38.98,
+   -104.86
+  ],
+  "football/college-football:2006": [
+   "Akron Zips",
+   "Akron, OH, United States",
+   41.08,
+   -81.52
+  ],
+  "football/college-football:201": [
+   "Oklahoma Sooners",
+   "Norman, OK, United States",
+   35.22,
+   -97.44
+  ],
+  "football/college-football:202": [
+   "Tulsa Golden Hurricane",
+   "Tulsa, OK, United States",
+   36.16,
+   -95.99
+  ],
+  "football/college-football:2026": [
+   "App State Mountaineers",
+   "Boone, NC, United States",
+   36.22,
+   -81.68
+  ],
+  "football/college-football:2032": [
+   "Arkansas State Red Wolves",
+   "Jonesboro, AR, United States",
+   35.83,
+   -90.7
+  ],
+  "football/college-football:204": [
+   "Oregon State Beavers",
+   "Corvallis, OR, United States",
+   44.56,
+   -123.26
+  ],
+  "football/college-football:2050": [
+   "Ball State Cardinals",
+   "Muncie, IN, United States",
+   40.19,
+   -85.39
+  ],
+  "football/college-football:2084": [
+   "Buffalo Bulls",
+   "Buffalo, NY, United States",
+   42.89,
+   -78.88
+  ],
+  "football/college-football:21": [
+   "San Diego State Aztecs",
+   "San Diego, CA, United States",
+   32.72,
+   -117.16
+  ],
+  "football/college-football:2116": [
+   "UCF Knights",
+   "Orlando, FL, United States",
+   28.54,
+   -81.38
+  ],
+  "football/college-football:2117": [
+   "Central Michigan Chippewas",
+   "Mount Pleasant, MI, United States",
+   43.6,
+   -84.77
+  ],
+  "football/college-football:213": [
+   "Penn State Nittany Lions",
+   "University Park, PA, United States",
+   40.81,
+   -77.87
+  ],
+  "football/college-football:2132": [
+   "Cincinnati Bearcats",
+   "Cincinnati, OH, United States",
+   39.1,
+   -84.51
+  ],
+  "football/college-football:218": [
+   "Temple Owls",
+   "Philadelphia, PA, United States",
+   39.95,
+   -75.16
+  ],
+  "football/college-football:2199": [
+   "Eastern Michigan Eagles",
+   "Ypsilanti, MI, United States",
+   42.24,
+   -83.61
+  ],
+  "football/college-football:221": [
+   "Pittsburgh Panthers",
+   "Pittsburgh, PA, United States",
+   40.44,
+   -80
+  ],
+  "football/college-football:2226": [
+   "Florida Atlantic Owls",
+   "Boca Raton, FL, United States",
+   26.36,
+   -80.08
+  ],
+  "football/college-football:2229": [
+   "Florida International Panthers",
+   "Miami, FL, United States",
+   25.77,
+   -80.19
+  ],
+  "football/college-football:2247": [
+   "Georgia State Panthers",
+   "Atlanta, GA, United States",
+   33.75,
+   -84.39
+  ],
+  "football/college-football:228": [
+   "Clemson Tigers",
+   "Clemson, SC, United States",
+   34.69,
+   -82.84
+  ],
+  "football/college-football:2294": [
+   "Iowa Hawkeyes",
+   "Iowa City, IA, United States",
+   41.66,
+   -91.53
+  ],
+  "football/college-football:23": [
+   "San José State Spartans",
+   "San Jose, CA, United States",
+   37.34,
+   -121.89
+  ],
+  "football/college-football:2305": [
+   "Kansas Jayhawks",
+   "Lawrence, KS, United States",
+   38.97,
+   -95.24
+  ],
+  "football/college-football:2306": [
+   "Kansas State Wildcats",
+   "Manhattan, KS, United States",
+   39.18,
+   -96.57
+  ],
+  "football/college-football:2309": [
+   "Kent State Golden Flashes",
+   "Kent, OH, United States",
+   41.15,
+   -81.36
+  ],
+  "football/college-football:2335": [
+   "Liberty Flames",
+   "Lynchburg, VA, United States",
+   37.41,
+   -79.14
+  ],
+  "football/college-football:2348": [
+   "Louisiana Tech Bulldogs",
+   "Ruston, LA, United States",
+   32.53,
+   -92.64
+  ],
+  "football/college-football:235": [
+   "Memphis Tigers",
+   "Memphis, TN, United States",
+   35.15,
+   -90.05
+  ],
+  "football/college-football:238": [
+   "Vanderbilt Commodores",
+   "Nashville, TN, United States",
+   36.16,
+   -86.77
+  ],
+  "football/college-football:239": [
+   "Baylor Bears",
+   "Waco, TX, United States",
+   31.55,
+   -97.13
+  ],
+  "football/college-football:2390": [
+   "Miami Hurricanes",
+   "Miami Gardens, FL, United States",
+   25.94,
+   -80.25
+  ],
+  "football/college-football:2393": [
+   "Middle Tennessee Blue Raiders",
+   "Murfreesboro, TN, United States",
+   35.85,
+   -86.39
+  ],
+  "football/college-football:24": [
+   "Stanford Cardinal",
+   "Stanford, CA, United States",
+   37.43,
+   -122.17
+  ],
+  "football/college-football:242": [
+   "Rice Owls",
+   "Houston, TX, United States",
+   29.76,
+   -95.37
+  ],
+  "football/college-football:2426": [
+   "Navy Midshipmen",
+   "Annapolis, MD, United States",
+   38.98,
+   -76.49
+  ],
+  "football/college-football:2429": [
+   "Charlotte 49ers",
+   "Charlotte, NC, United States",
+   35.23,
+   -80.84
+  ],
+  "football/college-football:2433": [
+   "UL Monroe Warhawks",
+   "Monroe, LA, United States",
+   32.5,
+   -92.12
+  ],
+  "football/college-football:2439": [
+   "UNLV Rebels",
+   "Las Vegas, NV, United States",
+   36.17,
+   -115.15
+  ],
+  "football/college-football:2440": [
+   "Nevada Wolf Pack",
+   "Reno, NV, United States",
+   39.53,
+   -119.81
+  ],
+  "football/college-football:2449": [
+   "North Dakota State Bison",
+   "Fargo, ND, United States",
+   46.88,
+   -96.79
+  ],
+  "football/college-football:245": [
+   "Texas A&M Aggies",
+   "College Station, TX, United States",
+   30.62,
+   -96.35
+  ],
+  "football/college-football:2459": [
+   "Northern Illinois Huskies",
+   "Dekalb, IL, United States",
+   41.89,
+   -88.77
+  ],
+  "football/college-football:248": [
+   "Houston Cougars",
+   "Houston, TX, United States",
+   29.76,
+   -95.37
+  ],
+  "football/college-football:2483": [
+   "Oregon Ducks",
+   "Eugene, OR, United States",
+   44.05,
+   -123.1
+  ],
+  "football/college-football:249": [
+   "North Texas Mean Green",
+   "Denton, TX, United States",
+   33.18,
+   -97.14
+  ],
+  "football/college-football:25": [
+   "California Golden Bears",
+   "Berkeley, CA, United States",
+   37.87,
+   -122.27
+  ],
+  "football/college-football:2509": [
+   "Purdue Boilermakers",
+   "West Lafayette, IN, United States",
+   40.43,
+   -86.91
+  ],
+  "football/college-football:251": [
+   "Texas Longhorns",
+   "Austin, TX, United States",
+   30.26,
+   -97.75
+  ],
+  "football/college-football:252": [
+   "BYU Cougars",
+   "Provo, UT, United States",
+   40.23,
+   -111.66
+  ],
+  "football/college-football:2534": [
+   "Sam Houston Bearkats",
+   "Huntsville, TX, United States",
+   30.72,
+   -95.55
+  ],
+  "football/college-football:254": [
+   "Utah Utes",
+   "Salt Lake City, UT, United States",
+   40.76,
+   -111.89
+  ],
+  "football/college-football:256": [
+   "James Madison Dukes",
+   "Harrisonburg, VA, United States",
+   38.45,
+   -78.87
+  ],
+  "football/college-football:2567": [
+   "SMU Mustangs",
+   "Dallas, TX, United States",
+   32.78,
+   -96.8
+  ],
+  "football/college-football:2572": [
+   "Southern Miss Golden Eagles",
+   "Hattiesburg, MS, United States",
+   31.33,
+   -89.29
+  ],
+  "football/college-football:2579": [
+   "South Carolina Gamecocks",
+   "Columbia, SC, United States",
+   34,
+   -81.04
+  ],
+  "football/college-football:258": [
+   "Virginia Cavaliers",
+   "Charlottesville, VA, United States",
+   38.03,
+   -78.48
+  ],
+  "football/college-football:259": [
+   "Virginia Tech Hokies",
+   "Blacksburg, VA, United States",
+   37.23,
+   -80.41
+  ],
+  "football/college-football:26": [
+   "UCLA Bruins",
+   "Pasadena, CA, United States",
+   34.15,
+   -118.14
+  ],
+  "football/college-football:2623": [
+   "Missouri State Bears",
+   "Springfield, MO, United States",
+   37.21,
+   -93.29
+  ],
+  "football/college-football:2628": [
+   "TCU Horned Frogs",
+   "Fort Worth, TX, United States",
+   32.75,
+   -97.33
+  ],
+  "football/college-football:2633": [
+   "Tennessee Volunteers",
+   "Knoxville, TN, United States",
+   35.96,
+   -83.92
+  ],
+  "football/college-football:2636": [
+   "UTSA Roadrunners",
+   "San Antonio, TX, United States",
+   29.42,
+   -98.5
+  ],
+  "football/college-football:2638": [
+   "UTEP Miners",
+   "El Paso, TX, United States",
+   31.76,
+   -106.49
+  ],
+  "football/college-football:264": [
+   "Washington Huskies",
+   "Seattle, WA, United States",
+   47.6,
+   -122.33
+  ],
+  "football/college-football:2641": [
+   "Texas Tech Red Raiders",
+   "Lubbock, TX, United States",
+   33.59,
+   -101.85
+  ],
+  "football/college-football:2649": [
+   "Toledo Rockets",
+   "Toledo, OH, United States",
+   41.65,
+   -83.54
+  ],
+  "football/college-football:265": [
+   "Washington State Cougars",
+   "Pullman, WA, United States",
+   46.73,
+   -117.18
+  ],
+  "football/college-football:2653": [
+   "Troy Trojans",
+   "Troy, AL, United States",
+   31.81,
+   -85.97
+  ],
+  "football/college-football:2655": [
+   "Tulane Green Wave",
+   "New Orleans, LA, United States",
+   29.96,
+   -90.06
+  ],
+  "football/college-football:2711": [
+   "Western Michigan Broncos",
+   "Kalamazoo, MI, United States",
+   42.29,
+   -85.59
+  ],
+  "football/college-football:275": [
+   "Wisconsin Badgers",
+   "Madison, WI, United States",
+   43.07,
+   -89.38
+  ],
+  "football/college-football:2751": [
+   "Wyoming Cowboys",
+   "Laramie, WY, United States",
+   41.31,
+   -105.59
+  ],
+  "football/college-football:276": [
+   "Marshall Thundering Herd",
+   "Huntington, WV, United States",
+   38.42,
+   -82.45
+  ],
+  "football/college-football:277": [
+   "West Virginia Mountaineers",
+   "Morgantown, WV, United States",
+   39.63,
+   -79.96
+  ],
+  "football/college-football:278": [
+   "Fresno State Bulldogs",
+   "Fresno, CA, United States",
+   36.74,
+   -119.78
+  ],
+  "football/college-football:290": [
+   "Georgia Southern Eagles",
+   "Statesboro, GA, United States",
+   32.45,
+   -81.78
+  ],
+  "football/college-football:295": [
+   "Old Dominion Monarchs",
+   "Norfolk, VA, United States",
+   36.85,
+   -76.29
+  ],
+  "football/college-football:30": [
+   "USC Trojans",
+   "Los Angeles, CA, United States",
+   34.05,
+   -118.24
+  ],
+  "football/college-football:309": [
+   "Louisiana Ragin' Cajuns",
+   "Lafayette, LA, United States",
+   30.23,
+   -92.02
+  ],
+  "football/college-football:324": [
+   "Coastal Carolina Chanticleers",
+   "Conway, SC, United States",
+   33.84,
+   -79.05
+  ],
+  "football/college-football:326": [
+   "Texas State Bobcats",
+   "San Marcos, TX, United States",
+   29.88,
+   -97.94
+  ],
+  "football/college-football:328": [
+   "Utah State Aggies",
+   "Logan, UT, United States",
+   41.73,
+   -111.83
+  ],
+  "football/college-football:333": [
+   "Alabama Crimson Tide",
+   "Tuscaloosa, AL, United States",
+   33.21,
+   -87.57
+  ],
+  "football/college-football:338": [
+   "Kennesaw State Owls",
+   "Kennesaw, GA, United States",
+   34.02,
+   -84.62
+  ],
+  "football/college-football:344": [
+   "Mississippi State Bulldogs",
+   "Starkville, MS, United States",
+   33.46,
+   -88.82
+  ],
+  "football/college-football:349": [
+   "Army Black Knights",
+   "West Point, NY, United States",
+   41.39,
+   -73.97
+  ],
+  "football/college-football:356": [
+   "Illinois Fighting Illini",
+   "Champaign, IL, United States",
+   40.12,
+   -88.24
+  ],
+  "football/college-football:36": [
+   "Colorado State Rams",
+   "Fort Collins, CO, United States",
+   40.59,
+   -105.08
+  ],
+  "football/college-football:38": [
+   "Colorado Buffaloes",
+   "Boulder, CO, United States",
+   40.01,
+   -105.27
+  ],
+  "football/college-football:41": [
+   "UConn Huskies",
+   "East Hartford, CT, United States",
+   41.77,
+   -72.64
+  ],
+  "football/college-football:48": [
+   "Delaware Blue Hens",
+   "Newark, DE, United States",
+   39.68,
+   -75.75
+  ],
+  "football/college-football:5": [
+   "UAB Blazers",
+   "Birmingham, AL, United States",
+   33.52,
+   -86.8
+  ],
+  "football/college-football:52": [
+   "Florida State Seminoles",
+   "Tallahassee, FL, United States",
+   30.44,
+   -84.28
+  ],
+  "football/college-football:55": [
+   "Jacksonville State Gamecocks",
+   "Jacksonville, AL, United States",
+   33.81,
+   -85.76
+  ],
+  "football/college-football:57": [
+   "Florida Gators",
+   "Gainesville, FL, United States",
+   29.65,
+   -82.32
+  ],
+  "football/college-football:58": [
+   "South Florida Bulls",
+   "Tampa, FL, United States",
+   27.94,
+   -82.46
+  ],
+  "football/college-football:59": [
+   "Georgia Tech Yellow Jackets",
+   "Atlanta, GA, United States",
+   33.75,
+   -84.39
+  ],
+  "football/college-football:6": [
+   "South Alabama Jaguars",
+   "Mobile, AL, United States",
+   30.69,
+   -88.04
+  ],
+  "football/college-football:61": [
+   "Georgia Bulldogs",
+   "Athens, GA, United States",
+   33.96,
+   -83.38
+  ],
+  "football/college-football:62": [
+   "Hawai'i Rainbow Warriors",
+   "Honolulu, HI, United States",
+   21.3,
+   -157.86
+  ],
+  "football/college-football:66": [
+   "Iowa State Cyclones",
+   "Ames, IA, United States",
+   42.03,
+   -93.62
+  ],
+  "football/college-football:68": [
+   "Boise State Broncos",
+   "Boise, ID, United States",
+   43.62,
+   -116.2
+  ],
+  "football/college-football:77": [
+   "Northwestern Wildcats",
+   "Evanston, IL, United States",
+   42.07,
+   -87.68
+  ],
+  "football/college-football:8": [
+   "Arkansas Razorbacks",
+   "Fayetteville, AR, United States",
+   36.06,
+   -94.16
+  ],
+  "football/college-football:84": [
+   "Indiana Hoosiers",
+   "Bloomington, IN, United States",
+   39.17,
+   -86.53
+  ],
+  "football/college-football:87": [
+   "Notre Dame Fighting Irish",
+   "Notre Dame, IN, United States",
+   41.7,
+   -86.24
+  ],
+  "football/college-football:9": [
+   "Arizona State Sun Devils",
+   "Tempe, AZ, United States",
+   33.43,
+   -111.94
+  ],
+  "football/college-football:96": [
+   "Kentucky Wildcats",
+   "Lexington, KY, United States",
+   38.05,
+   -84.5
+  ],
+  "football/college-football:97": [
+   "Louisville Cardinals",
+   "Louisville, KY, United States",
+   38.25,
+   -85.76
+  ],
+  "football/college-football:98": [
+   "Western Kentucky Hilltoppers",
+   "Bowling Green, KY, United States",
+   36.99,
+   -86.44
+  ],
+  "football/college-football:99": [
+   "LSU Tigers",
+   "Baton Rouge, LA, United States",
+   30.45,
+   -91.19
+  ],
+  "football/nfl:1": [
+   "Atlanta Falcons",
+   "Atlanta, GA, United States",
+   33.75,
+   -84.39
+  ],
+  "football/nfl:10": [
+   "Tennessee Titans",
+   "Nashville, TN, United States",
+   36.16,
+   -86.77
+  ],
+  "football/nfl:11": [
+   "Indianapolis Colts",
+   "Indianapolis, IN, United States",
+   39.77,
+   -86.16
+  ],
+  "football/nfl:12": [
+   "Kansas City Chiefs",
+   "Kansas City, MO, United States",
+   39.1,
+   -94.58
+  ],
+  "football/nfl:13": [
+   "Las Vegas Raiders",
+   "Las Vegas, NV, United States",
+   36.17,
+   -115.15
+  ],
+  "football/nfl:14": [
+   "Los Angeles Rams",
+   "Inglewood, CA, United States",
+   33.96,
+   -118.35
+  ],
+  "football/nfl:15": [
+   "Miami Dolphins",
+   "Miami Gardens, FL, United States",
+   25.94,
+   -80.25
+  ],
+  "football/nfl:16": [
+   "Minnesota Vikings",
+   "Minneapolis, MN, United States",
+   44.98,
+   -93.27
+  ],
+  "football/nfl:17": [
+   "New England Patriots",
+   "Foxborough, MA, United States",
+   42.07,
+   -71.25
+  ],
+  "football/nfl:18": [
+   "New Orleans Saints",
+   "New Orleans, LA, United States",
+   29.96,
+   -90.06
+  ],
+  "football/nfl:19": [
+   "New York Giants",
+   "East Rutherford, NJ, United States",
+   40.83,
+   -74.1
+  ],
+  "football/nfl:2": [
+   "Buffalo Bills",
+   "Orchard Park, NY, United States",
+   42.77,
+   -78.74
+  ],
+  "football/nfl:20": [
+   "New York Jets",
+   "East Rutherford, NJ, United States",
+   40.83,
+   -74.1
+  ],
+  "football/nfl:21": [
+   "Philadelphia Eagles",
+   "Philadelphia, PA, United States",
+   39.95,
+   -75.16
+  ],
+  "football/nfl:22": [
+   "Arizona Cardinals",
+   "Glendale, AZ, United States",
+   33.54,
+   -112.19
+  ],
+  "football/nfl:23": [
+   "Pittsburgh Steelers",
+   "Pittsburgh, PA, United States",
+   40.44,
+   -80
+  ],
+  "football/nfl:24": [
+   "Los Angeles Chargers",
+   "Inglewood, CA, United States",
+   33.96,
+   -118.35
+  ],
+  "football/nfl:25": [
+   "San Francisco 49ers",
+   "Santa Clara, Santa Clara County, California, United States",
+   37.35,
+   -121.96
+  ],
+  "football/nfl:26": [
+   "Seattle Seahawks",
+   "Seattle, WA, United States",
+   47.6,
+   -122.33
+  ],
+  "football/nfl:27": [
+   "Tampa Bay Buccaneers",
+   "Tampa, FL, United States",
+   27.94,
+   -82.46
+  ],
+  "football/nfl:28": [
+   "Washington Commanders",
+   "Landover, MD, United States",
+   38.93,
+   -76.88
+  ],
+  "football/nfl:29": [
+   "Carolina Panthers",
+   "Charlotte, NC, United States",
+   35.23,
+   -80.84
+  ],
+  "football/nfl:3": [
+   "Chicago Bears",
+   "Chicago, IL, United States",
+   41.88,
+   -87.62
+  ],
+  "football/nfl:30": [
+   "Jacksonville Jaguars",
+   "Jacksonville, FL, United States",
+   30.33,
+   -81.66
+  ],
+  "football/nfl:33": [
+   "Baltimore Ravens",
+   "Baltimore, MD, United States",
+   39.29,
+   -76.61
+  ],
+  "football/nfl:34": [
+   "Houston Texans",
+   "Houston, TX, United States",
+   29.76,
+   -95.37
+  ],
+  "football/nfl:4": [
+   "Cincinnati Bengals",
+   "Cincinnati, OH, United States",
+   39.1,
+   -84.51
+  ],
+  "football/nfl:5": [
+   "Cleveland Browns",
+   "Cleveland, OH, United States",
+   41.5,
+   -81.69
+  ],
+  "football/nfl:6": [
+   "Dallas Cowboys",
+   "Arlington, TX, United States",
+   32.74,
+   -97.11
+  ],
+  "football/nfl:7": [
+   "Denver Broncos",
+   "Denver, CO, United States",
+   39.74,
+   -104.98
+  ],
+  "football/nfl:8": [
+   "Detroit Lions",
+   "Detroit, MI, United States",
+   42.33,
+   -83.05
+  ],
+  "football/nfl:9": [
+   "Green Bay Packers",
+   "Green Bay, WI, United States",
+   44.51,
+   -88.01
+  ],
+  "hockey/nhl:1": [
+   "Boston Bruins",
+   "Boston, MA, United States",
+   42.36,
+   -71.06
+  ],
+  "hockey/nhl:10": [
+   "Montreal Canadiens",
+   "Montreal, QC, Canada",
+   45.5,
+   -73.57
+  ],
+  "hockey/nhl:11": [
+   "New Jersey Devils",
+   "Newark, NJ, United States",
+   40.74,
+   -74.17
+  ],
+  "hockey/nhl:12": [
+   "New York Islanders",
+   "Elmont, NY, United States",
+   40.71,
+   -73.71
+  ],
+  "hockey/nhl:124292": [
+   "Seattle Kraken",
+   "Seattle, WA, United States",
+   47.6,
+   -122.33
+  ],
+  "hockey/nhl:129764": [
+   "Utah Mammoth",
+   "Salt Lake City, UT, United States",
+   40.76,
+   -111.89
+  ],
+  "hockey/nhl:13": [
+   "New York Rangers",
+   "New York, NY, United States",
+   40.71,
+   -74.01
+  ],
+  "hockey/nhl:14": [
+   "Ottawa Senators",
+   "Ottawa, ON, Canada",
+   45.42,
+   -75.69
+  ],
+  "hockey/nhl:15": [
+   "Philadelphia Flyers",
+   "Philadelphia, PA, United States",
+   39.95,
+   -75.16
+  ],
+  "hockey/nhl:16": [
+   "Pittsburgh Penguins",
+   "Pittsburgh, PA, United States",
+   40.44,
+   -80
+  ],
+  "hockey/nhl:17": [
+   "Colorado Avalanche",
+   "Denver, CO, United States",
+   39.74,
+   -104.98
+  ],
+  "hockey/nhl:18": [
+   "San Jose Sharks",
+   "San Jose, CA, United States",
+   37.34,
+   -121.89
+  ],
+  "hockey/nhl:19": [
+   "St. Louis Blues",
+   "St. Louis, MO, United States",
+   38.63,
+   -90.19
+  ],
+  "hockey/nhl:2": [
+   "Buffalo Sabres",
+   "Buffalo, NY, United States",
+   42.89,
+   -78.88
+  ],
+  "hockey/nhl:20": [
+   "Tampa Bay Lightning",
+   "Tampa, FL, United States",
+   27.94,
+   -82.46
+  ],
+  "hockey/nhl:21": [
+   "Toronto Maple Leafs",
+   "Toronto, ON, Canada",
+   43.65,
+   -79.38
+  ],
+  "hockey/nhl:22": [
+   "Vancouver Canucks",
+   "Vancouver, BC, Canada",
+   49.26,
+   -123.11
+  ],
+  "hockey/nhl:23": [
+   "Washington Capitals",
+   "Washington, DC, United States",
+   38.9,
+   -77.04
+  ],
+  "hockey/nhl:25": [
+   "Anaheim Ducks",
+   "Anaheim, CA, United States",
+   33.83,
+   -117.91
+  ],
+  "hockey/nhl:26": [
+   "Florida Panthers",
+   "Sunrise, FL, United States",
+   26.17,
+   -80.28
+  ],
+  "hockey/nhl:27": [
+   "Nashville Predators",
+   "Nashville, TN, United States",
+   36.16,
+   -86.77
+  ],
+  "hockey/nhl:28": [
+   "Winnipeg Jets",
+   "Winnipeg, MB, Canada",
+   49.9,
+   -97.14
+  ],
+  "hockey/nhl:29": [
+   "Columbus Blue Jackets",
+   "Columbus, OH, United States",
+   39.96,
+   -83
+  ],
+  "hockey/nhl:3": [
+   "Calgary Flames",
+   "Calgary, AB, Canada",
+   51.05,
+   -114.06
+  ],
+  "hockey/nhl:30": [
+   "Minnesota Wild",
+   "Saint Paul, MN, United States",
+   44.95,
+   -93.09
+  ],
+  "hockey/nhl:37": [
+   "Vegas Golden Knights",
+   "Las Vegas, NV, United States",
+   36.17,
+   -115.15
+  ],
+  "hockey/nhl:4": [
+   "Chicago Blackhawks",
+   "Chicago, IL, United States",
+   41.88,
+   -87.62
+  ],
+  "hockey/nhl:5": [
+   "Detroit Red Wings",
+   "Detroit, MI, United States",
+   42.33,
+   -83.05
+  ],
+  "hockey/nhl:6": [
+   "Edmonton Oilers",
+   "Edmonton, AB, Canada",
+   53.55,
+   -113.49
+  ],
+  "hockey/nhl:7": [
+   "Carolina Hurricanes",
+   "Raleigh, NC, United States",
+   35.78,
+   -78.64
+  ],
+  "hockey/nhl:8": [
+   "Los Angeles Kings",
+   "Los Angeles, CA, United States",
+   34.05,
+   -118.24
+  ],
+  "hockey/nhl:9": [
+   "Dallas Stars",
+   "Dallas, TX, United States",
+   32.78,
+   -96.8
+  ],
+  "rugby:1": [
+   "England",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "rugby:10": [
+   "Argentina",
+   "Buenos Aires, Argentina",
+   -34.61,
+   -58.39
+  ],
+  "rugby:116227": [
+   "Exeter Chiefs",
+   "Exeter, England",
+   50.73,
+   -3.53
+  ],
+  "rugby:119318": [
+   "La Rochelle",
+   "La Rochelle, France",
+   46.16,
+   -1.15
+  ],
+  "rugby:14": [
+   "Fiji",
+   "Suva, Fiji",
+   -18.14,
+   178.44
+  ],
+  "rugby:143736": [
+   "Lyon",
+   "Lyon, France",
+   45.76,
+   4.83
+  ],
+  "rugby:143737": [
+   "Bordeaux Begles",
+   "Bordeaux, France",
+   44.84,
+   -0.58
+  ],
+  "rugby:15": [
+   "Samoa",
+   "Apia, Samoa",
+   -13.83,
+   -171.76
+  ],
+  "rugby:16": [
+   "Tonga",
+   "Nuku'alofa, Tonga",
+   -21.13,
+   -175.2
+  ],
+  "rugby:167124": [
+   "Zebre",
+   "Parma, Italy",
+   44.7,
+   10.1
+  ],
+  "rugby:190153": [
+   "Oyonnax",
+   "Oyonnax, France",
+   46.26,
+   5.66
+  ],
+  "rugby:2": [
+   "Scotland",
+   "Edinburgh, Scotland",
+   55.95,
+   -3.19
+  ],
+  "rugby:20": [
+   "Italy",
+   "Rome, Italy",
+   41.89,
+   12.48
+  ],
+  "rugby:23": [
+   "Japan",
+   "Tokyo, Japan",
+   35.68,
+   139.76
+  ],
+  "rugby:25": [
+   "Canada",
+   "Vancouver, Canada",
+   49.26,
+   -123.11
+  ],
+  "rugby:25898": [
+   "Bath Rugby",
+   "Bath, England",
+   51.38,
+   -2.36
+  ],
+  "rugby:25899": [
+   "Bristol Rugby",
+   "Bristol, England",
+   51.44,
+   -2.58
+  ],
+  "rugby:25900": [
+   "Gloucester Rugby",
+   "Gloucester, England",
+   51.87,
+   -2.25
+  ],
+  "rugby:25901": [
+   "Harlequins",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "rugby:25903": [
+   "Leicester Tigers",
+   "Leicester, England",
+   52.64,
+   -1.13
+  ],
+  "rugby:25906": [
+   "Newcastle Falcons",
+   "Newcastle upon Tyne, England",
+   54.97,
+   -1.61
+  ],
+  "rugby:25907": [
+   "Northampton Saints",
+   "Northampton, England",
+   52.23,
+   -0.9
+  ],
+  "rugby:25908": [
+   "Sale Sharks",
+   "Salford, England",
+   53.49,
+   -2.29
+  ],
+  "rugby:25909": [
+   "Saracens",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "rugby:25912": [
+   "Bayonne",
+   "Bayonne, France",
+   43.49,
+   -1.47
+  ],
+  "rugby:25916": [
+   "Castres Olympique",
+   "Castres, Tarn, France",
+   43.61,
+   2.24
+  ],
+  "rugby:25917": [
+   "Clermont Auvergne",
+   "Clermont-Ferrand, France",
+   45.78,
+   3.08
+  ],
+  "rugby:25918": [
+   "Montpellier Herault",
+   "Montpellier, France",
+   43.61,
+   3.88
+  ],
+  "rugby:25920": [
+   "Perpignan",
+   "Perpignan, France",
+   42.7,
+   2.9
+  ],
+  "rugby:25921": [
+   "Stade Francais Paris",
+   "Paris, France",
+   48.85,
+   2.35
+  ],
+  "rugby:25922": [
+   "Stade Toulousain",
+   "Toulouse, France",
+   43.6,
+   1.44
+  ],
+  "rugby:25923": [
+   "Connacht",
+   "Galway, Ireland",
+   53.27,
+   -9.05
+  ],
+  "rugby:25924": [
+   "Leinster",
+   "Dublin, Ireland",
+   53.35,
+   -6.26
+  ],
+  "rugby:25925": [
+   "Munster",
+   "Limerick, Ireland",
+   52.66,
+   -8.63
+  ],
+  "rugby:25926": [
+   "Ulster",
+   "Belfast, Northern Ireland",
+   54.6,
+   -5.93
+  ],
+  "rugby:25927": [
+   "Benetton Treviso",
+   "Treviso, Italy",
+   45.81,
+   12.21
+  ],
+  "rugby:25951": [
+   "Edinburgh",
+   "Edinburgh, Scotland",
+   55.95,
+   -3.19
+  ],
+  "rugby:25952": [
+   "Glasgow Warriors",
+   "Glasgow, Scotland",
+   55.86,
+   -4.25
+  ],
+  "rugby:25953": [
+   "Bulls",
+   "Pretoria, South Africa",
+   -25.75,
+   28.19
+  ],
+  "rugby:25958": [
+   "Lions",
+   "Johannesburg, South Africa",
+   -26.2,
+   28.05
+  ],
+  "rugby:25961": [
+   "Sharks",
+   "Durban, South Africa",
+   -29.86,
+   31.01
+  ],
+  "rugby:25962": [
+   "Stormers",
+   "Cape Town, South Africa",
+   -33.93,
+   18.42
+  ],
+  "rugby:25965": [
+   "Cardiff Blues",
+   "Cardiff, Wales",
+   51.48,
+   -3.18
+  ],
+  "rugby:25966": [
+   "Scarlets",
+   "Llanelli, Wales",
+   51.68,
+   -4.16
+  ],
+  "rugby:25967": [
+   "Dragons",
+   "Newport, Wales",
+   51.57,
+   -2.98
+  ],
+  "rugby:25968": [
+   "Ospreys",
+   "Swansea, Wales",
+   51.62,
+   -3.95
+  ],
+  "rugby:25986": [
+   "Toulon",
+   "Toulon, France",
+   43.13,
+   5.93
+  ],
+  "rugby:270567": [
+   "Pau",
+   "Pau, France",
+   43.3,
+   -0.37
+  ],
+  "rugby:289267": [
+   "Belgium",
+   "Brussels, Belgium",
+   50.85,
+   4.35
+  ],
+  "rugby:289268": [
+   "Hong Kong",
+   "Hong Kong",
+   22.28,
+   114.16
+  ],
+  "rugby:29": [
+   "Uruguay",
+   "Montevideo, Uruguay",
+   -34.91,
+   -56.19
+  ],
+  "rugby:3": [
+   "Ireland",
+   "Dublin, Ireland",
+   53.35,
+   -6.26
+  ],
+  "rugby:33": [
+   "Brazil",
+   "Sao Paulo, Brazil",
+   -23.55,
+   -46.63
+  ],
+  "rugby:4": [
+   "Wales",
+   "Cardiff, Wales",
+   51.48,
+   -3.18
+  ],
+  "rugby:5": [
+   "South Africa",
+   "Johannesburg, South Africa",
+   -26.2,
+   28.05
+  ],
+  "rugby:57": [
+   "Russia",
+   "Moscow, Russia",
+   55.63,
+   37.61
+  ],
+  "rugby:6": [
+   "Australia",
+   "Sydney, Australia",
+   -33.87,
+   151.21
+  ],
+  "rugby:8": [
+   "New Zealand",
+   "Auckland, New Zealand",
+   -36.85,
+   174.76
+  ],
+  "rugby:81": [
+   "Georgia",
+   "Tbilisi, Georgia",
+   41.69,
+   44.8
+  ],
+  "rugby:9": [
+   "France",
+   "Paris, France",
+   48.85,
+   2.35
+  ],
+  "rugby:99855": [
+   "Racing 92",
+   "Nanterre, France",
+   48.89,
+   2.21
+  ],
+  "soccer:101": [
+   "Rayo Vallecano",
+   "Madrid, Spain",
+   40.42,
+   -3.7
+  ],
+  "soccer:1010": [
+   "OFI Crete",
+   "Heraklion, Greece",
+   35.34,
+   25.13
+  ],
+  "soccer:102": [
+   "Villarreal",
+   "Villarreal, Spain",
+   39.94,
+   -0.1
+  ],
+  "soccer:103": [
+   "AC Milan",
+   "Milano, Italy",
+   45.46,
+   9.19
+  ],
+  "soccer:10388": [
+   "SV Elversberg",
+   "Spiesen-Elversberg, Germany",
+   49.31,
+   7.14
+  ],
+  "soccer:104": [
+   "AS Roma",
+   "Roma, Italy",
+   41.89,
+   12.48
+  ],
+  "soccer:105": [
+   "Atalanta",
+   "Bergamo, Italy",
+   45.76,
+   9.75
+  ],
+  "soccer:1068": [
+   "Atlético Madrid",
+   "Madrid, Spain",
+   40.42,
+   -3.7
+  ],
+  "soccer:107": [
+   "Bologna",
+   "Bologna, Italy",
+   44.49,
+   11.34
+  ],
+  "soccer:10739": [
+   "Philadelphia Union",
+   "Chester, Delaware County, Pennsylvania, United States",
+   39.85,
+   -75.36
+  ],
+  "soccer:109": [
+   "Fiorentina",
+   "Firenze, Italy",
+   43.77,
+   11.26
+  ],
+  "soccer:110": [
+   "Internazionale",
+   "Milano, Italy",
+   45.46,
+   9.19
+  ],
+  "soccer:111": [
+   "Juventus",
+   "Torino, Italy",
+   45.07,
+   7.68
+  ],
+  "soccer:112": [
+   "Lazio",
+   "Roma, Italy",
+   41.89,
+   12.48
+  ],
+  "soccer:113": [
+   "Lecce",
+   "Lecce, Italy",
+   40.15,
+   18.23
+  ],
+  "soccer:114": [
+   "Napoli",
+   "Napoli, Italy",
+   40.84,
+   14.25
+  ],
+  "soccer:11420": [
+   "RB Leipzig",
+   "Leipzig, Germany",
+   51.34,
+   12.37
+  ],
+  "soccer:115": [
+   "Parma",
+   "Parma, Italy",
+   44.7,
+   10.1
+  ],
+  "soccer:11505": [
+   "Jagiellonia Bialystok",
+   "Bialystok, Poland",
+   53.13,
+   23.16
+  ],
+  "soccer:11706": [
+   "Viktoria Plzen",
+   "Plzen, Czechia",
+   49.75,
+   13.38
+  ],
+  "soccer:118": [
+   "Udinese",
+   "Udine, Italy",
+   46.06,
+   13.24
+  ],
+  "soccer:12011": [
+   "Orlando City SC",
+   "Orlando, Florida, United States",
+   28.54,
+   -81.38
+  ],
+  "soccer:122": [
+   "FC Cologne",
+   "Cologne, Germany",
+   50.94,
+   6.96
+  ],
+  "soccer:124": [
+   "Borussia Dortmund",
+   "Dortmund, Germany",
+   51.51,
+   7.47
+  ],
+  "soccer:125": [
+   "Eintracht Frankfurt",
+   "Frankfurt, Germany",
+   50.11,
+   8.68
+  ],
+  "soccer:126": [
+   "SC Freiburg",
+   "Freiburg im Breisgau, Germany",
+   48,
+   7.85
+  ],
+  "soccer:127": [
+   "Hamburg SV",
+   "Hamburg, Germany",
+   53.55,
+   10
+  ],
+  "soccer:13083": [
+   "Hapoel Be'er Sheva",
+   "Beersheba, Israel",
+   31.25,
+   34.79
+  ],
+  "soccer:131": [
+   "Bayer Leverkusen",
+   "Leverkusen, Germany",
+   51.03,
+   6.99
+  ],
+  "soccer:132": [
+   "Bayern Munich",
+   "München, Germany",
+   48.14,
+   11.58
+  ],
+  "soccer:133": [
+   "Schalke 04",
+   "Gelsenkirchen, Germany",
+   51.51,
+   7.1
+  ],
+  "soccer:134": [
+   "VfB Stuttgart",
+   "Stuttgart, Germany",
+   48.78,
+   9.18
+  ],
+  "soccer:137": [
+   "Werder Bremen",
+   "Bremen, Germany",
+   53.08,
+   8.81
+  ],
+  "soccer:140": [
+   "AZ Alkmaar",
+   "Alkmaar, Netherlands",
+   52.6,
+   4.82
+  ],
+  "soccer:142": [
+   "Feyenoord Rotterdam",
+   "Rotterdam, Netherlands",
+   51.92,
+   4.48
+  ],
+  "soccer:147": [
+   "NEC Nijmegen",
+   "Nijmegen, Netherlands",
+   51.85,
+   5.86
+  ],
+  "soccer:148": [
+   "PSV Eindhoven",
+   "Eindhoven, Netherlands",
+   51.44,
+   5.48
+  ],
+  "soccer:1538": [
+   "Levante",
+   "Valencia, Spain",
+   39.47,
+   -0.38
+  ],
+  "soccer:160": [
+   "Paris Saint-Germain",
+   "Paris, France",
+   48.85,
+   2.35
+  ],
+  "soccer:166": [
+   "Lille",
+   "Lille, France",
+   50.64,
+   3.06
+  ],
+  "soccer:167": [
+   "Lyon",
+   "Lyon, France",
+   45.76,
+   4.83
+  ],
+  "soccer:169": [
+   "Stade Rennais",
+   "Rennes, France",
+   48.11,
+   -1.68
+  ],
+  "soccer:170": [
+   "Troyes",
+   "Troyes, France",
+   48.3,
+   4.07
+  ],
+  "soccer:172": [
+   "AJ Auxerre",
+   "Auxerre, France",
+   47.8,
+   3.57
+  ],
+  "soccer:17362": [
+   "Minnesota United FC",
+   "Saint Paul, Minnesota, United States",
+   44.95,
+   -93.09
+  ],
+  "soccer:174": [
+   "AS Monaco",
+   "Monaco, Monaco",
+   43.73,
+   7.42
+  ],
+  "soccer:175": [
+   "Lens",
+   "Lens, France",
+   50.43,
+   2.83
+  ],
+  "soccer:17530": [
+   "Venezia",
+   "Venezia, Italy",
+   45.44,
+   12.33
+  ],
+  "soccer:176": [
+   "Marseille",
+   "Marseille, France",
+   43.3,
+   5.38
+  ],
+  "soccer:17606": [
+   "New York City FC",
+   "New York City, United States",
+   40.71,
+   -74.01
+  ],
+  "soccer:179": [
+   "Toulouse",
+   "Toulouse, France",
+   43.6,
+   1.44
+  ],
+  "soccer:180": [
+   "Strasbourg",
+   "Strasbourg, France",
+   48.58,
+   7.75
+  ],
+  "soccer:182": [
+   "Chicago Fire FC",
+   "Chicago, Illinois, United States",
+   41.88,
+   -87.62
+  ],
+  "soccer:18267": [
+   "FC Cincinnati",
+   "Cincinnati, Ohio, United States",
+   39.1,
+   -84.51
+  ],
+  "soccer:183": [
+   "Columbus Crew",
+   "Columbus, Ohio, United States",
+   39.96,
+   -83
+  ],
+  "soccer:184": [
+   "Colorado Rapids",
+   "Commerce City, Colorado, United States",
+   39.81,
+   -104.93
+  ],
+  "soccer:18418": [
+   "Atlanta United FC",
+   "Atlanta, Georgia, United States",
+   33.75,
+   -84.39
+  ],
+  "soccer:185": [
+   "FC Dallas",
+   "Frisco, Texas, United States",
+   33.15,
+   -96.82
+  ],
+  "soccer:186": [
+   "Sporting Kansas City",
+   "Kansas City, Kansas, United States",
+   39.11,
+   -94.63
+  ],
+  "soccer:187": [
+   "LA Galaxy",
+   "Carson, California, United States",
+   33.83,
+   -118.25
+  ],
+  "soccer:189": [
+   "New England Revolution",
+   "Foxborough, Massachusetts, United States",
+   42.07,
+   -71.25
+  ],
+  "soccer:1895": [
+   "Besiktas",
+   "Istanbul, Türkiye",
+   41.01,
+   28.98
+  ],
+  "soccer:18966": [
+   "LAFC",
+   "Los Angeles, California, United States",
+   34.05,
+   -118.24
+  ],
+  "soccer:18986": [
+   "Nashville SC",
+   "Nashville, Tennessee, United States",
+   36.16,
+   -86.77
+  ],
+  "soccer:190": [
+   "Red Bull New York",
+   "Harrison, New Jersey, United States",
+   40.75,
+   -74.16
+  ],
+  "soccer:191": [
+   "San Jose Earthquakes",
+   "San Jose, California, United States",
+   37.34,
+   -121.89
+  ],
+  "soccer:1929": [
+   "Benfica",
+   "Lisbon, Portugal",
+   38.71,
+   -9.14
+  ],
+  "soccer:193": [
+   "D.C. United",
+   "Washington, District of Columbia, United States",
+   38.9,
+   -77.04
+  ],
+  "soccer:20024": [
+   "Ararat-Armenia",
+   "Yerevan, Armenia",
+   40.18,
+   44.51
+  ],
+  "soccer:20232": [
+   "Inter Miami CF",
+   "Miami, Florida, United States",
+   25.77,
+   -80.19
+  ],
+  "soccer:20906": [
+   "Austin FC",
+   "Austin, Texas, United States",
+   30.26,
+   -97.75
+  ],
+  "soccer:21300": [
+   "Charlotte FC",
+   "Charlotte, North Carolina, United States",
+   35.23,
+   -80.84
+  ],
+  "soccer:21615": [
+   "Torreense",
+   "Torres Vedras, Portugal",
+   39.09,
+   -9.26
+  ],
+  "soccer:21812": [
+   "St. Louis CITY SC",
+   "St. Louis, Missouri, United States",
+   38.63,
+   -90.19
+  ],
+  "soccer:21922": [
+   "Sabah FK",
+   "Baku, Azerbaijan",
+   40.38,
+   49.83
+  ],
+  "soccer:2250": [
+   "Sporting CP",
+   "Lisbon, Portugal",
+   38.71,
+   -9.14
+  ],
+  "soccer:22529": [
+   "San Diego FC",
+   "San Diego, California, United States",
+   32.72,
+   -117.16
+  ],
+  "soccer:239": [
+   "Torino",
+   "Torino, Italy",
+   45.07,
+   7.68
+  ],
+  "soccer:243": [
+   "Sevilla",
+   "Sevilla, Spain",
+   37.39,
+   -6
+  ],
+  "soccer:244": [
+   "Real Betis",
+   "Sevilla, Spain",
+   37.39,
+   -6
+  ],
+  "soccer:250": [
+   "St Mirren",
+   "Paisley, Scotland",
+   55.85,
+   -4.42
+  ],
+  "soccer:2502": [
+   "Nice",
+   "Nice, France",
+   43.7,
+   7.27
+  ],
+  "soccer:254": [
+   "Falkirk",
+   "Falkirk, Scotland",
+   56,
+   -3.78
+  ],
+  "soccer:256": [
+   "Celtic",
+   "Glasgow, Scotland",
+   55.86,
+   -4.25
+  ],
+  "soccer:257": [
+   "Rangers",
+   "Glasgow, Scotland",
+   55.86,
+   -4.25
+  ],
+  "soccer:2572": [
+   "Como",
+   "Como, Italy",
+   45.94,
+   9.15
+  ],
+  "soccer:258": [
+   "Hibernian",
+   "Edinburgh, Scotland",
+   55.95,
+   -3.19
+  ],
+  "soccer:260": [
+   "Kilmarnock",
+   "Kilmarnock, Scotland",
+   55.61,
+   -4.5
+  ],
+  "soccer:261": [
+   "Dundee",
+   "Dundee, Scotland",
+   56.46,
+   -2.97
+  ],
+  "soccer:262": [
+   "Heart of Midlothian",
+   "Edinburgh, Scotland",
+   55.95,
+   -3.19
+  ],
+  "soccer:263": [
+   "Aberdeen",
+   "Aberdeen, Scotland",
+   57.15,
+   -2.09
+  ],
+  "soccer:264": [
+   "Dundee United",
+   "Dundee, Scotland",
+   56.46,
+   -2.97
+  ],
+  "soccer:266": [
+   "Motherwell",
+   "Motherwell, Scotland",
+   55.79,
+   -3.99
+  ],
+  "soccer:267": [
+   "St Johnstone",
+   "Perth, Scotland",
+   56.4,
+   -3.43
+  ],
+  "soccer:268": [
+   "Borussia Mönchengladbach",
+   "Mönchengladbach, Germany",
+   51.19,
+   6.44
+  ],
+  "soccer:2697": [
+   "Le Mans",
+   "Le Mans, France",
+   48.01,
+   0.2
+  ],
+  "soccer:273": [
+   "Lorient",
+   "Lorient, France",
+   47.75,
+   -3.37
+  ],
+  "soccer:2790": [
+   "RB Salzburg",
+   "Salzburg, Austria",
+   47.8,
+   13.05
+  ],
+  "soccer:2922": [
+   "Getafe",
+   "Getafe, Spain",
+   40.31,
+   -3.73
+  ],
+  "soccer:2925": [
+   "Cagliari",
+   "Cagliari, Italy",
+   39.22,
+   9.11
+  ],
+  "soccer:2950": [
+   "Mainz",
+   "Mainz, Germany",
+   50,
+   8.27
+  ],
+  "soccer:2980": [
+   "Bodo/Glimt",
+   "Bodø, Norway",
+   67.28,
+   14.38
+  ],
+  "soccer:2990": [
+   "Lech Poznan",
+   "Poznan, Poland",
+   52.41,
+   16.93
+  ],
+  "soccer:306": [
+   "Hull City",
+   "Hull, England",
+   53.76,
+   -0.33
+  ],
+  "soccer:314": [
+   "Lincoln City",
+   "Lincoln, England",
+   53.23,
+   -0.54
+  ],
+  "soccer:318": [
+   "Swansea City",
+   "Swansea, Wales",
+   51.62,
+   -3.95
+  ],
+  "soccer:3236": [
+   "Le Havre AC",
+   "Le Havre, France",
+   49.49,
+   0.11
+  ],
+  "soccer:3263": [
+   "Genoa",
+   "Genova, Italy",
+   44.41,
+   8.93
+  ],
+  "soccer:3307": [
+   "SC Paderborn 07",
+   "Paderborn, Germany",
+   51.72,
+   8.75
+  ],
+  "soccer:331": [
+   "Brighton & Hove Albion",
+   "Falmer, England",
+   50.87,
+   -0.07
+  ],
+  "soccer:333": [
+   "Bristol City",
+   "Bristol, England",
+   51.44,
+   -2.58
+  ],
+  "soccer:334": [
+   "Queens Park Rangers",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:336": [
+   "Stoke City",
+   "Stoke-on-Trent, England",
+   53.02,
+   -2.18
+  ],
+  "soccer:3362": [
+   "NK Celje",
+   "Celje, Slovenia",
+   46.23,
+   15.26
+  ],
+  "soccer:337": [
+   "Brentford",
+   "Brentford, England",
+   51.49,
+   -0.32
+  ],
+  "soccer:347": [
+   "Cardiff City",
+   "Cardiff, Wales",
+   51.48,
+   -3.18
+  ],
+  "soccer:349": [
+   "AFC Bournemouth",
+   "Bournemouth, England",
+   50.74,
+   -1.86
+  ],
+  "soccer:352": [
+   "Wrexham",
+   "Wrexham, Wales",
+   53.05,
+   -2.99
+  ],
+  "soccer:357": [
+   "Leeds United",
+   "Leeds, England",
+   53.8,
+   -1.54
+  ],
+  "soccer:358": [
+   "Bolton Wanderers",
+   "Bolton, England",
+   53.58,
+   -2.43
+  ],
+  "soccer:359": [
+   "Arsenal",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:360": [
+   "Manchester United",
+   "Manchester, England",
+   53.44,
+   -2.23
+  ],
+  "soccer:361": [
+   "Newcastle United",
+   "Newcastle-upon-Tyne, England",
+   54.97,
+   -1.61
+  ],
+  "soccer:362": [
+   "Aston Villa",
+   "Birmingham, England",
+   52.49,
+   -1.85
+  ],
+  "soccer:363": [
+   "Chelsea",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:364": [
+   "Liverpool",
+   "Liverpool, England",
+   53.39,
+   -2.92
+  ],
+  "soccer:365": [
+   "Blackburn Rovers",
+   "Blackburn, England",
+   53.75,
+   -2.48
+  ],
+  "soccer:366": [
+   "Sunderland",
+   "Sunderland, England",
+   54.91,
+   -1.38
+  ],
+  "soccer:367": [
+   "Tottenham Hotspur",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:368": [
+   "Everton",
+   "Liverpool, England",
+   53.39,
+   -2.92
+  ],
+  "soccer:369": [
+   "Middlesbrough",
+   "Middlesbrough, England",
+   54.58,
+   -1.23
+  ],
+  "soccer:370": [
+   "Fulham",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:371": [
+   "West Ham United",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:372": [
+   "Charlton Athletic",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:373": [
+   "Ipswich Town",
+   "Ipswich, England",
+   52.06,
+   1.15
+  ],
+  "soccer:374": [
+   "Derby County",
+   "Derby, England",
+   52.91,
+   -1.47
+  ],
+  "soccer:3746": [
+   "SK Sturm Graz",
+   "Graz, Austria",
+   47.07,
+   15.44
+  ],
+  "soccer:3751": [
+   "Elche",
+   "Elche, Spain",
+   38.27,
+   -0.7
+  ],
+  "soccer:376": [
+   "Southampton",
+   "Southampton, England",
+   50.9,
+   -1.4
+  ],
+  "soccer:379": [
+   "Burnley",
+   "Burnley, England",
+   53.79,
+   -2.24
+  ],
+  "soccer:380": [
+   "Wolverhampton Wanderers",
+   "Wolverhampton, England",
+   52.58,
+   -2.13
+  ],
+  "soccer:381": [
+   "Norwich City",
+   "Norwich, England",
+   52.63,
+   1.29
+  ],
+  "soccer:382": [
+   "Manchester City",
+   "Manchester, England",
+   53.44,
+   -2.23
+  ],
+  "soccer:383": [
+   "West Bromwich Albion",
+   "West Bromwich, England",
+   52.52,
+   -1.99
+  ],
+  "soccer:384": [
+   "Crystal Palace",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:3841": [
+   "FC Augsburg",
+   "Augsburg, Germany",
+   48.37,
+   10.9
+  ],
+  "soccer:385": [
+   "Portsmouth",
+   "Portsmouth, England",
+   50.8,
+   -1.09
+  ],
+  "soccer:388": [
+   "Coventry City",
+   "Coventry, England",
+   52.41,
+   -1.51
+  ],
+  "soccer:391": [
+   "Millwall",
+   "London, England",
+   51.51,
+   -0.13
+  ],
+  "soccer:392": [
+   "Birmingham City",
+   "Birmingham, England",
+   52.49,
+   -1.85
+  ],
+  "soccer:393": [
+   "Nottingham Forest",
+   "Nottingham, England",
+   52.95,
+   -1.15
+  ],
+  "soccer:394": [
+   "Preston North End",
+   "Preston, England",
+   53.76,
+   -2.7
+  ],
+  "soccer:395": [
+   "Watford",
+   "Watford, England",
+   51.66,
+   -0.4
+  ],
+  "soccer:398": [
+   "Sheffield United",
+   "Sheffield, England",
+   53.38,
+   -1.47
+  ],
+  "soccer:3997": [
+   "Sassuolo",
+   "Reggio Emilia, Italy",
+   44.61,
+   10.59
+  ],
+  "soccer:4007": [
+   "Monza",
+   "Monza, Italy",
+   45.58,
+   9.27
+  ],
+  "soccer:4057": [
+   "Frosinone",
+   "Frosinone, Italy",
+   41.63,
+   13.58
+  ],
+  "soccer:432": [
+   "Galatasaray",
+   "Istanbul, Türkiye",
+   41.01,
+   28.98
+  ],
+  "soccer:433": [
+   "Sparta Prague",
+   "Prague, Czechia",
+   50.09,
+   14.42
+  ],
+  "soccer:435": [
+   "Olympiacos",
+   "Piraeus, Greece",
+   37.94,
+   23.65
+  ],
+  "soccer:436": [
+   "Fenerbahce",
+   "Istanbul, Türkiye",
+   41.01,
+   28.98
+  ],
+  "soccer:437": [
+   "FC Porto",
+   "Porto, Portugal",
+   41.15,
+   -8.61
+  ],
+  "soccer:441": [
+   "Anderlecht",
+   "Brussels, Belgium",
+   50.85,
+   4.35
+  ],
+  "soccer:4411": [
+   "LASK Linz",
+   "Linz, Austria",
+   48.31,
+   14.29
+  ],
+  "soccer:4771": [
+   "Real Salt Lake",
+   "Sandy, Utah, United States",
+   40.57,
+   -111.9
+  ],
+  "soccer:490": [
+   "Levski Sofia",
+   "Sofia, Bulgaria",
+   42.7,
+   23.32
+  ],
+  "soccer:493": [
+   "Shakhtar Donetsk",
+   "Lviv, Ukraine",
+   49.84,
+   24.03
+  ],
+  "soccer:494": [
+   "Slavia Prague",
+   "Prague, Czechia",
+   50.09,
+   14.42
+  ],
+  "soccer:510": [
+   "Viking FK",
+   "Stavanger, Norway",
+   58.97,
+   5.73
+  ],
+  "soccer:521": [
+   "Slovan Bratislava",
+   "Bratislava, Slovakia",
+   48.14,
+   17.11
+  ],
+  "soccer:570": [
+   "Club Brugge",
+   "Brugge, Belgium",
+   51.21,
+   3.23
+  ],
+  "soccer:5807": [
+   "Union St.-Gilloise",
+   "Brussels, Belgium",
+   50.85,
+   4.35
+  ],
+  "soccer:597": [
+   "Dinamo Zagreb",
+   "Zagreb, Croatia",
+   45.81,
+   15.98
+  ],
+  "soccer:598": [
+   "1. FC Union Berlin",
+   "Berlin, Germany",
+   52.52,
+   13.4
+  ],
+  "soccer:6077": [
+   "Houston Dynamo FC",
+   "Houston, Texas, United States",
+   29.76,
+   -95.37
+  ],
+  "soccer:617": [
+   "Omonia Nicosia",
+   "Nicosia, Cyprus",
+   35.17,
+   33.36
+  ],
+  "soccer:622": [
+   "Ferencvaros",
+   "Budapest, Hungary",
+   47.5,
+   19.04
+  ],
+  "soccer:6851": [
+   "Paris FC",
+   "Paris, France",
+   48.85,
+   2.35
+  ],
+  "soccer:6997": [
+   "Brest",
+   "Brest, France",
+   48.39,
+   -4.49
+  ],
+  "soccer:7318": [
+   "Toronto FC",
+   "Toronto, Canada",
+   43.65,
+   -79.38
+  ],
+  "soccer:7868": [
+   "Angers",
+   "Angers, France",
+   47.47,
+   -0.55
+  ],
+  "soccer:7911": [
+   "TSG Hoffenheim",
+   "Sinsheim, Germany",
+   49.23,
+   8.9
+  ],
+  "soccer:83": [
+   "Barcelona",
+   "Barcelona, Spain",
+   41.38,
+   2.18
+  ],
+  "soccer:85": [
+   "Celta Vigo",
+   "Vigo, Spain",
+   42.2,
+   -8.73
+  ],
+  "soccer:86": [
+   "Real Madrid",
+   "Madrid, Spain",
+   40.42,
+   -3.7
+  ],
+  "soccer:87": [
+   "Racing Santander",
+   "Santander, Spain",
+   43.46,
+   -3.81
+  ],
+  "soccer:88": [
+   "Espanyol",
+   "Barcelona, Spain",
+   41.38,
+   2.18
+  ],
+  "soccer:887": [
+   "AEK Athens",
+   "Athens, Greece",
+   37.98,
+   23.73
+  ],
+  "soccer:89": [
+   "Real Sociedad",
+   "San Sebastian, Spain",
+   43.32,
+   -1.98
+  ],
+  "soccer:90": [
+   "Deportivo",
+   "La Coruña, Spain",
+   43.35,
+   -8.41
+  ],
+  "soccer:93": [
+   "Athletic Club",
+   "Bilbao, Spain",
+   43.26,
+   -2.94
+  ],
+  "soccer:94": [
+   "Valencia",
+   "Valencia, Spain",
+   39.47,
+   -0.38
+  ],
+  "soccer:96": [
+   "Alavés",
+   "Vitoria-Gasteiz, Spain",
+   42.85,
+   -2.66
+  ],
+  "soccer:97": [
+   "Osasuna",
+   "Pamplona, Spain",
+   42.82,
+   -1.65
+  ],
+  "soccer:9720": [
+   "CF Montréal",
+   "Montreal, Canada",
+   45.5,
+   -73.57
+  ],
+  "soccer:9723": [
+   "Portland Timbers",
+   "Portland, Oregon, United States",
+   45.52,
+   -122.67
+  ],
+  "soccer:9726": [
+   "Seattle Sounders FC",
+   "Seattle, Washington, United States",
+   47.6,
+   -122.33
+  ],
+  "soccer:9727": [
+   "Vancouver Whitecaps",
+   "Vancouver, Canada",
+   49.26,
+   -123.11
+  ],
+  "soccer:987": [
+   "Lillestrom",
+   "Lillestrøm, Norway",
+   59.92,
+   11.22
+  ],
+  "soccer:99": [
+   "Málaga",
+   "Malaga, Spain",
+   36.76,
+   -4.44
+  ]
+ },
+ "circuits": {
+  "Autodromo Enzo e Dino Ferrari": [
+   "Imola, Italy",
+   44.35,
+   11.71
+  ],
+  "Autodromo Hermanos Rodriguez": [
+   "Mexico city, Mexico",
+   19.32,
+   -99.15
+  ],
+  "Autodromo Jose Carlos Pace": [
+   "Sao paulo, Brazil",
+   -23.55,
+   -46.63
+  ],
+  "Autodromo Nazionale Monza": [
+   "Monza, Italy",
+   45.58,
+   9.27
+  ],
+  "Bahrain International Circuit": [
+   "Sakhir, Bahrain",
+   26.03,
+   50.51
+  ],
+  "Baku City Circuit": [
+   "Baku, Azerbaijan",
+   40.38,
+   49.83
+  ],
+  "Circuit Gilles-Villeneuve": [
+   "Montreal, Quebec, Canada",
+   45.5,
+   -73.57
+  ],
+  "Circuit Park Zandvoort": [
+   "Zandvoort, Netherlands",
+   52.37,
+   4.53
+  ],
+  "Circuit de Catalunya": [
+   "Barcelona, Spain",
+   41.38,
+   2.18
+  ],
+  "Circuit de Monaco": [
+   "Monte carlo, Monaco",
+   43.74,
+   7.43
+  ],
+  "Circuit de Spa-Francorchamps": [
+   "Stavelot, Belgium",
+   50.39,
+   5.93
+  ],
+  "Circuit of the Americas": [
+   "Austin, TX, United States",
+   30.26,
+   -97.75
+  ],
+  "Hungaroring": [
+   "Budapest, Hungary",
+   47.5,
+   19.04
+  ],
+  "Jeddah Street Circuit": [
+   "Jeddah, Saudi Arabia",
+   21.55,
+   39.17
+  ],
+  "Las Vegas Street Circuit": [
+   "Las Vegas, Nevada, United States",
+   36.17,
+   -115.15
+  ],
+  "Losail International Circuit": [
+   "Lusail, Qatar",
+   25.42,
+   51.52
+  ],
+  "Madring": [
+   "Madrid, Spain",
+   40.42,
+   -3.7
+  ],
+  "Marina Bay Street Circuit": [
+   "Singapore, Singapore",
+   1.29,
+   103.85
+  ],
+  "Melbourne Grand Prix Circuit": [
+   "Melbourne, Australia",
+   -37.81,
+   144.96
+  ],
+  "Miami International Autodrome": [
+   "Miami Gardens, Florida, United States",
+   25.94,
+   -80.25
+  ],
+  "Red Bull Ring": [
+   "Spielberg, Austria",
+   47.21,
+   14.79
+  ],
+  "Sepang International Circuit": [
+   "Kuala lumpur, Malaysia",
+   3.15,
+   101.69
+  ],
+  "Shanghai International Circuit": [
+   "Shanghai, China",
+   31.23,
+   121.47
+  ],
+  "Silverstone Circuit": [
+   "Silverstone, Northamptonshire, England",
+   52.09,
+   -1.03
+  ],
+  "Suzuka International Racing Course": [
+   "Suzuka, Japan",
+   34.88,
+   136.58
+  ],
+  "Yas Marina Circuit": [
+   "Abu dhabi, United Arab Emirates",
+   24.45,
+   54.38
+  ]
+ },
+ "zones": {
+  "Africa/Abidjan": [
+   "Abidjan",
+   5.32,
+   -4.02,
+   "ci"
+  ],
+  "Africa/Accra": [
+   "Accra",
+   5.56,
+   -0.2,
+   "gh"
+  ],
+  "Africa/Addis_Ababa": [
+   "Addis Ababa",
+   9.04,
+   38.75,
+   "et"
+  ],
+  "Africa/Algiers": [
+   "Algiers",
+   36.77,
+   3.06,
+   "dz"
+  ],
+  "Africa/Asmera": [
+   "Asmera",
+   15.34,
+   38.93,
+   "er"
+  ],
+  "Africa/Bamako": [
+   "Bamako",
+   12.65,
+   -8,
+   "ml"
+  ],
+  "Africa/Bangui": [
+   "Bangui",
+   4.36,
+   18.58,
+   "cf"
+  ],
+  "Africa/Banjul": [
+   "Banjul",
+   13.46,
+   -16.58,
+   "gm"
+  ],
+  "Africa/Bissau": [
+   "Bissau",
+   11.86,
+   -15.58,
+   "gw"
+  ],
+  "Africa/Blantyre": [
+   "Blantyre",
+   -15.79,
+   35,
+   "mw"
+  ],
+  "Africa/Brazzaville": [
+   "Brazzaville",
+   -4.27,
+   15.27,
+   "cg"
+  ],
+  "Africa/Bujumbura": [
+   "Bujumbura",
+   -3.36,
+   29.37,
+   "bi"
+  ],
+  "Africa/Cairo": [
+   "Cairo",
+   30.04,
+   31.24,
+   "eg"
+  ],
+  "Africa/Casablanca": [
+   "Casablanca",
+   33.59,
+   -7.62,
+   "ma"
+  ],
+  "Africa/Ceuta": [
+   "Ceuta",
+   35.89,
+   -5.3,
+   "es"
+  ],
+  "Africa/Conakry": [
+   "Conakry",
+   9.52,
+   -13.7,
+   "gn"
+  ],
+  "Africa/Dakar": [
+   "Dakar",
+   14.69,
+   -17.45,
+   "sn"
+  ],
+  "Africa/Dar_es_Salaam": [
+   "Dar es Salaam",
+   -6.82,
+   39.28,
+   "tz"
+  ],
+  "Africa/Djibouti": [
+   "Djibouti",
+   11.59,
+   43.15,
+   "dj"
+  ],
+  "Africa/Douala": [
+   "Douala",
+   4.04,
+   9.71,
+   "cm"
+  ],
+  "Africa/El_Aaiun": [
+   "El Aaiun",
+   27.15,
+   -13.2,
+   "ma"
+  ],
+  "Africa/Freetown": [
+   "Freetown",
+   8.48,
+   -13.27,
+   "sl"
+  ],
+  "Africa/Gaborone": [
+   "Gaborone",
+   -24.66,
+   25.91,
+   "bw"
+  ],
+  "Africa/Harare": [
+   "Harare",
+   -17.83,
+   31.05,
+   "zw"
+  ],
+  "Africa/Johannesburg": [
+   "Johannesburg",
+   -26.2,
+   28.05,
+   "za"
+  ],
+  "Africa/Juba": [
+   "Juba",
+   4.85,
+   31.6,
+   "ss"
+  ],
+  "Africa/Kampala": [
+   "Kampala",
+   0.32,
+   32.58,
+   "ug"
+  ],
+  "Africa/Khartoum": [
+   "Khartoum",
+   15.56,
+   32.53,
+   "sd"
+  ],
+  "Africa/Kigali": [
+   "Kigali",
+   -1.95,
+   30.11,
+   "rw"
+  ],
+  "Africa/Kinshasa": [
+   "Kinshasa",
+   -4.32,
+   15.31,
+   "cd"
+  ],
+  "Africa/Lagos": [
+   "Lagos",
+   6.46,
+   3.39,
+   "ng"
+  ],
+  "Africa/Libreville": [
+   "Libreville",
+   0.41,
+   9.44,
+   "ga"
+  ],
+  "Africa/Lome": [
+   "Lome",
+   6.13,
+   1.22,
+   "tg"
+  ],
+  "Africa/Luanda": [
+   "Luanda",
+   -8.83,
+   13.24,
+   "ao"
+  ],
+  "Africa/Lubumbashi": [
+   "Lubumbashi",
+   -11.66,
+   27.48,
+   "cd"
+  ],
+  "Africa/Lusaka": [
+   "Lusaka",
+   -15.42,
+   28.28,
+   "zm"
+  ],
+  "Africa/Malabo": [
+   "Malabo",
+   3.74,
+   8.77,
+   "gq"
+  ],
+  "Africa/Maputo": [
+   "Maputo",
+   -25.97,
+   32.57,
+   "mz"
+  ],
+  "Africa/Maseru": [
+   "Maseru",
+   -29.31,
+   27.48,
+   "ls"
+  ],
+  "Africa/Mbabane": [
+   "Mbabane",
+   -26.33,
+   31.14,
+   "sz"
+  ],
+  "Africa/Mogadishu": [
+   "Mogadishu",
+   2.03,
+   45.34,
+   "so"
+  ],
+  "Africa/Monrovia": [
+   "Monrovia",
+   6.32,
+   -10.81,
+   "lr"
+  ],
+  "Africa/Nairobi": [
+   "Nairobi",
+   -1.29,
+   36.82,
+   "ke"
+  ],
+  "Africa/Ndjamena": [
+   "Ndjamena",
+   12.12,
+   15.05,
+   "td"
+  ],
+  "Africa/Niamey": [
+   "Niamey",
+   13.52,
+   2.11,
+   "ne"
+  ],
+  "Africa/Nouakchott": [
+   "Nouakchott",
+   18.08,
+   -15.98,
+   "mr"
+  ],
+  "Africa/Ouagadougou": [
+   "Ouagadougou",
+   12.37,
+   -1.53,
+   "bf"
+  ],
+  "Africa/Porto-Novo": [
+   "Porto-Novo",
+   6.5,
+   2.63,
+   "bj"
+  ],
+  "Africa/Sao_Tome": [
+   "Sao Tome",
+   0.34,
+   6.73,
+   "st"
+  ],
+  "Africa/Tripoli": [
+   "Tripoli",
+   32.9,
+   13.18,
+   "ly"
+  ],
+  "Africa/Tunis": [
+   "Tunis",
+   36.8,
+   10.19,
+   "tn"
+  ],
+  "Africa/Windhoek": [
+   "Windhoek",
+   -22.53,
+   17.05,
+   "na"
+  ],
+  "America/Adak": [
+   "Adak",
+   51.87,
+   -176.64,
+   "us"
+  ],
+  "America/Anchorage": [
+   "Anchorage",
+   61.22,
+   -149.89,
+   "us"
+  ],
+  "America/Anguilla": [
+   "The Valley",
+   18.21,
+   -63.05,
+   "ai"
+  ],
+  "America/Antigua": [
+   "St. John's",
+   17.12,
+   -61.84,
+   "ag"
+  ],
+  "America/Araguaina": [
+   "Araguaina",
+   -7.19,
+   -48.21,
+   "br"
+  ],
+  "America/Argentina/La_Rioja": [
+   "La Rioja",
+   -29.41,
+   -66.86,
+   "ar"
+  ],
+  "America/Argentina/Rio_Gallegos": [
+   "Rio Gallegos",
+   -51.62,
+   -69.22,
+   "ar"
+  ],
+  "America/Argentina/Salta": [
+   "Salta",
+   -24.79,
+   -65.41,
+   "ar"
+  ],
+  "America/Argentina/San_Juan": [
+   "San Juan",
+   -31.54,
+   -68.53,
+   "ar"
+  ],
+  "America/Argentina/San_Luis": [
+   "San Luis",
+   -33.3,
+   -66.34,
+   "ar"
+  ],
+  "America/Argentina/Tucuman": [
+   "Tucuman",
+   -26.83,
+   -65.2,
+   "ar"
+  ],
+  "America/Argentina/Ushuaia": [
+   "Ushuaia",
+   -54.81,
+   -68.31,
+   "ar"
+  ],
+  "America/Aruba": [
+   "Oranjestad",
+   12.52,
+   -70.04,
+   "nl"
+  ],
+  "America/Asuncion": [
+   "Asuncion",
+   -25.28,
+   -57.63,
+   "py"
+  ],
+  "America/Bahia": [
+   "Salvador",
+   -12.98,
+   -38.48,
+   "br"
+  ],
+  "America/Bahia_Banderas": [
+   "Bahia Banderas",
+   20.81,
+   -105.25,
+   "mx"
+  ],
+  "America/Barbados": [
+   "Bridgetown",
+   13.1,
+   -59.62,
+   "bb"
+  ],
+  "America/Belem": [
+   "Belem",
+   -1.45,
+   -48.47,
+   "br"
+  ],
+  "America/Belize": [
+   "Belize City",
+   17.5,
+   -88.2,
+   "bz"
+  ],
+  "America/Blanc-Sablon": [
+   "Blanc-Sablon",
+   51.41,
+   -57.2,
+   "ca"
+  ],
+  "America/Boa_Vista": [
+   "Boa Vista",
+   2.82,
+   -60.67,
+   "br"
+  ],
+  "America/Bogota": [
+   "Bogota",
+   4.65,
+   -74.08,
+   "co"
+  ],
+  "America/Boise": [
+   "Boise",
+   43.62,
+   -116.2,
+   "us"
+  ],
+  "America/Buenos_Aires": [
+   "Buenos Aires",
+   -34.61,
+   -58.39,
+   "ar"
+  ],
+  "America/Cambridge_Bay": [
+   "Cambridge Bay",
+   69.12,
+   -105.06,
+   "ca"
+  ],
+  "America/Campo_Grande": [
+   "Campo Grande",
+   -20.46,
+   -54.62,
+   "br"
+  ],
+  "America/Cancun": [
+   "Cancun",
+   21.15,
+   -86.84,
+   "mx"
+  ],
+  "America/Caracas": [
+   "Caracas",
+   10.51,
+   -66.91,
+   "ve"
+  ],
+  "America/Catamarca": [
+   "Catamarca",
+   -28.47,
+   -65.78,
+   "ar"
+  ],
+  "America/Cayenne": [
+   "Cayenne",
+   4.94,
+   -52.33,
+   "fr"
+  ],
+  "America/Cayman": [
+   "George Town",
+   19.3,
+   -81.38,
+   "ky"
+  ],
+  "America/Chicago": [
+   "Chicago",
+   41.88,
+   -87.62,
+   "us"
+  ],
+  "America/Chihuahua": [
+   "Chihuahua",
+   28.64,
+   -106.08,
+   "mx"
+  ],
+  "America/Ciudad_Juarez": [
+   "Ciudad Juarez",
+   31.74,
+   -106.48,
+   "mx"
+  ],
+  "America/Coral_Harbour": [
+   "Atikokan",
+   48.76,
+   -91.62,
+   "ca"
+  ],
+  "America/Cordoba": [
+   "Cordoba",
+   -31.42,
+   -64.18,
+   "ar"
+  ],
+  "America/Costa_Rica": [
+   "San Jose",
+   9.93,
+   -84.08,
+   "cr"
+  ],
+  "America/Coyhaique": [
+   "Coyhaique",
+   -45.57,
+   -72.07,
+   "cl"
+  ],
+  "America/Creston": [
+   "Creston",
+   49.1,
+   -116.51,
+   "ca"
+  ],
+  "America/Cuiaba": [
+   "Cuiaba",
+   -15.6,
+   -56.1,
+   "br"
+  ],
+  "America/Curacao": [
+   "Willemstad",
+   12.11,
+   -68.94,
+   "nl"
+  ],
+  "America/Danmarkshavn": [
+   "Danmarkshavn",
+   76.77,
+   -18.67,
+   "gl"
+  ],
+  "America/Dawson": [
+   "Dawson City",
+   64.06,
+   -139.43,
+   "ca"
+  ],
+  "America/Dawson_Creek": [
+   "Dawson Creek",
+   55.76,
+   -120.24,
+   "ca"
+  ],
+  "America/Denver": [
+   "Denver",
+   39.74,
+   -104.98,
+   "us"
+  ],
+  "America/Detroit": [
+   "Detroit",
+   42.33,
+   -83.05,
+   "us"
+  ],
+  "America/Dominica": [
+   "Roseau",
+   15.3,
+   -61.39,
+   "dm"
+  ],
+  "America/Edmonton": [
+   "Edmonton",
+   53.55,
+   -113.49,
+   "ca"
+  ],
+  "America/Eirunepe": [
+   "Eirunepe",
+   -6.66,
+   -69.87,
+   "br"
+  ],
+  "America/El_Salvador": [
+   "San Salvador",
+   13.7,
+   -89.19,
+   "sv"
+  ],
+  "America/Fort_Nelson": [
+   "Fort Nelson",
+   58.8,
+   -122.7,
+   "ca"
+  ],
+  "America/Fortaleza": [
+   "Fortaleza",
+   -3.79,
+   -38.53,
+   "br"
+  ],
+  "America/Glace_Bay": [
+   "Glace Bay",
+   46.19,
+   -59.96,
+   "ca"
+  ],
+  "America/Godthab": [
+   "Godthab",
+   64.18,
+   -51.74,
+   "gl"
+  ],
+  "America/Goose_Bay": [
+   "Happy Valley-Goose Bay",
+   53.3,
+   -60.31,
+   "ca"
+  ],
+  "America/Grand_Turk": [
+   "Cockburn Town",
+   21.46,
+   -71.14,
+   "tc"
+  ],
+  "America/Grenada": [
+   "St. George's",
+   12.05,
+   -61.75,
+   "gd"
+  ],
+  "America/Guadeloupe": [
+   "Pointe-a-Pitre",
+   16.24,
+   -61.53,
+   "fr"
+  ],
+  "America/Guatemala": [
+   "Guatemala City",
+   14.64,
+   -90.51,
+   "gt"
+  ],
+  "America/Guayaquil": [
+   "Guayaquil",
+   -2.19,
+   -79.89,
+   "ec"
+  ],
+  "America/Guyana": [
+   "Georgetown",
+   6.8,
+   -58.15,
+   "gy"
+  ],
+  "America/Halifax": [
+   "Halifax",
+   44.65,
+   -63.59,
+   "ca"
+  ],
+  "America/Havana": [
+   "Havana",
+   23.14,
+   -82.36,
+   "cu"
+  ],
+  "America/Hermosillo": [
+   "Hermosillo",
+   29.09,
+   -110.97,
+   "mx"
+  ],
+  "America/Indiana/Knox": [
+   "Knox",
+   41.3,
+   -86.62,
+   "us"
+  ],
+  "America/Indiana/Marengo": [
+   "Marengo",
+   38.37,
+   -86.34,
+   "us"
+  ],
+  "America/Indiana/Petersburg": [
+   "Petersburg",
+   38.49,
+   -87.28,
+   "us"
+  ],
+  "America/Indiana/Tell_City": [
+   "Tell City",
+   37.95,
+   -86.77,
+   "us"
+  ],
+  "America/Indiana/Vevay": [
+   "Vevay",
+   38.75,
+   -85.07,
+   "us"
+  ],
+  "America/Indiana/Vincennes": [
+   "Vincennes",
+   38.68,
+   -87.53,
+   "us"
+  ],
+  "America/Indiana/Winamac": [
+   "Winamac",
+   41.05,
+   -86.6,
+   "us"
+  ],
+  "America/Indianapolis": [
+   "Indianapolis",
+   39.77,
+   -86.16,
+   "us"
+  ],
+  "America/Inuvik": [
+   "Inuvik",
+   68.36,
+   -133.72,
+   "ca"
+  ],
+  "America/Iqaluit": [
+   "Iqaluit",
+   63.75,
+   -68.52,
+   "ca"
+  ],
+  "America/Jamaica": [
+   "Kingston",
+   17.97,
+   -76.79,
+   "jm"
+  ],
+  "America/Jujuy": [
+   "San Salvador de Jujuy",
+   -24.19,
+   -65.3,
+   "ar"
+  ],
+  "America/Juneau": [
+   "Juneau",
+   58.3,
+   -134.42,
+   "us"
+  ],
+  "America/Kentucky/Monticello": [
+   "Monticello",
+   36.83,
+   -84.85,
+   "us"
+  ],
+  "America/Kralendijk": [
+   "Kralendijk",
+   12.15,
+   -68.27,
+   "nl"
+  ],
+  "America/La_Paz": [
+   "La Paz",
+   -16.5,
+   -68.13,
+   "bo"
+  ],
+  "America/Lima": [
+   "Lima",
+   -12.05,
+   -77.03,
+   "pe"
+  ],
+  "America/Los_Angeles": [
+   "Los Angeles",
+   34.05,
+   -118.24,
+   "us"
+  ],
+  "America/Louisville": [
+   "Louisville",
+   38.25,
+   -85.76,
+   "us"
+  ],
+  "America/Lower_Princes": [
+   "Philipsburg",
+   18.03,
+   -63.05,
+   "nl"
+  ],
+  "America/Maceio": [
+   "Maceio",
+   -9.65,
+   -35.73,
+   "br"
+  ],
+  "America/Managua": [
+   "Managua",
+   12.15,
+   -86.27,
+   "ni"
+  ],
+  "America/Manaus": [
+   "Manaus",
+   -3.13,
+   -59.98,
+   "br"
+  ],
+  "America/Marigot": [
+   "Marigot",
+   18.07,
+   -63.08,
+   "fr"
+  ],
+  "America/Martinique": [
+   "Fort-de-France",
+   14.6,
+   -61.07,
+   "fr"
+  ],
+  "America/Matamoros": [
+   "Matamoros",
+   25.88,
+   -97.51,
+   "mx"
+  ],
+  "America/Mazatlan": [
+   "Mazatlan",
+   23.2,
+   -106.42,
+   "mx"
+  ],
+  "America/Mendoza": [
+   "Mendoza",
+   -32.89,
+   -68.84,
+   "ar"
+  ],
+  "America/Menominee": [
+   "Menominee",
+   45.11,
+   -87.61,
+   "us"
+  ],
+  "America/Merida": [
+   "Merida",
+   20.97,
+   -89.62,
+   "mx"
+  ],
+  "America/Metlakatla": [
+   "Metlakatla",
+   55.13,
+   -131.58,
+   "us"
+  ],
+  "America/Mexico_City": [
+   "Mexico City",
+   19.32,
+   -99.15,
+   "mx"
+  ],
+  "America/Miquelon": [
+   "Saint-Pierre",
+   46.78,
+   -56.18,
+   "fr"
+  ],
+  "America/Moncton": [
+   "Moncton",
+   46.1,
+   -64.8,
+   "ca"
+  ],
+  "America/Monterrey": [
+   "Monterrey",
+   25.68,
+   -100.32,
+   "mx"
+  ],
+  "America/Montevideo": [
+   "Montevideo",
+   -34.91,
+   -56.19,
+   "uy"
+  ],
+  "America/Montserrat": [
+   "Brades",
+   16.79,
+   -62.21,
+   "ms"
+  ],
+  "America/Nassau": [
+   "Nassau",
+   25.08,
+   -77.34,
+   "bs"
+  ],
+  "America/New_York": [
+   "New York",
+   40.71,
+   -74.01,
+   "us"
+  ],
+  "America/Nome": [
+   "Nome",
+   64.5,
+   -165.41,
+   "us"
+  ],
+  "America/Noronha": [
+   "Fernando de Noronha",
+   -3.85,
+   -32.42,
+   "br"
+  ],
+  "America/North_Dakota/Beulah": [
+   "Beulah",
+   47.26,
+   -101.78,
+   "us"
+  ],
+  "America/North_Dakota/Center": [
+   "Center",
+   47.12,
+   -101.3,
+   "us"
+  ],
+  "America/North_Dakota/New_Salem": [
+   "New Salem",
+   46.85,
+   -101.41,
+   "us"
+  ],
+  "America/Ojinaga": [
+   "Ojinaga",
+   29.56,
+   -104.42,
+   "mx"
+  ],
+  "America/Panama": [
+   "Panama City",
+   8.97,
+   -79.53,
+   "pa"
+  ],
+  "America/Paramaribo": [
+   "Paramaribo",
+   5.82,
+   -55.17,
+   "sr"
+  ],
+  "America/Phoenix": [
+   "Phoenix",
+   33.45,
+   -112.07,
+   "us"
+  ],
+  "America/Port-au-Prince": [
+   "Port-au-Prince",
+   18.55,
+   -72.34,
+   "ht"
+  ],
+  "America/Port_of_Spain": [
+   "Port of Spain",
+   10.66,
+   -61.52,
+   "tt"
+  ],
+  "America/Porto_Velho": [
+   "Porto Velho",
+   -8.75,
+   -63.87,
+   "br"
+  ],
+  "America/Puerto_Rico": [
+   "San Juan",
+   18.38,
+   -66.05,
+   "us"
+  ],
+  "America/Punta_Arenas": [
+   "Punta Arenas",
+   -53.16,
+   -70.91,
+   "cl"
+  ],
+  "America/Rankin_Inlet": [
+   "Rankin Inlet",
+   62.8,
+   -92.09,
+   "ca"
+  ],
+  "America/Recife": [
+   "Recife",
+   -8.06,
+   -34.88,
+   "br"
+  ],
+  "America/Regina": [
+   "Regina",
+   50.45,
+   -104.62,
+   "ca"
+  ],
+  "America/Resolute": [
+   "Resolute",
+   74.7,
+   -94.84,
+   "ca"
+  ],
+  "America/Rio_Branco": [
+   "Rio Branco",
+   -9.98,
+   -67.82,
+   "br"
+  ],
+  "America/Santarem": [
+   "Santarem",
+   -2.44,
+   -54.7,
+   "br"
+  ],
+  "America/Santiago": [
+   "Santiago",
+   -33.44,
+   -70.65,
+   "cl"
+  ],
+  "America/Santo_Domingo": [
+   "Santo Domingo",
+   18.47,
+   -69.89,
+   "do"
+  ],
+  "America/Sao_Paulo": [
+   "Sao Paulo",
+   -23.55,
+   -46.63,
+   "br"
+  ],
+  "America/Scoresbysund": [
+   "Scoresbysund",
+   70.49,
+   -21.96,
+   "gl"
+  ],
+  "America/Sitka": [
+   "Sitka",
+   57.05,
+   -135.34,
+   "us"
+  ],
+  "America/St_Barthelemy": [
+   "Gustavia",
+   17.9,
+   -62.85,
+   "fr"
+  ],
+  "America/St_Johns": [
+   "St. John's",
+   47.56,
+   -52.71,
+   "ca"
+  ],
+  "America/St_Kitts": [
+   "Basseterre",
+   17.3,
+   -62.72,
+   "kn"
+  ],
+  "America/St_Lucia": [
+   "Castries",
+   14.01,
+   -60.99,
+   "lc"
+  ],
+  "America/St_Thomas": [
+   "Charlotte Amalie",
+   18.34,
+   -64.96,
+   "us"
+  ],
+  "America/St_Vincent": [
+   "Kingstown",
+   13.16,
+   -61.23,
+   "vc"
+  ],
+  "America/Swift_Current": [
+   "Swift Current",
+   50.28,
+   -107.8,
+   "ca"
+  ],
+  "America/Tegucigalpa": [
+   "Tegucigalpa",
+   14.11,
+   -87.2,
+   "hn"
+  ],
+  "America/Thule": [
+   "Thule",
+   77.47,
+   -69.23,
+   "gl"
+  ],
+  "America/Tijuana": [
+   "Tijuana",
+   32.54,
+   -117.04,
+   "mx"
+  ],
+  "America/Toronto": [
+   "Toronto",
+   43.65,
+   -79.38,
+   "ca"
+  ],
+  "America/Tortola": [
+   "Road Town",
+   18.43,
+   -64.62,
+   "vg"
+  ],
+  "America/Vancouver": [
+   "Vancouver",
+   49.26,
+   -123.11,
+   "ca"
+  ],
+  "America/Whitehorse": [
+   "Whitehorse",
+   60.72,
+   -135.05,
+   "ca"
+  ],
+  "America/Winnipeg": [
+   "Winnipeg",
+   49.9,
+   -97.14,
+   "ca"
+  ],
+  "America/Yakutat": [
+   "Yakutat",
+   59.55,
+   -139.73,
+   "us"
+  ],
+  "Arctic/Longyearbyen": [
+   "Longyearbyen",
+   78.22,
+   15.65,
+   "no"
+  ],
+  "Asia/Aden": [
+   "Aden",
+   12.79,
+   45.03,
+   "ye"
+  ],
+  "Asia/Almaty": [
+   "Almaty",
+   43.24,
+   76.95,
+   "kz"
+  ],
+  "Asia/Amman": [
+   "Amman",
+   31.95,
+   35.92,
+   "jo"
+  ],
+  "Asia/Anadyr": [
+   "Anadyr",
+   64.73,
+   177.51,
+   "ru"
+  ],
+  "Asia/Aqtau": [
+   "Aqtau",
+   43.64,
+   51.17,
+   "kz"
+  ],
+  "Asia/Aqtobe": [
+   "Aqtobe",
+   50.28,
+   57.23,
+   "kz"
+  ],
+  "Asia/Ashgabat": [
+   "Ashgabat",
+   37.94,
+   58.24,
+   "tm"
+  ],
+  "Asia/Atyrau": [
+   "Atyrau",
+   47.11,
+   51.91,
+   "kz"
+  ],
+  "Asia/Baghdad": [
+   "Baghdad",
+   33.31,
+   44.39,
+   "iq"
+  ],
+  "Asia/Bahrain": [
+   "Manama",
+   26.22,
+   50.58,
+   "bh"
+  ],
+  "Asia/Baku": [
+   "Baku",
+   40.38,
+   49.83,
+   "az"
+  ],
+  "Asia/Bangkok": [
+   "Bangkok",
+   13.75,
+   100.49,
+   "th"
+  ],
+  "Asia/Barnaul": [
+   "Barnaul",
+   53.35,
+   83.78,
+   "ru"
+  ],
+  "Asia/Beirut": [
+   "Beirut",
+   33.9,
+   35.48,
+   "lb"
+  ],
+  "Asia/Bishkek": [
+   "Bishkek",
+   42.88,
+   74.6,
+   "kg"
+  ],
+  "Asia/Brunei": [
+   "Bandar Seri Begawan",
+   4.89,
+   114.94,
+   "bn"
+  ],
+  "Asia/Calcutta": [
+   "Calcutta",
+   22.57,
+   88.36,
+   "in"
+  ],
+  "Asia/Chita": [
+   "Chita",
+   52.03,
+   113.5,
+   "ru"
+  ],
+  "Asia/Colombo": [
+   "Colombo",
+   6.94,
+   79.85,
+   "lk"
+  ],
+  "Asia/Damascus": [
+   "Damascus",
+   33.51,
+   36.31,
+   "sy"
+  ],
+  "Asia/Dhaka": [
+   "Dhaka",
+   23.76,
+   90.39,
+   "bd"
+  ],
+  "Asia/Dili": [
+   "Dili",
+   -8.55,
+   125.58,
+   "tl"
+  ],
+  "Asia/Dubai": [
+   "Dubai",
+   25.26,
+   55.29,
+   "ae"
+  ],
+  "Asia/Dushanbe": [
+   "Dushanbe",
+   38.58,
+   68.79,
+   "tj"
+  ],
+  "Asia/Famagusta": [
+   "Famagusta",
+   35.12,
+   33.94,
+   "cy"
+  ],
+  "Asia/Gaza": [
+   "Gaza",
+   31.51,
+   34.46,
+   "ps"
+  ],
+  "Asia/Hebron": [
+   "Hebron",
+   31.53,
+   35.09,
+   "ps"
+  ],
+  "Asia/Hong_Kong": [
+   "Hong Kong",
+   22.28,
+   114.16,
+   "cn"
+  ],
+  "Asia/Hovd": [
+   "Hovd",
+   48,
+   91.65,
+   "mn"
+  ],
+  "Asia/Irkutsk": [
+   "Irkutsk",
+   52.29,
+   104.28,
+   "ru"
+  ],
+  "Asia/Jakarta": [
+   "Jakarta",
+   -6.18,
+   106.83,
+   "id"
+  ],
+  "Asia/Jayapura": [
+   "Jayapura",
+   -2.54,
+   140.7,
+   "id"
+  ],
+  "Asia/Jerusalem": [
+   "Jerusalem",
+   31.78,
+   35.23,
+   "il"
+  ],
+  "Asia/Kabul": [
+   "Kabul",
+   34.53,
+   69.19,
+   "af"
+  ],
+  "Asia/Kamchatka": [
+   "Petropavlovsk-Kamchatsky",
+   53.02,
+   158.65,
+   "ru"
+  ],
+  "Asia/Karachi": [
+   "Karachi",
+   24.85,
+   67.02,
+   "pk"
+  ],
+  "Asia/Katmandu": [
+   "Katmandu",
+   27.71,
+   85.32,
+   "np"
+  ],
+  "Asia/Khandyga": [
+   "Khandyga",
+   62.65,
+   135.58,
+   "ru"
+  ],
+  "Asia/Krasnoyarsk": [
+   "Krasnoyarsk",
+   56.01,
+   92.87,
+   "ru"
+  ],
+  "Asia/Kuala_Lumpur": [
+   "Kuala Lumpur",
+   3.15,
+   101.69,
+   "my"
+  ],
+  "Asia/Kuching": [
+   "Kuching",
+   1.56,
+   110.35,
+   "my"
+  ],
+  "Asia/Kuwait": [
+   "Kuwait City",
+   29.38,
+   47.97,
+   "kw"
+  ],
+  "Asia/Macau": [
+   "Macau",
+   22.18,
+   113.55,
+   "cn"
+  ],
+  "Asia/Magadan": [
+   "Magadan",
+   59.56,
+   150.81,
+   "ru"
+  ],
+  "Asia/Makassar": [
+   "Makassar",
+   -5.13,
+   119.41,
+   "id"
+  ],
+  "Asia/Manila": [
+   "Manila",
+   14.59,
+   120.98,
+   "ph"
+  ],
+  "Asia/Muscat": [
+   "Muscat",
+   23.61,
+   58.59,
+   "om"
+  ],
+  "Asia/Nicosia": [
+   "Nicosia",
+   35.17,
+   33.36,
+   "cy"
+  ],
+  "Asia/Novokuznetsk": [
+   "Novokuznetsk",
+   53.76,
+   87.15,
+   "ru"
+  ],
+  "Asia/Novosibirsk": [
+   "Novosibirsk",
+   55.03,
+   82.92,
+   "ru"
+  ],
+  "Asia/Omsk": [
+   "Omsk",
+   54.99,
+   73.37,
+   "ru"
+  ],
+  "Asia/Oral": [
+   "Oral",
+   51.2,
+   51.37,
+   "kz"
+  ],
+  "Asia/Phnom_Penh": [
+   "Phnom Penh",
+   11.57,
+   104.92,
+   "kh"
+  ],
+  "Asia/Pontianak": [
+   "Pontianak",
+   -0.02,
+   109.34,
+   "id"
+  ],
+  "Asia/Pyongyang": [
+   "Pyongyang",
+   39.02,
+   125.75,
+   "kp"
+  ],
+  "Asia/Qatar": [
+   "Doha",
+   25.31,
+   51.51,
+   "qa"
+  ],
+  "Asia/Qostanay": [
+   "Qostanay",
+   53.21,
+   63.63,
+   "kz"
+  ],
+  "Asia/Qyzylorda": [
+   "Qyzylorda",
+   44.84,
+   65.5,
+   "kz"
+  ],
+  "Asia/Rangoon": [
+   "Rangoon",
+   16.8,
+   96.16,
+   "mm"
+  ],
+  "Asia/Riyadh": [
+   "Riyadh",
+   24.64,
+   46.72,
+   "sa"
+  ],
+  "Asia/Saigon": [
+   "Saigon",
+   10.77,
+   106.72,
+   "vn"
+  ],
+  "Asia/Sakhalin": [
+   "Yuzhno-Sakhalinsk",
+   46.96,
+   142.73,
+   "ru"
+  ],
+  "Asia/Samarkand": [
+   "Samarkand",
+   39.66,
+   66.98,
+   "uz"
+  ],
+  "Asia/Seoul": [
+   "Seoul",
+   37.57,
+   126.98,
+   "kr"
+  ],
+  "Asia/Shanghai": [
+   "Shanghai",
+   31.23,
+   121.47,
+   "cn"
+  ],
+  "Asia/Singapore": [
+   "Singapore",
+   1.36,
+   103.82,
+   "sg"
+  ],
+  "Asia/Srednekolymsk": [
+   "Srednekolymsk",
+   67.46,
+   153.71,
+   "ru"
+  ],
+  "Asia/Taipei": [
+   "Taipei",
+   25.04,
+   121.56,
+   "tw"
+  ],
+  "Asia/Tashkent": [
+   "Tashkent",
+   41.31,
+   69.28,
+   "uz"
+  ],
+  "Asia/Tbilisi": [
+   "Tbilisi",
+   41.69,
+   44.8,
+   "ge"
+  ],
+  "Asia/Tehran": [
+   "Tehran",
+   35.69,
+   51.39,
+   "ir"
+  ],
+  "Asia/Thimphu": [
+   "Thimphu",
+   27.47,
+   89.63,
+   "bt"
+  ],
+  "Asia/Tokyo": [
+   "Tokyo",
+   35.68,
+   139.76,
+   "jp"
+  ],
+  "Asia/Tomsk": [
+   "Tomsk",
+   56.49,
+   84.95,
+   "ru"
+  ],
+  "Asia/Ulaanbaatar": [
+   "Ulaanbaatar",
+   47.92,
+   106.92,
+   "mn"
+  ],
+  "Asia/Urumqi": [
+   "Urumqi",
+   43.82,
+   87.61,
+   "cn"
+  ],
+  "Asia/Ust-Nera": [
+   "Ust-Nera",
+   64.57,
+   143.24,
+   "ru"
+  ],
+  "Asia/Vientiane": [
+   "Vientiane",
+   17.96,
+   102.61,
+   "la"
+  ],
+  "Asia/Vladivostok": [
+   "Vladivostok",
+   43.12,
+   131.89,
+   "ru"
+  ],
+  "Asia/Yakutsk": [
+   "Yakutsk",
+   62.03,
+   129.73,
+   "ru"
+  ],
+  "Asia/Yekaterinburg": [
+   "Yekaterinburg",
+   56.84,
+   60.6,
+   "ru"
+  ],
+  "Asia/Yerevan": [
+   "Yerevan",
+   40.18,
+   44.51,
+   "am"
+  ],
+  "Atlantic/Azores": [
+   "Ponta Delgada",
+   37.74,
+   -25.67,
+   "pt"
+  ],
+  "Atlantic/Bermuda": [
+   "Hamilton",
+   32.29,
+   -64.79,
+   "bm"
+  ],
+  "Atlantic/Canary": [
+   "Las Palmas de Gran Canaria",
+   28.13,
+   -15.43,
+   "es"
+  ],
+  "Atlantic/Cape_Verde": [
+   "Praia",
+   14.92,
+   -23.51,
+   "cv"
+  ],
+  "Atlantic/Faeroe": [
+   "Torshavn",
+   62.01,
+   -6.77,
+   "fo"
+  ],
+  "Atlantic/Madeira": [
+   "Funchal",
+   32.65,
+   -16.91,
+   "pt"
+  ],
+  "Atlantic/Reykjavik": [
+   "Reykjavik",
+   64.15,
+   -21.94,
+   "is"
+  ],
+  "Atlantic/South_Georgia": [
+   "King Edward Point",
+   -54.28,
+   -36.49,
+   "gs"
+  ],
+  "Atlantic/St_Helena": [
+   "Jamestown",
+   -15.93,
+   -5.72,
+   "sh"
+  ],
+  "Atlantic/Stanley": [
+   "Stanley",
+   -51.69,
+   -57.86,
+   "fk"
+  ],
+  "Australia/Adelaide": [
+   "Adelaide",
+   -34.93,
+   138.6,
+   "au"
+  ],
+  "Australia/Brisbane": [
+   "Brisbane",
+   -27.47,
+   153.02,
+   "au"
+  ],
+  "Australia/Broken_Hill": [
+   "Broken Hill",
+   -31.96,
+   141.45,
+   "au"
+  ],
+  "Australia/Darwin": [
+   "Darwin",
+   -12.46,
+   130.84,
+   "au"
+  ],
+  "Australia/Eucla": [
+   "Eucla",
+   -31.68,
+   128.89,
+   "au"
+  ],
+  "Australia/Hobart": [
+   "Hobart",
+   -42.88,
+   147.33,
+   "au"
+  ],
+  "Australia/Lindeman": [
+   "Lindeman Island",
+   -20.44,
+   149.04,
+   "au"
+  ],
+  "Australia/Lord_Howe": [
+   "Lord Howe",
+   -31.52,
+   159.06,
+   "au"
+  ],
+  "Australia/Melbourne": [
+   "Melbourne",
+   -37.81,
+   144.96,
+   "au"
+  ],
+  "Australia/Perth": [
+   "Perth",
+   -31.96,
+   115.86,
+   "au"
+  ],
+  "Australia/Sydney": [
+   "Sydney",
+   -33.87,
+   151.21,
+   "au"
+  ],
+  "Europe/Amsterdam": [
+   "Amsterdam",
+   52.37,
+   4.89,
+   "nl"
+  ],
+  "Europe/Andorra": [
+   "Andorra la Vella",
+   42.5,
+   1.5,
+   "ad"
+  ],
+  "Europe/Astrakhan": [
+   "Astrakhan",
+   46.35,
+   48.03,
+   "ru"
+  ],
+  "Europe/Athens": [
+   "Athens",
+   37.98,
+   23.73,
+   "gr"
+  ],
+  "Europe/Belgrade": [
+   "Belgrade",
+   44.82,
+   20.46,
+   "rs"
+  ],
+  "Europe/Berlin": [
+   "Berlin",
+   52.52,
+   13.4,
+   "de"
+  ],
+  "Europe/Bratislava": [
+   "Bratislava",
+   48.14,
+   17.11,
+   "sk"
+  ],
+  "Europe/Brussels": [
+   "Brussels",
+   50.85,
+   4.35,
+   "be"
+  ],
+  "Europe/Bucharest": [
+   "Bucharest",
+   44.44,
+   26.1,
+   "ro"
+  ],
+  "Europe/Budapest": [
+   "Budapest",
+   47.5,
+   19.04,
+   "hu"
+  ],
+  "Europe/Busingen": [
+   "Busingen",
+   47.7,
+   8.69,
+   "de"
+  ],
+  "Europe/Chisinau": [
+   "Chisinau",
+   47.02,
+   28.83,
+   "md"
+  ],
+  "Europe/Copenhagen": [
+   "Copenhagen",
+   55.69,
+   12.57,
+   "dk"
+  ],
+  "Europe/Dublin": [
+   "Dublin",
+   53.35,
+   -6.26,
+   "ie"
+  ],
+  "Europe/Gibraltar": [
+   "Gibraltar",
+   36.13,
+   -5.35,
+   "gi"
+  ],
+  "Europe/Guernsey": [
+   "St Peter Port",
+   49.46,
+   -2.54,
+   "gg"
+  ],
+  "Europe/Helsinki": [
+   "Helsinki",
+   60.17,
+   24.94,
+   "fi"
+  ],
+  "Europe/Isle_of_Man": [
+   "Douglas",
+   54.15,
+   -4.48,
+   "im"
+  ],
+  "Europe/Istanbul": [
+   "Istanbul",
+   41.01,
+   28.98,
+   "tr"
+  ],
+  "Europe/Jersey": [
+   "St Helier",
+   49.19,
+   -2.11,
+   "je"
+  ],
+  "Europe/Kaliningrad": [
+   "Kaliningrad",
+   54.71,
+   20.51,
+   "ru"
+  ],
+  "Europe/Kiev": [
+   "Kiev",
+   50.45,
+   30.52,
+   "ua"
+  ],
+  "Europe/Kirov": [
+   "Kirov",
+   58.6,
+   49.67,
+   "ru"
+  ],
+  "Europe/Lisbon": [
+   "Lisbon",
+   38.71,
+   -9.14,
+   "pt"
+  ],
+  "Europe/Ljubljana": [
+   "Ljubljana",
+   46.05,
+   14.51,
+   "si"
+  ],
+  "Europe/London": [
+   "London",
+   51.51,
+   -0.13,
+   "gb"
+  ],
+  "Europe/Luxembourg": [
+   "Luxembourg",
+   49.61,
+   6.13,
+   "lu"
+  ],
+  "Europe/Madrid": [
+   "Madrid",
+   40.42,
+   -3.7,
+   "es"
+  ],
+  "Europe/Malta": [
+   "Valletta",
+   35.9,
+   14.51,
+   "mt"
+  ],
+  "Europe/Mariehamn": [
+   "Mariehamn",
+   60.1,
+   19.94,
+   "fi"
+  ],
+  "Europe/Minsk": [
+   "Minsk",
+   53.9,
+   27.56,
+   "by"
+  ],
+  "Europe/Monaco": [
+   "Monaco",
+   43.73,
+   7.42,
+   "mc"
+  ],
+  "Europe/Moscow": [
+   "Moscow",
+   55.63,
+   37.61,
+   "ru"
+  ],
+  "Europe/Oslo": [
+   "Oslo",
+   59.91,
+   10.74,
+   "no"
+  ],
+  "Europe/Paris": [
+   "Paris",
+   48.85,
+   2.35,
+   "fr"
+  ],
+  "Europe/Podgorica": [
+   "Podgorica",
+   42.44,
+   19.26,
+   "me"
+  ],
+  "Europe/Prague": [
+   "Prague",
+   50.09,
+   14.42,
+   "cz"
+  ],
+  "Europe/Riga": [
+   "Riga",
+   56.95,
+   24.11,
+   "lv"
+  ],
+  "Europe/Rome": [
+   "Rome",
+   41.89,
+   12.48,
+   "it"
+  ],
+  "Europe/Samara": [
+   "Samara",
+   53.2,
+   50.1,
+   "ru"
+  ],
+  "Europe/San_Marino": [
+   "San Marino",
+   43.94,
+   12.45,
+   "sm"
+  ],
+  "Europe/Sarajevo": [
+   "Sarajevo",
+   43.86,
+   18.41,
+   "ba"
+  ],
+  "Europe/Saratov": [
+   "Saratov",
+   51.53,
+   46.03,
+   "ru"
+  ],
+  "Europe/Simferopol": [
+   "Simferopol",
+   44.95,
+   34.1,
+   "ua"
+  ],
+  "Europe/Skopje": [
+   "Skopje",
+   42,
+   21.43,
+   "mk"
+  ],
+  "Europe/Sofia": [
+   "Sofia",
+   42.7,
+   23.32,
+   "bg"
+  ],
+  "Europe/Stockholm": [
+   "Stockholm",
+   59.33,
+   18.07,
+   "se"
+  ],
+  "Europe/Tallinn": [
+   "Tallinn",
+   59.44,
+   24.76,
+   "ee"
+  ],
+  "Europe/Tirane": [
+   "Tirane",
+   41.33,
+   19.82,
+   "al"
+  ],
+  "Europe/Ulyanovsk": [
+   "Ulyanovsk",
+   54.32,
+   48.4,
+   "ru"
+  ],
+  "Europe/Vaduz": [
+   "Vaduz",
+   47.14,
+   9.52,
+   "li"
+  ],
+  "Europe/Vatican": [
+   "Vatican City",
+   41.9,
+   12.45,
+   "va"
+  ],
+  "Europe/Vienna": [
+   "Vienna",
+   48.21,
+   16.37,
+   "at"
+  ],
+  "Europe/Vilnius": [
+   "Vilnius",
+   54.69,
+   25.28,
+   "lt"
+  ],
+  "Europe/Volgograd": [
+   "Volgograd",
+   48.71,
+   44.52,
+   "ru"
+  ],
+  "Europe/Warsaw": [
+   "Warsaw",
+   52.23,
+   21.01,
+   "pl"
+  ],
+  "Europe/Zagreb": [
+   "Zagreb",
+   45.81,
+   15.98,
+   "hr"
+  ],
+  "Europe/Zurich": [
+   "Zurich",
+   47.37,
+   8.54,
+   "ch"
+  ],
+  "Indian/Antananarivo": [
+   "Antananarivo",
+   -18.91,
+   47.53,
+   "mg"
+  ],
+  "Indian/Chagos": [
+   "Diego Garcia",
+   -7.34,
+   72.47,
+   "io"
+  ],
+  "Indian/Christmas": [
+   "Flying Fish Cove",
+   -10.49,
+   105.62,
+   "au"
+  ],
+  "Indian/Cocos": [
+   "West Island",
+   -12.15,
+   96.84,
+   "au"
+  ],
+  "Indian/Comoro": [
+   "Moroni",
+   -11.7,
+   43.25,
+   "km"
+  ],
+  "Indian/Kerguelen": [
+   "Kerguelen",
+   -49.24,
+   69.62,
+   "fr"
+  ],
+  "Indian/Mahe": [
+   "Victoria",
+   -4.62,
+   55.45,
+   "sc"
+  ],
+  "Indian/Maldives": [
+   "Male",
+   4.18,
+   73.51,
+   "mv"
+  ],
+  "Indian/Mauritius": [
+   "Port Louis",
+   -20.16,
+   57.5,
+   "mu"
+  ],
+  "Indian/Mayotte": [
+   "Mamoudzou",
+   -12.78,
+   45.23,
+   "fr"
+  ],
+  "Indian/Reunion": [
+   "Saint-Denis",
+   -20.88,
+   55.45,
+   "fr"
+  ],
+  "Pacific/Apia": [
+   "Apia",
+   -13.83,
+   -171.76,
+   "ws"
+  ],
+  "Pacific/Auckland": [
+   "Auckland",
+   -36.85,
+   174.76,
+   "nz"
+  ],
+  "Pacific/Bougainville": [
+   "Arawa",
+   -6.23,
+   155.57,
+   "pg"
+  ],
+  "Pacific/Chatham": [
+   "Waitangi",
+   -43.95,
+   -176.56,
+   "nz"
+  ],
+  "Pacific/Easter": [
+   "Hanga Roa",
+   -27.15,
+   -109.43,
+   "cl"
+  ],
+  "Pacific/Efate": [
+   "Port Vila",
+   -17.74,
+   168.32,
+   "vu"
+  ],
+  "Pacific/Enderbury": [
+   "Kanton",
+   -2.82,
+   -171.67,
+   "ki"
+  ],
+  "Pacific/Fakaofo": [
+   "Fakaofo",
+   -9.37,
+   -171.24,
+   "tk"
+  ],
+  "Pacific/Fiji": [
+   "Suva",
+   -18.14,
+   178.44,
+   "fj"
+  ],
+  "Pacific/Funafuti": [
+   "Funafuti",
+   -8.52,
+   179.2,
+   "tv"
+  ],
+  "Pacific/Galapagos": [
+   "Puerto Ayora",
+   -0.75,
+   -90.31,
+   "ec"
+  ],
+  "Pacific/Gambier": [
+   "Rikitea",
+   -23.12,
+   -134.97,
+   "fr"
+  ],
+  "Pacific/Guadalcanal": [
+   "Honiara",
+   -9.43,
+   159.96,
+   "sb"
+  ],
+  "Pacific/Guam": [
+   "Hagatna",
+   13.47,
+   144.75,
+   "us"
+  ],
+  "Pacific/Honolulu": [
+   "Honolulu",
+   21.3,
+   -157.86,
+   "us"
+  ],
+  "Pacific/Kiritimati": [
+   "Kiritimati",
+   1.87,
+   -157.38,
+   "ki"
+  ],
+  "Pacific/Kosrae": [
+   "Tofol",
+   5.33,
+   163.01,
+   "fm"
+  ],
+  "Pacific/Kwajalein": [
+   "Kwajalein",
+   8.74,
+   167.74,
+   "mh"
+  ],
+  "Pacific/Majuro": [
+   "Majuro",
+   7.09,
+   171.38,
+   "mh"
+  ],
+  "Pacific/Marquesas": [
+   "Taiohae",
+   -8.9,
+   -140.16,
+   "fr"
+  ],
+  "Pacific/Midway": [
+   "Midway Atoll",
+   28.23,
+   -177.37,
+   "us"
+  ],
+  "Pacific/Nauru": [
+   "Yaren",
+   -0.55,
+   166.92,
+   "nr"
+  ],
+  "Pacific/Niue": [
+   "Alofi",
+   -19.05,
+   -169.92,
+   "nu"
+  ],
+  "Pacific/Norfolk": [
+   "Kingston",
+   -29.06,
+   167.96,
+   "au"
+  ],
+  "Pacific/Noumea": [
+   "Noumea",
+   -22.27,
+   166.44,
+   "fr"
+  ],
+  "Pacific/Pago_Pago": [
+   "Pago Pago",
+   -14.28,
+   -170.7,
+   "us"
+  ],
+  "Pacific/Palau": [
+   "Koror",
+   7.23,
+   134.13,
+   "pw"
+  ],
+  "Pacific/Pitcairn": [
+   "Adamstown",
+   -25.07,
+   -130.1,
+   "pn"
+  ],
+  "Pacific/Ponape": [
+   "Palikir",
+   6.92,
+   158.16,
+   "fm"
+  ],
+  "Pacific/Port_Moresby": [
+   "Port Moresby",
+   -9.47,
+   147.16,
+   "pg"
+  ],
+  "Pacific/Rarotonga": [
+   "Avarua",
+   -21.21,
+   -159.77,
+   "ck"
+  ],
+  "Pacific/Saipan": [
+   "Saipan",
+   15.19,
+   145.75,
+   "us"
+  ],
+  "Pacific/Tahiti": [
+   "Papeete",
+   -17.54,
+   -149.57,
+   "fr"
+  ],
+  "Pacific/Tarawa": [
+   "South Tarawa",
+   1.35,
+   173.04,
+   "ki"
+  ],
+  "Pacific/Tongatapu": [
+   "Nuku'alofa",
+   -21.13,
+   -175.2,
+   "to"
+  ],
+  "Pacific/Truk": [
+   "Weno",
+   7.44,
+   151.86,
+   "fm"
+  ],
+  "Pacific/Wake": [
+   "Wake Island",
+   19.3,
+   166.63,
+   "us"
+  ],
+  "Pacific/Wallis": [
+   "Mata-Utu",
+   -13.28,
+   -176.17,
+   "fr"
+  ],
+  "Atlantic/Faroe": [
+   "Torshavn",
+   62.01,
+   -6.77,
+   "fo"
+  ],
+  "Pacific/Chuuk": [
+   "Weno",
+   7.44,
+   151.86,
+   "fm"
+  ],
+  "Pacific/Pohnpei": [
+   "Palikir",
+   6.92,
+   158.16,
+   "fm"
+  ],
+  "America/Atikokan": [
+   "Atikokan",
+   48.76,
+   -91.62,
+   "ca"
+  ],
+  "Europe/Belfast": [
+   "Belfast",
+   54.6,
+   -5.93,
+   "gb"
+  ],
+  "Asia/Chongqing": [
+   "Chongqing",
+   30.06,
+   107.87,
+   "cn"
+  ],
+  "Asia/Harbin": [
+   "Harbin",
+   45.76,
+   126.63,
+   "cn"
+  ]
+ },
+ "cities": [
+  [
+   "Mumbai, India",
+   19.05,
+   72.87
+  ],
+  [
+   "Delhi, India",
+   28.67,
+   77.22
+  ],
+  [
+   "Bangalore, India",
+   12.98,
+   77.59
+  ],
+  [
+   "Chennai, India",
+   13.08,
+   80.28
+  ],
+  [
+   "Hyderabad, India",
+   17.36,
+   78.47
+  ],
+  [
+   "Pune, India",
+   18.52,
+   73.85
+  ],
+  [
+   "Ahmedabad, India",
+   23.02,
+   72.58
+  ],
+  [
+   "Karachi, Pakistan",
+   24.85,
+   67.02
+  ],
+  [
+   "Lahore, Pakistan",
+   31.57,
+   74.31
+  ],
+  [
+   "Islamabad, Pakistan",
+   33.69,
+   73.07
+  ],
+  [
+   "Colombo, Sri Lanka",
+   6.94,
+   79.85
+  ],
+  [
+   "Beijing, China",
+   39.91,
+   116.39
+  ],
+  [
+   "Guangzhou, China",
+   23.13,
+   113.26
+  ],
+  [
+   "Shenzhen, China",
+   22.54,
+   114.05
+  ],
+  [
+   "Chengdu, China",
+   30.66,
+   104.06
+  ],
+  [
+   "Busan, South Korea",
+   35.18,
+   129.08
+  ],
+  [
+   "Osaka, Japan",
+   34.69,
+   135.5
+  ],
+  [
+   "Nagoya, Japan",
+   35.19,
+   136.9
+  ],
+  [
+   "Sapporo, Japan",
+   43.06,
+   141.35
+  ],
+  [
+   "Fukuoka, Japan",
+   33.63,
+   130.62
+  ],
+  [
+   "Hanoi, Vietnam",
+   21.03,
+   105.85
+  ],
+  [
+   "Jeddah, Saudi Arabia",
+   21.55,
+   39.17
+  ],
+  [
+   "Abu Dhabi, United Arab Emirates",
+   24.45,
+   54.38
+  ],
+  [
+   "Tel Aviv, Israel",
+   32.09,
+   34.78
+  ],
+  [
+   "Ankara, Turkey",
+   39.92,
+   32.85
+  ],
+  [
+   "Alexandria, Egypt",
+   31.2,
+   29.9
+  ],
+  [
+   "Abuja, Nigeria",
+   9.06,
+   7.49
+  ],
+  [
+   "Cape Town, South Africa",
+   -33.93,
+   18.42
+  ],
+  [
+   "Durban, South Africa",
+   -29.86,
+   31.01
+  ],
+  [
+   "Rotterdam, Netherlands",
+   51.92,
+   4.48
+  ],
+  [
+   "Eindhoven, Netherlands",
+   51.44,
+   5.48
+  ],
+  [
+   "Antwerp, Belgium",
+   51.22,
+   4.4
+  ],
+  [
+   "Bruges, Belgium",
+   51.21,
+   3.23
+  ],
+  [
+   "Geneva, Switzerland",
+   46.2,
+   6.15
+  ],
+  [
+   "Basel, Switzerland",
+   47.56,
+   7.59
+  ],
+  [
+   "Krakow, Poland",
+   50.05,
+   20
+  ],
+  [
+   "Gothenburg, Sweden",
+   57.71,
+   11.97
+  ],
+  [
+   "Bergen, Norway",
+   60.39,
+   5.33
+  ],
+  [
+   "Porto, Portugal",
+   41.15,
+   -8.61
+  ],
+  [
+   "Thessaloniki, Greece",
+   40.64,
+   22.94
+  ],
+  [
+   "Milan, Italy",
+   45.46,
+   9.19
+  ],
+  [
+   "Florence, Italy",
+   43.77,
+   11.26
+  ],
+  [
+   "Bologna, Italy",
+   44.49,
+   11.34
+  ],
+  [
+   "Nice, France",
+   43.7,
+   7.27
+  ],
+  [
+   "Lille, France",
+   50.64,
+   3.06
+  ],
+  [
+   "Stuttgart, Germany",
+   48.78,
+   9.18
+  ],
+  [
+   "Cork, Ireland",
+   51.9,
+   -8.47
+  ],
+  [
+   "Aberdeen, Scotland",
+   57.15,
+   -2.09
+  ],
+  [
+   "Swansea, Wales",
+   51.62,
+   -3.95
+  ],
+  [
+   "Leeds, England",
+   53.8,
+   -1.54
+  ],
+  [
+   "Birmingham, England",
+   52.49,
+   -1.85
+  ],
+  [
+   "Sheffield, England",
+   53.38,
+   -1.47
+  ],
+  [
+   "Nottingham, England",
+   52.95,
+   -1.15
+  ],
+  [
+   "Oxford, England",
+   51.75,
+   -1.26
+  ],
+  [
+   "Cambridge, England",
+   52.2,
+   0.14
+  ],
+  [
+   "York, England",
+   53.97,
+   -1.07
+  ],
+  [
+   "Plymouth, England",
+   50.37,
+   -4.14
+  ],
+  [
+   "Saint Petersburg, Russia",
+   59.96,
+   30.16
+  ],
+  [
+   "Quebec City, Canada",
+   46.81,
+   -71.21
+  ],
+  [
+   "Victoria, Canada",
+   48.43,
+   -123.36
+  ],
+  [
+   "Saskatoon, Canada",
+   52.13,
+   -106.66
+  ],
+  [
+   "Kelowna, Canada",
+   49.89,
+   -119.5
+  ],
+  [
+   "London, Canada",
+   42.98,
+   -81.25
+  ],
+  [
+   "Kitchener, Canada",
+   43.45,
+   -80.49
+  ],
+  [
+   "Moncton, Canada",
+   46.1,
+   -64.8
+  ],
+  [
+   "Austin, Texas",
+   30.26,
+   -97.75
+  ],
+  [
+   "Albuquerque, New Mexico",
+   35.08,
+   -106.65
+  ],
+  [
+   "El Paso, Texas",
+   31.76,
+   -106.49
+  ],
+  [
+   "Tucson, Arizona",
+   32.22,
+   -110.97
+  ],
+  [
+   "Omaha, Nebraska",
+   41.26,
+   -95.94
+  ],
+  [
+   "Richmond, Virginia",
+   37.54,
+   -77.43
+  ],
+  [
+   "Norfolk, Virginia",
+   36.85,
+   -76.29
+  ],
+  [
+   "Hartford, Connecticut",
+   41.77,
+   -72.67
+  ],
+  [
+   "Providence, Rhode Island",
+   41.82,
+   -71.41
+  ],
+  [
+   "Albany, New York",
+   42.65,
+   -73.75
+  ],
+  [
+   "Rochester, New York",
+   43.16,
+   -77.62
+  ],
+  [
+   "Des Moines, Iowa",
+   41.59,
+   -93.62
+  ],
+  [
+   "Boise, Idaho",
+   43.62,
+   -116.2
+  ],
+  [
+   "Spokane, Washington",
+   47.66,
+   -117.42
+  ],
+  [
+   "Reno, Nevada",
+   39.53,
+   -119.81
+  ],
+  [
+   "Guadalajara, Mexico",
+   20.68,
+   -103.34
+  ],
+  [
+   "Tijuana, Mexico",
+   32.54,
+   -117.04
+  ],
+  [
+   "Rio de Janeiro, Brazil",
+   -22.91,
+   -43.21
+  ],
+  [
+   "Brasilia, Brazil",
+   -15.79,
+   -47.88
+  ],
+  [
+   "Belo Horizonte, Brazil",
+   -19.92,
+   -43.95
+  ],
+  [
+   "Porto Alegre, Brazil",
+   -30.03,
+   -51.23
+  ],
+  [
+   "Medellin, Colombia",
+   6.27,
+   -75.6
+  ],
+  [
+   "Quito, Ecuador",
+   -0.22,
+   -78.51
+  ],
+  [
+   "Canberra, Australia",
+   -35.3,
+   149.1
+  ],
+  [
+   "Gold Coast, Australia",
+   -28,
+   153.41
+  ],
+  [
+   "Wellington, New Zealand",
+   -41.29,
+   174.78
+  ],
+  [
+   "Christchurch, New Zealand",
+   -43.53,
+   172.64
+  ],
+  [
+   "Dunedin, New Zealand",
+   -45.87,
+   170.5
+  ],
+  [
+   "Hamilton, New Zealand",
+   -37.79,
+   175.28
+  ]
+ ]
+}

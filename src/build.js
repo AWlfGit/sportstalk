@@ -124,6 +124,62 @@ function loadRegions() {
   }
   return { list };
 }
+// Local mode (src/local.js): where each team is based, the city of each time zone, and the cities a
+// visitor can pick, from research/places.json (made by research/get-places.js). Coordinates are
+// rounded to about a kilometre. Without the file, Local mode simply finds nothing near.
+function loadPlaces() {
+  const out = { t: {}, c: {}, z: {}, cities: [] };
+  let d;
+  try { d = JSON.parse(fs.readFileSync(path.join(root, "research", "places.json"), "utf8")); } catch (e) { return out; }
+  const ll = (a, b) => [Math.round(a * 100) / 100, Math.round(b * 100) / 100];
+  // City labels for the picker, in English with short region codes: "Seattle, Washington, United
+  // States" -> "Seattle, WA"; "Toronto, Ontario" -> "Toronto, ON"; "München, Germany" -> "Munich, Germany"
+  const US = { Alabama: "AL", Alaska: "AK", Arizona: "AZ", Arkansas: "AR", California: "CA", Colorado: "CO", Connecticut: "CT", Delaware: "DE", "District of Columbia": "DC", Florida: "FL", Georgia: "GA", Hawaii: "HI", Idaho: "ID", Illinois: "IL", Indiana: "IN", Iowa: "IA", Kansas: "KS", Kentucky: "KY", Louisiana: "LA", Maine: "ME", Maryland: "MD", Massachusetts: "MA", Michigan: "MI", Minnesota: "MN", Mississippi: "MS", Missouri: "MO", Montana: "MT", Nebraska: "NE", Nevada: "NV", "New Hampshire": "NH", "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY", "North Carolina": "NC", "North Dakota": "ND", Ohio: "OH", Oklahoma: "OK", Oregon: "OR", Pennsylvania: "PA", "Rhode Island": "RI", "South Carolina": "SC", "South Dakota": "SD", Tennessee: "TN", Texas: "TX", Utah: "UT", Vermont: "VT", Virginia: "VA", Washington: "WA", "West Virginia": "WV", Wisconsin: "WI", Wyoming: "WY" };
+  const CA = { Alberta: "AB", "British Columbia": "BC", Manitoba: "MB", "New Brunswick": "NB", "Newfoundland and Labrador": "NL", "Nova Scotia": "NS", Ontario: "ON", "Prince Edward Island": "PE", Quebec: "QC", "Québec": "QC", Saskatchewan: "SK" };
+  const EN = { "München": "Munich", Muenchen: "Munich", Roma: "Rome", Torino: "Turin", Napoli: "Naples", Milano: "Milan", Firenze: "Florence", Genova: "Genoa", Venezia: "Venice", Sevilla: "Seville", "Köln": "Cologne", Koeln: "Cologne", Lisboa: "Lisbon", Bucuresti: "Bucharest", "București": "Bucharest", Warszawa: "Warsaw", Praha: "Prague", Wien: "Vienna", Bruxelles: "Brussels", Brussel: "Brussels", "København": "Copenhagen", Kobenhavn: "Copenhagen", "Göteborg": "Gothenburg", Moskva: "Moscow", Athina: "Athens", "Den Haag": "The Hague", "Frankfurt am Main": "Frankfurt", Donostia: "San Sebastian", "Donostia-San Sebastián": "San Sebastian", Bilbo: "Bilbao", "Iruña": "Pamplona", Gasteiz: "Vitoria", "Vitoria-Gasteiz": "Vitoria", "Beograd": "Belgrade", "Kraków": "Krakow", "Plzeň": "Pilsen", "Zürich": "Zurich", "Genève": "Geneva", "Thessaloniki": "Thessaloniki", "New York City": "New York" };
+  const STATES = new Set([...Object.keys(US), ...Object.values(US)]), PROVS = new Set([...Object.keys(CA), ...Object.values(CA)]);
+  const label = (c) => {
+    const p = String(c).split(", ").map((x) => x.trim()).filter(Boolean);
+    const city = EN[p[0]] || p[0], rest = p.slice(1), country = rest[rest.length - 1] || "", region = rest.length > 1 ? rest[0] : "";
+    if (country === "United States" || country === "USA" || (!region && STATES.has(country))) { const r = region || country; return city + (US[r] || (/^[A-Z]{2}$/.test(r) ? r : "") ? ", " + (US[r] || r) : ", USA"); }
+    if (country === "Canada" || (!region && PROVS.has(country))) { const r = region || (PROVS.has(country) ? country : ""); return city + ", " + (CA[r] || (/^[A-Z]{2}$/.test(r) ? r : "Canada")); }
+    return country ? city + ", " + country : city;
+  };
+  // Each place is listed once: a second name for the same spot (Roma beside Rome, within about 2 km) is dropped. Time
+  // zones go first, so their plain English names ("Toronto", "Rome") win.
+  const rank = new Map();
+  const addCity = (name, a, b) => {
+    const head = (x) => x.split(",")[0].toLowerCase();
+    for (const c of out.cities) if (c[0].toLowerCase() === name.toLowerCase() || (Math.abs(c[1] - a) < 0.02 && Math.abs(c[2] - b) < 0.03) || (head(c[0]) === head(name) && Math.abs(c[1] - a) < 0.3 && Math.abs(c[2] - b) < 0.4)) return;
+    out.cities.push([name, ...ll(a, b)]); rank.set(name, rank.size);
+  };
+  const regionName = (() => { try { const dn = new Intl.DisplayNames(["en"], { type: "region" }); return (cc) => (cc ? (cc.toUpperCase() === "US" ? "USA" : cc.toUpperCase() === "GB" ? "UK" : dn.of(cc.toUpperCase())) : ""); } catch (e) { return () => ""; } })();
+  for (const [tz, v] of Object.entries(d.zones || {})) { const c = regionName(v[3]); out.z[tz] = [v[0] + (c && c !== v[0] ? ", " + c : ""), ...ll(v[1], v[2])]; }
+  // Browsers report some time zones by an older or newer name than Node lists (India is
+  // "Asia/Kolkata" in one and "Asia/Calcutta" in another), so each name answers for the other,
+  // and both use today's name for the city (Kolkata, Kyiv)
+  const ALIASES = [["Asia/Kolkata", "Asia/Calcutta"], ["Asia/Kathmandu", "Asia/Katmandu"], ["Asia/Ho_Chi_Minh", "Asia/Saigon"], ["Asia/Yangon", "Asia/Rangoon"], ["Asia/Dhaka", "Asia/Dacca"], ["Asia/Thimphu", "Asia/Thimbu"], ["Asia/Ulaanbaatar", "Asia/Ulan_Bator"], ["Asia/Macau", "Asia/Macao"], ["Asia/Jerusalem", "Asia/Tel_Aviv"], ["Europe/Kyiv", "Europe/Kiev"], ["Europe/Istanbul", "Asia/Istanbul"], ["Atlantic/Faroe", "Atlantic/Faeroe"], ["America/Argentina/Buenos_Aires", "America/Buenos_Aires"], ["America/Argentina/Cordoba", "America/Cordoba"], ["America/Indiana/Indianapolis", "America/Indianapolis"], ["America/Kentucky/Louisville", "America/Louisville"], ["America/Nuuk", "America/Godthab"], ["America/Atikokan", "America/Coral_Harbour"], ["Pacific/Chuuk", "Pacific/Truk"], ["Pacific/Pohnpei", "Pacific/Ponape"], ["Pacific/Kanton", "Pacific/Enderbury"], ["Africa/Asmara", "Africa/Asmera"], ["America/Toronto", "America/Montreal"], ["America/Toronto", "America/Nipigon"], ["America/Toronto", "America/Thunder_Bay"], ["America/Edmonton", "America/Yellowknife"], ["America/Winnipeg", "America/Rainy_River"], ["Australia/Sydney", "Australia/Canberra"], ["Australia/Sydney", "Australia/ACT"], ["Australia/Sydney", "Australia/NSW"], ["America/New_York", "US/Eastern"], ["America/Chicago", "US/Central"], ["America/Denver", "US/Mountain"], ["America/Phoenix", "US/Arizona"], ["America/Los_Angeles", "US/Pacific"], ["America/Anchorage", "US/Alaska"], ["Pacific/Honolulu", "US/Hawaii"], ["America/Halifax", "Canada/Atlantic"], ["America/Toronto", "Canada/Eastern"], ["America/Winnipeg", "Canada/Central"], ["America/Edmonton", "Canada/Mountain"], ["America/Vancouver", "Canada/Pacific"], ["America/Regina", "Canada/Saskatchewan"], ["America/St_Johns", "Canada/Newfoundland"], ["Europe/London", "GB"], ["Europe/Dublin", "Eire"], ["Asia/Shanghai", "PRC"], ["Asia/Tokyo", "Japan"], ["Pacific/Auckland", "NZ"]];
+  const cityOf = (tz) => tz.split("/").pop().replace(/_/g, " ");
+  for (const [a, b] of ALIASES) {
+    const src = out.z[a] || out.z[b];
+    if (!src) continue;
+    const plain = (z) => z.includes("/") && !z.startsWith("US/") && !z.startsWith("Canada/");
+    const name = plain(a) && plain(b) ? cityOf(a) : src[0];
+    const country = String(src[0]).includes(", ") ? String(src[0]).slice(String(src[0]).indexOf(", ")) : "";
+    const full = name === src[0] || name.includes(", ") ? name : name + country;
+    out.z[a] = [full, src[1], src[2]]; out.z[b] = [full, src[1], src[2]];
+  }
+  for (const v of Object.values(out.z)) addCity(v[0], v[1], v[2]);
+  for (const [k, v] of Object.entries(d.teams || {})) { out.t[k] = ll(v[2], v[3]); addCity(label(v[1]), v[2], v[3]); }
+  for (const [k, v] of Object.entries(d.circuits || {})) out.c[k] = ll(v[1], v[2]);
+  for (const v of d.cities || []) addCity(label(v[0]), v[1], v[2]);
+  // Alphabetical, but places sharing a name keep the order they were added in: time-zone cities
+  // (the big ones) first, so "london" finds London, UK before London, Ontario
+  const head = (x) => x[0].split(",")[0].toLowerCase();
+  out.cities.sort((x, y) => head(x).localeCompare(head(y)) || rank.get(x[0]) - rank.get(y[0]));
+  return out;
+}
+
 // Hand-checked pronunciation fixes, e.g. the Canadian "eh" (research/pronounce.json)
 function loadPronounce() {
   try {
@@ -242,8 +298,11 @@ const feedUrl = fu > 0 && process.argv[fu + 1] ? process.argv[fu + 1] : "https:/
   console.log("Talk packs:", Object.keys(talk).map((k) => k + " (" + Object.keys(talk[k].exchanges).length + " exchanges, " + talk[k].terms.length + " terms)").join(", ") || "none");
   // Character art in src/art/ is embedded into the page, so every copy works as a single file.
   const art = (m, f) => 'url("data:image/' + (f.endsWith(".png") ? "png" : "webp") + ";base64," + fs.readFileSync(path.join(__dirname, "art", f)).toString("base64") + '")';
+  const places = loadPlaces();
+  console.log("Local mode:", Object.keys(places.t).length, "teams placed,", Object.keys(places.c).length, "circuits,", places.cities.length, "cities,", Object.keys(places.z).length, "time zones,", (safe(places).length / 1024).toFixed(0), "KB");
   const base = src.replace(/url\("art\/([\w.-]+\.(?:webp|png))"\)/g, art)
-    .replace("__SNAPSHOT__", () => json).replace("__TALK__", () => safe(talk)).replace("__SAY__", () => safe(lingo.say));
+    .replace("__SNAPSHOT__", () => json).replace("__TALK__", () => safe(talk)).replace("__SAY__", () => safe(lingo.say))
+    .replace("__PLACES__", () => safe(places)).replace("__LOCAL_JS__", () => fs.readFileSync(path.join(__dirname, "local.js"), "utf8"));
   const lingoAll = { teams: lingo.teams, regions: lingo.regions };
   // Logos are embedded in the single-file copies; the website copy serves them as files instead.
   const logos = await fetchLogos(snap);

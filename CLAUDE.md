@@ -53,7 +53,16 @@ has the commands.
   (hockey's researched talk is Canadian and keeps Canadian spelling), parlays and spreads, and
   smooth US voices in Modern, robotic US voices in Retro. `REGION` and `isNA()` in `app.html`
   drive this; any new shared text needs both versions.
-- **Every visit opens on hockey (NHL).**
+- **Every visit opens on All sports, near the visitor (Local mode)** unless they chose Everywhere
+  (the Where choice is remembered in their browser; the Sport menu isn't). The Where button picks the
+  area: Near me (the device's time zone city, or a precise location the visitor chooses to share),
+  a city they pick, or Everywhere. A game is local when either team is based within 500 km, home or
+  away, or when it's the visitor's own (typed) team; How near offers 250 to 2,000 km, and a
+  time-zone guess reaches 1,000 km until they choose. It opens on the nearest team's latest game;
+  where nothing is near, it shows every game with a note (never an empty page). The rules are in `src/local.js` (tested by
+  `node research/test-local.js`); team bases are in `research/places.json`, made by
+  `node research/get-places.js` (ESPN schedules plus OpenStreetMap coordinates; re-run it for new
+  seasons or promoted teams). Nothing about the visitor's location ever leaves their browser.
 - **Content**: no song lyrics (naming a song is fine), no TV, film or ad catchphrases, no slurs,
   nothing about deaths or tragedies, mild banter only. Research follows `research/BRIEF.md` and
   must pass `node research/audit.js`.

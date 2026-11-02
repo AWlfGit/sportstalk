@@ -39,10 +39,15 @@ has the commands.
   browser, and fires a volt "You'll pass." wipe the first time it reaches the top level. The
   script ends on an input, "Say it from memory". Both are Modern only; Retro never shows them.
   The bar says what earned each point ("+6 · Heard your opener"); a beat counts as read only
-  after it has been on screen long enough to read it. Keep to the floor: text at 4.5:1 or
+  after it has been on screen long enough to read it. Two effects, both Modern only: the words light up as the
+  voice reaches them (speech boundary events; colour only), and the scoreboard "goes final" when
+  the game changes (team colours wipe in, digits roll and settle; once per game; skipped for
+  reduced motion). The top bar has a volt nameplate and a ribbon in the current game's team colours. Keep to the floor: text at 4.5:1 or
   better, one ease-out curve (never animate width or height), 4, 6 and 10px radii, shadows with
   offset and blur (no glows), hover effects only with a mouse, tap targets of 36px or more on
-  touch screens, motion only for people who haven't asked for less.
+  touch screens, motion only for people who haven't asked for less. Check portrait and landscape
+  (phones, tablets, desktop): on short landscape screens Modern switches to a compact layout so the
+  game stays on the first screen.
 - **Regions.** Soccer, rugby and cricket are British: wording, spelling, betting slang (pony,
   acca) and British voices. NFL, NBA, NHL, MLB and F1 are North American: wording, US spelling
   (hockey's researched talk is Canadian and keeps Canadian spelling), parlays and spreads, and

@@ -145,3 +145,38 @@ Feel check, intended curve against felt curve:
 
 Also fixed in passing (both looks, a copy bug): the phrase book said "for hockey (nhl)"; it now
 says "for hockey".
+
+## Third pass (1 November 2026): motion, the top bar, ideas from the owner's mockup, every screen shape
+
+Two effects, both from the skill's device rules and both driven by real events:
+
+- **Words lit by the voice.** The speech engine reports each word as it starts it; the line on
+  screen is split into words for the length of the speech and put back afterwards. Spoken words
+  full strength, the current one on a volt chip, the rest waiting. Colour only, nothing moves, so
+  it stays clear of the live-surface ban on `kinetic` type. Voices that don't report words keep the
+  whole-line highlight.
+- **The scoreboard goes final.** When the game changes, a `reveal`-style wipe (a transform, with a
+  slanted edge) uncovers the teams' colours across the whole match panel (big, per the reveal rule:
+  a wipe on a small element is a fidget), and each digit rolls and settles per the `count` rule:
+  ease-out hard, 1.2 seconds, once, final value straight away under reduced motion. The reel is
+  clipped at line-height 1 and checked on rendered frames. A redraw while it's landing picks it up
+  where it was. New results flip the changed scores in the strip like a stadium board.
+
+The top bar, broadcast style, in the site's own colours (not ESPN's): a volt nameplate with speed
+stripes trailing off it, a 4px ribbon along the very top in the current game's two team colours, and
+the strip's league tag as a volt block.
+
+From the owner's mockup: the team's crest inside the team box; speaker icons on everything that
+speaks; both crests faded into the match panel; each score underlined (volt for the winner); a
+"Your opening line" card straight after the match with "Practise this match" and "Hear the line";
+the how-to as a step tracker. Left out: the giant "Sound like you watched it." headline (a hero
+claim in display type breaks the live-surface grammar and pushes the game below the fold on
+phones), the profile icon and "Practice mode" (no accounts), league logos (new artwork).
+
+Every screen shape, checked in portrait and landscape (phones, small phones, tablets, desktop):
+landscape phones lost the game below the fold (the header and how-to filled the screen), the
+meter's breakdown ran off the top of a 360px-tall screen, and scrolled-to fields could sit under
+the bottom bar. Fixed with a short-screen layout (one-row header without captions, no how-to, tabs
+that scroll away, a slimmer bar), a scrolling breakdown, and scroll padding for the bars. The
+landscape sweep also found a Retro bug (the logo slid over the Sport menu around 844px wide), fixed
+in Retro's own rules.

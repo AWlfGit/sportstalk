@@ -378,9 +378,9 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) body::after{content:"";position:fixed;inset:0;z-index:40;pointer-events:none;opacity:.04;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 
 /* App bar: wordmark left, controls right, all on one slim row */
-:root:not([data-skin=retro]) .head{padding-block:10px;background:#040507;border-bottom:1px solid var(--hair)}
-:root:not([data-skin=retro]) .head .in{align-items:center;gap:10px 20px}
-:root:not([data-skin=retro]) .brand{flex:0 1 auto;gap:10px}
+:root:not([data-skin=retro]) .head{position:relative;isolation:isolate;overflow:hidden;padding-block:14px 10px;background:#040507;border-bottom:1px solid var(--hair)}
+:root:not([data-skin=retro]) .head .in{align-items:stretch;gap:10px 20px}
+:root:not([data-skin=retro]) .brand{position:relative;z-index:0;flex:0 1 auto;gap:10px;padding-right:22px}
 :root:not([data-skin=retro]) .mark{width:34px;height:34px;border-radius:var(--m-r-md);transform:skewX(-8deg);background:linear-gradient(160deg,#1b2430,#0a0e13);color:var(--flood);font:900 16px/1 var(--f-display);box-shadow:inset 0 0 0 1px var(--flood-35)}
 :root:not([data-skin=retro]) .brand h1{font:900 27px/1 var(--f-display);letter-spacing:.01em;white-space:nowrap}
 :root:not([data-skin=retro]) .brand h1 span{display:inline-block;margin-left:.08em;padding:.05em .16em .02em;background:var(--flood);-webkit-background-clip:border-box;background-clip:border-box;color:var(--flood-ink);-webkit-text-fill-color:var(--flood-ink);transform:skewX(-9deg)}
@@ -490,7 +490,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .scoreline .n{gap:8px;font:900 clamp(18px,2.2vw,24px)/1 var(--f-display);text-shadow:0 2px 12px rgba(0,0,0,.55)}
 :root:not([data-skin=retro]) .crest.big{width:60px;height:60px;border-radius:var(--m-r-md);font-size:15px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25),0 0 0 3px rgba(6,8,11,.5),0 14px 30px -14px #000}
 :root:not([data-skin=retro]) .crest.big.logo{padding:7px}
-:root:not([data-skin=retro]) .scoreline .s{gap:.1em;padding:.04em .24em .02em;border-radius:10px;border:1px solid var(--m-edge-2);background:rgba(4,6,9,.84);font:900 clamp(44px,6vw,68px)/1 var(--f-display);text-shadow:none;letter-spacing:-.01em;box-shadow:inset 0 -3px 0 var(--flood),var(--m-e2)}
+:root:not([data-skin=retro]) .scoreline .s{gap:.1em;padding:.04em .24em .02em;border-radius:10px;border:1px solid var(--m-edge-2);background:rgba(4,6,9,.84);font:900 clamp(44px,6vw,68px)/1 var(--f-display);text-shadow:none;letter-spacing:-.01em;box-shadow:var(--m-e2)}
 :root:not([data-skin=retro]) .scoreline .s em{color:var(--flood);font-size:.48em}
 :root:not([data-skin=retro]) .pill{border-radius:var(--m-r-sm);padding:5px 8px;border-color:var(--m-edge-2);background:rgba(6,8,11,.62);font:italic 700 11px/1 var(--f-cap);letter-spacing:.13em}
 :root:not([data-skin=retro]) .pill.hot{background:var(--flood);border-color:transparent;color:var(--flood-ink);transform:skewX(-8deg)}
@@ -758,6 +758,111 @@ footer p{margin:0 0 4px;max-width:90ch}
 }
 @media(min-width:1180px) and (prefers-reduced-motion:no-preference){:root:not([data-skin=retro]) .tr-part{transition:border-color .3s var(--m-ease)}}
 
+/* Third Scrollcraft pass */
+/* Top bar, broadcast style: a volt nameplate at the left with speed stripes trailing off it, and a thin
+   ribbon along the very top in the current game's two team colours, split by a volt slash */
+:root:not([data-skin=retro]) .head::before{content:"";position:absolute;left:0;right:0;top:0;z-index:1;height:4px;background:linear-gradient(90deg,var(--rh,var(--flood)) 0 calc(50% - 12px),var(--flood) calc(50% - 12px) calc(50% + 12px),var(--ra,var(--flood)) calc(50% + 12px))}
+:root:not([data-skin=retro]) .brand::before{content:"";position:absolute;z-index:-1;top:-14px;bottom:-10px;left:-100vw;right:0;background:var(--flood);transform:skewX(-16deg);transform-origin:100% 0}
+:root:not([data-skin=retro]) .brand::after{content:"";position:absolute;z-index:-1;top:-14px;bottom:-10px;right:-50px;width:46px;background:linear-gradient(90deg,transparent 0 6px,rgba(212,255,58,.62) 6px 13px,transparent 13px 21px,rgba(212,255,58,.34) 21px 27px,transparent 27px 35px,rgba(212,255,58,.15) 35px 40px,transparent 40px);transform:skewX(-16deg);transform-origin:100% 0;pointer-events:none}
+:root:not([data-skin=retro]) .brand h1{color:var(--flood-ink)}
+:root:not([data-skin=retro]) .brand h1 span{background:var(--flood-ink);color:var(--flood);-webkit-text-fill-color:var(--flood)}
+:root:not([data-skin=retro]) .mark{background:var(--flood-ink);color:var(--flood);box-shadow:none}
+:root:not([data-skin=retro]) .strip-lg{position:relative;padding-right:24px;border-right:0;background:var(--flood);color:var(--flood-ink);clip-path:polygon(0 0,100% 0,calc(100% - 12px) 100%,0 100%)}
+@media(max-width:600px){
+  :root:not([data-skin=retro]) .head{padding-block:12px 10px}
+  :root:not([data-skin=retro]) .brand::before,:root:not([data-skin=retro]) .brand::after{top:-12px;bottom:-5px}
+}
+/* The scoreboard going final: a colour wipe (transform only) and rolling digits */
+:root:not([data-skin=retro]) .reels{display:inline-flex}
+:root:not([data-skin=retro]) .reel{display:inline-block;height:1em;overflow:hidden;vertical-align:top}
+:root:not([data-skin=retro]) .reel-in{display:flex;flex-direction:column}
+:root:not([data-skin=retro]) .reel-in span{display:block;height:1em;line-height:1}
+@media(prefers-reduced-motion:no-preference){
+  :root:not([data-skin=retro]) .match.going-final::after{content:"";position:absolute;top:0;bottom:0;left:-30%;z-index:-1;width:160%;pointer-events:none;background:var(--m-slab);transform:skewX(-15deg);animation:goFinal .75s var(--m-ease) both;animation-delay:calc(50ms + var(--t0,0ms))}
+  :root:not([data-skin=retro]) .reel-in{animation:reelRoll 1.2s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(120ms + var(--k,0) * 90ms + var(--t0,0ms))}
+  :root:not([data-skin=retro]) .sc.flip .sc-t>b,:root:not([data-skin=retro]) .sc.flip .sc-t .nm{animation:flapIn .55s var(--m-ease) both;animation-delay:calc(var(--k,0) * 60ms)}
+}
+@keyframes goFinal{from{transform:skewX(-15deg) translateX(0)}to{transform:skewX(-15deg) translateX(110%)}}
+@keyframes reelRoll{from{transform:translateY(0)}to{transform:translateY(calc(var(--d) * -1em))}}
+@keyframes flapIn{from{transform:perspective(240px) rotateX(-90deg);opacity:0}55%{opacity:1}to{transform:perspective(240px) rotateX(0deg);opacity:1}}
+/* Words lit by the voice: spoken words full strength, the current one on a volt chip, the rest waiting */
+:root:not([data-skin=retro]) .say-on .say-w{opacity:.45}
+:root:not([data-skin=retro]) .say-on .say-w.done,:root:not([data-skin=retro]) .say-on .say-w.now{opacity:1}
+:root:not([data-skin=retro]) .say-w.now{border-radius:2px;background:var(--flood);color:var(--flood-ink);box-shadow:0 0 0 .08em var(--flood);-webkit-box-decoration-break:clone;box-decoration-break:clone}
+:root:not([data-skin=retro]) .msg.you .say-w.now,:root:not([data-skin=retro]) .btn.primary .say-w.now,:root:not([data-skin=retro]) .btn[aria-pressed=true] .say-w.now{background:var(--flood-ink);color:var(--flood);box-shadow:0 0 0 .08em var(--flood-ink)}
+@media(prefers-reduced-motion:no-preference){:root:not([data-skin=retro]) .say-w{transition:opacity .12s var(--m-ease)}}
+
+/* From the mockup */
+/* Your team's crest inside the team box */
+:root:not([data-skin=retro]) .fld[for=team]{position:relative}
+:root:not([data-skin=retro]) .team-crest{position:absolute;left:7px;bottom:6px;pointer-events:none}
+:root:not([data-skin=retro]) .team-crest .crest{width:22px;height:22px;border-radius:4px;font-size:7px}
+:root:not([data-skin=retro]) .fld[for=team]:has(.team-crest:not([hidden])) input{padding-left:36px}
+@media(pointer:coarse){:root:not([data-skin=retro]) .team-crest{bottom:9px}}
+/* Speaker icons on everything that speaks */
+:root:not([data-skin=retro]) .btn[data-say]::before,:root:not([data-skin=retro]) #voicesBtn::before,:root:not([data-skin=retro]) #panicHear::before{content:"";flex:0 0 auto;width:1.2em;height:1.2em;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 9v6h4l5 4V5L7 9z'/%3E%3Cpath d='M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 9v6h4l5 4V5L7 9z'/%3E%3Cpath d='M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat}
+/* The match panel: both crests faded into it, and a line under each score */
+:root:not([data-skin=retro]) .mm{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+:root:not([data-skin=retro]) .mm img{position:absolute;top:50%;width:min(34%,290px);aspect-ratio:1;object-fit:contain;opacity:.14;filter:grayscale(1) brightness(1.9) blur(1.2px);transform:translateY(-50%) rotate(-10deg)}
+:root:not([data-skin=retro]) .mm .mm-h{left:-7%}
+:root:not([data-skin=retro]) .mm .mm-a{right:-7%;transform:translateY(-50%) rotate(10deg)}
+:root:not([data-skin=retro]) .sv{position:relative;display:inline-block}
+:root:not([data-skin=retro]) .sv::after{content:"";position:absolute;left:.04em;right:.04em;bottom:.03em;height:.07em;border-radius:2px;background:var(--uc)}
+:root:not([data-skin=retro]) .sv.h{--uc:color-mix(in srgb,var(--hc,#8d98a9) 70%,#fff)}
+:root:not([data-skin=retro]) .sv.a{--uc:color-mix(in srgb,var(--ac,#8d98a9) 70%,#fff)}
+:root:not([data-skin=retro]) .sv.win{--uc:var(--flood)}
+/* The opening line, big */
+:root:not([data-skin=retro]) .opener{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px 32px;padding:18px 20px;border-color:var(--m-edge-2)}
+:root:not([data-skin=retro]) .opener .kicker{margin-bottom:8px;color:var(--flood)}
+:root:not([data-skin=retro]) .oc-line{margin:0;color:var(--chalk);font:800 clamp(24px,2.7vw,34px)/1.06 var(--f-display);letter-spacing:.005em;text-wrap:balance}
+:root:not([data-skin=retro]) .oc-tip{margin:10px 0 0;color:var(--muted);font-size:14.5px}
+:root:not([data-skin=retro]) .oc-acts{display:grid;gap:8px;min-width:230px}
+:root:not([data-skin=retro]) .oc-acts .btn{justify-content:center;padding:12px 18px;font-size:14px}
+@media(max-width:700px){
+  :root:not([data-skin=retro]) .opener{grid-template-columns:minmax(0,1fr);padding:16px}
+  :root:not([data-skin=retro]) .oc-acts{grid-template-columns:repeat(auto-fit,minmax(140px,1fr));min-width:0}
+  :root:not([data-skin=retro]) .mm img{top:38%;width:48%}
+}
+/* The how-to as a step tracker: numbered circles joined by lines */
+:root:not([data-skin=retro]) .how{gap:0;border:0;background:none;overflow:visible}
+:root:not([data-skin=retro]) .how li{position:relative;padding:2px 54px 2px 0;font-size:13.5px}
+:root:not([data-skin=retro]) .how li+li{border:0}
+:root:not([data-skin=retro]) .how li::before{width:30px;height:30px;border-radius:50%;background:none;box-shadow:inset 0 0 0 1.5px var(--flood);color:var(--flood);font:800 15px/1 var(--f-display)}
+@media(min-width:720px){:root:not([data-skin=retro]) .how li:not(:last-child)::after{content:"";position:absolute;top:17px;right:12px;width:30px;height:1px;background:var(--m-edge-2)}}
+
+/* Every screen shape (phones and tablets in portrait and landscape, desktop) */
+/* Scrolling to something (or tabbing to it) keeps it clear of the sticky tabs and the bottom bar */
+:root:not([data-skin=retro]){scroll-padding-top:calc(env(safe-area-inset-top,0px) + 60px);scroll-padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+/* The breakdown never runs off the top of a short screen: it scrolls instead */
+:root:not([data-skin=retro]) .bluff-sheet{max-height:calc(100vh - 84px);max-height:calc(100svh - 84px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));overflow:auto;overscroll-behavior:contain}
+/* Tablets: the four settings fit on one row */
+@media(min-width:601px) and (max-width:1100px){:root:not([data-skin=retro]) .fld{flex:0 1 158px}}
+/* Short screens (phones in landscape): keep the game on the first screen. Settings lose their small
+   captions (the controls keep their names for screen readers), the how-to steps give way, the tabs
+   scroll away with the page, and the bottom bar slims down */
+@media(max-height:520px) and (orientation:landscape){
+  :root:not([data-skin=retro]) .head{padding-block:10px 6px}
+  :root:not([data-skin=retro]) .head .in{flex-wrap:wrap;align-items:center;row-gap:6px}
+  :root:not([data-skin=retro]) .brand h1{font-size:22px}
+  :root:not([data-skin=retro]) .mark{width:28px;height:28px;font-size:13px}
+  :root:not([data-skin=retro]) .setup{flex:1 1 380px;flex-wrap:nowrap;gap:6px}
+  :root:not([data-skin=retro]) .fld{flex:1 1 0;gap:0;font-size:0;max-width:none}
+  :root:not([data-skin=retro]) .skinfld,:root:not([data-skin=retro]) .voicefld{flex:0 0 auto}
+  :root:not([data-skin=retro]) .team-crest{bottom:auto;top:50%;transform:translateY(-50%)}
+  :root:not([data-skin=retro]) .how{display:none}
+  :root:not([data-skin=retro]) .tabs{position:static}
+  :root:not([data-skin=retro]) .sc{padding-block:6px 7px}
+  :root:not([data-skin=retro]) body.has-bluff{padding-bottom:calc(50px + env(safe-area-inset-bottom,0px))}
+  :root:not([data-skin=retro]) .bluff-in{min-height:49px}
+  :root:not([data-skin=retro]) .bluff-lbl{display:none}
+  :root:not([data-skin=retro]) .bluff-dial{width:44px;height:26px}
+  :root:not([data-skin=retro]) #bluffLevel{font-size:16px}
+  :root:not([data-skin=retro]) body.has-bluff .panic-fab{height:36px;bottom:calc(7px + env(safe-area-inset-bottom,0px))}
+  :root:not([data-skin=retro]) body.has-bluff .toast{bottom:calc(60px + env(safe-area-inset-bottom,0px))}
+  :root:not([data-skin=retro]) .bluff-sheet{max-height:calc(100vh - 66px);max-height:calc(100svh - 66px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px))}
+  :root:not([data-skin=retro]){scroll-padding-top:0;scroll-padding-bottom:calc(66px + env(safe-area-inset-bottom,0px))}
+}
+
 /* Retro: a late-2000s football chat-site look. Dark green page, chunky orange speech-bubble logo
    beside a cartoon pint mascot, green outlined capital buttons, a pin-striped chat window, and the
    script as green (you) and orange-red (them) speech bubbles with original cartoon faces. */
@@ -791,7 +896,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 
 /* Header: mascot, speech-bubble logo, tagline */
 :root[data-skin=retro] .head{padding-block:18px 8px;color:var(--r-white)}
-:root[data-skin=retro] .brand{gap:2px;align-items:center}
+:root[data-skin=retro] .brand{gap:2px;align-items:center;min-width:auto}/* never narrower than the logo, so the settings wrap below it instead of sliding under it (about 800-900px wide) */
 :root[data-skin=retro] .mark{flex:0 0 96px;width:96px;height:96px;transform:none;border-radius:0;background:var(--r-mascot) center/contain no-repeat;box-shadow:none;font-size:0;color:transparent}
 :root[data-skin=retro] .brand h1{position:relative;display:inline-block;margin-left:18px;padding:10px 20px 12px;background:linear-gradient(var(--r-orange-top),var(--r-orange-bot));border:3px solid var(--r-orange-edge);border-radius:16px;box-shadow:inset 0 3px 0 var(--r-gloss),0 4px 0 var(--r-btn-shadow);font:900 clamp(22px,4.4vw,40px)/1 var(--f-display);letter-spacing:.01em;text-transform:uppercase;color:var(--r-white);text-shadow:-2px -2px 0 var(--r-ink),2px -2px 0 var(--r-ink),-2px 2px 0 var(--r-ink),2px 2px 0 var(--r-ink),0 4px 0 var(--r-ink)}
 :root[data-skin=retro] .brand h1 span{color:var(--r-white)}
@@ -971,7 +1076,7 @@ footer p{margin:0 0 4px;max-width:90ch}
     </div>
     <div class="setup">
       <label class="fld" for="sport">Sport<select id="sport"></select></label>
-      <label class="fld" for="team">Your team<input id="team" type="text" maxlength="40" autocomplete="off" list="teamList"></label>
+      <label class="fld" for="team">Your team<input id="team" type="text" maxlength="40" autocomplete="off" list="teamList"><span class="team-crest" id="teamCrest" aria-hidden="true" hidden></span></label>
       <datalist id="teamList"></datalist>
       <div class="fld voicefld" id="voiceWrap" hidden><span>Speech</span><button class="btn" type="button" id="voicesBtn" aria-haspopup="dialog">Voices</button></div>
       <div class="fld skinfld"><span id="skinLbl">Look</span><div class="skin" role="group" aria-labelledby="skinLbl"><button type="button" data-skin="modern" aria-pressed="true">Modern</button><button type="button" data-skin="retro" aria-pressed="false">Retro</button></div></div>
@@ -2086,10 +2191,10 @@ function fillVoiceLists(){
 function openVoices(){fillVoiceLists();$("#voiceSheet").hidden=false;$("#voiceYou").focus()}
 function closeVoices(){$("#voiceSheet").hidden=true;$("#voicesBtn").focus()}
 let playing=null;
-function stopPlaying(){const p=playing;playing=null;if(canSpeak)try{speechSynthesis.cancel()}catch(e){}if(p&&p.done)p.done()}
-function speak(text,who){
+function stopPlaying(){const p=playing;playing=null;stopFollow();if(canSpeak)try{speechSynthesis.cancel()}catch(e){}if(p&&p.done)p.done()}
+function speak(text,who,from){
   if(!canSpeak){toast("Speech isn't available in this browser");return}
-  stopPlaying();try{speechSynthesis.speak(utter(text,who))}catch(e){}
+  stopPlaying();try{const u=utter(text,who);followWords(u,sayNode(from,text),text);speechSynthesis.speak(u)}catch(e){}
 }
 function playLines(items,onLine,done,kind){
   if(!canSpeak){toast("Speech isn't available in this browser");return}
@@ -2097,6 +2202,7 @@ function playLines(items,onLine,done,kind){
   const me={done,kind};playing=me;
   items.forEach((it,i)=>{
     const u=utter(it.t,it.who);
+    if(it.node)followWords(u,it.node,it.t);
     u.onstart=()=>{if(playing===me&&onLine)onLine(i)};
     if(i===items.length-1)u.onend=u.onerror=()=>{if(playing===me){playing=null;if(done)done()}};
     try{speechSynthesis.speak(u)}catch(e){}
@@ -2108,7 +2214,51 @@ function playInto(kind,btn,els){
   const B=currentBrief();if(!B)return;
   if(playing&&playing.kind===kind){stopPlaying();return}
   btn.textContent=STOP;
-  playLines(scriptItems(B.L),i=>{els.forEach((e,j)=>e.classList.toggle("speaking",i===j));if(i%2===0)bluffMark("heard",i/2);if(els[i]&&kind==="phone")els[i].scrollIntoView({block:"nearest"})},()=>{els.forEach(e=>e.classList.remove("speaking"));btn.textContent=PLAY},kind);
+  const items=scriptItems(B.L).map((it,i)=>Object.assign({node:sayNode(els[i]&&(els[i].matches(".msg")?els[i]:els[i].querySelector("[data-say]")),it.t)},it));
+  playLines(items,i=>{els.forEach((e,j)=>e.classList.toggle("speaking",i===j));if(i%2===0)bluffMark("heard",i/2);if(els[i]&&kind==="phone")els[i].scrollIntoView({block:"nearest"})},()=>{els.forEach(e=>e.classList.remove("speaking"));btn.textContent=PLAY},kind);
+}
+/* Modern look: the words light up as the voice reaches them. The speech engine reports each word as it
+   starts it (a boundary event); for the length of the speech the line on screen is split into words,
+   then put back. Only colour changes, nothing moves. Voices that don't report words keep the
+   whole-line highlight. */
+let follow=null;
+function stopFollow(){const f=follow;follow=null;if(f)f.restore()}
+const unquote=s=>String(s).replace(/[“”"]/g,"").replace(/\s+/g," ").trim();
+// The text on screen that a Hear it button (or a chat bubble) is about
+function sayNode(from,text){
+  if(!from||skin()!=="modern")return null;
+  const want=unquote(text);if(!want)return null;
+  for(let el=from.matches(".msg")?from:from.parentElement,n=0;el&&n<5;el=el.parentElement,n++){
+    const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
+    for(let t=w.nextNode();t;t=w.nextNode())if(unquote(t.nodeValue)===want)return t;
+  }
+  return null;
+}
+function followWords(u,node,text){
+  if(!node)return;
+  u.addEventListener("start",()=>{
+    stopFollow();
+    const parent=node.parentNode;if(!parent||!node.isConnected)return;
+    const parts=node.nodeValue.split(/(\s+)/).filter(Boolean),words=[...text.matchAll(/\S+/g)];
+    if(parts.filter(p=>/\S/.test(p)).length!==words.length)return;
+    // Where each word starts in the text the voice was given (respellings can change lengths)
+    const at=words.map(m=>speechText(text.slice(0,m.index)).length);
+    const spans=[],made=[];
+    for(const p of parts){let n;if(/\S/.test(p)){n=document.createElement("span");n.className="say-w";n.textContent=p;spans.push(n)}else n=document.createTextNode(p);made.push(n);parent.insertBefore(n,node)}
+    parent.removeChild(node);
+    let last=-1;
+    const onB=e=>{
+      if(e.name&&e.name!=="word")return;
+      let i=0;for(let k=0;k<at.length;k++)if(at[k]<=e.charIndex+1)i=k;
+      if(i===last)return;last=i;
+      parent.classList.add("say-on");
+      spans.forEach((x,k)=>{x.classList.toggle("done",k<i);x.classList.toggle("now",k===i)});
+    };
+    u.addEventListener("boundary",onB);
+    follow={u,restore(){u.removeEventListener("boundary",onB);parent.classList.remove("say-on");if(!made[0].isConnected)return;parent.insertBefore(node,made[0]);made.forEach(n=>n.remove())}};
+  });
+  const end=()=>{if(follow&&follow.u===u)stopFollow()};
+  u.addEventListener("end",end);u.addEventListener("error",end);
 }
 function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove("show"),1800)}
 async function copy(text){try{await navigator.clipboard.writeText(text);toast("Copied")}catch(e){toast("Copy is blocked here. Select the text instead.")}}
@@ -2190,7 +2340,12 @@ function renderScript(){
   el.innerHTML=`${how}<div class="script-grid"><div class="tt-wrap">${ttPage(entry,lg)}${srcNote(entry)}</div><div class="brief" id="brief">${briefHTML(entry)}</div></div>`;
   const sel=el.querySelector('.tt-row[aria-pressed="true"]');
   if(sel&&sel.scrollIntoView){const list=$("#ttList");if(list&&sel.offsetTop>list.clientHeight)list.scrollTop=sel.offsetTop-list.clientHeight/2}
-  bluffWatchBeats();bluffRender();
+  bluffWatchBeats();bluffRender();scoreIntro();
+}
+// Modern: the opening line, big, straight after the match, with the two things to do with it
+function openerHTML(B){
+  if(skin()!=="modern"||!B)return "";
+  return `<div class="panel opener"><div class="oc-text"><p class="kicker">Your opening line</p><p class="oc-line">“${esc(B.L.open)}”</p><p class="oc-tip">Start with the result. Let them do the analysis.</p></div><div class="oc-acts"><button class="btn primary" type="button" data-bluff="pub">${isNA()?"Practice this game":"Practise this match"} →</button>${canSpeak?`<button class="btn" type="button" data-say="${esc(B.L.open)}" data-who="you">Hear the line</button>`:""}</div></div>`;
 }
 function briefHTML(entry){
   if(!leagueList().length)return `<div class="empty"><b>No live results for ${esc(SPORTS[S.sport].label)}</b>ESPN's free feed doesn't carry it. The phrase book, pub test and drill still work.</div>`;
@@ -2205,9 +2360,12 @@ function briefHTML(entry){
     <div class="pills">${B.moods.map((m,i)=>`<span class="pill${i?"":" hot"}">${esc(m)}</span>`).join("")}</div>
     <div class="side"><label class="kicker" for="driverSel">Your driver</label><select id="driverSel" style="max-width:260px">${g.res.map(r=>`<option value="${esc(r.n)}"${r.n===B.d.n?" selected":""}>P${r.pos||""} ${esc(r.n)}</option>`).join("")}</select></div>`;
   }else{
-    const F=B.F,mh=S.side==="h",ma=S.side==="a";
-    top=`<p class="kicker">${esc(F.lgName)} · ${esc(B.when)}${g.venue?" · "+esc(g.venue):""} · ${esc(g.st)}</p>
-    <div class="scoreline"><span class="n${mh?" mine":""}">${crest(g.h,true)}<span>${esc(g.h.s)}</span></span><span class="s">${g.h.sc}<em>–</em>${g.a.sc}</span><span class="n${ma?" mine":""}">${crest(g.a,true)}<span>${esc(g.a.s)}</span></span></div>
+    const F=B.F,mh=S.side==="h",ma=S.side==="a",mod=skin()==="modern";
+    // Modern: each score underlined (volt for the winner, team colour otherwise), and the two crests faded into the panel
+    const sv=(v,o,k)=>mod?`<span class="sv ${k}${+v>+o?" win":""}">${v}</span>`:v;
+    const marks=mod?[g.h,g.a].map((t,i)=>{const src=logoSrc(t,false);return src?`<img class="mm-${i?"a":"h"}" src="${esc(src)}" alt="" decoding="async">`:""}).join(""):"";
+    top=`${marks?`<div class="mm" aria-hidden="true">${marks}</div>`:""}<p class="kicker">${esc(F.lgName)} · ${esc(B.when)}${g.venue?" · "+esc(g.venue):""} · ${esc(g.st)}</p>
+    <div class="scoreline"><span class="n${mh?" mine":""}">${crest(g.h,true)}<span>${esc(g.h.s)}</span></span><span class="s">${sv(g.h.sc,g.a.sc,"h")}<em>–</em>${sv(g.a.sc,g.h.sc,"a")}</span><span class="n${ma?" mine":""}">${crest(g.a,true)}<span>${esc(g.a.s)}</span></span></div>
     <div class="pills">${B.moods.map((m,i)=>`<span class="pill${i?"":" hot"}">${esc(m)}</span>`).join("")}</div>
     <div class="side" role="group" aria-label="Whose side are you on"><span class="kicker">You're backing</span>
       <button class="btn small" type="button" data-side="h" aria-pressed="${mh}">${esc(g.h.s)}</button>
@@ -2222,6 +2380,7 @@ function briefHTML(entry){
     ["you","Your exit",L.exit,"","Say it on beat five, before the follow-up question."]
   ];
   return `<div class="panel match"${B.f1?"":` style="--hc:#${hexOf(g.h)};--ac:#${hexOf(g.a)}"`}>${top}<ul class="facts">${B.facts.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>
+  ${openerHTML(B)}
   <div class="panel"><h3>The script</h3>
     <ol class="script">${beats.map(([who,label,text,star,note])=>`<li class="beat ${who}"><span class="who">${who==="you"?"You":"Them"}</span><div><div class="kicker">${esc(label)}</div><div class="line">“${esc(text)}”${star?`<span class="star">${esc(star)}</span>`:""}</div>${note?`<div class="note">${esc(note)}</div>`:""}${tools(text,{save:false,who})}</div></li>`).join("")}</ol>
     <div class="row" style="margin-top:16px">${canSpeak?`<button class="btn primary" type="button" id="playScript">${PLAY}</button>`:""}<button class="btn${canSpeak?"":" primary"}" type="button" data-go="pub">Try it in the pub test</button><button class="btn" type="button" data-go="pocket">Pocket card for your phone</button>${g.link?`<a class="btn" href="${esc(g.link)}" target="_blank" rel="noopener">Full summary on ESPN</a>`:""}</div>
@@ -2697,7 +2856,7 @@ function panicLine(){
   lastPanic=p.t;$("#panicLine").textContent="“"+p.t+"”";$("#panicTip").textContent="Delivery: "+p.tip;$("#panicHear").hidden=!canSpeak;
   return p.t;
 }
-function openPanic(){$("#panicSheet").hidden=false;speak(panicLine());$("#panicAgain").focus()}
+function openPanic(){$("#panicSheet").hidden=false;speak(panicLine(),undefined,$("#panicHear"));$("#panicAgain").focus()}
 function closePanic(){$("#panicSheet").hidden=true;$("#panicBtn").focus()}
 
 /* ---------- Bluff meter (Modern look) ---------- */
@@ -2773,12 +2932,21 @@ function bluffCount(to,key){
   const step=t=>{const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);bluffShown=from+(to-from)*e;el.textContent=Math.round(bluffShown)+"%";if(k<1)bluffCount.raf=requestAnimationFrame(step);else{bluffShown=to;el.textContent=to+"%"}};
   bluffCount.raf=requestAnimationFrame(step);
 }
+// Your team, as a team in the current league's recent results (for its crest in the team box)
+function myTeamObj(){
+  const lg=currentLg(),e=lg&&DATA.cache[lg];if(!e)return null;
+  for(const g of e.games){if(g.res)continue;for(const t of [g.h,g.a])if(isMine(t,lg))return t}
+  return null;
+}
 function bluffRender(){
   const bar=$("#bluff");if(!bar)return;
   const on=skin()==="modern";
   bar.hidden=!on;document.body.classList.toggle("has-bluff",on);
-  if(!on){closeBluff(true);return}
+  if(!on){closeBluff(true);const tc=$("#teamCrest");if(tc)tc.hidden=true;return}
   const B=currentBrief(),r=bluffRec(false),v=B?bluffScore(r):0,lvl=B?bluffLevel(v):"No game yet",nx=bluffNext(r);
+  const tc=$("#teamCrest");if(tc){const t=myTeamObj();tc.hidden=!t;tc.innerHTML=t?crest(t):""}
+  // The ribbon along the top of the page takes the current game's two team colours
+  const hd=$(".head");if(hd){if(B&&!B.f1){hd.style.setProperty("--rh","#"+hexOf(B.g.h));hd.style.setProperty("--ra","#"+hexOf(B.g.a))}else{hd.style.removeProperty("--rh");hd.style.removeProperty("--ra")}}
   bar.style.setProperty("--v",v);
   bar.classList.toggle("full",v>=80);
   $("#bluffLevel").textContent=lvl;
@@ -2895,6 +3063,41 @@ function updateTicker(){
 }
 /* Modern look: a strip of game cards across the top, like a sports app's scoreboard bar.
    Tapping one loads that game on whichever tab is open. Retro hides it and keeps its ticker. */
+/* Modern look: the scoreboard goes final. When the game changes, the teams' colours wipe in behind the
+   scorebug and each digit rolls up and settles (ease-out, 1.2 seconds), the way a broadcast score
+   graphic lands. Once per game; people who prefer less motion see the final state straight away. */
+let introGame=null,introAt=0;
+function scoreIntro(){
+  const m=$("#brief .match");if(!m||skin()!=="modern"||!S.game)return;
+  const now=performance.now();
+  if(S.game.id!==introGame){introGame=S.game.id;introAt=now}
+  // A redraw while it's landing picks it up where it was (negative delays); after that, nothing
+  const gone=now-introAt;if(gone>1500)return;
+  if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  m.style.setProperty("--t0",-Math.round(gone)+"ms");
+  m.classList.add("going-final");
+  const sc=m.querySelector(".scoreline .s");
+  if(sc){
+    const orig=sc.innerHTML,said=sc.textContent;let k=0;
+    const tw=document.createTreeWalker(sc,NodeFilter.SHOW_TEXT),texts=[];
+    for(let n=tw.nextNode();n;n=tw.nextNode())if(/\d/.test(n.nodeValue)&&n.parentNode.tagName!=="EM")texts.push(n);
+    for(const t of texts){
+      const group=document.createElement("span");group.className="reels";group.setAttribute("aria-hidden","true");
+      for(const ch of t.nodeValue){
+        if(!/\d/.test(ch)){group.appendChild(document.createTextNode(ch));continue}
+        const r=document.createElement("span");r.className="reel";r.style.setProperty("--d",10+ +ch);r.style.setProperty("--k",k++);
+        r.innerHTML='<span class="reel-in">'+"01234567890123456789".split("").map(c=>"<span>"+c+"</span>").join("")+"</span>";
+        group.appendChild(r);
+      }
+      t.parentNode.replaceChild(group,t);
+    }
+    if(k){const sr=document.createElement("span");sr.className="sr";sr.textContent=said;sc.prepend(sr)}
+    setTimeout(()=>{if(sc.isConnected)sc.innerHTML=orig},Math.max(0,1300+k*90+300-gone));
+  }
+  setTimeout(()=>m.classList.remove("going-final"),Math.max(0,900-gone));
+}
+// Scores already shown, so new results can flip the ones that changed
+const stripScores=new Map(),stripLeagues=new Set();
 let stripHTML="",stripSel=null;
 function updateStrip(){
   const el=document.getElementById("strip");if(!el)return;
@@ -2911,6 +3114,13 @@ function updateStrip(){
   const html=`<div class="strip-lg">${esc(leagueName(lg))}</div><div class="strip-row">${games.map(card).join("")}</div>`;
   const fresh=html!==stripHTML;
   if(fresh){el.innerHTML=html;stripHTML=html}
+  // New results for a league already on screen: the scores that changed flip over like a stadium board
+  if(fresh){
+    const known=stripLeagues.has(lg),flips=[];
+    el.querySelectorAll(".sc").forEach(b=>{const g=games.find(x=>x.id===b.dataset.game);if(!g)return;const v=g.res?g.res[0].n:g.h.sc+"-"+g.a.sc;if(known&&stripScores.get(g.id)!==v)flips.push(b);stripScores.set(g.id,v)});
+    stripLeagues.add(lg);
+    if(skin()==="modern"&&!matchMedia("(prefers-reduced-motion: reduce)").matches)flips.forEach((b,i)=>{b.style.setProperty("--k",i);b.classList.add("flip")});
+  }
   el.hidden=false;
   let sel=null;
   el.querySelectorAll(".sc").forEach(b=>{const on=!!(S.game&&b.dataset.game===S.game.id);b.setAttribute("aria-pressed",String(on));if(on)sel=b});
@@ -2958,7 +3168,7 @@ document.addEventListener("click",e=>{
   if(!$("#bluffSheet").hidden&&!e.target.closest("#bluff"))closeBluff(true);
   const t=e.target.closest("button,a");if(!t)return;
   const d=t.dataset;
-  if(d.say!=null){speak(d.say,d.who);bluffHeard(t,d.say);return}
+  if(d.say!=null){speak(d.say,d.who,t);bluffHeard(t,d.say);return}
   if(d.bluff){bluffGo(d.bluff,d.i===""||d.i==null?null:+d.i);return}
   if(d.mem!=null){S.memI=+d.mem;const m=$("#memory");if(m){m.outerHTML=memoryHTML(currentBrief());$("#memIn").focus()}return}
   if(d.memshow!=null){const B=currentBrief(),o=$("#memOut");if(B&&o)o.innerHTML=`<p class="mem-res">“${esc([B.L.open,B.L.back,B.L.exit][+d.memshow])}”</p>`;return}
@@ -2993,7 +3203,7 @@ document.addEventListener("click",e=>{
     case "bluffNext":bluffGo(t.dataset.act,t.dataset.i===""?null:+t.dataset.i);break;
     case "bluffReset":{const k=bluffKey();if(k){delete bluffAll[k];bluffSave()}S.memKey=null;if(S.tab==="script")renderScript();bluffRender();openBluff();toast("Meter reset for this game");break}
     case "panicAgain":speak(panicLine());break;
-    case "panicHear":speak($("#panicLine").textContent.replace(/[“”]/g,""));break;
+    case "panicHear":speak($("#panicLine").textContent.replace(/[“”]/g,""),undefined,t);break;
     case "panicClose":closePanic();break;
     case "voicesBtn":openVoices();break;
     case "voiceClose":closeVoices();break;

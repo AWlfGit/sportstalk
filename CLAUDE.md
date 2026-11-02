@@ -31,6 +31,16 @@ has the commands.
 - **Two looks.** Every Modern rule is scoped `:root:not([data-skin=retro])` and every Retro rule
   `:root[data-skin=retro]`. Changing one must not change the other: after a restyle, compare the
   other look's computed styles element by element against the previous build.
+- **Modern is a live surface** (designed with the Scrollcraft skill; brief and reasoning in
+  `scrollcraft/builds/modern/BRIEF.md`). The app's own chrome is the navigation: app bar, game
+  strip, tabs, and a status bar along the bottom with the **Bluff meter** and Panic. The meter
+  is worked out for the current game and side from what the visitor actually did (beats held on
+  screen, lines heard, lines said from memory, local words heard, the pub test), saved in their
+  browser, and fires a volt "You'll pass." wipe the first time it reaches the top level. The
+  script ends on an input, "Say it from memory". Both are Modern only; Retro never shows them.
+  Keep to the floor: text at 4.5:1 or better, one ease-out curve, 6px and 10px radii, shadows
+  with offset and blur (no glows), hover effects only with a mouse, motion only for people who
+  haven't asked for less.
 - **Regions.** Soccer, rugby and cricket are British: wording, spelling, betting slang (pony,
   acca) and British voices. NFL, NBA, NHL, MLB and F1 are North American: wording, US spelling
   (hockey's researched talk is Canadian and keeps Canadian spelling), parlays and spreads, and

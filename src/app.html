@@ -65,6 +65,7 @@ a{color:var(--flood)}
 button,input,select{font:inherit;color:inherit}
 :focus-visible{outline:3px solid var(--flood);outline-offset:2px}
 [hidden]{display:none!important}
+.sr{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 
 /* Header */
 .head{padding-block:28px 18px}
@@ -355,10 +356,21 @@ footer p{margin:0 0 4px;max-width:90ch}
   --f-cap:"Barlow Condensed","Arial Narrow","Roboto Condensed",sans-serif;
   --m-slab:#0d1218;--m-slab-2:#141b24;--m-edge-2:rgba(255,255,255,.14);
   --m-tile:linear-gradient(160deg,#ffffff,#e6ebf1);
-  --m-cool:rgba(110,150,255,.1);--m-dim-2:#5d6878;
+  --m-cool:rgba(110,150,255,.1);--m-dim-2:#7f8a9b;
+  /* Scrollcraft floor: one ease-out curve, two radii, three elevations tinted to the canvas */
+  --m-ease:cubic-bezier(.23,1,.32,1);--m-fast:160ms;
+  --m-r-sm:6px;--m-r-md:10px;
+  --m-shade:215 45% 2%;
+  --m-e1:0 1px 2px hsl(var(--m-shade)/.4),0 3px 8px -2px hsl(var(--m-shade)/.45);
+  --m-e2:0 2px 4px hsl(var(--m-shade)/.35),0 12px 26px -10px hsl(var(--m-shade)/.6);
+  --m-e3:0 4px 8px hsl(var(--m-shade)/.3),0 24px 48px -14px hsl(var(--m-shade)/.7);
+  --m-edge:inset 0 1px 0 rgba(255,255,255,.05);
+  caret-color:var(--flood);accent-color:var(--flood);
 }
 :root:not([data-skin=retro]) ::selection{background:var(--flood);color:var(--flood-ink)}
-:root:not([data-skin=retro]) body{font-size:15px;background:
+@supports (scrollbar-color:auto){:root:not([data-skin=retro]){scrollbar-color:rgba(238,242,246,.24) transparent;scrollbar-width:thin}}
+:root:not([data-skin=retro]) a{text-decoration-thickness:1px;text-underline-offset:.22em}
+:root:not([data-skin=retro]) body{font-size:15px;line-height:1.55;background:
   radial-gradient(70% 40% at 50% -10%,var(--m-cool),transparent 70%),
   repeating-linear-gradient(115deg,rgba(255,255,255,.012) 0 1px,transparent 1px 11px),
   linear-gradient(180deg,var(--pitch-2),var(--pitch) 520px);
@@ -375,11 +387,11 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .brand p{display:none}
 :root:not([data-skin=retro]) .setup{flex:1 1 auto;gap:8px;align-items:flex-end}
 :root:not([data-skin=retro]) .fld{flex:0 1 180px;gap:4px;font:italic 700 10.5px/1 var(--f-cap);letter-spacing:.14em;color:var(--m-dim-2)}
-:root:not([data-skin=retro]) select,:root:not([data-skin=retro]) input[type=text]{background:var(--m-slab);border:1px solid var(--hair);border-radius:8px;padding:7px 10px;font:600 14px/1.2 var(--f-body)}
+:root:not([data-skin=retro]) select,:root:not([data-skin=retro]) input[type=text]{background:var(--m-slab);border:1px solid var(--hair);border-radius:var(--m-r-sm);padding:7px 10px;font:600 14px/1.2 var(--f-body);transition:border-color var(--m-fast) var(--m-ease),box-shadow var(--m-fast) var(--m-ease)}
 :root:not([data-skin=retro]) select:focus,:root:not([data-skin=retro]) input[type=text]:focus{border-color:var(--flood);box-shadow:0 0 0 3px var(--flood-10)}
 :root:not([data-skin=retro]) select option{background:var(--m-slab-2)}
-:root:not([data-skin=retro]) .skin{gap:2px;padding:2px;border:1px solid var(--hair);border-radius:8px;background:var(--m-slab)}
-:root:not([data-skin=retro]) .skin button{border:0;border-radius:6px;background:none;color:var(--muted);font:700 12.5px/1 var(--f-cap);letter-spacing:.1em;text-transform:uppercase;padding:7px 10px}
+:root:not([data-skin=retro]) .skin{gap:2px;padding:2px;border:1px solid var(--hair);border-radius:var(--m-r-sm);background:var(--m-slab)}
+:root:not([data-skin=retro]) .skin button{border:0;border-radius:4px;background:none;color:var(--muted);font:700 12.5px/1 var(--f-cap);letter-spacing:.1em;text-transform:uppercase;padding:7px 10px}
 :root:not([data-skin=retro]) .skin button+button{border-left:0}
 :root:not([data-skin=retro]) .skin button[aria-pressed=true]{background:var(--flood);color:var(--flood-ink)}
 :root:not([data-skin=retro]) .voicefld .btn{padding:7px 11px}
@@ -390,8 +402,9 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .strip-lg{flex:0 0 auto;display:flex;align-items:center;max-width:132px;padding:0 14px 0 max(16px,env(safe-area-inset-left,0px));border-right:1px solid var(--hair);background:var(--m-slab);color:var(--flood);font:italic 700 12px/1.15 var(--f-cap);letter-spacing:.12em;text-transform:uppercase}
 :root:not([data-skin=retro]) .strip-row{position:relative;flex:1;min-width:0;display:flex;overflow-x:auto;scrollbar-width:none}
 :root:not([data-skin=retro]) .strip-row::-webkit-scrollbar{display:none}
-:root:not([data-skin=retro]) .sc{position:relative;flex:0 0 auto;display:grid;gap:5px;min-width:128px;padding:8px 12px 9px;border:0;border-right:1px solid var(--hair);background:none;color:var(--muted);text-align:left;cursor:pointer;font:inherit;transition:background-color .15s}
-:root:not([data-skin=retro]) .sc:hover{background:rgba(255,255,255,.045)}
+:root:not([data-skin=retro]) .sc{position:relative;flex:0 0 auto;display:grid;gap:5px;min-width:128px;padding:8px 12px 9px;border:0;border-right:1px solid var(--hair);background:none;color:var(--muted);text-align:left;cursor:pointer;font:inherit;transition:background-color var(--m-fast) var(--m-ease)}
+@media(hover:hover) and (pointer:fine){:root:not([data-skin=retro]) .sc:hover{background:rgba(255,255,255,.045)}}
+:root:not([data-skin=retro]) .sc:active{background:rgba(255,255,255,.07)}
 :root:not([data-skin=retro]) .sc[aria-pressed=true]{background:var(--m-slab-2);color:var(--chalk)}
 :root:not([data-skin=retro]) .sc[aria-pressed=true]::after{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:var(--flood)}
 :root:not([data-skin=retro]) .sc-st{font:italic 700 10.5px/1 var(--f-cap);letter-spacing:.1em;text-transform:uppercase;color:var(--m-dim-2)}
@@ -408,26 +421,26 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .tabs{background:var(--bar);border-block:0;border-bottom:1px solid var(--hair)}
 :root:not([data-skin=retro]) .tabs .in{gap:4px;padding-top:0;padding-bottom:0}
 :root:not([data-skin=retro]) .tabs button{position:relative;border:0;border-radius:0;background:none;padding:12px 10px 11px;color:var(--muted);font:600 14.5px/1 var(--f-body);letter-spacing:0;text-transform:none}
-:root:not([data-skin=retro]) .tabs button::after{content:"";position:absolute;left:10px;right:10px;bottom:0;height:3px;border-radius:2px 2px 0 0;background:var(--flood);transform:scaleX(0);transition:transform .2s ease}
-:root:not([data-skin=retro]) .tabs button:hover{background:none;color:var(--chalk)}
+:root:not([data-skin=retro]) .tabs button::after{content:"";position:absolute;left:10px;right:10px;bottom:0;height:3px;border-radius:2px 2px 0 0;background:var(--flood);transform:scaleX(0);transition:transform 180ms var(--m-ease)}
+@media(hover:hover) and (pointer:fine){:root:not([data-skin=retro]) .tabs button:hover{background:none;color:var(--chalk)}}
 :root:not([data-skin=retro]) .tabs button[aria-selected=true]{background:none;border:0;color:var(--chalk);font-weight:700}
 :root:not([data-skin=retro]) .tabs button[aria-selected=true]::after{transform:scaleX(1)}
 :root:not([data-skin=retro]) main{padding-block:16px 110px}
 
 /* Shared pieces */
-:root:not([data-skin=retro]) .btn{gap:5px;border-radius:7px;background:var(--m-slab-2);border:1px solid var(--hair);padding:7px 12px;font:700 12.5px/1.1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase;transition:border-color .2s,background-color .2s,box-shadow .2s}
-:root:not([data-skin=retro]) .btn:hover{border-color:var(--flood-35);box-shadow:0 0 0 3px var(--flood-10)}
+:root:not([data-skin=retro]) .btn{gap:5px;border-radius:var(--m-r-sm);background:var(--m-slab-2);border:1px solid var(--hair);padding:7px 12px;font:700 12.5px/1.1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase;transition:border-color var(--m-fast) var(--m-ease),background-color var(--m-fast) var(--m-ease),transform 120ms var(--m-ease)}
+@media(hover:hover) and (pointer:fine){:root:not([data-skin=retro]) .btn:hover:not(:disabled){border-color:var(--flood-35);background-color:#19212c}:root:not([data-skin=retro]) .btn.primary:hover:not(:disabled){background-color:var(--flood-2)}}
+:root:not([data-skin=retro]) .btn:active:not(:disabled),:root:not([data-skin=retro]) .opt:active:not(:disabled),:root:not([data-skin=retro]) .tabs button:active{transform:translateY(1px)}
 :root:not([data-skin=retro]) .btn.primary,:root:not([data-skin=retro]) .btn[aria-pressed=true]{background:var(--flood);border-color:transparent;color:var(--flood-ink)}
-:root:not([data-skin=retro]) .btn.primary{box-shadow:0 10px 24px -14px var(--flood-glow)}
+:root:not([data-skin=retro]) .btn.primary{box-shadow:var(--m-e1)}
 :root:not([data-skin=retro]) .btn.small{padding:5px 9px;font-size:12px}
 :root:not([data-skin=retro]) .row{gap:6px}
 :root:not([data-skin=retro]) .kicker,:root:not([data-skin=retro]) .tt-kick,:root:not([data-skin=retro]) .prompt,:root:not([data-skin=retro]) .tt-day{font-family:var(--f-cap);font-style:italic;font-weight:700;font-size:11px;letter-spacing:.14em}
 :root:not([data-skin=retro]) .sec{display:flex;align-items:center;gap:10px;margin-bottom:6px;font:900 clamp(24px,3.4vw,30px)/1 var(--f-display);letter-spacing:.01em}
 :root:not([data-skin=retro]) .sec::before{content:"";flex:0 0 auto;width:10px;height:.72em;background:var(--flood);transform:skewX(-14deg)}
-:root:not([data-skin=retro]) .lede{margin-bottom:14px;font-size:14.5px}
-:root:not([data-skin=retro]) .panel{padding:14px 16px;border-radius:10px;border:1px solid var(--hair);background-color:var(--m-slab);background-image:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,0) 100px);box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 20px 44px -32px #000}
+:root:not([data-skin=retro]) .lede{max-width:72ch;margin-bottom:14px;font-size:14.5px}
+:root:not([data-skin=retro]) .panel{padding:14px 16px;border-radius:10px;border:1px solid var(--hair);background-color:var(--m-slab);background-image:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,0) 100px);box-shadow:var(--m-edge),var(--m-e2)}
 :root:not([data-skin=retro]) .panel h3,:root:not([data-skin=retro]) .cat h3{display:flex;align-items:center;gap:8px;margin-bottom:10px;font:900 19px/1 var(--f-display);letter-spacing:.04em}
-:root:not([data-skin=retro]) .panel h3::before,:root:not([data-skin=retro]) .cat h3::before{content:"";flex:0 0 auto;width:8px;height:.76em;background:var(--flood);transform:skewX(-14deg)}
 :root:not([data-skin=retro]) .two{gap:12px}
 :root:not([data-skin=retro]) .brief{gap:12px}
 :root:not([data-skin=retro]) .empty{padding:20px;border-radius:10px;background:var(--m-slab)}
@@ -437,22 +450,22 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .how li{align-items:center;gap:10px;padding:9px 14px;font-size:13.5px;line-height:1.35}
 :root:not([data-skin=retro]) .how li+li{border-top:1px solid var(--hair)}
 @media(min-width:720px){:root:not([data-skin=retro]) .how li+li{border-top:0;border-left:1px solid var(--hair)}}
-:root:not([data-skin=retro]) .how li::before{content:counter(how,decimal-leading-zero);width:auto;height:auto;border:0;border-radius:0;background:none;color:transparent;-webkit-text-stroke:1.2px var(--flood);font:900 28px/.85 var(--f-display);letter-spacing:.02em}
+:root:not([data-skin=retro]) .how li::before{content:counter(how);width:22px;height:22px;border:0;border-radius:var(--m-r-sm);background:var(--m-slab-2);color:var(--flood);font:900 14px/1 var(--f-display);box-shadow:inset 0 0 0 1px var(--m-edge-2)}
 
 /* Results list: dense scoreboard rows with logos on light tiles */
 @media(min-width:940px){:root:not([data-skin=retro]) .script-grid{grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:16px}:root:not([data-skin=retro]) .tt-wrap{top:calc(env(safe-area-inset-top,0px) + 52px)}}
-:root:not([data-skin=retro]) .tt{border-radius:10px;background-color:var(--m-slab);background-image:none;box-shadow:0 20px 44px -32px #000}
+:root:not([data-skin=retro]) .tt{border-radius:var(--m-r-md);background-color:var(--m-slab);background-image:none;box-shadow:var(--m-edge),var(--m-e2)}
 :root:not([data-skin=retro]) .tt-head{padding:12px 14px 8px}
 :root:not([data-skin=retro]) .tt-title{margin-top:2px;font:900 24px/.95 var(--f-display);letter-spacing:.01em}
-:root:not([data-skin=retro]) .tt-clock{padding:4px 8px;border:1px solid var(--hair);border-radius:999px;background:var(--m-slab-2);color:var(--chalk);font:italic 700 11.5px/1 var(--f-cap);letter-spacing:.1em}
-:root:not([data-skin=retro]) .tt-clock::before{width:6px;height:6px;background:var(--bad);box-shadow:0 0 0 3px rgba(255,77,94,.2)}
+:root:not([data-skin=retro]) .tt-clock{padding:4px 8px;border:1px solid var(--hair);border-radius:var(--m-r-sm);background:var(--m-slab-2);color:var(--chalk);font:italic 700 11.5px/1 var(--f-cap);letter-spacing:.1em}
+:root:not([data-skin=retro]) .tt-clock::before{width:6px;height:6px;background:var(--bad);box-shadow:none}
 :root:not([data-skin=retro]) .tt-fx{gap:5px;padding:0 14px 10px}
 :root:not([data-skin=retro]) .tt-fx button{border-radius:6px;background:var(--m-slab-2);padding:6px 9px;font:700 12px/1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase}
 :root:not([data-skin=retro]) .tt-fx button[aria-pressed=true]{background:var(--flood);border-color:var(--flood);color:var(--flood-ink)}
 :root:not([data-skin=retro]) .tt-list{max-height:min(68vh,640px);scrollbar-color:var(--line) transparent}
 :root:not([data-skin=retro]) .tt-day{padding:6px 14px;background:#090d12;color:var(--flood);border-bottom:1px solid var(--hair)}
 :root:not([data-skin=retro]) .tt-row{row-gap:5px;padding:8px 14px;border-bottom:1px solid rgba(255,255,255,.05)}
-:root:not([data-skin=retro]) .tt-row:hover{background:rgba(255,255,255,.035)}
+@media(hover:hover) and (pointer:fine){:root:not([data-skin=retro]) .tt-row:hover{background:rgba(255,255,255,.035)}}
 :root:not([data-skin=retro]) .tt-row[aria-pressed=true]{background:linear-gradient(90deg,rgba(212,255,58,.12),rgba(212,255,58,.02) 75%);box-shadow:inset 3px 0 0 var(--flood)}
 :root:not([data-skin=retro]) .tt-team{gap:9px;font:500 14px/1.2 var(--f-body)}
 :root:not([data-skin=retro]) .tt-team .pts{font:700 16px/1 var(--f-body);font-variant-numeric:tabular-nums;color:var(--m-dim-2)}
@@ -477,7 +490,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .scoreline .n{gap:8px;font:900 clamp(18px,2.2vw,24px)/1 var(--f-display);text-shadow:0 2px 12px rgba(0,0,0,.55)}
 :root:not([data-skin=retro]) .crest.big{width:60px;height:60px;border-radius:14px;font-size:15px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25),0 0 0 3px rgba(6,8,11,.5),0 14px 30px -14px #000}
 :root:not([data-skin=retro]) .crest.big.logo{padding:7px}
-:root:not([data-skin=retro]) .scoreline .s{gap:.1em;padding:.04em .24em .02em;border-radius:10px;border:1px solid var(--m-edge-2);background:rgba(4,6,9,.84);font:900 clamp(44px,6vw,68px)/1 var(--f-display);text-shadow:none;box-shadow:inset 0 -3px 0 var(--flood),0 18px 36px -20px #000;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+:root:not([data-skin=retro]) .scoreline .s{gap:.1em;padding:.04em .24em .02em;border-radius:10px;border:1px solid var(--m-edge-2);background:rgba(4,6,9,.84);font:900 clamp(44px,6vw,68px)/1 var(--f-display);text-shadow:none;letter-spacing:-.01em;box-shadow:inset 0 -3px 0 var(--flood),var(--m-e2)}
 :root:not([data-skin=retro]) .scoreline .s em{color:var(--flood);font-size:.48em}
 :root:not([data-skin=retro]) .pill{border-radius:5px;padding:5px 8px;border-color:var(--m-edge-2);background:rgba(6,8,11,.62);font:italic 700 11px/1 var(--f-cap);letter-spacing:.13em}
 :root:not([data-skin=retro]) .pill.hot{background:var(--flood);border-color:transparent;color:var(--flood-ink);transform:skewX(-8deg)}
@@ -492,7 +505,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .who{width:32px;height:32px;font:italic 700 9.5px/1 var(--f-cap);letter-spacing:.06em}
 :root:not([data-skin=retro]) .beat.you .who{background:var(--flood);color:var(--flood-ink)}
 :root:not([data-skin=retro]) .beat.them .who{background:var(--m-slab-2);border:1px solid var(--m-edge-2)}
-:root:not([data-skin=retro]) .beat>div{max-width:min(86%,620px);padding:9px 13px 10px;border-radius:12px;background:var(--m-slab-2);border:1px solid var(--hair)}
+:root:not([data-skin=retro]) .beat>div{max-width:min(86%,620px);padding:9px 13px 10px;border-radius:var(--m-r-md);background:var(--m-slab-2);border:1px solid var(--hair)}
 :root:not([data-skin=retro]) .beat.you>div{background:linear-gradient(135deg,rgba(212,255,58,.14),rgba(212,255,58,.03));border-color:var(--flood-35);border-bottom-right-radius:3px}
 :root:not([data-skin=retro]) .beat.them>div{border-bottom-left-radius:3px}
 :root:not([data-skin=retro]) .beat .kicker::before{content:counter(beat,decimal-leading-zero);display:inline-block;margin-right:6px;padding:2px 4px;border-radius:3px;background:rgba(255,255,255,.09);color:var(--chalk);font-style:normal;letter-spacing:.04em}
@@ -502,7 +515,9 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .beat .note{margin-top:3px;font-size:12.5px}
 :root:not([data-skin=retro]) .beat .row{margin-top:7px}
 :root:not([data-skin=retro]) .star{border-radius:4px;padding:3px 6px;font:italic 700 10px/1 var(--f-cap);letter-spacing:.12em}
-:root:not([data-skin=retro]) .msg.speaking,:root:not([data-skin=retro]) .beat.speaking>div{outline:2px solid var(--flood);outline-offset:2px;box-shadow:0 0 0 6px var(--flood-10),0 0 28px -6px var(--flood-glow)}
+:root:not([data-skin=retro]) .msg.speaking,:root:not([data-skin=retro]) .beat.speaking>div{outline:2px solid var(--flood);outline-offset:2px;box-shadow:var(--m-e2)}
+/* A beat held on screen long enough to read gets a tick (it counts on the Bluff meter) */
+:root:not([data-skin=retro]) .beat.read .kicker::after{content:"\2713  Read";margin-left:8px;color:var(--good);font-style:normal;letter-spacing:.08em}
 :root:not([data-skin=retro]) .qa{gap:9px}
 :root:not([data-skin=retro]) .qa dt{font-size:13px}
 :root:not([data-skin=retro]) .dont{gap:7px;font-size:14px}
@@ -512,9 +527,9 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .cat .when{margin:2px 0 10px;font-size:13.5px}
 :root:not([data-skin=retro]) .cards,:root:not([data-skin=retro]) .jargon{gap:10px}
 @media(min-width:1100px){:root:not([data-skin=retro]) .cards,:root:not([data-skin=retro]) .jargon{grid-template-columns:repeat(3,minmax(0,1fr))}}
-:root:not([data-skin=retro]) .card{position:relative;overflow:hidden;gap:4px;padding:13px 15px;border-radius:10px;background-color:var(--m-slab);background-image:linear-gradient(180deg,rgba(255,255,255,.03),transparent 80px);transition:border-color .2s,transform .2s,box-shadow .2s}
+:root:not([data-skin=retro]) .card{position:relative;overflow:hidden;gap:4px;padding:13px 15px;border-radius:10px;background-color:var(--m-slab);background-image:linear-gradient(180deg,rgba(255,255,255,.03),transparent 80px);transition:border-color var(--m-fast) var(--m-ease),transform var(--m-fast) var(--m-ease)}
 :root:not([data-skin=retro]) .card::before{content:"\201C";position:absolute;top:-8px;right:10px;color:rgba(212,255,58,.08);font:900 72px/1 var(--f-display);pointer-events:none}
-:root:not([data-skin=retro]) .card:hover{border-color:var(--flood-35);transform:translateY(-1px);box-shadow:0 16px 30px -22px #000}
+@media(hover:hover) and (pointer:fine){:root:not([data-skin=retro]) .card:hover{border-color:var(--flood-35);transform:translateY(-1px)}}
 :root:not([data-skin=retro]) .card .phrase{font:600 16.5px/1.3 var(--f-body)}
 :root:not([data-skin=retro]) .card .meta{font-size:13px}
 :root:not([data-skin=retro]) .term{padding:12px 15px;border-radius:10px;background-color:var(--m-slab);background-image:none}
@@ -532,12 +547,12 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .bar::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent 0 calc(10% - 2px),var(--m-slab) calc(10% - 2px) 10%)}
 :root:not([data-skin=retro]) .bar i{border-radius:0}
 :root:not([data-skin=retro]) .avatar{flex-basis:40px;width:40px;height:40px;background:var(--m-slab-2);border-color:var(--m-edge-2);font-size:17px}
-:root:not([data-skin=retro]) .bubble{padding:10px 14px;border-radius:12px 12px 12px 3px;background:var(--m-slab-2);font:600 16.5px/1.35 var(--f-body)}
+:root:not([data-skin=retro]) .bubble{padding:10px 14px;border-radius:var(--m-r-md) var(--m-r-md) var(--m-r-md) 3px;background:var(--m-slab-2);font:600 16.5px/1.35 var(--f-body)}
 :root:not([data-skin=retro]) .prompt{margin:14px 0 6px}
 :root:not([data-skin=retro]) .opts{gap:6px;counter-reset:opt}
 :root:not([data-skin=retro]) .opt{counter-increment:opt;display:flex;align-items:center;gap:11px;padding:9px 12px;border-radius:10px;background:var(--m-slab);font:500 15px/1.35 var(--f-body)}
 :root:not([data-skin=retro]) .opt::before{content:counter(opt,upper-alpha);flex:0 0 auto;display:grid;place-items:center;width:26px;height:26px;border-radius:6px;border:1px solid var(--m-edge-2);background:var(--m-slab-2);color:var(--muted);font:900 15px/1 var(--f-display)}
-:root:not([data-skin=retro]) .opt:hover:not(:disabled)::before{background:var(--flood);border-color:transparent;color:var(--flood-ink)}
+@media(hover:hover) and (pointer:fine){:root:not([data-skin=retro]) .opt:hover:not(:disabled)::before{background:var(--flood);border-color:transparent;color:var(--flood-ink)}}
 :root:not([data-skin=retro]) .opt.good::before{background:var(--good);border-color:transparent;color:#04130a}
 :root:not([data-skin=retro]) .opt.meh::before{background:var(--meh);border-color:transparent;color:#1c1100}
 :root:not([data-skin=retro]) .opt.bad::before{background:var(--bad);border-color:transparent;color:#ffffff}
@@ -559,7 +574,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 /* Panic button, sheets, toast, footer */
 :root:not([data-skin=retro]) .panic-fab{width:64px;height:64px;font:900 15px/1 var(--f-display);box-shadow:0 5px 0 var(--panic-base),0 14px 32px -8px rgba(255,48,73,.55)}
 :root:not([data-skin=retro]) .panic-fab::after{content:"";position:absolute;inset:-5px;border-radius:50%;border:2px solid rgba(255,77,94,.55);pointer-events:none;opacity:0}
-:root:not([data-skin=retro]) .sheet-card{border-radius:14px;background-color:var(--m-slab);box-shadow:inset 0 3px 0 var(--flood),0 40px 80px -20px #000}
+:root:not([data-skin=retro]) .sheet-card{border-radius:var(--m-r-md);background-color:var(--m-slab);box-shadow:inset 0 3px 0 var(--flood),var(--m-e3)}
 :root:not([data-skin=retro]) .toast{background:var(--flood);color:var(--flood-ink);font:700 13px/1.2 var(--f-cap);letter-spacing:.08em;text-transform:uppercase}
 :root:not([data-skin=retro]) footer{padding-block:16px 24px;font-size:12.5px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.4))}
 :root:not([data-skin=retro]) .credits-h{color:var(--flood);font:italic 700 13px/1 var(--f-cap);letter-spacing:.2em}
@@ -572,7 +587,6 @@ footer p{margin:0 0 4px;max-width:90ch}
   :root:not([data-skin=retro]) .beat:nth-child(3){animation-delay:.08s}
   :root:not([data-skin=retro]) .beat:nth-child(4){animation-delay:.12s}
   :root:not([data-skin=retro]) .beat:nth-child(5){animation-delay:.16s}
-  :root:not([data-skin=retro]) .panic-fab::after{animation:ring 2.6s ease-out infinite}
 }
 @keyframes sweep{to{transform:translateX(130%)}}
 @keyframes rise{from{opacity:0;transform:translateY(6px)}}
@@ -596,6 +610,102 @@ footer p{margin:0 0 4px;max-width:90ch}
   :root:not([data-skin=retro]) .how li{padding:8px 12px}
   :root:not([data-skin=retro]) .how li::before{font-size:24px}
   :root:not([data-skin=retro]) .beat>div{max-width:88%}
+}
+
+/* Live surface (Scrollcraft): the app's own chrome is the navigation. A status bar along the bottom
+   carries the Bluff meter (a half-dial worked out from what you've practised for this game), the
+   next thing to do, and the Panic button. The script ends on an input: say your lines from memory. */
+:root:not([data-skin=retro]) body.has-bluff{padding-bottom:calc(58px + env(safe-area-inset-bottom,0px))}
+:root:not([data-skin=retro]) body.has-bluff main{padding-bottom:32px}
+:root:not([data-skin=retro]) .bluff{position:fixed;left:0;right:0;bottom:0;z-index:9;padding-bottom:env(safe-area-inset-bottom,0px);background:#040507;border-top:1px solid var(--m-edge-2);box-shadow:0 -10px 26px -14px hsl(var(--m-shade)/.95)}
+:root:not([data-skin=retro]) .bluff-in{position:relative;display:flex;align-items:center;gap:14px;min-height:57px;padding-right:calc(max(16px,env(safe-area-inset-right,0px)) + 104px)}
+:root:not([data-skin=retro]) .bluff-meter{display:flex;align-items:center;gap:10px;min-width:0;margin-left:-6px;padding:5px 10px 5px 6px;border:1px solid transparent;border-radius:var(--m-r-sm);background:none;color:var(--chalk);text-align:left;cursor:pointer;transition:background-color var(--m-fast) var(--m-ease),border-color var(--m-fast) var(--m-ease)}
+:root:not([data-skin=retro]) .bluff-meter[aria-expanded=true]{background:var(--m-slab-2);border-color:var(--m-edge-2)}
+:root:not([data-skin=retro]) .bluff-dial{flex:0 0 auto;width:52px;height:30px;overflow:visible}
+:root:not([data-skin=retro]) .bluff-dial .d-bg,:root:not([data-skin=retro]) .bluff-dial .d-fg{fill:none;stroke-width:5}
+:root:not([data-skin=retro]) .bluff-dial .d-bg{stroke:rgba(238,242,246,.13)}
+:root:not([data-skin=retro]) .bluff-dial .d-fg{stroke:var(--flood);stroke-dasharray:100 100;stroke-dashoffset:calc(100 - var(--v,0))}
+:root:not([data-skin=retro]) .bluff-dial .d-needle{transform-box:view-box;transform-origin:26px 27px;transform:rotate(calc(var(--v,0) * 1.8deg - 90deg))}
+:root:not([data-skin=retro]) .bluff-dial line{stroke:var(--chalk);stroke-width:2;stroke-linecap:round}
+:root:not([data-skin=retro]) .bluff-dial circle{fill:var(--chalk)}
+:root:not([data-skin=retro]) .bluff-txt{display:grid;gap:4px;min-width:0}
+:root:not([data-skin=retro]) .bluff-lbl{font:italic 700 10.5px/1 var(--f-cap);letter-spacing:.14em;text-transform:uppercase;color:var(--m-dim-2)}
+:root:not([data-skin=retro]) #bluffLevel{overflow:hidden;font:900 18px/1 var(--f-display);letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;text-overflow:ellipsis}
+:root:not([data-skin=retro]) .bluff-num{flex:0 0 auto;padding:4px 6px;border:1px solid var(--hair);border-radius:var(--m-r-sm);background:var(--m-slab-2);color:var(--flood);font:700 14px/1 var(--f-body);font-variant-numeric:tabular-nums}
+:root:not([data-skin=retro]) .bluff.full .bluff-num{border-color:transparent;background:var(--flood);color:var(--flood-ink)}
+:root:not([data-skin=retro]) .bluff-next{min-width:0;margin-left:auto;padding:8px 12px;border:1px solid var(--hair);border-radius:var(--m-r-sm);background:var(--m-slab-2);color:var(--chalk);font:700 12.5px/1.1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;transition:border-color var(--m-fast) var(--m-ease),background-color var(--m-fast) var(--m-ease),transform 120ms var(--m-ease)}
+:root:not([data-skin=retro]) .bluff-next:not(:disabled)::after{content:" \2192";color:var(--flood)}
+:root:not([data-skin=retro]) .bluff-next:disabled{border-color:transparent;background:none;color:var(--good);cursor:default}
+:root:not([data-skin=retro]) .bluff-next:active:not(:disabled){transform:translateY(1px)}
+@media(hover:hover) and (pointer:fine){
+  :root:not([data-skin=retro]) .bluff-meter:hover{border-color:var(--hair);background:var(--m-slab-2)}
+  :root:not([data-skin=retro]) .bluff-next:hover:not(:disabled){border-color:var(--flood-35);background-color:#19212c}
+  :root:not([data-skin=retro]) .mem-step:hover{border-color:var(--flood-35)}
+}
+/* The peak: the first time a game's meter reaches the top level, a volt wipe crosses the bar */
+:root:not([data-skin=retro]) .bluff-peak{position:absolute;inset:0;z-index:3;display:flex;align-items:center;background:var(--flood);color:var(--flood-ink);opacity:0;pointer-events:none}
+:root:not([data-skin=retro]) .bluff-peak .in{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 12px;width:100%;padding-right:calc(max(16px,env(safe-area-inset-right,0px)) + 104px)}
+:root:not([data-skin=retro]) .bluff-peak b{font:900 26px/1 var(--f-display);letter-spacing:.01em;text-transform:uppercase}
+:root:not([data-skin=retro]) .bluff-peak span{font:italic 700 12.5px/1 var(--f-cap);letter-spacing:.14em;text-transform:uppercase}
+/* The breakdown: opens above the bar */
+:root:not([data-skin=retro]) .bluff-sheet{position:absolute;bottom:calc(100% + 8px);left:max(max(16px,env(safe-area-inset-left,0px)),calc((100vw - 1200px) / 2 + 16px));z-index:2;width:min(380px,calc(100vw - 32px));padding:14px 16px;border:1px solid var(--m-edge-2);border-radius:var(--m-r-md);background:var(--m-slab);box-shadow:var(--m-edge),var(--m-e3)}
+:root:not([data-skin=retro]) .bs-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:10px}
+:root:not([data-skin=retro]) .bs-title{margin:0;min-width:0;font:italic 700 12px/1.2 var(--f-cap);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+:root:not([data-skin=retro]) .bs-score{font:900 28px/1 var(--f-display);color:var(--flood);font-variant-numeric:tabular-nums}
+:root:not([data-skin=retro]) .bs-list{display:grid;gap:8px;margin:0 0 12px;padding:0;list-style:none}
+:root:not([data-skin=retro]) .bs-list li{display:grid;grid-template-columns:minmax(0,1fr) 72px 52px;align-items:center;gap:10px;font-size:13.5px}
+:root:not([data-skin=retro]) .bs-bar{height:6px;overflow:hidden;border-radius:2px;background:rgba(238,242,246,.09)}
+:root:not([data-skin=retro]) .bs-bar i{display:block;height:100%;background:var(--flood);transform-origin:left}
+:root:not([data-skin=retro]) .bs-n{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+:root:not([data-skin=retro]) .bs-note{margin:10px 0 0;color:var(--muted);font-size:12.5px;line-height:1.45}
+/* Panic docks at the right end of the bar */
+:root:not([data-skin=retro]) body.has-bluff .panic-fab{right:max(16px,env(safe-area-inset-right,0px));bottom:calc(9px + env(safe-area-inset-bottom,0px));z-index:10;width:auto;height:40px;padding:0 18px;border-radius:var(--m-r-sm);font:900 16px/1 var(--f-display);letter-spacing:.05em;box-shadow:0 3px 0 var(--panic-base),var(--m-e1)}
+:root:not([data-skin=retro]) body.has-bluff .panic-fab:active{transform:translateY(3px);box-shadow:0 0 0 var(--panic-base),var(--m-e1)}
+:root:not([data-skin=retro]) body.has-bluff .toast{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+/* Say it from memory: the input the script ends on */
+:root:not([data-skin=retro]) .memory{border-color:var(--flood-35)}
+:root:not([data-skin=retro]) .mem-help{margin:0 0 12px;font-size:13.5px}
+:root:not([data-skin=retro]) .mem-steps{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px}
+:root:not([data-skin=retro]) .mem-step{padding:6px 10px;border:1px solid var(--hair);border-radius:var(--m-r-sm);background:var(--m-slab-2);color:var(--muted);font:700 12px/1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:border-color var(--m-fast) var(--m-ease),background-color var(--m-fast) var(--m-ease)}
+:root:not([data-skin=retro]) .mem-step[aria-pressed=true]{border-color:transparent;background:var(--chalk);color:#06080b}
+:root:not([data-skin=retro]) .mem-step.done::before{content:"\2713\00a0";color:var(--good)}
+:root:not([data-skin=retro]) .mem-step.done[aria-pressed=true]::before{color:#1d7a43}
+:root:not([data-skin=retro]) .mem-cue{margin:0 0 12px;color:#d8dfe7;font:600 15px/1.4 var(--f-body)}
+:root:not([data-skin=retro]) .mem-cue span{display:block;margin-bottom:4px;color:var(--m-dim-2);font:italic 700 11px/1 var(--f-cap);letter-spacing:.14em;text-transform:uppercase}
+:root:not([data-skin=retro]) .mem-form{display:flex;gap:6px}
+:root:not([data-skin=retro]) .mem-form input[type=text]{flex:1 1 auto;min-width:0;padding:10px 12px;font:600 16px/1.2 var(--f-body)}
+:root:not([data-skin=retro]) .mem-form .btn{padding-inline:16px}
+:root:not([data-skin=retro]) .mem-out{margin-top:10px}
+:root:not([data-skin=retro]) .mem-out:empty{display:none}
+:root:not([data-skin=retro]) .mem-res{margin:0 0 8px;font:600 14.5px/1.4 var(--f-body)}
+:root:not([data-skin=retro]) .mem-res.good{color:var(--good)}
+:root:not([data-skin=retro]) .mem-res.bad{color:var(--meh)}
+/* The surface opens in a state: on narrow screens the game and its script come before the results list */
+@media(max-width:939px){:root:not([data-skin=retro]) .script-grid .tt-wrap{order:2}}
+@media(prefers-reduced-motion:no-preference){
+  :root:not([data-skin=retro]) .bluff-dial .d-fg{transition:stroke-dashoffset .7s var(--m-ease)}
+  :root:not([data-skin=retro]) .bluff-dial .d-needle{transition:transform .7s var(--m-ease)}
+  :root:not([data-skin=retro]) .bluff.peak .bluff-peak{animation:bluffWipe 2.8s var(--m-ease) both}
+}
+@media(prefers-reduced-motion:reduce){:root:not([data-skin=retro]) .bluff.peak .bluff-peak{animation:bluffCalm 2.8s linear both}}
+@keyframes bluffWipe{0%{opacity:1;clip-path:inset(0 100% 0 0)}14%{opacity:1;clip-path:inset(0 0 0 0)}86%{opacity:1;clip-path:inset(0 0 0 0)}100%{opacity:0;clip-path:inset(0 0 0 0)}}
+@keyframes bluffCalm{0%{opacity:0}10%,86%{opacity:1}100%{opacity:0}}
+/* Phones: the status bar takes two lines (the meter, then the next step); the how-to row gives way to it */
+@media(max-width:600px){
+  :root:not([data-skin=retro]) .how{display:none}
+  :root:not([data-skin=retro]) body.has-bluff{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
+  :root:not([data-skin=retro]) .bluff-in{flex-wrap:wrap;gap:0 10px;min-height:66px;padding-block:5px 6px;padding-right:calc(max(16px,env(safe-area-inset-right,0px)) + 96px)}
+  :root:not([data-skin=retro]) .bluff-meter{flex:0 1 auto;padding-block:3px}
+  :root:not([data-skin=retro]) .bluff-lbl{display:none}
+  :root:not([data-skin=retro]) #bluffLevel{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;font-size:15.5px;line-height:1;white-space:normal}
+  :root:not([data-skin=retro]) .bluff-dial{width:46px;height:27px}
+  :root:not([data-skin=retro]) .bluff-next{flex:1 1 100%;order:3;margin:0 0 0 56px;padding:2px 0 3px;border:0;background:none;color:var(--flood);font:600 13px/1.25 var(--f-body);letter-spacing:0;text-align:left;text-transform:none}
+  :root:not([data-skin=retro]) .bluff-next:not(:disabled)::after{color:inherit}
+  :root:not([data-skin=retro]) body.has-bluff .panic-fab{bottom:calc(13px + env(safe-area-inset-bottom,0px));padding:0 14px;font-size:15px}
+  :root:not([data-skin=retro]) body.has-bluff .toast{bottom:calc(80px + env(safe-area-inset-bottom,0px))}
+  :root:not([data-skin=retro]) .bluff-peak b{font-size:22px}
+  :root:not([data-skin=retro]) .bluff-peak .in{padding-right:calc(max(16px,env(safe-area-inset-right,0px)) + 90px)}
+  :root:not([data-skin=retro]) .mem-form .btn{padding-inline:12px}
 }
 
 /* Retro: a late-2000s football chat-site look. Dark green page, chunky orange speech-bubble logo
@@ -849,6 +959,20 @@ footer p{margin:0 0 4px;max-width:90ch}
     <p><b>Results:</b> ESPN's public scoreboard feeds. Talking points are generated from those facts, so check anything important on <a href="https://www.espn.com/" target="_blank" rel="noopener">ESPN</a>. <b>Team guides:</b> researched from public sources such as club websites and Wikipedia. <b>Fonts:</b> Barlow, Barlow Condensed and Big Shoulders Display, under the SIL Open Font License.</p>
   </div>
 </footer>
+<!-- The Modern look's status bar (Bluff meter). Before Panic so keyboard order matches the screen: meter, next step, Panic. -->
+<div class="bluff" id="bluff" role="region" aria-label="Bluff meter" hidden>
+  <div class="bluff-sheet" id="bluffSheet" hidden></div>
+  <div class="in bluff-in">
+    <button type="button" class="bluff-meter" id="bluffBtn" aria-expanded="false" aria-controls="bluffSheet">
+      <svg class="bluff-dial" viewBox="0 0 52 30" aria-hidden="true"><path class="d-bg" d="M5 27a21 21 0 0 1 42 0"/><path class="d-fg" d="M5 27a21 21 0 0 1 42 0" pathLength="100"/><g class="d-needle"><line x1="26" y1="27" x2="26" y2="10"/><circle cx="26" cy="27" r="2.8"/></g></svg>
+      <span class="bluff-txt"><span class="bluff-lbl">Bluff meter</span><b id="bluffLevel">Obvious outsider</b></span>
+      <span class="bluff-num" id="bluffNum">0%</span>
+    </button>
+    <button type="button" class="bluff-next" id="bluffNext"></button>
+  </div>
+  <div class="bluff-peak" aria-hidden="true"><div class="in"><b>You'll pass.</b><span>Season-ticket holder</span></div></div>
+  <p class="sr" id="bluffSay" aria-live="polite"></p>
+</div>
 <button class="panic-fab" id="panicBtn" aria-haspopup="dialog">Panic</button>
 <div class="sheet" id="panicSheet" role="dialog" aria-modal="true" aria-labelledby="panicTitle" hidden>
   <div class="sheet-card">
@@ -1933,7 +2057,7 @@ function playInto(kind,btn,els){
   const B=currentBrief();if(!B)return;
   if(playing&&playing.kind===kind){stopPlaying();return}
   btn.textContent=STOP;
-  playLines(scriptItems(B.L),i=>{els.forEach((e,j)=>e.classList.toggle("speaking",i===j));if(els[i]&&kind==="phone")els[i].scrollIntoView({block:"nearest"})},()=>{els.forEach(e=>e.classList.remove("speaking"));btn.textContent=PLAY},kind);
+  playLines(scriptItems(B.L),i=>{els.forEach((e,j)=>e.classList.toggle("speaking",i===j));if(i%2===0)bluffMark("heard",i/2);if(els[i]&&kind==="phone")els[i].scrollIntoView({block:"nearest"})},()=>{els.forEach(e=>e.classList.remove("speaking"));btn.textContent=PLAY},kind);
 }
 function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove("show"),1800)}
 async function copy(text){try{await navigator.clipboard.writeText(text);toast("Copied")}catch(e){toast("Copy is blocked here. Select the text instead.")}}
@@ -2009,10 +2133,13 @@ function srcNote(entry){
 function renderScript(){
   const el=$("#tab-script"),lg=currentLg(),entry=lg?DATA.cache[lg]:null;
   updateStrip();
+  // Say it from memory starts on the first line not yet done for this game
+  const bk=bluffKey();if(S.memKey!==bk){S.memKey=bk;const r=bluffRec(false),n=[0,1,2].find(j=>!(r&&r.m[j]));S.memI=n==null?0:n}
   const how=`<ol class="how"><li><span><b>Pick a game</b> from the results page. Bluffball's list was always about last night's match.</span></li><li><span><b>Learn the script.</b> Three beats: your line, the reply to expect, your comeback.</span></li><li><span><b>Then leave.</b> After beat three you're off script, and that's where people get caught.</span></li></ol>`;
   el.innerHTML=`${how}<div class="script-grid"><div class="tt-wrap">${ttPage(entry,lg)}${srcNote(entry)}</div><div class="brief" id="brief">${briefHTML(entry)}</div></div>`;
   const sel=el.querySelector('.tt-row[aria-pressed="true"]');
   if(sel&&sel.scrollIntoView){const list=$("#ttList");if(list&&sel.offsetTop>list.clientHeight)list.scrollTop=sel.offsetTop-list.clientHeight/2}
+  bluffWatchBeats();bluffRender();
 }
 function briefHTML(entry){
   if(!leagueList().length)return `<div class="empty"><b>No live results for ${esc(SPORTS[S.sport].label)}</b>ESPN's free feed doesn't carry it. The phrase book, pub test and drill still work.</div>`;
@@ -2054,7 +2181,8 @@ function briefHTML(entry){
     <div class="panel"><h3>Don't say</h3><ul class="dont">${B.dont.map(x=>`<li><span>${esc(x)}</span></li>`).join("")}</ul>
       <p class="muted" style="margin:14px 0 0;font-size:14px">A stock line that doesn't fit the result is the fastest way to get caught.</p></div>
   </div>
-  ${B.names.length&&canSpeak?`<div class="panel"><h3>Pronunciation guide</h3><p class="muted" style="margin:0 0 10px;font-size:14px">Tap a name to hear it before you say it out loud. The voice can get unusual names wrong. If in doubt, use the surname only.</p><div class="names">${B.names.map(n=>`<button class="btn small" type="button" data-say="${esc(n)}">${esc(n)}</button>`).join("")}</div></div>`:""}`;
+  ${B.names.length&&canSpeak?`<div class="panel"><h3>Pronunciation guide</h3><p class="muted" style="margin:0 0 10px;font-size:14px">Tap a name to hear it before you say it out loud. The voice can get unusual names wrong. If in doubt, use the surname only.</p><div class="names">${B.names.map(n=>`<button class="btn small" type="button" data-say="${esc(n)}">${esc(n)}</button>`).join("")}</div></div>`:""}
+  ${memoryHTML(B)}`;
 }
 
 const groupName=f=>/\b(army|nation|mafia|country|kingdom|faithful|pound|flock|sea|c of red|12s|clan|fanatics)\b/i.test(f)||!/s$/i.test(f.trim());
@@ -2321,6 +2449,7 @@ function renderPub(){
       :pub.sus>=50?["In too deep","They've saved you a seat for Saturday and asked if you can drive a van on Thursday. Leave earlier next time."]
       :cred>=75?[isNA()?"Real fan":"Proper fan","You went off script and survived. Respect."]:["Suspicious","There's a long pause every time you speak."];
     const best=store.get("best_"+S.sport,0);if(cred>best)store.set("best_"+S.sport,cred);
+    if(pub.mode==="game"&&pub.sus<100)bluffMark("pub",cred);
     el.innerHTML=`${intro}${modeBtns}<div style="height:14px"></div>${meters()}<div class="panel result"><p class="kicker">Credibility ${cred}% · Suspicion ${Math.min(100,pub.sus)}% · Best for ${esc(SPORTS[S.sport].label)}: ${Math.max(cred,best)}%</p><div class="big">${title}</div><p>${line}</p><div class="row"><button class="btn primary" type="button" id="pubAgain">Another round</button><button class="btn" type="button" data-go="script">Back to the script</button></div></div>`;
     return;
   }
@@ -2518,6 +2647,163 @@ function panicLine(){
 function openPanic(){$("#panicSheet").hidden=false;speak(panicLine());$("#panicAgain").focus()}
 function closePanic(){$("#panicSheet").hidden=true;$("#panicBtn").focus()}
 
+/* ---------- Bluff meter (Modern look) ---------- */
+/* The Modern look's status bar: a half-dial showing how convincing you'll sound about the current
+   game, worked out from what you actually did on the page for that game and side: beats read (each
+   one held on screen for most of a second), your lines heard, your lines said from memory, local
+   words heard and the pub test. Saved in this browser only. The Retro look doesn't show it. */
+const BLUFF_LEVELS=[[80,"Season-ticket holder"],[60,"Sounds like a regular"],[40,"Passable"],[20,"Nodding along"],[0,"Obvious outsider"]];
+const MY_LINES=["opener","comeback","exit"];
+let bluffAll=store.get("bluff",{});
+if(!bluffAll||typeof bluffAll!=="object"||Array.isArray(bluffAll))bluffAll={};
+function bluffKey(){const B=currentBrief();if(!B||!B.g)return null;return S.sport+"|"+B.g.id+"|"+(B.f1?"d:"+B.d.n:S.side||"n")}
+function bluffRec(create){
+  const k=bluffKey();if(!k)return null;
+  let r=bluffAll[k];
+  if(!r&&create)r=bluffAll[k]={r:[0,0,0,0,0],h:[0,0,0],m:[0,0,0],w:[],p:0,pk:0,t:0};
+  return r||null;
+}
+function bluffSave(){
+  const keys=Object.keys(bluffAll);
+  if(keys.length>40)keys.sort((a,b)=>(bluffAll[a].t||0)-(bluffAll[b].t||0)).slice(0,keys.length-40).forEach(k=>delete bluffAll[k]);
+  store.set("bluff",bluffAll);
+}
+const ticks=a=>(a||[]).reduce((n,x)=>n+(x?1:0),0);
+function bluffParts(r){
+  r=r||{};const w=Math.min(3,(r.w||[]).length),p=Math.max(0,Math.min(100,r.p||0));
+  return [
+    {label:"Read the script",n:ticks(r.r),of:5,pts:ticks(r.r)*3,max:15},
+    {label:"Heard your lines",n:ticks(r.h),of:3,pts:ticks(r.h)*6,max:18},
+    {label:"Said from memory",n:ticks(r.m),of:3,pts:ticks(r.m)*10,max:30},
+    {label:"Local words heard",n:w,of:3,pts:w*4,max:12},
+    {label:"Pub test",n:p,of:100,pts:Math.round(p/4),max:25,pct:true}
+  ];
+}
+const bluffScore=r=>bluffParts(r).reduce((n,p)=>n+p.pts,0);
+const bluffLevel=v=>BLUFF_LEVELS.find(([m])=>v>=m)[1];
+function bluffNext(r){
+  if(!currentBrief())return{t:"Pick a game to start",act:"pick"};
+  const P=bluffParts(r),h=(r&&r.h)||[],m=(r&&r.m)||[];
+  if(P[0].n<5)return{t:"Next: read the script",act:"read"};
+  let i=[0,1,2].find(j=>!h[j]);if(i!=null)return{t:"Next: hear your "+MY_LINES[i],act:"hear",i};
+  i=[0,1,2].find(j=>!m[j]);if(i!=null)return{t:"Next: say it from memory",act:"say",i};
+  if(P[3].n<3)return{t:"Next: hear a local word",act:"local"};
+  if(P[4].n<80)return{t:P[4].n?"Next: the pub test again":"Next: take the pub test",act:"pub"};
+  return{t:"Ready. Go and say it.",act:"done"};
+}
+function bluffMark(kind,i,word){
+  const r=bluffRec(true);if(!r)return;
+  if(kind==="read"){if(r.r[i])return;r.r[i]=1}
+  else if(kind==="heard"){if(r.h[i])return;r.h[i]=1}
+  else if(kind==="said"){if(r.m[i])return;r.m[i]=1}
+  else if(kind==="local"){const w=norm(word);if(!w||r.w.includes(w)||r.w.length>=3)return;r.w.push(w)}
+  else if(kind==="pub"){if(!(i>r.p))return;r.p=i}
+  r.t=Date.now();bluffSave();bluffRender();
+}
+function bluffRender(){
+  const bar=$("#bluff");if(!bar)return;
+  const on=skin()==="modern";
+  bar.hidden=!on;document.body.classList.toggle("has-bluff",on);
+  if(!on){closeBluff(true);return}
+  const B=currentBrief(),r=bluffRec(false),v=B?bluffScore(r):0,lvl=B?bluffLevel(v):"No game yet",nx=bluffNext(r);
+  bar.style.setProperty("--v",v);
+  bar.classList.toggle("full",v>=80);
+  $("#bluffLevel").textContent=lvl;
+  $("#bluffNum").textContent=B?v+"%":"0%";
+  $("#bluffBtn").setAttribute("aria-label","Bluff meter, "+(B?v+"%, "+lvl:"no game picked")+". Show how it's worked out");
+  const nb=$("#bluffNext");nb.textContent=nx.t;nb.dataset.act=nx.act;nb.dataset.i=nx.i==null?"":String(nx.i);nb.disabled=nx.act==="done";
+  if(!$("#bluffSheet").hidden)$("#bluffSheet").innerHTML=bluffSheetHTML(r);
+  // The peak: the first time this game's meter reaches the top level
+  if(B&&r&&v>=80&&!r.pk){r.pk=1;bluffSave();bluffPeak(lvl)}
+}
+function bluffPeak(lvl){
+  const bar=$("#bluff");
+  bar.classList.remove("peak");void bar.offsetWidth;bar.classList.add("peak");
+  $("#bluffSay").textContent="Bluff meter: "+lvl+". You'll pass.";
+  clearTimeout(bluffPeak.t);bluffPeak.t=setTimeout(()=>bar.classList.remove("peak"),2800);
+}
+function bluffSheetHTML(r){
+  const B=currentBrief();
+  if(!B)return `<p class="bs-note">Pick a game, then practise it. The meter only counts what you actually do here.</p>`;
+  const nx=bluffNext(r),title=B.f1?B.rn+" · "+B.d.n:B.g.h.s+" v "+B.g.a.s;
+  return `<div class="bs-head"><p class="bs-title">${esc(title)}</p><b class="bs-score">${bluffScore(r)}%</b></div>
+  <ul class="bs-list">${bluffParts(r).map(p=>`<li><span class="bs-lbl">${esc(p.label)}</span><span class="bs-bar" aria-hidden="true"><i style="transform:scaleX(${(p.pts/p.max).toFixed(3)})"></i></span><span class="bs-n">${p.pct?p.n+"%":p.n+" of "+p.of}</span></li>`).join("")}</ul>
+  <div class="row">${nx.act!=="done"?`<button class="btn small primary" type="button" data-bluff="${nx.act}" data-i="${nx.i==null?"":nx.i}">${esc(nx.t.replace(/^Next: /,""))}</button>`:""}<button class="btn small" type="button" id="bluffReset">Start this game again</button></div>
+  <p class="bs-note">Worked out from what you've done on this page for this game, and kept in this browser only.</p>`;
+}
+function openBluff(){const s=$("#bluffSheet");s.innerHTML=bluffSheetHTML(bluffRec(false));s.hidden=false;$("#bluffBtn").setAttribute("aria-expanded","true")}
+function closeBluff(quiet){const s=$("#bluffSheet");if(!s||s.hidden)return;s.hidden=true;$("#bluffBtn").setAttribute("aria-expanded","false");if(!quiet)$("#bluffBtn").focus()}
+const smoothScroll=()=>matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth";
+// The bar's next step (and the sheet's button): take the visitor to it
+function bluffGo(act,i){
+  closeBluff(true);
+  if(act==="pub"){newPub("game");go("pub");return}
+  if(S.tab!=="script")go("script");
+  const B=currentBrief();if(!B){const c=$("#strip .sc")||$(".tt-row");if(c)c.focus();return}
+  const beats=[...document.querySelectorAll("#brief .script .beat")],r=bluffRec(false);
+  if(act==="read"){const j=beats.findIndex((b,k)=>!(r&&r.r[k]));const b=beats[j<0?0:j];if(b)b.scrollIntoView({block:"center",behavior:smoothScroll()});return}
+  if(act==="hear"){const b=beats[[0,2,4][i]];if(!b)return;b.scrollIntoView({block:"center",behavior:smoothScroll()});const s=b.querySelector("[data-say]");if(s){s.focus({preventScroll:true});s.click()}return}
+  if(act==="say"){S.memI=i;const m=$("#memory");if(m)m.outerHTML=memoryHTML(B);const m2=$("#memory");if(m2){m2.scrollIntoView({block:"center",behavior:smoothScroll()});$("#memIn").focus({preventScroll:true})}return}
+  if(act==="local"){const l=$("#brief ul.local");if(l){l.scrollIntoView({block:"center",behavior:smoothScroll()});const s=l.querySelector("[data-say]");if(s)s.focus({preventScroll:true})}else go("lingo");return}
+}
+// Hear it buttons: your three lines count as heard; local words count when they're from this game's teams
+function bluffHeard(btn,text){
+  const B=currentBrief();if(!B)return;
+  const i=[B.L.open,B.L.back,B.L.exit].indexOf(text);
+  if(i>=0){bluffMark("heard",i);return}
+  if(btn.closest("#brief ul.local")){bluffMark("local",0,text);return}
+  if(btn.closest("#tab-lingo")&&!S.lingoQ&&!B.f1){const L=lingoPick();if(L&&[B.g.h,B.g.a].some(t=>lingoOf(B.g.lg,t)===L))bluffMark("local",0,text)}
+}
+// Scroll dwell: a beat held mostly on screen for 700ms counts as read
+let bluffObs=null;
+function bluffWatchBeats(){
+  if(bluffObs){bluffObs.disconnect();bluffObs=null}
+  const beats=[...document.querySelectorAll("#brief .script .beat")];
+  const r=bluffRec(false);beats.forEach((b,i)=>b.classList.toggle("read",!!(r&&r.r[i])));
+  if(skin()!=="modern"||!beats.length||!("IntersectionObserver" in window))return;
+  const timers=new Map();
+  bluffObs=new IntersectionObserver(es=>{for(const e of es){
+    const i=beats.indexOf(e.target);if(i<0)continue;
+    if(e.isIntersecting&&e.intersectionRatio>=.6){if(!timers.has(i))timers.set(i,setTimeout(()=>{timers.delete(i);if(!e.target.isConnected)return;e.target.classList.add("read");bluffMark("read",i)},700))}
+    else{clearTimeout(timers.get(i));timers.delete(i)}
+  }},{threshold:[0,.6,1],rootMargin:"0px 0px -72px 0px"});
+  beats.forEach(b=>bluffObs.observe(b));
+}
+
+/* Say it from memory: the end of the Modern script is a text box. Type a line the way you'd say it;
+   if enough of its words are there, it passes (nobody in a pub checks the wording). */
+const MEM_SKIP=new Set("a an the and or but so to of in on at for with from by as is are was were be been being it its it's that this these those they them their there you your you're i i'm im me my we our us he she his her just got get one bit".split(" "));
+const memWords=s=>String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[’']/g,"").replace(/[^a-z0-9 ]+/g," ").split(/\s+/).filter(w=>w&&!MEM_SKIP.has(w));
+function memoryHTML(B){
+  if(skin()!=="modern"||!B)return "";
+  const r=bluffRec(false),m=(r&&r.m)||[],i=Math.min(2,Math.max(0,S.memI|0));
+  const L=B.L,cues=["",L.them,L.agree],label=["Your opener","Your comeback","Your exit"][i];
+  return `<div class="panel memory" id="memory"><h3>Say it from memory</h3>
+  <p class="muted mem-help">Type each of your lines the way you'd say it. Close enough counts.</p>
+  <div class="mem-steps" role="group" aria-label="Line to practise">${["Opener","Comeback","Exit"].map((l,j)=>`<button type="button" class="mem-step${m[j]?" done":""}" data-mem="${j}" aria-pressed="${j===i}">${esc(l)}${m[j]?'<span class="sr"> (done)</span>':""}</button>`).join("")}</div>
+  ${cues[i]?`<p class="mem-cue"><span>They say</span> “${esc(cues[i])}”</p>`:`<p class="mem-cue"><span>You start</span> Open with last night's game.</p>`}
+  <form class="mem-form" id="memForm" autocomplete="off"><label class="sr" for="memIn">${esc(label)}, from memory</label><input id="memIn" type="text" maxlength="240" spellcheck="false" enterkeyhint="done" placeholder="${esc(label)}, from memory"><button class="btn primary" type="submit">Check</button></form>
+  <div class="mem-out" id="memOut" role="status"></div></div>`;
+}
+function memCheck(){
+  const B=currentBrief(),inp=$("#memIn"),out=$("#memOut");if(!B||!inp||!out)return;
+  const i=Math.min(2,Math.max(0,S.memI|0)),target=[B.L.open,B.L.back,B.L.exit][i];
+  const said=new Set(memWords(inp.value)),want=memWords(target);
+  if(!said.size){out.innerHTML=`<p class="mem-res">Type the line first.</p>`;inp.focus();return}
+  const hit=want.filter(w=>said.has(w)).length,score=want.length?hit/want.length:1;
+  if(score>=.55){
+    bluffMark("said",i);
+    const r=bluffRec(false),next=[0,1,2].find(j=>!(r&&r.m[j]));
+    const msg=score>=.85?"Spot on.":"Close enough. That would pass.";
+    if(next!=null){S.memI=next;$("#memory").outerHTML=memoryHTML(B);$("#memOut").innerHTML=`<p class="mem-res good">${msg} Now your ${MY_LINES[next]}.</p>`;$("#memIn").focus()}
+    else{$("#memory").outerHTML=memoryHTML(B);$("#memOut").innerHTML=`<p class="mem-res good">${msg} That's all three from memory.</p><div class="row"><button class="btn small primary" type="button" data-bluff="pub">Take the pub test</button></div>`}
+    return;
+  }
+  const start=target.split(/\s+/).slice(0,3).join(" ");
+  out.innerHTML=`<p class="mem-res bad">Not quite. It starts “${esc(start)}…”</p><div class="row"><button class="btn small" type="button" data-memshow="${i}">Show me the line</button></div>`;
+  inp.focus();
+}
+
 /* ---------- Look: Modern or Retro ---------- */
 const TAB_LABELS={modern:{},retro:{script:"Today's phrases",pub:"Pub test",cover:"Cover story",phrases:"Pronunciation guide",drill:"Practice",pocket:"Updates to mobile",lingo:"Talk like a local"}};
 document.querySelectorAll(".tabs button").forEach(b=>{TAB_LABELS.modern[b.dataset.tab]=b.textContent});
@@ -2581,8 +2867,9 @@ function show(tab){
   document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===tab)));
   TABS.forEach(t=>{$("#tab-"+t).hidden=t!==tab});
   RENDER[tab]();
+  bluffRender();
 }
-function refresh(){RENDER[S.tab]()}
+function refresh(){RENDER[S.tab]();bluffRender()}
 function go(tab){try{if(location.hash.slice(1)!==tab)history.replaceState(null,"","#"+tab)}catch(e){}show(tab);const h=$(".head").offsetHeight;if(window.scrollY>h)window.scrollTo(0,h)}
 async function loadAndRender(force){
   refresh();updateTicker();
@@ -2592,9 +2879,13 @@ async function loadAndRender(force){
 }
 
 document.addEventListener("click",e=>{
+  if(!$("#bluffSheet").hidden&&!e.target.closest("#bluff"))closeBluff(true);
   const t=e.target.closest("button,a");if(!t)return;
   const d=t.dataset;
-  if(d.say!=null){speak(d.say,d.who);return}
+  if(d.say!=null){speak(d.say,d.who);bluffHeard(t,d.say);return}
+  if(d.bluff){bluffGo(d.bluff,d.i===""||d.i==null?null:+d.i);return}
+  if(d.mem!=null){S.memI=+d.mem;const m=$("#memory");if(m){m.outerHTML=memoryHTML(currentBrief());$("#memIn").focus()}return}
+  if(d.memshow!=null){const B=currentBrief(),o=$("#memOut");if(B&&o)o.innerHTML=`<p class="mem-res">“${esc([B.L.open,B.L.back,B.L.exit][+d.memshow])}”</p>`;return}
   if(d.copy!=null){copy(d.copy);return}
   if(d.save!=null){const i=S.saved.findIndex(x=>x.sp===S.sport&&x.t===d.save);if(i>=0)S.saved.splice(i,1);else S.saved.push({sp:S.sport,t:d.save});store.set("saved",S.saved);const on=i<0;t.setAttribute("aria-pressed",String(on));t.textContent=on?"Saved":"Save";toast(on?"Saved to your pocket card":"Removed");return}
   if(d.skin){setSkin(d.skin);return}
@@ -2622,6 +2913,9 @@ document.addEventListener("click",e=>{
     case "pocketCopy":copy(pocketText());break;
     case "pocketClear":S.saved=S.saved.filter(x=>x.sp!==S.sport);store.set("saved",S.saved);renderPocket();break;
     case "panicBtn":openPanic();break;
+    case "bluffBtn":if($("#bluffSheet").hidden)openBluff();else closeBluff();break;
+    case "bluffNext":bluffGo(t.dataset.act,t.dataset.i===""?null:+t.dataset.i);break;
+    case "bluffReset":{const k=bluffKey();if(k){delete bluffAll[k];bluffSave()}S.memKey=null;if(S.tab==="script")renderScript();bluffRender();openBluff();toast("Meter reset for this game");break}
     case "panicAgain":speak(panicLine());break;
     case "panicHear":speak($("#panicLine").textContent.replace(/[“”]/g,""));break;
     case "panicClose":closePanic();break;
@@ -2639,7 +2933,8 @@ document.addEventListener("input",e=>{
   if(el.dataset&&el.dataset.cover){const c=Object.assign({},S.covers[S.sport]||{});c[el.dataset.cover]=el.value;S.covers[S.sport]=c;store.set("covers",S.covers);const s=$("#coverStrength");if(s)s.innerHTML=strengthHTML();pub=null;drill=null}
   if(el.id==="cv-team"||el.id==="team"){S.teams[S.sport]=el.value;store.set("teams",S.teams);if(el.id==="cv-team")$("#team").value=el.value;pub=null;drill=null;clearTimeout(window.teamT);window.teamT=setTimeout(()=>{const entry=DATA.cache[currentLg()];if(entry&&el.id==="team"){selectGame(chooseGame(entry.games))}if(S.tab==="cover")updateCoverHints();else refresh()},400)}
 });
-document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;if(!$("#panicSheet").hidden)closePanic();if(!$("#voiceSheet").hidden)closeVoices()});
+document.addEventListener("submit",e=>{if(e.target.id==="memForm"){e.preventDefault();memCheck()}});
+document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;if(!$("#panicSheet").hidden)closePanic();if(!$("#voiceSheet").hidden)closeVoices();if(!$("#bluffSheet").hidden)closeBluff()});
 $("#panicSheet").addEventListener("click",e=>{if(e.target.id==="panicSheet")closePanic()});
 $("#voiceSheet").addEventListener("click",e=>{if(e.target.id==="voiceSheet")closeVoices()});
 

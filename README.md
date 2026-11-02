@@ -18,6 +18,9 @@ the website.
 - `src/serve.js`: a small local preview server
 - `src/pack-site.js`: puts the website folder into the c0rw1n.com `SITE.zip`
 - `src/checks.js`: pre-publish checks you run in the browser (see "Checking a build")
+- `scrollcraft/`: the Modern look's design brief (made with the Scrollcraft skill: a live app
+  surface with a status-bar Bluff meter that fills as you practise) and the skill's fingerprint
+  registry
 - `CLAUDE.md`: the project's rules and where each copy lives, for anyone (or any Claude
   session) picking the work up on another computer
 - Team logos: the build downloads each team's logo from ESPN's image server in two sizes (a

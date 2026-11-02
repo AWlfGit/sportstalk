@@ -1,6 +1,6 @@
 // Saves ESPN's team list for each league the trainer supports: node research/get-teams.js
 const fs=require("fs"),path=require("path");
-const LEAGUES=["soccer/eng.1","soccer/eng.2","soccer/sco.1","soccer/usa.1","soccer/esp.1","soccer/ita.1","soccer/ger.1","soccer/fra.1","football/nfl","football/cfl","basketball/nba","hockey/nhl","baseball/mlb","rugby/267979","rugby/270557"];
+const LEAGUES=["soccer/eng.1","soccer/eng.2","soccer/sco.1","soccer/usa.1","soccer/esp.1","soccer/ita.1","soccer/ger.1","soccer/fra.1","football/nfl","football/cfl","basketball/nba","hockey/nhl","baseball/mlb","rugby/267979","rugby/270557","soccer/aus.1","rugby/242041","australian-football/afl","rugby-league/3"];
 (async()=>{
   for(const lg of LEAGUES){
     const r=await fetch("https://site.api.espn.com/apis/site/v2/sports/"+lg+"/teams?limit=200");

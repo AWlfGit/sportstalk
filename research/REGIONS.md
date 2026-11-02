@@ -94,6 +94,24 @@ national region.
 - `ca-prairies`: Calgary, Edmonton, Winnipeg, Saskatchewan
 - `ca-bc`: Vancouver and British Columbia
 
+### Australia
+- `au-sydney`: Sydney (Sydney Swans, GWS Giants, Sydney FC, Western Sydney Wanderers, Macarthur FC, NSW Waratahs; the NRL's Roosters, Rabbitohs, Bulldogs, Eels, Wests Tigers, Sea Eagles, Sharks, Panthers and Dragons), and New South Wales's State of Origin side
+- `au-newcastle`: Newcastle, the Hunter and the Central Coast (Newcastle Knights, Newcastle Jets, Central Coast Mariners)
+- `au-canberra`: Canberra (Raiders, Brumbies)
+- `au-melbourne`: Melbourne and Geelong (Collingwood, Carlton, Essendon, Richmond, Hawthorn, Melbourne, St Kilda, Western Bulldogs, North Melbourne, Geelong Cats, Melbourne Storm, Melbourne Victory, Melbourne City)
+- `au-queensland`: Brisbane, the Gold Coast and North Queensland (Brisbane Lions, Gold Coast Suns, Broncos, Dolphins, Titans, Cowboys, Brisbane Roar, Queensland Reds), and Queensland's State of Origin side
+- `au-adelaide`: Adelaide (Adelaide Crows, Port Adelaide, Adelaide United)
+- `au-perth`: Perth and Western Australia (West Coast Eagles, Fremantle, Perth Glory, Western Force)
+
+### New Zealand
+- `nz-auckland`: Auckland (Auckland FC, Blues, the Warriors)
+- `nz-waikato`: Hamilton, the Waikato and the Bay of Plenty (Chiefs)
+- `nz-wellington`: Wellington (Wellington Phoenix, Hurricanes)
+- `nz-south`: Canterbury and Otago (Crusaders, Highlanders)
+
+The Fijian Drua take `fj`. The national regions `au` and `nz` stay for the Wallabies and the
+All Blacks; city clubs take their city's region.
+
 F1 teams may use the region of their home country or base (Ferrari: `it-italy`) or leave
 `region` empty; F1 talk lives in the F1 talk pack.
 

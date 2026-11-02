@@ -88,7 +88,7 @@ if (fs.existsSync(regDir)) for (const f of fs.readdirSync(regDir).filter((x) => 
 
 // Talk packs (sport-wide slang, phrases, pub-test rounds and five-beat exchanges)
 let packs = 0;
-for (const f of ["hockey-canada.json", "football-uk.json", "football-nfl.json", "basketball-nba.json", "baseball-mlb.json", "f1-na.json"]) {
+for (const f of ["hockey-canada.json", "football-uk.json", "football-nfl.json", "basketball-nba.json", "baseball-mlb.json", "f1-na.json", "afl-australia.json", "nrl-australia.json"]) {
   const p = path.join(__dirname, f);
   if (!fs.existsSync(p) || !wanted(f)) continue;
   packs++;

@@ -24,7 +24,7 @@ let blocked = [];
 try { blocked = JSON.parse(fs.readFileSync(path.join(root, "research", "blocked.json"), "utf8")); } catch (e) { /* none */ }
 const ok = (text) => !blocked.some((b) => String(text).toLowerCase().includes(String(b).toLowerCase()));
 // Which page sport a league belongs to (the same split the page uses)
-const SPORT_OF = (lg) => ({ soccer: "football", rugby: "rugby", cricket: "cricket", racing: "f1", football: "nfl", basketball: "nba", hockey: "nhl", baseball: "mlb" })[String(lg).split("/")[0]] || "";
+const SPORT_OF = (lg) => ({ soccer: "football", rugby: "rugby", cricket: "cricket", racing: "f1", football: "nfl", basketball: "nba", hockey: "nhl", baseball: "mlb", "australian-football": "afl", "rugby-league": "nrl" })[String(lg).split("/")[0]] || "";
 
 // Local lingo: team guides (research/out/*.json) and region packs (research/regions/*.json), keeping
 // only the fields the page uses, and dropping any text containing a phrase listed in
@@ -85,6 +85,12 @@ function loadLingo() {
   for (const t of out) {
     const r = t.region && regions.list[t.region];
     if (r) for (const x of r._say) addSay(SPORT_OF(t.league), x.word, x.tts);
+  }
+  // Talk-pack slang with a respelling ("speccy"), spoken in that pack's sport
+  for (const [sp, file] of Object.entries(TALK_FILES)) {
+    let d = null;
+    try { d = JSON.parse(fs.readFileSync(path.join(root, "research", file), "utf8")); } catch (e) { continue; }
+    for (const x of arr(d && d.terms)) addSay(sp, x && x.term, x && x.tts);
   }
   // Hand-checked entries (research/pronounce.json) win over everything else
   const P = loadPronounce();
@@ -190,7 +196,7 @@ function loadPronounce() {
 
 // Talk packs: researched slang, phrases, pub-test rounds and five-beat exchanges for a sport.
 // Each file in research/ maps to a sport key in the page; missing files are simply skipped.
-const TALK_FILES = { nhl: "hockey-canada.json", football: "football-uk.json", nfl: "football-nfl.json", nba: "basketball-nba.json", mlb: "baseball-mlb.json", f1: "f1-na.json" };
+const TALK_FILES = { nhl: "hockey-canada.json", football: "football-uk.json", nfl: "football-nfl.json", nba: "basketball-nba.json", mlb: "baseball-mlb.json", f1: "f1-na.json", afl: "afl-australia.json", nrl: "nrl-australia.json" };
 function loadTalk() {
   const str = (v) => (typeof v === "string" ? v.trim() : "");
   const arr = (v) => (Array.isArray(v) ? v : []);
@@ -217,6 +223,9 @@ function loadTalk() {
     P.pub = arr(d.pub).map((r) => ({ say: str(r && r.say), o: arr(r && r.o).filter((o) => Array.isArray(o) && str(o[0]) && [2, 1, 0, -1, -2].includes(+o[1])).map((o) => [str(o[0]), +o[1], str(o[2])]) }))
       .filter((r) => r.say && r.o.length === 3 && r.o.some((o) => o[1] === 2) && ok(r.say + " " + r.o.map((o) => o[0]).join(" ")));
     P.avoid = arr(d.avoid).map((x) => ({ say: str(x && x.say), instead: str(x && x.instead), why: str(x && x.why) })).filter((x) => x.say && x.instead && ok(x.say + " " + x.why));
+    // The sport's own betting words, when the pack's card has them
+    const bet = arr(d.builtin && d.builtin.betting).filter((b) => Array.isArray(b) && b.length === 3 && b.every((x) => str(x)) && ok(b.join(" "))).map((b) => b.map(str));
+    if (bet.length >= 3) P.betting = bet;
     if (ok(str(d.nerd))) P.nerd = str(d.nerd);
     if (ok(str(d.offq))) P.offq = str(d.offq);
     out[sport] = P;
@@ -351,7 +360,7 @@ const feedUrl = fu > 0 && process.argv[fu + 1] ? process.argv[fu + 1] : "https:/
     // Local lingo, one file per sport (its teams and their regions), fetched when the sport is picked
     fs.mkdirSync(path.join(dir, "lingo"), { recursive: true });
     const sizes = [];
-    for (const sp of ["football", "rugby", "cricket", "f1", "nfl", "nba", "nhl", "mlb"]) {
+    for (const sp of ["football", "rugby", "cricket", "f1", "nfl", "nba", "nhl", "mlb", "afl", "nrl"]) {
       const teams = lingo.teams.filter((t) => SPORT_OF(t.league) === sp), regions = {};
       for (const t of teams) if (t.region && lingo.regions[t.region]) regions[t.region] = lingo.regions[t.region];
       const body = JSON.stringify({ teams, regions });

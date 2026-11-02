@@ -51,8 +51,12 @@ has the commands.
 - **Regions.** Soccer, rugby and cricket are British: wording, spelling, betting slang (pony,
   acca) and British voices. NFL, NBA, NHL, MLB and F1 are North American: wording, US spelling
   (hockey's researched talk is Canadian and keeps Canadian spelling), parlays and spreads, and
-  smooth US voices in Modern, robotic US voices in Retro. `REGION` and `isNA()` in `app.html`
-  drive this; any new shared text needs both versions.
+  smooth US voices in Modern, robotic US voices in Retro. The AFL and the NRL are Australian:
+  British spelling and the British versions of shared text, Australian voices, the sport's own
+  betting words (multi, the line) and a few Australian phrases ("Who do you go for?", "whose
+  shout is it?"). `REGION`, `isNA()` and `isAU()` in `app.html` drive this; any new shared text
+  needs a British and a North American version (and an Australian one where Australians say it
+  differently).
 - **Every visit opens on All sports, near the visitor (Local mode)** unless they chose Everywhere
   (the Where choice is remembered in their browser; the Sport menu isn't). The Where button picks the
   area: Near me (the device's time zone city, or a precise location the visitor chooses to share),
@@ -94,7 +98,8 @@ Local lingo is the site's main strength. Keep it deep, accurate and current.
   get the local sound only when spoken on their own, from their word card.
 - The website copy loads lingo per sport (`lingo/<sport>.json`); single-file copies embed it all.
 - Talk packs (`research/hockey-canada.json`, `football-uk.json`, `football-nfl.json`,
-  `basketball-nba.json`, `baseball-mlb.json`, `f1-na.json`): sport-wide slang, phrase-book lines,
+  `basketball-nba.json`, `baseball-mlb.json`, `f1-na.json`, `afl-australia.json`,
+  `nrl-australia.json`; brief in `research/TALK.md`): sport-wide slang, phrase-book lines,
   pub-test rounds, giveaways, and a five-beat exchange per kind of result. `talkSituation()` in
   `app.html` picks the exchange from the real game; placeholders that can't be filled fall back
   to the built-in line.

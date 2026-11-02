@@ -1,0 +1,1042 @@
+[
+  {
+    "team": "Adelaide Crows",
+    "espnId": "15",
+    "league": "australian-football/afl",
+    "region": "au-adelaide",
+    "aliases": ["adelaide", "crows", "the crows", "adelaide crows", "afc"],
+    "nickname": "the Crows",
+    "fans": "",
+    "ground": "Adelaide Oval",
+    "rivals": [
+      {"team": "Port Adelaide", "name": "Port", "derby": "the Showdown"}
+    ],
+    "legends": ["Mark Ricciuto", "Andrew McLeod", "Mark Bickley", "Rory Sloane"],
+    "memory": "1997 and 1998: back-to-back premierships under Malcolm Blight, beating St Kilda and then North Melbourne",
+    "lingo": [
+      {"term": "the Crows", "say": "the KROHZ", "ipa": "ðə ˈkɹəʊz", "tts": "", "means": "The club nickname, chosen when the club was formed in 1990. It plays on 'croweaters', an old name for South Australians."},
+      {"term": "the Showdown", "say": "the SHOH-down", "ipa": "", "tts": "", "means": "The derby against Port Adelaide, played twice a season at Adelaide Oval. The whole state picks a side that week."},
+      {"term": "Footy Park", "say": "FUT-ee park", "ipa": "ˈfʊti ˌpɑːk", "tts": "", "means": "Football Park at West Lakes, the Crows' home ground until 2013. Older fans still talk fondly about Showdowns there."},
+      {"term": "Roo", "say": "ROO", "ipa": "ˈɹuː", "tts": "", "means": "Mark Ricciuto, long-time captain and the club's only Brownlow medallist (2003)."},
+      {"term": "back-to-back", "say": "BAK-tuh-BAK", "ipa": "", "tts": "", "means": "The 1997 and 1998 premierships, the club's only two. Fans bring them up whenever Port start on about history."},
+      {"term": "We Fly As One", "say": "wee FLY az WUN", "ipa": "", "tts": "", "means": "The club motto. It's on banners, merchandise and the club's own posts."}
+    ],
+    "lines": [
+      {"t": "Carn the Crows!", "m": "The all-purpose cheer. 'Carn' is 'come on' run together.", "when": "any"},
+      {"t": "We fly as one.", "m": "The club motto, used as a rallying cry.", "when": "any"},
+      {"t": "Adelaide Oval on a big night. Best ground in the country.", "m": "Locals are proud of the redeveloped Oval.", "when": "any"},
+      {"t": "Showdown week. Nobody at work talks about anything else.", "m": "The derby against Port takes over the city.", "when": "rival"},
+      {"t": "Two AFL flags to Port's one. That's the only count that matters.", "m": "The Crows fan's reply when Port fans bring up their SANFL history.", "when": "rival"},
+      {"t": "Back-to-back, mate. We know how it's done.", "m": "A nod to 1997 and 1998 after a big win.", "when": "win"},
+      {"t": "Always September that gets us.", "m": "A weary line about finals letdowns: the 2017 grand final, and straight sets in 2025.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "The Pride of South Australia", "means": "The club song, set to the tune of the US Marines' Hymn. Players and fans belt it out after a win."},
+      {"name": "Kuwarna", "means": "In Sir Doug Nicholls Round the club plays under Kuwarna, a Kaurna name, in a specially designed guernsey."}
+    ],
+    "sore": [
+      {"topic": "The 2017 grand final", "why": "Minor premiers and favourites, they lost to Richmond by 48 points."},
+      {"topic": "The 2025 finals", "why": "Minor premiers again, then knocked out in straight sets."}
+    ],
+    "pronounce": [
+      {"word": "Ricciuto", "say": "rih-CHOO-toh", "ipa": "ɹɪˈtʃuːtəʊ", "tts": "rich chew toe", "why": "Mark Ricciuto, the club's favourite son. The double c is a 'ch' and the stress is on CHOO."}
+    ],
+    "avoid": [
+      {"say": "the Adelaide derby", "instead": "the Showdown", "why": "The Crows-Port game has its own name, and everyone in Adelaide uses it."},
+      {"say": "the Adelaide Crows Football Club", "instead": "the Crows", "why": "The formal name is the Adelaide Football Club, and fans just say the Crows."},
+      {"say": "Adelaide United", "instead": "the Crows", "why": "United is the city's soccer club."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adelaide_Football_Club",
+      "https://en.wikipedia.org/wiki/Mark_Ricciuto",
+      "https://www.afc.com.au/news/768905/whats-in-a-name",
+      "https://www.afl.com.au/news/1316814/bharat-sundaresan-on-the-showdown",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Crows supporters use for themselves"
+    ]
+  },
+  {
+    "team": "Brisbane Lions",
+    "espnId": "11",
+    "league": "australian-football/afl",
+    "region": "au-queensland",
+    "aliases": ["brisbane", "brisbane lions", "lions", "the lions"],
+    "nickname": "the Lions",
+    "fans": "",
+    "ground": "the Gabba",
+    "rivals": [
+      {"team": "Gold Coast Suns", "name": "the Suns", "derby": "the QClash"},
+      {"team": "Collingwood", "name": "the Pies", "derby": ""}
+    ],
+    "legends": ["Jonathan Brown", "Simon Black", "Alastair Lynch", "Leigh Matthews"],
+    "memory": "Two three-peats: 2001-03, then 2024-26, the last flag won from 17 points down late in the grand final against Fremantle",
+    "lingo": [
+      {"term": "the Gabba", "say": "the GAB-uh", "ipa": "ðə ˈɡæbə", "tts": "", "means": "The home ground, short for Woolloongabba, the suburb it stands in. The club is due to move to a new Olympic stadium from 2033."},
+      {"term": "the three-peat", "say": "the THREE-peet", "ipa": "ðə ˈθɹiː ˌpiːt", "tts": "", "means": "Three flags in a row. The Lions have done it twice: 2001-03 under Leigh Matthews, and 2024-26."},
+      {"term": "Fitzroy", "say": "fits-ROY", "ipa": "ˌfɪtsˈɹɔɪ", "tts": "", "means": "The old Melbourne club that merged with the Brisbane Bears in 1996. The Lions carry its lion, its old club song and its history."},
+      {"term": "the Bears", "say": "the BAIRZ", "ipa": "", "tts": "", "means": "The Brisbane Bears (1987-96), the Queensland half of the merger. Older fans remember them fondly."},
+      {"term": "the QClash", "say": "the KYOO-klash", "ipa": "ðə ˈkjuː ˌklæʃ", "tts": "the queue clash", "means": "The Queensland derby against Gold Coast. The first QClash final, the 2025 semi, went to the Lions by 53 points."},
+      {"term": "the Royal Derby", "say": "the ROY-ul DAR-bee", "ipa": "ðə ˌɹɔɪəl ˈdɑːbi", "tts": "the royal darby", "means": "The Royal Derby Hotel in Fitzroy, the official pub for the club's Melbourne-based fans."}
+    ],
+    "lines": [
+      {"t": "Go Lions!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Two three-peats. Not many clubs can say that.", "m": "The favourite brag since 2026.", "when": "any"},
+      {"t": "Never write us off. We were seventeen down in the last quarter of a grand final.", "m": "The 2026 comeback against Fremantle.", "when": "any"},
+      {"t": "Nothing like a night at the Gabba.", "m": "Home-ground pride.", "when": "any"},
+      {"t": "Queensland's ours. The Suns can wait their turn.", "m": "Mild QClash banter.", "when": "rival"},
+      {"t": "The Pies got us by four in '23. We've had the last laugh since.", "m": "The 2023 grand final loss, followed by three straight flags.", "when": "rival"},
+      {"t": "Off day. We'll be there in September.", "m": "Lions fans have learned to trust their side in finals.", "when": "loss"},
+      {"t": "That's Lions footy. Never beaten till the siren.", "m": "After a comeback win.", "when": "win"}
+    ],
+    "traditions": [
+      {"name": "The Pride of Brisbane Town", "means": "The club song, set to La Marseillaise and adapted from Fitzroy's old song."},
+      {"name": "The Fitzroy connection", "means": "Melbourne-based fans gather at the Royal Derby Hotel, and Brunswick Street Oval in Fitzroy is called the club's spiritual home."}
+    ],
+    "sore": [
+      {"topic": "The 2004 grand final", "why": "Going for four in a row, they lost to Port Adelaide by 40 points."},
+      {"topic": "The 2023 grand final", "why": "Beaten by Collingwood by four points. The flags since have eased it, but only a bit."}
+    ],
+    "pronounce": [
+      {"word": "Woolloongabba", "say": "wool-un-GAB-uh", "ipa": "ˌwʊlənˈɡæbə", "tts": "wool un gabba", "why": "The suburb the Gabba is named after. Stress on GAB; most people just say 'the Gabba'."},
+      {"word": "Brisbane", "say": "BRIZ-bun", "ipa": "ˈbɹɪzbən", "tts": "briz bun", "why": "Locals end it with a short 'bun'. A long 'bane' marks you as a visitor."}
+    ],
+    "avoid": [
+      {"say": "the Broncos", "instead": "the Lions", "why": "The Broncos are Brisbane's rugby league team."},
+      {"say": "the Brisbane derby", "instead": "the QClash", "why": "The game against Gold Coast has its own name."},
+      {"say": "Briz-bane", "instead": "Briz-bun", "why": "The long 'bane' gives you away straight off."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brisbane_Lions",
+      "https://en.wikipedia.org/wiki/Woolloongabba",
+      "https://en.wiktionary.org/wiki/Brisbane",
+      "https://www.afl.com.au/news/1621721/the-unstoppables-lions-come-from-nowhere-to-win-epic-gf-break-freo-hearts",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Lions supporters use for themselves"
+    ]
+  },
+  {
+    "team": "Carlton",
+    "espnId": "9",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["carlton", "blues", "the blues", "navy blues", "baggers", "carlton blues"],
+    "nickname": "the Blues",
+    "fans": "",
+    "ground": "the MCG and Marvel Stadium (Princes Park, now Ikon Park, is the spiritual home and base)",
+    "rivals": [
+      {"team": "Collingwood", "name": "the Pies", "derby": ""},
+      {"team": "Essendon", "name": "the Bombers", "derby": ""},
+      {"team": "Richmond", "name": "the Tigers", "derby": ""}
+    ],
+    "legends": ["John Nicholls", "Alex Jesaulenko", "Stephen Kernahan", "Bruce Doull"],
+    "memory": "The 1970 grand final: 44 points down to Collingwood at half-time, Carlton won by 10 in front of 121,696 at the MCG",
+    "lingo": [
+      {"term": "the Blues", "say": "the BLOOZ", "ipa": "", "tts": "", "means": "The club nickname, from the navy guernsey."},
+      {"term": "the Navy Blues", "say": "the NAY-vee BLOOZ", "ipa": "", "tts": "", "means": "The old name for the club, kept alive in the title of the club song."},
+      {"term": "Baggers", "say": "BAG-erz", "ipa": "ˈbæɡəz", "tts": "", "means": "Old nickname, short for Blue Baggers. Mostly heard from older fans."},
+      {"term": "Princes Park", "say": "PRIN-siz park", "ipa": "", "tts": "", "means": "The home ground from 1897 to 2005, now called Ikon Park and still the club's base. Long-time fans still say Princes Park."},
+      {"term": "Jezza", "say": "JEZ-uh", "ipa": "ˈdʒɛzə", "tts": "", "means": "Alex Jesaulenko. His soaring mark in the 1970 grand final is the club's favourite highlight."},
+      {"term": "'95", "say": "NINE-tee-FIVE", "ipa": "", "tts": "", "means": "The 1995 premiership, the last one. That side lost only two games all year."},
+      {"term": "the CFC monogram", "say": "the see-eff-SEE MON-uh-gram", "ipa": "", "tts": "", "means": "The white monogram on the navy guernsey, worn since 1909."}
+    ],
+    "lines": [
+      {"t": "Carn the Blues!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Sixteen flags. Nobody's got more.", "m": "Carlton share the record with Collingwood and Essendon.", "when": "any"},
+      {"t": "Been waiting since '95. It's a long wait.", "m": "The last flag was 1995.", "when": "any"},
+      {"t": "Nothing beats beating Collingwood.", "m": "The oldest and biggest rivalry.", "when": "rival"},
+      {"t": "Ask a Pies fan about 1970.", "m": "The grand final comeback from 44 points down at half-time.", "when": "rival"},
+      {"t": "The Blues are back!", "m": "After a good win.", "when": "win"},
+      {"t": "Typical Carlton. They'll break your heart.", "m": "The weary line after a bad loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "We Are the Navy Blues", "means": "The club song, set to 'Lily of Laguna' and dating from about 1930."},
+      {"name": "The navy guernsey", "means": "Navy with the white CFC monogram, barely changed since 1909. Fans treat any tinkering with it as heresy."}
+    ],
+    "sore": [
+      {"topic": "The 2002 salary cap breach", "why": "The club was fined $930,000 and lost draft picks, and the wooden spoon years followed."},
+      {"topic": "No flag since 1995", "why": "The longest premiership wait in the club's history, and still running."}
+    ],
+    "pronounce": [
+      {"word": "Jesaulenko", "say": "jez-uh-LENK-oh", "ipa": "ˌdʒɛzəˈlɛŋkəʊ", "tts": "jezza lenko", "why": "Alex Jesaulenko, the club's most famous high-flyer. The stress falls on LENK."}
+    ],
+    "avoid": [
+      {"say": "Ikon Park", "instead": "Princes Park", "why": "Long-time fans still use the old name."},
+      {"say": "Carlton United", "instead": "Carlton", "why": "Carlton United is the brewery."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carlton_Football_Club",
+      "https://en.wikipedia.org/wiki/Alex_Jesaulenko",
+      "https://en.wikipedia.org/wiki/1970_VFL_Grand_Final",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Carlton supporters use for themselves"
+    ]
+  },
+  {
+    "team": "Collingwood",
+    "espnId": "17",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["collingwood", "pies", "the pies", "magpies", "the magpies", "woods", "collingwood magpies"],
+    "nickname": "the Pies",
+    "fans": "the Magpie Army",
+    "ground": "the MCG (Victoria Park was home until 1999)",
+    "rivals": [
+      {"team": "Carlton", "name": "the Blues", "derby": ""},
+      {"team": "Essendon", "name": "the Bombers", "derby": "the Anzac Day match"},
+      {"team": "Richmond", "name": "the Tigers", "derby": ""}
+    ],
+    "legends": ["Bob Rose", "Gordon Coventry", "Peter Daicos", "Tony Shaw"],
+    "memory": "1990: the premiership that ended a 32-year wait and, fans say, buried the Colliwobbles",
+    "lingo": [
+      {"term": "the Pies", "say": "the PIZE", "ipa": "ðə ˈpaɪz", "tts": "", "means": "Short for the Magpies. By far the most common name for the club."},
+      {"term": "the Magpie Army", "say": "the MAG-pie AR-mee", "ipa": "", "tts": "", "means": "The fans. The club calls them its 19th player."},
+      {"term": "Colliwobbles", "say": "KOL-ee-wob-ulz", "ipa": "ˈkɒliˌwɒbəlz", "tts": "", "means": "The old tag for choking in big games, after eight grand final losses between 1960 and 1981. Rivals love it; Pies fans don't."},
+      {"term": "Vic Park", "say": "VIK park", "ipa": "ˌvɪk ˈpɑːk", "tts": "", "means": "Victoria Park in Abbotsford, the home ground from 1892 to 1999."},
+      {"term": "Woods", "say": "WOODZ", "ipa": "ˈwʊdz", "tts": "", "means": "An old nickname, from CollingWOOD. Older fans still shout 'Go Woods!'"}
+    ],
+    "lines": [
+      {"t": "Carn the Pies!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Everyone hates Collingwood. Suits us fine.", "m": "Pies fans wear the rest of the league's dislike as a badge.", "when": "any"},
+      {"t": "Biggest club in the country, mate.", "m": "The standard boast about crowds and members.", "when": "any"},
+      {"t": "Anzac Day against the Bombers. Best day of the footy year.", "m": "The annual Anzac Day match at the MCG.", "when": "rival"},
+      {"t": "Nothing better than beating Carlton.", "m": "The oldest rivalry in the game.", "when": "rival"},
+      {"t": "That's the Pies. Never write us off.", "m": "After a close or comeback win.", "when": "win"},
+      {"t": "Don't you dare say Colliwobbles.", "m": "Half a joke after a bad loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "Good Old Collingwood Forever", "means": "The club song, written by a player in 1906 and the oldest AFL club song still in use."},
+      {"name": "The Anzac Day match", "means": "Collingwood and Essendon have met on Anzac Day every year since 1995, usually before a full MCG."},
+      {"name": "The King's Birthday match", "means": "The Pies play Melbourne every King's Birthday, after the Big Freeze ice slide raises money for motor neurone disease research."}
+    ],
+    "sore": [
+      {"topic": "The Colliwobbles", "why": "Eight grand final losses between 1960 and 1981 gave the club a name for choking."},
+      {"topic": "The 2018 grand final", "why": "Lost to West Coast by five points after leading early."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Colliwobbles", "instead": "a bad day", "why": "Calling them chokers is a guaranteed argument with a Pies fan."},
+      {"say": "Collingwood play at Victoria Park", "instead": "the Pies play at the MCG", "why": "Vic Park was home until 1999."},
+      {"say": "the Magpies", "instead": "the Pies", "why": "Fans shorten it; the full name sounds like a news bulletin."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Collingwood_Football_Club",
+      "https://www.collingwoodfc.com.au/magpiearmyhub",
+      "https://www.abc.net.au/news/2023-10-01/collingwood-afl-grand-final-premiers-family-day-darcy-moore/102921856",
+      "https://www.afl.com.au/news/1536299/big-freeze-2026-all-the-sliders-the-best-costumes-donate-now-to-support-the-fightmnd-campaign",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Essendon",
+    "espnId": "16",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["essendon", "bombers", "the bombers", "dons", "the dons", "essendon bombers", "efc"],
+    "nickname": "the Bombers",
+    "fans": "",
+    "ground": "the MCG and Marvel Stadium (Windy Hill was home until 1991)",
+    "rivals": [
+      {"team": "Carlton", "name": "the Blues", "derby": ""},
+      {"team": "Collingwood", "name": "the Pies", "derby": "the Anzac Day match"},
+      {"team": "Richmond", "name": "the Tigers", "derby": "Dreamtime at the 'G"}
+    ],
+    "legends": ["Dick Reynolds", "John Coleman", "Tim Watson", "Matthew Lloyd"],
+    "memory": "2000: won 24 of 25 games and the premiership, losing only to the Bulldogs",
+    "lingo": [
+      {"term": "the Dons", "say": "the DONZ", "ipa": "ðə ˈdɒnz", "tts": "", "means": "From the end of EssenDON. Fans use it as much as Bombers."},
+      {"term": "Windy Hill", "say": "WIN-dee HILL", "ipa": "", "tts": "", "means": "The home ground in Essendon from 1922 to 1991. The VFL and AFLW sides still play there."},
+      {"term": "the Hangar", "say": "the HANG-er", "ipa": "", "tts": "", "means": "The training base beside Melbourne Airport since 2013. Fitting for the Bombers."},
+      {"term": "Sheeds", "say": "SHEEDZ", "ipa": "ˈʃiːdz", "tts": "", "means": "Kevin Sheedy, coach from 1981 to 2007, with four premierships."},
+      {"term": "the Baby Bombers", "say": "the BAY-bee BOM-erz", "ipa": "", "tts": "", "means": "The young side that won the 1993 flag."},
+      {"term": "Dreamtime at the 'G", "say": "DREEM-time at the JEE", "ipa": "ˈdɹiːmtaɪm ət ðə ˈdʒiː", "tts": "", "means": "The Indigenous round match against Richmond, played every year since 2005."}
+    ],
+    "lines": [
+      {"t": "Carn the Bombers!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Sixteen flags. Same as Carlton and Collingwood.", "m": "Essendon share the record.", "when": "any"},
+      {"t": "Remember 2000? Lost one game all year.", "m": "The best season of the AFL era, and fans know it.", "when": "any"},
+      {"t": "Anzac Day against the Pies. Biggest crowd of the year.", "m": "The annual Anzac Day match at the MCG.", "when": "rival"},
+      {"t": "Beat the Blues and the season's half made.", "m": "Carlton is the old enemy.", "when": "rival"},
+      {"t": "The Bombers are flying!", "m": "After a good win.", "when": "win"},
+      {"t": "Rebuild starts now. Again.", "m": "A tired joke after another loss. Essendon finished last in 2026.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "See the Bombers Fly Up", "means": "The club song, written around 1959 to the tune of 'Sunny Side Up'."},
+      {"name": "The Anzac Day match", "means": "Essendon and Collingwood have played on Anzac Day every year since 1995, at a packed MCG."}
+    ],
+    "sore": [
+      {"topic": "The finals drought", "why": "The Bombers haven't won a final since 2004."},
+      {"topic": "The supplements saga", "why": "The 2012 program led to bans for 34 past and present players in 2016. Fans don't want to relive it."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Windy Hill is their ground", "instead": "they play at the 'G and Marvel", "why": "Windy Hill stopped being the AFL home after 1991."},
+      {"say": "the Bombers are named after the war", "instead": "named after the aerodrome", "why": "The name came in 1940 from nearby Essendon Aerodrome."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Essendon_Football_Club",
+      "https://en.wikipedia.org/wiki/Anzac_Day_match",
+      "https://en.wikipedia.org/wiki/Dreamtime_at_the_%27G",
+      "https://en.wikipedia.org/wiki/2026_AFL_season",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Essendon supporters use for themselves"
+    ]
+  },
+  {
+    "team": "Fremantle",
+    "espnId": "1",
+    "league": "australian-football/afl",
+    "region": "au-perth",
+    "aliases": ["fremantle", "freo", "dockers", "the dockers", "fremantle dockers"],
+    "nickname": "Freo",
+    "fans": "the Purple Army",
+    "ground": "Optus Stadium (the club trains at Cockburn)",
+    "rivals": [
+      {"team": "West Coast Eagles", "name": "the Eagles", "derby": "the Western Derby"},
+      {"team": "St Kilda", "name": "the Saints", "derby": ""}
+    ],
+    "legends": ["Matthew Pavlich", "Peter Bell", "Aaron Sandilands", "David Mundy"],
+    "memory": "2026: minor premiers with a club-record winning run, then a grand final lost to Brisbane by seven points",
+    "lingo": [
+      {"term": "Freo", "say": "FREE-oh", "ipa": "ˈfɹiːəʊ", "tts": "", "means": "What everyone calls the club, and the port city itself."},
+      {"term": "Wharfie Time", "say": "WOR-fee time", "ipa": "ˈwɔːfi ˌtaɪm", "tts": "", "means": "The moment late in a tight game when the crowd is asked to lift. It goes back to a much-mocked 2009 team talk by Matthew Pavlich."},
+      {"term": "Flagmantle", "say": "flag-MAN-tl", "ipa": "flæɡˈmæntəl", "tts": "flag mantle", "means": "Fans' word for a premiership tilt. It took off in 2022 and was everywhere in 2026."},
+      {"term": "the Purple Haze", "say": "the PUR-pl HAYZ", "ipa": "", "tts": "", "means": "The all-purple guernsey game each year, raising money for the Starlight Children's Foundation."},
+      {"term": "the anchor", "say": "the ANG-ker", "ipa": "", "tts": "", "means": "The anchor on the original 1995 guernsey, replaced by the chevrons in 2011. Older fans still love it."},
+      {"term": "the Western Derby", "say": "the WES-tern DAR-bee", "ipa": "ðə ˌwɛstən ˈdɑːbi", "tts": "the western darby", "means": "Freo against West Coast, twice a season at Optus Stadium."}
+    ],
+    "lines": [
+      {"t": "Come on, Freo!", "m": "The standard cheer.", "when": "any"},
+      {"t": "It's Wharfie Time.", "m": "Said when the game is tight and the team needs a lift.", "when": "any"},
+      {"t": "Purple Army, make some noise!", "m": "A rallying call to the home crowd.", "when": "any"},
+      {"t": "Flagmantle's on.", "m": "After a big win, half joking and half hoping.", "when": "win"},
+      {"t": "Freo will break your heart. Every time.", "m": "The long-suffering line after a loss.", "when": "loss"},
+      {"t": "Derby week. Half of Perth won't talk to the other half.", "m": "The Western Derby splits families and offices.", "when": "rival"},
+      {"t": "The Eagles had their turn. It's a purple town now.", "m": "Mild derby banter after West Coast's lean years.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Wharfie Time at Optus", "means": "When a home game gets tight late, bells toll and boats crash through waves on the big screen, and the crowd goes up a level."},
+      {"name": "Freo Way to Go", "means": "The club song since 2011, chosen in a fan poll."}
+    ],
+    "sore": [
+      {"topic": "No premiership", "why": "Freo are one of three clubs without a flag, after grand final losses in 2013 and 2026."},
+      {"topic": "The 2026 grand final", "why": "Seventeen points up with about four minutes left, they lost by seven. Brisbane even treated Wharfie Time as their cue to lift."}
+    ],
+    "pronounce": [
+      {"word": "Cockburn", "say": "KOH-burn", "ipa": "ˈkəʊbən", "tts": "co burn", "why": "The suburb of the club's training base. The 'ck' is silent."}
+    ],
+    "avoid": [
+      {"say": "the Fremantle Dockers", "instead": "Freo", "why": "Fans almost never use the full name."},
+      {"say": "the Perth derby", "instead": "the Western Derby", "why": "The Freo-Eagles game has its own name."},
+      {"say": "Cock-burn", "instead": "Coh-burn", "why": "Saying the 'ck' marks you as new to Perth."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fremantle_Football_Club",
+      "https://www.footyalmanac.com.au/round-9-fremantle-v-hawthorn-wharfie-time-reigns-supreme-out-west/",
+      "https://www.afl.com.au/news/1621721/the-unstoppables-lions-come-from-nowhere-to-win-epic-gf-break-freo-hearts",
+      "https://aapnews.aap.com.au/news/minor-premiership-within-grasp-as-flagmantle-takes-hold",
+      "https://www.albanyadvertiser.com.au/sport/fremantle-dockers/fremantle-dockers-break-membership-record-for-fifth-straight-year-as-purple-army-turns-out-for-finals-charge--c-19438441",
+      "https://en.wikipedia.org/wiki/Cockburn_Central,_Western_Australia"
+    ],
+    "unsure": [
+      "rivals: St Kilda is from Wikipedia's rivalry section (Sirengate 2006, Ross Lyon's 2011 move); fans may now rank Brisbane higher after 2026"
+    ]
+  },
+  {
+    "team": "GWS Giants",
+    "espnId": "8",
+    "league": "australian-football/afl",
+    "region": "au-sydney",
+    "aliases": ["gws", "giants", "the giants", "gws giants", "greater western sydney"],
+    "nickname": "the Giants",
+    "fans": "",
+    "ground": "ENGIE Stadium at Sydney Olympic Park, plus a few games a year at Manuka Oval in Canberra",
+    "rivals": [
+      {"team": "Sydney Swans", "name": "the Swans", "derby": "the Sydney Derby"},
+      {"team": "Western Bulldogs", "name": "the Dogs", "derby": ""}
+    ],
+    "legends": ["Callan Ward", "Heath Shaw", "Shane Mumford", "Kevin Sheedy"],
+    "memory": "2019: a first grand final, after a four-point preliminary final win over Collingwood",
+    "lingo": [
+      {"term": "the Orange Team", "say": "the OR-inj TEEM", "ipa": "", "tts": "", "means": "A nickname from commentator Kelli Underwood in 2022, since taken up by the club and fans."},
+      {"term": "the Big Big Sound", "say": "the BIG big SOWND", "ipa": "", "tts": "", "means": "An informal name for the club, taken from the title of the club song."},
+      {"term": "GWS", "say": "jee-dub-ul-yoo-ESS", "ipa": "ˌdʒiː ˌdʌbəljuː ˈɛs", "tts": "", "means": "Greater Western Sydney. Everyone just says the letters."},
+      {"term": "the Sydney Derby", "say": "the SID-nee DAR-bee", "ipa": "ðə ˌsɪdni ˈdɑːbi", "tts": "the sydney darby", "means": "The game against the Swans. The best player wins the Brett Kirk Medal."},
+      {"term": "G-Man", "say": "JEE-man", "ipa": "ˈdʒiː ˌmæn", "tts": "gee man", "means": "The club mascot since 2012."}
+    ],
+    "lines": [
+      {"t": "Go Giants!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Orange Team, all the way.", "m": "Fans have embraced the nickname.", "when": "any"},
+      {"t": "Western Sydney's club, and Canberra's too.", "m": "The club plays a few games a year in Canberra.", "when": "any"},
+      {"t": "Derby week. Time to show the Swans whose city it is.", "m": "The Sydney Derby.", "when": "rival"},
+      {"t": "The Dogs still owe us one for 2016.", "m": "The six-point preliminary final loss to the Bulldogs.", "when": "rival"},
+      {"t": "That's the Orange Team at their best.", "m": "After a good win.", "when": "win"},
+      {"t": "First flag's coming. Just not this week.", "m": "Hope after a loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "There's a Big Big Sound", "means": "The club song, written by Harry Angus of the Cat Empire. It became a meme during the 2019 finals."},
+      {"name": "Canberra games", "means": "A few home games a year at Manuka Oval, in a Canberra version of the guernsey."}
+    ],
+    "sore": [
+      {"topic": "The 2019 grand final", "why": "Lost to Richmond by 89 points in the club's only grand final."},
+      {"topic": "Close preliminary finals", "why": "Lost by six points to the Dogs in 2016 and by one point to Collingwood in 2023."}
+    ],
+    "pronounce": [
+      {"word": "Manuka", "say": "MAH-nuh-kuh", "ipa": "ˈmɑːnəkə", "tts": "mahna kuh", "why": "Canberra's Manuka Oval, where the Giants play a few games a year. Canberrans stress the first syllable, unlike the honey."}
+    ],
+    "avoid": [
+      {"say": "the Greater Western Sydney Giants", "instead": "the Giants", "why": "Nobody uses the full name; it's the Giants or GWS."},
+      {"say": "the Wanderers", "instead": "the Giants", "why": "The Western Sydney Wanderers are the soccer club."},
+      {"say": "ma-NOO-ka Oval", "instead": "MAH-nuh-kuh Oval", "why": "The Canberra ground isn't said like the honey."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Greater_Western_Sydney_Giants",
+      "https://en.wikipedia.org/wiki/Manuka,_Australian_Capital_Territory",
+      "https://www.afl.com.au/news/1381913/a-giant-legacy-gws-veteran-callan-ward-confirms-retirement-after-latest-injury",
+      "https://en.wikipedia.org/wiki/2026_AFL_season",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Giants supporters use for themselves",
+      "ground: Manuka Oval's sponsored name in 2026 is Corroboree Group Oval; fans still say Manuka"
+    ]
+  },
+  {
+    "team": "Geelong Cats",
+    "espnId": "14",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["geelong", "cats", "the cats", "geelong cats", "catters"],
+    "nickname": "the Cats",
+    "fans": "",
+    "ground": "Kardinia Park, 'the Cattery' (sponsored name: GMHBA Stadium)",
+    "rivals": [
+      {"team": "Hawthorn", "name": "the Hawks", "derby": ""},
+      {"team": "Collingwood", "name": "the Pies", "derby": ""}
+    ],
+    "legends": ["Gary Ablett Sr", "Polly Farmer", "Bob Davis", "Tom Hawkins"],
+    "memory": "2007: the first flag in 44 years, won by a record 119 points against Port Adelaide",
+    "lingo": [
+      {"term": "the Catters", "say": "the KAT-erz", "ipa": "ðə ˈkætəz", "tts": "", "means": "Fans' fond name for the team. 'Go Catters!' rings round the town in September."},
+      {"term": "the Cattery", "say": "the KAT-uh-ree", "ipa": "", "tts": "", "means": "Kardinia Park, the home ground. Visiting sides hate going there."},
+      {"term": "Kardinia Park", "say": "kar-DIN-ee-uh park", "ipa": "kɑːˈdɪniə ˌpɑːk", "tts": "", "means": "The ground's real name, which most fans still use over the sponsor's."},
+      {"term": "the Pivot", "say": "the PIV-ut", "ipa": "", "tts": "", "means": "An old nickname for Geelong the city. The club was once called the Pivotonians."},
+      {"term": "the Kennett curse", "say": "the KEN-it KURS", "ipa": "ðə ˈkɛnɪt ˌkɜːs", "tts": "", "means": "After Hawthorn president Jeff Kennett questioned Geelong's mental toughness in 2008, the Cats beat the Hawks 11 times in a row."},
+      {"term": "God", "say": "GOD", "ipa": "", "tts": "", "means": "What fans called Gary Ablett Sr in his high-flying, goal-kicking prime."}
+    ],
+    "lines": [
+      {"t": "Go Catters!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Nothing beats a Friday night at the Cattery.", "m": "Home-ground pride.", "when": "any"},
+      {"t": "Forty-four years we waited. Never again.", "m": "The gap between the 1963 and 2007 flags.", "when": "any"},
+      {"t": "Ten flags, four of them since 2007.", "m": "The modern era has been good to the Cats.", "when": "any"},
+      {"t": "The Kennett curse, remember?", "m": "A dig at Hawthorn fans.", "when": "rival"},
+      {"t": "That's the Cats. Clinical.", "m": "After a good win.", "when": "win"},
+      {"t": "We'll be back in September. We always are.", "m": "The Cats rarely miss finals, so fans shrug off a loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "We Are Geelong", "means": "The club song, to the tune of the Toreador song from Carmen."},
+      {"name": "Ford", "means": "Ford has sponsored the club since 1925, one of the longest sponsorships in world sport."}
+    ],
+    "sore": [
+      {"topic": "The 2008 grand final", "why": "After losing just one game all season, they lost the grand final to Hawthorn."},
+      {"topic": "The 1989-95 grand finals", "why": "Four grand final losses in seven years before the 2007 flag."}
+    ],
+    "pronounce": [
+      {"word": "Geelong", "say": "juh-LONG", "ipa": "dʒɪˈlɒŋ", "tts": "juh long", "why": "Stress on LONG, with a soft g. 'GEE-long' sounds like a tourist."}
+    ],
+    "avoid": [
+      {"say": "GEE-long", "instead": "juh-LONG", "why": "Locals put the stress on the second syllable."},
+      {"say": "Geelong's part of Melbourne", "instead": "Geelong's its own city", "why": "Geelong people are proud of not being from Melbourne."},
+      {"say": "GMHBA Stadium", "instead": "Kardinia Park", "why": "Fans prefer Kardinia Park or the Cattery to the sponsor's name."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Geelong_Football_Club",
+      "https://en.wikipedia.org/wiki/Kardinia_Park_(stadium)",
+      "https://en.wiktionary.org/wiki/Geelong",
+      "https://geelongindy.com.au/news/25-09-2025/sign-of-hope-for-cats",
+      "https://oceangrovevoice.com.au/news/23-09-2025/thousands-turn-out-for-the-catters/"
+    ],
+    "unsure": [
+      "fans: found no settled name that Geelong supporters use for themselves"
+    ]
+  },
+  {
+    "team": "Gold Coast Suns",
+    "espnId": "10",
+    "league": "australian-football/afl",
+    "region": "au-queensland",
+    "aliases": ["gold coast", "suns", "the suns", "gold coast suns", "gcs"],
+    "nickname": "the Suns",
+    "fans": "",
+    "ground": "Carrara (sponsored name: People First Stadium), plus a few games a year in Darwin",
+    "rivals": [
+      {"team": "Brisbane Lions", "name": "the Lions", "derby": "the QClash"}
+    ],
+    "legends": ["Gary Ablett Jr", "David Swallow"],
+    "memory": "2025: the club's first finals win, by a point against Fremantle in Perth, with David Swallow kicking the winner",
+    "lingo": [
+      {"term": "the Suns", "say": "the SUNZ", "ipa": "", "tts": "", "means": "The club nickname."},
+      {"term": "Sunnies", "say": "SUN-eez", "ipa": "ˈsʌniz", "tts": "", "means": "A casual name for the team. Also Aussie for sunglasses, which suits the Gold Coast."},
+      {"term": "Carrara", "say": "kuh-RARR-uh", "ipa": "kəˈɹæɹə", "tts": "ka rarra", "means": "The suburb and the stadium. The Brisbane Bears played there before the Suns existed."},
+      {"term": "the QClash", "say": "the KYOO-klash", "ipa": "ðə ˈkjuː ˌklæʃ", "tts": "the queue clash", "means": "The Queensland derby against Brisbane."},
+      {"term": "the Marcus Ashcroft Medal", "say": "the MAR-kus ASH-kroft MED-ul", "ipa": "", "tts": "", "means": "The best-on-ground award in the QClash."}
+    ],
+    "lines": [
+      {"t": "Go Suns!", "m": "The standard cheer.", "when": "any"},
+      {"t": "Took us fifteen seasons to win a final. We're not going back.", "m": "The first finals win came in 2025.", "when": "any"},
+      {"t": "Nothing beats a Saturday arvo at Carrara.", "m": "Home-ground pride.", "when": "any"},
+      {"t": "QClash week. Queensland bragging rights on the line.", "m": "The derby against Brisbane.", "when": "rival"},
+      {"t": "That's the Suns we've been waiting for.", "m": "After a good win.", "when": "win"},
+      {"t": "Young side. It'll come.", "m": "Patience after a loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "We Are the Suns of the Gold Coast Sky", "means": "The club song, written for the first season in 2011."},
+      {"name": "Darwin games", "means": "The Suns take a few home games each year to TIO Stadium in Darwin."}
+    ],
+    "sore": [
+      {"topic": "Stars leaving", "why": "Gary Ablett Jr went back to Geelong after 2017, and other early stars left too. Fans are sick of 'stepping stone' talk."},
+      {"topic": "The long wait for finals", "why": "Fourteen seasons without September, from 2011 to 2024."}
+    ],
+    "pronounce": [
+      {"word": "Carrara", "say": "kuh-RARR-uh", "ipa": "kəˈɹæɹə", "tts": "ka rarra", "why": "The home ground's suburb. The middle syllable rhymes with 'car' said short, not 'rare'."}
+    ],
+    "avoid": [
+      {"say": "the Titans", "instead": "the Suns", "why": "The Titans are the Gold Coast's rugby league club."},
+      {"say": "Metricon Stadium", "instead": "Carrara", "why": "The sponsor's name has changed twice since 2023; Carrara never changes."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gold_Coast_Suns",
+      "https://www.afl.com.au/news/1411933/david-swallow-the-hero-as-gold-coast-suns-hold-off-fremantle-dockers-comeback-for-first-finals-win",
+      "https://en.wikipedia.org/wiki/Carrara,_Queensland",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Suns supporters use for themselves",
+      "legends: a young club; only two retired players clearly fit"
+    ]
+  },
+  {
+    "team": "Hawthorn",
+    "espnId": "13",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["hawthorn", "hawks", "the hawks", "hawthorn hawks", "hfc"],
+    "nickname": "the Hawks",
+    "fans": "",
+    "ground": "the MCG, plus several games a year at York Park in Launceston (sponsored name: UTAS Stadium)",
+    "rivals": [
+      {"team": "Geelong Cats", "name": "the Cats", "derby": ""},
+      {"team": "Essendon", "name": "the Bombers", "derby": ""},
+      {"team": "North Melbourne", "name": "North", "derby": ""}
+    ],
+    "legends": ["Leigh Matthews", "Jason Dunstall", "Dermott Brereton", "Michael Tuck"],
+    "memory": "2013-15: three premierships in a row",
+    "lingo": [
+      {"term": "the Family Club", "say": "the FAM-lee KLUB", "ipa": "", "tts": "", "means": "The club's long-standing slogan, and how fans like to see it."},
+      {"term": "the brown and gold", "say": "the BROWN and GOHLD", "ipa": "", "tts": "", "means": "The club colours, and a name for the club itself."},
+      {"term": "Glenferrie", "say": "glen-FER-ee", "ipa": "ɡlɛnˈfɛɹi", "tts": "", "means": "Glenferrie Oval, the home ground until 1973 and still the spiritual home."},
+      {"term": "Lethal", "say": "LEE-thul", "ipa": "ˈliːθəl", "tts": "", "means": "Leigh Matthews, the club's greatest player, named for his bone-rattling bumps."},
+      {"term": "the Mayblooms", "say": "the MAY-bloomz", "ipa": "ðə ˈmeɪbluːmz", "tts": "", "means": "The club's name before it became the Hawks in the 1940s."},
+      {"term": "York Park", "say": "YORK park", "ipa": "", "tts": "", "means": "The Launceston ground, now UTAS Stadium, where the Hawks have played games every year since 2007."}
+    ],
+    "lines": [
+      {"t": "Carn the Hawks!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Thirteen flags. And a three-peat.", "m": "The standard brag.", "when": "any"},
+      {"t": "A flag in every decade from the sixties to the 2010s.", "m": "A favourite Hawthorn stat.", "when": "any"},
+      {"t": "Kennett curse? Never heard of it.", "m": "Said with a straight face to Geelong fans.", "when": "rival"},
+      {"t": "Beating Geelong never gets old.", "m": "The modern rivalry, born in the 2008 grand final.", "when": "rival"},
+      {"t": "That's Hawthorn footy. Ruthless.", "m": "After a big win.", "when": "win"},
+      {"t": "One bad day. We'll be fine.", "m": "Shrugging off a loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "The Mighty Fighting Hawks", "means": "The club song, set to 'The Yankee Doodle Boy'."},
+      {"name": "Games in Tasmania", "means": "Several home games a year in Launceston since 2007, under a deal with the Tasmanian government."}
+    ],
+    "sore": [
+      {"topic": "The Kennett curse", "why": "After president Jeff Kennett's 2008 comments, the Hawks lost 11 straight to Geelong until the 2013 preliminary final."},
+      {"topic": "The 2012 grand final", "why": "Minor premiers, they lost to Sydney by 10 points."}
+    ],
+    "pronounce": [
+      {"word": "Launceston", "say": "LON-sess-tun", "ipa": "ˈlɒnsɛstən", "tts": "lon sess tun", "why": "The Tasmanian city where the Hawks play. Locals start with LON, not LAWN."}
+    ],
+    "avoid": [
+      {"say": "LAWN-ses-ton", "instead": "LON-sess-tun", "why": "Tasmanians and Hawks fans say it the local way."},
+      {"say": "the Hawks are Tasmania's team", "instead": "the Hawks play some games in Tassie", "why": "Tasmania gets its own club, the Devils, from 2028."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hawthorn_Football_Club",
+      "https://en.wikipedia.org/wiki/Leigh_Matthews",
+      "https://en.wiktionary.org/wiki/Launceston",
+      "https://www.hawthornfc.com.au/news/460739/hall-of-names",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Hawthorn supporters use for themselves"
+    ]
+  },
+  {
+    "team": "Melbourne",
+    "espnId": "2",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["melbourne", "demons", "the demons", "dees", "the dees", "melbourne demons", "mfc"],
+    "nickname": "the Dees",
+    "fans": "",
+    "ground": "the MCG",
+    "rivals": [
+      {"team": "Collingwood", "name": "the Pies", "derby": "the King's Birthday match"}
+    ],
+    "legends": ["Ron Barassi", "Robert Flower", "Jim Stynes", "David Neitz"],
+    "memory": "2021: the first flag in 57 years, beating the Bulldogs by 74 points at Optus Stadium in Perth",
+    "lingo": [
+      {"term": "the Dees", "say": "the DEEZ", "ipa": "ðə ˈdiːz", "tts": "", "means": "Short for the Demons. Far more common than the full name."},
+      {"term": "the Demons", "say": "the DEE-munz", "ipa": "", "tts": "", "means": "The official nickname since 1933."},
+      {"term": "the Redlegs", "say": "the RED-legz", "ipa": "ðə ˈɹɛdlɛɡz", "tts": "", "means": "The club's old nickname from before 1933, from the red socks."},
+      {"term": "Demonland", "say": "DEE-mun-land", "ipa": "ˈdiːmənlænd", "tts": "", "means": "The long-running independent fan forum. When Dees fans argue online, it's usually there."},
+      {"term": "the Big Freeze", "say": "the BIG FREEZ", "ipa": "", "tts": "", "means": "The ice slide before the King's Birthday game against Collingwood, raising money for motor neurone disease research."}
+    ],
+    "lines": [
+      {"t": "Go Dees!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Fifty-seven years, and we won it in Perth.", "m": "The 2021 flag, played in Perth because of lockdowns.", "when": "any"},
+      {"t": "Red and blue forever.", "m": "The club colours, as a rallying cry.", "when": "any"},
+      {"t": "King's Birthday, full 'G, beat the Pies. Perfect day.", "m": "The annual King's Birthday match.", "when": "rival"},
+      {"t": "That's the Dees we know.", "m": "After a good win.", "when": "win"},
+      {"t": "Typical Melbourne. Never easy.", "m": "The weary line after a loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "It's a Grand Old Flag", "means": "The club song since 1912, set to George M. Cohan's tune."},
+      {"name": "The King's Birthday match", "means": "Melbourne play Collingwood at a packed MCG every King's Birthday, after the Big Freeze slide."}
+    ],
+    "sore": [
+      {"topic": "The 2011 loss to Geelong", "why": "Beaten by 186 points, one of the heaviest defeats in league history."},
+      {"topic": "The 1987 preliminary final", "why": "Hawthorn's Gary Buckenara kicked the winner after the siren."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Melbourne Storm", "instead": "the Dees", "why": "The Storm are the city's rugby league club."},
+      {"say": "the Demons haven't won since the sixties", "instead": "the Dees won it in 2021", "why": "The 57-year wait ended in Perth in 2021."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Melbourne_Football_Club",
+      "https://en.wikipedia.org/wiki/King%27s_Birthday_match",
+      "https://www.afl.com.au/news/1536299/big-freeze-2026-all-the-sliders-the-best-costumes-donate-now-to-support-the-fightmnd-campaign",
+      "https://demonland.com/",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Melbourne supporters use for themselves",
+      "lingo: 'Redlegs' said to come from red socks; origin not double-checked"
+    ]
+  },
+  {
+    "team": "North Melbourne",
+    "espnId": "5",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["north melbourne", "north", "kangaroos", "roos", "the roos", "shinboners", "nmfc"],
+    "nickname": "the Roos",
+    "fans": "",
+    "ground": "Marvel Stadium (Arden Street is the base)",
+    "rivals": [
+      {"team": "Essendon", "name": "the Bombers", "derby": ""},
+      {"team": "Carlton", "name": "the Blues", "derby": ""},
+      {"team": "Hawthorn", "name": "the Hawks", "derby": ""}
+    ],
+    "legends": ["Glenn Archer", "Keith Greig", "Brent Harvey", "Malcolm Blight"],
+    "memory": "1975: the club's first VFL premiership, 50 years after joining the league",
+    "lingo": [
+      {"term": "North", "say": "NORTH", "ipa": "", "tts": "", "means": "What most fans call the club."},
+      {"term": "the Shinboners", "say": "the SHIN-boh-nerz", "ipa": "ðə ˈʃɪnbəʊnəz", "tts": "", "means": "An unofficial old nickname, said to come from the area's abattoirs. Fans wear it with pride."},
+      {"term": "Shinboner spirit", "say": "SHIN-boh-ner SPIR-it", "ipa": "ˈʃɪnbəʊnə ˈspɪɹɪt", "tts": "", "means": "Fighting against the odds without asking for handouts. Glenn Archer was named Shinboner of the Century."},
+      {"term": "Arden Street", "say": "AR-dn street", "ipa": "ˌɑːdən ˈstɹiːt", "tts": "", "means": "The home oval since 1882, now the training base and home of the women's side."},
+      {"term": "Boomer", "say": "BOO-mer", "ipa": "ˈbuːmə", "tts": "", "means": "Brent Harvey, who played a record 432 games."},
+      {"term": "the Kangas", "say": "the KANG-guz", "ipa": "ðə ˈkæŋɡəz", "tts": "", "means": "Another casual name for the Kangaroos."}
+    ],
+    "lines": [
+      {"t": "Carn the Roos!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Shinboner spirit. We don't give up.", "m": "The club's idea of itself.", "when": "any"},
+      {"t": "North since 1869, mate.", "m": "The club is older than most in the league.", "when": "any"},
+      {"t": "Four flags, and two of them in the nineties.", "m": "1996 and 1999 were the glory years.", "when": "any"},
+      {"t": "Beat the Bombers and that's my week made.", "m": "The old neighbourhood rivalry.", "when": "rival"},
+      {"t": "That's the Shinboner spirit!", "m": "After a gutsy win.", "when": "win"},
+      {"t": "Long road back, but we're getting there.", "m": "Patience after a loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "Join in the Chorus", "means": "The club song, set to an old Scottish tune and belted out after every win."},
+      {"name": "The Bounding Roo", "means": "The old kangaroo guernsey design, brought back in 2016 and 2019 and still a fan favourite."}
+    ],
+    "sore": [
+      {"topic": "Relocation talk", "why": "The club nearly moved to the Gold Coast in 2007, and fans have heard 'move or merge' for decades."},
+      {"topic": "The Kangaroos years", "why": "From 1999 to 2007 the club dropped 'North Melbourne' from its name. Fans were glad to get it back."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Kangaroos", "instead": "North", "why": "The 1999-2007 rebrand never stuck; fans say North or the Roos."},
+      {"say": "Melbourne", "instead": "North", "why": "Melbourne is a different club, and North fans hate the mix-up."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_Melbourne_Football_Club",
+      "https://en.wikipedia.org/wiki/Brent_Harvey",
+      "https://en.wikipedia.org/wiki/Glenn_Archer",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that North supporters use for themselves",
+      "ground: the club also plays some home games in Western Australia (Optus Stadium and Bunbury) under a deal from 2025; not listed"
+    ]
+  },
+  {
+    "team": "Port Adelaide",
+    "espnId": "7",
+    "league": "australian-football/afl",
+    "region": "au-adelaide",
+    "aliases": ["port adelaide", "port", "power", "the power", "port power", "pafc"],
+    "nickname": "Port",
+    "fans": "",
+    "ground": "Adelaide Oval (Alberton Oval is the base)",
+    "rivals": [
+      {"team": "Adelaide Crows", "name": "the Crows", "derby": "the Showdown"},
+      {"team": "Collingwood", "name": "the Pies", "derby": ""}
+    ],
+    "legends": ["Russell Ebert", "Gavin Wanganeen", "Warren Tredrea", "Fos Williams"],
+    "memory": "2004: Port's only AFL premiership, beating Brisbane by 40 points to stop the Lions' fourth flag in a row",
+    "lingo": [
+      {"term": "Port", "say": "PORT", "ipa": "", "tts": "", "means": "What everyone in Adelaide calls the club."},
+      {"term": "the prison bars", "say": "the PRIZ-un BARZ", "ipa": "", "tts": "", "means": "The black-and-white striped guernsey. It began as a jibe from Norwood fans; Port fans took it up with pride."},
+      {"term": "Alberton", "say": "AL-ber-tun", "ipa": "ˈælbətən", "tts": "", "means": "Alberton Oval, the club's home since 1880 and still its base."},
+      {"term": "the Magpies", "say": "the MAG-pize", "ipa": "", "tts": "", "means": "Port's SANFL side, carrying the club's original identity."},
+      {"term": "We exist to win premierships", "say": "wee ig-ZIST to win prem-EER-ships", "ipa": "", "tts": "", "means": "The club's long-standing mantra. It hangs in the boardroom."},
+      {"term": "the Showdown", "say": "the SHOH-down", "ipa": "", "tts": "", "means": "The derby against the Crows, twice a season at Adelaide Oval."}
+    ],
+    "lines": [
+      {"t": "Come on, Port!", "m": "The standard cheer.", "when": "any"},
+      {"t": "We exist to win premierships.", "m": "The club mantra, said with a straight face.", "when": "any"},
+      {"t": "Thirty-six SANFL flags. Don't talk to me about history.", "m": "Port fans' trump card in any argument.", "when": "any"},
+      {"t": "Since 1870. The Crows came along in 1991.", "m": "The standard dig at the younger club.", "when": "rival"},
+      {"t": "Prison bars on for the Showdown.", "m": "Port wear the old striped guernsey in their home Showdowns.", "when": "rival"},
+      {"t": "That's proper Port footy.", "m": "After a hard, physical win.", "when": "win"},
+      {"t": "Same old Port in September.", "m": "A self-mocking line about finals letdowns.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "Never Tear Us Apart", "means": "Before Showdowns and big home games, fans hold their scarves overhead while the INXS song plays. A habit since 2014."},
+      {"name": "Power to Win", "means": "The AFL side's club song; the SANFL Magpies keep their own."},
+      {"name": "The number one guernsey", "means": "Port's captain wears number one, a tradition going back to 1924."}
+    ],
+    "sore": [
+      {"topic": "The 2007 grand final", "why": "Lost to Geelong by 119 points, the biggest grand final margin."},
+      {"topic": "The chokers tag", "why": "Before 2004 Port kept falling short in finals, and the press called them chokers."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Port Power", "instead": "Port", "why": "Locals just say Port."},
+      {"say": "Port are a new club", "instead": "Port go back to 1870", "why": "Only the AFL side is young. The club is far older than the Crows."},
+      {"say": "the Adelaide derby", "instead": "the Showdown", "why": "The Port-Crows game has its own name."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Port_Adelaide_Football_Club",
+      "https://www.sen.com.au/news/2020/05/10/we-exist-to-win-premierships-the-port-adelaide-mantra-that-lives-on",
+      "https://www.sen.com.au/news/2026/04/24/afl-2026-tom-morris-story-time-port-adelaide-the-story-behind-never-tear-us-apart",
+      "https://portadelaidefc.com.au/news/831320/farriss-proud-that-never-tear-us-apart-is-now-part-of-australian-culture",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Port supporters use for themselves"
+    ]
+  },
+  {
+    "team": "Richmond",
+    "espnId": "12",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["richmond", "tigers", "the tigers", "tiges", "richmond tigers"],
+    "nickname": "the Tigers",
+    "fans": "the Tiger Army",
+    "ground": "the MCG (Punt Road Oval is the base)",
+    "rivals": [
+      {"team": "Collingwood", "name": "the Pies", "derby": ""},
+      {"team": "Carlton", "name": "the Blues", "derby": ""},
+      {"team": "Essendon", "name": "the Bombers", "derby": "Dreamtime at the 'G"}
+    ],
+    "legends": ["Jack Dyer", "Kevin Bartlett", "Royce Hart", "Matthew Richardson"],
+    "memory": "2017: the first flag in 37 years, then two more in 2019 and 2020",
+    "lingo": [
+      {"term": "the Tiges", "say": "the TYGZ", "ipa": "ðə ˈtaɪɡz", "tts": "the tyegs", "means": "Short for the Tigers. Fans say it all the time."},
+      {"term": "Tigerland", "say": "TY-ger-land", "ipa": "ˈtaɪɡəlænd", "tts": "", "means": "Richmond the suburb, the club and everything around it."},
+      {"term": "the Tiger Army", "say": "the TY-ger AR-mee", "ipa": "", "tts": "", "means": "The fans. The club has topped 100,000 members in a season."},
+      {"term": "Punt Road", "say": "PUNT rohd", "ipa": "", "tts": "", "means": "Punt Road Oval, the home ground until 1964 and still the club's base."},
+      {"term": "Captain Blood", "say": "KAP-tin BLUD", "ipa": "", "tts": "", "means": "Jack Dyer, the club's hard man of the 1930s and 40s."},
+      {"term": "Richo", "say": "RICH-oh", "ipa": "ˈɹɪtʃəʊ", "tts": "", "means": "Matthew Richardson, the much-loved forward of the lean years."}
+    ],
+    "lines": [
+      {"t": "Carn the Tiges!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Thirty-seven years we waited. Worth every one.", "m": "The gap between the 1980 and 2017 flags.", "when": "any"},
+      {"t": "Three flags in four years. Not bad for a club that kept finishing ninth.", "m": "Turning an old joke around.", "when": "any"},
+      {"t": "Nothing better than beating Collingwood.", "m": "The neighbouring rivals.", "when": "rival"},
+      {"t": "Dreamtime against the Bombers. Best night of the year.", "m": "The annual Indigenous round match.", "when": "rival"},
+      {"t": "Tigerland's roaring tonight.", "m": "After a good win.", "when": "win"},
+      {"t": "Rebuild. We've been here before.", "m": "Patience after a loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "We're from Tigerland", "means": "The club song, set to 'Row, Row, Row'. A full MCG roaring it after a win is a Richmond highlight."},
+      {"name": "Dreamtime at the 'G", "means": "The Indigenous round match against Essendon, played every year since 2005."}
+    ],
+    "sore": [
+      {"topic": "Finishing ninth", "why": "From the mid-1990s to 2008 the Tigers kept finishing just outside the eight, and rival fans called them 'Ninthmond'."},
+      {"topic": "The 2024 wooden spoon", "why": "Last in 2024, four years after the 2020 flag, and near the bottom since."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Wests Tigers", "instead": "Richmond", "why": "Wests Tigers are a Sydney rugby league club."},
+      {"say": "Punt Road is their stadium", "instead": "they play at the 'G", "why": "Punt Road is the base; home games are at the MCG."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richmond_Football_Club",
+      "https://www.richmondfc.com.au/news/1386174/100000-strong-six-years-in-a-row",
+      "https://www.theroar.com.au/2017/03/23/tigers-destined-finish-ninth/amp/",
+      "https://www.tigertigerburningbright.com.au/an-ignominy-of-defeats/",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "St Kilda",
+    "espnId": "18",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["st kilda", "saint kilda", "saints", "the saints", "st kilda saints", "stk"],
+    "nickname": "the Saints",
+    "fans": "",
+    "ground": "Marvel Stadium (the club is based at Moorabbin)",
+    "rivals": [
+      {"team": "Collingwood", "name": "the Pies", "derby": ""},
+      {"team": "Geelong Cats", "name": "the Cats", "derby": ""},
+      {"team": "Sydney Swans", "name": "the Swans", "derby": ""}
+    ],
+    "legends": ["Tony Lockett", "Nick Riewoldt", "Darrel Baldock", "Trevor Barker"],
+    "memory": "1966: the club's only premiership, by a single point against Collingwood",
+    "lingo": [
+      {"term": "the Saints", "say": "the SAYNTS", "ipa": "", "tts": "", "means": "The club nickname."},
+      {"term": "Sainters", "say": "SAYN-terz", "ipa": "ˈseɪntəz", "tts": "", "means": "A casual name for the team, as in 'Go Sainters!'"},
+      {"term": "Plugger", "say": "PLUG-er", "ipa": "ˈplʌɡə", "tts": "", "means": "Tony Lockett, the league's all-time leading goalkicker, who started at St Kilda."},
+      {"term": "the Junction", "say": "the JUNK-shun", "ipa": "", "tts": "", "means": "Junction Oval, the home ground from 1897 to 1964."},
+      {"term": "Strength through loyalty", "say": "STRENGTH throo LOY-ul-tee", "ipa": "", "tts": "", "means": "The club motto in English (Fortius Quo Fidelius). Saints fans feel they've earned it."}
+    ],
+    "lines": [
+      {"t": "Up the Saints!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "One flag, and we'll never stop talking about it.", "m": "The 1966 premiership.", "when": "any"},
+      {"t": "Most loyal fans in the league. We have to be.", "m": "A wry line about the long wait.", "when": "any"},
+      {"t": "Beating the Pies is always sweet.", "m": "A nod to 1966, and a dig about 2010.", "when": "rival"},
+      {"t": "That's the Saints we've been waiting for.", "m": "After a good win.", "when": "win"},
+      {"t": "Don't talk to me about 2010.", "m": "The drawn grand final and the lost replay.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "When the Saints Go Marching In", "means": "The club song, adapted from the old jazz tune. Before 1965 it was 'I Do Like to Be Beside the Seaside'."},
+      {"name": "Moorabbin", "means": "The home ground from 1965 to 1992. The club moved back there as its base in 2018."}
+    ],
+    "sore": [
+      {"topic": "One premiership", "why": "Only one flag in well over a century, and fans have heard every joke about it."},
+      {"topic": "The 2009 and 2010 grand finals", "why": "Lost to Geelong in 2009, then drew with Collingwood in 2010 and lost the replay by 56."}
+    ],
+    "pronounce": [
+      {"word": "Riewoldt", "say": "REE-volt", "ipa": "ˈɹiːvəʊlt", "tts": "ree volt", "why": "Nick Riewoldt, the club's modern great. The 'w' is a 'v' and the 'ie' says EE."}
+    ],
+    "avoid": [
+      {"say": "Moorabbin is their ground", "instead": "home games are at Marvel", "why": "Moorabbin stopped hosting AFL games after 1992."},
+      {"say": "REE-wold", "instead": "REE-volt", "why": "Saints fans say the name the German way."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St_Kilda_Football_Club",
+      "https://en.wikipedia.org/wiki/Nick_Riewoldt",
+      "https://en.wikipedia.org/wiki/Tony_Lockett",
+      "https://saints.com.au/news/102172/saints-v-swans-the-lakeside-rivalry",
+      "https://www.footyalmanac.com.au/yoshis-definition-of-rivalry/",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Saints supporters use for themselves",
+      "rivals: no single recognised rival; listed from grand finals (Collingwood 1966 and 2010, Geelong 2009) and the old South Melbourne neighbours"
+    ]
+  },
+  {
+    "team": "Sydney Swans",
+    "espnId": "4",
+    "league": "australian-football/afl",
+    "region": "au-sydney",
+    "aliases": ["sydney", "swans", "the swans", "sydney swans", "swannies", "bloods", "south melbourne"],
+    "nickname": "the Swans",
+    "fans": "",
+    "ground": "the SCG",
+    "rivals": [
+      {"team": "GWS Giants", "name": "the Giants", "derby": "the Sydney Derby"},
+      {"team": "Hawthorn", "name": "the Hawks", "derby": ""},
+      {"team": "West Coast Eagles", "name": "the Eagles", "derby": ""}
+    ],
+    "legends": ["Bob Skilton", "Paul Kelly", "Michael O'Loughlin", "Adam Goodes"],
+    "memory": "2005: the first flag in 72 years, sealed by Leo Barry's mark in the last seconds against West Coast",
+    "lingo": [
+      {"term": "the Bloods", "say": "the BLUDZ", "ipa": "", "tts": "", "means": "South Melbourne's old nickname, from the red on the guernsey. Now also the name of the club's team-first culture."},
+      {"term": "Swannies", "say": "SWON-eez", "ipa": "ˈswɒniz", "tts": "", "means": "A casual name for the team."},
+      {"term": "South", "say": "SOWTH", "ipa": "", "tts": "", "means": "South Melbourne, the club's name until the move to Sydney in 1982. Old Melbourne fans still say South."},
+      {"term": "Lakeside", "say": "LAYK-side", "ipa": "", "tts": "", "means": "Lakeside Oval in Albert Park, the home ground in the South Melbourne days."},
+      {"term": "the SCG", "say": "the ess-see-JEE", "ipa": "", "tts": "", "means": "The Sydney Cricket Ground, home since 1982."},
+      {"term": "Leo Barry's mark", "say": "LEE-oh BARR-eez MARK", "ipa": "", "tts": "", "means": "The pack mark in the dying seconds of the 2005 grand final that sealed the flag."}
+    ],
+    "lines": [
+      {"t": "Up the Bloods!", "m": "The classic cheer.", "when": "any"},
+      {"t": "Go Swannies!", "m": "A lighter everyday cheer.", "when": "any"},
+      {"t": "Seventy-two years, then Leo Barry took the mark.", "m": "The 2005 flag.", "when": "any"},
+      {"t": "Derby week. Sydney's always been a Swans town.", "m": "A dig at the Giants.", "when": "rival"},
+      {"t": "That's Bloods footy. Everyone works.", "m": "After a hard-fought win.", "when": "win"},
+      {"t": "Grand finals have been cruel to us lately.", "m": "The heavy losses in 2022 and 2024.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "The Red and the White", "means": "The club song, set to the Notre Dame Victory March."},
+      {"name": "The Bloods culture", "means": "A code of hard work and team-first footy that the playing group took up in the early 2000s. Players and fans talk about it constantly."}
+    ],
+    "sore": [
+      {"topic": "Recent grand finals", "why": "Beaten by 81 points by Geelong in 2022 and by 60 by Brisbane in 2024."},
+      {"topic": "Leaving South Melbourne", "why": "Some old South fans never forgave the 1982 move north."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Sydney FC", "instead": "the Swans", "why": "Sydney FC is the soccer club."},
+      {"say": "the Swans have always been a Sydney club", "instead": "the Swans began as South Melbourne", "why": "The club moved north in 1982."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sydney_Swans",
+      "https://www.aflplayers.com.au/news-feed/stories/how-sydney-swans-built-the-bloods-culture",
+      "https://www.sydneyswans.com.au/news/1064342/gowans-excited-by-bloods-culture",
+      "https://www.footyalmanac.com.au/round-13-richmond-v-sydney-our-bloods-our-culture/",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: 'Swannies' is used for both team and fans; found no other settled supporters' name"
+    ]
+  },
+  {
+    "team": "West Coast Eagles",
+    "espnId": "3",
+    "league": "australian-football/afl",
+    "region": "au-perth",
+    "aliases": ["west coast", "eagles", "the eagles", "west coast eagles", "wce"],
+    "nickname": "the Eagles",
+    "fans": "",
+    "ground": "Optus Stadium (Subiaco was home until 2017)",
+    "rivals": [
+      {"team": "Fremantle", "name": "Freo", "derby": "the Western Derby"},
+      {"team": "Collingwood", "name": "the Pies", "derby": ""},
+      {"team": "Sydney Swans", "name": "the Swans", "derby": ""}
+    ],
+    "legends": ["Glen Jakovich", "Peter Matera", "John Worsfold", "Shannon Hurn"],
+    "memory": "1992: the first premiership won by a club from outside Victoria",
+    "lingo": [
+      {"term": "Subi", "say": "SOO-bee", "ipa": "ˈsuːbi", "tts": "soo bee", "means": "Subiaco Oval, the home ground from 1987 to 2017. Still a fond memory."},
+      {"term": "the Western Derby", "say": "the WES-tern DAR-bee", "ipa": "ðə ˌwɛstən ˈdɑːbi", "tts": "the western darby", "means": "The Eagles against Freo, twice a season at Optus Stadium."},
+      {"term": "Auzzie", "say": "OZ-ee", "ipa": "ˈɒzi", "tts": "ozzie", "means": "The real wedge-tailed eagle that flies around the ground before home games."},
+      {"term": "Rick the Rock", "say": "RIK the ROK", "ipa": "", "tts": "", "means": "The club mascot since 2003."},
+      {"term": "Jacko", "say": "JAK-oh", "ipa": "ˈdʒækəʊ", "tts": "", "means": "Glen Jakovich, the great centre half-back of the 1990s flags."}
+    ],
+    "lines": [
+      {"t": "Go Eagles!", "m": "The standard cheer.", "when": "any"},
+      {"t": "First club outside Victoria to win a flag. Never forget it.", "m": "The 1992 premiership.", "when": "any"},
+      {"t": "Miss Subi, but Optus on a big night is something else.", "m": "Old ground, new ground.", "when": "any"},
+      {"t": "Four flags. Freo are still waiting on one.", "m": "The standard derby dig.", "when": "rival"},
+      {"t": "Derby week. The whole state picks a side.", "m": "The Western Derby splits Perth.", "when": "rival"},
+      {"t": "Eagle Rock tonight!", "m": "The song played after home wins.", "when": "win"},
+      {"t": "Long way back. We've been here before.", "m": "Patience after a loss.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "Eagle Rock", "means": "Daddy Cool's 'Eagle Rock' blasts around the ground after every home win."},
+      {"name": "We're Flying High", "means": "The original club song came back in 2025 after nearly 90 per cent of members voted for it."}
+    ],
+    "sore": [
+      {"topic": "The wooden spoons", "why": "Last in 2023 and again in 2025, a hard fall after the 2018 flag."},
+      {"topic": "The 2005 grand final", "why": "Lost to Sydney by four points after Leo Barry's last-second mark."}
+    ],
+    "pronounce": [
+      {"word": "Subiaco", "say": "soo-bee-AK-oh", "ipa": "ˌsuːbiˈækəʊ", "tts": "soo bee acko", "why": "The suburb of the old ground. The stress is on AK."}
+    ],
+    "avoid": [
+      {"say": "Subiaco Oval", "instead": "Optus", "why": "The Eagles left Subi after 2017."},
+      {"say": "the Perth derby", "instead": "the Western Derby", "why": "The Eagles-Freo game has its own name."},
+      {"say": "soo-bee-AH-ko", "instead": "soo-bee-AK-oh", "why": "Locals stress AK with a short 'a'."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/West_Coast_Eagles",
+      "https://westcoasteagles.com.au/news/1733360/eagles-flying-high-with-return-of-iconic-club-song",
+      "https://en.wikipedia.org/wiki/Subiaco,_Western_Australia",
+      "https://en.wikipedia.org/wiki/Glen_Jakovich",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Eagles supporters use for themselves",
+      "lingo: 'Weagles' turns up as a nickname but I could not confirm whether fans use it or only rivals, so it's left out"
+    ]
+  },
+  {
+    "team": "Western Bulldogs",
+    "espnId": "6",
+    "league": "australian-football/afl",
+    "region": "au-melbourne",
+    "aliases": ["western bulldogs", "bulldogs", "doggies", "the doggies", "dogs", "the dogs", "footscray"],
+    "nickname": "the Doggies",
+    "fans": "",
+    "ground": "Marvel Stadium (Whitten Oval, 'the Kennel', is the base; a few games a year in Ballarat)",
+    "rivals": [
+      {"team": "Essendon", "name": "the Bombers", "derby": ""},
+      {"team": "GWS Giants", "name": "the Giants", "derby": ""}
+    ],
+    "legends": ["Ted Whitten", "Doug Hawkins", "Chris Grant", "Brad Johnson"],
+    "memory": "2016: premiers from seventh on the ladder, ending a 62-year wait",
+    "lingo": [
+      {"term": "the Doggies", "say": "the DOG-eez", "ipa": "ðə ˈdɒɡiz", "tts": "", "means": "The most common name for the club, used with real affection."},
+      {"term": "Footscray", "say": "FUUT-skray", "ipa": "ˈfʊtskɹeɪ", "tts": "", "means": "The suburb, and the club's name until 1997. Plenty of fans still call the club Footscray."},
+      {"term": "the 'Scray", "say": "the SKRAY", "ipa": "ðə ˈskɹeɪ", "tts": "", "means": "Short for Footscray."},
+      {"term": "the Kennel", "say": "the KEN-ul", "ipa": "", "tts": "", "means": "Whitten Oval, the old home ground in Footscray and now the club's base."},
+      {"term": "Mr Football", "say": "MIS-ter FUT-bawl", "ipa": "", "tts": "", "means": "Ted Whitten, the club's greatest. The oval is named after him."},
+      {"term": "the Fightback", "say": "the FYTE-bak", "ipa": "", "tts": "", "means": "The 1989 fans' campaign that raised the money to stop a merger with Fitzroy."}
+    ],
+    "lines": [
+      {"t": "Go Doggies!", "m": "The all-purpose cheer.", "when": "any"},
+      {"t": "Sixty-two years, then 2016. Worth the wait.", "m": "The gap between the 1954 and 2016 flags.", "when": "any"},
+      {"t": "We saved this club ourselves in '89.", "m": "The Fightback.", "when": "any"},
+      {"t": "The 'Scray will always be home.", "m": "Fans' attachment to Footscray.", "when": "any"},
+      {"t": "The Giants still haven't got over 2016.", "m": "The six-point preliminary final win on the way to the flag.", "when": "rival"},
+      {"t": "That's the Doggies!", "m": "After a good win.", "when": "win"},
+      {"t": "Prelims have broken our hearts before.", "m": "A long history of near misses.", "when": "loss"}
+    ],
+    "traditions": [
+      {"name": "Sons of the West", "means": "The club song, to the tune of 'Sons of the Sea'. The older version was 'Sons of the 'Scray'."},
+      {"name": "Caesar", "means": "A real bulldog walks the ground before home games."}
+    ],
+    "sore": [
+      {"topic": "Preliminary finals", "why": "Lost by two points to Adelaide in 1997, then three in a row from 2008 to 2010."},
+      {"topic": "The 2021 grand final", "why": "Lost to Melbourne by 74 points in Perth."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Canterbury Bulldogs", "instead": "the Doggies", "why": "Canterbury are a Sydney rugby league club."},
+      {"say": "the Bulldogs from Western Sydney", "instead": "the Doggies from Footscray", "why": "The 'Western' means Melbourne's west."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Western_Bulldogs",
+      "https://en.wikipedia.org/wiki/Ted_Whitten",
+      "https://en.wikipedia.org/wiki/Footscray,_Victoria",
+      "https://www.westernbulldogs.com.au/news/244375/the-fightback-30-moment-9",
+      "https://www.afl.com.au/news/42883/garlick-remembers-fairytale",
+      "https://en.wikipedia.org/wiki/List_of_Australian_Football_League_team_songs"
+    ],
+    "unsure": [
+      "fans: found no settled name that Bulldogs supporters use for themselves",
+      "rivals: no single recognised rival; Essendon (neighbours) and GWS (since 2016) are the ones sources name"
+    ]
+  }
+]

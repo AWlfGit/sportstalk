@@ -1,0 +1,158 @@
+[
+  {
+    "id": "nz-auckland",
+    "name": "Auckland",
+    "covers": "Auckland (Tāmaki Makaurau): Auckland FC, the Blues and the Warriors",
+    "dialect": "New Zealand English, with te reo Māori and the Pasifika languages of Auckland's Samoan, Tongan and Cook Islands families",
+    "words": [
+      {"term": "JAFA", "say": "JAF-uh", "ipa": "ˈdʒæfə", "tts": "jaffa", "means": "What the rest of New Zealand calls an Aucklander. The letters stand for a rude phrase, so it's a dig; plenty of Aucklanders now wear it with pride anyway.", "use": "Yeah, I'm a JAFA. Born and raised in Ōtāhuhu.", "common": true},
+      {"term": "the Big Smoke", "say": "the BIG smoke", "ipa": "", "tts": "", "means": "Auckland: the big, busy city, as the rest of the country calls it.", "use": "Everyone comes up to the Big Smoke for the big games.", "common": true},
+      {"term": "the Bombays", "say": "the BOM-bayz", "ipa": "", "tts": "", "means": "The Bombay Hills, Auckland's southern edge. 'South of the Bombays' means the rest of the country; the old joke is that Aucklanders think New Zealand stops there.", "use": "Haven't been south of the Bombays since Christmas.", "common": true},
+      {"term": "the Bridge", "say": "the BRIDGE", "ipa": "", "tts": "", "means": "The Auckland Harbour Bridge to the North Shore, and the city's best-known traffic jam.", "use": "Bridge was chocka. Missed the first ten minutes.", "common": true},
+      {"term": "the Shore", "say": "the SHORE", "ipa": "", "tts": "", "means": "The North Shore, across the harbour from the city. Home of North Harbour rugby and its stadium in Albany.", "use": "He's a Shore boy. Came up through North Harbour.", "common": true},
+      {"term": "uce", "say": "OOSE", "ipa": "uːs", "tts": "oos", "means": "Bro, mate. Short for the Samoan 'uso', what a man calls his brother or a woman her sister. Heard well beyond Samoan families.", "use": "Good game, uce. See you Saturday.", "common": true},
+      {"term": "talofa", "say": "tah-LOH-fah", "ipa": "taˈlofa", "tts": "", "means": "Hello in Samoan; 'talofa lava' is warmer. Samoans are Auckland's biggest Pacific community.", "use": "Talofa, everyone. Massive crowd tonight.", "common": true},
+      {"term": "mālō e lelei", "say": "MAH-loh eh leh-LAY", "ipa": "maːˈloː e leˈlei", "tts": "mah low eh leh lay", "means": "Hello in Tongan, the everyday greeting. You'll hear it all over South Auckland when Tonga play league.", "use": "Mālō e lelei! You watching Tonga tonight?", "common": true},
+      {"term": "fa'afetai", "say": "fah-ah-feh-TIE", "ipa": "faʔafeˈtaɪ", "tts": "fah ah feh tie", "means": "Thank you in Samoan.", "use": "Fa'afetai for the lift out to Mt Smart.", "common": false},
+      {"term": "kai", "say": "KYE", "ipa": "kaɪ", "tts": "", "means": "Food, a meal. Te reo Māori that every Aucklander uses.", "use": "Grab some kai on the way to Eden Park?", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Tāmaki Makaurau", "say": "TAH-mah-kee MAH-kow-row", "ipa": "ˈtaːmaki ˈmakaʊɾaʊ", "tts": "tah mah key mah cow rao", "why": "Auckland's te reo name, often just 'Tāmaki'. Used by the council and on air every day. The 'au' sounds like 'ow' in 'cow'."},
+      {"word": "Waitematā", "say": "why-teh-mah-TAH", "ipa": "ˌwaɪtɛmaˈtaː", "tts": "why teh mah tah", "why": "The city's harbour, and since 2025 the name of the main train station (it was Britomart), where fans change trains for Eden Park. Not 'WAIT-uh-matter'."},
+      {"word": "Ōtāhuhu", "say": "aw-TAH-hoo-hoo", "ipa": "ɔːˈtaːhuhu", "tts": "aw tah hoo hoo", "why": "South Auckland suburb where Tonga's league fans took over the streets during the 2017 World Cup. Every vowel is pure."},
+      {"word": "Manukau", "say": "MAH-noo-kow", "ipa": "ˈmanukaʊ", "tts": "manu cow", "why": "The southern harbour, South Auckland's centre, and half of Counties Manukau's name. Older locals say 'MAN-uh-koh'; the te reo way is now the norm on air."}
+    ],
+    "lines": [
+      {"t": "Train to Kingsland. Never drive to Eden Park.", "m": "Parking near the ground is hopeless, and a match ticket usually covers the train or bus."},
+      {"t": "Sat on the motorway an hour and still missed kick-off.", "m": "Traffic is Auckland's favourite moan, before and after every big game."},
+      {"t": "Sixty-one Shield defences. Nobody's touched that.", "m": "Auckland held the Ranfurly Shield from 1985 to 1993, a record 61 defences, after taking it off Canterbury in the 'Match of the Century'."},
+      {"t": "Muggy as tonight. Shirt's soaked before kick-off.", "m": "Auckland's weather moan is the damp, sticky heat, not wind or cold."},
+      {"t": "Call us JAFAs all you like. You still come up for the big games.", "m": "Aucklanders shrug off the jibe: the biggest tests and finals usually end up here."}
+    ],
+    "avoid": [
+      {"say": "Auckland's the capital", "instead": "Wellington's the capital; Auckland is just the biggest city", "why": "A classic visitor slip. Aucklanders shrug, but anyone from Wellington will correct you."},
+      {"say": "calling an Aucklander a JAFA when you've just met", "instead": "Aucklander", "why": "The letters stand for something rude. From a Kiwi mate it's banter; from a stranger it's an insult."},
+      {"say": "all the Pacific Island fans are Samoan", "instead": "Samoan, Tongan, Cook Islands, Niuean, Fijian and more", "why": "Auckland's Pacific communities are distinct, each with its own language and flag, and they notice."}
+    ],
+    "habits": ["Eden Park nights mean the train to Kingsland or Morningside, a drink on Kingsland's main street, then a short walk to the ground.", "When Tonga or Samoa play league, South Auckland fills with flags on cars and street parties, as in Ōtāhuhu during the 2017 World Cup.", "Locals still say 'Mt Smart' for Go Media Stadium in Penrose, home of the Warriors and Auckland FC."],
+    "sources": ["https://en.wikipedia.org/wiki/Jafa", "https://en.wiktionary.org/wiki/JAFA", "https://en.wikipedia.org/wiki/List_of_city_and_town_nicknames_in_New_Zealand", "https://en.wikipedia.org/wiki/Bombay_Hills", "https://metromag.co.nz/society/society-etc/lani-writes-the-origins-of-poly-slang", "https://en.wiktionary.org/wiki/uce", "https://en.wiktionary.org/wiki/talofa", "https://en.wiktionary.org/wiki/fa%27afetai", "https://www.mpp.govt.nz/assets/2026-pacific-language-week-assets/Tonga-Language-Week/Tongan-language-guide-2026.pdf", "https://pmn.co.nz/read/language-and-culture/does-pacific-just-mean-samoan-in-new-zealand", "https://maoridictionary.co.nz/search?keywords=kai", "https://maoridictionary.co.nz/search?keywords=T%C4%81maki+Makaurau", "https://at.govt.nz/about-us/news-events/media-centre/2025-media-releases/haere-ra-britomart-kia-ora-waitemata-station", "https://www.1news.co.nz/2017/10/29/watch-proud-tonga-supporters-flood-south-auckland-streets-in-rowdy-celebrations-after-mate-maas-massive-opening-win", "https://www.1news.co.nz/2026/10/11/eden-park-trains-need-urgent-attention-after-abs-match-delays/", "https://en.wikipedia.org/wiki/Ranfurly_Shield", "https://en.wikipedia.org/wiki/Mount_Smart_Stadium"],
+    "unsure": ["words: 'uce' rests on Metro (an Auckland magazine) and Wiktionary, which calls it chiefly Samoan-American; 'sole' (another Pasifika 'bro') left out with no source.", "pronounce: Manukau is heard both ways ('MAN-uh-koh' and 'MAH-noo-kow'); no source says which locals now prefer. Stress in Tāmaki Makaurau and Ōtāhuhu follows te reo rules; Te Aka has audio but no IPA."]
+  },
+  {
+    "id": "nz-waikato",
+    "name": "Waikato and the Bay of Plenty",
+    "covers": "Hamilton, the Waikato and the Bay of Plenty: the Chiefs",
+    "dialect": "New Zealand English, with everyday te reo Māori (this is Waikato-Tainui country)",
+    "words": [
+      {"term": "Mooloo", "say": "MOO-loo", "ipa": "ˈmuːluː", "tts": "", "means": "Waikato rugby's cow mascot, named in a 1950s radio competition. Waikato fans are 'Mooloo men', and the word now covers anyone from the province.", "use": "Mooloo's out in force for the Shield game.", "common": true},
+      {"term": "cowbell", "say": "KOW-bel", "ipa": "", "tts": "", "means": "Rung by Waikato and Chiefs fans all game long, a nod to the province's dairy farms. Traditionally painted red, yellow and black.", "use": "Don't forget the cowbell. Home game Friday.", "common": true},
+      {"term": "the Tron", "say": "the TRON", "ipa": "ðə ˈtɹɒn", "tts": "", "means": "Hamilton. From the jokey 'Hamiltron'; locals use it fondly.", "use": "Back to the Tron after the game.", "common": true},
+      {"term": "Jafugee", "say": "jaf-yoo-JEE", "ipa": "ˌdʒæfjʊˈdʒiː", "tts": "", "means": "An Aucklander who has moved south to Hamilton or Tauranga for a cheaper house. A mild local grumble.", "use": "Half our street's Jafugees now.", "common": false},
+      {"term": "the Mount", "say": "the MOUNT", "ipa": "", "tts": "", "means": "Mount Maunganui, Tauranga's beach town, home of Bay Oval, where the Black Caps play in summer.", "use": "Cricket at the Mount this weekend. Bring a hat.", "common": true},
+      {"term": "taniwha", "say": "TAH-nee-fah", "ipa": "ˈtanifa", "tts": "tanny far", "means": "A powerful water guardian in Māori tradition, and also a word for a great chief. The Waikato proverb 'Waikato taniwha rau' (Waikato of a hundred taniwha, one at every bend) gives the Chiefs' haka its name.", "use": "Their number eight's a taniwha. Can't stop him.", "common": false},
+      {"term": "tūrangawaewae", "say": "TOO-rah-ngah-why-why", "ipa": "ˈtuːɾaŋaˌwaɪwaɪ", "tts": "too rung ah why why", "means": "A place to stand: where you belong. Te reo Māori; Tūrangawaewae is also the marae at Ngāruawāhia, home of the Māori King movement.", "use": "Hamilton's my tūrangawaewae. Chiefs till I go.", "common": false},
+      {"term": "hōhā", "say": "HAW-hah", "ipa": "ˈhɔːhaː", "tts": "", "means": "Fed up, annoyed, bored. Te reo Māori in everyday Kiwi use.", "use": "I'm hōhā with this ref.", "common": true},
+      {"term": "tautoko", "say": "TOW-taw-kaw", "ipa": "ˈtaʊtɔkɔ", "tts": "tow taw kaw", "means": "Support, agree. Te reo Māori; 'I tautoko that' means 'I second that'.", "use": "Start him at ten? I tautoko that.", "common": true},
+      {"term": "Fieldays", "say": "FEELD-dayz", "ipa": "ˈfiːldeɪz", "tts": "", "means": "The giant farming show at Mystery Creek near Hamilton every June. The whole region plans around it.", "use": "Can't make the game. I'm at Fieldays all week.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Kirikiriroa", "say": "KEE-ree-kee-ree-raw-ah", "ipa": "ˈkiɾikiɾiˌɾɔa", "tts": "key ree key ree raw ah", "why": "Hamilton's te reo name, used by the council, on signs and on air. Short, clean vowels throughout."},
+      {"word": "Waikato", "say": "WHY-kah-taw", "ipa": "ˈwaɪkatɔ", "tts": "why kah taw", "why": "The river, the region and the rugby side. Stress the first syllable; not 'why-KAH-toe'."},
+      {"word": "Ngāruawāhia", "say": "NGAH-roo-ah-wah-hee-ah", "ipa": "ˈŋaːɾuaˌwaːhia", "tts": "nga roo ah wah hee ah", "why": "Town just north of Hamilton, seat of the Māori King. Start with the 'ng' of 'singer'."},
+      {"word": "Whakatāne", "say": "fah-kah-TAH-neh", "ipa": "fakaˈtaːnɛ", "tts": "fah kah tah neh", "why": "Bay of Plenty town. The 'wh' is said 'f', and the final 'e' is sounded."},
+      {"word": "Mount Maunganui", "say": "mount MOWNG-ah-noo-ee", "ipa": "maʊnt ˈmaʊŋanui", "tts": "mount maung ah new ee", "why": "Tauranga's beach town and cricket ground. 'Mau' rhymes with 'cow'. Locals mostly just say 'the Mount'."}
+    ],
+    "lines": [
+      {"t": "Get the cowbells out. Chiefs at home Friday.", "m": "The bells ring all game at FMG Stadium Waikato in Hamilton."},
+      {"t": "We took the Shield off Auckland in '93. Ended their sixty-one.", "m": "Waikato ended Auckland's record Ranfurly Shield run in 1993, still a proud memory."},
+      {"t": "Aucklanders reckon the country stops at the Bombays.", "m": "The Bombay Hills split Auckland from the Waikato. A dig at Auckland's sense of itself."},
+      {"t": "Half of Tauranga's Jafugees now.", "m": "A mild grumble about Aucklanders moving south and pushing up house prices."},
+      {"t": "The Tron's underrated. Don't start.", "m": "Hamilton gets called boring; locals have heard that one plenty."}
+    ],
+    "avoid": [
+      {"say": "the Chiefs are Hamilton's team", "instead": "the Chiefs play for all of Chiefs Country", "why": "Their region runs from Thames Valley and Counties Manukau through the Waikato, Bay of Plenty and King Country to Taranaki."},
+      {"say": "Hamilton's boring", "instead": "the Tron", "why": "It's the oldest joke about the city, and locals will defend it."},
+      {"say": "calling Tauranga part of the Waikato", "instead": "the Bay of Plenty, or the Bay", "why": "The Bay is its own region with its own provincial side, the Steamers, even if both back the Chiefs."}
+    ],
+    "habits": ["Cowbells painted red, yellow and black ring through every Waikato and Chiefs home game. Some away grounds and finals have banned them, Wellington in 2015 and the 2025 final in Christchurch.", "Waikato fans travel in numbers for big games, a habit that goes back to the 'Mooloo express' that took thousands south for Shield matches.", "Summer cricket at Bay Oval in Mount Maunganui means a towel or camping chair on the grass banks."],
+    "sources": ["https://en.wikipedia.org/wiki/Waikato_Rugby_Union", "https://nzhistory.govt.nz/culture/regional-rugby/waikato", "https://teara.govt.nz/en/waikato-region/page-14", "https://www.rnz.co.nz/national/programmes/checkpoint/audio/2018991982/chiefs-fans-banned-from-bringing-cow-bells-to-super-rugby-final", "https://scoop.co.nz/stories/CU1505/S00580/over-150-fans-to-ring-cow-bell-app-at-chiefs-v-highlanders.htm", "https://en.wiktionary.org/wiki/Tron", "https://en.wikipedia.org/wiki/List_of_city_and_town_nicknames_in_New_Zealand", "https://en.wikipedia.org/wiki/Jafa", "https://www.nzherald.co.nz/bay-of-plenty-times/news/article.cfm?c_id=1503343&objectid=11948450", "https://nzherald.co.nz/nz/boring-hamilton-wish-you-were-here/YL35JFSVV7QZA7BT5NZXMU2ORY", "https://teara.govt.nz/en/taniwha/page-1", "https://www.chiefs.co.nz/chiefs-haka", "https://www.chiefs.co.nz/about", "https://maoridictionary.co.nz/search?keywords=taniwha", "https://maoridictionary.co.nz/search?keywords=t%C5%ABrangawaewae", "https://maoridictionary.co.nz/search?keywords=h%C5%8Dh%C4%81", "https://maoridictionary.co.nz/search?keywords=tautoko", "https://maoridictionary.co.nz/search?keywords=Kirikiriroa", "https://en.wiktionary.org/wiki/Kirikiriroa", "https://en.wiktionary.org/wiki/Ng%C4%81ruaw%C4%81hia", "https://en.wiktionary.org/wiki/Whakat%C4%81ne", "https://en.wikipedia.org/wiki/National_Agricultural_Fieldays", "https://www.nzherald.co.nz/bay-of-plenty-times/news/englands-barmy-army-gets-the-atmosphere-going-at-bay-oval-mount-maunganui/36TWNDQY3WKDA2SXC6P5RVHFDA", "https://en.wikipedia.org/wiki/Ranfurly_Shield"],
+    "unsure": ["lines: Hamilton's winter fog left out; only a blog and weather reports, nothing on locals moaning about it.", "words: 'Rugby Park' (the stadium's name until 1999) may still be what older fans say; not confirmed. 'tūrangawaewae' is confirmed in Te Aka and Wiktionary, but its use in sports talk wasn't checked in a fan source."]
+  },
+  {
+    "id": "nz-wellington",
+    "name": "Wellington",
+    "covers": "Wellington, the Hutt and Porirua: Wellington Phoenix and the Hurricanes",
+    "dialect": "New Zealand English, with everyday te reo Māori",
+    "words": [
+      {"term": "Welly", "say": "WEL-ee", "ipa": "ˈwɛli", "tts": "", "means": "Wellington, said fondly. 'Windy Welly' when it's blowing.", "use": "Welly on a still day. Nowhere better.", "common": true},
+      {"term": "southerly", "say": "SUTH-uh-lee", "ipa": "", "tts": "", "means": "The cold wind from the south. A 'southerly change' brings rain and a sudden chill, and Wellington is known for its winter southerly blasts.", "use": "Southerly's coming through by halftime. Bring a jacket.", "common": true},
+      {"term": "the Basin", "say": "the BAY-sin", "ipa": "", "tts": "", "means": "The Basin Reserve, Wellington's test cricket ground, with grass banks. It's also a giant traffic roundabout.", "use": "Day two at the Basin, anyone?", "common": true},
+      {"term": "the Hutt", "say": "the HUT", "ipa": "", "tts": "", "means": "The Hutt Valley, north-east of the city: Lower Hutt, Upper Hutt and Petone.", "use": "He's a Hutt boy. Played all his club rugby out there.", "common": true},
+      {"term": "mōrena", "say": "MAW-reh-nah", "ipa": "ˈmɔːɾɛna", "tts": "", "means": "Good morning. A te reo loanword heard on radio, in offices and around the capital's public service.", "use": "Mōrena! Big night at the Cake Tin?", "common": true},
+      {"term": "kōrero", "say": "KAW-reh-raw", "ipa": "ˈkɔːɾɛɾɔ", "tts": "kaw reh raw", "means": "Talk, discussion, the story. Te reo Māori; 'what's the kōrero?' asks for the latest.", "use": "What's the kōrero on the Canes' team this week?", "common": true},
+      {"term": "mahi", "say": "MAH-hee", "ipa": "ˈmahi", "tts": "", "means": "Work, effort. Te reo Māori now in everyday Kiwi English; 'good mahi' means 'well done'.", "use": "Good mahi from the forwards tonight.", "common": true},
+      {"term": "ka kite", "say": "kah KEE-teh", "ipa": "ka ˈkitɛ", "tts": "kah key teh", "means": "See you. The everyday short form of the te reo 'see you again'.", "use": "Ka kite, see you at the Basin.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Pōneke", "say": "PAW-neh-keh", "ipa": "ˈpɔːnɛkɛ", "tts": "paw neck eh", "why": "Wellington's everyday te reo name, a Māori form of 'Port Nick' (Port Nicholson). All three vowels are sounded."},
+      {"word": "Te Whanganui-a-Tara", "say": "teh FAH-ngah-noo-ee ah TAH-rah", "ipa": "tɛ ˈfaŋanui a ˈtaɾa", "tts": "teh fung a new ee ah tah rah", "why": "The older te reo name of the harbour and the city. The 'wh' is said 'f'."},
+      {"word": "Petone", "say": "puh-TOH-nee", "ipa": "pəˈtəʊni", "tts": "puh tony", "why": "Seaside suburb of Lower Hutt. Three syllables, stress in the middle; newcomers say 'PET-own'. Its te reo name is Pito-one."},
+      {"word": "Hnry Stadium", "say": "HEN-ree STAY-dee-um", "ipa": "ˈhɛnɹi ˈsteɪdiəm", "tts": "henry stadium", "why": "The Cake Tin's sponsor name since March 2026. 'Hnry' is said 'Henry'; most locals still just say the Cake Tin."}
+    ],
+    "lines": [
+      {"t": "You can't beat Wellington on a good day.", "m": "The city's own saying, delivered with a grin because good days are rare."},
+      {"t": "Southerly's coming through. Bring a proper jacket to the Basin.", "m": "A southerly change turns a warm cricket day cold in a hurry."},
+      {"t": "Train in, walk across the concourse, in your seat in five minutes.", "m": "The stadium sits right beside Wellington Railway Station."},
+      {"t": "Aucklanders can keep their motorways. We walk to the game.", "m": "Wellington is compact and proud of it; Auckland's traffic is the easy target."},
+      {"t": "It's the Cake Tin. I'm not calling it Hnry.", "m": "Renamed Hnry Stadium in 2026, after Westpac and Sky before it. The nickname outlasts every sponsor."}
+    ],
+    "avoid": [
+      {"say": "Sky Stadium, or Westpac Stadium", "instead": "Hnry Stadium, or just the Cake Tin", "why": "It was renamed on 1 March 2026. An old sponsor's name shows you're out of date."},
+      {"say": "opening with a joke about the wind", "instead": "'Not bad for Welly' on a calm day", "why": "Locals moan about the wind themselves, but they've heard every visitor's wind joke."},
+      {"say": "Lower Hutt and Upper Hutt are Wellington suburbs", "instead": "the Hutt", "why": "They're cities in their own right, and Hutt people will tell you so."}
+    ],
+    "habits": ["Fans ride the train in from the Hutt, Porirua and the Kāpiti Coast and walk straight from the station to the Cake Tin.", "Test cricket at the Basin Reserve means a rug on the grass banks while traffic circles the ground all day.", "Yellow and black on match days: the Hurricanes, the Phoenix and the Wellington Lions all wear it."],
+    "sources": ["https://en.wikipedia.org/wiki/Wellington_Regional_Stadium", "https://www.nzherald.co.nz/nz/wellington-regional-stadium-to-be-renamed-hnry-stadium-as-new-sponsor-signs-on/B3MJIJT4E5FIFI73TVFWDJC2CI/", "https://en.wikipedia.org/wiki/Basin_Reserve", "https://www.odt.co.nz/news/national/nz-roundabout-named-one-worlds-best", "https://en.wikipedia.org/wiki/Wellington", "https://en.wikipedia.org/wiki/List_of_city_and_town_nicknames_in_New_Zealand", "https://nzherald.co.nz/nz/a-capital-letter-im-sick-of-people-saying-wellington-is-dying/V25VNCH5FRHF5K6OGC2PVQMADU", "https://www.rova.nz/articles/science-worked-out-how-many-good-days-you-get-in-wellington-and-the-math-is-pretty-sad", "https://maoridictionary.co.nz/search?keywords=m%C5%8Drena", "https://maoridictionary.co.nz/search?keywords=k%C5%8Drero", "https://maoridictionary.co.nz/search?keywords=ka+kite", "https://maoridictionary.co.nz/search?keywords=P%C5%8Dneke", "https://en.wiktionary.org/wiki/mahi", "https://en.wiktionary.org/wiki/k%C5%8Drero", "https://en.wiktionary.org/wiki/P%C5%8Dneke", "https://en.wiktionary.org/wiki/Te_Whanganui-a-Tara", "https://en.wiktionary.org/wiki/Petone", "https://paperspast.natlib.govt.nz/newspapers/BOPT19120301.2.12", "https://www.rnz.co.nz/news/top/531197/petone-s-proposed-name-change-to-pito-one-now-sits-with-minister"],
+    "unsure": ["pronounce: Petone's middle stress is how New Zealanders say it, but Wiktionary's IPA has no stress mark and no dictionary confirms it. Kāpiti left out: no IPA source loaded."]
+  },
+  {
+    "id": "nz-south",
+    "name": "Canterbury and Otago",
+    "covers": "Christchurch, Canterbury, Dunedin and Otago: the Crusaders and the Highlanders",
+    "dialect": "New Zealand English; Otago and Southland keep a Scottish touch ('wee', 'crib', and a rolled 'r' in the far south)",
+    "words": [
+      {"term": "the Mainland", "say": "the MAIN-land", "ipa": "", "tts": "", "means": "The South Island, as South Islanders like to call it: bigger than the North Island, with fewer people and more pride.", "use": "Best rugby on the Mainland, no question.", "common": true},
+      {"term": "Cantab", "say": "KAN-tab", "ipa": "ˈkæntæb", "tts": "", "means": "Someone from Canterbury (formally a Cantabrian). Used by locals and the local news.", "use": "Typical Cantab. Red and black socks to a wedding.", "common": true},
+      {"term": "one-eyed", "say": "WUN-eyed", "ipa": "", "tts": "", "means": "Fiercely biased. Canterbury fans are famously one-eyed about their red and black, and proud of it.", "use": "Course I'm one-eyed. I'm from Christchurch.", "common": true},
+      {"term": "nor'wester", "say": "nor-WES-ter", "ipa": "nɔːˈwɛstə", "tts": "", "means": "Canterbury's hot, dry, gusty wind off the Southern Alps. It can push Christchurch past 30 degrees and puts everyone on edge.", "use": "Nor'wester's up. The ball will fly at Hagley.", "common": true},
+      {"term": "crib", "say": "KRIB", "ipa": "", "tts": "", "means": "A holiday cottage, in Otago and Southland. The rest of the country says 'bach'.", "use": "Off to the crib for the weekend. I'll listen on the radio.", "common": true},
+      {"term": "scarfie", "say": "SKAR-fee", "ipa": "ˈskɑːfi", "tts": "", "means": "A University of Otago student, from the blue-and-gold scarves students wore to the rugby in Dunedin's cold.", "use": "Scarfies are out in force tonight.", "common": true},
+      {"term": "Dunners", "say": "DUN-uz", "ipa": "ˈdʌnəz", "tts": "", "means": "Dunedin, said fondly.", "use": "Back in Dunners for the Highlanders game.", "common": true},
+      {"term": "the Glasshouse", "say": "the GLAHSS-house", "ipa": "", "tts": "", "means": "Forsyth Barr Stadium in Dunedin, New Zealand's first roofed stadium, with a clear roof over real grass.", "use": "Raining sideways outside, dry as a bone in the Glasshouse.", "common": true},
+      {"term": "wee", "say": "WEE", "ipa": "", "tts": "", "means": "Small. Still common in Otago and Southland, from the Scottish settlers.", "use": "Just a wee bit of rain. Nothing to worry about.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Ōtautahi", "say": "aw-TOE-tah-hee", "ipa": "ɔːˈtaʊtahi", "tts": "aw tao tah hee", "why": "Christchurch's te reo name, on signs, buses and the news."},
+      {"word": "Ōtepoti", "say": "AW-teh-paw-tee", "ipa": "ˈɔːtɛpɔti", "tts": "", "why": "Dunedin's te reo name. A long 'ō', then short, clean vowels."},
+      {"word": "Dunedin", "say": "duh-NEE-din", "ipa": "dəˈniːdən", "tts": "", "why": "Stress the middle, not 'DUN-uh-din'. The name is Gaelic for Edinburgh."},
+      {"word": "Otago", "say": "oh-TAH-go", "ipa": "əˈtɑːɡəʊ", "tts": "", "why": "From Ōtākou, on Otago Harbour. Southern Māori speech made some 'k' sounds close to 'g', and settlers wrote down what they heard."},
+      {"word": "Te Kaha", "say": "teh KAH-hah", "ipa": "tɛ ˈkaha", "tts": "teh kah hah", "why": "Christchurch's new roofed stadium (One New Zealand Stadium), opened in 2026, home of the Crusaders and Canterbury. Te reo for 'the strength'."},
+      {"word": "Waitaha", "say": "WHY-tah-hah", "ipa": "ˈwaɪtaha", "tts": "why tah hah", "why": "The te reo name for Canterbury, used by Canterbury Rugby. 'Wai' rhymes with 'why'."}
+    ],
+    "lines": [
+      {"t": "Nor'wester's up. Thirty degrees and the ball's flying at Hagley.", "m": "Canterbury's hot wind; Hagley Oval is Christchurch's cricket ground."},
+      {"t": "Two roofs down south now. Took Christchurch long enough.", "m": "Dunedin's Glasshouse opened in 2011; Christchurch's Te Kaha followed in 2026. Mild city banter."},
+      {"t": "Miss the House of Pain, but not the cold.", "m": "Carisbrook, Dunedin's old ground, was called the House of Pain because visiting teams so rarely won there."},
+      {"t": "Crusaders and Highlanders. Canterbury against Otago, nothing friendly about it.", "m": "The southern derby, built on an old provincial rivalry."},
+      {"t": "Everything's about Auckland. They forget the Mainland exists.", "m": "The South Island's standard grumble about the north."}
+    ],
+    "avoid": [
+      {"say": "calling it a bach in Dunedin", "instead": "crib", "why": "In Otago and Southland it's a crib; 'bach' marks you as a northerner."},
+      {"say": "Canterbury and Otago, same thing", "instead": "Cantabs and Otago folk", "why": "Neighbouring provinces and old rivals; the Crusaders against the Highlanders is a derby."},
+      {"say": "the Crusaders still play out at Addington", "instead": "they're at Te Kaha in the central city now", "why": "Christchurch's new roofed stadium opened in March 2026 after years at the temporary ground."}
+    ],
+    "habits": ["Christchurch dresses in red and black for big games; the city council has even declared official 'red and black' days.", "Otago students wear blue-and-gold scarves to the rugby, which is how 'scarfie' started, and Dunedin crowds are full of them.", "Summer cricket means the grass banks at Hagley Oval in Christchurch or University Oval in Dunedin."],
+    "sources": ["https://en.wikipedia.org/wiki/New_Zealand_English", "https://en.wikipedia.org/wiki/South_Island", "https://greensdictofslang.com/entry/tj3ckti", "https://nzhistory.govt.nz/culture/regional-rugby/canterbury", "https://m.scoop.co.nz/stories/CU0205/S00035.htm", "https://teara.govt.nz/en/canterbury-region/page-4", "https://weatherwatch.co.nz/content/cantabs-enjoy-taste-of-summer", "https://teara.govt.nz/en/interactive/35352/roadside-stories-dunedin-and-its-scarfies", "https://en.wiktionary.org/wiki/scarfie", "https://en.wikipedia.org/wiki/List_of_city_and_town_nicknames_in_New_Zealand", "https://www.odt.co.nz/sport/other-sport/century-games-glasshouse", "https://en.wikipedia.org/wiki/Forsyth_Barr_Stadium", "https://en.wikipedia.org/wiki/Carisbrook", "https://en.wikipedia.org/wiki/Southern_man", "https://en.wikipedia.org/wiki/Te_Kaha_(stadium)", "https://www.rnz.co.nz/news/national/590826/christchurch-s-new-te-kaha-one-new-zealand-stadium-opens", "https://www.canterburyrugby.co.nz/news/this-is-waitaha-its-cultural-round-in-the-hilux-npc", "https://maoridictionary.co.nz/search?keywords=Waitaha", "https://maoridictionary.co.nz/search?keywords=%C5%8Ctautahi", "https://maoridictionary.co.nz/search?keywords=%C5%8Ctepoti", "https://en.wiktionary.org/wiki/Otago", "https://en.wiktionary.org/wiki/Dunedin", "https://en.wiktionary.org/wiki/%C5%8Ct%C4%81kou"],
+    "unsure": ["pronounce: stress in Ōtautahi and Ōtepoti follows te reo rules; Te Aka has audio but no IPA. 'One-eyed' Canterbury fans rests mostly on NZHistory and older Press letters."]
+  }
+]

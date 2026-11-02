@@ -1,0 +1,86 @@
+[
+ {
+  "id": "5321",
+  "name": "Adelaide United FC",
+  "short": "Adelaide Utd",
+  "abbr": "ADL",
+  "location": "Adelaide United FC"
+ },
+ {
+  "id": "22344",
+  "name": "Auckland FC",
+  "short": "Auckland",
+  "abbr": "AUC",
+  "location": "Auckland FC"
+ },
+ {
+  "id": "5326",
+  "name": "Brisbane Roar FC",
+  "short": "Brisbane",
+  "abbr": "BRI",
+  "location": "Brisbane Roar FC"
+ },
+ {
+  "id": "5325",
+  "name": "Central Coast Mariners FC",
+  "short": "CC Mariners",
+  "abbr": "CCM",
+  "location": "Central Coast Mariners FC"
+ },
+ {
+  "id": "19340",
+  "name": "Macarthur FC",
+  "short": "Macarthur",
+  "abbr": "MAC",
+  "location": "Macarthur FC"
+ },
+ {
+  "id": "11143",
+  "name": "Melbourne City FC",
+  "short": "Melbourne C",
+  "abbr": "MBC",
+  "location": "Melbourne City FC"
+ },
+ {
+  "id": "5328",
+  "name": "Melbourne Victory",
+  "short": "Melbourne V",
+  "abbr": "MBV",
+  "location": "Melbourne Victory"
+ },
+ {
+  "id": "5323",
+  "name": "Newcastle Jets",
+  "short": "Newcastle Jets",
+  "abbr": "NEW",
+  "location": "Newcastle Jets"
+ },
+ {
+  "id": "5322",
+  "name": "Perth Glory FC",
+  "short": "Perth Glory",
+  "abbr": "PER",
+  "location": "Perth Glory FC"
+ },
+ {
+  "id": "5327",
+  "name": "Sydney FC",
+  "short": "Sydney FC",
+  "abbr": "SYD",
+  "location": "Sydney FC"
+ },
+ {
+  "id": "8352",
+  "name": "Wellington Phoenix",
+  "short": "Wellington",
+  "abbr": "WEL",
+  "location": "Wellington Phoenix"
+ },
+ {
+  "id": "13696",
+  "name": "Western Sydney Wanderers FC",
+  "short": "Western Sydney",
+  "abbr": "WSW",
+  "location": "Western Sydney Wanderers FC"
+ }
+]

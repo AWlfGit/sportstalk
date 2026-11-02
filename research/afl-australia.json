@@ -1,0 +1,780 @@
+{
+  "terms": [
+    {
+      "term": "footy",
+      "say": "FOOT-ee",
+      "ipa": "ˈfʊti",
+      "tts": "",
+      "means": "The game, and the ball itself. In Melbourne, Adelaide and Perth it means Aussie rules. In Sydney and Brisbane it often means rugby league, so people there say 'the AFL'.",
+      "use": "You going to the footy on Saturday?",
+      "common": true
+    },
+    {
+      "term": "barrack",
+      "say": "BARR-uk",
+      "ipa": "",
+      "tts": "",
+      "means": "To support a team. 'Who do you barrack for?' is the first question anyone asks.",
+      "use": "I barrack for Geelong, but the rest of my family's Hawthorn.",
+      "common": true
+    },
+    {
+      "term": "carn",
+      "say": "KARN",
+      "ipa": "kɑːn",
+      "tts": "",
+      "means": "Come on! The classic barracking cry, as in 'Carn the Blues!' or 'Carn, boys!'",
+      "use": "Carn, boys, one more goal and we're home!",
+      "common": true
+    },
+    {
+      "term": "Ball!",
+      "say": "BAWL",
+      "ipa": "",
+      "tts": "",
+      "means": "What the crowd yells when a player is tackled with the ball. Short for 'holding the ball', which should be a free kick to the tackler.",
+      "use": "Whole crowd screamed 'Ball!' and the ump just waved play on.",
+      "common": true
+    },
+    {
+      "term": "the umps",
+      "say": "the UMPS",
+      "ipa": "",
+      "tts": "",
+      "means": "The umpires. Footy has umpires, never referees.",
+      "use": "The umps have had a shocker. Missed three holding-the-balls in one quarter.",
+      "common": true
+    },
+    {
+      "term": "the G",
+      "say": "the JEE",
+      "ipa": "ðə ˈdʒiː",
+      "tts": "",
+      "means": "The MCG, the Melbourne Cricket Ground. Footy's biggest ground and home of the Grand Final.",
+      "use": "Ninety thousand at the G on a Friday night. Best atmosphere in the country.",
+      "common": true
+    },
+    {
+      "term": "screamer",
+      "say": "SKREE-muh",
+      "ipa": "",
+      "tts": "",
+      "means": "A spectacular high mark, often taken sitting on someone's shoulders. Also called a hanger.",
+      "use": "Did you see that screamer in the last quarter? Sat right on his head.",
+      "common": true
+    },
+    {
+      "term": "speccy",
+      "say": "SPEK-ee",
+      "ipa": "ˈspeki",
+      "tts": "specky",
+      "means": "Short for a spectacular mark. Same thing as a screamer. Also spelt 'specky'.",
+      "use": "Took a speccy over three blokes, then missed the set shot.",
+      "common": true
+    },
+    {
+      "term": "mongrel punt",
+      "say": "MUNG-grul PUNT",
+      "ipa": "",
+      "tts": "",
+      "means": "An ugly, wobbly kick that somehow still goes where it's meant to. Said with a laugh when one goes through.",
+      "use": "Mongrel punt from forty, wobbled the whole way, and it still snuck through.",
+      "common": true
+    },
+    {
+      "term": "a bag",
+      "say": "a BAG",
+      "ipa": "",
+      "tts": "",
+      "means": "Five or more goals by one player in a game. 'A bag of six' means six.",
+      "use": "He kicked a bag on Saturday. Five, and two of them from the boundary.",
+      "common": true
+    },
+    {
+      "term": "major",
+      "say": "MAY-juh",
+      "ipa": "",
+      "tts": "",
+      "means": "A goal, worth six points.",
+      "use": "Two majors in the first five minutes and the crowd was up and about.",
+      "common": true
+    },
+    {
+      "term": "behind",
+      "say": "bih-HYND",
+      "ipa": "",
+      "tts": "",
+      "means": "One point: the ball goes between a goal post and the shorter behind post, or hits a goal post. A goal is six.",
+      "use": "Two goals and nine behinds for the half. Can't kick straight to save themselves.",
+      "common": true
+    },
+    {
+      "term": "poster",
+      "say": "POHS-tuh",
+      "ipa": "",
+      "tts": "",
+      "means": "A shot that hits the goal post. It only counts as a behind.",
+      "use": "Hit the post from fifteen metres out. A poster, of all things.",
+      "common": true
+    },
+    {
+      "term": "clanger",
+      "say": "KLANG-uh",
+      "ipa": "",
+      "tts": "",
+      "means": "A bad mistake: a dropped mark, a kick straight to the other side.",
+      "use": "Two clangers in a row and the coach had him on the bench.",
+      "common": true
+    },
+    {
+      "term": "the flag",
+      "say": "the FLAG",
+      "ipa": "",
+      "tts": "",
+      "means": "The premiership. Winning the Grand Final is winning the flag.",
+      "use": "Honestly, I reckon they're good enough to win the flag this year.",
+      "common": true
+    },
+    {
+      "term": "granny",
+      "say": "GRAN-ee",
+      "ipa": "",
+      "tts": "",
+      "means": "The Grand Final, usually on the last Saturday in September at the MCG.",
+      "use": "Who are you tipping for the granny?",
+      "common": true
+    },
+    {
+      "term": "September",
+      "say": "sep-TEM-buh",
+      "ipa": "",
+      "tts": "",
+      "means": "Finals time. 'Playing in September' means making the finals.",
+      "use": "None of this matters if we're not there in September.",
+      "common": true
+    },
+    {
+      "term": "wildcard round",
+      "say": "WYLD-kard rownd",
+      "ipa": "",
+      "tts": "",
+      "means": "New in 2026: the sides that finish seventh to tenth play off for the last two finals spots, while the top six get a week off.",
+      "use": "Scraped into the wildcard round on percentage. I'll take it.",
+      "common": true
+    },
+    {
+      "term": "the ladder",
+      "say": "the LAD-uh",
+      "ipa": "",
+      "tts": "",
+      "means": "The league table.",
+      "use": "Halfway up the ladder and still no idea how good they are.",
+      "common": true
+    },
+    {
+      "term": "percentage",
+      "say": "puh-SEN-tij",
+      "ipa": "",
+      "tts": "",
+      "means": "Points scored divided by points conceded, times 100. It splits teams on the same wins, so big wins matter.",
+      "use": "We need to belt someone to get the percentage up.",
+      "common": true
+    },
+    {
+      "term": "the Brownlow",
+      "say": "the BROWN-loh",
+      "ipa": "ðə ˈbɹaʊnləʊ",
+      "tts": "",
+      "means": "The Brownlow Medal for the best and fairest player of the season, voted by the umpires. Also called 'Charlie'.",
+      "use": "He's a big chance in the Brownlow this year if the umps have noticed him.",
+      "common": true
+    },
+    {
+      "term": "torp",
+      "say": "TORP",
+      "ipa": "tɔːp",
+      "tts": "",
+      "means": "A torpedo punt: a spiralling kick that goes a mile when it comes off.",
+      "use": "Went for the torp from sixty and it sailed straight through.",
+      "common": true
+    },
+    {
+      "term": "banana",
+      "say": "buh-NAH-nuh",
+      "ipa": "",
+      "tts": "",
+      "means": "A kick off the outside of the boot that curls in, used from tight angles near the boundary. Also called a checkside.",
+      "use": "Banana from right on the boundary line. Unbelievable goal.",
+      "common": true
+    },
+    {
+      "term": "snap",
+      "say": "SNAP",
+      "ipa": "",
+      "tts": "",
+      "means": "A quick shot at goal on the run, kicked across the body or over the shoulder.",
+      "use": "Snapped it over his shoulder from the pocket. Didn't even look.",
+      "common": true
+    },
+    {
+      "term": "set shot",
+      "say": "SET shot",
+      "ipa": "",
+      "tts": "",
+      "means": "A shot at goal from a mark or free kick, with time to line it up.",
+      "use": "Missed three set shots from straight in front. Can't have that.",
+      "common": true
+    },
+    {
+      "term": "after the siren",
+      "say": "AHF-tuh the SY-run",
+      "ipa": "",
+      "tts": "",
+      "means": "A shot at goal taken after the final siren, because the mark or free kick came just before it. In a close game, everything rides on it.",
+      "use": "After the siren, thirty metres out, and he nailed it. Best thing I've ever seen.",
+      "common": true
+    },
+    {
+      "term": "fifty",
+      "say": "FIF-tee",
+      "ipa": "",
+      "tts": "",
+      "means": "A 50-metre penalty: the free kick moves 50 metres closer to goal, often for back-chat or not standing the mark.",
+      "use": "Gave away a fifty for mouthing off at the ump. Free goal.",
+      "common": true
+    },
+    {
+      "term": "tipping",
+      "say": "TIP-ing",
+      "ipa": "",
+      "tts": "",
+      "means": "Picking the winner of every game each round, in an office, family or pub comp. Mostly for bragging rights.",
+      "use": "I'm dead last in the office tipping. Again.",
+      "common": true
+    },
+    {
+      "term": "junk time",
+      "say": "JUNK tym",
+      "ipa": "",
+      "tts": "",
+      "means": "The end of a game that's already decided. Goals then only change the margin.",
+      "use": "Two junk-time goals made the margin look a lot better than it was.",
+      "common": true
+    },
+    {
+      "term": "hard-ball get",
+      "say": "HARD-bawl GET",
+      "ipa": "",
+      "tts": "",
+      "means": "Winning the ball in a tough contest, under real pressure.",
+      "use": "Great hard-ball get, then a quick handball out of trouble. That's his game.",
+      "common": true
+    },
+    {
+      "term": "one-percenters",
+      "say": "wun-puh-SEN-tuhz",
+      "ipa": "",
+      "tts": "",
+      "means": "The team things that never make the highlights: spoils, smothers, shepherds.",
+      "use": "Didn't get much of the ball, but his one-percenters were huge.",
+      "common": true
+    },
+    {
+      "term": "kick-to-kick",
+      "say": "KIK-tuh-KIK",
+      "ipa": "",
+      "tts": "",
+      "means": "A casual kick of the footy with mates, in the park or the street. Some grounds let fans on after the game for one.",
+      "use": "We used to do kick-to-kick in the street till it got too dark to see.",
+      "common": true
+    },
+    {
+      "term": "dragged",
+      "say": "DRAGD",
+      "ipa": "",
+      "tts": "",
+      "means": "Taken off and sat on the bench by the coach, usually straight after a mistake.",
+      "use": "One more clanger like that and he'll be dragged.",
+      "common": false
+    },
+    {
+      "term": "falcon",
+      "say": "FAL-kun",
+      "ipa": "",
+      "tts": "",
+      "means": "Getting hit in the face by the ball.",
+      "use": "Copped a falcon from his own teammate's handball. Whole crowd winced.",
+      "common": false
+    },
+    {
+      "term": "sell candy",
+      "say": "sel KAN-dee",
+      "ipa": "",
+      "tts": "",
+      "means": "Fake one way and go the other, leaving the tackler grabbing at nothing.",
+      "use": "Sold candy to two of them and kicked the goal. Lovely stuff.",
+      "common": false
+    }
+  ],
+  "phrases": {
+    "open": [
+      {
+        "t": "You see {team} {when}?",
+        "m": "The safest opener there is. Let them tell you how they feel before you commit to anything."
+      },
+      {
+        "t": "So what'd you make of {team}?",
+        "m": "Open-ended. Works after a win, a loss or a weird one."
+      },
+      {
+        "t": "Who do you barrack for, anyway?",
+        "m": "The first question in any footy chat. 'Who do you go for?' works too."
+      },
+      {
+        "t": "Get to the footy on the weekend?",
+        "m": "'The footy' is the game you go to. A good Monday-morning opener at work."
+      },
+      {
+        "t": "Only caught the highlights. How'd they go?",
+        "m": "An honest cover if you missed it. 'How'd they go?' gets them telling the whole story."
+      },
+      {
+        "t": "Catch the last quarter?",
+        "m": "Footy games often turn late, so there's nearly always a last quarter worth talking about."
+      },
+      {
+        "t": "How's your tipping going?",
+        "m": "The office opener. Everyone's in a comp, and everyone's got a tip they regret."
+      }
+    ],
+    "opinion": [
+      {
+        "t": "You've got to win the contested ball. It all starts there.",
+        "m": "The all-purpose take. True of almost every game, win or lose."
+      },
+      {
+        "t": "Too many behinds. Kick straight and it's a different game.",
+        "m": "Most teams spray a few shots at goal, so this fits most games."
+      },
+      {
+        "t": "Too many turnovers coming out of the back half.",
+        "m": "Kicking it to the other side near your own goal. Every fan moans about it."
+      },
+      {
+        "t": "When they bring the pressure, they win. Simple as that.",
+        "m": "Tackling and chasing. Hard to argue with."
+      },
+      {
+        "t": "The forwards need to give the mids something to kick to.",
+        "m": "Blames the forward line for not leading into space. Fits a low-scoring game."
+      },
+      {
+        "t": "Umpiring's been all over the place this year.",
+        "m": "A safe complaint any time, about any game."
+      },
+      {
+        "t": "Nobody remembers the home-and-away. It's what you do in September.",
+        "m": "A calm take for a rough patch in the regular rounds."
+      }
+    ],
+    "agree": [
+      {
+        "t": "Spot on.",
+        "m": "All-purpose agreement. Keeps them going."
+      },
+      {
+        "t": "Too right.",
+        "m": "Strong Australian agreement without adding anything you'd have to back up."
+      },
+      {
+        "t": "Fair call.",
+        "m": "Polite agreement. They've made a fair point."
+      },
+      {
+        "t": "Hundred per cent.",
+        "m": "Full agreement. Nod while you say it."
+      },
+      {
+        "t": "You're not wrong.",
+        "m": "Agreeing with a hint of 'unfortunately'. Good after a loss."
+      },
+      {
+        "t": "That's footy, mate.",
+        "m": "A shrug that fits any strange result or bounce of the ball."
+      },
+      {
+        "t": "Tell me about it.",
+        "m": "Shared pain. Works after a frustrating game."
+      }
+    ],
+    "dodge": [
+      {
+        "t": "I only caught the last quarter. What happened early?",
+        "m": "Admit you saw part of it and hand them the floor."
+      },
+      {
+        "t": "Ask me in September.",
+        "m": "Pushes any prediction off to the finals."
+      },
+      {
+        "t": "I've stopped tipping them. Every time I do, they lose.",
+        "m": "A joking way out of 'will they win next week?'"
+      },
+      {
+        "t": "Haven't looked at the ladder. Too scared.",
+        "m": "Gets you out of finals maths."
+      },
+      {
+        "t": "You'd know better than me. What do you reckon?",
+        "m": "Flatter them and bounce the question back."
+      },
+      {
+        "t": "Depends which side turns up.",
+        "m": "Fits any team and any prediction, and commits to nothing."
+      }
+    ],
+    "telly": [
+      {
+        "t": "Ball!",
+        "m": "When an opposition player gets tackled with the ball. The whole ground yells it."
+      },
+      {
+        "t": "Carn {team}!",
+        "m": "Come on! Any time your side needs a lift."
+      },
+      {
+        "t": "In the back!",
+        "m": "When an opponent pushes your player in the back in a marking contest and the ump doesn't pay it."
+      },
+      {
+        "t": "How's that not a free?",
+        "m": "Any decision that goes the other way."
+      },
+      {
+        "t": "Man on!",
+        "m": "When your player hasn't seen the tackler coming."
+      },
+      {
+        "t": "Kick it long!",
+        "m": "When your side keeps going sideways in defence."
+      },
+      {
+        "t": "Just kick it straight!",
+        "m": "During a set shot at goal, through gritted teeth."
+      },
+      {
+        "t": "Ump, are you watching the same game?",
+        "m": "When the free kicks start going against you."
+      }
+    ],
+    "exit": [
+      {
+        "t": "Anyway, I'll let you go. Catch ya.",
+        "m": "Simple, friendly exit."
+      },
+      {
+        "t": "Well, there's always next week. See ya.",
+        "m": "Works after a loss and ends on an upbeat note."
+      },
+      {
+        "t": "I'm grabbing a beer. You right for a drink?",
+        "m": "'You right?' means 'do you need anything?' A friendly way out at the pub."
+      },
+      {
+        "t": "Early start tomorrow, so I'm off. Same again next week.",
+        "m": "Polite exit that promises a rematch."
+      },
+      {
+        "t": "Righto, I'll leave you to it. Go {team}.",
+        "m": "'Righto' means 'okay then'. Ends on team loyalty."
+      },
+      {
+        "t": "Long season. We'll see. Take it easy.",
+        "m": "A noncommittal sign-off that fits any result."
+      }
+    ]
+  },
+  "exchanges": {
+    "win": {
+      "open": "Good win {when}. Four points in the bank.",
+      "them": "Yeah, wasn't pretty, but they got the job done.",
+      "back": "Won the contested ball and finally hit the scoreboard. That's all you can ask.",
+      "agree": "Spot on. Bank it and move on.",
+      "exit": "Let's see if they can string a few together. Catch ya."
+    },
+    "loss": {
+      "open": "Rough one {when}.",
+      "them": "Don't. They were off from the first bounce.",
+      "back": "Got smashed at the stoppages and couldn't hit a target going forward.",
+      "agree": "Yeah, you can't give {opp} that much of the ball.",
+      "exit": "That's footy. There's always next week. See ya."
+    },
+    "bigWin": {
+      "open": "{score} {when}! Did you see that?",
+      "them": "What a belting. {opp} were cooked by half-time.",
+      "back": "Everyone got on the end of something. And the percentage will thank us come September.",
+      "agree": "Too right. Enjoy it while it lasts.",
+      "exit": "Back to earth next week, probably. Catch ya."
+    },
+    "bigLoss": {
+      "open": "So... {score}. You sit through all of that?",
+      "them": "Turned it off at three-quarter time. Embarrassing.",
+      "back": "Nobody turned up. And the percentage has copped a hiding, too.",
+      "agree": "Yeah, fair. The whole side was off.",
+      "exit": "Best thing is to pretend that never happened. See ya."
+    },
+    "narrowWin": {
+      "open": "{score} {when}. Bit close for comfort, wasn't it?",
+      "them": "Close? I watched the last two minutes through my fingers.",
+      "back": "Ugly, but four points is four points.",
+      "agree": "Exactly. You'll take those come September.",
+      "exit": "My heart can't take many more of those. Catch ya."
+    },
+    "narrowLoss": {
+      "open": "Under a goal {when}. That one hurts.",
+      "them": "So close. We had our chances, too.",
+      "back": "One more kick goes through and it's a different story.",
+      "agree": "Yeah, it came down to a couple of moments.",
+      "exit": "No point dwelling on it. Next week. See ya."
+    },
+    "draw": {
+      "open": "A draw {when}. Not sure how to feel about that.",
+      "them": "Same. Feels like a win and a loss at the same time.",
+      "back": "Two points each. Better than nothing, I suppose.",
+      "agree": "Yeah, I'll take the two points.",
+      "exit": "Don't see too many of those. Anyway, catch ya."
+    },
+    "comeback": {
+      "open": "Behind at three-quarter time and they still got up {when}!",
+      "them": "I'd written them off. Didn't think they had it in them.",
+      "back": "That last quarter was something else. They just took the game on.",
+      "agree": "That's the kind of win that builds belief.",
+      "exit": "I'm going to watch that last quarter again. Catch ya."
+    },
+    "blewLead": {
+      "open": "How'd we lose that {when}? Three goals up at the last change.",
+      "them": "Classic. Went into their shells and tried to hang on.",
+      "back": "Stopped taking the game on. {opp} kept coming and we just sat back.",
+      "agree": "Exactly. You've got to keep kicking goals.",
+      "exit": "I need a few days to get over that one. See ya."
+    },
+    "bagWin": {
+      "open": "{player} kicked a bag {when}!",
+      "them": "Couldn't miss, could he? Every time he went near it, it went through.",
+      "back": "Whenever it went inside fifty, you just knew he'd get on the end of it.",
+      "agree": "Days like that, you just keep kicking it to him.",
+      "exit": "Hope he keeps it going. Catch ya."
+    },
+    "finalWin": {
+      "open": "How good was that {when}? Finals footy, mate. Nothing like it.",
+      "them": "I've still got no voice. What a game.",
+      "back": "{player} stood up when it mattered. That's what you need in September.",
+      "agree": "Spot on. Big games, big players.",
+      "exit": "I'm watching the replay again tonight. See ya."
+    },
+    "finalLoss": {
+      "open": "Tough one {when}. Finals are cruel.",
+      "them": "Gutted. Couldn't get our hands on the ball.",
+      "back": "The pressure's another level in September. {opp} handled it better.",
+      "agree": "Yeah, fair. They were harder at it.",
+      "exit": "Whatever happens now, it's been a good year. Catch ya."
+    },
+    "rivalWin": {
+      "open": "Beat {opp} {when}. Best win of the year.",
+      "them": "Ha! I've been giving it to a mate who barracks for them all morning.",
+      "back": "Nothing better. Those games always feel bigger. The crowd's different.",
+      "agree": "Too right. Bragging rights for months.",
+      "exit": "I'm off to find someone in the other colours. Catch ya."
+    },
+    "rivalLoss": {
+      "open": "Lost to {opp} {when}. Of all the teams.",
+      "them": "Don't. I'll never hear the end of it at work.",
+      "back": "We'll get 'em next time. I've got it circled already.",
+      "agree": "They'd better be ready, that's all I'll say.",
+      "exit": "Keeping my head down for a few days. See ya."
+    }
+  },
+  "pub": [
+    {
+      "say": "BALL! How's that not holding the ball?",
+      "o": [
+        ["He had all day to get rid of it. Ump's having a shocker.", 2, "Backs the crowd and blames the umpire. Exactly what everyone around you is doing."],
+        ["Maybe he didn't have prior opportunity?", -1, "You might even be right, but defending the umpire at the footy is a lonely place."],
+        ["Which ball? Isn't there only one?", -2, "'Ball!' is the crowd's shout for holding the ball. Everyone knows it."]
+      ]
+    },
+    {
+      "say": "Did you see that screamer in the second quarter?",
+      "o": [
+        ["Sat right on his shoulders. Mark of the year, that.", 2, "A screamer is a huge high mark. Praise it like you saw it live."],
+        ["Yeah, great catch.", -1, "Close, but in footy it's a mark, not a catch."],
+        ["Who was screaming? The crowd?", -2, "A screamer is a spectacular mark, not a noise."]
+      ]
+    },
+    {
+      "say": "He kicked a bag on the weekend.",
+      "o": [
+        ["His conversion rate was well above his season average.", -1, "Maybe, but nobody talks like a stats sheet at the pub."],
+        ["A bag of what?", -2, "A bag is five or more goals. Asking gives you away."],
+        ["Five, wasn't it? Couldn't miss.", 2, "Knows what a bag is and sounds like you saw it."]
+      ]
+    },
+    {
+      "say": "Mongrel punt, but they all count.",
+      "o": [
+        ["Ugliest goal of the year. Still six points.", 2, "Laugh along. A goal's a goal, however it gets there."],
+        ["His kicking technique needs a bit of work.", 0, "Fair enough, but flat. The fun is that it went through anyway."],
+        ["Why'd he punt it? Was it fourth down?", -2, "That's American football. In footy a punt is just a kind of kick."]
+      ]
+    },
+    {
+      "say": "Who do you reckon wins the flag next year?",
+      "o": [
+        ["Whoever finishes top of the ladder.", -1, "Not how it works. The flag goes to whoever wins the Grand Final."],
+        ["Ask me in September. Depends who's fit.", 2, "Sounds seasoned and commits to nothing."],
+        ["What flag? Like a national flag?", -2, "The flag is the premiership. Every fan knows it."]
+      ]
+    },
+    {
+      "say": "You in the tipping comp this year?",
+      "o": [
+        ["Course. Second-last, but I'm due.", 2, "Being hopeless at tipping is a proud tradition."],
+        ["I don't really gamble.", -1, "Fair enough, but tipping is just picking winners for bragging rights."],
+        ["Tipping? Like at a restaurant?", -2, "Footy tipping means picking the winners each round."]
+      ]
+    },
+    {
+      "say": "Who do you barrack for?",
+      "o": [
+        ["Barrack? Like an army barracks?", -2, "To barrack is to support a team. It's the most basic footy question there is."],
+        ["{team}. For my sins.", 2, "Name your team with a sigh. Very Australian."],
+        ["Bit of everyone, really.", -1, "Nobody barracks for everyone. Pick a side."]
+      ]
+    },
+    {
+      "say": "Four goals down at three-quarter time and we still got up!",
+      "o": [
+        ["Unreal last quarter. I'd given up on them.", 2, "'Got up' means won. Share the relief."],
+        ["Twenty-four points isn't that much in footy.", 0, "True, a four-goal lead can go fast. But it kills the moment."],
+        ["Wait, they stop after three quarters?", -2, "Three-quarter time is just the last break. There are four quarters."]
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "say": "the referee",
+      "instead": "the umpire, or the umps",
+      "why": "Footy has umpires, never referees. 'Ref' marks you as a rugby or soccer person."
+    },
+    {
+      "say": "Who do you root for?",
+      "instead": "Who do you barrack for?",
+      "why": "'Root' is rude slang in Australia. You barrack for, or go for, a team."
+    },
+    {
+      "say": "the playoffs",
+      "instead": "the finals",
+      "why": "Footy has finals, played in September. 'Playoffs' sounds American."
+    },
+    {
+      "say": "they won the championship",
+      "instead": "they won the flag (or the premiership)",
+      "why": "The winners are the premiers, and fans talk about winning the flag."
+    },
+    {
+      "say": "the standings",
+      "instead": "the ladder",
+      "why": "The league table is the ladder."
+    },
+    {
+      "say": "fourteen point twelve",
+      "instead": "fourteen-twelve, ninety-six",
+      "why": "A score like 14.12 (96) means 14 goals and 12 behinds, 96 points. The dot isn't read as 'point'."
+    },
+    {
+      "say": "Great catch!",
+      "instead": "Great mark!",
+      "why": "Catching a kick is taking a mark. 'Catch' sounds like cricket."
+    },
+    {
+      "say": "the fourth quarter",
+      "instead": "the last quarter",
+      "why": "Fans say the last quarter. The breaks are quarter-time, half-time and three-quarter time."
+    },
+    {
+      "say": "jersey",
+      "instead": "jumper (or guernsey)",
+      "why": "Footy players wear jumpers. Commentators call them guernseys."
+    },
+    {
+      "say": "he scored a try",
+      "instead": "he kicked a goal",
+      "why": "Tries are rugby. In footy you kick goals, worth six, and behinds, worth one."
+    }
+  ],
+  "nerd": "If you look at the numbers, we were plus-fifteen in contested possessions and won the clearances, but we only scored from about one in three inside-fifties, so honestly the margin flatters them.",
+  "offq": "Do you reckon they'll play two rucks next year, or keep the backup in the twos?",
+  "builtin": {
+    "label": "AFL (Aussie rules)",
+    "team": "Collingwood",
+    "play": "game",
+    "cover": {
+      "nickname": "the Pies",
+      "rival": "Carlton",
+      "ground": "the MCG",
+      "player": "Peter Daicos",
+      "since": "2010",
+      "memory": "The 2010 Grand Final replay"
+    },
+    "others": ["Carlton", "Essendon", "Richmond", "Geelong", "Brisbane", "West Coast"],
+    "betting": [
+      ["Multi", "MUL-tee", "Several bets rolled into one. Every leg has to come in, and it's always the last one that busts."],
+      ["Same-game multi", "SAYM-gaym MUL-tee", "A multi inside one game: the winner, the margin, a player to kick a goal."],
+      ["Head-to-head", "HED-tuh-hed", "A straight bet on who wins."],
+      ["The line", "the LYN", "A points start for the underdog, so both sides pay about the same."],
+      ["Big win, little win", "BIG win LIT-ul win", "Pick the winner, and whether they win by 1 to 39 points or by 40 or more."],
+      ["Have a punt", "have a PUNT", "Have a bet. Careful: in footy a punt is also a kick."]
+    ]
+  },
+  "sources": [
+    "https://www.abc.net.au/asia/afl-australian-rules-football-language-slang-guide/106391038",
+    "https://www.abc.net.au/education/learn-english/learn-english-australian-rules-footy-slang-explained/7887768",
+    "https://en.wikipedia.org/wiki/Glossary_of_Australian_rules_football",
+    "https://en.wiktionary.org/wiki/Appendix:Australian_rules_football_slang",
+    "https://en.wiktionary.org/wiki/footy",
+    "https://en.wiktionary.org/wiki/carn",
+    "https://en.wiktionary.org/wiki/barrack",
+    "https://en.wiktionary.org/wiki/speccy",
+    "https://en.wiktionary.org/wiki/torp",
+    "https://en.wiktionary.org/wiki/clanger",
+    "https://pickstar.pro/au/blog/a-guide-to-popular-afl-slang",
+    "https://www.footyalmanac.com.au/aussie-rules-commentary-terms-or-how-to-explain-afl-terminology-to-non-australians/",
+    "https://www.afl.com.au/video/24149/kennedys-mongrel-punt-pays-off",
+    "https://www.afl.com.au/news/1524930/match-report-north-melbourne-kangaroos-v-gold-coast-suns",
+    "https://www.afl.com.au/news/1451972/biggest-finals-shake-up-in-25-years-as-wildcard-round-introduced/amp",
+    "https://thedailyaus.com.au/sport/the-afl-s-newly-introduced-finals-rules-explained",
+    "https://www.afl.com.au/news/1621721/the-unstoppables-brisbane-lions-come-from-nowhere-to-win-epic-gf-break-fremantle-dockers-hearts",
+    "https://www.footyinfo.com/match/22306",
+    "https://www.abc.net.au/news/2026-08-22/afl-rd-24-live-carl-fre-mel-wb-geel-rich-adel-gws/107064452",
+    "https://www.abc.net.au/news/2026-09-04/afl-elimination-final-geelong-cats-carlton-blues-live-blog/107113706",
+    "https://www.abc.net.au/news/2023-07-16/reclink-community-cup-the-rise-of-charity-football-match/102488920",
+    "https://www.footyalmanac.com.au/almanac-footy-tipping-the-2026-comps-all-in-one-place/",
+    "https://www.afl.com.au/news/1502833/who-wins-r7-experts-tip-one-sided-anzac-day-can-roos-continue-streak",
+    "https://en.wikipedia.org/wiki/Australian_rules_football_scoring",
+    "https://www.bettingpro.com.au/afl/how-to-bet-on-afl/",
+    "https://news.bet365.com/en-gb/article/australian-rules-betting-odds/2025112414445820064",
+    "https://www.thenewdaily.com.au/sport/afl/2017/04/18/best-bet-ever"
+  ],
+  "unsure": [
+    "2026 Grand Final checked: Brisbane Lions 14.12 (96) beat Fremantle 12.17 (89) at the MCG on 26 September 2026 (AFL.com.au, Reuters via The Star, FootyInfo), Brisbane's third flag in a row. Nothing in the pack depends on it.",
+    "'the eight' (the top eight): left out. Since the 2026 wildcard round (top ten play finals, top six get a week off), media talk is of the top six and the wildcard spots, and it isn't clear 'make the eight' has survived.",
+    "carn: Wiktionary (with a Herald Sun headline as a citation) is the only written source found, though it's familiar from club banners and crowds.",
+    "avoid 'the fourth quarter': based on usage (AFL.com.au and ABC say 'last quarter', 'final term' and 'the last change'); no source calls 'fourth quarter' wrong, and some people do say it.",
+    "avoid 'root for': from general Australian English, not a footy source.",
+    "'footy' meaning rugby league in Sydney and Brisbane is from Wiktionary; how far AFL fans there say 'footy' for AFL among themselves varies.",
+    "betting: 'same-game multi' and 'big win, little win' come from bookmaker and betting-guide pages, not independent journalism. 'The line' wording is general, not a quoted definition.",
+    "terms left out: 'sausage roll' and 'snag' (rhyming slang for a goal) may be dated; 'maggot' for umpires is too insulting; 'leather poisoning' had only one source.",
+    "ipa for 'the Brownlow' was written from the standard pronunciation (no dictionary entry). 'Brownlow night' timing wasn't confirmed for 2026, so the term doesn't give a date.",
+    "sources: The Age, the Herald Sun, Fox Footy, news.com.au and the SMH refuse this research tool, so none were read directly. ABC pages were read with curl."
+  ]
+}

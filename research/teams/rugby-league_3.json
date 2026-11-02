@@ -1,0 +1,116 @@
+[
+ {
+  "id": "289195",
+  "name": "Broncos",
+  "short": "Broncos",
+  "abbr": "BRI"
+ },
+ {
+  "id": "289197",
+  "name": "Bulldogs",
+  "short": "Bulldogs",
+  "abbr": "CAN"
+ },
+ {
+  "id": "289202",
+  "name": "Cowboys",
+  "short": "Cowboys",
+  "abbr": "NOR"
+ },
+ {
+  "id": "289346",
+  "name": "Dolphins",
+  "short": "Dolphins",
+  "abbr": "DOL"
+ },
+ {
+  "id": "289209",
+  "name": "Dragons",
+  "short": "Dragons",
+  "abbr": "ST."
+ },
+ {
+  "id": "289194",
+  "name": "Eels",
+  "short": "Eels",
+  "abbr": "PAR"
+ },
+ {
+  "id": "289207",
+  "name": "Knights",
+  "short": "Knights",
+  "abbr": "NEW"
+ },
+ {
+  "id": "289317",
+  "name": "New South Wales",
+  "short": "New South Wales",
+  "abbr": "NEW"
+ },
+ {
+  "id": "289199",
+  "name": "Panthers",
+  "short": "Panthers",
+  "abbr": "PEN"
+ },
+ {
+  "id": "289318",
+  "name": "Queensland",
+  "short": "Queensland",
+  "abbr": "QUE"
+ },
+ {
+  "id": "289205",
+  "name": "Rabbitohs",
+  "short": "Rabbitohs",
+  "abbr": "SOU"
+ },
+ {
+  "id": "289198",
+  "name": "Raiders",
+  "short": "Raiders",
+  "abbr": "CAN"
+ },
+ {
+  "id": "289204",
+  "name": "Roosters",
+  "short": "Roosters",
+  "abbr": "SYD"
+ },
+ {
+  "id": "289196",
+  "name": "Sea Eagles",
+  "short": "Sea Eagles",
+  "abbr": "MAN"
+ },
+ {
+  "id": "289203",
+  "name": "Sharks",
+  "short": "Sharks",
+  "abbr": "CRO"
+ },
+ {
+  "id": "289208",
+  "name": "Storm",
+  "short": "Storm",
+  "abbr": "MEL"
+ },
+ {
+  "id": "289206",
+  "name": "Titans",
+  "short": "Titans",
+  "abbr": "GOL"
+ },
+ {
+  "id": "289201",
+  "name": "Warriors",
+  "short": "Warriors",
+  "abbr": "NEW"
+ },
+ {
+  "id": "289200",
+  "name": "Wests Tigers",
+  "short": "Wests Tigers",
+  "abbr": "WES"
+ }
+]

@@ -1,0 +1,1039 @@
+[
+  {
+    "team": "Brisbane Broncos",
+    "espnId": "289195",
+    "league": "rugby-league/3",
+    "region": "au-queensland",
+    "aliases": ["broncos", "brisbane broncos", "brisbane", "bronx", "the broncos"],
+    "nickname": "the Broncos",
+    "fans": "",
+    "ground": "Suncorp Stadium (Lang Park)",
+    "rivals": [
+      {"team": "North Queensland Cowboys", "name": "the Cowboys", "derby": "the Queensland derby"},
+      {"team": "Dolphins", "name": "the Dolphins", "derby": "the Battle for Brisbane"},
+      {"team": "Melbourne Storm", "name": "the Storm", "derby": ""}
+    ],
+    "legends": ["Darren Lockyer", "Gorden Tallis", "Shane Webcke", "Steve Renouf"],
+    "memory": "2025: beat the Storm 26-22 in the grand final for the club's first premiership since 2006",
+    "lingo": [
+      {"term": "Lang Park", "say": "LANG PARK", "ipa": "", "tts": "", "means": "The old name for Suncorp Stadium in Milton. Locals use both, and the older name never went away."},
+      {"term": "the Bronx", "say": "the BRONKS", "ipa": "ðə ˈbrɒŋks", "tts": "", "means": "Fans' nickname for the club. The club calls its supporters the Bronx Nation."},
+      {"term": "Red Hill", "say": "RED HIL", "ipa": "", "tts": "", "means": "The suburb where the club trains and has its offices. People say 'Red Hill' for the club itself, as in 'the mood at Red Hill'."},
+      {"term": "Alfie", "say": "AL-fee", "ipa": "ˈælfi", "tts": "", "means": "Allan Langer, the little halfback who led the first premiership sides in 1992 and 1993."},
+      {"term": "Locky", "say": "LOK-ee", "ipa": "ˈlɒki", "tts": "", "means": "Darren Lockyer, the club's most-capped player and captain of the 2006 premiers."},
+      {"term": "the Queensland derby", "say": "the KWEENZ-lund DAR-bee", "ipa": "ðə ˈkwiːnzlənd ˈdɑːbi", "tts": "the queensland darby", "means": "Any game against the Cowboys. It's had an edge since the Cowboys won the 2015 grand final."}
+    ],
+    "lines": [
+      {"t": "Friday night at Lang Park. Nothing better.", "m": "Home games at Suncorp are Brisbane's big night out.", "when": "any"},
+      {"t": "Brisbane's a Broncos town, whatever the Dolphins reckon.", "m": "The Broncos had the city to themselves from 1988 until the Dolphins arrived in 2023.", "when": "any"},
+      {"t": "Alfie, Locky, Tallis. We've had some greats.", "m": "Naming the club's legends is always safe ground.", "when": "any"},
+      {"t": "Waited nineteen years for 2025. Worth every one.", "m": "The 2025 premiership was the first since 2006.", "when": "any"},
+      {"t": "Too easy. Off to Caxton Street.", "m": "After a home win, fans head for the pubs near the ground.", "when": "win"},
+      {"t": "Same old story. We couldn't hold a lead.", "m": "The standard gripe after a loss, sharpened by blowing a 24-0 lead against the Dolphins in 2026.", "when": "loss"},
+      {"t": "Cowboys week. Win this and the season's alright.", "m": "The Queensland derby matters more than most games.", "when": "rival"},
+      {"t": "The Dolphins can have Redcliffe. Brisbane's ours.", "m": "Mild banter for the Battle for Brisbane.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Kashmir' and 'Chelsea Dagger'", "means": "Led Zeppelin's 'Kashmir' plays before kick-off at Lang Park, and 'Chelsea Dagger' after every Broncos try."},
+      {"name": "Caxton Street before the game", "means": "Fans meet in the pubs on Caxton Street, then walk down the hill to the ground."}
+    ],
+    "sore": [
+      {"topic": "The 2015 grand final", "why": "Lost 17-16 to the Cowboys in golden point, in the first all-Queensland decider."},
+      {"topic": "The 2026 Dolphins comeback", "why": "Led the Dolphins 24-0 and lost 40-32, the club's worst collapse."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Broncos play at the Gabba", "instead": "the Broncos play at Lang Park", "why": "The Gabba is the cricket and AFL ground across the river."},
+      {"say": "the Brisbane Lions", "instead": "the Broncos", "why": "The Lions are Brisbane's AFL club."},
+      {"say": "the Dolphins are Brisbane's team", "instead": "the Broncos are Brisbane's team", "why": "Broncos fans won't hear it; the Dolphins come from Redcliffe."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brisbane_Broncos",
+      "https://en.wikipedia.org/wiki/Battle_for_Brisbane_(rugby_league)",
+      "https://www.4bc.com.au/laurels-dilemma-as-bronx-claim-position-as-heart-of-brisbane/",
+      "https://en.wikipedia.org/wiki/Lang_Park",
+      "https://en.wiktionary.org/wiki/derby"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Canterbury-Bankstown Bulldogs",
+    "espnId": "289197",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["bulldogs", "canterbury", "canterbury-bankstown", "canterbury bulldogs", "the dogs", "doggies"],
+    "nickname": "the Dogs",
+    "fans": "the Bulldogs Army",
+    "ground": "Accor Stadium (Homebush), with one game a year at Belmore",
+    "rivals": [
+      {"team": "Parramatta Eels", "name": "Parra", "derby": ""},
+      {"team": "South Sydney Rabbitohs", "name": "Souths", "derby": "the Good Friday game"},
+      {"team": "St George Illawarra Dragons", "name": "the Dragons", "derby": ""}
+    ],
+    "legends": ["Terry Lamb", "Steve Mortimer", "Hazem El Masri", "George Peponis"],
+    "memory": "2004: beat the Roosters 16-13 in the grand final for the club's eighth premiership",
+    "lingo": [
+      {"term": "the Doggies", "say": "the DOG-eez", "ipa": "ðə ˈdɒɡiz", "tts": "", "means": "Fond name for the team, used alongside 'the Dogs'."},
+      {"term": "the Kennel", "say": "the KEN-ul", "ipa": "", "tts": "", "means": "The Bulldogs Army's home end, loud with drums and flags. You need a membership to stand there."},
+      {"term": "Belmore", "say": "BEL-maw", "ipa": "ˈbɛlmɔː", "tts": "", "means": "Belmore Sports Ground, the club's old home and training base. It hosts one home game a year."},
+      {"term": "the Dogs of War", "say": "the DOGZ uv WAW", "ipa": "", "tts": "", "means": "The hard-nosed 1980s sides that won the 1984, 1985 and 1988 premierships."},
+      {"term": "the Berries", "say": "the BER-eez", "ipa": "", "tts": "", "means": "The club's original nickname, from before it became the Bulldogs. Heard from older fans."},
+      {"term": "Turvey", "say": "TER-vee", "ipa": "ˈtɜːvi", "tts": "", "means": "Steve Mortimer, the 1980s halfback and captain."},
+      {"term": "the Family Club", "say": "the FAM-lee KLUB", "ipa": "", "tts": "", "means": "The club's old tag, still a point of pride."}
+    ],
+    "lines": [
+      {"t": "Nothing beats the Kennel when it's rocking.", "m": "Pride in the home end.", "when": "any"},
+      {"t": "We belong at Belmore. One game a year isn't enough.", "m": "Plenty of fans want more games back at the old ground.", "when": "any"},
+      {"t": "Dogs footy is tough footy.", "m": "Fans pride themselves on a hard, physical side, back to the Dogs of War.", "when": "any"},
+      {"t": "That's the Dogs I know. Tough as you like.", "m": "After a hard-fought win.", "when": "win"},
+      {"t": "Plenty of heart, not enough points.", "m": "The grumble after a narrow loss.", "when": "loss"},
+      {"t": "Beat Parra and I don't care what else happens.", "m": "The Eels are the oldest enemy.", "when": "rival"},
+      {"t": "Good Friday against Souths. Best day of the year.", "m": "The annual clash with the Rabbitohs.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Good Friday against Souths", "means": "Canterbury and South Sydney have met every Good Friday since 2012, one of the biggest crowds of the year."},
+      {"name": "Back to Belmore", "means": "One home game a year goes back to the old suburban ground, a big day for older fans."}
+    ],
+    "sore": [
+      {"topic": "2002", "why": "Caught breaching the salary cap and stripped of every point while top of the ladder. They finished last."},
+      {"topic": "The 2014 grand final", "why": "Lost 30-6 to Souths, which ended the Rabbitohs' 43-year wait."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Western Bulldogs", "instead": "the Bulldogs, or Canterbury", "why": "The Western Bulldogs are an AFL club in Melbourne."},
+      {"say": "the Bulldogs play at Belmore", "instead": "most home games are at Accor", "why": "Belmore gets one game a year now."},
+      {"say": "Parra are alright", "instead": "anything but Parra", "why": "Praising the Eels won't go down well with a Dogs fan."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canterbury-Bankstown_Bulldogs",
+      "https://bulldogs.com.au/news/2014/09/22/an-amazing-sporting-experience-with-amazing-bulldog-fans",
+      "https://www.backtobelmore.com.au/art080212.htm",
+      "https://www.rabbitohs.com.au/news/2026-nrl-draw-unveiled"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "North Queensland Cowboys",
+    "espnId": "289202",
+    "league": "rugby-league/3",
+    "region": "au-queensland",
+    "aliases": ["cowboys", "north queensland", "north queensland cowboys", "nq cowboys", "townsville", "the cowboys"],
+    "nickname": "the Cowboys",
+    "fans": "",
+    "ground": "Queensland Country Bank Stadium in Townsville (since 2020)",
+    "rivals": [
+      {"team": "Brisbane Broncos", "name": "the Broncos", "derby": "the Queensland derby"},
+      {"team": "Cronulla-Sutherland Sharks", "name": "the Sharks", "derby": ""}
+    ],
+    "legends": ["Johnathan Thurston", "Matt Bowen", "Matt Scott", "Paul Bowman"],
+    "memory": "2015: beat the Broncos 17-16 in golden point for the club's first premiership",
+    "lingo": [
+      {"term": "JT", "say": "JAY TEE", "ipa": "ˌdʒeɪ ˈtiː", "tts": "", "means": "Johnathan Thurston, the halfback who won the 2015 grand final with a golden-point field goal. The club's greatest player."},
+      {"term": "the Queensland derby", "say": "the KWEENZ-lund DAR-bee", "ipa": "ðə ˈkwiːnzlənd ˈdɑːbi", "tts": "the queensland darby", "means": "Any game against the Broncos: the north against the big city."},
+      {"term": "the '15 grand final", "say": "the fif-TEEN GRAND FY-nul", "ipa": "ðə ˌfɪfˈtiːn ˈɡrænd ˈfaɪnl̩", "tts": "the fifteen grand final", "means": "Kyle Feldt's try at the end, JT's conversion off the post, then JT's field goal in golden point. Every fan can tell it."},
+      {"term": "the Willows", "say": "the WIL-ohz", "ipa": "", "tts": "", "means": "The old home ground in Kirwan, used from 1995 to 2019. Older fans still talk about nights out there."}
+    ],
+    "lines": [
+      {"t": "JT's the best there's ever been. No argument.", "m": "Cowboys fans put Johnathan Thurston above everyone.", "when": "any"},
+      {"t": "The whole north is behind this club.", "m": "Fans come from all over North Queensland, not just Townsville.", "when": "any"},
+      {"t": "2015. Still gives me goosebumps.", "m": "The first premiership never gets old.", "when": "any"},
+      {"t": "Footy in Townsville on a warm night. Can't beat it.", "m": "Local pride: home games are the city's big night out.", "when": "any"},
+      {"t": "Townsville will be humming tonight.", "m": "After a big home win.", "when": "win"},
+      {"t": "Long trip home after that one.", "m": "The grumble after an away loss. North Queensland travels further than anyone.", "when": "loss"},
+      {"t": "Beat the Broncos and the whole state hears about it.", "m": "The Queensland derby.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Grand final week", "means": "When the Cowboys make the decider, Townsville turns blue, grey and yellow, and the team comes home to a street party."},
+      {"name": "The Paul Bowman Medal", "means": "The club's player of the year award, given at the end-of-season ball and named after club great Paul Bowman."}
+    ],
+    "sore": [
+      {"topic": "Lost grand finals", "why": "Beaten by Wests Tigers in 2005 and by the Storm in 2017."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Cowboys are from Cairns", "instead": "the Cowboys are from Townsville", "why": "The club is based in Townsville, though it speaks for the whole north."},
+      {"say": "the Cowboys have never won it", "instead": "2015, in golden point", "why": "They won the 2015 premiership, and fans will tell you all about it."},
+      {"say": "the Dallas Cowboys", "instead": "the Cowboys", "why": "Nobody in Townsville means the NFL team."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_Queensland_Cowboys",
+      "https://en.wikipedia.org/wiki/2015_NRL_Grand_Final",
+      "https://www.nrl.com/news/2015/10/06/party-time-in-townsville-as-cowboys-return/",
+      "https://nrl.com/news/2025/05/14/cowboys-out-to-put-north-queensland-on-the-map-in-us"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Dolphins",
+    "espnId": "289346",
+    "league": "rugby-league/3",
+    "region": "au-queensland",
+    "aliases": ["dolphins", "the dolphins", "phins", "redcliffe", "redcliffe dolphins"],
+    "nickname": "the Phins",
+    "fans": "",
+    "ground": "Suncorp Stadium, with some games at Kayo Stadium in Redcliffe",
+    "rivals": [
+      {"team": "Brisbane Broncos", "name": "the Broncos", "derby": "the Battle for Brisbane"}
+    ],
+    "legends": ["Arthur Beetson", "Petero Civoniceva"],
+    "memory": "2026: came back from 24-0 down to beat the Broncos 40-32, sealing a first finals series that went all the way to a preliminary final",
+    "lingo": [
+      {"term": "Phins", "say": "FINZ", "ipa": "fɪnz", "tts": "fins", "means": "Short for Dolphins. What fans call the team."},
+      {"term": "Phins Up", "say": "FINZ UP", "ipa": "fɪnz ˈʌp", "tts": "fins up", "means": "The club's catchcry and hashtag. Fans sign off with it."},
+      {"term": "the Battle for Brisbane", "say": "the BAT-ul faw BRIZ-bun", "ipa": "ðə ˈbætl̩ fə ˈbrɪzbən", "tts": "the battle for brizbun", "means": "Games against the Broncos. Some call it the Battle of Brisbane."},
+      {"term": "Redcliffe", "say": "RED-klif", "ipa": "ˈrɛdklɪf", "tts": "", "means": "The peninsula north of Brisbane where the club began in 1947 and still trains."},
+      {"term": "Kayo Stadium", "say": "KAY-oh STAY-dee-um", "ipa": "ˈkeɪəʊ ˈsteɪdiəm", "tts": "", "means": "The club's Redcliffe ground, once Dolphin Oval. Smaller home games are played there."}
+    ],
+    "lines": [
+      {"t": "Phins up!", "m": "The club's catchcry. Works as hello or goodbye on game day.", "when": "any"},
+      {"t": "Redcliffe was making footballers before the Broncos existed.", "m": "Pride in the club's long history; it was founded in 1947, the Broncos in 1988.", "when": "any"},
+      {"t": "Brisbane's big enough for two clubs.", "m": "The standard reply to Broncos fans.", "when": "any"},
+      {"t": "Four seasons in and we made a prelim. Not bad.", "m": "Pride in the 2026 finals run, in the club's fourth NRL season.", "when": "any"},
+      {"t": "Two more points for the Peninsula.", "m": "After a win. Locals call the Redcliffe area the Peninsula.", "when": "win"},
+      {"t": "Still a young club. We'll get there.", "m": "The patient line after a defeat; the Dolphins only joined in 2023.", "when": "loss"},
+      {"t": "Twenty-four nil down and we still beat them.", "m": "The 2026 comeback against the Broncos. Use it on Broncos fans.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'The Mighty Mighty Dolphins'", "means": "Fans sing the club song at home games after a win."},
+      {"name": "Phinny", "means": "The dolphin mascot, picked by a fan vote in 2022."}
+    ],
+    "sore": [
+      {"topic": "The 2026 preliminary final", "why": "The first finals run ended with a 36-20 loss to the Roosters at Suncorp."}
+    ],
+    "pronounce": [
+      {"word": "Petero Civoniceva", "say": "peh-TEH-roh thee-voh-nee-THEH-vah", "ipa": "pɛˈtɛrɔ ðivoniˈðɛva", "tts": "peh teh roh thee voh nee they vah", "why": "Redcliffe junior and Queensland great. In Fijian the 'c' sounds like the 'th' in 'this'."}
+    ],
+    "avoid": [
+      {"say": "the Redcliffe Dolphins", "instead": "the Dolphins", "why": "That's the Queensland Cup side. The NRL club is just the Dolphins."},
+      {"say": "the Brisbane Dolphins", "instead": "the Dolphins", "why": "The club's name has no city in it."},
+      {"say": "the Dolphins are a new club", "instead": "the Dolphins go back to 1947", "why": "The NRL side is new, but Redcliffe fans are proud of the club's long history."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dolphins_(NRL)",
+      "https://en.wikipedia.org/wiki/Battle_for_Brisbane_(rugby_league)",
+      "https://www.dolphinsnrl.com.au/news/2025/02/28/2025-heritage-jersey-honouring-the-past-writing-our-future/",
+      "https://en.wikipedia.org/wiki/Petero_Civoniceva",
+      "https://moretondaily.com.au/news/whos-who-of-22-sport-petero-civoniceva"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "St George Illawarra Dragons",
+    "espnId": "289209",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["dragons", "st george", "st george illawarra", "saints", "red v", "illawarra", "the dragons", "sgi"],
+    "nickname": "the Dragons",
+    "fans": "",
+    "ground": "Jubilee Stadium (Kogarah) and WIN Stadium (Wollongong)",
+    "rivals": [
+      {"team": "Cronulla-Sutherland Sharks", "name": "the Sharks", "derby": ""},
+      {"team": "Sydney Roosters", "name": "the Roosters", "derby": "the Anzac Day game"},
+      {"team": "South Sydney Rabbitohs", "name": "Souths", "derby": "the Charity Shield"}
+    ],
+    "legends": ["Reg Gasnier", "Johnny Raper", "Graeme Langlands", "Norm Provan"],
+    "memory": "1956-1966: St George won eleven premierships in a row, a record nobody has come near",
+    "lingo": [
+      {"term": "the Red V", "say": "the RED VEE", "ipa": "ðə ˌrɛd ˈviː", "tts": "", "means": "The white jersey with the red V, based on St George's 1945 strip. Fans use it for the team too."},
+      {"term": "Saints", "say": "SAYNTS", "ipa": "", "tts": "", "means": "The old St George name for the club. Older fans still say it."},
+      {"term": "the Steelers", "say": "the STEE-luz", "ipa": "", "tts": "", "means": "The Illawarra Steelers, Wollongong's old club, which joined St George in 1999 to form the Dragons."},
+      {"term": "eleven straight", "say": "ih-LEV-un STRAYT", "ipa": "", "tts": "", "means": "St George's eleven premierships in a row, 1956 to 1966."},
+      {"term": "Changa", "say": "CHANG-uh", "ipa": "ˈtʃæŋə", "tts": "chang uh", "means": "Graeme Langlands, the great fullback of the eleven-straight era."},
+      {"term": "Jubilee", "say": "JOO-buh-lee", "ipa": "", "tts": "", "means": "Jubilee Stadium at Kogarah, St George's home ground since 1950. Fans say 'Jubilee' or just 'Kogarah'."}
+    ],
+    "lines": [
+      {"t": "Eleven in a row. Nobody will ever do that again.", "m": "The 1956-66 run is the club's proudest boast.", "when": "any"},
+      {"t": "Kogarah on a Sunday arvo. That's proper footy.", "m": "Fans love the suburban ground.", "when": "any"},
+      {"t": "Wollongong's half this club. Don't forget it.", "m": "The Illawarra half of the joint venture matters to fans down the coast.", "when": "any"},
+      {"t": "Once you've worn the Red V, you're family.", "m": "Pride in the famous jersey.", "when": "any"},
+      {"t": "The Red V's back!", "m": "After a good win.", "when": "win"},
+      {"t": "We need a rebuild, top to bottom.", "m": "The common moan, louder since the 2026 wooden spoon.", "when": "loss"},
+      {"t": "Anzac Day against the Roosters. Biggest game of the year.", "m": "The 25 April clash is the season's highlight.", "when": "rival"},
+      {"t": "Beat the Sharks and the south's ours.", "m": "The southern Sydney derby with Cronulla.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Anzac Day game", "means": "The Dragons and the Roosters meet every 25 April, with a pre-game service and one of the biggest crowds of the year."},
+      {"name": "The Charity Shield", "means": "The long-running match against South Sydney, first played with the old St George club."},
+      {"name": "Heritage Round", "means": "The red-and-white 'blood and bandages' jersey comes out, a nod to St George's 1921 strip."}
+    ],
+    "sore": [
+      {"topic": "The 2026 wooden spoon", "why": "The club's first ever spoon, after losing its first twelve games."},
+      {"topic": "The 1999 grand final", "why": "Lost 20-18 to the Storm after a late penalty try."}
+    ],
+    "pronounce": [
+      {"word": "Wollongong", "say": "WOOL-un-gong", "ipa": "ˈwʊlənɡɒŋ", "tts": "wool un gong", "why": "Home of WIN Stadium. Locals say WOOL-un-gong, not WALL-on-gong."}
+    ],
+    "avoid": [
+      {"say": "St George Dragons", "instead": "St George Illawarra, or the Dragons", "why": "It's been a joint venture with Illawarra since 1999; leave Wollongong out and someone will mind."},
+      {"say": "the Dragons have always been battlers", "instead": "St George won eleven straight", "why": "The club's history is full of titles."},
+      {"say": "the Dragons play in Wollongong", "instead": "Kogarah and Wollongong", "why": "Home games are split between the two grounds."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St._George_Illawarra_Dragons",
+      "https://www.dragons.com.au/news/2026/04/01/st-george-venues-secures-naming-rights-for-jubilee-stadium/",
+      "https://www.nrl.com/news/2026/04/25/anzac-day-dragons-v-roosters-warriors-v-dolphins-storm-v-rabbitohs/",
+      "https://en.wikipedia.org/wiki/Wollongong"
+    ],
+    "unsure": ["pronounce: Kogarah left out; no reliable source for how locals stress it"]
+  },
+  {
+    "team": "Parramatta Eels",
+    "espnId": "289194",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["eels", "parra", "parramatta", "parramatta eels", "the eels"],
+    "nickname": "Parra",
+    "fans": "the Blue and Gold Army",
+    "ground": "CommBank Stadium (Western Sydney Stadium)",
+    "rivals": [
+      {"team": "Canterbury-Bankstown Bulldogs", "name": "the Dogs", "derby": ""},
+      {"team": "Penrith Panthers", "name": "Penrith", "derby": "the Western Sydney derby"},
+      {"team": "Manly Warringah Sea Eagles", "name": "Manly", "derby": ""}
+    ],
+    "legends": ["Peter Sterling", "Ray Price", "Brett Kenny", "Nathan Hindmarsh"],
+    "memory": "1981: the first premiership, celebrated by fans setting the old Cumberland Oval grandstand alight",
+    "lingo": [
+      {"term": "Parra", "say": "PARR-uh", "ipa": "ˈpærə", "tts": "", "means": "The club and the city. Fans rarely say 'Parramatta' in full."},
+      {"term": "the Blue and Gold Army", "say": "the BLOO and GOHLD AR-mee", "ipa": "", "tts": "", "means": "What Eels fans call themselves: loyal and long-suffering."},
+      {"term": "Sterlo", "say": "STER-loh", "ipa": "ˈstɜːləʊ", "tts": "", "means": "Peter Sterling, the halfback of the 1980s premiership sides."},
+      {"term": "Mr Perpetual Motion", "say": "MIS-tuh puh-PET-choo-ul MOH-shun", "ipa": "", "tts": "", "means": "Ray Price, the tireless lock of the 1980s sides."},
+      {"term": "since '86", "say": "sins AY-tee-SIKS", "ipa": "ˈsɪns ˌeɪti ˈsɪks", "tts": "since eighty six", "means": "The drought. Parra's last premiership was 1986."},
+      {"term": "the Western Sydney derby", "say": "the WES-tun SID-nee DAR-bee", "ipa": "ðə ˈwɛstən ˈsɪdni ˈdɑːbi", "tts": "the western sydney darby", "means": "Games against Penrith. The 2022 grand final made it sharper."}
+    ],
+    "lines": [
+      {"t": "This is our year.", "m": "Every Parra fan says it every season, with hope and a wink.", "when": "any"},
+      {"t": "Since '86, mate. Since '86.", "m": "The drought, said with a sigh.", "when": "any"},
+      {"t": "Sterlo and Kenny. That was football.", "m": "Fond memories of the 1980s halves.", "when": "any"},
+      {"t": "When CommBank's full, there's no better ground.", "m": "Pride in the home ground in the middle of Parramatta.", "when": "any"},
+      {"t": "That's the Parra I know. Now keep it up.", "m": "After a good win, with a nervous edge.", "when": "win"},
+      {"t": "Typical Parra. Get your hopes up and they let you down.", "m": "The classic grumble.", "when": "loss"},
+      {"t": "Beat the Dogs and I'll be happy all week.", "m": "Canterbury are the oldest enemy.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The 1981 bonfire", "means": "When Parramatta won its first premiership, fans set fire to the old Cumberland Oval grandstand, which was due to be knocked down anyway. Still the stuff of legend."}
+    ],
+    "sore": [
+      {"topic": "The drought", "why": "No premiership since 1986. Fans joke about it; outsiders shouldn't."},
+      {"topic": "Lost grand finals", "why": "2001 to Newcastle as minor premiers, 2009 to the Storm and 2022 to Penrith."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Eels last won it in 2009", "instead": "1986", "why": "They lost the 2009 grand final. The last title was 1986."},
+      {"say": "Parramatta Stadium", "instead": "CommBank", "why": "The old ground was knocked down; CommBank Stadium was built on the site."},
+      {"say": "Penrith and Parra get along", "instead": "the Western Sydney derby", "why": "They're neighbours and rivals, and the 2022 grand final still stings."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Parramatta_Eels",
+      "https://www.nrl.com/news/2026/04/17/legendary-lessons-1986-heroes-guiding-eels-through-tough-patch/",
+      "https://africa.espn.com/nrl/story/_/id/34686504/nrl-grand-final-shared-agony-joy-being-parramatta-eels-fan",
+      "https://www.parraeels.com.au/history/honours-and-records/hall-of-fame/peter-sterling-oam/",
+      "https://en.wikipedia.org/wiki/Parramatta"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Newcastle Knights",
+    "espnId": "289207",
+    "league": "rugby-league/3",
+    "region": "au-newcastle",
+    "aliases": ["knights", "newcastle", "newcastle knights", "the knights", "newy"],
+    "nickname": "the Knights",
+    "fans": "",
+    "ground": "McDonald Jones Stadium (Newcastle International Sports Centre)",
+    "rivals": [
+      {"team": "Manly Warringah Sea Eagles", "name": "Manly", "derby": ""}
+    ],
+    "legends": ["Andrew Johns", "Paul Harragon", "Matthew Johns", "Robbie O'Davis"],
+    "memory": "1997: Darren Albert scored seconds from full-time to beat Manly 22-16 for the club's first premiership",
+    "lingo": [
+      {"term": "Joey", "say": "JOH-ee", "ipa": "ˈdʒəʊi", "tts": "", "means": "Andrew Johns, the halfback and Immortal. The club's greatest player."},
+      {"term": "the Chief", "say": "the CHEEF", "ipa": "", "tts": "", "means": "Paul Harragon, the hard-running prop who captained the 1997 premiers."},
+      {"term": "Albert's try", "say": "AL-butz TRY", "ipa": "", "tts": "", "means": "Darren Albert's winner in the 1997 grand final, seven seconds from full-time. Every Knights fan can describe it."},
+      {"term": "the red and blue", "say": "the RED and BLOO", "ipa": "", "tts": "", "means": "The club colours. The city turns red and blue in finals time."}
+    ],
+    "lines": [
+      {"t": "Joey was the best halfback there's ever been.", "m": "Knights fans will hear no argument.", "when": "any"},
+      {"t": "This town lives and breathes the Knights.", "m": "Newcastle is a league town first.", "when": "any"},
+      {"t": "Albert in the corner, '97. Best moment this city's had.", "m": "Every fan remembers where they were.", "when": "any"},
+      {"t": "From the spoon to the grand final in a year. What a ride.", "m": "Pride in the 2026 run, even with the one-point loss.", "when": "any"},
+      {"t": "Red and blue all over town tonight.", "m": "After a big win.", "when": "win"},
+      {"t": "One point. Still hurts.", "m": "The 2026 grand final, lost 19-18 to the Roosters. Fits any narrow loss.", "when": "loss"},
+      {"t": "Manly again? Remember '97.", "m": "The 1997 grand final upset of Manly.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Go Hard, Go Knights'", "means": "The club song, in use since 1995."},
+      {"name": "Homecomings", "means": "After the 1997 win the city partied for a week. Fans line the streets to farewell and welcome the team in big finals runs."}
+    ],
+    "sore": [
+      {"topic": "The 2026 grand final", "why": "Led the Roosters 12-0 and lost 19-18. Still raw."},
+      {"topic": "Wooden spoons", "why": "Five of them, including three in a row from 2015 to 2017, and another in 2025."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Newcastle Jets", "instead": "the Knights", "why": "The Jets are the A-League football club."},
+      {"say": "Newcastle's basically Sydney", "instead": "Newcastle's its own city", "why": "Knights fans are proud they're not a Sydney club."},
+      {"say": "Matty was the better Johns", "instead": "Joey", "why": "Matthew was a fine player, but Andrew is the Immortal."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Newcastle_Knights",
+      "https://www.newcastleknights.com.au/about/club-history/hall-of-fame/paul-harragon/",
+      "https://www.newcastleknights.com.au/news/2020/08/13/the-week-long-party-that-stopped-a-city/",
+      "https://nrl.com/news/2020/12/01/1997-grand-final-rewind-how-knights-defied-odds-to-upset-manly",
+      "https://www.1news.co.nz/2026/10/05/roosters-edge-knights-to-claim-first-nrl-title-in-seven-years/"
+    ],
+    "unsure": ["rivals: no formal rivalry found; Manly listed for the 1997 grand final"]
+  },
+  {
+    "team": "Penrith Panthers",
+    "espnId": "289199",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["panthers", "penrith", "penrith panthers", "the panthers", "the riff"],
+    "nickname": "the Panthers",
+    "fans": "",
+    "ground": "Penrith Stadium, rebuilt as HelloWorld Stadium for 2027 (CommBank Stadium in 2025 and 2026)",
+    "rivals": [
+      {"team": "Parramatta Eels", "name": "Parra", "derby": "the Western Sydney derby"},
+      {"team": "Melbourne Storm", "name": "the Storm", "derby": ""}
+    ],
+    "legends": ["Royce Simmons", "Greg Alexander", "Mark Geyer"],
+    "memory": "2021-2024: four premierships in a row, the four-peat",
+    "lingo": [
+      {"term": "the four-peat", "say": "the FAW-peet", "ipa": "ðə ˈfɔːpiːt", "tts": "the four peet", "means": "Four straight premierships, 2021 to 2024."},
+      {"term": "the Riff", "say": "the RIF", "ipa": "ðə ˈrɪf", "tts": "", "means": "Nickname for Penrith and the team, from 'Penriff'. Used with a grin by locals and other fans."},
+      {"term": "the Mountain Men", "say": "the MOWN-tun MEN", "ipa": "", "tts": "", "means": "Old nickname: Penrith sits at the foot of the Blue Mountains."},
+      {"term": "the Chocolate Soldiers", "say": "the CHOK-lut SOHL-juz", "ipa": "", "tts": "", "means": "The old nickname from the brown-and-white jersey years."},
+      {"term": "the Pink Panthers", "say": "the PINK PAN-thuz", "ipa": "", "tts": "", "means": "The pink jersey, now the permanent away strip."},
+      {"term": "Brandy", "say": "BRAN-dee", "ipa": "", "tts": "", "means": "Greg Alexander, the Penrith junior and star of the 1991 premiership side."}
+    ],
+    "lines": [
+      {"t": "Four in a row. Let that sink in.", "m": "Fans never tire of the 2021-24 run.", "when": "any"},
+      {"t": "Local juniors from the foot of the mountains. That's how we built it.", "m": "Pride in the club's junior system.", "when": "any"},
+      {"t": "Can't wait to get back to Penrith.", "m": "The club played at Parramatta while its own ground was rebuilt; it's due home in 2027.", "when": "any"},
+      {"t": "Too good. Business as usual.", "m": "After a win; Panthers fans have got used to winning.", "when": "win"},
+      {"t": "Every team lifts for Penrith.", "m": "The fans' reasoning after a loss: everyone gets up for the champs.", "when": "loss"},
+      {"t": "Parra fans still can't talk about 2022.", "m": "Penrith beat the Eels 28-12 in the 2022 grand final.", "when": "rival"},
+      {"t": "The Storm again? Remember 2024.", "m": "Penrith beat Melbourne 14-6 in the 2024 grand final.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Royce's last game", "means": "In 1991 Royce Simmons scored two tries in his final game to win the club's first premiership. Fans still tell it."},
+      {"name": "The pink jersey", "means": "Worn away from home and in the Women in League round."}
+    ],
+    "sore": [
+      {"topic": "The 2026 preliminary final", "why": "Minor premiers, then beaten by the Knights a week short of the grand final."},
+      {"topic": "The 2020 grand final", "why": "Lost 26-20 to the Storm, the start of a long rivalry."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Panthers are from the Blue Mountains", "instead": "Penrith, at the foot of the mountains", "why": "Penrith is on the plain below the mountains."},
+      {"say": "BlueBet Stadium", "instead": "Penrith Stadium, or HelloWorld Stadium from 2027", "why": "The old ground was rebuilt and renamed."},
+      {"say": "Penrith just got lucky", "instead": "Penrith built that from its juniors", "why": "The four-peat came from a junior system fans are proud of."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Penrith_Panthers",
+      "https://www.austadiums.com/news/1678/helloworld-travel-secures-naming-rights-for-new-penrith-stadium",
+      "https://themilk.substack.com/p/up-the-milk-n-all-and-welcome-back",
+      "https://www.newcastleherald.com.au/story/6980470/colours-are-clear-for-hunter-footy-fans-as-the-nrl-grand-final-nears",
+      "https://en.wikipedia.org/wiki/2026_NRL_season"
+    ],
+    "unsure": ["lingo: 'the Riff' is listed as a club nickname and used by fans, but no source explains who coined it"]
+  },
+  {
+    "team": "South Sydney Rabbitohs",
+    "espnId": "289205",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["rabbitohs", "souths", "south sydney", "bunnies", "rabbits", "south sydney rabbitohs", "the bunnies"],
+    "nickname": "Souths",
+    "fans": "",
+    "ground": "Accor Stadium (Homebush), with some games at Allianz Stadium from 2027",
+    "rivals": [
+      {"team": "Sydney Roosters", "name": "Easts", "derby": ""},
+      {"team": "Canterbury-Bankstown Bulldogs", "name": "the Dogs", "derby": "the Good Friday game"},
+      {"team": "St George Illawarra Dragons", "name": "the Dragons", "derby": "the Charity Shield"}
+    ],
+    "legends": ["Clive Churchill", "John Sattler", "Ron Coote", "Greg Inglis"],
+    "memory": "2014: beat the Bulldogs 30-6 in the grand final, ending a 43-year wait for a premiership",
+    "lingo": [
+      {"term": "Rabbitohs", "say": "RAB-ih-tohz", "ipa": "ˈræbɪtəʊz", "tts": "", "means": "After the rabbit sellers of old inner Sydney, who called 'rabbit-oh' as they went."},
+      {"term": "the Bunnies", "say": "the BUN-eez", "ipa": "", "tts": "", "means": "The everyday nickname. Fans and rivals both use it."},
+      {"term": "the Burrow", "say": "the BUR-oh", "ipa": "", "tts": "", "means": "The club's official supporter group, and the fans as a whole."},
+      {"term": "the Pride of the League", "say": "the PRIDE uv the LEEG", "ipa": "", "tts": "", "means": "The club's proud old title. Souths have won 21 premierships, more than anyone."},
+      {"term": "cardinal and myrtle", "say": "KAR-dn-ul and MER-tul", "ipa": "", "tts": "", "means": "The club's red and green, by their proper old names."},
+      {"term": "the Little Master", "say": "the LIT-ul MAH-stuh", "ipa": "", "tts": "", "means": "Clive Churchill, the great fullback. The grand final player-of-the-match medal is named after him."},
+      {"term": "Redfern", "say": "RED-fern", "ipa": "ˈrɛdfɜːn", "tts": "", "means": "The club's heartland. Redfern Oval was home until 1988."}
+    ],
+    "lines": [
+      {"t": "Twenty-one premierships. Nobody's got more.", "m": "Souths' favourite fact.", "when": "any"},
+      {"t": "They kicked us out and we fought our way back.", "m": "Souths were excluded for 2000 and 2001 and won back their place in court. Fans are proud of the fight.", "when": "any"},
+      {"t": "Redfern's where the heart of this club is.", "m": "Pride in the club's roots.", "when": "any"},
+      {"t": "Get the red and green out, we're on.", "m": "After a win.", "when": "win"},
+      {"t": "We've been through worse. We'll be back.", "m": "The resilient line after a defeat.", "when": "loss"},
+      {"t": "Beat Easts and the season's a success.", "m": "The Roosters are the oldest enemy.", "when": "rival"},
+      {"t": "Good Friday against the Dogs. Can't wait.", "m": "The Good Friday clash with Canterbury.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Glory Glory to South Sydney'", "means": "The club song, played as the team runs out and after home wins."},
+      {"name": "Good Friday", "means": "Souths host Canterbury every Good Friday at Accor Stadium, one of the biggest crowds of the year."}
+    ],
+    "sore": [
+      {"topic": "The 2021 grand final", "why": "Lost 14-12 to Penrith."},
+      {"topic": "The 43 years", "why": "No title between 1971 and 2014. Fans lived through it; rivals never let them forget."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the South Sydney Swans", "instead": "Souths, or the Rabbitohs", "why": "The Swans are the AFL club."},
+      {"say": "the Roosters are alright", "instead": "Easts", "why": "The Roosters are the oldest enemy."},
+      {"say": "Souths play at Redfern", "instead": "Accor Stadium", "why": "Redfern Oval is the old home; first-grade games left in 1988."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/South_Sydney_Rabbitohs",
+      "https://aapnews.aap.com.au/news/souths-to-return-to-allianz-in-split-home-system",
+      "https://www.sen.com.au/news/2026/03/24/nrl-2026-south-sydney-to-host-home-matches-at-allianz-stadium-from-2027",
+      "https://www.rabbitohs.com.au/news/2026-nrl-draw-unveiled"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Canberra Raiders",
+    "espnId": "289198",
+    "league": "rugby-league/3",
+    "region": "au-canberra",
+    "aliases": ["raiders", "canberra", "canberra raiders", "the raiders", "green machine", "the milk"],
+    "nickname": "the Raiders",
+    "fans": "",
+    "ground": "GIO Stadium (Canberra Stadium) in Bruce",
+    "rivals": [
+      {"team": "Penrith Panthers", "name": "Penrith", "derby": ""},
+      {"team": "Sydney Roosters", "name": "the Roosters", "derby": ""},
+      {"team": "Canterbury-Bankstown Bulldogs", "name": "the Dogs", "derby": ""}
+    ],
+    "legends": ["Bradley Clyde", "Gary Belcher", "Steve Walters", "Jarrod Croker"],
+    "memory": "1989: beat Balmain 19-14 in extra time, the first premiership won by a club from outside Sydney",
+    "lingo": [
+      {"term": "the Green Machine", "say": "the GREEN muh-SHEEN", "ipa": "", "tts": "", "means": "The team's nickname, from the lime-green jersey."},
+      {"term": "the Milk", "say": "the MILK", "ipa": "", "tts": "", "means": "Nickname from the long-time Canberra Milk jersey sponsor. 'Up the Milk' is the fans' cry."},
+      {"term": "the Viking clap", "say": "the VY-king KLAP", "ipa": "", "tts": "", "means": "The slow, building clap as the team runs out, borrowed from Iceland's football fans in 2016."},
+      {"term": "Bruce", "say": "BROOS", "ipa": "", "tts": "", "means": "The suburb where the ground is. Locals still say Bruce Stadium, or just Bruce."},
+      {"term": "Big Mal", "say": "BIG MAL", "ipa": "ˌbɪɡ ˈmæl", "tts": "", "means": "Mal Meninga, the great centre of the premiership years."},
+      {"term": "Victor the Viking", "say": "VIK-tuh the VY-king", "ipa": "", "tts": "", "means": "The mascot since 1983."}
+    ],
+    "lines": [
+      {"t": "Up the Milk!", "m": "The fans' cry, from the old Canberra Milk sponsorship.", "when": "any"},
+      {"t": "Get there early for the Viking clap.", "m": "The pre-game ritual at Bruce.", "when": "any"},
+      {"t": "Freezing night at Bruce. Best atmosphere in the comp.", "m": "Canberra winters are cold, and fans are proud of it.", "when": "any"},
+      {"t": "'89, '90, '94. That's the Green Machine.", "m": "The club's three premierships.", "when": "any"},
+      {"t": "The Green Machine's rolling.", "m": "After a win.", "when": "win"},
+      {"t": "Still not over the six-again call.", "m": "The 2019 grand final decision. Raiders fans still bring it up after a loss that felt unfair.", "when": "loss"},
+      {"t": "Penrith again. We beat them in '90, don't forget.", "m": "The rivalry from the 1990 and 1991 grand finals.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Viking clap", "means": "Fans raise their arms and clap in unison, slow then fast, as the Raiders run out. A former captain sometimes starts it on the Viking horn."}
+    ],
+    "sore": [
+      {"topic": "The 2019 grand final", "why": "Lost 14-8 to the Roosters after the referee signalled six again, then changed his mind."},
+      {"topic": "No title since 1994", "why": "Even finishing top in 2025 didn't end the wait."}
+    ],
+    "pronounce": [
+      {"word": "Queanbeyan", "say": "KWEEN-bee-un", "ipa": "ˈkwiːnbiən", "tts": "queen bee un", "why": "The NSW town next to Canberra where the Raiders played at Seiffert Oval from 1982 to 1989. Outsiders say kwee-AN-bee-un."}
+    ],
+    "avoid": [
+      {"say": "the Brumbies", "instead": "the Raiders", "why": "The Brumbies are Canberra's rugby union side."},
+      {"say": "Canberra Stadium in the city", "instead": "Bruce", "why": "The ground is in the suburb of Bruce, not the city centre."},
+      {"say": "only Sydney clubs win titles", "instead": "Canberra did it first, in 1989", "why": "The Raiders were the first club from outside Sydney to win the premiership."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canberra_Raiders",
+      "https://www.raiders.com.au/news/2017/05/05/viking-clap-versus-haka-/",
+      "https://themilk.substack.com/p/up-the-milk-n-all-and-welcome-back",
+      "https://www.canberratimes.com.au/story/6409695/canberra-fans-mark-raiders-territory",
+      "https://en.wikipedia.org/wiki/Queanbeyan"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Sydney Roosters",
+    "espnId": "289204",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["roosters", "sydney roosters", "easts", "chooks", "eastern suburbs", "tricolours", "the roosters"],
+    "nickname": "the Chooks",
+    "fans": "",
+    "ground": "Allianz Stadium (the Sydney Football Stadium), Moore Park",
+    "rivals": [
+      {"team": "South Sydney Rabbitohs", "name": "Souths", "derby": ""},
+      {"team": "St George Illawarra Dragons", "name": "the Dragons", "derby": "the Anzac Day game"},
+      {"team": "Melbourne Storm", "name": "the Storm", "derby": ""}
+    ],
+    "legends": ["Dally Messenger", "Arthur Beetson", "Brad Fittler", "Anthony Minichiello"],
+    "memory": "2026: came from 12-0 down to beat the Knights 19-18 in the grand final for a 16th premiership",
+    "lingo": [
+      {"term": "the Chooks", "say": "the CHOOKS", "ipa": "ðə ˈtʃʊks", "tts": "", "means": "The everyday nickname. A chook is Australian for a chicken."},
+      {"term": "Easts", "say": "EESTS", "ipa": "", "tts": "", "means": "The club's old name, Eastern Suburbs. Old fans and Souths fans still say it."},
+      {"term": "the Tricolours", "say": "the TRY-kul-uz", "ipa": "", "tts": "", "means": "From the red, white and blue jersey."},
+      {"term": "the Chook Pen", "say": "the CHOOK PEN", "ipa": "ðə ˈtʃʊk ˈpɛn", "tts": "", "means": "The unreserved members' bays at Allianz Stadium, the loudest part of the ground."},
+      {"term": "Freddy", "say": "FRED-ee", "ipa": "", "tts": "", "means": "Brad Fittler, captain of the 2002 premiers."},
+      {"term": "the Ron Coote Cup", "say": "the RON KOOT KUP", "ipa": "", "tts": "", "means": "The trophy for games against Souths."}
+    ],
+    "lines": [
+      {"t": "Sixteen premierships and counting.", "m": "After the 2026 title.", "when": "any"},
+      {"t": "Twelve-nil down in a grand final and we still won it.", "m": "The 2026 comeback against Newcastle.", "when": "any"},
+      {"t": "Allianz on a Friday night. Best ground in Sydney.", "m": "Pride in the rebuilt stadium at Moore Park.", "when": "any"},
+      {"t": "Too good, Chooks!", "m": "After a win.", "when": "win"},
+      {"t": "We'll be right. We always bounce back.", "m": "The confident shrug after a loss.", "when": "loss"},
+      {"t": "Souths can keep the history. We've got the trophy.", "m": "Banter with Rabbitohs fans, who boast of 21 titles.", "when": "rival"},
+      {"t": "Anzac Day. Game of the year.", "m": "The 25 April clash with the Dragons.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Anzac Day game", "means": "The Roosters and the Dragons meet every 25 April at Allianz Stadium, with a pre-game service and a huge crowd."},
+      {"name": "The Chook Pen", "means": "Members stand together in the unreserved bays and lead the noise."}
+    ],
+    "sore": [
+      {"topic": "The 2010 grand final", "why": "Thrashed 32-8 by the Dragons."},
+      {"topic": "'Buying' titles", "why": "Rival fans say the Roosters buy premierships with big signings. Fans are sick of hearing it."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Roosters are a new club", "instead": "Easts go back to 1908", "why": "As Eastern Suburbs, they played in the first season."},
+      {"say": "the Roosters play at the SCG", "instead": "Allianz Stadium", "why": "The SCG is next door; the Roosters play at the football stadium."},
+      {"say": "Souths and the Roosters get along", "instead": "Souths are the enemy", "why": "It's the fiercest grudge match in Sydney."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sydney_Roosters",
+      "https://roosters.com.au/news/2016/02/19/the-chook-pen",
+      "https://www.1news.co.nz/2026/10/05/roosters-edge-knights-to-claim-first-nrl-title-in-seven-years/",
+      "https://www.nrl.com/news/2026/04/25/anzac-day-dragons-v-roosters-warriors-v-dolphins-storm-v-rabbitohs/",
+      "https://en.wiktionary.org/wiki/chook"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Manly Warringah Sea Eagles",
+    "espnId": "289196",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["manly", "sea eagles", "manly sea eagles", "manly warringah", "manly-warringah", "the sea eagles", "silvertails"],
+    "nickname": "Manly",
+    "fans": "",
+    "ground": "4 Pines Park (Brookvale Oval), known to all as Brookie",
+    "rivals": [
+      {"team": "Parramatta Eels", "name": "Parra", "derby": ""},
+      {"team": "Melbourne Storm", "name": "the Storm", "derby": ""},
+      {"team": "Cronulla-Sutherland Sharks", "name": "the Sharks", "derby": "the Battle of the Beaches"}
+    ],
+    "legends": ["Bob Fulton", "Graham Eadie", "Steve Menzies", "Cliff Lyons"],
+    "memory": "2008: beat the Storm 40-0, the biggest winning margin in a grand final",
+    "lingo": [
+      {"term": "Brookie", "say": "BROOK-ee", "ipa": "ˈbrʊki", "tts": "", "means": "Brookvale Oval, whatever the sponsor calls it. Home games at Brookie are a Northern Beaches day out."},
+      {"term": "Fortress Brookvale", "say": "FAW-trus BROOK-vayl", "ipa": "ˈfɔːtrəs ˈbrʊkveɪl", "tts": "", "means": "Fans' name for the ground when the team is hard to beat at home."},
+      {"term": "the Silvertails", "say": "the SIL-vuh-taylz", "ipa": "", "tts": "", "means": "Old jibe from rival fans, casting Manly as the rich club from the beaches. Some Manly fans now wear it proudly."},
+      {"term": "Bozo", "say": "BOH-zoh", "ipa": "ˈbəʊzəʊ", "tts": "", "means": "Bob Fulton, a Manly great as player and coach."},
+      {"term": "Beaver", "say": "BEE-vuh", "ipa": "", "tts": "", "means": "Steve Menzies, the try-scoring back-rower."},
+      {"term": "the Battle of Brookvale", "say": "the BAT-ul uv BROOK-vayl", "ipa": "ðə ˈbætl̩ əv ˈbrʊkveɪl", "tts": "", "means": "The 2011 brawl with the Storm at Brookie that sealed a grudge."}
+    ],
+    "lines": [
+      {"t": "Nothing beats Brookie on a sunny Sunday.", "m": "Fans love their old suburban ground.", "when": "any"},
+      {"t": "Forty-nil in a grand final. Look it up.", "m": "The 2008 thrashing of the Storm.", "when": "any"},
+      {"t": "Call us silvertails if you like. We've got the trophies.", "m": "Turning the old jibe around.", "when": "any"},
+      {"t": "Fortress Brookie!", "m": "After a home win.", "when": "win"},
+      {"t": "Can't string two wins together. Same as ever.", "m": "Grumble after a loss.", "when": "loss"},
+      {"t": "Any day we beat the Storm is a good day.", "m": "The rivalry since the 2007 and 2008 grand finals.", "when": "rival"},
+      {"t": "Parra again. We've always had their number.", "m": "The old rivalry with the Eels, including a 54-0 win in 2018.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The hill at Brookie", "means": "Fans spread out on the grass hill along one side of the ground on sunny afternoons."}
+    ],
+    "sore": [
+      {"topic": "The Northern Eagles", "why": "The 2000-02 merger with North Sydney collapsed. Nobody likes remembering it."},
+      {"topic": "1997", "why": "Lost the grand final to Newcastle to a try seven seconds from the end."}
+    ],
+    "pronounce": [
+      {"word": "Warringah", "say": "wuh-RING-guh", "ipa": "wəˈrɪŋɡə", "tts": "wuh ringga", "why": "The area in the club's full name. Stress the second syllable."}
+    ],
+    "avoid": [
+      {"say": "the Eagles", "instead": "Manly, or the Sea Eagles", "why": "The Eagles are West Coast's AFL side."},
+      {"say": "the Seagulls", "instead": "the Sea Eagles", "why": "An old media jibe the club has always rejected."},
+      {"say": "4 Pines Park", "instead": "Brookie", "why": "Fans use the old name, whatever the sponsor."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Manly_Warringah_Sea_Eagles",
+      "https://en.wikipedia.org/wiki/Brookvale,_New_South_Wales",
+      "https://en.wikipedia.org/wiki/Warringah",
+      "https://en.wikipedia.org/wiki/Melbourne_Storm"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Cronulla-Sutherland Sharks",
+    "espnId": "289203",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["sharks", "cronulla", "cronulla sharks", "cronulla-sutherland", "the sharks", "sharkies"],
+    "nickname": "the Sharks",
+    "fans": "",
+    "ground": "Ocean Protect Stadium (Shark Park), Woolooware",
+    "rivals": [
+      {"team": "St George Illawarra Dragons", "name": "the Dragons", "derby": ""},
+      {"team": "Manly Warringah Sea Eagles", "name": "Manly", "derby": "the Battle of the Beaches"},
+      {"team": "Melbourne Storm", "name": "the Storm", "derby": ""}
+    ],
+    "legends": ["Andrew Ettingshausen", "Paul Gallen", "Steve Rogers", "Gavin Miller"],
+    "memory": "2016: beat the Storm 14-12 for the club's first premiership, 49 years after joining the league",
+    "lingo": [
+      {"term": "Sharkies", "say": "SHAR-keez", "ipa": "ˈʃɑːkiz", "tts": "", "means": "Fans' fond name for the team."},
+      {"term": "Shark Park", "say": "SHARK PARK", "ipa": "", "tts": "", "means": "The ground at Woolooware, whatever the sponsor's name that year."},
+      {"term": "the Shire", "say": "the SHY-uh", "ipa": "", "tts": "", "means": "Sutherland Shire, the club's heartland. The Sharks are the Shire's team."},
+      {"term": "ET", "say": "EE TEE", "ipa": "ˌiː ˈtiː", "tts": "", "means": "Andrew Ettingshausen, the club's record try-scorer."},
+      {"term": "the Battle of the Beaches", "say": "the BAT-ul uv the BEE-chiz", "ipa": "", "tts": "", "means": "Games against Manly, the other beach club."}
+    ],
+    "lines": [
+      {"t": "Forty-nine years we waited. Worth every one.", "m": "The 2016 premiership.", "when": "any"},
+      {"t": "Shark Park on a Sunday arvo. Can't beat it.", "m": "Fans love the suburban ground by the bay.", "when": "any"},
+      {"t": "The Shire looks after its own.", "m": "Local pride in Sutherland Shire.", "when": "any"},
+      {"t": "That's Sharks footy. The whole Shire's buzzing.", "m": "After a win.", "when": "win"},
+      {"t": "Same old Sharks. Can't finish the job.", "m": "The grumble when the side falls short, especially in finals.", "when": "loss"},
+      {"t": "Beat the Dragons and the south's ours.", "m": "The local derby.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Up Up Cronulla'", "means": "The club song, set to the tune of the 'Beer Barrel Polka'."}
+    ],
+    "sore": [
+      {"topic": "The supplements saga", "why": "A 2011 supplements program led to player bans in 2014. Fans would rather move on."},
+      {"topic": "Manly in the 1970s", "why": "Lost the 1973 and 1978 grand finals to them."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Sharks are a St George offshoot", "instead": "the Sharks are the Shire's own club", "why": "The little-brother tag from St George junior days annoys fans."},
+      {"say": "the Sharks have never won it", "instead": "2016", "why": "They won the 2016 premiership."},
+      {"say": "the Sharks play at Cronulla Beach", "instead": "Shark Park, at Woolooware", "why": "The ground is on Woolooware Bay, not the beach."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cronulla-Sutherland_Sharks",
+      "https://www.theleader.com.au/story/5965279/flashback-friday-photos-early-days-at-shark-park/",
+      "https://nrl.com/news/2016/09/27/cronulla-fans-invade-shark-park",
+      "https://en.wikipedia.org/wiki/2016_NRL_Grand_Final"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Melbourne Storm",
+    "espnId": "289208",
+    "league": "rugby-league/3",
+    "region": "au-melbourne",
+    "aliases": ["storm", "melbourne", "melbourne storm", "the storm"],
+    "nickname": "the Storm",
+    "fans": "",
+    "ground": "AAMI Park",
+    "rivals": [
+      {"team": "Manly Warringah Sea Eagles", "name": "Manly", "derby": ""},
+      {"team": "Brisbane Broncos", "name": "the Broncos", "derby": ""},
+      {"team": "Penrith Panthers", "name": "Penrith", "derby": ""}
+    ],
+    "legends": ["Cameron Smith", "Glenn Lazarus", "Matt Geyer"],
+    "memory": "1999: won the premiership in only the club's second season, beating St George Illawarra 20-18",
+    "lingo": [
+      {"term": "the Big Three", "say": "the BIG THREE", "ipa": "", "tts": "", "means": "Cameron Smith, Billy Slater and Cooper Cronk, the spine behind the club's best years."},
+      {"term": "the Graveyard", "say": "the GRAYV-yard", "ipa": "", "tts": "", "means": "Fans' name for Olympic Park, the old home, where visiting teams rarely won."},
+      {"term": "the Graveyard Crew", "say": "the GRAYV-yard KROO", "ipa": "", "tts": "", "means": "The supporter group that makes the banner the team runs through."},
+      {"term": "purple", "say": "PER-pul", "ipa": "", "tts": "", "means": "The club colour. Purple is the Storm in a city that's otherwise all AFL guernseys."}
+    ],
+    "lines": [
+      {"t": "Rugby league in an AFL town, and we keep winning.", "m": "Pride in being the league club in Melbourne.", "when": "any"},
+      {"t": "Smith, Slater, Cronk. We'll never see that again.", "m": "Fond memories of the Big Three.", "when": "any"},
+      {"t": "Whoever pulls on the jersey, the system keeps rolling.", "m": "Fans are proud of the club's ability to keep winning through changes.", "when": "any"},
+      {"t": "Business as usual at AAMI Park.", "m": "After a home win.", "when": "win"},
+      {"t": "We'll be back. We always are.", "m": "The calm line after a defeat.", "when": "loss"},
+      {"t": "Manly? Never forget the Battle of Brookvale.", "m": "The 2011 brawl with Manly.", "when": "rival"},
+      {"t": "Beat Penrith and I'm happy.", "m": "The modern rival, after the 2020 and 2024 grand finals.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "'Thunderstruck'", "means": "The AC/DC track plays as the team runs out at home."},
+      {"name": "'We Are the Storm'", "means": "The club song, played after home wins."},
+      {"name": "The Graveyard Crew banner", "means": "The supporter group makes a banner for the team to run through before each game."}
+    ],
+    "sore": [
+      {"topic": "The 2010 salary cap scandal", "why": "Stripped of the 2007 and 2009 premierships. Fans don't want to go over it again."},
+      {"topic": "Recent grand finals", "why": "Lost the 2024 decider to Penrith and the 2025 one to Brisbane."}
+    ],
+    "pronounce": [
+      {"word": "AAMI Park", "say": "AY-mee PARK", "ipa": "ˈeɪmi ˈpɑːk", "tts": "amy park", "why": "The home ground. The insurer's name is said like 'Amy', never spelled out."}
+    ],
+    "avoid": [
+      {"say": "AAMI Stadium", "instead": "AAMI Park", "why": "AAMI Stadium was the old football ground in Adelaide."},
+      {"say": "the Storm play at the MCG", "instead": "AAMI Park", "why": "The MCG is for AFL and cricket; the Storm's home is the rectangular ground next door."},
+      {"say": "Melbourne doesn't care about league", "instead": "the Storm are part of Melbourne now", "why": "Fans are proud of the crowds and the titles."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Melbourne_Storm",
+      "https://en.wikipedia.org/wiki/Melbourne_Rectangular_Stadium",
+      "https://en.wikipedia.org/wiki/AAMI",
+      "https://aamipark.com.au/?p=723"
+    ],
+    "unsure": ["pronounce: no dictionary entry found for AAMI; 'Amy' is how the brand and locals say it"]
+  },
+  {
+    "team": "Gold Coast Titans",
+    "espnId": "289206",
+    "league": "rugby-league/3",
+    "region": "au-queensland",
+    "aliases": ["titans", "gold coast", "gold coast titans", "the titans"],
+    "nickname": "the Titans",
+    "fans": "the Legion",
+    "ground": "Cbus Super Stadium, Robina",
+    "rivals": [
+      {"team": "Brisbane Broncos", "name": "the Broncos", "derby": "the South East Queensland derby"}
+    ],
+    "legends": ["Preston Campbell", "Scott Prince"],
+    "memory": "2010: finished fourth and reached a preliminary final, still the club's best season",
+    "lingo": [
+      {"term": "the Legion", "say": "the LEE-jun", "ipa": "", "tts": "", "means": "The Titans fan base. The club adopted the supporter group's name for all its fans in 2020."},
+      {"term": "Robina", "say": "roh-BEE-nuh", "ipa": "rəʊˈbiːnə", "tts": "", "means": "The suburb where the stadium is. Locals often just say Robina."},
+      {"term": "the South East Queensland derby", "say": "the SOWTH EEST KWEENZ-lund DAR-bee", "ipa": "ðə ˈsaʊθ ˈiːst ˈkwiːnzlənd ˈdɑːbi", "tts": "the south east queensland darby", "means": "Games against the Broncos: little brother against big brother."},
+      {"term": "the Chargers", "say": "the CHAR-juz", "ipa": "", "tts": "", "means": "The Gold Coast's 1990s club before the Titans, after the Giants and the Seagulls. Older locals remember them."},
+      {"term": "The Preston", "say": "the PRES-tun", "ipa": "", "tts": "", "means": "An award for the player who best shows what it means to be a Titan, named after Preston Campbell."}
+    ],
+    "lines": [
+      {"t": "Footy, sun and the beach. Best place to watch league.", "m": "Gold Coast pride.", "when": "any"},
+      {"t": "The Coast deserves a winner, and it'll get one.", "m": "Hope that the club will finally break through.", "when": "any"},
+      {"t": "Still waiting on our first grand final.", "m": "The honest fan line; the club has never made one.", "when": "any"},
+      {"t": "Robina was rocking tonight.", "m": "After a home win.", "when": "win"},
+      {"t": "Same story. Good for sixty minutes.", "m": "The grumble after a late fade.", "when": "loss"},
+      {"t": "Beat the Broncos and the Coast won't shut up for a week.", "m": "The South East Queensland derby.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Paul Broughton Medal", "means": "The club's best-and-fairest, a medal made of pure titanium."}
+    ],
+    "sore": [
+      {"topic": "No grand final", "why": "The club has never reached one since joining in 2007."},
+      {"topic": "Wooden spoons", "why": "Finished last in 2011 and 2019."}
+    ],
+    "pronounce": [
+      {"word": "Cbus Super Stadium", "say": "SEE-bus SOO-puh STAY-dee-um", "ipa": "ˈsiːbʌs ˈsuːpə ˈsteɪdiəm", "tts": "see bus super stadium", "why": "The sponsor is said 'see-bus'. Voices tend to stumble on the spelling."}
+    ],
+    "avoid": [
+      {"say": "the Gold Coast Suns", "instead": "the Titans", "why": "The Suns are the AFL club."},
+      {"say": "the Titans play at Carrara", "instead": "the Titans play at Robina", "why": "Carrara is the Suns' ground. The Titans moved to Robina in 2008."},
+      {"say": "the Gold Coast Chargers", "instead": "the Titans", "why": "The Chargers folded in 1998; the Titans started in 2007."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gold_Coast_Titans",
+      "https://www.titans.com.au/news/2022/10/24/the-titans-legion-continues-to-grow-ahead-of-2023-season",
+      "https://www.titans.com.au/news/2023/09/05/titans-thank-loyal-legion-at-double-header",
+      "https://en.wikipedia.org/wiki/Robina_Stadium"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "New Zealand Warriors",
+    "espnId": "289201",
+    "league": "rugby-league/3",
+    "region": "nz-auckland",
+    "aliases": ["warriors", "nz warriors", "new zealand warriors", "the warriors", "wahs", "the wahs", "auckland"],
+    "nickname": "the Warriors",
+    "fans": "",
+    "ground": "Go Media Stadium (Mount Smart), Penrose",
+    "rivals": [
+      {"team": "Melbourne Storm", "name": "the Storm", "derby": ""},
+      {"team": "Canberra Raiders", "name": "the Raiders", "derby": ""}
+    ],
+    "legends": ["Simon Mannering", "Ruben Wiki", "Manu Vatuvei"],
+    "memory": "2023: the 'Up the Wahs' season, when the club came home after its pandemic years in Australia and made the top four",
+    "lingo": [
+      {"term": "the Wahs", "say": "the WAHZ", "ipa": "ðə ˈwɑːz", "tts": "", "means": "Nickname for the team, everywhere since 2023. Some long-time fans still prefer plain 'Warriors'."},
+      {"term": "Up the Wahs", "say": "UP the WAHZ", "ipa": "ˈʌp ðə ˈwɑːz", "tts": "", "means": "The cry of the 2023 season and since: go the Warriors. Shouted, written on signs, used to sign off."},
+      {"term": "Mount Smart", "say": "MOWNT SMART", "ipa": "", "tts": "", "means": "The home ground in Penrose, Auckland. Locals say Mount Smart, whatever the sponsor's name."},
+      {"term": "the Beast", "say": "the BEEST", "ipa": "", "tts": "", "means": "Manu Vatuvei, the giant winger and the club's record try-scorer."}
+    ],
+    "lines": [
+      {"t": "Up the Wahs!", "m": "The all-purpose cry: hello, goodbye, try time.", "when": "any"},
+      {"t": "Mount Smart sold out again. Nothing like it.", "m": "The club sold out every home game in 2024.", "when": "any"},
+      {"t": "The whole country's behind this team.", "m": "The Warriors are New Zealand's only NRL side.", "when": "any"},
+      {"t": "Three years away and the fans never left.", "m": "The club played out of Australia during the pandemic and came home in 2022 and 2023.", "when": "any"},
+      {"t": "Sweet as. Up the Wahs!", "m": "After a win. 'Sweet as' is Kiwi for great.", "when": "win"},
+      {"t": "Brilliant one week, rubbish the next. Classic Warriors.", "m": "The fans' old grumble about an up-and-down side.", "when": "loss"},
+      {"t": "Any win across the Tasman tastes better.", "m": "Every game against an Australian club is a trans-Tasman contest for Warriors fans.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Up the Wahs", "means": "Since 2023 the cry is everywhere: on signs, in shop windows and on the stadium screens."}
+    ],
+    "sore": [
+      {"topic": "No premiership", "why": "Lost grand finals in 2002 and 2011, and still waiting for a first title."},
+      {"topic": "The 2026 finals", "why": "Finished second, then lost both finals: to the Dolphins at Mount Smart and to the Knights at Eden Park."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Kiwis", "instead": "the Warriors", "why": "The Kiwis are New Zealand's national league team."},
+      {"say": "the Blues", "instead": "the Warriors", "why": "The Blues are Auckland's rugby union side."},
+      {"say": "the Auckland Warriors", "instead": "the Warriors", "why": "The club dropped Auckland from its name in the early 2000s."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_Zealand_Warriors",
+      "https://thespinoff.co.nz/sport/28-12-2023/where-did-up-the-wahs-come-from-a-spinoff-investigation-2",
+      "https://www.1news.co.nz/2023/09/17/kiwis-likely-to-hear-up-the-wahs-for-at-least-another-week/",
+      "https://newstalkzb.co.nz/news/sport/unmasking-the-warriors-enigma-exploring-the-origins-of-up-the-wahs-as-catchphrase-sweeps-the-nation",
+      "https://en.wikipedia.org/wiki/Dolphins_(NRL)"
+    ],
+    "unsure": ["lingo: no dictionary IPA for 'Wahs'; written from how the nickname is spelled and said", "rivals: no named rivalry; the Storm (Michael Moore Trophy) and the Raiders (a bogey side) are the closest"]
+  },
+  {
+    "team": "Wests Tigers",
+    "espnId": "289200",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["wests tigers", "tigers", "wests", "the tigers", "balmain"],
+    "nickname": "the Tigers",
+    "fans": "",
+    "ground": "Leichhardt Oval, Campbelltown Stadium and CommBank Stadium",
+    "rivals": [
+      {"team": "South Sydney Rabbitohs", "name": "Souths", "derby": ""},
+      {"team": "Manly Warringah Sea Eagles", "name": "Manly", "derby": "Fibros v Silvertails"}
+    ],
+    "legends": ["Robbie Farah", "Wayne Pearce", "Steve Roach", "Tommy Raudonikis"],
+    "memory": "2005: beat the Cowboys 30-16 for the joint venture's only premiership, remembered for the flick pass that set up Pat Richards' try",
+    "lingo": [
+      {"term": "the joint venture", "say": "the JOYNT VEN-chuh", "ipa": "", "tts": "", "means": "The club was formed in 2000 by Balmain and Western Suburbs. Fans of each still honour their old side."},
+      {"term": "the flick pass", "say": "the FLIK PAHS", "ipa": "", "tts": "", "means": "The 2005 grand final pass that set up a try. Every Tigers fan can describe it."},
+      {"term": "Fibros", "say": "FY-brohz", "ipa": "ˈfaɪbrəʊz", "tts": "", "means": "Wests Magpies' old nickname, from the fibro houses of the western suburbs, set against Manly's 'Silvertails'."},
+      {"term": "Junior", "say": "JOO-nyuh", "ipa": "", "tts": "", "means": "Wayne Pearce, Balmain's great lock of the 1980s."},
+      {"term": "Blocker", "say": "BLOK-uh", "ipa": "", "tts": "", "means": "Steve Roach, Balmain's big front-rower."},
+      {"term": "the Magpies", "say": "the MAG-pyz", "ipa": "", "tts": "", "means": "Western Suburbs, the Wests half of the joint venture."}
+    ],
+    "lines": [
+      {"t": "Leichhardt on a sunny Sunday. Best ground in the world.", "m": "Fans adore the old Balmain ground.", "when": "any"},
+      {"t": "The finals drought ends one day. It has to.", "m": "The club hasn't played finals since 2011.", "when": "any"},
+      {"t": "Balmain and Wests, two proud clubs in one.", "m": "Respect for both halves of the joint venture.", "when": "any"},
+      {"t": "2005 was magic. That flick pass.", "m": "The club's only premiership.", "when": "any"},
+      {"t": "Tigers are back! Well, for this week.", "m": "After a win, with a wry grin.", "when": "win"},
+      {"t": "Same old Tigers. Here we go again.", "m": "The weary grumble after another loss.", "when": "loss"},
+      {"t": "Beat Souths and it's a good week.", "m": "The old rivalry from the Balmain and Wests days.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Sunday at Leichhardt", "means": "Home games at the old Balmain ground in the inner west, a favourite for its suburban feel."}
+    ],
+    "sore": [
+      {"topic": "The finals drought", "why": "No finals since 2011, the longest current wait in the league."},
+      {"topic": "Wooden spoons", "why": "Three in a row, from 2022 to 2024."}
+    ],
+    "pronounce": [
+      {"word": "Leichhardt", "say": "LIKE-art", "ipa": "ˈlaɪkɑːt", "tts": "like art", "why": "The old Balmain home ground. The spelling trips up outsiders."}
+    ],
+    "avoid": [
+      {"say": "the Richmond Tigers", "instead": "Wests Tigers", "why": "Richmond are the AFL Tigers in Melbourne."},
+      {"say": "West Tigers", "instead": "Wests Tigers", "why": "It's Wests, with an s, after Western Suburbs."},
+      {"say": "LEESH-hart Oval", "instead": "LIKE-art Oval", "why": "Getting Leichhardt wrong marks you straight away."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wests_Tigers",
+      "https://en.wikipedia.org/wiki/Leichhardt,_New_South_Wales",
+      "https://en.wikipedia.org/wiki/Manly_Warringah_Sea_Eagles",
+      "https://nrl.com/news/2009/05/13/tigers-v-rabbitohs-preview"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "New South Wales",
+    "espnId": "289317",
+    "league": "rugby-league/3",
+    "region": "au-sydney",
+    "aliases": ["nsw", "new south wales", "blues", "nsw blues", "the blues"],
+    "nickname": "the Blues",
+    "fans": "",
+    "ground": "Accor Stadium (Stadium Australia, Homebush)",
+    "rivals": [
+      {"team": "Queensland", "name": "the Maroons", "derby": "State of Origin"}
+    ],
+    "legends": ["Andrew Johns", "Brad Fittler", "Steve Mortimer", "Paul Gallen"],
+    "memory": "2014: won the first two games to end Queensland's run of eight straight series",
+    "lingo": [
+      {"term": "the Blues", "say": "the BLOOZ", "ipa": "", "tts": "", "means": "The NSW side, after its sky-blue jersey."},
+      {"term": "sky blue", "say": "SKY BLOO", "ipa": "", "tts": "", "means": "The state colour. Blues fans turn the stadium sky blue."},
+      {"term": "Cockroaches", "say": "KOK-roh-chiz", "ipa": "", "tts": "", "means": "What Queenslanders call New South Welshmen. Some Blues fans wear it proudly."},
+      {"term": "Cane Toads", "say": "KAYN TOHDZ", "ipa": "", "tts": "", "means": "What Blues fans call Queenslanders."},
+      {"term": "Blatchy's Blues", "say": "BLATCH-eez BLOOZ", "ipa": "ˈblætʃiz ˈbluːz", "tts": "", "means": "The official supporter group, famous for its big blue wigs."},
+      {"term": "the Shield", "say": "the SHEELD", "ipa": "", "tts": "", "means": "The State of Origin Shield, the trophy for the series."}
+    ],
+    "lines": [
+      {"t": "Origin's the best footy there is.", "m": "Common ground with any fan.", "when": "any"},
+      {"t": "Won the decider at Suncorp, in front of all of them.", "m": "NSW won the 2026 series with a 30-12 win in Brisbane.", "when": "any"},
+      {"t": "Eight in a row was a long time. Never again.", "m": "Queensland's 2006-13 run still haunts Blues fans.", "when": "any"},
+      {"t": "The Shield's coming back to Sydney.", "m": "After a series win.", "when": "win"},
+      {"t": "Picked the wrong side again. Every year.", "m": "The classic Blues grumble about selection.", "when": "loss"},
+      {"t": "The Cane Toads won't know what hit them.", "m": "Pre-game banter about Queensland.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Blue wigs", "means": "Blatchy's Blues fans wear big blue wigs and fill their own bays at Origin games."},
+      {"name": "Origin night", "means": "Games are usually on a Wednesday night, and pubs and lounge rooms across NSW fill up."}
+    ],
+    "sore": [
+      {"topic": "Eight straight", "why": "Queensland won every series from 2006 to 2013."},
+      {"topic": "52-6", "why": "The 2015 decider in Brisbane, the Blues' worst Origin loss."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Waratahs", "instead": "the Blues", "why": "The Waratahs are the NSW rugby union side."},
+      {"say": "the Blues are all Sydney players", "instead": "players go where they first played", "why": "Origin picks players by where they started, wherever they play now."},
+      {"say": "the Maroons are the favourites", "instead": "don't write off the Blues", "why": "Blues fans hate hearing Queensland talked up."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_South_Wales_rugby_league_team",
+      "https://www.nrl.com/news/2026/05/18/wigging-out-inside-the-blatchys-blues-phenomenon/",
+      "https://thenightly.com.au/sport/state-of-origin-2026-underdogs-nsw-beat-the-odds-to-win-decider-at-suncorp-against-queensland-c-22551416",
+      "https://en.wikipedia.org/wiki/State_of_Origin_series"
+    ],
+    "unsure": []
+  },
+  {
+    "team": "Queensland",
+    "espnId": "289318",
+    "league": "rugby-league/3",
+    "region": "au-queensland",
+    "aliases": ["queensland", "qld", "maroons", "the maroons", "queensland maroons"],
+    "nickname": "the Maroons",
+    "fans": "Queenslanders",
+    "ground": "Suncorp Stadium (Lang Park)",
+    "rivals": [
+      {"team": "New South Wales", "name": "the Blues", "derby": "State of Origin"}
+    ],
+    "legends": ["Wally Lewis", "Arthur Beetson", "Darren Lockyer", "Johnathan Thurston"],
+    "memory": "1980: the first State of Origin game, with Arthur Beetson leading Queensland to a 20-10 win at Lang Park",
+    "lingo": [
+      {"term": "Queenslander!", "say": "KWEENZ-lun-duh", "ipa": "ˈkwiːnzləndə", "tts": "", "means": "The rallying cry. Billy Moore made it famous in the tunnel in 1995, but it came from the Queensland camp."},
+      {"term": "the Maroons", "say": "the muh-ROONZ", "ipa": "ðə məˈruːnz", "tts": "", "means": "The team, after its maroon jersey."},
+      {"term": "Cane Toads", "say": "KAYN TOHDZ", "ipa": "", "tts": "", "means": "NSW's name for Queenslanders. Maroons fans wear it proudly."},
+      {"term": "Cockroaches", "say": "KOK-roh-chiz", "ipa": "", "tts": "", "means": "Queenslanders' name for the NSW side and its fans."},
+      {"term": "the King", "say": "the KING", "ipa": "", "tts": "", "means": "Wally Lewis, the great five-eighth of the 1980s. His statue stands at Lang Park."},
+      {"term": "the Cauldron", "say": "the KAWL-drun", "ipa": "", "tts": "", "means": "Lang Park on Origin night, when the crowd is right on top of the play."},
+      {"term": "eight straight", "say": "AYT STRAYT", "ipa": "", "tts": "", "means": "The series wins from 2006 to 2013."}
+    ],
+    "lines": [
+      {"t": "Queenslander!", "m": "The rallying cry. Shout it, don't say it.", "when": "any"},
+      {"t": "Eight straight. Never forget.", "m": "The 2006-13 run.", "when": "any"},
+      {"t": "Origin at Lang Park. Nothing like it.", "m": "The Brisbane home ground on Origin night.", "when": "any"},
+      {"t": "Write us off. That's when we're dangerous.", "m": "Maroons fans love being the underdogs.", "when": "any"},
+      {"t": "Back to the drawing board, cockroaches.", "m": "Gloating after a win.", "when": "win"},
+      {"t": "We'll be back next year. We always are.", "m": "The defiant line after a series loss.", "when": "loss"},
+      {"t": "The Blues reckon they're favourites. Good.", "m": "Queenslanders love being written off.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Queenslander!", "means": "Players and fans shout it before and during games. It dates back to the Queensland camps of the 1980s and 90s."},
+      {"name": "Caxton Street", "means": "Origin nights start in the pubs on Caxton Street before the walk down to Lang Park."}
+    ],
+    "sore": [
+      {"topic": "2026", "why": "Lost the decider 30-12 at Lang Park, in front of a home crowd."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Reds", "instead": "the Maroons", "why": "The Reds are Queensland's rugby union side."},
+      {"say": "the Bulls", "instead": "the Maroons", "why": "The Bulls are Queensland's cricket side."},
+      {"say": "Queensland are favourites", "instead": "Queensland are the underdogs", "why": "Maroons fans would rather be written off."}
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Queensland_rugby_league_team",
+      "https://en.wikipedia.org/wiki/Billy_Moore_(rugby_league,_born_1971)",
+      "https://qrl.com.au/maroons-history/former-origin-greats/billy-moore",
+      "https://en.wikipedia.org/wiki/Lang_Park",
+      "https://thenightly.com.au/sport/state-of-origin-2026-underdogs-nsw-beat-the-odds-to-win-decider-at-suncorp-against-queensland-c-22551416"
+    ],
+    "unsure": []
+  }
+]

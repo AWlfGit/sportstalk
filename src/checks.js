@@ -14,8 +14,11 @@
 // It reloads the page when it's done, so nothing it changed sticks.
 (async () => {
   // ("null vier" is German for Leverkusen's 04, so it's allowed)
-  const B1 = /undefined|NaN|\[object|\bnull\b(?! vier)|\{team\}|\{opp\}|\{player\}|\{score\}|\{when\}|\{driver\}|\{winner\}|\{pos\}|\{race\}/, B2 = /\bthe the |\bGo the /i;
-  const bad = (t) => { const m = B1.exec(t) || B2.exec(t); return m ? t.slice(Math.max(0, m.index - 60), m.index + 30).replace(/\n/g, " ") : null; };
+  const B1 = /undefined|NaN|\[object|\bnull\b(?! vier)|\{team\}|\{opp\}|\{player\}|\{score\}|\{when\}|\{driver\}|\{winner\}|\{pos\}|\{race\}/, B2 = /\bthe the /i, B3 = /\bGo the /;
+  // "Go the Lakers" is a slip, but "Go the Blues!" is how Australians and New Zealanders cheer
+  const bad = (t, aus) => { const m = B1.exec(t) || B2.exec(t) || (aus ? null : B3.exec(t)); return m ? t.slice(Math.max(0, m.index - 60), m.index + 30).replace(/\n/g, " ") : null; };
+  const ausRegion = (L) => !!L && /^(au|nz|fj)(-|$)/.test(L.region || "");
+  const ausGame = (g) => !!g && (isAU(sportOf(g.lg)) || (!g.res && [g.h, g.a].some((t) => ausRegion(lingoOf(g.lg, t)))));
   // A hidden or minimised window reports 0px; only check width when there is one
   const wide = () => innerWidth > 0 && document.documentElement.scrollWidth > innerWidth + 1;
   const tabs = [[renderPub, "tab-pub"], [renderCover, "tab-cover"], [renderPhrases, "tab-phrases"], [renderDrill, "tab-drill"], [renderPocket, "tab-pocket"]];
@@ -37,7 +40,7 @@
         renders++;
         try {
           renderScript();
-          const b = bad(document.getElementById("tab-script").innerText + " " + document.getElementById("strip").innerText);
+          const b = bad(document.getElementById("tab-script").innerText + " " + document.getElementById("strip").innerText, ausGame(g));
           if (b) problems.push(`${look} all near ${city[0]} ${g ? g.id : "(none)"}: …${b}…`);
           if (wide()) problems.push(`${look} all near ${city[0]} ${g ? g.id : "(none)"}: wider than the window`);
         } catch (e) { problems.push(`${look} all near ${city[0]} ${g ? g.id : "(none)"}: ${e.message}`); }
@@ -54,7 +57,7 @@
             S.game = g; S.side = side; if (g.res) S.driver = g.res[0].n; pub = null; drill = null; renders++;
             try {
               renderScript();
-              const b = bad(document.getElementById("tab-script").innerText + " " + document.getElementById("strip").innerText);
+              const b = bad(document.getElementById("tab-script").innerText + " " + document.getElementById("strip").innerText, ausGame(g));
               if (b) problems.push(`${look} ${lg} ${g.id} ${side || "neutral"}: …${b}…`);
               if (wide()) problems.push(`${look} ${lg} ${g.id}: wider than the window`);
             } catch (e) { problems.push(`${look} ${lg} ${g.id} ${side}: ${e.message}`); }
@@ -69,7 +72,7 @@
         for (const t of lingoPool(sp)) {
           try {
             S.lingoPick = { [sp]: t.team }; renderLingo(); renders++;
-            const b = bad(document.getElementById("tab-lingo").innerText);
+            const b = bad(document.getElementById("tab-lingo").innerText, isAU(sp) || ausRegion(t));
             if (b) problems.push(`${look} ${sp} lingo ${t.team}: …${b}…`);
             if (wide()) problems.push(`${look} ${sp} lingo ${t.team}: wider than the window`);
           } catch (e) { problems.push(`${look} ${sp} lingo ${t.team}: ${e.message}`); }
@@ -83,7 +86,7 @@
       for (const [render, id] of tabs) {
         try {
           pub = null; drill = null; render(); renders++;
-          const b = bad(document.getElementById(id).innerText);
+          const b = bad(document.getElementById(id).innerText, isAU(sp));
           if (b) problems.push(`${look} ${sp} ${id}: …${b}…`);
           if (wide()) problems.push(`${look} ${sp} ${id}: wider than the window`);
         } catch (e) { problems.push(`${look} ${sp} ${id}: ${e.message}`); }

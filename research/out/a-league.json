@@ -1,0 +1,564 @@
+[
+  {
+    "team": "Adelaide United",
+    "espnId": "5321",
+    "league": "soccer/aus.1",
+    "region": "au-adelaide",
+    "aliases": ["adelaide", "adelaide united", "adelaide utd", "reds", "the reds", "aufc"],
+    "nickname": "the Reds",
+    "fans": "the Red Army",
+    "ground": "Coopers Stadium",
+    "rivals": [
+      {"team": "Melbourne Victory", "name": "Victory", "derby": "the Original Rivalry"}
+    ],
+    "legends": ["Travis Dodd", "Eugene Galeković", "Bruce Djite"],
+    "memory": "Winning the 2016 Grand Final 3-1 over Western Sydney at Adelaide Oval, in front of 50,119, to complete the club's first league double",
+    "lingo": [
+      {"term": "the Reds", "say": "the REDZ", "ipa": "ðə ˈrɛdz", "tts": "", "means": "The club's nickname, from the all-red kit. Fans and local media use it more than 'Adelaide United'."},
+      {"term": "the Red Army", "say": "the RED AR-mee", "ipa": "ðə ˈrɛd ˈɑːmi", "tts": "", "means": "The active supporters' group, and by extension the whole home crowd. The club uses it in its own membership drives."},
+      {"term": "Coopers", "say": "KOO-perz", "ipa": "ˈkuːpəz", "tts": "", "means": "Coopers Stadium, named for the Adelaide brewery. Fans just say Coopers."},
+      {"term": "Hindmarsh", "say": "HYND-marsh", "ipa": "ˈhaɪndmɑːʃ", "tts": "", "means": "The inner-west suburb and the ground's proper name, Hindmarsh Stadium. Older fans still call it that."},
+      {"term": "the Original Rivalry", "say": "the uh-RIJ-uh-nul RY-vul-ree", "ipa": "ði əˈrɪdʒənəl ˈraɪvəlri", "tts": "", "means": "Adelaide against Melbourne Victory, the league's first real rivalry. Two Grand Final losses to Victory, in 2007 and 2009, keep it hot."},
+      {"term": "the double", "say": "the DUB-ul", "ipa": "ðə ˈdʌbəl", "tts": "", "means": "The 2015-16 season, when the Reds won both the Premiers' Plate and the Grand Final."}
+    ],
+    "lines": [
+      {"t": "Come on, you Reds!", "m": "The basic cheer at Coopers.", "when": "any"},
+      {"t": "Three Australia Cups, more than anyone.", "m": "A fan's boast: the club won the cup, then called the FFA Cup, in 2014, 2018 and 2019.", "when": "any"},
+      {"t": "Fifty thousand at Adelaide Oval in 2016. What a night.", "m": "Fond memory of the Grand Final win over Western Sydney.", "when": "any"},
+      {"t": "Coopers was rocking tonight.", "m": "Said after a big home win.", "when": "win"},
+      {"t": "Typical Reds, never the easy way.", "m": "A resigned shrug after a bad result.", "when": "loss"},
+      {"t": "Nothing beats beating Victory.", "m": "The Original Rivalry is the game Adelaide fans most want to win.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Safe standing", "means": "Since the 2024 redevelopment, Coopers Stadium has safe-standing bays at the northern end (N13 and N14) for fans who'd rather stand all game."},
+      {"name": "A sea of red", "means": "Home fans turn out in red for every game. The club's first strip mixed the state colours of red, blue and yellow; now it's red with black trim."}
+    ],
+    "sore": [
+      {"topic": "The 2007 Grand Final", "why": "Victory won 6-0 and Archie Thompson scored five. Adelaide fans don't need reminding."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Adelaide City", "instead": "Adelaide United, or the Reds", "why": "Adelaide City is a different club, from the old national league and now the state league."},
+      {"say": "Victory are all right", "instead": "Anyone but Victory", "why": "Melbourne Victory are the Original Rivalry. Praising them won't go down well."},
+      {"say": "the soccer", "instead": "the football", "why": "Plenty of Australians say soccer, but fans call it football. In Adelaide, 'the footy' means Aussie rules."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Adelaide_United_FC", "https://adelaideunited.com.au/?p=331408", "https://coopersstadium.com.au/?p=1984", "https://en.wiktionary.org/wiki/Hindmarsh", "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC"],
+    "unsure": ["traditions: the safe-standing bays come from a stadium-redevelopment report; no source ties them to the Red Army by name"]
+  },
+  {
+    "team": "Auckland FC",
+    "espnId": "22344",
+    "league": "soccer/aus.1",
+    "region": "nz-auckland",
+    "aliases": ["auckland", "auckland fc", "black knights", "the black knights", "akl fc"],
+    "nickname": "the Black Knights",
+    "fans": "the Port",
+    "ground": "Mount Smart",
+    "rivals": [
+      {"team": "Wellington Phoenix", "name": "the Nix", "derby": "the New Zealand Derby"}
+    ],
+    "legends": [],
+    "memory": "Beating Sydney FC 1-0 at Mount Smart in the 2026 Grand Final, the first ever played in New Zealand, in only the club's second season",
+    "lingo": [
+      {"term": "the Black Knights", "say": "the BLAK NYTES", "ipa": "ðə ˈblæk ˈnaɪts", "tts": "", "means": "The club's nickname, from owner Bill Foley's Black Knight sports group. The crest carries a knight's visor."},
+      {"term": "the Port", "say": "the PORT", "ipa": "ðə ˈpɔːt", "tts": "", "means": "The active supporters' group, set up before the first season and modelled on Wellington's Yellow Fever."},
+      {"term": "Bay 22", "say": "BAY TWEN-tee TOO", "ipa": "ˈbeɪ ˈtwɛnti ˈtuː", "tts": "", "means": "The Port's home bay behind the goal at Mount Smart."},
+      {"term": "Mount Smart", "say": "MOWNT SMART", "ipa": "ˈmaʊnt ˈsmɑːt", "tts": "", "means": "Mount Smart Stadium in Penrose, sponsored as Go Media Stadium. Aucklanders still say Mount Smart."},
+      {"term": "the Kiwi derby", "say": "the KEE-wee DAR-bee", "ipa": "ðə ˈkiːwi ˈdɑːbi", "tts": "", "means": "Auckland against Wellington Phoenix, first played in November 2024. Its te reo name is Mai te Raki ki te Tonga, 'from the north to the south'."},
+      {"term": "the Plate", "say": "the PLAYT", "ipa": "ðə ˈpleɪt", "tts": "", "means": "The Premiers' Plate for topping the table, which Auckland won in its first season, 2024-25."}
+    ],
+    "lines": [
+      {"t": "Premiers in year one, champions in year two.", "m": "The club's short history in one breath: the Plate in 2024-25, the Grand Final in 2026.", "when": "any"},
+      {"t": "First Grand Final ever played in New Zealand, and we won it.", "m": "Pride in the 2026 final at Mount Smart.", "when": "any"},
+      {"t": "See you in Bay 22.", "m": "Where the Port stands at home games.", "when": "any"},
+      {"t": "Mount Smart was bouncing tonight.", "m": "Said after a big home win.", "when": "win"},
+      {"t": "Bit of a shocker, but we'll come right.", "m": "Kiwi shrug after a bad result: it'll sort itself out.", "when": "loss"},
+      {"t": "Wellington can keep the wind. We'll take the points.", "m": "Mild derby banter about the windy capital.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The march to Bay 22", "means": "Before home games the Port gathers on the concourse with a drum, then marches into Bay 22 together. They did it from the very first match in October 2024."}
+    ],
+    "sore": [
+      {"topic": "The 2025 semi-final", "why": "After topping the table in their first season, they went out to Melbourne Victory in the semis. The 2026 title has eased it."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Auckland City", "instead": "Auckland FC", "why": "Auckland City is a different club, the long-time Oceania champions in the national league."},
+      {"say": "the New Zealand Knights", "instead": "Auckland FC, the Black Knights", "why": "The Knights were an earlier A-League side that folded in 2007. Auckland FC is a new club, founded in 2024."},
+      {"say": "Up the Nix", "instead": "Come on, Auckland", "why": "The Nix are Wellington Phoenix, the derby rivals."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Auckland_FC", "https://en.wikipedia.org/wiki/2026_A-League_Men_Grand_Final", "https://nzherald.co.nz/sport/inside-auckland-fcs-first-ever-a-league-match-at-go-media-stadium/E7R5SKFGYNEZHA4ODUWLXL4BCU", "https://www.1news.co.nz/2024/11/02/phoenix-auckland-fc-fans-meet-at-historic-kiwi-derby/", "https://wellingtonphoenix.com/?p=323372"],
+    "unsure": ["legends: club founded in 2024, so no retired greats yet", "traditions: one fan-culture blog (April 2025) says the Port wear captain's hats behind the goal; left out with only one source"]
+  },
+  {
+    "team": "Brisbane Roar",
+    "espnId": "5326",
+    "league": "soccer/aus.1",
+    "region": "au-queensland",
+    "aliases": ["brisbane", "brisbane roar", "roar", "the roar", "brfc", "queensland roar"],
+    "nickname": "the Roar",
+    "fans": "",
+    "ground": "Suncorp Stadium",
+    "rivals": [
+      {"team": "Perth Glory", "name": "Perth", "derby": ""}
+    ],
+    "legends": ["Thomas Broich", "Matt McKay", "Michael Theo"],
+    "memory": "Roarcelona: a league-record 36 games unbeaten across 2010-11 and 2011-12, and back-to-back championships in 2011 and 2012",
+    "lingo": [
+      {"term": "the Roar", "say": "the ROR", "ipa": "ðə ˈrɔː", "tts": "", "means": "What everyone calls the club."},
+      {"term": "Roarcelona", "say": "ror-suh-LOH-nuh", "ipa": "ˌrɔːsəˈləʊnə", "tts": "", "means": "The passing side of 2010-12, compared to Barcelona. Fans still hold every Roar team up against it."},
+      {"term": "the Den", "say": "the DEN", "ipa": "ðə ˈdɛn", "tts": "", "means": "The core active supporters' group, in the northern stand at Suncorp since the first season."},
+      {"term": "Lang Park", "say": "LANG PARK", "ipa": "ˈlæŋ ˈpɑːk", "tts": "", "means": "Suncorp Stadium's old name. Plenty of Brisbane people still use it."},
+      {"term": "the Orange", "say": "the OR-inj", "ipa": "ði ˈɒrɪndʒ", "tts": "", "means": "The club colour and a nickname. It goes back to the club's Dutch roots as Hollandia in 1957."},
+      {"term": "Queensland Roar", "say": "KWEENZ-lund ROR", "ipa": "ˈkwiːnzlənd ˈrɔː", "tts": "", "means": "The club's name until 2009. Long-time fans still slip into it."}
+    ],
+    "lines": [
+      {"t": "Roarcelona was the best football this league has seen.", "m": "Every Roar fan's opinion of the 2010-12 side.", "when": "any"},
+      {"t": "Thirty-six games unbeaten. Still the record.", "m": "The run that made Roarcelona.", "when": "any"},
+      {"t": "Proud to wear the orange.", "m": "Club pride in the colour.", "when": "any"},
+      {"t": "Lang Park was rocking tonight.", "m": "Said after a big home win, using the old name for Suncorp.", "when": "win"},
+      {"t": "Same old Roar. We go again next week.", "m": "A weary line after another loss.", "when": "loss"},
+      {"t": "Perth still haven't got over 2012.", "m": "Mild banter about the 2012 Grand Final win over Perth, which was decided by a disputed penalty.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Down Caxton Street", "means": "Fans meet in the pubs on Caxton Street and walk down to Suncorp together before home games."},
+      {"name": "Christmas in Redcliffe", "means": "When Suncorp is booked over the holidays, the Roar play a couple of home games at Kayo Stadium in Redcliffe."}
+    ],
+    "sore": [
+      {"topic": "Recent seasons", "why": "Second-last in 2024-25 with a record winless start, and near the bottom again in 2025-26. Fans would rather talk about Roarcelona."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Queensland Roar", "instead": "Brisbane Roar, or the Roar", "why": "The name changed in 2009."},
+      {"say": "the Lions", "instead": "the Roar", "why": "The Brisbane Lions are the AFL club. The Roar's lion is just the badge."},
+      {"say": "Roar Barcelona", "instead": "Roarcelona", "why": "One word. It's the fans' name for the 2010-12 team."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Brisbane_Roar_FC", "https://brisbaneroar.com.au/members-fans/", "https://suncorpstadium.com.au/about/news/november-2024-wrap-up", "https://en.wikipedia.org/wiki/2025%E2%80%9326_A-League_Men"],
+    "unsure": ["rivals: Wikipedia says the Roar have no obvious rival now; Perth is listed from the 2012 Grand Final grudge", "legends: Besart Berisha (record scorer) left out; retirement not confirmed"]
+  },
+  {
+    "team": "Central Coast Mariners",
+    "espnId": "5325",
+    "league": "soccer/aus.1",
+    "region": "au-newcastle",
+    "aliases": ["central coast", "central coast mariners", "mariners", "the mariners", "ccm", "coasties"],
+    "nickname": "the Mariners",
+    "fans": "the Yellow Army",
+    "ground": "Central Coast Stadium",
+    "rivals": [
+      {"team": "Newcastle Jets", "name": "the Jets", "derby": "the F3 Derby"},
+      {"team": "Sydney FC", "name": "Sydney", "derby": ""}
+    ],
+    "legends": ["Matt Simon", "Alex Wilkinson", "Daniel McBreen"],
+    "memory": "The 2023-24 treble: the Premiers' Plate, the Grand Final and the AFC Cup in one season",
+    "lingo": [
+      {"term": "the Mariners", "say": "the MARR-ih-nerz", "ipa": "ðə ˈmærɪnəz", "tts": "", "means": "The club's name and what fans call the team. Short form: CCM."},
+      {"term": "the Yellow Army", "say": "the YEL-oh AR-mee", "ipa": "ðə ˈjɛləʊ ˈɑːmi", "tts": "", "means": "The main supporters' group, named after the yellow home shirt."},
+      {"term": "Coasties", "say": "KOH-steez", "ipa": "ˈkəʊstiz", "tts": "", "means": "A club nickname, and what Central Coast locals call themselves."},
+      {"term": "the F3 Derby", "say": "the EF THREE DAR-bee", "ipa": "ði ˈɛf ˈθriː ˈdɑːbi", "tts": "", "means": "The derby with Newcastle, named after the old F3 freeway between the two. The road is now the M1, but the name stuck."},
+      {"term": "the treble", "say": "the TREB-ul", "ipa": "ðə ˈtrɛbəl", "tts": "", "means": "The 2023-24 season: Premiers' Plate, Grand Final and AFC Cup. The proudest boast a small club has."},
+      {"term": "polytec Stadium", "say": "POL-ee-tek STAY-dee-um", "ipa": "ˈpɒlitɛk ˈsteɪdiəm", "tts": "", "means": "The ground's sponsor name since July 2025. It was Industree Group Stadium before that, and Bluetongue Stadium years ago."}
+    ],
+    "lines": [
+      {"t": "The treble, mate. Never forget it.", "m": "The 2023-24 season, the club's greatest.", "when": "any"},
+      {"t": "Six-one in a Grand Final. Six-one!", "m": "The 2023 Grand Final thrashing of Melbourne City.", "when": "any"},
+      {"t": "Smallest club in the league, and look at the trophies.", "m": "Pride in punching above the Coast's weight.", "when": "any"},
+      {"t": "Great night in Gosford.", "m": "Said after a good home win.", "when": "win"},
+      {"t": "Rough one. Up the Mariners anyway.", "m": "Loyal shrug after a loss.", "when": "loss"},
+      {"t": "Nothing better than beating the Jets.", "m": "F3 Derby banter.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Number 19", "means": "The club retired the number 19 shirt for its record goalscorer, Matt Simon."}
+    ],
+    "sore": [
+      {"topic": "The 2008 Grand Final", "why": "Lost 1-0 to Newcastle, of all teams, with a disputed handball in the mix."},
+      {"topic": "The last day of 2025-26", "why": "A 4-0 loss at Newcastle that handed the Jets their first Premiers' Plate."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Gosford Mariners", "instead": "Central Coast Mariners", "why": "The club stands for the whole Coast, not just Gosford."},
+      {"say": "a Sydney club", "instead": "a Coast club", "why": "Coasties don't see themselves as Sydney, and Sydney FC are rivals."},
+      {"say": "the Newcastle derby", "instead": "the F3 Derby", "why": "That's what both sets of fans call it."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Central_Coast_Mariners_FC", "https://www.thestadiumbusiness.com/2025/07/01/polytec-lands-naming-rights-to-central-coast-stadium/", "https://ccmariners.com.au/news/join-yellow-army-fan-march/", "https://newcastlejetsfc.com.au/news/newcastle-jets-crowned-2025-26-premiers/", "https://aleagues.com.au/news/match-preview-central-coast-mariners-v-sydney-fc/"],
+    "unsure": ["ground: no source on whether fans now say polytec or Central Coast Stadium; used the non-commercial name"]
+  },
+  {
+    "team": "Macarthur FC",
+    "espnId": "19340",
+    "league": "soccer/aus.1",
+    "region": "au-sydney",
+    "aliases": ["macarthur", "macarthur fc", "macarthur bulls", "bulls", "the bulls"],
+    "nickname": "the Bulls",
+    "fans": "",
+    "ground": "Campbelltown Stadium",
+    "rivals": [
+      {"team": "Western Sydney Wanderers", "name": "the Wanderers", "derby": "the Battle of the West"}
+    ],
+    "legends": [],
+    "memory": "Winning the 2022 Australia Cup 2-0 over Sydney United 58, the club's first trophy, two years after its first A-League game",
+    "lingo": [
+      {"term": "the Bulls", "say": "the BOOLZ", "ipa": "ðə ˈbʊlz", "tts": "", "means": "The club's nickname, from the bull on the crest. The club often calls itself the Macarthur Bulls."},
+      {"term": "Macarthur", "say": "muh-KAR-thuh", "ipa": "məˈkɑːθə", "tts": "", "means": "The region in Sydney's south-west the club represents: Campbelltown, Camden and Wollondilly."},
+      {"term": "cowbells", "say": "KOW-belz", "ipa": "ˈkaʊbɛlz", "tts": "", "means": "Bulls fans ring cowbells at home games. You'll hear them all round the ground."},
+      {"term": "the Battle of the West", "say": "the BAT-ul uv the WEST", "ipa": "ðə ˈbætəl əv ðə ˈwɛst", "tts": "", "means": "The derby with Western Sydney Wanderers, also called the Western Sydney Derby. Macarthur won the very first one, 1-0, in December 2020."},
+      {"term": "gold ochre", "say": "GOHLD OH-ker", "ipa": "ˈɡəʊld ˈəʊkə", "tts": "", "means": "The club colour beside black and white, chosen to honour the area's Dharawal heritage."}
+    ],
+    "lines": [
+      {"t": "Bring your cowbell.", "m": "The home crowd's trademark sound.", "when": "any"},
+      {"t": "Two Australia Cups already, and we only started in 2020.", "m": "Pride in the 2022 and 2024 cup wins.", "when": "any"},
+      {"t": "South-west Sydney's own club.", "m": "Local pride: the region finally has its own A-League side.", "when": "any"},
+      {"t": "Campbelltown was jumping tonight.", "m": "Said after a good home win.", "when": "win"},
+      {"t": "Tough night for the Bulls. Go again next week.", "m": "A shrug after a loss.", "when": "loss"},
+      {"t": "Nothing beats winning the Battle of the West.", "m": "Derby banter about the Wanderers.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Cowbells", "means": "Home fans ring cowbells through the game at Campbelltown Stadium, a nod to the club's bull."}
+    ],
+    "sore": [],
+    "pronounce": [],
+    "avoid": [
+      {"say": "MacArthur, like the general", "instead": "Macarthur, the region", "why": "The club is named after the Macarthur region of south-west Sydney, not the American general."},
+      {"say": "Macarthur Rams", "instead": "Macarthur FC, the Bulls", "why": "The Rams are a different, state-league club from the same area."},
+      {"say": "the Wanderers' little brother", "instead": "the Bulls", "why": "Macarthur fans see the Wanderers as rivals, not big brothers."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Macarthur_FC", "https://en.wikipedia.org/wiki/Macarthur_FC%E2%80%93Western_Sydney_Wanderers_FC_rivalry", "https://macarthurfc.com.au/news/round-up-the-bulls-its-the-western-sydney-derby/", "https://www.sbs.com.au/sport/article/bulls-in-rare-territory-after-a-league-debut-leaves-robinson-fuming/bbg54c4d8"],
+    "unsure": ["fans: no named active supporters' group found", "legends: club founded in 2018 and first played in 2020-21; no retired greats confirmed", "traditions: cowbells confirmed in a 2020 report and the club's own derby coverage; current use not rechecked for 2026-27"]
+  },
+  {
+    "team": "Melbourne City",
+    "espnId": "11143",
+    "league": "soccer/aus.1",
+    "region": "au-melbourne",
+    "aliases": ["melbourne city", "city", "mcfc", "melbourne heart", "the heart"],
+    "nickname": "City",
+    "fans": "",
+    "ground": "AAMI Park",
+    "rivals": [
+      {"team": "Melbourne Victory", "name": "Victory", "derby": "the Melbourne Derby"}
+    ],
+    "legends": ["Bruno Fornaroli", "Aaron Mooy", "Tim Cahill"],
+    "memory": "Beating Victory 1-0 in the 2025 Grand Final, the first derby Grand Final, in front of an AAMI Park record 29,902",
+    "lingo": [
+      {"term": "City", "say": "SIT-ee", "ipa": "ˈsɪti", "tts": "", "means": "What fans and local media call the club."},
+      {"term": "the Heart", "say": "the HART", "ipa": "ðə ˈhɑːt", "tts": "", "means": "Melbourne Heart, the club's name and red-and-white colours from 2009 until City Football Group bought it in 2014."},
+      {"term": "City Terrace", "say": "SIT-ee TERR-us", "ipa": "ˈsɪti ˈtɛrəs", "tts": "", "means": "The active supporters' end behind the goal at AAMI Park."},
+      {"term": "City Blue", "say": "SIT-ee BLOO", "ipa": "ˈsɪti ˈbluː", "tts": "", "means": "The club's name for its sky blue, all-over on the home kit since 2017-18."},
+      {"term": "the Melbourne Derby", "say": "the MEL-bun DAR-bee", "ipa": "ðə ˈmɛlbən ˈdɑːbi", "tts": "", "means": "City against Victory, the city's biggest football game."},
+      {"term": "three in a row", "say": "THREE in uh ROH", "ipa": "ˈθriː ɪn ə ˈrəʊ", "tts": "", "means": "Premiers' Plates in 2021, 2022 and 2023, the first Australian club to win three straight."},
+      {"term": "Casey Fields", "say": "KAY-see FEELDZ", "ipa": "ˈkeɪsi ˈfiːldz", "tts": "", "means": "The City Football Academy in Cranbourne East, the club's training base in Melbourne's south-east."}
+    ],
+    "lines": [
+      {"t": "Three premierships in a row. Nobody else has done that.", "m": "The 2021-23 run.", "when": "any"},
+      {"t": "We won the first derby Grand Final.", "m": "The 2025 win over Victory.", "when": "any"},
+      {"t": "Been with this club since the Heart days.", "m": "A long-time fan's badge of honour.", "when": "any"},
+      {"t": "AAMI was ours tonight.", "m": "Said after a big home win.", "when": "win"},
+      {"t": "Not our night. Plenty of season left.", "m": "A calm shrug after a loss.", "when": "loss"},
+      {"t": "Derby day's the only day that matters.", "m": "Banter before or after a Melbourne Derby.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Red and white away", "means": "Some City away kits have kept the red-and-white stripes of the old Melbourne Heart, a nod to where the club began."},
+      {"name": "City Terrace", "means": "The active fans stand behind the goal in the City Terrace and lead the noise for the rest of the ground."}
+    ],
+    "sore": [
+      {"topic": "Grand Final defeats", "why": "Lost in 2020, 2022 and 2023, the last one 6-1 to Central Coast."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "the Sky Blues", "instead": "City", "why": "Sky Blues is Sydney FC's nickname, even though City wear sky blue too."},
+      {"say": "Man City's Aussie team", "instead": "Melbourne City", "why": "City Football Group owns it, but fans see it as a Melbourne club in its own right."},
+      {"say": "Melbourne Heart", "instead": "Melbourne City", "why": "The Heart name went in 2014."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Melbourne_City_FC", "https://en.wikipedia.org/wiki/2025_A-League_Men_Grand_Final", "https://melbournecityfc.com.au/news/important-update-regarding-active-support/", "https://en.wikipedia.org/wiki/Melbourne_Derby_(A-Leagues)"],
+    "unsure": ["legends: Fornaroli left City on bad terms in 2019 and later played for Perth and Victory; Cahill played only one season", "lingo: City Terrace confirmed in club notices from 2022; current use assumed"]
+  },
+  {
+    "team": "Melbourne Victory",
+    "espnId": "5328",
+    "league": "soccer/aus.1",
+    "region": "au-melbourne",
+    "aliases": ["melbourne victory", "victory", "big v", "the big v", "mvfc"],
+    "nickname": "Victory",
+    "fans": "",
+    "ground": "AAMI Park",
+    "rivals": [
+      {"team": "Melbourne City", "name": "City", "derby": "the Melbourne Derby"},
+      {"team": "Sydney FC", "name": "Sydney", "derby": "the Big Blue"},
+      {"team": "Adelaide United", "name": "Adelaide", "derby": "the Original Rivalry"}
+    ],
+    "legends": ["Archie Thompson", "Leigh Broxham", "Carlos Hernández", "Kevin Muscat"],
+    "memory": "The 2007 Grand Final: 6-0 against Adelaide at Docklands, with Archie Thompson scoring five",
+    "lingo": [
+      {"term": "Victory", "say": "VIK-tuh-ree", "ipa": "ˈvɪktəri", "tts": "", "means": "What fans call the club. Never 'Melbourne', which in this city means the AFL's Demons."},
+      {"term": "the Big V", "say": "the BIG VEE", "ipa": "ðə ˈbɪɡ ˈviː", "tts": "", "means": "The club's nickname, from the white V on the navy shirt."},
+      {"term": "the North End", "say": "the NORTH END", "ipa": "ðə ˈnɔːθ ˈɛnd", "tts": "", "means": "The active end behind the north goal at AAMI Park, where the loudest Victory fans stand."},
+      {"term": "the Big Blue", "say": "the BIG BLOO", "ipa": "ðə ˈbɪɡ ˈbluː", "tts": "", "means": "Victory against Sydney FC: navy against sky blue, the league's two most decorated clubs."},
+      {"term": "the Original Rivalry", "say": "the uh-RIJ-uh-nul RY-vul-ree", "ipa": "ði əˈrɪdʒənəl ˈraɪvəlri", "tts": "", "means": "Victory against Adelaide, going back to the first season and two Grand Finals."},
+      {"term": "Archie", "say": "AR-chee", "ipa": "ˈɑːtʃi", "tts": "", "means": "Archie Thompson, the club's record scorer with 97 goals, five of them in the 2007 Grand Final."}
+    ],
+    "lines": [
+      {"t": "Four championships and counting.", "m": "Victory won the Grand Final in 2007, 2009, 2015 and 2018.", "when": "any"},
+      {"t": "Archie scored five in a Grand Final. Five!", "m": "The 2007 final against Adelaide.", "when": "any"},
+      {"t": "Come on, Victory!", "m": "The basic cheer.", "when": "any"},
+      {"t": "AAMI was rocking tonight.", "m": "Said after a big home win.", "when": "win"},
+      {"t": "Not good enough. Victory should be top of the table.", "m": "Big-club impatience after a loss.", "when": "loss"},
+      {"t": "Derby win, best feeling in Melbourne.", "m": "After beating City.", "when": "rival"},
+      {"t": "Nothing beats winning the Big Blue in Sydney.", "m": "Banter about the Sydney FC rivalry.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The North End", "means": "The home active fans stand behind the north goal at AAMI Park and set the noise for the rest of the ground."},
+      {"name": "Navy and white", "means": "Navy blue with a white chevron V across the chest, on the kit since 2007. It's where 'the Big V' comes from."}
+    ],
+    "sore": [
+      {"topic": "Back-to-back Grand Final losses", "why": "Lost the 2024 final to Central Coast and the 2025 one to City, the first derby Grand Final."},
+      {"topic": "The 2020-21 wooden spoon", "why": "The club's first last-place finish, with a 7-0 derby loss to City along the way."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Melbourne are", "instead": "Victory are", "why": "In Melbourne, 'Melbourne' means the AFL's Demons."},
+      {"say": "the footy", "instead": "the football", "why": "In Melbourne the footy is Aussie rules. Victory fans call their game football, not soccer."},
+      {"say": "City's a big club", "instead": "Victory's the big club", "why": "Never talk up City to a Victory fan."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Melbourne_Victory_FC", "https://en.wikipedia.org/wiki/2025_A-League_Men_Grand_Final", "https://neoskosmos.com/en/2024/04/23/sport/victory-great-leigh-broxham-to-retire-at-seasons-end/", "https://www.sbs.com.au/sport/article/north-terrace-to-stop-organised-support-at-victory-matches/6n4kgehnl", "https://melbournevictory.com.au/news/melbourne-victory-macron-launch-2025-26-home-away-kits/"],
+    "unsure": ["fans: active groups have changed several times since 2016 and the club disbanded those it recognised after 2022; no current group name used"]
+  },
+  {
+    "team": "Newcastle Jets",
+    "espnId": "5323",
+    "league": "soccer/aus.1",
+    "region": "au-newcastle",
+    "aliases": ["newcastle", "newcastle jets", "jets", "the jets", "njfc"],
+    "nickname": "the Jets",
+    "fans": "",
+    "ground": "McDonald Jones Stadium",
+    "rivals": [
+      {"team": "Central Coast Mariners", "name": "the Mariners", "derby": "the F3 Derby"}
+    ],
+    "legends": ["Joel Griffiths", "Jade North", "Mark Bridge"],
+    "memory": "Thumping Central Coast 4-0 at home on the last day of 2025-26 to lift the club's first Premiers' Plate, in front of 20,930",
+    "lingo": [
+      {"term": "the Jets", "say": "the JETS", "ipa": "ðə ˈdʒɛts", "tts": "", "means": "The club's name, after the RAAF fighter base at Williamtown just north of the city. The badge shows three Hornet jets."},
+      {"term": "the F3 Derby", "say": "the EF THREE DAR-bee", "ipa": "ði ˈɛf ˈθriː ˈdɑːbi", "tts": "", "means": "The derby with Central Coast, named after the old F3 freeway between the two."},
+      {"term": "Williamtown", "say": "WIL-yum-town", "ipa": "ˈwɪljəmtaʊn", "tts": "", "means": "The RAAF base the club is named after. Fans like the fighter-jet link."},
+      {"term": "the Plate", "say": "the PLAYT", "ipa": "ðə ˈpleɪt", "tts": "", "means": "The Premiers' Plate for topping the table, which the Jets won for the first time in 2025-26."},
+      {"term": "Hunter Stadium", "say": "HUN-tuh STAY-dee-um", "ipa": "ˈhʌntə ˈsteɪdiəm", "tts": "", "means": "An earlier name for McDonald Jones Stadium, before 2016. Some fans still use it."}
+    ],
+    "lines": [
+      {"t": "Premiers at last. Took us twenty years.", "m": "The 2025-26 Premiers' Plate, the club's first.", "when": "any"},
+      {"t": "We still talk about 2008.", "m": "The Grand Final win over Central Coast, the club's first championship.", "when": "any"},
+      {"t": "Come on, Jets!", "m": "The basic cheer.", "when": "any"},
+      {"t": "McDonald Jones was rocking tonight.", "m": "Said after a big home win.", "when": "win"},
+      {"t": "Classic Jets. Never easy.", "m": "A resigned line after a loss.", "when": "loss"},
+      {"t": "Four-nil against the Mariners to win the Plate. Perfect.", "m": "F3 Derby banter about the last day of 2025-26.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Never Tear Us Apart", "means": "The INXS song has been the club's anthem since 2008-09. Members voted for the team to walk out to it."},
+      {"name": "The march", "means": "For big home games, the active fans meet at the General Roberts Hotel and march to the stadium together."}
+    ],
+    "sore": [
+      {"topic": "The 2018 Grand Final", "why": "Lost 1-0 to Melbourne Victory at home with a goal that came from an offside missed by a VAR glitch."},
+      {"topic": "The 2026 semi-final", "why": "After winning the Plate, they went out to Sydney FC on penalties."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Newcastle United", "instead": "the Jets", "why": "That's the English club. Here it's the Jets."},
+      {"say": "the Knights' soccer team", "instead": "the Jets", "why": "They share the blue and red and the stadium with the NRL's Knights, but they're separate clubs."},
+      {"say": "Mariners fan, are you?", "instead": "Jets through and through", "why": "Central Coast are the F3 Derby rivals."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Newcastle_Jets_FC", "https://newcastlejetsfc.com.au/news/newcastle-jets-crowned-2025-26-premiers/", "https://newcastlejetsfc.com.au/news/fans-vote-never-tear-us-apart/", "https://www.newcastleherald.com.au/story/5377396/football-fans-sing-song-of-survival/", "https://aleagues.com.au/news/aleague-men-newcastle-jets-win-second-trophy-of-the-season-with-premiership-triumph/"],
+    "unsure": ["traditions: the General Roberts march comes from one 2026 match preview", "lingo: whether fans still say Hunter Stadium not confirmed", "fans: active group names (Squadron, Legionaries) have changed; none confirmed for 2026-27"]
+  },
+  {
+    "team": "Perth Glory",
+    "espnId": "5322",
+    "league": "soccer/aus.1",
+    "region": "au-perth",
+    "aliases": ["perth", "perth glory", "glory", "the glory", "pgfc"],
+    "nickname": "the Glory",
+    "fans": "",
+    "ground": "HBF Park",
+    "rivals": [
+      {"team": "Wellington Phoenix", "name": "the Nix", "derby": "the Distance Derby"},
+      {"team": "Brisbane Roar", "name": "Brisbane", "derby": ""}
+    ],
+    "legends": ["Bobby Despotovski", "Jamie Harnwell", "Damian Mori"],
+    "memory": "Winning the 2018-19 Premiers' Plate, the club's first A-League trophy, then filling Optus Stadium with 56,371 for the Grand Final",
+    "lingo": [
+      {"term": "the Glory", "say": "the GLOR-ee", "ipa": "ðə ˈɡlɔːri", "tts": "", "means": "What everyone calls the club."},
+      {"term": "the Shed", "say": "the SHED", "ipa": "ðə ˈʃɛd", "tts": "", "means": "The covered standing terrace at the northern end of HBF Park, home of the loudest fans. Over-18s only, with a Shed ticket or membership."},
+      {"term": "HBF Park", "say": "AYCH BEE EF PARK", "ipa": "ˌeɪtʃ biː ˌɛf ˈpɑːk", "tts": "", "means": "Perth Rectangular Stadium's sponsor name. It's been the Glory's home since the start, under several names."},
+      {"term": "the Distance Derby", "say": "the DIS-tuns DAR-bee", "ipa": "ðə ˈdɪstəns ˈdɑːbi", "tts": "", "means": "Perth against Wellington, named for the trip across the Tasman. Since 2015-16 they've played for the Long Distance Derby Cup."},
+      {"term": "the purple", "say": "the PER-pul", "ipa": "ðə ˈpɜːpəl", "tts": "", "means": "The club colour. Fans wear purple to home games."}
+    ],
+    "lines": [
+      {"t": "Come on, Glory!", "m": "The basic cheer.", "when": "any"},
+      {"t": "Premiers in 2019, and we'll do it again.", "m": "Hanging on to the 2018-19 Plate through lean years.", "when": "any"},
+      {"t": "Two national titles before the A-League even existed.", "m": "The 2003 and 2004 championships in the old National Soccer League.", "when": "any"},
+      {"t": "The Shed was loud tonight.", "m": "Said after a good home win.", "when": "win"},
+      {"t": "Same old Glory. Head up for next week.", "m": "A tired shrug after a loss.", "when": "loss"},
+      {"t": "Distance Derby's ours this year.", "m": "Mild banter before playing Wellington.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Shed", "means": "Perth's active fans stand under the roof at the northern end, the ground's best atmosphere by most accounts."},
+      {"name": "The Long Distance Derby Cup", "means": "Perth and Wellington play for a cup each season, won by whoever takes more of their league games."}
+    ],
+    "sore": [
+      {"topic": "The 2019 Grand Final", "why": "A record home crowd watched them lose to Sydney FC on penalties."},
+      {"topic": "Wooden spoons", "why": "Last in 2021-22, 2023-24 and 2024-25. Three in four seasons."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Optus Stadium is home", "instead": "HBF Park is home", "why": "Optus is the big AFL ground. The Glory only went there for the 2019 Grand Final."},
+      {"say": "the footy", "instead": "the football", "why": "In Perth the footy means the Eagles and Freo. Glory fans say football."},
+      {"say": "the Eagles", "instead": "the Glory", "why": "The West Coast Eagles are the AFL club."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Perth_Glory_FC", "https://www.venueswest.wa.gov.au/venues/hbf-park", "https://perthglory.com.au/?p=336806", "https://membership.perthglory.com.au/products/productdetails/38301", "https://en.wikipedia.org/wiki/2024%E2%80%9325_A-League_Men"],
+    "unsure": ["rivals: Brisbane is listed from the 2012 Grand Final grudge; Wikipedia's Perth page doesn't name it", "lingo: 'the purple' as fan usage rests on club posts asking fans to wear purple"]
+  },
+  {
+    "team": "Sydney FC",
+    "espnId": "5327",
+    "league": "soccer/aus.1",
+    "region": "au-sydney",
+    "aliases": ["sydney", "sydney fc", "sky blues", "the sky blues", "sfc"],
+    "nickname": "the Sky Blues",
+    "fans": "the Cove",
+    "ground": "Allianz Stadium",
+    "rivals": [
+      {"team": "Western Sydney Wanderers", "name": "the Wanderers", "derby": "the Sydney Derby"},
+      {"team": "Melbourne Victory", "name": "Victory", "derby": "the Big Blue"}
+    ],
+    "legends": ["Alex Brosque", "Alessandro Del Piero", "Dwight Yorke", "Terry McFlynn"],
+    "memory": "The record 2016-17 season: one league defeat all year, the Premiers' Plate, then the Grand Final over Victory on penalties",
+    "lingo": [
+      {"term": "the Sky Blues", "say": "the SKY BLOOZ", "ipa": "ðə ˈskaɪ ˈbluːz", "tts": "", "means": "The club's nickname, from the sky-blue shirts."},
+      {"term": "the Cove", "say": "the KOHV", "ipa": "ðə ˈkəʊv", "tts": "", "means": "The main active supporters' group, named after Sydney Cove. They helped design the modern badge."},
+      {"term": "Bay 23", "say": "BAY TWEN-tee THREE", "ipa": "ˈbeɪ ˈtwɛnti ˈθriː", "tts": "", "means": "The Cove's standing bay behind the goal at Allianz Stadium, the heart of the active support."},
+      {"term": "the Sydney Derby", "say": "the SID-nee DAR-bee", "ipa": "ðə ˈsɪdni ˈdɑːbi", "tts": "", "means": "Sydney FC against the Wanderers: east against west, the league's biggest rivalry."},
+      {"term": "the Big Blue", "say": "the BIG BLOO", "ipa": "ðə ˈbɪɡ ˈbluː", "tts": "", "means": "Sydney against Melbourne Victory, sky blue against navy, the two most successful clubs."},
+      {"term": "Moore Park", "say": "MOR PARK", "ipa": "ˈmɔː ˈpɑːk", "tts": "", "means": "Where Allianz Stadium stands, next to the SCG."}
+    ],
+    "lines": [
+      {"t": "Five championships. More than anyone.", "m": "Sydney won Grand Finals in 2006, 2010, 2017, 2019 and 2020.", "when": "any"},
+      {"t": "Sydney is sky blue.", "m": "The club's slogan and match-day hashtag.", "when": "any"},
+      {"t": "Del Piero wore sky blue. Never forget it.", "m": "Pride in the Italian great's two seasons at the club.", "when": "any"},
+      {"t": "The Cove was bouncing tonight.", "m": "Said after a big home win.", "when": "win"},
+      {"t": "Not good enough, Sky Blues.", "m": "Grumbling after a loss.", "when": "loss"},
+      {"t": "Anything to beat the Wanderers.", "m": "Sydney Derby banter.", "when": "rival"},
+      {"t": "Big Blue week. Bring on Victory.", "m": "Before a game against Melbourne Victory.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Bay 23", "means": "The Cove stands behind the goal in Bay 23 and leads the noise for the whole ground."}
+    ],
+    "sore": [
+      {"topic": "The 2026 Grand Final", "why": "Lost 1-0 in Auckland to a club in only its second season."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Sydney United", "instead": "Sydney FC", "why": "Sydney United 58 is a different, state-league club."},
+      {"say": "the Swans", "instead": "the Sky Blues", "why": "The Swans are Sydney's AFL club."},
+      {"say": "Melbourne City are the Sky Blues", "instead": "Sydney are the Sky Blues", "why": "City wear sky blue too, but Sydney objected when they switched to it in 2014."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Sydney_FC", "https://sydneyfc.com/news/gameday-guide-sydney-fc-v-western-sydney-wanderers-2/", "https://sydneyfc.com/news/the-cove-call-for-passion-at-every-game/", "https://en.wikipedia.org/wiki/2026_A-League_Men_Grand_Final", "https://en.wikipedia.org/wiki/2016%E2%80%9317_Sydney_FC_season"],
+    "unsure": []
+  },
+  {
+    "team": "Wellington Phoenix",
+    "espnId": "8352",
+    "league": "soccer/aus.1",
+    "region": "nz-wellington",
+    "aliases": ["wellington", "wellington phoenix", "phoenix", "the phoenix", "nix", "the nix"],
+    "nickname": "the Nix",
+    "fans": "Yellow Fever",
+    "ground": "the Cake Tin",
+    "rivals": [
+      {"team": "Auckland FC", "name": "Auckland", "derby": "the New Zealand Derby"},
+      {"team": "Perth Glory", "name": "Perth", "derby": "the Distance Derby"}
+    ],
+    "legends": ["Andrew Durante", "Ben Sigmund", "Paul Ifill"],
+    "memory": "Finishing second in 2023-24, the club's best season, and filling the Cake Tin for a home semi-final",
+    "lingo": [
+      {"term": "the Nix", "say": "the NIKS", "ipa": "ðə ˈnɪks", "tts": "", "means": "Short for the Phoenix. Everyone in Wellington uses it."},
+      {"term": "Yellow Fever", "say": "YEL-oh FEE-vuh", "ipa": "ˈjɛləʊ ˈfiːvə", "tts": "", "means": "The supporters' group, formed the day after the club was announced in 2007. They kept the name though the kit is mostly black."},
+      {"term": "the Fever Zone", "say": "the FEE-vuh ZOHN", "ipa": "ðə ˈfiːvə ˈzəʊn", "tts": "", "means": "Yellow Fever's end, between aisles 21 and 22. Fans stand in front of their seats all game."},
+      {"term": "the Cake Tin", "say": "the KAYK TIN", "ipa": "ðə ˈkeɪk ˈtɪn", "tts": "", "means": "Wellington's round, silver stadium. Officially Hnry Stadium since March 2026."},
+      {"term": "Ka Topa", "say": "kah TOP-ah", "ipa": "ka ˈtɔpa", "tts": "kah toppa", "means": "The carved taonga for derbies against Auckland played in Wellington. Te reo for to soar."},
+      {"term": "shirts off for the Nix", "say": "SHURTS OFF for the NIKS", "ipa": "ˈʃɜːts ˈɒf fə ðə ˈnɪks", "tts": "", "means": "Yellow Fever's ritual when the Phoenix lead after 80 minutes."}
+    ],
+    "lines": [
+      {"t": "Up the Nix!", "m": "The standard cheer.", "when": "any"},
+      {"t": "One day we'll make a Grand Final.", "m": "A wry line: the club never has.", "when": "any"},
+      {"t": "The Nix were here first.", "m": "Wellington's dig at Auckland FC: the Phoenix have been in the league since 2007.", "when": "any"},
+      {"t": "Shirts off for the Nix!", "m": "The cry when the Phoenix are winning after 80 minutes.", "when": "win"},
+      {"t": "Great night at the Cake Tin.", "m": "Said after a home win.", "when": "win"},
+      {"t": "Gutted. We'll come right.", "m": "Kiwi shrug after a loss.", "when": "loss"},
+      {"t": "Ka Topa stays in Wellington, and so should the points.", "m": "Mild derby banter before playing Auckland.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "Shirts off at 80", "means": "If the Phoenix are winning after 80 minutes, Yellow Fever count down, strip to the waist and whirl their shirts over their heads. It started on an early away trip to Sydney."},
+      {"name": "Ka Topa", "means": "A carved taonga with a pounamu at its heart, gifted by Te Āti Awa in 2024. It goes to the winner of each derby with Auckland played in Wellington, and always stays in the city."},
+      {"name": "The 12 Pubs of Lochhead", "means": "Yellow Fever's pub crawl before the last home game before Christmas, named after former defender Tony Lochhead."}
+    ],
+    "sore": [
+      {"topic": "No Grand Final", "why": "The club has never reached one, and lost its 2024 home semi-final to Melbourne Victory in extra time."},
+      {"topic": "The derby record", "why": "Auckland won six derbies in a row up to February 2026, the last one 5-0."}
+    ],
+    "pronounce": [
+      {"word": "Hnry Stadium", "say": "HEN-ree STAY-dee-um", "ipa": "ˈhɛnri ˈsteɪdiəm", "tts": "henry stadium", "why": "The stadium's name since March 2026, after the Wellington accounting firm Hnry. It's said like 'Henry'."}
+    ],
+    "avoid": [
+      {"say": "Sky Stadium", "instead": "the Cake Tin, or Hnry Stadium", "why": "The Sky name ended in 2025; Hnry took over in March 2026."},
+      {"say": "Come on, Auckland", "instead": "Up the Nix", "why": "Auckland FC are the derby rivals, and Wellington fans don't love them."},
+      {"say": "a new club", "instead": "the Nix, since 2007", "why": "The Phoenix are New Zealand's original A-League club. Auckland is the new one."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Wellington_Phoenix_FC", "https://www.hnrystadium.co.nz/news/wellington-stadium-welcomes-hnry-as-naming-rights-partner", "https://wellingtonphoenix.com/?p=323372", "https://www.1news.co.nz/2024/11/02/phoenix-auckland-fc-fans-meet-at-historic-kiwi-derby/", "https://www.pressreader.com/new-zealand/weekend-herald/20240316/282123526488275", "https://maoridictionary.co.nz/search?keywords=topa"],
+    "unsure": ["lingo: Ka Topa ipa built from te reo spelling and Te Aka's entry for topa; no audio checked"]
+  },
+  {
+    "team": "Western Sydney Wanderers",
+    "espnId": "13696",
+    "league": "soccer/aus.1",
+    "region": "au-sydney",
+    "aliases": ["western sydney", "western sydney wanderers", "wanderers", "the wanderers", "wsw", "wswfc"],
+    "nickname": "the Wanderers",
+    "fans": "",
+    "ground": "CommBank Stadium",
+    "rivals": [
+      {"team": "Sydney FC", "name": "Sydney FC", "derby": "the Sydney Derby"},
+      {"team": "Macarthur FC", "name": "Macarthur", "derby": "the Battle of the West"}
+    ],
+    "legends": ["Shinji Ono", "Ante Covic", "Mark Bridge", "Michael Beauchamp"],
+    "memory": "Winning the 2014 AFC Champions League in the club's first Asian campaign, the first Australian club to be champions of Asia",
+    "lingo": [
+      {"term": "the Wanderers", "say": "the WON-duh-ruz", "ipa": "ðə ˈwɒndərəz", "tts": "", "means": "What fans call the club. Short form: WSW."},
+      {"term": "the RBB", "say": "the AR BEE BEE", "ipa": "ði ˌɑː biː ˈbiː", "tts": "", "means": "The Red and Black Bloc, the independent active supporters' group, formed in 2012 by fans who met online and at a Parramatta pub."},
+      {"term": "Wanderland", "say": "WON-duh-land", "ipa": "ˈwɒndəlænd", "tts": "", "means": "Fans' name for the home ground on match day, a play on the old Wonderland theme park in western Sydney."},
+      {"term": "the Poznań", "say": "the POZ-nan", "ipa": "ðə ˈpɒznæn", "tts": "the poz nan", "means": "The RBB turn their backs to the pitch, link arms and bounce, a dance borrowed from Polish fans."},
+      {"term": "the Sydney Derby", "say": "the SID-nee DAR-bee", "ipa": "ðə ˈsɪdni ˈdɑːbi", "tts": "", "means": "The Wanderers against Sydney FC: west against east, the league's biggest rivalry."},
+      {"term": "the Red and Black", "say": "the RED and BLAK", "ipa": "ðə ˈrɛd ən ˈblæk", "tts": "", "means": "The club colours, on red-and-black hoops, and another name for the team."}
+    ],
+    "lines": [
+      {"t": "Champions of Asia in 2014. No other Aussie club has done it.", "m": "The Asian Champions League win, the club's proudest night.", "when": "any"},
+      {"t": "Premiers in our very first season.", "m": "The 2012-13 Premiers' Plate, won as a brand-new club.", "when": "any"},
+      {"t": "Red and Black, through and through.", "m": "Loyalty, whatever the result.", "when": "any"},
+      {"t": "Wanderland was rocking tonight.", "m": "Said after a big home win.", "when": "win"},
+      {"t": "We'll be back. We always are.", "m": "Defiant line after a loss.", "when": "loss"},
+      {"t": "Derby day: east against west, and we're the west.", "m": "Sydney Derby banter.", "when": "rival"}
+    ],
+    "traditions": [
+      {"name": "The Poznań at 80", "means": "At the 80-minute mark the RBB do the Poznań, a nod to 1880, when Parramatta hosted what's said to be Australia's first football match."},
+      {"name": "Call and response", "means": "The RBB are known for call-and-response between the bays. It has been the sound of the Wanderers since the first season."}
+    ],
+    "sore": [
+      {"topic": "Grand Finals", "why": "Lost all three: 2013, 2014 and 2016. The club has never won one."}
+    ],
+    "pronounce": [],
+    "avoid": [
+      {"say": "Sydney FC are our mates", "instead": "Anyone but Sydney", "why": "The Sydney Derby is the league's fiercest rivalry."},
+      {"say": "Bankwest Stadium", "instead": "CommBank Stadium, or Wanderland", "why": "The ground was Bankwest Stadium until 2022."},
+      {"say": "the Parramatta Eels' ground", "instead": "Wanderland", "why": "They share the stadium with the NRL's Eels, but on match day it's the Wanderers' home."}
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC", "https://wswanderersfc.com.au/?p=330396", "https://en.wikipedia.org/wiki/Macarthur_FC%E2%80%93Western_Sydney_Wanderers_FC_rivalry", "https://sydneyfc.com/news/gameday-guide-sydney-fc-v-western-sydney-wanderers-2/"],
+    "unsure": ["traditions: the RBB's 80th-minute Poznań is from Wikipedia; current use not rechecked for 2026-27"]
+  }
+]

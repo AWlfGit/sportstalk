@@ -1,0 +1,809 @@
+{
+  "terms": [
+    {
+      "term": "footy",
+      "say": "FOOT-ee",
+      "ipa": "ˈfʊti",
+      "tts": "",
+      "means": "Rugby league, to anyone in New South Wales or Queensland. In Victoria, South Australia and Western Australia the same word means Aussie rules.",
+      "use": "You watching the footy tonight?",
+      "common": true
+    },
+    {
+      "term": "Origin",
+      "say": "OR-ih-jin",
+      "ipa": "",
+      "tts": "",
+      "means": "State of Origin: New South Wales against Queensland, a three-game series every winter. Fans just say 'Origin', as in 'Origin night'.",
+      "use": "Who are you going for in Origin this year?",
+      "common": true
+    },
+    {
+      "term": "the biff",
+      "say": "the BIF",
+      "ipa": "ðə ˈbɪf",
+      "tts": "",
+      "means": "A fight, or a punch-up between players. A punch now usually earns ten minutes in the sin bin, so there's less of it than there used to be.",
+      "use": "Bit of biff just before half-time, and both of them got ten in the bin.",
+      "common": true
+    },
+    {
+      "term": "six again",
+      "say": "six uh-GEN",
+      "ipa": "",
+      "tts": "",
+      "means": "The ref's call when the defence slows down the play-the-ball or is offside: the tackle count goes back to one. Officially a 'set restart'.",
+      "use": "Six again, six again, and suddenly they're camped on our line.",
+      "common": true
+    },
+    {
+      "term": "the Bunker",
+      "say": "the BUNG-ker",
+      "ipa": "",
+      "tts": "",
+      "means": "The NRL's video review room. Close tries get 'sent upstairs' to the Bunker.",
+      "use": "Took the Bunker three minutes to say no try.",
+      "common": true
+    },
+    {
+      "term": "sin bin",
+      "say": "SIN bin",
+      "ipa": "",
+      "tts": "",
+      "means": "Ten minutes off the field for foul play or repeated offences. A player sent there has been 'binned'.",
+      "use": "Binned for a high shot, and they leaked two tries while he was gone.",
+      "common": true
+    },
+    {
+      "term": "bomb",
+      "say": "BOM",
+      "ipa": "",
+      "tts": "",
+      "means": "A high kick, usually towards the try line, so the chasers can get under it and contest it.",
+      "use": "Their fullback dropped the bomb and we scored off the next play.",
+      "common": true
+    },
+    {
+      "term": "the ladder",
+      "say": "the LAD-er",
+      "ipa": "",
+      "tts": "",
+      "means": "The league table.",
+      "use": "They're sitting fifth on the ladder.",
+      "common": true
+    },
+    {
+      "term": "the top eight",
+      "say": "the top AYT",
+      "ipa": "",
+      "tts": "",
+      "means": "The eight teams that make the finals. Fans say a team will 'make the eight' or 'miss the eight'.",
+      "use": "Win three of the last four and they'll make the eight.",
+      "common": true
+    },
+    {
+      "term": "finals footy",
+      "say": "FY-nulz FOOT-ee",
+      "ipa": "ˈfaɪnəlz ˈfʊti",
+      "tts": "",
+      "means": "The finals series in September, when the top eight play off for the premiership. Never 'the playoffs'.",
+      "use": "It's finals footy now. Every tackle matters.",
+      "common": true
+    },
+    {
+      "term": "Grand Final",
+      "say": "grand FY-nul",
+      "ipa": "",
+      "tts": "",
+      "means": "The game that decides the premiership, usually in Sydney in early October. Often just 'the GF'.",
+      "use": "Who've you got in the Grand Final?",
+      "common": true
+    },
+    {
+      "term": "premiers",
+      "say": "PREM-ee-uhz",
+      "ipa": "ˈpremiəz",
+      "tts": "",
+      "means": "The team that wins the Grand Final. Whoever finishes top after the regular season are the 'minor premiers'.",
+      "use": "Minor premiers is nice, but nobody remembers it unless you end up premiers.",
+      "common": true
+    },
+    {
+      "term": "the halves",
+      "say": "the HAHVZ",
+      "ipa": "ðə ˈhɑːvz",
+      "tts": "",
+      "means": "The halfback and five-eighth, the two playmakers who steer the attack and do most of the kicking.",
+      "use": "Forwards did their job. The halves just had no idea.",
+      "common": true
+    },
+    {
+      "term": "five-eighth",
+      "say": "five-AYTH",
+      "ipa": "ˌfaɪv ˈeɪtθ",
+      "tts": "",
+      "means": "The number 6, one of the two halves. Roughly what union calls a fly-half.",
+      "use": "Our five-eighth ran the show in the second half.",
+      "common": true
+    },
+    {
+      "term": "dummy-half",
+      "say": "DUM-ee hahf",
+      "ipa": "ˈdʌmi hɑːf",
+      "tts": "",
+      "means": "The player who picks up the ball at each play-the-ball and passes or runs with it. Usually the hooker.",
+      "use": "He darted out of dummy-half and nearly went the length.",
+      "common": true
+    },
+    {
+      "term": "play-the-ball",
+      "say": "PLAY-the-BAWL",
+      "ipa": "",
+      "tts": "",
+      "means": "How play restarts after every tackle: the tackled player gets up and rolls the ball back with his foot.",
+      "use": "Quick play-the-balls all night, and their defence never got set.",
+      "common": true
+    },
+    {
+      "term": "hit-up",
+      "say": "HIT-up",
+      "ipa": "",
+      "tts": "",
+      "means": "A forward taking the ball straight into the defence to make metres.",
+      "use": "Every hit-up was going backwards in the first half.",
+      "common": true
+    },
+    {
+      "term": "the spine",
+      "say": "the SPYNE",
+      "ipa": "",
+      "tts": "",
+      "means": "The fullback, five-eighth, halfback and hooker: the four positions a side is built around.",
+      "use": "You don't win a comp without a decent spine.",
+      "common": true
+    },
+    {
+      "term": "grubber",
+      "say": "GRUB-er",
+      "ipa": "ˈɡrʌbə",
+      "tts": "",
+      "means": "A kick along the ground that tumbles and bounces, often into the in-goal for the chasers to dive on.",
+      "use": "Little grubber on the last and our winger got there first.",
+      "common": true
+    },
+    {
+      "term": "field goal",
+      "say": "FEELD gohl",
+      "ipa": "",
+      "tts": "",
+      "means": "A drop kick through the posts in open play. Worth one point, or two from beyond 40 metres. Often what settles golden point.",
+      "use": "Scores level, two minutes left. Everyone knew the field goal was coming.",
+      "common": true
+    },
+    {
+      "term": "golden point",
+      "say": "GOHL-den POYNT",
+      "ipa": "",
+      "tts": "",
+      "means": "Extra time when scores are level after 80 minutes: the first score wins. In the regular season, if nobody scores in ten minutes, it's a draw.",
+      "use": "Another golden point game. My heart can't take it.",
+      "common": true
+    },
+    {
+      "term": "forty-twenty",
+      "say": "FOR-tee TWEN-tee",
+      "ipa": "",
+      "tts": "",
+      "means": "Written 40/20. A kick from behind your own 40-metre line that bounces out inside their 20. Your side gets the ball back deep in their half.",
+      "use": "Forty-twenty on the last, and the whole crowd was on its feet.",
+      "common": true
+    },
+    {
+      "term": "offload",
+      "say": "OFF-lohd",
+      "ipa": "",
+      "tts": "",
+      "means": "Getting a pass away while you're being tackled.",
+      "use": "Big offload in the tackle and the support was right there.",
+      "common": true
+    },
+    {
+      "term": "try-saver",
+      "say": "TRY-say-ver",
+      "ipa": "",
+      "tts": "",
+      "means": "A tackle that stops what looked like a certain try, often after a chase from behind.",
+      "use": "That try-saver right on half-time won us the game.",
+      "common": true
+    },
+    {
+      "term": "take the two",
+      "say": "tayk the TOO",
+      "ipa": "",
+      "tts": "",
+      "means": "Kick a penalty goal for two points instead of running the ball. Fans argue about it every week.",
+      "use": "Six points up with five minutes left? Take the two.",
+      "common": true
+    },
+    {
+      "term": "on the full",
+      "say": "on the FULL",
+      "ipa": "",
+      "tts": "",
+      "means": "A kick that goes out without bouncing first. The other side gets the ball back from where it was kicked.",
+      "use": "Kicked it out on the full. Schoolboy stuff.",
+      "common": true
+    },
+    {
+      "term": "arm-wrestle",
+      "say": "ARM-res-ul",
+      "ipa": "",
+      "tts": "",
+      "means": "A tight, grinding game where neither side gives an inch.",
+      "use": "It was an arm-wrestle for sixty minutes, then it opened right up.",
+      "common": true
+    },
+    {
+      "term": "the run home",
+      "say": "the run HOHM",
+      "ipa": "",
+      "tts": "",
+      "means": "The last few rounds before the finals, and who each team has left to play.",
+      "use": "They've got a soft run home, so they should make the eight.",
+      "common": true
+    },
+    {
+      "term": "wooden spoon",
+      "say": "WUD-en SPOON",
+      "ipa": "",
+      "tts": "",
+      "means": "Finishing last on the ladder. The team that does it are the 'wooden spooners'.",
+      "use": "Two wins all year. They're playing for the spoon.",
+      "common": true
+    },
+    {
+      "term": "the sheds",
+      "say": "the SHEDZ",
+      "ipa": "",
+      "tts": "",
+      "means": "The dressing rooms.",
+      "use": "Whatever was said in the sheds at half-time worked.",
+      "common": true
+    },
+    {
+      "term": "captain's challenge",
+      "say": "KAP-tinz CHAL-enj",
+      "ipa": "",
+      "tts": "",
+      "means": "Each side can ask the Bunker to check one of the ref's calls each game. Get it right and you keep it; get it wrong and it's gone.",
+      "use": "Burnt the captain's challenge in the first ten minutes. Rookie error.",
+      "common": true
+    },
+    {
+      "term": "Dally M",
+      "say": "DAL-ee EM",
+      "ipa": "ˈdæli ˈem",
+      "tts": "",
+      "means": "The Dally M Medal, the NRL's player-of-the-year award, named after early league star Dally Messenger.",
+      "use": "If he keeps playing like this, he's a Dally M chance.",
+      "common": true
+    },
+    {
+      "term": "repeat set",
+      "say": "ree-PEET set",
+      "ipa": "",
+      "tts": "",
+      "means": "Two sets of six in a row, usually after a kick forces the defence into a goal-line drop-out.",
+      "use": "Forced the drop-out, got the repeat set, and scored off it.",
+      "common": false
+    },
+    {
+      "term": "meat pie",
+      "say": "meet PY",
+      "ipa": "",
+      "tts": "",
+      "means": "Rhyming slang for a try. Said with a grin.",
+      "use": "Two meat pies for the winger tonight.",
+      "common": false
+    },
+    {
+      "term": "cane toads and cockroaches",
+      "say": "KAYN tohdz and KOK-roh-chiz",
+      "ipa": "",
+      "tts": "",
+      "means": "Origin banter: New South Wales fans call Queenslanders cane toads, and Queenslanders call the Blues cockroaches. Friendly, mostly.",
+      "use": "The cockroaches are heading north for game two.",
+      "common": false
+    }
+  ],
+  "phrases": {
+    "open": [
+      {
+        "t": "Did you catch {team} game?",
+        "m": "The safest opener there is. Let them tell you how it went."
+      },
+      {
+        "t": "How good was the footy {when}?",
+        "m": "'How good' is how Australians say something was great. It isn't really a question, so they'll just agree and start talking."
+      },
+      {
+        "t": "Who do you go for?",
+        "m": "How Australians ask which team someone supports. Ask it early and let them do the talking."
+      },
+      {
+        "t": "What'd you make of {team}?",
+        "m": "Open-ended. Fits a win, a loss or a strange one."
+      },
+      {
+        "t": "Only caught the highlights. How'd they go?",
+        "m": "'How'd they go?' is the Australian way to ask how a team did. An honest cover if you missed the game."
+      },
+      {
+        "t": "Got your tips in this week?",
+        "m": "Most workplaces run a footy-tipping comp, picking the winner of every game. Everyone likes moaning about their tips."
+      },
+      {
+        "t": "Blues or Maroons?",
+        "m": "In Origin season, ask which side they're on. Then agree with them."
+      },
+      {
+        "t": "You heading to the game or watching it at the pub?",
+        "m": "A natural game-day question. Either answer gets them talking."
+      }
+    ],
+    "opinion": [
+      {
+        "t": "It's won in the middle. If the forwards don't get on top, the halves have got nothing to work with.",
+        "m": "The oldest truth in league. Fits nearly every game."
+      },
+      {
+        "t": "Completions. You can't keep dropping the ball and expect to win.",
+        "m": "Errors and completed sets decide most games, and fans keep an eye on both."
+      },
+      {
+        "t": "Discipline cost them. You can't give away six agains in your own half.",
+        "m": "Fits any game where the penalties went against your side."
+      },
+      {
+        "t": "They had nothing on the last tackle. No kicking game at all.",
+        "m": "A safe swipe at the halves after a loss."
+      },
+      {
+        "t": "The Bunker's taking the fun out of it.",
+        "m": "A popular gripe. Almost everyone agrees with some version of it."
+      },
+      {
+        "t": "Defence wins comps.",
+        "m": "Sounds wise, and nobody argues. 'Comp' is the competition."
+      },
+      {
+        "t": "Long season. All that matters is being in the eight come September.",
+        "m": "A calm take for a mid-season wobble."
+      },
+      {
+        "t": "Origin's going to mess with everyone's team lists again.",
+        "m": "Mid-year, clubs lose their best players to Origin. True every winter."
+      }
+    ],
+    "agree": [
+      {
+        "t": "Too right.",
+        "m": "Strong Australian agreement. Keeps them going."
+      },
+      {
+        "t": "Fair call.",
+        "m": "Says they've made a good point."
+      },
+      {
+        "t": "Hundred per cent.",
+        "m": "Firm agreement without adding anything you'd have to back up."
+      },
+      {
+        "t": "Spot on.",
+        "m": "Short and certain. They'll carry on."
+      },
+      {
+        "t": "You're not wrong.",
+        "m": "Agreeing, with a hint of 'unfortunately'. Good after a loss."
+      },
+      {
+        "t": "That's what I've been saying.",
+        "m": "Makes it sound like you've thought it for weeks."
+      },
+      {
+        "t": "Dead set.",
+        "m": "Means 'absolutely'. Australian through and through."
+      }
+    ],
+    "dodge": [
+      {
+        "t": "Don't get me started.",
+        "m": "Sounds like you've got plenty to say. Let them say it."
+      },
+      {
+        "t": "Ask me again in September.",
+        "m": "Pushes any verdict off to finals time."
+      },
+      {
+        "t": "I've stopped tipping them. They've burnt me too many times.",
+        "m": "Footy-tipping gloom. No details needed."
+      },
+      {
+        "t": "Depends which side turns up.",
+        "m": "Dodges any prediction about the next game."
+      },
+      {
+        "t": "Never mind us. How's your team travelling?",
+        "m": "'Travelling' means 'doing'. Turns the talk to their team."
+      },
+      {
+        "t": "Too early to tell. Let's see who's left standing after Origin.",
+        "m": "Origin takes the best players out of club sides mid-season, so it's a handy excuse."
+      },
+      {
+        "t": "I'll leave the team picking to the coach.",
+        "m": "Gets you out of who-should-play arguments."
+      }
+    ],
+    "telly": [
+      {
+        "t": "Where's the six again, ref?",
+        "m": "When the other side lies all over your player in the tackle and nothing's called."
+      },
+      {
+        "t": "Forward! That's miles forward!",
+        "m": "Any pass the other side throws that looks a bit forward."
+      },
+      {
+        "t": "Get off him!",
+        "m": "When a tackler holds your player down to slow the play-the-ball."
+      },
+      {
+        "t": "Kick it! It's the last!",
+        "m": "When a player runs on the sixth tackle instead of kicking and gets caught."
+      },
+      {
+        "t": "Send it upstairs!",
+        "m": "When you want the Bunker to look at a try."
+      },
+      {
+        "t": "Bin him!",
+        "m": "After a high shot on one of your players."
+      },
+      {
+        "t": "Pass it! You've got two outside you!",
+        "m": "When a player holds on to it and the overlap goes begging."
+      },
+      {
+        "t": "He's miles offside!",
+        "m": "When their defence rushes up early and the ref misses it."
+      }
+    ],
+    "exit": [
+      {
+        "t": "Righto, I'd better get going. Catch you after the weekend.",
+        "m": "'Righto' means 'all right then'. A clean exit."
+      },
+      {
+        "t": "Anyway, I'll let you get back to it.",
+        "m": "Polite, and works anywhere."
+      },
+      {
+        "t": "There's always next week. Good chatting.",
+        "m": "An upbeat exit after a loss."
+      },
+      {
+        "t": "Whose shout is it?",
+        "m": "A 'shout' is a round of drinks. At the pub, the best change of subject there is."
+      },
+      {
+        "t": "Long season. We'll see. Catch you later.",
+        "m": "Noncommittal. Fits any result."
+      },
+      {
+        "t": "Let's catch up after the next one.",
+        "m": "Polite, and suggests you'll be watching."
+      },
+      {
+        "t": "I'll let you know how my tips go.",
+        "m": "A light exit in tipping season."
+      }
+    ]
+  },
+  "exchanges": {
+    "win": {
+      "open": "Good win {when}. I'll take that.",
+      "them": "Wasn't pretty, but two points is two points.",
+      "back": "Forwards laid the platform and the halves did enough. That's all you want.",
+      "agree": "Too right. Bank it and move on.",
+      "exit": "Let's see if they can string a few together. Catch you later."
+    },
+    "loss": {
+      "open": "Tough one {when}.",
+      "them": "Don't remind me. Couldn't hang on to the ball.",
+      "back": "Too many errors. You can't give {opp} that much ball. They'll make you pay.",
+      "agree": "Fair call. The completions were shocking.",
+      "exit": "Righto, I'm not dwelling on it. Next week."
+    },
+    "bigWin": {
+      "open": "{score} {when}! They put a cricket score on them.",
+      "them": "{opp} dropped their bundle after half-time.",
+      "back": "Everyone was having a crack, though. Even the bench came on and ran hard.",
+      "agree": "Yeah, and that'll do the for-and-against no harm.",
+      "exit": "Don't get too carried away. Catch you next week."
+    },
+    "bigLoss": {
+      "open": "{score}. Go on, say it.",
+      "them": "That was a flogging. Embarrassing.",
+      "back": "Nobody turned up. Missed tackles everywhere and the halves went missing.",
+      "agree": "Can't argue with that. Not good enough.",
+      "exit": "I'm not watching the replay. Righto, I'm off before I get wound up again."
+    },
+    "narrowWin": {
+      "open": "Hung on {when}. That last ten minutes, I could barely watch.",
+      "them": "Same. They were camped on our line at the end.",
+      "back": "That goal-line defence won it. Everyone scrambling for each other.",
+      "agree": "Yep. Those are the wins that count come September.",
+      "exit": "My nerves can't take many more. See you next week."
+    },
+    "narrowLoss": {
+      "open": "So close {when}. One play either way and it's ours.",
+      "them": "Gutted. Thought we had them at the end.",
+      "back": "Had our chances, too. Left a couple of tries out there with the last pass.",
+      "agree": "Yeah, the finishing let us down.",
+      "exit": "Hard to cop, but they'll learn from it. Catch you later."
+    },
+    "draw": {
+      "open": "A draw {when}. Not sure how I feel about that.",
+      "them": "Ten minutes of golden point and nobody could land a field goal.",
+      "back": "A point each. Better than nothing, I suppose.",
+      "agree": "Yeah, could've been worse.",
+      "exit": "Still feels like one we left out there. Catch you later."
+    },
+    "goldenPointWin": {
+      "open": "Golden point {when}! I was off the couch.",
+      "them": "Unreal. Thought it was heading for a draw.",
+      "back": "Didn't panic. Worked it into position and got the job done.",
+      "agree": "Spot on. Composure won that.",
+      "exit": "My heart rate's still not right. See you next week."
+    },
+    "goldenPointLoss": {
+      "open": "Lost it in golden point {when}. Brutal.",
+      "them": "Gutting. Eighty minutes of work and it's gone in one play.",
+      "back": "Hard to be too filthy, though. They gave themselves a chance.",
+      "agree": "Yeah, golden point's a lottery.",
+      "exit": "Shake it off and go again next week. Catch you later."
+    },
+    "comeback": {
+      "open": "What a comeback {when}! I'd written them off at half-time.",
+      "them": "Me too. Whatever got said in the sheds worked.",
+      "back": "Completely different side in the second half. Held the ball and won the ruck.",
+      "agree": "That's the kind of win that builds belief.",
+      "exit": "Hope they take something out of that. Catch you next week."
+    },
+    "blewLead": {
+      "open": "How'd we lose that {when}? We were cruising at half-time.",
+      "them": "Took the foot off the pedal. Same old story.",
+      "back": "Stopped completing, gave away a few six agains, and {opp} just kept coming.",
+      "agree": "Yeah, you can't switch off for a minute at this level.",
+      "exit": "I'll need a few days to get over that one. Catch you later."
+    },
+    "hatTrickWin": {
+      "open": "Hat-trick for {player} {when}! How good.",
+      "them": "Unreal. Every time he touched it, something happened.",
+      "back": "Their defence had no answer for him all night.",
+      "agree": "Give him the ball and get out of the way.",
+      "exit": "Hope he keeps it going. Catch you later."
+    },
+    "nilWin": {
+      "open": "Kept {opp} to nil {when}. Doesn't happen often.",
+      "them": "Defence was unreal. The scramble was on all night.",
+      "back": "Every time they got near our line, someone threw their body in the way.",
+      "agree": "That's a team that wants to play for each other.",
+      "exit": "Defence wins comps. See you next week."
+    },
+    "finalWin": {
+      "open": "Finals footy {when}, and we got the job done.",
+      "them": "Massive. Every tackle felt like it could decide it.",
+      "back": "Nothing flash. Completed, kicked well and defended for each other.",
+      "agree": "That's finals footy. Win the arm-wrestle and the rest takes care of itself.",
+      "exit": "Whatever happens next, I'll remember that one. Catch you later."
+    },
+    "finalLoss": {
+      "open": "That finals loss {when} hurts.",
+      "them": "Yeah. Felt like we never really got going.",
+      "back": "A couple of errors at the wrong time, and in the finals they punish every one.",
+      "agree": "There's no margin for error at this time of year.",
+      "exit": "Takes a while to get over one like that. Catch you later."
+    },
+    "rivalWin": {
+      "open": "Beat {opp} {when}! Best kind of win there is.",
+      "them": "I've been giving it to their fans at work all morning.",
+      "back": "Bragging rights. Those games always mean more.",
+      "agree": "Too right. Nothing beats it.",
+      "exit": "I'm off to remind a few people. Catch you later."
+    },
+    "rivalLoss": {
+      "open": "Losing to {opp} {when}. Of all teams.",
+      "them": "Don't. I'll be copping it all week.",
+      "back": "Same. My phone's already going off.",
+      "agree": "We'll get them next time. They'll keep.",
+      "exit": "I'm keeping my head down till then. Catch you later."
+    }
+  },
+  "pub": [
+    {
+      "say": "Penalty count was a joke tonight.",
+      "o": [
+        ["Shocking. Every fifty-fifty went their way.", 2, "Back your mate and blame the ref. Never fails."],
+        ["Did anyone get a yellow card?", -2, "NRL refs don't show cards. Players get sent to the sin bin."],
+        ["Penalty counts tend to even out over a season.", -1, "Maybe true, but nobody wants a lecture at the bar."]
+      ]
+    },
+    {
+      "say": "The Bunker took four minutes to look at that try.",
+      "o": [
+        ["The Bunker? Like on a golf course?", -2, "The Bunker is the NRL's video review room. Every fan knows it."],
+        ["Fair enough, it was a tight one.", 0, "Harmless, but fans usually moan about the Bunker."],
+        ["Ridiculous. It's sucking the life out of the game.", 2, "Joins in the most popular gripe in league."]
+      ]
+    },
+    {
+      "say": "Who do you go for?",
+      "o": [
+        ["{team}. Don't hold it against me.", 2, "Picks a side with a bit of self-deprecation. Spot on."],
+        ["Go for? Like, go for a run?", -2, "'Who do you go for?' means which team you support."],
+        ["I like to support whoever's playing well.", -1, "Fans pick a team and suffer with it. Fence-sitting sounds odd."]
+      ]
+    },
+    {
+      "say": "Who've you got in Origin?",
+      "o": [
+        ["Depends who's winning.", -1, "A joke, but Origin is tribal. You're expected to pick a side."],
+        ["Is that the one with the Wallabies?", -2, "The Wallabies play union. Origin is New South Wales against Queensland in league."],
+        ["Blues, every time. Never changing.", 2, "Pick a side and commit. 'Maroons, every time' works just as well."]
+      ]
+    },
+    {
+      "say": "Six again? How is that six again?",
+      "o": [
+        ["Six of what again?", -2, "'Six again' resets the tackle count. Every fan knows the call."],
+        ["Soft as. He's been looking for one all night.", 2, "'Soft as' is how Australians call a decision weak. Sounds like a regular."],
+        ["Technically it's a set restart for a ruck infringement.", -1, "Correct, but correcting your mate's wording kills the moment."]
+      ]
+    },
+    {
+      "say": "Bit of biff in the second half.",
+      "o": [
+        ["Biff? Who's Biff?", -2, "'The biff' is a fight, not a player."],
+        ["Yeah, both of them earned ten in the bin.", 2, "Uses the lingo and keeps it matter-of-fact."],
+        ["Fighting has no place in modern sport.", -1, "Plenty agree, but it ends the chat at the bar."]
+      ]
+    },
+    {
+      "say": "Reckon they'll make the eight?",
+      "o": [
+        ["Make the eight what?", -2, "The top eight make the finals. 'Make the eight' is everyday talk."],
+        ["Mathematically it's about forty per cent.", -1, "Sounds like a spreadsheet, not a mate."],
+        ["Tough run home, but they're a chance.", 2, "'They're a chance' is how Australians say 'they could do it'."]
+      ]
+    },
+    {
+      "say": "Golden point again! My heart can't take it.",
+      "o": [
+        ["Me neither. Knew it'd come down to a field goal.", 2, "Matches the mood and knows how golden point usually ends."],
+        ["Why don't they just have a penalty shootout?", -2, "That's soccer. League goes to golden point: first score wins."],
+        ["It's basically a coin toss, statistically.", 0, "Not wrong, just a bit flat."]
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "say": "rugby",
+      "instead": "league, or just footy",
+      "why": "In New South Wales and Queensland, 'rugby' on its own usually means union."
+    },
+    {
+      "say": "a touchdown",
+      "instead": "a try",
+      "why": "You score a try, worth four points. Touchdowns are American football."
+    },
+    {
+      "say": "the playoffs",
+      "instead": "the finals",
+      "why": "The top eight play finals footy. 'Playoffs' sounds American."
+    },
+    {
+      "say": "the standings",
+      "instead": "the ladder",
+      "why": "Australians talk about where their team sits on the ladder."
+    },
+    {
+      "say": "overtime",
+      "instead": "golden point",
+      "why": "Level after 80 minutes means golden point: first score wins."
+    },
+    {
+      "say": "a tie",
+      "instead": "a draw",
+      "why": "A level result is a draw, worth a point each on the ladder."
+    },
+    {
+      "say": "he got a yellow card",
+      "instead": "he got binned",
+      "why": "NRL refs don't show cards. They send players to the sin bin for ten minutes."
+    },
+    {
+      "say": "the TMO",
+      "instead": "the Bunker",
+      "why": "TMO is union talk. League sends tries upstairs to the Bunker."
+    },
+    {
+      "say": "fly-half",
+      "instead": "five-eighth",
+      "why": "Union positions give you away. League has a halfback and a five-eighth, not a scrum-half and a fly-half."
+    },
+    {
+      "say": "a drop goal",
+      "instead": "a field goal",
+      "why": "In league it's a field goal: one point, or two from beyond 40 metres."
+    }
+  ],
+  "nerd": "If you look at it, they completed at eighty-eight per cent and won the post-contact metres, but their average ruck speed blew out past four seconds in the last twenty minutes, and that's where the game went.",
+  "offq": "Who'd you rather have at dummy-half for the last twenty, the starting hooker or the bench utility?",
+  "builtin": {
+    "label": "NRL (rugby league)",
+    "team": "North Queensland Cowboys",
+    "play": "game",
+    "cover": {
+      "nickname": "the Cowboys",
+      "rival": "the Broncos",
+      "ground": "Queensland Country Bank Stadium",
+      "player": "Johnathan Thurston",
+      "since": "2015",
+      "memory": "Johnathan Thurston's golden point field goal to win the 2015 Grand Final"
+    },
+    "others": ["Broncos", "Storm", "Panthers", "Roosters", "Rabbitohs", "Eels"],
+    "betting": [
+      ["Multi", "MUL-tee", "Several bets rolled into one. Every leg has to get up."],
+      ["Same-game multi", "SAYM-game MUL-tee", "A multi built from one game, say the winner plus a tryscorer. Often called an SGM."],
+      ["Head-to-head", "HED-to-hed", "A straight bet on who wins."],
+      ["The line", "the LYNE", "A start given to the underdog. The favourite has to win by more than the line for the bet to get up."],
+      ["First tryscorer", "FURST TRY-skor-er", "A bet on who scores the first try of the game."],
+      ["Anytime tryscorer", "EN-ee-tyme TRY-skor-er", "A bet on a player to score a try at any point in the game."]
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Glossary_of_rugby_league_terms",
+    "https://www.zerotackle.com/ultimate-grand-final-guide-nrl-aussie-slang-29466/",
+    "https://www.skysports.com/rugby-league/news/12028/13292941/super-league-jargon-glossary-and-slang-terms-explained-set-of-six-sin-bin-play-the-ball-and-more",
+    "https://www.howtofan.co.nz/learn-the-lingo",
+    "https://en.wikipedia.org/wiki/List_of_National_Rugby_League_golden_point_games",
+    "https://www.nrl.com/news/2020/12/11/nrl-announces-rule-changes-to-make-game-more-entertaining/",
+    "https://nrl.com/news/2013/05/10/why-sides-opt-for-goal-or-play-on",
+    "https://rugbyobserver.co.uk/?p=101541",
+    "https://en.wikipedia.org/wiki/Rugby_league_match_officials",
+    "https://www.nzherald.co.nz/rotorua-daily-post/news/samantha-motion-bring-back-the-biff-in-rugby-league-yeah-nah/TJ2KB3SP2GNUCGBYGOVJLBJ4PQ",
+    "https://en.wikipedia.org/wiki/State_of_Origin_series",
+    "https://visitperth.com/blog/state-of-origin-starters-guide",
+    "https://www.zerotackle.com/two-weeks-to-go-every-nrl-teams-run-home-likely-final-ladder-best-and-worst-case-scenarios-225899",
+    "https://africa.espn.com/nrl/story/_/id/49372327/nrl-teams-position-run-home-predicted-finish",
+    "https://www.sbs.com.au/news/article/manly-crush-cronulla-in-nrl-romp/vhtooy45i",
+    "https://www.bettingpro.com.au/betting-guides/how-to-bet-on-rugby-league-nrl-betting-guide/",
+    "https://en.wikipedia.org/wiki/2015_NRL_Grand_Final",
+    "https://www.austadiums.com/stadiums/qcb-stadium",
+    "https://www.1news.co.nz/2026/10/05/roosters-edge-knights-to-claim-first-nrl-title-in-seven-years/"
+  ],
+  "unsure": [
+    "terms: 'the sheds', 'Dally M' and 'repeat set', and the phrases 'cricket score', 'dropped their bundle', 'for-and-against', 'How good', 'Righto', 'Dead set', 'shout', 'travelling' and 'copping it', are everyday Australian sports talk written from general knowledge. No league glossary loaded that lists them.",
+    "terms: 'arm-wrestle' is backed by an NRL.com headline and 'take the two' by an NRL.com piece, both seen only in search results. NRL.com articles redirect scripts to a login page.",
+    "terms: 'six again' and 'the Bunker' were checked through Wikipedia, Sky Sports and news snippets, not an NRL rules page, for the same reason.",
+    "terms: 'meat pie' is in Zero Tackle's 2017 glossary and a New Zealand fan guide. It's jokey, so it's marked not common.",
+    "terms: 'cane toads and cockroaches' is listed by Wikipedia and a Perth tourism guide. No recent fan use was checked.",
+    "avoid: 'NRL refs don't show cards' rests on Wikipedia's match-officials article. No NRL source loaded.",
+    "terms: the top eight is the 2026 finals format. Check it still holds when the Perth Bears make it 18 teams in 2027.",
+    "terms: the two-point field goal from beyond 40 metres came in for 2021. It's assumed still in force in 2026.",
+    "builtin: 'the Cows' for the Cowboys couldn't be confirmed, so the nickname is just 'the Cowboys'. The stadium's 2019 naming deal was for six years, but 2026 fixtures still use Queensland Country Bank Stadium.",
+    "ipa: given for the slang and names only, as broad Australian transcriptions; no Australian recordings were checked."
+  ]
+}

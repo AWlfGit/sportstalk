@@ -16,7 +16,7 @@
       {"term": "whānau", "say": "FAH-now", "ipa": "ˈfaːnaʊ", "tts": "far now", "means": "Family, including the wider family and close friends. Te reo Māori; clubs and teams often call themselves a whānau.", "use": "The whole whānau's coming to the club final.", "common": true},
       {"term": "haka", "say": "HAH-kah", "ipa": "ˈhaka", "tts": "", "means": "A Māori ceremonial dance performed at welcomes, celebrations and big occasions. The All Blacks perform one before tests, usually Ka Mate or Kapa o Pango, and fans treat it with respect.", "use": "Great seats for the haka. Goosebumps every time.", "common": true},
       {"term": "the Log o' Wood", "say": "the LOG-a-wood", "ipa": "", "tts": "", "means": "The Ranfurly Shield, the domestic rugby challenge trophy. The holder defends it at home and can lose it in any one game.", "use": "Shield challenge on Saturday. Let's bring the Log o' Wood home.", "common": false},
-      {"term": "the Cake Tin", "say": "the KAYK tin", "ipa": "", "tts": "", "means": "Wellington's main stadium (Sky Stadium), named for its round, metal look.", "use": "Freezing at the Cake Tin last night. That wind never stopped.", "common": true}
+      {"term": "the Cake Tin", "say": "the KAYK tin", "ipa": "", "tts": "", "means": "Wellington's main stadium (Hnry Stadium since March 2026), named for its round, metal look.", "use": "Freezing at the Cake Tin last night. That wind never stopped.", "common": true}
     ],
     "pronounce": [
       {"word": "Māori", "say": "MAH-aw-ree", "ipa": "ˈmaːɔɾi", "tts": "mah oh ree", "why": "Said the te reo way, three short sounds. 'MAY-or-ee' sounds out of touch."},

@@ -1,0 +1,74 @@
+[
+ {
+  "id": "25932",
+  "name": "Blues",
+  "short": "Blues",
+  "abbr": "BLU"
+ },
+ {
+  "id": "25889",
+  "name": "Brumbies",
+  "short": "Brumbies",
+  "abbr": "ACT"
+ },
+ {
+  "id": "25934",
+  "name": "Chiefs",
+  "short": "Chiefs",
+  "abbr": "CHI"
+ },
+ {
+  "id": "25936",
+  "name": "Crusaders",
+  "short": "Crusaders",
+  "abbr": "CRU"
+ },
+ {
+  "id": "289338",
+  "name": "Fijian Drua",
+  "short": "Fijian Drua",
+  "abbr": "FIJ"
+ },
+ {
+  "id": "25938",
+  "name": "Highlanders",
+  "short": "Highlanders",
+  "abbr": "HIG"
+ },
+ {
+  "id": "25939",
+  "name": "Hurricanes",
+  "short": "Hurricanes",
+  "abbr": "HUR"
+ },
+ {
+  "id": "25894",
+  "name": "Melbourne Rebels",
+  "short": "Melbourne Rebels",
+  "abbr": "MEL"
+ },
+ {
+  "id": "289319",
+  "name": "Moana Pasifika",
+  "short": "Moana Pasifika",
+  "abbr": "MOA"
+ },
+ {
+  "id": "227",
+  "name": "New South Wales Waratahs",
+  "short": "New South Wales Waratahs",
+  "abbr": "NSW"
+ },
+ {
+  "id": "182",
+  "name": "Queensland Reds",
+  "short": "Queensland Reds",
+  "abbr": "QUE"
+ },
+ {
+  "id": "25893",
+  "name": "Western Force",
+  "short": "Western Force",
+  "abbr": "WES"
+ }
+]

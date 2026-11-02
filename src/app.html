@@ -1257,7 +1257,9 @@ const ESPN=(()=>{
     nfl:[["football/nfl","NFL"],["football/college-football","College football"],["football/cfl","CFL"]],
     nba:[["basketball/nba","NBA"]],
     nhl:[["hockey/nhl","NHL"]],
-    mlb:[["baseball/mlb","MLB"]]
+    mlb:[["baseball/mlb","MLB"]],
+    afl:[["australian-football/afl","AFL"]],
+    nrl:[["rugby-league/3","NRL"]]
   };
   const pad=n=>String(n).padStart(2,"0");
   const ymd=d=>""+d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate());
@@ -1276,6 +1278,7 @@ const ESPN=(()=>{
     const raw=c.score&&typeof c.score==="object"?(c.score.displayValue!=null?c.score.displayValue:c.score.value):c.score;
     return{id:String(t.id!=null?t.id:c.id),n:t.displayName||t.name||"?",s:t.shortDisplayName||t.displayName||t.name||"?",ab:t.abbreviation||"",sc:num(raw),w:!!c.winner,form:typeof c.form==="string"?c.form:"",rec:(rec&&rec.summary)||"",col:String(t.color||"").replace(/[^0-9a-f]/gi,"").slice(0,6),lo:logoPath(t)};
   }
+  const unshout=s=>String(s).replace(/\b([A-Z])([A-Z]{3,})\b/g,(m,x,y)=>x+y.toLowerCase());
   // ESPN logo as a path on its image server, e.g. /i/teamlogos/soccer/500/364.png
   function logoPath(t){
     const u=String(t.logo||(t.logos&&t.logos[0]&&t.logos[0].href)||"");
@@ -1293,10 +1296,20 @@ const ESPN=(()=>{
     const H=comps.find(x=>x.homeAway==="home")||comps[0],A=comps.find(x=>x.homeAway==="away")||comps[1];
     if(!H||!A)return null;
     const h=team(H),a=team(A);if(h.sc==null||a.sc==null)return null;
+    // ESPN writes some AFL names in capitals ("GWS GIANTS"), which a voice would spell out
+    if(sport==="australian-football")for(const t of [h,a]){t.n=unshout(t.n);t.s=unshout(t.s)}
     const side=id=>String(id)===h.id?"h":String(id)===a.id?"a":null;
     const detail=st.shortDetail||st.detail||"";
     const link=((e.links||[]).find(l=>(l.rel||[]).indexOf("summary")>=0)||{}).href||"";
     const g={id:String(e.id),lg,date:e.date||c.date,st:detail,xt:/OT|SO|AET|Pen|\/\d/i.test(detail),venue:(c.venue&&c.venue.fullName)||"",link,h,a,ev:[],ld:[]};
+    // AFL and NRL finals (the AFL also names the stage: EF, QF, SF, PF, GF)
+    if(sport==="australian-football"||sport==="rugby-league"){
+      const sn=e.season||{},note=String(((c.notes||[])[0]||{}).headline||"");
+      g.post=/post|final/i.test(sn.slug||"");
+      const m=/^(EF|QF|SF|PF|GF)\d?\b/.exec(note);if(m)g.stage=m[1];
+      // The NRL numbers its finals weeks: 2 semis, 3 preliminary finals, 4 the Grand Final
+      else if(sport==="rugby-league"&&g.post){const st=({2:"SF",3:"PF",4:"GF"})[+((e.week||{}).number)];if(st)g.stage=st}
+    }
     for(const d of c.details||[]){
       if(d.shootout)continue;
       const s=side(d.team&&d.team.id);if(!s)continue;
@@ -1305,14 +1318,17 @@ const ESPN=(()=>{
       const who=(ath&&(ath.displayName||ath.fullName))||"";
       const cl=clock(d.clock&&d.clock.displayValue);let k=null;
       if(sport==="soccer"){if(d.redCard)k="red";else if(d.scoringPlay)k=d.ownGoal?"og":d.penaltyKick?"pen":"goal"}
-      else if(sport==="rugby"){if(/^(penalty )?try$/.test(tt))k="try";else if(tt==="red card")k="red";else if(tt==="yellow card")k="yellow"}
+      else if(sport==="rugby"||sport==="rugby-league"){if(/^(penalty )?try$/.test(tt))k="try";else if(tt==="red card")k="red";else if(tt==="yellow card")k="yellow";else if(sport==="rugby-league"&&tt==="drop goal")k="fg";else if(sport==="rugby-league"&&tt==="penalty goal")k="pg"}
       if(k)g.ev.push({k,t:s,p:who,m:cl.m,fh:cl.fh,mt:(d.clock&&d.clock.displayValue)||""});
     }
+    // Rugby league: points after 80 minutes mean golden point
+    if(sport==="rugby-league"&&g.ev.some(x=>x.m>80&&/^(try|fg|pg)$/.test(x.k)))g.xt=true;
     if(sport==="soccer"){
       const two=n=>{const x=statOf(H.statistics,n),y=statOf(A.statistics,n);return x==null||y==null?null:[x,y]};
       g.stx={poss:two("possessionPct"),shots:two("totalShots"),sot:two("shotsOnTarget"),corners:two("wonCorners")};
     }else if(sport!=="rugby"){
-      const ls=x=>(x.linescores||[]).map(l=>num(l.value)).filter(v=>v!=null);
+      // Rugby league lists two halves plus empty extra periods; keep the halves
+      const ls=x=>(x.linescores||[]).filter(l=>sport!=="rugby-league"||+l.period<=2).map(l=>num(l.value)).filter(v=>v!=null);
       g.ls={h:ls(H),a:ls(A)};
       if(sport!=="baseball"){
         const L=[];
@@ -1567,6 +1583,40 @@ const SPORTS={
       {say:"Left the bases loaded in the ninth.",o:[["Brutal. One hit and it's a different game.",2,"Exactly the right pain."],["How many bases are there again?",-2,"Four, counting home. Rumbled."],["Loaded with what?",-2,"Runners on all three bases."]]},
       {say:"You like their chances in the playoffs?",o:[["Pitching wins in October.",2,"The playoffs are in October. Sounds seasoned."],["Isn't it a bit cold for baseball then?",-1,"Fair point. Wrong vibe."],["Which ones are the playoffs?",-2,"Oh dear."]]},
       {say:"Walk-off last night!",o:[["Unreal. That's why you stay till the end.",2,"A walk-off ends the game with a home win in the last inning."],["Did everyone walk off early?",-2,"It means the winning run scored to end it."],["Nice.",0,"Fine, but flat."]]}
+    ]},
+  afl:{label:"AFL (Aussie rules)",team:"Collingwood",page:375,play:"game",nerd:"Their contested possession and clearance numbers were well down. That's where it was lost.",offq:"What about the second ruck, though?",
+    cover:{nickname:"the Pies",rival:"Carlton",ground:"the MCG",player:"Peter Daicos",since:"2010",memory:"The 2010 Grand Final replay"},
+    others:["Carlton","Essendon","Richmond","Geelong","Brisbane","West Coast"],
+    phrases:{
+      open:[{t:"You catch the footy on the weekend?",m:"The standard Monday opener in footy states."}],
+      opinion:[{t:"Win the contested ball, win the game. Simple.",m:"True of almost any game."},{t:"Too much kicking backwards. Take the game on!",m:"Every crowd yells it."},{t:"The umpiring was all over the shop.",m:"Blaming the umpires is a national pastime."},{t:"Forward line just isn't functioning.",m:"Fits most losses."}],
+      agree:[{t:"Yeah, spot on.",m:"Short. Keeps them talking."}],
+      dodge:[{t:"Don't get me started on the umps.",m:"Sounds like you've got strong views. Let them vent."}],
+      telly:[{t:"Ball!",m:"Shout it whenever someone's tackled with the ball."}]
+    },
+    jargon:[["Behind","bee-HIND","One point: the ball goes between a goalpost and a behind post."],["Mark","MARK","A clean catch from a kick of at least 15 metres. The catcher gets a free kick."],["Holding the ball","HOLE-ding the BAWL","A free kick against a tackled player who had time to get rid of it."],["Disposal","dis-POH-zul","Any kick or handball."],["Hit-out","HIT-owt","The ruck taps the ball to a teammate at a bounce or throw-in."],["Premiership","PREM-ee-er-ship","Winning the Grand Final. Also called the flag."]],
+    pub:[
+      {say:"Did you see that screamer?",o:[["Unbelievable. Mark of the year, surely.",2,"A screamer is a spectacular high mark."],["Who was screaming?",-2,"It's a mark, not a noise."],["Nice catch.",0,"Fine, but flat."]]},
+      {say:"Umps were shocking, weren't they?",o:[["Free-kick count was a joke.",2,"Moaning about the umpires bonds everyone."],["They've got a hard job, to be fair.",-1,"Fair, but nobody wants to hear it."],["Which ones are the umpires?",-2,"Rumbled."]]},
+      {say:"Reckon they'll play finals?",o:[["If they sort the midfield out, yeah.",2,"Finals are the September knockout for the top sides."],["Play what?",-2,"Finals: September's knockout games. Rumbled."],["Hard to say this early.",1,"Safe."]]},
+      {say:"Kicked it out on the full again.",o:[["You can't do that in the last quarter.",2,"Out on the full gives the other side a free kick."],["Was it a goal, then?",-2,"It went out without bouncing. Not a goal."],["Full of what?",-2,"Oh no."]]}
+    ]},
+  nrl:{label:"NRL (rugby league)",team:"the Cowboys",page:365,play:"game",nerd:"Their completion rate was under seventy per cent and they lost the ruck-speed battle through the middle.",offq:"What about the dummy-half service, though?",
+    cover:{nickname:"the Cowboys",rival:"the Broncos",ground:"Queensland Country Bank Stadium",player:"Johnathan Thurston",since:"2015",memory:"Johnathan Thurston's golden point field goal to win the 2015 Grand Final"},
+    others:["the Broncos","the Storm","the Panthers","the Roosters","the Rabbitohs","the Eels"],
+    phrases:{
+      open:[{t:"You catch the footy last night?",m:"In New South Wales and Queensland, footy means rugby league."}],
+      opinion:[{t:"Completed their sets, won the ruck. Easy game when you do that.",m:"Fits most wins."},{t:"Too many errors. You can't give a side that much ball.",m:"Fits most losses."},{t:"The bunker got it wrong again.",m:"The bunker is the video referee. Everyone moans about it."},{t:"The halves need to take control.",m:"The halves are the playmakers."}],
+      agree:[{t:"Yeah, fair call.",m:"Short. Keeps them talking."}],
+      dodge:[{t:"Don't get me started on the bunker.",m:"Sounds like you've got views. Let them vent."}],
+      telly:[{t:"Six again, ref!",m:"Shout it when the other side is slow to get off the tackle."}]
+    },
+    jargon:[["Set of six","set of SIX","Six tackles to make ground before handing the ball over."],["Six again","six a-GEN","The ref resets the tackle count after a ruck infringement."],["Sin bin","SIN bin","Ten minutes off for a yellow card."],["Golden point","GOAL-den POYNT","Extra time when it's level after 80 minutes. The next score wins."],["Bomb","BOM","A high kick to pressure the catcher."],["Dummy half","DUM-ee HAHF","The player who picks the ball up from the ruck and passes it."]],
+    pub:[
+      {say:"Bunker got that one wrong, didn't it?",o:[["Shocking. Took five minutes and still got it wrong.",2,"Everyone moans about the bunker."],["The video review is statistically quite accurate.",-1,"Maybe. Not pub talk."],["What's the bunker?",-2,"The video referee. Instant giveaway."]]},
+      {say:"Couldn't complete a set all night.",o:[["Errors everywhere. You can't win like that.",2,"Completed sets win games."],["Complete what?",-2,"A set is six tackles."],["They'll be right next week.",1,"Hopeful. Fine."]]},
+      {say:"You watching Origin this year?",o:[["Wouldn't miss it. Pub with the boys.",2,"State of Origin: New South Wales v Queensland. The biggest thing in league."],["What's Origin?",-2,"Rumbled on the spot."],["Depends who's picked.",1,"Sounds like you follow selection. Fine."]]},
+      {say:"Went to golden point!",o:[["My nerves are shot. What a finish.",2,"Golden point is extra time: the next score wins."],["Is that a gold medal thing?",-2,"No."],["Who got the point?",0,"It can be a try or a field goal. Close enough."]]}
     ]}
 };
 const UNIVERSAL_PUB=[
@@ -1598,12 +1648,14 @@ const COVER_FIELDS=[
 const NAMES=["Big Dave","Gaz","Terry from accounts","Steve","Mick","Dan"];
 const NAMES_NA=["Big Mike","Dave from accounting","Kyle","Tony","Steve","Jen"];
 const coverFields=()=>isNA()?COVER_FIELDS_NA:COVER_FIELDS;
-const supportQ=()=>isNA()?"Who do you root for?":"Who do you support?";
-const BIG={football:3,rugby:15,nfl:14,nba:15,nhl:3,mlb:5};
-const NARROW={football:1,rugby:7,nfl:7,nba:5,nhl:1,mlb:1};
+const supportQ=()=>isNA()?"Who do you root for?":isAU()?"Who do you go for?":"Who do you support?";
+const BIG={football:3,rugby:15,nfl:14,nba:15,nhl:3,mlb:5,afl:40,nrl:20};
+const NARROW={football:1,rugby:7,nfl:7,nba:5,nhl:1,mlb:1,afl:6,nrl:6};
 const US=new Set(["nfl","nba","nhl","mlb"]);
 const NA_BETTING=[["Parlay","PAR-lay","Several bets rolled into one. Every leg has to win."],["The spread","the SPRED","How many points the favorite has to win by for a bet on them to pay."],["Puck line","PUK line","Hockey's version of the spread, usually a goal and a half."],["Over/under","OH-ver UN-der","A bet on whether the total score goes over or under a set number."],["Moneyline","MUN-ee-line","A straight bet on who wins, no spread."]];
-const bettingFor=sp=>isNA(sp)?NA_BETTING:BETTING;
+const AU_BETTING=[["Multi","MUL-tee","Several bets in one. Every leg has to come in."],["The line","the LINE","A points start for the underdog, so both sides are about even money."],["Head-to-head","hed-to-HED","A straight bet on who wins."],["Roughie","RUFF-ee","An outsider at long odds."],["Odds-on","odz-ON","A favourite that pays back less than you put on."]];
+// A sport's own betting words (from its talk pack) first, else its region's
+const bettingFor=sp=>{const s=SPORTS[sp||S.sport];return s&&s.betting?s.betting:isNA(sp)?NA_BETTING:isAU(sp)?AU_BETTING:BETTING};
 
 /* Talk packs: researched slang, phrases, pub-test rounds and five-beat exchanges for a sport */
 let TALK={};
@@ -1623,6 +1675,7 @@ for(const [sp,P] of Object.entries(TALK)){
   if((P.pub||[]).length>=3)s.pub=P.pub;
   if(P.nerd)s.nerd=P.nerd;
   if(P.offq)s.offq=P.offq;
+  if((P.betting||[]).length)s.betting=P.betting;
   s.avoid=P.avoid||[];
   s.talk=true;
 }
@@ -1651,7 +1704,7 @@ function ensureLingo(sp){
   if(!LINGO_SPLIT||lingoLoaded[sp])return Promise.resolve();
   return lingoLoading[sp]||(lingoLoading[sp]=fetch("lingo/"+sp+".json").then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(d=>{addLingo(d);lingoLoaded[sp]=true}).catch(()=>{}).finally(()=>{delete lingoLoading[sp]}));
 }
-const PREFIX={football:["soccer/"],rugby:["rugby/"],cricket:["cricket/"],f1:["racing/"],nfl:["football/"],nba:["basketball/"],nhl:["hockey/"],mlb:["baseball/"]};
+const PREFIX={football:["soccer/"],rugby:["rugby/"],cricket:["cricket/"],f1:["racing/"],nfl:["football/"],nba:["basketball/"],nhl:["hockey/"],mlb:["baseball/"],afl:["australian-football/"],nrl:["rugby-league/"]};
 const sportOf=lg=>Object.keys(ESPN.LEAGUES).find(k=>ESPN.LEAGUES[k].some(x=>x[0]===lg))||null;
 const lingoPool=sp=>LINGO.filter(t=>(PREFIX[sp]||[]).some(p=>t.league.indexOf(p)===0));
 function lingoByName(name,sp,exact){
@@ -1695,7 +1748,8 @@ const teamName=()=>teamNameFor(S.sport);
 /* How a fan says the team mid-sentence. North American teams take "the" ("the Flames"), so a
    name typed without it falls back to the team guide's short name when there is one. */
 const teamSay=()=>{const n=teamName();if(!US.has(S.sport)||/^the /i.test(n))return n;const L=myLingo();return L&&/^the /i.test(L.nickname||"")?L.nickname:n};
-const fill=t=>String(t).replace(/\bGo \{team\}/g,()=>"Go "+teamSay().replace(/^the /i,"")).replace(/\{team\}/g,()=>teamSay());
+// {when} in a phrase-book line: the current game's day, or a general "on the weekend"
+const fill=t=>String(t).replace(/\bGo \{team\}/g,()=>"Go "+teamSay().replace(/^the /i,"")).replace(/\{team\}/g,()=>teamSay()).replace(/\{when\}/g,()=>S.game&&S.game.date?whenPhrase(S.game.date):isNA()?"last night":isAU()?"on the weekend":"at the weekend").replace(/\b([Tt])he the /g,"$1he ");
 const leagueList=()=>ESPN.LEAGUES[S.sport]||[];
 const currentLg=()=>{const l=leagueList();const want=S.leagues[S.sport];return (l.find(x=>x[0]===want)||l[0]||[])[0]||null};
 const leagueName=lg=>{for(const arr of Object.values(ESPN.LEAGUES))for(const [k,n] of arr)if(k===lg)return n;return ""};
@@ -1727,7 +1781,7 @@ function area(){
 const placeShort=l=>String(l||"").split(",")[0];
 const kmText=k=>k.toLocaleString("en-GB")+" km ("+Math.round(k*0.621371/5)*5+" miles)";
 // How the team box names a sport in All sports ("Your NBA team", "Your football team")
-const TEAM_WORD={football:"football",rugby:"rugby",cricket:"cricket",f1:"F1",nfl:"NFL",nba:"NBA",nhl:"hockey",mlb:"baseball"};
+const TEAM_WORD={football:"football",rugby:"rugby",cricket:"cricket",f1:"F1",nfl:"NFL",nba:"NBA",nhl:"hockey",mlb:"baseball",afl:"AFL",nrl:"NRL"};
 // Only a team the visitor typed counts as "theirs" for Local mode (not the example team)
 // The visitor's typed team, resolved to team ids in that sport's results: an exact name, short name
 // or abbreviation; else a unique name ending or starting with it ("Leafs" -> Toronto Maple Leafs);
@@ -1813,7 +1867,7 @@ function pool(){
 }
 const findGame=(id,lg)=>{for(const e of Object.values(DATA.cache))for(const g of e.games)if(g.id===id&&(!lg||g.lg===lg))return g;return null};
 // Short league names for mixed lists
-const LG_SHORT={"soccer/eng.1":"Premier League","soccer/eng.2":"Championship","soccer/sco.1":"Scottish Prem","soccer/uefa.champions":"Champions League","soccer/uefa.europa":"Europa League","soccer/esp.1":"LaLiga","soccer/ita.1":"Serie A","soccer/ger.1":"Bundesliga","soccer/fra.1":"Ligue 1","soccer/usa.1":"MLS","soccer/tur.1":"Süper Lig","soccer/mex.1":"Liga MX","soccer/bra.1":"Brasileirão","soccer/arg.1":"Argentina","soccer/col.1":"Colombia","soccer/per.1":"Peru Liga 1","soccer/conmebol.libertadores":"Libertadores","soccer/aus.1":"A-League","soccer/jpn.1":"J1 League","soccer/chn.1":"Chinese SL","soccer/ksa.1":"Saudi Pro","soccer/ind.1":"ISL","soccer/afc.champions":"AFC Champions","soccer/rsa.1":"SA Premiership","soccer/caf.champions":"CAF Champions","rugby/267979":"Prem Rugby","rugby/270557":"URC","rugby/242041":"Super Rugby","rugby/289234":"Rugby Test","rugby/271937":"Champions Cup","rugby/180659":"Six Nations","racing/f1":"F1","football/nfl":"NFL","football/college-football":"College football","football/cfl":"CFL","basketball/nba":"NBA","hockey/nhl":"NHL","baseball/mlb":"MLB"};
+const LG_SHORT={"soccer/eng.1":"Premier League","soccer/eng.2":"Championship","soccer/sco.1":"Scottish Prem","soccer/uefa.champions":"Champions League","soccer/uefa.europa":"Europa League","soccer/esp.1":"LaLiga","soccer/ita.1":"Serie A","soccer/ger.1":"Bundesliga","soccer/fra.1":"Ligue 1","soccer/usa.1":"MLS","soccer/tur.1":"Süper Lig","soccer/mex.1":"Liga MX","soccer/bra.1":"Brasileirão","soccer/arg.1":"Argentina","soccer/col.1":"Colombia","soccer/per.1":"Peru Liga 1","soccer/conmebol.libertadores":"Libertadores","soccer/aus.1":"A-League","soccer/jpn.1":"J1 League","soccer/chn.1":"Chinese SL","soccer/ksa.1":"Saudi Pro","soccer/ind.1":"ISL","soccer/afc.champions":"AFC Champions","soccer/rsa.1":"SA Premiership","soccer/caf.champions":"CAF Champions","rugby/267979":"Prem Rugby","rugby/270557":"URC","rugby/242041":"Super Rugby","rugby/289234":"Rugby Test","rugby/271937":"Champions Cup","rugby/180659":"Six Nations","australian-football/afl":"AFL","rugby-league/3":"NRL","racing/f1":"F1","football/nfl":"NFL","football/college-football":"College football","football/cfl":"CFL","basketball/nba":"NBA","hockey/nhl":"NHL","baseball/mlb":"MLB"};
 const lgShort=lg=>LG_SHORT[lg]||leagueName(lg);
 function whereText(){const A=area();return S.where.mode==="off"?"Everywhere":A?"Near "+placeShort(A.label):"Pick your area"}
 function updateWhereBtn(){const b=$("#whereBtn");if(b){b.textContent=whereText();b.classList.toggle("off",S.where.mode==="off")}}
@@ -1928,7 +1982,8 @@ function selectGame(g){
 }
 
 /* ---------- Briefing engine ---------- */
-function tname(t,sp,lg){return (US.has(sp)&&lg!=="football/college-football")?"the "+t.s:t.s}
+// "the Lakers", "the Broncos"; not for college sides or the Origin states ("Queensland")
+function tname(t,sp,lg){return (US.has(sp)&&lg!=="football/college-football")||(sp==="nrl"&&!/^(New South Wales|Queensland)$/.test(t.s))?"the "+t.s:t.s}
 function analyse(g,side){
   const sp=Object.keys(ESPN.LEAGUES).find(k=>ESPN.LEAGUES[k].some(x=>x[0]===g.lg));
   const ps=side||(g.a.sc>g.h.sc?"a":"h"),os=ps==="h"?"a":"h";
@@ -1943,7 +1998,7 @@ function analyse(g,side){
   F.LM=lingoOf(g.lg,M)||(isMine(M,g.lg)?myLingo():null);F.LO=lingoOf(g.lg,O);
   const r1=rivalOf(F.LM,O),r2=rivalOf(F.LO,M);
   F.derby=r1||r2?{name:r1?r1.name:O.s,derby:(r1&&r1.derby)||(r2&&r2.derby)||""}:null;
-  if(sp==="football")soccerFeats(F);else if(sp==="rugby")rugbyFeats(F);else usFeats(F);
+  if(sp==="football")soccerFeats(F);else if(sp==="rugby")rugbyFeats(F);else if(sp==="afl")aflFeats(F);else if(sp==="nrl")nrlFeats(F);else usFeats(F);
   if(F.tM&&F.tO&&res!=="D"){const gap=res==="W"?F.tM.r-F.tO.r:F.tO.r-F.tM.r;F.upset=gap>=6}
   return F;
 }
@@ -1976,6 +2031,34 @@ function rugbyFeats(F){
   F.yellowM=ev.filter(e=>e.k==="yellow"&&e.t===F.ps).length;
   F.redM=ev.filter(e=>e.k==="red"&&e.t===F.ps);F.redO=ev.filter(e=>e.k==="red"&&e.t===F.os);
 }
+// AFL: the margin at three-quarter time, the goalkickers, and whether it was a final
+function aflFeats(F){
+  const ls=F.g.ls||{},a=ls[F.ps]||[],b=ls[F.os]||[];
+  if(a.length>=4&&b.length>=4){F.q3=sum(a.slice(0,3))-sum(b.slice(0,3));F.comeback=F.res==="W"&&F.q3<0;F.blew=F.res==="L"&&F.q3>=18}
+  const find=(list,c)=>list.find(l=>l.c===c);
+  F.lead={goals:find(F.ldM,"goals"),goalsO:find(F.ldO,"goals"),disp:find(F.ldM,"disposals"),dispO:find(F.ldO,"disposals")};
+  F.bag=F.res==="W"&&F.lead.goals&&+F.lead.goals.v>=5?F.lead.goals:null;
+  F.final=!!F.g.post;F.stage=F.g.stage||"";
+}
+// NRL: tries, the half-time margin, golden point, a hat-trick, keeping them to nil, finals
+function nrlFeats(F){
+  const ev=F.g.ev,tries=s=>ev.filter(e=>e.k==="try"&&e.t===s);
+  F.triesM=tries(F.ps);F.triesO=tries(F.os);
+  const ls=F.g.ls||{},a=ls[F.ps]||[],b=ls[F.os]||[];
+  if(a.length&&b.length){F.htM=a[0]-b[0];F.comeback=F.res==="W"&&F.htM<0;F.blew=F.res==="L"&&F.htM>=10}
+  F.ot=!!F.g.xt;
+  const by={};for(const e of F.triesM)if(e.p)by[e.p]=(by[e.p]||0)+1;
+  const hat=Object.entries(by).find(([,n])=>n>=3);F.hat=hat?{p:hat[0],n:hat[1]}:null;
+  F.yellowM=ev.filter(e=>e.k==="yellow"&&e.t===F.ps).length;F.yellowO=ev.filter(e=>e.k==="yellow"&&e.t===F.os).length;
+  F.redM=ev.filter(e=>e.k==="red"&&e.t===F.ps);F.redO=ev.filter(e=>e.k==="red"&&e.t===F.os);
+  F.fg=ev.filter(e=>e.k==="fg");
+  F.nil=F.res==="W"&&F.O.sc===0;
+  F.final=!!F.g.post;F.stage=F.g.stage||"";
+}
+// Try-scorers by name, with a count for anyone who got more than one: "Smith (2), Jones"
+function tryList(list){const c=new Map();for(const e of list){const n=sur(e.p);if(n)c.set(n,(c.get(n)||0)+1)}return [...c].map(([n,k])=>k>1?n+" ("+k+")":n).join(", ")}
+// Grounds fans call "the MCG", "the Gabba"
+const theVenue=v=>/^(MCG|SCG|WACA|Gabba)$/.test(v)?"the "+v:v;
 function usFeats(F){
   const ls=F.g.ls||{},a=ls[F.ps]||[],b=ls[F.os]||[],n=Math.min(a.length,b.length)-1;
   if(n>=1){const sa=sum(a.slice(0,n)),sb=sum(b.slice(0,n));F.comeback=F.res==="W"&&sa<sb;F.blew=F.res==="L"&&sa>sb}
@@ -2019,7 +2102,7 @@ function lines(F){
   let open,them,back,openStar=false,backStar=false;
   if(F.neutral)open=pick(["You catch "+g.h.s+" and "+g.a.s+" "+when+"?","See "+g.h.s+" against "+g.a.s+" "+when+"?"],k);
   else if(F.res==="L"){open=classic;openStar=true}
-  else if(F.res==="D")open=na?"A tie "+when+". Weird one.":pick([Tc+" "+when+". Point gained or two dropped?","Honours even "+when+", eh?"],k);
+  else if(F.res==="D")open=na?"A tie "+when+". Weird one.":isAU(sp)?"A draw "+when+". Don't see many of those.":pick([Tc+" "+when+". Point gained or two dropped?","Honours even "+when+", eh?"],k);
   else if(F.comeback)open="Never in doubt "+when+". Never in doubt.";
   else if(F.late)open="Did you see the end "+when+"? I was off my seat.";
   else if(F.big)open=na?Tc+" "+when+", "+huh+" Total domination.":Tc+" "+when+", eh? Different class.";
@@ -2071,6 +2154,24 @@ function lines(F){
       them=F.tryBonusM?F.triesM.length+" tries! Bonus point in the bag.":F.big?"Forwards bullied them.":F.narrow?"Held on at the end. Nervy.":top?sur(top.p)+" with a cracking try.":"Big shift from the pack.";
       back=F.tryBonusM?"When "+T+" play with tempo, nobody lives with them.":F.big?"It's won up front. The pack was immense.":F.narrow?"Proper defensive shift at the end. That's character.":"It's won up front. Simple as.";
     }else{them="A draw. Feels like a loss.";back="Draw's fine. It's what you do next week."}
+  }else if(sp==="afl"){
+    const gl=F.lead&&F.lead.goals,glO=F.lead&&F.lead.goalsO;
+    if(F.res==="L"){
+      them=F.blew?"We were three goals up at the last change!":F.final?"Out of the finals. That's the season.":F.big?F.line+". Embarrassing.":glO&&+glO.v>=4?sur(glO.p)+" kicked "+glO.v+" on us.":"Couldn't hit a target going forward.";
+      back=F.blew?"No run in the last quarter. Ran out of legs.":F.big?"Smashed at the contest. Lost the clearances all day.":"Too much kicking backwards. Take the game on!";
+    }else if(F.res==="W"){
+      them=F.comeback?"Behind at three-quarter time and we still got there!":F.bag?sur(F.bag.p)+" kicked "+F.bag.v+"!":F.big?"Absolute belting.":F.narrow?"Hung on by a kick. My nerves are shot.":gl?sur(gl.p)+" kicked "+gl.v+". Lovely.":"Four quarters of footy for once.";
+      back=F.comeback?"The last quarter was all ours. That's the run you want.":F.big?"When they win the contested ball, nobody gets near them.":F.narrow?"A win's a win. Four points.":"Win the clearances, win the game.";
+    }else{them="A draw. Nobody knows how to feel.";back="Two points each. Could be handy come September."}
+  }else if(sp==="nrl"){
+    const t1=F.triesM[0];
+    if(F.res==="L"){
+      them=F.ot?"Golden point, and we lose it.":F.blew?"We were ten up at the break!":F.final?"Season's over. Gutted.":F.big?F.line+". Flogged.":F.yellowM?"That sin bin cost us.":"Couldn't complete a set to save ourselves.";
+      back=F.ot?"Golden point's a lottery anyway.":F.blew?"Fell off tackles all second half.":F.big?"Lost the ruck. They rolled forward all night.":"Too many errors. You can't give a side that much ball.";
+    }else if(F.res==="W"){
+      them=F.ot?"Golden point! My heart can't take it.":F.hat?sur(F.hat.p)+" with a hat-trick!":F.comeback?"Down at half-time and we came back!":F.nil?"Kept them to nil!":F.big?"Absolute flogging.":t1&&t1.p?sur(t1.p)+" with a ripper of a try.":"Gritty win.";
+      back=F.ot?"Ice in the veins at the end.":F.comeback?"Second half was all ours. Completed every set.":F.nil?"Defence wins comps. Simple as.":F.big?"When the forwards roll forward like that, the halves have it easy.":"Completed their sets, won the ruck. Easy game when you do that.";
+    }else{them="A draw, after golden point and all.";back="Nobody wins. Weird night."}
   }else if(sp==="nfl"){
     const L=F.lead;
     if(F.res==="L"){
@@ -2114,7 +2215,7 @@ function lines(F){
     else them=(na?"A tie in ":"A draw in ")+dn+". Nobody's happy.";
   }
   const agree=pick(["That is true.","Exactly.","You're not wrong.","Couldn't have put it better myself."],k+"a");
-  const exit=pick(na?["Alright, I gotta run. Talk later.","Anyway, I'll let you get back to it.","I'm grabbing another drink. You want one?"]:["Right, whose round is it?","Anyway, I'd better get back to it.","Right, I'm getting one in. Same again?"],k+"x");
+  const exit=pick(na?["Alright, I gotta run. Talk later.","Anyway, I'll let you get back to it.","I'm grabbing another drink. You want one?"]:isAU(sp)?["Right, whose shout is it?","Anyway, I'd better get back to it.","I'm grabbing another one. Same again?"]:["Right, whose round is it?","Anyway, I'd better get back to it.","Right, I'm getting one in. Same again?"],k+"x");
   return applyTalk(F,{open,them,back,agree,exit,openStar,backStar});
 }
 /* Pick the researched exchange that matches what happened, and fill in teams, score and player */
@@ -2166,6 +2267,30 @@ function talkSituation(F){
     if(res==="W"){const L=F.lead||{};if(tripleDouble(F))return "tripleDoubleWin";if(L.pts&&+L.pts.v>=35)return "bigScorerWin";if(F.big)return "bigWin";if(F.narrow)return "narrowWin";return "win"}
     return F.big?"bigLoss":"loss";
   }
+  if(sp==="afl"){
+    if(res==="D")return "draw";
+    if(F.final)return res==="W"?"finalWin":"finalLoss";
+    if(F.derby)return res==="W"?"rivalWin":"rivalLoss";
+    if(F.comeback)return "comeback";
+    if(F.blew)return "blewLead";
+    if(F.bag)return "bagWin";
+    if(F.big)return res==="W"?"bigWin":"bigLoss";
+    if(F.narrow)return res==="W"?"narrowWin":"narrowLoss";
+    return res==="W"?"win":"loss";
+  }
+  if(sp==="nrl"){
+    if(res==="D")return "draw";
+    if(F.final)return res==="W"?"finalWin":"finalLoss";
+    if(F.derby)return res==="W"?"rivalWin":"rivalLoss";
+    if(F.ot)return res==="W"?"goldenPointWin":"goldenPointLoss";
+    if(F.comeback)return "comeback";
+    if(F.blew)return "blewLead";
+    if(res==="W"&&F.hat)return "hatTrickWin";
+    if(F.nil)return "nilWin";
+    if(F.big)return res==="W"?"bigWin":"bigLoss";
+    if(F.narrow)return res==="W"?"narrowWin":"narrowLoss";
+    return res==="W"?"win":"loss";
+  }
   if(sp==="mlb"){
     if(F.derby)return res==="W"?"rivalWin":"rivalLoss";
     if(walkOff(F))return res==="W"?"walkOffWin":"walkOffLoss";
@@ -2202,12 +2327,14 @@ function talkPlayer(F,sit){
   if(F.sp==="nhl"){const x=F.lead&&(F.lead.goals||F.lead.pts);return x?sur(x.p):null}
   if(F.sp==="nfl"){const L=F.lead||{},x=sit==="runGame"?L.rush:(L.pass||L.rush);return x?sur(x.p):null}
   if(F.sp==="nba"){const td=sit==="tripleDoubleWin"&&tripleDouble(F),L=F.lead||{};return td?sur(td):L.pts?sur(L.pts.p):null}
+  if(F.sp==="afl"){const x=F.bag||(F.lead&&F.lead.goals);return x&&x.p?sur(x.p):null}
+  if(F.sp==="nrl"){const x=F.hat||F.triesM[0];return x&&x.p?sur(x.p):null}
   return null;
 }
 // Fill {team}, {player} and the rest; null if any slot has no value, so the built-in line is used instead
 function fillSlots(t,vals){
   if(!t)return null;let ok=true;
-  const s=String(t).replace(/\{(\w+)\}/g,(m,k,i)=>{const v=vals[k];if(v==null||v===""){ok=false;return m}return i===0?cap(v):v});
+  const s=String(t).replace(/\{(\w+)\}/g,(m,k,i)=>{const v=vals[k];if(v==null||v===""){ok=false;return m}return i===0?cap(v):v}).replace(/\b([Tt])he the /g,"$1he ");
   return ok?s:null;
 }
 function applyTalk(F,base){
@@ -2227,9 +2354,10 @@ function applyTalk(F,base){
 
 function factsFor(F){
   const g=F.g,sp=F.sp,out=[];
-  const at=g.venue?" at "+g.venue:"";
+  const at=g.venue?" at "+theVenue(g.venue):"";
   if(F.res==="D")out.push(g.h.s+" and "+g.a.s+" drew "+g.h.sc+"–"+g.a.sc+at+".");
-  else out.push(F.W.s+" beat "+F.L.s+" "+F.line+at+(F.ot?(F.so?" after a shootout":" after overtime"):"")+".");
+  else out.push(F.W.s+" beat "+F.L.s+" "+F.line+at+(F.ot?(F.so?" after a shootout":sp==="nrl"?" in golden point":" after overtime"):"")+".");
+  if(F.final)out.push(F.stage==="GF"?"It was the Grand Final.":"It was "+(({EF:"an elimination final",QF:"a qualifying final",SF:"a semi-final",PF:"a preliminary final"})[F.stage]||"a final")+".");
   if(F.derby)out.push(F.derby.derby?"It was "+F.derby.derby+".":g.h.s+" and "+g.a.s+" are rivals.");
   if(sp==="football"){
     if(F.gOk&&F.goals.length){const parts=[];for(const s of ["h","a"])if(F.sc[s].length)parts.push(g[s].s+": "+scorerList(F.sc[s]));out.push("Goals. "+parts.join(". ")+".")}
@@ -2240,6 +2368,19 @@ function factsFor(F){
     const th=ts("h"),ta=ts("a");
     if(th.length||ta.length)out.push("Tries. "+g.h.s+": "+(th.join(", ")||"none")+". "+g.a.s+": "+(ta.join(", ")||"none")+".");
     const yc=F.g.ev.filter(e=>e.k==="yellow").length;if(yc)out.push(yc+" yellow card"+(yc>1?"s":"")+" in the game.");
+  }else if(sp==="afl"){
+    const gk=["h","a"].map(s=>{const l=(g.ld||[]).find(x=>x.t===s&&x.c==="goals");return l?sur(l.p)+" kicked "+l.v+" for "+g[s].s:null}).filter(Boolean);
+    if(gk.length)out.push("Top goalkickers: "+gk.join("; ")+".");
+    const dp=(g.ld||[]).filter(x=>x.c==="disposals").sort((x,y)=>+y.v-+x.v)[0];
+    if(dp)out.push(dp.p+" ("+g[dp.t].s+") had the most disposals: "+dp.v+".");
+    if(F.q3!=null)out.push(F.q3===0?"Scores were level at three-quarter time.":(F.q3>0?F.M.s:F.O.s)+" led by "+Math.abs(F.q3)+" at three-quarter time.");
+  }else if(sp==="nrl"){
+    const ts=s=>tryList(g.ev.filter(e=>e.k==="try"&&e.t===s));
+    const th=ts("h"),ta=ts("a");
+    if(th||ta)out.push("Tries. "+g.h.s+": "+(th||"none")+". "+g.a.s+": "+(ta||"none")+".");
+    for(const e of F.fg)if(e.p)out.push(sur(e.p)+" kicked a field goal for "+g[e.t].s+" ("+e.mt+").");
+    if(F.htM!=null)out.push(F.htM===0?"It was level at half-time.":(F.htM>0?F.M.s:F.O.s)+" led by "+Math.abs(F.htM)+" at half-time.");
+    const sb=F.yellowM+F.yellowO;if(sb)out.push(sb+" sin-binning"+(sb>1?"s":"")+" in the game.");
   }else{
     const PRI=sp==="nhl"?["goals","assists","points"]:["points","passingYards","rushingYards","receivingYards","rebounds","assists"];
     const rank=c=>{const i=PRI.indexOf(c);return i<0?99:i};
@@ -2250,7 +2391,7 @@ function factsFor(F){
   else if(F.M.rec&&US.has(sp))out.push(F.M.s+" are "+F.M.rec+" on the season.");
   return out;
 }
-function leaderLabel(c){return({passingYards:"passing",rushingYards:"rushing",receivingYards:"receiving",points:"points",rebounds:"rebounds",assists:"assists",goals:"goals"})[c]||c}
+function leaderLabel(c){return({passingYards:"passing",rushingYards:"rushing",receivingYards:"receiving",points:"points",rebounds:"rebounds",assists:"assists",goals:"goals",disposals:"disposals"})[c]||c}
 
 function followUps(F){
   const g=F.g,sp=F.sp,qa=[];
@@ -2274,6 +2415,15 @@ function followUps(F){
     if(L.goals||L.goalsO)qa.push({q:"Who scored?",a:[L.goals&&L.goals.p+" ("+L.goals.v+")",L.goalsO&&L.goalsO.p+" for "+F.OT+" ("+L.goalsO.v+")"].filter(Boolean).join(". ")+"."});
   }else if(sp==="mlb"){
     if(F.g.xt)qa.push({q:"Did it go to extra innings?",a:"Yes. "+F.g.st+"."});
+  }else if(sp==="afl"){
+    const L=F.lead||{};
+    if(L.goals||L.goalsO)qa.push({q:"Who kicked the goals?",a:[L.goals&&L.goals.p+" kicked "+L.goals.v+" for "+F.T,L.goalsO&&L.goalsO.p+" kicked "+L.goalsO.v+" for "+F.OT].filter(Boolean).join(". ")+"."});
+    if(F.q3!=null)qa.push({q:"What was it at three-quarter time?",a:F.q3===0?"Level.":cap(F.q3>0?F.T:F.OT)+" led by "+Math.abs(F.q3)+"."});
+  }else if(sp==="nrl"){
+    const names=l=>tryList(l)||"none";
+    if(F.triesM.length||F.triesO.length)qa.push({q:"Who got the tries?",a:F.M.s+": "+names(F.triesM)+". "+F.O.s+": "+names(F.triesO)+"."});
+    if(F.ot){const gp=g.ev.filter(e=>e.m>80&&/^(try|fg|pg)$/.test(e.k)).pop();qa.push({q:"Did it go to golden point?",a:"Yes. "+(gp&&gp.p?sur(gp.p)+" settled it with a "+({try:"try",fg:"field goal",pg:"penalty goal"})[gp.k]+" for "+g[gp.t].s+".":"It was level after 80 minutes.")})}
+    if(F.htM!=null)qa.push({q:"What was it at half-time?",a:F.htM===0?"Level.":cap(F.htM>0?F.T:F.OT)+" led by "+Math.abs(F.htM)+"."});
   }
   qa.push({q:"What was the final score?",a:g.h.s+" "+g.h.sc+", "+g.a.s+" "+g.a.sc+"."});
   if(F.tM)qa.push({q:"Where does that leave them?",a:cap(F.T)+" are "+ord(F.tM.r)+" in the "+F.lgName+(F.tM.p!=null?", on "+F.tM.p+" points":"")+(F.tM.gp?" from "+F.tM.gp+" games":"")+"."});
@@ -2299,14 +2449,14 @@ function dontsFor(F){
   d.push("Don't get the score backwards: "+g.h.s+" (home) "+g.h.sc+", "+g.a.s+" "+g.a.sc+".");
   if(sp==="football"&&F.O.sc>0)d.push("Don't mention a clean sheet. "+cap(F.T)+" let in "+F.O.sc+".");
   if((sp==="football"||sp==="rugby")&&!g.ev.some(e=>e.k==="red"))d.push("Nobody was sent off. Don't blame a red card.");
-  if(g.venue)d.push(F.home?"It was at home ("+g.venue+")."+(isNA(F.sp)?" Don't say it was a road game.":" Don't call it an away day."):"It was away, at "+g.venue+". Don't say \"at home\".");
-  if(F.ot&&!F.so)d.push("It went to overtime. Don't say it was settled in regulation.");
+  if(g.venue)d.push(F.home?"It was at home ("+g.venue+")."+(isNA(F.sp)?" Don't say it was a road game.":" Don't call it an away day."):"It was away, at "+theVenue(g.venue)+". Don't say \"at home\".");
+  if(F.ot&&!F.so)d.push(F.sp==="nrl"?"It went to golden point. Don't say it was over in 80 minutes.":"It went to overtime. Don't say it was settled in regulation.");
   return d.slice(0,5);
 }
 function namesFor(F){
   const set=new Set();
   if(F.sp==="football")for(const s of ["h","a"])for(const x of F.sc[s])if(x.p)set.add(x.p);
-  if(F.sp==="rugby")for(const e of F.g.ev)if(e.k==="try"&&e.p)set.add(e.p);
+  if(F.sp==="rugby"||F.sp==="nrl")for(const e of F.g.ev)if((e.k==="try"||e.k==="fg")&&e.p)set.add(e.p);
   for(const l of F.g.ld||[])set.add(l.p);
   for(const e of [...(F.redM||[]),...(F.redO||[])])if(e.p)set.add(e.p);
   return [...set].slice(0,8);
@@ -2373,13 +2523,17 @@ function voiceScore(v,mode){
     if(/compact|desktop/i.test(n)||ROBOT.test(n))s-=40;
   }
   if(isNA()){if(/en[-_]US/i.test(v.lang))s+=30;else if(/en[-_]CA/i.test(v.lang))s+=20;else if(/en[-_]GB/i.test(v.lang))s-=10}
+  else if(isAU()){if(/en[-_]AU/i.test(v.lang))s+=30;else if(/en[-_]NZ/i.test(v.lang))s+=24;else if(/en[-_]GB/i.test(v.lang))s+=10;else if(/en[-_]US/i.test(v.lang))s-=10}
   else if(/en[-_]GB/i.test(v.lang))s+=20;else if(/en[-_](IE|AU|NZ)/i.test(v.lang))s+=12;else s+=6;
   return s;
 }
-/* Region decides accent and wording: British for soccer, rugby and cricket, North American for the rest */
-const REGION={football:"uk",rugby:"uk",cricket:"uk",f1:"na",nfl:"na",nba:"na",nhl:"na",mlb:"na"};
+/* Region decides accent and wording: British for soccer, rugby union and cricket, North American for
+   F1 and the North American leagues, Australian for the AFL and the NRL (British spelling and the
+   British versions of shared text, with Australian voices, betting words and a few phrases) */
+const REGION={football:"uk",rugby:"uk",cricket:"uk",f1:"na",nfl:"na",nba:"na",nhl:"na",mlb:"na",afl:"au",nrl:"au"};
 const isNA=sp=>REGION[sp||S.sport]==="na";
-const voiceKey=(id,m)=>id+"_"+m+(isNA()?"_na":"");
+const isAU=sp=>REGION[sp||S.sport]==="au";
+const voiceKey=(id,m)=>id+"_"+m+(isNA()?"_na":isAU()?"_au":"");
 const englishVoices=()=>canSpeak?speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang)).sort((a,b)=>voiceScore(b)-voiceScore(a)):[];
 const personOf=v=>v?v.name.replace(/\(.*?\)|microsoft|google|apple|online|natural|neural|desktop|enhanced|premium|compact|english|united kingdom|united states|canada|[-_]/gi," ").trim().replace(/\s+/g," ").toLowerCase():"";
 function pickVoices(){
@@ -2426,7 +2580,7 @@ function speechText(t){
 }
 function utter(text,who){
   const u=new SpeechSynthesisUtterance(speechText(text)),V=pickVoices(),v=who==="them"?V.them:V.you;
-  if(v)u.voice=v;u.lang=(v&&v.lang)||(isNA()?"en-US":"en-GB");
+  if(v)u.voice=v;u.lang=(v&&v.lang)||(isNA()?"en-US":isAU()?"en-AU":"en-GB");
   const deep=$("#deep").checked;
   if(voiceMode()==="retro"){
     if(who==="them"){u.pitch=1.35;u.rate=.88}else{u.pitch=deep?.4:.7;u.rate=.85}
@@ -2718,7 +2872,7 @@ function guideSummary(L){
 }
 
 /* The sport as it reads mid-sentence: "football", "hockey", "Formula 1" */
-const sportWord=k=>{const l=SPORTS[k].label.replace(/ \(.*\)/,"");return /^(Formula|American)/.test(l)?l:l.charAt(0).toLowerCase()+l.slice(1)};
+const sportWord=k=>{const l=SPORTS[k].label.replace(/ \(.*\)/,"");return /^(Formula|American|AFL|NRL)/.test(l)?l:l.charAt(0).toLowerCase()+l.slice(1)};
 
 /* ---------- Local lingo ---------- */
 /* How a team's fans and their city really talk: words, sayings by result, traditions, sore subjects,
@@ -2871,6 +3025,8 @@ function factRounds(B){
   else if(F.sp==="nfl"&&F.lead.pass){who=F.lead.pass.p;wrongWho=F.lead.passO&&F.lead.passO.p;q="Who was throwing for us?"}
   else if(F.sp==="nhl"&&F.lead.goals){who=F.lead.goals.p;wrongWho=F.lead.goalsO&&F.lead.goalsO.p;q="Who scored for us?"}
   else if(F.sp==="rugby"&&F.triesM[0]){who=F.triesM[0].p;wrongWho=F.triesO[0]&&F.triesO[0].p;q="Who got our try?"}
+  else if(F.sp==="afl"&&F.lead.goals){who=F.lead.goals.p;wrongWho=F.lead.goalsO&&F.lead.goalsO.p;q="Who kicked the most goals for us?"}
+  else if(F.sp==="nrl"&&F.triesM[0]){who=F.triesM[0].p;wrongWho=F.triesO[0]&&F.triesO[0].p;q="Who scored our first try?"}
   if(who&&wrongWho&&sur(who)!==sur(wrongWho))out.push({kind:"off",say:q,opts:shuffle([O(sur(who)+(isNA()?". He was unreal.":". Different class."),2,"Correct."),O(sur(wrongWho)+", wasn't it?",-2,sur(wrongWho)+(isNA()?" plays for the other team.":" plays for the other lot.")),O("Can't remember, I was too busy shouting.",0,"Believable, once.")])});
   return out;
 }

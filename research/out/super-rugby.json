@@ -1,0 +1,1676 @@
+[
+  {
+    "team": "Blues",
+    "espnId": "25932",
+    "league": "rugby/242041",
+    "region": "nz-auckland",
+    "aliases": [
+      "blues",
+      "the blues",
+      "auckland blues"
+    ],
+    "nickname": "the Blues",
+    "fans": "",
+    "ground": "Eden Park",
+    "rivals": [
+      {
+        "team": "Crusaders",
+        "name": "the Crusaders",
+        "derby": ""
+      },
+      {
+        "team": "Chiefs",
+        "name": "the Chiefs",
+        "derby": "the Battle of the Bombays"
+      },
+      {
+        "team": "Highlanders",
+        "name": "the Highlanders",
+        "derby": "the Gordon Hunter Memorial Trophy"
+      }
+    ],
+    "legends": [
+      "Carlos Spencer",
+      "Zinzan Brooke",
+      "Doug Howlett",
+      "Keven Mealamu"
+    ],
+    "memory": "2024: beat the Chiefs 41-10 in the final at Eden Park, the first title since 2003",
+    "lingo": [
+      {
+        "term": "the Battle of the Bombays",
+        "say": "the BAT-ul of the bom-BAYZ",
+        "ipa": "ðə ˈbætl̩ əv ðə bɒmˈbeɪz",
+        "tts": "",
+        "means": "Blues against the Chiefs. The Bombay Hills, south of the city, are where Auckland ends and the Waikato begins."
+      },
+      {
+        "term": "Auckland v Canterbury",
+        "say": "AWK-lund vs KAN-tuh-bree",
+        "ipa": "ˈɔːklənd ˈvɜːsəs ˈkæntəbəri",
+        "tts": "auckland versus canterbury",
+        "means": "The old provincial rivalry behind every Blues and Crusaders game. Big city against the South Island."
+      },
+      {
+        "term": "the drought",
+        "say": "the DROWT",
+        "ipa": "",
+        "tts": "",
+        "means": "The 21 years between titles, from 2003 to 2024. Fans can joke about it now it's over."
+      },
+      {
+        "term": "the Gordon Hunter Trophy",
+        "say": "the GOR-dun HUN-tuh TROH-fee",
+        "ipa": "ðə ˈɡɔːdn̩ ˈhʌntə ˈtrəʊfi",
+        "tts": "",
+        "means": "Played for against the Highlanders since 2002. Gordon Hunter coached both sides."
+      },
+      {
+        "term": "Kingsland",
+        "say": "KINGZ-lund",
+        "ipa": "ˈkɪŋzlənd",
+        "tts": "",
+        "means": "The suburb beside Eden Park. Fans meet in its bars before kick-off, then walk up to the ground."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Blues at Eden Park. Doesn't get much better.",
+        "m": "Home pride.",
+        "when": "any"
+      },
+      {
+        "t": "Twenty-one years we waited. Never again.",
+        "m": "The title drought from 2003 to 2024.",
+        "when": "any"
+      },
+      {
+        "t": "Quick one in Kingsland, then up to the Park.",
+        "m": "The usual match-day plan.",
+        "when": "any"
+      },
+      {
+        "t": "Biggest city, biggest talent pool. No excuses.",
+        "m": "What Blues fans expect of their side.",
+        "when": "any"
+      },
+      {
+        "t": "That's the Blues we waited all those years for.",
+        "m": "After a big win.",
+        "when": "win"
+      },
+      {
+        "t": "Same old Blues. Brilliant one week, hopeless the next.",
+        "m": "The classic grumble about inconsistency.",
+        "when": "loss"
+      },
+      {
+        "t": "Beat the Crusaders and the whole city's happy.",
+        "m": "The biggest scalp in the competition.",
+        "when": "rival"
+      },
+      {
+        "t": "Battle of the Bombays this week. Bragging rights up and down State Highway 1.",
+        "m": "Before playing the Chiefs.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Kingsland before kick-off",
+        "means": "On big nights the bars and cafés around Eden Park fill with blue well before the game."
+      },
+      {
+        "name": "The Gordon Hunter Memorial Trophy",
+        "means": "Contested with the Highlanders since 2002, in honour of a coach who led both teams."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "The 2022 final",
+        "why": "Lost 21-7 to the Crusaders in front of a full Eden Park."
+      },
+      {
+        "topic": "Christchurch",
+        "why": "The Blues went from 2004 to 2022 without a win over the Crusaders there."
+      }
+    ],
+    "pronounce": [],
+    "avoid": [
+      {
+        "say": "the Auckland Blues",
+        "instead": "the Blues",
+        "why": "The team dropped 'Auckland' from its name in 2000."
+      },
+      {
+        "say": "they haven't won it since 2003",
+        "instead": "they won it in 2024",
+        "why": "The 41-10 final against the Chiefs ended the drought."
+      },
+      {
+        "say": "the Blues and the Warriors are the same club",
+        "instead": "the Warriors are league",
+        "why": "The Warriors are Auckland's rugby league team."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Blues_(Super_Rugby)",
+      "https://crusaders.co.nz/latest/news/history-records-and-bad-blood-a-short-history-of-crusaders-v-blues/",
+      "https://www.nzherald.co.nz/rotorua-daily-post/news/chiefs-name-side-for-local-derby/NGHAI4XA2VD5XJVL73KAEY2AUY",
+      "https://www.rnz.co.nz/news/sport/487164/live-sport",
+      "https://nzherald.co.nz/nz/super-atmosphere-fans-fired-up-ahead-of-bluescrusaders-final-showdown/CWOT7GOLZFULORKANP2XE67AOU",
+      "https://rugbypass.com/news/a-night-on-the-booze-with-the-most-fanatical-fan-army-in-rugby"
+    ],
+    "unsure": [
+      "lingo: Carlos Spencer's nickname 'the King' left out: no source found",
+      "lingo: Kingsland as the pre-match spot rests on a Herald report and one fan feature; no fan name for Blues supporters was found"
+    ]
+  },
+  {
+    "team": "Brumbies",
+    "espnId": "25889",
+    "league": "rugby/242041",
+    "region": "au-canberra",
+    "aliases": [
+      "brumbies",
+      "the brumbies",
+      "act brumbies",
+      "canberra",
+      "act"
+    ],
+    "nickname": "the Brumbies",
+    "fans": "",
+    "ground": "GIO Stadium (Canberra Stadium, once Bruce Stadium)",
+    "rivals": [
+      {
+        "team": "NSW Waratahs",
+        "name": "the Tahs",
+        "derby": "the Dan Vickerman Cup"
+      },
+      {
+        "team": "Queensland Reds",
+        "name": "the Reds",
+        "derby": "the Rod Macqueen Cup"
+      },
+      {
+        "team": "Crusaders",
+        "name": "the Crusaders",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Stirling Mortlock",
+      "Joe Roff",
+      "George Smith"
+    ],
+    "memory": "2004: beat the Crusaders 47-38 in the final in Canberra, before a record home crowd",
+    "lingo": [
+      {
+        "term": "Tah Week",
+        "say": "TAH week",
+        "ipa": "ˈtɐː wiːk",
+        "tts": "",
+        "means": "The build-up to playing the Waratahs. Canberra's favourite week of the season."
+      },
+      {
+        "term": "discards and misfits",
+        "say": "DIS-kards and MIS-fits",
+        "ipa": "",
+        "tts": "",
+        "means": "How the first Brumbies of 1996, players NSW and Queensland didn't want, described themselves. Worn as a badge of honour."
+      },
+      {
+        "term": "Brumbies-style",
+        "say": "BRUM-beez STYLE",
+        "ipa": "ˈbrʌmbiz staɪl",
+        "tts": "",
+        "means": "Clever, structured, innovative rugby, the trademark of the early title sides."
+      },
+      {
+        "term": "the Dan Vickerman Cup",
+        "say": "the DAN VIK-uh-mun KUP",
+        "ipa": "ðə ˈdæn ˈvɪkəmən ˈkʌp",
+        "tts": "",
+        "means": "The trophy for Brumbies against Waratahs, named after a former Wallabies lock."
+      },
+      {
+        "term": "the Rod Macqueen Cup",
+        "say": "the ROD muh-KWEEN KUP",
+        "ipa": "ðə ˈrɒd məˈkwiːn ˈkʌp",
+        "tts": "",
+        "means": "The trophy for Brumbies against Reds, named after the Brumbies' first coach."
+      },
+      {
+        "term": "Brumby Jack",
+        "say": "BRUM-bee JAK",
+        "ipa": "ˈbrʌmbi ˈdʒæk",
+        "tts": "",
+        "means": "The horse mascot. A brumby is a wild horse of the hills around Canberra."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Discards and misfits, and still the most successful Aussie side.",
+        "m": "Pride in the underdog start and the record since.",
+        "when": "any"
+      },
+      {
+        "t": "Kick, chase, squeeze. That's Brumbies rugby.",
+        "m": "The team is known for tactical kicking and pressure.",
+        "when": "any"
+      },
+      {
+        "t": "Freezing night in Canberra. Perfect for it.",
+        "m": "Canberra winters are cold, and fans wear that as a badge.",
+        "when": "any"
+      },
+      {
+        "t": "Best-run franchise in the country. Has been for years.",
+        "m": "A common Canberra claim.",
+        "when": "any"
+      },
+      {
+        "t": "Brumbies-style. Smart, clinical, done.",
+        "m": "After a tidy win.",
+        "when": "win"
+      },
+      {
+        "t": "Made the play-offs and fell short in New Zealand again.",
+        "m": "After a knockout loss across the Tasman.",
+        "when": "loss"
+      },
+      {
+        "t": "Tah Week. Nothing beats beating New South Wales.",
+        "m": "Before or after playing the Waratahs.",
+        "when": "rival"
+      },
+      {
+        "t": "Born to rule? Not in Canberra they're not.",
+        "m": "The old dig at Sydney rugby's sense of entitlement.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Tah Week",
+        "means": "The week before the Waratahs game, when Canberra gets fired up and the Dan Vickerman Cup is on the line."
+      },
+      {
+        "name": "The heritage jersey",
+        "means": "The Brumbies wear a traditional jersey against the other founding Australian sides, NSW and Queensland."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "Semi-finals in New Zealand",
+        "why": "Lost four in a row from 2022 to 2025, all away to the Blues or the Chiefs."
+      },
+      {
+        "topic": "The 2013 final",
+        "why": "Lost 27-22 to the Chiefs in Hamilton."
+      }
+    ],
+    "pronounce": [],
+    "avoid": [
+      {
+        "say": "the Raiders",
+        "instead": "the Brumbies",
+        "why": "The Raiders are Canberra's rugby league team."
+      },
+      {
+        "say": "the Waratahs' little brother",
+        "instead": "the Brumbies",
+        "why": "Fans bristle at being treated as Sydney's poor cousins."
+      },
+      {
+        "say": "a Sydney overflow side",
+        "instead": "Canberra's own team",
+        "why": "The club's pride is that it built its own identity from 1996."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/ACT_Brumbies",
+      "https://www.rugby.com.au/news/2021/02/23/feature-tucker-classic-rivalry",
+      "https://region.com.au/why-super-rugby-games-against-the-waratahs-have-added-feeling-for-brumbies-fans/757939/",
+      "https://region.com.au/australias-most-successful-super-rugby-franchise-prepares-for-a-new-era/935712/",
+      "https://rugbyisthegame.com/2026/02/22/brumbies-crush-crusaders-to-end-26-year-drought-in-christchurch/"
+    ],
+    "unsure": [
+      "fans: no settled name for Brumbies supporters found",
+      "ground: whether locals still say 'Bruce' for the stadium wasn't confirmed, so it isn't used as lingo"
+    ]
+  },
+  {
+    "team": "Chiefs",
+    "espnId": "25934",
+    "league": "rugby/242041",
+    "region": "nz-waikato",
+    "aliases": [
+      "chiefs",
+      "the chiefs",
+      "waikato chiefs",
+      "gallagher chiefs",
+      "waikato",
+      "hamilton"
+    ],
+    "nickname": "the Chiefs",
+    "fans": "",
+    "ground": "FMG Stadium Waikato (Hamilton)",
+    "rivals": [
+      {
+        "team": "Blues",
+        "name": "the Blues",
+        "derby": "the Battle of the Bombays"
+      },
+      {
+        "team": "Crusaders",
+        "name": "the Crusaders",
+        "derby": ""
+      },
+      {
+        "team": "Hurricanes",
+        "name": "the 'Canes",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Liam Messam",
+      "Mils Muliaina"
+    ],
+    "memory": "2012: first title, 37-6 over the Sharks in Hamilton; back-to-back champions in 2013",
+    "lingo": [
+      {
+        "term": "cowbells",
+        "say": "KOW-belz",
+        "ipa": "",
+        "tts": "",
+        "means": "Waikato fans ring them all game, a nod to dairy country. Essential kit at a Chiefs home game."
+      },
+      {
+        "term": "Mooloo",
+        "say": "MOO-loo",
+        "ipa": "ˈmuːluː",
+        "tts": "",
+        "means": "The cow that has been Waikato rugby's mascot since the 1950s. Waikato supporters are Mooloos, and the word now means anyone from the Waikato."
+      },
+      {
+        "term": "the Battle of the Bombays",
+        "say": "the BAT-ul of the bom-BAYZ",
+        "ipa": "ðə ˈbætl̩ əv ðə bɒmˈbeɪz",
+        "tts": "",
+        "means": "Chiefs against the Blues. The Bombay Hills divide the Waikato from Auckland."
+      },
+      {
+        "term": "cowbell-gate",
+        "say": "KOW-bel gate",
+        "ipa": "ˈkaʊbɛl ɡeɪt",
+        "tts": "",
+        "means": "The row in 2025 when cowbells were banned from the final in Christchurch. Chiefs fans haven't let it go."
+      },
+      {
+        "term": "Chiefs Manawa",
+        "say": "CHEEFS MAH-nah-wah",
+        "ipa": "ˈtʃiːfs ˈmanawa",
+        "tts": "chiefs mah nah wah",
+        "means": "The women's team, first Super Rugby Aupiki champions in 2022. Manawa is te reo Māori for heart."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Bring your cowbell.",
+        "m": "The first rule of a Chiefs home game.",
+        "when": "any"
+      },
+      {
+        "t": "Hamilton on a game night, bells going. Love it.",
+        "m": "Home pride.",
+        "when": "any"
+      },
+      {
+        "t": "Twenty-twelve and twenty-thirteen. Back-to-back.",
+        "m": "The two titles fans never tire of.",
+        "when": "any"
+      },
+      {
+        "t": "Four finals in four years. We're knocking on the door.",
+        "m": "Pride in the run of finals since 2023, with a wince.",
+        "when": "any"
+      },
+      {
+        "t": "Ring those bells!",
+        "m": "After a win.",
+        "when": "win"
+      },
+      {
+        "t": "Always the bridesmaid lately.",
+        "m": "After another big-game defeat.",
+        "when": "loss"
+      },
+      {
+        "t": "Nothing better than winning the Battle of the Bombays at Eden Park.",
+        "m": "Against the Blues.",
+        "when": "rival"
+      },
+      {
+        "t": "Crusaders again. We owe them a couple of finals.",
+        "m": "They beat the Chiefs in the 2023 and 2025 finals.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Cowbells",
+        "means": "Waikato fans have rung cowbells at rugby for decades, and the Chiefs inherited the habit. Their 2025 ban at the final in Christchurch caused a fuss."
+      },
+      {
+        "name": "Māori culture at the core",
+        "means": "Māori values run through the team, and recent jerseys carry Māori designs."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "Recent finals",
+        "why": "Lost the 2023, 2024, 2025 and 2026 finals, the last one 60-5 to the Hurricanes."
+      },
+      {
+        "topic": "The 2009 final",
+        "why": "Beaten 61-17 by the Bulls in Pretoria."
+      }
+    ],
+    "pronounce": [],
+    "avoid": [
+      {
+        "say": "leave the cowbell at home",
+        "instead": "bring the cowbell",
+        "why": "It's the Chiefs' trademark sound."
+      },
+      {
+        "say": "the Chiefs are chokers",
+        "instead": "they've been unlucky in finals",
+        "why": "Fans hate that tag, especially from outsiders."
+      },
+      {
+        "say": "the Exeter Chiefs",
+        "instead": "the Chiefs",
+        "why": "Exeter Chiefs are an English club. These are the Waikato Chiefs."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chiefs_(Super_Rugby)",
+      "https://www.1news.co.nz/2025/06/18/hamilton-mayor-says-chiefs-fans-will-bring-the-volume-despite-cowbells-ban/",
+      "https://nzhistory.govt.nz/culture/regional-rugby/waikato",
+      "https://www.teara.govt.nz/en/photograph/27177/mooloo-kids",
+      "https://www.rnz.co.nz/news/sport/487164/live-sport",
+      "https://maoridictionary.co.nz/search?keywords=manawa"
+    ],
+    "unsure": [
+      "legends: Aaron Cruden left out: couldn't confirm he has retired",
+      "lingo: 'Chiefs Country' for the franchise area found in only one source, so left out"
+    ]
+  },
+  {
+    "team": "Crusaders",
+    "espnId": "25936",
+    "league": "rugby/242041",
+    "region": "nz-south",
+    "aliases": [
+      "crusaders",
+      "the crusaders",
+      "canterbury crusaders",
+      "saders",
+      "christchurch",
+      "canterbury"
+    ],
+    "nickname": "the Crusaders",
+    "fans": "",
+    "ground": "Te Kaha (One New Zealand Stadium), home since April 2026",
+    "rivals": [
+      {
+        "team": "Blues",
+        "name": "the Blues",
+        "derby": ""
+      },
+      {
+        "team": "Highlanders",
+        "name": "the Highlanders",
+        "derby": ""
+      },
+      {
+        "team": "Chiefs",
+        "name": "the Chiefs",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Andrew Mehrtens",
+      "Todd Blackadder",
+      "Justin Marshall",
+      "Kieran Read"
+    ],
+    "memory": "2017-2023: seven titles in a row, counting the two Super Rugby Aotearoa years",
+    "lingo": [
+      {
+        "term": "red and black",
+        "say": "RED and BLAK",
+        "ipa": "",
+        "tts": "",
+        "means": "Canterbury's colours, worn by the Crusaders. In finals week the whole city turns red and black."
+      },
+      {
+        "term": "Crusaders Country",
+        "say": "kroo-SAY-duz KUN-tree",
+        "ipa": "",
+        "tts": "",
+        "means": "The upper South Island the team represents: Canterbury, Tasman, the West Coast and the rest. The club calls its fans the Crusaders whānau."
+      },
+      {
+        "term": "Te Kaha",
+        "say": "teh KAH-hah",
+        "ipa": "tɛ ˈkaha",
+        "tts": "teh kah hah",
+        "means": "The new covered stadium in central Christchurch, home since April 2026. Te reo Māori for 'the strength'; officially One New Zealand Stadium."
+      },
+      {
+        "term": "'Conquest of Paradise'",
+        "say": "KON-kwest of PARR-uh-dyce",
+        "ipa": "ˈkɒŋkwɛst əv ˈpærədaɪs",
+        "tts": "",
+        "means": "The Vangelis tune played at home games since the 1990s. Hear it and the Crusaders are coming."
+      },
+      {
+        "term": "Lancaster Park",
+        "say": "LANG-kuh-stuh PARK",
+        "ipa": "ˈlæŋkəstə ˈpɑːk",
+        "tts": "",
+        "means": "The old home, used until 2011. Older fans still talk about it."
+      },
+      {
+        "term": "Addington",
+        "say": "AD-ing-tun",
+        "ipa": "ˈædɪŋtən",
+        "tts": "",
+        "means": "The suburb of the small 'temporary' ground (Apollo Projects Stadium) that was home from 2012 to 2026."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Red and black, through and through.",
+        "m": "Canterbury loyalty.",
+        "when": "any"
+      },
+      {
+        "t": "Te Kaha's finally open. Worth the wait.",
+        "m": "The new covered stadium, opened in 2026.",
+        "when": "any"
+      },
+      {
+        "t": "Hear that Vangelis tune and you know it's game day.",
+        "m": "The home run-out music.",
+        "when": "any"
+      },
+      {
+        "t": "More titles than anyone. Not even close.",
+        "m": "The Crusaders are Super Rugby's most successful side.",
+        "when": "any"
+      },
+      {
+        "t": "Business as usual.",
+        "m": "After a win. Fans expect it.",
+        "when": "win"
+      },
+      {
+        "t": "Don't panic. Remember 2024? Champions again the next year.",
+        "m": "After a defeat. A rare bad season in 2024 was followed by the 2025 title.",
+        "when": "loss"
+      },
+      {
+        "t": "Blues week. Auckland against Canterbury, same as it ever was.",
+        "m": "The rivalry goes back to provincial rugby.",
+        "when": "rival"
+      },
+      {
+        "t": "The Highlanders always lift for us. Have to match them up front.",
+        "m": "The South Island rivalry.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "'Conquest of Paradise'",
+        "means": "Played at Crusaders home games since the late 1990s; it became Christchurch's unofficial theme tune."
+      },
+      {
+        "name": "Red and black finals week",
+        "means": "When the Crusaders host a final, shops, offices and houses across Christchurch go red and black."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "2024",
+        "why": "Ninth place and no play-offs, straight after seven titles in a row."
+      }
+    ],
+    "pronounce": [],
+    "avoid": [
+      {
+        "say": "they still play in Addington",
+        "instead": "they're at Te Kaha now",
+        "why": "The Crusaders moved into the new stadium in April 2026."
+      },
+      {
+        "say": "the Canterbury Crusaders",
+        "instead": "the Crusaders",
+        "why": "The 'Canterbury' was dropped from the name years ago."
+      },
+      {
+        "say": "the Crusaders always win",
+        "instead": "the Crusaders usually win",
+        "why": "Fans know it, but hearing it from an outsider sounds like a dig."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Crusaders_(rugby_union)",
+      "https://www.rnz.co.nz/news/sport/564935/live-sport",
+      "https://en.wikipedia.org/wiki/Conquest_of_Paradise_(song)",
+      "https://www.rugby.com.au/news/crusaders-rally-as-stadium-that-was-symbol-of-nz-postquake-rebuild-to-hold-first-match-2026422",
+      "https://www.1news.co.nz/2026/04/24/christchurchs-new-stadium-a-warm-dry-noisy-prize-for-a-resilient-city/",
+      "https://rnz.co.nz/national/programmes/morningreport/audio/2018656452/christchurch-sees-red-black-as-super-rugby-final-arrives"
+    ],
+    "unsure": [
+      "lingo: 'the Saders' left out: found mainly in South African media, not confirmed in New Zealand fan use (kept as an alias only)",
+      "avoid: the year 'Canterbury' was dropped from the name wasn't confirmed"
+    ]
+  },
+  {
+    "team": "Fijian Drua",
+    "espnId": "289338",
+    "league": "rugby/242041",
+    "region": "fj",
+    "aliases": [
+      "fijian drua",
+      "drua",
+      "the drua",
+      "fiji drua",
+      "swire shipping fijian drua"
+    ],
+    "nickname": "the Drua",
+    "fans": "",
+    "ground": "Churchill Park, Lautoka (some home games in Ba and Suva)",
+    "rivals": [
+      {
+        "team": "Crusaders",
+        "name": "the Crusaders",
+        "derby": ""
+      }
+    ],
+    "legends": [],
+    "memory": "2023: beat the champion Crusaders 25-24 at Churchill Park with a penalty after full time",
+    "lingo": [
+      {
+        "term": "Toso Drua Toso",
+        "say": "TOH-soh NDROO-ah TOH-soh",
+        "ipa": "ˈtoso ˈⁿdrua ˈtoso",
+        "tts": "toe so droo ah toe so",
+        "means": "'Go forward, Drua, go forward!' The home crowd's battle cry, led by the ground announcer."
+      },
+      {
+        "term": "the 16th man",
+        "say": "the SIX-teenth MAN",
+        "ipa": "",
+        "tts": "",
+        "means": "The home crowd. Players credit its noise for lifting them at Lautoka."
+      },
+      {
+        "term": "'E Da Sa Qaqa'",
+        "say": "eh NDAH sah NGGAH-ngah",
+        "ipa": "e ˈⁿda sa ˈŋɡaŋɡa",
+        "tts": "eh dah sah nggahng gah",
+        "means": "'We have overcome', the hymn Fijian teams gather to sing after a game. In Fijian, d has an n before it and q is 'ngg'."
+      },
+      {
+        "term": "the Sugar City",
+        "say": "the SHUG-uh SIT-ee",
+        "ipa": "",
+        "tts": "",
+        "means": "Lautoka, home of Churchill Park, in the heart of the cane country. Fans are urged to paint it blue on game day."
+      },
+      {
+        "term": "Fijiana Drua",
+        "say": "fee-jee-AH-nah NDROO-ah",
+        "ipa": "ˌfiːdʒiˈɑːnə ˈⁿdrua",
+        "tts": "fee jee ah nah droo ah",
+        "means": "The women's team, Super W champions in their first season, 2022."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Toso Drua Toso!",
+        "m": "The battle cry. Shout it whenever the Drua have the ball near the line.",
+        "when": "any"
+      },
+      {
+        "t": "Lautoka's a fortress. Ask the Crusaders.",
+        "m": "The Drua beat them there in 2023 and 2024.",
+        "when": "any"
+      },
+      {
+        "t": "Heat, noise and the 16th man. Nobody likes coming to Fiji.",
+        "m": "Home advantage.",
+        "when": "any"
+      },
+      {
+        "t": "Paint the Sugar City blue.",
+        "m": "Game day in Lautoka.",
+        "when": "any"
+      },
+      {
+        "t": "Vinaka, boys! Big win.",
+        "m": "Thanks and well done, after a win.",
+        "when": "win"
+      },
+      {
+        "t": "All flair, no patience today.",
+        "m": "After a defeat thrown away with risky passes.",
+        "when": "loss"
+      },
+      {
+        "t": "Crusaders at Churchill Park? Bring them on.",
+        "m": "The Drua's two famous home wins came against them.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "'E Da Sa Qaqa'",
+        "means": "Players gather in a circle after the game to sing the hymn, a habit from Fiji sevens. After the 2023 upset at Lautoka both teams joined in."
+      },
+      {
+        "name": "Toso Drua Toso",
+        "means": "The announcer briefs the crowd before kick-off, then leads the cry whenever the Drua attack."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "2025 and 2026",
+        "why": "Tenth both years and out of the play-offs, after quarter-finals in 2023 and 2024."
+      }
+    ],
+    "pronounce": [
+      {
+        "word": "Ba",
+        "say": "MBAH",
+        "ipa": "ᵐba",
+        "tts": "bah",
+        "why": "The town north of Lautoka that now hosts some Drua home games. Fijian b has a soft m before it."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the Flying Fijians",
+        "instead": "the Drua",
+        "why": "The Flying Fijians are the national Test team."
+      },
+      {
+        "say": "the Fiji Drua",
+        "instead": "the Fijian Drua",
+        "why": "The official name says Fijian."
+      },
+      {
+        "say": "home game in Suva again",
+        "instead": "Lautoka, mostly",
+        "why": "Since 2026 most home games are at Churchill Park; Ba and Suva get one or two."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fijian_Drua",
+      "https://fijitraveller.com/news/frederrick-raiwalui-the-voice-of-the-fijian-drua/",
+      "https://www.fijitimes.com.fj/lomani-commends-druas-16th-man/",
+      "https://www.fijitimes.com.fj/?p=256451",
+      "https://www.rugby.com.au/news/fijian-drua-stun-crusaders-in-super-rugby-boilover-2023311",
+      "https://maitvfiji.com/fijian-drua-secure-7-home-games-brumbies-to-play-at-govind-park-in-ba/"
+    ],
+    "unsure": [
+      "legends: none listed; the club only began in 2022 and its best players are mostly still playing",
+      "traditions: fans singing the hymn 'Vanua Domoni' in tight finishes comes from one Fiji Times report, so it's left out",
+      "lingo: Fijian ipa follows Fijian spelling rules (d = nd, q = ngg) as in the fj region pack; Wiktionary has no entries for these phrases",
+      "lingo: the 2022 Super W title for Fijiana Drua is from RugbyPass and Wikipedia; later titles not checked"
+    ]
+  },
+  {
+    "team": "Highlanders",
+    "espnId": "25938",
+    "league": "rugby/242041",
+    "region": "nz-south",
+    "aliases": [
+      "highlanders",
+      "the highlanders",
+      "landers",
+      "otago highlanders",
+      "dunedin",
+      "otago"
+    ],
+    "nickname": "the 'Landers",
+    "fans": "",
+    "ground": "Forsyth Barr Stadium (the Glasshouse)",
+    "rivals": [
+      {
+        "team": "Crusaders",
+        "name": "the Crusaders",
+        "derby": ""
+      },
+      {
+        "team": "Blues",
+        "name": "the Blues",
+        "derby": "the Gordon Hunter Memorial Trophy"
+      },
+      {
+        "team": "Hurricanes",
+        "name": "the 'Canes",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Jeff Wilson",
+      "Josh Kronfeld",
+      "Anton Oliver"
+    ],
+    "memory": "2015: won the title, beating the Hurricanes 21-14 in Wellington",
+    "lingo": [
+      {
+        "term": "the 'Landers",
+        "say": "the LAN-duz",
+        "ipa": "ðə ˈlændəz",
+        "tts": "the landers",
+        "means": "The Highlanders for short. Fans use it fondly."
+      },
+      {
+        "term": "the House of Pain",
+        "say": "the HOWSS of PAYN",
+        "ipa": "",
+        "tts": "",
+        "means": "Carisbrook, the old ground, feared by visiting teams. Demolished in 2011 but never forgotten."
+      },
+      {
+        "term": "the Brook",
+        "say": "the BROOK",
+        "ipa": "",
+        "tts": "",
+        "means": "Carisbrook for short."
+      },
+      {
+        "term": "the Zoo",
+        "say": "the ZOO",
+        "ipa": "",
+        "tts": "",
+        "means": "The student section at one end of Forsyth Barr Stadium: costumes, noise and chaos. A rite of passage for Otago students."
+      },
+      {
+        "term": "the Glasshouse",
+        "say": "the GLAHSS-howss",
+        "ipa": "",
+        "tts": "",
+        "means": "Forsyth Barr Stadium, fully roofed with a clear cover, like a giant greenhouse."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Under the roof in Dunedin. Best atmosphere in the comp.",
+        "m": "Pride in the covered stadium and its crowd.",
+        "when": "any"
+      },
+      {
+        "t": "Nobody liked coming to the House of Pain.",
+        "m": "Fond memory of Carisbrook.",
+        "when": "any"
+      },
+      {
+        "t": "Students in the Zoo, the whole South behind us.",
+        "m": "The team represents Otago, North Otago and Southland.",
+        "when": "any"
+      },
+      {
+        "t": "2015. Champions, and nobody saw it coming.",
+        "m": "The title won in Wellington.",
+        "when": "any"
+      },
+      {
+        "t": "That's the 'Landers I know.",
+        "m": "After a gutsy win.",
+        "when": "win"
+      },
+      {
+        "t": "Always the hard way for us down south.",
+        "m": "After a defeat. A small market, and some lean seasons.",
+        "when": "loss"
+      },
+      {
+        "t": "Beat the Crusaders and Dunedin's happy all week.",
+        "m": "The South Island rivalry.",
+        "when": "rival"
+      },
+      {
+        "t": "Gordon Hunter Trophy's on the line. Bring it home.",
+        "m": "Before playing the Blues.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "The Zoo",
+        "means": "Students pack one end of the ground in costume. Its roots are the old Terraces at Carisbrook."
+      },
+      {
+        "name": "Blue and gold scarves",
+        "means": "Fans wrap up in blue and gold, Otago's colours, with Southland maroon in the mix."
+      },
+      {
+        "name": "Fans on the field",
+        "means": "After home games fans go onto the pitch to meet the players."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "The 1999 final",
+        "why": "Lost 24-19 to the Crusaders at a packed Carisbrook."
+      },
+      {
+        "topic": "Recent seasons",
+        "why": "Eleventh in 2025 and ninth in 2026."
+      }
+    ],
+    "pronounce": [],
+    "avoid": [
+      {
+        "say": "the Otago Highlanders",
+        "instead": "the Highlanders",
+        "why": "'Otago' was dropped from the name long ago."
+      },
+      {
+        "say": "they play at Carisbrook",
+        "instead": "they're at Forsyth Barr",
+        "why": "The team moved under the roof in 2012 and Carisbrook is gone."
+      },
+      {
+        "say": "Dunedin's team",
+        "instead": "the South's team",
+        "why": "The Highlanders represent Otago, North Otago and Southland."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Highlanders_(rugby_union)",
+      "https://www.critic.co.nz/features/article/11972/the-changing-game-30-years-of-the-highlanders",
+      "https://thehighlanders.co.nz/news/15-years-under-the-roof-why-a-highlanders-game-is-a-dunedin-must-do/",
+      "https://en.wikipedia.org/wiki/Forsyth_Barr_Stadium",
+      "https://odt.co.nz/node/333888"
+    ],
+    "unsure": [
+      "lingo: 'scarfie' (an Otago student) left for the region pack, as it's Dunedin talk rather than Highlanders talk"
+    ]
+  },
+  {
+    "team": "Hurricanes",
+    "espnId": "25939",
+    "league": "rugby/242041",
+    "region": "nz-wellington",
+    "aliases": [
+      "hurricanes",
+      "the hurricanes",
+      "canes",
+      "wellington hurricanes",
+      "wellington"
+    ],
+    "nickname": "the 'Canes",
+    "fans": "",
+    "ground": "Hnry Stadium (the Cake Tin; Sky Stadium until 2026)",
+    "rivals": [
+      {
+        "team": "Crusaders",
+        "name": "the Crusaders",
+        "derby": ""
+      },
+      {
+        "team": "Blues",
+        "name": "the Blues",
+        "derby": ""
+      },
+      {
+        "team": "Chiefs",
+        "name": "the Chiefs",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Tana Umaga",
+      "Christian Cullen",
+      "Conrad Smith"
+    ],
+    "memory": "2026: won the final 60-5 against the Chiefs in a Wellington gale, a record margin for a final",
+    "lingo": [
+      {
+        "term": "the 'Canes",
+        "say": "the KAYNZ",
+        "ipa": "ðə ˈkeɪnz",
+        "tts": "the canes",
+        "means": "The Hurricanes for short. Everyone uses it."
+      },
+      {
+        "term": "yellow and black",
+        "say": "YEL-oh and BLAK",
+        "ipa": "",
+        "tts": "",
+        "means": "The team colours. On big nights the stands turn yellow."
+      },
+      {
+        "term": "the fog final",
+        "say": "the FOG FY-nul",
+        "ipa": "",
+        "tts": "",
+        "means": "The 2006 final in Christchurch, played in fog so thick fans could barely see the ball. The Crusaders won 19-12."
+      },
+      {
+        "term": "Athletic Park",
+        "say": "ath-LET-ik PARK",
+        "ipa": "",
+        "tts": "",
+        "means": "Wellington's old rugby ground, famous for the wind, used until 1999."
+      },
+      {
+        "term": "the Paekākāriki Express",
+        "say": "the pie-KAH-kah-ree-kee ex-PRESS",
+        "ipa": "ðə ˌpaeˈkaːkaːɾiki ɪkˈsprɛs",
+        "tts": "the pie kah kah ree key express",
+        "means": "Christian Cullen, the great fullback, named after the Kāpiti Coast town he grew up in."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Bit of wind never hurt the 'Canes.",
+        "m": "Wellington's wind is part of home advantage.",
+        "when": "any"
+      },
+      {
+        "t": "Run it from anywhere. That's 'Canes rugby.",
+        "m": "The Hurricanes are known for fast, attacking rugby.",
+        "when": "any"
+      },
+      {
+        "t": "Two titles now. 2016 and 2026.",
+        "m": "Pride, after a long wait for the second.",
+        "when": "any"
+      },
+      {
+        "t": "Yellow and black, all the way.",
+        "m": "Loyalty, whatever the result.",
+        "when": "any"
+      },
+      {
+        "t": "That's the 'Canes. Fast, flash and fun.",
+        "m": "After a win.",
+        "when": "win"
+      },
+      {
+        "t": "Too loose. All flair, no finish.",
+        "m": "After a defeat.",
+        "when": "loss"
+      },
+      {
+        "t": "Crusaders. Still haven't forgiven them for the fog final.",
+        "m": "Before playing the Crusaders.",
+        "when": "rival"
+      },
+      {
+        "t": "Chiefs, eh? Sixty to five. Just saying.",
+        "m": "A mild reminder of the 2026 final.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "A yellow city",
+        "means": "When Wellington hosts a final, the city fills with yellow and black, as it did in 2015 and 2016."
+      },
+      {
+        "name": "The title parade",
+        "means": "After the 2016 title the team paraded through the capital; fans hope for one every year."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "The fog final",
+        "why": "Lost the 2006 final 19-12 to the Crusaders in Christchurch."
+      },
+      {
+        "topic": "The 2015 final",
+        "why": "Lost 21-14 to the Highlanders at home in Wellington."
+      }
+    ],
+    "pronounce": [],
+    "avoid": [
+      {
+        "say": "the Wellington Hurricanes",
+        "instead": "the Hurricanes, or the 'Canes",
+        "why": "'Wellington' was dropped from the name long ago."
+      },
+      {
+        "say": "Sky Stadium",
+        "instead": "the Cake Tin",
+        "why": "It's been Hnry Stadium since March 2026, and locals just say the Cake Tin."
+      },
+      {
+        "say": "they've only won it once",
+        "instead": "they've won it twice",
+        "why": "2016, and the 60-5 final in 2026."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hurricanes_(rugby_union)",
+      "https://en.wikipedia.org/wiki/Wellington_Regional_Stadium",
+      "https://www.hurricanes.co.nz/news/article/family-and-the-hurricanes-have-long-gone-hand-in-hand-for-evan-belford",
+      "https://www.sbs.com.au/news/article/wellington-awash-with-black-and-yellow/e00s9siai",
+      "https://en.wikipedia.org/wiki/Christian_Cullen",
+      "https://en.wiktionary.org/wiki/Paek%C4%81k%C4%81riki"
+    ],
+    "unsure": [
+      "pronounce: Hnry Stadium is probably said 'Henry', but no source confirmed it, so it's left out",
+      "traditions: a 2026 title parade wasn't confirmed"
+    ]
+  },
+  {
+    "team": "NSW Waratahs",
+    "espnId": "227",
+    "league": "rugby/242041",
+    "region": "au-sydney",
+    "aliases": [
+      "waratahs",
+      "tahs",
+      "the tahs",
+      "nsw waratahs",
+      "new south wales waratahs",
+      "nsw"
+    ],
+    "nickname": "the Tahs",
+    "fans": "",
+    "ground": "Allianz Stadium (the Sydney Football Stadium, Moore Park)",
+    "rivals": [
+      {
+        "team": "Queensland Reds",
+        "name": "the Reds",
+        "derby": "the Bob Templeton Cup"
+      },
+      {
+        "team": "Brumbies",
+        "name": "the Brumbies",
+        "derby": "the Dan Vickerman Cup"
+      }
+    ],
+    "legends": [
+      "Matt Burke",
+      "Phil Waugh",
+      "Nick Farr-Jones",
+      "Michael Hooper"
+    ],
+    "memory": "2014: beat the Crusaders 33-32 in the final at Stadium Australia, before 61,823",
+    "lingo": [
+      {
+        "term": "the Tahs",
+        "say": "the TARZ",
+        "ipa": "ðə ˈtɐːz",
+        "tts": "",
+        "means": "The Waratahs for short. What everyone calls them."
+      },
+      {
+        "term": "the Templeton Cup",
+        "say": "the TEM-pul-tun KUP",
+        "ipa": "ðə ˈtɛmpəltən ˈkʌp",
+        "tts": "",
+        "means": "The Bob Templeton Cup, played for against Queensland since 2000."
+      },
+      {
+        "term": "Cambridge blue",
+        "say": "KAYM-brij BLOO",
+        "ipa": "ˈkeɪmbrɪdʒ ˈbluː",
+        "tts": "",
+        "means": "The pale blue jersey, worn by NSW sides since 1891."
+      },
+      {
+        "term": "the waratah",
+        "say": "the WORR-uh-tah",
+        "ipa": "ðə ˈwɔɹəˌtɐː",
+        "tts": "the wor uh tar",
+        "means": "The red NSW state flower the team is named after, and the emblem on the jersey."
+      },
+      {
+        "term": "the Shute Shield",
+        "say": "the SHOOT SHEELD",
+        "ipa": "ðə ˈʃuːt ˈʃiːld",
+        "tts": "",
+        "means": "Sydney's top club competition, where most Tahs come through."
+      },
+      {
+        "term": "the Dan Vickerman Cup",
+        "say": "the DAN VIK-uh-mun KUP",
+        "ipa": "ðə ˈdæn ˈvɪkəmən ˈkʌp",
+        "tts": "",
+        "means": "The trophy for Waratahs against Brumbies, named after a former Tahs and Wallabies lock."
+      }
+    ],
+    "lines": [
+      {
+        "t": "Go the Tahs!",
+        "m": "The standard shout.",
+        "when": "any"
+      },
+      {
+        "t": "NSW against Queensland. Oldest rivalry in Aussie sport.",
+        "m": "The two sides first met in 1882.",
+        "when": "any"
+      },
+      {
+        "t": "2014. Sixty thousand at Homebush and we beat the Crusaders by a point.",
+        "m": "The one Super Rugby title.",
+        "when": "any"
+      },
+      {
+        "t": "Sydney's a rugby town too, you know.",
+        "m": "A dig back at the league crowd.",
+        "when": "any"
+      },
+      {
+        "t": "That's more like it. The Tahs are back.",
+        "m": "After a win. Fans have had some lean years.",
+        "when": "win"
+      },
+      {
+        "t": "Promise a lot, deliver nothing. Same old Tahs.",
+        "m": "The grumble after a loss.",
+        "when": "loss"
+      },
+      {
+        "t": "Beat Queensland and the season's already a success.",
+        "m": "Before or after the Reds game.",
+        "when": "rival"
+      },
+      {
+        "t": "Canberra can have their Tah Week. We just want the win.",
+        "m": "On the Brumbies, who make more of the rivalry than Sydney admits.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "The team song",
+        "means": "After every win the players sing the team song together."
+      },
+      {
+        "name": "Blue against maroon",
+        "means": "The NSW and Queensland game is the fixture of the season, played for the Bob Templeton Cup."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "2021",
+        "why": "Didn't win a game all season: 0 from 13."
+      },
+      {
+        "topic": "Since 2014",
+        "why": "One title, then lean years: last in 2024 and out of the play-offs in 2026."
+      }
+    ],
+    "pronounce": [
+      {
+        "word": "Waratahs",
+        "say": "WORR-uh-tahz",
+        "ipa": "ˈwɔɹəˌtɐːz",
+        "tts": "wor uh tahz",
+        "why": "Stress the first syllable: not 'wuh-RAH-tuhz'."
+      }
+    ],
+    "avoid": [
+      {
+        "say": "the NSW Blues",
+        "instead": "the Waratahs, or the Tahs",
+        "why": "The Blues are NSW's rugby league State of Origin side."
+      },
+      {
+        "say": "the Sky Blues",
+        "instead": "the Tahs",
+        "why": "The Sky Blues are Sydney FC, the football club."
+      },
+      {
+        "say": "the Brumbies always beat us",
+        "instead": "we broke the run in 2025",
+        "why": "The Tahs ended a long losing streak against Canberra in 2025."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_South_Wales_Waratahs",
+      "https://en.wikipedia.org/wiki/Templeton_Cup",
+      "https://www.rugby.com.au/news/new-rivals-old-friends-as-waratahsreds-rivalry-extends-beyond-family-lines-2026211",
+      "https://www.rugby.com.au/news/2021/02/23/feature-tucker-classic-rivalry",
+      "https://waratahs.rugby/news/nsw-waratahs-kick-off-2026-super-rugby-pacific-at-home-against-arch-rivals-reds-2025815",
+      "https://en.wiktionary.org/wiki/waratah"
+    ],
+    "unsure": [
+      "lingo: 'rah-rah' (league fans' word for the private-school union crowd) left out: no reliable source found"
+    ]
+  },
+  {
+    "team": "Queensland Reds",
+    "espnId": "182",
+    "league": "rugby/242041",
+    "region": "au-queensland",
+    "aliases": [
+      "reds",
+      "the reds",
+      "queensland reds",
+      "qld reds",
+      "queensland",
+      "brisbane"
+    ],
+    "nickname": "the Reds",
+    "fans": "the Red Army",
+    "ground": "Suncorp Stadium (Lang Park)",
+    "rivals": [
+      {
+        "team": "NSW Waratahs",
+        "name": "the Tahs",
+        "derby": "the Bob Templeton Cup"
+      },
+      {
+        "team": "Brumbies",
+        "name": "the Brumbies",
+        "derby": "the Rod Macqueen Cup"
+      }
+    ],
+    "legends": [
+      "Tim Horan",
+      "Jason Little",
+      "Mark Loane"
+    ],
+    "memory": "2011: won the title, beating the Crusaders 18-13 before 52,113 at Suncorp Stadium",
+    "lingo": [
+      {
+        "term": "the Red Army",
+        "say": "the RED AR-mee",
+        "ipa": "",
+        "tts": "",
+        "means": "Reds supporters, a name since 2007."
+      },
+      {
+        "term": "'We Are Red'",
+        "say": "WEE ar RED",
+        "ipa": "",
+        "tts": "",
+        "means": "The chant that builds round Suncorp when the Reds get going."
+      },
+      {
+        "term": "Ballymore",
+        "say": "BAL-ee-mor",
+        "ipa": "ˈbælimɔː",
+        "tts": "",
+        "means": "The traditional home of Queensland rugby, in Herston. The Reds left for Suncorp in 2006, but it's still the spiritual home."
+      },
+      {
+        "term": "the Templeton Cup",
+        "say": "the TEM-pul-tun KUP",
+        "ipa": "ðə ˈtɛmpəltən ˈkʌp",
+        "tts": "",
+        "means": "The Bob Templeton Cup, played for against NSW."
+      },
+      {
+        "term": "the Rod Macqueen Cup",
+        "say": "the ROD muh-KWEEN KUP",
+        "ipa": "ðə ˈrɒd məˈkwiːn ˈkʌp",
+        "tts": "",
+        "means": "The trophy for Reds against Brumbies."
+      },
+      {
+        "term": "Nobody",
+        "say": "NOH-bud-ee",
+        "ipa": "",
+        "tts": "",
+        "means": "John Eales's nickname, because nobody's perfect. Every Reds fan knows it."
+      }
+    ],
+    "lines": [
+      {
+        "t": "We are Red!",
+        "m": "The home crowd's cry at Suncorp.",
+        "when": "any"
+      },
+      {
+        "t": "Suncorp full of red. Best ground in the country.",
+        "m": "Home pride.",
+        "when": "any"
+      },
+      {
+        "t": "2011. Fifty-two thousand at Suncorp and we beat the Crusaders.",
+        "m": "The Super Rugby title, 18-13.",
+        "when": "any"
+      },
+      {
+        "t": "Ballymore's the spiritual home. Always will be.",
+        "m": "Love for the old ground.",
+        "when": "any"
+      },
+      {
+        "t": "Too good, Reds. Too good.",
+        "m": "After a win.",
+        "when": "win"
+      },
+      {
+        "t": "Brilliant for an hour, then went to sleep.",
+        "m": "After a defeat.",
+        "when": "loss"
+      },
+      {
+        "t": "Beat New South Wales. Nothing else matters.",
+        "m": "The interstate rivalry.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "'We Are Red'",
+        "means": "The chant that rolls round Suncorp at home games."
+      },
+      {
+        "name": "Fan Day at Ballymore",
+        "means": "Each year fans meet the players at the old home ground before the season."
+      },
+      {
+        "name": "Queensland against NSW",
+        "means": "A rivalry since 1882, now played for the Bob Templeton Cup."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "First-week exits",
+        "why": "Out in the first week of the play-offs in 2024, 2025 and 2026."
+      }
+    ],
+    "pronounce": [],
+    "avoid": [
+      {
+        "say": "the Maroons",
+        "instead": "the Reds",
+        "why": "The Maroons are Queensland's rugby league Origin side."
+      },
+      {
+        "say": "the Broncos",
+        "instead": "the Reds",
+        "why": "The Broncos are Brisbane's league club, who share Suncorp."
+      },
+      {
+        "say": "the Brisbane Reds",
+        "instead": "the Queensland Reds",
+        "why": "The Reds represent the whole state."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Queensland_Reds",
+      "https://statements.qld.gov.au/statements/45395",
+      "https://reds.rugby/news/ballymore-beat-a-night-to-celebrate-reds-super-fans-202658",
+      "https://reds.rugby/news/queensland-reds-earn-20point-win-over-waratahs-to-retain-bob-templeton-cup-2025315",
+      "https://en.wikipedia.org/wiki/John_Eales"
+    ],
+    "unsure": [
+      "traditions: Wikipedia says the crowd sings 'Take Me Home, Country Roads' after wins, but it's marked as needing a citation, so it's left out"
+    ]
+  },
+  {
+    "team": "Western Force",
+    "espnId": "25893",
+    "league": "rugby/242041",
+    "region": "au-perth",
+    "aliases": [
+      "western force",
+      "force",
+      "the force",
+      "wa force",
+      "perth"
+    ],
+    "nickname": "the Force",
+    "fans": "",
+    "ground": "HBF Park (Perth Rectangular Stadium)",
+    "rivals": [
+      {
+        "team": "NSW Waratahs",
+        "name": "the Tahs",
+        "derby": ""
+      },
+      {
+        "team": "Queensland Reds",
+        "name": "the Reds",
+        "derby": ""
+      }
+    ],
+    "legends": [
+      "Nathan Sharpe",
+      "Matt Hodgson",
+      "Matt Giteau"
+    ],
+    "memory": "2017: axed from Super Rugby, and thousands rallied in Perth; back in the competition for good in 2022",
+    "lingo": [
+      {
+        "term": "the Sea of Blue",
+        "say": "the SEE of BLOO",
+        "ipa": "",
+        "tts": "",
+        "means": "Force fans wearing their blue jerseys instead of Wallaby gold at the 2017 Test in Perth, in protest at the axing."
+      },
+      {
+        "term": "the axing",
+        "say": "the AK-sing",
+        "ipa": "",
+        "tts": "",
+        "means": "The 2017 decision to cut the Force from Super Rugby. Fans still talk about it."
+      },
+      {
+        "term": "Twiggy",
+        "say": "TWIG-ee",
+        "ipa": "ˈtwɪɡi",
+        "tts": "",
+        "means": "Andrew Forrest, the mining billionaire who bankrolled the Force through the exile years."
+      },
+      {
+        "term": "Global Rapid Rugby",
+        "say": "GLOH-bul RAP-id RUG-bee",
+        "ipa": "",
+        "tts": "",
+        "means": "Forrest's competition that kept the Force playing; they won it unbeaten in 2019."
+      },
+      {
+        "term": "Rugby WA",
+        "say": "RUG-bee DUB-ul-yoo AY",
+        "ipa": "ˈrʌɡbi ˌdʌbəljuː ˈeɪ",
+        "tts": "",
+        "means": "The state union behind the Force."
+      }
+    ],
+    "lines": [
+      {
+        "t": "They tried to get rid of us. We're still here.",
+        "m": "Pride in surviving the 2017 axing.",
+        "when": "any"
+      },
+      {
+        "t": "Remember the Sea of Blue? Best protest in Aussie sport.",
+        "m": "The 2017 Test in Perth.",
+        "when": "any"
+      },
+      {
+        "t": "Super Rugby finals this year. Long overdue.",
+        "m": "The Force have never made the Super Rugby play-offs.",
+        "when": "any"
+      },
+      {
+        "t": "Perth turns up for rugby. Always has.",
+        "m": "Pride in the crowds.",
+        "when": "any"
+      },
+      {
+        "t": "That one's for everyone who stuck with us in 2017.",
+        "m": "After a big win.",
+        "when": "win"
+      },
+      {
+        "t": "Long flight, tough loss. Story of our lives.",
+        "m": "After an away defeat. Perth is a long way from everyone.",
+        "when": "loss"
+      },
+      {
+        "t": "Beat the Tahs and the east coast takes notice.",
+        "m": "NSW pipped the Force in the 2025 Super Rugby AUS final.",
+        "when": "rival"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "The Sea of Blue",
+        "means": "Since 2017 fans have worn Force blue to big games in Perth, Wallaby Tests included."
+      }
+    ],
+    "sore": [
+      {
+        "topic": "The 2017 axing",
+        "why": "Cut from Super Rugby by the national body. Many fans still haven't forgiven it."
+      },
+      {
+        "topic": "No play-offs",
+        "why": "The Force have never made the Super Rugby play-offs; seventh in 2026 was close."
+      }
+    ],
+    "pronounce": [],
+    "avoid": [
+      {
+        "say": "the Force folded",
+        "instead": "the Force came back",
+        "why": "They returned in 2020 and have been a full Super Rugby side since 2022."
+      },
+      {
+        "say": "the Perth Force",
+        "instead": "the Western Force",
+        "why": "The club represents the whole state."
+      },
+      {
+        "say": "cutting the Force was the right call",
+        "instead": "the axing was a disgrace",
+        "why": "Nothing riles a Force fan faster."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Western_Force",
+      "https://africa.espn.com/rugby/story/_/id/20392286/thousands-rally-western-force-cull",
+      "https://www.rugby.com.au/news/2017/08/20/03/07/force-supporters-rally",
+      "https://www.pressreader.com/australia/the-gold-coast-bulletin/20170814/282295320304667",
+      "https://en.wikipedia.org/wiki/Andrew_Forrest",
+      "https://www.rugby.com.au/news/super-rugby-aus-grand-final-preview-waratahs-force-rematch-awaits-in-the-west-2026930"
+    ],
+    "unsure": [
+      "fans: no settled name for Force supporters found",
+      "lingo: Wikipedia lists the Force as 2026 Super Rugby AUS champions, but the grand final result wasn't confirmed elsewhere, so it's left out",
+      "legends: Matt Hodgson's current role with the club wasn't checked"
+    ]
+  }
+]

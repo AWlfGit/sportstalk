@@ -2,9 +2,10 @@
 
 Ludicrous Display: a sports talk trainer inspired by the Bluffball website in *The IT Crowd*.
 Pick a real game from the last week, learn a three-beat script about it, and practise in a
-pretend pub conversation. It covers football, rugby, cricket, F1, NFL, NBA, NHL and MLB, with
-local fan lingo for 297 teams. Football results come from Europe, the Americas, Asia, Australia
-and Africa (25 competitions); rugby from Europe, the southern hemisphere and test matches.
+pretend pub conversation. It covers football, rugby union, cricket, F1, NFL, NBA, NHL, MLB, the
+AFL and the NRL (rugby league), with local fan lingo for 356 teams. Football results come from
+Europe, the Americas, Asia, Australia and Africa (25 competitions); rugby union from Europe, the
+southern hemisphere and test matches.
 
 Website: https://c0rw1n.com/sportstalk/ (a hidden demo folder on c0rw1n.com, not linked from
 the main site). This repository holds the source and builds the results feed; it doesn't host
@@ -35,8 +36,8 @@ the website.
 - `research/out/*.json`: the team guides, one file per league group: nicknames, fan terms,
   sayings by result (any time, after a win, after a loss, rival week), traditions, sore
   subjects, names to say right, rivals and giveaways. Each team has a `region`.
-- `research/regions/*.json`: region packs (72 regions, from Boston and Pittsburgh to Merseyside,
-  Glasgow, Montreal and New Zealand): the dialect words locals use about sport, place names to
+- `research/regions/*.json`: region packs (83 regions, from Boston and Pittsburgh to Merseyside,
+  Glasgow, Montreal, Melbourne and Auckland): the dialect words locals use about sport, place names to
   say right, how the area talks sport, local habits and giveaways. Listed in
   `research/REGIONS.md`.
 - `research/SOURCES.md`: where the lingo and pronunciations come from, and how far to trust each
@@ -52,8 +53,9 @@ the website.
   `alone` in `pronounce.json`, so they only get the local sound when that word is played on its
   own, and "Alright, mate" still sounds normal.
 - `research/hockey-canada.json`, `football-uk.json`, `football-nfl.json`, `basketball-nba.json`,
-  `baseball-mlb.json`, `f1-na.json`: talk packs. Soccer's is British; the rest are North
-  American (hockey's is Canadian rink talk). Each holds sport-wide slang,
+  `baseball-mlb.json`, `f1-na.json`, `afl-australia.json`, `nrl-australia.json`: talk packs
+  (brief: `research/TALK.md`). Soccer's is British, the AFL's and the NRL's Australian, and the
+  rest North American (hockey's is Canadian rink talk). Each holds sport-wide slang,
   phrase-book lines, pub-test rounds, outsider giveaways, and a five-beat exchange for each
   kind of result (an overtime win, a late winner, a shutout and so on). The script picks the
   exchange that matches the game and fills in `{team}`, `{opp}`, `{player}`, `{score}` and

@@ -29,7 +29,7 @@ function collect(only) {
       (r.pronounce || []).forEach((x, i) => add("regions/" + f, r.id, "pronounce", i, "word", x));
     }
   }
-  for (const f of fs.readdirSync(dir).filter((f) => /^(hockey|football|basketball|baseball|f1)-.*\.json$/.test(f))) {
+  for (const f of fs.readdirSync(dir).filter((f) => /^(hockey|football|basketball|baseball|f1|afl|nrl)-.*\.json$/.test(f))) {
     if (!want(f)) continue;
     (json(path.join(dir, f)).terms || []).forEach((x, i) => add(f, "", "terms", i, "term", x));
   }

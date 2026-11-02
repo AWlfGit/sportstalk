@@ -1,0 +1,449 @@
+[
+  {
+    "id": "au-sydney",
+    "name": "Sydney",
+    "covers": "Sydney (Sydney Swans, GWS Giants, Sydney FC, Western Sydney Wanderers, Macarthur FC, NSW Waratahs; the NRL's Roosters, Rabbitohs, Bulldogs, Eels, Wests Tigers, Sea Eagles, Sharks, Panthers and Dragons), and New South Wales's State of Origin side",
+    "dialect": "Australian English (Sydney and New South Wales)",
+    "words": [
+      {"term": "schooner", "say": "SKOO-nuh", "ipa": "ˈskuːnə", "tts": "", "means": "The standard 425 ml glass of beer in Sydney and across New South Wales.", "use": "Grab us a schooner, I'll get the next round.", "common": true},
+      {"term": "middy", "say": "MID-ee", "ipa": "ˈmɪdi", "tts": "middie", "means": "The smaller 285 ml glass. Melbourne and Brisbane call it a pot.", "use": "Just a middy for me, I'm driving.", "common": true},
+      {"term": "schmiddy", "say": "SHMID-ee", "ipa": "ˈʃmɪdi", "tts": "shmiddy", "means": "A pour of about 350 ml, between a middy and a schooner, mostly for imported beers. Drinkers grumble that it costs nearly as much as a schooner.", "use": "Schooner money for a schmiddy? No thanks.", "common": false},
+      {"term": "Sydneysider", "say": "SID-nee-sy-duh", "ipa": "ˈsɪdnisaɪdə", "tts": "", "means": "Someone from Sydney. Locals use it of themselves.", "use": "Born-and-bred Sydneysider. Never missed an Origin.", "common": true},
+      {"term": "leagues club", "say": "LEEGZ klub", "ipa": "ˈliːɡz klʌb", "tts": "", "means": "A big licensed club tied to a rugby league club, with a bistro, bars and the footy on every screen. Part of suburban Sydney life.", "use": "Watch the game down the leagues club?", "common": true},
+      {"term": "the Blues", "say": "the BLOOZ", "ipa": "ðə ˈbluːz", "tts": "", "means": "New South Wales's State of Origin side, in sky blue. Sydney's club rivalries go on hold when they play.", "use": "Blues need a big one in game two.", "common": true},
+      {"term": "the Shire", "say": "the SHY-uh", "ipa": "ðə ˈʃaɪə", "tts": "", "means": "The Sutherland Shire in Sydney's south, home of the Sharks. Locals say it with pride.", "use": "Shire born and raised. Sharks all the way.", "common": true},
+      {"term": "Parra", "say": "PA-ruh", "ipa": "ˈpæɹə", "tts": "", "means": "Parramatta, the city in Sydney's west and the Eels' home.", "use": "Big crowd out at Parra tonight.", "common": true},
+      {"term": "the Gong", "say": "the GONG", "ipa": "ðə ˈɡɒŋ", "tts": "", "means": "Wollongong, an hour south. The Dragons play some home games there.", "use": "Dragons are down at the Gong this week.", "common": true},
+      {"term": "Homebush", "say": "HOHM-bush", "ipa": "ˈhəʊmbʊʃ", "tts": "", "means": "What many still call Sydney Olympic Park and its big stadium, where the NRL grand final is played.", "use": "Grand final's at Homebush. Train's the only way in.", "common": true},
+      {"term": "southerly buster", "say": "SUDH-uh-lee BUS-tuh", "ipa": "ˈsʌðəli ˈbʌstə", "tts": "", "means": "The sudden cool, gusty southerly change that ends a hot Sydney day.", "use": "Southerly buster's on its way. Bring a jumper.", "common": true},
+      {"term": "cossie", "say": "KOZ-ee", "ipa": "ˈkɒzi", "tts": "cozzie", "means": "Swimmers. The New South Wales word; Brisbane says togs and Melbourne says bathers.", "use": "Chuck your cossie in the bag, we'll hit the beach after.", "common": true},
+      {"term": "bubbler", "say": "BUB-luh", "ipa": "ˈbʌblə", "tts": "", "means": "A drinking fountain. Melbourne says drink tap.", "use": "Fill your bottle at the bubbler at half-time.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Leichhardt", "say": "LIKE-art", "ipa": "ˈlaɪkɑːt", "tts": "like art", "why": "Inner-west suburb and home of Leichhardt Oval, a Wests Tigers ground. Named after a German explorer, but nobody says it the German way."},
+      {"word": "Coogee", "say": "KUDGE-ee", "ipa": "ˈkʊdʒi", "tts": "could gee", "why": "Eastern-suburbs beach in Roosters and Rabbitohs country. The first part rhymes with 'could', not 'coo'."},
+      {"word": "Bondi", "say": "BON-dye", "ipa": "ˈbɒndaɪ", "tts": "bon dye", "why": "Ends like 'die'. 'BON-dee' marks a tourist."},
+      {"word": "Kogarah", "say": "KOG-ruh", "ipa": "ˈkɒɡɹə", "tts": "kog ruh", "why": "Dragons heartland in Sydney's south. Stress the first syllable; outsiders say 'koh-GAR-uh'."},
+      {"word": "Wollongong", "say": "WOOL-un-gong", "ipa": "ˈwʊləŋɡɒŋ", "tts": "wool un gong", "why": "Starts like 'wool'. Locals mostly just say 'the Gong'."}
+    ],
+    "lines": [
+      {"t": "So who do you go for in the league?", "m": "Sydney's first footy question. With nine NRL clubs in town, the answer says which part of Sydney you're from."},
+      {"t": "Origin's the one time all of Sydney's on the same side. Go the Blues.", "m": "Club rivalries go on hold for State of Origin."},
+      {"t": "Parramatta Road on a game night? Take the train.", "m": "Sydney traffic is the standard moan before any big game."},
+      {"t": "Southerly's come through. Should've brought a jumper.", "m": "The cool change can turn a hot afternoon cold in minutes."},
+      {"t": "Melbourne thinks it's the sporting capital. We've got the harbour.", "m": "The Sydney and Melbourne rivalry, played for laughs."}
+    ],
+    "avoid": [
+      {"say": "a pot, please", "instead": "a middy", "why": "Pot is the Melbourne and Brisbane word. In Sydney the small glass is a middy."},
+      {"say": "BON-dee", "instead": "BON-dye", "why": "The beach rhymes with 'die'. Saying 'dee' marks a tourist."},
+      {"say": "maroon on Origin night", "instead": "sky blue", "why": "Maroon is Queensland. In a Sydney pub on Origin night, wear blue or keep quiet."}
+    ],
+    "habits": [
+      "Sydney has nine NRL clubs, and your suburb, or your dad's, usually decides which one you go for.",
+      "Plenty of league is watched at the local leagues club or pub, with a schooner and a meal.",
+      "The NRL grand final is at Homebush, usually on the Sunday of the October long weekend."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Beer_in_Australia",
+      "https://waywordradio.org/schmiddy_1/",
+      "https://en.wiktionary.org/wiki/Sydneysider",
+      "https://en.wikipedia.org/wiki/Glossary_of_rugby_league_terms",
+      "https://en.wikipedia.org/wiki/State_of_Origin_series",
+      "https://en.wikipedia.org/wiki/Sutherland_Shire",
+      "https://en.wikipedia.org/wiki/Diminutive_in_Australian_English",
+      "https://www.thesenior.com.au/story/6330774/from-freo-to-the-gong-search-is-on-for-aussie-town-nicknames/",
+      "https://en.wikipedia.org/wiki/Stadium_Australia",
+      "https://en.wikipedia.org/wiki/Southerly_buster",
+      "https://www.macquariedictionary.com.au/a-wongi-about-australian-word-map/",
+      "https://www.racv.com.au/royalauto/travel/victoria/the-unique-language-of-victorians.html",
+      "https://en.wikipedia.org/wiki/Leichhardt,_New_South_Wales",
+      "https://en.wikipedia.org/wiki/Coogee,_New_South_Wales",
+      "https://en.wikipedia.org/wiki/Bondi_Beach",
+      "https://en.wikipedia.org/wiki/Kogarah",
+      "https://en.wikipedia.org/wiki/Wollongong"
+    ],
+    "unsure": [
+      "words: 'Westie' (someone from Western Sydney) left out: some wear it with pride, others use it as a put-down, and no local source settled the tone.",
+      "words: 'Homebush' for the stadium rests on media usage (AFL.com.au, Wikipedia), not a dictionary."
+    ]
+  },
+  {
+    "id": "au-newcastle",
+    "name": "Newcastle and the Central Coast",
+    "covers": "Newcastle, the Hunter and the Central Coast (Newcastle Knights, Newcastle Jets, Central Coast Mariners)",
+    "dialect": "Australian English (Newcastle, the Hunter and the Central Coast)",
+    "words": [
+      {"term": "Novocastrian", "say": "noh-voh-KAS-tree-un", "ipa": "ˌnəʊvəʊˈkæstɹiən", "tts": "", "means": "Someone from Newcastle. Locals say it with pride; outsiders trip over it.", "use": "Proud Novocastrian. Knights, Jets, the lot.", "common": true},
+      {"term": "Newy", "say": "NEW-ee", "ipa": "ˈnjuːi", "tts": "", "means": "Newcastle. Also spelled Newie.", "use": "Back in Newy for the weekend. Knights are at home.", "common": true},
+      {"term": "the Hunter", "say": "the HUN-tuh", "ipa": "", "tts": "", "means": "The Hunter Valley and the region around Newcastle: coal towns, vineyards and Maitland.", "use": "Half the Hunter comes in for a big home game.", "common": true},
+      {"term": "Lake Mac", "say": "layk MAK", "ipa": "ˌleɪk ˈmæk", "tts": "", "means": "Lake Macquarie, the big lake and the city around it, south of Newcastle.", "use": "Live down at Lake Mac, so it's twenty minutes to the game.", "common": true},
+      {"term": "Charlie", "say": "CHAH-lee", "ipa": "ˈtʃɑːli", "tts": "", "means": "Charlestown, the suburb and its big shopping centre.", "use": "Meet you at Charlie, then we'll head in to the game.", "common": true},
+      {"term": "Ray Tay", "say": "RAY TAY", "ipa": "ˌɹeɪ ˈteɪ", "tts": "", "means": "Raymond Terrace, the town north of Newcastle.", "use": "He drives in from Ray Tay every home game.", "common": true},
+      {"term": "Tronno", "say": "TRON-oh", "ipa": "ˈtɹɒnəʊ", "tts": "", "means": "Toronto, the town on Lake Macquarie. Nothing to do with Canada.", "use": "Pub in Tronno's showing the game.", "common": true},
+      {"term": "the F3", "say": "the EFF THREE", "ipa": "ðə ˌɛf ˈθɹiː", "tts": "", "means": "The motorway between Sydney and Newcastle. It was renamed the M1 in 2013, but locals still call it the F3.", "use": "Two hours down the F3 if the traffic's kind.", "common": true},
+      {"term": "the F3 Derby", "say": "the EFF-three DER-bee", "ipa": "", "tts": "", "means": "Newcastle Jets against Central Coast Mariners, the region's A-League rivalry, named after the road between them.", "use": "F3 Derby Saturday. Jets or Mariners, no fence-sitting.", "common": true},
+      {"term": "Coasties", "say": "KOHS-teez", "ipa": "ˈkəʊstiz", "tts": "", "means": "People from the Central Coast, and a nickname for the Mariners.", "use": "Coasties travel well. Half the away end came up the F3.", "common": true},
+      {"term": "schooner", "say": "SKOO-nuh", "ipa": "ˈskuːnə", "tts": "", "means": "The 425 ml glass, as in Sydney. The small one is a middy.", "use": "Schooner after the game? Your shout.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Newcastle", "say": "NEW-kah-sul", "ipa": "ˈnjuːkɑːsəl", "tts": "", "why": "Locals stress 'New' and use a long 'ah'. 'New-CASS-ul' is the English city's way."},
+      {"word": "Wyong", "say": "WHY-ong", "ipa": "ˈwaɪɒŋ", "tts": "why ong", "why": "Central Coast town near the Mariners' training base. It starts like 'why'."},
+      {"word": "Merewether", "say": "MERRY-weh-thuh", "ipa": "ˈmɛɹiwɛðə", "tts": "merry weather", "why": "Newcastle's famous surf beach and suburb. Said like 'merry weather', not 'MEER-weather'."}
+    ],
+    "lines": [
+      {"t": "Newcastle's a footy town. When the Knights are going well, the whole city knows it.", "m": "The Knights are the region's one NRL club, and the city follows them closely."},
+      {"t": "Two hours up the F3 and Sydney forgets we exist.", "m": "The mild Newcastle grumble about being overlooked by Sydney."},
+      {"t": "F3 Derby this week. Jets or Mariners, pick one.", "m": "Newcastle against the Central Coast in the A-League."},
+      {"t": "Southerly's blowing straight up the coast. Rug up for the game.", "m": "Cold southerly changes are the weather moan all along the New South Wales coast."}
+    ],
+    "avoid": [
+      {"say": "new-CASS-ul", "instead": "NEW-kah-sul", "why": "That's how the English Newcastle says it. Here the stress is on 'New'."},
+      {"say": "Geordies", "instead": "Novocastrians", "why": "Geordies come from Newcastle in England. Locals here are Novocastrians."},
+      {"say": "Newcastle's basically Sydney", "instead": "Newcastle", "why": "It's a separate city two hours north, and locals are proud of that."},
+      {"say": "the Coast is part of Sydney", "instead": "the Central Coast", "why": "Coasties see themselves as their own region, with the Mariners as their team."}
+    ],
+    "habits": [
+      "The Knights and the Jets share one stadium in Newcastle, and a big Knights home crowd is a point of city pride.",
+      "The Central Coast has no NRL club of its own, so the Mariners are the Coast's team and league fans there follow the Knights or a Sydney club.",
+      "Fans make the trip both ways along the F3 for the F3 Derby; the trophy is made from a core of road cut from the motorway."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Newcastle,_New_South_Wales",
+      "https://www.newcastleherald.com.au/story/9294956/newcastles-unique-novocastrian-label-its-ancient-latin-roots/",
+      "https://www.newcastleherald.com.au/story/8154787/newy-slang-has-been-put-on-the-map-but-have-they-got-it-right",
+      "https://www.maitlandmercury.com.au/story/8155397/putting-maito-slang-on-the-map/",
+      "https://www.visitlakemac.com.au/",
+      "https://en.wikipedia.org/wiki/Pacific_Motorway_(Sydney%E2%80%93Newcastle)",
+      "https://ccmariners.com.au/news/match-preview-newcastle-jets-vs-central-coast-mariners/",
+      "https://en.wikipedia.org/wiki/Central_Coast_Mariners",
+      "https://coastiesmag.com.au/things-to-do-on-the-nsw-central-coast/",
+      "https://en.wikipedia.org/wiki/Wyong,_New_South_Wales",
+      "https://en.wikipedia.org/wiki/Merewether,_New_South_Wales",
+      "https://en.wikipedia.org/wiki/Beer_in_Australia"
+    ],
+    "unsure": [
+      "words: 'Maito' (Maitland) and 'Steel City' (Newcastle) left out: Maito appears only in a local headline, and no recent use of Steel City was found.",
+      "words: 'derby' is said DER-bee in Western Australia (documented); for New South Wales the same is assumed, not confirmed."
+    ]
+  },
+  {
+    "id": "au-canberra",
+    "name": "Canberra",
+    "covers": "Canberra and Queanbeyan (Raiders, Brumbies)",
+    "dialect": "Australian English (Canberra)",
+    "words": [
+      {"term": "Civic", "say": "SIV-ik", "ipa": "ˈsɪvɪk", "tts": "", "means": "Canberra's city centre. Locals rarely call it the CBD.", "use": "Drinks in Civic after the game?", "common": true},
+      {"term": "Belco", "say": "BEL-koh", "ipa": "ˈbɛlkəʊ", "tts": "", "means": "Belconnen, the big district in Canberra's north-west.", "use": "Grew up in Belco. Raiders mad.", "common": true},
+      {"term": "Tuggers", "say": "TUG-uz", "ipa": "ˈtʌɡəz", "tts": "", "means": "Tuggeranong, the district in Canberra's south.", "use": "Long drive back to Tuggers after a night game.", "common": true},
+      {"term": "Kingo", "say": "KING-oh", "ipa": "ˈkɪŋɡəʊ", "tts": "", "means": "Kingston, the inner-south suburb with pubs near Manuka Oval.", "use": "Pub in Kingo, then the cricket at Manuka.", "common": true},
+      {"term": "Bruce", "say": "BROOSE", "ipa": "bɹuːs", "tts": "", "means": "Canberra Stadium, home of the Raiders and the Brumbies, called after the suburb it sits in.", "use": "See you out at Bruce Saturday night.", "common": true},
+      {"term": "the bush capital", "say": "the BUSH KAP-ih-tul", "ipa": "", "tts": "", "means": "Canberra's own nickname, for a city full of parks, hills and kangaroos.", "use": "Roos on the oval again. Bush capital, mate.", "common": true},
+      {"term": "schooner", "say": "SKOO-nuh", "ipa": "ˈskuːnə", "tts": "", "means": "The 425 ml glass, as in Sydney.", "use": "Couple of schooners in Civic after?", "common": true},
+      {"term": "middy", "say": "MID-ee", "ipa": "ˈmɪdi", "tts": "middie", "means": "The 285 ml glass, as in Sydney.", "use": "Just a middy, it's freezing out.", "common": true},
+      {"term": "Summernats", "say": "SUM-uh-nats", "ipa": "ˈsʌmənæts", "tts": "", "means": "The big street-car festival every January. Locals either love it or leave town for it.", "use": "Summernats weekend. Can't hear yourself think.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Manuka", "say": "MAH-nuh-kuh", "ipa": "ˈmɑːnəkə", "tts": "mah nuh kuh", "why": "Manuka Oval hosts cricket and AFL. Canberrans stress the first syllable, unlike the honey."},
+      {"word": "Queanbeyan", "say": "KWEEN-bee-un", "ipa": "ˈkwiːnbiən", "tts": "queen bee an", "why": "The New South Wales city next door, where the Raiders began. It starts like 'queen'."},
+      {"word": "Gungahlin", "say": "gung-GAH-lin", "ipa": "ɡʌŋˈɡɑːlɪn", "tts": "gung gah lin", "why": "Canberra's fast-growing north. Stress the middle syllable."},
+      {"word": "Tuggeranong", "say": "TUG-uh-ruh-nong", "ipa": "ˈtʌɡəɹənɒŋ", "tts": "tugger uh nong", "why": "Stress the first syllable. Locals mostly just say 'Tuggers'."}
+    ],
+    "lines": [
+      {"t": "Frost on the ground at Bruce tonight. Rug up.", "m": "Canberra winter nights are bitter, and night games mean beanies and blankets."},
+      {"t": "We're not all politicians, mate. Most of us just want the Raiders to win.", "m": "Canberrans are tired of being treated as a town of public servants."},
+      {"t": "One league team, one rugby team, and the whole town backs both.", "m": "Canberra has no local rival, so the Raiders and the Brumbies carry the city."},
+      {"t": "Three hours to Sydney, and they still think we're a country town.", "m": "The mild Canberra grumble about bigger cities looking down on it."},
+      {"t": "Out to Bruce on Saturday?", "m": "The usual way to suggest going to a home game."}
+    ],
+    "avoid": [
+      {"say": "muh-NOO-kuh Oval", "instead": "MAH-nuh-kuh", "why": "Locals put the stress on the first syllable, unlike the honey."},
+      {"say": "kwan-BAY-an", "instead": "KWEEN-bee-un", "why": "Queanbeyan starts like 'queen'."},
+      {"say": "Nothing happens in Canberra", "instead": "Big crowd at Bruce this week?", "why": "Locals have heard the 'boring capital' line all their lives."},
+      {"say": "the CBD", "instead": "Civic", "why": "Canberrans call the city centre Civic."}
+    ],
+    "habits": [
+      "Rug up for winter night games at Bruce: beanies, scarves and a thermos.",
+      "The Raiders started across the border in Queanbeyan in 1982, and plenty of fans still live there.",
+      "Summer means cricket at Manuka Oval, which also hosts AFL games."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Civic,_Australian_Capital_Territory",
+      "https://region.com.au/tuggers-charny-gunners-its-all-part-of-can-bra/340618/",
+      "https://greensdictofslang.com/entry/jtcfh6a",
+      "https://en.wikipedia.org/wiki/Canberra_Stadium",
+      "https://the-riotact.com/bruce-plan-not-perfect-but-stadium-spruikers-forget-wholl-be-paying-for-it-us/755110",
+      "https://en.wikipedia.org/wiki/Canberra",
+      "https://en.wikipedia.org/wiki/Canberra_Raiders",
+      "https://en.wikipedia.org/wiki/Summernats",
+      "https://en.wikipedia.org/wiki/Beer_in_Australia",
+      "https://en.wikipedia.org/wiki/Manuka,_Australian_Capital_Territory",
+      "https://en.wikipedia.org/wiki/Queanbeyan",
+      "https://en.wikipedia.org/wiki/Gungahlin",
+      "https://en.wiktionary.org/wiki/Tuggeranong"
+    ],
+    "unsure": [
+      "words: 'Gunners' (Gungahlin) left out because it clashes with Arsenal on the site; 'booner' (Canberra's bogan) left out as a put-down.",
+      "words: 'Canbrrr' (Canberra in winter) found in only one local source, so it's left out."
+    ]
+  },
+  {
+    "id": "au-melbourne",
+    "name": "Melbourne",
+    "covers": "Melbourne and Geelong (Collingwood, Carlton, Essendon, Richmond, Hawthorn, Melbourne, St Kilda, Western Bulldogs, North Melbourne, Geelong Cats, Melbourne Storm, Melbourne Victory, Melbourne City)",
+    "dialect": "Australian English (Melbourne and Victoria)",
+    "words": [
+      {"term": "Melburnian", "say": "mel-BER-nee-un", "ipa": "mɛlˈbɜːniən", "tts": "", "means": "Someone from Melbourne. Spelled without the 'o'.", "use": "Every Melburnian has a footy team, even the ones who say they don't.", "common": true},
+      {"term": "pot", "say": "POT", "ipa": "pɒt", "tts": "", "means": "A 285 ml glass of beer, Melbourne's standard small beer. Sydney calls it a middy.", "use": "Couple of pots after the game?", "common": true},
+      {"term": "parma", "say": "PAH-muh", "ipa": "ˈpɑːmə", "tts": "", "means": "A chicken parmigiana, the pub classic. Victorians say parma; Queenslanders say parmi.", "use": "Pot and a parma at the local before the bounce.", "common": true},
+      {"term": "milk bar", "say": "MILK bah", "ipa": "", "tts": "", "means": "The corner shop. Mostly a Victorian word.", "use": "Duck into the milk bar for a drink on the way to the game.", "common": true},
+      {"term": "bathers", "say": "BAY-thuz", "ipa": "ˈbeɪðəz", "tts": "", "means": "Swimmers. Sydney says cossie, Brisbane togs.", "use": "Bring your bathers, we'll hit the beach after.", "common": true},
+      {"term": "hook turn", "say": "HOOK turn", "ipa": "", "tts": "", "means": "A right turn made from the left lane in the city centre, to keep clear of the trams. Pure Melbourne.", "use": "Missed the hook turn and ended up halfway to the G.", "common": true},
+      {"term": "potato cake", "say": "puh-TAY-toh KAYK", "ipa": "", "tts": "", "means": "A slice of potato battered and deep-fried, from the fish and chip shop. Sydney calls it a scallop.", "use": "Potato cake and a dim sim. Footy tea.", "common": true},
+      {"term": "kick-to-kick", "say": "KICK-tuh-KICK", "ipa": "ˌkɪk tə ˈkɪk", "tts": "", "means": "Kicking a footy back and forth in a park or the street. How Victorian kids learn the game.", "use": "Kick-to-kick in the park at half-time? Too right.", "common": true},
+      {"term": "Grand Final Friday", "say": "grand FY-nul FRY-day", "ipa": "", "tts": "", "means": "The day before the AFL grand final, a public holiday in Victoria since 2015, with the parade through the city.", "use": "Grand Final Friday. Parade, then the pub.", "common": true},
+      {"term": "Cup Day", "say": "KUP day", "ipa": "", "tts": "", "means": "Melbourne Cup day, the first Tuesday in November, a public holiday in Melbourne.", "use": "Cup Day sweep at work. Drew a roughie.", "common": true},
+      {"term": "Docklands", "say": "DOCK-lundz", "ipa": "", "tts": "", "means": "The roofed AFL stadium at Docklands. Its sponsor's name keeps changing, so fans often just call it Docklands.", "use": "Roof's shut at Docklands, so no excuses.", "common": true},
+      {"term": "the Barassi Line", "say": "the buh-RASS-ee LINE", "ipa": "ðə bəˈɹæsi ˌlaɪn", "tts": "", "means": "The imaginary line between AFL country (Victoria, South Australia, Western Australia, Tasmania) and rugby league country (New South Wales and Queensland).", "use": "Sydney's north of the Barassi Line. They just don't get it.", "common": false}
+    ],
+    "pronounce": [
+      {"word": "Geelong", "say": "juh-LONG", "ipa": "dʒəˈlɒŋ", "tts": "juh long", "why": "Home of the Cats, an hour down the highway. A quick 'juh' first, never 'GEE-long'."},
+      {"word": "Prahran", "say": "pruh-RAN", "ipa": "pɹəˈɹæn", "tts": "pruh ran", "why": "Inner south-east suburb. Stress the end; plenty of locals squash it to 'PRAN'."},
+      {"word": "Narre Warren", "say": "NARR-ee WORR-un", "ipa": "ˌnæɹi ˈwɒɹən", "tts": "narry warren", "why": "Outer south-east suburb. 'Narre' has two syllables; outsiders say 'NAR'."}
+    ],
+    "lines": [
+      {"t": "Pot and a parma after the game?", "m": "The Melbourne pub order: a small beer and a chicken parmigiana."},
+      {"t": "Four seasons in one day. Bring a jacket to the G.", "m": "Melbourne weather can turn in an hour, and everyone moans about it."},
+      {"t": "Grand final belongs at the G. End of story.", "m": "Melburnians defend the MCG hosting the AFL grand final, which is booked there until 2059."},
+      {"t": "Footy's back. Now the year can start.", "m": "Round one in March is when Melbourne really wakes up."},
+      {"t": "Sydney's got the harbour. We've got the G.", "m": "The Melbourne and Sydney rivalry, played for laughs."}
+    ],
+    "avoid": [
+      {"say": "a middy", "instead": "a pot", "why": "Middy is Sydney and Perth. In Melbourne the small glass is a pot."},
+      {"say": "GEE-long", "instead": "juh-LONG", "why": "The quick first syllable is how everyone in Victoria says it."},
+      {"say": "I go for Melbourne (meaning any local club)", "instead": "name your club", "why": "In footy talk 'Melbourne' means the Demons. Nine AFL clubs are based in the city."},
+      {"say": "aerial ping-pong", "instead": "footy", "why": "An old rugby league dig at AFL. Say it in Melbourne and you'll get a look."}
+    ],
+    "habits": [
+      "Grand Final Friday is a public holiday in Victoria, with the players' parade through the city before Saturday's game at the G.",
+      "On Cup Day, the first Tuesday in November, Melbourne takes the day off: sweeps at work, then the race at 3 pm.",
+      "Fans walk to the G through Yarra Park from Richmond or Jolimont station.",
+      "With nine AFL clubs in one city, most people inherit a club from their family and stick with it for life."
+    ],
+    "sources": [
+      "https://www.racv.com.au/royalauto/travel/victoria/the-unique-language-of-victorians.html",
+      "https://www.emelbourne.net.au/biogs/EM00829b.htm",
+      "https://en.wiktionary.org/wiki/Melburnian",
+      "https://en.wikipedia.org/wiki/Beer_in_Australia",
+      "https://study.uq.edu.au/stories/your-aussie-slang-dictionary-talk-local",
+      "https://www.macquariedictionary.com.au/a-wongi-about-australian-word-map/",
+      "https://en.wikipedia.org/wiki/Kick-to-kick",
+      "https://en.wikipedia.org/wiki/AFL_Grand_Final",
+      "https://en.wikipedia.org/wiki/Melbourne_Cup",
+      "https://en.wikipedia.org/wiki/Docklands_Stadium",
+      "https://en.wikipedia.org/wiki/Barassi_Line",
+      "https://en.wikipedia.org/wiki/AFL_Grand_Final_location_debate",
+      "https://wordhistories.net/2020/11/01/aerial-pingpong/",
+      "https://en.wikipedia.org/wiki/Geelong",
+      "https://en.wikipedia.org/wiki/Prahran",
+      "https://en.wikipedia.org/wiki/Narre_Warren"
+    ],
+    "unsure": [
+      "lines: the MCG grand final deal to 2059 was reported in 2021; no 2026 report changing it was found."
+    ]
+  },
+  {
+    "id": "au-queensland",
+    "name": "Queensland",
+    "covers": "Brisbane, the Gold Coast and North Queensland (Brisbane Lions, Gold Coast Suns, Broncos, Dolphins, Titans, Cowboys, Brisbane Roar, Queensland Reds), and Queensland's State of Origin side",
+    "dialect": "Australian English (Queensland)",
+    "words": [
+      {"term": "Queenslander", "say": "KWEENZ-lun-duh", "ipa": "ˈkwiːnzləndə", "tts": "", "means": "Someone from Queensland. Shouted as 'Queenslander!', it's the state's Origin rallying cry.", "use": "Proud Queenslander. Maroon through and through.", "common": true},
+      {"term": "togs", "say": "TOGZ", "ipa": "tɒɡz", "tts": "", "means": "Swimmers. The Queensland word; Sydney says cossie and Melbourne bathers.", "use": "Chuck your togs in, we'll swim after the game.", "common": true},
+      {"term": "port", "say": "PORT", "ipa": "pɔːt", "tts": "", "means": "A school bag or suitcase. An old Queensland word, heard mostly from older locals.", "use": "Pack your port, we're driving up for the Cowboys game.", "common": false},
+      {"term": "pot", "say": "POT", "ipa": "pɒt", "tts": "", "means": "The 285 ml glass of beer. The big one is a schooner.", "use": "Pot of XXXX, thanks.", "common": true},
+      {"term": "XXXX", "say": "FOR-ex", "ipa": "ˌfɔːɹ ˈɛks", "tts": "four ex", "means": "Queensland's beer, brewed in Brisbane near Lang Park. Said 'four ex'.", "use": "Esky's full of XXXX Gold. Origin's sorted.", "common": true},
+      {"term": "parmi", "say": "PAH-mee", "ipa": "ˈpɑːmi", "tts": "", "means": "A chicken parmigiana. Queenslanders say parmi; Victorians say parma.", "use": "Parmi and a pot before the game.", "common": true},
+      {"term": "Brissie", "say": "BRIZ-ee", "ipa": "ˈbɹɪzi", "tts": "brizzy", "means": "Brisbane.", "use": "Back in Brissie for Origin.", "common": true},
+      {"term": "Brisvegas", "say": "briz-VAY-gus", "ipa": "ˌbɹɪzˈveɪɡəs", "tts": "briz vegas", "means": "Brisbane, said with a wink at its big-city ambitions.", "use": "Big night in Brisvegas after the win.", "common": true},
+      {"term": "the Ekka", "say": "the EK-uh", "ipa": "ði ˈɛkə", "tts": "", "means": "The Royal Queensland Show each August. Brisbane gets a public holiday for it.", "use": "Ekka holiday Wednesday. Showbags, then the footy.", "common": true},
+      {"term": "Lang Park", "say": "LANG PARK", "ipa": "ˈlæŋ pɑːk", "tts": "", "means": "The stadium's old name, still widely used for Suncorp Stadium. Home of Origin in Brisbane.", "use": "Lang Park's going to be rocking tonight.", "common": true},
+      {"term": "Caxton Street", "say": "KAX-tun street", "ipa": "ˈkækstən stɹiːt", "tts": "", "means": "The street of pubs beside Lang Park, packed before big games.", "use": "Couple on Caxton Street, then in for kick-off.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Mackay", "say": "muh-KYE", "ipa": "məˈkaɪ", "tts": "muh kye", "why": "North Queensland city and Cowboys country. Rhymes with 'sky', not 'say'."},
+      {"word": "Toowoomba", "say": "tuh-WOOM-buh", "ipa": "təˈwʊmbə", "tts": "tuh woom buh", "why": "The city on the range west of Brisbane. Stress the middle; outsiders say 'TOO-woom-ba'."},
+      {"word": "Maroochydore", "say": "muh-ROO-chee-dor", "ipa": "məˈɹuːtʃidɔː", "tts": "muh roo chee door", "why": "Sunshine Coast town. Stress on 'roo'."},
+      {"word": "Indooroopilly", "say": "IN-druh-PIL-ee", "ipa": "ˌɪndɹəˈpɪli", "tts": "in druh pilly", "why": "Brisbane suburb. Locals squash the middle; outsiders say every syllable."}
+    ],
+    "lines": [
+      {"t": "Queenslander!", "m": "The Origin rallying cry, shouted at the telly, in the pub and at Lang Park. A Maroons forward yelled it in the tunnel in 1995 and it stuck."},
+      {"t": "Blues fans have gone a bit quiet, haven't they?", "m": "Mild Origin banter after a Queensland win."},
+      {"t": "Humid as today. Storm'll roll in this arvo.", "m": "Brisbane's summer weather moan."},
+      {"t": "No daylight saving up here. Work out the kick-off yourself.", "m": "Queensland stays on standard time, so in summer it's an hour behind Sydney and Melbourne."},
+      {"t": "Running of the buses on Caxton Street, then into Lang Park.", "m": "Origin night in Brisbane: fans line Caxton Street to cheer their team bus and boo the other one."}
+    ],
+    "avoid": [
+      {"say": "muh-KAY", "instead": "muh-KYE", "why": "Mackay rhymes with 'sky'. Getting it wrong marks you as a southerner."},
+      {"say": "a middy", "instead": "a pot", "why": "In Brisbane the small glass is a pot."},
+      {"say": "blue on Origin night", "instead": "maroon", "why": "Sky blue is New South Wales. In Queensland it's maroon or nothing."},
+      {"say": "cossie", "instead": "togs", "why": "Queenslanders wear togs."}
+    ],
+    "habits": [
+      "Origin nights in Brisbane: maroon everywhere, Caxton Street packed before the game at Lang Park.",
+      "Brisbane takes a Wednesday off in August for the Ekka's People's Day.",
+      "Up north, Townsville and Mackay follow the Cowboys; the south-east splits between the Broncos, the Dolphins and the Titans."
+    ],
+    "sources": [
+      "https://study.uq.edu.au/stories/your-aussie-slang-dictionary-talk-local",
+      "https://www.macquariedictionary.com.au/a-wongi-about-australian-word-map/",
+      "https://en.wikipedia.org/wiki/Variation_in_Australian_English",
+      "https://en.wikipedia.org/wiki/Beer_in_Australia",
+      "https://en.wikipedia.org/wiki/XXXX_(beer)",
+      "https://en.wikipedia.org/wiki/Ekka",
+      "https://en.wikipedia.org/wiki/Lang_Park",
+      "https://en.wikipedia.org/wiki/Caxton_Street,_Brisbane",
+      "https://en.wikipedia.org/wiki/1995_State_of_Origin_series",
+      "https://www.qrl.com.au/news/2020/05/30/4---queenslander-chant-is-born",
+      "https://en.wikipedia.org/wiki/Daylight_saving_time_in_Australia",
+      "https://www.racv.com.au/royalauto/travel/victoria/the-unique-language-of-victorians.html",
+      "https://en.wikipedia.org/wiki/Mackay,_Queensland",
+      "https://en.wikipedia.org/wiki/Toowoomba",
+      "https://en.wikipedia.org/wiki/Maroochydore",
+      "https://en.wikipedia.org/wiki/Indooroopilly"
+    ],
+    "unsure": [
+      "words: 'bevan' (Brisbane's bogan) and 'banana bender' left out: both are put-downs, the second mostly used by other states.",
+      "words: 'the Goldie' (Gold Coast) and 'the brown snake' (Brisbane River) left out for lack of a second source."
+    ]
+  },
+  {
+    "id": "au-adelaide",
+    "name": "Adelaide",
+    "covers": "Adelaide (Adelaide Crows, Port Adelaide, Adelaide United)",
+    "dialect": "South Australian English",
+    "words": [
+      {"term": "schooner", "say": "SKOO-nuh", "ipa": "ˈskuːnə", "tts": "", "means": "In Adelaide, the small 285 ml glass, not the big one.", "use": "Schooner of Coopers, thanks.", "common": true},
+      {"term": "pint", "say": "PYNT", "ipa": "paɪnt", "tts": "", "means": "The 425 ml glass in South Australia. Ask for an imperial pint if you want 570 ml.", "use": "Pint for me, it's been a long week.", "common": true},
+      {"term": "butcher", "say": "BUTCH-uh", "ipa": "ˈbʊtʃə", "tts": "", "means": "An old 200 ml glass of beer, for a quick one.", "use": "Just a butcher, I'm driving.", "common": false},
+      {"term": "Coopers", "say": "KOO-puz", "ipa": "ˈkuːpəz", "tts": "", "means": "Adelaide's own family brewery. A Coopers Pale is the local order.", "use": "Couple of Coopers before the bounce.", "common": true},
+      {"term": "fritz", "say": "FRITS", "ipa": "fɹɪts", "tts": "", "means": "Luncheon meat. Sydney calls it devon, Perth polony.", "use": "Fritz and sauce sandwich. Childhood, that.", "common": true},
+      {"term": "pie floater", "say": "PIE FLOH-tuh", "ipa": "ˈpaɪ ˌfləʊtə", "tts": "", "means": "A meat pie sitting in thick pea soup, with tomato sauce. A South Australian icon.", "use": "Pie floater on the way home after the game.", "common": true},
+      {"term": "Farmers Union Iced Coffee", "say": "FAH-muz YOON-yun iced KOF-ee", "ipa": "", "tts": "", "means": "The South Australian iced coffee in a carton, an icon of the state.", "use": "Farmers Union and a pie. Breakfast of champions.", "common": true},
+      {"term": "Stobie pole", "say": "STOH-bee pohl", "ipa": "ˈstəʊbi pəʊl", "tts": "", "means": "The steel-and-concrete power pole on every Adelaide street, invented there in 1924.", "use": "Parked right up against the Stobie pole.", "common": true},
+      {"term": "heaps good", "say": "heeps GOOD", "ipa": "ˌhiːps ˈɡʊd", "tts": "", "means": "Really good. Heard across Australia, but Adelaide claims it as its own.", "use": "Heaps good win, that.", "common": true},
+      {"term": "croweater", "say": "KROH-ee-tuh", "ipa": "ˈkɹəʊˌiːtə", "tts": "", "means": "Someone from South Australia. An old nickname from the other states that locals use about themselves too.", "use": "Croweater born and bred.", "common": false},
+      {"term": "Radelaide", "say": "RAD-uh-layd", "ipa": "ˈɹædəleɪd", "tts": "rad uh laid", "means": "Adelaide, said with a grin when the city's buzzing.", "use": "Fringe is on and the footy's back. Radelaide.", "common": true},
+      {"term": "the Showdown", "say": "the SHOH-down", "ipa": "ðə ˈʃəʊdaʊn", "tts": "", "means": "The Adelaide Crows against Port Adelaide, twice a season.", "use": "Showdown week. Office is split down the middle.", "common": true},
+      {"term": "the SANFL", "say": "the ESS-ay-en-eff-EL", "ipa": "ðə ˌɛs eɪ ɛn ɛf ˈɛl", "tts": "the s A n f l", "means": "The South Australian National Football League, the state league below the AFL. Said as letters.", "use": "Watch the SANFL on Saturday, the Crows on Sunday.", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Thebarton", "say": "THEB-uh-tun", "ipa": "ˈθɛbətən", "tts": "theb uh tun", "why": "Inner-west suburb and home of Thebarton Oval. The first syllable rhymes with 'web'; outsiders say 'THEE-bar-ton'."},
+      {"word": "Kaurna", "say": "GAH-nuh", "ipa": "ˈɡɑːnə", "tts": "gah nuh", "why": "The Aboriginal people of the Adelaide Plains, often named at events in the city. It starts with a hard 'g'."},
+      {"word": "Kadina", "say": "kuh-DEE-nuh", "ipa": "kəˈdiːnə", "tts": "kuh deena", "why": "Copper Coast town north-west of Adelaide. Stress the middle."}
+    ],
+    "lines": [
+      {"t": "Showdown week. Nobody at work talks about anything else.", "m": "The Crows and Port derby splits families and offices."},
+      {"t": "Heaps good, that.", "m": "Adelaide's favourite praise, for a goal, a win or a pie."},
+      {"t": "Forty degrees again. Good luck sleeping tonight.", "m": "Adelaide summers bring heatwaves, and everyone moans about the hot nights."},
+      {"t": "Best ground in the country, the Oval. Ask anyone.", "m": "Adelaide is proud of Adelaide Oval, rebuilt for football and cricket in 2014."},
+      {"t": "Pie floater on the way home?", "m": "The classic late snack after a night game."}
+    ],
+    "avoid": [
+      {"say": "a schooner (meaning the big glass)", "instead": "a pint", "why": "In South Australia the schooner is the small glass; the 425 ml one is a pint."},
+      {"say": "Footy Park", "instead": "Adelaide Oval", "why": "The AFL left Football Park for Adelaide Oval in 2014."},
+      {"say": "devon", "instead": "fritz", "why": "In Adelaide the luncheon meat is fritz."}
+    ],
+    "habits": [
+      "Families and workplaces split for the Showdown twice a year.",
+      "Fans walk from the city over the footbridge across the Torrens to Adelaide Oval.",
+      "Plenty of fans follow an SANFL club as well as an AFL club, and watch both on the same weekend."
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/South_Australian_English",
+      "https://en.wikipedia.org/wiki/Variation_in_Australian_English",
+      "https://en.wikipedia.org/wiki/Beer_in_Australia",
+      "https://en.wiktionary.org/wiki/schooner",
+      "https://en.wikipedia.org/wiki/Pie_floater",
+      "https://en.wikipedia.org/wiki/Farmers_Union_Iced_Coffee",
+      "https://www.writerscentre.com.au/blog/qa-heaps-good/",
+      "https://yha.com.au/about/news/how-to-speak-heaps-good-in-radelaide",
+      "https://history.cass.anu.edu.au/centres/andc/nicknames",
+      "https://en.wiktionary.org/wiki/croweater",
+      "https://www.macquariedictionary.com.au/aussie-slang-going-down-to-the-cabbage-garden/",
+      "https://en.wikipedia.org/wiki/Showdown_(AFL)",
+      "https://en.wikipedia.org/wiki/Football_Park",
+      "https://en.wikipedia.org/wiki/Thebarton,_South_Australia",
+      "https://en.wikipedia.org/wiki/Kaurna",
+      "https://en.wikipedia.org/wiki/Kadina,_South_Australia"
+    ],
+    "unsure": [
+      "words: 'heaps good' is claimed by Adelaide, but the ANDC says it's used Australia-wide; it's described that way here.",
+      "habits: the footbridge walk to Adelaide Oval is from general knowledge; no page describing it was opened."
+    ]
+  },
+  {
+    "id": "au-perth",
+    "name": "Perth",
+    "covers": "Perth and Western Australia (West Coast Eagles, Fremantle, Perth Glory, Western Force)",
+    "dialect": "Western Australian English",
+    "words": [
+      {"term": "Sandgroper", "say": "SAND-groh-puh", "ipa": "ˈsændˌɡɹəʊpə", "tts": "", "means": "Someone from Western Australia, after a burrowing insect. Jocular, and West Australians use it themselves.", "use": "Sandgroper born and bred.", "common": true},
+      {"term": "over east", "say": "oh-vuh-REEST", "ipa": "ˌəʊvəɹ ˈiːst", "tts": "", "means": "The eastern states, mostly Melbourne and Sydney.", "use": "Moving over east for work? Traitor.", "common": true},
+      {"term": "the Doctor", "say": "the DOK-tuh", "ipa": "ðə ˈdɒktə", "tts": "", "means": "The Fremantle Doctor, the cool afternoon sea breeze that rescues a hot Perth day.", "use": "Doctor's in. Thank God.", "common": true},
+      {"term": "Freo", "say": "FREE-oh", "ipa": "ˈfɹiːəʊ", "tts": "", "means": "Fremantle, the port city, and the Dockers.", "use": "Beers in Freo before the game.", "common": true},
+      {"term": "Rotto", "say": "ROT-oh", "ipa": "ˈɹɒtəʊ", "tts": "", "means": "Rottnest Island, the holiday island off Fremantle.", "use": "Off to Rotto for the long weekend.", "common": true},
+      {"term": "Subi", "say": "SOO-bee", "ipa": "ˈsuːbi", "tts": "", "means": "Subiaco, the suburb, and the old football ground there.", "use": "Used to love a game at Subi.", "common": true},
+      {"term": "down south", "say": "down SOWTH", "ipa": "", "tts": "", "means": "The south-west holiday region: Margaret River, Busselton and Dunsborough.", "use": "Long weekend down south. Back for the Derby.", "common": true},
+      {"term": "middy", "say": "MID-ee", "ipa": "ˈmɪdi", "tts": "middie", "means": "The 285 ml glass. Perth drinks middies and pints; schooners are an over-east thing.", "use": "Middy of Swan, thanks.", "common": true},
+      {"term": "FIFO", "say": "FY-foh", "ipa": "ˈfaɪfəʊ", "tts": "fy foe", "means": "Fly-in fly-out: workers who fly to the mines up north for weeks at a time.", "use": "He's FIFO, so he watches the Derby from camp.", "common": true},
+      {"term": "the Derby", "say": "the DER-bee", "ipa": "ðə ˈdɜːbi", "tts": "the durby", "means": "The Western Derby, West Coast against Fremantle. In WA it's said 'DER-bee'.", "use": "Derby week. Can't wait.", "common": true},
+      {"term": "the WAFL", "say": "the WOFF-ul", "ipa": "ðə ˈwɒfəl", "tts": "the waffle", "means": "The West Australian Football League, the state league below the AFL. Said like 'waffle'.", "use": "WAFL on Saturday, Eagles on Sunday.", "common": true},
+      {"term": "Sunday sesh", "say": "SUN-day SESH", "ipa": "ˈsʌndeɪ ˈsɛʃ", "tts": "", "means": "Sunday afternoon drinks at the pub, a Perth ritual.", "use": "Sunday sesh after the game?", "common": true}
+    ],
+    "pronounce": [
+      {"word": "Fremantle", "say": "FREE-man-tul", "ipa": "ˈfɹiːmæntəl", "tts": "free mantle", "why": "Stress on 'Free'. The English way, 'fre-MAN-tle', marks an outsider."},
+      {"word": "Subiaco", "say": "soo-bee-AK-oh", "ipa": "ˌsuːbiˈækəʊ", "tts": "soo bee ack oh", "why": "The suburb and the old football ground. The 'a' is short, as in 'back'."},
+      {"word": "WACA", "say": "WACK-uh", "ipa": "ˈwækə", "tts": "wack uh", "why": "The WA Cricket Association ground. Said as a word, not as letters."},
+      {"word": "Mandurah", "say": "MAN-juh-ruh", "ipa": "ˈmændʒəɹə", "tts": "man juh ruh", "why": "Coastal city south of Perth. Locals squash the middle into 'juh'."}
+    ],
+    "lines": [
+      {"t": "Thank God the Doctor's in.", "m": "Relief when the afternoon sea breeze arrives on a hot day."},
+      {"t": "Over east they think footy stops at the Nullarbor.", "m": "The WA moan that the AFL and the eastern media forget the west."},
+      {"t": "Derby week. Half the office in purple, half in blue and gold.", "m": "The Western Derby splits Perth: Fremantle wear purple, West Coast blue and gold."},
+      {"t": "Friday night game from Melbourne? That's half five over here.", "m": "Perth is two hours behind the east in winter, so evening games start before dinner."},
+      {"t": "Every away game's a flight across the Nullarbor.", "m": "Perth teams travel further than anyone in the league."}
+    ],
+    "avoid": [
+      {"say": "fre-MAN-tle", "instead": "FREE-man-tul", "why": "Locals stress the first syllable."},
+      {"say": "the game at Subiaco", "instead": "the game at Optus", "why": "The Eagles and Dockers moved to Optus Stadium in 2018, and Subiaco Oval's stands were knocked down in 2019."},
+      {"say": "a schooner", "instead": "a middy or a pint", "why": "Perth orders middies and pints. Schooners are an over-east thing."},
+      {"say": "the W-A-C-A", "instead": "the WACK-uh", "why": "Everyone says it as one word."}
+    ],
+    "habits": [
+      "On Derby days fans walk over the Matagarup Bridge from East Perth to Optus Stadium.",
+      "WAFL games draw locals to suburban grounds on Saturday afternoons.",
+      "Long weekends mean a drive down south to Margaret River or Busselton.",
+      "Summer is the beach, the Doctor and a Sunday sesh."
+    ],
+    "sources": [
+      "https://www.unihall.uwa.edu.au/news/a-guide-to-speaking-perth",
+      "https://en.wikipedia.org/wiki/Western_Australian_English",
+      "https://en.wiktionary.org/wiki/sandgroper",
+      "https://en.wikipedia.org/wiki/Fremantle_Doctor",
+      "https://wordhistories.net/2021/10/28/fremantle-doctor/",
+      "https://en.wikipedia.org/wiki/Fremantle",
+      "https://en.wikipedia.org/wiki/Subiaco,_Western_Australia",
+      "https://en.wikipedia.org/wiki/WACA_Ground",
+      "https://en.wikipedia.org/wiki/West_Australian_Football_League",
+      "https://en.wikipedia.org/wiki/Western_Derby",
+      "https://en.wikipedia.org/wiki/Matagarup_Bridge",
+      "https://en.wikipedia.org/wiki/Subiaco_Oval",
+      "https://en.wikipedia.org/wiki/Mandurah",
+      "https://en.wikipedia.org/wiki/Beer_in_Australia"
+    ],
+    "unsure": [
+      "words: the WAFL is also said as letters by some fans, so 'WOFF-ul' is given as the usual local form, not the only one.",
+      "words: 'polony' (WA's luncheon meat) and 'wongi' (a chat) left out: the first is minor, the second is marked 'citation needed' on Wikipedia."
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+[
+ {
+  "id": "15",
+  "name": "Adelaide Crows",
+  "short": "Adelaide Crows",
+  "abbr": "ADEL"
+ },
+ {
+  "id": "11",
+  "name": "Brisbane Lions",
+  "short": "Brisbane Lions",
+  "abbr": "BL"
+ },
+ {
+  "id": "9",
+  "name": "Carlton",
+  "short": "Carlton",
+  "abbr": "CARL"
+ },
+ {
+  "id": "17",
+  "name": "Collingwood",
+  "short": "Collingwood",
+  "abbr": "COLL"
+ },
+ {
+  "id": "16",
+  "name": "Essendon",
+  "short": "Essendon",
+  "abbr": "ESS"
+ },
+ {
+  "id": "1",
+  "name": "Fremantle",
+  "short": "Fremantle",
+  "abbr": "FRE"
+ },
+ {
+  "id": "8",
+  "name": "GWS GIANTS",
+  "short": "GWS GIANTS",
+  "abbr": "GWS"
+ },
+ {
+  "id": "14",
+  "name": "Geelong Cats",
+  "short": "Geelong Cats",
+  "abbr": "GEEL"
+ },
+ {
+  "id": "10",
+  "name": "Gold Coast SUNS",
+  "short": "Gold Coast SUNS",
+  "abbr": "SUNS"
+ },
+ {
+  "id": "13",
+  "name": "Hawthorn",
+  "short": "Hawthorn",
+  "abbr": "HAW"
+ },
+ {
+  "id": "2",
+  "name": "Melbourne",
+  "short": "Melbourne",
+  "abbr": "MELB"
+ },
+ {
+  "id": "5",
+  "name": "North Melbourne",
+  "short": "North Melbourne",
+  "abbr": "NMFC"
+ },
+ {
+  "id": "7",
+  "name": "Port Adelaide",
+  "short": "Port Adelaide",
+  "abbr": "PORT"
+ },
+ {
+  "id": "12",
+  "name": "Richmond",
+  "short": "Richmond",
+  "abbr": "RICH"
+ },
+ {
+  "id": "18",
+  "name": "St Kilda",
+  "short": "St Kilda",
+  "abbr": "STK"
+ },
+ {
+  "id": "4",
+  "name": "Sydney Swans",
+  "short": "Sydney Swans",
+  "abbr": "SYD"
+ },
+ {
+  "id": "19",
+  "name": "Sydney Swans",
+  "short": "Sydney Swans",
+  "abbr": "GCFC"
+ },
+ {
+  "id": "3",
+  "name": "West Coast Eagles",
+  "short": "West Coast Eagles",
+  "abbr": "WCE"
+ },
+ {
+  "id": "6",
+  "name": "Western Bulldogs",
+  "short": "Western Bulldogs",
+  "abbr": "WB"
+ }
+]

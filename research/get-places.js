@@ -106,7 +106,7 @@ async function geocode(q, cityOnly) {
 }
 
 // Countries each league's teams should be in (a check, not a filter)
-const EXPECT = { "football/nfl": ["us"], "football/college-football": ["us"], "football/cfl": ["ca"], "basketball/nba": ["us", "ca"], "hockey/nhl": ["us", "ca"], "baseball/mlb": ["us", "ca"], "soccer/usa.1": ["us", "ca"], "soccer/eng.1": ["gb"], "soccer/eng.2": ["gb"], "soccer/sco.1": ["gb"], "soccer/esp.1": ["es"], "soccer/ita.1": ["it"], "soccer/ger.1": ["de"], "soccer/fra.1": ["fr", "mc"], "soccer/tur.1": ["tr"], "soccer/mex.1": ["mx"], "soccer/bra.1": ["br"], "soccer/arg.1": ["ar"], "soccer/col.1": ["co"], "soccer/per.1": ["pe"], "soccer/aus.1": ["au", "nz"], "soccer/jpn.1": ["jp"], "soccer/chn.1": ["cn"], "soccer/ksa.1": ["sa"], "soccer/ind.1": ["in"], "soccer/rsa.1": ["za"] };
+const EXPECT = { "football/nfl": ["us"], "football/college-football": ["us"], "football/cfl": ["ca"], "basketball/nba": ["us", "ca"], "hockey/nhl": ["us", "ca"], "baseball/mlb": ["us", "ca"], "soccer/usa.1": ["us", "ca"], "soccer/eng.1": ["gb"], "soccer/eng.2": ["gb"], "soccer/sco.1": ["gb"], "soccer/esp.1": ["es"], "soccer/ita.1": ["it"], "soccer/ger.1": ["de"], "soccer/fra.1": ["fr", "mc"], "soccer/tur.1": ["tr"], "soccer/mex.1": ["mx"], "soccer/bra.1": ["br"], "soccer/arg.1": ["ar"], "soccer/col.1": ["co"], "soccer/per.1": ["pe"], "soccer/aus.1": ["au", "nz"], "soccer/jpn.1": ["jp"], "soccer/chn.1": ["cn"], "soccer/ksa.1": ["sa"], "soccer/ind.1": ["in"], "soccer/rsa.1": ["za"], "australian-football/afl": ["au"], "rugby-league/3": ["au", "nz"] };
 // Continental cups (UEFA, CONMEBOL, AFC, CAF, Concacaf): their "home" games can be played away from home
 const CUP = /^soccer\/(uefa|conmebol|afc|caf|concacaf)\./;
 
@@ -129,7 +129,7 @@ const CUP = /^soccer\/(uefa|conmebol|afc|caf|concacaf)\./;
   }
   const MAN = JSON.parse(fs.readFileSync(path.join(__dirname, "places-manual.json"), "utf8"));
   for (const [k, [n, c]] of Object.entries(MAN.teams || {})) teams[k] = { n, c, lg: k.split(":")[0] };
-  const covered = (x) => Object.values(MAN.teams || {}).some(([n]) => x.endsWith(" " + n));
+  const covered = (x) => Object.values(MAN.teams || {}).some(([n]) => x.toLowerCase().endsWith(" " + n.toLowerCase()));
   for (let i = none.length - 1; i >= 0; i--) if (covered(none[i])) none.splice(i, 1);
   // F1: circuits of this year's and last year's races
   const circuits = {};

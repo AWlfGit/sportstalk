@@ -51,7 +51,7 @@ const fmt = (n) => (n === Infinity ? "unplaced" : Math.round(n).toLocaleString("
 // then a name starting or ending with it, then a name containing it). "rugby:25920|Perpignan"
 // names a key directly, for teams with no place yet. A team that has left the app's leagues
 // (relegated, say) is skipped with a warning, so the test needs no change every season.
-const LG = { nhl: "hockey/nhl", nba: "basketball/nba", mlb: "baseball/mlb", nfl: "football/nfl", cfl: "football/cfl", cfb: "football/college-football", soccer: "soccer", rugby: "rugby" };
+const LG = { nhl: "hockey/nhl", nba: "basketball/nba", mlb: "baseball/mlb", nfl: "football/nfl", cfl: "football/cfl", cfb: "football/college-football", soccer: "soccer", rugby: "rugby", afl: "australian-football/afl", nrl: "rugby-league/3" };
 const GAME_LG = { soccer: "soccer/eng.1", rugby: "rugby/267979" };
 const fold = (s) => String(s).toLowerCase().normalize("NFD").replace(/\p{M}/gu, "").replace(/’/g, "'");
 const refCache = new Map(), gone = new Set();
@@ -292,16 +292,16 @@ const AREAS = [
   { name: "Singapore", ll: [1.29, 103.85], tz: "Asia/Singapore", local: [],
     f1: { 250: ["Marina Bay Street Circuit"], 500: ["Sepang International Circuit"] } },
   { name: "Sydney", ll: [-33.87, 151.21], tz: "Australia/Sydney", home: "soccer:Sydney FC",
-    local: ["rugby:Australia", "soccer:Sydney FC", "soccer:Western Sydney Wanderers FC", "soccer:Central Coast Mariners FC", "soccer:Newcastle Jets", "soccer:Macarthur FC", "rugby:New South Wales Waratahs", "rugby:Brumbies"],
-    far: ["rugby:New Zealand", "soccer:Melbourne Victory", "soccer:Brisbane Roar FC", "rugby:Queensland Reds"], k1000: ["soccer:Melbourne Victory", "soccer:Brisbane Roar FC", "rugby:Queensland Reds"],
+    local: ["rugby:Australia", "soccer:Sydney FC", "soccer:Western Sydney Wanderers FC", "soccer:Central Coast Mariners FC", "soccer:Newcastle Jets", "soccer:Macarthur FC", "rugby:New South Wales Waratahs", "rugby:Brumbies", "afl:Sydney Swans", "afl:GWS Giants", "nrl:Sydney Roosters", "nrl:South Sydney Rabbitohs", "nrl:Penrith Panthers", "nrl:Newcastle Knights", "nrl:Canberra Raiders", "nrl:New South Wales"],
+    far: ["rugby:New Zealand", "soccer:Melbourne Victory", "soccer:Brisbane Roar FC", "rugby:Queensland Reds", "afl:Collingwood", "nrl:Melbourne Storm", "nrl:Brisbane Broncos", "nrl:North Queensland Cowboys"], k1000: ["soccer:Melbourne Victory", "soccer:Brisbane Roar FC", "rugby:Queensland Reds", "afl:Collingwood", "nrl:Melbourne Storm", "nrl:Brisbane Broncos"], not1000: ["nrl:North Queensland Cowboys"],
     not2000: ["rugby:New Zealand", "rugby:Fiji", "soccer:Perth Glory FC", "soccer:Wellington Phoenix"], f1: { 1000: ["Melbourne Grand Prix Circuit"] }, f1not: { 500: ["Melbourne Grand Prix Circuit"] } },
   { name: "Melbourne", ll: [-37.81, 144.96], tz: "Australia/Melbourne", home: "soccer:Melbourne Victory",
-    local: ["soccer:Melbourne Victory", "soccer:Melbourne City FC"], far: ["soccer:Sydney FC", "soccer:Adelaide United FC"], k1000: ["soccer:Sydney FC", "soccer:Adelaide United FC"],
+    local: ["soccer:Melbourne Victory", "soccer:Melbourne City FC", "afl:Collingwood", "afl:Carlton", "afl:Richmond", "afl:Geelong Cats", "afl:Western Bulldogs", "nrl:Melbourne Storm"], far: ["soccer:Sydney FC", "soccer:Adelaide United FC", "afl:Adelaide Crows", "afl:Port Adelaide", "afl:Sydney Swans", "nrl:Sydney Roosters"], k1000: ["soccer:Sydney FC", "soccer:Adelaide United FC", "afl:Adelaide Crows", "afl:Sydney Swans"],
     f1: { 250: ["Melbourne Grand Prix Circuit"] } },
   { name: "Perth", ll: [-31.95, 115.86], tz: "Australia/Perth", home: "soccer:Perth Glory FC",
-    local: ["soccer:Perth Glory FC", "rugby:Western Force"], not2000: ["rugby:Australia", "soccer:Adelaide United FC"], f1not: { 2000: ["Melbourne Grand Prix Circuit"] } },
+    local: ["soccer:Perth Glory FC", "rugby:Western Force", "afl:West Coast Eagles", "afl:Fremantle"], not2000: ["rugby:Australia", "soccer:Adelaide United FC", "afl:Adelaide Crows"], f1not: { 2000: ["Melbourne Grand Prix Circuit"] } },
   { name: "Auckland", ll: [-36.85, 174.76], tz: "Pacific/Auckland", home: "soccer:Auckland FC",
-    local: ["rugby:New Zealand", "soccer:Auckland FC", "rugby:Blues", "rugby:Moana Pasifika", "rugby:Chiefs"], far: ["rugby:Crusaders", "rugby:Highlanders"],
+    local: ["rugby:New Zealand", "soccer:Auckland FC", "rugby:Blues", "rugby:Chiefs", "nrl:New Zealand Warriors"], far: ["rugby:Crusaders", "rugby:Highlanders"],
     k1000: ["rugby:Crusaders"], not1000: ["rugby:Highlanders"], k2000: ["rugby:Highlanders"], not2000: ["rugby:Australia", "rugby:Fiji", "soccer:Sydney FC"] },
   // Across the date line: Fiji is at 178°E, Tonga and Samoa at 175°W and 172°W
   { name: "Suva", ll: [-18.14, 178.44], tz: "Pacific/Fiji", home: "rugby:Fiji",

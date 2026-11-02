@@ -381,7 +381,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .head{padding-block:10px;background:#040507;border-bottom:1px solid var(--hair)}
 :root:not([data-skin=retro]) .head .in{align-items:center;gap:10px 20px}
 :root:not([data-skin=retro]) .brand{flex:0 1 auto;gap:10px}
-:root:not([data-skin=retro]) .mark{width:34px;height:34px;border-radius:9px;transform:skewX(-8deg);background:linear-gradient(160deg,#1b2430,#0a0e13);color:var(--flood);font:900 16px/1 var(--f-display);box-shadow:inset 0 0 0 1px var(--flood-35)}
+:root:not([data-skin=retro]) .mark{width:34px;height:34px;border-radius:var(--m-r-md);transform:skewX(-8deg);background:linear-gradient(160deg,#1b2430,#0a0e13);color:var(--flood);font:900 16px/1 var(--f-display);box-shadow:inset 0 0 0 1px var(--flood-35)}
 :root:not([data-skin=retro]) .brand h1{font:900 27px/1 var(--f-display);letter-spacing:.01em;white-space:nowrap}
 :root:not([data-skin=retro]) .brand h1 span{display:inline-block;margin-left:.08em;padding:.05em .16em .02em;background:var(--flood);-webkit-background-clip:border-box;background-clip:border-box;color:var(--flood-ink);-webkit-text-fill-color:var(--flood-ink);transform:skewX(-9deg)}
 :root:not([data-skin=retro]) .brand p{display:none}
@@ -414,7 +414,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .sc-t>b{min-width:1.3em;text-align:right;font:700 14px/1 var(--f-body);font-variant-numeric:tabular-nums}
 :root:not([data-skin=retro]) .sc-t.win{color:var(--chalk)}
 :root:not([data-skin=retro]) .sc-t.mine .nm::after{content:" ★";color:var(--flood)}
-:root:not([data-skin=retro]) .sc .crest{width:20px;height:20px;border-radius:5px;font-size:7px}
+:root:not([data-skin=retro]) .sc .crest{width:20px;height:20px;border-radius:4px;font-size:7px}
 :root:not([data-skin=retro]) .sc .crest.logo{padding:2px}
 
 /* Tabs: plain labels with a volt underline on the current one */
@@ -470,7 +470,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .tt-team{gap:9px;font:500 14px/1.2 var(--f-body)}
 :root:not([data-skin=retro]) .tt-team .pts{font:700 16px/1 var(--f-body);font-variant-numeric:tabular-nums;color:var(--m-dim-2)}
 :root:not([data-skin=retro]) .tt-team.win .pts{color:var(--chalk)}
-:root:not([data-skin=retro]) .tt-st{padding:4px 6px;border-radius:5px;background:var(--m-slab-2);font:italic 700 10px/1 var(--f-cap);letter-spacing:.12em}
+:root:not([data-skin=retro]) .tt-st{padding:4px 6px;border-radius:var(--m-r-sm);background:var(--m-slab-2);font:italic 700 10px/1 var(--f-cap);letter-spacing:.12em}
 :root:not([data-skin=retro]) .tt-foot{padding:8px 14px;font:italic 600 12px/1.2 var(--f-cap);letter-spacing:.06em}
 :root:not([data-skin=retro]) .tt-foot button{font:italic 700 12px/1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase}
 :root:not([data-skin=retro]) .src{margin:10px 2px 0;font-size:13px}
@@ -488,11 +488,11 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .match>.kicker{color:rgba(238,242,246,.82);text-shadow:0 1px 3px rgba(0,0,0,.6)}
 :root:not([data-skin=retro]) .scoreline{gap:12px;margin:12px 0}
 :root:not([data-skin=retro]) .scoreline .n{gap:8px;font:900 clamp(18px,2.2vw,24px)/1 var(--f-display);text-shadow:0 2px 12px rgba(0,0,0,.55)}
-:root:not([data-skin=retro]) .crest.big{width:60px;height:60px;border-radius:14px;font-size:15px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25),0 0 0 3px rgba(6,8,11,.5),0 14px 30px -14px #000}
+:root:not([data-skin=retro]) .crest.big{width:60px;height:60px;border-radius:var(--m-r-md);font-size:15px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25),0 0 0 3px rgba(6,8,11,.5),0 14px 30px -14px #000}
 :root:not([data-skin=retro]) .crest.big.logo{padding:7px}
 :root:not([data-skin=retro]) .scoreline .s{gap:.1em;padding:.04em .24em .02em;border-radius:10px;border:1px solid var(--m-edge-2);background:rgba(4,6,9,.84);font:900 clamp(44px,6vw,68px)/1 var(--f-display);text-shadow:none;letter-spacing:-.01em;box-shadow:inset 0 -3px 0 var(--flood),var(--m-e2)}
 :root:not([data-skin=retro]) .scoreline .s em{color:var(--flood);font-size:.48em}
-:root:not([data-skin=retro]) .pill{border-radius:5px;padding:5px 8px;border-color:var(--m-edge-2);background:rgba(6,8,11,.62);font:italic 700 11px/1 var(--f-cap);letter-spacing:.13em}
+:root:not([data-skin=retro]) .pill{border-radius:var(--m-r-sm);padding:5px 8px;border-color:var(--m-edge-2);background:rgba(6,8,11,.62);font:italic 700 11px/1 var(--f-cap);letter-spacing:.13em}
 :root:not([data-skin=retro]) .pill.hot{background:var(--flood);border-color:transparent;color:var(--flood-ink);transform:skewX(-8deg)}
 :root:not([data-skin=retro]) .side{margin-top:10px}
 :root:not([data-skin=retro]) .facts{margin-top:12px;padding-top:10px;border-top-color:rgba(255,255,255,.1);gap:5px}
@@ -539,7 +539,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 
 /* Pub test: lettered answers and segmented meters */
 :root:not([data-skin=retro]) .pub-top{margin-bottom:10px}
-:root:not([data-skin=retro]) .bt{padding:5px 8px;border-radius:5px;font:italic 700 11px/1 var(--f-cap);letter-spacing:.12em}
+:root:not([data-skin=retro]) .bt{padding:5px 8px;border-radius:var(--m-r-sm);font:italic 700 11px/1 var(--f-cap);letter-spacing:.12em}
 :root:not([data-skin=retro]) .bt.on{background:var(--flood);color:var(--flood-ink)}
 :root:not([data-skin=retro]) .meters{gap:10px;margin-bottom:12px}
 :root:not([data-skin=retro]) .meter .lbl{margin-bottom:5px;font:italic 700 11px/1 var(--f-cap);letter-spacing:.14em}
@@ -568,7 +568,7 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) .strength{margin:2px 0 12px}
 :root:not([data-skin=retro]) .pocket pre{padding:14px;border-radius:10px;background:var(--m-slab);font-size:13px}
 :root:not([data-skin=retro]) .phone{border-color:#000;border-radius:38px;background:linear-gradient(180deg,var(--phone-a),var(--phone-b));box-shadow:0 34px 64px -30px #000,inset 0 0 0 1px rgba(255,255,255,.08),0 0 0 1px rgba(255,255,255,.07)}
-:root:not([data-skin=retro]) .msg{border-radius:14px;font:600 14.5px/1.3 var(--f-body)}
+:root:not([data-skin=retro]) .msg{border-radius:var(--m-r-md);font:600 14.5px/1.3 var(--f-body)}
 :root:not([data-skin=retro]) .msg.you{background:var(--flood);color:var(--flood-ink)}
 
 /* Panic button, sheets, toast, footer */
@@ -604,7 +604,7 @@ footer p{margin:0 0 4px;max-width:90ch}
   :root:not([data-skin=retro]) .tabs button{padding:11px 8px 10px;font-size:14px}
   :root:not([data-skin=retro]) .match{padding:12px}
   :root:not([data-skin=retro]) .scoreline{gap:8px}
-  :root:not([data-skin=retro]) .crest.big{width:48px;height:48px;border-radius:12px;font-size:13px}
+  :root:not([data-skin=retro]) .crest.big{width:48px;height:48px;border-radius:var(--m-r-md);font-size:13px}
   :root:not([data-skin=retro]) .crest.big.logo{padding:5px}
   :root:not([data-skin=retro]) .scoreline .s{font-size:44px}
   :root:not([data-skin=retro]) .how li{padding:8px 12px}
@@ -633,7 +633,8 @@ footer p{margin:0 0 4px;max-width:90ch}
 :root:not([data-skin=retro]) #bluffLevel{overflow:hidden;font:900 18px/1 var(--f-display);letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;text-overflow:ellipsis}
 :root:not([data-skin=retro]) .bluff-num{flex:0 0 auto;padding:4px 6px;border:1px solid var(--hair);border-radius:var(--m-r-sm);background:var(--m-slab-2);color:var(--flood);font:700 14px/1 var(--f-body);font-variant-numeric:tabular-nums}
 :root:not([data-skin=retro]) .bluff.full .bluff-num{border-color:transparent;background:var(--flood);color:var(--flood-ink)}
-:root:not([data-skin=retro]) .bluff-next{min-width:0;margin-left:auto;padding:8px 12px;border:1px solid var(--hair);border-radius:var(--m-r-sm);background:var(--m-slab-2);color:var(--chalk);font:700 12.5px/1.1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;transition:border-color var(--m-fast) var(--m-ease),background-color var(--m-fast) var(--m-ease),transform 120ms var(--m-ease)}
+:root:not([data-skin=retro]) .bluff-nextwrap{position:relative;display:flex;min-width:0;margin-left:auto}
+:root:not([data-skin=retro]) .bluff-next{min-width:0;padding:8px 12px;border:1px solid var(--hair);border-radius:var(--m-r-sm);background:var(--m-slab-2);color:var(--chalk);font:700 12.5px/1.1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;transition:border-color var(--m-fast) var(--m-ease),background-color var(--m-fast) var(--m-ease),transform 120ms var(--m-ease)}
 :root:not([data-skin=retro]) .bluff-next:not(:disabled)::after{content:" \2192";color:var(--flood)}
 :root:not([data-skin=retro]) .bluff-next:disabled{border-color:transparent;background:none;color:var(--good);cursor:default}
 :root:not([data-skin=retro]) .bluff-next:active:not(:disabled){transform:translateY(1px)}
@@ -699,7 +700,8 @@ footer p{margin:0 0 4px;max-width:90ch}
   :root:not([data-skin=retro]) .bluff-lbl{display:none}
   :root:not([data-skin=retro]) #bluffLevel{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;font-size:15.5px;line-height:1;white-space:normal}
   :root:not([data-skin=retro]) .bluff-dial{width:46px;height:27px}
-  :root:not([data-skin=retro]) .bluff-next{flex:1 1 100%;order:3;margin:0 0 0 56px;padding:2px 0 3px;border:0;background:none;color:var(--flood);font:600 13px/1.25 var(--f-body);letter-spacing:0;text-align:left;text-transform:none}
+  :root:not([data-skin=retro]) .bluff-nextwrap{flex:1 1 100%;order:3;margin:0 0 0 56px}
+  :root:not([data-skin=retro]) .bluff-next{flex:1 1 auto;padding:2px 0 3px;border:0;background:none;color:var(--flood);font:600 13px/1.25 var(--f-body);letter-spacing:0;text-align:left;text-transform:none}
   :root:not([data-skin=retro]) .bluff-next:not(:disabled)::after{color:inherit}
   :root:not([data-skin=retro]) body.has-bluff .panic-fab{bottom:calc(13px + env(safe-area-inset-bottom,0px));padding:0 14px;font-size:15px}
   :root:not([data-skin=retro]) body.has-bluff .toast{bottom:calc(80px + env(safe-area-inset-bottom,0px))}
@@ -707,6 +709,54 @@ footer p{margin:0 0 4px;max-width:90ch}
   :root:not([data-skin=retro]) .bluff-peak .in{padding-right:calc(max(16px,env(safe-area-inset-right,0px)) + 90px)}
   :root:not([data-skin=retro]) .mem-form .btn{padding-inline:12px}
 }
+
+/* Second Scrollcraft pass */
+/* Shared rules that still ran on the browser's default curve: same properties, Modern's curve */
+:root:not([data-skin=retro]) .tabs button,:root:not([data-skin=retro]) .tt-row,:root:not([data-skin=retro]) .opt,:root:not([data-skin=retro]) .tt-fx button{transition-duration:var(--m-fast);transition-timing-function:var(--m-ease)}
+/* Pub-test meters fill with a transform, never an animated width */
+:root:not([data-skin=retro]) .bar i{width:100%!important;transform:scaleX(var(--f,0));transform-origin:left;transition:none}
+@media(prefers-reduced-motion:no-preference){:root:not([data-skin=retro]) .bar i{transition:transform .5s var(--m-ease)}}
+/* Headlines wrap evenly; paragraphs avoid a lone last word */
+:root:not([data-skin=retro]) h1,:root:not([data-skin=retro]) h2,:root:not([data-skin=retro]) h3{text-wrap:balance}
+:root:not([data-skin=retro]) p,:root:not([data-skin=retro]) dd,:root:not([data-skin=retro]) li{text-wrap:pretty}
+/* Touch screens: no hover state left behind after a tap */
+@media(hover:none){
+  :root:not([data-skin=retro]) .tt-row:hover:not([aria-pressed=true]){background:none}
+  :root:not([data-skin=retro]) .opt:hover:not(:disabled){border-color:var(--hair)}
+  :root:not([data-skin=retro]) .tt-fx button:hover{color:var(--muted)}
+}
+/* Touch screens: targets big enough for a thumb */
+@media(pointer:coarse){
+  :root:not([data-skin=retro]) .btn{min-height:40px}
+  :root:not([data-skin=retro]) .btn.small{min-height:36px;padding-inline:12px}
+  :root:not([data-skin=retro]) .tabs button{min-height:44px}
+  :root:not([data-skin=retro]) select,:root:not([data-skin=retro]) input[type=text]{min-height:40px}
+  :root:not([data-skin=retro]) .skin button,:root:not([data-skin=retro]) .mem-step,:root:not([data-skin=retro]) .tt-fx button,:root:not([data-skin=retro]) .bt{min-height:36px}
+  :root:not([data-skin=retro]) .bluff-meter{min-height:44px}
+  :root:not([data-skin=retro]) .bluff-next{position:relative}
+  :root:not([data-skin=retro]) .bluff-next::before{content:"";position:absolute;inset:-9px -6px -7px}
+}
+/* What just earned points: a note over the next step for two seconds */
+:root:not([data-skin=retro]) .bluff-gain{position:absolute;top:0;bottom:0;right:0;z-index:1;display:flex;align-items:center;justify-content:flex-end;min-width:100%;width:max-content;max-width:min(60vw,420px);padding:0 2px;background:#040507;color:var(--good);font:700 12.5px/1.1 var(--f-cap);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:0;pointer-events:none}
+:root:not([data-skin=retro]) .bluff.gained .bluff-gain{opacity:1}
+@media(prefers-reduced-motion:no-preference){
+  :root:not([data-skin=retro]) .bluff-gain{transform:translateY(4px);transition:opacity .32s var(--m-ease),transform .32s var(--m-ease)}
+  :root:not([data-skin=retro]) .bluff.gained .bluff-gain{transform:none;transition-duration:160ms}
+}
+@media(max-width:600px){:root:not([data-skin=retro]) .bluff-gain{left:0;right:auto;justify-content:flex-start;padding:0;font:600 13px/1.25 var(--f-body);letter-spacing:0;text-transform:none}}
+/* Wide screens: the five parts of the meter in the bar */
+:root:not([data-skin=retro]) .bluff-trace{display:none}
+@media(min-width:1180px){
+  :root:not([data-skin=retro]) .bluff-trace{display:flex;gap:4px;min-width:0}
+  :root:not([data-skin=retro]) .tr-part{position:relative;display:grid;gap:3px;min-width:66px;padding:6px 9px 9px;border:1px solid transparent;border-radius:var(--m-r-sm);background:var(--m-slab)}
+  :root:not([data-skin=retro]) .tr-l{color:var(--m-dim-2);font:italic 700 10px/1 var(--f-cap);letter-spacing:.12em;text-transform:uppercase}
+  :root:not([data-skin=retro]) .tr-part b{color:var(--chalk);font:700 13px/1 var(--f-body);font-variant-numeric:tabular-nums}
+  :root:not([data-skin=retro]) .tr-part.done b{color:var(--flood)}
+  :root:not([data-skin=retro]) .tr-part i{position:absolute;left:9px;right:9px;bottom:4px;height:2px;overflow:hidden;border-radius:1px;background:rgba(238,242,246,.1)}
+  :root:not([data-skin=retro]) .tr-part i::after{content:"";position:absolute;inset:0;background:var(--flood);transform:scaleX(var(--f,0));transform-origin:left}
+  :root:not([data-skin=retro]) .tr-part.hit{border-color:var(--flood-35)}
+}
+@media(min-width:1180px) and (prefers-reduced-motion:no-preference){:root:not([data-skin=retro]) .tr-part{transition:border-color .3s var(--m-ease)}}
 
 /* Retro: a late-2000s football chat-site look. Dark green page, chunky orange speech-bubble logo
    beside a cartoon pint mascot, green outlined capital buttons, a pin-striped chat window, and the
@@ -968,7 +1018,8 @@ footer p{margin:0 0 4px;max-width:90ch}
       <span class="bluff-txt"><span class="bluff-lbl">Bluff meter</span><b id="bluffLevel">Obvious outsider</b></span>
       <span class="bluff-num" id="bluffNum">0%</span>
     </button>
-    <button type="button" class="bluff-next" id="bluffNext"></button>
+    <div class="bluff-trace" id="bluffTrace" aria-hidden="true"></div>
+    <div class="bluff-nextwrap"><button type="button" class="bluff-next" id="bluffNext"></button><span class="bluff-gain" id="bluffGain" aria-hidden="true"></span></div>
   </div>
   <div class="bluff-peak" aria-hidden="true"><div class="in"><b>You'll pass.</b><span>Season-ticket holder</span></div></div>
   <p class="sr" id="bluffSay" aria-live="polite"></p>
@@ -2233,6 +2284,9 @@ function guideSummary(L){
   return bits.join(" ");
 }
 
+/* The sport as it reads mid-sentence: "football", "hockey", "Formula 1" */
+const sportWord=k=>{const l=SPORTS[k].label.replace(/ \(.*\)/,"");return /^(Formula|American)/.test(l)?l:l.charAt(0).toLowerCase()+l.slice(1)};
+
 /* ---------- Local lingo ---------- */
 /* How a team's fans and their city really talk: words, sayings by result, traditions, sore subjects,
    names to say right, giveaways, and the region's dialect. Every word can be heard. */
@@ -2293,14 +2347,13 @@ function lingoBody(){
 function renderLingo(){
   const el=$("#tab-lingo"),sp=SPORTS[S.sport];
   S.lingoPick=S.lingoPick||{};
-  // The sport's name as it reads mid-sentence: "football", "hockey", "Formula 1"
-  const l0=sp.label.replace(/ \(.*\)/,""),sportWord=/^Formula/.test(l0)?l0:l0.charAt(0).toLowerCase()+l0.slice(1);
-  const head=`<h2 class="sec">${esc(tabLabel("lingo"))}</h2><p class="lede">How ${esc(sportWord)} fans really talk, team by team and city by city: their words, what they say after a win or a loss, the traditions, the sore subjects and the giveaways. Press Hear it to hear any word said the local way.</p>`;
+  const sw=sportWord(S.sport);
+  const head=`<h2 class="sec">${esc(tabLabel("lingo"))}</h2><p class="lede">How ${esc(sw)} fans really talk, team by team and city by city: their words, what they say after a win or a loss, the traditions, the sore subjects and the giveaways. Press Hear it to hear any word said the local way.</p>`;
   if(LINGO_SPLIT&&!lingoLoaded[S.sport]){el.innerHTML=head+`<div class="empty"><b>Loading the local lingo</b>One moment.</div>`;const s0=S.sport;ensureLingo(s0).then(()=>{if(S.tab==="lingo"&&S.sport===s0&&lingoLoaded[s0])renderLingo()});return}
   const pool=lingoPool(S.sport).slice().sort((a,b)=>a.team.localeCompare(b.team));
   if(!pool.length){el.innerHTML=head+`<div class="empty"><b>No team guides for ${esc(sp.label)} yet</b>The phrase book has the sport's own slang.</div>`;return}
   const L=lingoPick();
-  el.innerHTML=head+`<div class="lg-bar"><label class="fld" for="lgTeam">Team<select id="lgTeam">${pool.map(t=>`<option${t===L?" selected":""}>${esc(t.team)}</option>`).join("")}</select></label><label class="fld" for="lgSearch">Look up a word<input id="lgSearch" type="text" inputmode="search" enterkeyhint="search" maxlength="40" autocomplete="off" value="${esc(S.lingoQ||"")}" placeholder="Any word, from any ${esc(sportWord)} team or city"></label></div><div id="lgBody">${lingoBody()}</div>`;
+  el.innerHTML=head+`<div class="lg-bar"><label class="fld" for="lgTeam">Team<select id="lgTeam">${pool.map(t=>`<option${t===L?" selected":""}>${esc(t.team)}</option>`).join("")}</select></label><label class="fld" for="lgSearch">Look up a word<input id="lgSearch" type="text" inputmode="search" enterkeyhint="search" maxlength="40" autocomplete="off" value="${esc(S.lingoQ||"")}" placeholder="Any word, from any ${esc(sw)} team or city"></label></div><div id="lgBody">${lingoBody()}</div>`;
 }
 document.addEventListener("input",e=>{if(e.target.id==="lgSearch"){S.lingoQ=e.target.value;const b=$("#lgBody");if(b)b.innerHTML=lingoBody()}});
 document.addEventListener("change",e=>{if(e.target.id==="lgTeam"){S.lingoPick=S.lingoPick||{};S.lingoPick[S.sport]=e.target.value;S.lingoQ="";const q=$("#lgSearch");if(q)q.value="";const b=$("#lgBody");if(b)b.innerHTML=lingoBody()}});
@@ -2420,7 +2473,7 @@ function newPub(mode){
 }
 function meters(){
   const cred=pub.max?Math.max(0,Math.round(pub.score/pub.max*100)):0,sus=Math.min(100,pub.sus);
-  return `<div class="meters"><div class="meter"><div class="lbl"><span>Credibility</span><span>${cred}%</span></div><div class="bar"><i style="width:${cred}%;background:var(--good)"></i></div></div><div class="meter"><div class="lbl"><span>Suspicion</span><span>${sus}%</span></div><div class="bar"><i style="width:${sus}%;background:var(--bad)"></i></div></div></div>`;
+  return `<div class="meters"><div class="meter"><div class="lbl"><span>Credibility</span><span>${cred}%</span></div><div class="bar"><i style="width:${cred}%;--f:${cred/100};background:var(--good)"></i></div></div><div class="meter"><div class="lbl"><span>Suspicion</span><span>${sus}%</span></div><div class="bar"><i style="width:${sus}%;--f:${sus/100};background:var(--bad)"></i></div></div></div>`;
 }
 function beatChips(){
   const idx=pub.rounds.findIndex(r=>r.kind==="leave");
@@ -2528,7 +2581,7 @@ function allPhrases(){
 }
 function renderPhrases(){
   const list=allPhrases(),sp=SPORTS[S.sport];
-  let h=`<h2 class="sec">${esc(tabLabel("phrases"))}</h2><p class="lede">Lines that work whatever the score was, for ${esc(sp.label.toLowerCase())}. Lines using your team say "${esc(teamName())}". Save the ones you like to your pocket card.</p>`;
+  let h=`<h2 class="sec">${esc(tabLabel("phrases"))}</h2><p class="lede">Lines that work whatever the score was, for ${esc(sportWord(S.sport))}. Lines using your team say "${esc(teamName())}". Save the ones you like to your pocket card.</p>`;
   const L=myLingo();
   if(L){
     h+=`<div class="cat"><h3>Talk like ${esc(fanPhrase(L))}</h3><p class="when">${esc(guideSummary(L))}</p>`;
@@ -2693,12 +2746,32 @@ function bluffNext(r){
 }
 function bluffMark(kind,i,word){
   const r=bluffRec(true);if(!r)return;
+  const before=bluffScore(r);
   if(kind==="read"){if(r.r[i])return;r.r[i]=1}
   else if(kind==="heard"){if(r.h[i])return;r.h[i]=1}
   else if(kind==="said"){if(r.m[i])return;r.m[i]=1}
   else if(kind==="local"){const w=norm(word);if(!w||r.w.includes(w)||r.w.length>=3)return;r.w.push(w)}
   else if(kind==="pub"){if(!(i>r.p))return;r.p=i}
   r.t=Date.now();bluffSave();bluffRender();
+  const gain=bluffScore(r)-before;if(gain>0)bluffGain(gain,kind,i);
+}
+const GAIN_LABEL={read:i=>"Read beat "+(i+1),heard:i=>"Heard your "+MY_LINES[i],said:i=>"Said your "+MY_LINES[i],local:()=>"Heard a local word",pub:()=>"Pub test"};
+// A short note in the bar saying what just earned points, and the matching part of the trace lights up
+function bluffGain(g,kind,i){
+  const bar=$("#bluff");if(!bar||bar.hidden)return;
+  $("#bluffGain").textContent="+"+g+" · "+GAIN_LABEL[kind](i);
+  bar.classList.remove("gained");void bar.offsetWidth;bar.classList.add("gained");
+  const part=document.querySelector('#bluffTrace [data-part="'+kind+'"]');if(part)part.classList.add("hit");
+  clearTimeout(bluffGain.t);bluffGain.t=setTimeout(()=>{bar.classList.remove("gained");document.querySelectorAll("#bluffTrace .hit").forEach(x=>x.classList.remove("hit"))},1900);
+}
+// The percentage counts to its new value (ease-out, under a second); a new game, or reduced motion, jumps straight there
+let bluffShown=0,bluffShownKey=null;
+function bluffCount(to,key){
+  const el=$("#bluffNum");cancelAnimationFrame(bluffCount.raf);
+  if(key!==bluffShownKey||matchMedia("(prefers-reduced-motion: reduce)").matches||Math.abs(to-bluffShown)<1){bluffShownKey=key;bluffShown=to;el.textContent=to+"%";return}
+  const from=bluffShown,t0=performance.now(),D=900;
+  const step=t=>{const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);bluffShown=from+(to-from)*e;el.textContent=Math.round(bluffShown)+"%";if(k<1)bluffCount.raf=requestAnimationFrame(step);else{bluffShown=to;el.textContent=to+"%"}};
+  bluffCount.raf=requestAnimationFrame(step);
 }
 function bluffRender(){
   const bar=$("#bluff");if(!bar)return;
@@ -2709,7 +2782,10 @@ function bluffRender(){
   bar.style.setProperty("--v",v);
   bar.classList.toggle("full",v>=80);
   $("#bluffLevel").textContent=lvl;
-  $("#bluffNum").textContent=B?v+"%":"0%";
+  bluffCount(B?v:0,bluffKey());
+  // Wide screens: the five parts at a glance
+  const P=bluffParts(r),KEYS=["read","heard","said","local","pub"],SHORT=["Read","Heard","Memory","Local","Pub"];
+  $("#bluffTrace").innerHTML=B?P.map((p,j)=>`<span class="tr-part${p.pts>=p.max?" done":""}" data-part="${KEYS[j]}"><span class="tr-l">${SHORT[j]}</span><b>${p.pct?p.n+"%":p.n+"/"+p.of}</b><i style="--f:${(p.pts/p.max).toFixed(3)}"></i></span>`).join(""):"";
   $("#bluffBtn").setAttribute("aria-label","Bluff meter, "+(B?v+"%, "+lvl:"no game picked")+". Show how it's worked out");
   const nb=$("#bluffNext");nb.textContent=nx.t;nb.dataset.act=nx.act;nb.dataset.i=nx.i==null?"":String(nx.i);nb.disabled=nx.act==="done";
   if(!$("#bluffSheet").hidden)$("#bluffSheet").innerHTML=bluffSheetHTML(r);
@@ -2754,7 +2830,7 @@ function bluffHeard(btn,text){
   if(btn.closest("#brief ul.local")){bluffMark("local",0,text);return}
   if(btn.closest("#tab-lingo")&&!S.lingoQ&&!B.f1){const L=lingoPick();if(L&&[B.g.h,B.g.a].some(t=>lingoOf(B.g.lg,t)===L))bluffMark("local",0,text)}
 }
-// Scroll dwell: a beat held mostly on screen for 700ms counts as read
+// Scroll dwell: a beat held mostly on screen long enough to read it (about 230ms a word) counts as read
 let bluffObs=null;
 function bluffWatchBeats(){
   if(bluffObs){bluffObs.disconnect();bluffObs=null}
@@ -2764,7 +2840,7 @@ function bluffWatchBeats(){
   const timers=new Map();
   bluffObs=new IntersectionObserver(es=>{for(const e of es){
     const i=beats.indexOf(e.target);if(i<0)continue;
-    if(e.isIntersecting&&e.intersectionRatio>=.6){if(!timers.has(i))timers.set(i,setTimeout(()=>{timers.delete(i);if(!e.target.isConnected)return;e.target.classList.add("read");bluffMark("read",i)},700))}
+    if(e.isIntersecting&&e.intersectionRatio>=.6){if(!timers.has(i)){const n=((e.target.querySelector(".line")||e.target).textContent.match(/\S+/g)||[]).length;timers.set(i,setTimeout(()=>{timers.delete(i);if(!e.target.isConnected||document.visibilityState!=="visible")return;e.target.classList.add("read");bluffMark("read",i)},Math.min(3500,Math.max(1200,n*230))))}}
     else{clearTimeout(timers.get(i));timers.delete(i)}
   }},{threshold:[0,.6,1],rootMargin:"0px 0px -72px 0px"});
   beats.forEach(b=>bluffObs.observe(b));

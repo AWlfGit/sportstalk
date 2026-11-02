@@ -115,3 +115,33 @@ The Panic button docks in the same bar.
 ## Authored silence
 
 None. The script tab has no empty scroll.
+
+## Second pass (1 November 2026)
+
+A rendered audit of every tab at desktop and phone width, then a cold run-through.
+
+Audit findings, all fixed:
+
+- Shared rules still ran on the browser's default `ease` (tabs, results rows, pub-test answers),
+  and the pub-test meters animated `width`. Now one ease-out curve, and the meters fill with a
+  transform.
+- Corner radii had drifted to eight values (2, 4, 5, 6, 9, 10, 12, 14). Now 4 (logos and chips
+  inside controls), 6 (controls), 10 (panels), plus the phone mockup.
+- Headings didn't balance their lines. Now `text-wrap: balance` on headings, `pretty` on prose.
+- On a phone, 300-odd buttons were under 36px tall (Hear it, Copy, Save were about 24px). On touch
+  screens buttons are now 36 to 44px, and the bar's next step has a larger invisible hit area.
+- Touch screens kept hover colours after a tap on results rows and pub-test answers. Reset.
+
+Feel check, intended curve against felt curve:
+
+| Stage | Intended | Felt on the first pass | Change |
+|---|---|---|---|
+| Recognition | the real score is there | recognition | none |
+| Curiosity | each beat marked as read | curiosity, but beats counted as read after 0.7s, faster than anyone reads | reading now takes about 230ms a word (1.2 to 3.5 seconds per line), and only while the page is in view |
+| Confidence | the needle moves on a real action | nothing: the meter changed at the bottom of the screen without saying why | the bar says what earned the points ("+6 · Heard your opener"), the percentage counts up, and on wide screens a five-part trace shows which part moved |
+| Wariness | quiet | quiet | none |
+| Resolve | an input | resolve | none |
+| Peak | the bar lights up | relief | none |
+
+Also fixed in passing (both looks, a copy bug): the phrase book said "for hockey (nhl)"; it now
+says "for hockey".
